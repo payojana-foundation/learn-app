@@ -122,3 +122,18 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   `scripts/build-courses.mjs`; `duration_s` seed in `lessonView`,
   `src/ui/views.ts`. Contract: `src/contracts/__tests__/course-build.contract.test.mjs`
   "P-19 course-level all-or-nothing r2". [from part Q4, bulk-02]
+
+## Provisional → permanent ids (Q5, bulk-02)
+
+- **P-20** `data/id-aliases.json` (empty `{}` now) is the SOURCE alias map
+  (provisional course id → permanent); the build copies it verbatim into the
+  served `public/data/aliases.json`. On app start the app reads the served file
+  and moves IndexedDB user data (progress/saved/history/notes) from a
+  provisional key to its permanent key ONCE, inside ONE transaction,
+  idempotently — a record is moved only if it still lives under the provisional
+  key, an existing permanent record is never clobbered, and a second run is a
+  no-op. Old `/courses/<provisional>` (and its lesson URL) redirect in-app to
+  the permanent id via `history.replaceState`. No real permanent ids are
+  invented. `migrateAliases`/`resolveAlias`/`rewriteLessonId`, `src/db/aliases.ts`;
+  `redirectAlias`, `src/app.ts`; alias merge in `scripts/build-courses.mjs`.
+  Contract: `src/db/aliases.test.ts`. [from part Q5, bulk-02]

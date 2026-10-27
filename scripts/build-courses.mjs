@@ -307,6 +307,11 @@ function main() {
     ? JSON.parse(readFileSync(mediaManifestPath, 'utf-8'))
     : [];
 
+  // Provisional→permanent id alias SOURCE map (Q5). Merged (copied) verbatim into
+  // the served public/data/aliases.json; empty {} until permanent ids arrive.
+  const aliasSrcPath = join(root, 'data', 'id-aliases.json');
+  const aliasMap = existsSync(aliasSrcPath) ? JSON.parse(readFileSync(aliasSrcPath, 'utf-8')) : {};
+
   const { catalog, courses, issues } = buildCourses(sourceCourses, teachers, mediaManifest);
 
   // Output directories.
@@ -335,7 +340,7 @@ function main() {
 
   writeJson(join(outDir, 'catalog.json'), { generated, ...catalog });
   writeJson(join(outDir, 'teachers.json'), teachersOut);
-  writeJson(join(outDir, 'aliases.json'), {}); // empty until permanent ids exist
+  writeJson(join(outDir, 'aliases.json'), aliasMap); // merged from data/id-aliases.json (empty until permanent ids)
 
   files.catalog = { file: 'catalog.json', updated: generated, sha256: sha256File(join(outDir, 'catalog.json')) };
   files.teachers = { file: 'teachers.json', updated: generated, sha256: sha256File(join(outDir, 'teachers.json')) };

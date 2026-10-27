@@ -102,6 +102,11 @@ export function getCourse(id: string): Promise<Course | null> {
   return syncAndRead<Course>(id);
 }
 
+/** The provisional→permanent id alias map (served public/data/aliases.json). */
+export function getAliasesFile(): Promise<Record<string, string> | null> {
+  return syncAndRead<Record<string, string>>('aliases');
+}
+
 /** TEST-ONLY: drop the cached manifest promise so a test can re-sync. */
 export function __resetCatalogForTest(): void {
   manifestPromise = null;

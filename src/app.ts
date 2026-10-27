@@ -12,14 +12,17 @@ import { VACANA_BASE_URL, LIBRARY_BASE_URL } from './config';
 import { t, STRINGS, displayString, START_HERE } from './strings';
 import { cleanForSearch, esc } from './format';
 import { parseRoute, routePath, tabForRoute, type Route } from './router';
+import { rewriteLessonId } from './db/aliases';
 import {
   getCatalog,
   getTeachersFile,
   getCourse,
+  getAliasesFile,
   type Catalog,
   type Course,
   type Teacher,
 } from './data/catalog';
+import { migrateAliases, resolveAlias, type AliasMap } from './db/aliases';
 import {
   getLessonProgress,
   setLessonProgress,
@@ -64,6 +67,7 @@ const state: AppState = {
 
 let catalog: Catalog | null = null;
 let teachers: Teacher[] = [];
+let aliases: AliasMap = {};
 const teacherBySlug = new Map<string, Teacher>();
 const courseCache = new Map<string, Course>();
 let cur: { courseId: string; lessonId: string } | null = null;
@@ -120,6 +124,31 @@ function navigate(route: Route, push = true): void {
   state.courseFilter = '';
   void render();
   window.scrollTo(0, 0);
+}
+
+/**
+ * Resolve a parsed route's course/lesson id through the alias map (Q5). A
+ * provisional `/courses/<prov>` (or its lesson URL) redirects in-app to the
+ * permanent id: the route is rewritten and the address bar is replaced (no new
+ * history entry) so Back still works. Returns the possibly-rewritten route.
+ */
+function redirectAlias(route: Route): Route {
+  if (route.name === 'course') {
+    const perm = resolveAlias(route.id, aliases);
+    if (perm !== route.id) {
+      const next: Route = { name: 'course', id: perm };
+      history.replaceState(null, '', routePath(next));
+      return next;
+    }
+  } else if (route.name === 'lesson') {
+    const perm = resolveAlias(route.id, aliases);
+    if (perm !== route.id) {
+      const next: Route = { name: 'lesson', id: perm, lessonId: rewriteLessonId(route.lessonId, route.id, perm) };
+      history.replaceState(null, '', routePath(next));
+      return next;
+    }
+  }
+  return route;
 }
 
 function viewState(savedIds: Set<string>): V.ViewState {
@@ -480,7 +509,7 @@ function wireEvents(): void {
   });
 
   window.addEventListener('popstate', () => {
-    state.route = parseRoute(location.pathname, location.search);
+    state.route = redirectAlias(parseRoute(location.pathname, location.search));
     void render();
   });
 }
@@ -524,7 +553,14 @@ export async function startApp(): Promise<void> {
   updateHeader();
   wireEvents();
   await loadBase();
-  state.route = parseRoute(location.pathname, location.search);
+  // Load the alias map and migrate user data provisional → permanent, once.
+  aliases = (await getAliasesFile()) ?? {};
+  try {
+    await migrateAliases(aliases);
+  } catch (err) {
+    devLog('alias migration failed', err);
+  }
+  state.route = redirectAlias(parseRoute(location.pathname, location.search));
   // topic deep link on /courses/?topic=
   const topicParam = new URLSearchParams(location.search).get('topic');
   if (topicParam) state.topic = topicParam;
