@@ -51,7 +51,10 @@ player; embeds for acast/youtube/drive; notes with timestamps). IndexedDB
 `/teachers`, `/teachers/<slug>`) + legacy `?teacher ?topic ?q`. Strings km+en.
 protected.md P-07…P-18 added.
 
-## P5 — Quality pass — in progress
-e2e on 320/360 px × light/dark (mock media): open course, play r2 lesson, resume
-after reload, mark complete, note at timestamp, Khmer search, hand-off links,
-language switch keeps the page, no horizontal scroll.
+## P5 — Quality pass ✅
+`e2e/learn.e2e.mjs` runs the full matrix 320/360 px × light/dark (mock media,
+service worker blocked so route mocks are authoritative): home renders + no
+horizontal scroll + focus visible, open course, play r2 lesson, resume after
+reload (position persisted), mark complete, note at a timestamp, Khmer-title
+search, no-result hand-off links to Vacanā + Library, language switch keeps the
+page. All cells pass.
