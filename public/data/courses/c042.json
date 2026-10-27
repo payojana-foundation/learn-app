@@ -1,0 +1,73 @@
+{
+  "id": "c042",
+  "provisional": true,
+  "title_km": "សមាធិ វគ្គខ្លីលើកទី៦១",
+  "title_en": null,
+  "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+  "teacher_slug": "him-bunthoeun",
+  "topics": [
+    "meditation"
+  ],
+  "lessons": [
+    {
+      "id": "c042-l001",
+      "num": 1,
+      "title_km": "1.វគ្គខ្លី លើកទី ៦១.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6911a251c1ed8717c5820bd8?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c042-l002",
+      "num": 2,
+      "title_km": "2.វគ្គខ្លី លើកទី ៦១.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6911a568c1ed8717c5829d11?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c042-l003",
+      "num": 3,
+      "title_km": "3.វគ្គខ្លី លើកទី ៦១.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6911a60bf273d64d0bcff10d?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c042-l004",
+      "num": 4,
+      "title_km": "4.វគ្គខ្លី លើកទី ៦១.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6911a6f07728b8766c85f067?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c042-l005",
+      "num": 5,
+      "title_km": "5.វគ្គខ្លី លើកទី ៦១.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6911a9c6f273d64d0bd10f4f?subscribe=false"
+        }
+      ]
+    }
+  ]
+}

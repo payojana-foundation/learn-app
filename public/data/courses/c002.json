@@ -1,0 +1,529 @@
+{
+  "id": "c002",
+  "provisional": true,
+  "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត",
+  "title_en": null,
+  "teacher": "ឡេង ស៊ីដែន",
+  "teacher_slug": "leng-sideoun",
+  "topics": [
+    "sutta"
+  ],
+  "lessons": [
+    {
+      "id": "c002-l001",
+      "num": 1,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ០១ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1bONpQkcAWXYD3mFbWUiFIv3Wxsl_x8TO/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l002",
+      "num": 2,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ០២ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Yal1wUyWp3QeZm9XYnLwQsZ8-1Arukob/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l003",
+      "num": 3,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ០៣ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/10AtKeqltvcFRXQqtGfqkwUI5X8MwBBxa/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l004",
+      "num": 4,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ០៤ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1xuqQUx_3FbzA68hOIjeWq69iq9rmZ7Q3/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l005",
+      "num": 5,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ០៥ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1iMq2daAJtLqbF5RyB2NM5YrAwCO1_f7b/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l006",
+      "num": 6,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ០៦ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1CYDKf3K-4fTi0irgZFEtrvak6T9kSLqv/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l007",
+      "num": 7,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ០៧ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1oKogU4eNxP004ykLJquYvgnGEAGj16vD/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l008",
+      "num": 8,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ០៨ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/180_fsqzkGheJOguflauIJMD13YzhKsCu/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l009",
+      "num": 9,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ០៩ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/12pSVVO2kfy0RAKfgFfhnKcc83139amjE/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l010",
+      "num": 10,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ១០ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/15CaqkMgJVnUggOD0CVjiIdxVqPBuErMV/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l011",
+      "num": 11,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ១១ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1XaLS69C8sfewM6KwmK8BCYxQb1VVueSX/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l012",
+      "num": 12,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ១២ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1fMivsaeDcgjlQwJxYrpFVZNVNqu1R3et/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l013",
+      "num": 13,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ១៣ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1ukqemXsjPQkTIf36aDjK87YSKad_6Aek/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l014",
+      "num": 14,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ១៤ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Gh60yfmx1Y4f4xTP6FKM_BqCaH7rmj3r/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l015",
+      "num": 15,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ១៥ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1UVNY_Nei99ZUPDf1runSGktIyUHG3BCN/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l016",
+      "num": 16,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ១៦ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1zyuy2SMSxs0YPsD3uycaFwaPC3l5OFGd/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l017",
+      "num": 17,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ១៧ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1xhRlT566hCalBUDUi-zg1bTEf7z3lPBS/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l018",
+      "num": 18,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ១៨ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1O1orOeck2TWuEmDqFd6Q9QSMjr9caDak/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l019",
+      "num": 19,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ១៩ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1jO9RDqwBW1Nw0Aw0mB58bl6_kIPq423c/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l020",
+      "num": 20,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ២០ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/12x2xLyUv5p4iw5ThfsNlMGEmxeTf37fL/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l021",
+      "num": 21,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ២១ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1ou5No-ps6R44SPc90vXo3hQGfLvTiOt9/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l022",
+      "num": 22,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ២២ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1KbXCi_icw1iQfkHJngjL4px7-Jw7m72G/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l023",
+      "num": 23,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ២៣ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/16erWWu3AhSl2vvsFuRt_NcXTBR_jzOED/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l024",
+      "num": 24,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ២៤ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/16ZgWGDPujxaX6qFDnQKeh_83WNJMdjfD/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l025",
+      "num": 25,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ២៥ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1idvpSj7NyDuSECKL5Ce6a1DGccGzuSxD/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l026",
+      "num": 26,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ២៦ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1eBlQQF8m1FtCunotOvTFrehq94jZlPvt/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l027",
+      "num": 27,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ២៧ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/186JkodvdTWl8Z_efE7wyCqLWQMWVk0cB/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l028",
+      "num": 28,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ២៨ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1kls6HU4nOMjJ-YY88ZdilLQ0h7GH9q3J/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l029",
+      "num": 29,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ២៩ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1N4FO3m5iqr6uly9OugRoPEVPX7zO0BJb/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l030",
+      "num": 30,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៣០ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1kdDbP3lGG31KvAjM6PknN48NV3GyXpg0/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l031",
+      "num": 31,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៣១ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1_Bq-15-CltVXjyW8f_z9ycOAX2oW4VOU/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l032",
+      "num": 32,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៣២ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1D32Kb9hxA24tW2Y7kUIMmcuetrriSOvK/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l033",
+      "num": 33,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៣៣ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/14dmUlR-I8q0HD5tcDEdv012FLYaNPMoB/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l034",
+      "num": 34,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៣៤ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1zeqK3YY-Bric2Mw2erX10flT21tLfLBW/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l035",
+      "num": 35,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៣៥ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1T8GaLYVEEHUQn_WKcbn5ltCkHESTHCvj/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l036",
+      "num": 36,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៣៦ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1CLThLOEshnHcrs4ugMDtSHwg-dq3XYzU/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l037",
+      "num": 37,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៣៧ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1ciKO2GoCWhajkiP7h0aYXJeeSPUHchBK/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l038",
+      "num": 38,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៣៨ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1w2QLXOR1QnQXQGT-rmcf4i45hakB0wx1/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l039",
+      "num": 39,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៣៩ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1NjL8Gh4-PyUso-6DSWaqor5KB5Zw_mj3/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l040",
+      "num": 40,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៤០ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/10QDvndUuKnTtryDroT6sKS09nsAtag5_/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l041",
+      "num": 41,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៤១ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1wC64bgv3Zb43-4txM2PffjpLtdQwD53l/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l042",
+      "num": 42,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៤២ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1kFlftpOwTYku4VLaMXxzFQoA2sf2K51i/preview"
+        }
+      ]
+    },
+    {
+      "id": "c002-l043",
+      "num": 43,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត ភាគ៤៣ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1WlEJ4WnqfQEjxilvZM3Zv-yYmpo9yMnx/preview"
+        }
+      ]
+    }
+  ]
+}

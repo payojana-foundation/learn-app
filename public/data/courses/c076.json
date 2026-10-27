@@ -1,0 +1,1037 @@
+{
+  "id": "c076",
+  "provisional": true,
+  "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី4 (2022)",
+  "title_en": "Abhidhamma Chapter 4 (2022)",
+  "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+  "teacher_slug": "yon-yi",
+  "topics": [
+    "abhidhamma"
+  ],
+  "lessons": [
+    {
+      "id": "c076-l001",
+      "num": 1,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ០១ ពណ៌នាឆក្ក ៦ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fb1e5986a8c5b93ef02c7?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/GWrQqZTmaMw"
+        }
+      ]
+    },
+    {
+      "id": "c076-l002",
+      "num": 2,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 02 ចែកវិថីចិត្តបុគ្គល ៨ ពួក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fb23f9fa1c19f98940436?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/tt7jFbuuQEA"
+        }
+      ]
+    },
+    {
+      "id": "c076-l003",
+      "num": 3,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 03 និយមន័យបញ្ចទ្វារនិងមនោទ្វារ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fb415121f8711d2a33ed3?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/DBCFruvmoL8"
+        }
+      ]
+    },
+    {
+      "id": "c076-l004",
+      "num": 4,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 04 មនោទ្វារអាស្រ័យហេតុ ១៤ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fb4708de4ab34dcb31288?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/OYXjpyHwees"
+        }
+      ]
+    },
+    {
+      "id": "c076-l005",
+      "num": 5,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 05 វិថីចិត្ត ១៧ ខណៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fb4db121f8711d2a3b401?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/zzmE1S1cqv0"
+        }
+      ]
+    },
+    {
+      "id": "c076-l006",
+      "num": 6,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 06 ឧបមាវិថីចិត្ត ១៧ ខណៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fb68c9fa1c19f9896464f?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/vXc3Vj8Krtc"
+        }
+      ]
+    },
+    {
+      "id": "c076-l007",
+      "num": 7,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 07 ចិត្តដូចជាក្មេងអ្នកស្រុក ភិក្ខុអគ្គចិត្តោ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fb6f75c72a52fdd00f416?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xYP25T_g7Rw"
+        }
+      ]
+    },
+    {
+      "id": "c076-l008",
+      "num": 8,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 08 អតិមន្តារម្មណ៍ប្រភេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fc2155c72a52fdd06cb83?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/RJrCxjri_lE"
+        }
+      ]
+    },
+    {
+      "id": "c076-l009",
+      "num": 9,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 09 អតិមន្តារម្មណ៍ប្រភេទទី២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fc27f121f8711d2aa870e?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/F_c4jeI2gCo"
+        }
+      ]
+    },
+    {
+      "id": "c076-l010",
+      "num": 10,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 10 បញ្ចប់អតិមហន្តារម្មណ៍",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fc377986a8c5b93f938fe?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/dU0vmes5WEA"
+        }
+      ]
+    },
+    {
+      "id": "c076-l011",
+      "num": 11,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 11 អតិមហន្តារម្មណ៍មានអាគន្តុកភវង្គ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fc3df5c72a52fdd07b1e1?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/BiNLxGU2NLw"
+        }
+      ]
+    },
+    {
+      "id": "c076-l012",
+      "num": 12,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 12 សរុបបញ្ចប់អតិមហន្តារម្មណ៍",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fc99e5c72a52fdd0a598d?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/pi8okyyOrTc"
+        }
+      ]
+    },
+    {
+      "id": "c076-l013",
+      "num": 13,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 13 បរិកប្ប ការត្រិះរិះ ២ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fca069fa1c19f989ff1ee?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/GqE__2UmmvQ"
+        }
+      ]
+    },
+    {
+      "id": "c076-l014",
+      "num": 14,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 14 សង្ខេបមហន្តារម្មណ៍",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fcaee8de4ab34dcbe2c3b?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/JuQgHClSYWY"
+        }
+      ]
+    },
+    {
+      "id": "c076-l015",
+      "num": 15,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 15 ចក្ខុទ្វារិកមហន្តារម្មណ៍ ភិក្ខុអគ្គចិត្តោ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fcb535c72a52fdd0b3c22?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/-9S3USXRPIo"
+        }
+      ]
+    },
+    {
+      "id": "c076-l016",
+      "num": 16,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 16 ចែកដោយបុគ្គលប្រភេទទី១មហន្តារម្មណ៍",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fcbb18de4ab34dcbea302?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/-fSs-sXkO_g"
+        }
+      ]
+    },
+    {
+      "id": "c076-l017",
+      "num": 17,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 17 បរិត្តារម្មណ៍ប្រភេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fccc98de4ab34dcbf2d42?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/1mcHv7SgyZI"
+        }
+      ]
+    },
+    {
+      "id": "c076-l018",
+      "num": 18,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 18 អតិបរិត្តារម្មណ៍ ៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fcd37121f8711d2b02f79?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/qLyGi3CrrfA"
+        }
+      ]
+    },
+    {
+      "id": "c076-l019",
+      "num": 19,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 19 និយមន័យមនោទ្វារវិថី ភិក្ខុអគ្គចិត្តោ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fce209fa1c19f98a1e956?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/PP6l5Y56o-8"
+        }
+      ]
+    },
+    {
+      "id": "c076-l020",
+      "num": 20,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 20 អតីតគ្គហណវិថី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674fceaa121f8711d2b0c645?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/0n8HMLpyN_Y"
+        }
+      ]
+    },
+    {
+      "id": "c076-l021",
+      "num": 21,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 21 អតីតគ្គហណវិថីទី ២ និងទី៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67500e959fa1c19f98c6ec1e?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/km5b0nEFCXk"
+        }
+      ]
+    },
+    {
+      "id": "c076-l022",
+      "num": 22,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 22 សង្ខេបអតីតគ្គហណវិថីទាំង ៥ ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67500ee537a7947cbbe7ed58?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/hGA-DPFl0Ao"
+        }
+      ]
+    },
+    {
+      "id": "c076-l023",
+      "num": 23,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 23 សមូហគ្គហណវិថីទី ១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675012de37a7947cbbea793a?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/1vXVoFjLEHE"
+        }
+      ]
+    },
+    {
+      "id": "c076-l024",
+      "num": 24,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 24 សមូហគ្គហណវិថីទី ១ភាគ២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67501350121f8711d2d9bac5?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/UDyf2YZVfis"
+        }
+      ]
+    },
+    {
+      "id": "c076-l025",
+      "num": 25,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 25 សមូហគ្គហណវិថីចែកតាមបកិណ្ណកសង្គហៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675014b88de4ab34dce80563?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/n5ifPdhSuN0"
+        }
+      ]
+    },
+    {
+      "id": "c076-l026",
+      "num": 26,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 26 សមូហគ្គហណវិថីភាគ៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6750fe6f51af627401049f34?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/K5gi-K7ro-g"
+        }
+      ]
+    },
+    {
+      "id": "c076-l027",
+      "num": 27,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 27 សមូហគ្គហណវិថីភាគទី ២និងទី ៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6750ff900ee2b79e333c75e4?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/i2QNfkQFrYs"
+        }
+      ]
+    },
+    {
+      "id": "c076-l028",
+      "num": 28,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 28 សមូហគ្គហណវិថីភាគទី ៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6750ffef0ee2b79e333cc3e5?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/E9WOmXtVwD8"
+        }
+      ]
+    },
+    {
+      "id": "c076-l029",
+      "num": 29,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 29 អត្ថគ្គហណវិថីទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675100e4aeaa2d78dfcbfcc3?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/QpzKH8Mlh5g"
+        }
+      ]
+    },
+    {
+      "id": "c076-l030",
+      "num": 30,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 30 អត្ថគ្គហណវិថីទី៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675102920ee2b79e333e9205?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/6JlMb6yKRXk"
+        }
+      ]
+    },
+    {
+      "id": "c076-l031",
+      "num": 31,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 31 នាមគ្គហណវិថីទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675102d8f318f34867724513?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/PXIfeDdM9Ds"
+        }
+      ]
+    },
+    {
+      "id": "c076-l032",
+      "num": 32,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 32 នាមគ្គហណវិថីទី២ ទី៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6751039faeaa2d78dfcd6a31?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/vFA-IwjZiQc"
+        }
+      ]
+    },
+    {
+      "id": "c076-l033",
+      "num": 33,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 33 សុទ្ធមនោទ្វារវិថីភាគ១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6751040157aa3cdaf368dc4e?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/d2SDKfiPn9g"
+        }
+      ]
+    },
+    {
+      "id": "c076-l034",
+      "num": 34,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 34 សុទ្ធមនោទ្វារតទាលម្ពណវារភាភ១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675104fc57aa3cdaf3695a44?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/CFKpfk8U1AA"
+        }
+      ]
+    },
+    {
+      "id": "c076-l035",
+      "num": 35,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 35 កាមជវនជាជវនវារៈភាគ១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6751056151af627401086b24?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Z9mI22PjJsA"
+        }
+      ]
+    },
+    {
+      "id": "c076-l036",
+      "num": 36,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 36 កាមជវន២៧ មាន ៧ ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6751069051af62740108eace?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/x0LZreXgxM8"
+        }
+      ]
+    },
+    {
+      "id": "c076-l037",
+      "num": 37,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 37 ចប់កាមជវន ២១ ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675115bbaeaa2d78dfd76521?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/J-RTVRlgB5A"
+        }
+      ]
+    },
+    {
+      "id": "c076-l038",
+      "num": 38,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 38 សុទ្ធមនោទ្វារមិនមានអតីតភវង្គប្រភេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675116d40ee2b79e334946f5?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Cildngk6vyk"
+        }
+      ]
+    },
+    {
+      "id": "c076-l039",
+      "num": 39,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 39 សុទ្ធមនោទ្វារមិនមានអតីតភវង្គប្រភេទទី២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67511725aeaa2d78dfd81ecb?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/tfMhhO6B7Mk"
+        }
+      ]
+    },
+    {
+      "id": "c076-l040",
+      "num": 40,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 40 ចែកមនោទ្វារក្នុងកាមភូមិ ១១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675117c457aa3cdaf37352dd?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/QmBgNWIp0po"
+        }
+      ]
+    },
+    {
+      "id": "c076-l041",
+      "num": 41,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 41 ចែកមនោទ្វារក្នុងរូបភូមិ អរូបភូមិ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6751181057aa3cdaf3738469?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/zVzAC2xfKuk"
+        }
+      ]
+    },
+    {
+      "id": "c076-l042",
+      "num": 42,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 42 ចែកវិថីចិត្តរបស់អរូបព្រហ្ម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6751189757aa3cdaf373e7b4?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/A_X73_2S1-8"
+        }
+      ]
+    },
+    {
+      "id": "c076-l043",
+      "num": 43,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 43 ចែកវិថីចិត្តទី៤មិនមានអតីតភវង្គ ទោសជវន២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675118db51af6274011395af?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/jgyeidPf-W4"
+        }
+      ]
+    },
+    {
+      "id": "c076-l044",
+      "num": 44,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 44 អតិឥដ្ឋារម្មណ៍ ជាកាមចិត្ត ៥១ ទោសជវន ២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675121b80ee2b79e334f4fe0?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/8r8BOz3yjTs"
+        }
+      ]
+    },
+    {
+      "id": "c076-l045",
+      "num": 45,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 45 វិភូតារម្មណ៍ ១៤ ជាកាមជវន២៧ និងទោសជវន២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675121ff57aa3cdaf378713d?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Ud5utzpeYWc"
+        }
+      ]
+    },
+    {
+      "id": "c076-l046",
+      "num": 46,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 46 បញ្ចប់វិភូតារម្មណវិថី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67514f02d5df6960af04745b?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/1v-iF68u6Ak"
+        }
+      ]
+    },
+    {
+      "id": "c076-l047",
+      "num": 47,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 47 អវិភូតារម្មណ៍ ២ ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67514f4a8b479bb7df0b4633?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/NsXEhg1QiTQ"
+        }
+      ]
+    },
+    {
+      "id": "c076-l048",
+      "num": 48,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 48 សុបិនមនោទ្វារវិថី ១២ ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675150fd5ec5df2b977992b3?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/DMg3_NUtP7Y"
+        }
+      ]
+    },
+    {
+      "id": "c076-l049",
+      "num": 49,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 49 ហេតុនាំឱ្យយល់សប្តិមាន ៤ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675151bc5ec5df2b977a0edf?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/9BD0sJ6dseg"
+        }
+      ]
+    },
+    {
+      "id": "c076-l050",
+      "num": 50,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 50 អប្បនាវិថី ឧបសគ្គរបស់សមាធិ ៨ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675152138b479bb7df0c8109?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/TFxV7SjfilM"
+        }
+      ]
+    },
+    {
+      "id": "c076-l051",
+      "num": 51,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 51​ អាទិកម្មិកឈានវិថី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6751525e927df756c1441839?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Wxef4d5wP7Y"
+        }
+      ]
+    },
+    {
+      "id": "c076-l052",
+      "num": 52,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 52 ឈានសមាបត្តិវិថី និងបាទកឈានវិថី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6751532b5ec5df2b977b2fbb?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/k_e9wW4Jd2Y"
+        }
+      ]
+    },
+    {
+      "id": "c076-l053",
+      "num": 53,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 53 អភិញ្ញាវិថី ដោយបញ្ចមជ្ឈានចិត្ត២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6751537b8b479bb7df0d9940?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/MEZIeSjaIwc"
+        }
+      ]
+    },
+    {
+      "id": "c076-l054",
+      "num": 54,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 54 មគ្គវិថី សោតាបត្តិមគ្គវិថី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675153d0443d3a9d8cccaa62?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/S-xltUMEd4Y"
+        }
+      ]
+    },
+    {
+      "id": "c076-l055",
+      "num": 55,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 55 ទិព្វសោត បរចិត្ត បុព្វេនិវាស ទិព្វចក្ខុ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6751543fd5df6960af074bc4?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/I8qcZa0g5Ao"
+        }
+      ]
+    },
+    {
+      "id": "c076-l056",
+      "num": 56,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 56 ផលសមាបត្តិ និងនិរោធសមាបត្តិ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67515498443d3a9d8cccd29a?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/RKWKJKHQgxw"
+        }
+      ]
+    },
+    {
+      "id": "c076-l057",
+      "num": 57,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 57 មរណាសន្នវិថី វិថីពេលជិតស្លាប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675158178b479bb7df102839?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/VaiRxZqtaHo"
+        }
+      ]
+    },
+    {
+      "id": "c076-l058",
+      "num": 58,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 58 បញ្ចទា្វរមរណាសន្នវិថី ភិក្ខុអគ្គចិត្តោ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67515872d5df6960af0992e3?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ydJd1Y7pDPU"
+        }
+      ]
+    },
+    {
+      "id": "c076-l059",
+      "num": 59,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 59 បញ្ចទា្វរមរណាសន្នវិថីប្រភេទទី២ដល់ទី៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675158b55ec5df2b977df677?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/lpeBmvmgMEw"
+        }
+      ]
+    },
+    {
+      "id": "c076-l060",
+      "num": 60,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 60 មនោទ្វារមរណាសន្នវិថីភាគ១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675158fd5ec5df2b977e065a?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/NaEY5oazZfM"
+        }
+      ]
+    },
+    {
+      "id": "c076-l061",
+      "num": 61,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 61 មនោទ្វារមរណាសន្នវិថីភាគ២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675159b3443d3a9d8ccfc092?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/K2X39RDWd7c"
+        }
+      ]
+    },
+    {
+      "id": "c076-l062",
+      "num": 62,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 62 មនោទ្វារមរណាសន្នវិថីភាគ២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67515a56d5df6960af0ae337?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/EXxm3IbBwbc"
+        }
+      ]
+    },
+    {
+      "id": "c076-l063",
+      "num": 63,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 63 អភិញ្ញាសនមន្តរ ជីវិតសមសីសី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67515b08d5df6960af0b8177?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/BtuVsSagvNA"
+        }
+      ]
+    },
+    {
+      "id": "c076-l064",
+      "num": 64,
+      "title_km": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 64 បញ្ចប់បរិច្ឆេទទី ៤ តទាលម្ពណ ជវន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67515bc2443d3a9d8cd1231b?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/GvUHpYmEwcU"
+        }
+      ]
+    }
+  ]
+}

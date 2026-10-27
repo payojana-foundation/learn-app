@@ -1,0 +1,17 @@
+# Force LF for all text so committed bytes are stable across OSes. This is
+# REQUIRED for the served data files: the data manifest records each file's
+# SHA-256 of its exact bytes, and the loader verifies that hash before use
+# (P-01/P-02). A CRLF checkout would change the bytes and break verification.
+* text=auto eol=lf
+
+# Binary assets: never touched.
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.webp binary
+*.ico binary
+*.woff2 binary
+*.ttf binary
+*.mp3 binary
+*.mp4 binary

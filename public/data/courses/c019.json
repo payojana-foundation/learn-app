@@ -1,0 +1,85 @@
+{
+  "id": "c019",
+  "provisional": true,
+  "title_km": "សមាធិ វគ្គខ្លីលើកទី៣៧",
+  "title_en": null,
+  "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+  "teacher_slug": "him-bunthoeun",
+  "topics": [
+    "meditation"
+  ],
+  "lessons": [
+    {
+      "id": "c019-l001",
+      "num": 1,
+      "title_km": "1.វក្គខ្លីលើកទី៣៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ac17fd982c36846e5be4b2?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c019-l002",
+      "num": 2,
+      "title_km": "2.វក្គខ្លីលើកទី៣៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ac181f352b565deb8e81ae?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c019-l003",
+      "num": 3,
+      "title_km": "3.វក្គខ្លីលើកទី៣៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ac1845352b565deb8e8d44?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c019-l004",
+      "num": 4,
+      "title_km": "4.វក្គខ្លីលើកទី៣៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ac1863982c36846e5c1aa3?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c019-l005",
+      "num": 5,
+      "title_km": "5.វក្គខ្លីលើកទី៣៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ac188de2f63983a78db892?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c019-l006",
+      "num": 6,
+      "title_km": "6.វក្គខ្លីលើកទី៣៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ac18afe2f63983a78dc941?subscribe=false"
+        }
+      ]
+    }
+  ]
+}

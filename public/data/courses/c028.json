@@ -1,0 +1,37 @@
+{
+  "id": "c028",
+  "provisional": true,
+  "title_km": "សមាធិ វគ្គខ្លីលើកទី៤៧",
+  "title_en": null,
+  "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+  "teacher_slug": "him-bunthoeun",
+  "topics": [
+    "meditation"
+  ],
+  "lessons": [
+    {
+      "id": "c028-l001",
+      "num": 1,
+      "title_km": "1.វគ្គខ្លី លើកទី ៤៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68e8b82bd14438356b799145?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c028-l002",
+      "num": 2,
+      "title_km": "2.វគ្គខ្លី លើកទី ៤៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68e8b8b2f513ad2b81f8f5fc?subscribe=false"
+        }
+      ]
+    }
+  ]
+}

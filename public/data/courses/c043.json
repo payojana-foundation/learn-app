@@ -1,0 +1,109 @@
+{
+  "id": "c043",
+  "provisional": true,
+  "title_km": "សមាធិ វគ្គខ្លីលើកទី៦២",
+  "title_en": null,
+  "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+  "teacher_slug": "him-bunthoeun",
+  "topics": [
+    "meditation"
+  ],
+  "lessons": [
+    {
+      "id": "c043-l001",
+      "num": 1,
+      "title_km": "1.វគ្គខ្លី លើកទី ៦២.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69451a1d89ee5e06fdc47003?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c043-l002",
+      "num": 2,
+      "title_km": "2.វគ្គខ្លី លើកទី ៦២.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69451b0effa288bdbbe53c23?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c043-l003",
+      "num": 3,
+      "title_km": "3.វគ្គខ្លី លើកទី ៦២.mp5",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69451bd1accce1f8421355a3?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c043-l004",
+      "num": 4,
+      "title_km": "4.វគ្គខ្លី លើកទី ៦២.mp6",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69451d9df13209aaa31d844e?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c043-l005",
+      "num": 5,
+      "title_km": "5.វគ្គខ្លី លើកទី ៦២.mp7",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69451eee9a00ace34f1ee870?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c043-l006",
+      "num": 6,
+      "title_km": "6.វគ្គខ្លី លើកទី ៦២.mp8",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69451f85f13209aaa31e2261?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c043-l007",
+      "num": 7,
+      "title_km": "7.វគ្គខ្លី លើកទី ៦២.mp9",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/694520229a763d41f1f58a55?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c043-l008",
+      "num": 8,
+      "title_km": "8.វគ្គខ្លី លើកទី ៦២.mp10",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/694520a8f13209aaa31e8260?subscribe=false"
+        }
+      ]
+    }
+  ]
+}

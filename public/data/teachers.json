@@ -1,0 +1,142 @@
+{
+  "teachers": [
+    {
+      "slug": "him-bunthoeun",
+      "name_km": "លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន",
+      "name_en": null,
+      "bio_km": null,
+      "bio_en": null,
+      "topics": [
+        "meditation"
+      ],
+      "photo": "teacher-photos/him-bunthoeun.jpg"
+    },
+    {
+      "slug": "vinh-sovoeurng",
+      "name_km": "លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង",
+      "name_en": null,
+      "bio_km": "លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង ប្រសូតនៅ ឆ្នាំ ១៩៧៨ នៅ ស្រុកត្រឹងដេ ខេត្តឃ្លាំង កម្ពុជាក្រោម។ បច្ចុប្បន្ន លោកម្ចាស់គង់នៅវត្តពង្រ និង វត្តទឹកផុស ស្រុកស្វាយទង ខេត្តមាត់ជ្រូក កម្ពុជាក្រោម និងជាគ្រូបង្រៀនព្រះអភិធម្ម។ ផ្នែកពុទ្ធចក្រ លោកម្ចាស់បានបញ្ចប់ការសិក្សា បាលីប្រយោគ ៩ និងព្រះអភិធម្ម នៅប្រទេសថៃ ក្នុងរយៈពេល១០ ឆ្នាំ និងសិក្សាផ្នែកបដិបត្តិនៅប្រទេសភូមា ១ ឆ្នាំ។ គង់ក្នុងភិក្ខុភាវៈចំនួន២៨វស្សា។",
+      "bio_en": "Born 1978, Khleang province, Kampuchea Krom. Resides at Wat Pongro and Wat Tuek Phos, Moat Chrouk province, Kampuchea Krom, and teaches Abhidhamma. Completed Pali level 9 and Abhidhamma studies in Thailand over 10 years, and one year of meditation practice in Myanmar. 28 years as a monk.",
+      "topics": [
+        "abhidhamma"
+      ],
+      "photo": "teacher-photos/vinh-sovoeurng.jpg"
+    },
+    {
+      "slug": "yon-yi",
+      "name_km": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "name_en": null,
+      "bio_km": null,
+      "bio_en": null,
+      "topics": [
+        "abhidhamma",
+        "sutta"
+      ],
+      "photo": "teacher-photos/yon-yi.jpg"
+    },
+    {
+      "slug": "hun-khemara",
+      "name_km": "លោកម្ចាស់គ្រូ មុនីចរិយាវង្ស ហ៊ុន ខេមរា",
+      "name_en": null,
+      "bio_km": null,
+      "bio_en": null,
+      "topics": [
+        "meditation",
+        "devotional"
+      ],
+      "photo": "teacher-photos/hun-khemara.jpg"
+    },
+    {
+      "slug": "hak-sienghai",
+      "name_km": "លោកម្ចាស់គ្រូ ធម្មសេនា ហាក់ សៀងហៃ",
+      "name_en": "Ven. Dhammasena Hak Sienghai",
+      "bio_km": null,
+      "bio_en": null,
+      "topics": [
+        "english"
+      ],
+      "photo": "teacher-photos/hak-sienghai.jpg"
+    },
+    {
+      "slug": "sor-ratha",
+      "name_km": "លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា",
+      "name_en": "Ven. Subhapanyo Sor Ratha",
+      "bio_km": null,
+      "bio_en": null,
+      "topics": [
+        "english"
+      ],
+      "photo": "teacher-photos/sor-ratha.jpg"
+    },
+    {
+      "slug": "sok-theavy",
+      "name_km": "លោកម្ចាស់គ្រូ មុនីបុត្តោ សុខ ធាវី",
+      "name_en": "Ven. Muniputto Sok Theavy",
+      "bio_km": null,
+      "bio_en": null,
+      "topics": [
+        "english"
+      ],
+      "photo": "teacher-photos/sok-theavy.jpg"
+    },
+    {
+      "slug": "phul-narin",
+      "name_km": "លោកម្ចាស់គ្រូ ពុទ្ធង្កុរ ភុល ណារិន",
+      "name_en": null,
+      "bio_km": null,
+      "bio_en": null,
+      "topics": [
+        "vinaya"
+      ],
+      "photo": "teacher-photos/phul-narin.jpg"
+    },
+    {
+      "slug": "peng-dina",
+      "name_km": "លោកម្ចាស់គ្រូ ពុទ្ធិកាលង្ការ ផេង ឌីណា",
+      "name_en": null,
+      "bio_km": null,
+      "bio_en": null,
+      "topics": [
+        "abhidhamma"
+      ],
+      "photo": "teacher-photos/peng-dina.jpg"
+    },
+    {
+      "slug": "tho-chantha",
+      "name_km": "លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញោ ថូ ចន្ថា",
+      "name_en": null,
+      "bio_km": null,
+      "bio_en": null,
+      "topics": [
+        "sutta"
+      ],
+      "photo": "teacher-photos/tho-chantha.jpg"
+    },
+    {
+      "slug": "sok-heng",
+      "name_km": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "name_en": null,
+      "bio_km": null,
+      "bio_en": null,
+      "topics": [
+        "sutta",
+        "jataka",
+        "devotional"
+      ],
+      "photo": "teacher-photos/sok-heng.jpg"
+    },
+    {
+      "slug": "leng-sideoun",
+      "name_km": "លោកម្ចាស់គ្រូ ឡេង ស៊ីដែន",
+      "name_en": null,
+      "bio_km": null,
+      "bio_en": null,
+      "topics": [
+        "pali-grammar",
+        "sutta",
+        "abhidhamma"
+      ],
+      "photo": "Not in our files (no photo)"
+    }
+  ]
+}

@@ -1,0 +1,493 @@
+{
+  "id": "c093",
+  "provisional": true,
+  "title_km": "សៀវភៅញាណទស្សនៈ មេសា ២០២៦",
+  "title_en": null,
+  "teacher": "ព្រះ កស្សប ហ៊ុន ខេមរា",
+  "teacher_slug": "hun-khemara",
+  "topics": [
+    "meditation"
+  ],
+  "lessons": [
+    {
+      "id": "c093-l001",
+      "num": 1,
+      "title_km": "1-Ñāṇa-04Apr2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/16QPcWkN05XHNe9e7KrMnmEaJ4BAuhk0K/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1p8gwM3lCU2fv5lgakXELLHRrHU5Nvu7J/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l002",
+      "num": 2,
+      "title_km": "2-Ñāṇa-12Apr2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1CopRZqFoZoLnxqZhN24lJZoY7B20_fdu/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1pNyV4A0tfLTZc8XSl3EjBcXtIm7hIx3W/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l003",
+      "num": 3,
+      "title_km": "3-Ñāṇa-19Apr2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1MN985R6fDH6V_LtLVyRv2QmLy4-LgdnC/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1X7JJdO-KL1Ma7MxCXTRangiUGbg_GQ_n/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l004",
+      "num": 4,
+      "title_km": "4-Ñāṇa-26Apr2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1EfJuc1OOK-TBwfi8yc-Dljk74wrHujJq/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/19DfRbA6eK8c8IJhlHz6UGvHXZv7JYjJZ/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l005",
+      "num": 5,
+      "title_km": "5-Ñāṇa-03May2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/18h-SZcqthKJmYXQdVfPRLhcQeLg_yu4z/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1MjTVpM8FGs_fY3TzCuqHq0fby4-02QCg/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l006",
+      "num": 6,
+      "title_km": "6-Ñāṇa-13May2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1mGSgsoRrl_p48mSDVk78YE92an1-Zm83/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1l_aHghEXGiDVP7XsymMMUdlkHjJcvwWO/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l007",
+      "num": 7,
+      "title_km": "7-Ñāṇa-16May2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/193exE7yzGjImWf5vlUasWSJi1-UTVdcZ/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1kRcUnSolyC4n_6p55N3Z6GE55W1UiXBX/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l008",
+      "num": 8,
+      "title_km": "8-Ñāṇa-21May2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1KpPEGGy0hyU5KW9G-CaxbE0Szf8mC2Ps/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1QzvKAAyNuJZ3mImLm6-4sJh4OQvJP3sG/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l009",
+      "num": 9,
+      "title_km": "9-Ñāṇa-23May2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/13gbdD53GpYWnAxYm-i0-aB3-3EmqsKQ7/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/14bVWyoWSrDhfbQyCEo9g235y2xrwUxuo/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l010",
+      "num": 10,
+      "title_km": "10-Ñāṇa-27May2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Kl0nnWJDgYF7AGUnxDZfN1ofSI5k_95K/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1caJSh4lEIGQFl6XLThtPw1k9FvlxyiIr/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l011",
+      "num": 11,
+      "title_km": "11-Ñāṇa-31May2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1E6F1Rq5B9V1bCNKO9-mSurxDLnqG6y5g/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1yhfECuuuFmTWhCJvLom3EgBU3zv7Kj58/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l012",
+      "num": 12,
+      "title_km": "12-Ñāṇa-03Jun2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Gr2URzzfF5xnz-dZ4ZkrpbEc3DVLJBqs/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1RxOeJ-UntxgqRK26P8WH6moa-JFfcllr/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l013",
+      "num": 13,
+      "title_km": "13-Ñāṇa-10Jun2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1ygm7682i8bMk-aaa5_cAXti8ntT5re5F/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/19EJNyslePrpoMv-t6Bqw_E1P6631GA3x/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l014",
+      "num": 14,
+      "title_km": "14-Ñāṇa-14Jun2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1x-6TfxK27J8EmY3d5qDGXnLzhL9svD-F/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1T6yQjBP8-gZQmS_yjMNtccZX89YDv4Ve/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l015",
+      "num": 15,
+      "title_km": "15-Ñāṇa-17Jun2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1xA_O5Q8ZYyILGAlUBhPng6KR4QOTMosr/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1nTdPsglusUux6xOH5R4WgE2Jrq7edaw0/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l016",
+      "num": 16,
+      "title_km": "16-Ñāṇa-21Jun2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/145ewx4vofyerFERMpIuBeSfavsLFvhUx/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1sV5lpfx-_x-pkSfBDvKJfE6XP4M9dRCt/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l017",
+      "num": 17,
+      "title_km": "17-Ñāṇa-24Jun2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1VJygFcaj2cLvM76uAWnB4O4m1eJLHtS_/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1nxFSDXvFCM4yc22OaTq_n9fBl7cmXZ-q/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l018",
+      "num": 18,
+      "title_km": "18-Ñāṇa-27Jun2026-វិធីចម្រើនអានាបានស្សតិ(ឥរិយាបថ និង ការកំណត់ខ្យល់)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1-KrTvyYuf3MrYjY1YFZxMYeNUi2tfvmQ/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1RIFq9f1tGvQhG-FYo_l59OLkTRkl46Lj/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l019",
+      "num": 19,
+      "title_km": "19-Ñāṇa-1Jul2026-វិធីចម្រើនអានាបានស្សតិ(ការកំណត់ខ្យល់ដង្ហើម)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/15PkvtNc-FHonPUl7xYec7ESb_SGwT1uC/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1dBaqA7ya6EhH91QgdH0iJWiLhnODXHTm/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l020",
+      "num": 20,
+      "title_km": "20-Ñāṇa-5Jul2026-អំពីនិមិត្ត(ពន្លឺ)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1XF8zMFDOoNEm5LPIn-xLHxe-q7hIl7UH/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1-ZXvjI_sBKKkaoIwsdWiTQJZrxcyW3WC/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l021",
+      "num": 21,
+      "title_km": "21-Ñāṇa-8Jul2026-ប្រភេទនិមិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1dyUm4OfLvFdOP_SdtZ9EVweF7RgIIKPC/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1KYKXt5nmQwlxcbbcmg6UUn2mKJu-ZQbY/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l022",
+      "num": 22,
+      "title_km": "22-Ñāṇa-12Jul2026-វិធីធ្វើឥន្រ្ទិយទាំង៥ឲ្យស្មើគ្នា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1VY55xrlzmkOT7KAfd7mIB7iJjW2jrLmI/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1YjWdXUPjYuEXQx8nRSbbtUTxDGz_Z_Xc/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l023",
+      "num": 23,
+      "title_km": "23-Ñāṇa-18Jul2026-សេចក្ដីណែនាំបន្ថែមក្នុងការបដិបត្តិអានាបានស្សតិ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1vP4lHLU0O99YgyXn10BFURTMstCd3dj-/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1_vsBL217uy2Is8O_AzXwZ0ufa0tC_uDi/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l024",
+      "num": 24,
+      "title_km": "24-Ñāṇa-23Jul2026-សេចក្ដីណែនាំបន្ថែមក្នុងការបដិបត្តិអានាបានស្សតិ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1QP07hRgZbMnRuDH9PQ2qHDALm3sRCRfP/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Djt3gD-YTXwY45GaB7FFSkLSsDoOx4ok/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l025",
+      "num": 25,
+      "title_km": "25-Ñāṇa-25Jul2026-វិធីធ្វើសត្តពោជ្ឈង្គឲ្យស្មើ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1R0dWvB2fO73ba-qbZRSJv5IVl0l-I7Bm/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/187_GjJyaBoPdJDPTxgmllAkVIHKUJ05n/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l026",
+      "num": 26,
+      "title_km": "26-Ñāṇa-អង្គឈាន៥និងវសីភាវៈ៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1f6oXRgu8UO2lii1tAFXmrEUhDom7nFZm/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1bDf2Xh8cAxi8XZnThpanA3XE2MMw2cgL/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l027",
+      "num": 27,
+      "title_km": "27-Ñāṇa-12Aug2026-វិធីចូលឈាន និងចេញចាកឈាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1YgJWtjiHwj5rhmY-XkJa4cfmFWvX50n5/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/16XZIgprGIB-aSeu_ttv_EbqZPzSgdayC/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l028",
+      "num": 28,
+      "title_km": "28-Ñāṇa-15Aug2026-រម្លឹកឡើងវិញអំពីការចូលឈាន និងវិថីចិត្តរបស់ឈាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1GAkhY9-0pwWkD10YSjtv2v3ygER06PaI/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1VqR8Dd3QiPag3POEpmalUGjUU-16PTad/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l029",
+      "num": 29,
+      "title_km": "29-Ñāṇa-22Aug_2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1xo2o36dG4l7efkhgMRXrvWTZzqUU3t-F/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1VLBhvddEkSFiJ2EckWQsCzGv9CAOG-Bf/preview"
+        }
+      ]
+    },
+    {
+      "id": "c093-l030",
+      "num": 30,
+      "title_km": "30-Ñāṇa-26Aug2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1hL_wEt2GA2l0stqkKKnqahTyQTSDtbUk/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1EpEsgtTr4x00gQ6X3R7bly2okdLo-FS5/preview"
+        }
+      ]
+    }
+  ]
+}

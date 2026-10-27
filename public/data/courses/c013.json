@@ -1,0 +1,133 @@
+{
+  "id": "c013",
+  "provisional": true,
+  "title_km": "ថ្នាក់សមថកម្មដ្ឋាន",
+  "title_en": null,
+  "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+  "teacher_slug": "him-bunthoeun",
+  "topics": [
+    "meditation"
+  ],
+  "lessons": [
+    {
+      "id": "c013-l001",
+      "num": 1,
+      "title_km": "1-១៩ កក្កដា ២០២៥ ថ្នាក់សមថៈដឹកនាំដោយមណ្ឌលវិបស្សនាធុរៈ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ac138b982c36846e5a2977?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c013-l002",
+      "num": 2,
+      "title_km": "2- ០២ សីហា ២០២៥ ថ្នាក់សមថៈដឹកនាំដោយមណ្ឌលវិបស្សនាធុរៈ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ac13ca352b565deb8d1ae5?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c013-l003",
+      "num": 3,
+      "title_km": "3-០៩ សីហា ២០២៥ ថ្នាក់សមថៈដឹកនាំដោយមណ្ឌលវិបស្សនាធុរៈ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ac13ef352b565deb8d2004?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c013-l004",
+      "num": 4,
+      "title_km": "4-២៣ សីហា ២០២៥ ថ្នាក់សមថៈដឹកនាំដោយមណ្ឌលវិបស្សនាធុរៈ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ba87e845004e42c9abd3f4?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c013-l005",
+      "num": 5,
+      "title_km": "5-៣០ សីហា ២០២៥ ថ្នាក់សមថៈដឹកនាំដោយមណ្ឌលវិបស្សនាធុរៈ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ba889345004e42c9ac0aaa?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c013-l006",
+      "num": 6,
+      "title_km": "6-០៦ កញ្ញា ២០២៥ ថ្នាក់សមថៈដឹកនាំដោយមណ្ឌលវិបស្សនាធុរៈ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f89c72d941aea0ffbf27ec?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c013-l007",
+      "num": 7,
+      "title_km": "7-២៧ កញ្ញា ២០២៥ ថ្នាក់សមថៈដឹកនាំដោយមណ្ឌលវិបស្សនាធុរៈ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f89efdaf22931d80daaf8e?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c013-l008",
+      "num": 8,
+      "title_km": "8-០៤តុលា ២០២៥ ថ្នាក់សមថៈដឹកនាំដោយមណ្ឌលវិបស្សនាធុរៈ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f8a01e237885ef409ae4ab?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c013-l009",
+      "num": 9,
+      "title_km": "9-១៨​ តុលា ២០២៥ ថ្នាក់សមថៈដឹកនាំដោយមណ្ឌលវិបស្សនាធុរៈ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69045dd1c89076b5e28579af?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c013-l010",
+      "num": 10,
+      "title_km": "10-២៥​ តុលា ២០២៥ ថ្នាក់សមថៈដឹកនាំដោយមណ្ឌលវិបស្សនាធុរៈ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69045e4dc89076b5e2859dae?subscribe=false"
+        }
+      ]
+    }
+  ]
+}

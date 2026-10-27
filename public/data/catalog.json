@@ -1,0 +1,1428 @@
+{
+  "generated": "2026-10-27T12:48:07.878Z",
+  "provisional": true,
+  "courses": [
+    {
+      "id": "c001",
+      "provisional": true,
+      "title_km": "ប្រែការកពិសេស",
+      "title_en": null,
+      "teacher": "ឡេង ស៊ីដែន",
+      "teacher_slug": "leng-sideoun",
+      "topics": [
+        "pali-grammar"
+      ],
+      "lesson_count": 29,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c002",
+      "provisional": true,
+      "title_km": "ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកកនិបាត",
+      "title_en": null,
+      "teacher": "ឡេង ស៊ីដែន",
+      "teacher_slug": "leng-sideoun",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 43,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c003",
+      "provisional": true,
+      "title_km": "បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥",
+      "title_en": null,
+      "teacher": "ឡេង ស៊ីដែន",
+      "teacher_slug": "leng-sideoun",
+      "topics": [
+        "pali-grammar"
+      ],
+      "lesson_count": 9,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c004",
+      "provisional": true,
+      "title_km": "វិធីរើសអង្គធម៌",
+      "title_en": null,
+      "teacher": "ឡេង ស៊ីដែន",
+      "teacher_slug": "leng-sideoun",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 25,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c005",
+      "provisional": true,
+      "title_km": "សិក្សាគាថាធម្មបទ",
+      "title_en": null,
+      "teacher": "ឡេង ស៊ីដែន",
+      "teacher_slug": "leng-sideoun",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 26,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c006",
+      "provisional": true,
+      "title_km": "បទរូបសិទ្ធិ",
+      "title_en": null,
+      "teacher": "ឡេង ស៊ីដែន",
+      "teacher_slug": "leng-sideoun",
+      "topics": [
+        "pali-grammar"
+      ],
+      "lesson_count": 19,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c007",
+      "provisional": true,
+      "title_km": "បរិច្ឆេទ ទី ៨",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់ ផេង ឌីណា",
+      "teacher_slug": "peng-dina",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 58,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c008",
+      "provisional": true,
+      "title_km": "Chapter 1a (2022)",
+      "title_en": null,
+      "teacher": "ព្រះមហា វិញ សុវឿង",
+      "teacher_slug": "vinh-sovoeurng",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 101,
+      "media_kinds": [
+        "youtube"
+      ]
+    },
+    {
+      "id": "c009",
+      "provisional": true,
+      "title_km": "Chapter 2 — Cetasikasangaha (2022)",
+      "title_en": null,
+      "teacher": "ព្រះមហា វិញ សុវឿង",
+      "teacher_slug": "vinh-sovoeurng",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 96,
+      "media_kinds": [
+        "youtube"
+      ]
+    },
+    {
+      "id": "c010",
+      "provisional": true,
+      "title_km": "Chapter 3 — Pakinnakasangaha (2024)",
+      "title_en": null,
+      "teacher": "ព្រះមហា វិញ សុវឿង",
+      "teacher_slug": "vinh-sovoeurng",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 69,
+      "media_kinds": [
+        "youtube"
+      ]
+    },
+    {
+      "id": "c011",
+      "provisional": true,
+      "title_km": "Chapter 4 — Vithisangaha (2024)",
+      "title_en": null,
+      "teacher": "ព្រះមហា វិញ សុវឿង",
+      "teacher_slug": "vinh-sovoeurng",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 140,
+      "media_kinds": [
+        "youtube"
+      ]
+    },
+    {
+      "id": "c012",
+      "provisional": true,
+      "title_km": "ថ្នាក់សមថៈ វិបស្សនា ២០២២",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 39,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c013",
+      "provisional": true,
+      "title_km": "ថ្នាក់សមថកម្មដ្ឋាន",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 10,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c014",
+      "provisional": true,
+      "title_km": "វគ្គអន្តរជាតិ",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 21,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c015",
+      "provisional": true,
+      "title_km": "វគ្គខ្លីលើកទី ១ នៅកែប",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 18,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c016",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៣៤",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 2,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c017",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៣៥",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 5,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c018",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៣៦",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 7,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c019",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៣៧",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 6,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c020",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៣៨",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 8,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c021",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៣៩",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 5,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c022",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៤០",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 4,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c023",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៤១",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 5,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c024",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៤២",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 3,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c025",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៤៣",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 7,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c026",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៤៤",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 5,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c027",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៤៥",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 5,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c028",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៤៧",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 2,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c029",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៤៨",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 4,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c030",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៤៩",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 4,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c031",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៥០",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 8,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c032",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៥១",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 7,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c033",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៥២",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 8,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c034",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៥៣",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 10,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c035",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៥៤",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 11,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c036",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៥៥",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 8,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c037",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៥៦",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 6,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c038",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៥៧",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 9,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c039",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៥៨",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 4,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c040",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៥៩",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 3,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c041",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៦០",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 4,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c042",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៦១",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 5,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c043",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៦២",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 8,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c044",
+      "provisional": true,
+      "title_km": "សមាធិ វគ្គខ្លីលើកទី៦៣",
+      "title_en": null,
+      "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 3,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c045",
+      "provisional": true,
+      "title_km": "វគ្គ Buddhism in English for Beginners",
+      "title_en": "Buddhism in English for Beginners (Ven Sok Theavy)",
+      "teacher": "លោកម្ចាស់គ្រូ មុនីបុត្តោ សុខ ធាវី",
+      "teacher_slug": "sok-theavy",
+      "topics": [
+        "english"
+      ],
+      "lesson_count": 57,
+      "media_kinds": [
+        "acast",
+        "drive"
+      ]
+    },
+    {
+      "id": "c046",
+      "provisional": true,
+      "title_km": "ព្រះសូត្រ បិដកលេខ ១៤",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 24,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c047",
+      "provisional": true,
+      "title_km": "ព្រះសូត្រ បិដកលេខ ១៥",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 22,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c048",
+      "provisional": true,
+      "title_km": "រាត្រីធម្មទាន",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [
+        "devotional"
+      ],
+      "lesson_count": 431,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c049",
+      "provisional": true,
+      "title_km": "នាទីធម្មចរិយា",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [
+        "devotional"
+      ],
+      "lesson_count": 76,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c050",
+      "provisional": true,
+      "title_km": "សិក្សាអដ្ឋកថាជាតក",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [
+        "jataka"
+      ],
+      "lesson_count": 33,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c051",
+      "provisional": true,
+      "title_km": "សិក្សាព្រះបច្ចេកពុទ្ធ សំយុត្តកថា",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 57,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c052",
+      "provisional": true,
+      "title_km": "មលិន្ទប្បញ្ហា",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [
+        "devotional"
+      ],
+      "lesson_count": 0,
+      "media_kinds": []
+    },
+    {
+      "id": "c053",
+      "provisional": true,
+      "title_km": "វចនានុក្រមព្រះពុទ្ធសាសនា",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [
+        "devotional"
+      ],
+      "lesson_count": 54,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c054",
+      "provisional": true,
+      "title_km": "បុណ្យពិសាខបូជា",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [
+        "devotional"
+      ],
+      "lesson_count": 7,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c055",
+      "provisional": true,
+      "title_km": "Buddhism in English for Beginners (លោកម្ចាស់គ្រូ ហាក់ សៀងហៃ)",
+      "title_en": "Buddhism in English for Beginners (Ven Hak Sienghai)",
+      "teacher": "លោកម្ចាស់គ្រូ ហាក់ សៀងហៃ",
+      "teacher_slug": "hak-sienghai",
+      "topics": [
+        "english"
+      ],
+      "lesson_count": 33,
+      "media_kinds": [
+        "acast",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c056",
+      "provisional": true,
+      "title_km": "Dhamma in English (វគ្គ ១) ឆ្នាំ២០១៧",
+      "title_en": "Dhamma in English, Batch 1 (2017)",
+      "teacher": "លោកម្ចាស់គ្រូ ហាក់ សៀងហៃ",
+      "teacher_slug": "hak-sienghai",
+      "topics": [
+        "english"
+      ],
+      "lesson_count": 58,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c057",
+      "provisional": true,
+      "title_km": "Buddhism in English Level I (លោកម្ចាស់គ្រូ ស រដ្ឋា)",
+      "title_en": "Buddhism in English Level I (Ven Sor Ratha)",
+      "teacher": "លោកម្ចាស់គ្រូ ស រដ្ឋា",
+      "teacher_slug": "sor-ratha",
+      "topics": [
+        "english"
+      ],
+      "lesson_count": 20,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c058",
+      "provisional": true,
+      "title_km": "Buddhism in English Level II (លោកម្ចាស់គ្រូ ស រដ្ឋា)",
+      "title_en": "Buddhism in English Level II (Ven Sor Ratha)",
+      "teacher": "លោកម្ចាស់គ្រូ ស រដ្ឋា",
+      "teacher_slug": "sor-ratha",
+      "topics": [
+        "english"
+      ],
+      "lesson_count": 14,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c059",
+      "provisional": true,
+      "title_km": "សិក្សាវិន័យបិដក មហាវគ្គបាឡិ",
+      "title_en": "Study of the Vinaya Pitaka — Mahavagga Pali",
+      "teacher": "ព្រះអង្គគ្រូ ពុទ្ធង្កុរ ភុល ណារិន",
+      "teacher_slug": "phul-narin",
+      "topics": [
+        "vinaya"
+      ],
+      "lesson_count": 67,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c060",
+      "provisional": true,
+      "title_km": "បរិច្ឆេទទី ៨",
+      "title_en": null,
+      "teacher": "ព្រះអង្គគ្រូ ពុទ្ធង្កុរ ភុល ណារិន",
+      "teacher_slug": "phul-narin",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 17,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c061",
+      "provisional": true,
+      "title_km": "អង្គុត្តរនិកាយ «និរុត្តិ+សង្គហ»",
+      "title_en": null,
+      "teacher": "ព្រះអង្គគ្រូ ពុទ្ធង្កុរ ភុល ណារិន",
+      "teacher_slug": "phul-narin",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 175,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c062",
+      "provisional": true,
+      "title_km": "សិក្សាសតិប្បដ្ឋាន",
+      "title_en": "Study of the Satipatthana",
+      "teacher": "ព្រះអង្គគ្រូ កិត្តិប្បញ្ញោ ថូ ចន្ថា",
+      "teacher_slug": "tho-chantha",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 54,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c063",
+      "provisional": true,
+      "title_km": "បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី១,២",
+      "title_en": null,
+      "teacher": "ព្រះអង្គគ្រូ កិត្តិប្បញ្ញោ ថូ ចន្ថា",
+      "teacher_slug": "tho-chantha",
+      "topics": [
+        "pali-grammar"
+      ],
+      "lesson_count": 33,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c064",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី8 (2025)",
+      "title_en": "Abhidhamma Chapter 8 (2025)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 139,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c065",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី7 (2023)",
+      "title_en": "Abhidhamma Chapter 7 (2023)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 119,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c066",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី6 (2023)",
+      "title_en": "Abhidhamma Chapter 6 (2023)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 66,
+      "media_kinds": [
+        "acast"
+      ]
+    },
+    {
+      "id": "c067",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី5 (2022)",
+      "title_en": "Abhidhamma Chapter 5 (2022)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 82,
+      "media_kinds": [
+        "acast",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c068",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី1 (2022)",
+      "title_en": "Abhidhamma Chapter 1 (2022)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 174,
+      "media_kinds": [
+        "drive",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c069",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី2 (2024)",
+      "title_en": "Abhidhamma Chapter 2 (2024)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 58,
+      "media_kinds": [
+        "acast",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c070",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី3 (2025)",
+      "title_en": "Abhidhamma Chapter 3 (2025)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 55,
+      "media_kinds": [
+        "drive",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c071",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី4 (2025)",
+      "title_en": "Abhidhamma Chapter 4 (2025)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 63,
+      "media_kinds": [
+        "drive",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c072",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី5 (2026)",
+      "title_en": "Abhidhamma Chapter 5 (2026)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 4,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c073",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី6 (2024)",
+      "title_en": "Abhidhamma Chapter 6 (2024)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 55,
+      "media_kinds": [
+        "youtube"
+      ]
+    },
+    {
+      "id": "c074",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី1 (2023)",
+      "title_en": "Abhidhamma Chapter 1 (2023)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 168,
+      "media_kinds": [
+        "acast",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c075",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី3 (2024)",
+      "title_en": "Abhidhamma Chapter 3 (2024)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 64,
+      "media_kinds": [
+        "acast",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c076",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី4 (2022)",
+      "title_en": "Abhidhamma Chapter 4 (2022)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 64,
+      "media_kinds": [
+        "acast",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c077",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី4 (2024)",
+      "title_en": "Abhidhamma Chapter 4 (2024)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 71,
+      "media_kinds": [
+        "acast",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c078",
+      "provisional": true,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី9 (2020)",
+      "title_en": "Abhidhamma Chapter 9 (2020)",
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "abhidhamma"
+      ],
+      "lesson_count": 41,
+      "media_kinds": [
+        "acast",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c079",
+      "provisional": true,
+      "title_km": "ព្រះធម៌ថ្នាក់កុមារ (២០២៤)",
+      "title_en": null,
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "kids"
+      ],
+      "lesson_count": 53,
+      "media_kinds": [
+        "acast",
+        "drive",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c080",
+      "provisional": true,
+      "title_km": "ថ្នាក់កុមារ វេស្សន្តរជាតក",
+      "title_en": null,
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "jataka",
+        "kids"
+      ],
+      "lesson_count": 15,
+      "media_kinds": [
+        "acast",
+        "drive",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c081",
+      "provisional": true,
+      "title_km": "ថ្នាក់កុមារ ភូរិទត្តជាតក (២០២៥)",
+      "title_en": null,
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "jataka",
+        "kids"
+      ],
+      "lesson_count": 8,
+      "media_kinds": [
+        "drive",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c082",
+      "provisional": true,
+      "title_km": "ថ្នាក់កុមារ តេមិយជាតក (២០២៦)",
+      "title_en": null,
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "jataka",
+        "kids"
+      ],
+      "lesson_count": 4,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c083",
+      "provisional": true,
+      "title_km": "ថ្នាក់កុមារ មហោសថជាតក (២០២៦)",
+      "title_en": null,
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "jataka",
+        "kids"
+      ],
+      "lesson_count": 10,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c084",
+      "provisional": true,
+      "title_km": "ព្រះសូត្រ បិដកលេខ ១៦",
+      "title_en": null,
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 23,
+      "media_kinds": [
+        "drive",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c085",
+      "provisional": true,
+      "title_km": "ព្រះសូត្រ បិដកលេខ ១៧",
+      "title_en": null,
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 24,
+      "media_kinds": [
+        "drive",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c086",
+      "provisional": true,
+      "title_km": "ព្រះសូត្រ បិដកលេខ ១៨",
+      "title_en": null,
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 11,
+      "media_kinds": [
+        "drive",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c087",
+      "provisional": true,
+      "title_km": "ព្រះសូត្រ បិដកលេខ ១៩",
+      "title_en": null,
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 30,
+      "media_kinds": [
+        "drive",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c088",
+      "provisional": true,
+      "title_km": "ព្រះសូត្រ បិដកលេខ ២០",
+      "title_en": null,
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 91,
+      "media_kinds": [
+        "drive",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c089",
+      "provisional": true,
+      "title_km": "ព្រះសូត្រ បិដកលេខ ២១",
+      "title_en": null,
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 24,
+      "media_kinds": [
+        "drive",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c090",
+      "provisional": true,
+      "title_km": "ព្រះសូត្រ បិដកលេខ ២២",
+      "title_en": null,
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 40,
+      "media_kinds": [
+        "drive",
+        "youtube"
+      ]
+    },
+    {
+      "id": "c091",
+      "provisional": true,
+      "title_km": "ព្រះសូត្រ បិដកលេខ ២៣",
+      "title_en": null,
+      "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [
+        "sutta"
+      ],
+      "lesson_count": 11,
+      "media_kinds": [
+        "drive"
+      ]
+    },
+    {
+      "id": "c092",
+      "provisional": true,
+      "title_km": "បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត្ត",
+      "title_en": null,
+      "teacher": "ព្រះ កស្សប ហ៊ុន ខេមរា",
+      "teacher_slug": "hun-khemara",
+      "topics": [
+        "devotional"
+      ],
+      "lesson_count": 51,
+      "media_kinds": [
+        "acast",
+        "drive"
+      ]
+    },
+    {
+      "id": "c093",
+      "provisional": true,
+      "title_km": "សៀវភៅញាណទស្សនៈ មេសា ២០២៦",
+      "title_en": null,
+      "teacher": "ព្រះ កស្សប ហ៊ុន ខេមរា",
+      "teacher_slug": "hun-khemara",
+      "topics": [
+        "meditation"
+      ],
+      "lesson_count": 30,
+      "media_kinds": [
+        "drive"
+      ]
+    }
+  ]
+}

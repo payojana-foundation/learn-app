@@ -1,0 +1,253 @@
+{
+  "id": "c057",
+  "provisional": true,
+  "title_km": "Buddhism in English Level I (លោកម្ចាស់គ្រូ ស រដ្ឋា)",
+  "title_en": "Buddhism in English Level I (Ven Sor Ratha)",
+  "teacher": "លោកម្ចាស់គ្រូ ស រដ្ឋា",
+  "teacher_slug": "sor-ratha",
+  "topics": [
+    "english"
+  ],
+  "lessons": [
+    {
+      "id": "c057-l001",
+      "num": 3,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ០៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ada61d095fd135b7313f8?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l002",
+      "num": 4,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ០៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697adaebfbdedf640448ee3a?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l003",
+      "num": 5,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ០៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697adbe5b4be99fbd85e7681?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l004",
+      "num": 6,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ០៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697adc6898c18d8bdbab7593?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l005",
+      "num": 7,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ០៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ae121fbdedf640449a0e1?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l006",
+      "num": 8,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ០៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697afa7d34e93a474fbe6968?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l007",
+      "num": 9,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ០៩",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697afca5fbdedf64044cb7c8?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l008",
+      "num": 10,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ១០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697aff433718a16ceb13117c?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l009",
+      "num": 11,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ១១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697b0426d577b417ba6d8395?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l010",
+      "num": 12,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ១២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697b058ad095fd135b787c43?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l011",
+      "num": 13,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ១៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697b17cbb4be99fbd8656bd2?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l012",
+      "num": 14,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ១៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697b191ceded5f2d3c737fff?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l013",
+      "num": 15,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ១៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697b1a1cd577b417ba700780?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l014",
+      "num": 16,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ១៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697b1b2f34e93a474fc2651b?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l015",
+      "num": 17,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ១៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697b1d41f17fced4fd1940eb?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l016",
+      "num": 18,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ១៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697b1f890507f71624c166da?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l017",
+      "num": 19,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ១៩",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697b20106e7bdf10653a0b15?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l018",
+      "num": 20,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ២០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697b20cf34e93a474fc30b33?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l019",
+      "num": 21,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ២១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697b214b34e93a474fc317b3?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c057-l020",
+      "num": 22,
+      "title_km": "Buddhism in English Level I (Ven Sor Ratha) ម៉ោងទី ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697b21b134e93a474fc3250f?subscribe=false"
+        }
+      ]
+    }
+  ]
+}

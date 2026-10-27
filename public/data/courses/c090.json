@@ -1,0 +1,653 @@
+{
+  "id": "c090",
+  "provisional": true,
+  "title_km": "ព្រះសូត្រ បិដកលេខ ២២",
+  "title_en": null,
+  "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+  "teacher_slug": "yon-yi",
+  "topics": [
+    "sutta"
+  ],
+  "lessons": [
+    {
+      "id": "c090-l001",
+      "num": 1,
+      "title_km": "០១ ចូឡគោសិង្គសាលសូត្រ អំពីការសាមគ្គីរបស់ភិក្ខុក្នុងព្រៃ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1zdg3gcO-LBCXwoD8_TIuIDkQg8Vf6HJD/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/w4RaniIH328"
+        }
+      ]
+    },
+    {
+      "id": "c090-l002",
+      "num": 2,
+      "title_km": "០២ ចូឡគោសិង្គសាលសូត្រ អំពីការមានមេត្តាចិត្តរបស់ភិក្ខុ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1_qwhC_l7vB7L5kz_BmTCdV-MEWYkHaJZ/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/nVD2nJH4EYs"
+        }
+      ]
+    },
+    {
+      "id": "c090-l003",
+      "num": 3,
+      "title_km": "០៣ ចូឡគោសិង្គសាលសូត្រ ព្រៃគោសិង្គសាវនរុងរឿង/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1G6ie6VHvmK7skTHXeq6CpLs1-aDCSvIb/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xRhK4YvhsD4"
+        }
+      ]
+    },
+    {
+      "id": "c090-l004",
+      "num": 4,
+      "title_km": "០៤ ចូឡគោសិង្គសាលសូត្រ ព្រៃរុងរឿងដោយភិក្ខទ្រទ្រង់នូវគុណ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/19pz1L1iUZ8_mJmIVkwyF0T7cs8Pgyy2z/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/lhkK-wRUk3c"
+        }
+      ]
+    },
+    {
+      "id": "c090-l005",
+      "num": 5,
+      "title_km": "០៥ មហាគោសិង្គសាលសូត្រ ព្រះសារីបុត្រសួរព្រះអង្គពីព្រៃគោសិង្គ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1TCfAT8nLaQRVk3y47FSSFgktR79UgEJN/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/kp6985whiNk"
+        }
+      ]
+    },
+    {
+      "id": "c090-l006",
+      "num": 6,
+      "title_km": "០៦ មហាគោបាលសូត្រទី៣ នាយគោបាលមិនស្គាល់លក្ខណគោ១១/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1PynFjditD4vFlN4B6OWOa3GOkyUYooUQ/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/dewU_KhG91Q"
+        }
+      ]
+    },
+    {
+      "id": "c090-l007",
+      "num": 7,
+      "title_km": "០៧ មហាគោបាលសូត្រទី៣ ភិក្ខឈ្លាសក្នុងលក្ខណៈ១១យ៉ាង/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1e9AfH9nTprBy-n5n0j3NGfWdNGYSrW92/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/NRY6DrYjquk"
+        }
+      ]
+    },
+    {
+      "id": "c090-l008",
+      "num": 8,
+      "title_km": "០៨ ចូឡគោបាលសូត្រទី៤ គង្វាលគោឆ្លាតនិងមិនឆ្លាតនាំគោ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1q3oQtVLtzewkPQ3rgywVjX2jlPBNimM_/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/vdjO30pHGz4"
+        }
+      ]
+    },
+    {
+      "id": "c090-l009",
+      "num": 9,
+      "title_km": "០៩ ចូឡសច្ចកសូត្រទី៥ សច្ចនិគ្រន្ថទៅតតាំងវាទៈនឹងព្រះ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1mLebFpp2_QH68Bi2LsDxUPYX9yiOsEYh/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/DZFZ2RLzKdM"
+        }
+      ]
+    },
+    {
+      "id": "c090-l010",
+      "num": 10,
+      "title_km": "១០ ចូឡសច្ចកសូត្រទី៥ សច្ចនិគ្រន្ថព្រមទទួលកំហុស/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1ygsj48ECXvlzFKSzEKqFkgbPTbVckMUQ/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/8_J4RMWgFCI"
+        }
+      ]
+    },
+    {
+      "id": "c090-l011",
+      "num": 11,
+      "title_km": "១១ ចូឡសច្ចកសូត្រទី៥ សច្ចនិគ្រយាងព្រះអង្គទទួលចង្ហាន់/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Sbw_5CLvzS23PRN-gUyHNdWrtDUP8R5R/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/BLcElfTm2ek"
+        }
+      ]
+    },
+    {
+      "id": "c090-l012",
+      "num": 12,
+      "title_km": "១២ មហាសច្ចកសូត្រទី៦ កាយភាវនា ចិត្តភាវនា/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Trvyab5wI8nQ1BKrrEw2j6rpqGuslxV-/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/GhhS7n8EMQM"
+        }
+      ]
+    },
+    {
+      "id": "c090-l013",
+      "num": 13,
+      "title_km": "១៣ មហាសច្ចកសូត្រទី៦ ព្រះអង្គសម្តែងពីទុក្ករកិរិយា/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1A1HbpQfNnQld0NlUnn0-kRcaZRKGLeF8/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/SFG_snTl24s"
+        }
+      ]
+    },
+    {
+      "id": "c090-l014",
+      "num": 14,
+      "title_km": "១៤ ចូឡតណ្ហាសង្ខយសូត្រទី៧ ការបង្អោនចិត្តទៅកាន់និព្វាន/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1UtkFWy7WIosJ-_rPp3DmVanEGBALbZQL/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ZwGVilXN2rk"
+        }
+      ]
+    },
+    {
+      "id": "c090-l015",
+      "num": 15,
+      "title_km": "១៥ ចូឡតណ្ហាសង្ខយសូត្រទី៧ ព្រះមហាមោគ្គល្លានធ្វើឱ្យព្រះឥន្ទតក់ស្លុត/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1H40wJdDqqcprFvyDrAVTVNK4oZOsFVRk/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xIxtpyy1XmI"
+        }
+      ]
+    },
+    {
+      "id": "c090-l016",
+      "num": 16,
+      "title_km": "១៦ មហាតណ្ហាសង្ខយសូត្រទី៨ សាតិភិក្ខុមានទិដ្ឋិអាក្រក់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1SrIYgiKPBEg_992HH4odgfgwJc-fxmFh/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/qRqxON6zWy4"
+        }
+      ]
+    },
+    {
+      "id": "c090-l017",
+      "num": 17,
+      "title_km": "១៧ មហាតណ្ហាសង្ខយសូត្រទី៨ សម្តែងពីបដិច្ចសមុប្បាទធម៌",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1RU9st_ZGQNIQ_pkSiT9qtS0FW0sK0ttm/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/CJX8Sdj_pD4"
+        }
+      ]
+    },
+    {
+      "id": "c090-l018",
+      "num": 18,
+      "title_km": "១៨ មហាតណ្ហាសង្ខយសូត្រទី៨ ទឹកដោះម៉ែដូចទឹកឈាមជាដើម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1lR03RrbPhR_UQc3Cdx8sQwlCf2HKGk6x/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Ij26mTEbrJk"
+        }
+      ]
+    },
+    {
+      "id": "c090-l019",
+      "num": 19,
+      "title_km": "១៩ មហាអស្សបុរសូត្រទី៩ កាយ វាចា ចិត្តបរិសុទ្ធ និងមិនបរិសុទ្ធ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1dUffbOPjr_RstMBoC-_lYC9CMnK-BLk7/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Jxmt6-hq09Q"
+        }
+      ]
+    },
+    {
+      "id": "c090-l020",
+      "num": 20,
+      "title_km": "២០ មហាអស្សបុរសូត្រទី៩ សេចក្តីសុខក្នុងឈាននិងអស់អាសវ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/146i0k-jbu27Dueg46M1C4YgKHNnr0VEG/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/QOllU8u_yrM"
+        }
+      ]
+    },
+    {
+      "id": "c090-l021",
+      "num": 21,
+      "title_km": "២១ ចូឡអស្សបុរសូត្រទី១០ ការបដិបត្តិខុសនិងត្រូវរបស់សមណ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/16ooWA5_uvOrxKI3YcP-RT92nnBiLCNpT/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/2bmzOJf7HrA"
+        }
+      ]
+    },
+    {
+      "id": "c090-l022",
+      "num": 22,
+      "title_km": "២២ សាលេយ្យកសូត្រទី១ ផលនៃការប្រព្រឹត្តស្មើនិងមិនស្មើ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/12vJIOWxOceOKZhP1YdQ19DAIh4s5EZ-Z/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/PEWj6YWwg4Y"
+        }
+      ]
+    },
+    {
+      "id": "c090-l023",
+      "num": 23,
+      "title_km": "២៣ វេរញ្ជកសូត្រទី២ និងមហាវេទល្លសូត្រទី៣ពីការសួរ៥ យ៉ាង/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Uxvrk3Ob_Z3xZCdWnOQOsS6kzBSkBc13/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/AebIMGs12mE"
+        }
+      ]
+    },
+    {
+      "id": "c090-l024",
+      "num": 24,
+      "title_km": "២៤ មហាវេទល្លសូត្រទី៣ សួរអំពីប្រាជ្ញានិងវិញ្ញាណខុសគ្នាឬទេ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1FrQ5ChFDQfcBNdTTPBt2rPJPmEiMRy_1/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/JjJH1lJxuHM"
+        }
+      ]
+    },
+    {
+      "id": "c090-l025",
+      "num": 25,
+      "title_km": "២៥ មហាវេទល្លសូត្រទី៣ សួរអំពីវេទនា សញ្ញា វិញ្ញាផ្សេងគ្នាឬទេ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1J-P5hzzHUQzun3kQwGe5Ujyp6fZNWQX5/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/H0mtADsBJ1c"
+        }
+      ]
+    },
+    {
+      "id": "c090-l026",
+      "num": 26,
+      "title_km": "២៦ មហាវេទល្លសូត្រទី៣ សួរអំពីឥន្រ្ទិយ៥ ជាដើម/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1L1tCdP8r0V2sxbe6QzWesrvjHm2xyg2R/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/oNgeFQd6s9c"
+        }
+      ]
+    },
+    {
+      "id": "c090-l027",
+      "num": 27,
+      "title_km": "២៧ មហាវេទល្លសូត្រទី៣ សួរអំពីៈអាយុ ភ្លើងធាតុជាដើម/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/15PzU9kaAO4MVPDL3jgIZoqtc_jMwDMUh/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/RV3CDUhPHeQ"
+        }
+      ]
+    },
+    {
+      "id": "c090-l028",
+      "num": 28,
+      "title_km": "២៨ ចូឡវេទល្លសូត្រទី៤ វិសាខឧបាសកសួរពីសក្កាយទិដ្ឋិជាដើម/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1nMMycBFBXJbM8oFgHJY6SZ0-0eBR4o-7/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/b-rqv78yYiw"
+        }
+      ]
+    },
+    {
+      "id": "c090-l029",
+      "num": 29,
+      "title_km": "២៩ ចូឡវេទល្លសូត្រទី៤ វិសាខឧបាសកសួរការចូលនិរោធជាដើម/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1-jjNU4ZII7dppEt7059TOhQopdSp7GxL/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/H0mCAa24oF0"
+        }
+      ]
+    },
+    {
+      "id": "c090-l030",
+      "num": 30,
+      "title_km": "៣០ ចូឡវេទល្លសូត្រទី៤ វិសាខសួរពីការអនុស័យដេកត្រាំក្នុងវេទនា/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1SvUGuPOftQkE-uPfP72rdHTe0JjWdjdt/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/1lxgbYspna0"
+        }
+      ]
+    },
+    {
+      "id": "c090-l031",
+      "num": 31,
+      "title_km": "៣១ ចូឡធម្មសមាទានសូត្រទី៥ ការសមាទានមាន៤យ៉ាង/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1r0byKNQ5zi5h-dvoAzZ9mkSe2xJtPcxj/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/WtR8wm8XwfU"
+        }
+      ]
+    },
+    {
+      "id": "c090-l032",
+      "num": 32,
+      "title_km": "៣២ មហាធម្មសមាទានសូត្រទី៦ មហាសមាទានមាន៤/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/15J5eRnDKzbMxkOZq3Qfbe8xE2zzaQ6QX/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/65OPE0_OvJE"
+        }
+      ]
+    },
+    {
+      "id": "c090-l033",
+      "num": 33,
+      "title_km": "៣៣ មហាធម្មសមាទានសូត្រទី៦ ឧបមាមហាធម្មសមាទាន/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1rWbH0ufdRW0oUuitfdpwZ4ZEHY1uzmSk/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/VhxWt5I9iGw"
+        }
+      ]
+    },
+    {
+      "id": "c090-l034",
+      "num": 34,
+      "title_km": "៣៤ វីមំសកសូត្រទី ៧ ការដឹងព្រះពុទ្ធដោយហេតុ២/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/14hf4-0yNCg6czcQENWjwIQoDfNLt78iW/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/mQdVBuoDt1I"
+        }
+      ]
+    },
+    {
+      "id": "c090-l035",
+      "num": 35,
+      "title_km": "៣៥ វីមំសកសូត្រទី ៧ សោតាបត្តិបន្នមានសទ្ធាមិនកម្រើកជាដើម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1FU66VXocGh2aItOKQuiteOg-KnNJqLCh/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ieTwrZf2Grc"
+        }
+      ]
+    },
+    {
+      "id": "c090-l036",
+      "num": 36,
+      "title_km": "៣៦ កោសម្ពិយសូត្រទី៧ សារាណីយធម៌ ៦ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1LaDytv9L78DwywB6qYldQAoR7l0Rwq6N/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xRpUWGv7YU0"
+        }
+      ]
+    },
+    {
+      "id": "c090-l037",
+      "num": 37,
+      "title_km": "៣៧ កោសម្ពិយសូត្រទី៧ ពន្យល់សាធារណភោគី សីលសាមញ្ញតា ទិដ្ឋិសាមញ្ញតា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1tObUWAyLGP2eOvKV_8obe8dD5C1E-2Uj/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/L94aVWKUMgE"
+        }
+      ]
+    },
+    {
+      "id": "c090-l038",
+      "num": 38,
+      "title_km": "៣៨ ព្រហ្មនិមន្តនិកសូត្រទី៩ ទ្រង់យ៉ាងទៅដោះទិដ្ឋីរបស់ព្រហ្ម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1gndDZ0scUlYpKExJo-K2AMai_LNFlTPz/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/DLww2wZoSqY"
+        }
+      ]
+    },
+    {
+      "id": "c090-l039",
+      "num": 39,
+      "title_km": "៣៩ មារតជ្ជនីយសូត្រទី៩ មារចូលក្នុងពោះព្រះមោគ្គល្លាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1B2H5IvzZDGQ9HQxlGTjuIs3oOSGatUqY/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/vUD-fZo_C9g"
+        }
+      ]
+    },
+    {
+      "id": "c090-l040",
+      "num": 40,
+      "title_km": "៤០ មារតជ្ជនីយសូត្រទី១០ មារធ្លាក់នរកព្រោះបៀតបៀនអគ្គសាវ័កចប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1f1tmTS1CyscKLsJJw0UYqIJ7SMZ6vkH_/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xWWYZEbgWe0"
+        }
+      ]
+    }
+  ]
+}

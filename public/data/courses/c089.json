@@ -1,0 +1,397 @@
+{
+  "id": "c089",
+  "provisional": true,
+  "title_km": "ព្រះសូត្រ បិដកលេខ ២១",
+  "title_en": null,
+  "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+  "teacher_slug": "yon-yi",
+  "topics": [
+    "sutta"
+  ],
+  "lessons": [
+    {
+      "id": "c089-l001",
+      "num": 1,
+      "title_km": "បិដកលេខ២១-០១ កកចូបមសូត្រ ការនៅច្រឡូកច្រឡំជាមួយភិក្ខុនី និងឆាន់ក្នុងអាសនៈតែមួយ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1CQJEpXDtcEBE6CiEljjvGAULEc58ciJK/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/SuSM7wDnfM0"
+        }
+      ]
+    },
+    {
+      "id": "c089-l002",
+      "num": 2,
+      "title_km": "បិដកលេខ២១-០២ កកចូបមសូត្រ ការអប់រំចិត្តមិនឱ្យមានទោសៈកើត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1SsjJ4t2ITYE3vAgZN_-hCR1_VvburBS9/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/AzKt-hpnc3s"
+        }
+      ]
+    },
+    {
+      "id": "c089-l003",
+      "num": 3,
+      "title_km": "បិដកលេខ២១-០៣ អលគទ្ទូបមសូត្រ អរិដ្ឋភិក្ខុមានទិដ្ឋិអាក្រក់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1trEIUyXiJT1aktQemKAi5hYuuaS0WvID/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/6ZtM9565XMA"
+        }
+      ]
+    },
+    {
+      "id": "c089-l004",
+      "num": 4,
+      "title_km": "បិដកលេខ២១-០៤ អលគទ្ទូបមសូត្រ ការសិក្សាពុទ្ធវចនៈដោយល្អ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Soi29yaXuSuUUo0kfvsu9LrK8WownpXp/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/UsaQA0DRL4k"
+        }
+      ]
+    },
+    {
+      "id": "c089-l005",
+      "num": 5,
+      "title_km": "បិដកលេខ២១-០៥ អលគទ្ទូបមសូត្រ ការលះបង់តណ្ហា ទិដ្ឋិ មានះ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1chxy1IByaYrOc1gzO-aHTV9zKNyKUe9c/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/GfwJDKpXeR4"
+        }
+      ]
+    },
+    {
+      "id": "c089-l006",
+      "num": 6,
+      "title_km": "បិដកលេខ២១-០៦ អលគទ្ទូបមសូត្រ ពួកទេវតា ព្រហ្ម រកព្រះខីណាស្រពមិនឃើញ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1m5DELaziZxgsMAc5gER9mAFHo79fE8-V/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/OApHaO9ybrs"
+        }
+      ]
+    },
+    {
+      "id": "c089-l007",
+      "num": 7,
+      "title_km": "បិដកលេខ២១-០៧ វម្មិកសូត្រ ទេវតាសួរប្រស្នា១៥ នឹងកុមារកស្សបៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1qTVz-5UtvqpsFV1pvOT2fP8feez3dj9_/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/I7p_o15ZE_0"
+        }
+      ]
+    },
+    {
+      "id": "c089-l008",
+      "num": 8,
+      "title_km": "បិដកលេខ២១-០៨ វម្មិកសូត្រ ចម្លើយប្រស្នាទាំង ១៥ របស់ព្រះពុទ្ធភាគបញ្ចប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1d9As_1x1VsmcodwzGtm8Yb7ey6QIBcqy/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/2nxWkai06Bg"
+        }
+      ]
+    },
+    {
+      "id": "c089-l009",
+      "num": 9,
+      "title_km": "បិដកលេខ២១-០៩ រថវិនីតសូត្រ កថាវត្ថុ និងអ្នកបដិបត្តិ ៤ ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1IGBeZcPpHs4MaKqjA3e4RFbmItcEyOZn/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/t3GwAkhvZvA"
+        }
+      ]
+    },
+    {
+      "id": "c089-l010",
+      "num": 10,
+      "title_km": "បិដកលេខ២១-១០ រថវិនីតសូត្រ សំសគ្គៈច្រឡូកច្រឡំមាន ៥ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1GbwUXdZLDwmhC9oiD9rtpmh_wtkb-Fe6/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/wHbeYD6-H20"
+        }
+      ]
+    },
+    {
+      "id": "c089-l011",
+      "num": 11,
+      "title_km": "បិដកលេខ២១-១១ រថវិនីតសូត្រ ការបានលាភ ៥ យ៉ាង ការសរសើរព្រះមន្តាណីបុត្រ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1a-ypH6-Ned34KP1Mm75jisWx20x033NW/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Lb6AvQdPHS8"
+        }
+      ]
+    },
+    {
+      "id": "c089-l012",
+      "num": 12,
+      "title_km": "បិដកលេខ២១-១២ រថវិនីតសូត្រ សំណួរព្រះសារីបុត្រពីវិសុទ្ធិ ៧ ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1okeSGDGnCmYM41TPd_rX5hm2S6LnRwAU/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/DC8_jRkuED8"
+        }
+      ]
+    },
+    {
+      "id": "c089-l013",
+      "num": 13,
+      "title_km": "បិដកលេខ២១-១៣ និវាបសូត្រ ការប្រៀបធៀបម្រឹគនិងការប្រមាទ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បដិកលេខ២១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1thaJ84NQnsa-Um6EWf1qsTyWE08w-Rho/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/CvGycKvVvz0"
+        }
+      ]
+    },
+    {
+      "id": "c089-l014",
+      "num": 14,
+      "title_km": "បិដកលេខ២១-១៤ បាសរាសិសូត្រ ការស្វែករកមិនប្រសើរតើដូចម្តេច?/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បដិកលេខ២១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1MLSGfL_UpgU0NNTaFwMIXnCli2ddCUhP/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/snrUmolmaog"
+        }
+      ]
+    },
+    {
+      "id": "c089-l015",
+      "num": 15,
+      "title_km": "បិដកលេខ២១-១៥ បាសរាសិសូត្រ ការស្វែករកប្រសើរតើដូចម្តេច?/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បដិកលេខ២១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1lBKS-7moZL_f-YZ6QTDEUHA95hPlQZ4P/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xwUDpnu8ovs"
+        }
+      ]
+    },
+    {
+      "id": "c089-l016",
+      "num": 16,
+      "title_km": "បិដកលេខ២១-១៦ បាសរាសិសូត្រ ព្រះអង្គទទួលសម្តែងធម៌ពីព្រហ្ម/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1RW-T6gsg7YlU55STf6TZZxiQ4UCKcf5_/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/plFYX7vbNQw"
+        }
+      ]
+    },
+    {
+      "id": "c089-l017",
+      "num": 17,
+      "title_km": "បិដកលេខ២១-១៧ បាសរាសិសូត្រ ការយាងទៅប្រោសដល់បញ្ចវគ្គីយតាបស/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1podoZk4X7XPGrWJfmd9r5O7Nt68N11vX/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/JdFRTviPeE4"
+        }
+      ]
+    },
+    {
+      "id": "c089-l018",
+      "num": 18,
+      "title_km": "បិដកលេខ២១-១៨ បាសរាសិសូត្រ ជាប់ចំណងរបស់មារដោយមិនពិចារណាបច្ច័យ៤ /ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1QIP9kUyMnyXFRwF1cbXRIH41ouB09NIa/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/b8WJo6jrVq4"
+        }
+      ]
+    },
+    {
+      "id": "c089-l019",
+      "num": 19,
+      "title_km": "បិដកលេខ២១-១៩ ចូឡហត្ថិបទោបមសូត្រ អំពីៈឧបមាអ្នកទៅរកដំរីក្នុងព្រៃ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1x-JGQ3IQYOOEZawOJ0E4JAYkHGSG6PcJ/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/igM61iVa8-I"
+        }
+      ]
+    },
+    {
+      "id": "c089-l020",
+      "num": 20,
+      "title_km": "បិដកលេខ២១-២០ ចូឡហត្ថិបទោបមសូត្រ ការប្រកាសសម្តែងធម៌មានលម្អ៣បទ /ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1xR-NQV8jzxApoZebPYcsu-U7kQBLYvIB/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/YxoyRS9KnOI"
+        }
+      ]
+    },
+    {
+      "id": "c089-l021",
+      "num": 21,
+      "title_km": "បិដកលេខ២១-២១ ចូឡហត្ថិបទោបមសូត្រ ការសង្រួមក្នុងសីលរបស់ភិក្ខុ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1e15sdv0NExOXCb8uCj_SGemHE_5cudU2/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/nFhXnq7oHss"
+        }
+      ]
+    },
+    {
+      "id": "c089-l022",
+      "num": 22,
+      "title_km": "បិដកលេខ២១-២២ មហាហត្ថិបទោបមសូត្រ កុសលណាមួយប្រជុំចុះក្នុងសច្ចៈ៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1utzjC_27h2me8uC1LDAoP-uCbsnjoF_k/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/-RtSgNkYnns"
+        }
+      ]
+    },
+    {
+      "id": "c089-l023",
+      "num": 23,
+      "title_km": "បិដកលេខ២១-២៣ មហាហត្ថិបទោបមសូត្រ ការលះបង់នូវសេចក្តីប្រកាន់ក្នុងធាតុ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1vP36aqzJS-FpO5uLy26MVhs2nYgArEwA/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/qtiZklYd8Lg"
+        }
+      ]
+    },
+    {
+      "id": "c089-l024",
+      "num": 24,
+      "title_km": "បិដកលេខ២១-២៤ មហាសារោបមសូត្រ ការប្រៀបធៀបអ្នករកខ្លឹមឈើ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1wr9O6GhLSijGZYa0AIkZ88I9GXWAx_MY/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/G54BuogZ5vA"
+        }
+      ]
+    }
+  ]
+}

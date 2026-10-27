@@ -1,0 +1,2701 @@
+{
+  "id": "c074",
+  "provisional": true,
+  "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី1 (2023)",
+  "title_en": "Abhidhamma Chapter 1 (2023)",
+  "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+  "teacher_slug": "yon-yi",
+  "topics": [
+    "abhidhamma"
+  ],
+  "lessons": [
+    {
+      "id": "c074-l001",
+      "num": 1,
+      "title_km": "០២ ប្រយោជន៍នៃការសិក្សាព្រះអភិធម្ម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743e1625f96507d493dd620?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ooFqsjJArEA"
+        }
+      ]
+    },
+    {
+      "id": "c074-l002",
+      "num": 2,
+      "title_km": "០៣ និយមន័យ ពាក្យថា អភិធម្ម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743e44b8beb305103cef479?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Sz4avLj3tQQ"
+        }
+      ]
+    },
+    {
+      "id": "c074-l003",
+      "num": 3,
+      "title_km": "០៤ និយមន័យ បរមត្ថធម៌",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743e8655f96507d493ee09e?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/6QCBXImJ3tE"
+        }
+      ]
+    },
+    {
+      "id": "c074-l004",
+      "num": 4,
+      "title_km": "០៥ លក្ខណៈប្រចាំ២គឺសាមញ្ញលក្ខណ វិសេសលក្ខណៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743e8f55f96507d493ef2a9?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/2RF62GxaA4M"
+        }
+      ]
+    },
+    {
+      "id": "c074-l005",
+      "num": 5,
+      "title_km": "០៦ ព្រះអង្គសម្តែងសម្មតិសច្ចៈដោយហេតុ៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743e9b95f96507d493f1002?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/pIdpD4sBJoA"
+        }
+      ]
+    },
+    {
+      "id": "c074-l006",
+      "num": 6,
+      "title_km": "០៧ និយមន័យរបស់ចិត្តបរមត្ថ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743ea75a96cb67b63a248cc?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Eju3qPfPg94"
+        }
+      ]
+    },
+    {
+      "id": "c074-l007",
+      "num": 7,
+      "title_km": "០៨ វេវចនៈរបស់ចិត្តមាន១០ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743eb3ba96cb67b63a26770?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/zg-Gm6i1als"
+        }
+      ]
+    },
+    {
+      "id": "c074-l008",
+      "num": 8,
+      "title_km": "០៩ អំណាចរបស់ចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743ecee5f96507d493f83bf?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/7HOHrCBE96o"
+        }
+      ]
+    },
+    {
+      "id": "c074-l009",
+      "num": 9,
+      "title_km": "១០ ពន្យល់គាថាសម្តែងអំពីចិត្តជាប្រធាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743ed748beb305103d07ae3?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/vT5q8nVjy7s"
+        }
+      ]
+    },
+    {
+      "id": "c074-l010",
+      "num": 10,
+      "title_km": "11 ពាក្យថា អកុសលចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743ef088beb305103d0c036?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xIxpcRA4Rvw"
+        }
+      ]
+    },
+    {
+      "id": "c074-l011",
+      "num": 11,
+      "title_km": "12 លោភមូលចិត្តដួងទី ១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743ef7e8beb305103d0d0a4?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/yDrckk8pumc"
+        }
+      ]
+    },
+    {
+      "id": "c074-l012",
+      "num": 12,
+      "title_km": "13 លោភមូលចិត្តដួងទី ១ ,២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743f0005f96507d49400527?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/f1n4OyreIQE"
+        }
+      ]
+    },
+    {
+      "id": "c074-l013",
+      "num": 13,
+      "title_km": "14 លោភមូលចិត្តដួងទី ៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743f16ba96cb67b63a3430f?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Jqp4tO6ooB4"
+        }
+      ]
+    },
+    {
+      "id": "c074-l014",
+      "num": 14,
+      "title_km": "15 មានះ មាន៩ យ៉ាងមេរៀនលោភដួងទី៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743f42b5f96507d49409908?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ycKcr7THh6k"
+        }
+      ]
+    },
+    {
+      "id": "c074-l015",
+      "num": 15,
+      "title_km": "16 លោភមូលចិត្តដួងទី៤​,៥​ ៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6743f49f61ef1e663f7e702d?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/4e0VRb4Ny2o"
+        }
+      ]
+    },
+    {
+      "id": "c074-l016",
+      "num": 16,
+      "title_km": "17 លោភមូលចិត្តដួងទី ៧ ទី ៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67440d26a96cb67b63a85dbb?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/2kTFw5M1644"
+        }
+      ]
+    },
+    {
+      "id": "c074-l017",
+      "num": 17,
+      "title_km": "18 ហេតុនាំឱ្យកើតលោភមូលចិត្តមាន៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67440da8a96cb67b63a87dfc?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/LvPSCD7OmA4"
+        }
+      ]
+    },
+    {
+      "id": "c074-l018",
+      "num": 18,
+      "title_km": "19 ហេតុនាំឱ្យកើតទិដ្ឋិគតសម្បយុត្តចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67440e778beb305103d74722?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/msI6E-4H7aE"
+        }
+      ]
+    },
+    {
+      "id": "c074-l019",
+      "num": 19,
+      "title_km": "20 ហេតុនាំឱ្យកើតទិដ្ឋិគតវិប្បយុត្តចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67440f04041fb70e9cebe2df?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/wYGKVM5J6U0"
+        }
+      ]
+    },
+    {
+      "id": "c074-l020",
+      "num": 20,
+      "title_km": "21 ហេតុនាំឱ្យកើតសោមនស្សនិងឧបេក្ខា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67440fb15f96507d49462112?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/MrGuMqlqIUY"
+        }
+      ]
+    },
+    {
+      "id": "c074-l021",
+      "num": 21,
+      "title_km": "22 វិធីសង្កេតលោភមូលចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674418c261ef1e663f864e27?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/RRrJuWYM_20"
+        }
+      ]
+    },
+    {
+      "id": "c074-l022",
+      "num": 22,
+      "title_km": "23 ចែកលោភមូលចិត្តដោហេតុដល់កិច្ច",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6744193a7099d3a482aaf3a5?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/h6GMVajM_hA"
+        }
+      ]
+    },
+    {
+      "id": "c074-l023",
+      "num": 23,
+      "title_km": "24 ចែកលោភមូលចិត្តដោន័យផ្សេងបញ្ចប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67441abc7e1ecb0d23ded578?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/WYE29c8kgCg"
+        }
+      ]
+    },
+    {
+      "id": "c074-l024",
+      "num": 24,
+      "title_km": "25 និយមន័យទោសមូលចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67441b1b7e1ecb0d23dee39c?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/_rFJMFnj6ls"
+        }
+      ]
+    },
+    {
+      "id": "c074-l025",
+      "num": 25,
+      "title_km": "26 លក្ខណាទិចតុក្កៈរបស់ទោសៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67441c4aea5afb61986799c8?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/uhMtjyRVDLk"
+        }
+      ]
+    },
+    {
+      "id": "c074-l026",
+      "num": 26,
+      "title_km": "27 ហេតុនាំឱ្យកើតទោសមូលចិត្តមាន៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67441ca27e1ecb0d23df2c21?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/hFiwbKI19jk"
+        }
+      ]
+    },
+    {
+      "id": "c074-l027",
+      "num": 27,
+      "title_km": "28 វិធីចម្រើនមេត្តាចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67441dd77099d3a482abca18?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Q4MBx50hgUM"
+        }
+      ]
+    },
+    {
+      "id": "c074-l028",
+      "num": 28,
+      "title_km": "29 ផ្សាយមេត្តាទៅកាន់បុគ្គលផ្សេងតាមលំដាប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67441ecb7e1ecb0d23df9d00?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/TVxw7kw3jQ8"
+        }
+      ]
+    },
+    {
+      "id": "c074-l029",
+      "num": 29,
+      "title_km": "30 មេត្តសូត្រ សម្តែងរឿងភិក្ខុចម្រើនមេត្តា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67441f3a7e1ecb0d23dfb518?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/626zPF5Z4dY"
+        }
+      ]
+    },
+    {
+      "id": "c074-l030",
+      "num": 30,
+      "title_km": "31 មេត្តសូត្រ អធិប្បាយតាមអដ្ឋកថាបិដក៥៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67441f931660fc39e1d85248?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Qz54DAhZXuo"
+        }
+      ]
+    },
+    {
+      "id": "c074-l031",
+      "num": 31,
+      "title_km": "32 ពិចារណាកម្មដើម្បីលះបង់ទោសមូលចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674420ba7e1ecb0d23e03e86?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/AJsDJnG1frM"
+        }
+      ]
+    },
+    {
+      "id": "c074-l032",
+      "num": 32,
+      "title_km": "33 ការពិចារណាពុទ្ធោវាទដើម្បីលះទោសៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674421c2ea5afb619868cf3f?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ZRVALF02AlY"
+        }
+      ]
+    },
+    {
+      "id": "c074-l033",
+      "num": 33,
+      "title_km": "34 អានិសង្សនៃការចម្រើនមេត្តាមាន១១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674423aa0c74f32850a5b9f0?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/LKM94jVd0cA"
+        }
+      ]
+    },
+    {
+      "id": "c074-l034",
+      "num": 34,
+      "title_km": "35 វិធីឈ្នះមនុស្ស ៤ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674424360c74f32850a5dacd?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/eauZkmVfUhc"
+        }
+      ]
+    },
+    {
+      "id": "c074-l035",
+      "num": 35,
+      "title_km": "36 ចែកទោសមូលចិត្តដោយន័យផ្សេងៗ ១៤ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6744251d7e1ecb0d23e15cfb?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/V6RVRbgH6Dg"
+        }
+      ]
+    },
+    {
+      "id": "c074-l036",
+      "num": 36,
+      "title_km": "37 និយមន័យមោហមូលចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674458ffc11fbabc619d0254?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/fNz2p3VP61I"
+        }
+      ]
+    },
+    {
+      "id": "c074-l037",
+      "num": 37,
+      "title_km": "39 មោហៈការមិនដឹងក្នុងនិរោធ និងមគ្គ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67445991507c8fc412de263e?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/CUolil-F0Z0"
+        }
+      ]
+    },
+    {
+      "id": "c074-l038",
+      "num": 38,
+      "title_km": "40 អវិជ្ជាមិនដឹងខន្ធ អាយតនៈ ធាតុ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67445a17507c8fc412de3eb1?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/j27Bpcxt2CU"
+        }
+      ]
+    },
+    {
+      "id": "c074-l039",
+      "num": 39,
+      "title_km": "41 ពន្យល់វិចិកិច្ឆា និងឧទ្ធច្ចៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67458a824c0ab9283371a79d?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/JZhCIR73xOQ"
+        }
+      ]
+    },
+    {
+      "id": "c074-l040",
+      "num": 40,
+      "title_km": "42 ពន្យល់ការដល់ព្រះសរណគមន៍",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67458f964c0ab9283373711e?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/mJUthmMWt_A"
+        }
+      ]
+    },
+    {
+      "id": "c074-l041",
+      "num": 41,
+      "title_km": "43 ពន្យល់ពាក្យថា ព្រះពុទ្ធ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6745909d94fd5385c070357c?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/mEJLWGoUK7o"
+        }
+      ]
+    },
+    {
+      "id": "c074-l042",
+      "num": 42,
+      "title_km": "44 ពន្យល់ពាក្យថា បារមី ទាន សីល នេក្ខម្ម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674593e694fd5385c070df7a?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/5Vkbe_uBqSk"
+        }
+      ]
+    },
+    {
+      "id": "c074-l043",
+      "num": 43,
+      "title_km": "45 ពន្យល់ពាក្យថា បារមី បញ្ចប់ទាំង ៣០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6745992709eb55328a45bba6?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/n8FY6T3VxUw"
+        }
+      ]
+    },
+    {
+      "id": "c074-l044",
+      "num": 44,
+      "title_km": "46 ព្រះពុទ្ធគុណ​ អរហំ សម្មាសម្ពុទ្ធោ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67459a6a9db9c8215ca9cc89?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/g-IPod4HQEs"
+        }
+      ]
+    },
+    {
+      "id": "c074-l045",
+      "num": 45,
+      "title_km": "47 ព្រះពុទ្ធគុណ​ វិជ្ជាចរណសម្បន្នោ សុគតោ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67459e6d9db9c8215caaed84?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/hTxm6jvMK88"
+        }
+      ]
+    },
+    {
+      "id": "c074-l046",
+      "num": 46,
+      "title_km": "48 លោកវិទូ​ ទ្រង់ជ្រាបនូវវិញ្ញាណឋិតិ ៧ ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6745a11694fd5385c0743503?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/8eOwNVmkUZI"
+        }
+      ]
+    },
+    {
+      "id": "c074-l047",
+      "num": 47,
+      "title_km": "49 លោកវិទូ​ ទ្រង់ជ្រាបធម៌៨ គឺលោកធម៌ទាំង ៨ ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6745a394d2e92c514d72d023?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/b7jxtp4ThaA"
+        }
+      ]
+    },
+    {
+      "id": "c074-l048",
+      "num": 48,
+      "title_km": "50 លោកវិទូ ទ្រង់ជាបនូវសត្វលោក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6745a4f109eb55328a48ecbd?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/5KMV5uMDiXM"
+        }
+      ]
+    },
+    {
+      "id": "c074-l049",
+      "num": 49,
+      "title_km": "51 អនុត្តរោ ទ្រង់ប្រសើរលើសដោយសីលាទិគុណជាដើម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6745a60118aa9bd671450f86?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/WYVFo88Yn-A"
+        }
+      ]
+    },
+    {
+      "id": "c074-l050",
+      "num": 50,
+      "title_km": "52 និយមន័យធុតង្គ បង្សុកូលិកង្គ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6745a6ddd2e92c514d74024c?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/R6tcDb50Efk"
+        }
+      ]
+    },
+    {
+      "id": "c074-l051",
+      "num": 51,
+      "title_km": "53 តេចីវរិកង្គធុតង្គ បិណ្ឌបាតិកង្គធុតង្គ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67467840013b71e4f3e1a683?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/g-z9CmPQ-88"
+        }
+      ]
+    },
+    {
+      "id": "c074-l052",
+      "num": 52,
+      "title_km": "54 សបទានចារិកង្គធុតង្គ និងឯកាសនិកង្គធុតង្គ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67467adf130a52551c0605cc?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/2j-vh-uf_uY"
+        }
+      ]
+    },
+    {
+      "id": "c074-l053",
+      "num": 53,
+      "title_km": "55 បត្តបិណ្ឌក ខលុបច្ឆាភត្តិ អារញ្ញិកង្គធុតង្គ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67467d7cb505b826d73552b7?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/bJDjhrgg-aY"
+        }
+      ]
+    },
+    {
+      "id": "c074-l054",
+      "num": 54,
+      "title_km": "56 រុក្ខមូលិកង្គ អព្ភោកាសិកង្គ សោសានិកង្គ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67467f2e130a52551c0748cb?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/uKXPvn-6BVY"
+        }
+      ]
+    },
+    {
+      "id": "c074-l055",
+      "num": 55,
+      "title_km": "57 យថាសន្ថិកង្គ និងនេសជ្ជិកង្គធុតង្គ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746843e130a52551c083abe?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/KpOEhPnhokg"
+        }
+      ]
+    },
+    {
+      "id": "c074-l056",
+      "num": 56,
+      "title_km": "58 ទ្រង់ព្រះនាមថា បុរិសទម្មសារថិ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746868e130a52551c08cebe?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/2hEDVjJ5_wQ"
+        }
+      ]
+    },
+    {
+      "id": "c074-l057",
+      "num": 57,
+      "title_km": "59 សត្ថាទេវមនុស្សានំ ពុទ្ធោ ភគវា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67468958192de2e6cadc0635?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Ofru4QLdSDQ"
+        }
+      ]
+    },
+    {
+      "id": "c074-l058",
+      "num": 58,
+      "title_km": "60 ធម្មគុណ​ ស្ខាក្ខាតោ ភគវតា ធម្មោ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67468a972cb64db953d548c0?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/H4-Hk4xYQmo"
+        }
+      ]
+    },
+    {
+      "id": "c074-l059",
+      "num": 59,
+      "title_km": "61 ធម្មគុណ​ និយមន័យព្រះត្រៃបិដក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67468caf2cb64db953d5d034?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/5ORbV27MF50"
+        }
+      ]
+    },
+    {
+      "id": "c074-l060",
+      "num": 60,
+      "title_km": "62 ធម្មគុណ​ព្រះអង្គសម្តែងព្រះត្រៃមានន័យផ្សេងគ្នា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67469114013b71e4f3e792ed?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/wTbHwgos-Ts"
+        }
+      ]
+    },
+    {
+      "id": "c074-l061",
+      "num": 61,
+      "title_km": "63 ធម្មគុណ ​សន្ទិដ្ឋិកោ អកាលិកោ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674693652cb64db953d7bdc6?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/BLV8Sy7N-NY"
+        }
+      ]
+    },
+    {
+      "id": "c074-l062",
+      "num": 62,
+      "title_km": "64 សង្ឃគុណ ​សុបដិបន្នោ ឧជុ ញាយ សាមីចិ យទិទំ ចត្តារិ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674696e4013b71e4f3e8f251?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/iyd4YjGqm7Q"
+        }
+      ]
+    },
+    {
+      "id": "c074-l063",
+      "num": 63,
+      "title_km": "65 សង្ឃគុណ ​អាហុណេយ្យោ ដល់បុញ្ញេក្ខេត្តំ លោកស្ស",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67469aa7130a52551c0d2a5f?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/PgYPuR0EQi0"
+        }
+      ]
+    },
+    {
+      "id": "c074-l064",
+      "num": 64,
+      "title_km": "66 បាដិបុគ្គលិកទាន ១៤ យ៉ាង និងវេលាមសូត្រ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67469ba1013b71e4f3e9f921?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/jhKi9ra_xUo"
+        }
+      ]
+    },
+    {
+      "id": "c074-l065",
+      "num": 65,
+      "title_km": "67 សម្បត្តិរបស់ឧបាសក ឧបាសិកាមាន ៥ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67469e16013b71e4f3ea5ffd?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/q79l1OvXQdg"
+        }
+      ]
+    },
+    {
+      "id": "c074-l066",
+      "num": 66,
+      "title_km": "68 ការដល់ព្រះត្រៃសរណគមនមាន ៤ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67469f31192de2e6cae0f914?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/VVWY4NM6szg"
+        }
+      ]
+    },
+    {
+      "id": "c074-l067",
+      "num": 67,
+      "title_km": "69 សេចក្តីសង្ស័យ ៨ យ៉ាង និងសង្ស័យ ១៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746a0392cb64db953da66e5?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/a_4Ay9SJ_tI"
+        }
+      ]
+    },
+    {
+      "id": "c074-l068",
+      "num": 68,
+      "title_km": "70 ហេតុលះបង់វិចិកិច្ឆា និងឧទ្ធច្ចចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746a0fbb505b826d73d5726?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/LoL1P2OwsG0"
+        }
+      ]
+    },
+    {
+      "id": "c074-l069",
+      "num": 69,
+      "title_km": "71 សំណួរចម្លើយរម្លឹកអកុសលចិត្ត ១២ ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746a1e3130a52551c0e7a58?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Wjo5PYFfdRk"
+        }
+      ]
+    },
+    {
+      "id": "c074-l070",
+      "num": 70,
+      "title_km": "72 បាណាតិបាត ការសម្លាប់សត្វ អង្គរបស់បាណាតិបាត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746a2c4130a52551c0ec4ca?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/FgypxhTlsko"
+        }
+      ]
+    },
+    {
+      "id": "c074-l071",
+      "num": 71,
+      "title_km": "72 ប្រយោគរបស់បាណាតិបាតមាន ៦ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746b6e1130a52551c12ef6b?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Tyaze6RgHjQ"
+        }
+      ]
+    },
+    {
+      "id": "c074-l072",
+      "num": 72,
+      "title_km": "73 បាណាតិបាត ការស្លាប់មាន ៤ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746b7d3b505b826d742427d?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/we71kj5hkaY"
+        }
+      ]
+    },
+    {
+      "id": "c074-l073",
+      "num": 73,
+      "title_km": "75 បាណាតិបាត អាណត្តិកប្រយោគមាន ៦ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746b8bf192de2e6cae69327?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/BsSinSP1_yA"
+        }
+      ]
+    },
+    {
+      "id": "c074-l074",
+      "num": 74,
+      "title_km": "76 បាណាតិបាត ទោស និងអានិសង្សរបស់បាណាតិបាត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746bb1a130a52551c13cadd?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Xz2b7oZucCE"
+        }
+      ]
+    },
+    {
+      "id": "c074-l075",
+      "num": 75,
+      "title_km": "77 អទិន្នាទាន ប្រយោគនៃការលួចមាន ៦ ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746bc842cb64db953e078cc?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/QYb1r9cA-nA"
+        }
+      ]
+    },
+    {
+      "id": "c074-l076",
+      "num": 76,
+      "title_km": "78 អទិន្នាទាន នានាភណ្ឌបញ្ចក លួចទ្រព្យផ្សេងៗចែកជា៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746bdaf130a52551c144302?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/FfY8gK71oh4"
+        }
+      ]
+    },
+    {
+      "id": "c074-l077",
+      "num": 77,
+      "title_km": "79 អទិន្នាទាន ឯកភណ្ឌបញ្ចក ដល់ថេយ្យវហារបញ្ចក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746c1832cb64db953e164e9?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/fpRYyVeUIFw"
+        }
+      ]
+    },
+    {
+      "id": "c074-l078",
+      "num": 78,
+      "title_km": "80 អទិន្នាទាន ទោស និងអានិស្សនៃអទិន្នាទាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746c2bf2cb64db953e1b427?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/FxQtkHf1N3Y"
+        }
+      ]
+    },
+    {
+      "id": "c074-l079",
+      "num": 79,
+      "title_km": "81 កាមេសុមិច្ឆាចារ ការប្រព្រឹត្តិខុសក្នុងកាមទាំងឡាយ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746c38f192de2e6cae8ce4d?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/E69QKYtAAfk"
+        }
+      ]
+    },
+    {
+      "id": "c074-l080",
+      "num": 80,
+      "title_km": "82 កាមេសុមិច្ឆាចារ វិនិច្ឆ័យដោយអាការៈ ៥ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746c598b505b826d7450cb8?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/MkIOAdx6oF8"
+        }
+      ]
+    },
+    {
+      "id": "c074-l081",
+      "num": 81,
+      "title_km": "83 មុសាវាទ ការពោលពាក្យកុហក អនអរិយវោហារ៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746c75d130a52551c162654?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ePudyQDoR30"
+        }
+      ]
+    },
+    {
+      "id": "c074-l082",
+      "num": 82,
+      "title_km": "៨៤ មុសាវាទ ការពោលពាក្យកុហក វិនិច្ឆ័យដោយអាការៈ៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746c822013b71e4f3f35bb8?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/qqPjFV-alDQ"
+        }
+      ]
+    },
+    {
+      "id": "c074-l083",
+      "num": 83,
+      "title_km": "៨៥ បិសុណាវាទ ការនិយាយញុះញង់ វិនិច្ឆ័យដោយអាការៈ៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746ca00013b71e4f3f412e2?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/yJIL4uv8QZI"
+        }
+      ]
+    },
+    {
+      "id": "c074-l084",
+      "num": 84,
+      "title_km": "៨៦ ផរុសវាទ ការជេរប្រទេច ឬគ្រោតគ្រាត វិនិច្ឆ័យដោយអាការៈ៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746cbb7192de2e6caea65a0?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/cSB92-qBaK0"
+        }
+      ]
+    },
+    {
+      "id": "c074-l085",
+      "num": 85,
+      "title_km": "៨៧ សម្ផប្បលាស ការនិយាយរោយរាយឥតប្រយោជន៍",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746cd64013b71e4f3f4fba3?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/EHsQpKJO7-M"
+        }
+      ]
+    },
+    {
+      "id": "c074-l086",
+      "num": 86,
+      "title_km": "៨៨ អនភិជ្ឈា ការសម្លឹងរំពៃចង់បានរបស់អ្នកដទៃ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67ca558b77bd291124b54ab7?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/U9ad4zZXAo4"
+        }
+      ]
+    },
+    {
+      "id": "c074-l087",
+      "num": 87,
+      "title_km": "៨៩ អកសលកម្មបថ ព្យាបាទ ការព្យាបាទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746de9d96af4f5cac42d05d?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/RxKynh4LpJE"
+        }
+      ]
+    },
+    {
+      "id": "c074-l088",
+      "num": 88,
+      "title_km": "៩០ អកុសលកម្មបថ មិច្ឆាទិដ្ឋិ ការយល់ខុស (និយតមិច្ឆាទិដ្ឋិ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746e13cf81aa667176d606c?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/9t5VdtpQEv0"
+        }
+      ]
+    },
+    {
+      "id": "c074-l089",
+      "num": 89,
+      "title_km": "៩២ អកុសលកម្មបថ ចែកដោយមូល និងដោយវេទនា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746e3b5b1164bf6aa66add5?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/pEo_uqzozHw"
+        }
+      ]
+    },
+    {
+      "id": "c074-l090",
+      "num": 90,
+      "title_km": "៩៣ អកុសលកម្មបថ ចែកលំដាប់នៃអកុសលកម្មបថ១០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746e63096af4f5cac44a1ae?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ujv9JGmHJdk"
+        }
+      ]
+    },
+    {
+      "id": "c074-l091",
+      "num": 91,
+      "title_km": "៩៤ បញ្ចប់អកុសលកម្មបថ និងចូលនិយមន័យអហេតុកចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746e7fbf81aa667176f117d?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/5sWYa8hEBo4"
+        }
+      ]
+    },
+    {
+      "id": "c074-l092",
+      "num": 92,
+      "title_km": "៩៥ អហេតុកចិត្ត អកុសលវិបាកចក្ខុវិញ្ញាណ១ ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746ea71f81aa667176fa3ef?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/K5_h5fElIKc"
+        }
+      ]
+    },
+    {
+      "id": "c074-l093",
+      "num": 93,
+      "title_km": "៩៦ អហេតុកចិត្ត អកុសលវិបាកចក្ខុវិញ្ញាណ និងបរិកប្ប២យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6746ec7596af4f5cac464375?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/GJbWAuMHAlk"
+        }
+      ]
+    },
+    {
+      "id": "c074-l094",
+      "num": 94,
+      "title_km": "៩៧ អកុសលវិបាកសោតវិញ្ញាណ និងបរិកប្ប៥ចំណុច",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747c2dc9f77ab95656cb53b?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/-qws3qhS-Fw"
+        }
+      ]
+    },
+    {
+      "id": "c074-l095",
+      "num": 95,
+      "title_km": "៩៨ អកុសលវិបាកឃានវិញ្ញាណ ជិវ្ហាវិញ្ញាណ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747c3f2c61106655d71ca8f?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/nktxULVH8T4"
+        }
+      ]
+    },
+    {
+      "id": "c074-l096",
+      "num": 96,
+      "title_km": "៩៩ អកុសលវិបាក ជិវ្ហាវិញ្ញាណ និងទុក្ខកាយវិញ្ញាណ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747c5b8c61106655d7245e8?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/5ZxCbVffIks"
+        }
+      ]
+    },
+    {
+      "id": "c074-l097",
+      "num": 97,
+      "title_km": "១០០ អកុសលវិបាក មនោធាតុ មនោវិញ្ញាណធាតុ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747c7ec9f77ab95656e12d4?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/PNwj54lkFJo"
+        }
+      ]
+    },
+    {
+      "id": "c074-l098",
+      "num": 98,
+      "title_km": "១០១ កិច្ចរបស់ចិត្ត ១៤ ក្នុងអកុសលវិបាក ៧ ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747ca3a74eb04a4db1f51f3?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/WcHGsU5zAZw"
+        }
+      ]
+    },
+    {
+      "id": "c074-l099",
+      "num": 99,
+      "title_km": "១០២ វិថីចិត្តតាមបញ្ចទ្វារនិងមនោទ្វារក្នុងអហេតុកចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747cc1187df9e7063d07f35?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/pA0zetQ2ss8"
+        }
+      ]
+    },
+    {
+      "id": "c074-l100",
+      "num": 100,
+      "title_km": "១០៣ កុសលវិបាក ចក្ខុវិញ្ញាណ សោតវិញ្ញាណ ឃានវិញ្ញាណ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747ce0e9f77ab95656f5541?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Jw60A7Q-8-g"
+        }
+      ]
+    },
+    {
+      "id": "c074-l101",
+      "num": 101,
+      "title_km": "១០៤ កុសលវិបាក ជិវ្ហាវិញ្ញាណ កាយវិញ្ញា ដល់មនោវិញ្ញាណ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747d35987df9e7063d2261a?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/WwnV4-xzn78"
+        }
+      ]
+    },
+    {
+      "id": "c074-l102",
+      "num": 102,
+      "title_km": "១០៥ អហេតុកកិរិយាចិត្តដួងទី១ ដួងទី២ និងរម្លឹកមេរៀន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747d56687df9e7063d2a98e?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/tFlm6nuapak"
+        }
+      ]
+    },
+    {
+      "id": "c074-l103",
+      "num": 103,
+      "title_km": "១០៦ ហសិតុប្បាទចិត្ត ការញញឹមចែកចេញជា ៦ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747d76a9f77ab9565718832?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Dg9lmYv-fJA"
+        }
+      ]
+    },
+    {
+      "id": "c074-l104",
+      "num": 104,
+      "title_km": "១០៧ អហេតុកចិត្ត ១៨ កិច្ចក្នុងអហេតុកចិត្ត ១៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747d94d9f77ab956571f6d5?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/2dMb9wLrt3o"
+        }
+      ]
+    },
+    {
+      "id": "c074-l105",
+      "num": 105,
+      "title_km": "១០៨ អហេតុកចិត្ត ចែកទ្វារ វត្ថុ វិញ្ញាណធាតុ៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747daeec61106655d779442?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/KkeI1r_fps0"
+        }
+      ]
+    },
+    {
+      "id": "c074-l106",
+      "num": 106,
+      "title_km": "១០៩ បញ្ចប់អហេតុកចិត្ត១៨ ចែកដោយន័យផ្សេងៗ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747dc709f77ab9565729ae1?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/0LoSljEm58o"
+        }
+      ]
+    },
+    {
+      "id": "c074-l107",
+      "num": 107,
+      "title_km": "១១០ មហាកុសលចិត្ត ៨ និយមន័យសោភណចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747e19774eb04a4db24b356?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/FvKXFvQDmU4"
+        }
+      ]
+    },
+    {
+      "id": "c074-l108",
+      "num": 108,
+      "title_km": "១១១ មហាកុសលចិត្ត ៨ ពាក្យថាបុណ្យ និងកុសល",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747e596c4b78e9ebb4c72a8?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/l6oQs8rQENk"
+        }
+      ]
+    },
+    {
+      "id": "c074-l109",
+      "num": 109,
+      "title_km": "១១២ មហាកុសលចិត្តដួងទី១ និងអត្ថរបស់កុសល",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747e86574eb04a4db262660?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/hbzWOD2H4Zc"
+        }
+      ]
+    },
+    {
+      "id": "c074-l110",
+      "num": 110,
+      "title_km": "១១៣ មហាកុសលចិត្តដួងទី២ ដួងទី៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747ec03c61106655d7abe74?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/u0P-X7B6vVY"
+        }
+      ]
+    },
+    {
+      "id": "c074-l111",
+      "num": 111,
+      "title_km": "១១៤ មហាកុសលចិត្តដួងទី៤ ដួងទី ៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747ed409f77ab956575d1b4?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/WESNyBlJUHY"
+        }
+      ]
+    },
+    {
+      "id": "c074-l112",
+      "num": 112,
+      "title_km": "១១៥ មហាកុសលចិត្តដួងទិ៥ដល់ទី៨ និងលក្ខណាទិចតុក្កៈកុសល",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747ee24c61106655d7b1c4a?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/5edaDvdogDc"
+        }
+      ]
+    },
+    {
+      "id": "c074-l113",
+      "num": 113,
+      "title_km": "១១៦ ចក្កធម៌ ៤ យ៉ាង និងសប្បុរិសធម៌ ៧ ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6747efce87df9e7063d7de42?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/e-Q9b_2S9xg"
+        }
+      ]
+    },
+    {
+      "id": "c074-l114",
+      "num": 114,
+      "title_km": "១១៧ ហេតុនាំឱ្យកើតសោមនស្សក្នុងមហាកុសលចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674802bec61106655d7ee3f7?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/qACNS3W_LOw"
+        }
+      ]
+    },
+    {
+      "id": "c074-l115",
+      "num": 115,
+      "title_km": "១១៨ ផលរបស់បុណ្យមាន ២៧ យ៉ាងក្នុងនធិកណ្ឌសូត្",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/674804d587df9e7063dbc718?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/SJTGaLMhnpA"
+        }
+      ]
+    },
+    {
+      "id": "c074-l116",
+      "num": 116,
+      "title_km": "១១៩ ហេតុនាំឱ្យកើតមហាកុសលញាណសម្បយុត្តចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6748071ec61106655d7fc3bd?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/fEiRFBb_q84"
+        }
+      ]
+    },
+    {
+      "id": "c074-l117",
+      "num": 117,
+      "title_km": "១២០ ហេតុនាំឱ្យកើតមហាកុសលអសង្ខារិកចិត្តមាន ៦ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675aabda9c876df3003fca09?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/W2HHf5XH2I8"
+        }
+      ]
+    },
+    {
+      "id": "c074-l118",
+      "num": 118,
+      "title_km": "១២១ ហេតុនាំកើតសសង្ខារ និងហេតុនាំឱ្យកើតបញ្ញាមាន ៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675aad46689c7543972c30dc?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/kDVeBiSAC7I"
+        }
+      ]
+    },
+    {
+      "id": "c074-l119",
+      "num": 119,
+      "title_km": "១២២ ចែកមហាកុសលដោយកុសលកម្មបថ១០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675aadea1bbbedeb416a4134?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Pe9AyEYaifI"
+        }
+      ]
+    },
+    {
+      "id": "c074-l120",
+      "num": 120,
+      "title_km": "១២៣ ចែកមហាកុសលដោយបុញ្ញកិរិយាវត្ថុ ទានមយបុណ្យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67be85bf03ca0341bda8c0d8?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/XCKdXcugDwM"
+        }
+      ]
+    },
+    {
+      "id": "c074-l121",
+      "num": 121,
+      "title_km": "១២៤ ចែកមហាកុសល ទានវត្ថុ ៤ និងទុកទាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67be872a03ca0341bda8f223?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/hq7HNXY9ldI"
+        }
+      ]
+    },
+    {
+      "id": "c074-l122",
+      "num": 122,
+      "title_km": "១២៥ ទានមយបុណ្យ ទុកទាន និងតិកទាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67be889ece4aee402aee23fd?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/u9zuBXRfQng"
+        }
+      ]
+    },
+    {
+      "id": "c074-l123",
+      "num": 123,
+      "title_km": "១២៦ ទានមយបុណ្យ តិកទាន ទាសទាន សហាយទាន សាមិទាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67be89ac03ca0341bda9539b?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/4Z0jeZOf4dU"
+        }
+      ]
+    },
+    {
+      "id": "c074-l124",
+      "num": 124,
+      "title_km": "១២៧ ទានមយបុណ្យ ទាន ៨ យ៉ាង និងផលរបស់ទានផ្សេងៗ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67be8b642dbc20e82c6db800?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/zfkJZ8aPbac"
+        }
+      ]
+    },
+    {
+      "id": "c074-l125",
+      "num": 125,
+      "title_km": "១២៨ បុញ្ញកិរិយាវត្ថុ ទានមយបុណ្យ ផលរបស់ទានជាបន្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67be914903ca0341bdaac1f4?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/JFoCi2JgTeQ"
+        }
+      ]
+    },
+    {
+      "id": "c074-l126",
+      "num": 126,
+      "title_km": "១២៩ បុញ្ញកិរិយាវត្ថុ ទានមយបុណ្យ អានិសង្សថ្វាយបាយជាដើម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67beb11306696c28f753c73c?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/iTcXMLlf60A"
+        }
+      ]
+    },
+    {
+      "id": "c074-l127",
+      "num": 127,
+      "title_km": "១៣០ បុញ្ញកិរិយាវត្ថុ សីលមយបុណ្យ សីលរបស់គ្រហស្ថមាន ៣យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67beba8c2dbc20e82c75adc9?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/TBimb0LZ0vE"
+        }
+      ]
+    },
+    {
+      "id": "c074-l128",
+      "num": 128,
+      "title_km": "១៣១ បុញ្ញកិរិយាវត្ថុ សីលមយបុណ្យ បុណ្យសម្រេចដោយការរក្សាសីល",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67bec53903ca0341bdb3a3fa?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/FIWTKzijarI"
+        }
+      ]
+    },
+    {
+      "id": "c074-l129",
+      "num": 129,
+      "title_km": "១៣២ បុញ្ញកិរិយាវត្ថុ សីលមយបុណ្យ ឧបោសថសីល ៣ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67bec772c09a232bcc5d3d0d?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/6MwuKWgQgkg"
+        }
+      ]
+    },
+    {
+      "id": "c074-l130",
+      "num": 130,
+      "title_km": "១៣៣ សីលមយបុណ្យ ពន្យល់ វិកាលភោជនសិក្ខាបទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67bec79f06696c28f757cbe6?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/GrrmtjJNTD4"
+        }
+      ]
+    },
+    {
+      "id": "c074-l131",
+      "num": 131,
+      "title_km": "១៣៤ សីលមយ វិកាលសិក្ខា ភេសជ្ជគួរបរិភោគ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67bec938408c42b28ac84fd1?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/DxEHMdLk82Y"
+        }
+      ]
+    },
+    {
+      "id": "c074-l132",
+      "num": 132,
+      "title_km": "១៣៥ សីលមយ វិកាលសិក្ខាបញ្ចប់ ចូលនច្ចគីតសិក្ខាបទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67beca1b408c42b28ac876f2?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/XKi-PGSwDT0"
+        }
+      ]
+    },
+    {
+      "id": "c074-l133",
+      "num": 133,
+      "title_km": "១៣៦ សីលមយ មាលាគន្ធវិលេបន និងឧច្ចាសយនមហាសយនា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67becaa12dbc20e82c78c324?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Ffk5e0oR0Dk"
+        }
+      ]
+    },
+    {
+      "id": "c074-l134",
+      "num": 134,
+      "title_km": "១៣៧ សីលមយ ឧច្ចាសយនមហាសយនសិក្ខាបទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67becb342dbc20e82c78da89?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/EWTuG7cgdXw"
+        }
+      ]
+    },
+    {
+      "id": "c074-l135",
+      "num": 135,
+      "title_km": "១៣៨ សីលមយ ជាតរូបបរជតប្បដិគ្គហណសិក្ខាបទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67becbc106696c28f758af4e?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/79ydtP_t9i4"
+        }
+      ]
+    },
+    {
+      "id": "c074-l136",
+      "num": 136,
+      "title_km": "១៣៩ សីលមយ អានិសង្សការវៀរចាកបាណាតិបាត អទិន្នាទាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67becc7203ca0341bdb55624?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/0vrQQzhF-GA"
+        }
+      ]
+    },
+    {
+      "id": "c074-l137",
+      "num": 137,
+      "title_km": "១៤០ អានិសង្សការវៀរចាកអព្រហ្មចរិយ មុសាវាទ សុរាមេរ័យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67becd03c09a232bcc5e6ff0?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/hBmbkEH3J3s"
+        }
+      ]
+    },
+    {
+      "id": "c074-l138",
+      "num": 138,
+      "title_km": "១៤១ អានិសង្សនៃការរក្សាភាបន្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67bece7b2dbc20e82c7979ea?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/VQAcr20uhs0"
+        }
+      ]
+    },
+    {
+      "id": "c074-l139",
+      "num": 139,
+      "title_km": "១៤១ បដិបក្ខរបស់សីល និងភាវនាមយបុណ្យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67becdb503ca0341bdb5a5cc?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/F52voNxa78g"
+        }
+      ]
+    },
+    {
+      "id": "c074-l140",
+      "num": 140,
+      "title_km": "១៤២ អាបចាយនៈ និងវេយ្យាវច្ចមយបុណ្យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67becee42dbc20e82c7993b5?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/7NtiI4kxhGM"
+        }
+      ]
+    },
+    {
+      "id": "c074-l141",
+      "num": 141,
+      "title_km": "១៤៣ បត្តិទាន ការចែកបុណ្យ បត្តានុមោទនា ត្រេកអរនឹងបុណ្យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67ca6652ffae9c0f4e3d7974?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xFp5xO9YfRc"
+        }
+      ]
+    },
+    {
+      "id": "c074-l142",
+      "num": 142,
+      "title_km": "១៤៤ ធម្មស្សវន ធម្មទេសនា ទិដ្ឋុជុកម្មមយបុណ្យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67ca69e022c74795c32c8c3e?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/KN8thI9uILo"
+        }
+      ]
+    },
+    {
+      "id": "c074-l143",
+      "num": 143,
+      "title_km": "១៤៥ ចែកមហាកុសលជាឧក្កដ្ឋកុសល និងឱមកកុសល",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67ca6b5322c74795c32cb875?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/9ycNATAWszs"
+        }
+      ]
+    },
+    {
+      "id": "c074-l144",
+      "num": 144,
+      "title_km": "១៤៦ ចែកមហាកុសលដោយន័យផ្សេងៗ ១៤ ន័យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67ca6d64baaeff02dccc4c7d?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/XRfAYYTkZ1w"
+        }
+      ]
+    },
+    {
+      "id": "c074-l145",
+      "num": 145,
+      "title_km": "១៤៧ មហាវិបាកចិត្ត ៨ ដួង និងផលរបស់ទាន៧/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6818428071c041c8cc6a78f9?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/qfJIBOdYJtI"
+        }
+      ]
+    },
+    {
+      "id": "c074-l146",
+      "num": 146,
+      "title_km": "១៤៨ មហាវិបាកចិត្ត ៨ ដួង និងសមង្គិតា៥/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/681845a797a58cd22e7ad4ed?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ZrDhJDTKUYg"
+        }
+      ]
+    },
+    {
+      "id": "c074-l147",
+      "num": 147,
+      "title_km": "១៤៩ មហាកិរិយាចិត្ត ៨ ដួង ការដឹងអារម្មណ៍តាមទ្វារ ៦/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6818473d97e47f14336f1091?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/46OWpWmN5Ok"
+        }
+      ]
+    },
+    {
+      "id": "c074-l148",
+      "num": 148,
+      "title_km": "១៥០ សំណួរបញ្ចប់កាមាវចរចិត្ត និងរូបឈាន/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6818668d6486cd0c1a840675?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/UuV3HGLCGXc"
+        }
+      ]
+    },
+    {
+      "id": "c074-l149",
+      "num": 149,
+      "title_km": "១៥១ រូបាវចរចិត្ត បលិពោធ គ្រឿងកង្វល់របស់សមាធិ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6818670771c041c8cc70f3e4?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/seHZvzpol3A"
+        }
+      ]
+    },
+    {
+      "id": "c074-l150",
+      "num": 150,
+      "title_km": "១៥២ រូបាវចរចិត្ត ពន្យល់អង្គឈាន ៥ លះនីវរណធម៌/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/681862ee6486cd0c1a835681?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/oBvzfyIt7DA"
+        }
+      ]
+    },
+    {
+      "id": "c074-l151",
+      "num": 151,
+      "title_km": "១៥៣ រូបាវចរកុសល កសិណ១០ យ៉ាង/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6818648f97e47f1433740075?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/buh-w0ZS9gQ"
+        }
+      ]
+    },
+    {
+      "id": "c074-l152",
+      "num": 152,
+      "title_km": "១៥៤ រូបាវចរកុសល អសុភ១០ និងអនុស្សតិ ១០/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/681868f48e712cac969dd97f?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/5YemuUZGc8s"
+        }
+      ]
+    },
+    {
+      "id": "c074-l153",
+      "num": 153,
+      "title_km": "១៥៥ ឧបសមានុស្សតិ និងមរណានុស្សតិ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68186abb97a58cd22e81a5c5?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/PViAmguLE8U"
+        }
+      ]
+    },
+    {
+      "id": "c074-l154",
+      "num": 154,
+      "title_km": "១៥៦ មរណានុស្សតិ អានាបានស្សតិ និងមេត្តា ករុណា/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68186c1f8e712cac969e8fa0?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/cH8c_kA1CQc"
+        }
+      ]
+    },
+    {
+      "id": "c074-l155",
+      "num": 155,
+      "title_km": "១៥៧ ព្រហ្មវិហារកម្មដ្ឋាន របៀបចម្រើនព្រហ្មវិហារធម៌៤/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68186caa97a58cd22e8241c1?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/VPvVLmfhZQ8"
+        }
+      ]
+    },
+    {
+      "id": "c074-l156",
+      "num": 156,
+      "title_km": "១៥៨ អាហារបដិកូលសញ្ញា ចតុធាតុវវត្ថាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/681871c097a58cd22e835835?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/CIAiIBCfAak"
+        }
+      ]
+    },
+    {
+      "id": "c074-l157",
+      "num": 157,
+      "title_km": "១៥៩ សមថកម្មដ្ឋាន៤០ វិនិច្ឆ័យដោយអាការ១០យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6818741a97e47f1433770888?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Icmii2Wl6Yk"
+        }
+      ]
+    },
+    {
+      "id": "c074-l158",
+      "num": 158,
+      "title_km": "១៦០ សមថកម្មដ្ឋាន៤០ ចែកតាមចរិតរបស់បុគ្គល",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6818755271c041c8cc73893d?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/1xeDMHxdwy4"
+        }
+      ]
+    },
+    {
+      "id": "c074-l159",
+      "num": 159,
+      "title_km": "១៦១ ចែកការប្រព្រឹត្តរបស់ចរិត៦ និងន័យផ្សេងៗ ១៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6818768671c041c8cc73c6a9?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/FuOijOY5Ea8"
+        }
+      ]
+    },
+    {
+      "id": "c074-l160",
+      "num": 160,
+      "title_km": "១៦២ រូបាវចរវិបាកចិត្ត ៥ ដួង ផលទៅកើតព្រហ្មលោក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68352f56e1abc4be6be216c4?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/30iRNQpQ9Mc"
+        }
+      ]
+    },
+    {
+      "id": "c074-l161",
+      "num": 161,
+      "title_km": "១៦៣ រូបាវចរវិបាកចិត្ត ៥ ដួង និងរូបាវចរកិរិយា៥ ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68353051998551779f04638b?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/OI8L5MR7Uf0"
+        }
+      ]
+    },
+    {
+      "id": "c074-l162",
+      "num": 162,
+      "title_km": "១៦៤ អរូបាវចរចិត្ត ១២ អរូបកុសល ៤ អរូបវិបាក៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68353159e1abc4be6be28e5b?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/OMqYrqAq_Cc"
+        }
+      ]
+    },
+    {
+      "id": "c074-l163",
+      "num": 163,
+      "title_km": "១៦៥ បញ្ចប់អរូបាវចរចិត្ត១២ និងចូលលោកុត្តរចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/683532a42780b226c70df1dc?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/yUJ7F9mF5Jg"
+        }
+      ]
+    },
+    {
+      "id": "c074-l164",
+      "num": 164,
+      "title_km": "១៦៦ លោកុត្តរចិត្ត សោតាបត្តិមគ្គ សោតាមាន៣ ប្រភេទ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68469b791dd9d3b33f6e0f1f?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/UkHuPU_xT8E"
+        }
+      ]
+    },
+    {
+      "id": "c074-l165",
+      "num": 165,
+      "title_km": "១៦៧ សកទាគាមី៥ អនាគាមីមាន ៥ ប្រភេទ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68469c5ff47b55b37a15ebc5?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/jlE-G8rN3WE"
+        }
+      ]
+    },
+    {
+      "id": "c074-l166",
+      "num": 166,
+      "title_km": "១៦៨ លោកុត្តរចិត្ត ទុក្ខសច្ចៈ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68469d25212f7dfe61d48e50?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/JgZjR2guEQE"
+        }
+      ]
+    },
+    {
+      "id": "c074-l167",
+      "num": 167,
+      "title_km": "១៦៩ ពន្យល់អរិយសច្ចៈ ៤ មានទុក្ខសច្ចជាដើម/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68469e31f47b55b37a16877f?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/SXvt8O9DejU"
+        }
+      ]
+    },
+    {
+      "id": "c074-l168",
+      "num": 168,
+      "title_km": "១៧០ មគ្គចិត្ត ៤ លះកិលស១០ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/684a42608b5654d4d1c90ead?subscribe=false"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/5TR0y0P29qA"
+        }
+      ]
+    }
+  ]
+}

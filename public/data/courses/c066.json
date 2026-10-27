@@ -1,0 +1,805 @@
+{
+  "id": "c066",
+  "provisional": true,
+  "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី6 (2023)",
+  "title_en": "Abhidhamma Chapter 6 (2023)",
+  "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+  "teacher_slug": "yon-yi",
+  "topics": [
+    "abhidhamma"
+  ],
+  "lessons": [
+    {
+      "id": "c066-l001",
+      "num": 1,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ០១/៦៦) និយមន័យរូប ថ្ងៃផ្តើមដំបូង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6758f49706a9d87b2ed87911?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l002",
+      "num": 2,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ០២/៦៦) លក្ខណាទិចតុក្ករបស់រូប",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6758f661c705e441799efb74?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l003",
+      "num": 3,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ០៣/៦៦) មហាភូតរូបដោយហេតុ ៥ ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6758f6d3c705e441799f1e67?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l004",
+      "num": 4,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ០៤/៦៦) ពាក្យភូតមាន ៧ ន័យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6758f73606a9d87b2ed92e12?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l005",
+      "num": 5,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ០៥/៦៦) អាបោធាតុ មាន ៤ ន័យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6758f86f06a9d87b2ed97839?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l006",
+      "num": 6,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ០៦/៦៦) តេជោធាតុ មានសេចក្តី ៣ ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6758f8c7c705e441799fa71b?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l007",
+      "num": 7,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ០៧/៦៦) វាយោធាតុ ខ្យល់មាន ៤ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6758fa02102e6d4448045a48?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l008",
+      "num": 8,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ០៨/៦៦) បញ្ចប់ធាតុ ៤ និងប្រៀបនឹងអាសិរពិស",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6758fac0102e6d444804a199?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l009",
+      "num": 9,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ០៩/៦៦) ប្រៀបធៀបមហាភូតរូប ៤ នឹងអាសិរពិស",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6758fbc7839660529382d5e4?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l010",
+      "num": 10,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ១០/៦៦) ឧបាទានក្ខន្ធ ៥ ជាពេជ្ឈឃាតជាដើម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6758fc2fc705e44179a0d272?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l011",
+      "num": 11,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ១១/៦៦) ចក្ខុបសាទ និយមន័យចក្ខុ៣ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6758fc88c705e44179a0e073?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l012",
+      "num": 12,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ១២/៦៦) បញ្ញាចក្ខុមាន ៥ យ៉ាង និងចក្ខុ ១៤ន័យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6758fdfc839660529383a759?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l013",
+      "num": 13,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ១៣/៦៦) សោតបសាទ សោតមាន ៧ ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6758fe5fc705e44179a13a64?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l014",
+      "num": 14,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ១៤/៦៦) ឃានបសាទ និងជិវ្ហាបសាទរូប",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67590784c705e44179a35f61?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l015",
+      "num": 15,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ១៥/៦៦) កាយបសាទរូប កាយមាន៤ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67590b34102e6d444808bfea?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l016",
+      "num": 16,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ១៦/៦៦) គោរចររូប រូបារម្មណ៍",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67590b868396605293869973?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l017",
+      "num": 17,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ១៧/៦៦) គោរចររូប សទ្ទារម្មណ៍ គន្ធារម្មណ៍",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67590c67102e6d444809206b?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l018",
+      "num": 18,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ១៨/៦៦) គោរចររូប រសារម្មណ៍",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67590e0f06a9d87b2edf0f90?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l019",
+      "num": 19,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ១៩/៦៦) គោរចររូប រសារម្មណ៍ រសមាន ៤ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67590e5c102e6d4448097d00?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l020",
+      "num": 20,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ២០/៦៦) ផោដ្ឋព្វារម្មណ៍ ៣ គឺដី ភ្លើង ខ្យល់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67590eac102e6d444809905c?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l021",
+      "num": 21,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ២១/៦៦) ភាវរូប គឺឥត្ថីភាវ បុរិសភាវ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67590f4b102e6d444809ae59?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l022",
+      "num": 22,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ២២/៦៦) ហទយវត្ថុ បេះដូង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67590f98102e6d444809bd72?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l023",
+      "num": 23,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ២៣/៦៦) ហទយវត្ថុ និងទឹកឈាមក្នុងបេះដូង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67590fdbc705e44179a51801?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l024",
+      "num": 24,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ២៤/៦៦) ជីវិតរូប រូបរក្សាកម្មជ្ជរូប",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67591121c705e44179a569f8?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l025",
+      "num": 25,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ២៥/៦៦) ជីវិតរូប បច្ចុប្បន្នជីវិតិន្រ្ទិយមាន ៣ ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6759120706a9d87b2edfef21?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l026",
+      "num": 26,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ២៦/៦៦) អាហាររូប កពលិង្ការាហារ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67591bcc06a9d87b2ee1e956?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l027",
+      "num": 27,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ២៧/៦៦) អាហាររូប ការប្រៀបធៀបអាហារ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675930b1c705e44179acec87?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l028",
+      "num": 28,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ២៨/៦៦) បរិច្ឆេទរូប រូបកំណត់ព្រំដែនរបស់រូប",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6759372306a9d87b2ee8cc64?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l029",
+      "num": 29,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ២៩/៦៦) កាយវិញ្ញត្តិរូប ការកម្រើកាយ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675937948396605293909100?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l030",
+      "num": 30,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៣០/៦៦) វចីវិញ្ញត្តិរូប ការកម្រើកវាចា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67593912102e6d444812f8b9?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l031",
+      "num": 31,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៣១/៦៦) មេរៀនវចីវិញ្ញត្តិរូប",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67593b0206a9d87b2ee9e0dc?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l032",
+      "num": 32,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៣២/៦៦) ចិត្ត ២៦ ញុំាងរូប និងឧបត្ថម្ភឥរិយាបថ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67593b5f06a9d87b2ee9f225?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l033",
+      "num": 33,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៣៣/៦៦) វិការរូប រូបលហុតា ភាពស្រាលនៃរូប",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67593bb3102e6d444813ac11?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l034",
+      "num": 34,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៣៤/៦៦) រូបមុទុតា រូបកម្មញ្ញតា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67593c07c705e44179afe5e1?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l035",
+      "num": 35,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៣៥/៦៦) ឧបចយរូប រូបកើតគ្រាដំបូងនិងក្រោយ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67593c74bc977a82da023c9c?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l036",
+      "num": 36,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៣៦/៦៦) មោហៈការមិនដឹងក្នុងទុក្ខសច្ចៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67593d32c705e44179b02ce4?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l037",
+      "num": 37,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៣៧/៦៦) ជរតារូប អនិច្ចតារូប",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67593d8f102e6d4448141ff6?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l038",
+      "num": 38,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៣៨/៦៦) រូបន័យទី២ ឯកវិធន័យ ចែករូបជាន័យ១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67593ecf06a9d87b2eeaeadb?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l039",
+      "num": 39,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៣៩/៦៦) ទុកន័យ គូទី១ ទី ២ ទី៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67593f2bc705e44179b0aea3?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l040",
+      "num": 40,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៤០/៦៦) ទុកន័យ គូទី៤ ទី៥ ទី៦ ទី៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6759413206a9d87b2eeb8317?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l041",
+      "num": 41,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៤១/៦៦) ទុកន័យ គូទី៨ ដល់ទី១១ បញ្ចប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6759418dc705e44179b17674?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l042",
+      "num": 42,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៤២/៦៦) រូបសមុដ្ឋាន កម្មជ្ជរូប ១៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675941ebbc977a82da0389bf?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l043",
+      "num": 43,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី  ៤៣/៦៦) រូបសមុដ្ឋាន ចិត្តជ្ជរូប ១៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/67594397102e6d444815ae42?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l044",
+      "num": 44,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៤៤/៦៦) ចិត្តជ្ជរូបរូបកើតពីចិត្តមាន ១៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a441a3a157fb6cbee1c35?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l045",
+      "num": 45,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៤៥/៦៦) ឧតុជ្ជរូប មាន ១២ រូប",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a4b745bd8609252374790?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l046",
+      "num": 46,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៤៦/៦៦) អាហារជ្ជរូបមាន ១២ រូប",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a4d173a157fb6cbf0045b?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l047",
+      "num": 47,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៤៧/៦៦) ចែករូបដោយសមុដ្ឋាន៤ ជា ៥ ន័យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a4d07c2a496b7a36cc7e4?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l048",
+      "num": 48,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៤៨/៦៦) ចែកសសម្ភារៈជាសុត្តន្តន័យ បឋវីធាតុ ២០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a51ff42ff44cc4d790962?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l049",
+      "num": 49,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៤៩/៦៦) ចែកសសម្ភារៈជាសុត្តន្តន័យ អាបោ តេជោ វាយោធាតុ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a53445bd8609252391350?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l050",
+      "num": 50,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៥០/៦៦) រូបកលាប ចែកសំណុរបស់រូបជា ២១ កលាប",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a53afc2a496b7a36e24db?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l051",
+      "num": 51,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៥១/៦៦) កម្មជ្ជកលាប កលាបរូបកើតពីកម្មមាន ៩ កលាប",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a574042ff44cc4d7a3b12?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l052",
+      "num": 52,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៥២/៦៦) ចិត្តជ្ជកលាប មាន ៦ កលាបមានរូប ១៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a57b03a157fb6cbf24a75?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l053",
+      "num": 53,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៥៣/៦៦) ចិត្តជ្ជកលាប មាន ៦ កលាបភាគបញ្ចប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a5904c2a496b7a36f76d8?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l054",
+      "num": 54,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៥៤/៦៦) ចិត្តជ្ជកលាប មាន ៦ កលាបភាគបញ្ចប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a595f42ff44cc4d7aab7c?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l055",
+      "num": 55,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៥៥/៦៦) ឧតុជ្ជកលាប ៤ យ៉ាងផ្សេងទៀត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a5af2859d1b450f33aacb?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l056",
+      "num": 56,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៥៦/៦៦) អារហារជ្ជកលាបមាន ២ និងសសម្ភារបឋវី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a7c962c1cd897f6d956d1?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l057",
+      "num": 57,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៥៧/៦៦) កលាបសសម្ភារបឋវី អាបោធាតុ តេជោធាតុ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a7cf4d7e8ca24f92edbdd?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l058",
+      "num": 58,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៥៨/៦៦) សសម្ភាររបស់កលាប ៤ ភាគបញ្ចប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a7ec6689c75439721d77d?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l059",
+      "num": 59,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៥៩/៦៦) រូបបវត្តិកមន័យ សម្តែងការប្រព្រឹត្តទៅរបស់រូប",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a7ff8689c754397221078?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l060",
+      "num": 60,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៦០/៦៦) ចែករូបកើតក្នុងភូមិទាំង ៤ មានកាមភូមិជាដើម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a81382c1cd897f6da86fa?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l061",
+      "num": 61,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៦១/៦៦) ចែករូបដោយកាល ៣ គឺបដិសន្ធិកាល បវត្តិកាល ចុតិកាល",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a8189d7e8ca24f9305dd5?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l062",
+      "num": 62,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៦២/៦៦) ចែករូបកើតក្នុងសមុដ្ឋាន ៤ ក្នុងចុតិកាល",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a81df689c754397229f47?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l063",
+      "num": 63,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៦៣/៦៦) ចែករូបដោយកំណើតរបស់សត្វ ៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a826f2c1cd897f6dae90b?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l064",
+      "num": 64,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៦៤/៦៦) និព្វានបរមត្ថ និយមន័យនិព្វាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a837ed7e8ca24f930e961?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l065",
+      "num": 65,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ (ម៉ោងទី ៦៥/៦៦) និព្វានមាន ១ ២ ៣ និង៥ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a83d0689c754397232b38?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c066-l066",
+      "num": 66,
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៦ រូបសង្គហវិភាគ ភាគបញ្ចប់(ម៉ោងទី ៦៦/៦៦) និព្វានមាន ១៤៣បទ និងប្រៀបធៀបនឹងអាកាស ១០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/675a8440d7e8ca24f9310ecc?subscribe=false"
+        }
+      ]
+    }
+  ]
+}

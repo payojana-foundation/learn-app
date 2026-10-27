@@ -1,0 +1,73 @@
+{
+  "id": "c021",
+  "provisional": true,
+  "title_km": "សមាធិ វគ្គខ្លីលើកទី៣៩",
+  "title_en": null,
+  "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+  "teacher_slug": "him-bunthoeun",
+  "topics": [
+    "meditation"
+  ],
+  "lessons": [
+    {
+      "id": "c021-l001",
+      "num": 1,
+      "title_km": "1.វក្គខ្លីលើកទី៣៩.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ac1cd6352b565deb8fe40e?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c021-l002",
+      "num": 2,
+      "title_km": "2.វក្គខ្លីលើកទី៣៩.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ac1cff73bf5b6298e295c2?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c021-l003",
+      "num": 3,
+      "title_km": "3.វក្គខ្លីលើកទី៣៩.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ba89cf45004e42c9ac9cc7?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c021-l004",
+      "num": 4,
+      "title_km": "4.វក្គខ្លីលើកទី៣៩.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ba8a9945004e42c9acf6f0?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c021-l005",
+      "num": 5,
+      "title_km": "5.វក្គខ្លីលើកទី៣៩.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68ba8a4445004e42c9acd06a?subscribe=false"
+        }
+      ]
+    }
+  ]
+}

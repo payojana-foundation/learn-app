@@ -1,0 +1,189 @@
+{
+  "id": "c086",
+  "provisional": true,
+  "title_km": "ព្រះសូត្រ បិដកលេខ ១៨",
+  "title_en": null,
+  "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+  "teacher_slug": "yon-yi",
+  "topics": [
+    "sutta"
+  ],
+  "lessons": [
+    {
+      "id": "c086-l001",
+      "num": 1,
+      "title_km": "បិដកលេខ១៨ ០១ ការដាច់អកុសលកម្មបថ១០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1IwF3exsiAq2lyymQjJTrRdpdLa6yuwjO/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/doDB9-T6fS8"
+        }
+      ]
+    },
+    {
+      "id": "c086-l002",
+      "num": 2,
+      "title_km": "បិដកលេខ១៨ ០២ អន្តរកប្ប ៣ យ៉ាង សម័យមនុស្សអាយុ១០ឆ្នាំ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1CAQcMWtIGuJYzPmOEqf7KdhqUUyCpTWU/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/966o4fNMT1I"
+        }
+      ]
+    },
+    {
+      "id": "c086-l003",
+      "num": 3,
+      "title_km": "បិដកលេខ១៨ ០៤ សម្បសាទនីយសូត្រ ព្រះសារីបុត្រពិចារណាគុណធម៌",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Ph0r3WjcE9ybrvCkEMqvANcxrQ98Z32R/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/HFIvH5RMTOc"
+        }
+      ]
+    },
+    {
+      "id": "c086-l004",
+      "num": 4,
+      "title_km": "បិដកលេខ១៨ ០៥ អន្តរធាន ៣ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1KnKh-qeBqZ1PigIENmAbSPTDTnJKemaB/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/urzuidCEE5o"
+        }
+      ]
+    },
+    {
+      "id": "c086-l005",
+      "num": 5,
+      "title_km": "បិដកលេខ១៨ ០៦ ព្រះអរិយបុគ្គលដឹងគុណព្រះពុទ្ធមិនដូចគ្នា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1dKQbQqX5YKSSyUmUHPytc3LuhIxlYYJi/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/hSbpSmjH4F4"
+        }
+      ]
+    },
+    {
+      "id": "c086-l006",
+      "num": 6,
+      "title_km": "បិដកលេខ១៨ ០៧ សាមណេរវាសេដ្ឋ និងភារទ្វាជទូលសួរព្រះធម៌នឹងព្រះពុទ្ធ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/18jHHQc8EDlv9IZF7RawYaGxo_pBm1hqU/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/TWPTD2fTftM"
+        }
+      ]
+    },
+    {
+      "id": "c086-l007",
+      "num": 7,
+      "title_km": "បិដកលេខ១៨ ០៨ ព្រះសារីបុត្តសរសើរគុណព្រះពុទ្ធផ្សេងៗ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/16cAn7iifQ_2Dh78bqerwQKOP3PYvZCPL/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Rt7rC8-xXXk"
+        }
+      ]
+    },
+    {
+      "id": "c086-l008",
+      "num": 8,
+      "title_km": "បិដកលេខ១៨ ០៩ ប្រាថ្នាបូជាធម្មរតនៈគួរបូជាពហុស្សូត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/171nPeGGxworDKe38Cn9zIqPRNaQYu3ir/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/-35VIooHWT8"
+        }
+      ]
+    },
+    {
+      "id": "c086-l009",
+      "num": 9,
+      "title_km": "បិដកលេខ១៨ ១០ ការកាន់យកអត្ថនិងព្យញ្ជនក្នុងការស្តាប់ឱ្យត្រូវ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Gnlmloz5hs3rP2qGMi2_4thBgZowfpEF/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/-Jtgs0NtHzo"
+        }
+      ]
+    },
+    {
+      "id": "c086-l010",
+      "num": 10,
+      "title_km": "បិដកលេខ១៨ ១១ លុខល្លិកានុយោគ ផ្លូវខុស ៤ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1t_iF4zO-9bA2ZgggcUa_w6k5kSECaS0u/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/s4fK85Or8gQ"
+        }
+      ]
+    },
+    {
+      "id": "c086-l011",
+      "num": 11,
+      "title_km": "បិដកលេខ១៨ ១២ ព្រះសម្មាសម្ពុទ្ធឈ្លាសបញ្ញត្តិធម៌ក្នុងលោក_ភាគបញ្ចប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1IgVCnZPqs9fK8cybGb8WyPlxQIee1Li6/preview"
+        },
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/fhlBcXQr9TU"
+        }
+      ]
+    }
+  ]
+}

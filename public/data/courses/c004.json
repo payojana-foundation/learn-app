@@ -1,0 +1,313 @@
+{
+  "id": "c004",
+  "provisional": true,
+  "title_km": "វិធីរើសអង្គធម៌",
+  "title_en": null,
+  "teacher": "ឡេង ស៊ីដែន",
+  "teacher_slug": "leng-sideoun",
+  "topics": [
+    "abhidhamma"
+  ],
+  "lessons": [
+    {
+      "id": "c004-l001",
+      "num": 1,
+      "title_km": "វិធីរើសអង្គធម៍ ម៉ោង១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1dkbFDObMtptJPRo2cIZB7kj8B7RoqoV4/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l002",
+      "num": 2,
+      "title_km": "វិធីរើសអង្គធម៌ (ម៉ោងទី2)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1q_Udn9teBI_FYhjxd1d4vJAeWu6PK2s0/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l003",
+      "num": 3,
+      "title_km": "វិធីរើសអង្គធម៍ម៉ោងទី៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1G5_bj3D_c3G6DIcYMerO3d4u-awNhbBI/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l004",
+      "num": 4,
+      "title_km": "រៀនវិធីរើសអង្គធម៏ ម៉ោងទ៏៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1uOoquHoIZx5ZNNHS-RC-KXGx0Wx1qK6c/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l005",
+      "num": 5,
+      "title_km": "រៀនវិធីរើសអង្គធម៏ ម៉ោងទី៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1CH3T0uExbG49-BmtumrJCavdPab0i_fT/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l006",
+      "num": 6,
+      "title_km": "រៀនវិធីរើសអង្គធម៏(ម៉ោងទី៦)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1fe2VR3aln_IHy9_KPub5By5pbQ1wr0Ko/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l007",
+      "num": 7,
+      "title_km": "សិក្សាវិធីរើសអង្គធម៌(៧)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1yaU1O8hl30wAzISspZFEr7qL1xZb9b7w/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l008",
+      "num": 8,
+      "title_km": "សិក្សាវិធីរើសអង្គធម៌(៨)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1J9MlgkA_40lFcM5qu49ZQOpQx6jSCuTt/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l009",
+      "num": 9,
+      "title_km": "សិក្សាវិធីរើសអង្គធម៌(៩)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1MDo993vDmO83H7Gfy4F9RTXl0EFYfRbi/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l010",
+      "num": 10,
+      "title_km": "សិក្សាវិធីរើសអង្គធម៌(១០)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1wO-MuEXYcGKtGf1pENpi_h3_XnohscHq/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l011",
+      "num": 11,
+      "title_km": "សិក្សាវិធីរើសអង្គធម៌(១១)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1nQcWn2nvc-i6aplcFctkofckjnI908CI/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l012",
+      "num": 12,
+      "title_km": "សិក្សាវិធីរើសអង្គធម៌(១២)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1QLNaMoWH3NWRAJFeo6QhKx4cA2D_MHLo/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l013",
+      "num": 13,
+      "title_km": "សិក្សាវិធីរើសអង្គធម៌(១៣)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/15mFtHt-_rFKaTuMTyKVPaVpFKDQEeliq/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l014",
+      "num": 14,
+      "title_km": "វិធីរើសអង្គធម៌ ម៉ោងទី ១៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1XkkiuTZxKtYyjBruUyGJgXcPHUaU4RLL/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l015",
+      "num": 15,
+      "title_km": "វិធីរើសអង្គធម៌ម៉ោងទី១៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1wnrOeyFHRYcWR91zsZpCtiGLShhUzsdi/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l016",
+      "num": 16,
+      "title_km": "វិធីរើសអង្គធម៌ (16)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1x2s8HHIJF_52uE99wUm99Co4qtq-rAkX/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l017",
+      "num": 17,
+      "title_km": "វិធីរើសអង្គធម៌ (17)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1t-xoUGcHjwWsvC-yH18DIqx0rMd8rY9t/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l018",
+      "num": 18,
+      "title_km": "វិធីរើសអង្គធម៌ (18)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1mKt7ohYJnk_vCCvjTSDQ4uKXvaYEmVFk/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l019",
+      "num": 19,
+      "title_km": "វិធីរើសអង្គធម៌ (19)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1fg3m062r0nIaW0GdUdSAUWKRHyu2NW8q/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l020",
+      "num": 20,
+      "title_km": "វិធីរើសអង្គធម៌ ២០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1vdpFQ4T8TnW6PMaJf4jA2Wfne7xEGKSt/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l021",
+      "num": 21,
+      "title_km": "វិធីរើសអង្គធម៌ ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1fa-SNrnjfId8DapzYZ4sD0pXqfAyalRm/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l022",
+      "num": 22,
+      "title_km": "វិធីរើសអង្គធម៍ (២៣)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1bykJadIN_uxZ225SxRuIWcl3PwBtqoGF/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l023",
+      "num": 23,
+      "title_km": "វិធីរើសអង្គធម៌ (33)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1nfvBMyTAkzblCjPkUR4KnDBZHqhIXJgO/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l024",
+      "num": 24,
+      "title_km": "សិក្សារវិធីរើសអង្គធម៌ (3៤)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1YmTEY4ZnywRFZ2hZ-frw84hXhzznnNv3/preview"
+        }
+      ]
+    },
+    {
+      "id": "c004-l025",
+      "num": 25,
+      "title_km": "វិធីរើអង្គធម៌ (35)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1DoL2Gg_wFz3u6LQYsZFmyoIdLq6YpZVv/preview"
+        }
+      ]
+    }
+  ]
+}

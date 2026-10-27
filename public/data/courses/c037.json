@@ -1,0 +1,85 @@
+{
+  "id": "c037",
+  "provisional": true,
+  "title_km": "សមាធិ វគ្គខ្លីលើកទី៥៦",
+  "title_en": null,
+  "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+  "teacher_slug": "him-bunthoeun",
+  "topics": [
+    "meditation"
+  ],
+  "lessons": [
+    {
+      "id": "c037-l001",
+      "num": 1,
+      "title_km": "1.វគ្គខ្លី លើកទី ​៥៦.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f6eb6680f2667740aa508a?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c037-l002",
+      "num": 2,
+      "title_km": "2.វគ្គខ្លី លើកទី ​៥៦.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f6ebc9d7ef36a66380ce48?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c037-l003",
+      "num": 3,
+      "title_km": "3.វគ្គខ្លី លើកទី ​៥៦.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f6eec9888566c5b040f8dd?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c037-l004",
+      "num": 4,
+      "title_km": "4.វគ្គខ្លី លើកទី ​៥៦.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f72697dd797ab5c4213a59?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c037-l005",
+      "num": 5,
+      "title_km": "5.វគ្គខ្លី លើកទី ​៥៦.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f72f0680f2667740bf2bb3?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c037-l006",
+      "num": 6,
+      "title_km": "6.វគ្គខ្លី លើកទី ​៥៦.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f72f67b5743a0a561c4470?subscribe=false"
+        }
+      ]
+    }
+  ]
+}

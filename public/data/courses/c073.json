@@ -1,0 +1,673 @@
+{
+  "id": "c073",
+  "provisional": true,
+  "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី6 (2024)",
+  "title_en": "Abhidhamma Chapter 6 (2024)",
+  "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+  "teacher_slug": "yon-yi",
+  "topics": [
+    "abhidhamma"
+  ],
+  "lessons": [
+    {
+      "id": "c073-l001",
+      "num": 1,
+      "title_km": "០១ និយមន័យរូប ពាក្យថា រូបក្ខន្ធ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី រូបបរមត្ថ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/fgodyDP2bjU"
+        }
+      ]
+    },
+    {
+      "id": "c073-l002",
+      "num": 2,
+      "title_km": "០២ និយមន័យរូប ៧ ន័យ និងវចនត្ថៈរបស់រូប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី រូបបរមត្ថ បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/wiXG8A90DTU"
+        }
+      ]
+    },
+    {
+      "id": "c073-l003",
+      "num": 3,
+      "title_km": "០៣ រូប ២៨ ២ពួកធំ និងចែកជា ៥ យ៉ាង/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី រូបបរមត្ថ បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/mcZNaQt-gfQ"
+        }
+      ]
+    },
+    {
+      "id": "c073-l004",
+      "num": 4,
+      "title_km": "០៤ មហាភូត ដោយហេតុ ៥ យ៉ាង/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី រូបបរមត្ថ បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/0YKJbJf6xRI"
+        }
+      ]
+    },
+    {
+      "id": "c073-l005",
+      "num": 5,
+      "title_km": "០៥ មហាភូតរូបដោយហេតុ៥ យ៉ាងបន្ត/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី រូបបរមត្ថ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/fs0IWhhhqQA"
+        }
+      ]
+    },
+    {
+      "id": "c073-l006",
+      "num": 6,
+      "title_km": "០៦ មហាភូតរូបន័យទី ៤ និងន័យទី ៥/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យីបរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/_UB8NmBAf3Y"
+        }
+      ]
+    },
+    {
+      "id": "c073-l007",
+      "num": 7,
+      "title_km": "០៧ ភូតមាន ៧ ន័យ មានភូតបានដល់ព្រះអហរន្តជាដើម/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/nxoZaG6woDw"
+        }
+      ]
+    },
+    {
+      "id": "c073-l008",
+      "num": 8,
+      "title_km": "០៨ បឋវីធាតុ បឋវីធាតុចែកជា ៤ យ៉ាង/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Et_brNasVGY"
+        }
+      ]
+    },
+    {
+      "id": "c073-l009",
+      "num": 9,
+      "title_km": "០៩ អាបោធាតុ ធាតុដី តេជោធាតុ ធាតភ្លើង/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/AO01nmYAouU"
+        }
+      ]
+    },
+    {
+      "id": "c073-l010",
+      "num": 10,
+      "title_km": "១០ តេជោធាតុ ៤ យ៉ាង និងវាយធាតុ ៦ យ៉ាង/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/R3fL_MHRhXU"
+        }
+      ]
+    },
+    {
+      "id": "c073-l011",
+      "num": 11,
+      "title_km": "១១ ឧបមាធាតុ ៤ ដូចជាអាសិរពិស ៤ និងពេជ្ឈឃាត/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/L-jeeesZOXk"
+        }
+      ]
+    },
+    {
+      "id": "c073-l012",
+      "num": 12,
+      "title_km": "១២ ឧបមាធាតុ ៤ ពេជ្ឈឃាតគម្រប់៥ ពេជ្ឈឃាតគ្រប់៦/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/wHV4Qx_XifI"
+        }
+      ]
+    },
+    {
+      "id": "c073-l013",
+      "num": 13,
+      "title_km": "១៣ ចក្ខុបសាទរូប ចែកជា ២ មំសំចក្ខុ បញ្ញាចក្ខុ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ESupkPSznCo"
+        }
+      ]
+    },
+    {
+      "id": "c073-l014",
+      "num": 14,
+      "title_km": "១៤ ចក្ខុបសាទរូប បញ្ញាចក្ខុ ៥ យ៉ាង និងចក្ខុចែកជា១៣ យ៉ាង/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/BtAfprXdK1o"
+        }
+      ]
+    },
+    {
+      "id": "c073-l015",
+      "num": 15,
+      "title_km": "១៥ សោតបសាទរូប ឃានបសាទរូប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/x0H44P_igrU"
+        }
+      ]
+    },
+    {
+      "id": "c073-l016",
+      "num": 16,
+      "title_km": "១៦ ជិវ្ហាបសាទ​ កាយបសាទរូប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/eenRNfKAG60"
+        }
+      ]
+    },
+    {
+      "id": "c073-l017",
+      "num": 17,
+      "title_km": "១៧ កាយបសាទ និងរូបារម្មណ៍ គឺវណ្ណៈ ពណ៌/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/EDY9Nhgj9ts"
+        }
+      ]
+    },
+    {
+      "id": "c073-l018",
+      "num": 18,
+      "title_km": "១៨ សទ្ទារម្មណ៍​ សំឡេង គន្ធារម្មណ៍ ក្លិន/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/6BTymdsx6Ug"
+        }
+      ]
+    },
+    {
+      "id": "c073-l019",
+      "num": 19,
+      "title_km": "១៩ គន្ធារម្មណ៍ រសារម្មណ៍ ផោដ្ឋព្វារម្មណ៍/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/B9aOAaChdsU"
+        }
+      ]
+    },
+    {
+      "id": "c073-l020",
+      "num": 20,
+      "title_km": "២០ ភាវរូប ២ និងហទយវត្ថុ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/b7pbeKLWYwk"
+        }
+      ]
+    },
+    {
+      "id": "c073-l021",
+      "num": 21,
+      "title_km": "២១ ហទយវត្ថុរូប បេះដូង ទឹកឈាមមានពណ៌ ៦ យ៉ាង/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/iRxy8UsMdjs"
+        }
+      ]
+    },
+    {
+      "id": "c073-l022",
+      "num": 22,
+      "title_km": "២២ ជីវិតរូប ការអនុបាលនូវសហជាតរូបឱ្យតាំងនៅ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/IeRPl85iW0w"
+        }
+      ]
+    },
+    {
+      "id": "c073-l023",
+      "num": 23,
+      "title_km": "២៣ អាហាររូប រូបដែលជាអាហារចិញ្ចឹមរាងកាយ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/1MwzR2wuc6o"
+        }
+      ]
+    },
+    {
+      "id": "c073-l024",
+      "num": 24,
+      "title_km": "២៤ អាហាររូប និងបរិច្ឆេទរូប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/jw-fdaftiDs"
+        }
+      ]
+    },
+    {
+      "id": "c073-l025",
+      "num": 25,
+      "title_km": "២៥ វិញ្ញត្តិរូប ២ កាយវិញ្ញត្តិការកម្រើកកាយ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/IKeuLWfJIFo"
+        }
+      ]
+    },
+    {
+      "id": "c073-l026",
+      "num": 26,
+      "title_km": "២៦ វិញ្ញត្តិរូប ២ វចីវិញ្ញត្តិរូប ការកម្រើកវាចា/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/k6CDsk4hXR0"
+        }
+      ]
+    },
+    {
+      "id": "c073-l027",
+      "num": 27,
+      "title_km": "២៧ វិញ្ញត្តិរូប ២ ចិត្តដែលញុំាងវិញ្ញត្តិរូបឱ្យកើត/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/JAjYVqyBgPo"
+        }
+      ]
+    },
+    {
+      "id": "c073-l028",
+      "num": 28,
+      "title_km": "២៨ វិការរូប ៣ រូបលហុតា រូបមុទុតា រូបកម្មញ្ញតា/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/74Dlh1Ue6O8"
+        }
+      ]
+    },
+    {
+      "id": "c073-l029",
+      "num": 29,
+      "title_km": "២៩ លក្ខណរូប ឧបចយរូប សន្តតិរូប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/mBJE2tJmgGw"
+        }
+      ]
+    },
+    {
+      "id": "c073-l030",
+      "num": 30,
+      "title_km": "៣០ លក្ខណរូប ៤ ជរតារូប រូបចាស់គ្រាំគ្រា/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/a1cXoyM3Tmg"
+        }
+      ]
+    },
+    {
+      "id": "c073-l031",
+      "num": 31,
+      "title_km": "៣១ លក្ខណរូប ៤ ជរាមាន ២យ៉ាង និងអនិច្ចតារូប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xoDJ9PFy-uw"
+        }
+      ]
+    },
+    {
+      "id": "c073-l032",
+      "num": 32,
+      "title_km": "៣២ ចែករូបជាសាសវៈ សង្ខតៈ លោកិយ និងកាមាវចរ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/fZiFk0pZK5g"
+        }
+      ]
+    },
+    {
+      "id": "c073-l033",
+      "num": 33,
+      "title_km": "៣៣ ចែករូបជាឯកវិធន័យចប់ចូលអជ្ឈត្តិក និងពហិទ្ធរូប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/4Lx29IwVmvw"
+        }
+      ]
+    },
+    {
+      "id": "c073-l034",
+      "num": 34,
+      "title_km": "៣៤ ទុកន័យ វត្ថុរូប ទ្វាររូប ឥន្រ្ទិយរូបឱឡារិករូប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/l2lfZdqRkQk"
+        }
+      ]
+    },
+    {
+      "id": "c073-l035",
+      "num": 35,
+      "title_km": "៣៥ ទុកន័យ សប្បដិឃរូប សនិទស្សនរូប គោរចរគាហិក/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/bQHfMk5sU-U"
+        }
+      ]
+    },
+    {
+      "id": "c073-l036",
+      "num": 36,
+      "title_km": "៣៦ រូបន័យទី ៣ រូបសមុដ្ឋាន មាន៤/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/hLXFYl8zlhI"
+        }
+      ]
+    },
+    {
+      "id": "c073-l037",
+      "num": 37,
+      "title_km": "៣៧ រូបន័យទី ៣ កម្មជ្ជរូប រូបកើតកម្ម១៨/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/vRsHubmevGk"
+        }
+      ]
+    },
+    {
+      "id": "c073-l038",
+      "num": 38,
+      "title_km": "៣៨ រូបន័យទី ៣ ពន្យល់កម្មជ្ជរូប និងចិត្តជ្ជរូបសាមញ្ញ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/9iQKfmgabbM"
+        }
+      ]
+    },
+    {
+      "id": "c073-l039",
+      "num": 39,
+      "title_km": "៣៩ រូបន័យទី ៣ ពន្យល់កម្មជ្ជរូប និងចិត្តជ្ជរូបសាមញ្ញ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/PrdTZB3a4iE"
+        }
+      ]
+    },
+    {
+      "id": "c073-l040",
+      "num": 40,
+      "title_km": "៤០ ឧតុជ្ជរូប រូបកើតពីឧតុ និងអាហារជ្ជរូប រូបកើតពីអាហារ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/dHvTuIQ9mXw"
+        }
+      ]
+    },
+    {
+      "id": "c073-l041",
+      "num": 41,
+      "title_km": "៤១ សិក្សាសមុដ្ឋានិករូប រូបកើតពីសមុដ្ឋានទាំង ៤/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/gmR5K95sl4k"
+        }
+      ]
+    },
+    {
+      "id": "c073-l042",
+      "num": 42,
+      "title_km": "៤២ ចែកកោដ្ឋាស ៤២ ដោយសមុដ្ឋាន ៤/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/XlyexH6pZmk"
+        }
+      ]
+    },
+    {
+      "id": "c073-l043",
+      "num": 43,
+      "title_km": "៤៣ រូបកលាបន័យទី៣ កម្មជ្ជកលាបមាន ៩ កលាប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Y53Snty5tbE"
+        }
+      ]
+    },
+    {
+      "id": "c073-l044",
+      "num": 44,
+      "title_km": "៤៤ រូបកលាបន័យទី៣ ចិត្តជ្ជកលាបមាន ៩ កលាប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/avcZav4RTXo"
+        }
+      ]
+    },
+    {
+      "id": "c073-l045",
+      "num": 45,
+      "title_km": "៤៥ រូបកលាបន័យទី៣ ឧតុជ្ជកលាបមាន ៦ កលាប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Skwws6KZ2L0"
+        }
+      ]
+    },
+    {
+      "id": "c073-l046",
+      "num": 46,
+      "title_km": "៤៦ រូបកលាបន័យទី៣ អាហារជ្ជកលាបមាន ២ កលាប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/A6zHy5EbTwM"
+        }
+      ]
+    },
+    {
+      "id": "c073-l047",
+      "num": 47,
+      "title_km": "៤៧ រូបកលាបន័យទី៣ ចែកសសម្ភា៤២ ជារូបកលាប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/cVrbVevQcrM"
+        }
+      ]
+    },
+    {
+      "id": "c073-l048",
+      "num": 48,
+      "title_km": "៤៨ រូបបវត្តិក្កមន័យទី៤ ចែករូបតាមភូមិ២៧ភូមិ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/jHFcPDd71-c"
+        }
+      ]
+    },
+    {
+      "id": "c073-l049",
+      "num": 49,
+      "title_km": "៤៩ រូបបវត្តិក្កមន័យទី៤ ចែករូបដោយសមុដ្ឋានតាមភូមិ៣/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Wi8rq3OCXkU"
+        }
+      ]
+    },
+    {
+      "id": "c073-l050",
+      "num": 50,
+      "title_km": "៥០ រូបបវត្តិក្កមន័យទី៤ ចែករូបតាមកាល៣ មានបដិសន្ធិកាលជាដើម/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Qo-9zphUggQ"
+        }
+      ]
+    },
+    {
+      "id": "c073-l051",
+      "num": 51,
+      "title_km": "៥១ រូបបវត្តិក្កមន័យទី៤ ចែករូបតាមកាល៣ មានបដិសន្ធិកាលជាដើម/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/d-4XnEaYB-U"
+        }
+      ]
+    },
+    {
+      "id": "c073-l052",
+      "num": 52,
+      "title_km": "៥២ រូបបវត្តិក្កមន័យទី៤ ចែករូបដោយកំណើត៣/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/j65G-RxnDtg"
+        }
+      ]
+    },
+    {
+      "id": "c073-l053",
+      "num": 53,
+      "title_km": "៥៣ និព្វានបរមត្ថ និយមន័យនិព្វាន និព្វាននៅឯណា?/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ncGQ_glgkcM"
+        }
+      ]
+    },
+    {
+      "id": "c073-l054",
+      "num": 54,
+      "title_km": "៥៤ និព្វានបរមត្ថ ព្រះនិព្វានមាន ១៤៣ ពាក្យបញ្ចប់បរិច្ឆេទទី៦/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/VbgnVSQL0No"
+        }
+      ]
+    },
+    {
+      "id": "c073-l055",
+      "num": 55,
+      "title_km": "៥៥ ថ្ងៃប្រឡងបិទវគ្គបញ្ចប់បរិច្ឆេទទី៦ រូបនិងនិព្វាន/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/upeHN1HZIIE"
+        }
+      ]
+    }
+  ]
+}

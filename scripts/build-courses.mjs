@@ -37,6 +37,20 @@ export function lessonId(index0, lessonIndex0) {
   return `${courseId(index0)}-l${String(lessonIndex0 + 1).padStart(3, '0')}`;
 }
 
+/**
+ * Provisional lesson id with a duplicate-num suffix. The id is numbered by the
+ * FIRST source position that carries the num, so the first occurrence keeps the
+ * plain id and later duplicates get a letter suffix (occ 2 → "b", 3 → "c").
+ * This keeps the displayed num byte-for-byte while giving every lesson a unique,
+ * stable provisional id used in the URL (/courses/<course-id>/<lesson-id>).
+ */
+export function lessonIdSuffixed(index0, lessonIndex0, occurrence) {
+  const base = lessonId(index0, lessonIndex0);
+  if (occurrence <= 1) return base;
+  // occ 2 → 'b', 3 → 'c', … (97 = 'a'); occ 1 would be 'a' but is left bare.
+  return `${base}${String.fromCharCode(96 + occurrence)}`;
+}
+
 // ── Media classification ─────────────────────────────────────────────────────
 
 /** Classify a single source URL into a media kind, or null if empty/unknown. */
@@ -138,16 +152,41 @@ export function buildCourses(sourceCourses, teachers, mediaManifest) {
       issues.push({ course_id: id, lesson_num: '', kind: 'unknown_teacher', detail: co.teacherSlug ?? '(none)' });
     }
 
-    const seenNums = new Set();
+    // Track each num's occurrences so a provisional-id suffix (b, c, …) can
+    // disambiguate duplicates WITHOUT editing the displayed num. The id BASE is
+    // taken from the num's FIRST source position, so the first occurrence keeps
+    // the plain id (c007-l013) and later duplicates reuse that base with a
+    // letter suffix (c007-l013b). Coordinator decision 26 Oct 2026 (answer "b").
+    const numOccurrence = new Map(); // num → count seen so far
+    const numFirstIndex = new Map(); // num → first source index (0-based)
+    const numTotal = new Map(); // num → total occurrences in this course
+    (co.lessons || []).forEach((l, li) => {
+      numTotal.set(l.num, (numTotal.get(l.num) || 0) + 1);
+      if (!numFirstIndex.has(l.num)) numFirstIndex.set(l.num, li);
+    });
+
     const lessons = [];
     const mediaKinds = new Set();
 
     (co.lessons || []).forEach((l) => {
-      if (seenNums.has(l.num)) {
-        issues.push({ course_id: id, lesson_num: l.num, kind: 'duplicate_num', detail: `num ${l.num}` });
-        return; // do not emit the duplicate
+      const occ = (numOccurrence.get(l.num) || 0) + 1;
+      numOccurrence.set(l.num, occ);
+
+      // Id base = the num's first position; suffix for occ >= 2.
+      const id_lesson = lessonIdSuffixed(i, numFirstIndex.get(l.num), occ);
+
+      if (numTotal.get(l.num) > 1) {
+        // Duplicate num is a WARNING, not a build failure. Record every case
+        // with both lesson titles so a human can confirm later. The duplicate
+        // is KEPT (no data loss).
+        const siblings = (co.lessons || []).filter((x) => x.num === l.num).map((x) => x.titleKm ?? '');
+        issues.push({
+          course_id: id,
+          lesson_num: l.num,
+          kind: 'duplicate-num',
+          detail: `course "${titleKm}" num ${l.num} occ ${occ}/${numTotal.get(l.num)} → id ${id_lesson}; titles: ${siblings.map((s) => `«${s}»`).join(' | ')}`,
+        });
       }
-      seenNums.add(l.num);
 
       let title = l.titleKm ?? '';
       if (title.trim() === '') {
@@ -158,11 +197,11 @@ export function buildCourses(sourceCourses, teachers, mediaManifest) {
       const media = lessonMedia(l, r2ByDriveId);
       if (media.length === 0) {
         issues.push({ course_id: id, lesson_num: l.num, kind: 'no_media', detail: 'hidden' });
-        return; // hidden: not emitted
+        return; // hidden: not emitted (but the duplicate warning above still stands)
       }
       for (const m of media) mediaKinds.add(m.kind);
 
-      lessons.push({ num: l.num, title_km: title, topic: l.topic ?? '', media });
+      lessons.push({ id: id_lesson, num: l.num, title_km: title, topic: l.topic ?? '', media });
     });
 
     const courseFile = {
@@ -198,9 +237,15 @@ export function buildCourses(sourceCourses, teachers, mediaManifest) {
   };
 }
 
-/** True when an issue is a hard-fail (stops the build). */
+/**
+ * True when an issue is a hard-fail (stops the build). `unknown_teacher` is the
+ * only hard fail: it means a course points at a teacher slug not in the teacher
+ * file, which cannot be rendered. `duplicate-num`, `empty_title`, and `no_media`
+ * are WARNINGS — handled (kept/renamed/hidden) and reported, never fatal.
+ * (Coordinator 26 Oct 2026: duplicate num is a warning, not a build failure.)
+ */
 export function isHardFail(issue) {
-  return issue.kind === 'duplicate_num' || issue.kind === 'unknown_teacher';
+  return issue.kind === 'unknown_teacher';
 }
 
 // ── File runner ──────────────────────────────────────────────────────────────
@@ -281,7 +326,7 @@ function main() {
   console.log(`reports/course-issues.csv written (${issues.length} rows)`);
 
   if (hard.length > 0) {
-    console.error(`BUILD FAILED — ${hard.length} hard-fail issue(s): duplicate_num / unknown_teacher. See reports/course-issues.csv.`);
+    console.error(`BUILD FAILED — ${hard.length} hard-fail issue(s): unknown_teacher. See reports/course-issues.csv.`);
     process.exit(1);
   }
   console.log('build OK');

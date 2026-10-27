@@ -1,0 +1,941 @@
+{
+  "id": "c056",
+  "provisional": true,
+  "title_km": "Dhamma in English (វគ្គ ១) ឆ្នាំ២០១៧",
+  "title_en": "Dhamma in English, Batch 1 (2017)",
+  "teacher": "លោកម្ចាស់គ្រូ ហាក់ សៀងហៃ",
+  "teacher_slug": "hak-sienghai",
+  "topics": [
+    "english"
+  ],
+  "lessons": [
+    {
+      "id": "c056-l001",
+      "num": 1,
+      "title_km": "១ Buddhism in English by Ven.Hak Sienghai_ 1",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/16RY2DZyLNSStqiZUi-xSI99aE0f0aRgf/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/17BmGb6ajmnpi2WhK2OmhFxaDIRBGGw93/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l002",
+      "num": 2,
+      "title_km": "២ Buddhism in English by Ven.Hak Sienghai_ 2",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1m37Q8Hjvr7sGsbb35UlpiDSrOYbcblkD/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1fVfCsmBk0K-i5PgEHylQuxzpp3v1OGaR/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l003",
+      "num": 3,
+      "title_km": "៣ Buddhism in English by Ven.Hak Sienghai 3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/164gcHTyywxFNqkaZby5sfyQK3imL355J/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1W88UHAcGgRxLbK4piWSs0nfql_pKhlXa/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l004",
+      "num": 4,
+      "title_km": "៤ Buddhism in English by Ven.Hak Sienghai_ 4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1SZ8A_FGcKBNpbIx9IyWqbrbwx4MDu0tY/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1MHn90wK7SEryU8yuotvxoSxumJep9-d_/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l005",
+      "num": 5,
+      "title_km": "៥ Buddhism-in-English-by-Ven-Hak-Sienghai-5_480p",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/12EQ3vVau_jfqka46GSSo22m4gfjx2RHy/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/15lHnX8KGM6uPhCCe_ujhsyetkD92aSd2/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l006",
+      "num": 6,
+      "title_km": "៦ Buddhism in English by Ven.Hak Sienghai 6",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Iwtb7WIlz0Y-TW2fttlL_eRoEeIueG3w/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1UhIrVtd11uvKN-nmicH1VjKY5w6yvoE9/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l007",
+      "num": 7,
+      "title_km": "៧ Buddhism in English by Ven.Hak Sienghai 7",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1vM1qDmgJ42OensIoTLzmLXfYps4f8ke5/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1pkdZ0xDKd5Uk3RHgNs0GaeiF__YrEjRC/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l008",
+      "num": 8,
+      "title_km": "៨ Buddhism in English by Ven.Hak Sienghai 8",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/14NcbezgKhwKsHYTwQlRoBMHcGjS7wTmI/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1_J-xzuZCyn-Hux5IRfGipI1gVQsszukl/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l009",
+      "num": 9,
+      "title_km": "៩ Buddhism in English by Ven.Hak Sienghai 9 (The most Watch)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1RMjblUaV7i8vB5hhvgGuDuIkoHDAeXfd/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1t62c6d-PuZwePXxHYTgBqt0x7WIYIXss/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l010",
+      "num": 10,
+      "title_km": "១០ Buddhism in English by Ven.Hak Sienghai 10",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1VodZwgDbf-4TKjllO2iH1ch286FATW1D/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1_RKmqybXlyYyWAzQCexPMSA0tGj29vzG/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l011",
+      "num": 11,
+      "title_km": "១១ Buddhism in English by Ven.Hak Sienghai 11",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1av71mQa_wUj9DAHoIQOuYA4SOwZgZrzB/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/16RiG6uEjyJTx7gVAJgcruIsYkLhs_ysO/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l012",
+      "num": 12,
+      "title_km": "១២ Buddhism in English by Ven.Hak Sienghai 12",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1nVkzzPzfsG1SYn6LqdOHQyNtFo_O6hLy/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1K5KBbjpmrtt9MszAACxmuT6SukebZ9ND/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l013",
+      "num": 13,
+      "title_km": "១៣ Buddhism in English by Ven.Hak Sienghai 13",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/127DjQzg4dbeAaAIegrjyohHIjnF4bYbs/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1BeoEGhg9LJMrYKoC4M3LwradqcxWlM15/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l014",
+      "num": 14,
+      "title_km": "១៤ Buddhism in English by Ven.Hak Sienghai 14",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/18zBnszors05AfxtsRo42udF-oSr03lO3/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1mk8R9hN8E11zAijbRZGHMXdlrVuqn2bs/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l015",
+      "num": 15,
+      "title_km": "15-១៦ Buddhism in English by Ven.Hak Sienghai 16 (1)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1SNNP2ubW1sxQ1tSNnWsgHS_kZs0tpLaz/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/17TAEazJp1uptvbNDmTql--vxxBUnPTrX/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l016",
+      "num": 16,
+      "title_km": "16-១៧ Buddhism in English by Ven.Hak Sienghai 17 (1)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1YXZ4QYWf8FcWNcruG-0gl33AjdbTC-vy/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1lKJ_IZGYI4BSsFvhSb4Y3CPJEtiD7pJm/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l017",
+      "num": 17,
+      "title_km": "17-១៨ Buddhism in English by Ven.Hak Sienghai 18",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1wpykJQjZ8kGi07CN10cMuasYo_VR44J3/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1LD9DFAOK9ARPW6rvfGjQwZ4dT3CCwSKn/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l018",
+      "num": 18,
+      "title_km": "18-១៩ Buddhism in English by Ven.Hak Sienghai 19",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1vR6rmlSPf7u2ox6sjsQyeTLewEs29LXk/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1OCKsrwT_9riewz0eGATgO8vwrGOnVeg5/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l019",
+      "num": 19,
+      "title_km": "19-២០ Buddhism in English by Ven.Hak Sienghai 20",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1xkSmf5GsEcbCzoRwezc_IePr8AyYXacH/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1niampw45iinUtp0oQe2dA_erNnoDlu2X/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l020",
+      "num": 20,
+      "title_km": "20-២១ Buddhism in English by Ven.Hak Sienghai 21",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1nTFcQo6zAI0AlLbN6-7SvhxBy2vT_zNK/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1t8B2g64IJbWnaPhefhTeq1pGMuBIlpUc/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l021",
+      "num": 21,
+      "title_km": "21-២២ Buddhism in English by Ven.Hak Sienghai 22",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/15Hc7giQPNGzUcqYPuVNLqnoeLrYcIhdP/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1MwaKIK7Fceyd6FAxF65LfFpVkvopxuOx/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l022",
+      "num": 22,
+      "title_km": "22-២៣ Buddhism in English by Ven.Hak Sienghai 23",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1O7I3XSZZXflZqeA3FEJVQl1Nj8IS8haO/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/13BZhzMtOotMPDM1l4DDLhHxa3gaHQHRd/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l023",
+      "num": 23,
+      "title_km": "23-២៤ Buddhism in English by Ven.Hak Sienghai 24",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/12QabgnsKJK1hIHkVsjvHvVYILskQ9oDX/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1DWnuXor511PsBIQGSMiZndAIVjnZjkwj/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l024",
+      "num": 24,
+      "title_km": "24-២៥ Buddhism in English by Ven.Hak Sienghai 25",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1BN17eNaG0z5k0SfarTvrk-8dwms6o_FK/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1BH39kO-W2msi9VhCcadTh475lqssxeWd/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l025",
+      "num": 25,
+      "title_km": "25-២៦ Buddhism in English by Ven.Hak Sienghai 26",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1lcUZ8a8IicJ03crKhN4iX7QZQGOqzwuj/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/12CYu9LO4e7LejpnTWo-Y74U3J61AA2vm/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l026",
+      "num": 26,
+      "title_km": "26-២៧ Buddhism in English by Ven.Hak Sienghai 27",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1KOxjJGksNa0wB2NeFbn6nm7AaOL7wKgm/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1KqMhlouirm--3kvDHsFXv2RO9c7b3BxB/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l027",
+      "num": 27,
+      "title_km": "27-២៨ Buddhism in English by Ven.Hak Sienghai 28",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1oFFxUtr90OiIGUwRNBBsvbOUZWcHoqcm/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1frTEEeh20pglvYR-mI34UyhxbF9la3Iw/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l028",
+      "num": 28,
+      "title_km": "28-២៩ Buddhism in English by Ven.Hak Sienghai 29",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1HmdwztoVJ919umwDf1ZF20KieOObeYPq/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1xiv2GUWIirwguePIWXP15fxTzgb7fhMu/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l029",
+      "num": 29,
+      "title_km": "29-៣១ Buddhism in English by Ven.Hak Sienghai 31",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1oWHYJKWipO-1ewzgegmDG-5wWnmQ1bsx/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Xi2sDV3VXzMT3MK5HOfHSOPgHMT9HmRE/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l030",
+      "num": 30,
+      "title_km": "30-៣២ Buddhism in English by Ven.Hak Sienghai 33",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1HpHKYRP0FvOofZBLlqfYbFXLB49eJcBS/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1tKiKigphG6tF-jbqTops4AQvopy7Exnh/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l031",
+      "num": 31,
+      "title_km": "31-៣៣ Buddhism in English by Ven.Hak Sienghai 34",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1zzfk_1jbDEH_mujrFXtsxaU7_hiO-YRK/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1MWN-_OxpY7zTuCBA51Ypl0TOB9L-70zC/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l032",
+      "num": 32,
+      "title_km": "32-៣៤ Buddhism in English by Ven.Hak Sienghai 35",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1i_BhCaTrV2uolOlK1aSmyIbIlAgyvwCn/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Uur6KHndh860orBtP2goxFalCl5LluWa/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l033",
+      "num": 33,
+      "title_km": "33-៣៥ Buddhism in English by Ven.Hak Sienghai 36",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1bek9b-dQxlEKjV30R3XqCTQnQ03dEvQB/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1AbL9Yqzyxe1L3CtrzrAMYG5GbK8eR2S2/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l034",
+      "num": 34,
+      "title_km": "34-៣៦ Buddhism in English by Ven.Hak Sienghai 37",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1BdofS2RNdafTZeZZB4THwkx4UqLPqyl1/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1ZRYdDmvXi1sqGpgLmD2Vl0Z80Tzt3V-X/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l035",
+      "num": 35,
+      "title_km": "35-៣៧ Buddhism in English by Ven.Hak Sienghai_ 38",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/18TpBi_NMMGe0DY4K7WedsSyxAx7392l-/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1JP4qiKAdBOuiFggWedN_U3uS8Af0u_HG/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l036",
+      "num": 36,
+      "title_km": "36-Buddhism in English by Ven.Hak Sienghai 39",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1-Nq3oysKmPahPQVrMi3Ofs01iWzib0cc/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1rqQQwVRprLkjrqk2LSjUns2988Xo7ig7/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l037",
+      "num": 37,
+      "title_km": "37-៤០ Buddhism in English by Ven.Hak Sienghai 41",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1MBnMLQ5wQAMzOEVBGUpE2BNi814tGivB/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1_hyRU-Fy89vgsji_kUXT3R-GOl79rgVm/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l038",
+      "num": 38,
+      "title_km": "38-៤១ Buddhism in English by Ven.Hak Sienghai 42",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1NtqJ5iBxo4SpSPmV_C9qWSVGuKyHJxtc/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1ueWc_XecIpZXvsgZ4WSdoz0bTte44kIp/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l039",
+      "num": 39,
+      "title_km": "39-៤២ Buddhism in English by Ven.Hak Sienghai 43",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1KpaV2Q6XD3VHmHgf_tOZMAGdS7xHley4/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1z87bbra7-oMJF72IldKXZXVZFYpbg17A/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l040",
+      "num": 40,
+      "title_km": "40-៤៣ Buddhism in English by Ven.Hak Sienghai 44",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1oH1eLpiFSnP-kYHf7f-GXlWvf9mqQ9DE/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1msDwUpppPeCR_2Cn9MigUPHcIjG_sT8I/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l041",
+      "num": 41,
+      "title_km": "41-៤៤ Buddhism in English by Ven.Hak Sienghai 45-1",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Fk7Ie1cG3kzeeqinMu6ZqkVY5ioUE1NZ/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1wBrcA6ksse27tNktT5nPrhZ90qJcZp_Y/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l042",
+      "num": 42,
+      "title_km": "42-៤៥ Buddhism in English by Ven.Hak Sienghai 46",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1knYhfxux-NV_-fsDPPpPgU7Vh55dpmuU/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1Wrqu5i_E7NikqmclGvDVX1M2ah1FVwPu/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l043",
+      "num": 43,
+      "title_km": "43-៤៦ Buddhism in English by Ven.Hak Sienghai 47",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1zBCFPyHHSmkWf6CViTa6kPmzU5cszmhn/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/14U-ERDDxWsudrMnltrjVtOU09-40PqFE/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l044",
+      "num": 44,
+      "title_km": "44-៤៧ Buddhism in English by Ven.Hak Sienghai 48",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1ZzhPFNsA6xTVnb9G8o1K-cFoWR0G_imD/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1GpNY0lT8yJnJQTqgn-xKcXeEoweF9EG3/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l045",
+      "num": 45,
+      "title_km": "45-៤៨ Buddhism in English by Ven.Hak Sienghai 49",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1uTnSEirZHL5rjyj1ykgp__LjD21S9av6/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1sdB1JAgCgwpgdsKntk-1pmMJxO2rtGxq/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l046",
+      "num": 46,
+      "title_km": "46-៤៩ Buddhism in English by Ven.Hak Sienghai 50",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1JM2455Ig2evgsQX7fcwTwQ8ZCQvVhk0y/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1v3XAMECZ7JGEgZ1YYl8Org3Y1Tm0CiDg/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l047",
+      "num": 47,
+      "title_km": "47-៥០ Buddhism in English by Ven.Hak Sienghai 51.52",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1gYMp26GX8Q686GGPeDpalaLDxqkPUr3E/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1-6DrsaPqmD4hP_qAruI4keyZeqsBsGho/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l048",
+      "num": 48,
+      "title_km": "48-៥១ Buddhism in English by Ven.Hak Sienghai 52",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1sbu5VgrzVIMZd61HnfNckK0M7Wmq4tYK/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1_ScLVf2LoZmU5R2B5OJc1PixP8qLCQMp/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l049",
+      "num": 49,
+      "title_km": "49-៥២ Buddhism in English by Ven.Hak Sienghai 53",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1vLAWBgoWSpi7V4HFMFe8bzMI8eDwW2NW/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1kAKhwhrRSkJf9N3wivbG_BzLGZNvDlAe/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l050",
+      "num": 50,
+      "title_km": "50-៥៣ Buddhism in English by Ven.Hak Sienghai 54",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/11fqSivbkyN4rFKXAOam_Coo7pUhP6yyZ/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1iEl8e-rxPUUnx9B_vifoEsLRm-8AXH18/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l051",
+      "num": 51,
+      "title_km": "51-៥៤ Buddhism in English by Ven.Hak Sienghai 55",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/14B1Mbist6sYzFfergqy2Ev98uHcq1CFj/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1TeUSyRSNzKv6fx2jpipHYDh6StD6CQH2/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l052",
+      "num": 52,
+      "title_km": "52-ចរិត៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1eNuUxZh0z_Vz9JtfxQgq4XoCW7TOjxNW/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1wR2h-fyuoPUknUVYI4BrEyHE-BQJ1rVj/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l053",
+      "num": 53,
+      "title_km": "53-មនុស្ស៥ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1oV-LnPdZlM7UWV4s5Odj6UzR58b3i97k/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/124m6QKuDH44xdj-WKTY9NF_kPyIanShh/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l054",
+      "num": 54,
+      "title_km": "54-កាប់ព្រៃបី រក្សាព្រៃដប់ ផឹកថ្នាំ៥កញ្ចប់ តមត្រណមពីរ59",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1el3D_ccbdweFdOOm3DUhIGORfbvywCh-/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/12xXoUkK2H0Spa0I8PWXOmighXHUw2P1G/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l055",
+      "num": 55,
+      "title_km": "55-៦០ ព្យាយាមត្រូវ៤យ៉ាង61",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/12exMtxPpz87aHv-cmdEd_wTJQgwArQhI/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1abdDhI7Tyw7-g-W2oehg_bAHmO47xQXL/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l056",
+      "num": 56,
+      "title_km": "56-៦២ ធម៌នាំឲ្យចម្រើន63",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1QwBxa0owAArMfP3AJr3VViWAwveAdzvs/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1DjrFOLP85vAAfRAe__kdR0jMdnYYUSnI/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l057",
+      "num": 57,
+      "title_km": "57-៦៣ ការមិនសេពគប់បុគ្គលពាល64",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1m8dxha4UBLFybygKCbSNHhRway5m3Z0d/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1eLxOzqAm69omvwnpWCD6vmRIcDQu53gX/preview"
+        }
+      ]
+    },
+    {
+      "id": "c056-l058",
+      "num": 58,
+      "title_km": "58-មង្គល៣៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1x7ROSm6t4eEXUH5_DiSp2uMToy46-qFG/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1trxMwuYlRUO4piS1nFSsaFzsr-sAeSCE/preview"
+        }
+      ]
+    }
+  ]
+}

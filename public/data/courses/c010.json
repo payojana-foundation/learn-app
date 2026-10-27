@@ -1,0 +1,841 @@
+{
+  "id": "c010",
+  "provisional": true,
+  "title_km": "Chapter 3 — Pakinnakasangaha (2024)",
+  "title_en": null,
+  "teacher": "ព្រះមហា វិញ សុវឿង",
+  "teacher_slug": "vinh-sovoeurng",
+  "topics": [
+    "abhidhamma"
+  ],
+  "lessons": [
+    {
+      "id": "c010-l001",
+      "num": 1,
+      "title_km": "១ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/7vy9DotsVu4"
+        }
+      ]
+    },
+    {
+      "id": "c010-l002",
+      "num": 2,
+      "title_km": "២ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/c3OegYPQjns"
+        }
+      ]
+    },
+    {
+      "id": "c010-l003",
+      "num": 3,
+      "title_km": "៣ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/cs9ewBLvDGs"
+        }
+      ]
+    },
+    {
+      "id": "c010-l004",
+      "num": 4,
+      "title_km": "៤ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/oBKD49752IE"
+        }
+      ]
+    },
+    {
+      "id": "c010-l005",
+      "num": 5,
+      "title_km": "៥ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/MU19Dcv6XxE"
+        }
+      ]
+    },
+    {
+      "id": "c010-l006",
+      "num": 6,
+      "title_km": "៦ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Cw7wFyTC-Mw"
+        }
+      ]
+    },
+    {
+      "id": "c010-l007",
+      "num": 7,
+      "title_km": "៧ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/JuoAL5GGwDE"
+        }
+      ]
+    },
+    {
+      "id": "c010-l008",
+      "num": 8,
+      "title_km": "៨ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៨ ទដ្ធព្វសូត្រ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/r0B7DIdpchQ"
+        }
+      ]
+    },
+    {
+      "id": "c010-l009",
+      "num": 9,
+      "title_km": "៩ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៩ ២-ហេតុសង្គហៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/2Trlq7UqxwU"
+        }
+      ]
+    },
+    {
+      "id": "c010-l010",
+      "num": 10,
+      "title_km": "១០ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ១០ ២-ហេតុសង្គហៈ \"ត\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/qhkIpHnRwOA"
+        }
+      ]
+    },
+    {
+      "id": "c010-l011",
+      "num": 11,
+      "title_km": "១១ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ១១ ២-ហេតុសង្គហៈ \"ត\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xzuoEcMU3mg"
+        }
+      ]
+    },
+    {
+      "id": "c010-l012",
+      "num": 12,
+      "title_km": "១២ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ១២ ២-ហេតុសង្គហៈ \"ត\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xCDQW4DF7dQ"
+        }
+      ]
+    },
+    {
+      "id": "c010-l013",
+      "num": 13,
+      "title_km": "១៣ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ១៣ ២-ហេតុសង្គហៈ\"ចប់\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/3NuPb51d-Cg"
+        }
+      ]
+    },
+    {
+      "id": "c010-l014",
+      "num": 14,
+      "title_km": "១៤ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ១៤ ៣-កិច្ចសង្គហៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/SnXYjAGNUbU"
+        }
+      ]
+    },
+    {
+      "id": "c010-l015",
+      "num": 15,
+      "title_km": "១៥ ព្រះអភិធម្មបរិច្ឆេទទី៣បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី១៥ ៣-កិច្ចសង្គហៈ\"ត\"សម្តែងកិច្ចរបស់ចិត្ត១៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/-c44gJAhFco"
+        }
+      ]
+    },
+    {
+      "id": "c010-l016",
+      "num": 16,
+      "title_km": "១៦ ព្រះអភិធម្មបរិច្ឆេទទី៣ មេរៀនថ្ងៃទី១៦ ៣-កិច្ចសង្គហៈ \"ត\" សម្តែងការចែកកិច្ច ១៤ ដោយចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/dRiD9hBDBI4"
+        }
+      ]
+    },
+    {
+      "id": "c010-l017",
+      "num": 17,
+      "title_km": "១៧ ព្រះអភិធម្មបរិច្ឆេទទី៣ មេរៀនថ្ងៃទី១៧ ៣-កិច្ចសង្គហៈ \"ត\" សម្តែងការចែកកិច្ច ១៤ ដោយចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/YHuTbXaJmtg"
+        }
+      ]
+    },
+    {
+      "id": "c010-l018",
+      "num": 18,
+      "title_km": "១៨ ព្រះអភិធម្មបរិច្ឆេទទី៣ មេរៀនថ្ងៃទី១៨ ៣-កិច្ចសង្គហៈ \"ត\" សម្តែងការចែកចិត្ត៨៩ ឫ ១២១ដោយកិច្ច១៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Xg2SzXrerjI"
+        }
+      ]
+    },
+    {
+      "id": "c010-l019",
+      "num": 19,
+      "title_km": "១៩ ព្រះអភិធម្មបរិច្ឆេទទី៣មេរៀនថ្ងៃទី១៩ ៣-កិច្ចសង្គហៈ\"ត\"សម្តែងការចែកចិត្ត៨៩ឫ១២១ដោយកិច្ច១៤\"ចប់\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/yUcZvNErPqA"
+        }
+      ]
+    },
+    {
+      "id": "c010-l020",
+      "num": 20,
+      "title_km": "២០ ព្រះអភិធម្មបរិច្ឆេទទី៣មេរៀនថ្ងៃទី២០ ៣-កិច្ចសង្គហៈ\"ត\" អំពីកិច្ច១៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/F4k9snO"
+        }
+      ]
+    },
+    {
+      "id": "c010-l021",
+      "num": 21,
+      "title_km": "២១ព្រះអភិធម្មបរិច្ឆេទទី៣មេរៀនថ្ងៃទី២០ អំពីស្ថាន១០ ៣-កិច្ចសង្គហៈ\"ត\"សម្តែងការចែកចេតសិក៥២ដោយកិច្ច១៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/GObMQmcNhyk"
+        }
+      ]
+    },
+    {
+      "id": "c010-l022",
+      "num": 22,
+      "title_km": "២២ ព្រះអភិធម្មបរិច្ឆេទទី៣ មេរៀនថ្ងៃទី ២២ អំពីស្ថាន១០ ៣-កិច្ចសង្គហៈ\"ត\" ការចែកនូវស្ថាន១០ដោយចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/3r9pThsJyoI"
+        }
+      ]
+    },
+    {
+      "id": "c010-l023",
+      "num": 23,
+      "title_km": "២៣ ព្រះអភិធម្មបរិច្ឆេទទី៣ អំពីស្ថាន១០ ៣-កិច្ចសង្គហៈ\"ត\" សម្តែងការចែកចិត្តដោយកិច្ចនិងស្ថាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/u31ZjXgp"
+        }
+      ]
+    },
+    {
+      "id": "c010-l024",
+      "num": 24,
+      "title_km": "២៤ ព្រះអភិធម្មបរិច្ឆេទទី៣ អំពីស្ថាន១០ ៣-កិច្ចសង្គហៈ\"ត\" សម្តែងការចែកស្ថាន ២៥ ដោយន័យនៃវិថីចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/71HTsUElSjM"
+        }
+      ]
+    },
+    {
+      "id": "c010-l025",
+      "num": 25,
+      "title_km": "២៥ ព្រះអភិធម្មបរិច្ឆេទទី៣ មេរៀនថ្ងៃទី២៥ សម្តែងការចែកស្ថាន ២៥ ដោយន័យនៃវិថីចិត្ត \"តចប់\" ចប់កិច្ច១៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/WP9u65Ry648"
+        }
+      ]
+    },
+    {
+      "id": "c010-l026",
+      "num": 26,
+      "title_km": "២៦ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ២៦ ៤-ទ្វារសង្គហៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/lRhiLGAYoPo"
+        }
+      ]
+    },
+    {
+      "id": "c010-l027",
+      "num": 27,
+      "title_km": "២៧ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ២៧ ៤-ទ្វារសង្គហៈ ”ត\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/1SLsQnRunKg"
+        }
+      ]
+    },
+    {
+      "id": "c010-l028",
+      "num": 28,
+      "title_km": "២៨ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ២៨ ៤-ទ្វារសង្គហៈ ”ត\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/bS40Y4ULUKI"
+        }
+      ]
+    },
+    {
+      "id": "c010-l029",
+      "num": 29,
+      "title_km": "២៩ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ២៨ ៤-ទ្វារសង្គហៈ ”ត\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/LgUtacICnPo"
+        }
+      ]
+    },
+    {
+      "id": "c010-l030",
+      "num": 30,
+      "title_km": "៣០ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៣០ ៤-ទ្វារសង្គហៈ ”ត\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/RtBempSZ4EQ"
+        }
+      ]
+    },
+    {
+      "id": "c010-l031",
+      "num": 31,
+      "title_km": "៣១ ព្រះអភិធម្មបរិច្ឆេទទី ៣ មេរៀនថ្ងៃទី ៣១ ៤-ទ្វារសង្គហៈ ”ត\" សង្គ្រោះចេតសិកដែលកើតក្នុងទ្វារ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/gnJPeUzmF9g"
+        }
+      ]
+    },
+    {
+      "id": "c010-l032",
+      "num": 32,
+      "title_km": "៣២ ព្រះអភិធម្មបរិច្ឆេទទី៣ ៤-ទ្វារសង្គហៈ ”ត\" ការចែកចេតសិកដែលកើតក្នុងទ្វារជាឯកន្តៈ និង អនេកន្តៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/7-123yLLL6o"
+        }
+      ]
+    },
+    {
+      "id": "c010-l033",
+      "num": 33,
+      "title_km": "៣៣ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៣៣ ៤-ទ្វារសង្គហៈ ”ត\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/8YtlPWPWjOg"
+        }
+      ]
+    },
+    {
+      "id": "c010-l034",
+      "num": 34,
+      "title_km": "៣៤ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៣៤ ៦-អារម្មណសង្គហៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/UebcNuDI"
+        }
+      ]
+    },
+    {
+      "id": "c010-l035",
+      "num": 35,
+      "title_km": "៣៥ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៣៥ ៦-អារម្មណសង្គហៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/VPxdEVew4ao"
+        }
+      ]
+    },
+    {
+      "id": "c010-l036",
+      "num": 36,
+      "title_km": "៣៦ ព្រះអភិធម្មបរិច្ឆេទទី៣បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៣៦ ៦-អារម្មណសង្គហៈ \"អំណាចរបស់អារម្មណ៏ ៦\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/UHfwFMfiyjg"
+        }
+      ]
+    },
+    {
+      "id": "c010-l037",
+      "num": 37,
+      "title_km": "៣៧ ព្រះអភិធម្មបរិច្ឆេទទី៣ ៦-អារម្មណសង្គហៈ \"ការចែកទ្វារិក និង ទ្វារវិមុត្តិចិត្ត ដោយអារម្មណ៏៦\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/7fCFm6-wt30"
+        }
+      ]
+    },
+    {
+      "id": "c010-l038",
+      "num": 38,
+      "title_km": "៣៨ ព្រះអភិធម្មបរិច្ឆេទទី៣ ៦-អារម្មណសង្គហៈ \"ការចែកទ្វារិក និង ទ្វារវិមុត្តិចិត្ត ដោយអារម្មណ៏៦\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/rhcATXISHhk"
+        }
+      ]
+    },
+    {
+      "id": "c010-l039",
+      "num": 39,
+      "title_km": "៣៩ ព្រះអភិធម្មបរិច្ឆេទទី៣ ៦-អារម្មណសង្គហៈ \"ការចែកទ្វារិក និង ទ្វារវិមុត្តិចិត្ត ដោយអារម្មណ៏៦\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/D2GQ3EIohOs"
+        }
+      ]
+    },
+    {
+      "id": "c010-l040",
+      "num": 40,
+      "title_km": "៤០ ព្រះអភិធម្មបរិច្ឆេទទី៣ ៦-អារម្មណសង្គហៈ \"ការចែកទ្វារិក និង ទ្វារវិមុត្តិចិត្ត ដោយអារម្មណ៏៦\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/DXtDlllrkdk"
+        }
+      ]
+    },
+    {
+      "id": "c010-l041",
+      "num": 41,
+      "title_km": "៤១ ព្រះអភិធម្មបរិច្ឆេទទី៣ ៦-អារម្មណសង្គហៈ \"ការចែកទ្វារិក និង ទ្វារវិមុត្តិចិត្ត ដោយអារម្មណ៏៦\"",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/LcNSOHcakus"
+        }
+      ]
+    },
+    {
+      "id": "c010-l042",
+      "num": 42,
+      "title_km": "៤២ មេរៀនថ្ងៃទី៤២ ៦-អារម្មណសង្គហៈ សម្តៃងចិត្តដែលទទួលអារម្មណ៏ដោយឯកន្តៈ៤ប្រភេទ និងដោយអនេកន្តៈ៣ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/IYlY4geEwtU"
+        }
+      ]
+    },
+    {
+      "id": "c010-l043",
+      "num": 43,
+      "title_km": "៤៣ ព្រះអភិធម្មបរិច្ឆេទទី៣បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី៤៣ ៦-អារម្មណសង្គហៈ ការចែកចិត្ត៦០ ឫ ៩២ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/nUc1lXYQ54Q"
+        }
+      ]
+    },
+    {
+      "id": "c010-l044",
+      "num": 44,
+      "title_km": "៤៤ ព្រះអភិធម្មបរិច្ឆេទទី៣បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៤៤ ៦-អារម្មណសង្គហៈ ការចែកចិត្ត៦០ឫ ៩២ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/svO6aj9j4M8"
+        }
+      ]
+    },
+    {
+      "id": "c010-l045",
+      "num": 45,
+      "title_km": "៤៥ ព្រះអភិធម្មបរិច្ឆេទទី៣បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៤៥ ៦-អារម្មណសង្គហៈ ការចែកចិត្ត៦០ឬ ៩២ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/0B10w1wfu8k"
+        }
+      ]
+    },
+    {
+      "id": "c010-l046",
+      "num": 46,
+      "title_km": "៤៦ ព្រះអភិធម្មបរិច្ឆេទទី៣បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៤៦ ៦-អារម្មណសង្គហៈ ការចែកចិត្ត៦០ឬ ៩២ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/QTRKBYwWxVc"
+        }
+      ]
+    },
+    {
+      "id": "c010-l047",
+      "num": 47,
+      "title_km": "៤៧ ព្រះអភិធម្មបរិច្ឆេទទី៣បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី៤៧ ៦-អារម្មណសង្គហៈ ការអធិប្បាយក្នុងគាថាទី១១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ounNSqBwhBQ"
+        }
+      ]
+    },
+    {
+      "id": "c010-l048",
+      "num": 48,
+      "title_km": "៤៨ ព្រះអភិធម្មបរិច្ឆេទទី៣បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី៤៨ ៦-អារម្មណសង្គហៈ ការអធិប្បាយក្នុងគាថាទី១១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Fbhr20mhb0w"
+        }
+      ]
+    },
+    {
+      "id": "c010-l049",
+      "num": 49,
+      "title_km": "៤៩ ព្រះអភិធម្មបរិច្ឆេទទី៣បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី៤៩ ៦-អារម្មណសង្គហៈ ការអធិប្បាយក្នុងគាថាទី១១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/9ce9NiHFCUY"
+        }
+      ]
+    },
+    {
+      "id": "c010-l050",
+      "num": 50,
+      "title_km": "៥០ ព្រះអភិធម្មបរិច្ឆេទទី៣បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី៥០ ៦-អារម្មណសង្គហៈ ការអធិប្បាយក្នុងគាថាទី១១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/YhddYNVvaEY"
+        }
+      ]
+    },
+    {
+      "id": "c010-l051",
+      "num": 51,
+      "title_km": "៥១ ព្រះអភិធម្មបរិច្ឆេទទី ៣ មេរៀនថ្ងៃទី ៥១ ៦-អារម្មណសង្គហៈ អារម្មណ៍របស់ទ្វារវិមុត្តិចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/wlDUx1PxJEA"
+        }
+      ]
+    },
+    {
+      "id": "c010-l052",
+      "num": 52,
+      "title_km": "៥២ ព្រះអភិធម្មបរិច្ឆេទទី៣ មេរៀនថ្ងៃទី ៥២ ៦-អារម្មណសង្គហៈ អារម្មណ៍របស់ទ្វារវិមុត្តិចិត្ត ៣ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/CUWs5zRJ5HY"
+        }
+      ]
+    },
+    {
+      "id": "c010-l053",
+      "num": 53,
+      "title_km": "៥៣ ព្រះអភិធម្មបរិច្ឆេទទី៣ មេរៀនថ្ងៃទី ៥៣ ៦-អារម្មណសង្គហៈ អារម្មណ៏របស់ទ្វារវិមុត្តិចិត្ត ៣ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/7gfkAb97o"
+        }
+      ]
+    },
+    {
+      "id": "c010-l054",
+      "num": 54,
+      "title_km": "៥៤ ព្រះអភិធម្មបរិច្ឆេទទី៣ មេរៀនថ្ងៃទី ៥៤ ៦-អារម្មណសង្គហៈ អារម្មណ៏របស់ទ្វារវិមុត្តិចិត្ត ៣ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Clm8"
+        }
+      ]
+    },
+    {
+      "id": "c010-l055",
+      "num": 55,
+      "title_km": "៥៥ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៥៥ ៦-អារម្មណសង្គហៈ អារម្មណ៏ពិស្តារ ២១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/gmbfhfDt"
+        }
+      ]
+    },
+    {
+      "id": "c010-l056",
+      "num": 56,
+      "title_km": "៥៦ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៥៦ ៦-អារម្មណសង្គហៈ អារម្មណ៍ពិស្តារ ២១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/CGYzWGOYlhs"
+        }
+      ]
+    },
+    {
+      "id": "c010-l057",
+      "num": 57,
+      "title_km": "៥៧ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៥៧ ៦-អារម្មណសង្គហៈ អារម្មណ៍ពិស្តារ ២១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/f"
+        }
+      ]
+    },
+    {
+      "id": "c010-l058",
+      "num": 58,
+      "title_km": "៥៨ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៥៨ ៦-អារម្មណសង្គហៈ អារម្មណ៍ពិស្តារ ២១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/MAZadpMlV2I"
+        }
+      ]
+    },
+    {
+      "id": "c010-l059",
+      "num": 59,
+      "title_km": "៥៩ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៥៩ ៦-អារម្មណសង្គហៈ អារម្មណ៍ពិស្តារ ២១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/saLhfOLcro8"
+        }
+      ]
+    },
+    {
+      "id": "c010-l060",
+      "num": 60,
+      "title_km": "៦០ ព្រះអភិធម្មបរិច្ឆេទទី៣បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី៦០ ៦-អារម្មណសង្គហៈការសម្តែងអារម្មណ៏របស់ចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/R7f4DLqKYtE"
+        }
+      ]
+    },
+    {
+      "id": "c010-l061",
+      "num": 61,
+      "title_km": "៦១ ព្រះអភិធម្មបរិច្ឆេទទី៣បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី៦១ ៦-អារម្មណសង្គហៈការសម្តែងអារម្មណ៍របស់ចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/rVL52FM0r9E"
+        }
+      ]
+    },
+    {
+      "id": "c010-l062",
+      "num": 62,
+      "title_km": "៦២ ព្រះអភិធម្មបរិច្ឆេទទី៣បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី៦២ ៦-អារម្មណសង្គហៈការសម្តែងអារម្មណ៍របស់ចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/OtpmDFpICe0"
+        }
+      ]
+    },
+    {
+      "id": "c010-l063",
+      "num": 63,
+      "title_km": "៦៣ ព្រះអភិធម្មបរិច្ឆេទទី៣ ៦-អារម្មណសង្គហៈការចែកចេតិក ដែលទទួលអារម្មណ៍ ២១ដោយឯកន្តៈ និងអនេកន្តៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/IiwH"
+        }
+      ]
+    },
+    {
+      "id": "c010-l064",
+      "num": 64,
+      "title_km": "៦៤ ព្រះអភិធម្មបរិច្ឆេទទី៤ ៦-អារម្មណសង្គហៈការចែកចេតិក ដែលទទួលអារម្មណ៍ ២១ដោយឯកន្តៈ និងអនេកន្តៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Wo34YxEFq34"
+        }
+      ]
+    },
+    {
+      "id": "c010-l065",
+      "num": 65,
+      "title_km": "៦៥ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៦៥ ៦-វត្ថុសង្គហៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/bilivjRzMHg"
+        }
+      ]
+    },
+    {
+      "id": "c010-l066",
+      "num": 66,
+      "title_km": "៦៦ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ៦៦ ៦-វត្ថុសង្គហៈ ចិត្ត ជាមួយនឹង វត្ថុ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/r-1jowq-IZE"
+        }
+      ]
+    },
+    {
+      "id": "c010-l067",
+      "num": 67,
+      "title_km": "៦៧ ព្រះអភិធម្មបរិច្ឆេទទី៣ បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី៦៧ ៦-វត្ថុសង្គហៈចេតសិក ជាមួយនឹង វត្ថុរូប",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/4fdwEnvqDWY"
+        }
+      ]
+    },
+    {
+      "id": "c010-l068",
+      "num": 68,
+      "title_km": "៦៨ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី ៦៨ ៦-វត្ថុសង្គហៈ វត្ថុ ជាមួយនឹង ទ្វារ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/JRK6r9kh3yo"
+        }
+      ]
+    },
+    {
+      "id": "c010-l069",
+      "num": 69,
+      "title_km": "៦៩ ព្រះអភិធម្មបរិច្ឆេទទី ៣ បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី ៦៩ ៦-វត្ថុសង្គហៈ វត្ថុ ជាមួយនឹង ទ្វារ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Xs9VgI7LYBM"
+        }
+      ]
+    }
+  ]
+}

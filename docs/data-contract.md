@@ -36,7 +36,14 @@ source inputs. The app only reads these files.
 
 ## IDs (provisional; replaced before launch)
 - Course id: `c###` from source order (1-based, zero-padded to 3), e.g. `c001`.
-- Lesson id: `c###-l###` from the lesson's position in source order.
+- Lesson id: `c###-l###`. The lesson number part is the num's FIRST source
+  position in the course. A **duplicate lesson `num`** (two lessons with the
+  same `num` in one course) is kept — no lesson is dropped and no `num` is
+  edited — and disambiguated only by a letter suffix on the provisional id:
+  2nd occurrence → `b`, 3rd → `c`, e.g. `c007-l013` and `c007-l013b` (coordinator
+  decision, 26 Oct 2026). The displayed `num` is byte-for-byte as stored.
+- The lesson URL uses the lesson **id**, not the `num`:
+  `/courses/<course-id>/<lesson-id>`.
 - Every id carries `"provisional": true` in the catalog and course files, and
   the catalog's top-level `provisional` is `true`. Permanent ids will come from
   the teacher sheets before launch; keep an **`aliases`** hook
@@ -70,13 +77,18 @@ source and the media manifest:
 A `null`/empty source contributes no media entry. A lesson with an empty media
 array is hidden (reported).
 
-## Build checks (fail the build)
-- Duplicate lesson `num` within a course → FAIL.
-- A lesson with an empty title → keep as `no title`, REPORT (not a hard fail).
-- A lesson with no media → hidden, REPORT (not a hard fail).
-- A course `teacherSlug` that is not in the teacher file → FAIL.
-All issues are written to `reports/course-issues.csv` (untracked). The build
-exits non-zero on any hard-fail check.
+## Build checks
+Hard fail (build exits non-zero):
+- A course `teacherSlug` that is not in the teacher file → FAIL (cannot render).
+
+Warnings (handled and reported, build still succeeds):
+- Duplicate lesson `num` within a course → WARNING. Both lessons are kept; the
+  later one gets an id suffix (see IDs above). Each case is recorded in
+  `reports/course-issues.csv` as `duplicate-num` with the course title, the
+  `num`, and BOTH lesson titles (coordinator decision, 26 Oct 2026).
+- A lesson with an empty title → keep as `no title`, report.
+- A lesson with no media → hidden, report.
+All issues are written to `reports/course-issues.csv` (untracked working note).
 
 ## Contract tests
 `src/contracts/__tests__/` holds tests that assert the output shape and the

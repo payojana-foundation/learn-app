@@ -1,0 +1,825 @@
+{
+  "id": "c045",
+  "provisional": true,
+  "title_km": "វគ្គ Buddhism in English for Beginners",
+  "title_en": "Buddhism in English for Beginners (Ven Sok Theavy)",
+  "teacher": "លោកម្ចាស់គ្រូ មុនីបុត្តោ សុខ ធាវី",
+  "teacher_slug": "sok-theavy",
+  "topics": [
+    "english"
+  ],
+  "lessons": [
+    {
+      "id": "c045-l001",
+      "num": 1,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/696f08c9c9b14af5c7eea7c3?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1ggdgDOexkutXu7iHZ0M07r1yxj9Az-Fa/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l002",
+      "num": 2,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/696f099961af1789a18a0ca1?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1TeW2mw8FP1YoIGnJifPm3OAV01LlDdZ8/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l003",
+      "num": 3,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6979cd75eded5f2d3c2a9558?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1uBnWmydaGdRIkH80Nwo1BSBnecfANABf/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l004",
+      "num": 4,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6979cdf63718a16cebcec027?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1AY9296hJqG7eXoYAH8xbMWWlJU-ITwaC/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l005",
+      "num": 5,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6979ce69eded5f2d3c2b666c?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1MbdQrJx8vadvJ4J_Mw9WW_xEYNlweFzF/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l006",
+      "num": 6,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6979cf09010b94331f865077?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/13vNgZXM5SgAGMC_VCMoPw051yM62r40P/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l007",
+      "num": 7,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6979cf64eded5f2d3c2bc530?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/131T3y-gULKqdF7dEsYfy-ZxY9BZeO59V/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l008",
+      "num": 8,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6979cfc4fbdedf6404094353?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/17hwsOgguKrT0A4c__C1GuGEtokXz5KqG/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l009",
+      "num": 9,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6979d027fbdedf640409556e?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1fjkmsYd8I2xtRlIGTtSckGM2xFFosMMk/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l010",
+      "num": 10,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/6979d0b03718a16cebcf5be3?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1p08kDtqXwFoVrCW426GYDV8AusroODs3/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l011",
+      "num": 11,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a0391010b94331f943c25?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1_e-hLYkm4rr56Jx_jvjux17PzyEiz1Jz/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l012",
+      "num": 12,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a04323718a16cebddd96e?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1bj1JttLViXkFG0wf_rHXzDkRR19SNxkY/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l013",
+      "num": 13,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a04cceded5f2d3c3beeb2?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1toV0FVJaYqNFII3WxmAD9s5np0ModQFG/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l014",
+      "num": 14,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a05546e7bdf1065ff2a83?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1pErUtp3tPH_KIzwDDdtV0-PHNYU4rU8F/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l015",
+      "num": 15,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a0661b4be99fbd82f5dd7?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1aPrcspK7OpBsccvcATwkFG-GTfXKb28E/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l016",
+      "num": 16,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a06f33718a16cebdeb50f?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1NwUP80X7LOHMbyRXClM95qSBePXbSycO/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l017",
+      "num": 17,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a0758eded5f2d3c3c54d2?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1CX4ldHbr9CluPczuc2YWrUlJ29jwl0nn/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l018",
+      "num": 18,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a0bd90507f71624844a31?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1roLokubRr54uymWWVFc2WGhUDNTUCt85/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l019",
+      "num": 19,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a084f010b94331f952b97?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/18wZ7581EYS3TOUOvYibfNPvpuzdZplxa/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l020",
+      "num": 20,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a08b2010b94331f953909?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1vUh_6L81IGMwg17CnTKBnh4pDF6D34ZQ/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l021",
+      "num": 21,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a0fb26e7bdf1065018454?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/11oeiKtCicFzJeCNb3NxxgNuiga4x0cfV/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l022",
+      "num": 22,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a10486e7bdf106502091b?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1iID7pgpzO6aIR6365_tDAH02X5EklJHr/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l023",
+      "num": 23,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a110298c18d8bdb7de71c?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1WV4DSASCY2whrPV4h6qGTg2301IORFBd/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l024",
+      "num": 24,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a11c73718a16cebe18754?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1ARoFZQoUWpPrBJg5lOW2higFCl1w2IyT/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l025",
+      "num": 25,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697a124beded5f2d3c3ec1a8?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1AdS6z-jhsWTbbo7o4qN4G-5wYdsUiWvR/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l026",
+      "num": 26,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697aa763fbdedf640441c99e?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1QwcJgMGLxBORic7Hk6eJ4QgsTUF6vhlM/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l027",
+      "num": 27,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697aa8c46e7bdf106529e7ed?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1TOs_4zT60ko4T3gjbEq1laD_iHXVaIjY/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l028",
+      "num": 28,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ab405d095fd135b6de124?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1_xnsDQGse_iwu2QIzghaYpZlcIqaOzvn/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l029",
+      "num": 29,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ab4fa3718a16ceb09ff6d?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1RRpV1C8VscdhQVIpdHAz3Bx2dUQQBOJy/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l030",
+      "num": 30,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ab6583718a16ceb0a2b3c?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1pJzl3wyN9XutBIf7i40IpNyTh5JSiuLv/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l031",
+      "num": 31,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ab71934e93a474fb5135c?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/16EKBXViReOixi5P3MFDHsjDzt7N_9uVf/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l032",
+      "num": 32,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ab8b834e93a474fb558a6?subscribe=false"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/15G70CNJbwTZqGHizp1N-IGTC5X2XrxdF/preview"
+        }
+      ]
+    },
+    {
+      "id": "c045-l033",
+      "num": 33,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ab931d095fd135b6ea36a?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l034",
+      "num": 34,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697aba626e7bdf10652c4976?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l035",
+      "num": 35,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697abad698c18d8bdba70938?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l036",
+      "num": 36,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697abb7ab4be99fbd859efd5?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l037",
+      "num": 37,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697abe18b4be99fbd85a39b2?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l038",
+      "num": 38,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697abe18b4be99fbd85a39b2?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l039",
+      "num": 39,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697abff734e93a474fb67521?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l040",
+      "num": 40,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ac0870507f71624b5731e?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l041",
+      "num": 41,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ac11cd095fd135b6fa077?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l042",
+      "num": 42,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ac1873718a16ceb0baf0c?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l043",
+      "num": 43,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ac1f5fbdedf6404455dac?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l044",
+      "num": 44,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ac254010b94331fbe5061?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l045",
+      "num": 45,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ac2e8d577b417ba6528dc?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l046",
+      "num": 46,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ac60efbdedf640445fca0?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l047",
+      "num": 47,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ac67afbdedf6404460bdf?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l048",
+      "num": 48,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ac6e298c18d8bdba88479?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l049",
+      "num": 49,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ac8a5f17fced4fd0f86d1?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l050",
+      "num": 50,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697aca10f17fced4fd0fbc47?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l051",
+      "num": 51,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697aca76010b94331fbf8762?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l052",
+      "num": 52,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697acb4fd577b417ba662e97?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l053",
+      "num": 53,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697acc07d095fd135b70ff93?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l054",
+      "num": 54,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ace6698c18d8bdba9b258?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l055",
+      "num": 55,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ad0cf98c18d8bdbaa063f?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l056",
+      "num": 56,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ad14ffbdedf640447cb4b?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c045-l057",
+      "num": 57,
+      "title_km": "no title",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/697ad1b7eded5f2d3c6a3d17?subscribe=false"
+        }
+      ]
+    }
+  ]
+}

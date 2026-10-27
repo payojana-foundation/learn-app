@@ -1,0 +1,97 @@
+{
+  "id": "c054",
+  "provisional": true,
+  "title_km": "បុណ្យពិសាខបូជា",
+  "title_en": null,
+  "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+  "teacher_slug": "sok-heng",
+  "topics": [
+    "devotional"
+  ],
+  "lessons": [
+    {
+      "id": "c054-l001",
+      "num": 1,
+      "title_km": "បុណ្យពិសាខបូជា ភាគ១.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68bfce22c09bac3273ba2731?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c054-l002",
+      "num": 2,
+      "title_km": "បុណ្យពិសាខបូជា ភាគ២.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68bfce4cb494ca82a2c3a468?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c054-l003",
+      "num": 3,
+      "title_km": "បុណ្យពិសាខបូជា ភាគ៣.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68bfce72f5c5afe5c24887cf?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c054-l004",
+      "num": 4,
+      "title_km": "បុណ្យពិសាខបូជា ភាគ៤.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68bfce72f5c5afe5c24887cf?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c054-l005",
+      "num": 5,
+      "title_km": "បុណ្យពិសាខបូជា ភាគ៥.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68bfceb5f5c5afe5c24898af?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c054-l006",
+      "num": 6,
+      "title_km": "បុណ្យពិសាខបូជា ភាគ៦.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68bfced9f7970b080f777b48?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c054-l007",
+      "num": 7,
+      "title_km": "បុណ្យពិសាខបូជា ភាគ៧ ចប់.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68bfcf0202dac15235466a86?subscribe=false"
+        }
+      ]
+    }
+  ]
+}

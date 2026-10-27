@@ -1,0 +1,121 @@
+{
+  "id": "c038",
+  "provisional": true,
+  "title_km": "សមាធិ វគ្គខ្លីលើកទី៥៧",
+  "title_en": null,
+  "teacher": "ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន",
+  "teacher_slug": "him-bunthoeun",
+  "topics": [
+    "meditation"
+  ],
+  "lessons": [
+    {
+      "id": "c038-l001",
+      "num": 1,
+      "title_km": "1.វគ្គខ្លី លើកទី ​៥៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f769fd5d128a844c3532d4?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c038-l002",
+      "num": 2,
+      "title_km": "2.វគ្គខ្លី លើកទី ​៥៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f76f058125b849f801ef63?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c038-l003",
+      "num": 3,
+      "title_km": "3.វគ្គខ្លី លើកទី ​៥៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f76f9884f5a4920efab3fb?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c038-l004",
+      "num": 4,
+      "title_km": "4.វគ្គខ្លី លើកទី ​៥៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f7709d84f5a4920efb3ddb?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c038-l005",
+      "num": 5,
+      "title_km": "5.វគ្គខ្លី លើកទី ​៥៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f771a640b81f7a890407c9?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c038-l006",
+      "num": 6,
+      "title_km": "6.វគ្គខ្លី លើកទី ​៥៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f772d284f5a4920efc03bc?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c038-l007",
+      "num": 7,
+      "title_km": "7.វគ្គខ្លី លើកទី ​៥៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f774403f3d3898035669f1?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c038-l008",
+      "num": 8,
+      "title_km": "8.វគ្គខ្លី លើកទី ​៥៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f7751884f5a4920efd1faf?subscribe=false"
+        }
+      ]
+    },
+    {
+      "id": "c038-l009",
+      "num": 9,
+      "title_km": "9.វគ្គខ្លី លើកទី ​៥៧.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "acast",
+          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/68f775878125b849f8051d96?subscribe=false"
+        }
+      ]
+    }
+  ]
+}

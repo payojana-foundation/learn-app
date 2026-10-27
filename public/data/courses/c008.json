@@ -1,0 +1,1225 @@
+{
+  "id": "c008",
+  "provisional": true,
+  "title_km": "Chapter 1a (2022)",
+  "title_en": null,
+  "teacher": "ព្រះមហា វិញ សុវឿង",
+  "teacher_slug": "vinh-sovoeurng",
+  "topics": [
+    "abhidhamma"
+  ],
+  "lessons": [
+    {
+      "id": "c008-l001",
+      "num": 0,
+      "title_km": "ប្រយោជន៍នៃការសិក្សាព្រះអភិធម្ម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/PmLkMEU2eOs"
+        }
+      ]
+    },
+    {
+      "id": "c008-l001b",
+      "num": 0,
+      "title_km": "០០ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃបើកថ្នាក់ដំបូង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/vveNEGJul-A"
+        }
+      ]
+    },
+    {
+      "id": "c008-l003",
+      "num": 1,
+      "title_km": "០១ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/OPn8ztaFNAI"
+        }
+      ]
+    },
+    {
+      "id": "c008-l004",
+      "num": 2,
+      "title_km": "០២ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/B5qEOtwVZqs"
+        }
+      ]
+    },
+    {
+      "id": "c008-l005",
+      "num": 3,
+      "title_km": "០៣ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៣ អានមេរៀន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/2sQkOXKdflk"
+        }
+      ]
+    },
+    {
+      "id": "c008-l006",
+      "num": 4,
+      "title_km": "០៤ គាថាធម្មបទ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Tc52nOMu4Zs"
+        }
+      ]
+    },
+    {
+      "id": "c008-l007",
+      "num": 5,
+      "title_km": "០៥ ចិត្តចែកចេញជាបួនភូមិ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/YgmvCPM6D-o"
+        }
+      ]
+    },
+    {
+      "id": "c008-l008",
+      "num": 6,
+      "title_km": "០៦ លោភមូលចិត្ត ៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/eg66eUNea60"
+        }
+      ]
+    },
+    {
+      "id": "c008-l009",
+      "num": 7,
+      "title_km": "០៧ លោភមូលចិត្ត ៨ដួង \"ត\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/cPq5jKN9sPg"
+        }
+      ]
+    },
+    {
+      "id": "c008-l010",
+      "num": 8,
+      "title_km": "០៨ អធិប្បាយលោភមូលចិត្ត ៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/CRrSHuQ5bpE"
+        }
+      ]
+    },
+    {
+      "id": "c008-l011",
+      "num": 9,
+      "title_km": "០៩ហេតុ៤ប្រការឱ្យកេីតលោភសោមនស្សចិត្ត&ហេតុឱ្យកេីតទិដ្ឋិគតសម្បយុត្ត៥ប្រការព្រះអភិធម្មថ្នាក់ដំបូងថ្ងៃ៩",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/0hFFhxMx9wM"
+        }
+      ]
+    },
+    {
+      "id": "c008-l012",
+      "num": 10,
+      "title_km": "១០ ហេតុឱ្យកេីតទិដ្ឋិគតវិប្បយុត្ត៥ប្រការ&លោភជាឧបេក្ខាវេទនា៤ប្រការ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ១០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/R8-U4ovk1uM"
+        }
+      ]
+    },
+    {
+      "id": "c008-l013",
+      "num": 11,
+      "title_km": "១១ ហេតុ៦ប្រការឱ្យកេីតអសង្ខារិកៈ និងសសង្ខារិកៈ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ១១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/iGpB6xUwzAo"
+        }
+      ]
+    },
+    {
+      "id": "c008-l014",
+      "num": 12,
+      "title_km": "១២ លោភមូលចិត្ត៨ដួងដោយន័យ  ១៤ន័យ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ១២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/UmgFyFdiSSs"
+        }
+      ]
+    },
+    {
+      "id": "c008-l015",
+      "num": 13,
+      "title_km": "១៣ លោភមូលចិត្ត៨ដួង\"ចប់\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី១៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/74NBKgOnDT0"
+        }
+      ]
+    },
+    {
+      "id": "c008-l016",
+      "num": 15,
+      "title_km": "១៥ ទោសមូលចិត្ត ២ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ១៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/29v2zFbRa1M"
+        }
+      ]
+    },
+    {
+      "id": "c008-l017",
+      "num": 17,
+      "title_km": "១៧ ទោសមូលចិត្ត២ដួង \"ត\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ១៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Cf9VJ5use-M"
+        }
+      ]
+    },
+    {
+      "id": "c008-l018",
+      "num": 18,
+      "title_km": "១៨ ទោសមូលចិត្ត ២ដួង \"ចប់\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី១៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/hFgSE0MvPdo"
+        }
+      ]
+    },
+    {
+      "id": "c008-l019",
+      "num": 19,
+      "title_km": "១៩ មោហមូលចិត្ត ២ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី១៩",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/KVnWE3jAFLo"
+        }
+      ]
+    },
+    {
+      "id": "c008-l020",
+      "num": 20,
+      "title_km": "២០ លក្ខណាទិចតុករបស់ មោហៈ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ២០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/4QUBbkFKz"
+        }
+      ]
+    },
+    {
+      "id": "c008-l021",
+      "num": 21,
+      "title_km": "២១ លក្ខណាទិចតុករបស់ វិចិកិច្ឆា ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ២១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/7477LlqtKW0"
+        }
+      ]
+    },
+    {
+      "id": "c008-l022",
+      "num": 22,
+      "title_km": "២២ សេចក្តីសង្ស័យ ៨ប្រការ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ២២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/gfoOblQj7e0"
+        }
+      ]
+    },
+    {
+      "id": "c008-l023",
+      "num": 23,
+      "title_km": "២៣ អធិប្បាយសេចក្តីសង្ស័យ ៨ ប្រការ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ២៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/8e1JMyY4ZpY"
+        }
+      ]
+    },
+    {
+      "id": "c008-l024",
+      "num": 24,
+      "title_km": "២៤ ហេតុដែលលះវិចិកិច្ឆា និង ឧទ្ធច្ចៈ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ២៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/z20bOg2AF6I"
+        }
+      ]
+    },
+    {
+      "id": "c008-l025",
+      "num": 25,
+      "title_km": "២៥ មោហមូលចិត្តចែកដោយន័យ១៤ន័យ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ២៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/1ddzp1dHshg"
+        }
+      ]
+    },
+    {
+      "id": "c008-l026",
+      "num": 26,
+      "title_km": "២៦ មោហមូលចិត្តចែកដោយន័យ ១៤ ន័យ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ២៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/XCbtYj"
+        }
+      ]
+    },
+    {
+      "id": "c008-l027",
+      "num": 27,
+      "title_km": "២៧ សេចក្តីស្រវឹង ២៧ ប្រការ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ២៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/iw-ghNi2kr0"
+        }
+      ]
+    },
+    {
+      "id": "c008-l028",
+      "num": 28,
+      "title_km": "២៨ មោហមូលចិត្ត ២ ដួង \"ចប់\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ២៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/XaaFsanPKZY"
+        }
+      ]
+    },
+    {
+      "id": "c008-l029",
+      "num": 29,
+      "title_km": "២៩ សង្គ្រោះអកុសលចិត្ត ១២ ក្នុងអកុសលកម្មបថ ១០ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ២៩",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/KrgQq40oEKg"
+        }
+      ]
+    },
+    {
+      "id": "c008-l030",
+      "num": 31,
+      "title_km": "៣១ អកុសលកម្មបថ\"អទិន្នាទាន\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៣១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/7"
+        }
+      ]
+    },
+    {
+      "id": "c008-l031",
+      "num": 32,
+      "title_km": "៣២ អកុសលកម្មបថ \"មុសាវាទ-បិសុណាវាទ\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៣២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/4VBFwOIiMiA"
+        }
+      ]
+    },
+    {
+      "id": "c008-l032",
+      "num": 33,
+      "title_km": "៣៣ អកុសលកម្មបថ\"ផរុសវាចា\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៣៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/qJPoj2oko7Y"
+        }
+      ]
+    },
+    {
+      "id": "c008-l033",
+      "num": 34,
+      "title_km": "៣៤ អកុសលកម្មបថ\"សម្ផប្បលាប អភិជ្ឈា ព្យាបាទ\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៣៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/UCZFpVxzYBY"
+        }
+      ]
+    },
+    {
+      "id": "c008-l034",
+      "num": 35,
+      "title_km": "៣៥ អកុសលមនោកម្ម\"មិច្ឆាទិដ្ឋិ\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៣៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/giXZewrLsdY"
+        }
+      ]
+    },
+    {
+      "id": "c008-l035",
+      "num": 36,
+      "title_km": "៣៦ អកុសលមនោកម្ម មិច្ឆាទិដ្ឋិ\"ចប់\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៣៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/BBrwwNto904"
+        }
+      ]
+    },
+    {
+      "id": "c008-l036",
+      "num": 37,
+      "title_km": "៣៧ វិនិច្ឆ័យអកុសលកម្មបថដោយ អាការ:៥ប្រការផ្សេងទៀត ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៣៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/VxLB0rOpdBM"
+        }
+      ]
+    },
+    {
+      "id": "c008-l037",
+      "num": 38,
+      "title_km": "៣៨ អកុសលកម្មបថ១០ \"ចប់\" ផ្តើមអហេតុកចិត្ត១៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៣៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/CWeujRQ"
+        }
+      ]
+    },
+    {
+      "id": "c008-l038",
+      "num": 39,
+      "title_km": "៣៩ អហេតុកអកុសលវិបាកចិត្ត៧ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៣៩",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/F-mkAlXxEPY"
+        }
+      ]
+    },
+    {
+      "id": "c008-l039",
+      "num": 40,
+      "title_km": "៤០ ទ្វារវិថីចិត្ត ដែលទទួលអារម្មណ៏បរមត្ថ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៤០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/aDjBGtp942I"
+        }
+      ]
+    },
+    {
+      "id": "c008-l040",
+      "num": 41,
+      "title_km": "៤១ អកុសលវិបាកចិត្ត៧ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៤១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xbzA4uQ"
+        }
+      ]
+    },
+    {
+      "id": "c008-l041",
+      "num": 42,
+      "title_km": "៤២ វិថីចិត្តកេីត១៧ខណៈតាមបញ្ចទ្វារ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៤២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/KxmoJCYwOlY"
+        }
+      ]
+    },
+    {
+      "id": "c008-l042",
+      "num": 43,
+      "title_km": "៤៣ អធិប្បាយអហេតុកអកុសលវិបាកចិត្ត ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៤៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xZEr1"
+        }
+      ]
+    },
+    {
+      "id": "c008-l043",
+      "num": 44,
+      "title_km": "៤៤ អហេតុកកុសលវិបាកចិត្ត៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៤៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/n562mXc3vmQ"
+        }
+      ]
+    },
+    {
+      "id": "c008-l044",
+      "num": 45,
+      "title_km": "៤៥ អហេតុកកុសលវិបាកចិត្ត\"ត\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៤៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/3HQTAdsKynQ"
+        }
+      ]
+    },
+    {
+      "id": "c008-l045",
+      "num": 46,
+      "title_km": "៤៦ អហេតុកកិរិយាចិត្ត ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៤៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/PAb-cO4-oC4"
+        }
+      ]
+    },
+    {
+      "id": "c008-l046",
+      "num": 47,
+      "title_km": "៤៧ អហេតុកកិរិយាចិត្ត\"ត\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៤៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/CL2hlTPotRQ"
+        }
+      ]
+    },
+    {
+      "id": "c008-l047",
+      "num": 48,
+      "title_km": "៤៨ អធិប្បាយអហេតុកកិរិយាចិត្ត៣ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៤៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/thDx115Golg"
+        }
+      ]
+    },
+    {
+      "id": "c008-l048",
+      "num": 49,
+      "title_km": "៤៩ ហេតុកើត ទ្វិបញ្ចវិញ្ញាណ១០ មនោធាតុ៣ និង មនោវិញ្ញាណធាតុ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៤៩",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/rtGlom7bACI"
+        }
+      ]
+    },
+    {
+      "id": "c008-l049",
+      "num": 50,
+      "title_km": "៥០ កិច្ច១៤យ៉ាង របស់អហេតុកចិត្ត១៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៥០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/EgYX9O7m8Ek"
+        }
+      ]
+    },
+    {
+      "id": "c008-l050",
+      "num": 51,
+      "title_km": "៥១ កិច្ច១៤យ៉ាងរបស់អហេតុកចិត្ត \"ចប់\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៥១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/7UNlS2It6EU"
+        }
+      ]
+    },
+    {
+      "id": "c008-l051",
+      "num": 52,
+      "title_km": "៥២ អហេតុកចិត្ត១៨ ដោយន័យ១៤ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៥២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/M9-GZ7GlOv4"
+        }
+      ]
+    },
+    {
+      "id": "c008-l052",
+      "num": 53,
+      "title_km": "៥៣ អហេតុកចិត្ត១៨ ដោយន័យ១៤ \"ត\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៥៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/VYlr2M"
+        }
+      ]
+    },
+    {
+      "id": "c008-l053",
+      "num": 54,
+      "title_km": "៥៤ អហេតុកចិត្ត១៨ ដោយន័យ១៤ \"ចប់\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៥៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/R5gYapurlC0"
+        }
+      ]
+    },
+    {
+      "id": "c008-l054",
+      "num": 55,
+      "title_km": "៥៥ អំពីអត្ថរបស់កុសល ៥ ប្រការ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៥៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/XRRDZ5iui50"
+        }
+      ]
+    },
+    {
+      "id": "c008-l055",
+      "num": 56,
+      "title_km": "៥៦ លក្ខណាទិចតុក្កៈ របស់កុសល ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៥៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/F-C3noxNeHs"
+        }
+      ]
+    },
+    {
+      "id": "c008-l056",
+      "num": 57,
+      "title_km": "៥៧ មហាកុសលចិត្ត៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៥៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/xrebxO87k5o"
+        }
+      ]
+    },
+    {
+      "id": "c008-l057",
+      "num": 58,
+      "title_km": "៥៨ មហាកុសលចិត្ត៨ដួង \"ចប់\" ចូលដល់សេចក្តីអធិប្បាយ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៥៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/WaZXbwibHSQ"
+        }
+      ]
+    },
+    {
+      "id": "c008-l058",
+      "num": 59,
+      "title_km": "៥៩ ហេតុដែលនំាឲ្យកើតមហាកុសលសោមនស្សវេទនា ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៥៩",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/x0pz9AY1cJQ"
+        }
+      ]
+    },
+    {
+      "id": "c008-l059",
+      "num": 60,
+      "title_km": "៦០ ហេតុឱ្យកេីតកុសលញាណសម្បយុត្ត និងវិប្បយុត្ត ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៦០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/dTuok3C9jrk"
+        }
+      ]
+    },
+    {
+      "id": "c008-l060",
+      "num": 61,
+      "title_km": "៦១ ហេតុឱ្យកេីតមហាកុសលអសង្ខារិកនិងសសង្ខារិក ៦ប្រការ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៦១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ait72nHooWQ"
+        }
+      ]
+    },
+    {
+      "id": "c008-l061",
+      "num": 62,
+      "title_km": "៦២ ហេតុឱ្យកេីតបញ្ញា ៣ប្រការ ចេតនាក្នុងមហាកុសល ៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៦២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/aV6sIkT6zFs"
+        }
+      ]
+    },
+    {
+      "id": "c008-l062",
+      "num": 63,
+      "title_km": "៦៣ មហាកុសលចិត្តប្រព្រឹត្តក្នុងបុញ្ញកិរិយាវត្ថុ១០និងមហាកុសល២ប្រភេទ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៦៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/6wLl2oO0GxE"
+        }
+      ]
+    },
+    {
+      "id": "c008-l063",
+      "num": 64,
+      "title_km": "៦៤ ចំណែកកុសលដោយភាពជាឧក្រិដ្ឋនិងឱមក ៤និង៨ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៦៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/0jVgHnY3YVE"
+        }
+      ]
+    },
+    {
+      "id": "c008-l064",
+      "num": 65,
+      "title_km": "៦៥ អានិសង្ឃរបស់តិហេតុកនិងទុហេតុក ៤ន័យ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៦៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/kyjk-XgZqPc"
+        }
+      ]
+    },
+    {
+      "id": "c008-l065",
+      "num": 66,
+      "title_km": "៦៦ ចែកមហាកុសល៨ ដោយន័យ១៤ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៦៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/9AHywoaHHuk"
+        }
+      ]
+    },
+    {
+      "id": "c008-l066",
+      "num": 67,
+      "title_km": "៦៧ ផ្តេីមមហាវិបាកចិត្ត៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៦៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/JE2jOK5FCNI"
+        }
+      ]
+    },
+    {
+      "id": "c008-l067",
+      "num": 68,
+      "title_km": "៦៨ មហាវិបាក៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៦៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/67h8WhrVeRg"
+        }
+      ]
+    },
+    {
+      "id": "c008-l068",
+      "num": 69,
+      "title_km": "៦៩ មហាវិបាកផ្សេងគ្នា អំពីមហាកុសល ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៦៩",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/5NdqajcshlU"
+        }
+      ]
+    },
+    {
+      "id": "c008-l069",
+      "num": 70,
+      "title_km": "៧០ កុសលកម្មឱ្យផលផ្សេងគ្នា ៧យ៉ាង  មហាវិបាក៨ ដោយន័យ១៤ និងដោយកិច្ច៤ ព្រះអភិធម្មថ្នាក់ដំបូងថ្ងៃទី៧០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/2EEhaGTcJ7M"
+        }
+      ]
+    },
+    {
+      "id": "c008-l070",
+      "num": 71,
+      "title_km": "៧១  ចែកមហាវិបាកដួង ដោយន័យ១៤ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៧១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/-0CPGvzSWJE"
+        }
+      ]
+    },
+    {
+      "id": "c008-l071",
+      "num": 72,
+      "title_km": "៧២ មហាកិរិយាចិត្ត៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៧២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/4HQXtyBZssA"
+        }
+      ]
+    },
+    {
+      "id": "c008-l072",
+      "num": 73,
+      "title_km": "៧៣ ចែកមហាកិរិយាចិត្ត៨ដួង ដោយន័យ១៤ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៧៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/tIFQtfsxFfk"
+        }
+      ]
+    },
+    {
+      "id": "c008-l073",
+      "num": 74,
+      "title_km": "៧៤  រូបាវចសោភណចិត្ត ១៥ដួង រូបាវចរកុសល ៥ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៧៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/VE3dRnpZBU8"
+        }
+      ]
+    },
+    {
+      "id": "c008-l074",
+      "num": 75,
+      "title_km": "៧៥  រូបាវចសោភណចិត្ត ១៥ដួង រូបាវចរកុសល ៥ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៧៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ynE4"
+        }
+      ]
+    },
+    {
+      "id": "c008-l075",
+      "num": 76,
+      "title_km": "៧៦ រូបាវចសោភណចិត្ត ១៥ដួង អធិប្យាយអង្គឈាន៥ របស់បឋមឈាន ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៧៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/-CYLjU-CT-I"
+        }
+      ]
+    },
+    {
+      "id": "c008-l076",
+      "num": 77,
+      "title_km": "៧៧ រូបាវចសោភណចិត្ត ១៥ដួង អធិប្យាយអង្គឈាន៥ ដោយបញ្ចកន័យអង្គឈាន៥ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៧៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/fLsPoJhJcac"
+        }
+      ]
+    },
+    {
+      "id": "c008-l077",
+      "num": 78,
+      "title_km": "៧៨  រូបាវចសោភណចិត្ត ១៥ដួង ការលះនីវរណធម៌៥យ៉ាង ឈានមាន២យ៉ាង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៧៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/bJlHaTFSt7g"
+        }
+      ]
+    },
+    {
+      "id": "c008-l078",
+      "num": 79,
+      "title_km": "៧៩ អារម្មណ៍កម្មដ្ឋាន៤០ កសិណ១០ អសុភ១០ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៧៩",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/oV471Lq4Wh0"
+        }
+      ]
+    },
+    {
+      "id": "c008-l079",
+      "num": 80,
+      "title_km": "៨០ អារម្មណ៍កម្មដ្ឋាន៤០ អនុស្សតិ១០ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៨០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Qh5zKwLUdyM"
+        }
+      ]
+    },
+    {
+      "id": "c008-l080",
+      "num": 81,
+      "title_km": "៨១ អារម្មណ៍កម្មដ្ឋាន៤០ ព្រហ្មវិហារ៤ អរូបជ្ឈាន៤ អាហារេបដិកូលសញ្ញា១ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៨១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/eRY09M7Y6BA"
+        }
+      ]
+    },
+    {
+      "id": "c008-l081",
+      "num": 82,
+      "title_km": "៨២ អារម្មណ៍កម្មដ្ឋាន៤០ ដោយអាការៈ១០ និងសេចក្តីអធិប្បាយ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៨២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/4Fam6mPFjRU"
+        }
+      ]
+    },
+    {
+      "id": "c008-l082",
+      "num": 83,
+      "title_km": "៨៣ អារម្មណ៍កម្មដ្ឋាន៤០ ដោយអាការៈ១០ និងសេចក្តីអធិប្បាយ លំដាប់នៃសមាធិ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៨៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/OhRecRaIaD4"
+        }
+      ]
+    },
+    {
+      "id": "c008-l083",
+      "num": 84,
+      "title_km": "៨៤ សេចក្តីអធិប្បាយរូបាវចរឈានកុសល៥ដួង ចែករូបាវចរសោភណចិត្តដោយន័យ១៤ន័យ ព្រះអភិធម្មថ្នាក់ដំបូងថ្ងៃទី៨៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/YqG-Yr6fEro"
+        }
+      ]
+    },
+    {
+      "id": "c008-l084",
+      "num": 85,
+      "title_km": "៨៥ ការពន្យល់ពីអារម្មណ៍របស់សមថកម្មដ្ឋាន និង វិបស្សនាកម្មដ្ឋាន ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៨៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/8HxQKxLHdEY"
+        }
+      ]
+    },
+    {
+      "id": "c008-l085",
+      "num": 86,
+      "title_km": "៨៦ រូបាវចរវិបាកចិត្ត ៥ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៨៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/ieZa"
+        }
+      ]
+    },
+    {
+      "id": "c008-l086",
+      "num": 87,
+      "title_km": "៨៧ រូបាវចរកុសលចិត្ត ៥ដួង \"ចប់\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៨៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/3u"
+        }
+      ]
+    },
+    {
+      "id": "c008-l087",
+      "num": 88,
+      "title_km": "៨៨ រូបាវចរកិរិយាចិត្ត ៥ដួង \"ចប់\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៨៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/XyZ"
+        }
+      ]
+    },
+    {
+      "id": "c008-l088",
+      "num": 89,
+      "title_km": "៨៩ អរូបាវចរកុសលចិត្ត ៤ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៨៩",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/M6BaTUztEpE"
+        }
+      ]
+    },
+    {
+      "id": "c008-l089",
+      "num": 90,
+      "title_km": "៩០ អរូបាវចរកុសលចិត្ត ៤ដួង \"ត\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៩០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/cUg-di9-R9Y"
+        }
+      ]
+    },
+    {
+      "id": "c008-l090",
+      "num": 91,
+      "title_km": "៩១ អំពីការចម្រើននេវសញ្ញានាសញ្ញាយតនៈ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី ៩១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/anRS0K4OnlY"
+        }
+      ]
+    },
+    {
+      "id": "c008-l091",
+      "num": 92,
+      "title_km": "៩២ លោកុត្តរចិត្ត ៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៩២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/VrzqLLrYCqU"
+        }
+      ]
+    },
+    {
+      "id": "c008-l092",
+      "num": 93,
+      "title_km": "៩៣ លោកុត្តរចិត្ត ៨ដួង \"ត\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៩៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/TceQ8f62NzE"
+        }
+      ]
+    },
+    {
+      "id": "c008-l093",
+      "num": 94,
+      "title_km": "៩៤ កិលេស៩កង ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៩៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/72cy9jy2tsA"
+        }
+      ]
+    },
+    {
+      "id": "c008-l094",
+      "num": 95,
+      "title_km": "៩៥ អកុសល៩កង និង អកុសលចិត្ត១២ដួង លះដោយមគ្គចិត្ត ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៩៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/OUJPmwxgwL4"
+        }
+      ]
+    },
+    {
+      "id": "c008-l095",
+      "num": 96,
+      "title_km": "៩៦ លោកុត្តរចិត្ត៤០ ប្រកបដោយឈាន ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៩៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/XsUR0pOIY3o"
+        }
+      ]
+    },
+    {
+      "id": "c008-l096",
+      "num": 97,
+      "title_km": "៩៧ លោកុត្តរចិត្ត៨ដួង ដោយន័យ១៤ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៩៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/czW187B85f8"
+        }
+      ]
+    },
+    {
+      "id": "c008-l097",
+      "num": 98,
+      "title_km": "៩៨ លោកុត្តរចិត្ត៨ដួង ដោយន័យ១៤ និង ព្រះសោតាបន្ន៣ប្រភេទ និង ២៤ពួក ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៩៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Z0aVZPSXQBY"
+        }
+      ]
+    },
+    {
+      "id": "c008-l098",
+      "num": 99,
+      "title_km": "៩៩ រាប់ព្រះអរិយបុគ្គលដោយពិស្តារ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៩៩",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/O8fS-f5SC-k"
+        }
+      ]
+    },
+    {
+      "id": "c008-l099",
+      "num": 100,
+      "title_km": "១០០ ព្រះអរហន្ត ២ប្រភេទ និង ១២ពួក ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី១០០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/-ws5jFdd4d8"
+        }
+      ]
+    },
+    {
+      "id": "c008-l100",
+      "num": 101,
+      "title_km": "១០១ ចិត្ត ១២១ដួង ដោយន័យ ១៤ន័យ \"ចប់បរិច្ឆេទទី១ ចិត្តបរមត្ថ\" ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី១០១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/7P66dsfn9gY"
+        }
+      ]
+    },
+    {
+      "id": "c008-l101",
+      "num": 102,
+      "title_km": "១០២ ការបិទថ្នាក់រៀន ព្រះអភិធម្មបរិច្ឆេទទី១ និងចំណាប់អារម្មណ៍សិស្ស ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី១០២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "youtube",
+          "src": "https://www.youtube.com/embed/Hya7PM70Bl4"
+        }
+      ]
+    }
+  ]
+}

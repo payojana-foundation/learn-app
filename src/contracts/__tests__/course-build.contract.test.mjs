@@ -9,6 +9,7 @@ import {
   teacherRecord,
   courseId,
   lessonId,
+  lessonIdSuffixed,
   extractDriveId,
   isHardFail,
 } from '../../../scripts/build-courses.mjs';
@@ -23,6 +24,12 @@ describe('ids are provisional c###/c###-l###', () => {
     expect(courseId(0)).toBe('c001');
     expect(courseId(11)).toBe('c012');
     expect(lessonId(0, 4)).toBe('c001-l005');
+  });
+  it('suffixes a duplicate num by occurrence (b, c) off the first position', () => {
+    // First position for num (occ 1) → plain; occ 2 → b; occ 3 → c.
+    expect(lessonIdSuffixed(6, 12, 1)).toBe('c007-l013');
+    expect(lessonIdSuffixed(6, 12, 2)).toBe('c007-l013b');
+    expect(lessonIdSuffixed(6, 12, 3)).toBe('c007-l013c');
   });
 });
 
@@ -62,22 +69,34 @@ describe('teacher display rules', () => {
 describe('buildCourses rules', () => {
   const built = buildCourses(sourceCourses, teachers, []);
 
-  it('reports a duplicate lesson num as a hard fail and drops it', () => {
-    const dup = built.issues.find((i) => i.kind === 'duplicate_num');
-    expect(dup).toBeTruthy();
-    expect(isHardFail(dup)).toBe(true);
-    // c001 had nums 1,2,3,2(dup) → 2 is kept once, dup dropped; num 3 has no
-    // media (hidden); so emitted lessons are num 1 and num 2 only.
+  it('duplicate lesson num is a WARNING (not a hard fail), keeps both, suffixes the id', () => {
+    const dups = built.issues.filter((i) => i.kind === 'duplicate-num');
+    expect(dups.length).toBe(2); // both occurrences of num 2 are flagged
+    expect(dups.every((d) => isHardFail(d) === false)).toBe(true);
+    // c001 has nums 1, 2(empty title), 3(no media), 2(dup). Both num-2 lessons
+    // have media and are KEPT; num 3 has no media (hidden). Displayed nums stay
+    // byte-for-byte; the second num-2 gets an id suffix.
     const c1 = built.courses.find((c) => c.id === 'c001');
     const nums = c1.lessons.map((l) => l.num).sort();
-    expect(nums).toEqual([1, 2]);
+    expect(nums).toEqual([1, 2, 2]);
+    const ids = c1.lessons.map((l) => l.id);
+    expect(ids).toContain('c001-l002'); // first num-2 (first position)
+    expect(ids).toContain('c001-l002b'); // second num-2 → suffix b
+    expect(ids).toContain('c001-l001');
+  });
+
+  it('the duplicate-num issue carries the course title, num, and both lesson titles', () => {
+    const d = built.issues.find((i) => i.kind === 'duplicate-num');
+    expect(d.detail).toContain('num 2');
+    expect(d.detail).toContain('«'); // both lesson titles quoted
   });
 
   it('keeps an empty title as "no title" and reports it', () => {
     expect(built.issues.some((i) => i.kind === 'empty_title')).toBe(true);
     const c1 = built.courses.find((c) => c.id === 'c001');
-    const l2 = c1.lessons.find((l) => l.num === 2);
-    expect(l2.title_km).toBe('no title');
+    // The empty-title lesson is the FIRST num-2 (id c001-l002).
+    const l = c1.lessons.find((x) => x.id === 'c001-l002');
+    expect(l.title_km).toBe('no title');
   });
 
   it('hides a lesson with no media and reports it', () => {

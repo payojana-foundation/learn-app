@@ -1,0 +1,174 @@
+{
+  "id": "c083",
+  "provisional": true,
+  "title_km": "ថ្នាក់កុមារ មហោសថជាតក (២០២៦)",
+  "title_en": null,
+  "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+  "teacher_slug": "yon-yi",
+  "topics": [
+    "jataka",
+    "kids"
+  ],
+  "lessons": [
+    {
+      "id": "c083-l001",
+      "num": 1,
+      "title_km": "១-៨០ បញ្ញាបារមី មហោសថជាតក សត្តទារប្បញ្ហាមាន៧រឿង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1mqzAq2bkdjywk31IEg3L17Xv13hHOq3u/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1My3eqZLUoUwZ2pW1VpF6R7tyWgF33EOc/preview"
+        }
+      ]
+    },
+    {
+      "id": "c083-l002",
+      "num": 2,
+      "title_km": "២-៨១ បញ្ញាបារមី មហោសថជាតក រឿងលលាដ៌ក្បាលដល់រឿងស្រះទឹក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1rrRqWjk188_ilDgs6ZUUPldYa4_QyoqX/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/18ujDFFy39ZyA-Q2SSVcxSaqevs5btNz8/preview"
+        }
+      ]
+    },
+    {
+      "id": "c083-l003",
+      "num": 3,
+      "title_km": "៣-៨២ បញ្ញាបារមី មហោសថជាតក រឿងឧទ្យាន រឿងក្អក កែវមណី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/10-gxXQUTo-MxS8BOt_lDjggDtU8cy22X/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1ckiWd7stCNQI45LIJ0dvHxIqwnwlcM5f/preview"
+        }
+      ]
+    },
+    {
+      "id": "c083-l004",
+      "num": 4,
+      "title_km": "4-៨៣ បញ្ញាបារមី រឿងបុរសកាឡកិណីខ្វះបុណ្យមិនសំនឹងប្រពន្ធស្អាត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1pV-9ZfhN0ODNdn1p-88qvFAGwfv8B--S/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/172Wuzh-KGeU5hi6R7mh4Pu08kpAH58dK/preview"
+        }
+      ]
+    },
+    {
+      "id": "c083-l005",
+      "num": 5,
+      "title_km": "5-៨៤ បញ្ញាបារមី មហោសថ បុគ្គលមានប្រាជ្ញានិងអ្នកមានយស",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1OKBbdYs7yO84K5pU58YO_nRO1C6ySymF/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1nvROq8kMlA6EGutT_d_Y3Csru25jvvVN/preview"
+        }
+      ]
+    },
+    {
+      "id": "c083-l006",
+      "num": 6,
+      "title_km": "6-_៨៦ មហោសថជាតក សិរីមេណ្ឌកប្បញ្ហា ពីរឿងសីរិនិងបញ្ញាបញ្ចប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1ROKUAt8-1zlkmI4U_yMtIDUviLq2IS-k/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1okAkfE8siJ94stU-1o0bC-D4earGIgii/preview"
+        }
+      ]
+    },
+    {
+      "id": "c083-l007",
+      "num": 7,
+      "title_km": "7-៨៧ មហោសថជាតក ពោធិសត្វស្វែងរកប្រពន្ធជួបនាងអមរា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/12YfSggLeQTss_cd1QtKn9MU3y4lXMQ29/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1suFS4Jnp9D9wx38Wd1CzeUYTCYf2-5Q7/preview"
+        }
+      ]
+    },
+    {
+      "id": "c083-l008",
+      "num": 8,
+      "title_km": "8-៨៨ មហោសថជាតក ពោធិសត្វត្រូវព្រះរាជាចោទរត់ចោលផ្ទះ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1kBnyvYMPknD9p3_3oUKgerp2KuNMAw1y/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1H11Pxqp5Rmt08DU3bO9NnExDoDetPubc/preview"
+        }
+      ]
+    },
+    {
+      "id": "c083-l009",
+      "num": 9,
+      "title_km": "9-៨៩ គ្រហស្ថខ្ជិល សមណមិនសង្រួម ព្រះរាជាធ្វើការមិនពិចារណា បិណ្ឌិតក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1f8lr-YvLDOWxXc9RpiYFlA6uSDIPn73n/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1lBXGJaNHDf7mQ2GCJI4fKYuP72Esx70z/preview"
+        }
+      ]
+    },
+    {
+      "id": "c083-l010",
+      "num": 10,
+      "title_km": "10-៩០_បុគ្គលមានអាថ៍កំបាំងគួរប្រាប់ដល់បុគ្គលណា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/1YiSZkmPOEtwZlGsbDrEOADaQ4O8BYpnl/preview"
+        },
+        {
+          "kind": "drive",
+          "src": "https://drive.google.com/file/d/143mW0-IB9xbQZAVFzamvzG4NJHGTAIVi/preview"
+        }
+      ]
+    }
+  ]
+}
