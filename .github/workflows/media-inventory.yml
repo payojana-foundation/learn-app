@@ -1,0 +1,143 @@
+name: media-inventory
+
+# Q2 (bulk-02) — READ-ONLY inventory of the teacher media folders. For each
+# folder in data/media-folders.csv (teacher_slug,drive_folder_id), lists files
+# recursively and records: id, name, mimeType, size, md5Checksum, createdTime,
+# and ffprobe-over-HTTP (header bytes only) duration / has_video / has_audio /
+# codec. Writes reports/media-inventory.csv + reports/media-gaps.md. It never
+# moves, renames, or deletes anything. An empty CSV → "nothing to do".
+#
+# Auth: Workload Identity Federation (Drive read-only). Manual only.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write # commits the two reports to main
+  id-token: write # Workload Identity Federation
+
+concurrency:
+  group: media-inventory
+  cancel-in-progress: false
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Stop early if there is nothing to do
+        id: gate
+        run: |
+          set -euo pipefail
+          count=$(node -e 'import("./scripts/media/media-inventory.mjs").then(m=>{const fs=require("fs");const t=fs.existsSync("data/media-folders.csv")?fs.readFileSync("data/media-folders.csv","utf8"):"";console.log(m.parseFoldersCsv(t).length)})')
+          echo "folders=$count" >> "$GITHUB_OUTPUT"
+          if [ "$count" = "0" ]; then echo "media-folders.csv is empty — nothing to do."; fi
+
+      - name: Install ffmpeg (ffprobe)
+        if: ${{ steps.gate.outputs.folders != '0' }}
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Authenticate to Google Cloud (Workload Identity Federation)
+        if: ${{ steps.gate.outputs.folders != '0' }}
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/drive.readonly
+
+      - name: Collect per-file metadata + ffprobe (read-only)
+        if: ${{ steps.gate.outputs.folders != '0' }}
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: |
+          set -euo pipefail
+          FOLDER_MIME="application/vnd.google-apps.folder"
+          : > entries.ndjson
+
+          api() { curl -fsS -H "Authorization: Bearer ${ACCESS_TOKEN}" "$1"; }
+
+          enc() { node -e 'process.stdout.write(encodeURIComponent(process.argv[1]))' "$1"; }
+
+          probe_file() {
+            # $1 = file id → prints "duration|has_video|has_audio|codec".
+            local fid="$1" dl streams
+            dl="https://www.googleapis.com/drive/v3/files/${fid}?alt=media&supportsAllDrives=true"
+            # Read only the header bytes: ffprobe fetches lazily over HTTP; the
+            # analyze limits keep it from pulling the whole file.
+            streams=$(ffprobe -v quiet -print_format json -show_streams -show_format \
+              -analyzeduration 5000000 -probesize 5000000 \
+              -headers "Authorization: Bearer ${ACCESS_TOKEN}"$'\r\n' "$dl" 2>/dev/null || echo '{}')
+            echo "$streams" | node scripts/media/ffprobe-summary.mjs
+          }
+
+          list_and_walk() {
+            # $1 folder id, $2 teacher_slug, $3 root folder id (for the row)
+            local folder="$1" slug="$2" rootfolder="$3" pageToken="" q url resp
+            q=$(enc "'${folder}' in parents and trimmed = false")
+            while : ; do
+              url="https://www.googleapis.com/drive/v3/files?q=${q}&fields=nextPageToken,files(id,name,mimeType,size,md5Checksum,createdTime)&pageSize=1000&supportsAllDrives=true&includeItemsFromAllDrives=true"
+              if [ -n "$pageToken" ]; then url="${url}&pageToken=${pageToken}"; fi
+              resp=$(api "$url")
+              # Emit each file as a TSV row: id, name, mime, size, md5, created.
+              echo "$resp" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);for(const f of (j.files||[]))process.stdout.write([f.id,f.name,f.mimeType,f.size||0,f.md5Checksum||"",f.createdTime||""].join("\t")+"\n")})' > page.tsv
+              while IFS=$'\t' read -r id name mime size md5 created; do
+                [ -n "$id" ] || continue
+                if [ "$mime" = "$FOLDER_MIME" ]; then
+                  list_and_walk "$id" "$slug" "$rootfolder"
+                  continue
+                fi
+                pr=$(probe_file "$id")
+                dur=$(echo "$pr" | cut -d'|' -f1)
+                hv=$(echo "$pr" | cut -d'|' -f2)
+                ha=$(echo "$pr" | cut -d'|' -f3)
+                codec=$(echo "$pr" | cut -d'|' -f4)
+                node -e 'const o={teacher_slug:process.argv[1],folder_id:process.argv[2],id:process.argv[3],name:process.argv[4],mimeType:process.argv[5],size:Number(process.argv[6])||0,md5Checksum:process.argv[7],createdTime:process.argv[8],duration_s:Number(process.argv[9])||0,has_video:process.argv[10]==="true",has_audio:process.argv[11]==="true",codec:process.argv[12]};process.stdout.write(JSON.stringify(o)+"\n")' \
+                  "$slug" "$rootfolder" "$id" "$name" "$mime" "$size" "$md5" "$created" "$dur" "$hv" "$ha" "$codec" >> entries.ndjson
+              done < page.tsv
+              pageToken=$(echo "$resp" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);process.stdout.write(j.nextPageToken||"")})')
+              [ -n "$pageToken" ] || break
+            done
+          }
+
+          # Walk every (teacher_slug, folder) pair in the CSV.
+          tail -n +1 data/media-folders.csv | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{import("./scripts/media/media-inventory.mjs").then(m=>{for(const r of m.parseFoldersCsv(s))process.stdout.write(r.teacher_slug+"\t"+r.drive_folder_id+"\n")})})' > folders.tsv
+          while IFS=$'\t' read -r slug folder; do
+            [ -n "$folder" ] || continue
+            echo "walking $slug → $folder"
+            list_and_walk "$folder" "$slug" "$folder"
+          done < folders.tsv
+
+          node -e 'const fs=require("fs");const lines=fs.readFileSync("entries.ndjson","utf8").split(/\r?\n/).filter(Boolean).map(JSON.parse);fs.writeFileSync("entries.json",JSON.stringify(lines,null,2))'
+          echo "collected $(node -e 'console.log(JSON.parse(require("fs").readFileSync("entries.json","utf8")).length)') files"
+
+      - name: Write reports/media-inventory.csv + reports/media-gaps.md
+        if: ${{ steps.gate.outputs.folders != '0' }}
+        run: |
+          set -euo pipefail
+          mkdir -p reports
+          node scripts/media/media-inventory.mjs entries.json reports/media-inventory.csv reports/media-gaps.md
+          echo "----- gaps head -----"; head -n 20 reports/media-gaps.md
+
+      - name: Commit the reports to main
+        if: ${{ steps.gate.outputs.folders != '0' }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add reports/media-inventory.csv reports/media-gaps.md
+          git commit -m "media-inventory: read-only inventory + gaps report" || {
+            echo "nothing to commit"; exit 0;
+          }
+          git push origin HEAD:main
