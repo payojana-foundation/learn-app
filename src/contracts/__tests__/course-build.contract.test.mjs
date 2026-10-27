@@ -123,22 +123,54 @@ describe('buildCourses rules', () => {
   });
 });
 
-describe('r2 override when a Drive recording is approved on R2', () => {
-  it('replaces a drive kind with r2 when the manifest has a non-DRAFT entry', () => {
+// P-19 (Q4, bulk-02) — course-level all-or-nothing r2. A course switches to r2
+// ONLY when EVERY Drive-backed lesson has an approved (non-DRAFT) manifest
+// entry. `src` stays the BARE R2 key (P-12: the player builds the URL); the r2
+// media carries the real `duration_s` from the manifest. DRAFT entries never
+// count.
+describe('P-19 course-level all-or-nothing r2', () => {
+  it('flips a course to r2 when ALL its Drive lessons are approved; src = bare key; carries duration_s', () => {
+    // c002 has a single Drive lesson (DRIVEID123). Approve it → the course is r2.
     const manifest = [
-      { drive_file_id: 'DRIVEID123', key: 'audio/DRIVEID123-a64.mp3', status: 'approved', bytes: 1, duration_s: 1, sha256: 'a'.repeat(64) },
+      { drive_file_id: 'DRIVEID123', key: 'audio/DRIVEID123-a64.mp3', status: 'approved', bytes: 1, duration_s: 1234, sha256: 'a'.repeat(64) },
     ];
     const built = buildCourses(sourceCourses, teachers, manifest);
     const c2 = built.courses.find((c) => c.id === 'c002');
-    expect(c2.lessons[0].media).toEqual([{ kind: 'r2', src: 'audio/DRIVEID123-a64.mp3' }]);
+    expect(c2.lessons[0].media).toEqual([{ kind: 'r2', src: 'audio/DRIVEID123-a64.mp3', duration_s: 1234 }]);
+    expect(built.catalog.courses.find((c) => c.id === 'c002').media_kinds).toEqual(['r2']);
   });
 
-  it('ignores a DRAFT entry (keeps drive)', () => {
+  it('a DRAFT entry does NOT count — the course stays drive', () => {
     const manifest = [
       { drive_file_id: 'DRIVEID123', key: 'audio/DRIVEID123-a64.mp3', status: 'DRAFT – needs reviewer approval', bytes: 1, duration_s: 1, sha256: 'a'.repeat(64) },
     ];
     const built = buildCourses(sourceCourses, teachers, manifest);
     const c2 = built.courses.find((c) => c.id === 'c002');
     expect(c2.lessons[0].media[0].kind).toBe('drive');
+  });
+
+  it('NO mixed courses: if only SOME Drive lessons are approved, the whole course stays drive', () => {
+    // c003 has two Drive lessons (DRIVEA, DRIVEB). Approve only one.
+    const manifest = [
+      { drive_file_id: 'DRIVEA', key: 'audio/DRIVEA-a64.mp3', status: 'approved', bytes: 1, duration_s: 10, sha256: 'a'.repeat(64) },
+    ];
+    const built = buildCourses(sourceCourses, teachers, manifest);
+    const c3 = built.courses.find((c) => c.id === 'c003');
+    expect(c3.lessons.every((l) => l.media.every((m) => m.kind === 'drive'))).toBe(true);
+    expect(built.catalog.courses.find((c) => c.id === 'c003').media_kinds).toEqual(['drive']);
+  });
+
+  it('flips the whole course to r2 only when BOTH Drive lessons are approved', () => {
+    const manifest = [
+      { drive_file_id: 'DRIVEA', key: 'audio/DRIVEA-a64.mp3', status: 'approved', bytes: 1, duration_s: 10, sha256: 'a'.repeat(64) },
+      { drive_file_id: 'DRIVEB', key: 'audio/DRIVEB-a64.mp3', status: 'approved', bytes: 1, duration_s: 20, sha256: 'b'.repeat(64) },
+    ];
+    const built = buildCourses(sourceCourses, teachers, manifest);
+    const c3 = built.courses.find((c) => c.id === 'c003');
+    expect(c3.lessons.map((l) => l.media[0])).toEqual([
+      { kind: 'r2', src: 'audio/DRIVEA-a64.mp3', duration_s: 10 },
+      { kind: 'r2', src: 'audio/DRIVEB-a64.mp3', duration_s: 20 },
+    ]);
+    expect(built.catalog.courses.find((c) => c.id === 'c003').media_kinds).toEqual(['r2']);
   });
 });

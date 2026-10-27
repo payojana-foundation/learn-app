@@ -37,6 +37,8 @@ export type MediaKind = 'r2' | 'acast' | 'youtube' | 'drive';
 export interface LessonMedia {
   kind: MediaKind;
   src: string;
+  /** Real audio length in seconds, from the media manifest. r2 media only (Q4). */
+  duration_s?: number;
 }
 export interface Lesson {
   id: string;

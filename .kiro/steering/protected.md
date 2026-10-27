@@ -110,3 +110,15 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   `src/ui/views.ts`. [from part P4]
 - **P-18** No scripture text anywhere in the app (Learn shows teachers' lessons
   only). [from part P4]
+
+## Manifest → app (Q4, bulk-02)
+
+- **P-19** A course switches to `r2` ONLY when EVERY Drive-backed audio lesson
+  in it has an APPROVED (non-DRAFT) entry in `data/media-manifest.json` — no
+  mixed courses. An r2 lesson's `src` is the BARE R2 key (NOT a full URL — the
+  player prepends `MEDIA_BASE_URL` and URL-encodes it, per P-12) and carries the
+  real `duration_s` from the manifest; the player shows that duration from the
+  data. DRAFT entries never count. `courseAllDriveApproved`/`lessonMedia`,
+  `scripts/build-courses.mjs`; `duration_s` seed in `lessonView`,
+  `src/ui/views.ts`. Contract: `src/contracts/__tests__/course-build.contract.test.mjs`
+  "P-19 course-level all-or-nothing r2". [from part Q4, bulk-02]

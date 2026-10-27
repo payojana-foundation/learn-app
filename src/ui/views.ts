@@ -176,10 +176,13 @@ export function lessonView(
   const pv = c.lessons[idx - 1];
   const r2 = l.media.find((m) => m.kind === 'r2');
 
+  // Real duration comes from the data (manifest) so it shows before the audio
+  // element loads (Q4). 0 → the "0:00" placeholder until the audio reports it.
+  const durS = r2 && r2.duration_s ? r2.duration_s : 0;
   const media = r2
     ? `<div class="player" data-player><div class="times"><span>${t('OUR_PLAYER', lang)}</span><span>♪ MP3</span></div>
       <div class="scrub" data-scrub><i data-bar style="width:${pp.pos ? '0' : '0'}%"></i></div>
-      <div class="times"><span data-pos>${time(pp.pos, lang)}</span><span data-dur>0:00</span></div>
+      <div class="times"><span data-pos>${time(pp.pos, lang)}</span><span data-dur>${durS ? time(durS, lang) : '0:00'}</span></div>
       <div class="pctl"><button data-skip="-15">⟲ ${num(15, lang)}</button><button class="pp" data-pp aria-label="Play/Pause">${playing ? '❚❚' : '▶'}</button><button data-skip="15">${num(15, lang)} ⟳</button></div>
       <div class="popts"><button data-speed>${t('SPEED', lang)} ${speed}×</button><button data-sleep>${t('SLEEP', lang)} ${sleep ? num(sleep, lang) + '′' : '—'}</button><button data-auto>${t('AUTO', lang)}: ${auto ? '✓' : '—'}</button></div></div>`
     : l.media.length > 0

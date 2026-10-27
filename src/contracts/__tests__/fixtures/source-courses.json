@@ -22,6 +22,17 @@
       "lessons": [
         { "num": 1, "titleKm": "drive lesson", "topic": "", "audioEmbedSrc": "", "videoPreviewSrc": "https://drive.google.com/file/d/DRIVEID123/preview" }
       ]
+    },
+    {
+      "titleKm": "course C km",
+      "titleEn": "course C en",
+      "teacher": "Teacher One",
+      "teacherSlug": "teacher-one",
+      "topics": ["meditation"],
+      "lessons": [
+        { "num": 1, "titleKm": "drive one", "topic": "", "audioEmbedSrc": "", "videoPreviewSrc": "https://drive.google.com/file/d/DRIVEA/preview" },
+        { "num": 2, "titleKm": "drive two", "topic": "", "audioEmbedSrc": "", "videoPreviewSrc": "https://drive.google.com/file/d/DRIVEB/preview" }
+      ]
     }
   ]
 }

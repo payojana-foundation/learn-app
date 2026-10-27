@@ -69,26 +69,54 @@ export function classifyMedia(src) {
 }
 
 /**
- * Build a lesson's media array from its source fields and the set of
- * drive_file_ids that have an APPROVED (non-DRAFT) R2 entry.
- * An approved Drive recording becomes an `r2` entry pointing at the R2 key.
+ * Build a lesson's media array from its source fields.
+ *
+ * `r2ByDriveId` maps a Drive file id → its APPROVED (non-DRAFT) manifest entry.
+ * `courseIsR2` is the COURSE-LEVEL decision (Q4, bulk-02): a course switches to
+ * r2 ONLY when EVERY Drive-backed lesson in it has an approved manifest entry —
+ * there are no mixed courses. When `courseIsR2` is true, a Drive source becomes
+ * an `r2` entry carrying the bare R2 `key` as `src` (the player prepends
+ * MEDIA_BASE_URL + URL-encodes it, per P-12 — the key is NOT a full URL here)
+ * and the real `duration_s` from the manifest. When it is false, Drive sources
+ * stay `drive` even if some lessons happen to be on R2.
  */
-export function lessonMedia(lesson, r2ByDriveId) {
+export function lessonMedia(lesson, r2ByDriveId, courseIsR2) {
   const out = [];
   for (const src of [lesson.audioEmbedSrc, lesson.videoPreviewSrc]) {
     const kind = classifyMedia(src);
     if (!kind) continue;
-    if (kind === 'drive' && r2ByDriveId) {
+    if (kind === 'drive' && courseIsR2 && r2ByDriveId) {
       const driveId = extractDriveId(src);
       const r2 = driveId && r2ByDriveId.get(driveId);
       if (r2) {
-        out.push({ kind: 'r2', src: r2.key });
+        // src = the bare R2 key (P-12: the player builds the URL, not the data).
+        out.push({ kind: 'r2', src: r2.key, duration_s: Number(r2.duration_s) || 0 });
         continue;
       }
     }
     out.push({ kind, src });
   }
   return out;
+}
+
+/**
+ * Course-level all-or-nothing r2 decision (Q4). A course is r2 ONLY when it has
+ * at least one Drive-backed audio lesson AND every Drive source in the course
+ * has an approved (non-DRAFT) manifest entry. A course with no Drive sources is
+ * never "r2" (nothing to switch). Counts only approved entries.
+ */
+export function courseAllDriveApproved(course, r2ByDriveId) {
+  const driveIds = [];
+  for (const l of course.lessons || []) {
+    for (const src of [l.audioEmbedSrc, l.videoPreviewSrc]) {
+      if (classifyMedia(src) === 'drive') {
+        const id = extractDriveId(src);
+        if (id) driveIds.push(id);
+      }
+    }
+  }
+  if (driveIds.length === 0) return false; // no Drive audio → not an r2 course
+  return driveIds.every((id) => r2ByDriveId.has(id));
 }
 
 /** Pull the Drive file id out of a Drive preview URL, or null. */
@@ -148,6 +176,10 @@ export function buildCourses(sourceCourses, teachers, mediaManifest) {
     const titleKm = co.titleKm ?? '';
     const titleEn = englishTitle(titleKm, co.titleEn);
 
+    // Course-level all-or-nothing r2 (Q4): only when EVERY Drive-backed lesson
+    // in this course has an approved (non-DRAFT) manifest entry.
+    const courseIsR2 = courseAllDriveApproved(co, r2ByDriveId);
+
     if (!teacherSlugs.has(co.teacherSlug)) {
       issues.push({ course_id: id, lesson_num: '', kind: 'unknown_teacher', detail: co.teacherSlug ?? '(none)' });
     }
@@ -194,7 +226,7 @@ export function buildCourses(sourceCourses, teachers, mediaManifest) {
         title = 'no title';
       }
 
-      const media = lessonMedia(l, r2ByDriveId);
+      const media = lessonMedia(l, r2ByDriveId, courseIsR2);
       if (media.length === 0) {
         issues.push({ course_id: id, lesson_num: l.num, kind: 'no_media', detail: 'hidden' });
         return; // hidden: not emitted (but the duplicate warning above still stands)
