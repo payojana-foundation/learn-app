@@ -1,0 +1,28 @@
+name: lint-workflows
+
+# Runs actionlint on every push to main that touches the workflows, so the
+# workflow YAML is checked in CI (Kiro cannot run actionlint locally). Uses the
+# official actionlint action (pinned); shellcheck is available on the runner so
+# the embedded `run:` shell is linted too.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - ".github/**"
+
+permissions:
+  contents: read
+
+jobs:
+  actionlint:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Run actionlint
+        uses: raven-actions/actionlint@v2
+        with:
+          flags: "-color"
