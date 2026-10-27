@@ -1,0 +1,84 @@
+# Media pipeline (P2)
+
+Two manual GitHub Actions workflows move teacher media from Google Drive to
+Cloudflare R2. Both are `workflow_dispatch` only; the coordinator runs them from
+the browser (repo → Actions → pick the workflow → Run workflow). See
+`docs/SETUP-coordinator.md` for the one-time Google Cloud / R2 / secrets setup.
+
+No service-account keys: Drive access uses Workload Identity Federation
+(`google-github-actions/auth` with `token_format: access_token`, Drive scope).
+R2 uses an rclone S3 remote built from repo secrets. Secrets are read from
+`secrets`/`vars` and never written to a committed file or printed to a log.
+
+## Secrets and variables (set by the coordinator)
+- Secrets: `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`.
+- Variables: `R2_ENDPOINT`, `GCP_WIF_PROVIDER`, `GCP_SERVICE_ACCOUNT`,
+  `WORD_AUDIO_DRIVE_FOLDER` (= `1NNmePYxy83xaiUSh0fW2cHpTinVIpn_6`).
+
+## Job A — word-audio-upload.yml
+Uploads the word-audio batch 023 to the `word-audio` R2 bucket under `023/`.
+1. Downloads `word-audio_023_batch_2026-10-25_v6.zip` from the Drive folder.
+2. Unzips keeping UTF-8 NFC names (`unzip -O UTF-8`).
+3. Checksums local files against `MD5SUMS_023.txt` — must be exactly **1366**
+   matching or the job stops (`scripts/media/verify-checksums.mjs`).
+4. `rclone copy` (never `sync`) to `r2:word-audio/023` with `--immutable`,
+   `Cache-Control: public, max-age=31536000, immutable`, `Content-Type:
+   audio/mpeg`.
+5. Checksums against `r2:word-audio/023` — 1366 or fail.
+6. `curl -I` the URL-encoded
+   `https://audio.84000.digital/023/023.001.001-កន្ទរកោ.mp3` → expects 200,
+   `audio/mpeg`, that cache-control.
+7. Writes `r2_listing_023.txt` + the run log back to the same Drive folder.
+
+Input `limit`:
+- `limit=1` (default): run every step for ONE file only (smoke test).
+- `limit=0`: all files; the R2 checksum and the 1366 gate run.
+Re-runs skip existing keys (`--immutable` refuses to overwrite).
+
+## Job B — course-audio.yml (pilot only now)
+Transcodes ONE recording to a normalised 64 kbps mono MP3 on the `course-media`
+bucket, then appends a DRAFT entry to `data/media-manifest.json`.
+- Input `drive_file_id` (pilot: `1tvjvDJxPVAsuKSyLJ6TBqE-mU5vUAveT`, Ven. Yon
+  Yi, វេស្សន្តរជាតក part 1).
+- `ffprobe` decides the real type (some videos are named `.mp3`) —
+  `scripts/media/ffprobe-decide.mjs`. For a video, only the audio TRACK is
+  streamed from the Drive URL with an `Authorization` header (no full video
+  download).
+- ffmpeg: `pan=mono|c0=0.5*c0+0.5*c1`, two-pass
+  `loudnorm=I=-16:TP=-1.5:LRA=11:linear=true`, MP3 64 kbps CBR, 44.1 kHz, no
+  noise reduction.
+- Key `audio/<drive_file_id>-a64.mp3` in `course-media` (immutable; never
+  overwrite; a correction gets `-v2`).
+- Appends `{drive_file_id, key, bytes, duration_s, sha256, status: "DRAFT –
+  needs reviewer approval"}` (`scripts/media/append-manifest.mjs`), then the
+  workflow token pushes that one manifest change to `main` (no PR).
+- Re-runs skip a key already on R2.
+
+## Scripts and tests
+Pure, unit-tested helpers (fixtures in `scripts/media/__tests__/fixtures/`):
+- `verify-checksums.mjs` — parse MD5SUMS, compare, assert an exact count.
+- `md5sum-to-json.mjs` — convert md5sum/rclone output for the asserter.
+- `ffprobe-decide.mjs` — audio vs video from ffprobe JSON (cover art ≠ video).
+- `append-manifest.mjs` — idempotent DRAFT append, never overwrites a key.
+Run with `npm test`. The workflows are linted with `actionlint`.
+
+## GitHub Actions limits (reported from GitHub docs, private repo)
+- **Per-job maximum run time:** 6 hours (360 minutes) on GitHub-hosted runners;
+  a job that exceeds it is cancelled. (Self-hosted runners allow up to 5 days.)
+  Source: [Actions limits](https://docs.github.com/en/actions/reference/limits).
+  Both workflows set `timeout-minutes: 120` as an explicit cap well under this.
+- **Runner disk:** a standard `ubuntu-latest` GitHub-hosted runner is a VM with
+  a large total disk (~150 GB reported by GitHub), but only roughly 14 GB of
+  that is free SSD space for a job after the preinstalled OS image and tool
+  cache. Plan the batch/transcode temp files against ~14 GB usable, not 150 GB.
+  Source: [GitHub-hosted runners reference](https://docs.github.com/en/actions/reference/runners/github-hosted-runners)
+  and the runner-images notes.
+- **Included minutes (private repos):** each account gets a monthly quota of
+  free GitHub-hosted minutes that depends on the plan; usage beyond it is
+  billed. Confirm the exact per-plan number (Free/Pro/Team/Enterprise) for
+  `payojana-foundation` on the billing page before a full (`limit=0`) run.
+  Source: [GitHub Actions billing](https://docs.github.com/en/billing/concepts/product-billing/github-actions)
+  and [Billing and usage](https://docs.github.com/en/actions/concepts/billing-and-usage).
+
+Content on the GitHub docs pages above was rephrased here for licensing
+compliance.

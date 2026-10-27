@@ -1,0 +1,6 @@
+{
+  "streams": [
+    { "codec_type": "video", "codec_name": "mjpeg", "disposition": { "attached_pic": 1 } },
+    { "codec_type": "audio", "codec_name": "mp3" }
+  ]
+}

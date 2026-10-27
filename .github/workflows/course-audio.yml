@@ -1,0 +1,159 @@
+name: course-audio
+
+# Job B (media pipeline, P2) — PILOT ONLY for now. Transcodes ONE course
+# recording from Google Drive into a normalised 64 kbps mono MP3 on Cloudflare
+# R2, and appends a DRAFT entry to data/media-manifest.json.
+#
+# ffprobe decides the real type (some videos are named .mp3). For a video, only
+# the audio TRACK is streamed from the Drive URL (no full video download), using
+# the WIF access token as an Authorization header.
+#
+# Auth: Workload Identity Federation (no keys). Manual only.
+
+on:
+  workflow_dispatch:
+    inputs:
+      drive_file_id:
+        description: "Drive file id of the recording (pilot: 1tvjvDJxPVAsuKSyLJ6TBqE-mU5vUAveT)"
+        required: true
+        default: "1tvjvDJxPVAsuKSyLJ6TBqE-mU5vUAveT"
+      limit:
+        description: "Reserved; 1 = the single pilot file"
+        required: true
+        default: "1"
+
+permissions:
+  contents: write # the job commits the DRAFT manifest entry to main
+  id-token: write # Workload Identity Federation
+
+concurrency:
+  group: course-audio
+  cancel-in-progress: false
+
+jobs:
+  transcode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Install ffmpeg (ffprobe + ffmpeg)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Authenticate to Google Cloud (Workload Identity Federation)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/drive
+
+      - name: Configure rclone R2 remote (from secrets)
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ENDPOINT: ${{ vars.R2_ENDPOINT }}
+        run: |
+          mkdir -p "$HOME/.config/rclone"
+          cat > "$HOME/.config/rclone/rclone.conf" <<EOF
+          [r2]
+          type = s3
+          provider = Cloudflare
+          access_key_id = ${R2_ACCESS_KEY_ID}
+          secret_access_key = ${R2_SECRET_ACCESS_KEY}
+          endpoint = ${R2_ENDPOINT}
+          no_check_bucket = true
+          EOF
+
+      - name: Set up rclone
+        uses: AnimMouse/setup-rclone@v1
+
+      - name: Skip if the key already exists on R2 (immutable; never overwrite)
+        id: exists
+        env:
+          DRIVE_FILE_ID: ${{ github.event.inputs.drive_file_id }}
+        run: |
+          key="audio/${DRIVE_FILE_ID}-a64.mp3"
+          echo "key=$key" >> "$GITHUB_OUTPUT"
+          if rclone lsf "r2:course-media/${key}" >/dev/null 2>&1; then
+            echo "already on R2: $key — skipping (re-runs skip existing keys)"
+            echo "skip=true" >> "$GITHUB_OUTPUT"
+          else
+            echo "skip=false" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Probe the real media type
+        if: ${{ steps.exists.outputs.skip == 'false' }}
+        id: probe
+        env:
+          DRIVE_FILE_ID: ${{ github.event.inputs.drive_file_id }}
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: |
+          dl="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?alt=media"
+          ffprobe -v quiet -print_format json -show_streams \
+            -headers "Authorization: Bearer ${ACCESS_TOKEN}"$'\r\n' "$dl" > probe.json
+          type=$(node scripts/media/ffprobe-decide.mjs probe.json)
+          echo "type=$type" >> "$GITHUB_OUTPUT"
+          echo "detected type: $type"
+
+      - name: Transcode the audio track (mono, loudnorm 2-pass, 64 kbps CBR)
+        if: ${{ steps.exists.outputs.skip == 'false' }}
+        env:
+          DRIVE_FILE_ID: ${{ github.event.inputs.drive_file_id }}
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: |
+          dl="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?alt=media"
+          hdr="Authorization: Bearer ${ACCESS_TOKEN}"$'\r\n'
+          # Pass 1: measure loudness (JSON on stderr → parsed by ffmpeg pass 2).
+          measured=$(ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn \
+            -af "pan=mono|c0=0.5*c0+0.5*c1,loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json" \
+            -f null - 2>&1 | sed -n '/{/,/}/p')
+          mi=$(echo "$measured" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);process.stdout.write([j.input_i,j.input_tp,j.input_lra,j.input_thresh].join(" "))})')
+          set -- $mi
+          # Pass 2: apply linear normalisation with the measured values; 64k CBR.
+          ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn \
+            -af "pan=mono|c0=0.5*c0+0.5*c1,loudnorm=I=-16:TP=-1.5:LRA=11:measured_I=$1:measured_TP=$2:measured_LRA=$3:measured_thresh=$4:linear=true" \
+            -c:a libmp3lame -b:a 64k -ar 44100 out-a64.mp3
+
+      - name: Upload to R2 (immutable; never overwrite)
+        if: ${{ steps.exists.outputs.skip == 'false' }}
+        run: |
+          rclone copy --immutable \
+            --header-upload "Cache-Control: public, max-age=31536000, immutable" \
+            --header-upload "Content-Type: audio/mpeg" \
+            out-a64.mp3 "r2:course-media/audio/"
+          # Name the object by the drive file id.
+          rclone moveto "r2:course-media/audio/out-a64.mp3" "r2:course-media/${{ steps.exists.outputs.key }}"
+
+      - name: Append a DRAFT entry to data/media-manifest.json
+        if: ${{ steps.exists.outputs.skip == 'false' }}
+        env:
+          DRIVE_FILE_ID: ${{ github.event.inputs.drive_file_id }}
+        run: |
+          bytes=$(stat -c%s out-a64.mp3)
+          dur=$(ffprobe -v quiet -show_entries format=duration -of csv=p=0 out-a64.mp3 | cut -d. -f1)
+          sha=$(sha256sum out-a64.mp3 | cut -d' ' -f1)
+          cat > entry.json <<EOF
+          { "drive_file_id": "${DRIVE_FILE_ID}", "key": "${{ steps.exists.outputs.key }}", "bytes": ${bytes}, "duration_s": ${dur}, "sha256": "${sha}" }
+          EOF
+          node scripts/media/append-manifest.mjs data/media-manifest.json entry.json
+
+      - name: Commit the manifest change to main (PR-free push by the workflow)
+        if: ${{ steps.exists.outputs.skip == 'false' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/media-manifest.json
+          git commit -m "course-audio: DRAFT media-manifest entry for ${{ github.event.inputs.drive_file_id }}" || {
+            echo "nothing to commit"; exit 0;
+          }
+          git push origin HEAD:main
