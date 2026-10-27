@@ -1,29 +1,49 @@
 name: course-audio
 
-# Job B (media pipeline, P2) — PILOT ONLY for now. Transcodes ONE course
-# recording from Google Drive into a normalised 64 kbps mono MP3 on Cloudflare
-# R2, and appends a DRAFT entry to data/media-manifest.json.
+# Job B (media pipeline) — BATCH transcode (Q3, bulk-02). Reads a CSV queue of
+# Drive file ids, transcodes each recording into a normalised 64 kbps mono MP3
+# on Cloudflare R2, and appends ONE DRAFT line per file to
+# data/media-manifest.json.
 #
-# ffprobe decides the real type (some videos are named .mp3). For a video, only
-# the audio TRACK is streamed from the Drive URL (no full video download), using
-# the WIF access token as an Authorization header.
+# - input `list`        : path to the queue CSV (default data/audio-queue.csv),
+#                         one drive_file_id per line (header `drive_file_id` ok).
+# - input `limit`       : max files this run (default 5).
+# - input `max_minutes` : stop starting new files once this wall-clock budget is
+#                         spent, leaving the rest for the next run (default 300).
+# - input `concurrency` : parallel transcodes (default 2).
+#
+# Ids already in data/media-manifest.json are SKIPPED. The manifest is committed
+# at the END of the run AND on cancellation (whatever finished so far), so a run
+# cancelled near the GitHub job time limit never loses completed work.
+#
+# ffprobe decides the real type (some videos are named .mp3); for a video only
+# the audio TRACK is streamed from the Drive URL with the WIF access token as an
+# Authorization header. Keys are immutable (never overwritten).
 #
 # Auth: Workload Identity Federation (no keys). Manual only.
 
 on:
   workflow_dispatch:
     inputs:
-      drive_file_id:
-        description: "Drive file id of the recording (pilot: 1tvjvDJxPVAsuKSyLJ6TBqE-mU5vUAveT)"
+      list:
+        description: "Path to the queue CSV of drive_file_ids"
         required: true
-        default: "1tvjvDJxPVAsuKSyLJ6TBqE-mU5vUAveT"
+        default: "data/audio-queue.csv"
       limit:
-        description: "Reserved; 1 = the single pilot file"
+        description: "Max files to process this run"
         required: true
-        default: "1"
+        default: "5"
+      max_minutes:
+        description: "Wall-clock budget: stop starting new files after this many minutes"
+        required: true
+        default: "300"
+      concurrency:
+        description: "Parallel transcodes"
+        required: true
+        default: "2"
 
 permissions:
-  contents: write # the job commits the DRAFT manifest entry to main
+  contents: write # the job commits the DRAFT manifest entries to main
   id-token: write # Workload Identity Federation
 
 concurrency:
@@ -33,7 +53,13 @@ concurrency:
 jobs:
   transcode:
     runs-on: ubuntu-latest
-    timeout-minutes: 120
+    timeout-minutes: 340 # under GitHub's 360-min hard cap; max_minutes stops sooner
+    env:
+      QUEUE: ${{ github.event.inputs.list }}
+      LIMIT: ${{ github.event.inputs.limit }}
+      MAX_MINUTES: ${{ github.event.inputs.max_minutes }}
+      JOBS: ${{ github.event.inputs.concurrency }}
+      MANIFEST: data/media-manifest.json
     steps:
       - name: Check out the repo
         uses: actions/checkout@v4
@@ -57,6 +83,9 @@ jobs:
           token_format: access_token
           access_token_scopes: https://www.googleapis.com/auth/drive
 
+      - name: Set up rclone
+        uses: AnimMouse/setup-rclone@v1
+
       - name: Configure rclone R2 remote (from secrets)
         env:
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
@@ -74,86 +103,89 @@ jobs:
           no_check_bucket = true
           EOF
 
-      - name: Set up rclone
-        uses: AnimMouse/setup-rclone@v1
-
-      - name: Skip if the key already exists on R2 (immutable; never overwrite)
-        id: exists
-        env:
-          DRIVE_FILE_ID: ${{ github.event.inputs.drive_file_id }}
+      - name: Plan the run (skip ids already in the manifest, cap at limit)
+        id: plan
         run: |
-          key="audio/${DRIVE_FILE_ID}-a64.mp3"
-          echo "key=$key" >> "$GITHUB_OUTPUT"
-          if rclone lsf "r2:course-media/${key}" >/dev/null 2>&1; then
-            echo "already on R2: $key — skipping (re-runs skip existing keys)"
-            echo "skip=true" >> "$GITHUB_OUTPUT"
-          else
-            echo "skip=false" >> "$GITHUB_OUTPUT"
-          fi
+          set -euo pipefail
+          node scripts/media/queue-plan.mjs "$QUEUE" "$MANIFEST" "$LIMIT" > plan.json
+          node -e 'const p=require("./plan.json");console.log(`toProcess ${p.toProcess.length}, skipped ${p.skipped.length}, remaining ${p.remaining.length}`)'
+          node -e 'const p=require("./plan.json");require("fs").writeFileSync("to-process.txt",p.toProcess.join("\n"))'
+          # Seed the summary with the skipped ids up front.
+          node -e 'const p=require("./plan.json");const fs=require("fs");fs.writeFileSync("results.ndjson",p.skipped.map(id=>JSON.stringify({id,status:"skipped",reason:"already in manifest"})).join("\n")+(p.skipped.length?"\n":""))'
+          if [ ! -s to-process.txt ]; then echo "nothing to transcode this run."; fi
 
-      - name: Probe the real media type
-        if: ${{ steps.exists.outputs.skip == 'false' }}
-        id: probe
+      - name: Transcode the batch (concurrency, time budget, immutable R2)
+        if: ${{ hashFiles('to-process.txt') != '' }}
         env:
-          DRIVE_FILE_ID: ${{ github.event.inputs.drive_file_id }}
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
         run: |
-          dl="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?alt=media"
-          ffprobe -v quiet -print_format json -show_streams \
-            -headers "Authorization: Bearer ${ACCESS_TOKEN}"$'\r\n' "$dl" > probe.json
-          type=$(node scripts/media/ffprobe-decide.mjs probe.json)
-          echo "type=$type" >> "$GITHUB_OUTPUT"
-          echo "detected type: $type"
+          set -uo pipefail
+          chmod +x scripts/media/transcode-one.sh
+          start=$(date +%s)
+          budget=$(( MAX_MINUTES * 60 ))
+          running=0
+          : > results.failed.ndjson
+          : > results.done.ndjson
 
-      - name: Transcode the audio track (mono, loudnorm 2-pass, 64 kbps CBR)
-        if: ${{ steps.exists.outputs.skip == 'false' }}
-        env:
-          DRIVE_FILE_ID: ${{ github.event.inputs.drive_file_id }}
-          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
-        run: |
-          dl="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?alt=media"
-          hdr="Authorization: Bearer ${ACCESS_TOKEN}"$'\r\n'
-          # Pass 1: measure loudness (JSON on stderr → parsed by ffmpeg pass 2).
-          measured=$(ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn \
-            -af "pan=mono|c0=0.5*c0+0.5*c1,loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json" \
-            -f null - 2>&1 | sed -n '/{/,/}/p')
-          mi=$(echo "$measured" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);process.stdout.write([j.input_i,j.input_tp,j.input_lra,j.input_thresh].join(" "))})')
-          set -- $mi
-          # Pass 2: apply linear normalisation with the measured values; 64k CBR.
-          ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn \
-            -af "pan=mono|c0=0.5*c0+0.5*c1,loudnorm=I=-16:TP=-1.5:LRA=11:measured_I=$1:measured_TP=$2:measured_LRA=$3:measured_thresh=$4:linear=true" \
-            -c:a libmp3lame -b:a 64k -ar 44100 out-a64.mp3
+          wait_one() {
+            # Wait for any one background job to finish.
+            wait -n 2>/dev/null || true
+            running=$(( running - 1 ))
+          }
 
-      - name: Upload to R2 (immutable; never overwrite)
-        if: ${{ steps.exists.outputs.skip == 'false' }}
-        run: |
-          rclone copy --immutable \
-            --header-upload "Cache-Control: public, max-age=31536000, immutable" \
-            --header-upload "Content-Type: audio/mpeg" \
-            out-a64.mp3 "r2:course-media/audio/"
-          # Name the object by the drive file id.
-          rclone moveto "r2:course-media/audio/out-a64.mp3" "r2:course-media/${{ steps.exists.outputs.key }}"
+          while IFS= read -r fid; do
+            [ -n "$fid" ] || continue
+            now=$(date +%s)
+            if [ $(( now - start )) -ge "$budget" ]; then
+              echo "time budget ($MAX_MINUTES min) reached — leaving the rest for the next run"
+              break
+            fi
+            # Keep at most $JOBS transcodes in flight.
+            while [ "$running" -ge "$JOBS" ]; do wait_one; done
+            (
+              if scripts/media/transcode-one.sh "$fid"; then
+                echo "{\"id\":\"$fid\",\"status\":\"done\"}" >> results.done.ndjson
+              else
+                code=$?
+                echo "{\"id\":\"$fid\",\"status\":\"failed\",\"reason\":\"transcode-one exit $code\"}" >> results.failed.ndjson
+              fi
+            ) &
+            running=$(( running + 1 ))
+          done < to-process.txt
 
-      - name: Append a DRAFT entry to data/media-manifest.json
-        if: ${{ steps.exists.outputs.skip == 'false' }}
-        env:
-          DRIVE_FILE_ID: ${{ github.event.inputs.drive_file_id }}
-        run: |
-          bytes=$(stat -c%s out-a64.mp3)
-          dur=$(ffprobe -v quiet -show_entries format=duration -of csv=p=0 out-a64.mp3 | cut -d. -f1)
-          sha=$(sha256sum out-a64.mp3 | cut -d' ' -f1)
-          cat > entry.json <<EOF
-          { "drive_file_id": "${DRIVE_FILE_ID}", "key": "${{ steps.exists.outputs.key }}", "bytes": ${bytes}, "duration_s": ${dur}, "sha256": "${sha}" }
-          EOF
-          node scripts/media/append-manifest.mjs data/media-manifest.json entry.json
+          # Drain remaining jobs.
+          while [ "$running" -gt 0 ]; do wait_one; done
+          cat results.done.ndjson results.failed.ndjson >> results.ndjson || true
+          echo "batch finished"
 
-      - name: Commit the manifest change to main (PR-free push by the workflow)
-        if: ${{ steps.exists.outputs.skip == 'false' }}
+      - name: Append DRAFT manifest entries for everything that finished
+        if: ${{ always() }}
         run: |
+          set -uo pipefail
+          # entry-*.json files are written by transcode-one.sh for each success.
+          shopt -s nullglob
+          for e in entry-*.json; do
+            node scripts/media/append-manifest.mjs "$MANIFEST" "$e" || true
+          done
+          echo "manifest now has $(node -e 'const fs=require("fs");console.log(fs.existsSync(process.env.MANIFEST)?JSON.parse(fs.readFileSync(process.env.MANIFEST,"utf8")).length:0)') entries"
+
+      - name: Write + print the run summary table
+        if: ${{ always() }}
+        run: |
+          set -uo pipefail
+          node -e 'const fs=require("fs");const lines=(fs.existsSync("results.ndjson")?fs.readFileSync("results.ndjson","utf8"):"").split(/\r?\n/).filter(Boolean).map(JSON.parse);import("./scripts/media/queue-plan.mjs").then(m=>{const md=m.summaryTable(lines);fs.writeFileSync("run-summary.md",md);process.stdout.write(md)})'
+          cat run-summary.md >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Commit the manifest changes to main (also on cancellation)
+        if: ${{ always() }}
+        run: |
+          set -uo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add data/media-manifest.json
-          git commit -m "course-audio: DRAFT media-manifest entry for ${{ github.event.inputs.drive_file_id }}" || {
-            echo "nothing to commit"; exit 0;
-          }
-          git push origin HEAD:main
+          git add "$MANIFEST" || true
+          if git diff --cached --quiet; then
+            echo "no manifest change to commit"
+          else
+            git commit -m "course-audio: DRAFT manifest entries (batch)"
+            git push origin HEAD:main
+          fi

@@ -35,24 +35,31 @@ Input `limit`:
 - `limit=0`: all files; the R2 checksum and the 1366 gate run.
 Re-runs skip existing keys (`--immutable` refuses to overwrite).
 
-## Job B — course-audio.yml (pilot only now)
-Transcodes ONE recording to a normalised 64 kbps mono MP3 on the `course-media`
-bucket, then appends a DRAFT entry to `data/media-manifest.json`.
-- Input `drive_file_id` (pilot: `1tvjvDJxPVAsuKSyLJ6TBqE-mU5vUAveT`, Ven. Yon
-  Yi, វេស្សន្តរជាតក part 1).
-- `ffprobe` decides the real type (some videos are named `.mp3`) —
-  `scripts/media/ffprobe-decide.mjs`. For a video, only the audio TRACK is
-  streamed from the Drive URL with an `Authorization` header (no full video
-  download).
-- ffmpeg: `pan=mono|c0=0.5*c0+0.5*c1`, two-pass
-  `loudnorm=I=-16:TP=-1.5:LRA=11:linear=true`, MP3 64 kbps CBR, 44.1 kHz, no
-  noise reduction.
+## Job B — course-audio.yml (batch, Q3)
+Transcodes a BATCH of recordings to normalised 64 kbps mono MP3s on the
+`course-media` bucket, then appends one DRAFT entry per file to
+`data/media-manifest.json`.
+- Inputs: `list` (queue CSV of `drive_file_id`s, default `data/audio-queue.csv`),
+  `limit` (default 5), `max_minutes` (wall-clock budget; stop starting new files
+  before the GitHub job time limit, default 300), `concurrency` (default 2).
+- The run plan (`scripts/media/queue-plan.mjs`) SKIPS any id already in
+  `data/media-manifest.json` and processes the first `limit` of the rest; the
+  remainder is left for the next run.
+- Per file (`scripts/media/transcode-one.sh`): `ffprobe` decides the real type
+  (some videos are named `.mp3`) — `scripts/media/ffprobe-decide.mjs`. For a
+  video, only the audio TRACK is streamed from the Drive URL with an
+  `Authorization` header (no full video download). ffmpeg:
+  `pan=mono|c0=0.5*c0+0.5*c1`, two-pass `loudnorm=I=-16:TP=-1.5:LRA=11:linear=true`,
+  MP3 64 kbps CBR, 44.1 kHz, no noise reduction.
 - Key `audio/<drive_file_id>-a64.mp3` in `course-media` (immutable; never
-  overwrite; a correction gets `-v2`).
-- Appends `{drive_file_id, key, bytes, duration_s, sha256, status: "DRAFT –
-  needs reviewer approval"}` (`scripts/media/append-manifest.mjs`), then the
-  workflow token pushes that one manifest change to `main` (no PR).
-- Re-runs skip a key already on R2.
+  overwrite; a present key = already done; a correction gets `-v2`).
+- Each success writes `{drive_file_id, key, bytes, duration_s, sha256, status:
+  "DRAFT – needs reviewer approval"}` via `scripts/media/append-manifest.mjs`.
+  The manifest is committed at the END of the run AND on cancellation (whatever
+  finished so far), via the workflow token pushing to `main` (no PR).
+- A Markdown summary table (done / skipped / failed with reason) is written to
+  the job summary (`scripts/media/queue-plan.mjs` `summaryTable`).
+- Re-runs skip a key already on R2 and an id already in the manifest.
 
 ## Scripts and tests
 Pure, unit-tested helpers (fixtures in `scripts/media/__tests__/fixtures/`):
@@ -60,7 +67,12 @@ Pure, unit-tested helpers (fixtures in `scripts/media/__tests__/fixtures/`):
 - `md5sum-to-json.mjs` — convert md5sum/rclone output for the asserter.
 - `ffprobe-decide.mjs` — audio vs video from ffprobe JSON (cover art ≠ video).
 - `append-manifest.mjs` — idempotent DRAFT append, never overwrites a key.
-Run with `npm test`. The workflows are linted with `actionlint`.
+- `queue-plan.mjs` — pure batch plan (parse queue, skip manifest ids, cap at
+  `limit`) + the run summary table (Q3).
+- `transcode-one.sh` — per-file transcode (ffprobe → loudnorm 2-pass → 64k CBR →
+  immutable R2 → `entry-<id>.json`), run in parallel by the batch loop (Q3).
+Run with `npm test`. The workflows are linted with `actionlint` in CI
+(`.github/workflows/lint-workflows.yml`).
 
 ## GitHub Actions limits (reported from GitHub docs, private repo)
 - **Per-job maximum run time:** 6 hours (360 minutes) on GitHub-hosted runners;
