@@ -28,7 +28,30 @@ Running status of the build. Updated at the end of each part.
 - Docs: DEPLOY.md, STATUS.md, decisions.md, redirects.md.
 - Done gate: `npm run check` passes; the empty shell shows the version label.
 
-## P2 — Media pipeline — pending
-## P3 — Data contract + course build — pending
-## P4 — Screens — pending
-## P5 — Quality pass — pending
+## P2 — Media pipeline ✅
+Two `workflow_dispatch` workflows (`word-audio-upload.yml`, `course-audio.yml`),
+WIF auth, rclone R2, tested pipeline scripts + fixtures, `docs/MEDIA-PIPELINE.md`.
+actionlint clean.
+
+## P3 — Data contract + course build ✅
+`docs/data-contract.md`, `scripts/build-courses.mjs` → `public/data/`
+(catalog.json, 93 courses, teachers.json, aliases.json, manifest.json, photos).
+Duplicate lesson num = warning, both kept, id suffixed (coordinator "b").
+Contract tests in `src/contracts/__tests__/`.
+
+## P4 — Screens ✅
+SPA matching `design/learn-mockup.html`: Home (continue/start-here/topic chips/
+teachers), Search (on-device, U+200B-stripped substring, hand-off links),
+My Learning (In progress · Saved · History · Notes), More (Export/Import,
+language), course page (progress %, sections of 20, ticks, find box, Save/Share),
+lesson page (own r2 player: resume/speed/±15s/sleep/autoplay/MediaSession/mini
+player; embeds for acast/youtube/drive; notes with timestamps). IndexedDB
+`learn-app` stores progress/saved/history/notes/settings. Router over real paths
+(`/`, `/search`, `/my`, `/more`, `/courses/<id>`, `/courses/<id>/<lessonId>`,
+`/teachers`, `/teachers/<slug>`) + legacy `?teacher ?topic ?q`. Strings km+en.
+protected.md P-07…P-18 added.
+
+## P5 — Quality pass — in progress
+e2e on 320/360 px × light/dark (mock media): open course, play r2 lesson, resume
+after reload, mark complete, note at timestamp, Khmer search, hand-off links,
+language switch keeps the page, no horizontal scroll.

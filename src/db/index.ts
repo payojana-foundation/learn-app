@@ -30,23 +30,30 @@ export interface LearnDB extends DBSchema {
     key: string; // course id
     value: {
       courseId: string;
-      lastLessonNum: number;
-      positionS: number; // resume-to-the-second position
-      completed: number[]; // lesson nums marked complete
+      // Per-lesson progress keyed by lesson ID (stable; disambiguates duplicate nums).
+      lessons: Record<string, { pos: number; done: boolean }>;
       updatedAt: number;
     };
   };
   saved: {
-    key: string; // `${courseId}` or `${courseId}:${lessonNum}`
-    value: { courseId: string; lessonNum?: number; at: number };
+    key: string; // course id
+    value: { courseId: string; at: number };
   };
   history: {
     key: string; // `${courseId}:${lessonNum}`
-    value: { courseId: string; lessonNum: number; at: number };
+    value: { courseId: string; lessonNum: number; lessonId: string; at: number };
   };
   notes: {
     key: number; // autoIncrement
-    value: { courseId: string; lessonNum: number; atS: number; text: string; createdAt: number };
+    value: {
+      id?: number;
+      courseId: string;
+      lessonId: string;
+      lessonNum: number;
+      atS: number;
+      text: string;
+      createdAt: number;
+    };
   };
   settings: {
     key: string;
@@ -128,4 +135,163 @@ export async function setSetting(key: string, value: unknown): Promise<void> {
   const db = await openLearnDB();
   await db.put('settings', value, key);
   devLog('setting written', key);
+}
+
+// ── User-data accessors (P4) ────────────────────────────────────────────────
+//
+// All keyed by STABLE references: course id and lesson id (never array
+// positions). Because a duplicate lesson num is disambiguated only in the id
+// (P3, answer "b"), progress/history/notes key on the lesson id, not the num.
+
+export interface LessonProgress {
+  pos: number; // resume-to-the-second position
+  done: boolean; // completed at 90% or by the button
+}
+
+/** Read one lesson's progress within a course (default: unseen). */
+export async function getLessonProgress(courseId: string, lessonId: string): Promise<LessonProgress> {
+  const db = await openLearnDB();
+  const rec = await db.get('progress', courseId);
+  return rec?.lessons?.[lessonId] ?? { pos: 0, done: false };
+}
+
+/** Merge a change into one lesson's progress (atomic read-modify-write). */
+export async function setLessonProgress(
+  courseId: string,
+  lessonId: string,
+  patch: Partial<LessonProgress>
+): Promise<void> {
+  const db = await openLearnDB();
+  const tx = db.transaction('progress', 'readwrite');
+  const store = tx.objectStore('progress');
+  const rec = (await store.get(courseId)) ?? { courseId, lessons: {}, updatedAt: 0 };
+  rec.lessons = rec.lessons ?? {};
+  rec.lessons[lessonId] = { ...(rec.lessons[lessonId] ?? { pos: 0, done: false }), ...patch };
+  rec.updatedAt = Date.now();
+  await store.put(rec);
+  await tx.done;
+}
+
+/** How many lessons in a course are marked done. */
+export async function doneCount(courseId: string): Promise<number> {
+  const db = await openLearnDB();
+  const rec = await db.get('progress', courseId);
+  if (!rec?.lessons) return 0;
+  return Object.values(rec.lessons).filter((l) => l.done).length;
+}
+
+export async function isSaved(courseId: string): Promise<boolean> {
+  const db = await openLearnDB();
+  return (await db.get('saved', courseId)) != null;
+}
+export async function toggleSaved(courseId: string): Promise<boolean> {
+  const db = await openLearnDB();
+  if (await db.get('saved', courseId)) {
+    await db.delete('saved', courseId);
+    return false;
+  }
+  await db.put('saved', { courseId, at: Date.now() }, courseId);
+  return true;
+}
+export async function listSaved(): Promise<string[]> {
+  const db = await openLearnDB();
+  const all = await db.getAll('saved');
+  return all.sort((a, b) => b.at - a.at).map((s) => s.courseId);
+}
+
+/** Record that a lesson was opened; newest first, de-duplicated per course, capped at 30. */
+export async function pushHistory(courseId: string, lessonId: string, lessonNum: number): Promise<void> {
+  const db = await openLearnDB();
+  const tx = db.transaction('history', 'readwrite');
+  const store = tx.objectStore('history');
+  const all = await store.getAll();
+  // Remove any prior entry for this course (one row per course, like the mockup).
+  for (const h of all) if (h.courseId === courseId) await store.delete(`${h.courseId}:${h.lessonNum}`);
+  await store.put({ courseId, lessonNum, lessonId, at: Date.now() }, `${courseId}:${lessonNum}`);
+  // Cap to 30 newest.
+  const kept = (await store.getAll()).sort((a, b) => b.at - a.at);
+  for (const h of kept.slice(30)) await store.delete(`${h.courseId}:${h.lessonNum}`);
+  await tx.done;
+}
+export interface HistoryEntry {
+  courseId: string;
+  lessonNum: number;
+  lessonId: string;
+  at: number;
+}
+export async function listHistory(): Promise<HistoryEntry[]> {
+  const db = await openLearnDB();
+  const all = (await db.getAll('history')) as HistoryEntry[];
+  return all.sort((a, b) => b.at - a.at);
+}
+
+export interface NoteRec {
+  id?: number;
+  courseId: string;
+  lessonId: string;
+  lessonNum: number;
+  atS: number;
+  text: string;
+  createdAt: number;
+}
+export async function addNote(n: Omit<NoteRec, 'id' | 'createdAt'>): Promise<void> {
+  const db = await openLearnDB();
+  await db.add('notes', { ...n, createdAt: Date.now() } as NoteRec);
+}
+export async function listNotes(): Promise<NoteRec[]> {
+  const db = await openLearnDB();
+  const all = (await db.getAll('notes')) as NoteRec[];
+  return all.sort((a, b) => b.createdAt - a.createdAt);
+}
+export async function listNotesFor(courseId: string, lessonId: string): Promise<NoteRec[]> {
+  return (await listNotes()).filter((n) => n.courseId === courseId && n.lessonId === lessonId);
+}
+
+// ── Export / Import backup (More tab) ───────────────────────────────────────
+
+export interface Backup {
+  app: 'learn-app';
+  schema: number;
+  exported_at: string;
+  progress: unknown[];
+  saved: unknown[];
+  history: unknown[];
+  notes: unknown[];
+  settings: Record<string, unknown>;
+}
+
+/** Export all USER stores (not cached data files) as one JSON object. */
+export async function exportBackup(): Promise<Backup> {
+  const db = await openLearnDB();
+  const [progress, saved, history, notes] = await Promise.all([
+    db.getAll('progress'),
+    db.getAll('saved'),
+    db.getAll('history'),
+    db.getAll('notes'),
+  ]);
+  const settings: Record<string, unknown> = {};
+  let cursor = await db.transaction('settings').store.openCursor();
+  while (cursor) {
+    settings[String(cursor.key)] = cursor.value;
+    cursor = await cursor.continue();
+  }
+  return { app: 'learn-app', schema: DB_VERSION, exported_at: new Date().toISOString(), progress, saved, history, notes, settings };
+}
+
+/** Import a backup, replacing the user stores. Rejects a backup from another app. */
+export async function importBackup(backup: Backup): Promise<void> {
+  if (!backup || backup.app !== 'learn-app') throw new Error('not a learn-app backup');
+  const db = await openLearnDB();
+  const tx = db.transaction(['progress', 'saved', 'history', 'notes', 'settings'], 'readwrite');
+  await tx.objectStore('progress').clear();
+  for (const r of backup.progress ?? []) await tx.objectStore('progress').put(r as never);
+  await tx.objectStore('saved').clear();
+  for (const r of (backup.saved ?? []) as { courseId: string }[]) await tx.objectStore('saved').put(r as never, r.courseId);
+  await tx.objectStore('history').clear();
+  for (const r of (backup.history ?? []) as { courseId: string; lessonNum: number }[]) await tx.objectStore('history').put(r as never, `${r.courseId}:${r.lessonNum}`);
+  await tx.objectStore('notes').clear();
+  for (const r of backup.notes ?? []) await tx.objectStore('notes').put(r as never);
+  await tx.objectStore('settings').clear();
+  for (const [k, v] of Object.entries(backup.settings ?? {})) await tx.objectStore('settings').put(v as never, k);
+  await tx.done;
 }

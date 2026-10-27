@@ -50,4 +50,63 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   register, hourly, and on foreground. `registerServiceWorker`, `src/main.ts`;
   `cacheId: learn-<hash>`, `vite.config.ts`. [from part P1]
 
-<!-- P4 appends one P-line per screen behaviour it builds (see part P4). -->
+## Screens and navigation (P4)
+
+- **P-07** Routing is over REAL paths (History API), parsed from
+  `location.pathname`: `/`, `/search?q=`, `/my`, `/more`, `/courses/<id>`,
+  `/courses/<id>/<lessonId>`, `/teachers`, `/teachers/<slug>`. Legacy website
+  params on `/courses/` still work: `?q=` → search, `?teacher=` → teacher,
+  `?topic=` → home with the chip pre-selected. `parseRoute`, `src/router.ts`.
+  [from part P4]
+- **P-08** The lesson URL uses the lesson **id**, not the num:
+  `/courses/<id>/<lessonId>` (duplicate nums share a num but have distinct ids,
+  P3 "b"). `routePath`, `src/router.ts`; progress/history/notes key on lesson
+  id. [from part P4]
+- **P-09** Bottom tab bar Home · Search · My Learning · More; course, lesson,
+  teacher(s) all map to the Home tab. `tabForRoute`, `src/router.ts`;
+  `renderTabbar`, `src/app.ts`. [from part P4]
+- **P-10** The Continue row shows only for a returning learner (history
+  present); the Start here row is driven by `START_HERE` (empty = row hidden).
+  `homeView`, `src/ui/views.ts`; `START_HERE`, `src/strings.ts`. [from part P4]
+- **P-11** Course page: progress bar + %, Start/Continue button, ticks per
+  lesson, lessons in sections of 20, a find-in-course box (substring on the
+  stored title or exact num), Save and Share (Share copies the page URL).
+  `courseView`, `src/ui/views.ts`. [from part P4]
+
+## r2 audio player (P4)
+
+- **P-12** The app's own player handles `r2` lessons only: resume to the second,
+  speed 0.75/1/1.25/1.5/2, ±15 s, sleep timer 15/30/60 min, autoplay next,
+  completed at 90% or by the button, Media Session lock-screen controls, and a
+  mini player above the tab bar on non-lesson screens. `createPlayer`,
+  `src/audio/player.ts`; `mountPlayerIfR2`/`renderMini`, `src/app.ts`. The media
+  URL is `MEDIA_BASE_URL` + the URL-encoded R2 key, never derived from location.
+  [from part P4]
+- **P-13** Progress is persisted ONLY after the initial resume-seek is applied
+  AND while the audio is playing, so a fresh mount's paused 0-tick never
+  clobbers the saved resume point. `createPlayer` (`resumeApplied`, paused
+  guard), `src/audio/player.ts`. [from part P4]
+- **P-14** `acast`/`youtube`/`drive` lessons show an embed notice (embeds can't
+  run offline); a lesson with no media shows an offline/needs-internet notice.
+  Only one lesson player is mounted at a time. v1 is streaming only — no
+  download button anywhere. `lessonView`, `src/ui/views.ts`. [from part P4]
+
+## My Learning, search, data (P4)
+
+- **P-15** My Learning tabs: In progress · Saved · History · Notes, all local
+  (IndexedDB `learn-app`), with Export/Import backup in More. The backup is all
+  USER stores (not cached data files) as one JSON `{app:"learn-app", schema,
+  exported_at, …}`; Import rejects a backup whose `app` is not `learn-app`.
+  `myView`/`moreView`, `src/ui/views.ts`; `exportBackup`/`importBackup`,
+  `src/db/index.ts`. [from part P4]
+- **P-16** On-device search over courses, lessons, and teachers: U+200B removed
+  from both the query and the text (cleaned copy), substring match, the original
+  text displayed unchanged. No result → hand-off links to Vacanā and Library.
+  `cleanForSearch`, `src/format.ts`; `renderSearch`, `src/app.ts`;
+  `searchView`, `src/ui/views.ts`. [from part P4]
+- **P-17** All course/lesson/teacher titles and names are displayed exactly as
+  stored (escaped for HTML only, never retyped/translated/trimmed). An empty
+  title shows the `no title` placeholder; `title_en` is used only when present.
+  `src/ui/views.ts`. [from part P4]
+- **P-18** No scripture text anywhere in the app (Learn shows teachers' lessons
+  only). [from part P4]
