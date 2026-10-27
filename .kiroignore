@@ -1,0 +1,9 @@
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.mp3
+*.mp4
+*.m4a
+*.wav
