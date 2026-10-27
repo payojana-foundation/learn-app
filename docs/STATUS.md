@@ -58,3 +58,25 @@ horizontal scroll + focus visible, open course, play r2 lesson, resume after
 reload (position persisted), mark complete, note at a timestamp, Khmer-title
 search, no-result hand-off links to Vacanā + Library, language switch keeps the
 page. All cells pass.
+
+## bulk-02 — data and media at scale ✅
+- Q1 `sheets-inventory.yml` + `scripts/media/sheets-inventory.mjs` / `xlsx-dump.mjs`:
+  recursive Drive discovery of the teacher sheets → raw `.xlsx` in `data/source/sheets/`
+  (never edited) + `reports/sheets-inventory.md` (structure only, no mapping). WIF
+  `drive.readonly`.
+- Q2 `media-inventory.yml` + `media-inventory.mjs` / `ffprobe-summary.mjs`: READ-ONLY
+  inventory of `data/media-folders.csv` folders (id/name/mime/size/md5/created + ffprobe
+  duration/has_video/has_audio/codec) → `reports/media-inventory.csv` + `media-gaps.md`.
+  Empty CSV = nothing to do.
+- Q3 `course-audio.yml` extended to BATCH: inputs `list`/`limit`/`max_minutes`/`concurrency`;
+  `queue-plan.mjs` skips ids already in `data/media-manifest.json`; `transcode-one.sh` per
+  file; manifest committed at end and on cancellation; summary table.
+- Q4 `build-courses.mjs`: course-level all-or-nothing r2 (only approved, non-DRAFT manifest
+  entries; no mixed courses), r2 media carries `duration_s`, `src` stays the bare R2 key
+  (P-12 unchanged); player shows real duration from the data. protected **P-19** + contract.
+- Q5 `src/db/aliases.ts`: `data/id-aliases.json` (empty `{}`) merged into
+  `public/data/aliases.json`; one-transaction idempotent migration of user data
+  provisional→permanent; in-app redirect `/courses/<provisional>` → permanent. protected
+  **P-20** + unit tests with a fixture map. No real permanent ids invented.
+- CI: `lint-workflows.yml` runs actionlint on pushes to `main` touching `.github/**`.
+- Unit: Test Files 17 / Tests 119. e2e: PASS. `npm run check` clean locally.
