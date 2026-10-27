@@ -1,0 +1,53 @@
+@import "tailwindcss";
+
+/* Class-based dark mode (toggled on <html>, same approach as vacana-app). */
+@custom-variant dark (&:where(.dark, .dark *));
+
+/*
+ * Brand tokens (website v8, see tech.md): maroon text/links on a warm paper
+ * background. Leaf orange is for graphics only, never text. Content width is
+ * capped so there is no horizontal scroll at phone width.
+ */
+:root {
+  --paper: #ede3c8;
+  --panel: #f6efdd;
+  --line: #c9b896;
+  --ink: #7f0204;
+  --muted: #6b5d48;
+  --leaf: #f26000; /* graphics only — never text */
+  --content-max: 760px;
+}
+
+html {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+body {
+  background: var(--paper);
+  color: var(--ink);
+}
+
+/* Centre the app column and cap its width so phones never scroll sideways. */
+#app {
+  width: 100%;
+  max-width: var(--content-max);
+  margin-inline: auto;
+}
+
+#app-header {
+  border-bottom: 1px solid var(--line);
+}
+
+#tabbar {
+  border-top: 1px solid var(--line);
+  background: var(--panel);
+}
+
+/* Small build-version label shown in the shell (reliable-updates work). */
+.version-label {
+  font-size: 0.75rem;
+  color: var(--muted);
+  text-align: center;
+  padding: 0.5rem;
+}

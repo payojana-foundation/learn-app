@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="km" data-lang="km" class="h-dvh">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Learn · ថ្នាក់សិក្សា</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/brand/leaf-mark-32.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/brand/leaf-mark-180.png" />
+  </head>
+  <body class="h-dvh">
+    <!-- App shell. Screens are mounted by src/main.ts (P4 builds them). The
+         empty shell (P1) renders the header and the bottom tab bar with the
+         version label, so a deploy is visible immediately. -->
+    <div id="app" class="flex h-dvh flex-col">
+      <header id="app-header" class="shrink-0"></header>
+      <main id="app-main" class="min-h-0 flex-1 overflow-y-auto"></main>
+      <nav id="tabbar" role="tablist" aria-label="Learn" class="flex shrink-0"></nav>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

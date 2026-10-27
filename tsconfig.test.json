@@ -1,0 +1,20 @@
+{
+  // Type-checking config for test code and Node-run scripts ONLY.
+  //
+  // Node APIs (node:fs, node:path, node:url, process, Buffer, …) are available
+  // here but NOT in the app config (tsconfig.json), so application code under
+  // src/ cannot use Node APIs. Tests and scripts legitimately run under Node
+  // (Vitest / `npx tsx`) and need these types.
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "noEmit": true,
+    "types": ["node", "vite/client"]
+  },
+  "include": [
+    "src/**/__tests__/**/*.ts",
+    "src/**/*.test.ts",
+    "src/db/test-setup.ts",
+    "scripts"
+  ],
+  "exclude": ["node_modules", "dist"]
+}

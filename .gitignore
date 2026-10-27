@@ -1,0 +1,13 @@
+node_modules/
+dist/
+dist-e2e/
+.wrangler/
+.env
+.env.*
+!.env.example
+*.local
+
+# Working notes and generated reports — never committed.
+reports/
+*-report.md
+course-issues.csv

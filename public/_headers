@@ -1,0 +1,13 @@
+/data/*
+  Cache-Control: no-cache
+
+# Reliable updates: never let the browser or edge serve a stale service worker
+# or app-shell entry point. The SW update check and the initial HTML must
+# always reach the network so a new deploy is picked up. The hashed assets in
+# /assets/* are immutable and keep their long-lived cache (default).
+/sw.js
+  Cache-Control: no-cache
+/index.html
+  Cache-Control: no-cache
+/
+  Cache-Control: no-cache

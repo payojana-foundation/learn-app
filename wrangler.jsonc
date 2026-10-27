@@ -1,0 +1,19 @@
+{
+  // Cloudflare Worker for learn-app (Learn · ថ្នាក់សិក្សា) — static assets only,
+  // no Worker script. This file is the ONLY source of Worker settings; the
+  // custom domain is attached here, never in the dashboard.
+  "name": "learn-app",
+  // Fixed date; change only on purpose, after a test deploy.
+  "compatibility_date": "2026-10-12",
+  "assets": {
+    "directory": "./dist",
+    // Unknown paths return index.html with 200 — the app must validate data
+    // files (never treat 200 as proof a file exists; see tech.md).
+    "not_found_handling": "single-page-application"
+  },
+  "observability": { "enabled": true },
+  // No workers.dev address: the public address is the custom domain only.
+  "workers_dev": false,
+  // Custom domain, attached by the deploy (DNS planned with the DNS chat).
+  "routes": [{ "pattern": "learn.84000.digital", "custom_domain": true }]
+}
