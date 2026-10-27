@@ -1,0 +1,28 @@
+[
+  {
+    "order": 1,
+    "slug": "teacher-one",
+    "name_km": "name km one",
+    "name_en": "Teacher One EN",
+    "bio_km": "bio km one",
+    "bio_en": "bio en one",
+    "topics": "meditation",
+    "photo_file": "teacher-photos/teacher-one.jpg",
+    "title_status": "set",
+    "bio_approved_by_teacher": "yes (coordinator)",
+    "show_english_name": "no (Khmer name only)"
+  },
+  {
+    "order": 2,
+    "slug": "teacher-two",
+    "name_km": "name km two",
+    "name_en": "Teacher Two EN",
+    "bio_km": "bio km two",
+    "bio_en": "bio en two",
+    "topics": "english, abhidhamma",
+    "photo_file": "teacher-photos/teacher-two.jpg",
+    "title_status": "set",
+    "bio_approved_by_teacher": "Not in our files",
+    "show_english_name": "yes"
+  }
+]

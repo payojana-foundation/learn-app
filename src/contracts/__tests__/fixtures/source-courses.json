@@ -1,0 +1,27 @@
+{
+  "c": [
+    {
+      "titleKm": " course A km",
+      "titleEn": "course A en",
+      "teacher": "Teacher One",
+      "teacherSlug": "teacher-one",
+      "topics": ["meditation"],
+      "lessons": [
+        { "num": 1, "titleKm": "lesson one", "topic": "", "audioEmbedSrc": "https://embed.acast.com/x/y", "videoPreviewSrc": "" },
+        { "num": 2, "titleKm": "", "topic": "", "audioEmbedSrc": "", "videoPreviewSrc": "https://www.youtube.com/embed/abc" },
+        { "num": 3, "titleKm": "lesson three", "topic": "", "audioEmbedSrc": "", "videoPreviewSrc": "" },
+        { "num": 2, "titleKm": "dup num", "topic": "", "audioEmbedSrc": "https://embed.acast.com/d", "videoPreviewSrc": "" }
+      ]
+    },
+    {
+      "titleKm": "same title",
+      "titleEn": "same title",
+      "teacher": "Ghost",
+      "teacherSlug": "not-a-teacher",
+      "topics": [],
+      "lessons": [
+        { "num": 1, "titleKm": "drive lesson", "topic": "", "audioEmbedSrc": "", "videoPreviewSrc": "https://drive.google.com/file/d/DRIVEID123/preview" }
+      ]
+    }
+  ]
+}

@@ -14,6 +14,7 @@
     "e2e": "node scripts/run-e2e.mjs",
     "release-check": "npx tsx scripts/check-verify.ts",
     "data-integrity-diff": "npx tsx scripts/data-integrity-diff.ts",
+    "build-courses": "node scripts/build-courses.mjs",
     "verify-deploy": "node scripts/verify-deploy.mjs",
     "deploy-check": "node scripts/verify-deploy.mjs",
     "check": "tsc --noEmit && vitest --run"
