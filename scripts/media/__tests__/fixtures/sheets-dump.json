@@ -1,0 +1,35 @@
+[
+  {
+    "name": "placeholder-sheet-one",
+    "id": "drive-file-id-1",
+    "tabs": [
+      {
+        "name": "tab-a",
+        "header": ["Code", "Title", "Lessons"],
+        "rowCount": 2,
+        "sample": [
+          ["c001", "placeholder title one", "12"],
+          ["c002", "placeholder title two", "8"]
+        ]
+      },
+      {
+        "name": "tab-b",
+        "header": ["Note"],
+        "rowCount": 1,
+        "sample": [["a free-text note with spaces"]]
+      }
+    ]
+  },
+  {
+    "name": "placeholder-sheet-two",
+    "id": "drive-file-id-2",
+    "tabs": [
+      {
+        "name": "only-tab",
+        "header": ["Ref", "Teacher"],
+        "rowCount": 1,
+        "sample": [["1ABcDef9", "placeholder teacher"]]
+      }
+    ]
+  }
+]

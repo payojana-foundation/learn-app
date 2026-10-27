@@ -1,0 +1,136 @@
+name: sheets-inventory
+
+# Q1 (bulk-02) — STRUCTURE DISCOVERY of the teacher planning sheets. Lists every
+# file under the "Spreadsheet" Drive folder recursively, exports each Google
+# Sheet as .xlsx (real .xlsx are downloaded as-is), commits the raw exports to
+# data/source/sheets/ (never edited), and writes reports/sheets-inventory.md
+# (per file: name, id, tabs, header row, row count, id-looking columns, 3-row
+# sample). It builds NO courses — the architect writes the mapping after reading
+# the report.
+#
+# Auth: Workload Identity Federation (same as P2), Drive read-only scope. Manual.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: write # commits the raw exports + the report to main
+  id-token: write # Workload Identity Federation
+
+concurrency:
+  group: sheets-inventory
+  cancel-in-progress: false
+
+env:
+  # "Spreadsheet" folder; its subfolder វត្តធម្មចក្រពុទ្ធារាម holds six sheets.
+  TEACHER_SHEETS_FOLDER: "1GT0HCp6iQgJmu92dPnLPK4gJvNG7Wv-Y"
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Authenticate to Google Cloud (Workload Identity Federation)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/drive.readonly
+
+      - name: List files recursively and download each (Sheets → .xlsx)
+        env:
+          ROOT_FOLDER: ${{ env.TEACHER_SHEETS_FOLDER }}
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: |
+          set -euo pipefail
+          mkdir -p data/source/sheets
+          SHEET_MIME="application/vnd.google-apps.spreadsheet"
+          FOLDER_MIME="application/vnd.google-apps.folder"
+          XLSX_MIME="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
+
+          api() {
+            # $1 = full request URL; prints the JSON body.
+            curl -fsS -H "Authorization: Bearer ${ACCESS_TOKEN}" "$1"
+          }
+
+          list_folder() {
+            # Echo "<id>\t<name>\t<mimeType>" for every child of folder $1.
+            local folder="$1" pageToken="" q url resp
+            q=$(node -e 'process.stdout.write(encodeURIComponent(`'"'"'`+process.argv[1]+`'"'"' in parents and trimmed = false`))' "$folder")
+            while : ; do
+              url="https://www.googleapis.com/drive/v3/files?q=${q}&fields=nextPageToken,files(id,name,mimeType)&pageSize=1000&supportsAllDrives=true&includeItemsFromAllDrives=true"
+              if [ -n "$pageToken" ]; then url="${url}&pageToken=${pageToken}"; fi
+              resp=$(api "$url")
+              echo "$resp" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);for(const f of (j.files||[]))process.stdout.write(`${f.id}\t${f.name}\t${f.mimeType}\n`)})'
+              pageToken=$(echo "$resp" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);process.stdout.write(j.nextPageToken||"")})')
+              [ -n "$pageToken" ] || break
+            done
+          }
+
+          walk() {
+            # Recursively walk folder $1; download every sheet/.xlsx leaf.
+            local folder="$1" line id name mime
+            while IFS=$'\t' read -r id name mime; do
+              [ -n "$id" ] || continue
+              if [ "$mime" = "$FOLDER_MIME" ]; then
+                echo "folder: $name ($id)"
+                walk "$id"
+              elif [ "$mime" = "$SHEET_MIME" ]; then
+                echo "export sheet → xlsx: $name ($id)"
+                curl -fsS -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+                  "https://www.googleapis.com/drive/v3/files/${id}/export?mimeType=${XLSX_MIME}" \
+                  -o "data/source/sheets/${id}.xlsx"
+                echo "${id}\t${name}" >> data/source/sheets/_names.tsv
+              elif [ "$mime" = "$XLSX_MIME" ]; then
+                echo "download xlsx as-is: $name ($id)"
+                curl -fsS -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+                  "https://www.googleapis.com/drive/v3/files/${id}?alt=media&supportsAllDrives=true" \
+                  -o "data/source/sheets/${id}.xlsx"
+                echo "${id}\t${name}" >> data/source/sheets/_names.tsv
+              else
+                echo "skip (not a sheet/xlsx): $name ($id) [$mime]"
+              fi
+            done < <(list_folder "$folder")
+          }
+
+          : > data/source/sheets/_names.tsv
+          walk "$ROOT_FOLDER"
+          echo "downloaded:"; ls -la data/source/sheets || true
+
+      - name: Install a CI-only xlsx reader (pinned; not a repo dependency)
+        run: npm install --no-save xlsx@0.18.5
+
+      - name: Dump every workbook's structure to JSON
+        run: |
+          set -euo pipefail
+          node scripts/media/xlsx-dump.mjs data/source/sheets data/source/sheets/_names.tsv > sheets-dump.json
+          echo "dump entries:"; node -e 'console.log(JSON.parse(require("fs").readFileSync("sheets-dump.json","utf8")).length)'
+
+      - name: Write reports/sheets-inventory.md
+        run: |
+          set -euo pipefail
+          mkdir -p reports
+          node scripts/media/sheets-inventory.mjs sheets-dump.json > reports/sheets-inventory.md
+          echo "----- report head -----"; head -n 20 reports/sheets-inventory.md
+
+      - name: Commit the raw exports + the report to main
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          rm -f data/source/sheets/_names.tsv
+          git add data/source/sheets reports/sheets-inventory.md
+          git commit -m "sheets-inventory: raw .xlsx exports + discovery report" || {
+            echo "nothing to commit"; exit 0;
+          }
+          git push origin HEAD:main
