@@ -1,0 +1,66 @@
+name: data-check
+
+# R3 (bulk-03) — the served data must always be a faithful rebuild of the
+# sources. On a push that touches a data source or the build script, regenerate
+# public/data/ and FAIL if the committed bytes differ from the fresh build, so
+# stale or hand-edited served data can never ship. Read-only: this job commits
+# nothing; it only rebuilds into the working tree and diffs.
+#
+# Reproducibility: build-courses stamps `generated`/`updated` from HEAD's commit
+# date (or SOURCE_DATE_EPOCH), not wall-clock, so a rebuild at the same commit
+# is byte-identical to what was committed. Course/teacher file bytes never carry
+# a timestamp, so their SHA-256 (the loader's integrity gate, P-01) is stable.
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+      - "scripts/build-courses.mjs"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: data-check-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  rebuild-and-diff:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+        with:
+          # Full history so build-courses can read the last commit date of the
+          # data sources (its reproducible build stamp).
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Rebuild public/data from source
+        run: |
+          set -euo pipefail
+          # No SOURCE_DATE_EPOCH: build-courses stamps `generated`/`updated` from
+          # the last commit that touched a data source, which is exactly what the
+          # committed data was built from. checkout@v4 fetches full history by
+          # default, so `git log` can see that commit.
+          npm run build-courses
+
+      - name: Fail if the regenerated data differs from the committed data
+        run: |
+          set -euo pipefail
+          if git diff --quiet -- public/data; then
+            echo "public/data matches a fresh build from source. OK."
+          else
+            echo "::error::public/data/ differs from a fresh build of the sources."
+            echo "----- diff summary -----"
+            git diff --stat -- public/data
+            echo "----- full diff (first 400 lines) -----"
+            git diff -- public/data | head -n 400
+            exit 1
+          fi

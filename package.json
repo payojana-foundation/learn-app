@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "npm run build-courses && vite build",
     "preview": "vite preview",
     "typecheck": "tsc --noEmit",
     "pretest": "tsc --noEmit",

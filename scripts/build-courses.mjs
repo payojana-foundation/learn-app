@@ -25,8 +25,52 @@
 
 import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, copyFileSync } from 'node:fs';
 import { createHash } from 'node:crypto';
+import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+
+/**
+ * Reproducible build stamp (R3, bulk-03). The served data must rebuild to the
+ * SAME bytes from the same sources, so `data-check.yml` can fail when the
+ * committed public/data/ drifts from a fresh build. A wall-clock `new Date()`
+ * would change every build and make that check meaningless, so `generated`
+ * (and each manifest entry's `updated`) is derived deterministically. The data
+ * is a pure function of its sources, so its stamp is the sources' last change:
+ *   1. `SOURCE_DATE_EPOCH` (seconds) if set — the reproducible-builds standard.
+ *   2. else the git commit date (ISO) of the LAST commit that touched any
+ *      source input (website courses, teachers, media manifest, id aliases) —
+ *      stable until a source actually changes, which is exactly when the served
+ *      data should change.
+ *   3. else the current time — local dev with no git; not reproducible, but the
+ *      app never depends on the value (the loader keys on per-file sha256).
+ * The value is an ISO-8601 string, unchanged in shape from before.
+ */
+const SOURCE_INPUTS = [
+  'data/source/website-courses-2026-09-28.json',
+  'data/source/teachers-2026-10-25/teachers-2026-10-25.json',
+  'data/media-manifest.json',
+  'data/id-aliases.json',
+];
+
+function buildStamp(root) {
+  const epoch = process.env.SOURCE_DATE_EPOCH?.trim();
+  if (epoch && /^\d+$/.test(epoch)) {
+    return new Date(Number(epoch) * 1000).toISOString();
+  }
+  try {
+    const iso = execFileSync(
+      'git',
+      ['log', '-1', '--format=%cI', '--', ...SOURCE_INPUTS],
+      { cwd: root, stdio: ['ignore', 'pipe', 'ignore'] }
+    )
+      .toString()
+      .trim();
+    if (iso) return new Date(iso).toISOString();
+  } catch {
+    /* no git available */
+  }
+  return new Date().toISOString();
+}
 
 // ── ID helpers ───────────────────────────────────────────────────────────────
 
@@ -328,7 +372,7 @@ function main() {
     for (const f of readdirSync(photoSrcDir)) copyFileSync(join(photoSrcDir, f), join(photosOut, f));
   }
 
-  const generated = new Date().toISOString();
+  const generated = buildStamp(root);
 
   // Write per-course files and build the manifest file list.
   const files = {};
