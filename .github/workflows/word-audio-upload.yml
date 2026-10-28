@@ -92,12 +92,10 @@ jobs:
         run: |
           # rclone writes the real per-file result; the Node asserter enforces
           # the EXACT count and fails the job on any mismatch.
-          # NOTE (bulk-02 actionlint): SC2016 flags that ${BATCH} does not expand
-          # inside the single-quoted sed script below. Behaviour is LEFT AS-IS
-          # (this is a bulk-01 file, out of bulk-02's scope); the lint is silenced
-          # without changing the command. See reports/kiro-bulk-02-report.md.
-          # shellcheck disable=SC2016
-          rclone md5sum "${BATCH}" | sed 's#  ${BATCH}/#  #' > computed.txt
+          # Double-quote the sed script so ${BATCH} expands (strips the "023/"
+          # prefix rclone prints). With single quotes it was a literal
+          # "${BATCH}/" and never matched — fixed in bulk-02 follow-up.
+          rclone md5sum "${BATCH}" | sed "s#  ${BATCH}/#  #" > computed.txt
           node scripts/media/md5sum-to-json.mjs computed.txt > computed.json
           node scripts/media/verify-checksums.mjs "${BATCH}/MD5SUMS_${BATCH}.txt" computed.json "${EXPECTED_COUNT}"
 
