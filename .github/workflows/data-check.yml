@@ -31,7 +31,7 @@ jobs:
     timeout-minutes: 10
     steps:
       - name: Check out the repo
-        uses: actions/checkout@v4
+        uses: actions/checkout@v5
         with:
           # Full history so build-courses can read the last commit date of the
           # data sources (its reproducible build stamp).
