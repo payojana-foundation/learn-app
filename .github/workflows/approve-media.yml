@@ -1,0 +1,89 @@
+name: approve-media
+
+# R4 (bulk-03) — a reviewer approves or rejects course-audio WITHOUT hand-editing
+# data/media-manifest.json. Manual (workflow_dispatch): pick the decision, give
+# the comma-separated Drive file ids and your name, Run. The job sets
+# `status`/`reviewer`/`reviewed_at` on each matching entry and commits to main.
+#
+# - An id not in the manifest is reported as "not found"; the job still succeeds
+#   for the rest.
+# - A rejected entry is KEPT (audit trail) but never plays — build-courses counts
+#   only an `approved` status (P-19). A correction is re-uploaded under a new key
+#   (`-v2`) by the pipeline, never by overwriting here.
+#
+# No external auth: this job only edits a repo file and pushes.
+
+on:
+  workflow_dispatch:
+    inputs:
+      decision:
+        description: "Reviewer decision for the listed files"
+        required: true
+        type: choice
+        options:
+          - approved
+          - rejected
+        default: approved
+      drive_file_ids:
+        description: "Comma-separated Drive file ids to decide on"
+        required: true
+      reviewer:
+        description: "Reviewer name (recorded in the manifest)"
+        required: true
+
+permissions:
+  contents: write # commits the manifest decision to main
+
+concurrency:
+  group: approve-media
+  cancel-in-progress: false
+
+env:
+  MANIFEST: data/media-manifest.json
+
+jobs:
+  approve:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Apply the decision to the manifest
+        id: apply
+        env:
+          DECISION: ${{ github.event.inputs.decision }}
+          REVIEWER: ${{ github.event.inputs.reviewer }}
+          IDS: ${{ github.event.inputs.drive_file_ids }}
+        run: |
+          set -euo pipefail
+          node scripts/media/approve-manifest.mjs "$MANIFEST" "$DECISION" "$REVIEWER" "$IDS" | tee apply.log
+          # Pull the applied count the script prints as APPLIED_COUNT=<n>.
+          COUNT="$(grep -oE 'APPLIED_COUNT=[0-9]+' apply.log | tail -n1 | cut -d= -f2 || echo 0)"
+          echo "count=${COUNT:-0}" >> "$GITHUB_OUTPUT"
+
+      - name: Commit the decision to main
+        env:
+          DECISION: ${{ github.event.inputs.decision }}
+          REVIEWER: ${{ github.event.inputs.reviewer }}
+          COUNT: ${{ steps.apply.outputs.count }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ ! -f "$MANIFEST" ]; then
+            echo "no manifest to commit (nothing was applied)"
+            exit 0
+          fi
+          git add "$MANIFEST"
+          if git diff --cached --quiet; then
+            echo "no manifest change to commit (no matching ids)"
+          else
+            git commit -m "media: ${DECISION} ${COUNT} files by ${REVIEWER}"
+            git push origin HEAD:main
+          fi

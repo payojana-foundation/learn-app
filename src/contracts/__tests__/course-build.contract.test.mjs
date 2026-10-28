@@ -149,6 +149,18 @@ describe('P-19 course-level all-or-nothing r2', () => {
     expect(c2.lessons[0].media[0].kind).toBe('drive');
   });
 
+  it('a REJECTED entry does NOT count — the course stays drive (R4 reviewer decision)', () => {
+    // R4 (bulk-03) lets a reviewer mark a file `rejected`; it is kept in the
+    // manifest for the audit trail but must never play. Only an explicitly
+    // `approved` status flips a lesson to r2.
+    const manifest = [
+      { drive_file_id: 'DRIVEID123', key: 'audio/DRIVEID123-a64.mp3', status: 'rejected', reviewer: 'R', reviewed_at: '2026-10-27', bytes: 1, duration_s: 1, sha256: 'a'.repeat(64) },
+    ];
+    const built = buildCourses(sourceCourses, teachers, manifest);
+    const c2 = built.courses.find((c) => c.id === 'c002');
+    expect(c2.lessons[0].media[0].kind).toBe('drive');
+  });
+
   it('NO mixed courses: if only SOME Drive lessons are approved, the whole course stays drive', () => {
     // c003 has two Drive lessons (DRIVEA, DRIVEB). Approve only one.
     const manifest = [

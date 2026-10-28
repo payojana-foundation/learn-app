@@ -61,12 +61,43 @@ Transcodes a BATCH of recordings to normalised 64 kbps mono MP3s on the
   the job summary (`scripts/media/queue-plan.mjs` `summaryTable`).
 - Re-runs skip a key already on R2 and an id already in the manifest.
 
+## Approve a lesson's audio (R4)
+
+After `course-audio.yml` uploads a recording, its manifest entry is a **DRAFT**
+and the app will NOT play it. A reviewer approves it from the browser — no JSON
+editing, no local tools.
+
+1. Repo → **Actions** → **approve-media** → **Run workflow**.
+2. Fill the three boxes:
+   - **decision**: `approved` (or `rejected`).
+   - **drive_file_ids**: the Drive file id(s), comma-separated.
+   - **reviewer**: your name (recorded in the manifest).
+3. **Run workflow**.
+
+The job sets `status`, `reviewer`, and `reviewed_at` (UTC date) on each matching
+entry and commits `media: <decision> <n> files by <reviewer>` to `main`. An id
+that is not in the manifest is listed as "not found" and the job still succeeds
+for the rest.
+
+- An **approved** file becomes playable: `build-courses` counts only an
+  `approved` status toward the course-level all-or-nothing r2 switch (P-19), so
+  a course flips to the app player once ALL its Drive-backed lessons are
+  approved.
+- A **rejected** file is KEPT in the manifest for the audit trail but is never
+  played. A corrected recording is re-uploaded under a NEW key (`-v2`) by
+  `course-audio.yml`; the rejected entry is never overwritten.
+
+The logic lives in `scripts/media/approve-manifest.mjs` (pure, unit-tested in
+`scripts/media/__tests__/approve-manifest.test.mjs`).
+
 ## Scripts and tests
 Pure, unit-tested helpers (fixtures in `scripts/media/__tests__/fixtures/`):
 - `verify-checksums.mjs` — parse MD5SUMS, compare, assert an exact count.
 - `md5sum-to-json.mjs` — convert md5sum/rclone output for the asserter.
 - `ffprobe-decide.mjs` — audio vs video from ffprobe JSON (cover art ≠ video).
 - `append-manifest.mjs` — idempotent DRAFT append, never overwrites a key.
+- `approve-manifest.mjs` — apply a reviewer `approved`/`rejected` decision
+  (`status`/`reviewer`/`reviewed_at`); unknown ids reported, not fatal (R4).
 - `queue-plan.mjs` — pure batch plan (parse queue, skip manifest ids, cap at
   `limit`) + the run summary table (Q3).
 - `transcode-one.sh` — per-file transcode (ffprobe → loudnorm 2-pass → 64k CBR →

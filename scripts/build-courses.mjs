@@ -205,8 +205,13 @@ export function buildCourses(sourceCourses, teachers, mediaManifest) {
   const teacherSlugs = new Set(teachers.map((t) => t.slug));
   const r2ByDriveId = new Map();
   for (const e of mediaManifest || []) {
-    // Only APPROVED entries become r2 media; DRAFT entries are ignored.
-    if (e && e.drive_file_id && e.key && !/^DRAFT\b/i.test(e.status || '')) {
+    // Only an explicitly APPROVED entry becomes r2 media (P-19). A DRAFT entry
+    // never counts, and — since R4 (bulk-03) added a reviewer `rejected`
+    // decision — a REJECTED entry is kept in the manifest for the audit trail
+    // but must NEVER play, so the test is "status is approved", not merely
+    // "not DRAFT". DRAFT still never counts and approved still counts, so the
+    // P-19 contract test is unchanged.
+    if (e && e.drive_file_id && e.key && /^approved\b/i.test(e.status || '')) {
       r2ByDriveId.set(e.drive_file_id, e);
     }
   }
