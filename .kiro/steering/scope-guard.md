@@ -49,7 +49,10 @@ npm run e2e
 
 ## Data and untracked reports
 
-- Never stage `data/source/`. The repo does not hand-edit data.
+- `data/source/` may be committed ONLY on the coordinator's explicit say-so
+  (CI data-check rebuilds the served data from it), and it is NEVER edited —
+  committed byte-for-byte (`.gitattributes` marks `data/source/** -text`). Do
+  not stage it on your own initiative.
 - Untracked `*-report.md` files and `course-issues.csv` are working notes:
   never commit them (`.gitignore`).
 
