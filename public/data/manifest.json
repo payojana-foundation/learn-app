@@ -1,484 +1,484 @@
 {
-  "generated": "2026-10-27T14:24:54.000Z",
+  "generated": "2026-10-28T02:38:28.000Z",
   "files": {
     "c001": {
       "file": "courses/c001.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "232d33a8ff0babe0bfa06d49fc30607934305078b8f2f9172e867df3e2959358"
     },
     "c002": {
       "file": "courses/c002.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "3580a538b46b04354701495a1319933d2ce89f65d534768066ae2b641d67e0bc"
     },
     "c003": {
       "file": "courses/c003.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "532c9442f69bec61852501dc935c1d9c4a588f12dec9b51899fd618e76114acf"
     },
     "c004": {
       "file": "courses/c004.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "dc2e68e8e8415540498c467394aecd146b61de3c8cabaa807380451a6e0efaf0"
     },
     "c005": {
       "file": "courses/c005.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "179db7262f4500531d57a57bb2a240ade7e8fc4a523d2dacc24a21a240bf321a"
     },
     "c006": {
       "file": "courses/c006.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "821c0330e49a174b7b64e08f13467a930efd8ab58f76e77c296218f08c51ee01"
     },
     "c007": {
       "file": "courses/c007.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "8e17adbfb53632df46ca34b8dba2cdcf0a4534fddec334b061284864a77ab3b8"
     },
     "c008": {
       "file": "courses/c008.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "e9eeabe3eb0a05dd75d0b76b48558af4f6aca2dc9ec443c9773defd5cb895977"
     },
     "c009": {
       "file": "courses/c009.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "3ccedad084190551204aa2edfef59146ffc887842b9e222a9f591e9c7ba26730"
     },
     "c010": {
       "file": "courses/c010.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "0e51c22dd3e2b8a7089759fe1fd6332fae7d9f8ba9616cc764f3d6be8fd73606"
     },
     "c011": {
       "file": "courses/c011.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "bb320b8f8cf4bdd7981f34a0c6b193c92704ef39aa7cf6e282ba91cb74ec1c0f"
     },
     "c012": {
       "file": "courses/c012.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "4bbd97a0df5185948fde6e0e8dbd88767bbfa84b250bbccff352f46e5edc8d03"
     },
     "c013": {
       "file": "courses/c013.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "7bb46b707702ff72d05ef1d094779b7ea3a29c6a62bf6bd545bc465a1ea8b2e2"
     },
     "c014": {
       "file": "courses/c014.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "d9f1c38353cc3f712d4a2b1fb27537864cffc507e218f8213b0e9e9c3349ec54"
     },
     "c015": {
       "file": "courses/c015.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "20df7a4dcd1188f99f7cf574f380df393d0a3b95fb8f2a5a18489456678b4089"
     },
     "c016": {
       "file": "courses/c016.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "c2ad91183294bb619f1a0762221b33fa2ce3226b80d5656a7451b43ce0d201cc"
     },
     "c017": {
       "file": "courses/c017.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "bac8b53ad2b571fd30d7eaf633da4ae0bad4ab22ad58f2fcdbf415980c138342"
     },
     "c018": {
       "file": "courses/c018.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "d3ef3517e12e4fc07f420525f5a918fde13804a0fd5481d03eb32e933b535fd1"
     },
     "c019": {
       "file": "courses/c019.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "f53b5bc9489075ad00d8a17112d50f74ebbca317fc17a567db56e39f492a7b1c"
     },
     "c020": {
       "file": "courses/c020.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "004c80c257c0885b8bfeb192c53067a80da011bf94bb9fe669c37444e16da238"
     },
     "c021": {
       "file": "courses/c021.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "5dda51f8a136ca08397b11328c50213a82e0d4fa0b946ee6211d5fe8a5c1ee76"
     },
     "c022": {
       "file": "courses/c022.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "2ea1145d38270383865a35327dfdcb751dd1a08fc59d349f391c321afc390b40"
     },
     "c023": {
       "file": "courses/c023.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "cf4e0859de378f884f107db4a6f70b31b82e28f4f0024667a9b23385bf3f0fd0"
     },
     "c024": {
       "file": "courses/c024.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "4630d2748bd34cbc062a2a7e18a1504efedde198f49321fe1762bfb1d577f8e0"
     },
     "c025": {
       "file": "courses/c025.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "d6e42e2fde82d473d12885eedcbf72873e18cfb8c5079b48c0c5c51a7d3c420f"
     },
     "c026": {
       "file": "courses/c026.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "4e21e29cfb26163cb929e668e97a442b6891b8f3887e85cd226ad2b8846d1dfd"
     },
     "c027": {
       "file": "courses/c027.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "fbd5f94063851bd397e04cbbeabaceb556e55c8e0856e4f31ea961a04cda6a9e"
     },
     "c028": {
       "file": "courses/c028.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "8e4888834b504d5af979a73f94638ce4dcb460127955eee068b852aa9cc2adc6"
     },
     "c029": {
       "file": "courses/c029.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "a9e89b0d08edc9324b940a179c1fa0845976117a8cabe72819a677215da526d5"
     },
     "c030": {
       "file": "courses/c030.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "26d116f55fbace859d05bb603577333bb37d61ec0ff52f66a671960e8f6a7e87"
     },
     "c031": {
       "file": "courses/c031.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "6d0c029ae62954461b6f0e28cf20f8778776b4fd68528fe0bb85169cb8bba94f"
     },
     "c032": {
       "file": "courses/c032.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "61293f9cd2c73b5505c94caa2b6fa5505ef6b8f8554f1eb0fc5537307eb63137"
     },
     "c033": {
       "file": "courses/c033.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "0c52081197fa56af821cf914ab3505f216dfa2e130434db2b46b86a5b07d434f"
     },
     "c034": {
       "file": "courses/c034.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "0a97bff7079b37f6df2f35a774f63b1ea537a0adf9ebc9daf07160678ae21f8a"
     },
     "c035": {
       "file": "courses/c035.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "086fbbf47aab91386329b9e50979e3f7129c592fdd0c097b7e468fd4d7ed2c61"
     },
     "c036": {
       "file": "courses/c036.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "d012f437729c62ba5a42eb9acf721eb1bdad81cdccaa6db2341e15bb3830bee5"
     },
     "c037": {
       "file": "courses/c037.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "89a97588eb546f1b711e1a0843758bbee83825922e50ac7490ee5702bc6955c5"
     },
     "c038": {
       "file": "courses/c038.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "116afe9c1877d94d69b881649117326e18be0bb8d665263689cb68914b658b08"
     },
     "c039": {
       "file": "courses/c039.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "496cf0e7029eb0245c978bd2a1a97cb8b96c44c573013d0f412b4349d7777cc5"
     },
     "c040": {
       "file": "courses/c040.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "3e2edf7e712454333fcc6c286549e29e3b291f18c9c21748bf8d4ced885dc798"
     },
     "c041": {
       "file": "courses/c041.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "94b4dd52cbb82621ead2c2e78673c90c39fbb0382ba347182d51e0bb627b241e"
     },
     "c042": {
       "file": "courses/c042.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "d25a28c78b3f327fc32a3d575119215933cf2da860d3f7c95866aeca5d80ee55"
     },
     "c043": {
       "file": "courses/c043.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "a007591d9b32fedd0c898811afe7546f3a7c6608e1fb39cefafd6f39e6516ad8"
     },
     "c044": {
       "file": "courses/c044.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "73e1f5b10788878dc89a86d61571f82438cea08dddd532d3a6b689f8958723c4"
     },
     "c045": {
       "file": "courses/c045.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "f9f2c15ee18a637bb6fcbafef5fbd998c93c82b0b14c7f63789aa10a24827e21"
     },
     "c046": {
       "file": "courses/c046.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "0f3609ba90727c5fc8e6ac51ffe1fdfce21e0286c8d8948ac8f4875f7778b14e"
     },
     "c047": {
       "file": "courses/c047.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "d4ceaf1848c6dacf3d00eb693e8795f2628645ec306e34539d719da60d7d6199"
     },
     "c048": {
       "file": "courses/c048.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "117c1e66e4bdd9aa6cbbe43096bb8d5dca30735a37c00a4885bbcb170535e801"
     },
     "c049": {
       "file": "courses/c049.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "41e8cb4504917dc7e890438260b6e5dd0d9af4ec28cfe4af0cdff205cf2e72f6"
     },
     "c050": {
       "file": "courses/c050.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "edfa857af4255097e6eaf1314d7ff1cdb1a397d72ad4ce1bd172d196625f61f4"
     },
     "c051": {
       "file": "courses/c051.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "954aa8498c5df87c02b987f25b9703c3161b5dc92a68a9d90b0016d00ad885db"
     },
     "c052": {
       "file": "courses/c052.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "43d4c5434687bd7a2ec58cfc509c58b1efd28a436886f1d24a9f1bd6f148538c"
     },
     "c053": {
       "file": "courses/c053.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "da8ae903ead66331c8e1a2c3af7ce51befcef26c7d9fffaac27e2c7f88917003"
     },
     "c054": {
       "file": "courses/c054.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "5fc318956af337332a60df48a15d323589cb03b74602242905085ae744c4fdd5"
     },
     "c055": {
       "file": "courses/c055.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "63b8b00d4a8b0a72a29d2921b581bc76c81c47c92e169cf6852f7edcc7764238"
     },
     "c056": {
       "file": "courses/c056.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "50fd04bd0025144c5604b7cc7b0879b14240b68ada3c4a1cc1dd8883cae5e968"
     },
     "c057": {
       "file": "courses/c057.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "24ce1dc359996475eb61aa90fbbf1e6ea5d0384c126fc17f742f59fd4d2a2231"
     },
     "c058": {
       "file": "courses/c058.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "36b393c967327d1266bfefdfe6c7260a1f4d45a44d6d10b9ee22881b408e26c8"
     },
     "c059": {
       "file": "courses/c059.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "712a05b28f8d70f31f6310b7b73ec53d2d393be57948daebfc3766cdd0d15f24"
     },
     "c060": {
       "file": "courses/c060.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "8452f6f89b9aca6235ea95f379e5b237840fbba77508edba34149f8c23835b39"
     },
     "c061": {
       "file": "courses/c061.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "30aefc50384f430b72b14605d8e8a0c3b4ecfa93627a8e523b2c109b02e48ebd"
     },
     "c062": {
       "file": "courses/c062.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "1cfdb45feecac323e72a6a96ae59875f7fbda9c595477217ba32fd37739da22e"
     },
     "c063": {
       "file": "courses/c063.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "dc613df80f3fabbf70852db5aac1fc6a5790927f17ed34fb64f6a5b2f38b5cfe"
     },
     "c064": {
       "file": "courses/c064.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "fc5fd200f26165514d449071d074f7c6168576c270790212332798b3bd3380cf"
     },
     "c065": {
       "file": "courses/c065.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "8c6bab551ad322e6d105aec7bcc26c55928a620f395dc945b630307f3f01e97f"
     },
     "c066": {
       "file": "courses/c066.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "04013f692033e194c5f9d289f55be8af0fee720c5fd39c532d1d18bf8c399aa1"
     },
     "c067": {
       "file": "courses/c067.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "3a436c5349720166eae8b67942e56760635dbd1496eb6f8bbec725bf80d6af18"
     },
     "c068": {
       "file": "courses/c068.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "eb8b30895dcd025be7f1bfc642afbbefb03e76feff3e1964b0947f97a80051de"
     },
     "c069": {
       "file": "courses/c069.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "cd83977f8fb5d74f7260e039cdc5f3cd3cb9a3d5d8c9f29a6f489413deaf0187"
     },
     "c070": {
       "file": "courses/c070.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "f985b209981054c12842db770db2d9e8a87870830ae7f57a7fe922e3438cf71a"
     },
     "c071": {
       "file": "courses/c071.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "496c8c5ad4d82d5112d7c8e5cf8d1cd1aba07f4a4c25b41db534d7ab03c9bd6a"
     },
     "c072": {
       "file": "courses/c072.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "0ae30eefce1905321c7b21db069ca66f093c35022986077fd0a99881aeea0122"
     },
     "c073": {
       "file": "courses/c073.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "e4a4b171e58d523b71b387f1aec58d9ac35f4f9b267243fc6101c2aed6926a09"
     },
     "c074": {
       "file": "courses/c074.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "e98b67bbcf95bdaba88ec31a7bd763e71248e99c4e3f7f476ec656011e5678fa"
     },
     "c075": {
       "file": "courses/c075.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "9eacb231b7f87700cc648cc96cfcc8f40d4aa2aa9d3d49b0b7aa7141fd52f7b7"
     },
     "c076": {
       "file": "courses/c076.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "26164e094b139c48f2f9d7928c99296ffd8137b6def7269cace1f40431d8cd8f"
     },
     "c077": {
       "file": "courses/c077.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "04153427c3098d11e4b510fd82f70998a966c794e92baf7d9974099dd86ae27f"
     },
     "c078": {
       "file": "courses/c078.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "2a8ba71cef907d0524170723ea5cdc74cca74683d66dfcfefe722569a04c9538"
     },
     "c079": {
       "file": "courses/c079.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "8f1f4629cb5f9071a5ed8f40842ea204497134931a767ceac963998be4c030fa"
     },
     "c080": {
       "file": "courses/c080.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "b7d1ef25f0ca1eea39728b903ef8a1dfbfa9cde9d58890358cf450a09ddc697a"
     },
     "c081": {
       "file": "courses/c081.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "6ad0e4e976d0c1446219684ab767606db7d76f766ac0839a6b1afb108c5178d0"
     },
     "c082": {
       "file": "courses/c082.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "25c0b89f041a502ed7bac1e63cb21404cdc8eb85785f3833ae3a6716ec487cbc"
     },
     "c083": {
       "file": "courses/c083.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "267556d8ae90babe5e28a1787d3b1d83724df89db397da389213ef39f9447e69"
     },
     "c084": {
       "file": "courses/c084.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "cffe102503baafe8c1b2454a378e6a353cc981f0a77be43c9aa3a3d12393a026"
     },
     "c085": {
       "file": "courses/c085.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "37f943bbfb841c4e8b98df30a1a8bfa85ba65505c3bae12477e47782824524e2"
     },
     "c086": {
       "file": "courses/c086.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "ea2acf151d220a4d5ed912a68817e8ad25321c4ddb3a3d0d87f994aa2446d1ac"
     },
     "c087": {
       "file": "courses/c087.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "866de9afea25ed30c73e3ab07078a070b6ed1199d457efcf893c08dd6fc84acd"
     },
     "c088": {
       "file": "courses/c088.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "7cf0b5038f95413ca2926db0d61047c191bf5234d7091c79d00518f691efd511"
     },
     "c089": {
       "file": "courses/c089.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "c1c8a38ed8e68fb992037fc99c9bab876f43168a0397532b6870280b3419894a"
     },
     "c090": {
       "file": "courses/c090.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "2420362bd18c76038d7e01debbdd2aba23229c29c98ac80b390de98b69c77d66"
     },
     "c091": {
       "file": "courses/c091.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "01de7e755fd85d461545fde67c01d4d7addd2db49bd929c4ed1f5230c6bc6383"
     },
     "c092": {
       "file": "courses/c092.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "ce8de269daeee70a999c4e6aa3464e15e6ab0e6be882300dce677c3f3d1f6e3c"
     },
     "c093": {
       "file": "courses/c093.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "649c27c83e59bbd7be45475545756e31a6ae7efe9200165941aa4e0eccc9164a"
     },
     "catalog": {
       "file": "catalog.json",
-      "updated": "2026-10-27T14:24:54.000Z",
-      "sha256": "78dec3c50474403c9b4a3846b18b5fbfc9d9461397d3414e3dd9e6c31ae639e2"
+      "updated": "2026-10-28T02:38:28.000Z",
+      "sha256": "88b25b9e58457634abe6af6ae3a700e4bb038788762d44b21c9b0ccbdc49dd9e"
     },
     "teachers": {
       "file": "teachers.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "b98033ac7aef32d6ac9661994b3c16f23b8fa2894e3e8750384a1d830baf0d34"
     },
     "aliases": {
       "file": "aliases.json",
-      "updated": "2026-10-27T14:24:54.000Z",
+      "updated": "2026-10-28T02:38:28.000Z",
       "sha256": "ca3d163bab055381827226140568f3bef7eaac187cebd76878e0b63e9e442356"
     }
   }
