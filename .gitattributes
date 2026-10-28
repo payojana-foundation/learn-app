@@ -4,6 +4,12 @@
 # (P-01/P-02). A CRLF checkout would change the bytes and break verification.
 * text=auto eol=lf
 
+# Source inputs are committed BYTE-FOR-BYTE (coordinator's explicit say-so) and
+# never edited or normalised. `-text` stops any EOL conversion so the stored
+# bytes equal the originals exactly. (The SERVED data in public/data/ is still
+# LF-normalised by the rule above — that is what the loader hashes.)
+data/source/** -text
+
 # Binary assets: never touched.
 *.png binary
 *.jpg binary
