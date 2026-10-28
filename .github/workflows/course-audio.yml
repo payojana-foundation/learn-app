@@ -108,6 +108,7 @@ jobs:
         run: |
           set -euo pipefail
           node scripts/media/queue-plan.mjs "$QUEUE" "$MANIFEST" "$LIMIT" > plan.json
+          # shellcheck disable=SC2016  # the single-quoted bodies below are Node (-e) code, not shell
           node -e 'const p=require("./plan.json");console.log(`toProcess ${p.toProcess.length}, skipped ${p.skipped.length}, remaining ${p.remaining.length}`)'
           node -e 'const p=require("./plan.json");require("fs").writeFileSync("to-process.txt",p.toProcess.join("\n"))'
           # Seed the summary with the skipped ids up front.

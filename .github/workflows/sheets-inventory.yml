@@ -66,11 +66,13 @@ jobs:
           list_folder() {
             # Echo "<id>\t<name>\t<mimeType>" for every child of folder $1.
             local folder="$1" pageToken="" q url resp
+            # shellcheck disable=SC2016  # the single-quoted body is Node (-e) code, not shell
             q=$(node -e 'process.stdout.write(encodeURIComponent(`'"'"'`+process.argv[1]+`'"'"' in parents and trimmed = false`))' "$folder")
             while : ; do
               url="https://www.googleapis.com/drive/v3/files?q=${q}&fields=nextPageToken,files(id,name,mimeType)&pageSize=1000&supportsAllDrives=true&includeItemsFromAllDrives=true"
               if [ -n "$pageToken" ]; then url="${url}&pageToken=${pageToken}"; fi
               resp=$(api "$url")
+              # shellcheck disable=SC2016  # Node (-e) template literal, expanded by node, not shell
               echo "$resp" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);for(const f of (j.files||[]))process.stdout.write(`${f.id}\t${f.name}\t${f.mimeType}\n`)})'
               pageToken=$(echo "$resp" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);process.stdout.write(j.nextPageToken||"")})')
               [ -n "$pageToken" ] || break
@@ -79,24 +81,24 @@ jobs:
 
           walk() {
             # Recursively walk folder $1; download every sheet/.xlsx leaf.
-            local folder="$1" line id name mime
+            local folder="$1" id name mime
             while IFS=$'\t' read -r id name mime; do
               [ -n "$id" ] || continue
               if [ "$mime" = "$FOLDER_MIME" ]; then
                 echo "folder: $name ($id)"
                 walk "$id"
               elif [ "$mime" = "$SHEET_MIME" ]; then
-                echo "export sheet → xlsx: $name ($id)"
+                echo "export sheet -> xlsx: $name ($id)"
                 curl -fsS -H "Authorization: Bearer ${ACCESS_TOKEN}" \
                   "https://www.googleapis.com/drive/v3/files/${id}/export?mimeType=${XLSX_MIME}" \
                   -o "data/source/sheets/${id}.xlsx"
-                echo "${id}\t${name}" >> data/source/sheets/_names.tsv
+                printf '%s\t%s\n' "$id" "$name" >> data/source/sheets/_names.tsv
               elif [ "$mime" = "$XLSX_MIME" ]; then
                 echo "download xlsx as-is: $name ($id)"
                 curl -fsS -H "Authorization: Bearer ${ACCESS_TOKEN}" \
                   "https://www.googleapis.com/drive/v3/files/${id}?alt=media&supportsAllDrives=true" \
                   -o "data/source/sheets/${id}.xlsx"
-                echo "${id}\t${name}" >> data/source/sheets/_names.tsv
+                printf '%s\t%s\n' "$id" "$name" >> data/source/sheets/_names.tsv
               else
                 echo "skip (not a sheet/xlsx): $name ($id) [$mime]"
               fi
