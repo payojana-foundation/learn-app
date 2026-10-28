@@ -37,6 +37,29 @@ function buildInfo(): { hash: string; date: string } {
 
 const BUILD = buildInfo();
 
+/**
+ * Emit a stable, server-readable `version.json` at the site root (R6,
+ * bulk-03). The running build hash is otherwise only inside the content-hashed
+ * JS bundle, so a post-deploy check (deploy-check.yml) has no reliable way to
+ * read "which commit is live". This tiny file carries the SAME hash/date the
+ * in-app version label shows (src/version.ts), at a fixed path, with no-cache
+ * semantics from public/_headers (/data and the shell are no-cache). It holds
+ * no secrets — just the public build id.
+ */
+function versionJsonPlugin() {
+  return {
+    name: 'emit-version-json',
+    apply: 'build' as const,
+    generateBundle() {
+      this.emitFile({
+        type: 'asset',
+        fileName: 'version.json',
+        source: JSON.stringify({ hash: BUILD.hash, date: BUILD.date }) + '\n',
+      });
+    },
+  };
+}
+
 export default defineConfig({
   // Expose the build identity to the app as compile-time constants (src/version.ts).
   define: {
@@ -57,6 +80,7 @@ export default defineConfig({
     maxWorkers: 2,
   },
   plugins: [
+    versionJsonPlugin(),
     tailwindcss(),
     VitePWA({
       registerType: 'prompt',

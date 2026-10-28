@@ -11,3 +11,8 @@
   Cache-Control: no-cache
 /
   Cache-Control: no-cache
+
+# version.json (R6): the post-deploy check reads the live build hash from here,
+# so it must always be the fresh copy, never a cached one.
+/version.json
+  Cache-Control: no-cache

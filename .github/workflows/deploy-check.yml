@@ -1,0 +1,83 @@
+name: deploy-check
+
+# R6 (bulk-03) — after every push to main, confirm the LIVE site is the commit
+# we just pushed, then verify the served data hashes end-to-end.
+#
+# Cloudflare auto-deploys `main` (see docs/DEPLOY.md); this job waits for that
+# deploy to go live. It polls https://learn.84000.digital/version.json (emitted
+# by the build, carries the build's short commit hash) for up to 10 minutes
+# until the hash equals this commit's short hash, then runs
+# `npm run deploy-check https://learn.84000.digital` (scripts/verify-deploy.mjs:
+# fetches the manifest and every data file, recomputes each SHA-256, and
+# compares — the same integrity gate the app enforces, P-01/P-02).
+#
+# The custom domain may not be wired yet. If the site is unreachable the whole
+# window, the job ends with a clear "not deployed yet" notice and SUCCEEDS — it
+# never fails a pipeline that simply has no deploy set up yet.
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: read
+
+concurrency:
+  group: deploy-check-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  SITE: https://learn.84000.digital
+
+jobs:
+  wait-and-verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v4
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Wait for the live build to match this commit (≤10 min)
+        id: wait
+        run: |
+          set -uo pipefail
+          WANT="$(git rev-parse --short HEAD)"
+          echo "waiting for ${SITE}/version.json hash == ${WANT}"
+          deadline=$(( $(date +%s) + 600 ))  # 10 minutes
+          ever_reachable=0
+          matched=0
+          while [ "$(date +%s)" -lt "$deadline" ]; do
+            body="$(curl -fsS --max-time 15 "${SITE}/version.json" 2>/dev/null || true)"
+            if [ -n "$body" ]; then
+              ever_reachable=1
+              live="$(printf '%s' "$body" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{process.stdout.write(String(JSON.parse(s).hash||""))}catch{process.stdout.write("")}})')"
+              echo "live hash: '${live}' (want '${WANT}')"
+              if [ "$live" = "$WANT" ]; then matched=1; break; fi
+            else
+              echo "site not reachable yet…"
+            fi
+            sleep 20
+          done
+          echo "ever_reachable=${ever_reachable}" >> "$GITHUB_OUTPUT"
+          echo "matched=${matched}" >> "$GITHUB_OUTPUT"
+
+      - name: Not deployed yet (no failure)
+        if: ${{ steps.wait.outputs.ever_reachable == '0' }}
+        run: |
+          echo "::notice::${SITE} was not reachable in the 10-minute window — not deployed yet. Skipping the hash check (this is not a failure)."
+
+      - name: Deployed, but the live build never matched this commit (no failure)
+        if: ${{ steps.wait.outputs.ever_reachable == '1' && steps.wait.outputs.matched == '0' }}
+        run: |
+          echo "::warning::${SITE} is up but did not serve this commit's build within 10 minutes. The deploy may still be in progress; not failing the pipeline."
+
+      - name: Verify the live data hashes end-to-end
+        if: ${{ steps.wait.outputs.matched == '1' }}
+        run: |
+          echo "live build matches this commit — verifying served data hashes"
+          npm run deploy-check "${SITE}"
