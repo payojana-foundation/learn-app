@@ -118,10 +118,3 @@ export function topicLabel(id: string, lang: Lang): string {
   const tp = TOPICS.find((x) => x.id === id);
   return tp ? tp[lang] : id;
 }
-
-/**
- * "Start here" course ids (configurable). Empty = the Start here row is hidden
- * (mockup rule). The coordinator chooses the real picks; until then this is
- * empty so no unverified picks are shown.
- */
-export const START_HERE: string[] = [];

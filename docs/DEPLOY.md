@@ -45,6 +45,21 @@ these in at build time; after changing one, re-run the build.
 | `VITE_VACANA_BASE_URL` | `https://vacana.84000.digital` |
 | `VITE_LIBRARY_BASE_URL` | `https://library.84000.digital` |
 
+## Config
+Launch placeholders the coordinator fills, all in ONE file: `src/config.ts`.
+Edit the value, commit, push — the next build bakes it in. No value is invented;
+the defaults below are the "nothing yet" state.
+
+| Constant | Type | Default | What it does |
+|---|---|---|---|
+| `START_HERE` | `string[]` | `[]` | Course ids featured in the Home "Start here" row. **Empty = the row is hidden.** Put the chosen course ids here, e.g. `['c007', 'c012']`. |
+| `FEEDBACK_URL` | `string` | `''` | Destination for the "Send feedback" row in More (a `mailto:` or form URL). **Empty = the row is hidden.** |
+| `OFFLINE_ALLOWED` | `boolean` | `false` | Whether offline listening is offered. v1 is streaming only, so `false`. Flip to `true` only when offline media actually ships. |
+
+These are compile-time constants, not Build Variables — they are set in the
+repo, not in the Cloudflare dashboard. (The three `VITE_*` base URLs below ARE
+Build Variables.)
+
 ## Pinned versions
 - Node: `.node-version` (`24.21.0`). Check the first build log shows this.
 - wrangler: a devDependency pinned to an exact version; `package-lock.json`

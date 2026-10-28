@@ -31,6 +31,32 @@ export const VACANA_BASE_URL: string = trimBase(import.meta.env.VITE_VACANA_BASE
  */
 export const LIBRARY_BASE_URL: string = trimBase(import.meta.env.VITE_LIBRARY_BASE_URL);
 
+/**
+ * Launch placeholders the coordinator fills (R5, bulk-03). All live here, in
+ * ONE place, so there is a single file to edit at launch. No values are
+ * invented — the defaults are the "nothing yet" state.
+ */
+
+/**
+ * "Start here" course ids. EMPTY = the Start here row on Home is hidden (P-10).
+ * The coordinator sets the real picks; until then no unverified course is
+ * promoted. (Moved here from src/strings.ts in R5.)
+ */
+export const START_HERE: string[] = [];
+
+/**
+ * Feedback destination for the "Send feedback" row in More. EMPTY string = the
+ * row is hidden (no link invented). The coordinator sets a mailto: or form URL.
+ */
+export const FEEDBACK_URL: string = '';
+
+/**
+ * Whether offline listening (media download for offline play) is offered. v1 is
+ * streaming only, so this is `false`. The coordinator flips it when offline
+ * media ships. Keep as a literal `false` type so dead branches are caught.
+ */
+export const OFFLINE_ALLOWED: boolean = false;
+
 /** IndexedDB database name. Shared by all stores in this app. */
 export const DB_NAME = 'learn-app' as const;
 

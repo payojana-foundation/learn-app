@@ -8,8 +8,8 @@
  */
 
 import { initLang, setLang, type Lang } from './lang';
-import { VACANA_BASE_URL, LIBRARY_BASE_URL } from './config';
-import { t, STRINGS, displayString, START_HERE } from './strings';
+import { VACANA_BASE_URL, LIBRARY_BASE_URL, START_HERE } from './config';
+import { t, STRINGS, displayString } from './strings';
 import { cleanForSearch, esc } from './format';
 import { parseRoute, routePath, tabForRoute, type Route } from './router';
 import { rewriteLessonId } from './db/aliases';
