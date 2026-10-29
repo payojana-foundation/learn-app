@@ -4,8 +4,7 @@ Secrets go only into GitHub's secret settings. Never paste them into any chat.
 Do the parts in order. Each step says what you should see.
 
 ## A. GitHub repo (5 min)
-1. github.com → payojana-foundation → study-84000 → Settings → General → Repository name:
-   `learn-app` → Rename. You see: page reloads at …/payojana-foundation/learn-app.
+1. Repo payojana-foundation/learn-app (created 26 Oct).
 2. Unzip `learn-kiro-inputs.zip` into `C:\Users\buphk\Projects\learn-app` so it has
    `design\`, `data\source\`, `docs\`. In Kiro: clone/open learn-app there (same as vacana-app).
 

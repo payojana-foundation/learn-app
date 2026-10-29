@@ -1,15 +1,15 @@
 name: lint-workflows
 
-# Runs actionlint on every push to main that touches the workflows, so the
-# workflow YAML is checked in CI (Kiro cannot run actionlint locally). Uses the
-# official actionlint action (pinned); shellcheck is available on the runner so
-# the embedded `run:` shell is linted too.
+# Two guards in CI (Kiro cannot run either locally for the whole repo):
+#   actionlint      — lints the workflow YAML when .github/** changes.
+#   check-forbidden — fails if any tracked file reintroduces a retired
+#                     name/domain (the list lives in scripts/check-forbidden.mjs);
+#                     runs on every push so a content change anywhere is caught,
+#                     not only .github/** edits.
 
 on:
   push:
     branches: [main]
-    paths:
-      - ".github/**"
 
 permissions:
   contents: read
@@ -26,3 +26,18 @@ jobs:
         uses: raven-actions/actionlint@v2
         with:
           flags: "-color"
+
+  check-forbidden:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v5
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: ".node-version"
+
+      - name: Forbidden-strings guard
+        run: node scripts/check-forbidden.mjs

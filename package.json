@@ -17,7 +17,8 @@
     "build-courses": "node scripts/build-courses.mjs",
     "verify-deploy": "node scripts/verify-deploy.mjs",
     "deploy-check": "node scripts/verify-deploy.mjs",
-    "check": "tsc --noEmit && vitest --run"
+    "check": "node scripts/check-forbidden.mjs && tsc --noEmit && vitest --run",
+    "check-forbidden": "node scripts/check-forbidden.mjs"
   },
   "devDependencies": {
     "@tailwindcss/vite": "4.3.3",
