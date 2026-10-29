@@ -20,6 +20,24 @@ export const SLEEP_OPTIONS = [0, 15, 30, 60] as const; // minutes; 0 = off
 export const SKIP_SECONDS = 15;
 export const COMPLETE_RATIO = 0.9;
 
+/**
+ * Milliseconds per sleep-timer "minute". Real = 60000. The sleep options
+ * (15/30/60) are unchanged (P-12); this is ONLY the time scale, so an e2e can
+ * make a 15-minute timer fire in a fraction of a second WITHOUT changing the
+ * shipped options. A test sets `window.__learnSleepMsPerMin` before starting
+ * the timer; production never sets it and uses the real 60000.
+ */
+function sleepMsPerMinute(): number {
+  try {
+    const override = (globalThis as unknown as { __learnSleepMsPerMin?: number })
+      .__learnSleepMsPerMin;
+    if (typeof override === 'number' && override > 0) return override;
+  } catch {
+    /* ignore */
+  }
+  return 60_000;
+}
+
 /** Build the media URL for an R2 key. Each path segment is URL-encoded so Khmer
  *  / Pāḷi file names resolve exactly; the stored key is never normalised. */
 export function mediaUrl(key: string, base = MEDIA_BASE_URL): string {
@@ -143,7 +161,7 @@ export function createPlayer(
     },
     setSleep(minutes) {
       if (sleepTimer) clearTimeout(sleepTimer);
-      sleepTimer = minutes > 0 ? setTimeout(() => audio.pause(), minutes * 60 * 1000) : null;
+      sleepTimer = minutes > 0 ? setTimeout(() => audio.pause(), minutes * sleepMsPerMinute()) : null;
     },
     destroy() {
       if (sleepTimer) clearTimeout(sleepTimer);
