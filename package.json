@@ -15,6 +15,7 @@
     "release-check": "npx tsx scripts/check-verify.ts",
     "data-integrity-diff": "npx tsx scripts/data-integrity-diff.ts",
     "build-courses": "node scripts/build-courses.mjs",
+    "upload": "node -e \"console.log('Uploads run in GitHub Actions \\u2192 course-audio \\u2192 Run workflow')\"",
     "verify-deploy": "node scripts/verify-deploy.mjs",
     "deploy-check": "node scripts/verify-deploy.mjs",
     "check": "node scripts/check-forbidden.mjs && tsc --noEmit && vitest --run",

@@ -56,6 +56,11 @@ describe('inScope', () => {
     expect(inScope('docs/kiro-bulk-01.md')).toBe(false);
   });
 
+  it('excludes this guard and its own test (they list the terms on purpose)', () => {
+    expect(inScope('scripts/check-forbidden.mjs')).toBe(false);
+    expect(inScope('scripts/__tests__/check-forbidden.test.mjs')).toBe(false);
+  });
+
   it('includes ordinary source and docs files', () => {
     expect(inScope('src/app.ts')).toBe(true);
     expect(inScope('docs/SETUP-coordinator.md')).toBe(true);

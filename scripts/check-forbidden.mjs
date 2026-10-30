@@ -42,6 +42,16 @@ const FORBIDDEN = [
 /** Path prefixes/globs excluded from the scan. */
 const EXCLUDE_PREFIXES = ['docs/archive/', 'reports/', 'node_modules/', 'data/source/'];
 
+/**
+ * This guard and its test legitimately list the retired strings as the terms
+ * to catch, so they must be excluded by name — otherwise the guard flags
+ * itself and `npm run check` can never be clean.
+ */
+const EXCLUDE_EXACT = new Set([
+  'scripts/check-forbidden.mjs',
+  'scripts/__tests__/check-forbidden.test.mjs',
+]);
+
 /** Task files that quote the forbidden strings on purpose. */
 const isTaskFile = (p) => /^docs\/kiro-bulk-[^/]*\.md$/.test(p);
 
@@ -54,6 +64,7 @@ function trackedFiles() {
 }
 
 function isExcluded(path) {
+  if (EXCLUDE_EXACT.has(path)) return true;
   if (EXCLUDE_PREFIXES.some((pre) => path.startsWith(pre))) return true;
   if (isTaskFile(path)) return true;
   return false;
