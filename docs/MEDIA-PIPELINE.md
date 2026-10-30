@@ -10,10 +10,29 @@ No service-account keys: Drive access uses Workload Identity Federation
 R2 uses an rclone S3 remote built from repo secrets. Secrets are read from
 `secrets`/`vars` and never written to a committed file or printed to a log.
 
-## Secrets and variables (set by the coordinator)
-- Secrets: `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY`.
-- Variables: `R2_ENDPOINT`, `GCP_WIF_PROVIDER`, `GCP_SERVICE_ACCOUNT`,
-  `WORD_AUDIO_DRIVE_FOLDER` (= `1NNmePYxy83xaiUSh0fW2cHpTinVIpn_6`).
+## Secrets and variables (set by the coordinator, DNS desk 28–30 Oct 2026)
+The R2 S3 endpoint is **built from the account id** (`https://<R2_ACCOUNT_ID>.r2
+.cloudflarestorage.com`); there is no `R2_ENDPOINT` variable.
+
+- Secrets (all repos):
+  - `R2_ACCOUNT_ID` — Cloudflare account id; the endpoint is derived from it.
+  - `R2_ACCESS_KEY_ID`, `R2_SECRET_ACCESS_KEY` — the **course-media** token,
+    scoped to the `course-media` bucket ONLY. Used by `course-audio.yml`.
+  - `WORD_AUDIO_R2_ACCESS_KEY_ID`, `WORD_AUDIO_R2_SECRET_ACCESS_KEY` — the
+    **word-audio** token (scoped to the `word-audio` bucket). Used by
+    `word-audio-upload.yml`. **Not created yet** — until they exist,
+    `word-audio-upload` stops with a clear error and never falls back to the
+    course-media token.
+- Variables: `GCP_WIF_PROVIDER`, `GCP_SERVICE_ACCOUNT`, `WORD_AUDIO_DRIVE_FOLDER`
+  (= `1NNmePYxy83xaiUSh0fW2cHpTinVIpn_6`).
+
+Which workflow needs what:
+
+| workflow | R2 secrets | WIF vars | purpose |
+| --- | --- | --- | --- |
+| `word-audio-upload.yml` | `R2_ACCOUNT_ID` + `WORD_AUDIO_R2_ACCESS_KEY_ID` + `WORD_AUDIO_R2_SECRET_ACCESS_KEY` | `GCP_WIF_PROVIDER`, `GCP_SERVICE_ACCOUNT`, `WORD_AUDIO_DRIVE_FOLDER` | Drive → `word-audio` bucket |
+| `course-audio.yml` | `R2_ACCOUNT_ID` + `R2_ACCESS_KEY_ID` + `R2_SECRET_ACCESS_KEY` | `GCP_WIF_PROVIDER`, `GCP_SERVICE_ACCOUNT` | Drive → transcode → `course-media` bucket |
+| `approve-media.yml` | none (edits `data/media-manifest.json`, no bucket access) | none | reviewer approve/reject |
 
 ## Job A — word-audio-upload.yml
 Uploads the word-audio batch 023 to the `word-audio` R2 bucket under `023/`.
@@ -52,7 +71,13 @@ Transcodes a BATCH of recordings to normalised 64 kbps mono MP3s on the
   `pan=mono|c0=0.5*c0+0.5*c1`, two-pass `loudnorm=I=-16:TP=-1.5:LRA=11:linear=true`,
   MP3 64 kbps CBR, 44.1 kHz, no noise reduction.
 - Key `audio/<drive_file_id>-a64.mp3` in `course-media` (immutable; never
-  overwrite; a present key = already done; a correction gets `-v2`).
+  overwrite; a present key = already done; a correction is re-uploaded as
+  `audio/<drive_file_id>-a64-v2.mp3`, never an overwrite). The key is derived
+  from the Drive file id — no Drive id → that line STOPS, never an invented key.
+  The pipeline writes ONLY to `course-media`, never to `course-originals`.
+- Every R2 upload sets `Cache-Control: public, max-age=31536000, immutable` and
+  `Content-Type: audio/mpeg` (DNS-desk rule; verified by the word-audio curl
+  step and set on the course-audio upload in `transcode-one.sh`).
 - Each success writes `{drive_file_id, key, bytes, duration_s, sha256, status:
   "DRAFT – needs reviewer approval"}` via `scripts/media/append-manifest.mjs`.
   The manifest is committed at the END of the run AND on cancellation (whatever

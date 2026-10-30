@@ -35,24 +35,38 @@ echo projects/$PROJECT_NUMBER/locations/global/workloadIdentityPools/github/prov
    media-pipeline@tipitaka-automation.iam.gserviceaccount.com as **Viewer**.
    (The word-audio input folder is already shared as Editor.)
 
-## C. Cloudflare R2 token (5 min)
-1. dash.cloudflare.com → R2 Object Storage → Manage API tokens → Create API token.
-2. Name `learn-app-pipeline` · Permissions **Object Read & Write** · Specify buckets:
-   `word-audio`, `course-media` · Create.
-3. You see Access Key ID, Secret Access Key and an endpoint
-   `https://<account-id>.r2.cloudflarestorage.com`. Keep the page open for step D.
+## C. Cloudflare R2 tokens (5 min)
+The endpoint is built in the workflow from your account id, so you do NOT store
+an endpoint URL — you store the account id as a secret.
+
+1. dash.cloudflare.com → R2 Object Storage. Note the **account id** in the URL
+   / sidebar (`https://<account-id>.r2.cloudflarestorage.com` is the endpoint).
+2. Manage API tokens → Create API token · Name `course-media-pipeline` ·
+   Permissions **Object Read & Write** · Specify bucket: **`course-media` only**
+   · Create. Copy its Access Key ID and Secret Access Key (this is the
+   course-media token).
+3. (When word-audio runs) Create a SECOND token · Name `word-audio-pipeline` ·
+   **Object Read & Write** · Specify bucket: **`word-audio` only** · Create.
+   Copy its Access Key ID and Secret Access Key. Keep these scoped to
+   word-audio; never reuse the course-media token for word-audio.
 
 ## D. GitHub secrets and variables (5 min)
 github.com → learn-app → Settings → Secrets and variables → Actions.
-Secrets tab → New repository secret (twice):
-- `R2_ACCESS_KEY_ID` = Access Key ID
-- `R2_SECRET_ACCESS_KEY` = Secret Access Key
+Secrets tab → New repository secret:
+- `R2_ACCOUNT_ID` = the account id from C1 (the endpoint is built from it;
+  there is NO `R2_ENDPOINT` variable)
+- `R2_ACCESS_KEY_ID` = course-media token Access Key ID (C2)
+- `R2_SECRET_ACCESS_KEY` = course-media token Secret Access Key (C2)
+- `WORD_AUDIO_R2_ACCESS_KEY_ID` = word-audio token Access Key ID (C3)
+- `WORD_AUDIO_R2_SECRET_ACCESS_KEY` = word-audio token Secret Access Key (C3)
+  (Add the two WORD_AUDIO_* secrets only when you create that token in C3.
+  Until they exist, `word-audio-upload` stops with a clear error — by design,
+  it never falls back to the course-media token.)
 Variables tab → New repository variable:
-- `R2_ENDPOINT` = the endpoint URL
 - `GCP_WIF_PROVIDER` = the `projects/…/providers/learn-app` line from B3
 - `GCP_SERVICE_ACCOUNT` = media-pipeline@tipitaka-automation.iam.gserviceaccount.com
 - `WORD_AUDIO_DRIVE_FOLDER` = 1NNmePYxy83xaiUSh0fW2cHpTinVIpn_6
-You see: 2 secrets (values hidden) and 4 variables.
+You see: up to 5 secrets (values hidden) and 3 variables.
 
 ## E. Run (after Kiro pushes P2)
 1. learn-app → Actions → "word-audio-upload" → Run workflow → limit `1` → Run.

@@ -86,12 +86,18 @@ jobs:
       - name: Set up rclone
         uses: AnimMouse/setup-rclone@v1
 
-      - name: Configure rclone R2 remote (from secrets)
+      - name: Configure rclone R2 remote (course-media token)
         env:
+          # The course-media token (scoped to course-media ONLY).
           R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
           R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          R2_ENDPOINT: ${{ vars.R2_ENDPOINT }}
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
         run: |
+          # Endpoint is built from the account id secret (no R2_ENDPOINT var).
+          if [ -z "${R2_ACCOUNT_ID}" ]; then
+            echo "::error title=R2_ACCOUNT_ID missing::Set the repository secret R2_ACCOUNT_ID (the Cloudflare account id); the R2 S3 endpoint is built from it."
+            exit 1
+          fi
           mkdir -p "$HOME/.config/rclone"
           cat > "$HOME/.config/rclone/rclone.conf" <<EOF
           [r2]
@@ -99,7 +105,7 @@ jobs:
           provider = Cloudflare
           access_key_id = ${R2_ACCESS_KEY_ID}
           secret_access_key = ${R2_SECRET_ACCESS_KEY}
-          endpoint = ${R2_ENDPOINT}
+          endpoint = https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com
           no_check_bucket = true
           EOF
 

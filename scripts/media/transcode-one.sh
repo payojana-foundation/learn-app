@@ -22,6 +22,12 @@ if [ -z "${ACCESS_TOKEN:-}" ]; then
   exit 2
 fi
 
+# Key convention (DNS-desk rules, 28–30 Oct): the normalised audio lives ONLY
+# under `course-media` at `audio/<drive_file_id>-a64.mp3`. A corrected recording
+# is re-uploaded under `audio/<drive_file_id>-a64-v2.mp3` (never an overwrite).
+# The key is derived from the Drive file id above (which is required, else this
+# script already exited 2) — never invented from anything else. This script
+# NEVER writes to the `course-originals` bucket.
 key="audio/${DRIVE_FILE_ID}-a64.mp3"
 out="out-${DRIVE_FILE_ID}-a64.mp3"
 dl="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?alt=media"
