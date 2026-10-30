@@ -33,9 +33,15 @@ echo projects/$PROJECT_NUMBER/locations/global/workloadIdentityPools/github/prov
    If any line shows an error with "constraint" or "policy": stop, copy the error text into this chat.
 4. Drive: share the pilot folder (Ven. Yon Yi, វេស្សន្តរជាតក) with
    media-pipeline@tipitaka-automation.iam.gserviceaccount.com as **Viewer**.
-   (The word-audio input folder is already shared as Editor.)
 
-## C. Cloudflare R2 tokens (5 min)
+> **Word audio is a separate repo.** The word-audio upload job and its
+> `WORD_AUDIO_R2_*` secrets / `WORD_AUDIO_DRIVE_FOLDER` var live in
+> `payojana-foundation/word-audio-pipeline` (set up there, not in learn-app).
+> In learn-app, word audio is read-only, served from
+> `https://audio.84000.digital`. Do not add any `WORD_AUDIO_*` secret or
+> variable to learn-app.
+
+## C. Cloudflare R2 token (5 min)
 The endpoint is built in the workflow from your account id, so you do NOT store
 an endpoint URL — you store the account id as a secret.
 
@@ -45,10 +51,6 @@ an endpoint URL — you store the account id as a secret.
    Permissions **Object Read & Write** · Specify bucket: **`course-media` only**
    · Create. Copy its Access Key ID and Secret Access Key (this is the
    course-media token).
-3. (When word-audio runs) Create a SECOND token · Name `word-audio-pipeline` ·
-   **Object Read & Write** · Specify bucket: **`word-audio` only** · Create.
-   Copy its Access Key ID and Secret Access Key. Keep these scoped to
-   word-audio; never reuse the course-media token for word-audio.
 
 ## D. GitHub secrets and variables (5 min)
 github.com → learn-app → Settings → Secrets and variables → Actions.
@@ -57,26 +59,21 @@ Secrets tab → New repository secret:
   there is NO `R2_ENDPOINT` variable)
 - `R2_ACCESS_KEY_ID` = course-media token Access Key ID (C2)
 - `R2_SECRET_ACCESS_KEY` = course-media token Secret Access Key (C2)
-- `WORD_AUDIO_R2_ACCESS_KEY_ID` = word-audio token Access Key ID (C3)
-- `WORD_AUDIO_R2_SECRET_ACCESS_KEY` = word-audio token Secret Access Key (C3)
-  (Add the two WORD_AUDIO_* secrets only when you create that token in C3.
-  Until they exist, `word-audio-upload` stops with a clear error — by design,
-  it never falls back to the course-media token.)
 Variables tab → New repository variable:
 - `GCP_WIF_PROVIDER` = the `projects/…/providers/learn-app` line from B3
 - `GCP_SERVICE_ACCOUNT` = media-pipeline@tipitaka-automation.iam.gserviceaccount.com
-- `WORD_AUDIO_DRIVE_FOLDER` = 1NNmePYxy83xaiUSh0fW2cHpTinVIpn_6
-You see: up to 5 secrets (values hidden) and 3 variables.
+You see: 3 secrets (values hidden) and 2 variables.
+(The `WORD_AUDIO_R2_*` secrets and `WORD_AUDIO_DRIVE_FOLDER` are NOT set here —
+they belong to the word-audio-pipeline repo.)
 
 ## E. Run (after Kiro pushes P2)
-1. learn-app → Actions → "word-audio-upload" → Run workflow → limit `1` → Run.
-2. Green tick = one file passed. Click the run → download the log; check the curl line shows 200.
-3. Run again with limit `0` (all). Green tick + "1366 matching" twice in the log.
-4. Send to the audio chat: run link, the two checksum lines, the curl line,
-   Drive path of `r2_listing_023.txt`.
-5. Then "course-audio" → Run workflow → drive_file_id `1tvjvDJxPVAsuKSyLJ6TBqE-mU5vUAveT`.
+1. learn-app → Actions → "course-audio" → Run workflow → drive_file_id
+   `1tvjvDJxPVAsuKSyLJ6TBqE-mU5vUAveT`.
    Listen to https://media.84000.digital/audio/1tvjvDJxPVAsuKSyLJ6TBqE-mU5vUAveT-a64.mp3
    and tell the audio chat how it sounds.
+
+(The word-audio upload is run from the `word-audio-pipeline` repo — see that
+repo's `docs/WORD-AUDIO.md`.)
 
 ## F. Website deploy of learn-app (after Kiro pushes P1)
 Same as vacana-app: Workers & Pages → Create → Import a repository → learn-app →

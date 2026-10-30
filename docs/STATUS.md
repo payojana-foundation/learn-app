@@ -29,9 +29,10 @@ Running status of the build. Updated at the end of each part.
 - Done gate: `npm run check` passes; the empty shell shows the version label.
 
 ## P2 — Media pipeline ✅
-Two `workflow_dispatch` workflows (`word-audio-upload.yml`, `course-audio.yml`),
-WIF auth, rclone R2, tested pipeline scripts + fixtures, `docs/MEDIA-PIPELINE.md`.
-actionlint clean.
+`course-audio.yml` (`workflow_dispatch`), WIF auth, rclone R2, tested pipeline
+scripts + fixtures, `docs/MEDIA-PIPELINE.md`. actionlint clean. The word-audio
+upload job moved to `payojana-foundation/word-audio-pipeline` (30 Oct 2026);
+learn-app reads word audio only, over `https://audio.84000.digital`.
 
 ## P3 — Data contract + course build ✅
 `docs/data-contract.md`, `scripts/build-courses.mjs` → `public/data/`
