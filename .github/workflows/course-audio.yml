@@ -131,43 +131,10 @@ jobs:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
         run: |
           set -uo pipefail
-          chmod +x scripts/media/transcode-one.sh
-          start=$(date +%s)
-          budget=$(( MAX_MINUTES * 60 ))
-          running=0
-          : > results.failed.ndjson
-          : > results.done.ndjson
-
-          wait_one() {
-            # Wait for any one background job to finish.
-            wait -n 2>/dev/null || true
-            running=$(( running - 1 ))
-          }
-
-          while IFS= read -r fid; do
-            [ -n "$fid" ] || continue
-            now=$(date +%s)
-            if [ $(( now - start )) -ge "$budget" ]; then
-              echo "time budget ($MAX_MINUTES min) reached — leaving the rest for the next run"
-              break
-            fi
-            # Keep at most $JOBS transcodes in flight.
-            while [ "$running" -ge "$JOBS" ]; do wait_one; done
-            (
-              if scripts/media/transcode-one.sh "$fid"; then
-                echo "{\"id\":\"$fid\",\"status\":\"done\"}" >> results.done.ndjson
-              else
-                code=$?
-                echo "{\"id\":\"$fid\",\"status\":\"failed\",\"reason\":\"transcode-one exit $code\"}" >> results.failed.ndjson
-              fi
-            ) &
-            running=$(( running + 1 ))
-          done < to-process.txt
-
-          # Drain remaining jobs.
-          while [ "$running" -gt 0 ]; do wait_one; done
-          cat results.done.ndjson results.failed.ndjson >> results.ndjson || true
-          echo "batch finished"
+          chmod +x scripts/media/transcode-one.sh scripts/media/batch-run.sh
+          # Sequential, logged, deterministic. Each id's exit code decides
+          # done/failed; the old backgrounded loop silently dispatched nothing.
+          scripts/media/batch-run.sh to-process.txt
 
       - name: Append DRAFT manifest entries for everything that finished
         if: ${{ always() }}
@@ -181,14 +148,17 @@ jobs:
           echo "manifest now has $(node -e 'const fs=require("fs");console.log(fs.existsSync(process.env.MANIFEST)?JSON.parse(fs.readFileSync(process.env.MANIFEST,"utf8")).length:0)') entries"
 
       - name: Fail if work was planned but nothing finished
-        if: ${{ steps.plan.outputs.to_process != '0' }}
+        if: ${{ always() }}
         run: |
           set -uo pipefail
+          planned='${{ steps.plan.outputs.to_process }}'
+          [ -n "$planned" ] || planned=0
+          if [ "$planned" = "0" ]; then echo "nothing was planned — ok"; exit 0; fi
           done=$( [ -f results.done.ndjson ] && grep -c . results.done.ndjson || echo 0 )
           failed=$( [ -f results.failed.ndjson ] && grep -c . results.failed.ndjson || echo 0 )
-          echo "planned ${{ steps.plan.outputs.to_process }}, done ${done}, failed ${failed}"
+          echo "planned ${planned}, done ${done}, failed ${failed}"
           if [ "$done" -eq 0 ] && [ "$failed" -eq 0 ]; then
-            echo "::error title=Nothing processed::${{ steps.plan.outputs.to_process }} file(s) were planned but none finished (done+failed=0)."
+            echo "::error title=Nothing processed::${planned} file(s) were planned but none finished (done+failed=0)."
             exit 1
           fi
 
