@@ -119,10 +119,14 @@ jobs:
           node -e 'const p=require("./plan.json");require("fs").writeFileSync("to-process.txt",p.toProcess.join("\n"))'
           # Seed the summary with the skipped ids up front.
           node -e 'const p=require("./plan.json");const fs=require("fs");fs.writeFileSync("results.ndjson",p.skipped.map(id=>JSON.stringify({id,status:"skipped",reason:"already in manifest"})).join("\n")+(p.skipped.length?"\n":""))'
-          if [ ! -s to-process.txt ]; then echo "nothing to transcode this run."; fi
+          # Emit the plan count as a step output the later steps' if: can see
+          # (hashFiles can't — it only sees files present at checkout).
+          N=$(node -e 'console.log(require("./plan.json").toProcess.length)')
+          printf 'to_process=%s\n' "$N" >> "$GITHUB_OUTPUT"
+          if [ "$N" -eq 0 ]; then echo "nothing to transcode this run."; fi
 
       - name: Transcode the batch (concurrency, time budget, immutable R2)
-        if: ${{ hashFiles('to-process.txt') != '' }}
+        if: ${{ steps.plan.outputs.to_process != '0' }}
         env:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
         run: |
@@ -175,6 +179,18 @@ jobs:
             node scripts/media/append-manifest.mjs "$MANIFEST" "$e" || true
           done
           echo "manifest now has $(node -e 'const fs=require("fs");console.log(fs.existsSync(process.env.MANIFEST)?JSON.parse(fs.readFileSync(process.env.MANIFEST,"utf8")).length:0)') entries"
+
+      - name: Fail if work was planned but nothing finished
+        if: ${{ steps.plan.outputs.to_process != '0' }}
+        run: |
+          set -uo pipefail
+          done=$( [ -f results.done.ndjson ] && grep -c . results.done.ndjson || echo 0 )
+          failed=$( [ -f results.failed.ndjson ] && grep -c . results.failed.ndjson || echo 0 )
+          echo "planned ${{ steps.plan.outputs.to_process }}, done ${done}, failed ${failed}"
+          if [ "$done" -eq 0 ] && [ "$failed" -eq 0 ]; then
+            echo "::error title=Nothing processed::${{ steps.plan.outputs.to_process }} file(s) were planned but none finished (done+failed=0)."
+            exit 1
+          fi
 
       - name: Write + print the run summary table
         if: ${{ always() }}

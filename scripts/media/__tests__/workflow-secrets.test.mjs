@@ -66,3 +66,46 @@ describe('approve-media needs no R2 token (edits the manifest only)', () => {
     expect(approveMedia).not.toMatch(/rclone/);
   });
 });
+
+/**
+ * if:-reference integrity — every `steps.<id>.outputs.<name>` used in an `if:`
+ * must name a step that exists AND an output that step writes to $GITHUB_OUTPUT.
+ * This is the regression guard for the course-audio bug where the transcode
+ * step gated on a plan file that never existed at if:-eval time.
+ */
+function stepIds(src) {
+  return new Set([...src.matchAll(/^\s*id:\s*([A-Za-z0-9_-]+)\s*$/gm)].map((m) => m[1]));
+}
+// Outputs a step writes, scoped to the block after its `id:` line.
+function outputsById(src, id) {
+  const start = src.indexOf(`id: ${id}`);
+  const next = src.indexOf('\n      - name:', start + 1);
+  const block = src.slice(start, next === -1 ? undefined : next);
+  return new Set([...block.matchAll(/([A-Za-z0-9_-]+)=[^\n]*>>\s*"\$GITHUB_OUTPUT"/g)].map((m) => m[1]));
+}
+function ifRefs(src) {
+  return [...src.matchAll(/if:[^\n]*steps\.([A-Za-z0-9_-]+)\.outputs\.([A-Za-z0-9_-]+)/g)].map(
+    (m) => ({ id: m[1], name: m[2] }),
+  );
+}
+
+describe.each([
+  ['course-audio.yml', courseAudio],
+  ['approve-media.yml', approveMedia],
+])('%s: every if: step-output reference resolves', (_name, src) => {
+  const ids = stepIds(src);
+  const refs = ifRefs(src);
+  it('references an existing step id and an output that step writes', () => {
+    for (const { id, name } of refs) {
+      expect(ids.has(id), `if: references unknown step id "${id}"`).toBe(true);
+      expect(outputsById(src, id).has(name), `step "${id}" never writes output "${name}"`).toBe(true);
+    }
+  });
+});
+
+describe('course-audio.yml: the transcode gate uses the plan output (not hashFiles)', () => {
+  it('gates transcode on steps.plan.outputs.to_process', () => {
+    expect(courseAudio).toMatch(/if:\s*\$\{\{\s*steps\.plan\.outputs\.to_process/);
+    expect(courseAudio).not.toMatch(/hashFiles\('to-process\.txt'\)/);
+  });
+});
