@@ -1,7 +1,7 @@
 # Embeds (P-14): only these hosts may be framed by the lesson player.
 # frame-src alone does not restrict any other resource type.
 /*
-  Content-Security-Policy: frame-src https://embed.acast.com https://www.youtube.com https://www.youtube-nocookie.com https://drive.google.com
+  Content-Security-Policy: frame-src https://embed.acast.com https://www.youtube.com https://www.youtube-nocookie.com
 
 /data/*
   Cache-Control: no-cache

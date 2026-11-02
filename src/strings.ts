@@ -78,6 +78,7 @@ export const STRINGS = {
   LINK_COPIED: { km: 'បានចម្លងតំណ', en: 'Link copied' },
   EMBED_MSG: { km: 'មេរៀននេះនៅលើ', en: 'This lesson still plays from' },
   OPEN_IN: { km: 'បើកនៅ', en: 'Open in' },
+  COMING_SOON: { km: 'កំពុងរៀបចំ — មកដល់ឆាប់ៗ', en: 'Being prepared — coming soon' },
   OUR_PLAYER: { km: 'ចាក់ពី media.84000.digital', en: 'Plays from media.84000.digital' },
   RESULTS: { km: 'លទ្ធផល', en: 'results' },
   NO_TITLE: { km: 'គ្មានចំណងជើង', en: 'no title' },

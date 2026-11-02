@@ -34,11 +34,12 @@ describe('P-14 real embed', () => {
     expect(html).toContain('target="_blank"');
   });
 
-  it('drive lesson renders a 16:9 iframe with the stored /preview src', () => {
+  it('drive lesson NEVER embeds: shows the coming-soon notice, no iframe, no link', () => {
     const src = 'https://drive.google.com/file/d/ABC123/preview';
     const html = render(lesson('drive', src));
-    expect(html).toContain(`<iframe src="${src}"`);
-    expect(html).toContain('aspect-ratio:16/9');
+    expect(html).not.toContain('<iframe');
+    expect(html).not.toContain(src);
+    expect(html).toContain('កំពុងរៀបចំ');
   });
 
   it('youtube lesson renders an iframe with the stored embed src', () => {

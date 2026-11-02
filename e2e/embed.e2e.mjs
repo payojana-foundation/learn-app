@@ -85,12 +85,17 @@ async function run() {
   const acastLink = await page.locator('a[target="_blank"]').first().getAttribute('href');
   acastLink === ACAST ? ok('acast open-in link points to the source') : fail(`acast link href=${acastLink}`);
 
-  // ── drive lesson (second) ────────────────────────────────────────────────────
-  await openLesson(page, 1);
-  const driveSrc = await page.locator('[data-embed] iframe').getAttribute('src');
-  driveSrc === DRIVE ? ok('drive lesson iframe src is the stored /preview URL') : fail(`drive iframe src wrong: ${driveSrc}`);
-  const driveStyle = await page.locator('[data-embed] iframe').getAttribute('style');
-  /16\s*\/\s*9/.test(driveStyle || '') ? ok('drive iframe is 16:9') : fail(`drive iframe style=${driveStyle}`);
+  // ── drive lesson (second): NEVER embeds ─────────────────────────────────────
+  await page.goto(`${BASE}/courses/c080`, { waitUntil: 'networkidle' });
+  await page.waitForSelector('.les button');
+  await page.locator('.les button').nth(1).click();
+  await page.waitForSelector('h1');
+  const iframes = await page.locator('[data-embed] iframe').count();
+  iframes === 0 ? ok('drive lesson shows no iframe') : fail(`drive lesson rendered ${iframes} iframe(s)`);
+  const notice = (await page.locator('.empty').first().textContent()) || '';
+  /កំពុងរៀបចំ/.test(notice) ? ok('drive lesson shows the coming-soon notice') : fail(`drive coming-soon notice missing (got: ${notice})`);
+  const driveLinks = await page.locator('a[href*="drive.google.com"]').count();
+  driveLinks === 0 ? ok('drive lesson shows no Drive link') : fail(`drive link present (${driveLinks})`);
 
   await context.close();
   await browser.close();

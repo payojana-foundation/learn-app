@@ -185,9 +185,11 @@ export function lessonView(
       <div class="times"><span data-pos>${time(pp.pos, lang)}</span><span data-dur>${time(durS, lang)}</span></div>
       <div class="pctl"><button data-skip="-15">⟲ ${num(15, lang)}</button><button class="pp" data-pp aria-label="Play/Pause">${playing ? '❚❚' : '▶'}</button><button data-skip="15">${num(15, lang)} ⟳</button></div>
       <div class="popts"><button data-speed>${t('SPEED', lang)} ${speed}×</button><button data-sleep>${t('SLEEP', lang)} ${sleep ? num(sleep, lang) + '′' : '—'}</button><button data-auto>${t('AUTO', lang)}: ${auto ? '✓' : '—'}</button></div></div>`
-    : l.media.length > 0
+    : l.media.some((m) => m.kind === 'acast' || m.kind === 'youtube')
       ? embedMedia(l, lang)
-      : `<div class="empty">${t('OFFLINE_MEDIA', lang)}</div>`;
+      : l.media.some((m) => m.kind === 'drive')
+        ? `<div class="empty">${t('COMING_SOON', lang)}</div>`
+        : `<div class="empty">${t('OFFLINE_MEDIA', lang)}</div>`;
 
   return `<div class="crumbs"><button class="link" data-nav="course" data-id="${c.id}">${esc(courseTitle(c, lang))}</button> › ${t('LESSON', lang)} ${num(l.num, lang)}/${num(c.lessons.length, lang)}</div>
   <h1 style="margin:6px 0 12px">${l.title_km.trim() ? esc(displayTitle(l.title_km)) : `<span class="ph">${t('NO_TITLE', lang)}</span>`}</h1>${media}
@@ -199,21 +201,18 @@ export function lessonView(
   ${notes.map((n) => `<div class="note"><button class="ts" data-seek="${n.atS}">${time(n.atS, lang)}</button><span>${esc(n.text)}</span></div>`).join('')}</section>`;
 }
 
-function embedName(l: Lesson): string {
-  const k = l.media[0]?.kind;
-  return k === 'youtube' ? 'YouTube' : k === 'acast' ? 'Acast' : 'Google Drive';
-}
-
 /**
- * P-14 (changed): render the real embed for acast/youtube/drive lessons.
- * The iframe src is the `src` stored in the data (already an embed URL); we
- * never guess a URL. acast is audio-only (short height); youtube/drive are
+ * P-14 (changed): render the real embed for acast/youtube ONLY. Drive never
+ * plays in-app (coordinator decision) — see the drive "coming soon" branch in
+ * lessonView. The iframe src is the `src` stored in the data (already an embed
+ * URL); we never guess a URL. acast is audio-only (short height); youtube is
  * 16:9. A small link below opens the source in a new tab.
  */
 function embedMedia(l: Lesson, lang: Lang): string {
-  const m = l.media[0];
+  const m = l.media.find((x) => x.kind === 'acast' || x.kind === 'youtube');
+  if (!m) return `<div class="empty">${t('OFFLINE_MEDIA', lang)}</div>`;
   const src = esc(m.src);
-  const name = embedName(l);
+  const name = m.kind === 'youtube' ? 'YouTube' : 'Acast';
   const isAudio = m.kind === 'acast';
   const frame = `<iframe src="${src}" loading="lazy" title="${esc(name)}"
     allow="autoplay; encrypted-media; fullscreen" allowfullscreen
