@@ -9,7 +9,7 @@
 
 import type { Lang } from '../lang';
 import { t, topicLabel, TOPICS } from '../strings';
-import { num, time, esc, cleanForSearch } from '../format';
+import { num, time, esc, cleanForSearch, displayTitle } from '../format';
 import type { Catalog, CatalogCourse, Course, Lesson, Teacher } from '../data/catalog';
 import type { LessonProgress } from '../db';
 
@@ -131,7 +131,7 @@ export function courseView(
     const hasA = l.media.some((m) => m.kind === 'r2' || m.kind === 'acast');
     const hasV = l.media.some((m) => m.kind === 'youtube' || m.kind === 'drive');
     const mic = `${hasA ? '♪' : ''}${hasV ? ' ▶' : ''}`;
-    const title = l.title_km.trim() ? esc(l.title_km) : `<span class="ph">${t('NO_TITLE', lang)}</span>`;
+    const title = l.title_km.trim() ? esc(displayTitle(l.title_km)) : `<span class="ph">${t('NO_TITLE', lang)}</span>`;
     return `<li><button data-nav="lesson" data-id="${c.id}" data-lesson="${esc(l.id)}" class="${l.id === lastLessonId ? 'cur' : ''}">
       <span class="tick ${pp.done ? 'on' : ''}">${pp.done ? '✓' : ''}</span><span class="n">${num(l.num, lang)}</span>
       <span class="tt">${title}</span><span class="mic">${mic}</span></button></li>`;
@@ -182,15 +182,15 @@ export function lessonView(
   const media = r2
     ? `<div class="player" data-player><div class="times"><span>${t('OUR_PLAYER', lang)}</span><span>♪ MP3</span></div>
       <div class="scrub" data-scrub><i data-bar style="width:${pp.pos ? '0' : '0'}%"></i></div>
-      <div class="times"><span data-pos>${time(pp.pos, lang)}</span><span data-dur>${durS ? time(durS, lang) : '0:00'}</span></div>
+      <div class="times"><span data-pos>${time(pp.pos, lang)}</span><span data-dur>${time(durS, lang)}</span></div>
       <div class="pctl"><button data-skip="-15">⟲ ${num(15, lang)}</button><button class="pp" data-pp aria-label="Play/Pause">${playing ? '❚❚' : '▶'}</button><button data-skip="15">${num(15, lang)} ⟳</button></div>
       <div class="popts"><button data-speed>${t('SPEED', lang)} ${speed}×</button><button data-sleep>${t('SLEEP', lang)} ${sleep ? num(sleep, lang) + '′' : '—'}</button><button data-auto>${t('AUTO', lang)}: ${auto ? '✓' : '—'}</button></div></div>`
     : l.media.length > 0
-      ? `<div class="embed" data-embed><div>${t('EMBED_MSG', lang)} ${embedName(l)}.</div></div>`
+      ? embedMedia(l, lang)
       : `<div class="empty">${t('OFFLINE_MEDIA', lang)}</div>`;
 
   return `<div class="crumbs"><button class="link" data-nav="course" data-id="${c.id}">${esc(courseTitle(c, lang))}</button> › ${t('LESSON', lang)} ${num(l.num, lang)}/${num(c.lessons.length, lang)}</div>
-  <h1 style="margin:6px 0 12px">${l.title_km.trim() ? esc(l.title_km) : `<span class="ph">${t('NO_TITLE', lang)}</span>`}</h1>${media}
+  <h1 style="margin:6px 0 12px">${l.title_km.trim() ? esc(displayTitle(l.title_km)) : `<span class="ph">${t('NO_TITLE', lang)}</span>`}</h1>${media}
   <div class="row" style="margin-top:12px"><button class="btn ${pp.done ? 'ghost' : ''} sm" data-done>${pp.done ? t('UNDONE', lang) : t('MARK_DONE', lang)}</button>
   <button class="btn ghost sm" data-share>${t('SHARE', lang)}</button></div>
   <div class="row" style="justify-content:space-between;margin-top:14px">${pv ? `<button class="btn ghost sm" data-nav="lesson" data-id="${c.id}" data-lesson="${esc(pv.id)}">‹ ${t('PREV', lang)}</button>` : '<span></span>'}${nx ? `<button class="btn sm" data-nav="lesson" data-id="${c.id}" data-lesson="${esc(nx.id)}">${t('NEXT', lang)} ›</button>` : ''}</div>
@@ -202,6 +202,24 @@ export function lessonView(
 function embedName(l: Lesson): string {
   const k = l.media[0]?.kind;
   return k === 'youtube' ? 'YouTube' : k === 'acast' ? 'Acast' : 'Google Drive';
+}
+
+/**
+ * P-14 (changed): render the real embed for acast/youtube/drive lessons.
+ * The iframe src is the `src` stored in the data (already an embed URL); we
+ * never guess a URL. acast is audio-only (short height); youtube/drive are
+ * 16:9. A small link below opens the source in a new tab.
+ */
+function embedMedia(l: Lesson, lang: Lang): string {
+  const m = l.media[0];
+  const src = esc(m.src);
+  const name = embedName(l);
+  const isAudio = m.kind === 'acast';
+  const frame = `<iframe src="${src}" loading="lazy" title="${esc(name)}"
+    allow="autoplay; encrypted-media; fullscreen" allowfullscreen
+    style="border:0;width:100%;${isAudio ? 'height:180px' : 'aspect-ratio:16/9'}"></iframe>`;
+  return `<div class="embed" data-embed>${frame}</div>
+  <a class="link small" href="${src}" target="_blank" rel="noopener noreferrer">${t('OPEN_IN', lang)} ${esc(name)}</a>`;
 }
 
 export function teachersView(teachers: Teacher[], lang: Lang): string {

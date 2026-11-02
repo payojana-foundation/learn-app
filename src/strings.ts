@@ -77,6 +77,7 @@ export const STRINGS = {
   OFFLINE: { km: 'ស្តាប់ពេលគ្មានអ៊ីនធឺណិត', en: 'Offline listening' },
   LINK_COPIED: { km: 'បានចម្លងតំណ', en: 'Link copied' },
   EMBED_MSG: { km: 'មេរៀននេះនៅលើ', en: 'This lesson still plays from' },
+  OPEN_IN: { km: 'បើកនៅ', en: 'Open in' },
   OUR_PLAYER: { km: 'ចាក់ពី media.84000.digital', en: 'Plays from media.84000.digital' },
   RESULTS: { km: 'លទ្ធផល', en: 'results' },
   NO_TITLE: { km: 'គ្មានចំណងជើង', en: 'no title' },

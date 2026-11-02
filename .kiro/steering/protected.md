@@ -86,10 +86,16 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   AND while the audio is playing, so a fresh mount's paused 0-tick never
   clobbers the saved resume point. `createPlayer` (`resumeApplied`, paused
   guard), `src/audio/player.ts`. [from part P4]
-- **P-14** `acast`/`youtube`/`drive` lessons show an embed notice (embeds can't
-  run offline); a lesson with no media shows an offline/needs-internet notice.
-  Only one lesson player is mounted at a time. v1 is streaming only — no
-  download button anywhere. `lessonView`, `src/ui/views.ts`. [from part P4]
+- **P-14** `acast`/`youtube`/`drive` lessons render the REAL embed in an iframe
+  whose `src` is the embed URL stored in the lesson data (never guessed): acast
+  is audio-only (short height), youtube/drive are 16:9; lazy-loaded, `allow`
+  autoplay/encrypted-media/fullscreen; a small "open in <host>" link below opens
+  the source in a new tab. `public/_headers` CSP `frame-src` allows ONLY
+  embed.acast.com, www.youtube.com, www.youtube-nocookie.com, drive.google.com.
+  A lesson with no media shows an offline/needs-internet notice. Only one lesson
+  player is mounted at a time. v1 is streaming only — no download button
+  anywhere. `embedMedia`/`lessonView`, `src/ui/views.ts`; `public/_headers`.
+  [from part P4; embed+CSP from team-test fix, change protected: P-14]
 
 ## My Learning, search, data (P4)
 

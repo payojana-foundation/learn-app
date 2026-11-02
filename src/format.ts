@@ -14,10 +14,18 @@ export function num(n: number | string, lang: Lang): string {
 
 /** Format seconds as m:ss, digits localised (mockup `tm`). */
 export function time(seconds: number, lang: Lang): string {
-  const s = Math.max(0, Math.floor(seconds));
+  const s = Math.max(0, Math.floor(Number(seconds) || 0));
   const m = Math.floor(s / 60);
   const x = s % 60;
   return `${num(m, lang)}:${num(String(x).padStart(2, '0'), lang)}`;
+}
+
+/**
+ * Display-only title: hide a trailing media file extension (.mp4/.mp3, any
+ * case) at the very end of a lesson title. The stored data is never changed.
+ */
+export function displayTitle(title: string): string {
+  return String(title ?? '').replace(/\.(mp4|mp3)$/i, '');
 }
 
 /**
