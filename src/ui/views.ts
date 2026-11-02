@@ -342,5 +342,6 @@ export function moreView(lang: Lang): string {
   <section><div class="list">
   <div><span>${t('LANGUAGE', lang)}</span><span class="lang" role="group"><button data-setlang="km" aria-pressed="${lang === 'km'}">ខ្មែរ</button><button data-setlang="en" aria-pressed="${lang === 'en'}">EN</button></span></div>
   <div><span>${t('OFFLINE', lang)}</span><span class="muted small">${lang === 'km' ? 'v1៖ ស្ទ្រីមតែប៉ុណ្ណោះ' : 'v1: streaming only'}</span></div></div></section>
+  <p class="muted small rights">${esc(t('RIGHTS', lang))}</p>
   <div id="shell-version"></div>`;
 }

@@ -79,6 +79,10 @@ export const STRINGS = {
   EMBED_MSG: { km: 'មេរៀននេះនៅលើ', en: 'This lesson still plays from' },
   OPEN_IN: { km: 'បើកនៅ', en: 'Open in' },
   COMING_SOON: { km: 'កំពុងរៀបចំ — មកដល់ឆាប់ៗ', en: 'Being prepared — coming soon' },
+  RIGHTS: {
+    km: '© ២០២៦ មូលនិធិប្រយោជន៍ និងលោកគ្រូអ្នកបង្រៀន។ សម្រាប់ការសិក្សាផ្ទាល់ខ្លួនប៉ុណ្ណោះ។ សូមកុំយកទៅផ្សាយបន្ត ឬប្រើក្នុងគោលបំណងពាណិជ្ជកម្ម ដោយគ្មានការអនុញ្ញាត។',
+    en: '© 2026 Payojana Foundation and the teachers. For personal study only. Please do not re-publish or use commercially without permission.',
+  },
   OUR_PLAYER: { km: 'ចាក់ពី media.84000.digital', en: 'Plays from media.84000.digital' },
   RESULTS: { km: 'លទ្ធផល', en: 'results' },
   NO_TITLE: { km: 'គ្មានចំណងជើង', en: 'no title' },

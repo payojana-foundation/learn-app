@@ -3,7 +3,7 @@
  *
  * Reads the frozen sources:
  *   data/source/website-courses-2026-09-28.json
- *   data/source/teachers-2026-10-25/teachers-2026-10-25.json  (+ teacher-photos/)
+ *   data/source/teachers-2026-11-02/teachers-2026-11-02.json  (+ teacher-photos/)
  *   data/media-manifest.json  (optional; from the media pipeline, P2)
  * and writes:
  *   public/data/catalog.json
@@ -47,7 +47,7 @@ import { dirname, join } from 'node:path';
  */
 const SOURCE_INPUTS = [
   'data/source/website-courses-2026-09-28.json',
-  'data/source/teachers-2026-10-25/teachers-2026-10-25.json',
+  'data/source/teachers-2026-11-02/teachers-2026-11-02.json',
   'data/media-manifest.json',
   'data/id-aliases.json',
 ];
@@ -343,14 +343,14 @@ function main() {
   const here = dirname(fileURLToPath(import.meta.url));
   const root = join(here, '..');
   const srcDir = join(root, 'data', 'source');
-  const teacherDir = join(srcDir, 'teachers-2026-10-25');
+  const teacherDir = join(srcDir, 'teachers-2026-11-02');
   const outDir = join(root, 'public', 'data');
   const coursesOut = join(outDir, 'courses');
   const photosOut = join(outDir, 'teacher-photos');
   const reportsDir = join(root, 'reports');
 
   const sourceCourses = JSON.parse(readFileSync(join(srcDir, 'website-courses-2026-09-28.json'), 'utf-8')).c;
-  const teachers = JSON.parse(readFileSync(join(teacherDir, 'teachers-2026-10-25.json'), 'utf-8'));
+  const teachers = JSON.parse(readFileSync(join(teacherDir, 'teachers-2026-11-02.json'), 'utf-8'));
   const mediaManifestPath = join(root, 'data', 'media-manifest.json');
   const mediaManifest = existsSync(mediaManifestPath)
     ? JSON.parse(readFileSync(mediaManifestPath, 'utf-8'))
