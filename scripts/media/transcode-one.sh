@@ -65,51 +65,75 @@ fi
 key="audio/${DRIVE_FILE_ID}-a64.mp3"
 out="out-${DRIVE_FILE_ID}-a64.mp3"
 dl="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?alt=media"
+meta="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?fields=mimeType,size,name"
 hdr="Authorization: Bearer ${ACCESS_TOKEN}"$'\r\n'
+
+# Every stage logs its own result + exit code inline (no hidden files), and the
+# FIRST failing stage is the reason. $CURL is overridable for the unit test.
+CURL="${CURL:-curl}"
 
 # Immutable: never overwrite an existing key. A present key = already done.
 if rclone lsf "r2:course-media/${key}" >/dev/null 2>&1; then
   echo "[$DRIVE_FILE_ID] already on R2 ($key) — skipping upload, writing manifest entry"
 else
-  # Probe the real type (some videos are named .mp3). Fail if no audio track.
-  if ! ffprobe -v quiet -print_format json -show_streams \
-        -headers "$hdr" "$dl" > "probe-${DRIVE_FILE_ID}.json"; then
-    echo "[$DRIVE_FILE_ID] ffprobe failed" >&2
-    exit 1
-  fi
-  if ! node scripts/media/ffprobe-decide.mjs "probe-${DRIVE_FILE_ID}.json" >/dev/null; then
-    echo "[$DRIVE_FILE_ID] no audio stream — nothing to transcode" >&2
+  # Stage 1: Drive metadata GET — log HTTP status, mimeType, size. A 403/404
+  # here (sharing/permission) is the usual cause of an otherwise-silent failure.
+  mbody="$("$CURL" -sS -H "Authorization: Bearer ${ACCESS_TOKEN}" -w '\n%{http_code}' "$meta")"
+  mcode="$(printf '%s' "$mbody" | tail -n1)"
+  mjson="$(printf '%s' "$mbody" | sed '$d')"
+  mmime="$(printf '%s' "$mjson" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{process.stdout.write(String(JSON.parse(s).mimeType||"?"))}catch{process.stdout.write("?")}})')"
+  msize="$(printf '%s' "$mjson" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{process.stdout.write(String(JSON.parse(s).size||"?"))}catch{process.stdout.write("?")}})')"
+  echo "[$DRIVE_FILE_ID] stage=drive-meta http=${mcode} mimeType=${mmime} size=${msize}"
+  if [ "$mcode" != "200" ]; then
+    echo "[$DRIVE_FILE_ID] FAILED stage=drive-meta: HTTP ${mcode} (check Drive sharing/permission for this id)" >&2
     exit 1
   fi
 
-  # Pass 1: measure loudness.
+  # Stage 2: ffprobe the real type (some videos are named .mp3). Fail if no
+  # audio track. Capture ffprobe stderr so a Drive-stream error is visible.
+  probe_err="$(ffprobe -v error -print_format json -show_streams \
+        -headers "$hdr" "$dl" 2>&1 > "probe-${DRIVE_FILE_ID}.json")"
+  pcode=$?
+  echo "[$DRIVE_FILE_ID] stage=ffprobe exit=${pcode}"
+  if [ "$pcode" -ne 0 ]; then
+    echo "[$DRIVE_FILE_ID] FAILED stage=ffprobe: ${probe_err}" >&2
+    exit 1
+  fi
+  if ! node scripts/media/ffprobe-decide.mjs "probe-${DRIVE_FILE_ID}.json" >/dev/null; then
+    echo "[$DRIVE_FILE_ID] FAILED stage=ffprobe-decide: no audio stream — nothing to transcode" >&2
+    exit 1
+  fi
+
+  # Stage 3a: loudness pass 1.
   measured=$(ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn \
     -af "pan=mono|c0=0.5*c0+0.5*c1,loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json" \
     -f null - 2>&1 | sed -n '/{/,/}/p')
   mi=$(echo "$measured" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const j=JSON.parse(s);process.stdout.write([j.input_i,j.input_tp,j.input_lra,j.input_thresh].join(" "))}catch(e){process.exit(1)}})') || {
-    echo "[$DRIVE_FILE_ID] loudnorm pass-1 parse failed" >&2; exit 1; }
+    echo "[$DRIVE_FILE_ID] FAILED stage=ffmpeg-pass1: loudnorm measure/parse failed" >&2; exit 1; }
+  echo "[$DRIVE_FILE_ID] stage=ffmpeg-pass1 exit=0 (I,TP,LRA,thresh=$mi)"
   # shellcheck disable=SC2086
   set -- $mi
 
-  # Pass 2: apply linear normalisation; 64k CBR mono 44.1 kHz.
+  # Stage 3b: pass 2 — apply linear normalisation; 64k CBR mono 44.1 kHz.
   if ! ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn \
       -af "pan=mono|c0=0.5*c0+0.5*c1,loudnorm=I=-16:TP=-1.5:LRA=11:measured_I=$1:measured_TP=$2:measured_LRA=$3:measured_thresh=$4:linear=true" \
       -c:a libmp3lame -b:a 64k -ar 44100 "$out"; then
-    echo "[$DRIVE_FILE_ID] ffmpeg pass-2 failed" >&2
+    echo "[$DRIVE_FILE_ID] FAILED stage=ffmpeg-pass2: transcode failed" >&2
     exit 1
   fi
+  echo "[$DRIVE_FILE_ID] stage=ffmpeg-pass2 exit=0 bytes=$(stat -c%s "$out" 2>/dev/null || echo '?')"
 
-  # Upload immutably. A failed copy/move previously went UNNOTICED (exit code
-  # ignored), so the id was marked "done" with nothing in R2. Check both.
-  if ! rclone copy --immutable \
+  # Stage 4: upload immutably, straight to the final key. copyto exit + output
+  # are logged; a failure here previously went unnoticed (id marked "done").
+  up="$(rclone copyto --immutable \
       --header-upload "Cache-Control: public, max-age=31536000, immutable" \
       --header-upload "Content-Type: audio/mpeg" \
-      "$out" "r2:course-media/audio/"; then
-    echo "[$DRIVE_FILE_ID] rclone copy to R2 failed" >&2
-    exit 1
-  fi
-  if ! rclone moveto "r2:course-media/audio/${out}" "r2:course-media/${key}"; then
-    echo "[$DRIVE_FILE_ID] rclone moveto to final key failed" >&2
+      "$out" "r2:course-media/${key}" 2>&1)"
+  ucode=$?
+  printf '%s\n' "$up"
+  echo "[$DRIVE_FILE_ID] stage=rclone-copyto exit=${ucode}"
+  if [ "$ucode" -ne 0 ]; then
+    echo "[$DRIVE_FILE_ID] FAILED stage=rclone-copyto: ${up}" >&2
     exit 1
   fi
 fi
