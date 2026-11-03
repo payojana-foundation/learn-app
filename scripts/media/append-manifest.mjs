@@ -51,7 +51,15 @@ export function validateEntry(entry) {
 export function appendEntry(manifest, entry) {
   const list = Array.isArray(manifest) ? manifest : [];
   if (list.some((e) => e.key === entry.key)) return list; // immutable: no overwrite
-  return [...list, { ...entry, status: DRAFT_STATUS }];
+  // Bug-4 fix: a NEW md5-keyed (B2) entry REPLACES an old legacy entry for the
+  // same drive_file_id whose key is NOT the B2 key (the old R2 object is left
+  // untouched; only the manifest row is swapped). A matching B2 key is handled
+  // by the immutability check above.
+  const isB2 = /^audio\/[0-9a-f]{16}-a64(-v\d+)?\.mp3$/.test(entry.key || '');
+  const pruned = isB2
+    ? list.filter((e) => !(e.drive_file_id === entry.drive_file_id && e.key !== entry.key && !/^audio\/[0-9a-f]{16}-a64(-v\d+)?\.mp3$/.test(e.key || '')))
+    : list;
+  return [...pruned, { ...entry, status: DRAFT_STATUS }];
 }
 
 function main() {

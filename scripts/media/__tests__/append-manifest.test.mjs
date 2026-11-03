@@ -49,4 +49,18 @@ describe('appendEntry', () => {
     const out = appendEntry(first, v2);
     expect(out).toHaveLength(2);
   });
+
+  it('bug-4: a new B2 md5 entry REPLACES the same id\'s legacy drive-id entry', () => {
+    const legacy = { drive_file_id: entry.drive_file_id, key: `audio/${entry.drive_file_id}-a64.mp3`, bytes: 5, duration_s: 9, sha256: 'c'.repeat(64), status: 'approved' };
+    const out = appendEntry([legacy], entry); // entry has the B2 md5 key
+    expect(out).toHaveLength(1);
+    expect(out[0].key).toBe(entry.key); // the md5 key row only
+    expect(out.some((e) => e.key === legacy.key)).toBe(false); // legacy row dropped
+  });
+
+  it('does not drop a DIFFERENT id\'s legacy entry', () => {
+    const other = { drive_file_id: 'OTHER', key: 'audio/OTHER-a64.mp3', bytes: 5, duration_s: 9, sha256: 'd'.repeat(64), status: 'approved' };
+    const out = appendEntry([other], entry);
+    expect(out).toHaveLength(2);
+  });
 });

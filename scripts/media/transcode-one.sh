@@ -80,6 +80,17 @@ nn() { local code="$1"; shift; node -e "$code" -- "$@"; }
 
 dl="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?alt=media"
 meta="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?fields=name,mimeType,size,md5Checksum"
+
+# Drive tokens expire after ~60 min. If REFRESH_TOKEN_CMD is set (the workflow
+# supplies a gcloud command that prints a fresh access token), re-mint the token
+# before EACH file, and once more on a 401. $hdr is rebuilt from ACCESS_TOKEN.
+refresh_token() {
+  [ -n "${REFRESH_TOKEN_CMD:-}" ] || return 0
+  local t; t="$(eval "$REFRESH_TOKEN_CMD" 2>/dev/null | tr -d '[:space:]')"
+  [ -n "$t" ] && ACCESS_TOKEN="$t"
+  hdr="Authorization: Bearer ${ACCESS_TOKEN}"$'\r\n'
+}
+refresh_token
 hdr="Authorization: Bearer ${ACCESS_TOKEN}"$'\r\n'
 
 # B1: never convert a listed duplicate.
@@ -90,8 +101,16 @@ if [ -f "$DUPLICATES" ] && nn 'const l=require("fs").readFileSync(process.argv[1
 fi
 
 # B1: Drive files.get (name, mimeType, size, md5Checksum) — no download yet.
-mbody="$("$CURL" -sS -H "Authorization: Bearer ${ACCESS_TOKEN}" -w '\n%{http_code}' "$meta")"
+drive_meta() { "$CURL" -sS -H "Authorization: Bearer ${ACCESS_TOKEN}" -w '\n%{http_code}' "$meta"; }
+mbody="$(drive_meta)"
 mcode="$(printf '%s' "$mbody" | tail -n1)"
+if [ "$mcode" = "401" ]; then
+  # Token expired mid-run → refresh once and retry.
+  echo "[$DRIVE_FILE_ID] drive-meta 401 — refreshing token and retrying once" >&2
+  refresh_token
+  mbody="$(drive_meta)"
+  mcode="$(printf '%s' "$mbody" | tail -n1)"
+fi
 mjson="$(printf '%s' "$mbody" | sed '$d')"
 meta_field() { printf '%s' "$mjson" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{process.stdout.write(String(JSON.parse(s)[process.argv[1]]||""))}catch{process.stdout.write("")}})' -- "$1"; }
 drive_name="$(meta_field name)"
@@ -99,7 +118,7 @@ msize="$(meta_field size)"
 md5="$(meta_field md5Checksum)"
 echo "[$DRIVE_FILE_ID] stage=drive-meta http=${mcode} size=${msize} md5=${md5:-none} name=${drive_name}"
 if [ "$mcode" != "200" ]; then
-  echo "[$DRIVE_FILE_ID] FAILED stage=drive-meta: HTTP ${mcode} (check Drive sharing/permission)" >&2
+  echo "[$DRIVE_FILE_ID] FAILED stage=drive-meta: HTTP ${mcode} (token expired or no access)" >&2
   exit 1
 fi
 if [ -z "$md5" ]; then
@@ -171,9 +190,11 @@ measure_depth_busy() { # uses $G → prints "depth busy"
   eb="$(ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$dl" -af "${pre},ebur128=peak=true" -f null - 2>&1)"
   tp="$(printf '%s' "$eb" | grep -oE 'Peak:[[:space:]]*-?[0-9.]+ dBFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
   local depth; depth="$(nn 'process.stdout.write(String((parseFloat(process.argv[1])||0)-parseFloat(process.argv[2])))' "${tp:-0}" "$ceil")"
+  # busy: PER-FRAME Peak_level printed by ametadata (plain astats puts values in
+  # per-frame metadata, NOT stderr → the old grep always saw 0 frames).
   astats="$(ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$dl" \
-    -af "${pre},asetnsamples=n=2205:p=0,astats=metadata=1:reset=1" -f null - 2>&1 \
-    | grep -oE 'Peak level dB: -?[0-9.]+|Peak level dB: -inf' | grep -oE '\-?[0-9.]+|-inf')"
+    -af "${pre},asetnsamples=n=2205:p=0,astats=metadata=1:reset=1,ametadata=mode=print:key=lavfi.astats.Overall.Peak_level" -f null - 2>&1 \
+    | grep -oE 'lavfi.astats.Overall.Peak_level=(-?[0-9.]+|-inf)' | grep -oE '\-?[0-9.]+|-inf')"
   local busy; busy="$(printf '%s\n' "$astats" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const v=s.split(/\n/).filter(Boolean).map(x=>x==="-inf"?-120:parseFloat(x));const c=parseFloat(process.argv[1]);const over=v.filter(x=>x>c).length;process.stdout.write(String(v.length?(100*over/v.length):0))})' -- "$ceil")"
   printf '%s %s' "${depth:-0}" "${busy:-0}"
 }
@@ -209,7 +230,7 @@ if [ "$result" = "failed" ]; then
   # Log the timestamps (s) of the 5 largest peaks above the ceiling so the
   # coordinator listens only to those moments.
   peaks="$(ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$dl" \
-    -af "${base_af%aresample=44100}volume=${G}dB,aresample=44100,astats=metadata=1:reset=1,ametadata=mode=print:key=lavfi.astats.Overall.Peak_level" -f null - 2>&1 \
+    -af "${base_af%aresample=44100}volume=${G}dB,aresample=44100,asetnsamples=n=2205:p=0,astats=metadata=1:reset=1,ametadata=mode=print:key=lavfi.astats.Overall.Peak_level" -f null - 2>&1 \
     | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const re=/pts_time:([0-9.]+)[\s\S]*?Peak_level=(-?[0-9.]+|-inf)/g;let m,a=[];while((m=re.exec(s))){a.push([parseFloat(m[1]),m[2]==="-inf"?-120:parseFloat(m[2])])}const c=parseFloat(process.argv[1]);a=a.filter(x=>x[1]>c).sort((x,y)=>y[1]-x[1]).slice(0,5).map(x=>x[0].toFixed(1));process.stdout.write(a.join(", "))}' -- "$ceil")"
   echo "[$DRIVE_FILE_ID] FAILED stage=accept: depth=${depth} busy=${busy} — 5 loudest peaks above ceiling at s: ${peaks:-none}" >&2
   exit 1

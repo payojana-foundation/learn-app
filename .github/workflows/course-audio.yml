@@ -152,6 +152,10 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
           DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '0' }}
+          # Drive tokens expire after ~60 min. transcode-one re-mints a fresh
+          # access token before each file and once on a 401 via this command
+          # (the WIF credentials file is already on disk from the auth step).
+          REFRESH_TOKEN_CMD: "gcloud auth print-access-token --scopes=https://www.googleapis.com/auth/drive"
         run: |
           set -uo pipefail
           chmod +x scripts/media/transcode-one.sh scripts/media/batch-run.sh

@@ -1,4 +1,4 @@
-# learn-app — Job B (course-audio) v2 · APPROVED by audio/engineering 2 Nov 2026 (B3/B6 updated 2 Nov, 21:00)
+# learn-app — Job B (course-audio) v2 · APPROVED by audio/engineering 2 Nov 2026 (B3 rewritten 3 Nov; frozen)
 
 > SPEC FREEZE — STARTED 3 Nov (audio + engineering): B2–B5 as rewritten 3 Nov, until pilot parts 1–15 are live and signed off. Frozen: key rule (B2), B3 chain + thresholds, B4 fields, B5 checks. Allowed: only fixes for a crash or wrong output, logged as "CHANGE: old → new — reason, date". Failing files stop and are reported; spec unchanged. New ideas → "v3 list" at the end of this doc.
 
@@ -105,11 +105,17 @@ Approval: files with result "ok" may be approved by course by the team without l
 - Order key: in the ab-test run artifact (coordinator holds it). Thresholds: pending audio + engineering.
 
 ## CHANGE log
-(empty)
+- CHANGE: busy via plain astats stderr grep → `asetnsamples=2205,astats=metadata=1:reset=1,ametadata=mode=print:key=…Peak_level` parsed per frame (same filter for the failed-file peak timestamps) — per-frame values are not in stderr so busy was always 0, 3 Nov.
+- CHANGE: b3-decide cap capI = I(pass1) − cut → capI = −16 − cut — the chain targets −16 before the cap, so the floor check used the wrong I, 3 Nov.
+- CHANGE: Drive token used once for the whole job → refreshed before each file and once on a 401 (REFRESH_TOKEN_CMD); 401 hint "check sharing" → "token expired or no access" — tokens expire after 60 min, 3 Nov.
+- CHANGE: "already in manifest" skip on any entry → only when that id's entry has the B2 md5 key; a legacy `audio/<drive_id>` entry is re-processed and replaced in the manifest on success (old R2 object untouched), 3 Nov.
 
 ## v3 list
 (empty)
 
 ## Pilot plan (3 Nov)
-- Run pilot parts 1–15 from data/audio-queue.pilot.csv; part 1 uploads under its md5 key (-a64.mp3).
-- Coordinator listens to part 1 (2 min start + 2 min middle) and every "cap" file.
+1. Run all 15 from data/audio-queue.pilot.csv with dry_run=true first; send the table
+   (part, G, depth, busy, expected result) to audio. Real run only after the coordinator reads it.
+2. Real run: part 1 uploads under its md5 key (-a64.mp3).
+3. Coordinator listens to part 1 (2 min start + 2 min middle), every "cap", and the logged
+   peak moments of every "failed" (→ exception or manual fix).

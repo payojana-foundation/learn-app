@@ -43,6 +43,14 @@ describe('B3 decide (accept | cap | exception | fail)', () => {
     expect(r.verdict).toBe('cap');
     expect(r.capG).toBe(2);
   });
+  it('bug-2: capI is -16 - cut, independent of I(pass1): depth 12.6 busy 0 → cap, cut 0.6, capI -16.6', () => {
+    // busy 0 → 12 dB rule in play, cut = 12.6 - 12 = 0.6. I(pass1)=-9 must NOT
+    // affect capI; capI = -16 - 0.6 = -16.6 (≥ -18) → cap.
+    const r = decide({ depth: 12.6, busy: 0, G: -7, I: -9 });
+    expect(r.verdict).toBe('cap');
+    expect(r.capG).toBeCloseTo(-7.6, 5); // G - 0.6
+    expect(r.reason).toMatch(/-16\.6/);
+  });
   it('routes an exception to its accept_I (≥ -18)', () => {
     const r = decide({ depth: 30, busy: 50, G: 3, I: -16, exception: { accept_I: -18 } });
     expect(r.verdict).toBe('exception');

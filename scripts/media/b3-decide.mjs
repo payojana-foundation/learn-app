@@ -40,7 +40,9 @@ export function decide({ depth, busy, G, I, exception }) {
   if (depthRuleHolds(depth, busy)) return { verdict: 'accept', reason: `depth ${depth} within rule (busy ${busy})` };
   const cut = capReduction(depth, busy);
   const capG = G - cut;
-  const capI = I - cut; // lowering G by `cut` dB lowers integrated loudness by `cut`
+  // The B3 chain targets I = -16 before the cap; a `cut` dB reduction lands the
+  // capped result at -16 - cut (NOT I(pass1) - cut).
+  const capI = -16 - cut;
   if (capI < TH.iFloor) return { verdict: 'fail', reason: `cap would need I=${capI.toFixed(1)} < -18 floor (depth=${depth}, busy=${busy})` };
   return { verdict: 'cap', capG, reason: `depth ${depth} > rule; lowering G by ${cut.toFixed(1)} dB (→ I≈${capI.toFixed(1)})` };
 }

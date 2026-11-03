@@ -32,11 +32,21 @@ export function parseQueue(text) {
   return ids;
 }
 
-/** The set of drive_file_ids already present in the media-manifest (any status). */
+/** A B2 md5 key: audio/<16 lowercase hex>-a64[-vN].mp3 (NOT a legacy drive-id key). */
+export function isB2Key(key) {
+  return /^audio\/[0-9a-f]{16}-a64(-v\d+)?\.mp3$/.test(String(key || ''));
+}
+
+/**
+ * The set of drive_file_ids already present with a B2 md5 key. An OLD entry
+ * keyed by the drive id (audio/<drive_id>-a64.mp3) is NOT counted, so the id is
+ * re-processed and its manifest entry is replaced by the new md5-keyed one on
+ * success (the old R2 object is left untouched).
+ */
 export function manifestDriveIds(manifest) {
   const set = new Set();
   for (const e of Array.isArray(manifest) ? manifest : []) {
-    if (e && e.drive_file_id) set.add(e.drive_file_id);
+    if (e && e.drive_file_id && isB2Key(e.key)) set.add(e.drive_file_id);
   }
   return set;
 }
