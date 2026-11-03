@@ -1,14 +1,13 @@
 #!/usr/bin/env bash
-# scripts/media/transcode-one.sh — transcode ONE Drive recording to a
-# normalised 64 kbps mono MP3 on R2 and write entry-<id>.json for the manifest
-# step (Q3, course-audio.yml). Called once per drive_file_id by the batch loop.
+# scripts/media/transcode-one.sh — Job B v2 (docs/job-b-v2.md): transcode ONE
+# Drive recording to a normalised 64 kbps mono MP3 on R2 and write
+# entry-<id>.json for the manifest step. Called once per drive_file_id.
 #
 # Requires in the environment: ACCESS_TOKEN (WIF Drive access token).
-# Immutable: if the R2 key already exists, this is a no-op success (the id is
-# "done" without re-uploading). Exit 0 on success/skip, non-zero on failure.
-#
-# This is the same pilot pipeline as before, factored into a per-file script so
-# the workflow can run several in parallel and keep going past a single failure.
+# Key = audio/<first 16 hex of Drive md5Checksum>-a64.mp3 (B2). Loudness is the
+# ebur128 → volume → alimiter chain with a 3-loop feedback (B3); accept only
+# I = -16 ±0.5 LUFS AND TP ≤ -1.5 dBTP, else fail with no upload.
+# Exit 0 = done, 3 = skipped (listed duplicate / key exists), non-zero = failed.
 
 set -uo pipefail
 
@@ -69,145 +68,162 @@ if [ -z "${ACCESS_TOKEN:-}" ]; then
   exit 2
 fi
 
-# Key convention (DNS-desk rules, 28–30 Oct): the normalised audio lives ONLY
-# under `course-media` at `audio/<drive_file_id>-a64.mp3`. A corrected recording
-# is re-uploaded under `audio/<drive_file_id>-a64-v2.mp3` (never an overwrite).
-# The key is derived from the Drive file id above (which is required, else this
-# script already exited 2) — never invented from anything else. This script
-# NEVER writes to the `course-originals` bucket.
-key="audio/${DRIVE_FILE_ID}-a64.mp3"
-out="out-${DRIVE_FILE_ID}-a64.mp3"
+CURL="${CURL:-curl}"
+DUPLICATES="${DUPLICATES:-data/media-duplicates.json}"
+
+# nn <args…> — run `node -e` passing args after `--` so a leading-dash value
+# (e.g. a negative LUFS like -16.5) is NOT parsed by node as an option.
+# (fixes "node: bad option").
+nn() { local code="$1"; shift; node -e "$code" -- "$@"; }
+
 dl="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?alt=media"
-meta="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?fields=mimeType,size,name"
+meta="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?fields=name,mimeType,size,md5Checksum"
 hdr="Authorization: Bearer ${ACCESS_TOKEN}"$'\r\n'
 
-# Every stage logs its own result + exit code inline (no hidden files), and the
-# FIRST failing stage is the reason. $CURL is overridable for the unit test.
-CURL="${CURL:-curl}"
+# B1: never convert a listed duplicate.
+if [ -f "$DUPLICATES" ] && nn 'const l=require("fs").readFileSync(process.argv[1],"utf8");process.exit(JSON.parse(l).includes(process.argv[2])?0:1)' "$DUPLICATES" "$DRIVE_FILE_ID"; then
+  echo "[$DRIVE_FILE_ID] SKIPPED: listed duplicate" >&2
+  echo "::skip-reason::listed duplicate"
+  exit 3
+fi
 
-# FORCE (set from the workflow's force_ids input): re-measure an already-
-# uploaded id WITHOUT re-uploading. Default off.
-FORCE="${FORCE:-0}"
-
-# Drive metadata GET up front so drive_name is in the log + entry on every path
-# (skip, force, full). A 403/404 here (sharing) is the usual silent-fail cause.
+# B1: Drive files.get (name, mimeType, size, md5Checksum) — no download yet.
 mbody="$("$CURL" -sS -H "Authorization: Bearer ${ACCESS_TOKEN}" -w '\n%{http_code}' "$meta")"
 mcode="$(printf '%s' "$mbody" | tail -n1)"
 mjson="$(printf '%s' "$mbody" | sed '$d')"
-mmime="$(printf '%s' "$mjson" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{process.stdout.write(String(JSON.parse(s).mimeType||"?"))}catch{process.stdout.write("?")}})')"
-msize="$(printf '%s' "$mjson" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{process.stdout.write(String(JSON.parse(s).size||"?"))}catch{process.stdout.write("?")}})')"
-drive_name="$(printf '%s' "$mjson" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{process.stdout.write(String(JSON.parse(s).name||""))}catch{process.stdout.write("")}})')"
-echo "[$DRIVE_FILE_ID] stage=drive-meta http=${mcode} mimeType=${mmime} size=${msize} name=${drive_name}"
+meta_field() { printf '%s' "$mjson" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{process.stdout.write(String(JSON.parse(s)[process.argv[1]]||""))}catch{process.stdout.write("")}})' -- "$1"; }
+drive_name="$(meta_field name)"
+msize="$(meta_field size)"
+md5="$(meta_field md5Checksum)"
+echo "[$DRIVE_FILE_ID] stage=drive-meta http=${mcode} size=${msize} md5=${md5:-none} name=${drive_name}"
+if [ "$mcode" != "200" ]; then
+  echo "[$DRIVE_FILE_ID] FAILED stage=drive-meta: HTTP ${mcode} (check Drive sharing/permission)" >&2
+  exit 1
+fi
+if [ -z "$md5" ]; then
+  echo "[$DRIVE_FILE_ID] FAILED stage=drive-meta: no md5Checksum" >&2
+  exit 1
+fi
 
-# Immutable: never overwrite an existing key. "Already on R2" ONLY if lsjson
-# shows an object with size > 0 (the same proof verify uses) — `rclone lsf` with
-# no_check_bucket returned exit 0 + empty output for a MISSING key.
+# B2: key = audio/<first 16 hex of md5Checksum>-a64.mp3 (NOT the drive id).
+md5hex="$(printf '%s' "$md5" | tr '[:upper:]' '[:lower:]' | grep -oE '^[0-9a-f]{16}')"
+if [ -z "$md5hex" ]; then
+  echo "[$DRIVE_FILE_ID] FAILED stage=key: md5Checksum is not hex" >&2
+  exit 1
+fi
+key="audio/${md5hex}-a64.mp3"
+out="out-${md5hex}-a64.mp3"
+echo "[$DRIVE_FILE_ID] stage=key key=${key} source_md5=${md5}"
+
+# B1: duplicate guard — if the key already exists (size > 0), skip before any
+# download. Checked AFTER the key is known (depends on md5).
 existing="$(object_size "$key")"
-present=0
-[ -n "$existing" ] && [ "$existing" -gt 0 ] 2>/dev/null && present=1
-echo "[$DRIVE_FILE_ID] stage=r2-precheck key=$key size=${existing:-0} force=${FORCE}"
-
-if [ "$present" = "1" ]; then
-  # Already uploaded. FORCE or not, we NEVER re-upload (immutable); we re-measure
-  # the R2 copy below. FORCE only matters upstream (queue-plan lets the id past
-  # the manifest-skip so it reaches here).
-  echo "[$DRIVE_FILE_ID] on R2 ($key, ${existing} bytes) — no upload; re-measuring"
-else
-  if [ "$mcode" != "200" ]; then
-    echo "[$DRIVE_FILE_ID] FAILED stage=drive-meta: HTTP ${mcode} (check Drive sharing/permission for this id)" >&2
-    exit 1
-  fi
-
-  # Stage 2: ffprobe the real type (some videos are named .mp3). Fail if no
-  # audio track. Capture ffprobe stderr so a Drive-stream error is visible.
-  probe_err="$(ffprobe -v error -print_format json -show_streams \
-        -headers "$hdr" "$dl" 2>&1 > "probe-${DRIVE_FILE_ID}.json")"
-  pcode=$?
-  echo "[$DRIVE_FILE_ID] stage=ffprobe exit=${pcode}"
-  if [ "$pcode" -ne 0 ]; then
-    echo "[$DRIVE_FILE_ID] FAILED stage=ffprobe: ${probe_err}" >&2
-    exit 1
-  fi
-  if ! node scripts/media/ffprobe-decide.mjs "probe-${DRIVE_FILE_ID}.json" >/dev/null; then
-    echo "[$DRIVE_FILE_ID] FAILED stage=ffprobe-decide: no audio stream — nothing to transcode" >&2
-    exit 1
-  fi
-
-  # Stage 3a: loudness pass 1.
-  measured=$(ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn \
-    -af "pan=mono|c0=0.5*c0+0.5*c1,loudnorm=I=-16:TP=-1.5:LRA=11:print_format=json" \
-    -f null - 2>&1 | sed -n '/{/,/}/p')
-  mi=$(echo "$measured" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const j=JSON.parse(s);process.stdout.write([j.input_i,j.input_tp,j.input_lra,j.input_thresh].join(" "))}catch(e){process.exit(1)}})') || {
-    echo "[$DRIVE_FILE_ID] FAILED stage=ffmpeg-pass1: loudnorm measure/parse failed" >&2; exit 1; }
-  echo "[$DRIVE_FILE_ID] stage=ffmpeg-pass1 exit=0 (I,TP,LRA,thresh=$mi)"
-  # shellcheck disable=SC2086
-  set -- $mi
-
-  # Stage 3b: pass 2 — apply linear normalisation; 64k CBR mono 44.1 kHz.
-  # loudnorm prints its applied-measurement JSON to stderr (print_format=json);
-  # capture it so output_i/tp/lra/normalization_type are logged + go in the entry.
-  p2err="$(ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn \
-      -af "pan=mono|c0=0.5*c0+0.5*c1,loudnorm=I=-16:TP=-1.5:LRA=11:measured_I=$1:measured_TP=$2:measured_LRA=$3:measured_thresh=$4:linear=true:print_format=json" \
-      -c:a libmp3lame -b:a 64k -ar 44100 "$out" 2>&1)"
-  p2code=$?
-  if [ "$p2code" -ne 0 ]; then
-    echo "[$DRIVE_FILE_ID] FAILED stage=ffmpeg-pass2: ${p2err}" >&2
-    exit 1
-  fi
-  ln_json="$(printf '%s' "$p2err" | sed -n '/{/,/}/p')"
-  ln_out="$(printf '%s' "$ln_json" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const j=JSON.parse(s);process.stdout.write([j.output_i,j.output_tp,j.output_lra,j.normalization_type].join(" "))}catch{process.stdout.write("? ? ? ?")}})')"
-  norm_type="$(printf '%s' "$ln_out" | awk '{print $4}')"
-  echo "[$DRIVE_FILE_ID] stage=ffmpeg-pass2 exit=0 bytes=$(stat -c%s "$out" 2>/dev/null || echo '?') loudnorm(out_i,out_tp,out_lra,norm_type=$ln_out)"
-
-  # Stage 4: upload immutably, straight to the final key. copyto exit + output
-  # are logged; a failure here previously went unnoticed (id marked "done").
-  up="$(rclone copyto --immutable \
-      --header-upload "Cache-Control: public, max-age=31536000, immutable" \
-      --header-upload "Content-Type: audio/mpeg" \
-      "$out" "r2:course-media/${key}" 2>&1)"
-  ucode=$?
-  printf '%s\n' "$up"
-  echo "[$DRIVE_FILE_ID] stage=rclone-copyto exit=${ucode}"
-  if [ "$ucode" -ne 0 ]; then
-    echo "[$DRIVE_FILE_ID] FAILED stage=rclone-copyto: ${up}" >&2
-    exit 1
-  fi
+if [ -n "$existing" ] && [ "$existing" -gt 0 ] 2>/dev/null; then
+  echo "[$DRIVE_FILE_ID] SKIPPED: key exists (${key}, ${existing} bytes)" >&2
+  echo "::skip-reason::key exists"
+  exit 3
 fi
 
-# VERIFY before claiming success: the object must exist in R2 with size > 0 AND
-# the public URL must return 200. Without this, a silent upload failure (or a
-# bucket/endpoint misconfig) still reported "done" with an empty bucket.
+# B3 stage 1: pass-1 ebur128 on the mono-mixed, 44.1 kHz signal → I, TP, LRA.
+chans="$(ffprobe -v error -select_streams a:0 -show_entries stream=channels -of csv=p=0 -headers "$hdr" "$dl" 2>/dev/null | head -n1)"
+if [ -z "$chans" ]; then
+  echo "[$DRIVE_FILE_ID] FAILED stage=ffprobe: no audio stream" >&2
+  exit 1
+fi
+pan=""
+[ "$chans" -ge 2 ] 2>/dev/null && pan="pan=mono|c0=0.5*c0+0.5*c1,"
+base_af="${pan}aresample=44100"
+
+measure_ebur128() { # <file-or-"-dl"> → "I TP LRA"
+  local src="$1" af="$2" eb
+  if [ "$src" = "-dl" ]; then
+    eb="$(ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$dl" -af "${af},ebur128=peak=true" -f null - 2>&1)"
+  else
+    eb="$(ffmpeg -hide_banner -nostdin -i "$src" -af "ebur128=peak=true" -f null - 2>&1)"
+  fi
+  local I TP LRA
+  I="$(printf '%s' "$eb" | grep -oE 'I:[[:space:]]*-?[0-9.]+ LUFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
+  TP="$(printf '%s' "$eb" | grep -oE 'Peak:[[:space:]]*-?[0-9.]+ dBFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
+  LRA="$(printf '%s' "$eb" | grep -oE 'LRA:[[:space:]]*-?[0-9.]+ LU' | tail -n1 | grep -oE '\-?[0-9.]+')"
+  printf '%s %s %s' "${I:-NaN}" "${TP:-NaN}" "${LRA:-NaN}"
+}
+
+read -r p1_i p1_tp p1_lra <<<"$(measure_ebur128 -dl "$base_af")"
+echo "[$DRIVE_FILE_ID] stage=pass1 I=${p1_i} TP=${p1_tp} LRA=${p1_lra}"
+if [ "$p1_i" = "NaN" ]; then
+  echo "[$DRIVE_FILE_ID] FAILED stage=pass1: could not measure loudness" >&2
+  exit 1
+fi
+
+# B3 stages 2-4: encode with volume=G + alimiter, then verify-measure; adjust
+# G/limit up to 3 loops. G = -16 - I(pass1); limit starts 0.708.
+G="$(nn 'process.stdout.write(String(-16 - parseFloat(process.argv[1])))' "$p1_i")"
+limit="0.708"
+loops=0
+out_i="NaN"; out_tp="NaN"; out_lra="NaN"
+encode_once() { # uses $G $limit → writes $out
+  ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn \
+    -af "${base_af},volume=${G}dB,alimiter=limit=${limit}:attack=5:release=50:level=disabled" \
+    -c:a libmp3lame -b:a 64k -map_metadata -1 "$out"
+}
+while [ "$loops" -lt 3 ]; do
+  loops=$(( loops + 1 ))
+  if ! encode_once 2>"ffmpeg-${md5hex}.err"; then
+    echo "[$DRIVE_FILE_ID] FAILED stage=encode(loop ${loops}): $(tail -n 3 "ffmpeg-${md5hex}.err" | tr '\n' ' ')" >&2
+    exit 1
+  fi
+  read -r out_i out_tp out_lra <<<"$(measure_ebur128 "$out" "")"
+  echo "[$DRIVE_FILE_ID] stage=encode loop=${loops} G=${G} limit=${limit} out_I=${out_i} out_TP=${out_tp} out_LRA=${out_lra}"
+  # accept: I = -16 ±0.5 AND TP ≤ -1.5
+  if nn 'const i=parseFloat(process.argv[1]),t=parseFloat(process.argv[2]);process.exit(i>=-16.5&&i<=-15.5&&t<=-1.5?0:1)' "$out_i" "$out_tp"; then
+    break
+  fi
+  # adjust, in order: TP too hot → tighten limiter; then I low → raise G; I high → lower G.
+  adj="$(nn 'const i=parseFloat(process.argv[1]),t=parseFloat(process.argv[2]),G=parseFloat(process.argv[3]),L=parseFloat(process.argv[4]);let ng=G,nl=L;if(t>-1.5){nl=L*0.9}else if(i<-16.5){ng=G+(-16-i)}else if(i>-15.5){ng=G-(i+16)}process.stdout.write(ng+" "+nl)' "$out_i" "$out_tp" "$G" "$limit")"
+  G="$(printf '%s' "$adj" | awk '{print $1}')"
+  limit="$(printf '%s' "$adj" | awk '{print $2}')"
+  if nn 'process.exit(parseFloat(process.argv[1])<0.5?0:1)' "$limit"; then
+    echo "[$DRIVE_FILE_ID] limiter floor reached (limit<0.5) — stopping" >&2
+    break
+  fi
+done
+
+# B3 stage 5: accept only I = -16 ±0.5 AND TP ≤ -1.5; otherwise fail, no upload.
+if ! nn 'const i=parseFloat(process.argv[1]),t=parseFloat(process.argv[2]);process.exit(i>=-16.5&&i<=-15.5&&t<=-1.5?0:1)' "$out_i" "$out_tp"; then
+  echo "[$DRIVE_FILE_ID] FAILED stage=accept: I=${out_i} TP=${out_tp} outside target after ${loops} loop(s) — NOT uploaded" >&2
+  exit 1
+fi
+
+# B5 upload: rclone copy --immutable, then verify (size == local, 200, 206).
+bytes=$(stat -c%s "$out")
+dur=$(ffprobe -v quiet -show_entries format=duration -of csv=p=0 "$out" | cut -d. -f1)
+sha=$(sha256sum "$out" | cut -d' ' -f1)
+up="$(rclone copyto --immutable \
+    --header-upload "Cache-Control: public, max-age=31536000, immutable" \
+    --header-upload "Content-Type: audio/mpeg" \
+    "$out" "r2:course-media/${key}" 2>&1)"
+ucode=$?
+printf '%s\n' "$up"
+echo "[$DRIVE_FILE_ID] stage=rclone-copyto exit=${ucode}"
+if [ "$ucode" -ne 0 ]; then
+  echo "[$DRIVE_FILE_ID] FAILED stage=rclone-copyto: ${up}" >&2
+  exit 1
+fi
+remote_size="$(object_size "$key")"
+if [ "${remote_size:-0}" != "$bytes" ]; then
+  echo "[$DRIVE_FILE_ID] FAILED stage=verify: remote size ${remote_size} != local ${bytes}" >&2
+  exit 1
+fi
 if ! verify_on_r2 "$key"; then
-  echo "[$DRIVE_FILE_ID] R2/public verification failed for $key — NOT done" >&2
+  echo "[$DRIVE_FILE_ID] FAILED stage=verify: 200/206 check failed for ${key}" >&2
   exit 1
 fi
 
-# Build the manifest entry from a LOCAL copy of the finished mp3: the just-
-# transcoded $out, or (present/force path) the object pulled back from R2.
-mp3="$out"
-if [ ! -f "$mp3" ]; then
-  rclone copyto "r2:course-media/${key}" "r2-${DRIVE_FILE_ID}.mp3" >/dev/null 2>&1 || true
-  mp3="r2-${DRIVE_FILE_ID}.mp3"
-fi
-if [ ! -f "$mp3" ]; then
-  echo "[$DRIVE_FILE_ID] FAILED stage=entry: no local mp3 to measure" >&2
-  exit 1
-fi
-bytes=$(stat -c%s "$mp3")
-dur=$(ffprobe -v quiet -show_entries format=duration -of csv=p=0 "$mp3" | cut -d. -f1)
-sha=$(sha256sum "$mp3" | cut -d' ' -f1)
-
-# Measure the FINISHED mp3 with EBU R128: integrated loudness + true peak.
-eb="$(ffmpeg -hide_banner -nostdin -i "$mp3" -af ebur128=peak=true -f null - 2>&1)"
-lufs_i="$(printf '%s' "$eb" | grep -oE 'I:[[:space:]]*-?[0-9.]+ LUFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
-true_peak_db="$(printf '%s' "$eb" | grep -oE 'Peak:[[:space:]]*-?[0-9.]+ dBFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
-echo "[$DRIVE_FILE_ID] stage=ebur128 lufs_i=${lufs_i:-?} true_peak_db=${true_peak_db:-?}"
-# Flag (do NOT fail) if outside target: I in -17..-15 LUFS, true peak ≤ -1.0 dBTP.
-flag="$(node -e 'const i=parseFloat(process.argv[1]),p=parseFloat(process.argv[2]);const bad=[];if(!(i>=-17&&i<=-15))bad.push("I "+process.argv[1]+" outside -17..-15");if(!(p<=-1.0))bad.push("true peak "+process.argv[2]+" > -1.0");process.stdout.write(bad.join("; "))' "${lufs_i:-NaN}" "${true_peak_db:-NaN}")"
-[ -n "$flag" ] && echo "[$DRIVE_FILE_ID] LOUDNESS FLAG: $flag"
-
-node -e 'const fs=require("fs");const o={drive_file_id:process.argv[1],drive_name:process.argv[2],key:process.argv[3],bytes:Number(process.argv[4])||0,duration_s:Number(process.argv[5])||0,sha256:process.argv[6],lufs_i:process.argv[7]===""?null:Number(process.argv[7]),true_peak_db:process.argv[8]===""?null:Number(process.argv[8]),normalization_type:process.argv[9]||null,loudness_flag:process.argv[10]||null};if(!/^[0-9a-f]{64}$/.test(o.sha256)){console.error("bad sha for "+o.drive_file_id);process.exit(1)}fs.writeFileSync("entry-"+o.drive_file_id+".json",JSON.stringify(o))' \
-  "$DRIVE_FILE_ID" "$drive_name" "$key" "${bytes:-0}" "${dur:-0}" "${sha:-}" "${lufs_i:-}" "${true_peak_db:-}" "${norm_type:-}" "$flag" || {
+# B4: manifest entry.
+LESSON_CODE="${LESSON_CODE:-}"
+nn 'const fs=require("fs");const a=process.argv;const o={lesson_code:a[11]||null,drive_file_id:a[1],drive_name:a[2],source_md5:a[3],key:a[4],bytes:Number(a[5])||0,duration_s:Number(a[6])||0,sha256:a[7],loudness:{pass1:{I:Number(a[8].split(",")[0]),TP:Number(a[8].split(",")[1]),LRA:Number(a[8].split(",")[2])},G:Number(a[9].split(",")[0]),limit:Number(a[9].split(",")[1]),out:{I:Number(a[10].split(",")[0]),TP:Number(a[10].split(",")[1]),LRA:Number(a[10].split(",")[2])},loops:Number(a[9].split(",")[2])}};if(!/^[0-9a-f]{64}$/.test(o.sha256)){console.error("bad sha");process.exit(1)}fs.writeFileSync("entry-"+a[1]+".json",JSON.stringify(o))' \
+  "$DRIVE_FILE_ID" "$drive_name" "$md5" "$key" "${bytes:-0}" "${dur:-0}" "${sha:-}" \
+  "${p1_i},${p1_tp},${p1_lra}" "${G},${limit},${loops}" "${out_i},${out_tp},${out_lra}" "$LESSON_CODE" || {
     echo "[$DRIVE_FILE_ID] could not build a valid manifest entry" >&2; exit 1; }
 
 echo "[$DRIVE_FILE_ID] done → $key"

@@ -201,8 +201,34 @@ export function teacherRecord(t) {
  * `issues` is a list of { course_id, lesson_num, kind, detail } rows.
  * Hard-fail issues have kind 'duplicate_num' or 'unknown_teacher'.
  */
-export function buildCourses(sourceCourses, teachers, mediaManifest) {
+export function buildCourses(sourceCourses, teachers, mediaManifest, sharedSources = []) {
   const teacherSlugs = new Set(teachers.map((t) => t.slug));
+
+  // B5 (Job B v2): a lesson must resolve to exactly one key. If a single
+  // drive_file_id maps to two different keys in the manifest, that is a build
+  // FAILURE (ambiguous). Two DIFFERENT drive_file_ids sharing one source_md5
+  // (= same key = one upload) is a WARNING + CSV, silenced when the pair's key
+  // is listed in data/media-shared-sources.json. The lesson↔manifest link is
+  // drive_file_id.
+  const keysByDriveId = new Map(); // drive_file_id → Set(keys)
+  const driveIdsByMd5 = new Map(); // source_md5 → Set(drive_file_id)
+  for (const e of mediaManifest || []) {
+    if (!e || !e.drive_file_id || !e.key) continue;
+    if (!keysByDriveId.has(e.drive_file_id)) keysByDriveId.set(e.drive_file_id, new Set());
+    keysByDriveId.get(e.drive_file_id).add(e.key);
+    if (e.source_md5) {
+      if (!driveIdsByMd5.has(e.source_md5)) driveIdsByMd5.set(e.source_md5, new Set());
+      driveIdsByMd5.get(e.source_md5).add(e.drive_file_id);
+    }
+  }
+  const sharedSilenced = new Set(sharedSources || []);
+  const buildBlockers = [];
+  for (const [did, keys] of keysByDriveId) {
+    if (keys.size > 1) {
+      buildBlockers.push(`drive_file_id ${did} resolves to ${keys.size} keys: ${[...keys].join(', ')}`);
+    }
+  }
+
   const r2ByDriveId = new Map();
   for (const e of mediaManifest || []) {
     // Only an explicitly APPROVED entry becomes r2 media (P-19). A DRAFT entry
@@ -219,6 +245,24 @@ export function buildCourses(sourceCourses, teachers, mediaManifest) {
   const issues = [];
   const catalogCourses = [];
   const courseFiles = [];
+
+  // B5: one lesson → two keys is a hard fail (ambiguous media).
+  for (const b of buildBlockers) {
+    issues.push({ course_id: '', lesson_num: '', kind: 'lesson_two_keys', detail: b });
+  }
+  // B5: two drive ids sharing one source_md5 (same key, one upload) → WARNING
+  // + CSV, silenced when that key is listed in media-shared-sources.json.
+  for (const [md5, dids] of driveIdsByMd5) {
+    if (dids.size < 2) continue;
+    const key = `audio/${md5.toLowerCase().slice(0, 16)}-a64.mp3`;
+    if (sharedSilenced.has(key)) continue;
+    issues.push({
+      course_id: '',
+      lesson_num: '',
+      kind: 'shared_source',
+      detail: `source_md5 ${md5} shared by ${dids.size} drive ids (${[...dids].join(', ')}) → one key ${key}`,
+    });
+  }
 
   sourceCourses.forEach((co, i) => {
     const id = courseId(i);
@@ -326,7 +370,7 @@ export function buildCourses(sourceCourses, teachers, mediaManifest) {
  * (Coordinator 26 Oct 2026: duplicate num is a warning, not a build failure.)
  */
 export function isHardFail(issue) {
-  return issue.kind === 'unknown_teacher';
+  return issue.kind === 'unknown_teacher' || issue.kind === 'lesson_two_keys';
 }
 
 // ── File runner ──────────────────────────────────────────────────────────────
@@ -355,13 +399,18 @@ function main() {
   const mediaManifest = existsSync(mediaManifestPath)
     ? JSON.parse(readFileSync(mediaManifestPath, 'utf-8'))
     : [];
+  // B5: keys whose shared-source warning is silenced (coordinator-reviewed).
+  const sharedSourcesPath = join(root, 'data', 'media-shared-sources.json');
+  const sharedSources = existsSync(sharedSourcesPath)
+    ? JSON.parse(readFileSync(sharedSourcesPath, 'utf-8'))
+    : [];
 
   // Provisional→permanent id alias SOURCE map (Q5). Merged (copied) verbatim into
   // the served public/data/aliases.json; empty {} until permanent ids arrive.
   const aliasSrcPath = join(root, 'data', 'id-aliases.json');
   const aliasMap = existsSync(aliasSrcPath) ? JSON.parse(readFileSync(aliasSrcPath, 'utf-8')) : {};
 
-  const { catalog, courses, issues } = buildCourses(sourceCourses, teachers, mediaManifest);
+  const { catalog, courses, issues } = buildCourses(sourceCourses, teachers, mediaManifest, sharedSources);
 
   // Output directories.
   mkdirSync(coursesOut, { recursive: true });

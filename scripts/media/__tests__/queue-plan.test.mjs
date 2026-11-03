@@ -68,13 +68,13 @@ describe('planRun', () => {
 describe('summaryTable', () => {
   it('renders a markdown table with a count line', () => {
     const md = summaryTable([
-      { id: 'A', status: 'done', normalization_type: 'linear' },
+      { id: 'A', status: 'done' },
       { id: 'B', status: 'skipped', reason: 'already in manifest' },
       { id: 'C', status: 'failed', reason: 'ffprobe: no audio' },
     ]);
-    expect(md).toMatch(/\| drive_file_id \| status \| norm_type \| reason \|/);
-    expect(md).toMatch(/\| A \| done \| linear \|  \|/);
-    expect(md).toMatch(/\| C \| failed \|  \| ffprobe: no audio \|/);
+    expect(md).toMatch(/\| drive_file_id \| status \| reason \|/);
+    expect(md).toMatch(/\| A \| done \|  \|/);
+    expect(md).toMatch(/\| C \| failed \| ffprobe: no audio \|/);
     expect(md).toMatch(/done 1 · skipped 1 · failed 1/);
   });
 });

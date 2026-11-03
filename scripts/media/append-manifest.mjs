@@ -26,6 +26,7 @@ export const DRAFT_STATUS = 'DRAFT – needs reviewer approval';
 export function validateEntry(entry) {
   const required = {
     drive_file_id: 'string',
+    source_md5: 'string', // Job B v2: the key derives from this (B2)
     key: 'string',
     bytes: 'number',
     duration_s: 'number',
@@ -35,6 +36,11 @@ export function validateEntry(entry) {
     if (typeof entry?.[field] !== type) return `field "${field}" must be a ${type}`;
   }
   if (!/^[0-9a-f]{64}$/.test(entry.sha256)) return 'sha256 must be 64 lowercase hex chars';
+  // B2: key = audio/<first 16 hex of md5>-a64.mp3 (optionally -v2 before .mp3).
+  const want = entry.source_md5.toLowerCase().slice(0, 16);
+  if (!new RegExp(`^audio/${want}-a64(-v\\d+)?\\.mp3$`).test(entry.key)) {
+    return `key "${entry.key}" must derive from source_md5 (audio/${want}-a64.mp3)`;
+  }
   return null;
 }
 

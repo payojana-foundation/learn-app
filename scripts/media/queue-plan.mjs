@@ -80,12 +80,11 @@ export function planRun(queueIds, manifest, limit, forceIds = []) {
 export function summaryTable(results) {
   const list = Array.isArray(results) ? results : [];
   const L = [];
-  L.push('| drive_file_id | status | norm_type | reason |');
-  L.push('| --- | --- | --- | --- |');
+  L.push('| drive_file_id | status | reason |');
+  L.push('| --- | --- | --- |');
   for (const r of list) {
     const reason = (r.reason ?? '').toString().replace(/\|/g, '\\|').replace(/\r?\n/g, ' ');
-    const norm = (r.normalization_type ?? '').toString().replace(/\|/g, '\\|');
-    L.push(`| ${r.id} | ${r.status} | ${norm} | ${reason} |`);
+    L.push(`| ${r.id} | ${r.status} | ${reason} |`);
   }
   const counts = list.reduce((m, r) => ((m[r.status] = (m[r.status] || 0) + 1), m), {});
   L.push('');

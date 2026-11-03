@@ -63,9 +63,12 @@ while IFS= read -r fid || [ -n "$fid" ]; do
   echo "::endgroup::"
 
   if [ "$code" -eq 0 ]; then
-    # Carry normalization_type from the entry file into the summary row.
-    nt="$([ -f "entry-$fid.json" ] && node -e 'try{process.stdout.write(String(require("./entry-"+process.argv[1]+".json").normalization_type||""))}catch{process.stdout.write("")}' "$fid" || echo "")"
-    echo "{\"id\":\"$fid\",\"status\":\"done\",\"normalization_type\":\"$nt\"}" >> results.done.ndjson
+    echo "{\"id\":\"$fid\",\"status\":\"done\"}" >> results.done.ndjson
+  elif [ "$code" -eq 3 ]; then
+    # Exit 3 = a deliberate skip (listed duplicate / key exists), not a failure.
+    reason="$(json_escape "$(printf '%s' "$out" | grep -oE '::skip-reason::.*' | head -n1 | sed 's/::skip-reason:://')")"
+    [ -n "$reason" ] || reason="skipped"
+    echo "{\"id\":\"$fid\",\"status\":\"skipped\",\"reason\":\"$reason\"}" >> results.ndjson
   else
     reason="$(json_escape "$(printf '%s' "$out" | tail -n 3 | tr '\n' ' ')")"
     echo "{\"id\":\"$fid\",\"status\":\"failed\",\"reason\":\"transcode-one exit $code: $reason\"}" >> results.failed.ndjson

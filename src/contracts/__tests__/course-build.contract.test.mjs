@@ -186,3 +186,40 @@ describe('P-19 course-level all-or-nothing r2', () => {
     expect(built.catalog.courses.find((c) => c.id === 'c003').media_kinds).toEqual(['r2']);
   });
 });
+
+// B5 (Job B v2) — key/source integrity checks over the manifest.
+describe('B5 manifest integrity', () => {
+  it('one drive_file_id resolving to TWO keys is a hard-fail issue', () => {
+    const manifest = [
+      { drive_file_id: 'DUPKEY', key: 'audio/aaaa0000bbbb1111-a64.mp3', status: 'DRAFT', bytes: 1, duration_s: 1, sha256: 'a'.repeat(64) },
+      { drive_file_id: 'DUPKEY', key: 'audio/aaaa0000bbbb1111-a64-v2.mp3', status: 'DRAFT', bytes: 1, duration_s: 1, sha256: 'a'.repeat(64) },
+    ];
+    const built = buildCourses(sourceCourses, teachers, manifest);
+    const bad = built.issues.find((i) => i.kind === 'lesson_two_keys');
+    expect(bad).toBeTruthy();
+    expect(isHardFail(bad)).toBe(true);
+  });
+
+  it('two drive ids sharing one source_md5 is a WARNING (not hard-fail)', () => {
+    const md5 = '0123456789abcdef0123456789abcdef';
+    const manifest = [
+      { drive_file_id: 'X1', source_md5: md5, key: 'audio/0123456789abcdef-a64.mp3', status: 'DRAFT', bytes: 1, duration_s: 1, sha256: 'a'.repeat(64) },
+      { drive_file_id: 'X2', source_md5: md5, key: 'audio/0123456789abcdef-a64.mp3', status: 'DRAFT', bytes: 1, duration_s: 1, sha256: 'a'.repeat(64) },
+    ];
+    const built = buildCourses(sourceCourses, teachers, manifest);
+    const warn = built.issues.find((i) => i.kind === 'shared_source');
+    expect(warn).toBeTruthy();
+    expect(isHardFail(warn)).toBe(false);
+  });
+
+  it('the shared-source warning is silenced when its key is listed', () => {
+    const md5 = '0123456789abcdef0123456789abcdef';
+    const key = 'audio/0123456789abcdef-a64.mp3';
+    const manifest = [
+      { drive_file_id: 'X1', source_md5: md5, key, status: 'DRAFT', bytes: 1, duration_s: 1, sha256: 'a'.repeat(64) },
+      { drive_file_id: 'X2', source_md5: md5, key, status: 'DRAFT', bytes: 1, duration_s: 1, sha256: 'a'.repeat(64) },
+    ];
+    const built = buildCourses(sourceCourses, teachers, manifest, [key]);
+    expect(built.issues.find((i) => i.kind === 'shared_source')).toBeUndefined();
+  });
+});
