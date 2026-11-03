@@ -58,23 +58,29 @@ jobs:
           FOLDER_MIME="application/vnd.google-apps.folder"
           XLSX_MIME="application/vnd.openxmlformats-officedocument.spreadsheetml.sheet"
 
-          api() {
-            # $1 = full request URL; prints the JSON body.
-            curl -fsS -H "Authorization: Bearer ${ACCESS_TOKEN}" "$1"
-          }
-
           list_folder() {
             # Echo "<id>\t<name>\t<mimeType>" for every child of folder $1.
-            local folder="$1" pageToken="" q url resp
-            # shellcheck disable=SC2016  # the single-quoted body is Node (-e) code, not shell
-            q=$(node -e 'process.stdout.write(encodeURIComponent(`'"'"'`+process.argv[1]+`'"'"' in parents and trimmed = false`))' "$folder")
+            # Logs the Drive API HTTP status + raw item count per page. The query
+            # field is `trashed` (the old `trimmed = false` was invalid and 400'd,
+            # silently yielding zero items).
+            local folder="$1" pageToken="" q url resp body code n
+            q=$(node scripts/media/sheets-query.mjs "$folder")
             while : ; do
               url="https://www.googleapis.com/drive/v3/files?q=${q}&fields=nextPageToken,files(id,name,mimeType)&pageSize=1000&supportsAllDrives=true&includeItemsFromAllDrives=true"
               if [ -n "$pageToken" ]; then url="${url}&pageToken=${pageToken}"; fi
-              resp=$(api "$url")
+              # Do NOT use curl -f: we want to SEE a non-2xx body + status.
+              resp=$(curl -sS -w '\n%{http_code}' -H "Authorization: Bearer ${ACCESS_TOKEN}" "$url")
+              code=$(printf '%s' "$resp" | tail -n1)
+              body=$(printf '%s' "$resp" | sed '$d')
+              n=$(printf '%s' "$body" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{process.stdout.write(String((JSON.parse(s).files||[]).length))}catch{process.stdout.write("0")}})')
+              echo "[drive] list folder=${folder} http=${code} items=${n}" >&2
+              if [ "$code" != "200" ]; then
+                echo "[drive] ERROR body: $(printf '%s' "$body" | head -c 400)" >&2
+                exit 1
+              fi
               # shellcheck disable=SC2016  # Node (-e) template literal, expanded by node, not shell
-              echo "$resp" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);for(const f of (j.files||[]))process.stdout.write(`${f.id}\t${f.name}\t${f.mimeType}\n`)})'
-              pageToken=$(echo "$resp" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);process.stdout.write(j.nextPageToken||"")})')
+              printf '%s' "$body" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);for(const f of (j.files||[]))process.stdout.write(`${f.id}\t${f.name}\t${f.mimeType}\n`)})'
+              pageToken=$(printf '%s' "$body" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const j=JSON.parse(s);process.stdout.write(j.nextPageToken||"")})')
               [ -n "$pageToken" ] || break
             done
           }

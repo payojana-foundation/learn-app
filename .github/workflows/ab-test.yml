@@ -1,11 +1,12 @@
 name: ab-test
 
-# Job B v2 · B6 — ONE-OFF A/B/C listening test, run once before parts 2–15.
-# From pilot part 1 (drive_file_id input) it takes the loudest 90 s and one
-# pause ≥ 3 s (located from the ebur128 log), renders THREE versions in a random
-# A/B/C order, uploads 6 clips to course-media test/2026-11-02/ with
-# Cache-Control: no-store, prints the 6 public URLs in the summary, and writes
-# the A/B/C key ONLY to a private artifact (never the summary).
+# Job B v2 · B6 — ONE-OFF blind listening test, run once before parts 2–15.
+# Part 1 (drive_file_id): 6 clips — loudest 90 s + one pause ≥ 3 s × three
+# versions (current / new B3 / B3 gained to ≈ -18) in a random A/B/C order.
+# Part 4 (part4_id): 3 clips — loudest 90 s × three versions (B3 / forced -16 /
+# -18) in a random x/y/z order. 9 clips total to course-media test/2026-11-02/
+# with Cache-Control: no-store; the 9 URLs print in the summary; the A/B/C + P4
+# order is written ONLY to a private artifact (never the summary).
 #
 # Versions: current (the file uploaded 2 Nov), chain B3, and chain B3 with a
 # fixed gain down to the current file's I (≈ -18) so the listener judges the
@@ -25,6 +26,10 @@ on:
         description: "Existing R2 key of the current (2 Nov) upload to compare against"
         required: true
         default: "audio/1EyF4VvMVm5RquR6dEUd-yn_pdznwxYtu-a64.mp3"
+      part4_id:
+        description: "Pilot part-4 drive_file_id (3 extra clips: B3 / forced -16 / -18)"
+        required: true
+        default: "11UtCc2btipfdDjghsUjivEUP9SmPGsG_"
 
 permissions:
   contents: read
@@ -41,6 +46,7 @@ jobs:
     env:
       DRIVE_FILE_ID: ${{ github.event.inputs.drive_file_id }}
       CURRENT_KEY: ${{ github.event.inputs.current_key }}
+      PART4_ID: ${{ github.event.inputs.part4_id }}
       DEST: test/2026-11-02
     steps:
       - name: Check out the repo

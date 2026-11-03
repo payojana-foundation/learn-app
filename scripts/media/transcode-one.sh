@@ -155,44 +155,61 @@ if [ "$p1_i" = "NaN" ]; then
   exit 1
 fi
 
-# B3 stages 2-4: encode with volume=G + alimiter, then verify-measure; adjust
-# G/limit up to 3 loops. G = -16 - I(pass1); limit starts 0.708.
-G="$(nn 'process.stdout.write(String(-16 - parseFloat(process.argv[1])))' "$p1_i")"
+# B3 (2 Nov chain): volume=G → acompressor → aresample → alimiter → mp3.
+# G = -16 - I(pass1). limit is FIXED at 0.708 (depth, not limit, is the knob).
 limit="0.708"
-loops=0
-out_i="NaN"; out_tp="NaN"; out_lra="NaN"
-encode_once() { # uses $G $limit → writes $out
+G="$(nn 'process.stdout.write(String(-16 - parseFloat(process.argv[1])))' "$p1_i")"
+comp="acompressor=threshold=0.1:ratio=2:attack=20:release=250:knee=6:makeup=1"
+
+# depth = TP(pre-limiter signal) - 20*log10(limit); busy = % of 50 ms frames
+# whose Peak_level exceeds the limiter ceiling (20*log10(limit) dBFS).
+measure_depth_busy() { # uses $G → prints "depth busy" (measured on steps 1-4)
+  local pre_af eb tp ceil astats depth busy
+  pre_af="${base_af},volume=${G}dB,${comp},aresample=44100"
+  eb="$(ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$dl" -af "${pre_af},ebur128=peak=true" -f null - 2>&1)"
+  tp="$(printf '%s' "$eb" | grep -oE 'Peak:[[:space:]]*-?[0-9.]+ dBFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
+  ceil="$(nn 'process.stdout.write(String(20*Math.log10(parseFloat(process.argv[1]))))' "$limit")"
+  depth="$(nn 'process.stdout.write(String((parseFloat(process.argv[1])||0)-parseFloat(process.argv[2])))' "${tp:-0}" "$ceil")"
+  # busy: per-50ms-frame Peak_level via astats; share above the ceiling.
+  astats="$(ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$dl" \
+    -af "${pre_af},asetnsamples=n=2205:p=0,astats=metadata=1:reset=1" -f null - 2>&1 \
+    | grep -oE 'Peak level dB: -?[0-9.]+|Peak level dB: -inf' | grep -oE '\-?[0-9.]+|-inf')"
+  busy="$(printf '%s\n' "$astats" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const v=s.split(/\n/).filter(Boolean).map(x=>x==="-inf"?-120:parseFloat(x));const c=parseFloat(process.argv[2]);const over=v.filter(x=>x>c).length;process.stdout.write(String(v.length?(100*over/v.length):0))})' -- "$ceil")"
+  printf '%s %s' "${depth:-0}" "${busy:-0}"
+}
+
+encode_once() { # uses $G → writes $out
   ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn \
-    -af "${base_af},volume=${G}dB,alimiter=limit=${limit}:attack=5:release=50:level=disabled" \
+    -af "${base_af},volume=${G}dB,${comp},aresample=44100,alimiter=limit=${limit}:attack=5:release=50:level=disabled" \
     -c:a libmp3lame -b:a 64k -map_metadata -1 "$out"
 }
+
+loops=0
+out_i="NaN"; out_tp="NaN"; out_lra="NaN"; depth="NaN"; busy="NaN"; result="failed"
 while [ "$loops" -lt 3 ]; do
   loops=$(( loops + 1 ))
+  read -r depth busy <<<"$(measure_depth_busy)"
   if ! encode_once 2>"ffmpeg-${md5hex}.err"; then
     echo "[$DRIVE_FILE_ID] FAILED stage=encode(loop ${loops}): $(tail -n 3 "ffmpeg-${md5hex}.err" | tr '\n' ' ')" >&2
     exit 1
   fi
   read -r out_i out_tp out_lra <<<"$(measure_ebur128 "$out" "")"
-  echo "[$DRIVE_FILE_ID] stage=encode loop=${loops} G=${G} limit=${limit} out_I=${out_i} out_TP=${out_tp} out_LRA=${out_lra}"
-  # accept: I = -16 ±0.5 AND TP ≤ -1.5
-  if nn 'const i=parseFloat(process.argv[1]),t=parseFloat(process.argv[2]);process.exit(i>=-16.5&&i<=-15.5&&t<=-1.5?0:1)' "$out_i" "$out_tp"; then
-    break
-  fi
-  # adjust, in order: TP too hot → tighten limiter; then I low → raise G; I high → lower G.
-  adj="$(nn 'const i=parseFloat(process.argv[1]),t=parseFloat(process.argv[2]),G=parseFloat(process.argv[3]),L=parseFloat(process.argv[4]);let ng=G,nl=L;if(t>-1.5){nl=L*0.9}else if(i<-16.5){ng=G+(-16-i)}else if(i>-15.5){ng=G-(i+16)}process.stdout.write(ng+" "+nl)' "$out_i" "$out_tp" "$G" "$limit")"
-  G="$(printf '%s' "$adj" | awk '{print $1}')"
-  limit="$(printf '%s' "$adj" | awk '{print $2}')"
-  if nn 'process.exit(parseFloat(process.argv[1])<0.5?0:1)' "$limit"; then
-    echo "[$DRIVE_FILE_ID] limiter floor reached (limit<0.5) — stopping" >&2
-    break
-  fi
+  echo "[$DRIVE_FILE_ID] stage=encode loop=${loops} G=${G} limit=${limit} depth=${depth} busy=${busy} out_I=${out_i} out_TP=${out_tp} out_LRA=${out_lra}"
+  dec="$(node scripts/media/b3-decide.mjs "{\"I\":${out_i},\"TP\":${out_tp},\"depth\":${depth},\"busy\":${busy},\"G\":${G},\"loops\":${loops}}" 2>/dev/null)"
+  verdict="$(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(JSON.parse(s).verdict))')"
+  echo "[$DRIVE_FILE_ID] stage=decide verdict=${verdict} $(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(JSON.parse(s).reason||""))')"
+  case "$verdict" in
+    accept) result="ok"; break ;;
+    cap) result="cap"; break ;;
+    fail) echo "[$DRIVE_FILE_ID] FAILED stage=accept: ${dec}" >&2; exit 1 ;;
+    adjust) G="$(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(String(JSON.parse(s).nextG)))')" ;;
+  esac
 done
-
-# B3 stage 5: accept only I = -16 ±0.5 AND TP ≤ -1.5; otherwise fail, no upload.
-if ! nn 'const i=parseFloat(process.argv[1]),t=parseFloat(process.argv[2]);process.exit(i>=-16.5&&i<=-15.5&&t<=-1.5?0:1)' "$out_i" "$out_tp"; then
-  echo "[$DRIVE_FILE_ID] FAILED stage=accept: I=${out_i} TP=${out_tp} outside target after ${loops} loop(s) — NOT uploaded" >&2
+if [ "$result" = "failed" ]; then
+  echo "[$DRIVE_FILE_ID] FAILED stage=accept: not accepted in 3 loops (I=${out_i} TP=${out_tp} depth=${depth} busy=${busy})" >&2
   exit 1
 fi
+echo "[$DRIVE_FILE_ID] stage=result result=${result}"
 
 # B5 upload: rclone copy --immutable, then verify (size == local, 200, 206).
 bytes=$(stat -c%s "$out")
@@ -221,9 +238,10 @@ fi
 
 # B4: manifest entry.
 LESSON_CODE="${LESSON_CODE:-}"
-nn 'const fs=require("fs");const a=process.argv;const o={lesson_code:a[11]||null,drive_file_id:a[1],drive_name:a[2],source_md5:a[3],key:a[4],bytes:Number(a[5])||0,duration_s:Number(a[6])||0,sha256:a[7],loudness:{pass1:{I:Number(a[8].split(",")[0]),TP:Number(a[8].split(",")[1]),LRA:Number(a[8].split(",")[2])},G:Number(a[9].split(",")[0]),limit:Number(a[9].split(",")[1]),out:{I:Number(a[10].split(",")[0]),TP:Number(a[10].split(",")[1]),LRA:Number(a[10].split(",")[2])},loops:Number(a[9].split(",")[2])}};if(!/^[0-9a-f]{64}$/.test(o.sha256)){console.error("bad sha");process.exit(1)}fs.writeFileSync("entry-"+a[1]+".json",JSON.stringify(o))' \
+nn 'const fs=require("fs");const a=process.argv;const o={lesson_code:a[11]||null,drive_file_id:a[1],drive_name:a[2],source_md5:a[3],key:a[4],bytes:Number(a[5])||0,duration_s:Number(a[6])||0,sha256:a[7],loudness:{pass1:{I:Number(a[8].split(",")[0]),TP:Number(a[8].split(",")[1]),LRA:Number(a[8].split(",")[2])},G:Number(a[9].split(",")[0]),limit:Number(a[9].split(",")[1]),depth:Number(a[12].split(",")[0]),busy:Number(a[12].split(",")[1]),out:{I:Number(a[10].split(",")[0]),TP:Number(a[10].split(",")[1]),LRA:Number(a[10].split(",")[2])},loops:Number(a[9].split(",")[2]),result:a[13]||null}};if(!/^[0-9a-f]{64}$/.test(o.sha256)){console.error("bad sha");process.exit(1)}fs.writeFileSync("entry-"+a[1]+".json",JSON.stringify(o))' \
   "$DRIVE_FILE_ID" "$drive_name" "$md5" "$key" "${bytes:-0}" "${dur:-0}" "${sha:-}" \
-  "${p1_i},${p1_tp},${p1_lra}" "${G},${limit},${loops}" "${out_i},${out_tp},${out_lra}" "$LESSON_CODE" || {
+  "${p1_i},${p1_tp},${p1_lra}" "${G},${limit},${loops}" "${out_i},${out_tp},${out_lra}" "$LESSON_CODE" \
+  "${depth},${busy}" "$result" || {
     echo "[$DRIVE_FILE_ID] could not build a valid manifest entry" >&2; exit 1; }
 
 echo "[$DRIVE_FILE_ID] done → $key"

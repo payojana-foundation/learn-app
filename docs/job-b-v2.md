@@ -1,4 +1,4 @@
-# learn-app — Job B (course-audio) v2 · APPROVED by audio/engineering 2 Nov 2026 (changes applied)
+# learn-app — Job B (course-audio) v2 · APPROVED by audio/engineering 2 Nov 2026 (B3/B6 updated 2 Nov, 21:00)
 
 Replaces Job B in claude/learn-kiro-bulk-01.md and the course-audio parts of bulk-02 Q3.
 Status of every output: "DRAFT – needs reviewer approval" until a person signs off.
@@ -21,17 +21,27 @@ Status of every output: "DRAFT – needs reviewer approval" until a person signs
 - Upload headers: Cache-Control public, max-age=31536000, immutable;
   Content-Type audio/mpeg.
 
-## B3. Loudness chain (replaces two-pass loudnorm)
-1. Pass 1: ebur128 on the mono-mixed signal (after pan, after aresample) → I, TP, LRA.
-2. Filter order: pan=mono|c0=0.5*c0+0.5*c1 (only if source has 2 channels) →
-   aresample=44100 → volume=<G>dB with G = -16 - I(pass 1) →
-   alimiter=limit=0.708:attack=5:release=50:level=disabled →
-   encode -c:a libmp3lame -b:a 64k -map_metadata -1.
-3. Verify the finished mp3: ebur128=peak=true → I, TP, LRA.
-4. Loop, max 3: first TP > -1.5 → limit × 0.9; then I < -16.5 → G += (-16 - I);
-   I > -15.5 → G -= (I + 16). Limit never below 0.5 → stop, report.
-5. Accept only I = -16 ±0.5 LUFS and TP ≤ -1.5 dBTP; otherwise failed, no upload.
-6. Log per file: pass-1 I/TP/LRA, final G, limit, output I/TP/LRA, loops.
+## B3. Loudness chain (audio + engineering, 2 Nov, replaces earlier B3)
+Chain:
+1. pan=mono|c0=0.5*c0+0.5*c1 (only if 2 channels) → pass-1 ebur128 on that signal
+2. volume=<G>dB, G = -16 - I(pass 1)
+3. acompressor=threshold=0.1:ratio=2:attack=20:release=250:knee=6:makeup=1
+4. aresample=44100
+5. alimiter=limit=0.708:attack=5:release=50:level=disabled
+6. -c:a libmp3lame -b:a 64k -map_metadata -1
+Measure (steps 1–4, no limiter, null output):
+- depth = TP(ebur128 peak=true) − 20·log10(limit)  [dB]
+- busy = share of 50 ms frames (asetnsamples=n=2205, astats reset per frame,
+  Peak_level) above the limiter ceiling  [%]
+Then verify the finished mp3 with ebur128 peak=true.
+Accept: I −16 ±0.5 LUFS and TP ≤ −1.5 dBTP, AND (depth ≤ 6 dB, OR depth ≤ 12 dB
+with busy < 0.5 %).
+Cap: if the depth rule fails, lower G until it holds; accept the loudest result
+within the rule down to I = −18 LUFS (TP ≤ −1.5 still), result "cap".
+Stop: if even −18 breaks the rule → failed, no upload, report (source may need a
+manual fix: knocks/clipping). Loops max 3. No 6-loop forcing in production.
+Log per file: pass-1 I/TP/LRA, G, limit, depth, busy, output I/TP/LRA, loops,
+result (ok | cap | failed). Thresholds 6 / 12 / 0.5 are starting values set by A/B.
 
 ## B4. Manifest entry (data/media-manifest.json)
 lesson_code (from teacher sheet, else null), drive_file_id, drive_name, source_md5,
@@ -46,17 +56,19 @@ loops}, status ("DRAFT – needs reviewer approval").
 - Upload: rclone copy --immutable; verify remote size == local bytes, curl -I 200,
   Range 0-99 → 206.
 
-## B6. A/B test (one-off workflow ab-test.yml, before parts 2–15)
-- From part 1: loudest 90 s and one pause ≥ 3 s, located from the ebur128 log.
-- Renders 3 versions, random order across A/B/C: current (as uploaded 2 Nov),
-  chain B3, and chain B3 with a fixed gain down to the current file's I (≈ -18)
-  so the listener judges the limiter, not the volume.
-- Upload to course-media test/2026-11-02/: A-loud.mp3, B-loud.mp3, C-loud.mp3,
-  A-pause.mp3, B-pause.mp3, C-pause.mp3 (6 clips), Cache-Control: no-store, Content-Type audio/mpeg.
-- The A/B/C order is written only to a private artifact (not the run summary).
-- Each URL checked with curl -I → 200; the 6 URLs are printed in the summary.
+## B6. A/B test (one-off workflow ab-test.yml, before parts 2–15) — one run, all blind
+- Part 1 (id 1EyF4VvM…), 6 clips: loudest 90 s + one pause ≥ 3 s (from the ebur128
+  log); three versions: current (2 Nov upload) / new chain B3 / new chain gained to
+  the current I (≈ −18). Names A-loud, B-loud, C-loud, A-pause, B-pause, C-pause;
+  same letter = same version in loud and pause.
+- Part 4 (id 11UtCc2btipfdDjghsUjivEUP9SmPGsG_), 3 clips: loudest 90 s; three
+  versions: policy result (B3) / forced −16 (up to 6 loops, heavy limiting) / −18.
+  Names P4-x.mp3, P4-y.mp3, P4-z.mp3, random order.
+- All under course-media test/2026-11-02/, Cache-Control: no-store,
+  Content-Type audio/mpeg. Order written only to a private artifact.
+- 9 URLs in the run summary, each curl -I → 200.
 - Cleanup: the coordinator deletes test/ in the Cloudflare dashboard after the
-  verdict (workflows never delete).
+  verdict (workflows never delete). Parts 2–15 wait for the verdict.
 
 ## Resolved 2 Nov
 1. Shared sources: warning + CSV, not a build stop (see B5). 2. lesson_code null for

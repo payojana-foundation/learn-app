@@ -75,25 +75,66 @@ render() { # <version> <start> <dur> <outfile>
   esac
 }
 
+upload_verify() { # <localfile> → appends its URL to $urls, verifies 200
+  local f="$1" url http
+  "$RCLONE" copyto --header-upload "Cache-Control: no-store" --header-upload "Content-Type: audio/mpeg" \
+    "$f" "r2:course-media/${DEST}/${f}" || { echo "[ab] FAILED upload ${f}" >&2; exit 1; }
+  url="${MEDIA_BASE_URL}/${DEST}/${f}"
+  http="$("$CURL" -s -o /dev/null -I -w '%{http_code}' "$url" 2>/dev/null || echo 000)"
+  echo "[ab] ${f} → HTTP ${http}"
+  [ "$http" = "200" ] || { echo "[ab] FAILED verify ${url} (HTTP ${http})" >&2; exit 1; }
+  urls="${urls}${url}"$'\n'
+}
+
 urls=""
+# Part 1: 6 clips — A/B/C × {loud, pause}; same letter = same version.
 for slot in A B C; do
   v="$(node -e 'process.stdout.write(require("./abc-order.json")[process.argv[1]])' -- "$slot")"
   for seg in loud pause; do
     if [ "$seg" = loud ]; then start="$loud_start"; dur=90; else start="$pause_start"; dur=6; fi
     outf="${slot}-${seg}.mp3"
     render "$v" "$start" "$dur" "$outf" || { echo "[ab] FAILED render ${outf} (version ${v})" >&2; exit 1; }
-    "$RCLONE" copyto --header-upload "Cache-Control: no-store" --header-upload "Content-Type: audio/mpeg" \
-      "$outf" "r2:course-media/${DEST}/${outf}" || { echo "[ab] FAILED upload ${outf}" >&2; exit 1; }
-    url="${MEDIA_BASE_URL}/${DEST}/${outf}"
-    http="$("$CURL" -s -o /dev/null -I -w '%{http_code}' "$url" 2>/dev/null || echo 000)"
-    echo "[ab] ${outf} → HTTP ${http}"
-    [ "$http" = "200" ] || { echo "[ab] FAILED verify ${url} (HTTP ${http})" >&2; exit 1; }
-    urls="${urls}${url}"$'\n'
+    upload_verify "$outf"
   done
+done
+
+# Part 4: 3 clips — loudest 90 s, three versions in a random x/y/z order:
+#   policy result (B3) / forced -16 (heavy limiting) / -18.
+echo "[ab] measuring part 4 (${PART4_ID}) with ebur128…"
+ffmpeg -hide_banner -nostdin -headers "$hdr" -i "https://www.googleapis.com/drive/v3/files/${PART4_ID}?alt=media" -vn \
+  -af "pan=mono|c0=0.5*c0+0.5*c1,aresample=44100,ebur128=peak=true" -f null - 2>p4-frames.log || {
+  echo "::error title=ebur128 failed::could not measure part 4" >&2; exit 1; }
+read -r p4_loud _ <<<"$(node scripts/media/ab-windows.mjs p4-frames.log)"
+echo "[ab] part 4 loudest 90s @ ${p4_loud}s"
+p4order="$(printf '%s\n' b3 forced16 m18 | "$SHUF")"
+p4x="$(printf '%s\n' "$p4order" | sed -n '1p')"
+p4y="$(printf '%s\n' "$p4order" | sed -n '2p')"
+p4z="$(printf '%s\n' "$p4order" | sed -n '3p')"
+node -e 'const fs=require("fs");const m=JSON.parse(fs.readFileSync("abc-order.json","utf8"));m.P4={x:process.argv[1],y:process.argv[2],z:process.argv[3]};fs.writeFileSync("abc-order.json",JSON.stringify(m))' -- "$p4x" "$p4y" "$p4z"
+p4dl="https://www.googleapis.com/drive/v3/files/${PART4_ID}?alt=media"
+render_p4() { # <version> <outfile>
+  local v="$1" outf="$2"
+  case "$v" in
+    b3) ffmpeg -nostdin -y -headers "$hdr" -ss "$p4_loud" -t 90 -i "$p4dl" -vn \
+          -af "pan=mono|c0=0.5*c0+0.5*c1,aresample=44100,acompressor=threshold=0.1:ratio=2:attack=20:release=250:knee=6:makeup=1,alimiter=limit=0.708:attack=5:release=50:level=disabled" \
+          -c:a libmp3lame -b:a 64k -map_metadata -1 "$outf" ;;
+    forced16) ffmpeg -nostdin -y -headers "$hdr" -ss "$p4_loud" -t 90 -i "$p4dl" -vn \
+          -af "pan=mono|c0=0.5*c0+0.5*c1,aresample=44100,loudnorm=I=-16:TP=-1.5:LRA=11,alimiter=limit=0.708:attack=5:release=50:level=disabled" \
+          -c:a libmp3lame -b:a 64k -map_metadata -1 "$outf" ;;
+    m18) ffmpeg -nostdin -y -headers "$hdr" -ss "$p4_loud" -t 90 -i "$p4dl" -vn \
+          -af "pan=mono|c0=0.5*c0+0.5*c1,aresample=44100,loudnorm=I=-18:TP=-1.5:LRA=11,alimiter=limit=0.708:attack=5:release=50:level=disabled" \
+          -c:a libmp3lame -b:a 64k -map_metadata -1 "$outf" ;;
+  esac
+}
+for slot in x y z; do
+  v="$(node -e 'process.stdout.write(require("./abc-order.json").P4[process.argv[1]])' -- "$slot")"
+  outf="P4-${slot}.mp3"
+  render_p4 "$v" "$outf" || { echo "[ab] FAILED render ${outf} (version ${v})" >&2; exit 1; }
+  upload_verify "$outf"
 done
 
 {
   echo "### A/B/C listening clips (order is private)"
   printf '%s\n' "$urls" | sed '/^$/d' | sed 's/^/- /'
 } >> "${GITHUB_STEP_SUMMARY:-/dev/stdout}"
-echo "[ab] done — 6 clips uploaded; A/B/C order written to abc-order.json (private)"
+echo "[ab] done — 9 clips uploaded; A/B/C + P4 order written to abc-order.json (private)"
