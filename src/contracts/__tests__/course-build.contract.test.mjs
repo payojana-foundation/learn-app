@@ -187,6 +187,34 @@ describe('P-19 course-level all-or-nothing r2', () => {
   });
 });
 
+// Job B v2 prep — lesson-media-overrides link an acast/youtube lesson to its
+// canonical drive_file_id so the course can switch to r2 when all are approved.
+describe('lesson-media-overrides (Job B v2 prep)', () => {
+  const overrides = {
+    courses: [
+      { title_km: ' course A km', teacher_slug: 'teacher-one', lessons: { 1: 'DID1', 2: 'DID2' } },
+    ],
+  };
+  const manifest = [
+    { drive_file_id: 'DID1', source_md5: '1'.repeat(32), key: 'audio/1111111111111111-a64.mp3', status: 'approved', bytes: 1, duration_s: 11, sha256: 'a'.repeat(64) },
+    { drive_file_id: 'DID2', source_md5: '2'.repeat(32), key: 'audio/2222222222222222-a64.mp3', status: 'approved', bytes: 1, duration_s: 22, sha256: 'b'.repeat(64) },
+  ];
+
+  it('flips the override course to r2: an acast lesson 1 → r2 with the linked key + duration', () => {
+    const built = buildCourses(sourceCourses, teachers, manifest, [], overrides);
+    const c1 = built.courses.find((c) => c.id === 'c001');
+    expect(c1.lessons.find((l) => l.num === 1).media).toEqual([{ kind: 'r2', src: 'audio/1111111111111111-a64.mp3', duration_s: 11 }]);
+    expect(built.catalog.courses.find((c) => c.id === 'c001').media_kinds).toEqual(['r2']);
+  });
+
+  it('a DRAFT override entry does NOT flip the course (stays acast/youtube)', () => {
+    const draft = manifest.map((e) => ({ ...e, status: 'DRAFT – needs reviewer approval' }));
+    const built = buildCourses(sourceCourses, teachers, draft, [], overrides);
+    const c1 = built.courses.find((c) => c.id === 'c001');
+    expect(c1.lessons.find((l) => l.num === 1).media[0].kind).toBe('acast');
+  });
+});
+
 // B5 (Job B v2) — key/source integrity checks over the manifest.
 describe('B5 manifest integrity', () => {
   it('one drive_file_id resolving to TWO keys is a hard-fail issue', () => {

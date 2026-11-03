@@ -124,11 +124,23 @@ export function classifyMedia(src) {
  * and the real `duration_s` from the manifest. When it is false, Drive sources
  * stay `drive` even if some lessons happen to be on R2.
  */
-export function lessonMedia(lesson, r2ByDriveId, courseIsR2) {
+export function lessonMedia(lesson, r2ByDriveId, courseIsR2, overrideDriveId) {
   const out = [];
+  // When an override links this lesson to a canonical drive_file_id (Job B v2
+  // prep), an approved r2 entry replaces the FIRST audio/video source — so a
+  // lesson whose source is acast/youtube/drive still switches to the r2 player.
+  let overrideUsed = false;
   for (const src of [lesson.audioEmbedSrc, lesson.videoPreviewSrc]) {
     const kind = classifyMedia(src);
     if (!kind) continue;
+    if (courseIsR2 && r2ByDriveId && overrideDriveId && !overrideUsed) {
+      const r2 = r2ByDriveId.get(overrideDriveId);
+      if (r2) {
+        out.push({ kind: 'r2', src: r2.key, duration_s: Number(r2.duration_s) || 0 });
+        overrideUsed = true;
+        continue;
+      }
+    }
     if (kind === 'drive' && courseIsR2 && r2ByDriveId) {
       const driveId = extractDriveId(src);
       const r2 = driveId && r2ByDriveId.get(driveId);
@@ -149,7 +161,14 @@ export function lessonMedia(lesson, r2ByDriveId, courseIsR2) {
  * has an approved (non-DRAFT) manifest entry. A course with no Drive sources is
  * never "r2" (nothing to switch). Counts only approved entries.
  */
-export function courseAllDriveApproved(course, r2ByDriveId) {
+export function courseAllDriveApproved(course, r2ByDriveId, overridesForCourse) {
+  // Override-linked course (Job B v2): the course is r2 only when EVERY listed
+  // lesson num has an approved manifest entry for its canonical drive_file_id.
+  if (overridesForCourse) {
+    const ids = Object.values(overridesForCourse);
+    if (ids.length === 0) return false;
+    return ids.every((id) => r2ByDriveId.has(id));
+  }
   const driveIds = [];
   for (const l of course.lessons || []) {
     for (const src of [l.audioEmbedSrc, l.videoPreviewSrc]) {
@@ -201,8 +220,15 @@ export function teacherRecord(t) {
  * `issues` is a list of { course_id, lesson_num, kind, detail } rows.
  * Hard-fail issues have kind 'duplicate_num' or 'unknown_teacher'.
  */
-export function buildCourses(sourceCourses, teachers, mediaManifest, sharedSources = []) {
+export function buildCourses(sourceCourses, teachers, mediaManifest, sharedSources = [], mediaOverrides = null) {
   const teacherSlugs = new Set(teachers.map((t) => t.slug));
+
+  // Job B v2 prep: title_km → { "<num>": drive_file_id } so a lesson can link to
+  // its canonical manifest entry even when its source URL is acast/youtube.
+  const overridesByTitle = new Map();
+  for (const c of (mediaOverrides && mediaOverrides.courses) || []) {
+    if (c && c.title_km && c.lessons) overridesByTitle.set(c.title_km, c.lessons);
+  }
 
   // B5 (Job B v2): a lesson must resolve to exactly one key. If a single
   // drive_file_id maps to two different keys in the manifest, that is a build
@@ -271,7 +297,8 @@ export function buildCourses(sourceCourses, teachers, mediaManifest, sharedSourc
 
     // Course-level all-or-nothing r2 (Q4): only when EVERY Drive-backed lesson
     // in this course has an approved (non-DRAFT) manifest entry.
-    const courseIsR2 = courseAllDriveApproved(co, r2ByDriveId);
+    const courseOverrides = overridesByTitle.get(titleKm) || null;
+    const courseIsR2 = courseAllDriveApproved(co, r2ByDriveId, courseOverrides);
 
     if (!teacherSlugs.has(co.teacherSlug)) {
       issues.push({ course_id: id, lesson_num: '', kind: 'unknown_teacher', detail: co.teacherSlug ?? '(none)' });
@@ -319,7 +346,8 @@ export function buildCourses(sourceCourses, teachers, mediaManifest, sharedSourc
         title = 'no title';
       }
 
-      const media = lessonMedia(l, r2ByDriveId, courseIsR2);
+      const overrideDriveId = courseOverrides ? courseOverrides[String(l.num)] : undefined;
+      const media = lessonMedia(l, r2ByDriveId, courseIsR2, overrideDriveId);
       if (media.length === 0) {
         issues.push({ course_id: id, lesson_num: l.num, kind: 'no_media', detail: 'hidden' });
         return; // hidden: not emitted (but the duplicate warning above still stands)
@@ -404,13 +432,18 @@ function main() {
   const sharedSources = existsSync(sharedSourcesPath)
     ? JSON.parse(readFileSync(sharedSourcesPath, 'utf-8'))
     : [];
+  // Job B v2 prep: lesson → canonical drive_file_id link (by title_km + num).
+  const overridesPath = join(root, 'data', 'lesson-media-overrides.json');
+  const mediaOverrides = existsSync(overridesPath)
+    ? JSON.parse(readFileSync(overridesPath, 'utf-8'))
+    : null;
 
   // Provisional→permanent id alias SOURCE map (Q5). Merged (copied) verbatim into
   // the served public/data/aliases.json; empty {} until permanent ids arrive.
   const aliasSrcPath = join(root, 'data', 'id-aliases.json');
   const aliasMap = existsSync(aliasSrcPath) ? JSON.parse(readFileSync(aliasSrcPath, 'utf-8')) : {};
 
-  const { catalog, courses, issues } = buildCourses(sourceCourses, teachers, mediaManifest, sharedSources);
+  const { catalog, courses, issues } = buildCourses(sourceCourses, teachers, mediaManifest, sharedSources, mediaOverrides);
 
   // Output directories.
   mkdirSync(coursesOut, { recursive: true });

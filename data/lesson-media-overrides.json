@@ -1,0 +1,26 @@
+{
+  "_doc": "Job B v2 prep: link each lesson (by course title_km + lesson num) to its canonical Drive file id, so build-courses can resolve the manifest entry by drive_file_id even when the lesson's source URL points elsewhere (e.g. acast/youtube). Keyed by title_km because provisional course ids are not stable.",
+  "courses": [
+    {
+      "title_km": "ថ្នាក់កុមារ វេស្សន្តរជាតក",
+      "teacher_slug": "yon-yi",
+      "lessons": {
+        "1": "1EyF4VvMVm5RquR6dEUd-yn_pdznwxYtu",
+        "2": "1GRfu9kEQ5z4N_7MZZqKJG4_vgEOMIhso",
+        "3": "1pGnc9xSWLt7LYxtLYMsavws1HZQ5MkAC",
+        "4": "11UtCc2btipfdDjghsUjivEUP9SmPGsG_",
+        "5": "1hMg4aIK-WDyFsAt-1bnerM5D3Pzo8c0K",
+        "6": "1U4MrK20Eg9k7Wxe6qsv2BIDj2ndAzZFS",
+        "7": "1_lYVB5eFkp8MOc3wAyRzc-nk47z92nVK",
+        "8": "1-_BI-hRUEdHRfLIKdbjLiEfxxXiW2bV8",
+        "9": "190sjSBP5WKSW9L-8vS8-Wj2T8V1Bi9d8",
+        "10": "1Yewz6ju83osf5KkRdWDQbIjV70Er49Nx",
+        "11": "1-dV9SZKR35jWASCTy4Vg4KxD3qSBLllY",
+        "12": "1Xjc6owRuVIq0T-q6OpEt6heoUp80ZxB1",
+        "13": "1yUm_eCQLXEZRdIpDlq87mswTQEMn_vDH",
+        "14": "1G-BNctqoahqQDr0T7zShhnBtJWeyAVtU",
+        "15": "18yoXmsa2z8cNEP3hdZ7h6w-zC-b4yn0k"
+      }
+    }
+  ]
+}
