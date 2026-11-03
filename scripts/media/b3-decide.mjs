@@ -1,50 +1,48 @@
 /**
- * scripts/media/b3-decide.mjs — Job B v2 · B3 accept/cap/stop decision (pure).
+ * scripts/media/b3-decide.mjs — Job B v2 · B3 depth/busy decision (pure),
+ * coordinator standard (3 Nov, FROZEN). No acompressor, no rescue/forcing loop.
  *
- * Inputs (one JSON object on argv[2] or stdin):
- *   { I, TP, depth, busy, G, loops }
- * Thresholds (B3, A/B starting values): I = -16 ±0.5, TP ≤ -1.5 dBTP,
- * depth ≤ 6 dB OR (depth ≤ 12 dB AND busy < 0.5 %). Cap: lower G toward the
- * loudest result that still holds the rule, down to I = -18. Stop at -18 or
- * after 3 loops.
- *
- * Output (JSON): { verdict: 'accept'|'adjust'|'cap'|'fail', nextG?, reason }
- *   accept — meets loudness + depth rule → upload, result "ok"
- *   cap    — depth rule only holds below target but I ≥ -18 and TP ok → upload, "cap"
- *   adjust — try again with nextG (another loop)
- *   fail   — even -18 breaks the rule, or loudness unreachable in 3 loops
+ * Thresholds (frozen for the pilot): depth ≤ 6 dB, OR depth ≤ 12 dB with
+ * busy < 0.5 %. Cap: if the rule fails, lower G by (depth − 6) when the 6 dB
+ * rule is the one in play, else by (depth − 12); re-measure. Floor I = -18 LUFS;
+ * below → failed. An exception (data/media-exceptions.json) is processed at its
+ * accept_I regardless of depth/busy (TP still enforced downstream) → "exception".
  */
-export const TH = { iLo: -16.5, iHi: -15.5, tp: -1.5, depthOk: 6, depthMax: 12, busyMax: 0.5, iFloor: -18 };
+export const TH = { depthOk: 6, depthMax: 12, busyMax: 0.5, iFloor: -18 };
 
+/** The depth/busy rule: pass when depth ≤ 6, or depth ≤ 12 with busy < 0.5%. */
 export function depthRuleHolds(depth, busy) {
-  if (!(depth <= TH.depthMax)) return false;
-  return depth <= TH.depthOk || busy < TH.busyMax;
+  if (depth <= TH.depthOk) return true;
+  return depth <= TH.depthMax && busy < TH.busyMax;
 }
 
-export function decide({ I, TP, depth, busy, G, loops }) {
-  const tpOk = TP <= TH.tp;
-  const loudOk = I >= TH.iLo && I <= TH.iHi;
-  const dRule = depthRuleHolds(depth, busy);
+/** dB to lower G by so depth lands on the rule boundary it just missed. */
+export function capReduction(depth, busy) {
+  if (depthRuleHolds(depth, busy)) return 0;
+  // If busy is clean enough to use the 12 dB rule, aim for 12; else aim for 6.
+  const target = busy < TH.busyMax ? TH.depthMax : TH.depthOk;
+  return Math.max(0, depth - target);
+}
 
-  if (loudOk && tpOk && dRule) return { verdict: 'accept', reason: 'I/TP/depth all within rule' };
-
-  // Loudness in band + TP ok, but depth rule fails → cap: lower G (quieter)
-  // toward -18. Accept the loudest that holds; stop (fail) at the -18 floor.
-  if (tpOk && !dRule) {
-    if (I <= TH.iFloor) return { verdict: 'fail', reason: `depth rule fails even at I=${I} (≤ -18) — source may need a manual fix` };
-    if (loops >= 3) return { verdict: 'cap', reason: `depth rule not met by loop 3; accepting loudest safe result at I=${I}` };
-    // step G down by ~1 dB (bounded so I does not overshoot -18)
-    const nextG = G - Math.min(1, Math.max(0, I - TH.iFloor));
-    return { verdict: 'adjust', nextG, reason: `depth too high (depth=${depth}, busy=${busy}); lowering G toward -18` };
+/**
+ * First-pass decision from the UNCAPPED measurement.
+ *   input: { depth, busy, G, I, exception?:{accept_I} }
+ *   → { verdict: 'accept'|'cap'|'exception'|'fail', capG?, reason }
+ * 'accept' uploads at G (result ok). 'cap' re-encodes at capG (result cap) if
+ * the capped I stays ≥ -18, else 'fail'. 'exception' uses the listed accept_I.
+ */
+export function decide({ depth, busy, G, I, exception }) {
+  if (exception && Number.isFinite(exception.accept_I)) {
+    if (exception.accept_I < TH.iFloor) return { verdict: 'fail', reason: `exception accept_I ${exception.accept_I} below floor -18` };
+    const capG = G + (exception.accept_I - I); // move to the listed target I
+    return { verdict: 'exception', capG, reason: `exception at accept_I=${exception.accept_I}` };
   }
-
-  // TP too hot or loudness out of band: another loop if we have one left.
-  if (loops >= 3) return { verdict: 'fail', reason: `loudness/TP not reached in 3 loops (I=${I}, TP=${TP})` };
-  let nextG = G;
-  if (!tpOk) nextG = G - 1; // pull back gain; limiter catches the rest
-  else if (I < TH.iLo) nextG = G + (-16 - I);
-  else if (I > TH.iHi) nextG = G - (I + 16);
-  return { verdict: 'adjust', nextG, reason: `retune (I=${I}, TP=${TP})` };
+  if (depthRuleHolds(depth, busy)) return { verdict: 'accept', reason: `depth ${depth} within rule (busy ${busy})` };
+  const cut = capReduction(depth, busy);
+  const capG = G - cut;
+  const capI = I - cut; // lowering G by `cut` dB lowers integrated loudness by `cut`
+  if (capI < TH.iFloor) return { verdict: 'fail', reason: `cap would need I=${capI.toFixed(1)} < -18 floor (depth=${depth}, busy=${busy})` };
+  return { verdict: 'cap', capG, reason: `depth ${depth} > rule; lowering G by ${cut.toFixed(1)} dB (→ I≈${capI.toFixed(1)})` };
 }
 
 function main() {

@@ -71,6 +71,39 @@ export function applyDecision(manifest, ids, reviewer, decision, reviewedAt) {
   return { manifest: next, applied, notFound };
 }
 
+/**
+ * "course" mode (Job B v2): approve ONLY the entries whose loudness.result is
+ * "ok" among the given drive_file_ids (a course's lessons), and bucket the rest
+ * for the coordinator. Pure: returns
+ *   { manifest, approved, skipped: { cap, exception, failed, other, notFound } }
+ * Never approves a cap/exception/failed entry — those need a human decision.
+ */
+export function approveCourse(manifest, driveIds, reviewer, reviewedAt) {
+  if (!reviewer || typeof reviewer !== 'string') throw new Error('reviewer name is required');
+  const list = Array.isArray(manifest) ? manifest : [];
+  const want = new Set(driveIds);
+  const byId = new Map(list.filter((e) => want.has(e.drive_file_id)).map((e) => [e.drive_file_id, e]));
+  const resultOf = (e) => (e && e.loudness && e.loudness.result) || 'other';
+
+  const approved = [];
+  const skipped = { cap: [], exception: [], failed: [], other: [], notFound: [] };
+  for (const id of driveIds) {
+    const e = byId.get(id);
+    if (!e) { skipped.notFound.push(id); continue; }
+    const r = resultOf(e);
+    if (r === 'ok') approved.push(id);
+    else if (skipped[r]) skipped[r].push(id);
+    else skipped.other.push(id);
+  }
+  const approve = new Set(approved);
+  const next = list.map((e) =>
+    approve.has(e.drive_file_id)
+      ? { ...e, status: APPROVED_STATUS, reviewer, reviewed_at: reviewedAt }
+      : e
+  );
+  return { manifest: next, approved, skipped };
+}
+
 function utcDate(d = new Date()) {
   return d.toISOString().slice(0, 10); // YYYY-MM-DD, UTC
 }
@@ -80,12 +113,32 @@ function main() {
   if (!manifestPath || !decision || !reviewer || !idsRaw) {
     console.error(
       'Usage: node scripts/media/approve-manifest.mjs <manifest.json> <decision> <reviewer> <id[,id...]>\n' +
-        `  decision ∈ {${DECISIONS.join(', ')}}`
+        `  decision ∈ {${DECISIONS.join(', ')}, course}\n` +
+        '  course: ids = the course\'s lesson drive_file_ids; only result=ok entries are approved.'
     );
     process.exit(1);
   }
+  // "course" mode: approve ONLY result=ok entries among the given ids; list the
+  // rest (cap/exception/failed) for the coordinator.
+  if (decision === 'course') {
+    const ids = parseIds(idsRaw);
+    if (ids.length === 0) { console.error('no drive_file_ids given'); process.exit(1); }
+    if (!existsSync(manifestPath)) { console.log(`manifest ${manifestPath} does not exist — nothing to approve.`); process.exit(0); }
+    const current = JSON.parse(readFileSync(manifestPath, 'utf-8'));
+    const { manifest, approved, skipped } = approveCourse(current, ids, reviewer, utcDate());
+    writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n', 'utf-8');
+    console.log(`course approve by ${reviewer}`);
+    console.log(`approved ok (${approved.length}): ${approved.join(', ') || '(none)'}`);
+    console.log(`needs coordinator — cap: ${skipped.cap.join(', ') || '(none)'}`);
+    console.log(`needs coordinator — exception: ${skipped.exception.join(', ') || '(none)'}`);
+    console.log(`needs coordinator — failed: ${skipped.failed.join(', ') || '(none)'}`);
+    if (skipped.other.length) console.log(`other/no-result: ${skipped.other.join(', ')}`);
+    if (skipped.notFound.length) console.log(`not found: ${skipped.notFound.join(', ')}`);
+    console.log(`APPLIED_COUNT=${approved.length}`);
+    process.exit(0);
+  }
   if (!DECISIONS.includes(decision)) {
-    console.error(`unknown decision "${decision}" (use: ${DECISIONS.join(' | ')})`);
+    console.error(`unknown decision "${decision}" (use: ${DECISIONS.join(' | ')} | course)`);
     process.exit(1);
   }
   const ids = parseIds(idsRaw);

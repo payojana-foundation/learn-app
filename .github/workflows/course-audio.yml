@@ -45,6 +45,10 @@ on:
         description: "Comma-separated drive_file_ids to RE-MEASURE (no re-upload), even if already in the manifest"
         required: false
         default: ""
+      dry_run:
+        description: "Measure + log G/depth/busy/expected result only — no upload, no manifest write"
+        required: false
+        default: "false"
 
 permissions:
   contents: write # the job commits the DRAFT manifest entries to main
@@ -147,6 +151,7 @@ jobs:
         if: ${{ steps.plan.outputs.to_process != '0' }}
         env:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '0' }}
         run: |
           set -uo pipefail
           chmod +x scripts/media/transcode-one.sh scripts/media/batch-run.sh
@@ -188,7 +193,7 @@ jobs:
           cat run-summary.md >> "$GITHUB_STEP_SUMMARY" || true
 
       - name: Commit the manifest changes to main (also on cancellation)
-        if: ${{ always() }}
+        if: ${{ always() && github.event.inputs.dry_run != 'true' }}
         run: |
           set -uo pipefail
           git config user.name "github-actions[bot]"

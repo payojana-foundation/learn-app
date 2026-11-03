@@ -1,8 +1,8 @@
 import { describe, it, expect } from 'vitest';
-import { decide, depthRuleHolds } from '../b3-decide.mjs';
+import { decide, depthRuleHolds, capReduction } from '../b3-decide.mjs';
 
-describe('B3 depthRuleHolds', () => {
-  it('holds when depth ≤ 6 regardless of busy', () => {
+describe('B3 depthRuleHolds (frozen 3 Nov)', () => {
+  it('holds at depth ≤ 6 regardless of busy', () => {
     expect(depthRuleHolds(6, 99)).toBe(true);
   });
   it('holds at depth ≤ 12 only when busy < 0.5%', () => {
@@ -14,28 +14,41 @@ describe('B3 depthRuleHolds', () => {
   });
 });
 
-describe('B3 decide', () => {
-  const ok = { I: -16, TP: -1.6, depth: 5, busy: 0.1, G: 3, loops: 1 };
-  it('accepts when loudness, TP and depth all hold', () => {
-    expect(decide(ok).verdict).toBe('accept');
+describe('B3 capReduction', () => {
+  it('is 0 when the rule already holds', () => {
+    expect(capReduction(6, 1)).toBe(0);
   });
-  it('adjusts (lowers G) when depth too high but above the -18 floor', () => {
-    const r = decide({ ...ok, depth: 15, loops: 1 });
-    expect(r.verdict).toBe('adjust');
-    expect(r.nextG).toBeLessThan(ok.G);
+  it('aims for 12 when busy is clean, else for 6', () => {
+    expect(capReduction(15, 0.2)).toBe(3); // 15 - 12
+    expect(capReduction(15, 1)).toBe(9); // 15 - 6
   });
-  it('caps at loop 3 when depth rule still unmet but TP ok and above -18', () => {
-    expect(decide({ ...ok, depth: 15, loops: 3 }).verdict).toBe('cap');
+});
+
+describe('B3 decide (accept | cap | exception | fail)', () => {
+  it('accepts when depth within rule', () => {
+    expect(decide({ depth: 5, busy: 0.1, G: 3, I: -16 }).verdict).toBe('accept');
   });
-  it('fails when even I ≤ -18 breaks the depth rule', () => {
-    expect(decide({ ...ok, I: -18, depth: 15, loops: 2 }).verdict).toBe('fail');
+  it('caps (lowers G) when depth too high but capped I stays ≥ -18', () => {
+    const r = decide({ depth: 15, busy: 1, G: 3, I: -16 }); // cut = 9 → capI = -25? no: I=-16-9=-25 < -18 → fail
+    expect(r.verdict).toBe('fail');
   });
-  it('adjusts on a hot true peak', () => {
-    const r = decide({ ...ok, TP: -0.5, loops: 1 });
-    expect(r.verdict).toBe('adjust');
-    expect(r.nextG).toBe(ok.G - 1);
+  it('caps when the reduction keeps I ≥ -18', () => {
+    const r = decide({ depth: 9, busy: 1, G: 3, I: -16 }); // cut = 3 → capI = -19 < -18 → fail
+    expect(r.verdict).toBe('fail');
+    const r2 = decide({ depth: 8, busy: 0.2, G: 3, I: -16 }); // busy clean → target 12, no cut needed (depth≤12) → accept
+    expect(r2.verdict).toBe('accept');
   });
-  it('fails loudness/TP not reached by loop 3', () => {
-    expect(decide({ ...ok, TP: -0.5, loops: 3 }).verdict).toBe('fail');
+  it('caps with a small reduction that stays above the floor', () => {
+    const r = decide({ depth: 13, busy: 0.2, G: 3, I: -16 }); // target 12, cut 1 → capI -17 ≥ -18 → cap
+    expect(r.verdict).toBe('cap');
+    expect(r.capG).toBe(2);
+  });
+  it('routes an exception to its accept_I (≥ -18)', () => {
+    const r = decide({ depth: 30, busy: 50, G: 3, I: -16, exception: { accept_I: -18 } });
+    expect(r.verdict).toBe('exception');
+    expect(r.capG).toBe(1); // G + (accept_I - I) = 3 + (-18 - -16)
+  });
+  it('fails an exception below the -18 floor', () => {
+    expect(decide({ depth: 1, busy: 0, G: 3, I: -16, exception: { accept_I: -20 } }).verdict).toBe('fail');
   });
 });

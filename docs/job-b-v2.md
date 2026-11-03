@@ -1,5 +1,7 @@
 # learn-app — Job B (course-audio) v2 · APPROVED by audio/engineering 2 Nov 2026 (B3/B6 updated 2 Nov, 21:00)
 
+> SPEC FREEZE — STARTED 3 Nov (audio + engineering): B2–B5 as rewritten 3 Nov, until pilot parts 1–15 are live and signed off. Frozen: key rule (B2), B3 chain + thresholds, B4 fields, B5 checks. Allowed: only fixes for a crash or wrong output, logged as "CHANGE: old → new — reason, date". Failing files stop and are reported; spec unchanged. New ideas → "v3 list" at the end of this doc.
+
 Replaces Job B in claude/learn-kiro-bulk-01.md and the course-audio parts of bulk-02 Q3.
 Status of every output: "DRAFT – needs reviewer approval" until a person signs off.
 
@@ -21,32 +23,40 @@ Status of every output: "DRAFT – needs reviewer approval" until a person signs
 - Upload headers: Cache-Control public, max-age=31536000, immutable;
   Content-Type audio/mpeg.
 
-## B3. Loudness chain (audio + engineering, 2 Nov, replaces earlier B3)
-Chain:
-1. pan=mono|c0=0.5*c0+0.5*c1 (only if 2 channels) → pass-1 ebur128 on that signal
-2. volume=<G>dB, G = -16 - I(pass 1)
-3. acompressor=threshold=0.1:ratio=2:attack=20:release=250:knee=6:makeup=1
-4. aresample=44100
-5. alimiter=limit=0.708:attack=5:release=50:level=disabled
-6. -c:a libmp3lame -b:a 64k -map_metadata -1
-Measure (steps 1–4, no limiter, null output):
-- depth = TP(ebur128 peak=true) − 20·log10(limit)  [dB]
-- busy = share of 50 ms frames (asetnsamples=n=2205, astats reset per frame,
-  Peak_level) above the limiter ceiling  [%]
-Then verify the finished mp3 with ebur128 peak=true.
-Accept: I −16 ±0.5 LUFS and TP ≤ −1.5 dBTP, AND (depth ≤ 6 dB, OR depth ≤ 12 dB
-with busy < 0.5 %).
-Cap: if the depth rule fails, lower G until it holds; accept the loudest result
-within the rule down to I = −18 LUFS (TP ≤ −1.5 still), result "cap".
-Stop: if even −18 breaks the rule → failed, no upload, report (source may need a
-manual fix: knocks/clipping). Loops max 3. No 6-loop forcing in production.
-Log per file: pass-1 I/TP/LRA, G, limit, depth, busy, output I/TP/LRA, loops,
-result (ok | cap | failed). Thresholds 6 / 12 / 0.5 are starting values set by A/B.
+## B3. Loudness chain — coordinator standard (3 Nov, confirmed by audio/engineering) — FROZEN
+Chain (no acompressor, no rescue path):
+1. pan=mono|c0=0.5*c0+0.5*c1 (only if 2 channels) → pass-1 ebur128 on that signal → I, TP, LRA
+2. volume=<G>dB, G = −16 − I(pass 1)
+3. aresample=44100
+4. alimiter=limit=0.708:attack=5:release=50:level=disabled   (≈ −3 dBFS; stays 0.708)
+5. -c:a libmp3lame -b:a 64k mono -map_metadata -1
+Measure on steps 1–3 (no limiter, null output):
+- depth = TP(ebur128 peak=true) − 20·log10(0.708)  [dB]
+- busy = share of 50 ms frames (asetnsamples=n=2205, astats reset per frame, Peak_level)
+  above the limiter ceiling  [%]
+Thresholds (frozen for the pilot): depth ≤ 6 dB, OR depth ≤ 12 dB with busy < 0.5 %.
+Cap: if the rule fails, G_cap = G − (depth − 6) or G − (depth − 12), whichever rule applies;
+re-measure and verify. Floor −18 LUFS; below → failed, not uploaded.
+Accept on the FINISHED mp3 (ebur128 peak=true): I = −16 ±0.5 LUFS (or the cap result ≥ −18),
+TP ≤ −1.5 dBTP (accept check, not the limiter setting — MP3 adds overshoot),
+duration = source duration ±1 s. Otherwise failed, not uploaded.
+Result: ok | cap | exception | failed.
+Failed files also log the timestamps (s) of the 5 largest peaks above the limiter ceiling,
+so the coordinator listens only to those moments.
+Exception route: data/media-exceptions.json entries {drive_file_id, approved_by, date,
+accept_I (≥ −18)}. A listed file is processed at accept_I regardless of depth/busy;
+TP ≤ −1.5 still enforced; result "exception", logged with depth/busy. No entry → failed.
+Dry run: course-audio input dry_run=true measures and logs everything above (G, depth,
+busy, expected result) without uploading or writing the manifest.
+Log per file: pass-1 I/TP/LRA, G, limit, depth, busy, output I/TP/LRA,
+duration source/output, result.
+Superseded (invalid test, kept for history): the 2 Nov two-pass loudnorm, the 2 Nov
+compressor chain (acompressor), B6 rev 2, and the 2 Nov A/B verdict.
 
 ## B4. Manifest entry (data/media-manifest.json)
 lesson_code (from teacher sheet, else null), drive_file_id, drive_name, source_md5,
-key, bytes, duration_s, sha256, loudness {pass1:{I,TP,LRA}, G, limit, out:{I,TP,LRA},
-loops}, status ("DRAFT – needs reviewer approval").
+key, bytes, duration_s, sha256, loudness {pass1:{I,TP,LRA}, G, limit, depth, busy, out:{I,TP,LRA},
+loops, result (ok | cap | exception | failed)}, status ("DRAFT – needs reviewer approval").
 
 ## B5. Checks
 - Build fails if one lesson resolves to two keys.
@@ -55,8 +65,9 @@ loops}, status ("DRAFT – needs reviewer approval").
   data/media-shared-sources.json. Lesson ↔ manifest link is drive_file_id.
 - Upload: rclone copy --immutable; verify remote size == local bytes, curl -I 200,
   Range 0-99 → 206.
+- Output duration = source duration ±1 s, else failed (also in B3).
 
-## B6. A/B test (one-off workflow ab-test.yml, before parts 2–15) — one run, all blind
+## B6. A/B test — SUPERSEDED 3 Nov (invalid test; not re-run) (one-off workflow ab-test.yml, before parts 2–15) — one run, all blind
 - Part 1 (id 1EyF4VvM…), 6 clips: loudest 90 s + one pause ≥ 3 s (from the ebur128
   log); three versions: current (2 Nov upload) / new chain B3 / new chain gained to
   the current I (≈ −18). Names A-loud, B-loud, C-loud, A-pause, B-pause, C-pause;
@@ -70,23 +81,35 @@ loops}, status ("DRAFT – needs reviewer approval").
 - Cleanup: the coordinator deletes test/ in the Cloudflare dashboard after the
   verdict (workflows never delete). Parts 2–15 wait for the verdict.
 
-## B6 rev 2 (audio + engineering, 3 Nov — supersedes B6 for the A/B workflow)
-- RENDER: run each FULL file through each version's chain, then cut every clip
-  from those full renders with `-c copy` at identical timestamps. "current" =
-  cut from the uploaded 2 Nov mp3 with `-c copy`. No mp3→mp3 re-encode. Assert
-  every clip: 44100 Hz, mono, 64k.
-- VERSIONS: Part 1 — current / B3 / B3 matched to current's I (±0.3 LU). Part 4 —
-  B3 policy / forced -16 / -18 (matched pair within ±0.3 LU).
-- WINDOWS: loud = loudest 90 s by short-term loudness, start ≥ 120 s, end ≤
-  duration-120 s (60 s minimum if needed). Pause = a ≥3 s pause at ≥ 300 s in;
-  clip 30 s with the pause in the middle. Same windows for all versions.
-- ROUNDS: two rounds, each with its own random labels (R1-A…, R2-A…); keys only
-  in the private artifact.
-- LOG per clip in the RUN SUMMARY: round, label, window start/end, duration,
-  sample rate, and for the version: chain, G, limit, I, TP, LRA, depth, busy,
-  result.
-- Upload under test/2026-11-03/, Cache-Control: no-store; each URL curl -I → 200.
-
 ## Resolved 2 Nov
 1. Shared sources: warning + CSV, not a build stop (see B5). 2. lesson_code null for
 the pilot. 3. test/ deleted by the coordinator by hand.
+
+## B6 rev 2 — SUPERSEDED 3 Nov (skipped) — ab-test re-run (audio + engineering, 3 Nov; test workflow only, B3 unchanged)
+- Render each FULL file through each version's chain, then cut every clip from those full renders with -c copy at identical timestamps. "current" = cut from the uploaded 2 Nov mp3 with -c copy. No mp3→mp3 re-encode. Assert every clip: 44100 Hz, mono, 64 kbps.
+- Versions — Part 1: current / B3 / B3 matched to current's I (±0.3 LU). Part 4: B3 policy / forced −16 / −18 (matched pair within ±0.3 LU).
+- Windows: loud = loudest 90 s by short-term loudness, fully inside the file, start ≥ 120 s, end ≤ duration − 120 s (60 s minimum if needed). Pause = a ≥ 3 s pause at ≥ 300 s, clip 30 s with the pause in the middle. Same windows for all versions.
+- Rounds: two rounds, each with its own random labels (R1-A…, R2-A…); keys only in the private artifact until the verdict.
+- Log per clip in the run summary: round, label, window start/end, duration, sample rate, and for the version: path/chain, G, limit, I, TP, LRA, depth, busy, result.
+- Upload under test/2026-11-03/. Send the run-summary log first (audio checks validity), then the clip URLs. Freeze on hold; parts 2–15 wait.
+
+## Coordinator audio standard (3 Nov) — CONFIRMED by audio/engineering 3 Nov (see B3)
+1. Target loudness −16 LUFS (accept −16 ±0.5).
+2. Processing: limiter only (no compressor). Chain: pan (if 2 ch) → volume G → aresample 44100 → alimiter → libmp3lame 64k mono.
+3. Peak ceiling −1.5 dBTP (unchanged).
+4. If −16 needs heavy limiting (depth/busy rule fails): accept quieter, down to −18 LUFS, result "cap", listed for the coordinator; below that → failed, not uploaded.
+Approval: files with result "ok" may be approved by course by the team without listening; "cap" and "failed" go to the coordinator.
+
+## A/B verdict (coordinator, 2 Nov) — SUPERSEDED 3 Nov (invalid test)
+- Part 1: B preferred (loud and pause). Part 4: P4-z preferred.
+- Order key: in the ab-test run artifact (coordinator holds it). Thresholds: pending audio + engineering.
+
+## CHANGE log
+(empty)
+
+## v3 list
+(empty)
+
+## Pilot plan (3 Nov)
+- Run pilot parts 1–15 from data/audio-queue.pilot.csv; part 1 uploads under its md5 key (-a64.mp3).
+- Coordinator listens to part 1 (2 min start + 2 min middle) and every "cap" file.

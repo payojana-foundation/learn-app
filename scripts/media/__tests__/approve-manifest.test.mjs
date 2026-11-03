@@ -1,6 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import {
   applyDecision,
+  approveCourse,
   statusForDecision,
   parseIds,
   APPROVED_STATUS,
@@ -66,5 +67,36 @@ describe('applyDecision', () => {
   it('throws on a bad decision or a missing reviewer', () => {
     expect(() => applyDecision(manifest, ['ID_A'], 'R', 'nope', AT)).toThrow(/unknown decision/);
     expect(() => applyDecision(manifest, ['ID_A'], '', 'approved', AT)).toThrow(/reviewer/);
+  });
+});
+
+describe('approveCourse (Job B v2 "course" mode)', () => {
+  const m = [
+    { drive_file_id: 'OK1', key: 'audio/OK1-a64.mp3', sha256: 'a'.repeat(64), status: 'DRAFT', loudness: { result: 'ok' } },
+    { drive_file_id: 'OK2', key: 'audio/OK2-a64.mp3', sha256: 'b'.repeat(64), status: 'DRAFT', loudness: { result: 'ok' } },
+    { drive_file_id: 'CAP', key: 'audio/CAP-a64.mp3', sha256: 'c'.repeat(64), status: 'DRAFT', loudness: { result: 'cap' } },
+    { drive_file_id: 'EXC', key: 'audio/EXC-a64.mp3', sha256: 'd'.repeat(64), status: 'DRAFT', loudness: { result: 'exception' } },
+    { drive_file_id: 'FAIL', key: 'audio/FAIL-a64.mp3', sha256: 'e'.repeat(64), status: 'DRAFT', loudness: { result: 'failed' } },
+  ];
+  const ids = ['OK1', 'OK2', 'CAP', 'EXC', 'FAIL', 'MISSING'];
+
+  it('approves ONLY result=ok entries; buckets the rest for the coordinator', () => {
+    const { manifest: out, approved, skipped } = approveCourse(m, ids, 'Rev', AT);
+    expect(approved.sort()).toEqual(['OK1', 'OK2']);
+    expect(skipped.cap).toEqual(['CAP']);
+    expect(skipped.exception).toEqual(['EXC']);
+    expect(skipped.failed).toEqual(['FAIL']);
+    expect(skipped.notFound).toEqual(['MISSING']);
+    expect(out.find((e) => e.drive_file_id === 'OK1').status).toBe(APPROVED_STATUS);
+    expect(out.find((e) => e.drive_file_id === 'OK1').reviewer).toBe('Rev');
+    // a cap entry is NEVER auto-approved
+    expect(out.find((e) => e.drive_file_id === 'CAP').status).toBe('DRAFT');
+  });
+
+  it('does not mutate the input and requires a reviewer', () => {
+    const copy = JSON.parse(JSON.stringify(m));
+    approveCourse(m, ids, 'Rev', AT);
+    expect(m).toEqual(copy);
+    expect(() => approveCourse(m, ids, '', AT)).toThrow(/reviewer/);
   });
 });
