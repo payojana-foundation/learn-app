@@ -12,6 +12,40 @@
 
 set -uo pipefail
 
+# Overridable commands + public base so the verifier is unit-testable with stubs.
+RCLONE="${RCLONE:-rclone}"
+CURL="${CURL:-curl}"
+MEDIA_BASE_URL="${MEDIA_BASE_URL:-https://media.84000.digital}"
+MEDIA_BASE_URL="${MEDIA_BASE_URL%/}"
+
+# verify_on_r2 <key> — true only when the object exists in R2 with size > 0 AND
+# its public URL returns HTTP 200. Logs each check (no secrets).
+verify_on_r2() {
+  vkey="$1"
+  size="$("$RCLONE" lsjson "r2:course-media/${vkey}" 2>/dev/null \
+    | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const a=JSON.parse(s);process.stdout.write(String((a[0]&&a[0].Size)||0))}catch{process.stdout.write("0")}})')"
+  echo "[verify] rclone lsjson r2:course-media/${vkey} → size=${size:-0}"
+  if [ -z "$size" ] || [ "$size" -le 0 ] 2>/dev/null; then
+    echo "[verify] object missing or empty on R2" >&2
+    return 1
+  fi
+  url="${MEDIA_BASE_URL}/${vkey}"
+  http="$("$CURL" -s -o /dev/null -I -w '%{http_code}' "$url" 2>/dev/null || echo 000)"
+  echo "[verify] curl -I ${url} → HTTP ${http}"
+  if [ "$http" != "200" ]; then
+    echo "[verify] public URL did not return 200" >&2
+    return 1
+  fi
+  return 0
+}
+
+# Sourced by the unit test to exercise verify_on_r2 without running a transcode:
+# when TRANSCODE_ONE_LIB=1 we stop here (the test sources the file, so `return`
+# is valid and nothing below runs).
+if [ "${TRANSCODE_ONE_LIB:-0}" = "1" ]; then
+  return 0
+fi
+
 DRIVE_FILE_ID="${1:-}"
 if [ -z "$DRIVE_FILE_ID" ]; then
   echo "usage: transcode-one.sh <drive_file_id>" >&2
@@ -65,12 +99,27 @@ else
     exit 1
   fi
 
-  # Upload immutably.
-  rclone copy --immutable \
-    --header-upload "Cache-Control: public, max-age=31536000, immutable" \
-    --header-upload "Content-Type: audio/mpeg" \
-    "$out" "r2:course-media/audio/"
-  rclone moveto "r2:course-media/audio/${out}" "r2:course-media/${key}"
+  # Upload immutably. A failed copy/move previously went UNNOTICED (exit code
+  # ignored), so the id was marked "done" with nothing in R2. Check both.
+  if ! rclone copy --immutable \
+      --header-upload "Cache-Control: public, max-age=31536000, immutable" \
+      --header-upload "Content-Type: audio/mpeg" \
+      "$out" "r2:course-media/audio/"; then
+    echo "[$DRIVE_FILE_ID] rclone copy to R2 failed" >&2
+    exit 1
+  fi
+  if ! rclone moveto "r2:course-media/audio/${out}" "r2:course-media/${key}"; then
+    echo "[$DRIVE_FILE_ID] rclone moveto to final key failed" >&2
+    exit 1
+  fi
+fi
+
+# VERIFY before claiming success: the object must exist in R2 with size > 0 AND
+# the public URL must return 200. Without this, a silent upload failure (or a
+# bucket/endpoint misconfig) still reported "done" with an empty bucket.
+if ! verify_on_r2 "$key"; then
+  echo "[$DRIVE_FILE_ID] R2/public verification failed for $key — NOT done" >&2
+  exit 1
 fi
 
 # Build the manifest entry. If the local transcode exists, use it; else probe R2.

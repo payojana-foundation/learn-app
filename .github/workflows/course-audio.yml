@@ -108,6 +108,17 @@ jobs:
           endpoint = https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com
           no_check_bucket = true
           EOF
+          # Log the target so a wrong bucket/endpoint is visible (no secrets):
+          # the account id is masked to its last 4 chars, keys are never printed.
+          echo "rclone remote r2 → bucket course-media, endpoint https://***${R2_ACCOUNT_ID: -4}.r2.cloudflarestorage.com"
+          # Prove the remote actually reaches the course-media bucket now, before
+          # any transcode, so a credential/bucket error fails fast and loud.
+          if rclone lsd "r2:course-media" >/dev/null 2>&1; then
+            echo "rclone: course-media bucket reachable"
+          else
+            echo "::error title=R2 bucket unreachable::rclone could not list r2:course-media — check R2_ACCOUNT_ID/keys and that the token is scoped to course-media."
+            exit 1
+          fi
 
       - name: Plan the run (skip ids already in the manifest, cap at limit)
         id: plan
