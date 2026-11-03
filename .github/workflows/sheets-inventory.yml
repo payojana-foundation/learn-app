@@ -118,12 +118,23 @@ jobs:
           node scripts/media/xlsx-dump.mjs data/source/sheets data/source/sheets/_names.tsv > sheets-dump.json
           echo "dump entries:"; node -e 'console.log(JSON.parse(require("fs").readFileSync("sheets-dump.json","utf8")).length)'
 
-      - name: Write reports/sheets-inventory.md
+      - name: Write data/source/sheets/INVENTORY.md
         run: |
           set -euo pipefail
-          mkdir -p reports
-          node scripts/media/sheets-inventory.mjs sheets-dump.json > reports/sheets-inventory.md
-          echo "----- report head -----"; head -n 20 reports/sheets-inventory.md
+          # reports/ is .gitignored, so the committed report lives alongside the
+          # raw exports under data/source/sheets/ instead.
+          node scripts/media/sheets-inventory.mjs sheets-dump.json > data/source/sheets/INVENTORY.md
+          echo "----- report head -----"; head -n 20 data/source/sheets/INVENTORY.md
+
+      - name: Upload the report + xlsx exports as a run artifact
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: sheets-inventory
+          path: |
+            data/source/sheets/INVENTORY.md
+            data/source/sheets/*.xlsx
+          if-no-files-found: warn
 
       - name: Commit the raw exports + the report to main
         run: |
@@ -131,7 +142,7 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           rm -f data/source/sheets/_names.tsv
-          git add data/source/sheets reports/sheets-inventory.md
+          git add data/source/sheets
           git commit -m "sheets-inventory: raw .xlsx exports + discovery report" || {
             echo "nothing to commit"; exit 0;
           }
