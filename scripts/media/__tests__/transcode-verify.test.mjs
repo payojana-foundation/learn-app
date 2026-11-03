@@ -32,16 +32,16 @@ const run = BASH ? it : it.skip;
 function rcloneStub(size) {
   return `#!/usr/bin/env bash\nif [ "$1" = lsjson ]; then echo '[{"Size":${size}}]'; fi\nexit 0\n`;
 }
-/** Stub curl: -w '%{http_code}' prints the given code. */
-function curlStub(code) {
-  return `#!/usr/bin/env bash\nprintf '%s' "${code}"\nexit 0\n`;
+/** Stub curl: returns `head` for a HEAD (-I) and `range` for a range (-r). */
+function curlStub(head, range) {
+  return `#!/usr/bin/env bash\nfor a in "$@"; do\n  if [ "$a" = "-r" ]; then printf '%s' "${range}"; exit 0; fi\ndone\nprintf '%s' "${head}"\nexit 0\n`;
 }
 
-function runVerify(dir, { size, http }, key = 'audio/ID-a64.mp3') {
+function runVerify(dir, { size, http, range = 206 }, key = 'audio/ID-a64.mp3') {
   const rclone = join(dir, 'rclone');
   const curl = join(dir, 'curl');
   writeFileSync(rclone, rcloneStub(size));
-  writeFileSync(curl, curlStub(http));
+  writeFileSync(curl, curlStub(http, range));
   chmodSync(rclone, 0o755);
   chmodSync(curl, 0o755);
   const r = spawnSync(
@@ -61,11 +61,18 @@ describe('transcode-one.sh verify_on_r2', () => {
   beforeEach(() => { dir = mkdtempSync(join(tmpdir(), 'verify-')); });
   afterEach(() => rmSync(dir, { recursive: true, force: true }));
 
-  run('passes when R2 size > 0 AND public URL is 200', () => {
-    const r = runVerify(dir, { size: 12055126, http: 200 });
+  run('passes when R2 size > 0, HEAD is 200 AND range is 206', () => {
+    const r = runVerify(dir, { size: 12055126, http: 200, range: 206 });
     expect(r.status).toBe(0);
     expect(r.out).toMatch(/size=12055126/);
     expect(r.out).toMatch(/HTTP 200/);
+    expect(r.out).toMatch(/0-99.*HTTP 206/);
+  });
+
+  run('fails when the range request is not 206 (no byte-range support)', () => {
+    const r = runVerify(dir, { size: 999, http: 200, range: 200 });
+    expect(r.status).not.toBe(0);
+    expect(r.out).toMatch(/did not return 206/);
   });
 
   run('fails when the object is missing/empty (size 0)', () => {

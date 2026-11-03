@@ -41,7 +41,7 @@ describe('planRun', () => {
   });
 
   it('empty queue → empty plan (nothing to do)', () => {
-    expect(planRun([], [], 5)).toEqual({ toProcess: [], skipped: [], remaining: [] });
+    expect(planRun([], [], 5)).toEqual({ toProcess: [], skipped: [], remaining: [], force: [] });
   });
 
   it('all queued already present → all skipped, nothing to process', () => {
@@ -50,18 +50,31 @@ describe('planRun', () => {
     expect(plan.skipped).toEqual(queue);
     expect(plan.toProcess).toEqual([]);
   });
+
+  it('force_ids: an already-present id is re-processed, not skipped', () => {
+    const manifest = [{ drive_file_id: 'B' }];
+    const plan = planRun(queue, manifest, 5, ['B']);
+    expect(plan.toProcess).toContain('B');
+    expect(plan.skipped).not.toContain('B');
+    expect(plan.force).toEqual(['B']);
+  });
+
+  it('force_ids: an id not in the queue is still processed (prepended)', () => {
+    const plan = planRun(['A'], [{ drive_file_id: 'Z' }], 5, ['Z']);
+    expect(plan.toProcess).toEqual(['Z', 'A']);
+  });
 });
 
 describe('summaryTable', () => {
   it('renders a markdown table with a count line', () => {
     const md = summaryTable([
-      { id: 'A', status: 'done' },
+      { id: 'A', status: 'done', normalization_type: 'linear' },
       { id: 'B', status: 'skipped', reason: 'already in manifest' },
       { id: 'C', status: 'failed', reason: 'ffprobe: no audio' },
     ]);
-    expect(md).toMatch(/\| drive_file_id \| status \| reason \|/);
-    expect(md).toMatch(/\| A \| done \|  \|/);
-    expect(md).toMatch(/\| C \| failed \| ffprobe: no audio \|/);
+    expect(md).toMatch(/\| drive_file_id \| status \| norm_type \| reason \|/);
+    expect(md).toMatch(/\| A \| done \| linear \|  \|/);
+    expect(md).toMatch(/\| C \| failed \|  \| ffprobe: no audio \|/);
     expect(md).toMatch(/done 1 · skipped 1 · failed 1/);
   });
 });

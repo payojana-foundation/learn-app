@@ -41,6 +41,10 @@ on:
         description: "Parallel transcodes"
         required: true
         default: "2"
+      force_ids:
+        description: "Comma-separated drive_file_ids to RE-MEASURE (no re-upload), even if already in the manifest"
+        required: false
+        default: ""
 
 permissions:
   contents: write # the job commits the DRAFT manifest entries to main
@@ -59,6 +63,7 @@ jobs:
       LIMIT: ${{ github.event.inputs.limit }}
       MAX_MINUTES: ${{ github.event.inputs.max_minutes }}
       JOBS: ${{ github.event.inputs.concurrency }}
+      FORCE_IDS: ${{ github.event.inputs.force_ids }}
       MANIFEST: data/media-manifest.json
     steps:
       - name: Check out the repo
@@ -124,7 +129,9 @@ jobs:
         id: plan
         run: |
           set -euo pipefail
-          node scripts/media/queue-plan.mjs "$QUEUE" "$MANIFEST" "$LIMIT" > plan.json
+          node scripts/media/queue-plan.mjs "$QUEUE" "$MANIFEST" "$LIMIT" "$FORCE_IDS" > plan.json
+          # The forced set drives per-id FORCE=1 in the batch loop (re-measure).
+          node -e 'require("fs").writeFileSync("force-ids.txt",(require("./plan.json").force||[]).join("\n"))'
           # shellcheck disable=SC2016  # the single-quoted bodies below are Node (-e) code, not shell
           node -e 'const p=require("./plan.json");console.log(`toProcess ${p.toProcess.length}, skipped ${p.skipped.length}, remaining ${p.remaining.length}`)'
           node -e 'const p=require("./plan.json");require("fs").writeFileSync("to-process.txt",p.toProcess.join("\n"))'

@@ -51,16 +51,21 @@ while IFS= read -r fid || [ -n "$fid" ]; do
   fi
 
   count=$(( count + 1 ))
-  echo "::group::[$count] transcode $fid"
+  # Re-measure (no re-upload) when this id is in the forced set from the plan.
+  force=0
+  if [ -f force-ids.txt ] && grep -qxF "$fid" force-ids.txt; then force=1; fi
+  echo "::group::[$count] transcode $fid (force=$force)"
   echo "[$fid] starting ($TRANSCODE_ONE)"
-  out="$("$TRANSCODE_ONE" "$fid" 2>&1)"
+  out="$(FORCE="$force" "$TRANSCODE_ONE" "$fid" 2>&1)"
   code=$?
   printf '%s\n' "$out"
   echo "[$fid] exit $code"
   echo "::endgroup::"
 
   if [ "$code" -eq 0 ]; then
-    echo "{\"id\":\"$fid\",\"status\":\"done\"}" >> results.done.ndjson
+    # Carry normalization_type from the entry file into the summary row.
+    nt="$([ -f "entry-$fid.json" ] && node -e 'try{process.stdout.write(String(require("./entry-"+process.argv[1]+".json").normalization_type||""))}catch{process.stdout.write("")}' "$fid" || echo "")"
+    echo "{\"id\":\"$fid\",\"status\":\"done\",\"normalization_type\":\"$nt\"}" >> results.done.ndjson
   else
     reason="$(json_escape "$(printf '%s' "$out" | tail -n 3 | tr '\n' ' ')")"
     echo "{\"id\":\"$fid\",\"status\":\"failed\",\"reason\":\"transcode-one exit $code: $reason\"}" >> results.failed.ndjson

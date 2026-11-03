@@ -51,21 +51,26 @@ export function manifestDriveIds(manifest) {
  *   skipped   — ids skipped because they are already in the manifest
  *   remaining — queued ids left for the next run (beyond `limit`, not skipped)
  */
-export function planRun(queueIds, manifest, limit) {
+export function planRun(queueIds, manifest, limit, forceIds = []) {
   const have = manifestDriveIds(manifest);
+  const force = new Set((Array.isArray(forceIds) ? forceIds : []).map((s) => String(s).trim()).filter(Boolean));
   const lim = Number.isFinite(limit) && limit > 0 ? Math.floor(limit) : 5;
   const toProcess = [];
   const skipped = [];
   const remaining = [];
-  for (const id of Array.isArray(queueIds) ? queueIds : []) {
-    if (have.has(id)) {
+  // Forced ids are re-measured even if present; a forced id NOT in the queue is
+  // still processed (prepended) so a coordinator can target it directly.
+  const queue = Array.isArray(queueIds) ? queueIds : [];
+  const ids = [...force].filter((id) => !queue.includes(id)).concat(queue);
+  for (const id of ids) {
+    if (have.has(id) && !force.has(id)) {
       skipped.push(id);
       continue;
     }
     if (toProcess.length < lim) toProcess.push(id);
     else remaining.push(id);
   }
-  return { toProcess, skipped, remaining };
+  return { toProcess, skipped, remaining, force: [...force] };
 }
 
 /**
@@ -75,11 +80,12 @@ export function planRun(queueIds, manifest, limit) {
 export function summaryTable(results) {
   const list = Array.isArray(results) ? results : [];
   const L = [];
-  L.push('| drive_file_id | status | reason |');
-  L.push('| --- | --- | --- |');
+  L.push('| drive_file_id | status | norm_type | reason |');
+  L.push('| --- | --- | --- | --- |');
   for (const r of list) {
     const reason = (r.reason ?? '').toString().replace(/\|/g, '\\|').replace(/\r?\n/g, ' ');
-    L.push(`| ${r.id} | ${r.status} | ${reason} |`);
+    const norm = (r.normalization_type ?? '').toString().replace(/\|/g, '\\|');
+    L.push(`| ${r.id} | ${r.status} | ${norm} | ${reason} |`);
   }
   const counts = list.reduce((m, r) => ((m[r.status] = (m[r.status] || 0) + 1), m), {});
   L.push('');
@@ -88,19 +94,20 @@ export function summaryTable(results) {
 }
 
 /** Load + plan from file paths (used by the workflow via CLI). */
-export function planFromFiles(queuePath, manifestPath, limit) {
+export function planFromFiles(queuePath, manifestPath, limit, forceIds = []) {
   const queueText = existsSync(queuePath) ? readFileSync(queuePath, 'utf-8') : '';
   const manifest = existsSync(manifestPath) ? JSON.parse(readFileSync(manifestPath, 'utf-8')) : [];
-  return planRun(parseQueue(queueText), manifest, limit);
+  return planRun(parseQueue(queueText), manifest, limit, forceIds);
 }
 
 function main() {
-  const [, , queuePath, manifestPath, limitArg] = process.argv;
+  const [, , queuePath, manifestPath, limitArg, forceArg] = process.argv;
   if (!queuePath) {
-    console.error('Usage: node scripts/media/queue-plan.mjs <queue.csv> <manifest.json> [limit]');
+    console.error('Usage: node scripts/media/queue-plan.mjs <queue.csv> <manifest.json> [limit] [force_ids_csv]');
     process.exit(1);
   }
-  const plan = planFromFiles(queuePath, manifestPath ?? 'data/media-manifest.json', Number(limitArg ?? 5));
+  const forceIds = String(forceArg ?? '').split(',').map((s) => s.trim()).filter(Boolean);
+  const plan = planFromFiles(queuePath, manifestPath ?? 'data/media-manifest.json', Number(limitArg ?? 5), forceIds);
   process.stdout.write(JSON.stringify(plan) + '\n');
   process.exit(0);
 }
