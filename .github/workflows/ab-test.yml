@@ -1,12 +1,14 @@
 name: ab-test
 
-# Job B v2 · B6 — ONE-OFF blind listening test, run once before parts 2–15.
-# Part 1 (drive_file_id): 6 clips — loudest 90 s + one pause ≥ 3 s × three
-# versions (current / new B3 / B3 gained to ≈ -18) in a random A/B/C order.
-# Part 4 (part4_id): 3 clips — loudest 90 s × three versions (B3 / forced -16 /
-# -18) in a random x/y/z order. 9 clips total to course-media test/2026-11-02/
-# with Cache-Control: no-store; the 9 URLs print in the summary; the A/B/C + P4
-# order is written ONLY to a private artifact (never the summary).
+# Job B v2 · B6 rev 2 (audio+engineering, 3 Nov) — ONE-OFF blind listening test.
+# Each version's chain is run over the FULL file once; every clip is cut from
+# those full renders with -c copy at identical timestamps (no mp3→mp3 re-encode;
+# "current" is cut from the uploaded 2 Nov mp3). Windows: loud = loudest 90 s by
+# short-term loudness (start ≥120 s, end ≤dur−120 s, ≥60 s); pause = 30 s around
+# a ≥3 s pause at ≥300 s. Versions — part 1: current / B3 / B3-matched-to-current;
+# part 4: B3 / forced −16 / −18. TWO rounds with their own random labels; the
+# label→version map is a PRIVATE artifact only. Upload under test/2026-11-03/,
+# Cache-Control: no-store; each URL curl -I → 200; a per-clip table in the summary.
 #
 # Versions: current (the file uploaded 2 Nov), chain B3, and chain B3 with a
 # fixed gain down to the current file's I (≈ -18) so the listener judges the
@@ -47,7 +49,7 @@ jobs:
       DRIVE_FILE_ID: ${{ github.event.inputs.drive_file_id }}
       CURRENT_KEY: ${{ github.event.inputs.current_key }}
       PART4_ID: ${{ github.event.inputs.part4_id }}
-      DEST: test/2026-11-02
+      DEST: test/2026-11-03
     steps:
       - name: Check out the repo
         uses: actions/checkout@v5

@@ -70,6 +70,23 @@ loops}, status ("DRAFT – needs reviewer approval").
 - Cleanup: the coordinator deletes test/ in the Cloudflare dashboard after the
   verdict (workflows never delete). Parts 2–15 wait for the verdict.
 
+## B6 rev 2 (audio + engineering, 3 Nov — supersedes B6 for the A/B workflow)
+- RENDER: run each FULL file through each version's chain, then cut every clip
+  from those full renders with `-c copy` at identical timestamps. "current" =
+  cut from the uploaded 2 Nov mp3 with `-c copy`. No mp3→mp3 re-encode. Assert
+  every clip: 44100 Hz, mono, 64k.
+- VERSIONS: Part 1 — current / B3 / B3 matched to current's I (±0.3 LU). Part 4 —
+  B3 policy / forced -16 / -18 (matched pair within ±0.3 LU).
+- WINDOWS: loud = loudest 90 s by short-term loudness, start ≥ 120 s, end ≤
+  duration-120 s (60 s minimum if needed). Pause = a ≥3 s pause at ≥ 300 s in;
+  clip 30 s with the pause in the middle. Same windows for all versions.
+- ROUNDS: two rounds, each with its own random labels (R1-A…, R2-A…); keys only
+  in the private artifact.
+- LOG per clip in the RUN SUMMARY: round, label, window start/end, duration,
+  sample rate, and for the version: chain, G, limit, I, TP, LRA, depth, busy,
+  result.
+- Upload under test/2026-11-03/, Cache-Control: no-store; each URL curl -I → 200.
+
 ## Resolved 2 Nov
 1. Shared sources: warning + CSV, not a build stop (see B5). 2. lesson_code null for
 the pilot. 3. test/ deleted by the coordinator by hand.
