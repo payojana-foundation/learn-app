@@ -80,3 +80,35 @@ describe('transcode-one.sh verify_on_r2', () => {
     expect(r.out).toMatch(/did not return 200/);
   });
 });
+
+/** Stub rclone whose lsjson prints exactly `body` (to test empty output). */
+function rcloneLsjsonRaw(body) {
+  return `#!/usr/bin/env bash\nif [ "$1" = lsjson ]; then printf '%s' ${JSON.stringify(body)}; fi\nexit 0\n`;
+}
+function objectSize(dir, body) {
+  const rclone = join(dir, 'rclone');
+  writeFileSync(rclone, rcloneLsjsonRaw(body));
+  chmodSync(rclone, 0o755);
+  const r = spawnSync(BASH, ['-c', `source "${script}"; object_size "audio/ID-a64.mp3"`], {
+    cwd: dir,
+    env: { ...process.env, TRANSCODE_ONE_LIB: '1', RCLONE: rclone },
+    encoding: 'utf-8',
+  });
+  return (r.stdout || '').trim();
+}
+
+describe('transcode-one.sh object_size (r2 presence)', () => {
+  let dir;
+  beforeEach(() => { dir = mkdtempSync(join(tmpdir(), 'objsize-')); });
+  afterEach(() => rmSync(dir, { recursive: true, force: true }));
+
+  run('empty lsjson output = not present (size 0)', () => {
+    expect(objectSize(dir, '')).toBe('0');
+  });
+  run('empty array = not present (size 0)', () => {
+    expect(objectSize(dir, '[]')).toBe('0');
+  });
+  run('object with a Size = that size', () => {
+    expect(objectSize(dir, '[{"Size":12055126}]')).toBe('12055126');
+  });
+});

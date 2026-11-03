@@ -20,10 +20,16 @@ MEDIA_BASE_URL="${MEDIA_BASE_URL%/}"
 
 # verify_on_r2 <key> — true only when the object exists in R2 with size > 0 AND
 # its public URL returns HTTP 200. Logs each check (no secrets).
+# object_size <key> — bytes of the R2 object (0 if missing/empty/unparseable).
+# Empty lsjson output (e.g. no_check_bucket quirks) parses to 0 = not present.
+object_size() {
+  "$RCLONE" lsjson "r2:course-media/${1}" 2>/dev/null \
+    | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const a=JSON.parse(s);process.stdout.write(String((a[0]&&a[0].Size)||0))}catch{process.stdout.write("0")}})'
+}
+
 verify_on_r2() {
   vkey="$1"
-  size="$("$RCLONE" lsjson "r2:course-media/${vkey}" 2>/dev/null \
-    | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{try{const a=JSON.parse(s);process.stdout.write(String((a[0]&&a[0].Size)||0))}catch{process.stdout.write("0")}})')"
+  size="$(object_size "$vkey")"
   echo "[verify] rclone lsjson r2:course-media/${vkey} → size=${size:-0}"
   if [ -z "$size" ] || [ "$size" -le 0 ] 2>/dev/null; then
     echo "[verify] object missing or empty on R2" >&2
@@ -72,9 +78,14 @@ hdr="Authorization: Bearer ${ACCESS_TOKEN}"$'\r\n'
 # FIRST failing stage is the reason. $CURL is overridable for the unit test.
 CURL="${CURL:-curl}"
 
-# Immutable: never overwrite an existing key. A present key = already done.
-if rclone lsf "r2:course-media/${key}" >/dev/null 2>&1; then
-  echo "[$DRIVE_FILE_ID] already on R2 ($key) — skipping upload, writing manifest entry"
+# Immutable: never overwrite an existing key. "Already on R2" ONLY if lsjson
+# shows an object with size > 0 (the same proof verify uses) — `rclone lsf` with
+# no_check_bucket returned exit 0 + empty output for a MISSING key, so a never-
+# uploaded id was skipped and then failed verify with size=0.
+existing="$(object_size "$key")"
+echo "[$DRIVE_FILE_ID] stage=r2-precheck key=$key size=${existing:-0}"
+if [ -n "$existing" ] && [ "$existing" -gt 0 ] 2>/dev/null; then
+  echo "[$DRIVE_FILE_ID] already on R2 ($key, ${existing} bytes) — skipping upload, writing manifest entry"
 else
   # Stage 1: Drive metadata GET — log HTTP status, mimeType, size. A 403/404
   # here (sharing/permission) is the usual cause of an otherwise-silent failure.
