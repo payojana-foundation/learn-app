@@ -3,11 +3,13 @@ name: ab-test
 # Job B v2 · listening test (3 Nov, audio + coordinator). NO R2 upload — GitHub
 # artifacts only (retention 7 days).
 #
-# Parts 8, 11, 4. Two FULL renders per part from the source, ONE encode each,
-# both under the same B3 rule (accept depth ≤ 12; else cap G − (depth − 12)):
-#   X = target −16 chain, then a pure volume gain AFTER the limiter so X's
-#       measured I matches Y's within ±0.3 LU (not a fixed −2 dB; part 8 caps
-#       at −16.6).
+# Parts 8, 11, 4. Each source is downloaded ONCE and its audio extracted; two FULL
+# renders per part, ONE mp3 encode each, both via the approved B3 G loop (null
+# passes of the limited chain, max 3, aim ±0.2, accept ±0.5, cap at depth 12 with a
+# measured I_cap):
+#   X = target −16 chain, then a pure volume gain AFTER the limiter. The gain comes
+#       from a null-pass measurement of X's chain vs Y's chain in the clip window,
+#       so X's clip I matches Y's within ±0.3 LU (verified on the clips).
 #   Y = target −18 chain.
 # Clips are cut with -c copy at identical timestamps from the full renders:
 # loudest 90 s by short-term loudness, start ≥ 120 s, end ≤ duration − 120 s.

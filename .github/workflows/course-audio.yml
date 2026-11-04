@@ -195,6 +195,15 @@ jobs:
           set -uo pipefail
           node -e 'const fs=require("fs");const lines=(fs.existsSync("results.ndjson")?fs.readFileSync("results.ndjson","utf8"):"").split(/\r?\n/).filter(Boolean).map(JSON.parse);import("./scripts/media/queue-plan.mjs").then(m=>{const md=m.summaryTable(lines);fs.writeFileSync("run-summary.md",md);process.stdout.write(md)})'
           cat run-summary.md >> "$GITHUB_STEP_SUMMARY" || true
+          # Dry run: per-part G-loop table (part | I1 | TP1 | loops | final G |
+          # I_lim or I_cap | depth | busy | expected result).
+          if ls dryrun-*.json >/dev/null 2>&1; then
+            {
+              echo
+              echo "### Dry run — G loop per part"
+              node scripts/media/dryrun-table.mjs "$QUEUE" .
+            } | tee dryrun-table.md >> "$GITHUB_STEP_SUMMARY"
+          fi
 
       - name: Commit the manifest changes to main (also on cancellation)
         if: ${{ always() && github.event.inputs.dry_run != 'true' }}

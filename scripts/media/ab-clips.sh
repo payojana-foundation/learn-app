@@ -1,26 +1,24 @@
 #!/usr/bin/env bash
 # scripts/media/ab-clips.sh — Job B v2 listening test (3 Nov). NO R2 upload.
 #
-# Parts 8, 11, 4. Per part, TWO full renders from the source, ONE encode each,
-# both under the B3 rule (accept depth ≤ 12; else cap G − (depth − 12), capped
-# I = target − cut, floor −18):
+# Parts 8, 11, 4. Per part the source is downloaded ONCE and its audio extracted
+# to a local file; every pass runs on that file. Two full renders per part, ONE
+# mp3 encode each, both under the approved B3 G loop (b3-decide.mjs):
 #   Y = target −18 chain.
-#   X = target −16 chain, then a pure volume gain AFTER the limiter so X's
-#       measured I matches Y's within ±0.3 LU (part 8 caps at −16.6, so the gain
-#       is computed, not a fixed −2 dB).
+#   X = target −16 chain, then a pure volume gain AFTER the limiter. That gain
+#       comes from a null-pass measurement of X's chain vs Y's chain inside the
+#       clip window (so X's clip I matches Y's within ±0.3 LU), then X is encoded.
 # Clips: `-c copy` cuts at identical timestamps from the full renders; loudest
 # 90 s by short-term loudness, start ≥ 120 s, end ≤ duration − 120 s.
 # Two rounds with their own random labels (R1-8a/R1-8b …, R2-…): 12 clips.
 # Every clip asserted 44100 Hz / mono / 64 kbps.
 # Outputs: clips/*.mp3 (the 12 clips only) and keys-do-not-open.json
-# (label → X/Y per round). Summary table → $GITHUB_STEP_SUMMARY.
+# (label → X/Y per round). Summary tables → $GITHUB_STEP_SUMMARY.
 #
 # Env: ACCESS_TOKEN (+ optional REFRESH_TOKEN_CMD), PART8_ID, PART11_ID, PART4_ID.
 # Test hook: AB_SELFTEST=1 writes a label map only (no ffmpeg/Drive).
 
 set -uo pipefail
-
-LIMIT="0.708"
 
 # write_keys — two rounds of random labels per part. For each round and part the
 # two renders (X, Y) are assigned to labels <p>a / <p>b in random order.
@@ -45,6 +43,11 @@ if [ "${AB_SELFTEST:-0}" = "1" ]; then
 fi
 
 : "${ACCESS_TOKEN:?ACCESS_TOKEN not set}"
+FFMPEG="${FFMPEG:-ffmpeg}"
+FFPROBE="${FFPROBE:-ffprobe}"
+CURL="${CURL:-curl}"
+# shellcheck source=/dev/null
+source "$(dirname "${BASH_SOURCE[0]}")/b3-loop.sh"
 mkdir -p clips work
 write_keys
 
@@ -54,131 +57,90 @@ refresh_token() {
   [ -n "$t" ] && ACCESS_TOKEN="$t"
   return 0
 }
-hdr_now() { printf 'Authorization: Bearer %s\r\n' "$ACCESS_TOKEN"; }
 
 nn() { local code="$1"; shift; node -e "$code" -- "$@"; }
 
-ebur() { # <af-chain-or-empty> <input> [headers] → "I TP LRA"
-  local af="$1" in="$2" h="${3:-}" eb I TP LRA
-  if [ -n "$h" ]; then
-    eb="$(ffmpeg -hide_banner -nostdin -headers "$h" -i "$in" -af "${af:+$af,}ebur128=peak=true" -f null - 2>&1)"
-  else
-    eb="$(ffmpeg -hide_banner -nostdin -i "$in" -af "${af:+$af,}ebur128=peak=true" -f null - 2>&1)"
-  fi
-  I="$(printf '%s' "$eb" | grep -oE 'I:[[:space:]]*-?[0-9.]+ LUFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
-  TP="$(printf '%s' "$eb" | grep -oE 'Peak:[[:space:]]*-?[0-9.]+ dBFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
-  LRA="$(printf '%s' "$eb" | grep -oE 'LRA:[[:space:]]*-?[0-9.]+ LU' | tail -n1 | grep -oE '\-?[0-9.]+')"
-  printf '%s %s %s' "${I:-NaN}" "${TP:-NaN}" "${LRA:-NaN}"
-}
-
 assert_format() { # <clip> — 44100 Hz, mono, 64 kbps
   local sr ch br
-  sr="$(ffprobe -v error -select_streams a:0 -show_entries stream=sample_rate -of csv=p=0 "$1")"
-  ch="$(ffprobe -v error -select_streams a:0 -show_entries stream=channels -of csv=p=0 "$1")"
-  br="$(ffprobe -v error -select_streams a:0 -show_entries stream=bit_rate -of csv=p=0 "$1")"
+  sr="$("$FFPROBE" -v error -select_streams a:0 -show_entries stream=sample_rate -of csv=p=0 "$1")"
+  ch="$("$FFPROBE" -v error -select_streams a:0 -show_entries stream=channels -of csv=p=0 "$1")"
+  br="$("$FFPROBE" -v error -select_streams a:0 -show_entries stream=bit_rate -of csv=p=0 "$1")"
   [ "$sr" = "44100" ] || { echo "[ab] FAILED ${1}: sample_rate=${sr}" >&2; exit 1; }
   [ "$ch" = "1" ] || { echo "[ab] FAILED ${1}: channels=${ch}" >&2; exit 1; }
   nn 'process.exit(Math.abs(parseInt(process.argv[1]||"0",10)-64000)<=4000?0:1)' "$br" \
     || { echo "[ab] FAILED ${1}: bit_rate=${br} (want ~64000)" >&2; exit 1; }
 }
 
-# measure_depth_busy <dl> <pre-af> → "depth busy" (steps 1-3, no limiter)
-measure_depth_busy() {
-  local dl="$1" pre="$2" h tp ceil depth astats busy
-  h="$(hdr_now)"
-  ceil="$(nn 'process.stdout.write(String(20*Math.log10(0.708)))')"
-  tp="$(ebur "$pre" "$dl" "$h" | cut -d' ' -f2)"
-  depth="$(nn 'process.stdout.write(String((parseFloat(process.argv[1])||0)-parseFloat(process.argv[2])))' "${tp:-0}" "$ceil")"
-  astats="$(ffmpeg -hide_banner -nostdin -headers "$h" -i "$dl" \
-    -af "${pre},asetnsamples=n=2205:p=0,astats=metadata=1:reset=1,ametadata=mode=print:key=lavfi.astats.Overall.Peak_level" -f null - 2>&1 \
-    | grep -oE 'lavfi.astats.Overall.Peak_level=(-?[0-9.]+|-inf)' | grep -oE '\-?[0-9.]+|-inf')"
-  busy="$(printf '%s\n' "$astats" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const v=s.split(/\n/).filter(Boolean).map(x=>x==="-inf"?-120:parseFloat(x));const c=parseFloat(process.argv[1]);const over=v.filter(x=>x>c).length;process.stdout.write(String(v.length?(100*over/v.length):0))})' -- "$ceil")"
-  printf '%s %s' "${depth:-0}" "${busy:-0}"
-}
-
-# render_variant <dl> <base_af> <target> <post_gain_db> <outfile>
-# Runs the B3 rule for `target`, then ONE encode (post_gain applied AFTER the
-# limiter). Sets globals: R_G R_DEPTH R_BUSY R_RESULT R_EXPECT_I R_I R_TP R_LRA.
-render_variant() {
-  local dl="$1" base="$2" target="$3" post="$4" outf="$5" h p1 p1i dec verdict
-  h="$(hdr_now)"
-  p1="$(ebur "$base" "$dl" "$h")"; p1i="${p1%% *}"
-  R_G="$(nn 'process.stdout.write(String(parseFloat(process.argv[1])-parseFloat(process.argv[2])))' "$target" "$p1i")"
-  local pre="${base:+$base,}volume=${R_G}dB,aresample=44100"
-  read -r R_DEPTH R_BUSY <<<"$(measure_depth_busy "$dl" "$pre")"
-  dec="$(node scripts/media/b3-decide.mjs "{\"depth\":${R_DEPTH},\"busy\":${R_BUSY},\"G\":${R_G},\"I\":${p1i},\"target\":${target}}")"
-  verdict="$(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(JSON.parse(s).verdict))')"
-  R_EXPECT_I="$target"
-  case "$verdict" in
-    accept) R_RESULT="ok" ;;
-    cap)
-      R_RESULT="cap"
-      R_G="$(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(String(JSON.parse(s).capG)))')"
-      R_EXPECT_I="$(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(String(JSON.parse(s).capI)))')" ;;
-    *) R_RESULT="failed"; echo "[ab] ${outf}: B3 verdict ${verdict} — $(printf '%s' "$dec")" >&2; return 1 ;;
-  esac
-  # post = "AUTO:<yI>" → pure gain AFTER the limiter from the decision's expected
-  # I to Y's measured I (decided before the single encode; verified afterwards).
-  case "$post" in
-    AUTO:*) post="$(nn 'process.stdout.write(String(parseFloat(process.argv[1])-parseFloat(process.argv[2])))' "${post#AUTO:}" "$R_EXPECT_I")" ;;
-  esac
-  R_POST="$post"
-  local tail="alimiter=limit=${LIMIT}:attack=5:release=50:level=disabled"
-  [ "$post" != "0" ] && tail="${tail},volume=${post}dB"
-  # ONE encode, mono 44.1 kHz 64k.
-  ffmpeg -nostdin -y -headers "$h" -i "$dl" -vn \
-    -af "${base:+$base,}volume=${R_G}dB,aresample=44100,${tail}" \
-    -c:a libmp3lame -b:a 64k -ar 44100 -ac 1 -map_metadata -1 "$outf" 2>"work/enc.err" \
-    || { echo "[ab] FAILED encode ${outf}: $(tail -n 3 work/enc.err | tr '\n' ' ')" >&2; return 1; }
-  read -r R_I R_TP _ <<<"$(ebur "" "$outf")"
-}
-
-summary_rows=""
-R_POST="0"
-add_render_row() { # <part> <variant> <target> <post_gain>
-  summary_rows="${summary_rows}| render | ${1} | ${2} | ${3} | ${4} | ${R_G} | ${LIMIT} | ${R_DEPTH} | ${R_BUSY} | ${R_I} | ${R_TP} | ${R_RESULT} |"$'\n'
-}
-
+LIMIT="0.708"
 declare -A PID=( [8]="$PART8_ID" [11]="$PART11_ID" [4]="$PART4_ID" )
 clip_rows=""
+render_rows=""
 
 for part in 8 11 4; do
   refresh_token
-  dl="https://www.googleapis.com/drive/v3/files/${PID[$part]}?alt=media"
-  h="$(hdr_now)"
-  chans="$(ffprobe -v error -select_streams a:0 -show_entries stream=channels -of csv=p=0 -headers "$h" "$dl" 2>/dev/null | head -n1)"
-  base=""; [ "${chans:-1}" -ge 2 ] 2>/dev/null && base="pan=mono|c0=0.5*c0+0.5*c1"
-  base="${base:+$base,}aresample=44100"
-  dur="$(ffprobe -v error -show_entries format=duration -of csv=p=0 -headers "$h" "$dl" | cut -d. -f1)"
+  export B3_LOG="part${part}"
+  aud="$(b3_fetch_audio "${PID[$part]}" "work/src-${part}.bin" "work/aud-${part}")" || { echo "[ab] FAILED part ${part}: download/extract" >&2; exit 1; }
+  chans="$("$FFPROBE" -v error -select_streams a:0 -show_entries stream=channels -of csv=p=0 "$aud" | head -n1)"
+  pan_af=""; [ "${chans:-1}" -ge 2 ] 2>/dev/null && pan_af="pan=mono|c0=0.5*c0+0.5*c1"
+  dur="$("$FFPROBE" -v error -show_entries format=duration -of csv=p=0 "$aud" | cut -d. -f1)"
 
-  # Y first (target -18), then X (target -16) with a post-limiter gain that
-  # brings X's expected I onto Y's MEASURED I, verified within ±0.3 LU.
-  render_variant "$dl" "$base" -18 0 "work/full-${part}-Y.mp3" || { echo "[ab] part ${part} Y failed" >&2; exit 1; }
-  y_i="$R_I"; add_render_row "$part" Y -18 0
-  # X: ONE encode; the post-limiter gain is computed from X's expected I (target
-  # − cut) to Y's measured I before encoding, then verified within ±0.3 LU.
-  render_variant "$dl" "$base" -16 "AUTO:${y_i}" "work/full-${part}-X.mp3" || { echo "[ab] part ${part} X failed" >&2; exit 1; }
-  add_render_row "$part" X -16 "$R_POST"
-  delta="$(nn 'process.stdout.write(String(Math.abs(parseFloat(process.argv[1])-parseFloat(process.argv[2]))))' "$R_I" "$y_i")"
-  nn 'process.exit(parseFloat(process.argv[1])<=0.3?0:1)' "$delta" \
-    || { echo "[ab] FAILED part ${part}: X I=${R_I} vs Y I=${y_i} differ by ${delta} LU (> 0.3)" >&2; exit 1; }
+  # Both renders go through the SAME B3 rule (G loop on the limited signal).
+  ystate="$(b3_gloop "$aud" "$pan_af" -18 "")"
+  xstate="$(b3_gloop "$aud" "$pan_af" -16 "")"
+  for v in X Y; do
+    st="$ystate"; [ "$v" = X ] && st="$xstate"
+    r="$(b3_field "$st" result)"
+    case "$r" in ok|cap) ;; *) echo "[ab] FAILED part ${part} ${v}: B3 result ${r} — $(b3_field "$st" reason)" >&2; exit 1 ;; esac
+  done
+  gy="$(b3_field "$ystate" G)"; gx="$(b3_field "$xstate" G)"
 
-  # Window: loudest 90 s by short-term loudness, start ≥120, end ≤ dur-120.
-  ffmpeg -hide_banner -nostdin -i "work/full-${part}-Y.mp3" -af ebur128 -f null - 2>"work/frames-${part}.log"
+  # Window: loudest 90 s by short-term loudness (from Y's limited chain),
+  # start ≥ 120 s, end ≤ duration − 120 s.
+  "$FFMPEG" -hide_banner -nostdin -i "$aud" -af "$(b3_chain "$pan_af" "$gy"),ebur128" -f null - 2>"work/frames-${part}.log"
   read -r wstart wdur <<<"$(node -e 'import("./scripts/media/ab-windows.mjs").then(m=>{const fs=require("fs");const f=m.parseFrames(fs.readFileSync(process.argv[1],"utf8"));const w=m.loudestWindowBounded(f,Number(process.argv[2]));process.stdout.write(w.start+" "+w.dur)})' "work/frames-${part}.log" "$dur")"
   echo "[ab] part ${part}: dur=${dur}s window ${wstart}s +${wdur}s"
+
+  # X's post-limiter gain: null-pass I of X's chain vs Y's chain in the window.
+  ix_w="$(b3_null_ilim "$aud" "$pan_af" "$gx" -ss "$wstart" -t "$wdur")"
+  iy_w="$(b3_null_ilim "$aud" "$pan_af" "$gy" -ss "$wstart" -t "$wdur")"
+  post="$(nn 'process.stdout.write(String(parseFloat(process.argv[1])-parseFloat(process.argv[2])))' "$iy_w" "$ix_w")"
+  echo "[ab] part ${part}: window I  X=${ix_w}  Y=${iy_w}  → X post-limiter gain ${post} dB"
+
+  # ONE mp3 encode each.
+  "$FFMPEG" -nostdin -y -i "$aud" -vn -af "$(b3_chain "$pan_af" "$gy")" \
+    -c:a libmp3lame -b:a 64k -ar 44100 -ac 1 -map_metadata -1 "work/full-${part}-Y.mp3" 2>work/enc.err \
+    || { echo "[ab] FAILED encode Y part ${part}: $(tail -n 3 work/enc.err | tr '\n' ' ')" >&2; exit 1; }
+  "$FFMPEG" -nostdin -y -i "$aud" -vn -af "$(b3_chain "$pan_af" "$gx"),volume=${post}dB" \
+    -c:a libmp3lame -b:a 64k -ar 44100 -ac 1 -map_metadata -1 "work/full-${part}-X.mp3" 2>work/enc.err \
+    || { echo "[ab] FAILED encode X part ${part}: $(tail -n 3 work/enc.err | tr '\n' ' ')" >&2; exit 1; }
+
+  # Clips: -c copy at identical timestamps from the full renders.
+  for v in X Y; do
+    "$FFMPEG" -nostdin -y -ss "$wstart" -t "$wdur" -i "work/full-${part}-${v}.mp3" -c copy "work/cut-${part}-${v}.mp3" 2>work/cut.err \
+      || { echo "[ab] FAILED cut ${v} part ${part}: $(tail -n 2 work/cut.err | tr '\n' ' ')" >&2; exit 1; }
+    assert_format "work/cut-${part}-${v}.mp3"
+  done
+  read -r cx_i cx_tp _ <<<"$(b3_ebur "work/cut-${part}-X.mp3" "")"
+  read -r cy_i cy_tp _ <<<"$(b3_ebur "work/cut-${part}-Y.mp3" "")"
+  delta="$(nn 'process.stdout.write(String(Math.abs(parseFloat(process.argv[1])-parseFloat(process.argv[2]))))' "$cx_i" "$cy_i")"
+  nn 'process.exit(parseFloat(process.argv[1])<=0.3?0:1)' "$delta" \
+    || { echo "[ab] FAILED part ${part}: clip I X=${cx_i} vs Y=${cy_i} differ by ${delta} LU (> 0.3)" >&2; exit 1; }
+
+  # Busy is logged only.
+  bx="$(b3_busy "$aud" "$pan_af" "$gx")"; by="$(b3_busy "$aud" "$pan_af" "$gy")"
+  render_rows="${render_rows}| ${part} | X | -16 | $(b3_field "$xstate" loop) | ${gx} | ${LIMIT} | $(b3_field "$xstate" depth) | ${bx} | ${cx_i} | ${cx_tp} | $(b3_field "$xstate" result) |"$'\n'
+  render_rows="${render_rows}| ${part} | Y | -18 | $(b3_field "$ystate" loop) | ${gy} | ${LIMIT} | $(b3_field "$ystate" depth) | ${by} | ${cy_i} | ${cy_tp} | $(b3_field "$ystate" result) |"$'\n'
 
   for R in R1 R2; do
     for suffix in a b; do
       label="${R}-${part}${suffix}"
       v="$(node -e 'process.stdout.write(require("./keys-do-not-open.json")[process.argv[1]])' -- "$label")"
-      cp_out="clips/${label}.mp3"
-      ffmpeg -nostdin -y -ss "$wstart" -t "$wdur" -i "work/full-${part}-${v}.mp3" -c copy "$cp_out" 2>"work/cut.err" \
-        || { echo "[ab] FAILED cut ${label}: $(tail -n 2 work/cut.err | tr '\n' ' ')" >&2; exit 1; }
-      assert_format "$cp_out"
+      cp "work/cut-${part}-${v}.mp3" "clips/${label}.mp3"
+      assert_format "clips/${label}.mp3"
       clip_rows="${clip_rows}| ${R} | ${label} | ${part} | ${wstart} | $((wstart+wdur)) | ${wdur}s | 44100 |"$'\n'
     done
   done
+  rm -f "$aud" "work/full-${part}-X.mp3" "work/full-${part}-Y.mp3"
 done
 
 {
@@ -187,10 +149,10 @@ done
   echo "| --- | --- | --- | --- | --- | --- | --- |"
   printf '%s' "$clip_rows"
   echo
-  echo "### Renders (one encode each)"
-  echo "| | part | variant | target | post-gain | G | limit | depth | busy | I | TP | result |"
-  echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"
-  printf '%s' "$summary_rows"
+  echo "### Renders (one encode each; I/TP measured on the clip)"
+  echo "| part | render | target | loops | G | limit | depth | busy | I | TP | result |"
+  echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"
+  printf '%s' "$render_rows"
 } >> "${GITHUB_STEP_SUMMARY:-/dev/stdout}"
 
 count="$(find clips -name '*.mp3' | wc -l | tr -d ' ')"

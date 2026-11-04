@@ -25,35 +25,38 @@ Status of every output: "DRAFT – needs reviewer approval" until a person signs
 
 ## B3. Loudness chain — coordinator standard (3 Nov, confirmed by audio/engineering) — FROZEN
 Chain (no acompressor, no rescue path):
-1. pan=mono|c0=0.5*c0+0.5*c1 (only if 2 channels) → pass-1 ebur128 on that signal → I, TP, LRA
-2. volume=<G>dB, G = −16 − I(pass 1)
+1. pan=mono|c0=0.5*c0+0.5*c1 (only if 2 channels) → pass-1 ebur128 on that signal → I1, TP1
+2. volume=<G>dB
 3. aresample=44100
 4. alimiter=limit=0.708:attack=5:release=50:level=disabled   (≈ −3 dBFS; stays 0.708)
 5. -c:a libmp3lame -b:a 64k mono -map_metadata -1
-Measure on steps 1–3 (no limiter, null output):
-- depth = TP(ebur128 peak=true) − 20·log10(0.708)  [dB]
-- busy = share of 50 ms frames (asetnsamples=n=2205, astats reset per frame, Peak_level)
-  above the limiter ceiling  [%]
-Rule (3 Nov, audio + coordinator): accept = depth ≤ 12 dB. busy is measured and logged
-only, never used in the decision.
-Cap: G_cap = G − (depth − 12); capped I = TARGET_I − cut; re-measure and verify.
-Floor −18 LUFS; below → failed, not uploaded.
+G loop (approved 3 Nov, coordinator; audio agreed) — G is tuned on the LIMITED signal:
+1. pass-1 on the mono signal → I1, TP1. G = target − I1.
+2. Loop, max 3: a null pass of the FULL chain incl. alimiter (no mp3) → I_lim.
+   |target − I_lim| ≤ 0.2 → stop. Else G += (target − I_lim).
+   depth = TP1 + G − 20·log10(0.708). depth > 12 → CAP: G = 12 + 20·log10(0.708) − TP1,
+   one more null pass → I_cap (measured); result "cap" if I_cap ≥ −18, else "failed"
+   (exception route). Stop. After 3 loops: |target − I_lim| ≤ 0.5 → ok, else failed.
+3. Encode ONCE; accept on the mp3: ok → target ±0.5; cap → I_cap ±0.5; TP ≤ −1.5 dBTP
+   (accept check, not the limiter setting — MP3 adds overshoot); duration = source ±1 s.
+   Otherwise failed, not uploaded.
+busy = share of 50 ms frames (asetnsamples=n=2205, astats reset per frame, Peak_level)
+above the limiter ceiling on steps 1–3 (no limiter). Measured and LOGGED ONLY, never used.
 TARGET_I is one constant (default −16); switch it to −18 to retarget a whole course.
-Accept on the FINISHED mp3 (ebur128 peak=true): I = −16 ±0.5 LUFS (or the cap result ≥ −18),
-TP ≤ −1.5 dBTP (accept check, not the limiter setting — MP3 adds overshoot),
-duration = source duration ±1 s. Otherwise failed, not uploaded.
+Speed: each source is downloaded ONCE to the runner, its audio extracted to a local file,
+all passes run on that file, and it is deleted after each file.
 Result: ok | cap | exception | failed.
 Failed files also log the timestamps (s) of the 5 largest peaks above the limiter ceiling,
 so the coordinator listens only to those moments.
 Exception route: data/media-exceptions.json entries {drive_file_id, approved_by, date,
-accept_I (≥ −18)}. A listed file is processed at accept_I regardless of depth/busy;
-TP ≤ −1.5 still enforced; result "exception", logged with depth/busy. No entry → failed.
-Dry run: course-audio input dry_run=true measures and logs everything above (G, depth,
-busy, expected result) without uploading or writing the manifest; files whose expected
-result is failed also log the 5 largest-peak timestamps.
-Log per file: pass-1 I/TP/LRA, G, limit, depth, busy, output I/TP/LRA,
-duration source/output, result.
-Superseded (invalid test, kept for history): the 2 Nov two-pass loudnorm, the 2 Nov
+accept_I (≥ −18)}. A listed file runs the same loop at accept_I, ignoring depth;
+TP ≤ −1.5 still enforced; result "exception". No entry → failed.
+Dry run: course-audio input dry_run=true runs the same loop (null passes; no encode, no
+upload, no manifest) and prints a table per part: part | I1 | TP1 | loops | final G |
+I_lim or I_cap | depth | busy | expected result. Expected-failed files also log the 5
+largest-peak timestamps.
+Log per file: pass-1 I1/TP1/LRA, loops, every G and I_lim, I_cap, depth, busy, output
+I/TP/LRA, duration source/output, result.Superseded (invalid test, kept for history): the 2 Nov two-pass loudnorm, the 2 Nov
 compressor chain (acompressor), B6 rev 2, and the 2 Nov A/B verdict.
 
 ## B4. Manifest entry (data/media-manifest.json)
@@ -108,6 +111,7 @@ Approval: files with result "ok" may be approved by course by the team without l
 - Order key: in the ab-test run artifact (coordinator holds it). Thresholds: pending audio + engineering.
 
 ## CHANGE log
+- CHANGE: 3 Nov 2026: B3 gain G = target - I(pass1) → G loop on the limited signal (max 3, aim ±0.2, accept ±0.5, cap at depth 12 with measured I). Reason: limiter cost 1.2-1.8 LU on part 8. Approved: coordinator; Audio agreed.
 - CHANGE: busy via plain astats stderr grep → `asetnsamples=2205,astats=metadata=1:reset=1,ametadata=mode=print:key=…Peak_level` parsed per frame (same filter for the failed-file peak timestamps) — per-frame values are not in stderr so busy was always 0, 3 Nov.
 - CHANGE: b3-decide cap capI = I(pass1) − cut → capI = −16 − cut — the chain targets −16 before the cap, so the floor check used the wrong I, 3 Nov.
 - CHANGE: Drive token used once for the whole job → refreshed before each file and once on a 401 (REFRESH_TOKEN_CMD); 401 hint "check sharing" → "token expired or no access" — tokens expire after 60 min, 3 Nov.

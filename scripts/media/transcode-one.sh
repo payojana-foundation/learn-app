@@ -4,10 +4,15 @@
 # entry-<id>.json for the manifest step. Called once per drive_file_id.
 #
 # Requires in the environment: ACCESS_TOKEN (WIF Drive access token).
-# Key = audio/<first 16 hex of Drive md5Checksum>-a64.mp3 (B2). Loudness is the
-# ebur128 → volume → alimiter chain with a 3-loop feedback (B3); accept only
-# I = -16 ±0.5 LUFS AND TP ≤ -1.5 dBTP, else fail with no upload.
+# Key = audio/<first 16 hex of Drive md5Checksum>-a64.mp3 (B2).
+# B3 (approved 3 Nov, "G loop"): the source is downloaded ONCE, its audio
+# extracted to a local file, and every pass runs on that file. G is tuned on the
+# LIMITED signal (null passes, max 3), capped at depth 12 with a measured I_cap;
+# then ONE mp3 encode, accepted on the mp3 (see scripts/media/b3-decide.mjs).
 # Exit 0 = done, 3 = skipped (listed duplicate / key exists), non-zero = failed.
+#
+# DRY_RUN=1: the same loop (null passes only) — no encode, no upload, no manifest;
+# writes dryrun-<id>.json for the run-summary table.
 
 set -uo pipefail
 
@@ -58,6 +63,11 @@ if [ "${TRANSCODE_ONE_LIB:-0}" = "1" ]; then
   return 0
 fi
 
+FFMPEG="${FFMPEG:-ffmpeg}"
+FFPROBE="${FFPROBE:-ffprobe}"
+# shellcheck source=/dev/null
+source "$(dirname "${BASH_SOURCE[0]}")/b3-loop.sh"
+
 DRIVE_FILE_ID="${1:-}"
 if [ -z "$DRIVE_FILE_ID" ]; then
   echo "usage: transcode-one.sh <drive_file_id>" >&2
@@ -67,31 +77,32 @@ if [ -z "${ACCESS_TOKEN:-}" ]; then
   echo "ACCESS_TOKEN not set" >&2
   exit 2
 fi
+export B3_LOG="$DRIVE_FILE_ID"
 
-CURL="${CURL:-curl}"
 DUPLICATES="${DUPLICATES:-data/media-duplicates.json}"
 EXCEPTIONS="${EXCEPTIONS:-data/media-exceptions.json}"
 DRY_RUN="${DRY_RUN:-0}"   # 1 = measure + log only; no upload, no manifest
+# TARGET_I: the ONE target-loudness constant (default -16); set -18 to retarget
+# a whole course. Keep in sync with TARGET_I in b3-decide.mjs.
+TARGET_I="${TARGET_I:--16}"
 
 # nn <args…> — run `node -e` passing args after `--` so a leading-dash value
 # (e.g. a negative LUFS like -16.5) is NOT parsed by node as an option.
 # (fixes "node: bad option").
 nn() { local code="$1"; shift; node -e "$code" -- "$@"; }
 
-dl="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?alt=media"
 meta="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?fields=name,mimeType,size,md5Checksum"
 
 # Drive tokens expire after ~60 min. If REFRESH_TOKEN_CMD is set (the workflow
 # supplies a gcloud command that prints a fresh access token), re-mint the token
-# before EACH file, and once more on a 401. $hdr is rebuilt from ACCESS_TOKEN.
+# before EACH file, and once more on a 401.
 refresh_token() {
   [ -n "${REFRESH_TOKEN_CMD:-}" ] || return 0
   local t; t="$(eval "$REFRESH_TOKEN_CMD" 2>/dev/null | tr -d '[:space:]')"
   [ -n "$t" ] && ACCESS_TOKEN="$t"
-  hdr="Authorization: Bearer ${ACCESS_TOKEN}"$'\r\n'
+  return 0
 }
 refresh_token
-hdr="Authorization: Bearer ${ACCESS_TOKEN}"$'\r\n'
 
 # B1: never convert a listed duplicate.
 if [ -f "$DUPLICATES" ] && nn 'const l=require("fs").readFileSync(process.argv[1],"utf8");process.exit(JSON.parse(l).includes(process.argv[2])?0:1)' "$DUPLICATES" "$DRIVE_FILE_ID"; then
@@ -145,116 +156,78 @@ if [ -n "$existing" ] && [ "$existing" -gt 0 ] 2>/dev/null; then
   exit 3
 fi
 
-# B3 stage 1: pass-1 ebur128 on the mono-mixed, 44.1 kHz signal → I, TP, LRA.
-chans="$(ffprobe -v error -select_streams a:0 -show_entries stream=channels -of csv=p=0 -headers "$hdr" "$dl" 2>/dev/null | head -n1)"
+# Speed: download the source ONCE, extract the audio to a local file, run every
+# pass on it, and delete everything after this file (also on failure).
+work_src="src-${md5hex}.bin"
+work_base="aud-${md5hex}"
+# shellcheck disable=SC2329  # invoked by the EXIT trap below
+cleanup_work() { rm -f "$work_src" "${work_base}.mka" "${work_base}.flac" "$out" "ffmpeg-${md5hex}.err"; }
+trap 'cleanup_work' EXIT
+aud="$(b3_fetch_audio "$DRIVE_FILE_ID" "$work_src" "$work_base")" || {
+  echo "[$DRIVE_FILE_ID] FAILED stage=download: could not fetch/extract audio (token expired or no access)" >&2
+  exit 1
+}
+echo "[$DRIVE_FILE_ID] stage=extract file=${aud} bytes=$(stat -c%s "$aud")"
+
+chans="$("$FFPROBE" -v error -select_streams a:0 -show_entries stream=channels -of csv=p=0 "$aud" 2>/dev/null | head -n1)"
 if [ -z "$chans" ]; then
   echo "[$DRIVE_FILE_ID] FAILED stage=ffprobe: no audio stream" >&2
   exit 1
 fi
-pan=""
-[ "$chans" -ge 2 ] 2>/dev/null && pan="pan=mono|c0=0.5*c0+0.5*c1,"
-base_af="${pan}aresample=44100"
+pan_af=""
+[ "$chans" -ge 2 ] 2>/dev/null && pan_af="pan=mono|c0=0.5*c0+0.5*c1"
+src_dur="$("$FFPROBE" -v error -show_entries format=duration -of csv=p=0 "$aud" 2>/dev/null | cut -d. -f1)"
 
-measure_ebur128() { # <file-or-"-dl"> → "I TP LRA"
-  local src="$1" af="$2" eb
-  if [ "$src" = "-dl" ]; then
-    eb="$(ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$dl" -af "${af},ebur128=peak=true" -f null - 2>&1)"
-  else
-    eb="$(ffmpeg -hide_banner -nostdin -i "$src" -af "ebur128=peak=true" -f null - 2>&1)"
-  fi
-  local I TP LRA
-  I="$(printf '%s' "$eb" | grep -oE 'I:[[:space:]]*-?[0-9.]+ LUFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
-  TP="$(printf '%s' "$eb" | grep -oE 'Peak:[[:space:]]*-?[0-9.]+ dBFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
-  LRA="$(printf '%s' "$eb" | grep -oE 'LRA:[[:space:]]*-?[0-9.]+ LU' | tail -n1 | grep -oE '\-?[0-9.]+')"
-  printf '%s %s %s' "${I:-NaN}" "${TP:-NaN}" "${LRA:-NaN}"
-}
-
-read -r p1_i p1_tp p1_lra <<<"$(measure_ebur128 -dl "$base_af")"
-echo "[$DRIVE_FILE_ID] stage=pass1 I=${p1_i} TP=${p1_tp} LRA=${p1_lra}"
-if [ "$p1_i" = "NaN" ]; then
-  echo "[$DRIVE_FILE_ID] FAILED stage=pass1: could not measure loudness" >&2
-  exit 1
-fi
-
-# B3 (frozen 3 Nov): pan → volume=G → aresample 44100 → alimiter 0.708 → mp3.
-# No acompressor, no rescue loop. G = -16 - I(pass1). limit fixed at 0.708.
-limit="0.708"
-# TARGET_I: the ONE target-loudness constant (default -16); set -18 to retarget
-# a whole course. Keep in sync with TARGET_I in b3-decide.mjs.
-TARGET_I="${TARGET_I:--16}"
-G="$(nn 'process.stdout.write(String(parseFloat(process.argv[1]) - parseFloat(process.argv[2])))' "$TARGET_I" "$p1_i")"
-ceil="$(nn 'process.stdout.write(String(20*Math.log10(0.708)))')"
-src_dur="$(ffprobe -v error -show_entries format=duration -of csv=p=0 -headers "$hdr" "$dl" 2>/dev/null | cut -d. -f1)"
-
-# Steps 1-3 ONLY (pan,volume,aresample — NO limiter): depth + busy.
-measure_depth_busy() { # uses $G → prints "depth busy"
-  local pre eb tp astats
-  pre="${base_af%aresample=44100}volume=${G}dB,aresample=44100"
-  eb="$(ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$dl" -af "${pre},ebur128=peak=true" -f null - 2>&1)"
-  tp="$(printf '%s' "$eb" | grep -oE 'Peak:[[:space:]]*-?[0-9.]+ dBFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
-  local depth; depth="$(nn 'process.stdout.write(String((parseFloat(process.argv[1])||0)-parseFloat(process.argv[2])))' "${tp:-0}" "$ceil")"
-  # busy: PER-FRAME Peak_level printed by ametadata (plain astats puts values in
-  # per-frame metadata, NOT stderr → the old grep always saw 0 frames).
-  astats="$(ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$dl" \
-    -af "${pre},asetnsamples=n=2205:p=0,astats=metadata=1:reset=1,ametadata=mode=print:key=lavfi.astats.Overall.Peak_level" -f null - 2>&1 \
-    | grep -oE 'lavfi.astats.Overall.Peak_level=(-?[0-9.]+|-inf)' | grep -oE '\-?[0-9.]+|-inf')"
-  local busy; busy="$(printf '%s\n' "$astats" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const v=s.split(/\n/).filter(Boolean).map(x=>x==="-inf"?-120:parseFloat(x));const c=parseFloat(process.argv[1]);const over=v.filter(x=>x>c).length;process.stdout.write(String(v.length?(100*over/v.length):0))})' -- "$ceil")"
-  printf '%s %s' "${depth:-0}" "${busy:-0}"
-}
-
-encode_once() { # uses $G → writes $out
-  ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn \
-    -af "${base_af%aresample=44100}volume=${G}dB,aresample=44100,alimiter=limit=${limit}:attack=5:release=50:level=disabled" \
-    -c:a libmp3lame -b:a 64k -ar 44100 -map_metadata -1 "$out"
-}
-
-# Exception lookup for this id (accept_I ≥ -18 processed regardless of depth).
+# Exception lookup for this id (accept_I ≥ -18: same loop at accept_I, depth ignored).
 exc_i="$(node -e 'try{const l=require("fs").readFileSync(process.argv[1],"utf8");const e=(JSON.parse(l)||[]).find(x=>x.drive_file_id===process.argv[2]);process.stdout.write(e&&Number.isFinite(e.accept_I)?String(e.accept_I):"")}catch{process.stdout.write("")}' "$EXCEPTIONS" "$DRIVE_FILE_ID" 2>/dev/null)"
 
-read -r depth busy <<<"$(measure_depth_busy)"
-exc_json="null"; [ -n "$exc_i" ] && exc_json="{\"accept_I\":${exc_i}}"
-dec="$(node scripts/media/b3-decide.mjs "{\"depth\":${depth},\"busy\":${busy},\"G\":${G},\"I\":${p1_i},\"target\":${TARGET_I},\"exception\":${exc_json}}" 2>/dev/null)"
-verdict="$(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(JSON.parse(s).verdict))')"
-echo "[$DRIVE_FILE_ID] stage=decide depth=${depth} busy=${busy} G=${G} verdict=${verdict} $(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(JSON.parse(s).reason||""))')"
-result="failed"
-case "$verdict" in
-  accept) result="ok" ;;
-  cap) result="cap"; G="$(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(String(JSON.parse(s).capG)))')" ;;
-  exception) result="exception"; G="$(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(String(JSON.parse(s).capG)))')" ;;
-  fail) result="failed" ;;
-esac
-
-# Timestamps (s) of the 5 largest peaks above the ceiling, so the coordinator
-# listens only to those moments. Same asetnsamples=2205 frames as busy.
-peak_timestamps() { # uses $G
-  ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$dl" \
-    -af "${base_af%aresample=44100}volume=${G}dB,aresample=44100,asetnsamples=n=2205:p=0,astats=metadata=1:reset=1,ametadata=mode=print:key=lavfi.astats.Overall.Peak_level" -f null - 2>&1 \
-    | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const re=/pts_time:([0-9.]+)[\s\S]*?Peak_level=(-?[0-9.]+|-inf)/g;let m,a=[];while((m=re.exec(s))){a.push([parseFloat(m[1]),m[2]==="-inf"?-120:parseFloat(m[2])])}const c=parseFloat(process.argv[1]);a=a.filter(x=>x[1]>c).sort((x,y)=>y[1]-x[1]).slice(0,5).map(x=>x[0].toFixed(1));process.stdout.write(a.join(", "))})' -- "$ceil"
-}
+# B3 G loop (null passes of the FULL chain incl. alimiter; max 3 + cap).
+limit="0.708"
+state="$(b3_gloop "$aud" "$pan_af" "$TARGET_I" "$exc_i")"
+result="$(b3_field "$state" result)"
+G="$(b3_field "$state" G)"
+loops="$(b3_field "$state" loop)"
+depth="$(b3_field "$state" depth)"
+i_final="$(b3_field "$state" I_final)"
+expect_i="$(b3_field "$state" expectI)"
+p1_i="$(b3_field "$state" I1)"
+p1_tp="$(b3_field "$state" TP1)"
+p1_lra="$(b3_field "$state" LRA1)"
+busy="$(b3_busy "$aud" "$pan_af" "$G")"
+echo "[$DRIVE_FILE_ID] stage=gloop-result result=${result} loops=${loops} G=${G} I_lim_or_cap=${i_final} depth=${depth} busy=${busy} (busy logged only) $(b3_field "$state" reason)"
 
 if [ "$DRY_RUN" = "1" ]; then
-  echo "[$DRIVE_FILE_ID] DRY-RUN G=${G} depth=${depth} busy=${busy} (logged only) expected_result=${result} (no encode, no upload, no manifest)"
+  printf '%s' "$state" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const o=JSON.parse(s);o.id=process.argv[1];o.busy=Number(process.argv[2]);require("fs").writeFileSync("dryrun-"+process.argv[1]+".json",JSON.stringify(o))})' -- "$DRIVE_FILE_ID" "${busy:-0}"
+  echo "[$DRIVE_FILE_ID] DRY-RUN expected_result=${result} (no encode, no upload, no manifest)"
   if [ "$result" = "failed" ]; then
-    echo "[$DRIVE_FILE_ID] DRY-RUN failed: 5 loudest peaks above ceiling at s: $(peak_timestamps || true)"
+    echo "[$DRIVE_FILE_ID] DRY-RUN failed: 5 loudest peaks above ceiling at s: $(b3_peak_timestamps "$aud" "$pan_af" "$G" || true)"
   fi
   exit 0
 fi
 
 if [ "$result" = "failed" ]; then
-  peaks="$(peak_timestamps)"
-  echo "[$DRIVE_FILE_ID] FAILED stage=accept: depth=${depth} busy=${busy} — 5 loudest peaks above ceiling at s: ${peaks:-none}" >&2
+  # The 5 largest peaks above the ceiling: the coordinator listens only there.
+  peaks="$(b3_peak_timestamps "$aud" "$pan_af" "$G")"
+  echo "[$DRIVE_FILE_ID] FAILED stage=gloop: $(b3_field "$state" reason) — 5 loudest peaks above ceiling at s: ${peaks:-none}" >&2
   exit 1
 fi
 
-if ! encode_once 2>"ffmpeg-${md5hex}.err"; then
+# Encode ONCE: pan → volume G → aresample 44100 → alimiter 0.708 → mp3 64k mono.
+if ! "$FFMPEG" -nostdin -y -i "$aud" -vn -af "$(b3_chain "$pan_af" "$G")" \
+    -c:a libmp3lame -b:a 64k -ar 44100 -ac 1 -map_metadata -1 "$out" 2>"ffmpeg-${md5hex}.err"; then
   echo "[$DRIVE_FILE_ID] FAILED stage=encode: $(tail -n 3 "ffmpeg-${md5hex}.err" | tr '\n' ' ')" >&2
   exit 1
 fi
-read -r out_i out_tp out_lra <<<"$(measure_ebur128 "$out" "")"
-out_dur="$(ffprobe -v error -show_entries format=duration -of csv=p=0 "$out" | cut -d. -f1)"
+read -r out_i out_tp out_lra <<<"$(b3_ebur "$out" "")"
+out_dur="$("$FFPROBE" -v error -show_entries format=duration -of csv=p=0 "$out" | cut -d. -f1)"
 echo "[$DRIVE_FILE_ID] stage=encode G=${G} limit=${limit} out_I=${out_i} out_TP=${out_tp} out_LRA=${out_lra} dur=${out_dur}/${src_dur} result=${result}"
 
-# Accept on the FINISHED mp3: TP ≤ -1.5, duration ±1 s. (I band only for "ok".)
+# Accept on the FINISHED mp3: I within expected ±0.5 (ok → target, cap → I_cap,
+# exception → accept_I), TP ≤ -1.5, duration ±1 s.
+if ! nn 'const i=parseFloat(process.argv[1]),e=parseFloat(process.argv[2]);process.exit(Math.abs(i-e)<=0.5?0:1)' "$out_i" "$expect_i"; then
+  echo "[$DRIVE_FILE_ID] FAILED stage=accept: finished I=${out_i} outside ${expect_i} ±0.5 (result ${result})" >&2
+  exit 1
+fi
 if ! nn 'const t=parseFloat(process.argv[1]);process.exit(t<=-1.5?0:1)' "$out_tp"; then
   echo "[$DRIVE_FILE_ID] FAILED stage=accept: finished TP=${out_tp} > -1.5 dBTP" >&2
   exit 1
@@ -263,15 +236,11 @@ if ! nn 'process.exit(Math.abs((parseInt(process.argv[1],10)||0)-(parseInt(proce
   echo "[$DRIVE_FILE_ID] FAILED stage=accept: duration ${out_dur}s vs source ${src_dur}s (> ±1 s)" >&2
   exit 1
 fi
-if [ "$result" = "ok" ] && ! nn 'const i=parseFloat(process.argv[1]),t=parseFloat(process.argv[2]);process.exit(Math.abs(i-t)<=0.5?0:1)' "$out_i" "$TARGET_I"; then
-  echo "[$DRIVE_FILE_ID] FAILED stage=accept: result ok but finished I=${out_i} outside ${TARGET_I} ±0.5" >&2
-  exit 1
-fi
 echo "[$DRIVE_FILE_ID] stage=result result=${result}"
 
 # B5 upload: rclone copy --immutable, then verify (size == local, 200, 206).
 bytes=$(stat -c%s "$out")
-dur=$(ffprobe -v quiet -show_entries format=duration -of csv=p=0 "$out" | cut -d. -f1)
+dur=$("$FFPROBE" -v quiet -show_entries format=duration -of csv=p=0 "$out" | cut -d. -f1)
 sha=$(sha256sum "$out" | cut -d' ' -f1)
 up="$(rclone copyto --immutable \
     --header-upload "Cache-Control: public, max-age=31536000, immutable" \
@@ -298,7 +267,7 @@ fi
 LESSON_CODE="${LESSON_CODE:-}"
 nn 'const fs=require("fs");const a=process.argv;const o={lesson_code:a[11]||null,drive_file_id:a[1],drive_name:a[2],source_md5:a[3],key:a[4],bytes:Number(a[5])||0,duration_s:Number(a[6])||0,sha256:a[7],loudness:{pass1:{I:Number(a[8].split(",")[0]),TP:Number(a[8].split(",")[1]),LRA:Number(a[8].split(",")[2])},G:Number(a[9].split(",")[0]),limit:Number(a[9].split(",")[1]),depth:Number(a[12].split(",")[0]),busy:Number(a[12].split(",")[1]),out:{I:Number(a[10].split(",")[0]),TP:Number(a[10].split(",")[1]),LRA:Number(a[10].split(",")[2])},loops:Number(a[9].split(",")[2]),result:a[13]||null}};if(!/^[0-9a-f]{64}$/.test(o.sha256)){console.error("bad sha");process.exit(1)}fs.writeFileSync("entry-"+a[1]+".json",JSON.stringify(o))' \
   "$DRIVE_FILE_ID" "$drive_name" "$md5" "$key" "${bytes:-0}" "${dur:-0}" "${sha:-}" \
-  "${p1_i},${p1_tp},${p1_lra}" "${G},${limit},1" "${out_i},${out_tp},${out_lra}" "$LESSON_CODE" \
+  "${p1_i},${p1_tp},${p1_lra}" "${G},${limit},${loops}" "${out_i},${out_tp},${out_lra}" "$LESSON_CODE" \
   "${depth},${busy}" "$result" || {
     echo "[$DRIVE_FILE_ID] could not build a valid manifest entry" >&2; exit 1; }
 
