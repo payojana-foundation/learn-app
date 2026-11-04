@@ -1,188 +1,198 @@
 #!/usr/bin/env bash
-# scripts/media/ab-clips.sh — Job B v2 · B6 rev 2 (audio+engineering, 3 Nov).
+# scripts/media/ab-clips.sh — Job B v2 listening test (3 Nov). NO R2 upload.
 #
-# For each part, render the FULL file through each version's chain ONCE, then
-# cut every clip from those full renders with `-c copy` at IDENTICAL timestamps
-# (no mp3→mp3 re-encode). "current" is cut with -c copy from the uploaded 2 Nov
-# mp3. Every clip is asserted 44100 Hz / mono / 64k.
+# Parts 8, 11, 4. Per part, TWO full renders from the source, ONE encode each,
+# both under the B3 rule (accept depth ≤ 12; else cap G − (depth − 12), capped
+# I = target − cut, floor −18):
+#   Y = target −18 chain.
+#   X = target −16 chain, then a pure volume gain AFTER the limiter so X's
+#       measured I matches Y's within ±0.3 LU (part 8 caps at −16.6, so the gain
+#       is computed, not a fixed −2 dB).
+# Clips: `-c copy` cuts at identical timestamps from the full renders; loudest
+# 90 s by short-term loudness, start ≥ 120 s, end ≤ duration − 120 s.
+# Two rounds with their own random labels (R1-8a/R1-8b …, R2-…): 12 clips.
+# Every clip asserted 44100 Hz / mono / 64 kbps.
+# Outputs: clips/*.mp3 (the 12 clips only) and keys-do-not-open.json
+# (label → X/Y per round). Summary table → $GITHUB_STEP_SUMMARY.
 #
-# Windows (same for all versions of a part):
-#   loud  = loudest 90 s by SHORT-TERM loudness, start ≥ 120 s, end ≤ dur-120 s
-#           (shrinks toward 60 s if no window fits the pads)
-#   pause = a ≥ 3 s pause at ≥ 300 s in; a 30 s clip with the pause in the middle
-# Versions:
-#   Part 1: current / B3 / B3-matched (to current's I, ±0.3 LU)
-#   Part 4: B3 policy / forced -16 / -18 (the matched pair within ±0.3 LU)
-# Rounds: TWO, each with its own random labels (R1-A…, R2-A…). The label→version
-# map is written ONLY to abc-order.json (private artifact), never the summary.
-# Upload under test/2026-11-03/, Cache-Control: no-store; each URL curl -I → 200.
-#
-# Env: ACCESS_TOKEN, MEDIA_BASE_URL, DRIVE_FILE_ID, CURRENT_KEY, PART4_ID, DEST.
-# Overridable for tests: RCLONE, CURL, SHUF, AB_SELFTEST.
+# Env: ACCESS_TOKEN (+ optional REFRESH_TOKEN_CMD), PART8_ID, PART11_ID, PART4_ID.
+# Test hook: AB_SELFTEST=1 writes a label map only (no ffmpeg/Drive).
 
 set -uo pipefail
 
-RCLONE="${RCLONE:-rclone}"
-CURL="${CURL:-curl}"
-SHUF="${SHUF:-shuf}"
-MEDIA_BASE_URL="${MEDIA_BASE_URL:-https://media.84000.digital}"
-MEDIA_BASE_URL="${MEDIA_BASE_URL%/}"
-DEST="${DEST:-test/2026-11-03}"
-COMP="acompressor=threshold=0.1:ratio=2:attack=20:release=250:knee=6:makeup=1"
-LIM="alimiter=limit=0.708:attack=5:release=50:level=disabled"
+LIMIT="0.708"
 
-# write_order — assign each part's versions to two rounds of random labels and
-# write abc-order.json ({R1:{A:ver,...},R2:{...}} per part). Offline + testable.
-write_order() {
-  local p1v="current b3 b3matched" p4v="b3 forced16 m18"
+# write_keys — two rounds of random labels per part. For each round and part the
+# two renders (X, Y) are assigned to labels <p>a / <p>b in random order.
+# Writes keys-do-not-open.json: { "R1-8a": "X", "R1-8b": "Y", … }.
+write_keys() {
+  # shellcheck disable=SC2016  # the single-quoted body is Node code (JS template literals), not shell
   node -e '
     const fs=require("fs");
-    const sh=(arr)=>arr.map(v=>[Math.random(),v]).sort((a,b)=>a[0]-b[0]).map(x=>x[1]);
-    function rounds(vers){const r={};for(const R of["R1","R2"]){const o=sh(vers);r[R]={A:o[0],B:o[1],C:o[2]};}return r;}
-    fs.writeFileSync("abc-order.json",JSON.stringify({part1:rounds(process.argv[1].split(" ")),part4:rounds(process.argv[2].split(" "))}));
-  ' -- "$p1v" "$p4v"
+    const m={};
+    for(const R of ["R1","R2"]) for(const p of ["8","11","4"]){
+      const flip=Math.random()<0.5;
+      m[`${R}-${p}a`]=flip?"X":"Y";
+      m[`${R}-${p}b`]=flip?"Y":"X";
+    }
+    fs.writeFileSync("keys-do-not-open.json",JSON.stringify(m,null,1));
+  '
 }
 
 if [ "${AB_SELFTEST:-0}" = "1" ]; then
-  write_order
+  write_keys
   exit 0
 fi
 
 : "${ACCESS_TOKEN:?ACCESS_TOKEN not set}"
-hdr="Authorization: Bearer ${ACCESS_TOKEN}"$'\r\n'
-summary_rows=""   # accumulates one markdown row per clip
+mkdir -p clips work
+write_keys
 
-ebur_measure() { # <file> → "I TP LRA" from ebur128 on the finished file
-  local eb I TP LRA
-  eb="$(ffmpeg -hide_banner -nostdin -i "$1" -af "ebur128=peak=true" -f null - 2>&1)"
+refresh_token() {
+  [ -n "${REFRESH_TOKEN_CMD:-}" ] || return 0
+  local t; t="$(eval "$REFRESH_TOKEN_CMD" 2>/dev/null | tr -d '[:space:]')"
+  [ -n "$t" ] && ACCESS_TOKEN="$t"
+  return 0
+}
+hdr_now() { printf 'Authorization: Bearer %s\r\n' "$ACCESS_TOKEN"; }
+
+nn() { local code="$1"; shift; node -e "$code" -- "$@"; }
+
+ebur() { # <af-chain-or-empty> <input> [headers] → "I TP LRA"
+  local af="$1" in="$2" h="${3:-}" eb I TP LRA
+  if [ -n "$h" ]; then
+    eb="$(ffmpeg -hide_banner -nostdin -headers "$h" -i "$in" -af "${af:+$af,}ebur128=peak=true" -f null - 2>&1)"
+  else
+    eb="$(ffmpeg -hide_banner -nostdin -i "$in" -af "${af:+$af,}ebur128=peak=true" -f null - 2>&1)"
+  fi
   I="$(printf '%s' "$eb" | grep -oE 'I:[[:space:]]*-?[0-9.]+ LUFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
   TP="$(printf '%s' "$eb" | grep -oE 'Peak:[[:space:]]*-?[0-9.]+ dBFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
   LRA="$(printf '%s' "$eb" | grep -oE 'LRA:[[:space:]]*-?[0-9.]+ LU' | tail -n1 | grep -oE '\-?[0-9.]+')"
   printf '%s %s %s' "${I:-NaN}" "${TP:-NaN}" "${LRA:-NaN}"
 }
 
-assert_format() { # <file> — must be 44100 Hz, 1 channel, 64 kbps
+assert_format() { # <clip> — 44100 Hz, mono, 64 kbps
   local sr ch br
   sr="$(ffprobe -v error -select_streams a:0 -show_entries stream=sample_rate -of csv=p=0 "$1")"
   ch="$(ffprobe -v error -select_streams a:0 -show_entries stream=channels -of csv=p=0 "$1")"
   br="$(ffprobe -v error -select_streams a:0 -show_entries stream=bit_rate -of csv=p=0 "$1")"
-  [ "$sr" = "44100" ] || { echo "[ab] FAILED ${1}: sample_rate=${sr} (want 44100)" >&2; exit 1; }
-  [ "$ch" = "1" ] || { echo "[ab] FAILED ${1}: channels=${ch} (want 1)" >&2; exit 1; }
-  # 64k CBR: allow a small container tolerance (±4000).
-  node -e 'const b=parseInt(process.argv[1]||"0",10);process.exit(Math.abs(b-64000)<=4000?0:1)' "$br" \
+  [ "$sr" = "44100" ] || { echo "[ab] FAILED ${1}: sample_rate=${sr}" >&2; exit 1; }
+  [ "$ch" = "1" ] || { echo "[ab] FAILED ${1}: channels=${ch}" >&2; exit 1; }
+  nn 'process.exit(Math.abs(parseInt(process.argv[1]||"0",10)-64000)<=4000?0:1)' "$br" \
     || { echo "[ab] FAILED ${1}: bit_rate=${br} (want ~64000)" >&2; exit 1; }
 }
 
-upload_verify() { # <localfile>
-  local f="$1" url http
-  "$RCLONE" copyto --header-upload "Cache-Control: no-store" --header-upload "Content-Type: audio/mpeg" \
-    "$f" "r2:course-media/${DEST}/${f}" || { echo "[ab] FAILED upload ${f}" >&2; exit 1; }
-  url="${MEDIA_BASE_URL}/${DEST}/${f}"
-  http="$("$CURL" -s -o /dev/null -I -w '%{http_code}' "$url" 2>/dev/null || echo 000)"
-  echo "[ab] ${f} → HTTP ${http}"
-  [ "$http" = "200" ] || { echo "[ab] FAILED verify ${url} (HTTP ${http})" >&2; exit 1; }
+# measure_depth_busy <dl> <pre-af> → "depth busy" (steps 1-3, no limiter)
+measure_depth_busy() {
+  local dl="$1" pre="$2" h tp ceil depth astats busy
+  h="$(hdr_now)"
+  ceil="$(nn 'process.stdout.write(String(20*Math.log10(0.708)))')"
+  tp="$(ebur "$pre" "$dl" "$h" | cut -d' ' -f2)"
+  depth="$(nn 'process.stdout.write(String((parseFloat(process.argv[1])||0)-parseFloat(process.argv[2])))' "${tp:-0}" "$ceil")"
+  astats="$(ffmpeg -hide_banner -nostdin -headers "$h" -i "$dl" \
+    -af "${pre},asetnsamples=n=2205:p=0,astats=metadata=1:reset=1,ametadata=mode=print:key=lavfi.astats.Overall.Peak_level" -f null - 2>&1 \
+    | grep -oE 'lavfi.astats.Overall.Peak_level=(-?[0-9.]+|-inf)' | grep -oE '\-?[0-9.]+|-inf')"
+  busy="$(printf '%s\n' "$astats" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const v=s.split(/\n/).filter(Boolean).map(x=>x==="-inf"?-120:parseFloat(x));const c=parseFloat(process.argv[1]);const over=v.filter(x=>x>c).length;process.stdout.write(String(v.length?(100*over/v.length):0))})' -- "$ceil")"
+  printf '%s %s' "${depth:-0}" "${busy:-0}"
 }
 
-# duration <dl-url|file> [headers?]
-file_duration() { ffprobe -v error -show_entries format=duration -of csv=p=0 ${2:+-headers "$2"} "$1" | cut -d. -f1; }
-
-# Per-version chain applied to the FULL file. Writes full-<part>-<ver>.mp3 and
-# echoes "chain|G|limit" for the summary. $1=part tag $2=ver $3=dl-url
-# $4=current-I (for b3matched). Uses $hdr for Drive sources.
-render_full() {
-  local part="$1" ver="$2" dl="$3" curI="${4:-}" outf chain G="-" meas
-  outf="full-${part}-${ver}.mp3"
-  case "$ver" in
-    current)
-      [ -f "cur-${part}.mp3" ] || "$RCLONE" copyto "r2:course-media/${CURRENT_KEY}" "cur-${part}.mp3" >/dev/null 2>&1
-      cp "cur-${part}.mp3" "$outf"; chain="(uploaded 2 Nov, as-is)" ;;
-    b3)
-      meas="$(ebur_measure_dl "$dl")"; G="$(node -e 'process.stdout.write(String(-16-parseFloat(process.argv[1])))' "${meas%% *}")"
-      ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn -af "pan=mono|c0=0.5*c0+0.5*c1,aresample=44100,volume=${G}dB,${COMP},${LIM}" -c:a libmp3lame -b:a 64k -ar 44100 -map_metadata -1 "$outf"
-      chain="B3" ;;
-    b3matched)
-      G="$(node -e 'process.stdout.write(String(parseFloat(process.argv[1])-parseFloat(process.argv[2])))' "$curI" "$(ebur_measure_dl "$dl" | cut -d" " -f1)")"
-      ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn -af "pan=mono|c0=0.5*c0+0.5*c1,aresample=44100,volume=${G}dB,${COMP},${LIM}" -c:a libmp3lame -b:a 64k -ar 44100 -map_metadata -1 "$outf"
-      chain="B3 matched to current I" ;;
-    forced16)
-      ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn -af "pan=mono|c0=0.5*c0+0.5*c1,aresample=44100,loudnorm=I=-16:TP=-1.5:LRA=11,${LIM}" -c:a libmp3lame -b:a 64k -ar 44100 -map_metadata -1 "$outf"
-      chain="forced -16" ;;
-    m18)
-      ffmpeg -nostdin -y -headers "$hdr" -i "$dl" -vn -af "pan=mono|c0=0.5*c0+0.5*c1,aresample=44100,loudnorm=I=-18:TP=-1.5:LRA=11,${LIM}" -c:a libmp3lame -b:a 64k -ar 44100 -map_metadata -1 "$outf"
-      chain="-18" ;;
+# render_variant <dl> <base_af> <target> <post_gain_db> <outfile>
+# Runs the B3 rule for `target`, then ONE encode (post_gain applied AFTER the
+# limiter). Sets globals: R_G R_DEPTH R_BUSY R_RESULT R_EXPECT_I R_I R_TP R_LRA.
+render_variant() {
+  local dl="$1" base="$2" target="$3" post="$4" outf="$5" h p1 p1i dec verdict
+  h="$(hdr_now)"
+  p1="$(ebur "$base" "$dl" "$h")"; p1i="${p1%% *}"
+  R_G="$(nn 'process.stdout.write(String(parseFloat(process.argv[1])-parseFloat(process.argv[2])))' "$target" "$p1i")"
+  local pre="${base:+$base,}volume=${R_G}dB,aresample=44100"
+  read -r R_DEPTH R_BUSY <<<"$(measure_depth_busy "$dl" "$pre")"
+  dec="$(node scripts/media/b3-decide.mjs "{\"depth\":${R_DEPTH},\"busy\":${R_BUSY},\"G\":${R_G},\"I\":${p1i},\"target\":${target}}")"
+  verdict="$(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(JSON.parse(s).verdict))')"
+  R_EXPECT_I="$target"
+  case "$verdict" in
+    accept) R_RESULT="ok" ;;
+    cap)
+      R_RESULT="cap"
+      R_G="$(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(String(JSON.parse(s).capG)))')"
+      R_EXPECT_I="$(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(String(JSON.parse(s).capI)))')" ;;
+    *) R_RESULT="failed"; echo "[ab] ${outf}: B3 verdict ${verdict} — $(printf '%s' "$dec")" >&2; return 1 ;;
   esac
-  printf '%s|%s|%s' "$chain" "$G" "0.708"
+  # post = "AUTO:<yI>" → pure gain AFTER the limiter from the decision's expected
+  # I to Y's measured I (decided before the single encode; verified afterwards).
+  case "$post" in
+    AUTO:*) post="$(nn 'process.stdout.write(String(parseFloat(process.argv[1])-parseFloat(process.argv[2])))' "${post#AUTO:}" "$R_EXPECT_I")" ;;
+  esac
+  R_POST="$post"
+  local tail="alimiter=limit=${LIMIT}:attack=5:release=50:level=disabled"
+  [ "$post" != "0" ] && tail="${tail},volume=${post}dB"
+  # ONE encode, mono 44.1 kHz 64k.
+  ffmpeg -nostdin -y -headers "$h" -i "$dl" -vn \
+    -af "${base:+$base,}volume=${R_G}dB,aresample=44100,${tail}" \
+    -c:a libmp3lame -b:a 64k -ar 44100 -ac 1 -map_metadata -1 "$outf" 2>"work/enc.err" \
+    || { echo "[ab] FAILED encode ${outf}: $(tail -n 3 work/enc.err | tr '\n' ' ')" >&2; return 1; }
+  read -r R_I R_TP _ <<<"$(ebur "" "$outf")"
 }
 
-ebur_measure_dl() { # <dl-url> → "I TP LRA" (pre-render, mono-mixed)
-  local eb I TP LRA
-  eb="$(ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$1" -af "pan=mono|c0=0.5*c0+0.5*c1,aresample=44100,ebur128=peak=true" -f null - 2>&1)"
-  I="$(printf '%s' "$eb" | grep -oE 'I:[[:space:]]*-?[0-9.]+ LUFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
-  TP="$(printf '%s' "$eb" | grep -oE 'Peak:[[:space:]]*-?[0-9.]+ dBFS' | tail -n1 | grep -oE '\-?[0-9.]+')"
-  LRA="$(printf '%s' "$eb" | grep -oE 'LRA:[[:space:]]*-?[0-9.]+ LU' | tail -n1 | grep -oE '\-?[0-9.]+')"
-  printf '%s %s %s' "${I:-NaN}" "${TP:-NaN}" "${LRA:-NaN}"
+summary_rows=""
+R_POST="0"
+add_render_row() { # <part> <variant> <target> <post_gain>
+  summary_rows="${summary_rows}| render | ${1} | ${2} | ${3} | ${4} | ${R_G} | ${LIMIT} | ${R_DEPTH} | ${R_BUSY} | ${R_I} | ${R_TP} | ${R_RESULT} |"$'\n'
 }
 
-# cut_clip — copy-cut, no re-encode, from a full render. $1=full $2=start $3=dur $4=out
-cut_clip() { ffmpeg -nostdin -y -ss "$2" -t "$3" -i "$1" -c copy "$4"; }
+declare -A PID=( [8]="$PART8_ID" [11]="$PART11_ID" [4]="$PART4_ID" )
+clip_rows=""
 
-write_order
+for part in 8 11 4; do
+  refresh_token
+  dl="https://www.googleapis.com/drive/v3/files/${PID[$part]}?alt=media"
+  h="$(hdr_now)"
+  chans="$(ffprobe -v error -select_streams a:0 -show_entries stream=channels -of csv=p=0 -headers "$h" "$dl" 2>/dev/null | head -n1)"
+  base=""; [ "${chans:-1}" -ge 2 ] 2>/dev/null && base="pan=mono|c0=0.5*c0+0.5*c1"
+  base="${base:+$base,}aresample=44100"
+  dur="$(ffprobe -v error -show_entries format=duration -of csv=p=0 -headers "$h" "$dl" | cut -d. -f1)"
 
-# process_part <tag> <dl-url> <versions-space-list> <current-I-or-->
-process_part() {
-  local part="$1" dl="$2" versions="$3" curI="$4" ver dur
-  dur="$(file_duration "$dl" "$hdr")"
-  ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$dl" -vn \
-    -af "pan=mono|c0=0.5*c0+0.5*c1,aresample=44100,ebur128=peak=true" -f null - 2>"${part}-frames.log" || {
-    echo "::error title=ebur128 failed::could not measure ${part}" >&2; exit 1; }
-  # windows
-  read -r loud_start loud_dur <<<"$(node -e 'import("./scripts/media/ab-windows.mjs").then(m=>{const fs=require("fs");const f=m.parseFrames(fs.readFileSync(process.argv[1],"utf8"));const w=m.loudestWindowBounded(f,Number(process.argv[2]));process.stdout.write(w.start+" "+w.dur)})' "${part}-frames.log" "$dur")"
-  local pause_json; pause_json="$(node -e 'import("./scripts/media/ab-windows.mjs").then(m=>{const fs=require("fs");const f=m.parseFrames(fs.readFileSync(process.argv[1],"utf8"));const w=m.pauseClipWindow(f,Number(process.argv[2]));process.stdout.write(w?(w.start+" "+w.dur):"")})' "${part}-frames.log" "$dur")"
-  echo "[ab] ${part} loud @ ${loud_start}s for ${loud_dur}s · pause=${pause_json:-none}"
+  # Y first (target -18), then X (target -16) with a post-limiter gain that
+  # brings X's expected I onto Y's MEASURED I, verified within ±0.3 LU.
+  render_variant "$dl" "$base" -18 0 "work/full-${part}-Y.mp3" || { echo "[ab] part ${part} Y failed" >&2; exit 1; }
+  y_i="$R_I"; add_render_row "$part" Y -18 0
+  # X: ONE encode; the post-limiter gain is computed from X's expected I (target
+  # − cut) to Y's measured I before encoding, then verified within ±0.3 LU.
+  render_variant "$dl" "$base" -16 "AUTO:${y_i}" "work/full-${part}-X.mp3" || { echo "[ab] part ${part} X failed" >&2; exit 1; }
+  add_render_row "$part" X -16 "$R_POST"
+  delta="$(nn 'process.stdout.write(String(Math.abs(parseFloat(process.argv[1])-parseFloat(process.argv[2]))))' "$R_I" "$y_i")"
+  nn 'process.exit(parseFloat(process.argv[1])<=0.3?0:1)' "$delta" \
+    || { echo "[ab] FAILED part ${part}: X I=${R_I} vs Y I=${y_i} differ by ${delta} LU (> 0.3)" >&2; exit 1; }
 
-  # Render each full version once + measure it. Fresh maps per part.
-  unset FULL CHAIN GAIN MI MTP MLRA
-  declare -A FULL CHAIN GAIN MI MTP MLRA
-  for ver in $versions; do
-    local info; info="$(render_full "$part" "$ver" "$dl" "$curI")"
-    FULL["$ver"]="full-${part}-${ver}.mp3"; CHAIN["$ver"]="${info%%|*}"
-    local rest="${info#*|}"; GAIN["$ver"]="${rest%%|*}"
-    local im; im="$(ebur_measure "${FULL[$ver]}")"
-    MI["$ver"]="$(printf '%s' "$im" | cut -d' ' -f1)"
-    MTP["$ver"]="$(printf '%s' "$im" | cut -d' ' -f2)"
-    MLRA["$ver"]="$(printf '%s' "$im" | cut -d' ' -f3)"
-  done
-  # current's I (for the summary note; matched version already used it live).
-  local segs="loud:${loud_start}:${loud_dur}"
-  [ -n "$pause_json" ] && segs="$segs pause:${pause_json// /:}"
+  # Window: loudest 90 s by short-term loudness, start ≥120, end ≤ dur-120.
+  ffmpeg -hide_banner -nostdin -i "work/full-${part}-Y.mp3" -af ebur128 -f null - 2>"work/frames-${part}.log"
+  read -r wstart wdur <<<"$(node -e 'import("./scripts/media/ab-windows.mjs").then(m=>{const fs=require("fs");const f=m.parseFrames(fs.readFileSync(process.argv[1],"utf8"));const w=m.loudestWindowBounded(f,Number(process.argv[2]));process.stdout.write(w.start+" "+w.dur)})' "work/frames-${part}.log" "$dur")"
+  echo "[ab] part ${part}: dur=${dur}s window ${wstart}s +${wdur}s"
 
   for R in R1 R2; do
-    for label in A B C; do
-      ver="$(node -e 'process.stdout.write(require("./abc-order.json")[process.argv[1]][process.argv[2]][process.argv[3]])' -- "$part" "$R" "$label")"
-      for seg in $segs; do
-        local sname="${seg%%:*}" sstart sdur
-        sstart="$(printf '%s' "$seg" | cut -d: -f2)"; sdur="$(printf '%s' "$seg" | cut -d: -f3)"
-        local outf="${R}-${label}-${part}-${sname}.mp3"
-        cut_clip "${FULL[$ver]}" "$sstart" "$sdur" "$outf" || { echo "[ab] FAILED cut ${outf}" >&2; exit 1; }
-        assert_format "$outf"
-        upload_verify "$outf"
-        summary_rows="${summary_rows}| ${R} | ${label} | ${part} | ${sstart} | $((sstart+sdur)) | ${sdur}s | 44100 | ${CHAIN[$ver]} | ${GAIN[$ver]} | 0.708 | ${MI[$ver]} | ${MTP[$ver]} | ${MLRA[$ver]} | — | — | ok |"$'\n'
-      done
+    for suffix in a b; do
+      label="${R}-${part}${suffix}"
+      v="$(node -e 'process.stdout.write(require("./keys-do-not-open.json")[process.argv[1]])' -- "$label")"
+      cp_out="clips/${label}.mp3"
+      ffmpeg -nostdin -y -ss "$wstart" -t "$wdur" -i "work/full-${part}-${v}.mp3" -c copy "$cp_out" 2>"work/cut.err" \
+        || { echo "[ab] FAILED cut ${label}: $(tail -n 2 work/cut.err | tr '\n' ' ')" >&2; exit 1; }
+      assert_format "$cp_out"
+      clip_rows="${clip_rows}| ${R} | ${label} | ${part} | ${wstart} | $((wstart+wdur)) | ${wdur}s | 44100 |"$'\n'
     done
   done
-}
-
-# current's integrated I (used to match B3 for part 1).
-[ -f "cur-part1.mp3" ] || "$RCLONE" copyto "r2:course-media/${CURRENT_KEY}" cur-part1.mp3 >/dev/null 2>&1 || true
-cur_i="$([ -f cur-part1.mp3 ] && ebur_measure cur-part1.mp3 | cut -d' ' -f1 || echo -18)"
-
-process_part "part1" "https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?alt=media" "current b3 b3matched" "$cur_i"
-process_part "part4" "https://www.googleapis.com/drive/v3/files/${PART4_ID}?alt=media" "b3 forced16 m18" "-"
+done
 
 {
-  echo "### B6 rev 2 listening clips — labels are random per round (version map is private)"
-  echo "| round | label | part | start | end | dur | Hz | chain | G | limit | I | TP | LRA | depth | busy | result |"
-  echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"
+  echo "### Listening clips — labels are random per round (key is a separate artifact)"
+  echo "| round | label | part | start | end | dur | Hz |"
+  echo "| --- | --- | --- | --- | --- | --- | --- |"
+  printf '%s' "$clip_rows"
+  echo
+  echo "### Renders (one encode each)"
+  echo "| | part | variant | target | post-gain | G | limit | depth | busy | I | TP | result |"
+  echo "| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |"
   printf '%s' "$summary_rows"
 } >> "${GITHUB_STEP_SUMMARY:-/dev/stdout}"
-echo "[ab] done — clips uploaded to ${DEST}; label→version map in abc-order.json (private)"
+
+count="$(find clips -name '*.mp3' | wc -l | tr -d ' ')"
+[ "$count" = "12" ] || { echo "[ab] FAILED: expected 12 clips, got ${count}" >&2; exit 1; }
+echo "[ab] done — 12 clips in clips/, label key in keys-do-not-open.json"

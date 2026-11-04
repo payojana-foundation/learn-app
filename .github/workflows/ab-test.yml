@@ -1,35 +1,35 @@
 name: ab-test
 
-# Job B v2 · B6 rev 2 (audio+engineering, 3 Nov) — ONE-OFF blind listening test.
-# Each version's chain is run over the FULL file once; every clip is cut from
-# those full renders with -c copy at identical timestamps (no mp3→mp3 re-encode;
-# "current" is cut from the uploaded 2 Nov mp3). Windows: loud = loudest 90 s by
-# short-term loudness (start ≥120 s, end ≤dur−120 s, ≥60 s); pause = 30 s around
-# a ≥3 s pause at ≥300 s. Versions — part 1: current / B3 / B3-matched-to-current;
-# part 4: B3 / forced −16 / −18. TWO rounds with their own random labels; the
-# label→version map is a PRIVATE artifact only. Upload under test/2026-11-03/,
-# Cache-Control: no-store; each URL curl -I → 200; a per-clip table in the summary.
+# Job B v2 · listening test (3 Nov, audio + coordinator). NO R2 upload — GitHub
+# artifacts only (retention 7 days).
 #
-# Versions: current (the file uploaded 2 Nov), chain B3, and chain B3 with a
-# fixed gain down to the current file's I (≈ -18) so the listener judges the
-# limiter not the volume.
+# Parts 8, 11, 4. Two FULL renders per part from the source, ONE encode each,
+# both under the same B3 rule (accept depth ≤ 12; else cap G − (depth − 12)):
+#   X = target −16 chain, then a pure volume gain AFTER the limiter so X's
+#       measured I matches Y's within ±0.3 LU (not a fixed −2 dB; part 8 caps
+#       at −16.6).
+#   Y = target −18 chain.
+# Clips are cut with -c copy at identical timestamps from the full renders:
+# loudest 90 s by short-term loudness, start ≥ 120 s, end ≤ duration − 120 s.
+# Two rounds, each with its own random labels (R1-8a/R1-8b … R2-…). 12 clips.
+# Every clip is asserted 44100 Hz, mono, 64 kbps.
 #
-# Cleanup is manual: the coordinator deletes test/ in the Cloudflare dashboard
-# after the verdict. Workflows NEVER delete. Auth: WIF (no keys). Manual only.
+# Artifacts: "clips" = the 12 clips ONLY; "keys-do-not-open" = label → X/Y per
+# round. Auth: WIF (Drive read-only). Manual only.
 
 on:
   workflow_dispatch:
     inputs:
-      drive_file_id:
-        description: "Pilot part-1 drive_file_id to A/B test"
+      part8_id:
+        description: "Part 8 drive_file_id"
         required: true
-        default: "1EyF4VvMVm5RquR6dEUd-yn_pdznwxYtu"
-      current_key:
-        description: "Existing R2 key of the current (2 Nov) upload to compare against"
+        default: "1-_BI-hRUEdHRfLIKdbjLiEfxxXiW2bV8"
+      part11_id:
+        description: "Part 11 drive_file_id"
         required: true
-        default: "audio/1EyF4VvMVm5RquR6dEUd-yn_pdznwxYtu-a64.mp3"
+        default: "1-dV9SZKR35jWASCTy4Vg4KxD3qSBLllY"
       part4_id:
-        description: "Pilot part-4 drive_file_id (3 extra clips: B3 / forced -16 / -18)"
+        description: "Part 4 drive_file_id"
         required: true
         default: "11UtCc2btipfdDjghsUjivEUP9SmPGsG_"
 
@@ -44,12 +44,11 @@ concurrency:
 jobs:
   ab:
     runs-on: ubuntu-latest
-    timeout-minutes: 60
+    timeout-minutes: 120
     env:
-      DRIVE_FILE_ID: ${{ github.event.inputs.drive_file_id }}
-      CURRENT_KEY: ${{ github.event.inputs.current_key }}
+      PART8_ID: ${{ github.event.inputs.part8_id }}
+      PART11_ID: ${{ github.event.inputs.part11_id }}
       PART4_ID: ${{ github.event.inputs.part4_id }}
-      DEST: test/2026-11-03
     steps:
       - name: Check out the repo
         uses: actions/checkout@v5
@@ -71,47 +70,31 @@ jobs:
           workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
           service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
           token_format: access_token
-          access_token_scopes: https://www.googleapis.com/auth/drive
+          access_token_scopes: https://www.googleapis.com/auth/drive.readonly
 
-      - name: Set up rclone
-        uses: AnimMouse/setup-rclone@v1
-
-      - name: Configure rclone R2 remote (course-media token)
-        env:
-          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
-          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
-          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
-        run: |
-          if [ -z "${R2_ACCOUNT_ID}" ]; then
-            echo "::error title=R2_ACCOUNT_ID missing::Set the repository secret R2_ACCOUNT_ID."
-            exit 1
-          fi
-          mkdir -p "$HOME/.config/rclone"
-          cat > "$HOME/.config/rclone/rclone.conf" <<EOF
-          [r2]
-          type = s3
-          provider = Cloudflare
-          access_key_id = ${R2_ACCESS_KEY_ID}
-          secret_access_key = ${R2_SECRET_ACCESS_KEY}
-          endpoint = https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com
-          no_check_bucket = true
-          EOF
-          echo "rclone remote r2 → bucket course-media, endpoint https://***${R2_ACCOUNT_ID: -4}.r2.cloudflarestorage.com"
-
-      - name: Render + upload the A/B/C clips
+      - name: Render, cut and assert the 12 clips (no R2)
         env:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
-          MEDIA_BASE_URL: https://media.84000.digital
+          REFRESH_TOKEN_CMD: "gcloud auth print-access-token --scopes=https://www.googleapis.com/auth/drive.readonly"
         run: |
           set -uo pipefail
           chmod +x scripts/media/ab-clips.sh
           scripts/media/ab-clips.sh
 
-      - name: Upload the private A/B/C order (artifact only, NOT the summary)
+      - name: Upload the 12 clips (only the clips)
         if: ${{ always() }}
         uses: actions/upload-artifact@v4
         with:
-          name: abc-order-private
-          path: abc-order.json
-          retention-days: 14
+          name: clips
+          path: clips/*.mp3
+          retention-days: 7
+          if-no-files-found: warn
+
+      - name: Upload the label key (kept separate from the clips)
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: keys-do-not-open
+          path: keys-do-not-open.json
+          retention-days: 7
           if-no-files-found: warn

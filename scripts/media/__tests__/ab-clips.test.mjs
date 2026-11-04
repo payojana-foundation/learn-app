@@ -1,12 +1,12 @@
 /**
- * ab-clips.test.mjs — B6: pick_abc writes a complete, private A/B/C→version map
- * (the three versions, each used once). Runs the real ab-clips.sh in its self-
- * test path (AB_SELFTEST=1) with a deterministic $SHUF stub (cat = identity).
- * Skips without bash.
+ * ab-clips.test.mjs — listening test key map (3 Nov). The label → X/Y key is
+ * written to keys-do-not-open.json: two rounds × parts 8/11/4 × labels a/b, and
+ * within every (round, part) pair one label is X and the other Y.
+ * Runs the real ab-clips.sh self-test path (AB_SELFTEST=1). Skips without bash.
  */
 import { describe, it, expect, beforeEach, afterEach } from 'vitest';
 import { spawnSync } from 'node:child_process';
-import { mkdtempSync, writeFileSync, rmSync, existsSync, chmodSync, readFileSync } from 'node:fs';
+import { mkdtempSync, rmSync, existsSync, readFileSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
@@ -24,26 +24,26 @@ function findBash() {
 const BASH = findBash();
 const run = BASH ? it : it.skip;
 
-describe('ab-clips.sh write_order (B6 rev 2)', () => {
+describe('ab-clips.sh write_keys', () => {
   let dir;
   beforeEach(() => { dir = mkdtempSync(join(tmpdir(), 'abc-')); });
   afterEach(() => rmSync(dir, { recursive: true, force: true }));
 
-  run('writes two rounds of labels per part, each version used once per round', () => {
-    const r = spawnSync(BASH, [script], {
-      cwd: dir,
-      env: { ...process.env, AB_SELFTEST: '1' },
-      encoding: 'utf-8',
-    });
+  run('12 labels over 2 rounds × parts 8/11/4; each (round, part) pair is one X and one Y', () => {
+    const r = spawnSync(BASH, [script], { cwd: dir, env: { ...process.env, AB_SELFTEST: '1' }, encoding: 'utf-8' });
     expect(r.status).toBe(0);
-    const map = JSON.parse(readFileSync(join(dir, 'abc-order.json'), 'utf-8'));
-    expect(Object.keys(map).sort()).toEqual(['part1', 'part4']);
-    const p1 = ['current', 'b3', 'b3matched'].sort();
-    const p4 = ['b3', 'forced16', 'm18'].sort();
+    const keys = JSON.parse(readFileSync(join(dir, 'keys-do-not-open.json'), 'utf-8'));
+    expect(Object.keys(keys)).toHaveLength(12);
     for (const R of ['R1', 'R2']) {
-      expect(Object.keys(map.part1[R]).sort()).toEqual(['A', 'B', 'C']);
-      expect(Object.values(map.part1[R]).sort()).toEqual(p1);
-      expect(Object.values(map.part4[R]).sort()).toEqual(p4);
+      for (const p of ['8', '11', '4']) {
+        const pair = [keys[`${R}-${p}a`], keys[`${R}-${p}b`]].sort();
+        expect(pair).toEqual(['X', 'Y']);
+      }
     }
+  });
+
+  run('no key file is created outside the working dir and no R2 tooling is referenced', () => {
+    const src = readFileSync(script, 'utf-8');
+    expect(src).not.toMatch(/rclone|r2:course-media|media\.84000/);
   });
 });

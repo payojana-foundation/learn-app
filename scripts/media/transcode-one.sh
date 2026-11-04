@@ -179,7 +179,10 @@ fi
 # B3 (frozen 3 Nov): pan → volume=G → aresample 44100 → alimiter 0.708 → mp3.
 # No acompressor, no rescue loop. G = -16 - I(pass1). limit fixed at 0.708.
 limit="0.708"
-G="$(nn 'process.stdout.write(String(-16 - parseFloat(process.argv[1])))' "$p1_i")"
+# TARGET_I: the ONE target-loudness constant (default -16); set -18 to retarget
+# a whole course. Keep in sync with TARGET_I in b3-decide.mjs.
+TARGET_I="${TARGET_I:--16}"
+G="$(nn 'process.stdout.write(String(parseFloat(process.argv[1]) - parseFloat(process.argv[2])))' "$TARGET_I" "$p1_i")"
 ceil="$(nn 'process.stdout.write(String(20*Math.log10(0.708)))')"
 src_dur="$(ffprobe -v error -show_entries format=duration -of csv=p=0 -headers "$hdr" "$dl" 2>/dev/null | cut -d. -f1)"
 
@@ -210,7 +213,7 @@ exc_i="$(node -e 'try{const l=require("fs").readFileSync(process.argv[1],"utf8")
 
 read -r depth busy <<<"$(measure_depth_busy)"
 exc_json="null"; [ -n "$exc_i" ] && exc_json="{\"accept_I\":${exc_i}}"
-dec="$(node scripts/media/b3-decide.mjs "{\"depth\":${depth},\"busy\":${busy},\"G\":${G},\"I\":${p1_i},\"exception\":${exc_json}}" 2>/dev/null)"
+dec="$(node scripts/media/b3-decide.mjs "{\"depth\":${depth},\"busy\":${busy},\"G\":${G},\"I\":${p1_i},\"target\":${TARGET_I},\"exception\":${exc_json}}" 2>/dev/null)"
 verdict="$(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(JSON.parse(s).verdict))')"
 echo "[$DRIVE_FILE_ID] stage=decide depth=${depth} busy=${busy} G=${G} verdict=${verdict} $(printf '%s' "$dec" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>process.stdout.write(JSON.parse(s).reason||""))')"
 result="failed"
@@ -221,17 +224,24 @@ case "$verdict" in
   fail) result="failed" ;;
 esac
 
+# Timestamps (s) of the 5 largest peaks above the ceiling, so the coordinator
+# listens only to those moments. Same asetnsamples=2205 frames as busy.
+peak_timestamps() { # uses $G
+  ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$dl" \
+    -af "${base_af%aresample=44100}volume=${G}dB,aresample=44100,asetnsamples=n=2205:p=0,astats=metadata=1:reset=1,ametadata=mode=print:key=lavfi.astats.Overall.Peak_level" -f null - 2>&1 \
+    | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const re=/pts_time:([0-9.]+)[\s\S]*?Peak_level=(-?[0-9.]+|-inf)/g;let m,a=[];while((m=re.exec(s))){a.push([parseFloat(m[1]),m[2]==="-inf"?-120:parseFloat(m[2])])}const c=parseFloat(process.argv[1]);a=a.filter(x=>x[1]>c).sort((x,y)=>y[1]-x[1]).slice(0,5).map(x=>x[0].toFixed(1));process.stdout.write(a.join(", "))})' -- "$ceil"
+}
+
 if [ "$DRY_RUN" = "1" ]; then
-  echo "[$DRIVE_FILE_ID] DRY-RUN G=${G} depth=${depth} busy=${busy} expected_result=${result} (no encode, no upload, no manifest)"
+  echo "[$DRIVE_FILE_ID] DRY-RUN G=${G} depth=${depth} busy=${busy} (logged only) expected_result=${result} (no encode, no upload, no manifest)"
+  if [ "$result" = "failed" ]; then
+    echo "[$DRIVE_FILE_ID] DRY-RUN failed: 5 loudest peaks above ceiling at s: $(peak_timestamps || true)"
+  fi
   exit 0
 fi
 
 if [ "$result" = "failed" ]; then
-  # Log the timestamps (s) of the 5 largest peaks above the ceiling so the
-  # coordinator listens only to those moments.
-  peaks="$(ffmpeg -hide_banner -nostdin -headers "$hdr" -i "$dl" \
-    -af "${base_af%aresample=44100}volume=${G}dB,aresample=44100,asetnsamples=n=2205:p=0,astats=metadata=1:reset=1,ametadata=mode=print:key=lavfi.astats.Overall.Peak_level" -f null - 2>&1 \
-    | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const re=/pts_time:([0-9.]+)[\s\S]*?Peak_level=(-?[0-9.]+|-inf)/g;let m,a=[];while((m=re.exec(s))){a.push([parseFloat(m[1]),m[2]==="-inf"?-120:parseFloat(m[2])])}const c=parseFloat(process.argv[1]);a=a.filter(x=>x[1]>c).sort((x,y)=>y[1]-x[1]).slice(0,5).map(x=>x[0].toFixed(1));process.stdout.write(a.join(", "))}' -- "$ceil")"
+  peaks="$(peak_timestamps)"
   echo "[$DRIVE_FILE_ID] FAILED stage=accept: depth=${depth} busy=${busy} — 5 loudest peaks above ceiling at s: ${peaks:-none}" >&2
   exit 1
 fi
@@ -253,8 +263,8 @@ if ! nn 'process.exit(Math.abs((parseInt(process.argv[1],10)||0)-(parseInt(proce
   echo "[$DRIVE_FILE_ID] FAILED stage=accept: duration ${out_dur}s vs source ${src_dur}s (> ±1 s)" >&2
   exit 1
 fi
-if [ "$result" = "ok" ] && ! nn 'const i=parseFloat(process.argv[1]);process.exit(i>=-16.5&&i<=-15.5?0:1)' "$out_i"; then
-  echo "[$DRIVE_FILE_ID] FAILED stage=accept: result ok but finished I=${out_i} outside -16 ±0.5" >&2
+if [ "$result" = "ok" ] && ! nn 'const i=parseFloat(process.argv[1]),t=parseFloat(process.argv[2]);process.exit(Math.abs(i-t)<=0.5?0:1)' "$out_i" "$TARGET_I"; then
+  echo "[$DRIVE_FILE_ID] FAILED stage=accept: result ok but finished I=${out_i} outside ${TARGET_I} ±0.5" >&2
   exit 1
 fi
 echo "[$DRIVE_FILE_ID] stage=result result=${result}"

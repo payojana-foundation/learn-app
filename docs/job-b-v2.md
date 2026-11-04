@@ -34,9 +34,11 @@ Measure on steps 1–3 (no limiter, null output):
 - depth = TP(ebur128 peak=true) − 20·log10(0.708)  [dB]
 - busy = share of 50 ms frames (asetnsamples=n=2205, astats reset per frame, Peak_level)
   above the limiter ceiling  [%]
-Thresholds (frozen for the pilot): depth ≤ 6 dB, OR depth ≤ 12 dB with busy < 0.5 %.
-Cap: if the rule fails, G_cap = G − (depth − 6) or G − (depth − 12), whichever rule applies;
-re-measure and verify. Floor −18 LUFS; below → failed, not uploaded.
+Rule (3 Nov, audio + coordinator): accept = depth ≤ 12 dB. busy is measured and logged
+only, never used in the decision.
+Cap: G_cap = G − (depth − 12); capped I = TARGET_I − cut; re-measure and verify.
+Floor −18 LUFS; below → failed, not uploaded.
+TARGET_I is one constant (default −16); switch it to −18 to retarget a whole course.
 Accept on the FINISHED mp3 (ebur128 peak=true): I = −16 ±0.5 LUFS (or the cap result ≥ −18),
 TP ≤ −1.5 dBTP (accept check, not the limiter setting — MP3 adds overshoot),
 duration = source duration ±1 s. Otherwise failed, not uploaded.
@@ -47,7 +49,8 @@ Exception route: data/media-exceptions.json entries {drive_file_id, approved_by,
 accept_I (≥ −18)}. A listed file is processed at accept_I regardless of depth/busy;
 TP ≤ −1.5 still enforced; result "exception", logged with depth/busy. No entry → failed.
 Dry run: course-audio input dry_run=true measures and logs everything above (G, depth,
-busy, expected result) without uploading or writing the manifest.
+busy, expected result) without uploading or writing the manifest; files whose expected
+result is failed also log the 5 largest-peak timestamps.
 Log per file: pass-1 I/TP/LRA, G, limit, depth, busy, output I/TP/LRA,
 duration source/output, result.
 Superseded (invalid test, kept for history): the 2 Nov two-pass loudnorm, the 2 Nov
@@ -108,6 +111,7 @@ Approval: files with result "ok" may be approved by course by the team without l
 - CHANGE: busy via plain astats stderr grep → `asetnsamples=2205,astats=metadata=1:reset=1,ametadata=mode=print:key=…Peak_level` parsed per frame (same filter for the failed-file peak timestamps) — per-frame values are not in stderr so busy was always 0, 3 Nov.
 - CHANGE: b3-decide cap capI = I(pass1) − cut → capI = −16 − cut — the chain targets −16 before the cap, so the floor check used the wrong I, 3 Nov.
 - CHANGE: Drive token used once for the whole job → refreshed before each file and once on a 401 (REFRESH_TOKEN_CMD); 401 hint "check sharing" → "token expired or no access" — tokens expire after 60 min, 3 Nov.
+- CHANGE: accept rule "depth ≤ 6, or ≤ 12 with busy < 0.5 %" with cap to 6/12 → accept = depth ≤ 12 only, busy logged not used, cap G − (depth − 12), cap I = TARGET_I − cut (TARGET_I one constant, default −16) — audio + coordinator rule change, 3 Nov (pending test).
 - CHANGE: "already in manifest" skip on any entry → only when that id's entry has the B2 md5 key; a legacy `audio/<drive_id>` entry is re-processed and replaced in the manifest on success (old R2 object untouched), 3 Nov.
 
 ## v3 list
