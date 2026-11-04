@@ -49,7 +49,7 @@ describe('b3-loop.sh b3_gloop (stub ffmpeg)', () => {
   beforeEach(() => { dir = mkdtempSync(join(tmpdir(), 'b3loop-')); });
   afterEach(() => rmSync(dir, { recursive: true, force: true }));
 
-  function gloop(env, target = '-16', exc = '') {
+  function gloop(env, target = '-18', exc = '') {
     const stub = join(dir, 'ffmpeg');
     writeFileSync(stub, STUB);
     chmodSync(stub, 0o755);
@@ -66,30 +66,29 @@ describe('b3-loop.sh b3_gloop (stub ffmpeg)', () => {
     expect(r.status).toBe(0);
     expect(r.state.result).toBe('ok');
     expect(r.state.loop).toBe(2);
-    expect(r.state.G).toBeCloseTo(9.5, 3);
+    expect(r.state.G).toBeCloseTo(7.5, 3);
     expect(r.log).toMatch(/stage=pass1 I1=-24 TP1=-9/);
-    expect(r.log).toMatch(/stage=gloop phase=loop loop=1 G=8 I_lim=-17\.5/);
-    expect(r.log).toMatch(/loop=2 G=9\.5 I_lim=-16/);
+    expect(r.log).toMatch(/stage=gloop phase=loop loop=1 G=6 I_lim=-19\.5/);
+    expect(r.log).toMatch(/loop=2 G=7\.5 I_lim=-18/);
   });
 
-  run('depth over 12 → cap, then a measured I_cap', () => {
-    const r = gloop({ STUB_I1: '-23', STUB_TP: '2', STUB_LOSS: '0.5' });
+  run('depth over 12, measured I -18.8 after the cap → cap', () => {
+    const r = gloop({ STUB_I1: '-23', STUB_TP: '4', STUB_LOSS: '0.8' });
     expect(r.state.result).toBe('cap');
-    expect(r.state.G).toBeCloseTo(7.0, 1);
+    expect(r.state.G).toBeCloseTo(5.0, 1);
     expect(r.log).toMatch(/phase=cap/);
   });
 
-  run('I_cap below -18 → failed', () => {
+  run('I below -19.0 after the cap → failed', () => {
     const r = gloop({ STUB_I1: '-23', STUB_TP: '8', STUB_LOSS: '0.5' });
     expect(r.state.result).toBe('failed');
   });
 
   run('exception accept_I runs the loop at that target and ignores depth', () => {
-    const r = gloop({ STUB_I1: '-23', STUB_TP: '8', STUB_LOSS: '0.5' }, '-16', '-18');
+    const r = gloop({ STUB_I1: '-23', STUB_TP: '8', STUB_LOSS: '0.5' }, '-18', '-18.5');
     expect(r.state.result).toBe('exception');
-    expect(r.state.target).toBe(-18);
+    expect(r.state.target).toBe(-18.5);
   });
-
   run('b3_chain builds pan → volume → aresample → alimiter 0.708', () => {
     const r = spawnSync(BASH, ['-c', `source "${lib}"; b3_chain "pan=mono|c0=0.5*c0+0.5*c1" 9.5; echo; b3_chain "" -3`], { encoding: 'utf-8' });
     const [a, b] = r.stdout.split('\n');

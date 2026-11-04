@@ -26,7 +26,7 @@ on:
   workflow_dispatch:
     inputs:
       list:
-        description: "Path to the queue CSV of drive_file_ids"
+        description: "Path to the queue CSV of drive_file_ids, INCLUDING the folder (e.g. data/audio-queue.pilot.csv)"
         required: true
         default: "data/audio-queue.csv"
       limit:

@@ -102,6 +102,24 @@ export function summaryTable(results) {
   return L.join('\n') + '\n';
 }
 
+/**
+ * A missing or empty queue must FAIL with a clear error — it used to run 0 files
+ * silently when "data/" was left out of the `list` input. Pure: returns an error
+ * string, or null when the queue is usable. `queueText` is null when the file
+ * does not exist. An empty queue is allowed only when force ids were given.
+ */
+export function checkQueue(queuePath, queueText, forceIds = []) {
+  if (queueText === null || queueText === undefined) {
+    return `queue file "${queuePath}" not found — check the \`list\` input includes the folder (e.g. data/audio-queue.pilot.csv)`;
+  }
+  const ids = parseQueue(queueText);
+  const forced = Array.isArray(forceIds) ? forceIds.filter(Boolean) : [];
+  if (ids.length === 0 && forced.length === 0) {
+    return `queue file "${queuePath}" has no drive_file_ids — nothing to process`;
+  }
+  return null;
+}
+
 /** Load + plan from file paths (used by the workflow via CLI). */
 export function planFromFiles(queuePath, manifestPath, limit, forceIds = []) {
   const queueText = existsSync(queuePath) ? readFileSync(queuePath, 'utf-8') : '';
@@ -116,6 +134,12 @@ function main() {
     process.exit(1);
   }
   const forceIds = String(forceArg ?? '').split(',').map((s) => s.trim()).filter(Boolean);
+  const qErr = checkQueue(queuePath, existsSync(queuePath) ? readFileSync(queuePath, 'utf-8') : null, forceIds);
+  if (qErr) {
+    console.error('::error title=Queue file::' + qErr);
+    console.error('ERROR: ' + qErr);
+    process.exit(1);
+  }
   const plan = planFromFiles(queuePath, manifestPath ?? 'data/media-manifest.json', Number(limitArg ?? 5), forceIds);
   process.stdout.write(JSON.stringify(plan) + '\n');
   process.exit(0);

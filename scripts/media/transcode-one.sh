@@ -5,10 +5,11 @@
 #
 # Requires in the environment: ACCESS_TOKEN (WIF Drive access token).
 # Key = audio/<first 16 hex of Drive md5Checksum>-a64.mp3 (B2).
-# B3 (approved 3 Nov, "G loop"): the source is downloaded ONCE, its audio
+# B3 (final standard 4 Nov, target -18, "G loop"): the source is downloaded ONCE, its audio
 # extracted to a local file, and every pass runs on that file. G is tuned on the
-# LIMITED signal (null passes, max 3), capped at depth 12 with a measured I_cap;
-# then ONE mp3 encode, accepted on the mp3 (see scripts/media/b3-decide.mjs).
+# LIMITED signal (null passes, max 5), capped at depth 12 with a measured I;
+# then the mp3 is encoded (one TP re-encode allowed) and classified on the mp3
+# (see scripts/media/b3-decide.mjs).
 # Exit 0 = done, 3 = skipped (listed duplicate / key exists), non-zero = failed.
 #
 # DRY_RUN=1: the same loop (null passes only) — no encode, no upload, no manifest;
@@ -82,9 +83,9 @@ export B3_LOG="$DRIVE_FILE_ID"
 DUPLICATES="${DUPLICATES:-data/media-duplicates.json}"
 EXCEPTIONS="${EXCEPTIONS:-data/media-exceptions.json}"
 DRY_RUN="${DRY_RUN:-0}"   # 1 = measure + log only; no upload, no manifest
-# TARGET_I: the ONE target-loudness constant (default -16); set -18 to retarget
-# a whole course. Keep in sync with TARGET_I in b3-decide.mjs.
-TARGET_I="${TARGET_I:--16}"
+# TARGET_I: the ONE target-loudness constant (-18 for all courses, 4 Nov final
+# standard). Keep in sync with TARGET_I in b3-decide.mjs (a test checks it).
+TARGET_I="${TARGET_I:--18}"
 
 # nn <args…> — run `node -e` passing args after `--` so a leading-dash value
 # (e.g. a negative LUFS like -16.5) is NOT parsed by node as an option.
@@ -189,7 +190,6 @@ G="$(b3_field "$state" G)"
 loops="$(b3_field "$state" loop)"
 depth="$(b3_field "$state" depth)"
 i_final="$(b3_field "$state" I_final)"
-expect_i="$(b3_field "$state" expectI)"
 p1_i="$(b3_field "$state" I1)"
 p1_tp="$(b3_field "$state" TP1)"
 p1_lra="$(b3_field "$state" LRA1)"
@@ -212,32 +212,45 @@ if [ "$result" = "failed" ]; then
   exit 1
 fi
 
-# Encode ONCE: pan → volume G → aresample 44100 → alimiter 0.708 → mp3 64k mono.
-if ! "$FFMPEG" -nostdin -y -i "$aud" -vn -af "$(b3_chain "$pan_af" "$G")" \
-    -c:a libmp3lame -b:a 64k -ar 44100 -ac 1 -map_metadata -1 "$out" 2>"ffmpeg-${md5hex}.err"; then
-  echo "[$DRIVE_FILE_ID] FAILED stage=encode: $(tail -n 3 "ffmpeg-${md5hex}.err" | tr '\n' ' ')" >&2
+# Encode: pan → volume G → aresample 44100 → alimiter 0.708 → mp3 64k mono.
+# The mp3 is classified by the I bands (ok ±0.5 / cap -19.0..-18.5 / failed) and
+# must have TP ≤ -1.5. If TP is over: lower G by (TP + 1.5) dB, re-encode ONCE,
+# re-check TP and the same I bands; TP still over → failed.
+encode_mp3() { # <G>
+  "$FFMPEG" -nostdin -y -i "$aud" -vn -af "$(b3_chain "$pan_af" "$1")" \
+    -c:a libmp3lame -b:a 64k -ar 44100 -ac 1 -map_metadata -1 "$out" 2>"ffmpeg-${md5hex}.err"
+}
+G_enc="$G"
+tp_retry=0
+while :; do
+  if ! encode_mp3 "$G_enc"; then
+    echo "[$DRIVE_FILE_ID] FAILED stage=encode: $(tail -n 3 "ffmpeg-${md5hex}.err" | tr '\n' ' ')" >&2
+    exit 1
+  fi
+  read -r out_i out_tp out_lra <<<"$(b3_ebur "$out" "")"
+  echo "[$DRIVE_FILE_ID] stage=encode G=${G_enc} limit=${limit} out_I=${out_i} out_TP=${out_tp} out_LRA=${out_lra} tp_retry=${tp_retry}"
+  if [ "$tp_retry" = "0" ] && nn 'process.exit(parseFloat(process.argv[1])>-1.5?0:1)' "$out_tp"; then
+    G_enc="$(node "$B3_DIR/b3-decide.mjs" tpfix "$G_enc" "$out_tp")"
+    tp_retry=1
+    echo "[$DRIVE_FILE_ID] stage=tp-fix TP=${out_tp} > -1.5 → G lowered to ${G_enc}, re-encoding once"
+    continue
+  fi
+  break
+done
+G="$G_enc"
+mp3v="$(node "$B3_DIR/b3-decide.mjs" verdict "$out_i" "$out_tp" "$TARGET_I" "$exc_i")"
+result="$(b3_field "$mp3v" result)"
+echo "[$DRIVE_FILE_ID] stage=mp3-verdict result=${result} $(b3_field "$mp3v" reason)"
+if [ "$result" = "failed" ]; then
+  echo "[$DRIVE_FILE_ID] FAILED stage=accept: $(b3_field "$mp3v" reason)" >&2
   exit 1
 fi
-read -r out_i out_tp out_lra <<<"$(b3_ebur "$out" "")"
 out_dur="$("$FFPROBE" -v error -show_entries format=duration -of csv=p=0 "$out" | cut -d. -f1)"
-echo "[$DRIVE_FILE_ID] stage=encode G=${G} limit=${limit} out_I=${out_i} out_TP=${out_tp} out_LRA=${out_lra} dur=${out_dur}/${src_dur} result=${result}"
-
-# Accept on the FINISHED mp3: I within expected ±0.5 (ok → target, cap → I_cap,
-# exception → accept_I), TP ≤ -1.5, duration ±1 s.
-if ! nn 'const i=parseFloat(process.argv[1]),e=parseFloat(process.argv[2]);process.exit(Math.abs(i-e)<=0.5?0:1)' "$out_i" "$expect_i"; then
-  echo "[$DRIVE_FILE_ID] FAILED stage=accept: finished I=${out_i} outside ${expect_i} ±0.5 (result ${result})" >&2
-  exit 1
-fi
-if ! nn 'const t=parseFloat(process.argv[1]);process.exit(t<=-1.5?0:1)' "$out_tp"; then
-  echo "[$DRIVE_FILE_ID] FAILED stage=accept: finished TP=${out_tp} > -1.5 dBTP" >&2
-  exit 1
-fi
 if ! nn 'process.exit(Math.abs((parseInt(process.argv[1],10)||0)-(parseInt(process.argv[2],10)||0))<=1?0:1)' "${out_dur:-0}" "${src_dur:-0}"; then
   echo "[$DRIVE_FILE_ID] FAILED stage=accept: duration ${out_dur}s vs source ${src_dur}s (> ±1 s)" >&2
   exit 1
 fi
-echo "[$DRIVE_FILE_ID] stage=result result=${result}"
-
+echo "[$DRIVE_FILE_ID] stage=result result=${result} dur=${out_dur}/${src_dur}"
 # B5 upload: rclone copy --immutable, then verify (size == local, 200, 206).
 bytes=$(stat -c%s "$out")
 dur=$("$FFPROBE" -v quiet -show_entries format=duration -of csv=p=0 "$out" | cut -d. -f1)

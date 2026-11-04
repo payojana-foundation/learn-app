@@ -1,5 +1,5 @@
 import { describe, it, expect } from 'vitest';
-import { parseQueue, manifestDriveIds, planRun, summaryTable, isB2Key } from '../queue-plan.mjs';
+import { parseQueue, manifestDriveIds, planRun, summaryTable, isB2Key, checkQueue } from '../queue-plan.mjs';
 
 describe('parseQueue', () => {
   it('parses ids, ignoring header, blanks, comments, and dedupes', () => {
@@ -95,5 +95,22 @@ describe('summaryTable', () => {
     expect(md).toMatch(/\| A \| done \|  \|/);
     expect(md).toMatch(/\| C \| failed \| ffprobe: no audio \|/);
     expect(md).toMatch(/done 1 · skipped 1 · failed 1/);
+  });
+});
+
+describe('checkQueue (missing/empty queue must fail loudly)', () => {
+  it('a missing queue file → clear error naming the path and the data/ hint', () => {
+    const e = checkQueue('audio-queue.pilot.csv', null);
+    expect(e).toMatch(/audio-queue\.pilot\.csv/);
+    expect(e).toMatch(/not found/);
+    expect(e).toMatch(/data\//);
+  });
+  it('an empty queue (header only / blank) → error', () => {
+    expect(checkQueue('q.csv', 'drive_file_id\n')).toMatch(/no drive_file_ids/);
+    expect(checkQueue('q.csv', '')).toMatch(/no drive_file_ids/);
+  });
+  it('a queue with ids is fine; an empty queue is allowed only with force ids', () => {
+    expect(checkQueue('q.csv', 'drive_file_id\nA\n')).toBeNull();
+    expect(checkQueue('q.csv', '', ['A'])).toBeNull();
   });
 });
