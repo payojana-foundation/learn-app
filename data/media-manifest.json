@@ -1,10 +1,292 @@
 [
   {
+    "lesson_code": null,
+    "drive_file_id": "11UtCc2btipfdDjghsUjivEUP9SmPGsG_",
+    "drive_name": "៤.វេស្សន្តរជាតក.mp4",
+    "source_md5": "69894a100fe6c1057a79963cd4b704e5",
+    "key": "audio/69894a100fe6c105-a64.mp3",
+    "bytes": 36259047,
+    "duration_s": 4532,
+    "sha256": "79a10afcfc2344a85ab539a9750dc70a6c2e75ec33521e4488caba2541829110",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -2.6,
+        "LRA": 3.9
+      },
+      "G": 8.700000000000003,
+      "limit": 0.708,
+      "depth": 9.099334846204624,
+      "busy": 4.179675003033746,
+      "out": {
+        "I": -18.6,
+        "TP": -1.7,
+        "LRA": 3.8
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18yoXmsa2z8cNEP3hdZ7h6w-zC-b4yn0k",
+    "drive_name": "15.វេស្សន្តរជាតក.mp4",
+    "source_md5": "975902246180080b075840010bc9b5d9",
+    "key": "audio/975902246180080b-a64.mp3",
+    "bytes": 25362642,
+    "duration_s": 3170,
+    "sha256": "086b1a9306a87998bcdd2b1825285cb9cdf190e62d9fe8ad1cdd4a0b94dfeb11",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -1.9,
+        "LRA": 3.8
+      },
+      "G": 8.600000000000001,
+      "limit": 0.708,
+      "depth": 10.199334846204621,
+      "busy": 5.729347380374097,
+      "out": {
+        "I": -18.8,
+        "TP": -1.5,
+        "LRA": 3.8
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
     "drive_file_id": "1EyF4VvMVm5RquR6dEUd-yn_pdznwxYtu",
-    "key": "audio/1EyF4VvMVm5RquR6dEUd-yn_pdznwxYtu-a64.mp3",
-    "bytes": 12055126,
+    "drive_name": "១.វេស្សន្តរជាតក.mp4",
+    "source_md5": "bbe24403fb36fde64768a834bba5c1f9",
+    "key": "audio/bbe24403fb36fde6-a64.mp3",
+    "bytes": 12055239,
     "duration_s": 1506,
-    "sha256": "61b49db6b2be60eb1c28428e30894ec805dbbfb6d56af235f621e3b8ce201bc3",
+    "sha256": "8489ca114e2c2e1abc16c9fd2d46905a0c6d3043156fec93662feff2f394e6f5",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -2.7,
+        "LRA": 6
+      },
+      "G": 7.399999999999999,
+      "limit": 0.708,
+      "depth": 7.699334846204618,
+      "busy": 5.8823041444072075,
+      "out": {
+        "I": -18.6,
+        "TP": -2.2,
+        "LRA": 5.1
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1G-BNctqoahqQDr0T7zShhnBtJWeyAVtU",
+    "drive_name": "14.វេស្សន្តរជាតក.mp4",
+    "source_md5": "2d76591fa1c27856e092b21ccc3ec599",
+    "key": "audio/2d76591fa1c27856-a64.mp3",
+    "bytes": 31850413,
+    "duration_s": 3981,
+    "sha256": "012374263b0b41bbae921334e1914211ac522bc9351f62bb31a78c3a78d42385",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -4.3,
+        "LRA": 4
+      },
+      "G": 8.100000000000001,
+      "limit": 0.708,
+      "depth": 6.799334846204621,
+      "busy": 1.9538461538461538,
+      "out": {
+        "I": -18.6,
+        "TP": -2.3,
+        "LRA": 4
+      },
+      "loops": 1,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GRfu9kEQ5z4N_7MZZqKJG4_vgEOMIhso",
+    "drive_name": "២.វេស្សន្តរជាតក.mp4",
+    "source_md5": "8b68bddb984e7720152220508877b645",
+    "key": "audio/8b68bddb984e7720-a64.mp3",
+    "bytes": 36671572,
+    "duration_s": 4583,
+    "sha256": "c7328b305ca000ed1aa11ca91f97b892bf9baa05a12ad40dd7ac59e1ba4f9041",
+    "loudness": {
+      "pass1": {
+        "I": -22.7,
+        "TP": -1.2,
+        "LRA": 6.2
+      },
+      "G": 5.099999999999998,
+      "limit": 0.708,
+      "depth": 6.899334846204617,
+      "busy": 3.486114444032374,
+      "out": {
+        "I": -18.5,
+        "TP": -1.8,
+        "LRA": 6.2
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1U4MrK20Eg9k7Wxe6qsv2BIDj2ndAzZFS",
+    "drive_name": "៦.វេស្សន្តរជាតក.mp4",
+    "source_md5": "0b75b23cac8d1bac451c898807462107",
+    "key": "audio/0b75b23cac8d1bac-a64.mp3",
+    "bytes": 36371060,
+    "duration_s": 4546,
+    "sha256": "21daa89ed20b9f863ad60c06744c3b059aafe472ea42264465a383206580f6b9",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -5.7,
+        "LRA": 3.2
+      },
+      "G": 8.100000000000001,
+      "limit": 0.708,
+      "depth": 5.399334846204621,
+      "busy": 1.5292487379986144,
+      "out": {
+        "I": -18.6,
+        "TP": -2.6,
+        "LRA": 3.2
+      },
+      "loops": 1,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Yewz6ju83osf5KkRdWDQbIjV70Er49Nx",
+    "drive_name": "១០.វេស្សន្តរជាតក.mp4",
+    "source_md5": "3e2765d87fd4dca40bd64c876bc97c82",
+    "key": "audio/3e2765d87fd4dca4-a64.mp3",
+    "bytes": 37466322,
+    "duration_s": 4683,
+    "sha256": "8df458f48e1a5ac1f7b88d27b34ea6404208659b914aa78f1b8f0c0ceda6aa94",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -3.3,
+        "LRA": 3.5
+      },
+      "G": 8.500000000000002,
+      "limit": 0.708,
+      "depth": 8.799334846204621,
+      "busy": 5.936582501467997,
+      "out": {
+        "I": -18.9,
+        "TP": -1.5,
+        "LRA": 3.3
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_lYVB5eFkp8MOc3wAyRzc-nk47z92nVK",
+    "drive_name": "៧.វេស្សន្តរជាតក.mp4",
+    "source_md5": "06de0b31c2a820d532aab8c755c22de1",
+    "key": "audio/06de0b31c2a820d5-a64.mp3",
+    "bytes": 35796157,
+    "duration_s": 4474,
+    "sha256": "0a0beaeaf0fa3204c91a0376f0b675e00fdbbb17d3fb54d50e1c4a282335dcef",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -3.5,
+        "LRA": 3.6
+      },
+      "G": 8.700000000000003,
+      "limit": 0.708,
+      "depth": 8.199334846204623,
+      "busy": 4.604755891785582,
+      "out": {
+        "I": -18.6,
+        "TP": -1.5,
+        "LRA": 3.8
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hMg4aIK-WDyFsAt-1bnerM5D3Pzo8c0K",
+    "drive_name": "៥.វេស្សន្តរជាតក.mp4",
+    "source_md5": "5140d89ed474d4043c416d84b9d54401",
+    "key": "audio/5140d89ed474d404-a64.mp3",
+    "bytes": 35626465,
+    "duration_s": 4453,
+    "sha256": "b02274207e0887e4b3eb4aa7c3cd020e5fd03255dda58a29fabe8f55338cfd26",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -6.2,
+        "LRA": 3.3
+      },
+      "G": 8.100000000000001,
+      "limit": 0.708,
+      "depth": 4.899334846204621,
+      "busy": 1.3622073766350418,
+      "out": {
+        "I": -18.5,
+        "TP": -2.6,
+        "LRA": 3.3
+      },
+      "loops": 1,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yUm_eCQLXEZRdIpDlq87mswTQEMn_vDH",
+    "drive_name": "13.វេស្សន្តរជាតក.mp4",
+    "source_md5": "320dec9b664013a9a5b32b3a135fd30a",
+    "key": "audio/320dec9b664013a9-a64.mp3",
+    "bytes": 35892914,
+    "duration_s": 4486,
+    "sha256": "df383c772f0b121d6a9e7c9166c9404ad51a9f35df8f99252f4149771a950e4d",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -6.3,
+        "LRA": 3.9
+      },
+      "G": 8.100000000000001,
+      "limit": 0.708,
+      "depth": 4.799334846204621,
+      "busy": 1.0180428168637372,
+      "out": {
+        "I": -18.5,
+        "TP": -2.5,
+        "LRA": 3.9
+      },
+      "loops": 1,
+      "result": "ok"
+    },
     "status": "DRAFT – needs reviewer approval"
   }
 ]
