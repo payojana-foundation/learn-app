@@ -216,5 +216,6 @@ jobs:
             echo "no manifest change to commit"
           else
             git commit -m "course-audio: DRAFT manifest entries (batch)"
-            git push origin HEAD:main
+            # Pull --rebase before pushing, retry up to 3x; a failed final push FAILS the job.
+            bash scripts/ci/push-with-retry.sh origin main || exit 1
           fi

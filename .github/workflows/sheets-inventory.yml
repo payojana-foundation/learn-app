@@ -152,4 +152,5 @@ jobs:
           git commit -m "sheets-inventory: raw .xlsx exports + discovery report" || {
             echo "nothing to commit"; exit 0;
           }
-          git push origin HEAD:main
+          # Pull --rebase before pushing, retry up to 3x; a failed final push FAILS the job.
+          bash scripts/ci/push-with-retry.sh origin main
