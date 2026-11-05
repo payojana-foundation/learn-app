@@ -20,7 +20,7 @@
 | c016 | yon-yi | 11-A.S.បរិច្ឆេទ ទី៥(២០២២) (title missing) | 82 | 82 |
 | c017 | yon-yi | 12-A.S.បរិច្ឆេទ ទី៦​(២០២៣) (title missing) | 66 | 66 |
 | c018 | yon-yi | A.S.បរិច្ឆេទ ទី៧ (២០២៣) (title missing) | 119 | 119 |
-| c019 | yon-yi | 13-A.S.បរិច្ឆេទ ទី៨ (២០២៥) (title missing) | 139 | 137 |
+| c019 | yon-yi | 13-A.S.បរិច្ឆេទ ទី៨ (២០២៥) (title missing) | 139 | 139 |
 | c020 | yon-yi | 14-A.S.បរិច្ឆេទ ទី៩ (២០២០) (title missing) | 41 | 41 |
 | c021 | yon-yi | 15-A.S.ព្រះធម៌ថ្នាក់កុមារ (២០២៤ (title missing) | 54 | 53 |
 | c022 | yon-yi | វេស្សន្តរជាតក | 8 | 8 |
@@ -51,7 +51,7 @@
 | c047 | (unmapped) | ០០​​​​​​​​​ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃបើកថ្នាក់ដំបូង | 102 | 0 |
 | c048 | (unmapped) | 3-បរិច្ឆេទទី​៣ (ឆ្នាំ ២០២៤) (title missing) | 70 | 0 |
 | c049 | (unmapped) | 4-បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ (ឆ (title missing) | 142 | 0 |
-| c050 | (unmapped) | 5-បរិច្ឆេទទី៥​ វិថីមុត្តសង្គហៈ  (title missing) | 156 | 0 |
+| c050 | (unmapped) | 5-បរិច្ឆេទទី៥​ វិថីមុត្តសង្គហៈ  (title missing) | 155 | 0 |
 | c051 | (unmapped) | 6-បរិច្ឆេទទី៦ រូបបរមត្ថ (ឆ្នាំ  (title missing) | 91 | 0 |
 | c052 | (unmapped) | 7-បរិច្ឆេទទី១ ចិត្តសង្គហៈ (ឆ្នា (title missing) | 2 | 0 |
 | c053 | (unmapped) | 1-បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភ (title missing) | 31 | 0 |
@@ -71,11 +71,11 @@
 | c067 | (unmapped) | 3-អង្គុត្តរនិកាយ  (title missing) | 31 | 0 |
 | c068 | (unmapped) | 1-Buddhism in English Level 1 b (title missing) | 22 | 0 |
 | c069 | (unmapped) | 2-Buddhism in English Level 2 b (title missing) | 27 | 0 |
-| c070 | (unmapped) | 3-Buddhism in English Level 3 b (title missing) | 31 | 0 |
+| c070 | (unmapped) | 3-Buddhism in English Level 3 b (title missing) | 30 | 0 |
 | c071 | (unmapped) | 4-Buddhism in English Level 3 b (title missing) | 23 | 0 |
 | c072 | (unmapped) | 1-បិដកលេខ ១៤ (title missing) | 24 | 0 |
 | c073 | (unmapped) | 2-បិដកលេខ ១៥ (title missing) | 26 | 0 |
-| c074 | (unmapped) | 3-រាត្រីធម្មទាន (title missing) | 512 | 0 |
+| c074 | (unmapped) | 3-រាត្រីធម្មទាន (title missing) | 463 | 0 |
 | c075 | (unmapped) | 4-នាទីធម្មចរិយា (title missing) | 76 | 0 |
 | c076 | (unmapped) | 5-អដ្ឋកថាជាតក (title missing) | 33 | 0 |
 | c077 | (unmapped) | 6-បច្ចេកពុទ្ធ (title missing) | 57 | 0 |

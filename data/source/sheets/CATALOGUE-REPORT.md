@@ -7,14 +7,14 @@ trimmed only); nothing is invented. One course = one tab. The per-lesson rows ar
 
 ## Summary
 
-- Files: **18** · tabs: **117** (read: **87**, skipped: **30**)
-- Lessons: **4910**
-- No lesson code: **2389**
-- No Drive file at all (no id in the MP3 / MP4 / MiniCourse / original columns): **440**
-- Cut files — both MP3+MP4: **752** · MP3 only: **2849** · MP4 only: **457** · neither cut file: **852**
-  - of those with no cut file, a MiniCourse/original Drive id exists on: **412**
-- Acast present: **1445** · YouTube present: **2145**
-- Duplicate lesson codes: **1** codes · duplicate Drive ids: **23** ids
+- Files: **18** · tabs: **116** (read: **87**, skipped: **29**)
+- Lessons: **4858**
+- No lesson code: **2309**
+- No Drive file at all (no id in the MP3 / MP4 / MiniCourse / original columns): **308**
+- Cut files — both MP3+MP4: **724** · MP3 only: **3439** · MP4 only: **27** · neither cut file: **668**
+  - of those with no cut file, a MiniCourse/original Drive id exists on: **360**
+- Acast present: **1445** · YouTube present: **2144**
+- Duplicate lesson codes: **0** codes · duplicate Drive ids: **0** ids
 - Rows with several Drive ids in one cell: **0** · lessons whose only link is a Drive folder: **0**
 
 ## Totals per teacher
@@ -22,18 +22,18 @@ trimmed only); nothing is invented. One course = one tab. The per-lesson rows ar
 | teacher (as written in the sheet) | lessons |
 | --- | --- |
 | ភិក្ខុអគ្គចិត្តោ យ៉ុន យី | 1618 |
-| អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង | 847 |
-| ព្រះមហា​ វិញ សុវឿង | 563 |
+| អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង | 798 |
+| ព្រះមហា​ វិញ សុវឿង | 562 |
 | ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន | 264 |
 | លោកម្ចាស់ ភុល ណារិន | 259 |
 | Ven Hun Khamra | 248 |
 | លោកម្ចាស់ មុំ ចំរើន | 219 |
-| លោកម្ចាស់ ផេង ឌីណា | 155 |
+| លោកម្ចាស់ ផេង ឌីណា | 154 |
 | លោកម្ចាស់ ឡេង ស៊ីដែន | 151 |
 | Ven. Hak Sienghai | 137 |
 | លោកម្ចាស់ ថូ ចន្ថា | 118 |
 | លោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស | 116 |
-| Ven. Sor Ratha | 103 |
+| Ven. Sor Ratha | 102 |
 | Ven. Sok Theavy | 57 |
 | លោកម្ចាស់មិត្ត សាន | 31 |
 | (blank) | 24 |
@@ -42,7 +42,7 @@ trimmed only); nothing is invented. One course = one tab. The per-lesson rows ar
 
 | file | tab | header row | lessons | no code | no Drive file | MP3 only | MP4 only | both | neither cut | Acast | YouTube |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| លោកម្ចាស់ ផេង ឌីណា.xlsx | 1-បរិច្ឆេទ ទី ៨ | 2 | 58 | 58 | 1 | 57 | 0 | 0 | 1 | 0 | 0 |
+| លោកម្ចាស់ ផេង ឌីណា.xlsx | 1-បរិច្ឆេទ ទី ៨ | 2 | 57 | 57 | 0 | 57 | 0 | 0 | 0 | 0 | 0 |
 | លោកម្ចាស់ ផេង ឌីណា.xlsx | 2-ព្រះវិន័យបិដក ភិក្ខុវិភង្គ «ន | 2 | 97 | 97 | 0 | 0 | 0 | 0 | 97 | 0 | 0 |
 | លោកម្ចាស់ មុំ ចំរើន.xlsx | 1-ធម្មបទដ្ឋកថា | 2 | 130 | 130 | 0 | 130 | 0 | 0 | 0 | 0 | 0 |
 | លោកម្ចាស់ មុំ ចំរើន.xlsx | 2-បទរូបសិទ្ធិ | 2 | 80 | 80 | 0 | 80 | 0 | 0 | 0 | 0 | 0 |
@@ -92,13 +92,13 @@ trimmed only); nothing is invented. One course = one tab. The per-lesson rows ar
 | Pramaha Vinh Sovoeurng | 1-បរិច្ឆេទទី១ (ឆ្នាំ ២០២២) | 2 | 102 | 0 | 2 | 100 | 0 | 0 | 2 | 0 | 100 |
 | Pramaha Vinh Sovoeurng | 3-បរិច្ឆេទទី​៣ (ឆ្នាំ ២០២៤) | 2 | 70 | 0 | 0 | 0 | 0 | 70 | 0 | 0 | 70 |
 | Pramaha Vinh Sovoeurng | 4-បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ (ឆ | 2 | 142 | 0 | 0 | 142 | 0 | 0 | 0 | 0 | 142 |
-| Pramaha Vinh Sovoeurng | 5-បរិច្ឆេទទី៥​ វិថីមុត្តសង្គហៈ  | 2 | 156 | 0 | 156 | 0 | 0 | 0 | 156 | 0 | 156 |
+| Pramaha Vinh Sovoeurng | 5-បរិច្ឆេទទី៥​ វិថីមុត្តសង្គហៈ  | 2 | 155 | 0 | 155 | 0 | 0 | 0 | 155 | 0 | 155 |
 | Pramaha Vinh Sovoeurng | 6-បរិច្ឆេទទី៦ រូបបរមត្ថ (ឆ្នាំ  | 2 | 91 | 0 | 91 | 0 | 0 | 0 | 91 | 0 | 91 |
 | Pramaha Vinh Sovoeurng | 7-បរិច្ឆេទទី១ ចិត្តសង្គហៈ (ឆ្នា | 2 | 2 | 2 | 2 | 0 | 0 | 0 | 2 | 0 | 0 |
-| លោកម្ចាស់មិត្ត សាន.xlsx | 1-បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភ | 2 | 31 | 31 | 31 | 0 | 0 | 0 | 31 | 0 | 0 |
+| លោកម្ចាស់មិត្ត សាន.xlsx | 1-បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភ | 2 | 31 | 31 | 0 | 31 | 0 | 0 | 0 | 0 | 0 |
 | Ven. Sok Theavy | 1-Buddhism in English for Begin | 3 | 57 | 0 | 0 | 1 | 0 | 56 | 0 | 57 | 0 |
 | លោកគ្រូអគ្គបណ្ឌិតប៊ុត សាវង្ស | ទុក្ខ | 2 | 22 | 22 | 0 | 22 | 0 | 0 | 0 | 0 | 0 |
-| លោកគ្រូអគ្គបណ្ឌិតប៊ុត សាវង្ស | មហាសតិប្បដ្នាន  | 2 | 94 | 94 | 94 | 0 | 0 | 0 | 94 | 0 | 0 |
+| លោកគ្រូអគ្គបណ្ឌិតប៊ុត សាវង្ស | មហាសតិប្បដ្នាន  | 2 | 94 | 94 | 0 | 94 | 0 | 0 | 0 | 0 | 0 |
 | Ven.Hun Khamra | 1-បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត | 2 | 53 | 53 | 2 | 0 | 0 | 51 | 2 | 51 | 0 |
 | Ven.Hun Khamra | 2-ញាណទស្សនៈ (២០២៦) | 2 | 46 | 46 | 9 | 0 | 0 | 37 | 9 | 0 | 0 |
 | Ven.Hun Khamra | 3-Simultanous class | 2 | 42 | 42 | 0 | 0 | 0 | 0 | 42 | 0 | 0 |
@@ -112,11 +112,11 @@ trimmed only); nothing is invented. One course = one tab. The per-lesson rows ar
 | លោកម្ចាស់ ថូ ចន្ថា.xlsx | 3-អង្គុត្តរនិកាយ  | 2 | 31 | 31 | 0 | 31 | 0 | 0 | 0 | 0 | 0 |
 | Ven. Sor Ratha.xlsx | 1-Buddhism in English Level 1 b | 2 | 22 | 0 | 0 | 0 | 0 | 22 | 0 | 22 | 0 |
 | Ven. Sor Ratha.xlsx | 2-Buddhism in English Level 2 b | 2 | 27 | 0 | 0 | 0 | 0 | 27 | 0 | 0 | 0 |
-| Ven. Sor Ratha.xlsx | 3-Buddhism in English Level 3 b | 2 | 31 | 30 | 0 | 31 | 0 | 0 | 0 | 0 | 0 |
-| Ven. Sor Ratha.xlsx | 4-Buddhism in English Level 3 b | 2 | 23 | 1 | 0 | 9 | 0 | 0 | 14 | 0 | 0 |
+| Ven. Sor Ratha.xlsx | 3-Buddhism in English Level 3 b | 2 | 30 | 0 | 0 | 30 | 0 | 0 | 0 | 0 | 0 |
+| Ven. Sor Ratha.xlsx | 4-Buddhism in English Level 3 b | 2 | 23 | 1 | 0 | 12 | 0 | 0 | 11 | 0 | 0 |
 | អ្នកគ្រូម៉ម សុខ ហេង.xlsx | 1-បិដកលេខ ១៤ | 2 | 24 | 24 | 0 | 0 | 0 | 24 | 0 | 0 | 0 |
 | អ្នកគ្រូម៉ម សុខ ហេង.xlsx | 2-បិដកលេខ ១៥ | 2 | 26 | 26 | 0 | 0 | 4 | 22 | 0 | 0 | 0 |
-| អ្នកគ្រូម៉ម សុខ ហេង.xlsx | 3-រាត្រីធម្មទាន | 2 | 512 | 512 | 5 | 0 | 430 | 28 | 54 | 403 | 0 |
+| អ្នកគ្រូម៉ម សុខ ហេង.xlsx | 3-រាត្រីធម្មទាន | 2 | 463 | 463 | 0 | 463 | 0 | 0 | 0 | 403 | 0 |
 | អ្នកគ្រូម៉ម សុខ ហេង.xlsx | 4-នាទីធម្មចរិយា | 2 | 76 | 76 | 0 | 0 | 0 | 76 | 0 | 0 | 0 |
 | អ្នកគ្រូម៉ម សុខ ហេង.xlsx | 5-អដ្ឋកថាជាតក | 2 | 33 | 33 | 0 | 0 | 0 | 33 | 0 | 0 | 0 |
 | អ្នកគ្រូម៉ម សុខ ហេង.xlsx | 6-បច្ចេកពុទ្ធ | 2 | 57 | 57 | 0 | 0 | 0 | 57 | 0 | 0 | 0 |
@@ -132,37 +132,15 @@ trimmed only); nothing is invented. One course = one tab. The per-lesson rows ar
 
 ## Duplicate lesson codes
 
-- `AABH000VS2025.5027` — Pramaha Vinh Sovoeurng › 5-បរិច្ឆេទទី៥​ វិថីមុត្តសង្គហៈ  › row 30 (no. 27) · Pramaha Vinh Sovoeurng › 5-បរិច្ឆេទទី៥​ វិថីមុត្តសង្គហៈ  › row 31 (no. 27)
+None.
 
 ## Duplicate Drive ids (same id on more than one lesson row)
 
-- `14KzgIQbBHW6iIRI-xXIlXRfcpQ9GNZLI` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 9 (no. 6) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 25 (no. 22)
-- `1LX6KnXqL6e0kAYOnGJzY18LTm-bbYkVA` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 10 (no. 7) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 26 (no. 23)
-- `1Bt3aSCPc3zIO1ObetREW69r7bEqE1cjf` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 11 (no. 8) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 27 (no. 24)
-- `1A-QXkiX97kFTIfKfYDGroP9wmqIp134f` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 12 (no. 9) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 28 (no. 25)
-- `1tf3Nm0hhMxAafDbeFGWQvUYv0y-6n_Is` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 13 (no. 10) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 29 (no. 26)
-- `1gTVswsrjKXPMpXyDhZqpk4PqG1U0eumL` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 14 (no. 11) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 30 (no. 27)
-- `1eJ9vkeQI8Gy2xRxI1kvyhnnorLuzY-ot` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 15 (no. 12) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 31 (no. 28)
-- `1icPxO8BaanfyB2I712rZEQcylWWQttmf` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 16 (no. 13) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 32 (no. 29)
-- `1tG4ynQR5f2y-Pkw37VnY0gwGkDTEy2tF` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 17 (no. 14) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 33 (no. 30)
-- `1xpdTiRAbweOorDN1pjG0pzyaYyalX0Ts` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 18 (no. 15) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 34 (no. 31)
-- `1Yt0n2KIFSZntb5mnF9hWensnY8YoDTtQ` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 19 (no. 16) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 35 (no. 32)
-- `1RYRfBxjIMBLqE3YnowZRocV8qpSSfeex` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 20 (no. 17) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 36 (no. 33)
-- `1GcYyn75SA-Xb3qIffx3K0Y5nuWoWODK6` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 21 (no. 18) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 37 (no. 34)
-- `1OUgpd99aBDyU9rm5YDBMZa6xS9sc0uHx` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 22 (no. 19) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 38 (no. 35)
-- `1PU88hqMRnjSM5HLj8ByrBEYzRPE7wrtL` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 23 (no. 20) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 39 (no. 36)
-- `18kqi3Rj6F9TxuXCIRFOEx68ToP589dIU` — លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 24 (no. 21) · លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា › row 40 (no. 37)
-- `15Y6w5J85qOvyDwSImMFf4gzh1QarLoSD` — Ven.Yon Yi ព្រះអភិធម្ម.xlsx › 13-A.S.បរិច្ឆេទ ទី៨ (២០២៥) › row 121 (no. 118) · Ven.Yon Yi ព្រះអភិធម្ម.xlsx › 13-A.S.បរិច្ឆេទ ទី៨ (២០២៥) › row 122 (no. 119)
-- `1asnTgFV98WlNLkr5fTdxaLio34SrbXVg` — Ven.Yon Yi ព្រះអភិធម្ម.xlsx › 13-A.S.បរិច្ឆេទ ទី៨ (២០២៥) › row 125 (no. 122) · Ven.Yon Yi ព្រះអភិធម្ម.xlsx › 13-A.S.បរិច្ឆេទ ទី៨ (២០២៥) › row 126 (no. 123)
-- `1V5t0DnjmL2xA2CdpwTWaC4uHkxG8h2l6` — ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន.xlsx › 5-សមាធិ វគ្គខ្លី › row 42 (no. 39) · ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន.xlsx › 5-សមាធិ វគ្គខ្លី › row 43 (no. 40)
-- `1tJTyQpiLRHcCcP7exLfuiY3_29unPMJp` — Ven. Sor Ratha.xlsx › 3-Buddhism in English Level 3 b › row 15 (no. 12) · Ven. Sor Ratha.xlsx › 3-Buddhism in English Level 3 b › row 16 (no. 13)
-- `1EBATmKX05gO726y2EyZkVDbtG5Q588ng` — Ven. Sor Ratha.xlsx › 3-Buddhism in English Level 3 b › row 25 (no. 22) · Ven. Sor Ratha.xlsx › 3-Buddhism in English Level 3 b › row 26 (no. 23)
-- `16n3soaNbDGlm0Os4ePGKEj7JGeJl4UXZ` — អ្នកគ្រូម៉ម សុខ ហេង.xlsx › 3-រាត្រីធម្មទាន › row 376 (no. 373) · អ្នកគ្រូម៉ម សុខ ហេង.xlsx › 3-រាត្រីធម្មទាន › row 377 (no. 374)
-- `1n4eRm9sbdFuPpUbZI7dgy8JOoXT9mJzC` — លោកម្ចាស់ ឡេង ស៊ីដែន.xlsx › 4- វិធីរើសអង្គធម៌ › row 4 (no. 1) · លោកម្ចាស់ ឡេង ស៊ីដែន.xlsx › 5-សិក្សាគាថាធម្មបទ › row 4 (no. 1)
+None.
 
 ## Lessons with no code, by course
 
-- លោកម្ចាស់ ផេង ឌីណា.xlsx › 1-បរិច្ឆេទ ទី ៨: 58
+- លោកម្ចាស់ ផេង ឌីណា.xlsx › 1-បរិច្ឆេទ ទី ៨: 57
 - លោកម្ចាស់ ផេង ឌីណា.xlsx › 2-ព្រះវិន័យបិដក ភិក្ខុវិភង្គ «ន: 97
 - លោកម្ចាស់ មុំ ចំរើន.xlsx › 1-ធម្មបទដ្ឋកថា: 130
 - លោកម្ចាស់ មុំ ចំរើន.xlsx › 2-បទរូបសិទ្ធិ: 80
@@ -193,11 +171,10 @@ trimmed only); nothing is invented. One course = one tab. The per-lesson rows ar
 - Ven.Hun Khamra › 8-Dhamma talk in English: 9
 - លោកម្ចាស់ ថូ ចន្ថា.xlsx › 2-បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី: 34
 - លោកម្ចាស់ ថូ ចន្ថា.xlsx › 3-អង្គុត្តរនិកាយ : 31
-- Ven. Sor Ratha.xlsx › 3-Buddhism in English Level 3 b: 30
 - Ven. Sor Ratha.xlsx › 4-Buddhism in English Level 3 b: 1
 - អ្នកគ្រូម៉ម សុខ ហេង.xlsx › 1-បិដកលេខ ១៤: 24
 - អ្នកគ្រូម៉ម សុខ ហេង.xlsx › 2-បិដកលេខ ១៥: 26
-- អ្នកគ្រូម៉ម សុខ ហេង.xlsx › 3-រាត្រីធម្មទាន: 512
+- អ្នកគ្រូម៉ម សុខ ហេង.xlsx › 3-រាត្រីធម្មទាន: 463
 - អ្នកគ្រូម៉ម សុខ ហេង.xlsx › 4-នាទីធម្មចរិយា: 76
 - អ្នកគ្រូម៉ម សុខ ហេង.xlsx › 5-អដ្ឋកថាជាតក: 33
 - អ្នកគ្រូម៉ម សុខ ហេង.xlsx › 6-បច្ចេកពុទ្ធ: 57
@@ -240,7 +217,6 @@ trimmed only); nothing is invented. One course = one tab. The per-lesson rows ar
 | លោកម្ចាស់ ថូ ចន្ថា.xlsx | Sheet2 | empty tab |
 | លោកម្ចាស់ ថូ ចន្ថា.xlsx | Sheet3 | empty tab |
 | អ្នកគ្រូម៉ម សុខ ហេង.xlsx | ផ្សំ link | no header row (no ចំណងជើង មេរៀន label with ឈ្មោះគ្រូ / លេខកូដមេរៀន) |
-| អ្នកគ្រូម៉ម សុខ ហេង.xlsx | ពុទ្ធប្រវត្តិ | no header row (no ចំណងជើង មេរៀន label with ឈ្មោះគ្រូ / លេខកូដមេរៀន) |
 | អ្នកគ្រូម៉ម សុខ ហេង.xlsx | លេខកូដមេរៀន | no header row (no ចំណងជើង មេរៀន label with ឈ្មោះគ្រូ / លេខកូដមេរៀន) |
 | អ្នកគ្រូម៉ម សុខ ហេង.xlsx | Sheet3 | empty tab |
 | លោកម្ចាស់ ឡេង ស៊ីដែន.xlsx | Sheet2 | empty tab |

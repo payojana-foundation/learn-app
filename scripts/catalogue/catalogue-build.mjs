@@ -37,6 +37,15 @@ import { join, basename, extname } from 'node:path';
 import { parseTab, sheetToGrid, parseInventoryNames, outer, norm } from './sheets-map.mjs';
 
 export const HIDDEN_TABS = ['7-មលិន្ទប្បញ្ហា'];
+// Decision 6 (4 Nov, team-confirmed NOT courses): keyed by "<file_id>\t<tab>".
+// These are already skipped by parseTab (no header row); listing them here makes
+// the HIDDEN.md reason explicit ("confirmed not a course") instead of generic.
+export const SKIP_TABS = new Set([
+  '1PK2kBcIqMN46a9OyvFX5CxWYxzA78URtBjGyua2Q-S4\t2-បរិច្ឆេទទី២ (ឆ្នាំ ២០២២)',
+  '1PK2kBcIqMN46a9OyvFX5CxWYxzA78URtBjGyua2Q-S4\tPramaha Vinh Sovoeurng',
+  '1x8gSAqqV_Yr4gjwlEBVpx7k8TnLb2w03\tពុទ្ធប្រវត្តិ',
+  '1uSuNVNJr-JylT1GqDY5GNRGF_Z_GhSjB1Ozlgv_WZMs\tContent',
+]);
 const PILOT_FILE = '1B7NgdftwwJeMZEtKm4cpz-3_Lp8RCtv7';
 // Decision 5 (fix): files that are NOT teacher course sheets — excluded from
 // teacher mapping and from HIDDEN.md's unmapped list.
@@ -170,9 +179,12 @@ export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseI
     for (const t of f.tabs) {
       const key = `${f.file_id}\t${t.name}`;
       const tabHidden = HIDDEN_TABS.includes(t.name);
+      const teamSkipped = SKIP_TABS.has(key);
       const parsed = parseTab(t);
-      if (parsed.status !== 'ok' || tabHidden) {
-        if (tabHidden || parsed.lessons.length) {
+      if (parsed.status !== 'ok' || tabHidden || teamSkipped) {
+        if (teamSkipped) {
+          hidden.push({ course_id: registry[key] || null, teacher: slug, title: t.name, lesson_id: null, num: '', reason: 'confirmed not a course (team 4 Nov)' });
+        } else if (tabHidden || parsed.lessons.length) {
           hidden.push({ course_id: registry[key] || null, teacher: slug, title: t.name, lesson_id: null, num: '', reason: tabHidden ? `hidden tab (${t.name})` : `skipped tab: ${parsed.reason}` });
         }
         continue;

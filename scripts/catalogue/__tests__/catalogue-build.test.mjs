@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import {
   planCatalogue, pickSource, lessonIdOf, courseTitle, queueFor, pilotAliases,
-  khmerToInt, codePrefix, isSectionRow, matchTeacher, HIDDEN_TABS, NON_COURSE_FILES,
+  khmerToInt, codePrefix, isSectionRow, matchTeacher, HIDDEN_TABS, NON_COURSE_FILES, SKIP_TABS,
 } from '../catalogue-build.mjs';
 
 const T = { title: 'ចំណងជើង មេរៀន', code: 'លេខកូដមេរៀន', teacher: 'ឈ្មោះគ្រូ' };
@@ -190,6 +190,15 @@ describe('planCatalogue (decisions 1–6)', () => {
     expect(HIDDEN_TABS).toContain('7-មលិន្ទប្បញ្ហា');
     const { courses } = planCatalogue(files, opts);
     expect(courses.some((c) => c.tab === '7-មលិន្ទប្បញ្ហា')).toBe(false);
+  });
+
+  it('decision 6: a team-confirmed SKIP_TABS tab stays skipped even if it parses OK', () => {
+    const fid = '1PK2kBcIqMN46a9OyvFX5CxWYxzA78URtBjGyua2Q-S4';
+    expect([...SKIP_TABS].some((k) => k.startsWith(fid + '\t'))).toBe(true);
+    const f2 = [{ file_id: fid, file_name: 'Pramaha Vinh Sovoeurng', tabs: [tab('Pramaha Vinh Sovoeurng', [{ num: '1', code: 'V0001', mp3: 'VV' }])] }];
+    const { courses, hidden } = planCatalogue(f2, { teachers, approved: new Set(), inManifest: new Set() });
+    expect(courses.length).toBe(0);
+    expect(hidden.some((h) => /confirmed not a course/.test(h.reason))).toBe(true);
   });
 });
 
