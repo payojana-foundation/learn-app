@@ -1,0 +1,6 @@
+{
+  "_doc": "Decision 4 (4 Nov): map each teacher-sheet SOURCE FILE (Drive file id = the .xlsx basename in data/source/sheets/) to an existing teacher slug in data/source/teachers-2026-11-02/. The teacher is taken from this map, NOT from the sheet cell. A file with no entry here is UNMAPPED: catalogue-build lists it and hides its courses — slugs are NEVER guessed. Seeded only with the pilot file, whose slug (yon-yi) is already asserted in data/lesson-media-overrides.json; the coordinator fills the rest.",
+  "files": {
+    "1B7NgdftwwJeMZEtKm4cpz-3_Lp8RCtv7": "yon-yi"
+  }
+}

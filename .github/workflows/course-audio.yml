@@ -55,7 +55,9 @@ permissions:
   id-token: write # Workload Identity Federation
 
 concurrency:
-  group: course-audio
+  # One in-flight run PER QUEUE (the `list` input), so two different course
+  # queues can transcode at the same time; a second run of the SAME queue waits.
+  group: course-audio-${{ github.event.inputs.list }}
   cancel-in-progress: false
 
 jobs:

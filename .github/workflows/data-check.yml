@@ -64,3 +64,22 @@ jobs:
             git diff -- public/data | head -n 400
             exit 1
           fi
+
+      - name: Write data/source/sheets/HIDDEN.md (decision 9, report only)
+        if: ${{ always() }}
+        run: |
+          set -uo pipefail
+          # The teacher sheets' hidden-lessons report, for the team. --report-only
+          # writes ONLY HIDDEN.md so it never dirties the diffed data above.
+          npm install --no-save xlsx@0.18.5 >/dev/null 2>&1 || true
+          node scripts/catalogue/catalogue-build.mjs --report-only || echo "catalogue-build skipped (no xlsx / no sheets)"
+          echo "----- HIDDEN.md (head) -----"
+          head -n 30 data/source/sheets/HIDDEN.md 2>/dev/null || true
+
+      - name: Upload HIDDEN.md
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: hidden-lessons
+          path: data/source/sheets/HIDDEN.md
+          if-no-files-found: ignore
