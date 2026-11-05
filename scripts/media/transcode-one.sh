@@ -5,11 +5,11 @@
 #
 # Requires in the environment: ACCESS_TOKEN (WIF Drive access token).
 # Key = audio/<first 16 hex of Drive md5Checksum>-a64.mp3 (B2).
-# B3 (final standard 4 Nov, target -18, "G loop"): the source is downloaded ONCE, its audio
+# B3 (CHANGE 4 Nov "loop and ceiling", target -18): the source is downloaded ONCE, its audio
 # extracted to a local file, and every pass runs on that file. G is tuned on the
-# LIMITED signal (null passes, max 5), capped at depth 12 with a measured I;
-# then the mp3 is encoded (one TP re-encode allowed) and classified on the mp3
-# (see scripts/media/b3-decide.mjs).
+# mp3 is MEASURED each round: encode → decode → ebur128; the limiter ceiling starts
+# at 0.60 and tightens if TP overshoots, G chases -18; <= 5 encodes; the result is
+# judged on the last mp3 (see scripts/media/b3-decide.mjs).
 # Exit 0 = done, 3 = skipped (listed duplicate / key exists), non-zero = failed.
 #
 # DRY_RUN=1: the same loop (null passes only) — no encode, no upload, no manifest;
@@ -182,72 +182,41 @@ src_dur="$("$FFPROBE" -v error -show_entries format=duration -of csv=p=0 "$aud" 
 # Exception lookup for this id (accept_I ≥ -18: same loop at accept_I, depth ignored).
 exc_i="$(node -e 'try{const l=require("fs").readFileSync(process.argv[1],"utf8");const e=(JSON.parse(l)||[]).find(x=>x.drive_file_id===process.argv[2]);process.stdout.write(e&&Number.isFinite(e.accept_I)?String(e.accept_I):"")}catch{process.stdout.write("")}' "$EXCEPTIONS" "$DRIVE_FILE_ID" 2>/dev/null)"
 
-# B3 G loop (null passes of the FULL chain incl. alimiter; max 3 + cap).
-limit="0.708"
-state="$(b3_gloop "$aud" "$pan_af" "$TARGET_I" "$exc_i")"
+# B3 loop (CHANGE 4 Nov): encode the mp3, decode + ebur128, adjust limiter/G;
+# ≤ 5 encodes; the result is judged on the LAST encoded mp3. The loop leaves the
+# final mp3 at $out.
+state="$(b3_mp3loop "$aud" "$pan_af" "$TARGET_I" "$exc_i" "$out")"
 result="$(b3_field "$state" result)"
 G="$(b3_field "$state" G)"
-loops="$(b3_field "$state" loop)"
+limit="$(b3_field "$state" limit)"
+loops="$(b3_field "$state" encodes)"
 depth="$(b3_field "$state" depth)"
-i_final="$(b3_field "$state" I_final)"
+out_i="$(b3_field "$state" I_mp3)"
+out_tp="$(b3_field "$state" TP_mp3)"
 p1_i="$(b3_field "$state" I1)"
 p1_tp="$(b3_field "$state" TP1)"
-p1_lra="$(b3_field "$state" LRA1)"
-busy="$(b3_busy "$aud" "$pan_af" "$G")"
-echo "[$DRIVE_FILE_ID] stage=gloop-result result=${result} loops=${loops} G=${G} I_lim_or_cap=${i_final} depth=${depth} busy=${busy} (busy logged only) $(b3_field "$state" reason)"
+busy="$(b3_busy "$aud" "$pan_af" "$G" "$limit")"
+echo "[$DRIVE_FILE_ID] stage=loop-result result=${result} loops=${loops} G=${G} limit=${limit} I_mp3=${out_i} TP_mp3=${out_tp} depth=${depth} busy=${busy} (busy logged only) $(b3_field "$state" reason)"
+
+# Duration guard applies to any non-failed result (the mp3 exists at $out).
+out_dur="$([ -f "$out" ] && "$FFPROBE" -v error -show_entries format=duration -of csv=p=0 "$out" | cut -d. -f1 || echo 0)"
+if [ "$result" != "failed" ] && ! nn 'process.exit(Math.abs((parseInt(process.argv[1],10)||0)-(parseInt(process.argv[2],10)||0))<=1?0:1)' "${out_dur:-0}" "${src_dur:-0}"; then
+  echo "[$DRIVE_FILE_ID] duration ${out_dur}s vs source ${src_dur}s (> ±1 s) → failed" >&2
+  result="failed"
+fi
 
 if [ "$DRY_RUN" = "1" ]; then
-  printf '%s' "$state" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const o=JSON.parse(s);o.id=process.argv[1];o.busy=Number(process.argv[2]);require("fs").writeFileSync("dryrun-"+process.argv[1]+".json",JSON.stringify(o))})' -- "$DRIVE_FILE_ID" "${busy:-0}"
-  echo "[$DRIVE_FILE_ID] DRY-RUN expected_result=${result} (no encode, no upload, no manifest)"
+  printf '%s' "$state" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const o=JSON.parse(s);o.id=process.argv[1];o.busy=Number(process.argv[2]);o.out_dur=Number(process.argv[3]);o.src_dur=Number(process.argv[4]);require("fs").writeFileSync("dryrun-"+process.argv[1]+".json",JSON.stringify(o))})' -- "$DRIVE_FILE_ID" "${busy:-0}" "${out_dur:-0}" "${src_dur:-0}"
+  echo "[$DRIVE_FILE_ID] DRY-RUN expected_result=${result} (measured, no upload, no manifest)"
   if [ "$result" = "failed" ]; then
-    echo "[$DRIVE_FILE_ID] DRY-RUN failed: 5 loudest peaks above ceiling at s: $(b3_peak_timestamps "$aud" "$pan_af" "$G" || true)"
+    echo "[$DRIVE_FILE_ID] DRY-RUN failed: 5 loudest peaks above ceiling at s: $(b3_peak_timestamps "$aud" "$pan_af" "$G" "$limit" || true)"
   fi
   exit 0
 fi
 
 if [ "$result" = "failed" ]; then
-  # The 5 largest peaks above the ceiling: the coordinator listens only there.
-  peaks="$(b3_peak_timestamps "$aud" "$pan_af" "$G")"
-  echo "[$DRIVE_FILE_ID] FAILED stage=gloop: $(b3_field "$state" reason) — 5 loudest peaks above ceiling at s: ${peaks:-none}" >&2
-  exit 1
-fi
-
-# Encode: pan → volume G → aresample 44100 → alimiter 0.708 → mp3 64k mono.
-# The mp3 is classified by the I bands (ok ±0.5 / cap -19.0..-18.5 / failed) and
-# must have TP ≤ -1.5. If TP is over: lower G by (TP + 1.5) dB, re-encode ONCE,
-# re-check TP and the same I bands; TP still over → failed.
-encode_mp3() { # <G>
-  "$FFMPEG" -nostdin -y -i "$aud" -vn -af "$(b3_chain "$pan_af" "$1")" \
-    -c:a libmp3lame -b:a 64k -ar 44100 -ac 1 -map_metadata -1 "$out" 2>"ffmpeg-${md5hex}.err"
-}
-G_enc="$G"
-tp_retry=0
-while :; do
-  if ! encode_mp3 "$G_enc"; then
-    echo "[$DRIVE_FILE_ID] FAILED stage=encode: $(tail -n 3 "ffmpeg-${md5hex}.err" | tr '\n' ' ')" >&2
-    exit 1
-  fi
-  read -r out_i out_tp out_lra <<<"$(b3_ebur "$out" "")"
-  echo "[$DRIVE_FILE_ID] stage=encode G=${G_enc} limit=${limit} out_I=${out_i} out_TP=${out_tp} out_LRA=${out_lra} tp_retry=${tp_retry}"
-  if [ "$tp_retry" = "0" ] && nn 'process.exit(parseFloat(process.argv[1])>-1.5?0:1)' "$out_tp"; then
-    G_enc="$(node "$B3_DIR/b3-decide.mjs" tpfix "$G_enc" "$out_tp")"
-    tp_retry=1
-    echo "[$DRIVE_FILE_ID] stage=tp-fix TP=${out_tp} > -1.5 → G lowered to ${G_enc}, re-encoding once"
-    continue
-  fi
-  break
-done
-G="$G_enc"
-mp3v="$(node "$B3_DIR/b3-decide.mjs" verdict "$out_i" "$out_tp" "$TARGET_I" "$exc_i")"
-result="$(b3_field "$mp3v" result)"
-echo "[$DRIVE_FILE_ID] stage=mp3-verdict result=${result} $(b3_field "$mp3v" reason)"
-if [ "$result" = "failed" ]; then
-  echo "[$DRIVE_FILE_ID] FAILED stage=accept: $(b3_field "$mp3v" reason)" >&2
-  exit 1
-fi
-out_dur="$("$FFPROBE" -v error -show_entries format=duration -of csv=p=0 "$out" | cut -d. -f1)"
-if ! nn 'process.exit(Math.abs((parseInt(process.argv[1],10)||0)-(parseInt(process.argv[2],10)||0))<=1?0:1)' "${out_dur:-0}" "${src_dur:-0}"; then
-  echo "[$DRIVE_FILE_ID] FAILED stage=accept: duration ${out_dur}s vs source ${src_dur}s (> ±1 s)" >&2
+  peaks="$(b3_peak_timestamps "$aud" "$pan_af" "$G" "$limit")"
+  echo "[$DRIVE_FILE_ID] FAILED stage=accept: $(b3_field "$state" reason) — 5 loudest peaks above ceiling at s: ${peaks:-none}" >&2
   exit 1
 fi
 echo "[$DRIVE_FILE_ID] stage=result result=${result} dur=${out_dur}/${src_dur}"
@@ -280,7 +249,7 @@ fi
 LESSON_CODE="${LESSON_CODE:-}"
 nn 'const fs=require("fs");const a=process.argv;const o={lesson_code:a[11]||null,drive_file_id:a[1],drive_name:a[2],source_md5:a[3],key:a[4],bytes:Number(a[5])||0,duration_s:Number(a[6])||0,sha256:a[7],loudness:{pass1:{I:Number(a[8].split(",")[0]),TP:Number(a[8].split(",")[1]),LRA:Number(a[8].split(",")[2])},G:Number(a[9].split(",")[0]),limit:Number(a[9].split(",")[1]),depth:Number(a[12].split(",")[0]),busy:Number(a[12].split(",")[1]),out:{I:Number(a[10].split(",")[0]),TP:Number(a[10].split(",")[1]),LRA:Number(a[10].split(",")[2])},loops:Number(a[9].split(",")[2]),result:a[13]||null}};if(!/^[0-9a-f]{64}$/.test(o.sha256)){console.error("bad sha");process.exit(1)}fs.writeFileSync("entry-"+a[1]+".json",JSON.stringify(o))' \
   "$DRIVE_FILE_ID" "$drive_name" "$md5" "$key" "${bytes:-0}" "${dur:-0}" "${sha:-}" \
-  "${p1_i},${p1_tp},${p1_lra}" "${G},${limit},${loops}" "${out_i},${out_tp},${out_lra}" "$LESSON_CODE" \
+  "${p1_i},${p1_tp}," "${G},${limit},${loops}" "${out_i},${out_tp}," "$LESSON_CODE" \
   "${depth},${busy}" "$result" || {
     echo "[$DRIVE_FILE_ID] could not build a valid manifest entry" >&2; exit 1; }
 

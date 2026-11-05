@@ -31,18 +31,23 @@ Chain (no acompressor, no rescue path):
 3. aresample=44100
 4. alimiter=limit=0.708:attack=5:release=50:level=disabled   (≈ −3 dBFS; stays 0.708)
 5. -c:a libmp3lame -b:a 64k mono -map_metadata -1
-G loop — G is tuned on the LIMITED signal:
-1. pass-1 on the mono signal → I1, TP1. G = target − I1.
-2. Loop, max 5: a null pass of the FULL chain incl. alimiter (no mp3) → I_lim.
-   |target − I_lim| ≤ 0.2 → stop. Else G += (target − I_lim).
-   depth = TP1 + G − 20·log10(0.708), checked every loop. After 5 loops:
-   |target − I_lim| ≤ 0.5 (final I within −18 ±0.5) → ok, else failed.
-3. depth > 12: set G so depth = 12 (G = 12 + 20·log10(0.708) − TP1), one more null pass → I:
-   −18 ±0.5 → ok;  −19.0 ≤ I < −18.5 → cap;  I < −19.0 → failed (exception route).
-4. Encode, then check the FINISHED mp3 (ebur128 peak=true): TP ≤ −1.5 dBTP and the same I
-   bands (ok / cap / failed). TP > −1.5 → lower G by (TP + 1.5) dB, re-encode ONCE,
-   re-check TP AND the I bands; TP still over → failed, not uploaded.
-   Duration = source duration ±1 s. Otherwise failed, not uploaded.
+Loop and ceiling (CHANGE 4 Nov) — the loop measures the ACTUAL encoded mp3 and tunes a
+VARIABLE limiter ceiling; it replaces the null-pass G loop and the old "one G-lowering
+re-encode" TP rule:
+1. Start: alimiter limit=0.60. Starting G from the null pass, capped at
+   G_max = 12 + 20·log10(limit) − TP1.
+2. Loop, max 5 encodes total: encode mp3 → decode → ebur128=peak=true → I_mp3, TP_mp3.
+   In this order:
+   a. TP_mp3 > −1.5 dBTP → limit = limit × 0.9 (min 0.50); G unchanged but re-capped to
+      the new G_max. Still over at limit 0.50 → failed, stop.
+   b. else |−18 − I_mp3| > 0.2 → G += (−18 − I_mp3), capped at G_max.
+   c. else stop.
+   No adjustment after the 5th encode; the result is judged on the last encoded mp3.
+3. Result: ok = I within −18 ±0.5 AND TP ≤ −1.5. cap = −19.0 ≤ I < −18.5 AND TP ≤ −1.5.
+   failed = I < −19.0, or TP > −1.5 at the end, or duration off by > 1 s. Failed → no upload
+   (exception route unchanged: run at accept_I, accept within accept_I ±0.5).
+4. Log per file: for each loop G / limit / I_mp3 / TP_mp3; loops used; final depth; busy.
+alimiter `level`: the code sets level=disabled (auto-level, on by default in ffmpeg, is OFF).
 busy = share of 50 ms frames (asetnsamples=n=2205, astats reset per frame, Peak_level)
 above the limiter ceiling on steps 1–3 (no limiter). Measured and LOGGED ONLY, never used.
 Speed: each source is downloaded ONCE to the runner, its audio extracted to a local file,
@@ -117,6 +122,7 @@ Approval: files with result "ok" may be approved by course by the team without l
 - Order key: in the ab-test run artifact (coordinator holds it). Thresholds: pending audio + engineering.
 
 ## CHANGE log
+- CHANGE: 4 Nov 2026 "B3 loop and ceiling": alimiter starts limit=0.60; loop (max 5 encodes) MEASURES the encoded mp3 — TP > -1.5 tightens the limiter (×0.9, min 0.50), else G chases -18; result on the last mp3 (ok -18 ±0.5 / cap -19.0..-18.5 / failed). Replaces the null-pass G loop and the "one G-lowering re-encode" TP rule. Reason: the mp3 encode lowered I by 0.4-0.5 LU vs the null pass; mp3 TP overshot the -3 dBFS ceiling by +1.5 to +2.7 dB; lowering G did not move TP. Approved: coordinator; Audio agreed.
 - CHANGE: 4 Nov 2026: course audio standard — target -18; G loop max 5, aim ±0.2, ok ±0.5; cap at depth 12: ok ±0.5 / cap -19.0..-18.5 / failed < -19.0; mp3 TP ≤ -1.5 (one G reduction re-encode); part 1 on md5 key. Replaces 3 Nov -16 and 3 Nov loop/cap changes. Reason: blind pair test 3-4 Nov, part 7 worse at -16 both rounds (caveat: all picks 'a'). Approved: coordinator; Audio agreed.
 - CHANGE: 3 Nov 2026: B3 gain G = target - I(pass1) → G loop on the limited signal (max 3, aim ±0.2, accept ±0.5, cap at depth 12 with measured I). Reason: limiter cost 1.2-1.8 LU on part 8. Approved: coordinator; Audio agreed.
 - CHANGE: busy via plain astats stderr grep → `asetnsamples=2205,astats=metadata=1:reset=1,ametadata=mode=print:key=…Peak_level` parsed per frame (same filter for the failed-file peak timestamps) — per-frame values are not in stderr so busy was always 0, 3 Nov.
