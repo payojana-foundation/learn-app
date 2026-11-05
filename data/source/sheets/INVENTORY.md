@@ -90,8 +90,8 @@ Sample (up to 3 rows):
 | ធម្មបទដ្ឋកថា |  |  |  |  |  | តំណរ ក្នង​ ពពក វិដេអូកាត់ដើមចុងរួច MP3 | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP4 | តំណរ ក្នង​ ពពក វីដេអូដើម |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ល.រ ក្នុង​ Acast | ឈ្មោះគ្រូ | ចំណងជើង មេរៀន | គោលធម៌ | លេខកូដមេរៀន | Embed link from Acast | https://drive.google.com/drive/folders/1opNUGqVXXDrGJ14sDR8lmQTN2WfcF965?usp=drive_link |  | https://drive.google.com/drive/folders/1gDnyDYM6CVI4C_NHcWPoWoGVFNydZECe?usp=drive_link | Soundwise | Acast |  |  |  | Realy ? |
-| 1 | លោកម្ចាស់ មុំ ចំរើន | ធម្មបទដ្ឋកថា (និរុត្តិ+សង្គហ) ភាគ០១ (លោកម្ចាស់ ជោតវីរិយាលង្ការ មុំ ចំរើន).mp3 |  |  |  | https://drive.google.com/file/d/1ad_Cjm5yeT-72egrwRCVmyr2FRZ1i-LE/view?usp=drive_link, |  |  | done | done |  |  |  | Yes |
-| 2 | លោកម្ចាស់ មុំ ចំរើន | ធម្មបទដ្ឋកថា (និរុត្តិ+សង្គហ) ភាគ០២ (លោកម្ចាស់ ជោតវីរិយាលង្ការ មុំ ចំរើន).mp3 |  |  |  | https://drive.google.com/file/d/19V0ojUcWx8BJ_ywJ8f2EnKYv1GgDIP_s/view?usp=drive_link, |  |  | done | done |  |  |  | Yes |
+| 1 | លោកម្ចាស់ មុំ ចំរើន | ធម្មបទដ្ឋកថា (និរុត្តិ+សង្គហ) ភាគ០១ (លោកម្ចាស់ ជោតវីរិយាលង្ការ មុំ ចំរើន).mp3 |  |  |  | ធម្មបទដ្ឋកថា (និរុត្តិ+សង្គហ) ភាគ០១ (លោកម្ចាស់ ជោតវីរិយាលង្ការ មុំ ចំរើន).mp3 |  |  | done | done |  |  |  | Yes |
+| 2 | លោកម្ចាស់ មុំ ចំរើន | ធម្មបទដ្ឋកថា (និរុត្តិ+សង្គហ) ភាគ០២ (លោកម្ចាស់ ជោតវីរិយាលង្ការ មុំ ចំរើន).mp3 |  |  |  | ធម្មបទដ្ឋកថា (និរុត្តិ+សង្គហ) ភាគ០២ (លោកម្ចាស់ ជោតវីរិយាលង្ការ មុំ ចំរើន).mp3 |  |  | done | done |  |  |  | Yes |
 
 ### Tab: 2-បទរូបសិទ្ធិ
 
@@ -958,7 +958,7 @@ Sample (up to 3 rows):
 
 ### Tab: 5-បរិច្ឆេទទី៥​ វិថីមុត្តសង្គហៈ 
 
-- Row count (excluding header): 158
+- Row count (excluding header): 157
 - Header row: `បរិច្ឆេទទី៥​ វិថីមុត្តសង្គហៈ (ឆ្នាំ ២០២៥)`, ``, ``, ``, ``, ``, `តំណក្នុង Google drive (mp3)`, `តំណក្នុង Google drive (mp4)`, `តំណ ក្នុង Youtube`, `លេខកូដមេរៀន`, ``, ``
 - Columns that LOOK like ids/codes (report only, do not decide):
   - col A (`បរិច្ឆេទទី៥​ វិថីមុត្តសង្គហៈ (ឆ្នាំ ២០២៥)`): 1/2 sample values are id-shaped
@@ -1033,8 +1033,8 @@ Sample (up to 3 rows):
 | បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ |  |  |  |  |  | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP3 | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP4 | តំណរ ក្នង​ ពពក វីដេអូដើម |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ល.រ ក្នុង​ Acast | ឈ្មោះគ្រូ | ចំណងជើង មេរៀន | គោលធម៌ | លេខកូដមេរៀន | Embed link from Acast | https://drive.google.com/drive/folders/1OrF6cbguEXy3B9VUa_N5vSYW9cNI2MSq?usp=drive_link |  | https://drive.google.com/drive/folders/1_9TshDQpe176P_bcwbxc8KTmn7pDRlXf?usp=drive_link | Soundwise | Acast |  |  |  | Ready ? |
-| 1 | លោកម្ចាស់មិត្ត សាន | សិក្សាព្រះអភិធម្ម_បរិច្ឆេទទី៥_វិថីមុត្តសង្គហវិភាគ_លោកម្ចាស់_មិត្ត_សាន_ភាគ_១ |  |  |  |  |  |  | done | done |  |  |  | Yes |
-| 2 | លោកម្ចាស់មិត្ត សាន | សិក្សាព្រះអភិធម្ម_បរិច្ឆេទទី៥_វិថីមុត្តសង្គហវិភាគ_លោកម្ចាស់_មិត្ត_សាន_ភាគ_២ |  |  |  |  |  |  | done | done |  |  |  | Yes |
+| 1 | លោកម្ចាស់មិត្ត សាន | សិក្សាព្រះអភិធម្ម_បរិច្ឆេទទី៥_វិថីមុត្តសង្គហវិភាគ_លោកម្ចាស់_មិត្ត_សាន_ភាគ_១ |  |  |  | 2.ម៉ោងទី២.សិក្សាព្រះអភិធម្មបរិច្ឆេទទី៥  វីថិមុត្តបរិច្ឆេទ បង្រៀព្រះធម៌ដោយលោកគ្រូ មិត្ត សាន.mp3 |  |  | done | done |  |  |  | Yes |
+| 2 | លោកម្ចាស់មិត្ត សាន | សិក្សាព្រះអភិធម្ម_បរិច្ឆេទទី៥_វិថីមុត្តសង្គហវិភាគ_លោកម្ចាស់_មិត្ត_សាន_ភាគ_២ |  |  |  | 1.ម៉ោងទី០១.សិក្សាព្រះអភិធម្មបរិច្ឆេទទី៥  វិថីមុត្តបរិច្ឆេទ បង្រៀព្រះធម៌លោកគ្រូ មិត្ត សាន.mp3 |  |  | done | done |  |  |  | Yes |
 
 ### Tab: Sheet2
 
@@ -1077,17 +1077,17 @@ Sample (up to 3 rows):
 ### Tab: ទុក្ខ
 
 - Row count (excluding header): 23
-- Header row: `ទុក្ខ`, ``, ``, ``, ``, ``, `តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP3`, `តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP4`, `តំណរ ក្នង​ ពពក វីដេអូដើម`, ``, ``
+- Header row: `ទុក្ខ`, ``, ``, ``, ``, ``, `តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP3`, `តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP4`, `តំណរ ក្នង​ ពពក វីដេអូដើម`, ``, ``, ``, ``, ``, ``
 - Columns that LOOK like ids/codes (report only, do not decide):
   - col A (`ទុក្ខ`): 2/3 sample values are id-shaped
 
 Sample (up to 3 rows):
 
-| ទុក្ខ |  |  |  |  |  | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP3 | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP4 | តំណរ ក្នង​ ពពក វីដេអូដើម |  |  |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ល.រ ក្នុង​ Acast | ឈ្មោះគ្រូ | ចំណងជើង មេរៀន | គោលធម៌ | លេខកូដមេរៀន | Embed link from Acast | https://drive.google.com/drive/folders/1QmpmvvN1ZSIPxC3Ir1WrKgAm9YTyebQT?usp=drive_link |  |  | Soundwise | Acast |
-| 1 | លោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស | ១-ទុក្ខ១២ កង-ព្រះធម្មវិបស្សនា សំ ប៊ុនធឿន កេតុធម្មោ.mp3 |  |  |  | https://drive.google.com/open?id=13am2BoxYa3S3JGAd5yVwnpySjtmybkCF&usp=drive_copy |  |  | done | done |
-| 2 | លោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស | ២-ទុក្ខ ១២ កង-ព្រះមហាវិមល​ធម្ម​ ពិន​ សែម​.mp3 |  |  |  | https://drive.google.com/open?id=1ZFV0l5b0jw0LbbqITJ8KT_5TV4lKtxmR&usp=drive_copy |  |  | done | done |
+| ទុក្ខ |  |  |  |  |  | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP3 | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP4 | តំណរ ក្នង​ ពពក វីដេអូដើម |  |  |  |  |  |  |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ល.រ ក្នុង​ Acast | ឈ្មោះគ្រូ | ចំណងជើង មេរៀន | គោលធម៌ | លេខកូដមេរៀន | Embed link from Acast | https://drive.google.com/drive/folders/1QmpmvvN1ZSIPxC3Ir1WrKgAm9YTyebQT?usp=drive_link |  |  | Soundwise | Acast |  |  |  | Ready ? |
+| 1 | លោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស | ១-ទុក្ខ១២ កង-ព្រះធម្មវិបស្សនា សំ ប៊ុនធឿន កេតុធម្មោ.mp3 |  |  |  | https://drive.google.com/open?id=13am2BoxYa3S3JGAd5yVwnpySjtmybkCF&usp=drive_copy |  |  |  | done |  |  |  | yes |
+| 2 | លោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស | ២-ទុក្ខ ១២ កង-ព្រះមហាវិមល​ធម្ម​ ពិន​ សែម​.mp3 |  |  |  | https://drive.google.com/open?id=1ZFV0l5b0jw0LbbqITJ8KT_5TV4lKtxmR&usp=drive_copy |  |  |  | done |  |  |  | yes |
 
 ### Tab: មហាសតិប្បដ្នាន 
 
@@ -1101,8 +1101,8 @@ Sample (up to 3 rows):
 | មហាសតិប្បដ្នាន  |  |  |  |  |  | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP3 | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP4 | តំណរ ក្នង​ ពពក វីដេអូដើម |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ល.រ ក្នុង​ Acast | ឈ្មោះគ្រូ | ចំណងជើង មេរៀន | គោលធម៌ | លេខកូដមេរៀន | Embed link from Acast | https://drive.google.com/drive/folders/1FIJlSEEbeDYmWx2fSphwH9Ka2IUR8BiX?usp=drive_link |  |  | Soundwise | Acast |
-| 1 | លោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស | 1.មហាសតិប្បដ្ឋាន ០១ ដោយលោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស.mp3 |  |  |  |  |  |  | done | done |
-| 2 | លោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស | 2.មហាសតិប្បដ្ឋាន ០២ ដោយលោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស.mp3 |  |  |  |  |  |  | done | done |
+| 1 | លោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស | 1.មហាសតិប្បដ្ឋាន ០១ ដោយលោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស.mp3 |  |  |  | 1.មហាសតិប្បដ្ឋាន ០១ ដោយលោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស.mp3 |  |  |  |  |
+| 2 | លោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស | 2.មហាសតិប្បដ្ឋាន ០២ ដោយលោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស.mp3 |  |  |  | 2.មហាសតិប្បដ្ឋាន ០២ ដោយលោកគ្រូអគ្គបណ្ឌិត ប៊ុត សាវង្ស.mp3 |  |  |  |  |
 
 ### Tab: Sheet2
 
@@ -1378,7 +1378,7 @@ Sample (up to 3 rows):
 
 ### Tab: 3-Buddhism in English Level 3 b
 
-- Row count (excluding header): 34
+- Row count (excluding header): 32
 - Header row: `Buddhism in English Level 3 batch2`, ``, ``, ``, ``, ``, ``, `តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP3`, ` MP4 (with Cover for miniCourse)`, `តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP4`, `តំណរ ក្នង​ ពពក វីដេអូដើម`, ``, ``
 - Columns that LOOK like ids/codes (report only, do not decide):
   - col A (`Buddhism in English Level 3 batch2`): 1/2 sample values are id-shaped
@@ -1391,7 +1391,7 @@ Sample (up to 3 rows):
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Position | ឈ្មោះគ្រូ | ចំណងជើង មេរៀន | គោលធម៌ | លេខកូដមេរៀន Audio | Embed link from Acast | លេខកូដមេរៀន video | https://drive.google.com/drive/folders/1q966kFomJsvlJ0NCXPQnWXQXQ89A0kFE?usp=drive_link | https://drive.google.com/drive/folders/1eBevauleOxIhU5Tsj-7Y1M4WsWna5fKp?usp=drive_link | https://drive.google.com/drive/folders/1l5qTT4MYBMLyW9uy_xq5KOPG2tIgT82g?usp=drive_link | https://drive.google.com/drive/folders/1KQFdMR7GFkSw4lm7t7Nu5TlYMwN9G0oA?usp=drive_link | Soundwise | Acast |
 |  |  |  |  | AENGSR00003 |  | VENGSR00003 |  |  |  |  |  |  |
-| 1 | Ven. Sor Ratha | 1-30Jul2025.mp4 |  | AENGSR0000301 |  | VENGSR0000301 | https://drive.google.com/file/d/1aPMTNs980nPAP4_cxAGO2AdiOB0P1h-K/view?usp=drive_link |  | https://drive.google.com/file/d/1dNVrERrMjyPKq5WuUt8cf6pzDAx8BWXP/view?usp=drive_link | 1-30Jul2025.mp4 |  |  |
+| 1 | Ven. Sor Ratha | 1-30Jul2025.mp3 |  | AENGSR0000301 |  | VENGSR0000301 | 1-30Jul2025.mp3 |  | 1-30Jul2025.mp4 |  |  |  |
 
 ### Tab: 4-Buddhism in English Level 3 b
 
@@ -1413,7 +1413,7 @@ Sample (up to 3 rows):
 ## អ្នកគ្រូម៉ម សុខ ហេង.xlsx
 
 - Drive file id: `1x8gSAqqV_Yr4gjwlEBVpx7k8TnLb2w03`
-- Tabs: 13
+- Tabs: 12
 
 ### Tab: 1-បិដកលេខ ១៤
 
@@ -1451,7 +1451,7 @@ Sample (up to 3 rows):
 
 ### Tab: 3-រាត្រីធម្មទាន
 
-- Row count (excluding header): 514
+- Row count (excluding header): 464
 - Header row: `រាត្រីធម្មទាន`, ``, ``, ``, ``, ``, ``, `តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP3`, `តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP4`, `តំណរ ក្នង​ ពពក វីដេអូដើម`, ``, ``, ``, ``, ``
 - Columns that LOOK like ids/codes (report only, do not decide):
   - col A (`រាត្រីធម្មទាន`): 2/3 sample values are id-shaped
@@ -1462,8 +1462,8 @@ Sample (up to 3 rows):
 | រាត្រីធម្មទាន |  |  |  |  |  |  | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP3 | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP4 | តំណរ ក្នង​ ពពក វីដេអូដើម |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ល.រ ក្នុង​ Acast | ឈ្មោះគ្រូ | ចំណងជើង មេរៀន | គោលធម៌ | លេដកូដមេរៀន | Embed link from Acast | ធាតុផ្សំ embed link | https://drive.google.com/drive/folders/1ME9XTLR4_K1Uq8ejlO20HthGw5Hk2rC8?usp=drive_link | https://drive.google.com/drive/folders/1xJgDoeLSYhFJnKkMqz7vuC7Kq8BRfiYu?usp=drive_link | https://drive.google.com/drive/folders/1zg13sCdTK1hFHrm1l4VbFMRlLYHcFBpD?usp=drive_link | soundwise | acast |  |  | Ready ? |
-| 1 | អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង | 2 3 រាត្រីធម្មទាន | ចិត្តបរមត្ថ(ចិត្តមាន៨១ និងដោយពិស្តារមាន១២១ដួង) 1.អធិប្បាយពាក្យ នមោតស្ស 2.អធិប្បាយពាក្យកំណើត វិចិត្រ | AABH000MSN001 | <iframe src="https://embed.acast.com/670a7d149343c2d47a56cc7a/68ae716f1ec4fc75762d2cc7?subscribe=false" frameBorder="0" width="100%" height="190px"></iframe> |  |  | https://drive.google.com/file/d/1pTyOijKkTEyUnWKhuJe0sP8m1XghhFbk/view?usp=drive_link |  | done | done |  |  | yes |
-| 2 | អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង | 4 5 រាត្រីធម្មទាន | 1.លក្ខណៈរូប (ការបែកធ្លាយនៃរូប) 2.អធិប្បាយព្រះនិព្វាន(ជាសង្ខត និងជាអសង្ខត) | AABH000MSN002 | <iframe src="https://embed.acast.com/670a7d149343c2d47a56cc7a/68ae71db982c36846e09da37?subscribe=false" frameBorder="0" width="100%" height="190px"></iframe> |  |  | https://drive.google.com/file/d/1t5q4XKpeQbLJZcYYB1pAjC33ShuVQjqu/view?usp=drive_link |  | done | done |  |  | yes |
+| 1 | អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង | 2 3 រាត្រីធម្មទាន | ចិត្តបរមត្ថ(ចិត្តមាន៨១ និងដោយពិស្តារមាន១២១ដួង) 1.អធិប្បាយពាក្យ នមោតស្ស 2.អធិប្បាយពាក្យកំណើត វិចិត្រ | AABH000MSN001 | <iframe src="https://embed.acast.com/670a7d149343c2d47a56cc7a/68ae716f1ec4fc75762d2cc7?subscribe=false" frameBorder="0" width="100%" height="190px"></iframe> |  | ១ រាត្រីធម្មទាន_640x360 (1).mp3 |  |  | done | done |  |  | yes |
+| 2 | អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង | 4 5 រាត្រីធម្មទាន | 1.លក្ខណៈរូប (ការបែកធ្លាយនៃរូប) 2.អធិប្បាយព្រះនិព្វាន(ជាសង្ខត និងជាអសង្ខត) | AABH000MSN002 | <iframe src="https://embed.acast.com/670a7d149343c2d47a56cc7a/68ae71db982c36846e09da37?subscribe=false" frameBorder="0" width="100%" height="190px"></iframe> |  | ២ រាត្រីធម្មទាន_640x360 (1).mp3 |  |  | done | done |  |  | yes |
 
 ### Tab: 4-នាទីធម្មចរិយា
 
@@ -1578,21 +1578,6 @@ Sample (up to 3 rows):
 | ដើម | 1 | 2 (យើងយកពី Acast) | 3 |  |  |  |  |  |  |  |
 | <iframe src="https://embed.acast.com/670a7d149343c2d47a56cc7a/68f3482959323046ca7608ae?subscribe=false" frameBorder="0" width="100%" height="190px"></iframe> | <iframe src="https://embed.acast.com/670a7d149343c2d47a56cc7a/ | 68f3482959323046ca7608ae | ?subscribe=false" frameBorder="0" width="100%" height="190px"></iframe> |  |  |  |  |  |  |  |
 
-### Tab: ពុទ្ធប្រវត្តិ
-
-- Row count (excluding header): 14
-- Header row: ``, `រាត្រីធម្មទាន`, `តំណរ ក្នង​ ពពក`, ``, ``
-- Columns that LOOK like ids/codes (report only, do not decide):
-  - col A (``): 2/3 sample values are id-shaped
-
-Sample (up to 3 rows):
-
-|  | រាត្រីធម្មទាន | តំណរ ក្នង​ ពពក |  |  |
-| --- | --- | --- | --- | --- |
-| ល.រ ក្នុង​ Acast | ចំណងជើងដើម | https://drive.google.com/drive/folders/1xJgDoeLSYhFJnKkMqz7vuC7Kq8BRfiYu?usp=drive_link | Embed link from Acast | អត្ថន័យមេរៀន  |
-| 1 | 103 រាត្រីធម្មទាន_(ពុទ្ធប្រវត្តិ)_640x360 | https://drive.google.com/file/d/1U-rEEZYP11xasDNll5kdwi6ZJlHPJ1RZ/view?usp=drive_link | ​ | ពុទ្ធប្រវត្តិ(ព្រះអង្គប្រសូត ត្រាស់ដឹងបរិនិព្វាន |
-| 2 | 104 រាត្រីធម្មទាន (ពុទ្ធប្រវត្តិ)_640x360 | https://drive.google.com/file/d/1xiiQPjs4M2FRrthgSVmWsFBd2BoDRhx_/view?usp=drive_link | ​ | ពុទ្ធប្រវត្តិ(ព្រះអង្គប្រសូត ត្រាស់ដឹងបរិនិព្វាន |
-
 ### Tab: លេខកូដមេរៀន
 
 - Row count (excluding header): 91
@@ -1675,8 +1660,8 @@ Sample (up to 3 rows):
 | វិធីរើសអង្គធម៌ |  |  |  |  |  | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP3 | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP4 | តំណរ ក្នង​ ពពក វីដេអូដើម |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ល.រ ក្នុង​ Acast | ឈ្មោះគ្រូ | ចំណងជើង មេរៀន | គោលធម៌ | លេខកូដមេរៀន | Embed link from Acast | https://drive.google.com/drive/folders/1wG7vNltowlYgjjGd10zm-0cl-CdAGEZi?usp=drive_link |  | https://drive.google.com/drive/folders/1AT-98NuvpvhlPrCSYWgLOiiV96DmJOxK?usp=drive_link | Soundwise | Acast |  |  |  | Ready ? |
-| 1 | លោកម្ចាស់ ឡេង ស៊ីដែន | វិធីរើសអង្គធម៍ ម៉ោង១ |  |  |  | https://drive.google.com/file/d/1n4eRm9sbdFuPpUbZI7dgy8JOoXT9mJzC/view?usp=drive_link |  |  | done | done |  |  |  | Yes |
-| 2 | លោកម្ចាស់ ឡេង ស៊ីដែន | វិធីរើសអង្គធម៌ (ម៉ោងទី2) |  |  |  | https://drive.google.com/file/d/1Wi14ezjg6YCF7S2SOES_orIRb1hObvc4/view?usp=drive_link |  |  | done | done |  |  |  | Yes |
+| 1 | លោកម្ចាស់ ឡេង ស៊ីដែន | វិធីរើសអង្គធម៍ ម៉ោង១ |  |  |  | 1.December 24 2022 1932p.m.វិធីរើសអង្គធម៍ ម៉ោង១ ។  By មហាកច្ចាយនត្ថេរ.mp3 |  |  | done | done |  |  |  | Yes |
+| 2 | លោកម្ចាស់ ឡេង ស៊ីដែន | វិធីរើសអង្គធម៌ (ម៉ោងទី2) |  |  |  | 2.December 25 2022 1950p.m.វិធីរើសអង្គធម៌ (ម៉ោងទី2)  By មហាកច្ចាយនត្ថេរ.mp3 |  |  | done | done |  |  |  | Yes |
 
 ### Tab: 5-សិក្សាគាថាធម្មបទ
 
@@ -1690,8 +1675,8 @@ Sample (up to 3 rows):
 | សិក្សាគាថាធម្មបទ |  |  |  |  |  | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP3 | តំណរ ក្នង​ ពពក វិដេអូកាត់រួច MP4 | តំណរ ក្នង​ ពពក វីដេអូដើម |  |  |  |  |  |  |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ល.រ ក្នុង​ Acast | ឈ្មោះគ្រូ | ចំណងជើង មេរៀន | គោលធម៌ | លេខកូដមេរៀន | Embed link from Acast | https://drive.google.com/drive/folders/1yuly7j8vneLpZ_D1nz8FrczpZk2dZnHD?usp=drive_link |  | https://drive.google.com/drive/folders/157foj6JmSjlL3hJFRH170FKt5LGyv6r3?usp=drive_link | Soundwise | Acast |  |  |  | Ready ? |
-| 1 | លោកម្ចាស់ ឡេង ស៊ីដែន | សិក្សា គាថាធម្មបទ (ម៉ោង១) |  |  |  | https://drive.google.com/file/d/1n4eRm9sbdFuPpUbZI7dgy8JOoXT9mJzC/view?usp=drive_link |  |  | done | done |  |  |  | Yes |
-| 2 | លោកម្ចាស់ ឡេង ស៊ីដែន | សិក្សា គាថាធម្មបទ (ម៉ោង២) |  |  |  | https://drive.google.com/file/d/15xNS3mz7qETmYuig8-LDxC9Qlz5GTmCt/view?usp=drive_link |  |  | done | done |  |  |  | Yes |
+| 1 | លោកម្ចាស់ ឡេង ស៊ីដែន | សិក្សា គាថាធម្មបទ (ម៉ោង១) |  |  |  | 1.January 3 2023 2139p.m.សិក្សា គាថាធម្មបទ (ម៉ោង១)។  By មហាកច្ចាយនត្ថេរ.mp3 |  |  | done | done |  |  |  | Yes |
+| 2 | លោកម្ចាស់ ឡេង ស៊ីដែន | សិក្សា គាថាធម្មបទ (ម៉ោង២) |  |  |  | 2.January 4 2023 2137p.m.សិក្សា គាថាធម្មបទ (ម៉ោង២)។  By មហាកច្ចាយនត្ថេរ.mp3 |  |  | done | done |  |  |  | Yes |
 
 ### Tab: 6-បទរូបសិទ្ធិ
 
