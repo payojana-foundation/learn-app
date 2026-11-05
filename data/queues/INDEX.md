@@ -2,8 +2,8 @@
 
 | course id | teacher | title | lessons | queued |
 | --- | --- | --- | --- | --- |
-| c001 | (unmapped) | 1-បរិច្ឆេទ ទី ៨ (title missing) | 57 | 0 |
-| c002 | (unmapped) | 2-ព្រះវិន័យបិដក ភិក្ខុវិភង្គ «ន (title missing) | 97 | 0 |
+| c001 | peng-dina | 1-បរិច្ឆេទ ទី ៨ (title missing) | 57 | 57 |
+| c002 | peng-dina | 2-ព្រះវិន័យបិដក ភិក្ខុវិភង្គ «ន (title missing) | 97 | 0 |
 | c003 | (unmapped) | 1-ធម្មបទដ្ឋកថា (title missing) | 130 | 0 |
 | c004 | (unmapped) | 2-បទរូបសិទ្ធិ (title missing) | 80 | 0 |
 | c005 | (unmapped) | 3-ព្រះធម៌ ខ្លីៗ ឆ្នាំ ២០២៦ (title missing) | 9 | 0 |
@@ -26,65 +26,65 @@
 | c022 | yon-yi | វេស្សន្តរជាតក | 8 | 8 |
 | c023 | yon-yi | តេមិយជាតក | 4 | 4 |
 | c024 | yon-yi | មហោសថជាតក | 15 | 15 |
-| c025 | (unmapped) | 1-Dhamma in English( វគ្គ ១) (title missing) | 58 | 0 |
-| c026 | (unmapped) | 2-Dhamma in English(វគ្គ ២) (title missing) | 33 | 0 |
-| c027 | (unmapped) | 3-មេរៀនព្រះធម៌ជាភាសាអង់គ្លេស (title missing) | 22 | 0 |
-| c028 | (unmapped) | 4-សិក្សាព្រះធម៌ និងអក្សរសាស្ត្រ (title missing) | 18 | 0 |
-| c029 | (unmapped) | 5-សិក្សាព្រះធម៌ និងអក្សរសាស្ត្រ (title missing) | 17 | 0 |
-| c030 | (unmapped) | 6-អក្សរសាស្ត្រខ្មែរ កាត់ខ្លីៗ២០ (title missing) | 7 | 0 |
-| c031 | (unmapped) | 7-បិដកលេខ២២ (title missing) | 40 | 0 |
-| c032 | (unmapped) | ព្រះត្រៃបិដកបាលីភាគ១៦ | 23 | 0 |
-| c033 | (unmapped) | ព្រះត្រៃបិដកបាលីភាគ១៧ | 24 | 0 |
-| c034 | (unmapped) | ព្រះត្រៃបិដកបាលីភាគ១៨ | 11 | 0 |
-| c035 | (unmapped) | ព្រះត្រៃបិដកបាលីភាគ១៩ | 30 | 0 |
-| c036 | (unmapped) | ព្រះត្រៃបិដកបាលីភាគ២០ | 91 | 0 |
-| c037 | (unmapped) | 6-បិដកលេខ២១ (title missing) | 24 | 0 |
-| c038 | (unmapped) | 8-បិដកលេខ២៣ (title missing) | 40 | 0 |
-| c039 | (unmapped) | 1-ថ្នាក់សមថៈ វិបស្សនា​២០២២ (title missing) | 39 | 0 |
-| c040 | (unmapped) | 2-ថ្នាក់សមថកម្មដ្ឋាន(២០២៥) (title missing) | 10 | 0 |
-| c041 | (unmapped) | 3-វគ្គអន្តរជាតិ(វគ្គខ្លី) (title missing) | 21 | 0 |
-| c042 | (unmapped) | 4-វគ្គខ្លីលើកទី ១ នៅកែប (title missing) | 18 | 0 |
-| c043 | (unmapped) | 5-សមាធិ វគ្គខ្លី (title missing) | 176 | 0 |
-| c044 | (unmapped) | 1-វិនយបិដកេ មហាវគ្គបាឡិ  (title missing) | 67 | 0 |
-| c045 | (unmapped) | 2-បរិច្ឆេទទី ៨  (title missing) | 17 | 0 |
-| c046 | (unmapped) | 3-អង្គុត្តរនិកាយ «និរុត្តិ+សង្គ (title missing) | 175 | 0 |
-| c047 | (unmapped) | ០០​​​​​​​​​ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃបើកថ្នាក់ដំបូង | 102 | 0 |
-| c048 | (unmapped) | 3-បរិច្ឆេទទី​៣ (ឆ្នាំ ២០២៤) (title missing) | 70 | 0 |
-| c049 | (unmapped) | 4-បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ (ឆ (title missing) | 142 | 0 |
-| c050 | (unmapped) | 5-បរិច្ឆេទទី៥​ វិថីមុត្តសង្គហៈ  (title missing) | 155 | 0 |
-| c051 | (unmapped) | 6-បរិច្ឆេទទី៦ រូបបរមត្ថ (ឆ្នាំ  (title missing) | 91 | 0 |
-| c052 | (unmapped) | 7-បរិច្ឆេទទី១ ចិត្តសង្គហៈ (ឆ្នា (title missing) | 2 | 0 |
+| c025 | hak-sienghai | 1-Dhamma in English( វគ្គ ១) (title missing) | 58 | 58 |
+| c026 | hak-sienghai | 2-Dhamma in English(វគ្គ ២) (title missing) | 33 | 33 |
+| c027 | hak-sienghai | 3-មេរៀនព្រះធម៌ជាភាសាអង់គ្លេស (title missing) | 22 | 0 |
+| c028 | hak-sienghai | 4-សិក្សាព្រះធម៌ និងអក្សរសាស្ត្រ (title missing) | 18 | 0 |
+| c029 | hak-sienghai | 5-សិក្សាព្រះធម៌ និងអក្សរសាស្ត្រ (title missing) | 17 | 0 |
+| c030 | hak-sienghai | 6-អក្សរសាស្ត្រខ្មែរ កាត់ខ្លីៗ២០ (title missing) | 7 | 0 |
+| c031 | yon-yi | 7-បិដកលេខ២២ (title missing) | 40 | 40 |
+| c032 | yon-yi | ព្រះត្រៃបិដកបាលីភាគ១៦ | 23 | 23 |
+| c033 | yon-yi | ព្រះត្រៃបិដកបាលីភាគ១៧ | 24 | 24 |
+| c034 | yon-yi | ព្រះត្រៃបិដកបាលីភាគ១៨ | 11 | 11 |
+| c035 | yon-yi | ព្រះត្រៃបិដកបាលីភាគ១៩ | 30 | 30 |
+| c036 | yon-yi | ព្រះត្រៃបិដកបាលីភាគ២០ | 91 | 91 |
+| c037 | yon-yi | 6-បិដកលេខ២១ (title missing) | 24 | 24 |
+| c038 | yon-yi | 8-បិដកលេខ២៣ (title missing) | 40 | 11 |
+| c039 | him-bunthoeun | 1-ថ្នាក់សមថៈ វិបស្សនា​២០២២ (title missing) | 39 | 39 |
+| c040 | him-bunthoeun | 2-ថ្នាក់សមថកម្មដ្ឋាន(២០២៥) (title missing) | 10 | 10 |
+| c041 | him-bunthoeun | 3-វគ្គអន្តរជាតិ(វគ្គខ្លី) (title missing) | 21 | 21 |
+| c042 | him-bunthoeun | 4-វគ្គខ្លីលើកទី ១ នៅកែប (title missing) | 18 | 18 |
+| c043 | him-bunthoeun | 5-សមាធិ វគ្គខ្លី (title missing) | 176 | 166 |
+| c044 | phul-narin | 1-វិនយបិដកេ មហាវគ្គបាឡិ  (title missing) | 67 | 67 |
+| c045 | phul-narin | 2-បរិច្ឆេទទី ៨  (title missing) | 17 | 17 |
+| c046 | phul-narin | 3-អង្គុត្តរនិកាយ «និរុត្តិ+សង្គ (title missing) | 175 | 175 |
+| c047 | vinh-sovoeurng | ០០​​​​​​​​​ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃបើកថ្នាក់ដំបូង | 102 | 100 |
+| c048 | vinh-sovoeurng | 3-បរិច្ឆេទទី​៣ (ឆ្នាំ ២០២៤) (title missing) | 70 | 70 |
+| c049 | vinh-sovoeurng | 4-បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ (ឆ (title missing) | 142 | 142 |
+| c050 | vinh-sovoeurng | 5-បរិច្ឆេទទី៥​ វិថីមុត្តសង្គហៈ  (title missing) | 155 | 0 |
+| c051 | vinh-sovoeurng | 6-បរិច្ឆេទទី៦ រូបបរមត្ថ (ឆ្នាំ  (title missing) | 91 | 0 |
+| c052 | vinh-sovoeurng | 7-បរិច្ឆេទទី១ ចិត្តសង្គហៈ (ឆ្នា (title missing) | 2 | 0 |
 | c053 | (unmapped) | 1-បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភ (title missing) | 31 | 0 |
-| c054 | (unmapped) | 1-Buddhism in English for Begin (title missing) | 57 | 0 |
+| c054 | sok-theavy | 1-Buddhism in English for Begin (title missing) | 57 | 57 |
 | c055 | (unmapped) | ទុក្ខ (title missing) | 22 | 0 |
 | c056 | (unmapped) | មហាសតិប្បដ្នាន  (title missing) | 94 | 0 |
-| c057 | (unmapped) | 1-បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត (title missing) | 53 | 0 |
-| c058 | (unmapped) | 2-ញាណទស្សនៈ (២០២៦) (title missing) | 46 | 0 |
-| c059 | (unmapped) | 3-Simultanous class (title missing) | 42 | 0 |
-| c060 | (unmapped) | 4-បង្រៀនព្រះធម៌ ជាភាសាអង់គ្លេស​ (title missing) | 29 | 0 |
-| c061 | (unmapped) | 5-បកស្រាយ ព្រះធម៌តាម មលិន្ទបញ្ហ (title missing) | 35 | 0 |
-| c062 | (unmapped) | 6-ការបង្រៀនសមាធិ និង ចិត្តវិទ្យ (title missing) | 23 | 0 |
-| c063 | (unmapped) | 7-ធម៌អប់រំចិត្ត (title missing) | 11 | 0 |
-| c064 | (unmapped) | 8-Dhamma talk in English (title missing) | 9 | 0 |
-| c065 | (unmapped) | 1-សតិបដ្ឋាន (title missing) | 54 | 0 |
-| c066 | (unmapped) | សៀវភៅ pdf | 33 | 0 |
-| c067 | (unmapped) | 3-អង្គុត្តរនិកាយ  (title missing) | 31 | 0 |
-| c068 | (unmapped) | 1-Buddhism in English Level 1 b (title missing) | 22 | 0 |
-| c069 | (unmapped) | 2-Buddhism in English Level 2 b (title missing) | 27 | 0 |
-| c070 | (unmapped) | 3-Buddhism in English Level 3 b (title missing) | 30 | 0 |
-| c071 | (unmapped) | 4-Buddhism in English Level 3 b (title missing) | 23 | 0 |
-| c072 | (unmapped) | 1-បិដកលេខ ១៤ (title missing) | 24 | 0 |
-| c073 | (unmapped) | 2-បិដកលេខ ១៥ (title missing) | 26 | 0 |
-| c074 | (unmapped) | 3-រាត្រីធម្មទាន (title missing) | 463 | 0 |
-| c075 | (unmapped) | 4-នាទីធម្មចរិយា (title missing) | 76 | 0 |
-| c076 | (unmapped) | 5-អដ្ឋកថាជាតក (title missing) | 33 | 0 |
-| c077 | (unmapped) | 6-បច្ចេកពុទ្ធ (title missing) | 57 | 0 |
-| c078 | (unmapped) | 8-វចនានុក្រមព្រះពុទ្ធសាសានា (title missing) | 74 | 0 |
-| c079 | (unmapped) | 9-បុណ្យពិសាខបូជា (title missing) | 7 | 0 |
+| c057 | hun-khemara | 1-បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត (title missing) | 53 | 51 |
+| c058 | hun-khemara | 2-ញាណទស្សនៈ (២០២៦) (title missing) | 46 | 37 |
+| c059 | hun-khemara | 3-Simultanous class (title missing) | 42 | 0 |
+| c060 | hun-khemara | 4-បង្រៀនព្រះធម៌ ជាភាសាអង់គ្លេស​ (title missing) | 29 | 0 |
+| c061 | hun-khemara | 5-បកស្រាយ ព្រះធម៌តាម មលិន្ទបញ្ហ (title missing) | 35 | 0 |
+| c062 | hun-khemara | 6-ការបង្រៀនសមាធិ និង ចិត្តវិទ្យ (title missing) | 23 | 0 |
+| c063 | hun-khemara | 7-ធម៌អប់រំចិត្ត (title missing) | 11 | 0 |
+| c064 | hun-khemara | 8-Dhamma talk in English (title missing) | 9 | 0 |
+| c065 | tho-chantha | 1-សតិបដ្ឋាន (title missing) | 54 | 54 |
+| c066 | tho-chantha | សៀវភៅ pdf | 33 | 33 |
+| c067 | tho-chantha | 3-អង្គុត្តរនិកាយ  (title missing) | 31 | 31 |
+| c068 | sor-ratha | 1-Buddhism in English Level 1 b (title missing) | 22 | 22 |
+| c069 | sor-ratha | 2-Buddhism in English Level 2 b (title missing) | 27 | 27 |
+| c070 | sor-ratha | 3-Buddhism in English Level 3 b (title missing) | 30 | 30 |
+| c071 | sor-ratha | 4-Buddhism in English Level 3 b (title missing) | 23 | 12 |
+| c072 | sok-heng | 1-បិដកលេខ ១៤ (title missing) | 24 | 24 |
+| c073 | sok-heng | 2-បិដកលេខ ១៥ (title missing) | 26 | 26 |
+| c074 | sok-heng | 3-រាត្រីធម្មទាន (title missing) | 463 | 463 |
+| c075 | sok-heng | 4-នាទីធម្មចរិយា (title missing) | 76 | 76 |
+| c076 | sok-heng | 5-អដ្ឋកថាជាតក (title missing) | 33 | 33 |
+| c077 | sok-heng | 6-បច្ចេកពុទ្ធ (title missing) | 57 | 57 |
+| c078 | sok-heng | 8-វចនានុក្រមព្រះពុទ្ធសាសានា (title missing) | 74 | 72 |
+| c079 | sok-heng | 9-បុណ្យពិសាខបូជា (title missing) | 7 | 7 |
 | c080 | yon-yi | វេស្សន្តរជាតក | 15 | 5 |
-| c081 | (unmapped) | 1-ប្រែការកពិសេស (title missing) | 29 | 0 |
-| c082 | (unmapped) | 2- ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកក (title missing) | 43 | 0 |
-| c083 | (unmapped) | 3-បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី (title missing) | 9 | 0 |
-| c084 | (unmapped) | 4- វិធីរើសអង្គធម៌ (title missing) | 25 | 0 |
-| c085 | (unmapped) | 5-សិក្សាគាថាធម្មបទ (title missing) | 26 | 0 |
-| c086 | (unmapped) | 6-បទរូបសិទ្ធិ (title missing) | 19 | 0 |
+| c081 | leng-sideoun | 1-ប្រែការកពិសេស (title missing) | 29 | 29 |
+| c082 | leng-sideoun | 2- ប្រែគម្ពីរអង្គុត្តរនិកាយ ឯកក (title missing) | 43 | 43 |
+| c083 | leng-sideoun | 3-បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី (title missing) | 9 | 9 |
+| c084 | leng-sideoun | 4- វិធីរើសអង្គធម៌ (title missing) | 25 | 25 |
+| c085 | leng-sideoun | 5-សិក្សាគាថាធម្មបទ (title missing) | 26 | 26 |
+| c086 | leng-sideoun | 6-បទរូបសិទ្ធិ (title missing) | 19 | 19 |

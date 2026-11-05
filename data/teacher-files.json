@@ -1,6 +1,18 @@
 {
-  "_doc": "Decision 4 (4 Nov): map each teacher-sheet SOURCE FILE (Drive file id = the .xlsx basename in data/source/sheets/) to an existing teacher slug in data/source/teachers-2026-11-02/. The teacher is taken from this map, NOT from the sheet cell. A file with no entry here is UNMAPPED: catalogue-build lists it and hides its courses — slugs are NEVER guessed. Seeded only with the pilot file, whose slug (yon-yi) is already asserted in data/lesson-media-overrides.json; the coordinator fills the rest.",
+  "_doc": "Decision 4 (4 Nov): map each teacher-sheet SOURCE FILE (Drive file id = the .xlsx basename in data/source/sheets/) to an existing teacher slug in data/source/teachers-2026-11-02/. The teacher is taken from this map, NOT from the sheet cell. A file with no entry here is UNMAPPED: catalogue-build lists it and hides its courses — slugs are NEVER guessed. The 13 non-pilot entries were confirmed by the coordinator (5 Nov) by surname against the teacher data; 2 files (មុំ ចំរើន, ប៊ុត សាវង្ស) remain unmapped because no teacher record exists for them.",
   "files": {
-    "1B7NgdftwwJeMZEtKm4cpz-3_Lp8RCtv7": "yon-yi"
+    "1B7NgdftwwJeMZEtKm4cpz-3_Lp8RCtv7": "yon-yi",
+    "1HaE7GKpHucFT6Zz6b5KMgYD0vuUgn_6l": "yon-yi",
+    "14YD3nSNDeutnS3KHTOHEDy_Yh8l-FmG1": "peng-dina",
+    "1L_W4IVURBHCY901tMN1U49xrJvcBXRvB": "him-bunthoeun",
+    "1NTB-f3Tpd1PDMgr5WoYTSRbv8uy2vRl2": "phul-narin",
+    "1PK2kBcIqMN46a9OyvFX5CxWYxzA78URtBjGyua2Q-S4": "vinh-sovoeurng",
+    "1Vu-ajIcr4FY8V0u_gnSE9m8xdtRmhGiOK5cWLfmhJ-8": "sok-theavy",
+    "1uSuNVNJr-JylT1GqDY5GNRGF_Z_GhSjB1Ozlgv_WZMs": "hun-khemara",
+    "1uqCX1BNH-pw0WjfTCtDqhwt8ycWvR_Qj": "tho-chantha",
+    "1vr4zyRbvTVEhVJM3ahPtGIVnU2lMztee": "sor-ratha",
+    "1Cti9njtCOS___CMOwk7NR48x1_qu9zo9Rqxv_hdamZI": "hak-sienghai",
+    "1x8gSAqqV_Yr4gjwlEBVpx7k8TnLb2w03": "sok-heng",
+    "1zoBXNEV2e_XupLEjxsxVJHZadQBZ3cpZ": "leng-sideoun"
   }
 }
