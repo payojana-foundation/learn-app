@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
-import { initState, step, classify, gMax, TARGET_I, START_LIMIT, MIN_LIMIT, TH } from '../b3-decide.mjs';
+import { initState, step, classify, whichSide, gMax, TARGET_I, START_LIMIT, MIN_LIMIT, TH } from '../b3-decide.mjs';
 
 const here = dirname(fileURLToPath(import.meta.url));
 const ceil = (l) => 20 * Math.log10(l);
@@ -120,15 +120,55 @@ describe('loop decisions (fixed I/TP inputs)', () => {
     while (!s.done && guard++ < 10) s = step(s, -18.7, -2.0);
     expect(s.result).toBe('cap');
   });
+
+  it('P2.1: stops early when the next G would equal the current (G pinned at G_max)', () => {
+    // TP1 high so G starts pinned at G_max; a low I would want to raise G but can't.
+    let s = initState({ I1: -40, TP1: 2 }); // G0 = min(22, gMax(.6,2)) = gMax → pinned
+    const g0 = s.G;
+    expect(g0).toBeCloseTo(gMax(0.6, 2), 6);
+    s = step(s, -24.0, -4.0); // I way low (wants more G), TP fine
+    expect(s.done).toBe(true); // did NOT spend all 5 encodes
+    expect(s.encodes).toBe(1);
+    expect(s.reason).toMatch(/G pinned/);
+  });
+
+  it('P2.3: logged depth = TP1 + G − 20·log10(limit)', () => {
+    let s = initState({ I1: -24, TP1: -5 });
+    const g = s.G;
+    s = step(s, -18.0, -2.0); // converges (I on target, TP fine)
+    expect(s.done).toBe(true);
+    expect(s.depth).toBeCloseTo(-5 + g - ceil(0.6), 6);
+  });
+
+  it('P2.3: a failed result reports which side was wrong (TP hot / I loud / I quiet)', () => {
+    const tooHot = run({ I1: -18, TP1: 10, loss: 0, overshoot: 6 }); // TP always hot
+    expect(tooHot.result).toBe('failed');
+    expect(tooHot.wrong_side).toMatch(/too hot/);
+    expect(whichSide(-17.0, -2, -18)).toMatch(/too loud/);
+    expect(whichSide(-19.5, -2, -18)).toMatch(/too quiet/);
+  });
 });
 
-describe('exception route', () => {
-  it('accepts within accept_I ±0.5 (TP ok) → exception', () => {
+describe('exception route (P2.4)', () => {
+  it('target = accept_I; accepts within ±0.5 with TP ≤ -1.5 → exception', () => {
     let s = initState({ I1: -24, TP1: -9, exception: { accept_I: -19 } });
     let guard = 0;
     while (!s.done && guard++ < 10) s = step(s, -19.0, -2.0);
     expect(s.result).toBe('exception');
     expect(s.target).toBe(-19);
+  });
+  it('TP is STILL enforced on the exception route (hot TP → failed)', () => {
+    const s = run({ I1: -24, TP1: 10, exception: { accept_I: -19 }, loss: 0, overshoot: 6 });
+    expect(s.result).toBe('failed');
+  });
+  it('an exception does NOT impose the -18 target — it uses accept_I', () => {
+    // At -19 the normal classify would be "failed" (< -18.5 cap floor is -19.0),
+    // but the exception route accepts it as "exception".
+    let s = initState({ I1: -24, TP1: -9, exception: { accept_I: -19 } });
+    let guard = 0;
+    while (!s.done && guard++ < 10) s = step(s, -19.0, -2.0);
+    expect(classify(-19.0, -2.0, -18)).not.toBe('ok');
+    expect(s.result).toBe('exception');
   });
 });
 

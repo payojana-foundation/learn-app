@@ -87,4 +87,16 @@ describe('b3-loop.sh b3_mp3loop (stub ffmpeg)', () => {
     expect(src).not.toMatch(/acompressor/);
     expect(src.match(/googleapis\.com/g)?.length).toBe(1);
   });
+
+  it('P2.2: transcode-one exits on result=failed BEFORE the upload + manifest steps', () => {
+    const sh = readFileSync(resolve(here, '..', 'transcode-one.sh'), 'utf-8');
+    const failAt = sh.indexOf('FAILED stage=accept');
+    const uploadAt = sh.indexOf('rclone copyto --immutable');
+    const manifestAt = sh.indexOf('B4: manifest entry');
+    expect(failAt).toBeGreaterThan(-1);
+    expect(uploadAt).toBeGreaterThan(failAt); // the failed-exit precedes the upload
+    expect(manifestAt).toBeGreaterThan(uploadAt);
+    // and the failed branch exits (never falls through)
+    expect(sh).toMatch(/result" = "failed"[\s\S]*?exit 1/);
+  });
 });

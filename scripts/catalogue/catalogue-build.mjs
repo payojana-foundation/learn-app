@@ -38,6 +38,44 @@ import { parseTab, sheetToGrid, parseInventoryNames, outer, norm } from './sheet
 
 export const HIDDEN_TABS = ['7-មលិន្ទប្បញ្ហា'];
 const PILOT_FILE = '1B7NgdftwwJeMZEtKm4cpz-3_Lp8RCtv7';
+// Decision 5 (fix): files that are NOT teacher course sheets — excluded from
+// teacher mapping and from HIDDEN.md's unmapped list.
+export const NON_COURSE_FILES = new Set([
+  '18Bzta6div7LcLV276uGTnkyAl889VPbk', // លេខ Season … ក្នុង Acast.xlsx
+  '1KjWMiLWRJM2wqleHzNAH23sdYRRvUVX3', // E-Book.xlsx
+]);
+
+/** Khmer/ASCII digit string → integer sort value (-1 when not a clean number). */
+export function khmerToInt(s) {
+  const t = String(s ?? '').replace(/[\u200B-\u200D\uFEFF]/g, '').trim().replace(/[.)]+$/, '');
+  if (!/^[0-9\u17E0-\u17E9]+$/.test(t)) return -1;
+  let n = 0;
+  for (const ch of t) {
+    const c = ch.codePointAt(0);
+    const d = c >= 0x17e0 && c <= 0x17e9 ? c - 0x17e0 : c - 48;
+    n = n * 10 + d;
+  }
+  return n;
+}
+
+/** The course-code PREFIX of a lesson code: the leading letters + the course
+ * block, i.e. everything before the trailing lesson pair. ASUT017YY0003 → ASUT017YY. */
+export function codePrefix(code) {
+  const c = outer(code);
+  // strip a trailing 2–4 digit lesson suffix if present
+  const m = /^([A-Za-z].*?)(\d{2,4})$/.exec(c);
+  return m ? m[1] : c;
+}
+
+/** Decision 2 (fix): a row is a SECTION row (not a lesson) when its number is
+ * 0/០ or empty, OR its code equals the course prefix with no lesson suffix. */
+export function isSectionRow(lesson) {
+  const n = khmerToInt(lesson.number);
+  if (n <= 0) return true; // 0, ០, or non-numeric/empty
+  const code = outer(lesson.lesson_code);
+  if (code && code === codePrefix(code)) return true; // e.g. ASUT017YY with no -NN
+  return false;
+}
 
 /** Decision 5: pick ONE Drive id per lesson — cut MP3, then MP4, then MiniCourse
  * (never the uncut original). The pilot course keeps its MiniCourse id. */
@@ -56,21 +94,42 @@ export function lessonIdOf(lesson, sourceId) {
   return sourceId ? `d-${sourceId}` : null;
 }
 
-/** Decision 3: the course title is the section row ABOVE the first lesson row.
- * Return { title, missing }. `text` is the tab grid, `firstRow` is 1-based. */
-export function courseTitle(text, firstRow, tabName) {
-  for (let r = firstRow - 2; r >= 0; r--) {
-    const cells = (text[r] || []).map((c) => outer(c)).filter(Boolean);
-    // A section row is a single non-empty cell that is not a header label.
-    if (cells.length === 1 && !/ចំណងជើង|ឈ្មោះគ្រូ|លេខកូដ|MP3|MP4|Acast|drive|យូធូប/i.test(cells[0])) {
-      return { title: cells[0], missing: false };
-    }
+/** Decision 1/3 (fix): the course title is the TITLE-column (ចំណងជើង មេរៀន) cell
+ * of the section row just above the first lesson, byte-for-byte — NEVER the code
+ * cell. `cols` is parseTab's column map; `headerRow`/`firstRow` are 1-based.
+ * Empty → the tab name, flagged missing. */
+export function courseTitle(text, cols, headerRow, firstRow, tabName) {
+  for (let r = firstRow - 2; r >= headerRow; r--) {
+    const row = text[r] || [];
+    const titleCell = cols.title >= 0 ? outer(row[cols.title]) : '';
+    const numCell = khmerToInt(cols.number >= 0 ? row[cols.number] : '');
+    // the section row sits above the first lesson and has no lesson number
+    if (numCell <= 0 && titleCell) return { title: titleCell, missing: false };
   }
   return { title: tabName, missing: true };
 }
 
 const approvedIds = (manifest) => new Set((manifest || []).filter((e) => e && e.drive_file_id && /^approved\b/i.test(e.status || '')).map((e) => e.drive_file_id));
 const manifestIds = (manifest) => new Set((manifest || []).filter((e) => e && e.drive_file_id).map((e) => e.drive_file_id));
+
+/** Decision 6: match a sheet file to an EXISTING teacher by name, exact after a
+ * ZWSP/whitespace trim — the full teacher name_km or name_en must appear in the
+ * sheet's display name (minus .xlsx). Returns { slug, matchedOn } or null.
+ * Never invents a slug; a partial/ambiguous name does NOT match. */
+export function matchTeacher(fileName, teachers) {
+  const hay = norm(String(fileName || '').replace(/\.xlsx$/i, ''));
+  if (!hay) return null;
+  const hits = [];
+  for (const t of teachers) {
+    for (const [field, val] of [['name_km', t.name_km], ['name_en', t.name_en]]) {
+      const n = norm(val);
+      if (n && hay.includes(n)) hits.push({ slug: t.slug, matchedOn: `${field}:${val}` });
+    }
+  }
+  // Only a single, unambiguous teacher match is accepted.
+  const slugs = new Set(hits.map((h) => h.slug));
+  return slugs.size === 1 ? hits[0] : null;
+}
 
 /**
  * Pure core. Given parsed files + registries, produce the per-course plan.
@@ -79,7 +138,7 @@ const manifestIds = (manifest) => new Set((manifest || []).filter((e) => e && e.
  *   courseIds    = { "<file_id>\t<tab>": "c###" }  (mutated copy returned)
  * Returns { courses[], hidden[], unmappedFiles[], registry, nextFree }.
  */
-export function planCatalogue(files, { teacherFiles = {}, courseIds = {}, approved = new Set(), inManifest = new Set(), pilotIds = [] } = {}) {
+export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseIds = {}, approved = new Set(), inManifest = new Set() } = {}) {
   const registry = { ...courseIds };
   const used = new Set(Object.values(registry));
   let probe = 1;
@@ -91,65 +150,93 @@ export function planCatalogue(files, { teacherFiles = {}, courseIds = {}, approv
     }
   };
 
-  const courses = [];
   const hidden = []; // { course_id, teacher, title, lesson_id|null, num, reason }
   const unmappedFiles = [];
-  const pilotSet = new Set(pilotIds);
+  const matchedFiles = {}; // file_id → { slug, matchedOn } (decision 6)
 
+  // ── Phase 1: parse every course tab into candidate lessons. ─────────────────
+  const courses = [];
   for (const f of files) {
-    const slug = teacherFiles[f.file_id] || null;
+    if (NON_COURSE_FILES.has(f.file_id)) continue; // decision 5: skip non-courses
     const isPilotFile = f.file_id === PILOT_FILE;
+    // decision 6: teacher = the registry entry if present, else a name match.
+    let slug = teacherFiles[f.file_id] || null;
+    if (!slug) {
+      const m = matchTeacher(f.file_name, teachers);
+      if (m) { slug = m.slug; matchedFiles[f.file_id] = m; }
+    }
     if (!slug) unmappedFiles.push({ file_id: f.file_id, file_name: f.file_name });
 
     for (const t of f.tabs) {
       const key = `${f.file_id}\t${t.name}`;
       const tabHidden = HIDDEN_TABS.includes(t.name);
       const parsed = parseTab(t);
-      // A tab yields a course only if it has lessons and is not a hidden tab.
       if (parsed.status !== 'ok' || tabHidden) {
-        if (parsed.status === 'ok' || tabHidden) {
-          // A real but hidden tab (either 7-មលិន្ទ or a skipped-with-lessons tab).
-        }
         if (tabHidden || parsed.lessons.length) {
-          const cid = registry[key] || null;
-          hidden.push({ course_id: cid, teacher: slug, title: t.name, lesson_id: null, num: '', reason: tabHidden ? `hidden tab (${t.name})` : `skipped tab: ${parsed.reason}` });
+          hidden.push({ course_id: registry[key] || null, teacher: slug, title: t.name, lesson_id: null, num: '', reason: tabHidden ? `hidden tab (${t.name})` : `skipped tab: ${parsed.reason}` });
         }
         continue;
       }
-      // Assign / reuse the course id (decision 2).
       const cid = registry[key] || nextFreeId();
       registry[key] = cid;
-
-      const first = parsed.lessons[0];
-      const { title, missing } = courseTitle(t.text, first.row, t.name);
       const isPilotCourse = isPilotFile && norm(t.name).includes('វេស្សន្តរជាត');
+      // decision 2 (fix): a leading section row carries the course title; real
+      // lessons are the rows that are NOT section rows.
+      const firstLesson = parsed.lessons.find((l) => !isSectionRow(l)) || parsed.lessons[0];
+      const { title, missing } = courseTitle(t.text, parsed.cols, parsed.headerRow, firstLesson.row, t.name);
 
-      const seenSrc = new Set();
-      const visible = [];   // shown in the app now (an approved manifest entry)
-      const queueable = []; // has a usable source, de-duped, teacher mapped — may
-                            // or may not be approved yet (the queue needs these)
+      const cand = [];
       for (const l of parsed.lessons) {
+        if (isSectionRow(l)) { // decision 2: not a lesson
+          if (outer(l.lesson_code) || l.mp3[0] || l.mp4[0] || l.minicourse[0]) {
+            hidden.push({ course_id: cid, teacher: slug, title, num: l.number, lesson_id: null, reason: `section row (num ${l.number || '∅'}${outer(l.lesson_code) ? ', code ' + outer(l.lesson_code) : ''})` });
+          }
+          continue;
+        }
         const { id: sourceId, from } = pickSource(l, { pilot: isPilotCourse });
-        const lid = lessonIdOf(l, sourceId);
-        const base = { course_id: cid, teacher: slug, title, num: l.number, lesson_code: outer(l.lesson_code), lesson_id: lid, source_id: sourceId, source_from: from };
-        if (!slug) { hidden.push({ ...base, reason: 'teacher file not mapped' }); continue; }
-        if (!sourceId) { hidden.push({ ...base, reason: 'no source (no cut MP3 / MP4 / MiniCourse id)' }); continue; }
-        if (seenSrc.has(sourceId)) { hidden.push({ ...base, reason: `duplicate source id ${sourceId} (first kept)` }); continue; }
-        seenSrc.add(sourceId);
-        queueable.push(base);
-        // Decision 6: a lesson with no approved manifest entry stays hidden as
-        // now. It is still QUEUEABLE (so it can be transcoded + approved).
-        if (approved.has(sourceId)) visible.push({ ...base, playable: true });
-        else hidden.push({ ...base, reason: 'no approved manifest entry yet (hidden until approved)' });
+        cand.push({ course_id: cid, teacher: slug, title, num: l.number, num_sort: khmerToInt(l.number), lesson_code: outer(l.lesson_code), lesson_id: lessonIdOf(l, sourceId), source_id: sourceId, source_from: from });
       }
-      courses.push({
-        course_id: cid, file_id: f.file_id, file_name: f.file_name, tab: t.name, teacher: slug,
-        title, title_missing: missing, pilot: isPilotCourse,
-        lessons: parsed.lessons.length, visible, queueable, hidden_count: parsed.lessons.length - visible.length,
-      });
+      courses.push({ course_id: cid, file_id: f.file_id, file_name: f.file_name, tab: t.name, teacher: slug, title, title_missing: missing, pilot: isPilotCourse, candidates: cand });
     }
   }
-  return { courses, hidden, unmappedFiles, registry, nextFree: probe };
+
+  // ── Phase 2: GLOBAL duplicate checks BEFORE the teacher check (decision 3).
+  // Keep the first row of each duplicate code / source id (across ALL courses);
+  // hide the later rows with a reason. Order = course order, then sheet row.
+  const all = courses.flatMap((c) => c.candidates);
+  const seenCode = new Set();
+  const seenSrc = new Set();
+  for (const c of courses) {
+    const visible = [];
+    const queueable = [];
+    for (const l of c.candidates) {
+      if (!l.source_id) { hidden.push({ ...l, reason: 'no source (no cut MP3 / MP4 / MiniCourse id)' }); continue; }
+      if (l.lesson_code && seenCode.has(l.lesson_code)) { hidden.push({ ...l, reason: `duplicate lesson code ${l.lesson_code} (first kept)` }); continue; }
+      if (seenSrc.has(l.source_id)) { hidden.push({ ...l, reason: `duplicate source id ${l.source_id} (first kept, may be another course)` }); continue; }
+      if (l.lesson_code) seenCode.add(l.lesson_code);
+      seenSrc.add(l.source_id);
+      // teacher check AFTER the dup checks (decision 3)
+      if (!l.teacher) { hidden.push({ ...l, reason: 'teacher file not mapped' }); continue; }
+      queueable.push(l);
+      if (approved.has(l.source_id)) visible.push({ ...l, playable: true });
+      else hidden.push({ ...l, reason: 'no approved manifest entry yet (hidden until approved)' });
+    }
+    c.visible = visible;
+    c.queueable = queueable;
+    c.lessons = c.candidates.length;
+    c.hidden_count = c.candidates.length - visible.length;
+    delete c.candidates;
+  }
+
+  // Build-fail guard (decision 3): no two VISIBLE lessons may share a lesson id.
+  const idSeen = new Map();
+  const idCollisions = [];
+  for (const c of courses) for (const l of c.visible) {
+    if (idSeen.has(l.lesson_id)) idCollisions.push({ id: l.lesson_id, a: idSeen.get(l.lesson_id), b: `${c.course_id} row ${l.num}` });
+    else idSeen.set(l.lesson_id, `${c.course_id} row ${l.num}`);
+  }
+
+  return { courses, hidden, unmappedFiles, matchedFiles, registry, nextFree: probe, idCollisions, total: all.length };
 }
 
 /** Decision 1: alias map for the pilot — provisional c080-l0NN → the new lesson
@@ -196,14 +283,20 @@ async function main() {
     files.push({ file_id: id, file_name: names.get(id) ?? '', tabs: wb.SheetNames.map((n) => ({ name: n, ...sheetToGrid(XLSX, wb.Sheets[n]) })) });
   }
 
-  const teacherFiles = (readJson(join(root, 'data', 'teacher-files.json'), { files: {} })).files || {};
+  const tfJson = readJson(join(root, 'data', 'teacher-files.json'), { files: {} });
+  const teacherFiles = tfJson.files || {};
   const courseIds = (readJson(join(root, 'data', 'course-ids.json'), { courses: {} })).courses || {};
   const manifest = readJson(join(root, 'data', 'media-manifest.json'), []);
-  const pilotIds = existsSync(join(root, 'data', 'audio-queue.pilot.csv'))
-    ? readFileSync(join(root, 'data', 'audio-queue.pilot.csv'), 'utf-8').split(/\r?\n/).map((l) => l.split(',')[0].trim()).filter((l) => l && l !== 'drive_file_id')
-    : [];
+  const teachers = readJson(join(root, 'data', 'source', 'teachers-2026-11-02', 'teachers-2026-11-02.json'), []);
 
-  const plan = planCatalogue(files, { teacherFiles, courseIds, approved: approvedIds(manifest), inManifest: manifestIds(manifest), pilotIds });
+  const plan = planCatalogue(files, { teacherFiles, teachers, courseIds, approved: approvedIds(manifest), inManifest: manifestIds(manifest) });
+
+  // Decision 3: a duplicate VISIBLE lesson id is a build failure.
+  if (plan.idCollisions.length) {
+    for (const c of plan.idCollisions) console.error(`::error::duplicate visible lesson id ${c.id}: ${c.a} vs ${c.b}`);
+    console.error(`BUILD FAILED — ${plan.idCollisions.length} duplicate visible lesson id(s).`);
+    process.exit(1);
+  }
 
   // Decision 1: pilot aliases — provisional c080-l0NN → AJAD lesson id.
   const pilot = plan.courses.find((c) => c.pilot);
@@ -220,6 +313,11 @@ async function main() {
     // Decision 2: persist any newly-assigned course ids (never renumber).
     writeFileSync(join(root, 'data', 'course-ids.json'), JSON.stringify({ _doc: (readJson(join(root, 'data', 'course-ids.json'), {})._doc) || '', courses: plan.registry }, null, 2) + '\n', 'utf-8');
     writeFileSync(join(root, 'data', 'id-aliases.json'), JSON.stringify(aliases, null, 2) + '\n', 'utf-8');
+    // Decision 6: persist name-matched teacher files (merged; never overwrite a
+    // hand-set slug). A slug is only ever an existing teacher's.
+    const mergedFiles = { ...teacherFiles };
+    for (const [fid, m] of Object.entries(plan.matchedFiles)) if (!mergedFiles[fid]) mergedFiles[fid] = m.slug;
+    writeFileSync(join(root, 'data', 'teacher-files.json'), JSON.stringify({ _doc: tfJson._doc || '', files: mergedFiles }, null, 2) + '\n', 'utf-8');
 
     // Decision 7: queues + INDEX.
     const qdir = join(root, 'data', 'queues');
@@ -244,9 +342,15 @@ async function main() {
   H.push('## By reason');
   H.push('');
   for (const [reason, n] of Object.entries(byReason).sort((a, b) => b[1] - a[1])) H.push(`- ${reason}: ${n}`);
+  const matchedEntries = Object.entries(plan.matchedFiles);
+  if (matchedEntries.length) {
+    H.push('', '## Teacher files matched by name (decision 6)', '');
+    for (const [fid, m] of matchedEntries) H.push(`- \`${fid}\` → ${m.slug}  (${String(m.matchedOn).replace(/\|/g, '\\|')})`);
+  }
   if (plan.unmappedFiles.length) {
-    H.push('', '## Unmapped teacher files (add to data/teacher-files.json — do not guess)', '');
-    for (const u of plan.unmappedFiles) H.push(`- \`${u.file_id}\`  ${String(u.file_name).replace(/\|/g, '\\|')}`);
+    H.push('', '## Unmatched teacher files (add to data/teacher-files.json — never guess a slug)', '',
+      'The sheet name did not contain an existing teacher name exactly. Names found on disk:', '');
+    for (const u of plan.unmappedFiles) H.push(`- \`${u.file_id}\`  «${String(u.file_name).replace(/\|/g, '\\|')}»`);
   }
   H.push('', '## Hidden lessons', '', '| course id | teacher | title | num | lesson id | reason |', '| --- | --- | --- | --- | --- | --- |');
   for (const h of plan.hidden) H.push(`| ${h.course_id || '—'} | ${h.teacher || '(unmapped)'} | ${String(h.title).replace(/\|/g, '\\|')} | ${h.num || ''} | ${h.lesson_id || '—'} | ${String(h.reason).replace(/\|/g, '\\|')} |`);
@@ -257,6 +361,7 @@ async function main() {
   const eligible = plan.courses.reduce((n, c) => n + (c.queueable || []).length, 0);
   const visibleNow = plan.courses.reduce((n, c) => n + c.visible.length, 0);
   console.log(`courses ${plan.courses.length} · lessons eligible ${eligible} · visible now ${visibleNow} · hidden ${plan.hidden.length} · queued ${totalQueued}`);
+  console.log(`teacher files matched ${Object.keys(plan.matchedFiles).length} · unmatched ${plan.unmappedFiles.length}`);
   console.log(`pilot ${pilot ? (pilot.queueable || []).length + ' lessons, aliases c080-l001→' + ((pilot.queueable || [])[0]?.lesson_id) + ' … ' + ((pilot.queueable || []).slice(-1)[0]?.lesson_id) : 'NOT FOUND'}`);
   for (const [reason, n] of Object.entries(byReason)) console.log(`  hidden: ${reason} = ${n}`);
 }

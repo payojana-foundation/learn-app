@@ -60,12 +60,25 @@ export function classify(I, TP, target = TARGET_I) {
   return 'failed';
 }
 
+/** Which side of the ok band the finished I/TP missed (for the log/report). */
+export function whichSide(I, TP, target = TARGET_I) {
+  const i = Number(I);
+  const tp = Number(TP);
+  const parts = [];
+  if (!(tp <= TH.tpMax + EPS)) parts.push(`TP ${tp} > ${TH.tpMax} (too hot)`);
+  if (i > target + TH.okBand + EPS) parts.push(`I ${i} too loud (> ${target + TH.okBand})`);
+  else if (i < target - TH.okBand - EPS) parts.push(`I ${i} too quiet (< ${target - TH.okBand})`);
+  return parts.join('; ');
+}
+
 function finish(s, reason) {
   const result = s.exception
     ? (Math.abs(Number(s.I_mp3) - s.target) <= TH.okBand + EPS && Number(s.TP_mp3) <= TH.tpMax + EPS ? 'exception' : 'failed')
     : classify(s.I_mp3, s.TP_mp3, s.target);
-  const depth = Number.isFinite(s.TP_mp3) ? Number(s.TP_mp3) - ceilDb(s.limit) : null;
-  return { ...s, done: true, result, depth, reason };
+  // depth = TP1 + G − 20·log10(limit)  (pre-limiter depth, P2.3), NOT from TP_mp3.
+  const depth = Number.isFinite(s.TP1) && Number.isFinite(s.G) ? Number(s.TP1) + Number(s.G) - ceilDb(s.limit) : null;
+  const side = result === 'failed' ? whichSide(s.I_mp3, s.TP_mp3, s.target) : '';
+  return { ...s, done: true, result, depth, wrong_side: side || null, reason: side ? `${reason} — ${side}` : reason };
 }
 
 /** Build the start state from the pass-1 null measurement (I1, TP1). */
@@ -113,7 +126,11 @@ export function step(state, I_mp3, TP_mp3) {
   }
   // b. loudness off → move G toward the target, capped at G_max.
   if (Math.abs(s.target - i) > TH.aim + EPS) {
-    s.G = Math.min(s.G + (s.target - i), gMax(s.limit, s.TP1));
+    const nextG = Math.min(s.G + (s.target - i), gMax(s.limit, s.TP1));
+    // P2.1: if the next G and limit equal the current ones, another encode would
+    // reproduce this mp3 — stop and judge on it (e.g. G is pinned at G_max).
+    if (round(nextG) === round(s.G)) return finish(s, `G pinned at ${round(s.G)} (G_max), limit ${s.limit} — no further change`);
+    s.G = nextG;
     s.reason = `|${s.target} − I ${i.toFixed(2)}| > 0.2 → G=${round(s.G)} (limit ${s.limit})`;
     return s;
   }
