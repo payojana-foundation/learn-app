@@ -26,7 +26,9 @@
       "loops": 2,
       "result": "cap"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "coordinator",
+    "reviewed_at": "2026-11-05"
   },
   {
     "lesson_code": null,
@@ -55,7 +57,9 @@
       "loops": 3,
       "result": "cap"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "coordinator",
+    "reviewed_at": "2026-11-05"
   },
   {
     "lesson_code": null,
@@ -84,7 +88,9 @@
       "loops": 3,
       "result": "cap"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "coordinator",
+    "reviewed_at": "2026-11-05"
   },
   {
     "lesson_code": null,
@@ -113,7 +119,9 @@
       "loops": 1,
       "result": "cap"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "coordinator",
+    "reviewed_at": "2026-11-05"
   },
   {
     "lesson_code": null,
@@ -142,7 +150,9 @@
       "loops": 2,
       "result": "ok"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "coordinator",
+    "reviewed_at": "2026-11-05"
   },
   {
     "lesson_code": null,
@@ -171,7 +181,9 @@
       "loops": 1,
       "result": "cap"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "coordinator",
+    "reviewed_at": "2026-11-05"
   },
   {
     "lesson_code": null,
@@ -200,7 +212,9 @@
       "loops": 3,
       "result": "cap"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "coordinator",
+    "reviewed_at": "2026-11-05"
   },
   {
     "lesson_code": null,
@@ -229,7 +243,9 @@
       "loops": 2,
       "result": "cap"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "coordinator",
+    "reviewed_at": "2026-11-05"
   },
   {
     "lesson_code": null,
@@ -258,7 +274,9 @@
       "loops": 1,
       "result": "ok"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "coordinator",
+    "reviewed_at": "2026-11-05"
   },
   {
     "lesson_code": null,
@@ -287,6 +305,8 @@
       "loops": 1,
       "result": "ok"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "coordinator",
+    "reviewed_at": "2026-11-05"
   }
 ]
