@@ -19,8 +19,9 @@ MAX=3
 
 attempt=1
 while [ "$attempt" -le "$MAX" ]; do
-  echo "push attempt ${attempt}/${MAX}: git pull --rebase ${REMOTE} ${BRANCH}"
-  if git pull --rebase "$REMOTE" "$BRANCH"; then
+  echo "push attempt ${attempt}/${MAX}: git pull --rebase --autostash ${REMOTE} ${BRANCH}"
+  # --autostash: a dirty tree (e.g. the workflow's `chmod +x`) must not block the rebase.
+  if git pull --rebase --autostash "$REMOTE" "$BRANCH"; then
     if git push "$REMOTE" "HEAD:${BRANCH}"; then
       echo "pushed to ${REMOTE}/${BRANCH} on attempt ${attempt}"
       exit 0

@@ -75,6 +75,21 @@ describe('push-with-retry.sh', () => {
     expect(log).toEqual(expect.arrayContaining(['mine', 'other', 'base']));
   });
 
+  run('an unstaged tracked-file change (e.g. chmod +x) does not block the push', () => {
+    setup();
+    expect(sh('echo other > other.txt && git add other.txt && git commit -q -m other && git push -q origin HEAD:main', join(dir, 'b')).status).toBe(0);
+    expect(sh('echo mine > mine.txt && git add mine.txt && git commit -q -m mine', join(dir, 'a')).status).toBe(0);
+    // dirty tree, like the workflow's `chmod +x` on a 100644 file
+    expect(sh('echo dirty >> f.txt', join(dir, 'a')).status).toBe(0);
+
+    const r = sh(`bash "${script}" origin main`, join(dir, 'a'));
+    expect(r.status).toBe(0);
+    expect(r.out).toMatch(/pushed to origin\/main/);
+    expect(readFileSync(join(dir, 'a', 'f.txt'), 'utf-8')).toMatch(/dirty/); // edit preserved
+    const log = sh('git --git-dir=origin.git log --format=%s main').out.trim().split(/\r?\n/);
+    expect(log).toContain('mine');
+  });
+
   run('a remote that keeps rejecting → non-zero exit after 3 attempts, loud error', () => {
     setup();
     writeFileSync(join(dir, 'origin.git', 'hooks', 'pre-receive'), '#!/bin/sh\necho "rejected by hook" >&2\nexit 1\n', { mode: 0o755 });
