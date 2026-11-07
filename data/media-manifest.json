@@ -308,5 +308,2499 @@
     "status": "approved",
     "reviewer": "coordinator",
     "reviewed_at": "2026-11-05"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-Gv4zocWJisvqp7CXDCpo02QYvjogJ8J",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៣៧ មោហៈការមិនដឹងក្នុងនិរោធ និងមគ្គ.mp3",
+    "source_md5": "262b7670f5b98b4bac1da1e3ae095e1b",
+    "key": "audio/262b7670f5b98b4b-a64.mp3",
+    "bytes": 42805123,
+    "duration_s": 5350,
+    "sha256": "8d547419da8fb5b89dd17ef6826ca77cb1da3133539d3aef5a4d0697bb60cc0d",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 6.700650394348298,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1083-4b0ipdG6jluC-S3lEOwynAapYlbb",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៧១ ប្រយោគរបស់បាណាតិបាតមាន ៦ យ៉ាង.mp3",
+    "source_md5": "3b07603b176dca4b31bbcdb525c0635b",
+    "key": "audio/3b07603b176dca4b-a64.mp3",
+    "bytes": 46343566,
+    "duration_s": 5792,
+    "sha256": "d55fc24c4eab6e3cabb613780fd93339908f7f3cf2f6fc6cd6d76a0bd1d0f459",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 5.5,
+      "limit": 0.6,
+      "depth": 9.836974992327129,
+      "busy": 5.400792349255123,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10Em6TJpG1eKStqiyL3DYMk4BwP4EdwAW",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ២១ វិធីសង្កេតលោភមូលចិត្ត.mp3",
+    "source_md5": "dcbcd5249fed9392e6afcd99024a6469",
+    "key": "audio/dcbcd5249fed9392-a64.mp3",
+    "bytes": 44495977,
+    "duration_s": 5561,
+    "sha256": "70fc003b9de8ce1fd45bd3024387811df459c6f9b3d2f6b9ad53d6b4ea417b08",
+    "loudness": {
+      "pass1": {
+        "I": -26.3,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 5.921709112811154,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10c3NHjEHuEwD05Hg93hV9ItrjXYejhWA",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៤១ ពន្យល់ពាក្យថា ព្រះពុទ្ធ.mp3",
+    "source_md5": "8b527d939c3849a06f0a6c16df191862",
+    "key": "audio/8b527d939c3849a0-a64.mp3",
+    "bytes": 41984878,
+    "duration_s": 5248,
+    "sha256": "b0c2b9b1afc555b1e631508eb72ac6f424499475540991714a2d4bc449c262de",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 10.899999999999999,
+      "limit": 0.6,
+      "depth": 11.536974992327126,
+      "busy": 6.481869629008593,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11j_Wo-WLKEjfhoaYCdQ8Mld-nNGgMBuu",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៥៣ បត្តបិណ្ឌក ខលុបច្ឆាភត្តិ អារញ្ញិកង្គធុតង្គ.mp3",
+    "source_md5": "a3cec089fad2cdea8cfde4d87e36c58d",
+    "key": "audio/a3cec089fad2cdea-a64.mp3",
+    "bytes": 44419073,
+    "duration_s": 5552,
+    "sha256": "ea44a3054664e815546a522da6627ee3c42dfceb7774571d9af6b5536d86c923",
+    "loudness": {
+      "pass1": {
+        "I": -25.1,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 8.663025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.215359262294344,
+      "out": {
+        "I": -18.6,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12TgMs5WbqK6lW8x3UXHsUBr3D4mmeXDw",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ២៩ មេត្តសូត្រ សម្តែងរឿងភិក្ខុចម្រើនមេត្តា.mp3",
+    "source_md5": "ad100ca41134b61e884dc1560b10f0a4",
+    "key": "audio/ad100ca41134b61e-a64.mp3",
+    "bytes": 49891203,
+    "duration_s": 6236,
+    "sha256": "223396615c3726f58e6964a7468314b9fe2a927c0a37f992ac6da7223ecbd0c7",
+    "loudness": {
+      "pass1": {
+        "I": -27.4,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "G": 10.899999999999999,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 6.105334049564249,
+      "out": {
+        "I": -18.1,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13W5inc4PaG83wdb0EH3_9hUfkJtdiTSb",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១០ ពាក្យថា អកុសលចិត្ត.mp3",
+    "source_md5": "34c9ae5f8ea67ff1896d62959b664c2b",
+    "key": "audio/34c9ae5f8ea67ff1-a64.mp3",
+    "bytes": 27606874,
+    "duration_s": 3450,
+    "sha256": "2b0528d2a589c79b048d6b4da3b34d8d69fa60eb66b6e01d44985369bdbc8700",
+    "loudness": {
+      "pass1": {
+        "I": -26.3,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.700000000000003,
+      "limit": 0.6,
+      "depth": 11.83697499232713,
+      "busy": 6.544039874233884,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13dKgEey4D8xrPahnZXIaU155AHNwbTOz",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៨ ហេតុនាំឱ្យកើតទិដ្ឋិគតសម្បយុត្តចិត្ត.mp3",
+    "source_md5": "61f55e55025508dc106cf6d0c402cf81",
+    "key": "audio/61f55e55025508dc-a64.mp3",
+    "bytes": 46110972,
+    "duration_s": 5763,
+    "sha256": "3182ac56b911bd7bd30f0a34bd14eadb6bd60786d5e3b4947f8234327300f96c",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 9.899999999999999,
+      "limit": 0.6,
+      "depth": 11.036974992327126,
+      "busy": 5.621893352533463,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13seBpU-2JqV7-WDO2Z3XPjM475Ooqqpr",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៨១ មុសាវាទ ការពោលពាក្យកុហក អនអរិយវោហារ៨.mp3",
+    "source_md5": "952ef866566b8b1123faa0b487539590",
+    "key": "audio/952ef866566b8b11-a64.mp3",
+    "bytes": 42393225,
+    "duration_s": 5299,
+    "sha256": "62ba445fb9fe678ccebd6c73c192cf63231f2de5a64a9b1bd77a68fda1f8fd13",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 5.699999999999999,
+      "limit": 0.6,
+      "depth": 9.736974992327127,
+      "busy": 4.649610311184918,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14Gc-FEZrir0ZQpEjkP0U0guZs12RQEYe",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ២២ ចែកលោភមូលចិត្តដោហេតុដល់កិច្ច.mp3",
+    "source_md5": "8ed4ed57642abef9d9e7bbe8fde25a1e",
+    "key": "audio/8ed4ed57642abef9-a64.mp3",
+    "bytes": 44765979,
+    "duration_s": 5595,
+    "sha256": "9211cba059418dcadfedda74a55b1f9faf4810f402448fe459e235534ef7ab5f",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.400000000000002,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 6.390397984166413,
+      "out": {
+        "I": -18.1,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14LTRJO3uL0wZ-7PtXbW3wO-l2BHH-QJw",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ២៨ ផ្សាយមេត្តាទៅកាន់បុគ្គលផ្សេងតាមលំដាប់.mp3",
+    "source_md5": "8a17ec014d2d0bdd85cd739c1bc307aa",
+    "key": "audio/8a17ec014d2d0bdd-a64.mp3",
+    "bytes": 46019229,
+    "duration_s": 5752,
+    "sha256": "e063074bae68af6cc93199aca30d2818e9ca622887bcb74aa5b3ecf87e2e9e4f",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 5.050327257555607,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14mfCxfO5zyoT4PQfJFrCgnFXjEQhabgg",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ០៧ វេវចនៈរបស់ចិត្តមាន១០ យ៉ាង.mp3",
+    "source_md5": "d42de93c81f655e4c9d554049a49dd06",
+    "key": "audio/d42de93c81f655e4-a64.mp3",
+    "bytes": 47800154,
+    "duration_s": 5974,
+    "sha256": "e074c45def1d55113909cc8ace175e1752b3201c77ae3d87069b0bdd22ae6ccd",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "G": 11.100000000000001,
+      "limit": 0.6,
+      "depth": 11.43697499232713,
+      "busy": 7.322803347280335,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15lIMt4kldNW0pGwFd4psPhqWSiryiO4L",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៧៣ បាណាតិបាត អាណត្តិកប្រយោគមាន ៦ យ៉ាង.mp3",
+    "source_md5": "8b581166f7a96cc73dbca11a515ef3d9",
+    "key": "audio/8b581166f7a96cc7-a64.mp3",
+    "bytes": 41110090,
+    "duration_s": 5138,
+    "sha256": "4742b26789d0ffdbde19b9a7807277734f153d95ff6f20be04f3c3d4c0a2e66c",
+    "loudness": {
+      "pass1": {
+        "I": -26.3,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.600000000000001,
+      "limit": 0.6,
+      "depth": 11.736974992327129,
+      "busy": 5.323522257358307,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "167WgJLqd5rRd7KjdT95StrIaznxJ_eo6",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៤៩ អនុត្តរោ ទ្រង់ប្រសើរលើសដោយសីលាទិគុណជាដើម.mp3",
+    "source_md5": "820d7005b9a119393491c275a06c976d",
+    "key": "audio/820d7005b9a11939-a64.mp3",
+    "bytes": 41693352,
+    "duration_s": 5211,
+    "sha256": "2f0aaf0b573246504e65e6ab1efa3ad6f69d1a6dfde14d8d2f85de47f1adcc81",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 7.663025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.752017115500849,
+      "out": {
+        "I": -18.5,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16_EXAtLdeXdYcdBfYbiiyO-TVHiFZrGS",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៦៤ បាដិបុគ្គលិកទាន ១៤ យ៉ាង និងវេលាមសូត្រ.mp3",
+    "source_md5": "932d67fb974a52b7821b9672bc6a9517",
+    "key": "audio/932d67fb974a52b7-a64.mp3",
+    "bytes": 46243047,
+    "duration_s": 5780,
+    "sha256": "0e7ef70c8555265c0ba6d3836c159ee9db93de3689fa98223198c872c3eb418f",
+    "loudness": {
+      "pass1": {
+        "I": -24.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.694136168225107,
+      "out": {
+        "I": -19,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16atu2i12HgtJbTrd9QhqO8-M435Wyu5O",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៦៣ សង្ឃគុណ ​អាហុណេយ្យោ ដល់បុញ្ញេក្ខេត្តំ លោកស្ស.mp3",
+    "source_md5": "ba77f3b655cb071bf6b17fb1449873cc",
+    "key": "audio/ba77f3b655cb071b-a64.mp3",
+    "bytes": 42902926,
+    "duration_s": 5362,
+    "sha256": "5bdac6ba53fd0f1d904daf9fde344435ca76778f1ff88058899b9a70b7120233",
+    "loudness": {
+      "pass1": {
+        "I": -24.5,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "G": 8.7,
+      "limit": 0.6,
+      "depth": 10.836974992327127,
+      "busy": 6.187708028380432,
+      "out": {
+        "I": -18.1,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16eQezZ71CEcXY9oVd5cRXfJYD_0_kBE0",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៦៩ សំណួរចម្លើយរម្លឹកអកុសលចិត្ត ១២ ដួង.mp3",
+    "source_md5": "b3efd711451c92573c293776fcc71c26",
+    "key": "audio/b3efd711451c9257-a64.mp3",
+    "bytes": 43590051,
+    "duration_s": 5448,
+    "sha256": "6529d9b31968008fe20068876fa5e217e0efa433a8b4b03a16ed9fa42dec7074",
+    "loudness": {
+      "pass1": {
+        "I": -26.9,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.2,
+      "limit": 0.6,
+      "depth": 11.836974992327127,
+      "busy": 5.301952759373796,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16jGWAu8k-iOuzSZDIJWzdln1xotuVb7D",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៦៦ ការដល់ព្រះត្រៃសរណគមនមាន ៤.mp3",
+    "source_md5": "338723677992de9a985df241b8b53132",
+    "key": "audio/338723677992de9a-a64.mp3",
+    "bytes": 43243145,
+    "duration_s": 5405,
+    "sha256": "5b876181440d0930f6a4f27e1a92469b09dbcabab2ac185a78b774d42ee79486",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 6.100000000000001,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 5.852766240853969,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17PfcPvxMv52g9C9n6ogNJvMJNT8vY4TD",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៦០ ធម្មគុណ​ព្រះអង្គសម្តែងព្រះត្រៃមានន័យផ្សេងគ្នា.mp3",
+    "source_md5": "ee01c9e632bbb1849c81b939c7a6321c",
+    "key": "audio/ee01c9e632bbb184-a64.mp3",
+    "bytes": 41504643,
+    "duration_s": 5188,
+    "sha256": "6f3dfdb8fddff71c1d2cade837c9b2be528b2a12337f35a1126f40addf78d96f",
+    "loudness": {
+      "pass1": {
+        "I": -28.4,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 12.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.740837116064803,
+      "out": {
+        "I": -18.4,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17XgRkT6Hy7oNQOyF_Pkwa_FucJcHW4XK",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ២៤ និយមន័យទោសមូលចិត្ត.mp3",
+    "source_md5": "d515e6c433100af04d5f02f9a3ac02a9",
+    "key": "audio/d515e6c433100af0-a64.mp3",
+    "bytes": 30138870,
+    "duration_s": 3767,
+    "sha256": "267367733d611060cc21905c1f6f0808ddd8c6545c123113426a89e5a34cb9ab",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": -1.3,
+        "LRA": 0
+      },
+      "G": -0.40000000000000213,
+      "limit": 0.6,
+      "depth": 2.7369749923271254,
+      "busy": 0.0033179821359841798,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17yZYtFaAb7d9RgwK7dpNLSly0sVeSmS5",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៤ មានះ មាន៩ យ៉ាងមេរៀនលោភដួងទី៣.mp3",
+    "source_md5": "bb6a50f3ea76b75b249683aaa85bb28f",
+    "key": "audio/bb6a50f3ea76b75b-a64.mp3",
+    "bytes": 46746896,
+    "duration_s": 5843,
+    "sha256": "bf0ab0c9b260a65e92901da63e852726a6e63e25d10ed6fde4a226e61559c4f1",
+    "loudness": {
+      "pass1": {
+        "I": -26.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 6.1756098813180795,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "189VQ11mV57NH9CceZ1C3D3OULYPGE35N",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៣៦ និយមន័យមោហមូលចិត្ត.mp3",
+    "source_md5": "d63de6fe71f5771a72caf204bd8620f0",
+    "key": "audio/d63de6fe71f5771a-a64.mp3",
+    "bytes": 26885267,
+    "duration_s": 3360,
+    "sha256": "d5ca32c4417b59595e1a4d9cbe686fc22f161c0032cb2a315fc6b811ae3cbb22",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -5,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 10.436974992327126,
+      "busy": 6.025709694697375,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18u2oA35Yegi5Sm94ZWmAQBzmqdbC4D1v",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ២៦ ហេតុនាំឱ្យកើតទោសមូលចិត្តមាន៤.mp3",
+    "source_md5": "9af6f781774403a8164ebdcdd5feff5a",
+    "key": "audio/9af6f781774403a8-a64.mp3",
+    "bytes": 47454083,
+    "duration_s": 5931,
+    "sha256": "745ddbdce2cd92a181f88eb8fac4611c9a1eb0a765bb58b0f458ce9eb2a1f1ac",
+    "loudness": {
+      "pass1": {
+        "I": -26.9,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "G": 11.7,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 6.816285244657984,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1B1EfBJ91_Uv8hRC_hjX3QRMTpdXeJjLN",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៣៣ អានិសង្សនៃការចម្រើនមេត្តាមាន១១.mp3",
+    "source_md5": "aa89d8e6866e16f94737a766cbc97944",
+    "key": "audio/aa89d8e6866e16f9-a64.mp3",
+    "bytes": 42861130,
+    "duration_s": 5357,
+    "sha256": "b625c1f98329cbd0f68685a7ebc72dafb36c70209df44e1514a75c0256011736",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "G": 10.399999999999999,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 6.648032701209496,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1D2XycZ0p3TnFEyRPfPxCrWSNRpKzKkSo",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១២ លោភមូលចិត្តដួងទី ១ ,២.mp3",
+    "source_md5": "b156446853ba81a6c6972a679fb8c5c0",
+    "key": "audio/b156446853ba81a6-a64.mp3",
+    "bytes": 44446031,
+    "duration_s": 5555,
+    "sha256": "ba70051269bb950423a138e6c3376c57c102df04c543d67d7abe7e688b6a7d4b",
+    "loudness": {
+      "pass1": {
+        "I": -22.8,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.200000000000003,
+      "limit": 0.6,
+      "depth": 11.33697499232713,
+      "busy": 6.7039256979318536,
+      "out": {
+        "I": -18.1,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DrAwSn62HtxpC3YgHmiJ6wkhwpGAHaJh",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ២៧ វិធីចម្រើនមេត្តាចិត្ត.mp3",
+    "source_md5": "92f862f7395832b4edb66f68c21d4878",
+    "key": "audio/92f862f7395832b4-a64.mp3",
+    "bytes": 42878266,
+    "duration_s": 5359,
+    "sha256": "ddd55657101fd66cb90c8f4cf2cb73baf1b46ef6a3e800890788d8b45ae9af94",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 5.789215914921405,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DscrCmbQPtZopgSE_3XK2pdN9L60Ly8N",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៥៩ ធម្មគុណ​ និយមន័យព្រះត្រៃបិដក.mp3",
+    "source_md5": "c03b6b21a8709559ca216e8a4fd9f0f6",
+    "key": "audio/c03b6b21a8709559-a64.mp3",
+    "bytes": 44202152,
+    "duration_s": 5525,
+    "sha256": "b10d56e4419838e2d3b6f1b06c21a9edfde6d8d8ce045748dca2e8410ad060f2",
+    "loudness": {
+      "pass1": {
+        "I": -28.6,
+        "TP": -5.9,
+        "LRA": 0
+      },
+      "G": 13.200000000000003,
+      "limit": 0.6,
+      "depth": 11.73697499232713,
+      "busy": 6.418487851228451,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1E1ELHifIcjDm6MYm06FM0mF0Xi9NyXvA",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៤២ ពន្យល់ពាក្យថា បារមី ទាន សីល នេក្ខម្ម.mp3",
+    "source_md5": "bc6a58b32287b4beaefcbce19657ecec",
+    "key": "audio/bc6a58b32287b4be-a64.mp3",
+    "bytes": 44602139,
+    "duration_s": 5575,
+    "sha256": "08fe8fc5f7b01b7e74f1ec50eadd9124af04f6426849677a5f9a182280c609ae",
+    "loudness": {
+      "pass1": {
+        "I": -24.6,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 9.3,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 6.713151876597462,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EfyjJUgQ2r5Q2yjMFUuJSheJjyw2m50k",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ២៥ លក្ខណាទិចតុក្កៈរបស់ទោសៈ.mp3",
+    "source_md5": "1cdf421bb43db7ab323978112481eb3f",
+    "key": "audio/1cdf421bb43db7ab-a64.mp3",
+    "bytes": 45844732,
+    "duration_s": 5730,
+    "sha256": "62b8c8565b0550093dda15f39f70cf9b763f725275b5317603c237b356397d8f",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 10.000000000000004,
+      "limit": 0.6,
+      "depth": 10.136974992327131,
+      "busy": 6.210136897854482,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1F-DjESLPdLUeqMwnNGIs4qoiq0an0FKo",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៥៦ ទ្រង់ព្រះនាមថា បុរិសទម្មសារថិ.mp3",
+    "source_md5": "9452b900f26310f71aad5e72787b61c8",
+    "key": "audio/9452b900f26310f7-a64.mp3",
+    "bytes": 45854554,
+    "duration_s": 5731,
+    "sha256": "d1899fbb16dc13a6a149692aa854a8415ff7d0c25d98ebc6847f660165eea0ea",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.100000000000001,
+      "limit": 0.54,
+      "depth": 11.952124803540631,
+      "busy": 6.753768449701664,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1F7_a7lUjDoqBZCbLhwf0j4k7lo3NqnxS",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៩ ហេតុនាំឱ្យកើតទិដ្ឋិគតវិប្បយុត្តចិត្ត.mp3",
+    "source_md5": "c19a6b93c0dc549e606673ee3670a175",
+    "key": "audio/c19a6b93c0dc549e-a64.mp3",
+    "bytes": 45668980,
+    "duration_s": 5708,
+    "sha256": "3370ff49ec57c7d4b414ffc1ba8b800a28bad4267509de2b43645e020e9cadf6",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.399999999999999,
+      "limit": 0.6,
+      "depth": 11.536974992327126,
+      "busy": 5.556528746102372,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HdMRBL0iHP5jUOc4I-zqZPPz8VcNyMUw",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៦៥ សម្បត្តិរបស់ឧបាសក ឧបាសិកាមាន ៥ យ៉ាង.mp3",
+    "source_md5": "adb5b94e2433be9f69263cec42cf94b5",
+    "key": "audio/adb5b94e2433be9f-a64.mp3",
+    "bytes": 43123817,
+    "duration_s": 5390,
+    "sha256": "520da13ae1040cc6a81c27f99e8b7d9e2660185d61b2e5b70106c47ae4b41928",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.600000000000001,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 5.810275579960857,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IA65j1ZNrNpmF69yTZlPyFZmZE7oiJEw",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៤៦ លោកវិទូ​ ទ្រង់ជ្រាបនូវវិញ្ញាណឋិតិ ៧ ប្រការ.mp3",
+    "source_md5": "2681deef9d2c9aaf53489e2904bca2ff",
+    "key": "audio/2681deef9d2c9aaf-a64.mp3",
+    "bytes": 28793878,
+    "duration_s": 3599,
+    "sha256": "f63b05ed55f5451a73374f763c2e1f4ef2925c4fb94f3f33598e838628b39e9d",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.600000000000001,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 6.3639142031562566,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IX1DeN6D0-DHOOv35oWvZ1tFgcwy0ncu",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៥១  តេចីវរិកង្គធុតង្គ បិណ្ឌបាតិកង្គធុតង្គ.mp3",
+    "source_md5": "92d068ef32a6350b8238f40e57f4e2d6",
+    "key": "audio/92d068ef32a6350b-a64.mp3",
+    "bytes": 44515203,
+    "duration_s": 5564,
+    "sha256": "0e59a00e4c4ddc5b2428f4a6303f922e32777ba83175fba3b9dfb3edee8a2dd4",
+    "loudness": {
+      "pass1": {
+        "I": -28.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "G": 11.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.302056844015922,
+      "out": {
+        "I": -18.7,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KV62Cals5LBe2SGM-3tayTg1tnBfor7-",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៨៣ បិសុណាវាទ ការនិយាយញុះញង់ វិនិច្ឆ័យដោយអាការៈ៥.mp3",
+    "source_md5": "bca97c08a64eb8bc1b7815c9ff4ee12b",
+    "key": "audio/bca97c08a64eb8bc-a64.mp3",
+    "bytes": 42075158,
+    "duration_s": 5259,
+    "sha256": "a379215646fa511186901d686cbcafa6a310593f71ce6813cd84db3c28ec566c",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.200000000000003,
+      "limit": 0.6,
+      "depth": 10.33697499232713,
+      "busy": 5.615950640288249,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KdJVidLjYLY0IxdsiWm6oblm9uJoVOzI",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៧៥ អទិន្នាទាន ប្រយោគនៃការលួចមាន ៦ ប្រការ.mp3",
+    "source_md5": "d2e1c554434d9a2efd4ec5579729fa71",
+    "key": "audio/d2e1c554434d9a2e-a64.mp3",
+    "bytes": 44741110,
+    "duration_s": 5592,
+    "sha256": "914bf9f735e5cad6ab69488963b3f9adc0e70fa3b3a84270ad5e416c513ce9ae",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 5.119264742695705,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1L2M37suqxNKHibMpZUMT6t5cAzuuGO8S",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៦ លោភមូលចិត្តដួងទី ៧ ទី ៨.mp3",
+    "source_md5": "a007fe699be501ed2d5c2c2d0a17a782",
+    "key": "audio/a007fe699be501ed-a64.mp3",
+    "bytes": 46168023,
+    "duration_s": 5770,
+    "sha256": "c67614891347f3ee77f5f07cb711ca6528d85b90e8d0b788f4e652291122d7da",
+    "loudness": {
+      "pass1": {
+        "I": -25.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 9.500000000000004,
+      "limit": 0.6,
+      "depth": 10.636974992327131,
+      "busy": 5.727393236815429,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MmNI_uLaA2ty1Y8Zu4FvbJU2G-CkVT5Q",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៤៣ ពន្យល់ពាក្យថា បារមី បញ្ចប់ទាំង ៣០.mp3",
+    "source_md5": "5c70ec0c7df68f0db55f38e6e36c7798",
+    "key": "audio/5c70ec0c7df68f0d-a64.mp3",
+    "bytes": 42650269,
+    "duration_s": 5331,
+    "sha256": "4f0e6ad469dd36b25ca1b59bd980a94d44c8a05c3e0fc5cb8dfadbddd95eaf28",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "G": 8.799999999999997,
+      "limit": 0.6,
+      "depth": 11.536974992327124,
+      "busy": 7.7181711606096135,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MtVT7sUKpdWzUgv-LpqMC7UjRbqXcIDA",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១១ លោភមូលចិត្តដួងទី១.mp3",
+    "source_md5": "05d20c19eff29210b5e564907ed9f950",
+    "key": "audio/05d20c19eff29210-a64.mp3",
+    "bytes": 48187184,
+    "duration_s": 6023,
+    "sha256": "d89dbc121223e91351e93f5e278301946900cb64b927afb3b53de3232c8fe752",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.900000000000002,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 6.579602712776113,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MupdLZXj3HJjjqC5FSv1Ky-MyqzTh6oX",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៧០ បាណាតិបាត ការសម្លាប់សត្វ អង្គរបស់បាណាតិបាត.mp3",
+    "source_md5": "97ac308cda514fe19ca6d355c948365f",
+    "key": "audio/97ac308cda514fe1-a64.mp3",
+    "bytes": 46873747,
+    "duration_s": 5859,
+    "sha256": "81ca575c73a524869f0c25c7f8484e7db1583ee441da0eefad91f4495c097846",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.8131570862916435,
+      "out": {
+        "I": -18.6,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NZbR7_lQrX2sGvO7vCXXOiLuWPVX9aEM",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៨៥ សម្ផប្បលាស ការនិយាយរោយរាយឥតប្រយោជន៍.mp3",
+    "source_md5": "e7b0a80750b005961f3da40e760cf649",
+    "key": "audio/e7b0a80750b00596-a64.mp3",
+    "bytes": 47390972,
+    "duration_s": 5923,
+    "sha256": "7c4bbe4b885d50ef1f01ac56b575aaf7b8900ff53930349246860ce2669bd53f",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.087924238459785,
+      "out": {
+        "I": -18.6,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PmBTNkxjj_VqvTeZXYCJ-ECLYB_Emu5B",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៣២ ការពិចារណាពុទ្ធោវាទដើម្បីលះទោសៈ.mp3",
+    "source_md5": "e71345b01683a1add7b85346329a822f",
+    "key": "audio/e71345b01683a1ad-a64.mp3",
+    "bytes": 42530106,
+    "duration_s": 5316,
+    "sha256": "c378929ced8696b9d14fa6dc9170916cff35bd2d7907bfa8b7fae13a77a15797",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 7.0846461321420175,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1R7tAjB2SvCIwX1ZC6NDGINcryU6owYck",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៧៦ អទិន្នាទាន នានាភណ្ឌបញ្ចក លួចទ្រព្យផ្សេងៗចែកជា៥.mp3",
+    "source_md5": "e6beba4db53e9e470685d3a8f7154da5",
+    "key": "audio/e6beba4db53e9e47-a64.mp3",
+    "bytes": 47313858,
+    "duration_s": 5914,
+    "sha256": "2aaf35ad5b856ff037383979a44a69d97bc4a82c7001e667c029c7474ac99d04",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 5.477072131480166,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RRvLXymo3dmhjHnS6u9jL37YfUabOyIV",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៧៧ អទិន្នាទាន ឯកភណ្ឌបញ្ចក ដល់ថេយ្យវហារបញ្ចក.mp3",
+    "source_md5": "5a8bca9ac3b0073da9b381248301aeb5",
+    "key": "audio/5a8bca9ac3b0073d-a64.mp3",
+    "bytes": 44079272,
+    "duration_s": 5509,
+    "sha256": "fafadc9eada43aafa097ac1758ed0b2f3f2cbf2863ed4497ad8d780bd9c1f977",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.800000000000001,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 4.68452240512532,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SIEcCywglEuVfZqCM54A3ww0Pmge6ENz",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៤៨ លោកវិទូ ទ្រង់ជ្រាបនូវសត្វលោក.mp3",
+    "source_md5": "4fb4b5c07f8ad99fb5cae0d5a9133394",
+    "key": "audio/4fb4b5c07f8ad99f-a64.mp3",
+    "bytes": 47372163,
+    "duration_s": 5921,
+    "sha256": "cde46cb0acbb7609536e1c20007721c1e3978ea4aae0192868d237b0af440fac",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 8.600000000000001,
+      "limit": 0.6,
+      "depth": 11.93697499232713,
+      "busy": 6.352486701004813,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SiPJv--_DG55OKSzfMHS8yQjRGEjwdP7",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៥៨ ធម្មគុណ​ ស្ខាក្ខាតោ ភគវតា ធម្មោ.mp3",
+    "source_md5": "dcca53d1b8c75208b487068e27e2566c",
+    "key": "audio/dcca53d1b8c75208-a64.mp3",
+    "bytes": 44341959,
+    "duration_s": 5542,
+    "sha256": "d20ce21085d8c5f53733f643db74aa6bfe2f68ea3607a506cbb7b7b4c87c8836",
+    "loudness": {
+      "pass1": {
+        "I": -27.4,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "G": 11.2,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 5.885218395366879,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SkxVogQUSH5f5cELR4J4OxO-GV80fzXV",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ០៨ អំណាចរបស់ចិត្ត.mp3",
+    "source_md5": "f9f87a4475425f7904822de93b86327e",
+    "key": "audio/f9f87a4475425f79-a64.mp3",
+    "bytes": 42075994,
+    "duration_s": 5259,
+    "sha256": "8727258adceba9cc575daa0357f0419c90182942de0f955afc500d88b711a6bb",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "G": 11.200000000000003,
+      "limit": 0.6,
+      "depth": 11.536974992327131,
+      "busy": 7.093897650895055,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VgEAL439FKg4ParKFn9GnQZhaaLAeWqG",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៤០ ពន្យល់ការដល់ព្រះសរណគមន៍.mp3",
+    "source_md5": "b643db44a94cff77a30e733a16c0dccd",
+    "key": "audio/b643db44a94cff77-a64.mp3",
+    "bytes": 47467667,
+    "duration_s": 5933,
+    "sha256": "7fb84a198baaca8c3e84f6d823d05f2ec35b0afb445c5f68a107551aa97f498b",
+    "loudness": {
+      "pass1": {
+        "I": -26.9,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.126546330940101,
+      "out": {
+        "I": -18.7,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VvRjD6SsUwYgx16jp6HENCZ4UXykf2IB",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៧ ហេតុនាំឱ្យកើតលោភមូលចិត្តមាន៤.mp3",
+    "source_md5": "6f59bf1fb3cc78136f8c222bec0da4db",
+    "key": "audio/6f59bf1fb3cc7813-a64.mp3",
+    "bytes": 46427367,
+    "duration_s": 5803,
+    "sha256": "0996a0d8118c4c4de4c4efdf4843459afe81b505fcd7bfe5797d0333aac1ec20",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 10.100000000000001,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 6.717613812592618,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Vv_riFMgNaZ4CnnMQGhJvzOiQ082zD55",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ០៦ និយមន័យរបស់ចិត្តបរមត្ថ.mp3",
+    "source_md5": "f01ce970900a214099a76b892eaf0a46",
+    "key": "audio/f01ce970900a2140-a64.mp3",
+    "bytes": 33174090,
+    "duration_s": 4146,
+    "sha256": "38574211457b01b2e9ffb15ecbec181b4ccab5d2361a9ffc552d670c573feae3",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 5.9239163200096465,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WOrh1tVmo2S7t5_UVNjM_s7kw_zaEd0E",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៨៧ អកសលកម្មបថ ព្យាបាទ ការព្យាបាទ ទៃ.mp3",
+    "source_md5": "798fcc827e1129668e04a7e59908decf",
+    "key": "audio/798fcc827e112966-a64.mp3",
+    "bytes": 44925430,
+    "duration_s": 5615,
+    "sha256": "db3ebeaa920eccadaf73f995aca3490fc09b1a3f3950ae9aa00917b6a29c9e95",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 5.203983510368346,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Wr5roatZgQvt8MFoMkclbGDmfpFzAnGQ",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៣៥ ចែកទោសមូលចិត្តដោយន័យផ្សេងៗ.mp3",
+    "source_md5": "92955046744e894cf85bb4ba5a81bef8",
+    "key": "audio/92955046744e894c-a64.mp3",
+    "bytes": 43253385,
+    "duration_s": 5406,
+    "sha256": "3368d79305d02b30922df3a1fc161612611be28b103aebcb123dcc192cfbef83",
+    "loudness": {
+      "pass1": {
+        "I": -25.5,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "G": 10.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.02961168191024,
+      "out": {
+        "I": -18.3,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XGqPGpVqgZGMAUfj-y3o68PdROPGNxWR",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៧៨ អទិន្នាទាន ទោស និងអានិស្សនៃអទិន្នាទាន.mp3",
+    "source_md5": "4f87f8d8ae86352a9509087d1461c255",
+    "key": "audio/4f87f8d8ae86352a-a64.mp3",
+    "bytes": 44037685,
+    "duration_s": 5504,
+    "sha256": "0c1e3335d876639164163ee0eeb57ab76ec642512ed6ddcc90fb605e919b21cc",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 4.645802677711774,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XN_8KLsEUKXKWDVsymkhHzASI3gXHfeY",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៣ លោភមូលចិត្តដួងទី ៣.mp3",
+    "source_md5": "caf58b20d1501d34618c09b572d8f39e",
+    "key": "audio/caf58b20d1501d34-a64.mp3",
+    "bytes": 44219706,
+    "duration_s": 5527,
+    "sha256": "de5aba60f8ab4faa0f6e5ab0b31f26808f8e181eccd9e4100d479625c0a2cae2",
+    "loudness": {
+      "pass1": {
+        "I": -26.3,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.800000000000004,
+      "limit": 0.6,
+      "depth": 11.836974992327132,
+      "busy": 7.4907959366434795,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ye-ADFYUn5FZ8Z7Ihks4lDZ1d_5IRX25",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៨០ កាមេសុមិច្ឆាចារ វិនិច្ឆ័យដោយអាការៈ ៥ យ៉ាង.mp3",
+    "source_md5": "c372e08a1d47cf1bf089891f53a78954",
+    "key": "audio/c372e08a1d47cf1b-a64.mp3",
+    "bytes": 43795687,
+    "duration_s": 5474,
+    "sha256": "1d8d2ddeeac78d1691d7bc559900e3557a062ea7b63b761fba1e68b960b9b707",
+    "loudness": {
+      "pass1": {
+        "I": -22.7,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.399999999999999,
+      "limit": 0.6,
+      "depth": 10.536974992327126,
+      "busy": 5.13293572870334,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Z_VKmq5bXlZLrvsLqYSW_W71Q4ujScbQ",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៥៤ រុក្ខមូលិកង្គ អព្ភោកាសិកង្គ សោសានិកង្គ.mp3",
+    "source_md5": "0ac198ee0f9a7f3657a15b61fbc79ae2",
+    "key": "audio/0ac198ee0f9a7f36-a64.mp3",
+    "bytes": 42687259,
+    "duration_s": 5335,
+    "sha256": "f32685c8a178ff122beb546e0c941f9fbbb40b364f6c88e73ec9bb4a4bfd67b7",
+    "loudness": {
+      "pass1": {
+        "I": -28.3,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 11.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.365986675037717,
+      "out": {
+        "I": -18.8,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZtNn75h9D2c1FbtFuFt147nf5kvzKOkt",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៨៤ ផរុសវាទ ការជេរប្រទេច ឬគ្រោតគ្រាត វិនិច្ឆ័យដោយអាកា.mp3",
+    "source_md5": "0a454b228eb9c3d302342e99b1dc6074",
+    "key": "audio/0a454b228eb9c3d3-a64.mp3",
+    "bytes": 43784611,
+    "duration_s": 5473,
+    "sha256": "a97c230ba06182a93c0219e77583c8399281e0badc7f2f56f35dfcc8478069be",
+    "loudness": {
+      "pass1": {
+        "I": -22.7,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.899999999999999,
+      "limit": 0.6,
+      "depth": 11.036974992327126,
+      "busy": 5.571162331789404,
+      "out": {
+        "I": -18.1,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_D86jneFS0wHrtGAyXoY9fLLVpvjj9jp",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ០២ និយមន័យ ពាក្យថា អភិធម្ម.mp3",
+    "source_md5": "a2dec45448a2924c3c2b29b2f5508f95",
+    "key": "audio/a2dec45448a2924c-a64.mp3",
+    "bytes": 32459380,
+    "duration_s": 4057,
+    "sha256": "2d7cdbca64aabee8ad86b7ca0a26387ce8de6fcf211171cdaf0119f9d37f8c1d",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.324247054764134,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1b1XAfr6oTYc1zrBLfAIqMBSdYRt9DAoj",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៥៧ សត្ថាទេវមនុស្សានំ ពុទ្ធោ ភគវា.mp3",
+    "source_md5": "9ebcd83a8e87981cc793d548edabc09c",
+    "key": "audio/9ebcd83a8e87981c-a64.mp3",
+    "bytes": 44861065,
+    "duration_s": 5607,
+    "sha256": "8b24e0d6f60728d6dc53d8c04812879371ad83018f6d94c504346c5c0958b1c1",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 5.328482773378986,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bdjHBHIoIkba29qIAKSO8Sk4yc27vhUG",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៣០ មេត្តសូត្រ អធិប្បាយតាមអដ្ឋកថាបិដក៥៤.mp3",
+    "source_md5": "00a7e84cc4528fbcf49ab91a7ce46039",
+    "key": "audio/00a7e84cc4528fbc-a64.mp3",
+    "bytes": 44455853,
+    "duration_s": 5556,
+    "sha256": "da778d3004844dc46d7bdb773acdcce227873b9a137c870f003adae35802cb37",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -5.3,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 9.636974992327128,
+      "busy": 5.059205139509983,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bjCYrAa1nCI8NVOMYoW9FihbdYdnYGwu",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៧២ បាណាតិបាត ការស្លាប់មាន ៤ យ៉ាង.mp3",
+    "source_md5": "bdb584c179022966b44c4ca832dd7bd2",
+    "key": "audio/bdb584c179022966-a64.mp3",
+    "bytes": 44637038,
+    "duration_s": 5579,
+    "sha256": "0c8906f39e2ef1fb5ac8c122c4e5fd1c759f4eaaea138a5a596a555b030faacb",
+    "loudness": {
+      "pass1": {
+        "I": -27.6,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "G": 11.5,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 5.5595383181590075,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bjyTSi88Mi6cz5OWr4UZ62nr9xDr1hpz",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ០៤ លក្ខណៈប្រចាំ២គឺសាមញ្ញលក្ខណ វិសេសលក្ខណៈ.mp3",
+    "source_md5": "2a39a2993e049f6b59410325467e053f",
+    "key": "audio/2a39a2993e049f6b-a64.mp3",
+    "bytes": 33593303,
+    "duration_s": 4199,
+    "sha256": "a17a984680cde3d82a1f44b611fae874da2aea908be3f4cf546d973d7e72cda8",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 4.900000000000002,
+      "limit": 0.6,
+      "depth": 9.13697499232713,
+      "busy": 2.984830263267566,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bvQ2fIGelVvTWJ3c4zRsviDw3sBn_2r7",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៨៦ អនភិជ្ឈា ការសម្លឹងរំពៃចង់បានរបស់អ្នកដទៃ.mp3",
+    "source_md5": "870565146ddb61bd3985a642c111788e",
+    "key": "audio/870565146ddb61bd-a64.mp3",
+    "bytes": 44740483,
+    "duration_s": 5592,
+    "sha256": "1b489258c388199fc62a627155ff594812a708b69dae31be4f36d84690f91e16",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.800000000000001,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 5.469329733305916,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cZJuORTY7s8XpTyz7lFHHbqJbiHZ0g7K",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៥៥ យថាសន្ថិកង្គ និងនេសជ្ជិកង្គធុតង្គ.mp3",
+    "source_md5": "eb1496eee9322c9f6710abfe0215587f",
+    "key": "audio/eb1496eee9322c9f-a64.mp3",
+    "bytes": 44603184,
+    "duration_s": 5575,
+    "sha256": "c4a96ba3ad818d170b04757cf6b0f10cf2f6a98928566d72156b5bf0de1cc9bb",
+    "loudness": {
+      "pass1": {
+        "I": -27.6,
+        "TP": -5.3,
+        "LRA": 0
+      },
+      "G": 11.400000000000002,
+      "limit": 0.6,
+      "depth": 10.53697499232713,
+      "busy": 6.112172329988252,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dO0V_xw5HTaMXACKGahr-X3qwCPPWY2R",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៣៤ វិធីឈ្នះមនុស្ស ៤ យ៉ាង.mp3",
+    "source_md5": "f222dfa7a0a0765516057f18aaf7c9ac",
+    "key": "audio/f222dfa7a0a07655-a64.mp3",
+    "bytes": 43173972,
+    "duration_s": 5396,
+    "sha256": "df2e7505574a6d8d05b6b666a1a4e8ab70c3809849946cc7b9f888cde7a033be",
+    "loudness": {
+      "pass1": {
+        "I": -24.7,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "G": 9.299999999999997,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 6.764318935645858,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gtUvyENzKSlY6SKioEqoglQrzDEy6Unf",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៨៨ អកុសលកម្មបថ មិច្ឆាទិដ្ឋិ ការយល់ខុស (និយតមិច្ឆាទិដ្ឋិ).mp3",
+    "source_md5": "fb1fe8383bf7b2c36edf2f22aea3b423",
+    "key": "audio/fb1fe8383bf7b2c3-a64.mp3",
+    "bytes": 41110717,
+    "duration_s": 5138,
+    "sha256": "a2467ebe539c1833a561e6b8314d26aa1ab36396ddc212b3c65a7833426220fc",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.257803378220596,
+      "out": {
+        "I": -18.5,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hM0wS1ew-foHEZwrtWb3OqoFsHUfbDuh",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៨៩ អកុសលកម្មបថ ចែកដោយមូល និងដោយវេទនា.mp3",
+    "source_md5": "200e465059d2321161dc1b7aad3e42f1",
+    "key": "audio/200e465059d23211-a64.mp3",
+    "bytes": 46292366,
+    "duration_s": 5786,
+    "sha256": "b534da4b8a30b48007b7468907d53fd9da94a57a9e95ee2f50a7e984639d0e16",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 4.800000000000001,
+      "limit": 0.6,
+      "depth": 9.236974992327127,
+      "busy": 4.718957919294911,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hMGAEhcAkWv8Q0AmNy47dkSypVu-YLAr",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៣១ ពិចារណាកម្មដើម្បីលះបង់ទោសមូលចិត្ត.mp3",
+    "source_md5": "30e6b1a22a8176e496be44f9cac0dd01",
+    "key": "audio/30e6b1a22a8176e4-a64.mp3",
+    "bytes": 45073179,
+    "duration_s": 5634,
+    "sha256": "1c784cbe82beb8d3a82674cf33eb8ea906f363e0a854768e3d866994c2a65d96",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.399999999999999,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 5.396380965904049,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hydSKXw6EnYYZzotrtFRvjNiwKVlexHE",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៦១ ធម្មគុណ ​សន្ទិដ្ឋិកោ អកាលិកោ.mp3",
+    "source_md5": "cea7b81c71ec07c5648f1b6271af4b57",
+    "key": "audio/cea7b81c71ec07c5-a64.mp3",
+    "bytes": 42670749,
+    "duration_s": 5333,
+    "sha256": "7fe6bb090fd1b1f457ab1f0a546da3328bcc5cf7c633b717b723782f5162e4d3",
+    "loudness": {
+      "pass1": {
+        "I": -23.7,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 7.800000000000001,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 5.846207206869399,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1j86NJ2SxZAlRyuXNXqvEwEqrn9282n_Y",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៧៤ បាណាតិបាត ទោស និងអានិសង្សរបស់បាណាតិបាត.mp3",
+    "source_md5": "ef9716909aafa96cbc2b0b498d10606d",
+    "key": "audio/ef9716909aafa96c-a64.mp3",
+    "bytes": 42482459,
+    "duration_s": 5310,
+    "sha256": "58c96f43e31294b6a6a463b96f727fbd18d6a6ca2ccc5ead63b030d43b307aee",
+    "loudness": {
+      "pass1": {
+        "I": -27.5,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 11.5,
+      "limit": 0.6,
+      "depth": 11.636974992327128,
+      "busy": 4.694458829621958,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lO3JZ2kAF3SPzqPkZoAnB8J2cRTvmFZn",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៣៩ ពន្យល់វិចិកិច្ឆា និងឧទ្ធច្ចៈ.mp3",
+    "source_md5": "e7cf75128d50b8fe357f00379d29120c",
+    "key": "audio/e7cf75128d50b8fe-a64.mp3",
+    "bytes": 46523079,
+    "duration_s": 5815,
+    "sha256": "c9a429c2c185a2f0811260996dc5d055f740a3e8ddf1e5905e3493544020d7c3",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "G": 9.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.261016103931835,
+      "out": {
+        "I": -18.3,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mD45G4YBvKNyzMjH6gg0lfHy8_hN6pKi",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៦៨ ហេតុលះបង់វិចិកិច្ឆា និងឧទ្ធច្ចចិត្ត.mp3",
+    "source_md5": "903aa98e71b5f801423dea8eccf28947",
+    "key": "audio/903aa98e71b5f801-a64.mp3",
+    "bytes": 42676392,
+    "duration_s": 5334,
+    "sha256": "482afc4ccd7d4142424e66eda56dc3c5982cd6189fef66253d3778d8f11ee989",
+    "loudness": {
+      "pass1": {
+        "I": -28.3,
+        "TP": -6.5,
+        "LRA": 0
+      },
+      "G": 12.2,
+      "limit": 0.6,
+      "depth": 10.136974992327126,
+      "busy": 5.369528540631737,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mRhngr5Rzlrig4CfGv0NWCCZombRS4Wf",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៨២ មុសាវាទ ការពោលពាក្យកុហក វិនិច្ឆ័យដោយអាការៈ៥.mp3",
+    "source_md5": "8d929d4ef527aa9e3953f960ad3fe302",
+    "key": "audio/8d929d4ef527aa9e-a64.mp3",
+    "bytes": 44214691,
+    "duration_s": 5526,
+    "sha256": "c0c8ed2cba7d6d4a23a2de7e4a9e949c64a50dd6fb4fe837e0654ec5724f881b",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 6.199999999999999,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 5.438047332995585,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mdl4Lexp0Z3doXKGEgGjfSHWczLMvRfs",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៤៧ លោកវិទូ​ ទ្រង់ជ្រាបធម៌៨ គឺលោកធម៌ទាំង ៨ ប្រការ.mp3",
+    "source_md5": "85dd1c7be5b15cd74e3e537a31aaf9b5",
+    "key": "audio/85dd1c7be5b15cd7-a64.mp3",
+    "bytes": 41565456,
+    "duration_s": 5195,
+    "sha256": "5f68d7b13050ffcdeb1b56cd8f9085b83407ec14dc1dfc086b39628e683eda3d",
+    "loudness": {
+      "pass1": {
+        "I": -28.1,
+        "TP": -5.1,
+        "LRA": 0
+      },
+      "G": 12.663025007672871,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.181613465110236,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pkhtIx_IgjGpv1xsDJc5nCsGgZD-yDeB",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៥ លោភមូលចិត្តដួងទី៤​,៥​ ៦.mp3",
+    "source_md5": "7cfddf469381c5a315a2ecc77226fa3c",
+    "key": "audio/7cfddf469381c5a3-a64.mp3",
+    "bytes": 43442511,
+    "duration_s": 5430,
+    "sha256": "eb048a3a78ae460439d9de33e8bf587e24eecfaa86b13afc422471af0ddfe7b3",
+    "loudness": {
+      "pass1": {
+        "I": -27.3,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.572491390899214,
+      "out": {
+        "I": -18.4,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qUCeW6LpojHDJT6JCIGCI8GzaP-hhieH",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ២០ ហេតុនាំឱ្យកើតសោមនស្សនិងឧបេក្ខា.mp3",
+    "source_md5": "5d4b1a48f1aa971eafcbc1b62a9bdfb8",
+    "key": "audio/5d4b1a48f1aa971e-a64.mp3",
+    "bytes": 44645607,
+    "duration_s": 5580,
+    "sha256": "572e85cb5a8bcd78bf16941a15987644638de40096fcf18f0572303c1f868b85",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "G": 10.299999999999997,
+      "limit": 0.6,
+      "depth": 10.136974992327126,
+      "busy": 5.622328940177219,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rPH7S5x1JFDEEAS8Gz0XJ4h-rSTF3imQ",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៦៧ សេចក្តីសង្ស័យ ៨ យ៉ាង និងសង្ស័យ ១៦.mp3",
+    "source_md5": "36b4fbc8afd14a5a025ed90b2e737678",
+    "key": "audio/36b4fbc8afd14a5a-a64.mp3",
+    "bytes": 41843190,
+    "duration_s": 5230,
+    "sha256": "0beddbb1bc355d3f82103b0f8afccd4bc452414a15afe0fc7a63fa4b20b978bf",
+    "loudness": {
+      "pass1": {
+        "I": -22.6,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.100000000000005,
+      "limit": 0.6,
+      "depth": 11.236974992327132,
+      "busy": 5.398539294693472,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1sYf_LYKFKru13_nV2B49OQNNAFdDtjFk",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ២៣ ចែកលោភមូលចិត្តដោន័យផ្សេងបញ្ចប់.mp3",
+    "source_md5": "c07d4f97cd8ac833bf44716943e301ac",
+    "key": "audio/c07d4f97cd8ac833-a64.mp3",
+    "bytes": 47468503,
+    "duration_s": 5933,
+    "sha256": "837207e59cf4c79ecfcb1682df877b2465a1f0b87274a79935f617c866d6a0a7",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 4.872293989264437,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1u960GbKHw-mfotcHQQWz2Eyl--613UiX",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៦២ សង្ឃគុណ ​សុបដិបន្នោ ឧជុ ញាយ សាមីចិ យទិទំ ចត្តារិ.mp3",
+    "source_md5": "70cfb9d6cb916ab51f03fa3586c635e3",
+    "key": "audio/70cfb9d6cb916ab5-a64.mp3",
+    "bytes": 43981052,
+    "duration_s": 5497,
+    "sha256": "ba6e9cb7c835c4ae4c54426b82bd79b74b6fde721c4f917e9465030bc3f6175e",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "G": 10.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.215457654249127,
+      "out": {
+        "I": -18.7,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1uIj70CnF2ccTlRcHIHrcifYz9bPvQYCt",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ០១ ប្រយោជន៍នៃការសិក្សាព្រះអភិធម្ម.mp3",
+    "source_md5": "854e36fe73d57bf8215da4534e79c45b",
+    "key": "audio/854e36fe73d57bf8-a64.mp3",
+    "bytes": 40047220,
+    "duration_s": 5005,
+    "sha256": "472c5b128c686b3ecbedf8c7ef41341d1a0900d71609a89fa08349374e360650",
+    "loudness": {
+      "pass1": {
+        "I": -21.1,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 5.5000000000000036,
+      "limit": 0.6,
+      "depth": 10.036974992327131,
+      "busy": 6.850734640470649,
+      "out": {
+        "I": -18.1,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wTOq-lJ65s4P4hi9tfoahOZsLn9Da8ZO",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៣៨ អវិជ្ជាមិនដឹងខន្ធ អាយតនៈ ធាតុ.mp3",
+    "source_md5": "0e2eff07c796f38020a2a5a17ff806b8",
+    "key": "audio/0e2eff07c796f380-a64.mp3",
+    "bytes": 43600918,
+    "duration_s": 5450,
+    "sha256": "68a79295e1b82b0d5cb32bd01fb2c45a19615cb4a1012f7354c5e8575ebe0a18",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.777857287022257,
+      "out": {
+        "I": -18.3,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1w_TRv0geESXcty4I2JqpDpysJBm6IyuJ",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ០៣ និយមន័យ បរមត្ថធម៌.mp3",
+    "source_md5": "2cb859a915297a0c4523256087d5dbd5",
+    "key": "audio/2cb859a915297a0c-a64.mp3",
+    "bytes": 45667517,
+    "duration_s": 5708,
+    "sha256": "6fb5a850f58b4ea558edabb5fe4a3989c278300e0b0f8a84da35a343261d2c48",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 11.200000000000003,
+      "limit": 0.6,
+      "depth": 11.73697499232713,
+      "busy": 6.6956152336907016,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wzCUqMDIZC9fLx-niVQ3pMHDQHkawpRb",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៧៩ កាមេសុមិច្ឆាចារ ការប្រព្រឹត្តិខុសក្នុងកាមទាំងឡាយ.mp3",
+    "source_md5": "d12aa9b59b26ad49a81ba399818ff6a7",
+    "key": "audio/d12aa9b59b26ad49-a64.mp3",
+    "bytes": 46290067,
+    "duration_s": 5786,
+    "sha256": "ecf58a3ef4727ca4e8a17de97890a43fad1cb0d44ad9e8cd1a2fc446002013ee",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.399999999999999,
+      "limit": 0.6,
+      "depth": 11.536974992327126,
+      "busy": 5.377017731844734,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xc1xtxb8cH3H6pVIinRQxM1rAzl3o_X7",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ០៩ ពន្យល់គាថាសម្តែងអំពីចិត្តជាប្រធាន.mp3",
+    "source_md5": "59b150d0a82e1ad13742a1bed3d4e176",
+    "key": "audio/59b150d0a82e1ad1-a64.mp3",
+    "bytes": 44485319,
+    "duration_s": 5560,
+    "sha256": "c0ed649ac9a9a3ba67687c1aa990b4a22cfe0eaa0e05b47b25ea690d9a0da9a7",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.200000000000003,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 7.424491741073435,
+      "out": {
+        "I": -18.1,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xfyBX3OymEEH5Msm1y6oz0nC5qwpsE91",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ០៥ ព្រះអង្គសម្តែងសម្មតិសច្ចៈដោយហេតុ៨.mp3",
+    "source_md5": "4ac61aab974ef0a2bdfb799fe28b8b99",
+    "key": "audio/4ac61aab974ef0a2-a64.mp3",
+    "bytes": 42553930,
+    "duration_s": 5319,
+    "sha256": "6e656e571ee42856e079c6994010fe38b100cf0ef67d6cfc2159a3ae41fde032",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "G": 6.5000000000000036,
+      "limit": 0.6,
+      "depth": 8.536974992327131,
+      "busy": 3.1741145285005263,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xhde-kd1LQnRP7HKAfnt2eiEEKp50QUe",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៥០  និយមន័យធុតង្គ បង្សុកូលិកង្គ.mp3",
+    "source_md5": "5d6cb41274a4a7315123a95c7dcc4507",
+    "key": "audio/5d6cb41274a4a731-a64.mp3",
+    "bytes": 42023540,
+    "duration_s": 5252,
+    "sha256": "e08f830b8ec30b0b51cecb820cfb4f3260c16dda08587fccb5fde27f5faeabb4",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 8.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.857478726037046,
+      "out": {
+        "I": -18.3,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
