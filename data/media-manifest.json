@@ -2889,5 +2889,266 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14RM_KEOdwMMTNbW3D7INUT0k-Py6HHuW",
+    "drive_name": "បាលីប្រែលោតប្រយោគ បរិច្ឆេទទី៥ ភាគ០៨ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+    "source_md5": "4642a45de9254ba240a44f6edc9d2fa7",
+    "key": "audio/4642a45de9254ba2-a64.mp3",
+    "bytes": 6018237,
+    "duration_s": 752,
+    "sha256": "170091a699fd748ff7bd16a60a381694e1fc2cedf2c8db4bef73e89d6328215c",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": 0.7,
+        "LRA": 0
+      },
+      "G": 2.1000000000000014,
+      "limit": 0.54,
+      "depth": 8.15212480354063,
+      "busy": 6.65835825855766,
+      "out": {
+        "I": -18.2,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14we7yK03Rql1xqgz0WNJ1fYlP9onUi4D",
+    "drive_name": "បាលីប្រែលោតប្រយោគ បរិច្ឆេទទី៥ ភាគ០៧ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+    "source_md5": "eea34407bb6831af49e2f5cbd2315831",
+    "key": "audio/eea34407bb6831af-a64.mp3",
+    "bytes": 5045228,
+    "duration_s": 630,
+    "sha256": "c077445571dcaed4e6c569e3f015dc103dc7c24cbe27033f60c5e87b7c8c72b6",
+    "loudness": {
+      "pass1": {
+        "I": -29.3,
+        "TP": -8.3,
+        "LRA": 0
+      },
+      "G": 12.899999999999999,
+      "limit": 0.6,
+      "depth": 9.036974992327124,
+      "busy": 3.7147161433555342,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ABBxtbkbxHw1-GrzD7i-40yJ9NsJvfRX",
+    "drive_name": "បាលីប្រែលោតប្រយោគ បរិច្ឆេទទី៥ ភាគ០៦ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+    "source_md5": "a3b2289b60cbe614767b980c2e2e8f36",
+    "key": "audio/a3b2289b60cbe614-a64.mp3",
+    "bytes": 4822247,
+    "duration_s": 602,
+    "sha256": "361aba3f8085ffd85ad4c2509f538c48a96b8576226adff75fe8f6990b82fe25",
+    "loudness": {
+      "pass1": {
+        "I": -32,
+        "TP": -9.8,
+        "LRA": 0
+      },
+      "G": 15.3,
+      "limit": 0.6,
+      "depth": 9.936974992327126,
+      "busy": 3.347436535589846,
+      "out": {
+        "I": -18.1,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XX0L9oFTGajz3LW2rzAmxJZ4LILprgkX",
+    "drive_name": "បាលីប្រែលោតប្រយោគ បរិច្ឆេទទី៥ ភាគ០២ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+    "source_md5": "d35cc5c07c0f2c7a71f159401089ffd6",
+    "key": "audio/d35cc5c07c0f2c7a-a64.mp3",
+    "bytes": 5431631,
+    "duration_s": 678,
+    "sha256": "8548f77158530e83c029a5bb57148cf87367262b94c64f41b9e5ed53887c1962",
+    "loudness": {
+      "pass1": {
+        "I": -17.6,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": 1.4000000000000021,
+      "limit": 0.54,
+      "depth": 7.252124803540632,
+      "busy": 7.18257475327736,
+      "out": {
+        "I": -18.3,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ihWMmNfZb9kr38A5ZLgboptsjbf04kJy",
+    "drive_name": "បាលីប្រែលោតប្រយោគ បរិច្ឆេទទី៥ ភាគ០៥ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+    "source_md5": "275bd0a06b623c82a3e2b14c2459900f",
+    "key": "audio/275bd0a06b623c82-a64.mp3",
+    "bytes": 5276150,
+    "duration_s": 659,
+    "sha256": "3f80568780c1c09163e9eed1c843f664d7af392edadc4c64d2c051b2b3f65f0a",
+    "loudness": {
+      "pass1": {
+        "I": -17.6,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": 0.8000000000000007,
+      "limit": 0.6,
+      "depth": 5.736974992327128,
+      "busy": 4.14360451891728,
+      "out": {
+        "I": -18.1,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jhUWczHA9YV8x_AnOszEVEWTJvs8-PRF",
+    "drive_name": "បាលីប្រែលោតប្រយោគ បរិច្ឆេទទី៥ ភាគ០១ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+    "source_md5": "043b2e4253bc39fd27042b78478a5cb5",
+    "key": "audio/043b2e4253bc39fd-a64.mp3",
+    "bytes": 6185003,
+    "duration_s": 773,
+    "sha256": "991686035d402049906464476d0309767931fa47ff99a0d21191338da2280915",
+    "loudness": {
+      "pass1": {
+        "I": -17.6,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 0.3000000000000007,
+      "limit": 0.6,
+      "depth": 4.536974992327128,
+      "busy": 3.036476523088863,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1oziqB77FBVsvqEVJAvJR5zoFkn-4idE2",
+    "drive_name": "បាលីប្រែលោតប្រយោគ បរិច្ឆេទទី៥ ភាគ០៣ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+    "source_md5": "8c289fdd4551b5d451d9c7fb6c8e4efc",
+    "key": "audio/8c289fdd4551b5d4-a64.mp3",
+    "bytes": 4940947,
+    "duration_s": 617,
+    "sha256": "efed4207ba3b7667d5a834558787bedf94d8a78bd3dc39558fe9da4379deda90",
+    "loudness": {
+      "pass1": {
+        "I": -17.7,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 1,
+      "limit": 0.6,
+      "depth": 5.1369749923271275,
+      "busy": 5.072463768115942,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qPX-LQHMXINZjsvKLQoT_WdnqcLK9lB0",
+    "drive_name": "បាលីប្រែលោតប្រយោគ បរិច្ឆេទទី៥ ភាគ០៤ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+    "source_md5": "d7323e8b9643e509c3f63d0afe953adb",
+    "key": "audio/d7323e8b9643e509-a64.mp3",
+    "bytes": 4664467,
+    "duration_s": 582,
+    "sha256": "0c76d9d9f0a91a0c777714b245c569774d5639c547a4cfd7ea4533c111951e80",
+    "loudness": {
+      "pass1": {
+        "I": -17.6,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 0.8000000000000007,
+      "limit": 0.6,
+      "depth": 5.036974992327128,
+      "busy": 4.11663807890223,
+      "out": {
+        "I": -18.1,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1y8CLrM4H6UDVWwEPwJovrM3Jtfra-5Yh",
+    "drive_name": "បាលីប្រែលោតប្រយោគ បរិច្ឆេទទី៥ ភាគ០៩ (ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន).mp3",
+    "source_md5": "cc0d88973d9b71f2bfc1402224ca90e0",
+    "key": "audio/cc0d88973d9b71f2-a64.mp3",
+    "bytes": 6986439,
+    "duration_s": 873,
+    "sha256": "d156b7ff5a291b093f55ead4d8017c2e11f78a33dd223c0ac0359518d8b24a41",
+    "loudness": {
+      "pass1": {
+        "I": -30,
+        "TP": -7.9,
+        "LRA": 0
+      },
+      "G": 13.7,
+      "limit": 0.54,
+      "depth": 11.152124803540628,
+      "busy": 5.7056971085027195,
+      "out": {
+        "I": -18.2,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
