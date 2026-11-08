@@ -96,7 +96,7 @@ export const STRINGS = {
   // Study branch (bulk-05 P2). km is DRAFT: [VERIFY] until a reviewer approves.
   'my.branch.label': { km: '[VERIFY] មែកសិក្សារបស់អ្នក', en: 'Your study branch' },
   'my.branch.device_note': {
-    km: '[VERIFY] ស្លឹកទាំងនេះរក្សាទុកតែនៅលើឧបករណ៍នេះ ប៉ុណ្ណោះ។ បើលុបទិន្នន័យកម្មវិធីរុករក ស្លឹកទាំងនេះនឹងបាត់។ ប្រើ {exportLabel} ដើម្បីរក្សាទុកច្បាប់ចម្លង។',
+    km: '[VERIFY] ស្លឹកទាំងនេះរក្សាទុកតែនៅលើឧបករណ៍នេះប៉ុណ្ណោះ។ បើលុបទិន្នន័យកម្មវិធីរុករក ស្លឹកទាំងនេះនឹងបាត់។ ប្រើ {exportLabel} ដើម្បីរក្សាទុកច្បាប់ចម្លង។',
     en: 'These leaves are kept only on this device. Clearing your browser data removes them. Use {exportLabel} to keep a copy.',
   },
   // Service-worker update prompt (reliable updates).
