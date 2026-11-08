@@ -3150,5 +3150,121 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13RVJqJds_MOgyBcXT8o8elkRtnDzwyqi",
+    "drive_name": "1-251120_0751.mp3",
+    "source_md5": "4a12207dee41669026e07a0f8c1b2c70",
+    "key": "audio/4a12207dee416690-a64.mp3",
+    "bytes": 28286266,
+    "duration_s": 3535,
+    "sha256": "4736aa599692c61192d44e350b95f7659ee367446b755e34e2c8b69f40c30149",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -7.7,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 7.036974992327128,
+      "busy": 5.185250654033798,
+      "out": {
+        "I": -18.2,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1K80ja6DuveFEAkImmSrYXbWom8DAJ-tM",
+    "drive_name": "3-251120_1940_01.mp3",
+    "source_md5": "e23bc6afb2180c049587cf200947c374",
+    "key": "audio/e23bc6afb2180c04-a64.mp3",
+    "bytes": 22548314,
+    "duration_s": 2818,
+    "sha256": "41d1b910dfc1530ffc3cd966deb66d267ef09d0f29acd4d1b80ba726525368e2",
+    "loudness": {
+      "pass1": {
+        "I": -22.7,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "G": 8.2,
+      "limit": 0.54,
+      "depth": 11.752124803540628,
+      "busy": 8.497427709774703,
+      "out": {
+        "I": -18.4,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1V1HqzUv0Rp4CEQMJANeME20EKt1PCYXU",
+    "drive_name": "2-251120_1547.mp3",
+    "source_md5": "573540039d01c7e12c71b31c9cd6c240",
+    "key": "audio/573540039d01c7e1-a64.mp3",
+    "bytes": 16977127,
+    "duration_s": 2122,
+    "sha256": "2cf625f3b77176e7c2499d50774ab740413167feb2e2e24b02d609ca62830750",
+    "loudness": {
+      "pass1": {
+        "I": -23.5,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 6.799999999999997,
+      "limit": 0.6,
+      "depth": 6.7369749923271245,
+      "busy": 4.237547712171906,
+      "out": {
+        "I": -18.1,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xqCxvSZsGlpxypWOI_K6A6qF05ULWfKJ",
+    "drive_name": "4-251121_0932.mp3",
+    "source_md5": "e55bbab6f85ddfffebea809d7fde8598",
+    "key": "audio/e55bbab6f85ddfff-a64.mp3",
+    "bytes": 24093927,
+    "duration_s": 3011,
+    "sha256": "bbf5be4d2e7365f517e2d70e7ce4e85073acf8e777bd241de278242d5ea7173e",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "G": 10.74787519645937,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 6.701364677756748,
+      "out": {
+        "I": -18.8,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
