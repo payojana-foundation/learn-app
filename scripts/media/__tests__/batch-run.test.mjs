@@ -74,3 +74,16 @@ describe('batch-run.sh dispatches every planned id', () => {
     expect(r.done.map((x) => x.id)).toEqual(['ID1', 'ID2']);
   });
 });
+
+describe('batch-run.sh orphan (exit 4)', () => {
+  let dir;
+  beforeEach(() => { dir = mkdtempSync(join(tmpdir(), 'batch-')); });
+  afterEach(() => rmSync(dir, { recursive: true, force: true }));
+  run('records exit 4 as orphan, not done/failed, and keeps going', () => {
+    const r = runBatch(dir, 'a1\nb2\n', 'if [ "$1" = a1 ]; then exit 4; fi; exit 0');
+    expect(r.done.map((x) => x.id)).toEqual(['b2']);
+    expect(r.failed).toEqual([]);
+    const o = readFileSync(join(dir, 'results.orphan.ndjson'), 'utf-8');
+    expect(JSON.parse(o.trim()).id).toBe('a1');
+  });
+});

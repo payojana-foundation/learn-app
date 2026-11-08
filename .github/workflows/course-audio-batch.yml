@@ -1,0 +1,44 @@
+name: course-audio-batch
+run-name: course-audio-batch · ${{ inputs.queues }} · limit ${{ inputs.limit }} · REAL
+# Runs course-audio (REAL, dry_run false) once per queue, one queue at a time.
+# No audio code is copied here: each job calls .github/workflows/course-audio.yml.
+# The per-queue concurrency group lives in course-audio.yml (course-audio-<list>).
+on:
+  workflow_dispatch:
+    inputs:
+      queues:
+        description: "Comma-separated queue paths, INCLUDING the folder (e.g. data/queues/c022.csv,data/queues/c023.csv)"
+        required: true
+      limit:
+        description: "Max files per queue"
+        required: true
+        default: "45"
+permissions:
+  contents: write
+  id-token: write
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    outputs:
+      queues: ${{ steps.q.outputs.queues }}
+    steps:
+      - id: q
+        env:
+          QUEUES: ${{ inputs.queues }}
+        run: |
+          set -euo pipefail
+          json=$(node -e 'const q=process.env.QUEUES.split(",").map(s=>s.trim()).filter(Boolean);if(!q.length||q.some(x=>!/^data\/queues\/[A-Za-z0-9_.-]+\.csv$/.test(x))){console.error("bad queues: use data/queues/<id>.csv, comma-separated");process.exit(1)}console.log(JSON.stringify(q))')
+          echo "queues=$json" >> "$GITHUB_OUTPUT"
+  run:
+    needs: plan
+    strategy:
+      max-parallel: 1
+      fail-fast: false
+      matrix:
+        queue: ${{ fromJSON(needs.plan.outputs.queues) }}
+    uses: ./.github/workflows/course-audio.yml
+    with:
+      list: ${{ matrix.queue }}
+      limit: ${{ inputs.limit }}
+      dry_run: "false"
+    secrets: inherit

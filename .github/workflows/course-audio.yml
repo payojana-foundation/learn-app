@@ -1,4 +1,5 @@
 name: course-audio
+run-name: course-audio · ${{ inputs.list }} · ${{ inputs.dry_run == 'true' && 'DRY RUN' || 'REAL' }}
 
 # Job B (media pipeline) — BATCH transcode (Q3, bulk-02). Reads a CSV queue of
 # Drive file ids, transcodes each recording into a normalised 64 kbps mono MP3
@@ -23,6 +24,26 @@ name: course-audio
 # Auth: Workload Identity Federation (no keys). Manual only.
 
 on:
+  workflow_call:
+    inputs:
+      list:
+        type: string
+        required: true
+      limit:
+        type: string
+        default: "5"
+      max_minutes:
+        type: string
+        default: "300"
+      concurrency:
+        type: string
+        default: "2"
+      force_ids:
+        type: string
+        default: ""
+      dry_run:
+        type: string
+        default: "false"
   workflow_dispatch:
     inputs:
       list:
@@ -57,7 +78,7 @@ permissions:
 concurrency:
   # One in-flight run PER QUEUE (the `list` input), so two different course
   # queues can transcode at the same time; a second run of the SAME queue waits.
-  group: course-audio-${{ github.event.inputs.list }}
+  group: course-audio-${{ inputs.list }}
   cancel-in-progress: false
 
 jobs:
@@ -65,11 +86,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 340 # under GitHub's 360-min hard cap; max_minutes stops sooner
     env:
-      QUEUE: ${{ github.event.inputs.list }}
-      LIMIT: ${{ github.event.inputs.limit }}
-      MAX_MINUTES: ${{ github.event.inputs.max_minutes }}
-      JOBS: ${{ github.event.inputs.concurrency }}
-      FORCE_IDS: ${{ github.event.inputs.force_ids }}
+      QUEUE: ${{ inputs.list }}
+      LIMIT: ${{ inputs.limit }}
+      MAX_MINUTES: ${{ inputs.max_minutes }}
+      JOBS: ${{ inputs.concurrency }}
+      FORCE_IDS: ${{ inputs.force_ids }}
       MANIFEST: data/media-manifest.json
     steps:
       - name: Check out the repo
@@ -153,7 +174,7 @@ jobs:
         if: ${{ steps.plan.outputs.to_process != '0' }}
         env:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
-          DRY_RUN: ${{ github.event.inputs.dry_run == 'true' && '1' || '0' }}
+          DRY_RUN: ${{ inputs.dry_run == 'true' && '1' || '0' }}
           # Drive tokens expire after ~60 min. transcode-one re-mints a fresh
           # access token before each file and once on a 401 via this command
           # (the WIF credentials file is already on disk from the auth step).
@@ -176,6 +197,15 @@ jobs:
           done
           echo "manifest now has $(node -e 'const fs=require("fs");console.log(fs.existsSync(process.env.MANIFEST)?JSON.parse(fs.readFileSync(process.env.MANIFEST,"utf8")).length:0)') entries"
 
+      - name: Fail on R2 objects without a manifest entry
+        if: ${{ always() }}
+        run: |
+          set -uo pipefail
+          if [ -s results.orphan.ndjson ]; then
+            ids=$(node -e 'console.log(require("fs").readFileSync("results.orphan.ndjson","utf8").split(/\r?\n/).filter(Boolean).map(l=>JSON.parse(l).id).join(", "))')
+            echo "::error title=R2 object without manifest entry::R2 object without manifest entry - needs coordinator: ${ids}"
+            exit 1
+          fi
       - name: Fail if work was planned but nothing finished
         if: ${{ always() }}
         run: |
@@ -184,9 +214,10 @@ jobs:
           [ -n "$planned" ] || planned=0
           if [ "$planned" = "0" ]; then echo "nothing was planned — ok"; exit 0; fi
           done=$( [ -f results.done.ndjson ] && grep -c . results.done.ndjson || echo 0 )
+          orphan=$( [ -f results.orphan.ndjson ] && grep -c . results.orphan.ndjson || echo 0 )
           failed=$( [ -f results.failed.ndjson ] && grep -c . results.failed.ndjson || echo 0 )
           echo "planned ${planned}, done ${done}, failed ${failed}"
-          if [ "$done" -eq 0 ] && [ "$failed" -eq 0 ]; then
+          if [ "$done" -eq 0 ] && [ "$failed" -eq 0 ] && [ "$orphan" -eq 0 ]; then
             echo "::error title=Nothing processed::${planned} file(s) were planned but none finished (done+failed=0)."
             exit 1
           fi
@@ -208,7 +239,7 @@ jobs:
           fi
 
       - name: Commit the manifest changes to main (also on cancellation)
-        if: ${{ always() && github.event.inputs.dry_run != 'true' }}
+        if: ${{ always() && inputs.dry_run != 'true' }}
         run: |
           set -uo pipefail
           git config user.name "github-actions[bot]"

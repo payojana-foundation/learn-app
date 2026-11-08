@@ -10,7 +10,7 @@
 # mp3 is MEASURED each round: encode → decode → ebur128; the limiter ceiling starts
 # at 0.60 and tightens if TP overshoots, G chases -18; <= 5 encodes; the result is
 # judged on the last mp3 (see scripts/media/b3-decide.mjs).
-# Exit 0 = done, 3 = skipped (listed duplicate / key exists), non-zero = failed.
+# Exit 0 = done, 3 = skipped (listed duplicate / key in manifest), 4 = R2 orphan (object, no manifest entry), other non-zero = failed.
 #
 # DRY_RUN=1: the same loop (null passes only) — no encode, no upload, no manifest;
 # writes dryrun-<id>.json for the run-summary table.
@@ -152,9 +152,17 @@ echo "[$DRIVE_FILE_ID] stage=key key=${key} source_md5=${md5}"
 # download. Checked AFTER the key is known (depends on md5).
 existing="$(object_size "$key")"
 if [ -n "$existing" ] && [ "$existing" -gt 0 ] 2>/dev/null; then
-  echo "[$DRIVE_FILE_ID] SKIPPED: key exists (${key}, ${existing} bytes)" >&2
-  echo "::skip-reason::key exists"
-  exit 3
+  # Key exists: skip ONLY if the manifest already lists this key. An R2 object
+  # with NO manifest entry is an orphan: never overwrite/delete it; exit 4 so the
+  # job ends red and the coordinator decides.
+  if nn 'const m=JSON.parse(require("fs").readFileSync(process.argv[1],"utf8"));process.exit((Array.isArray(m)?m:[]).some(e=>e&&e.key===process.argv[2])?0:1)' "${MANIFEST:-data/media-manifest.json}" "$key" 2>/dev/null; then
+    echo "[$DRIVE_FILE_ID] SKIPPED: key exists (${key}, ${existing} bytes)" >&2
+    echo "::skip-reason::key exists"
+    exit 3
+  fi
+  echo "[$DRIVE_FILE_ID] ORPHAN: ${key} (${existing} bytes) is on R2 without a manifest entry" >&2
+  echo "::skip-reason::R2 object without manifest entry"
+  exit 4
 fi
 
 # Speed: download the source ONCE, extract the audio to a local file, run every

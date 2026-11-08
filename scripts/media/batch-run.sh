@@ -24,6 +24,7 @@ MAX_MINUTES="${MAX_MINUTES:-300}"
 
 : > results.failed.ndjson
 : > results.done.ndjson
+: > results.orphan.ndjson
 
 if [ ! -f "$PLAN" ]; then
   echo "batch-run: plan file '$PLAN' not found — nothing to do" >&2
@@ -69,11 +70,14 @@ while IFS= read -r fid || [ -n "$fid" ]; do
     reason="$(json_escape "$(printf '%s' "$out" | grep -oE '::skip-reason::.*' | head -n1 | sed 's/::skip-reason:://')")"
     [ -n "$reason" ] || reason="skipped"
     echo "{\"id\":\"$fid\",\"status\":\"skipped\",\"reason\":\"$reason\"}" >> results.ndjson
+  elif [ "$code" -eq 4 ]; then
+    # Exit 4 = R2 object without a manifest entry: recorded, job ends red later.
+    echo "{\"id\":\"$fid\",\"status\":\"orphan\",\"reason\":\"R2 object without manifest entry\"}" >> results.orphan.ndjson
   else
     reason="$(json_escape "$(printf '%s' "$out" | tail -n 3 | tr '\n' ' ')")"
     echo "{\"id\":\"$fid\",\"status\":\"failed\",\"reason\":\"transcode-one exit $code: $reason\"}" >> results.failed.ndjson
   fi
 done < "$PLAN"
 
-cat results.done.ndjson results.failed.ndjson >> results.ndjson || true
+cat results.done.ndjson results.failed.ndjson results.orphan.ndjson >> results.ndjson || true
 echo "batch finished: dispatched $count"
