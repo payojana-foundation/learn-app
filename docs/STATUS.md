@@ -81,3 +81,24 @@ page. All cells pass.
   **P-20** + unit tests with a fixture map. No real permanent ids invented.
 - CI: `lint-workflows.yml` runs actionlint on pushes to `main` touching `.github/**`.
 - Unit: Test Files 17 / Tests 119. e2e: PASS. `npm run check` clean locally.
+## bulk-05 — study companion (guide leaf, paths, branch) ✅
+- P1 (`9d0c8dc` regenerate served data, `050f3cf`): `data/paths.json` and
+  `data/guide-lines.json` (people edit `data/`, the build copies + hashes them to
+  `public/data/`; bad shape fails the build; unknown ids go to
+  `reports/paths-issues.csv`). Home "Start here" now reads path `start-here`
+  (`START_HERE` removed from `config.ts`; protected P-10 changed). IndexedDB v2
+  adds store `leaves` (one per finished course, never removed); first-run
+  backfill; Export includes leaves, Import merges; the alias rewrite moves leaves
+  (protected P-20 changed). Kids' classes c021-c024 and c080 use `moon-hare` via
+  `course_signs`, resolved through aliases at lookup time.
+- P2 (`c5818c4`): GuideLine (sign + one approved line) in 3 places; branch panel
+  at the top of `/my` (second branch from 13 leaves, no numbers, device note
+  always); draft SVGs in `public/brand/companion/` (bundled, so they work
+  offline); `e2e/companion.e2e.mjs`.
+- Fix (`126fec0`): km spacing in `my.branch.device_note`.
+- P3: protected **P-21..P-25** + contract tests (`companion-ui.contract.test.ts`).
+- All guide lines ship `approved:false`; `paths.json` ships hidden. Open: Khmer
+  reviewer approval of the lines and the 2 km UI strings (`[VERIFY]`); brand
+  replacement of the draft SVGs (same file names, `data-slot` 1..12).
+- Known: two shell-script tests (`push-with-retry`, `b3-loop`) can time out
+  (5000 ms) when the machine is busy; they pass on a rerun.

@@ -153,3 +153,43 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   `redirectAlias`, `src/app.ts`; alias merge in `scripts/build-courses.mjs`.
   Contract: `src/db/aliases.test.ts`; leaves: `src/db/leaves.test.ts` "alias
   rewrite of leaves". [from part Q5, bulk-02; leaves added bulk-05 P1]
+
+## Study companion (bulk-05)
+
+- **P-21** A guide line shows ONLY if its `approved` is `true` in
+  `guide-lines.json`. Unapproved, missing key, empty text, or a missing/malformed
+  file shows NOTHING (no fallback text, no placeholder). Unapproved lines show
+  only in a DEV build with `?guide=draft`, tagged DRAFT; never in production.
+  `guideLine`/`draftAllowed`, `src/data/companion.ts`; `guideLineHtml`,
+  `src/ui/companion.ts`. Contract: `src/contracts/__tests__/companion-ui.contract.test.ts`
+  "P-21". [from part bulk-05 P1/P2]
+- **P-22** The sign (SVG) is chosen from DATA, not code: `course_signs[course id]`
+  (a key written with an old provisional id still matches through
+  `aliases.json`; the file is never rewritten), else `default_sign`. A name that
+  is not a plain `.svg` file, or not in `public/brand/companion/`, falls back to
+  `default_sign` with a console warning. Code depends only on the sign file names
+  and, in `branch-draft.svg`, on `data-slot="1..12"`. `chooseSign`,
+  `src/data/companion.ts`; `signHtml`/`resolveSignFile`, `src/ui/companion.ts`.
+  Contract: "P-22". [from part bulk-05 P1/P2]
+- **P-23** A leaf (IndexedDB store `leaves`, key `course_id`, DB version 2) is
+  added once when every visible lesson of a course is done, and is NEVER
+  deleted or updated: not when a lesson is added to the course, not when a lesson
+  is un-marked, not by importing an older backup (Import merges leaves by
+  `course_id`; Export includes them), not by the provisional-id rewrite (the leaf
+  moves to the permanent key). The DB upgrade only adds the store. Writes happen
+  in one transaction, so two tabs cannot make two leaves.
+  `awardLeafIfFinished`/`backfillLeaves`/`importBackup`, `src/db/index.ts`;
+  `migrateAliases`, `src/db/aliases.ts`. Contract: "P-23" and `src/db/leaves.test.ts`,
+  `src/db/migration.test.ts`. [from part bulk-05 P1]
+- **P-24** The branch panel on `/my` shows no numbers, levels, percent,
+  comparison or empty slots: one leaf per finished course, slots above the count
+  are `display="none"`, 13+ leaves add a second branch. The device note is always
+  shown. `branchPanelHtml`/`branchesHtml`, `src/ui/companion.ts`. Contract:
+  "P-24". [from part bulk-05 P2]
+- **P-25** The Home "Start here" row reads ONLY path `start-here` in
+  `paths.json` (approved + at least one known id; else hidden). There is no
+  config fallback list. People edit `data/paths.json` and `data/guide-lines.json`,
+  never `public/data/`; the build copies and hashes them, and a bad shape fails
+  the build. `pathCourseIds`, `src/data/companion.ts`; `loadBase`, `src/app.ts`;
+  `scripts/companion-check.mjs`. Contract: "P-25" and "P-10" in
+  `companion.contract.test.ts`. [from part bulk-05 P1]
