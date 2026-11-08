@@ -12,6 +12,7 @@ import { t, topicLabel, TOPICS } from '../strings';
 import { num, time, esc, cleanForSearch, displayTitle } from '../format';
 import type { Catalog, CatalogCourse, Course, Lesson, Teacher } from '../data/catalog';
 import type { LessonProgress } from '../db';
+import { guideLineHtml, branchPanelHtml, type CompanionCtx } from './companion';
 
 export interface ProgressMap {
   // courseId → { lessonId → progress }
@@ -63,7 +64,8 @@ export function homeView(
   progress: ProgressMap,
   state: ViewState,
   startHere: string[],
-  history: { courseId: string; lessonId: string; lessonNum: number }[]
+  history: { courseId: string; lessonId: string; lessonNum: number }[],
+  companion?: CompanionCtx
 ): string {
   const { lang } = state;
   const cont = history
@@ -86,7 +88,7 @@ export function homeView(
 
   const startRow =
     startHere.length > 0
-      ? `<section><div class="sechead"><h2>${t('START_HERE', lang)}</h2></div><div class="hrow">${startHere
+      ? `<section><div class="sechead"><h2>${t('START_HERE', lang)}</h2></div>${guideLineHtml(companion, 'home.start_here', null)}<div class="hrow">${startHere
           .map((id) => catalog.courses.find((c) => c.id === id))
           .filter((c): c is CatalogCourse => !!c)
           .map((c) => courseCard(c, teacherBySlug.get(c.teacher_slug), progress, lang))
@@ -111,7 +113,8 @@ export function courseView(
   progress: ProgressMap,
   state: ViewState,
   filter: string,
-  lastLessonId: string | null
+  lastLessonId: string | null,
+  companion?: CompanionCtx
 ): string {
   const { lang } = state;
   const done = doneCountOf(progress, c.id);
@@ -152,6 +155,7 @@ export function courseView(
   <button class="who" data-nav="teacher" data-slug="${esc(c.teacher_slug)}">${teacher?.photo ? `<img src="/data/${esc(teacher.photo)}" alt="">` : ''}<span>${teacherName(teacher, lang)}</span></button>
   <div class="meta"><span>${num(c.lessons.length, lang)} ${t('LESSONS', lang)}</span></div>
   <div class="pbar"><i style="width:${pct}%"></i></div><div class="meta">${num(done, lang)}/${num(c.lessons.length, lang)} ${t('DONE', lang)} · ${num(pct, lang)}%</div>
+  ${companion?.hasLeaf ? guideLineHtml(companion, 'course.finished', c.id) : ''}
   <div class="row"><button class="btn" data-nav="lesson" data-id="${c.id}" data-lesson="${esc(target)}">${lastLessonId || pct ? `${t('CONT_LESSON', lang)} ${num(c.lessons.find((l) => l.id === target)?.num ?? '', lang)}` : t('START_COURSE', lang)}</button>
   <button class="btn ghost sm" data-save="${c.id}">${saved ? '★ ' + t('SAVED', lang) : '☆ ' + t('SAVE', lang)}</button><button class="btn ghost sm" data-share>${t('SHARE', lang)}</button></div></div>
   <section style="margin-top:20px"><form class="search" data-form="course-filter"><input name="f" type="search" value="${esc(filter)}" placeholder="${t('FILTER', lang)}" aria-label="${t('FILTER', lang)}"></form>
@@ -281,7 +285,8 @@ export function myView(
   state: ViewState,
   savedIds: string[],
   history: { courseId: string; lessonId: string; lessonNum: number; at: number }[],
-  notes: { courseId: string; lessonId: string; lessonNum: number; atS: number; text: string }[]
+  notes: { courseId: string; lessonId: string; lessonNum: number; atS: number; text: string }[],
+  companion?: CompanionCtx
 ): string {
   const { lang } = state;
   const tabs: [MyTab, string][] = [
@@ -324,7 +329,7 @@ export function myView(
       : '';
   }
 
-  return `<h1>${t('TAB_MY', lang)}</h1><div class="tabs" style="margin:12px 0">${tabs.map(([k, n]) => `<button data-mtab="${k}" aria-pressed="${tab === k}">${n}</button>`).join('')}</div><div class="stack">${b || `<div class="empty">${t('NOTHING', lang)}</div>`}</div>`;
+  return `<h1>${t('TAB_MY', lang)}</h1>${branchPanelHtml(companion)}<div class="tabs" style="margin:12px 0">${tabs.map(([k, n]) => `<button data-mtab="${k}" aria-pressed="${tab === k}">${n}</button>`).join('')}</div><div class="stack">${b || `<div class="empty">${t('NOTHING', lang)}</div>`}</div>`;
 }
 
 export function moreView(lang: Lang): string {

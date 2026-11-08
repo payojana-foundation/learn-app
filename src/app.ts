@@ -9,7 +9,8 @@
 
 import { initLang, setLang, type Lang } from './lang';
 import { VACANA_BASE_URL, LIBRARY_BASE_URL } from './config';
-import { pathCourseIds } from './data/companion';
+import { pathCourseIds, draftAllowed } from './data/companion';
+import type { CompanionCtx } from './ui/companion';
 import { t, STRINGS, displayString } from './strings';
 import { cleanForSearch, esc } from './format';
 import { parseRoute, routePath, tabForRoute, type Route } from './router';
@@ -20,6 +21,7 @@ import {
   getCourse,
   getAliasesFile,
   getPathsFile,
+  getGuideLinesFile,
   type Catalog,
   type Course,
   type Teacher,
@@ -39,6 +41,7 @@ import {
   importBackup,
   awardLeafIfFinished,
   backfillLeaves,
+  listLeaves,
 } from './db';
 import { renderVersionLabel } from './version-label';
 import { createPlayer, setMediaMetadata, SPEEDS, SLEEP_OPTIONS, type PlayerHandle } from './audio/player';
@@ -74,6 +77,9 @@ let teachers: Teacher[] = [];
 let aliases: AliasMap = {};
 /** Course ids of the approved "start-here" path (known ids only); [] = row hidden. */
 let startHereIds: string[] = [];
+let guideFile: Awaited<ReturnType<typeof getGuideLinesFile>> = null;
+/** DEV build only: ?guide=draft seen at start; sticky across in-app navigation. */
+let guideDraft = false;
 const teacherBySlug = new Map<string, Teacher>();
 const courseCache = new Map<string, Course>();
 let cur: { courseId: string; lessonId: string } | null = null;
@@ -91,6 +97,12 @@ async function loadBase(): Promise<void> {
   for (const tc of teachers) teacherBySlug.set(tc.slug, tc);
   const known = new Set((catalog?.courses ?? []).map((c) => c.id));
   startHereIds = pathCourseIds(await getPathsFile(), 'start-here', known);
+  guideFile = await getGuideLinesFile();
+}
+
+/** What the screens need to draw the guide leaf and the branch. */
+function companionCtx(extra: Pick<CompanionCtx, 'hasLeaf' | 'leafCount'> = {}): CompanionCtx {
+  return { lang: state.lang, guide: guideFile, aliases, draft: guideDraft, ...extra };
 }
 
 /** After a completion change: add the course's leaf once if every visible lesson is done. */
@@ -203,7 +215,7 @@ async function render(): Promise<void> {
   if (route.name === 'home') {
     const prog = await catalogProgress();
     const hist = (await listHistory()).map((h) => ({ courseId: h.courseId, lessonId: h.lessonId, lessonNum: h.lessonNum }));
-    html = V.homeView(catalog, teachers, teacherBySlug, prog, viewState(savedIds), startHereIds, hist);
+    html = V.homeView(catalog, teachers, teacherBySlug, prog, viewState(savedIds), startHereIds, hist, companionCtx());
   } else if (route.name === 'course') {
     const c = await course(route.id);
     if (!c) html = V.notFoundView(state.lang);
@@ -211,7 +223,7 @@ async function render(): Promise<void> {
       const prog = await progressMap([c.id]);
       const hist = await listHistory();
       const last = hist.find((h) => h.courseId === c.id)?.lessonId ?? null;
-      html = V.courseView(c, teacherBySlug.get(c.teacher_slug), prog, viewState(savedIds), state.courseFilter, last);
+      html = V.courseView(c, teacherBySlug.get(c.teacher_slug), prog, viewState(savedIds), state.courseFilter, last, companionCtx({ hasLeaf: (await listLeaves()).some((l) => l.course_id === c.id) }));
     }
   } else if (route.name === 'lesson') {
     const c = await course(route.id);
@@ -286,7 +298,7 @@ async function renderMy(savedIds: Set<string>): Promise<string> {
   const saved = await listSaved();
   const hist = await listHistory();
   const notes = await listNotes();
-  return V.myView(state.myTab, catalog, teacherBySlug, prog, viewState(savedIds), saved, hist, notes);
+  return V.myView(state.myTab, catalog, teacherBySlug, prog, viewState(savedIds), saved, hist, notes, companionCtx({ leafCount: (await listLeaves()).length }));
 }
 
 function renderTabbar(): void {
@@ -588,6 +600,7 @@ function updateHeader(): void {
 /** App entry: resolve language, load data, wire events, render the first route. */
 export async function startApp(): Promise<void> {
   state.lang = initLang();
+  guideDraft = draftAllowed(location.search);
   updateHeader();
   wireEvents();
   await loadBase();

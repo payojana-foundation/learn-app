@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+ viewBox="0 0 24 24" role="img"
+ aria-labelledby="t">
+<title id="t">draft visual - guide leaf</title>
+<path fill="#F26000" d="M12 1.5C6 6.5 4.5 13
+ 7 18c1.3 2.6 3 4 5 4.5 2-.5 3.7-1.9 5-4.5
+ 2.5-5 1-11.5-5-16.5Z"/>
+<path fill="none" stroke="#F6EFDD"
+ stroke-width="1.2" stroke-linecap="round"
+ d="M12 6v14"/>
+</svg>

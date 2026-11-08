@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+ viewBox="0 0 24 24" role="img"
+ aria-labelledby="t">
+<title id="t">draft visual - moon hare</title>
+<circle cx="12" cy="12" r="11" fill="#F26000"/>
+<g fill="#F6EFDD">
+<ellipse cx="13.5" cy="15.2" rx="5.2" ry="3.8"/>
+<circle cx="8.6" cy="12" r="2.7"/>
+<ellipse cx="8" cy="6.6" rx="1" ry="3.3"
+ transform="rotate(-14 8 6.6)"/>
+<ellipse cx="10" cy="6.9" rx="1" ry="3.1"
+ transform="rotate(12 10 6.9)"/>
+<circle cx="18.9" cy="14.2" r="1.2"/>
+<ellipse cx="10.4" cy="18.6" rx="2" ry=".9"/>
+</g>
+</svg>

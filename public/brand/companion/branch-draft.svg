@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 16 336 100" role="img" aria-labelledby="t">
+<title id="t">draft visual - study branch</title>
+<defs>
+<path id="bl" d="M0 0C-7-6-8-16 0-26C8-16 7-6 0 0Z"/>
+</defs>
+<path d="M12 100C100 70 200 104 308 44" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/>
+<g fill="#F26000">
+<use href="#bl" class="slot" data-slot="1" transform="translate(44 92) rotate(29)"/>
+<use href="#bl" class="slot" data-slot="2" transform="translate(64 89) rotate(133)"/>
+<use href="#bl" class="slot" data-slot="3" transform="translate(84 87) rotate(36)"/>
+<use href="#bl" class="slot" data-slot="4" transform="translate(105 85) rotate(137)"/>
+<use href="#bl" class="slot" data-slot="5" transform="translate(125 85) rotate(38)"/>
+<use href="#bl" class="slot" data-slot="6" transform="translate(147 84) rotate(137)"/>
+<use href="#bl" class="slot" data-slot="7" transform="translate(168 82) rotate(36)"/>
+<use href="#bl" class="slot" data-slot="8" transform="translate(190 80) rotate(133)"/>
+<use href="#bl" class="slot" data-slot="9" transform="translate(212 77) rotate(30)"/>
+<use href="#bl" class="slot" data-slot="10" transform="translate(234 73) rotate(127)"/>
+<use href="#bl" class="slot" data-slot="11" transform="translate(257 66) rotate(22)"/>
+<use href="#bl" class="slot" data-slot="12" transform="translate(308 44) rotate(61)"/>
+</g>
+</svg>
