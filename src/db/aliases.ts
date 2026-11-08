@@ -67,7 +67,8 @@ export async function migrateAliases(aliases: AliasMap): Promise<number> {
   const aliasOf = new Map(pairs);
 
   const db = await openLearnDB();
-  const tx = db.transaction(['progress', 'saved', 'history', 'notes'], 'readwrite');
+  const tx = db.transaction(['progress', 'saved', 'history', 'notes', 'leaves'], 'readwrite');
+  const leaves = tx.objectStore('leaves');
   const progress = tx.objectStore('progress');
   const saved = tx.objectStore('saved');
   const history = tx.objectStore('history');
@@ -118,6 +119,20 @@ export async function migrateAliases(aliases: AliasMap): Promise<number> {
     if (!to) continue;
     await notes.put({ ...rec, courseId: to, lessonId: rewriteLessonId(rec.lessonId, rec.courseId, to) });
     moved++;
+  }
+
+  // leaves (bulk-05; key = course_id): the leaf moves to the permanent key. If
+  // the permanent key already has a leaf, that one stays (a leaf is never
+  // lost: one leaf per course either way).
+  for (const rec of await leaves.getAll()) {
+    const to = aliasOf.get(rec.course_id);
+    if (!to) continue;
+    const exists = await leaves.get(to);
+    await leaves.delete(rec.course_id);
+    if (!exists) {
+      await leaves.put({ ...rec, course_id: to });
+      moved++;
+    }
   }
 
   await tx.done;

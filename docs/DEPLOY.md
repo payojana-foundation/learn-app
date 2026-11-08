@@ -52,7 +52,7 @@ the defaults below are the "nothing yet" state.
 
 | Constant | Type | Default | What it does |
 |---|---|---|---|
-| `START_HERE` | `string[]` | `[]` | Course ids featured in the Home "Start here" row. **Empty = the row is hidden.** Put the chosen course ids here, e.g. `['c007', 'c012']`. |
+| `START_HERE` | (removed) | n/a | Moved in bulk-05: the Home "Start here" row now reads path `start-here` in `data/paths.json` (`course_ids`, `approved`). **Empty or `approved:false` = the row is hidden.** See `docs/data-contract.md`. |
 | `FEEDBACK_URL` | `string` | `''` | Destination for the "Send feedback" row in More (a `mailto:` or form URL). **Empty = the row is hidden.** |
 | `OFFLINE_ALLOWED` | `boolean` | `false` | Whether offline listening is offered. v1 is streaming only, so `false`. Flip to `true` only when offline media actually ships. |
 

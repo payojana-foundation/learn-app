@@ -14,6 +14,7 @@ import type { Manifest } from './types';
 import { fetchManifest } from './manifest';
 import { loadFile } from './loader';
 import { getDataFile } from '../db';
+import { isPathsFile, isGuideLinesFile, type PathsFile, type GuideLinesFile } from './companion';
 import { devLog } from '../devlog';
 
 export interface CatalogCourse {
@@ -105,6 +106,19 @@ export function getCourse(id: string): Promise<Course | null> {
 /** The provisional→permanent id alias map (served public/data/aliases.json). */
 export function getAliasesFile(): Promise<Record<string, string> | null> {
   return syncAndRead<Record<string, string>>('aliases');
+}
+
+/**
+ * Study-companion files (bulk-05). Same hash-verified path as the catalog; a
+ * hash-valid but malformed file reads as null (= empty: row hidden, no text).
+ */
+export async function getPathsFile(): Promise<PathsFile | null> {
+  const v = await syncAndRead<unknown>('paths');
+  return isPathsFile(v) ? v : null;
+}
+export async function getGuideLinesFile(): Promise<GuideLinesFile | null> {
+  const v = await syncAndRead<unknown>('guide-lines');
+  return isGuideLinesFile(v) ? v : null;
 }
 
 /** TEST-ONLY: drop the cached manifest promise so a test can re-sync. */

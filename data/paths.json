@@ -1,0 +1,12 @@
+{
+  "version": 1,
+  "paths": [
+    {
+      "id": "start-here",
+      "title_km": null,
+      "title_en": null,
+      "course_ids": [],
+      "approved": false
+    }
+  ]
+}

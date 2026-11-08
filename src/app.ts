@@ -8,7 +8,8 @@
  */
 
 import { initLang, setLang, type Lang } from './lang';
-import { VACANA_BASE_URL, LIBRARY_BASE_URL, START_HERE } from './config';
+import { VACANA_BASE_URL, LIBRARY_BASE_URL } from './config';
+import { pathCourseIds } from './data/companion';
 import { t, STRINGS, displayString } from './strings';
 import { cleanForSearch, esc } from './format';
 import { parseRoute, routePath, tabForRoute, type Route } from './router';
@@ -18,6 +19,7 @@ import {
   getTeachersFile,
   getCourse,
   getAliasesFile,
+  getPathsFile,
   type Catalog,
   type Course,
   type Teacher,
@@ -35,6 +37,8 @@ import {
   listNotesFor,
   exportBackup,
   importBackup,
+  awardLeafIfFinished,
+  backfillLeaves,
 } from './db';
 import { renderVersionLabel } from './version-label';
 import { createPlayer, setMediaMetadata, SPEEDS, SLEEP_OPTIONS, type PlayerHandle } from './audio/player';
@@ -68,6 +72,8 @@ const state: AppState = {
 let catalog: Catalog | null = null;
 let teachers: Teacher[] = [];
 let aliases: AliasMap = {};
+/** Course ids of the approved "start-here" path (known ids only); [] = row hidden. */
+let startHereIds: string[] = [];
 const teacherBySlug = new Map<string, Teacher>();
 const courseCache = new Map<string, Course>();
 let cur: { courseId: string; lessonId: string } | null = null;
@@ -83,6 +89,36 @@ async function loadBase(): Promise<void> {
   teachers = tf?.teachers ?? [];
   teacherBySlug.clear();
   for (const tc of teachers) teacherBySlug.set(tc.slug, tc);
+  const known = new Set((catalog?.courses ?? []).map((c) => c.id));
+  startHereIds = pathCourseIds(await getPathsFile(), 'start-here', known);
+}
+
+/** After a completion change: add the course's leaf once if every visible lesson is done. */
+async function checkLeaf(courseId: string): Promise<void> {
+  const c = courseCache.get(courseId) ?? (await course(courseId));
+  if (!c) return;
+  try {
+    await awardLeafIfFinished(courseId, c.lessons.map((l) => l.id));
+  } catch (err) {
+    devLog('leaf check failed', err);
+  }
+}
+
+/** First run after the update: leaves for courses that are already finished. */
+async function backfillLeavesOnce(): Promise<void> {
+  if (!catalog) return;
+  try {
+    const prog = await catalogProgress();
+    const candidates = catalog.courses
+      .filter((c) => {
+        const done = Object.values(prog[c.id] ?? {}).filter((x) => x.done).length;
+        return c.lesson_count > 0 && done >= c.lesson_count;
+      })
+      .map((c) => c.id);
+    await backfillLeaves(candidates, async (id) => (await course(id))?.lessons.map((l) => l.id) ?? null);
+  } catch (err) {
+    devLog('leaf backfill failed', err);
+  }
 }
 
 async function course(id: string): Promise<Course | null> {
@@ -167,7 +203,7 @@ async function render(): Promise<void> {
   if (route.name === 'home') {
     const prog = await catalogProgress();
     const hist = (await listHistory()).map((h) => ({ courseId: h.courseId, lessonId: h.lessonId, lessonNum: h.lessonNum }));
-    html = V.homeView(catalog, teachers, teacherBySlug, prog, viewState(savedIds), START_HERE, hist);
+    html = V.homeView(catalog, teachers, teacherBySlug, prog, viewState(savedIds), startHereIds, hist);
   } else if (route.name === 'course') {
     const c = await course(route.id);
     if (!c) html = V.notFoundView(state.lang);
@@ -293,7 +329,7 @@ async function mountPlayerIfR2(): Promise<void> {
       if (posEl) posEl.textContent = fmt(pos);
       if (durEl && dur) durEl.textContent = fmt(dur);
     },
-    onComplete: () => void setLessonProgress(c.id, l.id, { done: true }),
+    onComplete: () => void setLessonProgress(c.id, l.id, { done: true }).then(() => checkLeaf(c.id)),
     onEnded: () => {
       const idx = c.lessons.indexOf(l);
       const nx = c.lessons[idx + 1];
@@ -441,7 +477,9 @@ function wireEvents(): void {
     }
     if (d.done != null && cur) {
       void getLessonProgress(cur.courseId, cur.lessonId).then((pp) =>
-        setLessonProgress(cur!.courseId, cur!.lessonId, { done: !pp.done }).then(() => render())
+        setLessonProgress(cur!.courseId, cur!.lessonId, { done: !pp.done })
+          .then(() => checkLeaf(cur!.courseId))
+          .then(() => render())
       );
       return;
     }
@@ -560,6 +598,7 @@ export async function startApp(): Promise<void> {
   } catch (err) {
     devLog('alias migration failed', err);
   }
+  await backfillLeavesOnce();
   state.route = redirectAlias(parseRoute(location.pathname, location.search));
   // topic deep link on /courses/?topic=
   const topicParam = new URLSearchParams(location.search).get('topic');

@@ -94,3 +94,50 @@ All issues are written to `reports/course-issues.csv` (untracked working note).
 `src/contracts/__tests__/` holds tests that assert the output shape and the
 rules above against a small fixture (never the real titles). A failing contract
 test means the built shape drifted — fix the build, never the test.
+
+## Study companion files (bulk-05)
+
+**People edit `data/paths.json` and `data/guide-lines.json`, never
+`public/data/`.** The build copies both byte-for-byte to `public/data/`, lists
+them in `manifest.json` under the keys `paths` and `guide-lines` (with SHA-256),
+and the app loads them through the same hash-verified path as the catalog.
+
+### `paths.json`
+```
+{ "version": 1, "paths": [
+  { "id": "start-here", "title_km": null, "title_en": null,
+    "course_ids": [], "approved": false } ] }
+```
+- `course_ids` are ordered course ids; titles are `null` or text people wrote.
+- The Home "Start here" row reads path `start-here`. Empty `course_ids` or
+  `approved: false` = row hidden. Unknown course ids are skipped by the app.
+- No other path UI yet.
+
+### `guide-lines.json`
+```
+{ "version": 1, "default_sign": "leaf-sign-draft.svg",
+  "course_signs": { "<course id>": "<file>.svg" },
+  "lines": { "<key>": { "km": "...", "en": "...", "approved": false } } }
+```
+- Keys in use: `home.start_here`, `course.finished`, `my.branch.empty`.
+- **A line shows only if `approved` is `true`.** Unapproved or missing = nothing
+  is shown (no fallback text). In a DEV build only, `?guide=draft` also shows
+  unapproved lines with a DRAFT tag; production never does.
+- Sign: `course_signs[course id]`, else `default_sign`. Files live in
+  `public/brand/companion/`. A plain `.svg` file name is required; anything
+  else falls back to `default_sign` with a console warning.
+- A `course_signs` key written with an old (provisional) id still works after
+  the id is rewritten: the app resolves it through `aliases.json` when it
+  looks the sign up. The file is never rewritten by code.
+
+### Build checks
+- Bad shape in either file → **build fails** (no bad file gets a hash). The app
+  also treats a malformed file as empty.
+- Unknown course ids in `paths.json`, or `course_signs` keys that are neither in
+  the catalogue nor an alias of a catalogue id, are listed in
+  `reports/paths-issues.csv` (untracked). They are not build failures.
+
+### Leaves (device only, not a data file)
+IndexedDB store `leaves` (DB version 2): key `course_id`, value
+`{ course_id, at }`. One per finished course, added once, never updated or
+removed. Included in Export; Import merges by `course_id`.

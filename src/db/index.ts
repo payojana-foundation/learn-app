@@ -55,6 +55,10 @@ export interface LearnDB extends DBSchema {
       createdAt: number;
     };
   };
+  leaves: {
+    key: string; // course id
+    value: { course_id: string; at: number };
+  };
   settings: {
     key: string;
     value: unknown;
@@ -84,6 +88,10 @@ export function openLearnDB(): Promise<IDBPDatabase<LearnDB>> {
         db.createObjectStore('settings');
         db.createObjectStore('files');
         db.createObjectStore('dataHashes');
+      }
+      // v2 (bulk-05): leaves, one per finished course. Adds a store only.
+      if (oldVersion < 2) {
+        db.createObjectStore('leaves', { keyPath: 'course_id' });
       }
     },
   });
@@ -247,6 +255,104 @@ export async function listNotesFor(courseId: string, lessonId: string): Promise<
   return (await listNotes()).filter((n) => n.courseId === courseId && n.lessonId === lessonId);
 }
 
+// ── Leaves (bulk-05): one per finished course, never removed ────────────────
+
+export interface Leaf {
+  course_id: string;
+  at: number;
+}
+
+/**
+ * PURE: is every listed (visible) lesson marked done? An empty list is never
+ * "finished". Progress for lessons not in the list is ignored.
+ */
+export function isCourseFinished(
+  lessons: Record<string, { done: boolean }> | undefined,
+  visibleLessonIds: string[]
+): boolean {
+  if (!visibleLessonIds.length) return false;
+  return visibleLessonIds.every((id) => lessons?.[id]?.done === true);
+}
+
+/**
+ * Add the course's leaf once, if every visible lesson is done. One read-write
+ * transaction over progress + leaves: a second tab's call sees the existing
+ * key and does nothing, so there are never two leaves. An existing leaf is
+ * never updated or deleted. Returns true only when a leaf was added now.
+ */
+export async function awardLeafIfFinished(
+  courseId: string,
+  visibleLessonIds: string[],
+  at: number = Date.now()
+): Promise<boolean> {
+  const db = await openLearnDB();
+  const tx = db.transaction(['progress', 'leaves'], 'readwrite');
+  const leaves = tx.objectStore('leaves');
+  let added = false;
+  if (!(await leaves.get(courseId))) {
+    const rec = await tx.objectStore('progress').get(courseId);
+    if (isCourseFinished(rec?.lessons, visibleLessonIds)) {
+      await leaves.add({ course_id: courseId, at });
+      added = true;
+    }
+  }
+  await tx.done;
+  return added;
+}
+
+/** All leaves, oldest first (the branch order). */
+export async function listLeaves(): Promise<Leaf[]> {
+  const db = await openLearnDB();
+  const all = await db.getAll('leaves');
+  return all.sort((a, b) => a.at - b.at || a.course_id.localeCompare(b.course_id));
+}
+
+/** Settings key: the first-run leaf backfill has completed. */
+export const LEAVES_BACKFILL_KEY = 'leavesBackfilled';
+
+/**
+ * First run after the update: add leaves for courses already finished. The
+ * lesson ids come from `visibleIdsOf` (the course file, resolved OUTSIDE the
+ * transaction because IndexedDB closes a transaction that awaits the network),
+ * then ALL leaves are written in ONE transaction, add-if-absent. Marks itself
+ * done only when every candidate could be resolved, so an offline first run
+ * tries again later. Returns the number of leaves added.
+ *
+ * @param candidates   course ids worth checking (e.g. progress.done >= lesson_count)
+ * @param visibleIdsOf lesson ids of a course, or null if its file is unavailable
+ */
+export async function backfillLeaves(
+  candidates: string[],
+  visibleIdsOf: (courseId: string) => Promise<string[] | null>
+): Promise<number> {
+  const db = await openLearnDB();
+  if (await db.get('settings', LEAVES_BACKFILL_KEY)) return 0;
+
+  const resolved: { id: string; ids: string[] }[] = [];
+  let allResolved = true;
+  for (const id of candidates) {
+    const ids = await visibleIdsOf(id);
+    if (ids) resolved.push({ id, ids });
+    else allResolved = false;
+  }
+
+  const tx = db.transaction(['progress', 'leaves', 'settings'], 'readwrite');
+  const progress = tx.objectStore('progress');
+  const leaves = tx.objectStore('leaves');
+  let added = 0;
+  for (const { id, ids } of resolved) {
+    if (await leaves.get(id)) continue;
+    const rec = await progress.get(id);
+    if (isCourseFinished(rec?.lessons, ids)) {
+      await leaves.add({ course_id: id, at: rec?.updatedAt || Date.now() });
+      added++;
+    }
+  }
+  if (allResolved) await tx.objectStore('settings').put(true, LEAVES_BACKFILL_KEY);
+  await tx.done;
+  return added;
+}
+
 // ── Export / Import backup (More tab) ───────────────────────────────────────
 
 export interface Backup {
@@ -257,17 +363,20 @@ export interface Backup {
   saved: unknown[];
   history: unknown[];
   notes: unknown[];
+  /** Added in schema 2. An older backup has none; import then keeps local leaves. */
+  leaves?: unknown[];
   settings: Record<string, unknown>;
 }
 
 /** Export all USER stores (not cached data files) as one JSON object. */
 export async function exportBackup(): Promise<Backup> {
   const db = await openLearnDB();
-  const [progress, saved, history, notes] = await Promise.all([
+  const [progress, saved, history, notes, leaves] = await Promise.all([
     db.getAll('progress'),
     db.getAll('saved'),
     db.getAll('history'),
     db.getAll('notes'),
+    db.getAll('leaves'),
   ]);
   const settings: Record<string, unknown> = {};
   let cursor = await db.transaction('settings').store.openCursor();
@@ -275,14 +384,22 @@ export async function exportBackup(): Promise<Backup> {
     settings[String(cursor.key)] = cursor.value;
     cursor = await cursor.continue();
   }
-  return { app: 'learn-app', schema: DB_VERSION, exported_at: new Date().toISOString(), progress, saved, history, notes, settings };
+  return { app: 'learn-app', schema: DB_VERSION, exported_at: new Date().toISOString(), progress, saved, history, notes, leaves, settings };
 }
 
 /** Import a backup, replacing the user stores. Rejects a backup from another app. */
 export async function importBackup(backup: Backup): Promise<void> {
   if (!backup || backup.app !== 'learn-app') throw new Error('not a learn-app backup');
   const db = await openLearnDB();
-  const tx = db.transaction(['progress', 'saved', 'history', 'notes', 'settings'], 'readwrite');
+  const tx = db.transaction(['progress', 'saved', 'history', 'notes', 'leaves', 'settings'], 'readwrite');
+  // Leaves are MERGED (union by course_id), never cleared: an older backup
+  // without `leaves` removes none, and an existing leaf is never overwritten.
+  const leavesStore = tx.objectStore('leaves');
+  for (const r of (backup.leaves ?? []) as Partial<Leaf>[]) {
+    if (r && typeof r.course_id === 'string' && typeof r.at === 'number' && !(await leavesStore.get(r.course_id))) {
+      await leavesStore.add({ course_id: r.course_id, at: r.at });
+    }
+  }
   await tx.objectStore('progress').clear();
   for (const r of backup.progress ?? []) await tx.objectStore('progress').put(r as never);
   await tx.objectStore('saved').clear();

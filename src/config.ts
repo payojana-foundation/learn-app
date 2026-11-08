@@ -37,12 +37,8 @@ export const LIBRARY_BASE_URL: string = trimBase(import.meta.env.VITE_LIBRARY_BA
  * invented — the defaults are the "nothing yet" state.
  */
 
-/**
- * "Start here" course ids. EMPTY = the Start here row on Home is hidden (P-10).
- * The coordinator sets the real picks; until then no unverified course is
- * promoted. (Moved here from src/strings.ts in R5.)
- */
-export const START_HERE: string[] = [];
+// "Start here" course ids now live in data/paths.json (path "start-here"),
+// not here (bulk-05 P1). Empty or approved=false = the row is hidden (P-10).
 
 /**
  * Feedback destination for the "Send feedback" row in More. EMPTY string = the
@@ -61,4 +57,4 @@ export const OFFLINE_ALLOWED: boolean = false;
 export const DB_NAME = 'learn-app' as const;
 
 /** IndexedDB schema version. Increment when the schema changes. */
-export const DB_VERSION = 1 as const;
+export const DB_VERSION = 2 as const;

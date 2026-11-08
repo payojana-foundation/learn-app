@@ -28,6 +28,7 @@ import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
+import { pathsShapeErrors, guideLinesShapeErrors, companionIssues, issuesCsv } from './companion-check.mjs';
 
 /**
  * Reproducible build stamp (R3, bulk-03). The served data must rebuild to the
@@ -445,6 +446,19 @@ function main() {
 
   const { catalog, courses, issues } = buildCourses(sourceCourses, teachers, mediaManifest, sharedSources, mediaOverrides);
 
+  // Study companion (bulk-05): data/paths.json + data/guide-lines.json are
+  // edited by people and copied VERBATIM to public/data/. A bad shape stops the
+  // build (before anything is written), so a bad file never gets a hash.
+  const pathsSrc = join(root, 'data', 'paths.json');
+  const guideSrc = join(root, 'data', 'guide-lines.json');
+  const pathsJson = JSON.parse(readFileSync(pathsSrc, 'utf-8'));
+  const guideJson = JSON.parse(readFileSync(guideSrc, 'utf-8'));
+  const shapeErrs = [...pathsShapeErrors(pathsJson), ...guideLinesShapeErrors(guideJson)];
+  if (shapeErrs.length) {
+    console.error('BUILD FAILED — companion data has a bad shape:\n  ' + shapeErrs.join('\n  '));
+    process.exit(1);
+  }
+
   // Output directories.
   mkdirSync(coursesOut, { recursive: true });
   mkdirSync(photosOut, { recursive: true });
@@ -473,6 +487,11 @@ function main() {
   writeJson(join(outDir, 'teachers.json'), teachersOut);
   writeJson(join(outDir, 'aliases.json'), aliasMap); // merged from data/id-aliases.json (empty until permanent ids)
 
+  copyFileSync(pathsSrc, join(outDir, 'paths.json'));
+  copyFileSync(guideSrc, join(outDir, 'guide-lines.json'));
+  files.paths = { file: 'paths.json', updated: generated, sha256: sha256File(join(outDir, 'paths.json')) };
+  files['guide-lines'] = { file: 'guide-lines.json', updated: generated, sha256: sha256File(join(outDir, 'guide-lines.json')) };
+
   files.catalog = { file: 'catalog.json', updated: generated, sha256: sha256File(join(outDir, 'catalog.json')) };
   files.teachers = { file: 'teachers.json', updated: generated, sha256: sha256File(join(outDir, 'teachers.json')) };
   files.aliases = { file: 'aliases.json', updated: generated, sha256: sha256File(join(outDir, 'aliases.json')) };
@@ -485,6 +504,12 @@ function main() {
     (i) => `${i.course_id},${i.lesson_num},${i.kind},"${String(i.detail).replace(/"/g, '""')}"`
   );
   writeFileSync(join(reportsDir, 'course-issues.csv'), [header, ...rows].join('\n') + '\n', 'utf-8');
+
+  // Companion issues (untracked): unknown course ids in paths / course_signs.
+  const catalogIds = new Set(catalog.courses.map((c) => c.id));
+  const compRows = companionIssues(pathsJson, guideJson, catalogIds, aliasMap);
+  writeFileSync(join(reportsDir, 'paths-issues.csv'), issuesCsv(compRows), 'utf-8');
+  console.log(`reports/paths-issues.csv written (${compRows.length} rows)`);
 
   // Summary.
   const hard = issues.filter(isHardFail);

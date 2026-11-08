@@ -1,0 +1,28 @@
+{
+  "version": 1,
+  "default_sign": "leaf-sign-draft.svg",
+  "course_signs": {
+    "c021": "moon-hare-draft.svg",
+    "c022": "moon-hare-draft.svg",
+    "c023": "moon-hare-draft.svg",
+    "c024": "moon-hare-draft.svg",
+    "c080": "moon-hare-draft.svg"
+  },
+  "lines": {
+    "home.start_here": {
+      "km": "មិនដឹងចាប់ផ្តើមពីណា? សូមចាប់ផ្តើមពីទីនេះ។",
+      "en": "Not sure where to begin? Start here.",
+      "approved": false
+    },
+    "course.finished": {
+      "km": "អ្នកបានសិក្សាថ្នាក់នេះចប់ហើយ។ ស្លឹកថ្មីមួយបានដុះលើមែករបស់អ្នក។",
+      "en": "You have finished this class. A new leaf has grown on your branch.",
+      "approved": false
+    },
+    "my.branch.empty": {
+      "km": "មែកនេះនឹងដុះស្លឹកមួយ រាល់ពេលអ្នកសិក្សាថ្នាក់មួយចប់។",
+      "en": "This branch grows one leaf each time you finish a class.",
+      "approved": false
+    }
+  }
+}

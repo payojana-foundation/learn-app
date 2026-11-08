@@ -466,6 +466,16 @@
       "updated": "2026-11-08T20:46:20.000Z",
       "sha256": "649c27c83e59bbd7be45475545756e31a6ae7efe9200165941aa4e0eccc9164a"
     },
+    "paths": {
+      "file": "paths.json",
+      "updated": "2026-11-08T20:46:20.000Z",
+      "sha256": "6cc7c32595eb20f9e25a4658feda7f776434c6327945935bd701808593d9eaf4"
+    },
+    "guide-lines": {
+      "file": "guide-lines.json",
+      "updated": "2026-11-08T20:46:20.000Z",
+      "sha256": "6a8672deaec1f0255d967189a0326048f3a949aba81a8b8bfc64b692621e7000"
+    },
     "catalog": {
       "file": "catalog.json",
       "updated": "2026-11-08T20:46:20.000Z",

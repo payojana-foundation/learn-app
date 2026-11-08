@@ -66,8 +66,13 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   teacher(s) all map to the Home tab. `tabForRoute`, `src/router.ts`;
   `renderTabbar`, `src/app.ts`. [from part P4]
 - **P-10** The Continue row shows only for a returning learner (history
-  present); the Start here row is driven by `START_HERE` (empty = row hidden).
-  `homeView`, `src/ui/views.ts`; `START_HERE`, `src/strings.ts`. [from part P4]
+  present); the Start here row is driven by path `start-here` in
+  `data/paths.json` (served as `public/data/paths.json`): empty `course_ids`,
+  `approved=false`, or no known id = row hidden. `homeView`, `src/ui/views.ts`;
+  `pathCourseIds`, `src/data/companion.ts`; `loadBase`, `src/app.ts`. Contract:
+  `src/contracts/__tests__/companion.contract.test.ts` "P-10". [from part P4;
+  changed in bulk-05 P1, change protected: P-10 — was `START_HERE` in
+  `src/config.ts`, now removed]
 - **P-11** Course page: progress bar + %, Start/Continue button, ticks per
   lesson, lessons in sections of 20, a find-in-course box (substring on the
   stored title or exact num), Save and Share (Share copies the page URL).
@@ -137,7 +142,8 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
 - **P-20** `data/id-aliases.json` (empty `{}` now) is the SOURCE alias map
   (provisional course id → permanent); the build copies it verbatim into the
   served `public/data/aliases.json`. On app start the app reads the served file
-  and moves IndexedDB user data (progress/saved/history/notes) from a
+  and moves IndexedDB user data (progress/saved/history/notes and, since
+  bulk-05 P1, `leaves` keyed by `course_id`; change protected: P-20) from a
   provisional key to its permanent key ONCE, inside ONE transaction,
   idempotently — a record is moved only if it still lives under the provisional
   key, an existing permanent record is never clobbered, and a second run is a
@@ -145,4 +151,5 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   the permanent id via `history.replaceState`. No real permanent ids are
   invented. `migrateAliases`/`resolveAlias`/`rewriteLessonId`, `src/db/aliases.ts`;
   `redirectAlias`, `src/app.ts`; alias merge in `scripts/build-courses.mjs`.
-  Contract: `src/db/aliases.test.ts`. [from part Q5, bulk-02]
+  Contract: `src/db/aliases.test.ts`; leaves: `src/db/leaves.test.ts` "alias
+  rewrite of leaves". [from part Q5, bulk-02; leaves added bulk-05 P1]
