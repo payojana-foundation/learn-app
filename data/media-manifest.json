@@ -9646,5 +9646,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MAnL23qhoye4AQWfp9hAeIIZmOeXqFX5",
+    "drive_name": "៣៦ អារម្មណសង្គហ ចែកទ្វារិកចិត្តនឹងអារម្មណ៍៦.mp3",
+    "source_md5": "03addaf1d40b2e672eba21d91b1a7106",
+    "key": "audio/03addaf1d40b2e67-a64.mp3",
+    "bytes": 40477509,
+    "duration_s": 5059,
+    "sha256": "2be767b1a8d5ffbd5ff9497c6b6f0a2b823f949805ebbdec22eb5174c66210bf",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 6.800000000000001,
+      "limit": 0.6,
+      "depth": 8.036974992327128,
+      "busy": 5.31212633284911,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
