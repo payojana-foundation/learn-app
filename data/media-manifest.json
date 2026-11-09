@@ -6224,5 +6224,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Y8cZte4PGiZuSSdJT2MtVdOzYhNsxPor",
+    "drive_name": "១២ ចែកសព្វចិត្តសាធារណចេតសិកដោយន័យផ្សេងៗ.m4a",
+    "source_md5": "f7522428e66f77184bfb6c562dc8929d",
+    "key": "audio/f7522428e66f7718-a64.mp3",
+    "bytes": 38363471,
+    "duration_s": 4795,
+    "sha256": "eabfbb04ca76d9329b949a0de0bd9c182fb634d955b7cdbcd55cbd6b47dcba25",
+    "loudness": {
+      "pass1": {
+        "I": -21.2,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 4.799999999999997,
+      "limit": 0.6,
+      "depth": 9.336974992327125,
+      "busy": 6.275284647787463,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
