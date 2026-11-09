@@ -14663,5 +14663,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1j2IURlI-XEFbyjzfJFjFYA1SyergEc8J",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ២៥ កិច្ចសង្គហៈ ចិត្តធ្វើកិច្ចផ្សេងមាន ៥ ន័យ.mp3",
+    "source_md5": "453321224ae013828e597402a0fe5ad9",
+    "key": "audio/453321224ae01382-a64.mp3",
+    "bytes": 41383644,
+    "duration_s": 5172,
+    "sha256": "6448952f245b32d33d0a56a59e512968e4c42b74fd1c868a73883236dcc5fdfa",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 7.5,
+      "limit": 0.6,
+      "depth": 9.736974992327127,
+      "busy": 4.068317578147654,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
