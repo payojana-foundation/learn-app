@@ -205,8 +205,10 @@ section + section { margin-top: 28px; }
 .note { border: 1px solid var(--line); background: var(--panel); border-radius: 8px; padding: 10px 12px; display: flex; gap: 10px; }
 .note .ts { font: 600 0.8rem var(--f-ui); color: var(--ink); background: var(--ph); border: 0; border-radius: 4px; padding: 1px 6px; height: fit-content; font-variant-numeric: tabular-nums; }
 textarea { width: 100%; min-height: 64px; font: inherit; color: var(--ink); background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 8px 10px; }
-.tabs { display: flex; gap: 4px; border-bottom: 1px solid var(--line); overflow-x: auto; }
-.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 6px 10px; white-space: nowrap; }
+/* bulk-07 P4: four equal columns that always fit; a long label wraps inside its
+   own column instead of being cut off or scrolling sideways. */
+.tabs { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2px; border-bottom: 1px solid var(--line); }
+.tabs button { background: none; border: 0; border-bottom: 2px solid transparent; padding: 6px 2px; min-width: 0; min-height: 44px; font-size: 0.9rem; line-height: 1.45; text-align: center; white-space: normal; overflow-wrap: anywhere; }
 .tabs button[aria-pressed="true"] { border-bottom-color: var(--ink); font-weight: 700; }
 .res { list-style: none; margin: 0; padding: 0; }
 .res li + li { border-top: 1px solid var(--line); }
@@ -223,7 +225,7 @@ mark { background: var(--hl); color: inherit; }
 
 .dock { position: fixed; left: 0; right: 0; bottom: 0; z-index: 30; background: var(--bar); backdrop-filter: blur(8px); border-top: 1px solid var(--line); }
 #tabbar { max-width: var(--content-max); margin: 0 auto; display: grid; grid-template-columns: repeat(4, 1fr); }
-#tabbar button { background: none; border: 0; padding: 9px 2px; display: flex; flex-direction: column; align-items: center; gap: 1px; font-size: 0.72rem; color: var(--muted); }
+#tabbar button { background: none; border: 0; padding: 9px 2px; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 1px; font-size: 0.72rem; color: var(--muted); min-width: 0; min-height: 44px; line-height: 1.4; text-align: center; overflow-wrap: anywhere; }
 #tabbar button[aria-current="page"] { color: var(--ink); font-weight: 700; }
 .mini { max-width: var(--content-max); margin: 0 auto; display: flex; align-items: center; gap: 10px; padding: 8px 16px; border-bottom: 1px solid var(--line); }
 .mini .mt { flex: 1; min-width: 0; background: none; border: 0; text-align: left; padding: 0; font-size: 0.85rem; line-height: 1.45; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
