@@ -11328,5 +11328,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WJ3LygtNq1DtiJUFA78t-7UER1wFsLuV",
+    "drive_name": "67.៦៧ ធម៌លះបង់ឧទ្ធច្ចសម្បយុត្តឆាមាន ៦ យ៉ាង.mp3",
+    "source_md5": "8d02703aa369fb8b8b552299c2aa9c59",
+    "key": "audio/8d02703aa369fb8b-a64.mp3",
+    "bytes": 32323334,
+    "duration_s": 4040,
+    "sha256": "0bc7a3dbcb1320e66d54eba847f8cc1da77d7f4eabf0e670d28ae62973bfd159",
+    "loudness": {
+      "pass1": {
+        "I": -20.3,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 4.199999999999999,
+      "limit": 0.6,
+      "depth": 8.736974992327127,
+      "busy": 5.460541784746371,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
