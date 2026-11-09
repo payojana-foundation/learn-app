@@ -16809,5 +16809,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1E0NKu6BTSKsE9rM8OkU2403_vOAyLvzf",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៤៤ អប្បនាវិថី អាទិកកម្មិកឈាន ឈានសមាបត្តិវិថី(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "ebbac888cfd41ddca77fbd4927875cbd",
+    "key": "audio/ebbac888cfd41ddc-a64.mp3",
+    "bytes": 42450485,
+    "duration_s": 5306,
+    "sha256": "7ce93ab0dc6c8dd53cb048d1765da7d821c9a3f6419788511c586bea8c1e8c9b",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 7.463025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.747422874696116,
+      "out": {
+        "I": -19,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
