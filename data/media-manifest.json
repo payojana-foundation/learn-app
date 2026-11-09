@@ -11676,5 +11676,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ie96PkeSi21FIE10bN5atb7nWEfEBlSq",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ០៣ វេទនាសង្គហ ចែកវេទនា១ វេទនា ២ និង៣.mp3",
+    "source_md5": "169315a55f9be1e1840ab55c1e55df25",
+    "key": "audio/169315a55f9be1e1-a64.mp3",
+    "bytes": 41818740,
+    "duration_s": 5227,
+    "sha256": "601d6f48e549eb155be275b951f2e0410c0c774eabb0eb9b5da2739da99421d4",
+    "loudness": {
+      "pass1": {
+        "I": -21.3,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 5.800000000000004,
+      "limit": 0.6,
+      "depth": 10.136974992327133,
+      "busy": 5.169494767853385,
+      "out": {
+        "I": -18.1,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
