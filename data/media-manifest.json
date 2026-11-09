@@ -17099,5 +17099,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qp5ijrCVewpKwQgFVwzOsqNTk9A7JQx8",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៤៨ អភិញ្ញាវិថី ពន្យល់លោកិយអភិញ្ញា ៥ យ៉ាង(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "9c33e70f012231e05e604f3bd238a338",
+    "key": "audio/9c33e70f012231e0-a64.mp3",
+    "bytes": 42314857,
+    "duration_s": 5289,
+    "sha256": "d68107a1397f400f8b726232399df1fbc741f2c6973cad6d82ae7ad216f7dfdd",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.962140547898588,
+      "out": {
+        "I": -18.8,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
