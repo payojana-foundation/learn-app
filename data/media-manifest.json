@@ -4310,5 +4310,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1t80tBbhAsOyF5hAvTALRysNyzp6WI_5-",
+    "drive_name": "បិដកលេខ១៦ 20 ព្រះពុទ្ធសម្តែងបុគ្គលគួរដល់ស្តូប ៤ យ៉ាង.mp3",
+    "source_md5": "f4cde4669bff09ad4a6d040be5dc96b7",
+    "key": "audio/f4cde4669bff09ad-a64.mp3",
+    "bytes": 41743716,
+    "duration_s": 5217,
+    "sha256": "018d4a70200471cc6e85b9a9fe5c17a645d251fdc164915179d22365c2395b5c",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -12.6,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.7369749923271263,
+      "busy": 0.0028746921683803026,
+      "out": {
+        "I": -18,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
