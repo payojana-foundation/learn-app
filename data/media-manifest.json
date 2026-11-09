@@ -3904,5 +3904,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Mp_7HmYAv5H9L3F4zCpqYIsVW3FJyb76",
+    "drive_name": "បិដកលេខ១៦ 13 ការមិនបញ្ញត្តិវេទនាថាជាខ្លួន .mp3",
+    "source_md5": "0d5c5ba6de0c63a7fb77e3180a3223f0",
+    "key": "audio/0d5c5ba6de0c63a7-a64.mp3",
+    "bytes": 40905081,
+    "duration_s": 5113,
+    "sha256": "2f359b711969d95594d2419a1b37e0331c02ddcccb6d134984b7dd26893b2f56",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -12,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 1.336974992327126,
+      "busy": 0.00928986329232755,
+      "out": {
+        "I": -18,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
