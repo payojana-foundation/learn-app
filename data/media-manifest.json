@@ -12807,5 +12807,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gTwwwXA5fz5xE6viWtbL7GmFJdMLLwDo",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ១០ ឧបមាវិថីចិត្ត និងចែកចក្ខុបសាទជា៣(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "fc1eb534cc6dd3c3b6c0ef2e11d43b94",
+    "key": "audio/fc1eb534cc6dd3c3-a64.mp3",
+    "bytes": 43094351,
+    "duration_s": 5386,
+    "sha256": "b2e63c936f56d6a2d49b4429c8460125ea0edf4876da0a801f307d0e9e518448",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.8630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.772961433146146,
+      "out": {
+        "I": -18.9,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
