@@ -9994,5 +9994,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nn3CC9_x3UFMeuWMiEUa1PddWLFgn3FZ",
+    "drive_name": "៤៣ វីរតិ ៣ សម្មាវាចា សម្ដីត្រូវ សម្មាកម្មន្ត ការងារត្រូវ.m4a",
+    "source_md5": "ea688b3472de35d79665c34c1b638449",
+    "key": "audio/ea688b3472de35d7-a64.mp3",
+    "bytes": 36533855,
+    "duration_s": 4566,
+    "sha256": "30689b9cf8575b6586c8a6309f7b6124e574a81d917fc8a243cea4cf6f22b499",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -5.1,
+        "LRA": 0
+      },
+      "G": 10.399999999999999,
+      "limit": 0.6,
+      "depth": 9.736974992327127,
+      "busy": 5.947949285041715,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
