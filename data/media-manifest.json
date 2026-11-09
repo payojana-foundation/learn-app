@@ -13068,5 +13068,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tCcQKQbrR7PV1xsnNtWza0PNkg7ldtxR",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ១៣ ចែកចេតសិកនឹងវេទនាភាគបញ្ចប់.mp3",
+    "source_md5": "185d164bc876d60507a61e9d204f6147",
+    "key": "audio/185d164bc876d605-a64.mp3",
+    "bytes": 43616800,
+    "duration_s": 5452,
+    "sha256": "ce66b6cf1fca203ca48bb739732d377ac3ac62ad54392751ed49bb75cfaab286",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 9.436974992327128,
+      "busy": 3.460395631001183,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
