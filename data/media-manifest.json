@@ -6746,5 +6746,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19V40rp0MOK2zeUjOd4eClPDE9BXYP-Ic",
+    "drive_name": "23.២៣ លក្ខណាទិចតុក្ករបស់លោភមូលចិត្ត.mp3",
+    "source_md5": "7eeeef50e58ea14b20f32c0b3446f201",
+    "key": "audio/7eeeef50e58ea14b-a64.mp3",
+    "bytes": 26181633,
+    "duration_s": 3272,
+    "sha256": "9e574d136d6cc6436a581ea1564fb0a9dc5b06ad0cb5f81cb98570fcb9dd59a6",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.086046476097352,
+      "out": {
+        "I": -18.5,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
