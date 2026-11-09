@@ -11212,5 +11212,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZAuldfN_xYhAxQwi_WzKBbaXCBtNwzTI",
+    "drive_name": "៥៣ វត្ថុសង្គហ ចែកវិញ្ញាណ ៧ ក្នុងភូមិនីមួយៗ ភិក្ខុអគ្គចិត្តោ យ៉ុន បរិច្ឆេទទី៣.mp3",
+    "source_md5": "d0124762899d3d5ef5f4f6e4c992c191",
+    "key": "audio/d0124762899d3d5e-a64.mp3",
+    "bytes": 29536382,
+    "duration_s": 3691,
+    "sha256": "c4765b0a6e947ac6ab5742f2fb7286a6080658173e43263dc9de791d6a0dddcd",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 9.3,
+      "limit": 0.6,
+      "depth": 8.836974992327129,
+      "busy": 5.611118634886241,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
