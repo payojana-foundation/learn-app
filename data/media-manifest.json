@@ -14402,5 +14402,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1htLSQ7UkcE4UPR-ZmhZpbiBEgYohiCm4",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ២៣ កិច្ចសង្គហៈ អាវជ្ជនកិច្ច សន្តីរណ វោដ្ឋព្វន.mp3",
+    "source_md5": "dd8bfdbc0af9a9145481280061fd0cd5",
+    "key": "audio/dd8bfdbc0af9a914-a64.mp3",
+    "bytes": 44147817,
+    "duration_s": 5518,
+    "sha256": "8708240ed396cafd84ddeadbf049bab82a99923b3b21d28ef08dca922c358745",
+    "loudness": {
+      "pass1": {
+        "I": -21.9,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.199999999999999,
+      "limit": 0.6,
+      "depth": 10.336974992327127,
+      "busy": 5.3885148909567,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
