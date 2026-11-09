@@ -7964,5 +7964,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kYdu30B28rs86l14gmiMLu7yg79zKXIw",
+    "drive_name": "32.៣២ ចែកលោភចិត្តដោយសម្បយុត្តដល់កិច្ច.mp3",
+    "source_md5": "cdfd8ec709374155aca09ee873ece7d5",
+    "key": "audio/cdfd8ec709374155-a64.mp3",
+    "bytes": 32400865,
+    "duration_s": 4050,
+    "sha256": "ece0851ed406d1d54193f398bceed1d8632e81643af2a8ef68c6c16020291c66",
+    "loudness": {
+      "pass1": {
+        "I": -22.8,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.8630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.562881939729139,
+      "out": {
+        "I": -18.5,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
