@@ -5035,5 +5035,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1uZD16R6fac1_1LhwiTjr03dgOwekrukj",
+    "drive_name": "9.០៩ ពាក្យថាវិញ្ញាណ វិញ្ញាណក្ខន្ធ.mp3",
+    "source_md5": "32449fbe58cfbcd3f3378123d2fba5b1",
+    "key": "audio/32449fbe58cfbcd3-a64.mp3",
+    "bytes": 33606469,
+    "duration_s": 4200,
+    "sha256": "c3695e30ed39953f6a3d9a2232fcabce49bb07d46c7e724224a03081c2c3ddaf",
+    "loudness": {
+      "pass1": {
+        "I": -20.8,
+        "TP": -8.4,
+        "LRA": 0
+      },
+      "G": 3.1999999999999993,
+      "limit": 0.6,
+      "depth": -0.7630250076728737,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
