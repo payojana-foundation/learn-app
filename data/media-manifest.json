@@ -11705,5 +11705,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xDkyWM0EcWFhqoo5MuYNfqEsDPZQJV6V",
+    "drive_name": "០៥ មហាភូតរូបដោយហេតុ៥ យ៉ាងបន្ត.mp3",
+    "source_md5": "ae1f6049d02b2082b3d145898dc1384e",
+    "key": "audio/ae1f6049d02b2082-a64.mp3",
+    "bytes": 44844973,
+    "duration_s": 5605,
+    "sha256": "bc9e05a2f22c4b402fe77225b16fac622f8623b8489aa06c1a5be071191f6e01",
+    "loudness": {
+      "pass1": {
+        "I": -20.7,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 4.800000000000001,
+      "limit": 0.6,
+      "depth": 8.936974992327128,
+      "busy": 6.237735478806908,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
