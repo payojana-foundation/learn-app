@@ -5470,5 +5470,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KrFHfVEJ-2s8KW_HB7HnL30tM8qX3YqA",
+    "drive_name": "០៤ វេទនា ២ និងវេទនា៣.mp3",
+    "source_md5": "6d123b06e67e72a1d849d2af318f7e77",
+    "key": "audio/6d123b06e67e72a1-a64.mp3",
+    "bytes": 36417244,
+    "duration_s": 4552,
+    "sha256": "9100be57c51ac45f5b56b036bd1ec76e648f9f2751dd324e5e450e450fbc44dd",
+    "loudness": {
+      "pass1": {
+        "I": -27.3,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "G": 12.163025007672871,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.529766481404187,
+      "out": {
+        "I": -18.2,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
