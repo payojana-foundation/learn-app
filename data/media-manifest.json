@@ -15301,5 +15301,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DPWi63b3SgqeWTJ-okYUJDA9wvH7rQ1p",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 34 សុទ្ធមនោទ្វារតទាលម្ពណវារភាភ១.mp3",
+    "source_md5": "efca6bd96dfc48240697e5520e1bcc29",
+    "key": "audio/efca6bd96dfc4824-a64.mp3",
+    "bytes": 42181319,
+    "duration_s": 5272,
+    "sha256": "432d4bd39245c30e7adaba48994e248240d3d67f06961facc25b1dde1e32bfbf",
+    "loudness": {
+      "pass1": {
+        "I": -24.7,
+        "TP": -10.7,
+        "LRA": 0
+      },
+      "G": 7.099999999999998,
+      "limit": 0.6,
+      "depth": 0.8369749923271259,
+      "busy": 0.015409708590556931,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
