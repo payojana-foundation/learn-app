@@ -8341,5 +8341,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1c6vzcR10chfbEJPhcaCkHf1x0AR8tccR",
+    "drive_name": "២៤ កិច្ចសង្គហ បដិសន្ធិកិច្ចដល់ជវនកិច្ច.mp3",
+    "source_md5": "419444bd4d1861789a0a112a290d832b",
+    "key": "audio/419444bd4d186178-a64.mp3",
+    "bytes": 43190691,
+    "duration_s": 5398,
+    "sha256": "2b1b1068c9e57574c064707902e3016016196f47e062b364a138af97bf6b2f4c",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 10.34787519645937,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 6.560717196414018,
+      "out": {
+        "I": -18.5,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
