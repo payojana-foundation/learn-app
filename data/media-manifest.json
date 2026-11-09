@@ -8834,5 +8834,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1N3fDCqRMgRk9VVivox7t3xrU8nrBywY6",
+    "drive_name": "៤៣ បញ្ចប់និរោធសមាបត្តិ និងចូលមរណាសន្នវិថី ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "f3732ebd4fc1f9006105f8b1bac052a1",
+    "key": "audio/f3732ebd4fc1f900-a64.mp3",
+    "bytes": 38750292,
+    "duration_s": 4843,
+    "sha256": "2bd942933fe26dc7e0f2f9ad742f590e7867f7c5a150420b057fec20036a0f2e",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 5.399999999999999,
+      "limit": 0.6,
+      "depth": 9.436974992327126,
+      "busy": 6.369806451612903,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
