@@ -13967,5 +13967,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZB89NHy0Z4892q8iyL53enpodZZRR3WP",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ១៩ មហន្តារម្មណ៍សង្ខេបប្រភេទទី២ ដល់ទី៦(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "39252e4c449fc5249e37ff914e577cb5",
+    "key": "audio/39252e4c449fc524-a64.mp3",
+    "bytes": 44060673,
+    "duration_s": 5507,
+    "sha256": "8996bf3312d207964d68656b537597aee9831de511b24a565ded208f0923e09c",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 5.2126172254450704,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
