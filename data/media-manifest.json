@@ -8051,5 +8051,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CNbl_D8ZCA-2d5HjtsqZhvNFyFszcbqw",
+    "drive_name": "២៦ ទិដ្ឋិចេតសិក អធិប្បាយមិច្ឆាទិដ្ឋិមាន៦២ប្រការ.m4a",
+    "source_md5": "8edf1472c05c1233bd16d64865660a87",
+    "key": "audio/8edf1472c05c1233-a64.mp3",
+    "bytes": 42244431,
+    "duration_s": 5280,
+    "sha256": "5fbd52c13f3b48dbaa9688f8e688b5827cdabbfd83c19eda331a7243cb88b1ca",
+    "loudness": {
+      "pass1": {
+        "I": -26.9,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "G": 10.499999999999996,
+      "limit": 0.6,
+      "depth": 10.836974992327125,
+      "busy": 5.997538111921219,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
