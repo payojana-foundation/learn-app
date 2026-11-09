@@ -16954,5 +16954,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xIk35G-jsj3g9ww7GPzJSZO-xsJeIPpe",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៤៥ អារម្មណសង្គហ មហគ្គតារម្មណ៍ លោកុត្តរារម្មណ៍.mp3",
+    "source_md5": "2ce4960f1865690dd6cab073760e9b43",
+    "key": "audio/2ce4960f1865690d-a64.mp3",
+    "bytes": 38171210,
+    "duration_s": 4771,
+    "sha256": "3d67b866054215d9eeb9723b1f1ac886cd7d5195e7073c5d9fcd322f7bc149da",
+    "loudness": {
+      "pass1": {
+        "I": -26.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 6.108334119274419,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
