@@ -16055,5 +16055,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EAcwHTZavFP5H-iCafYZE0UpQnMf2xkO",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៣៦ ទ្វារសង្គហៈ ចែកឯកទ្វារ បញ្ចទ្វារ ឆទ្វារចេតសិក.mp3",
+    "source_md5": "a4de19ff6165e36523c67e34b9ea132b",
+    "key": "audio/a4de19ff6165e365-a64.mp3",
+    "bytes": 42331785,
+    "duration_s": 5291,
+    "sha256": "9f1fdd1373d0ca89bb3611c404fe3921f478175c56fb0b5c0b65ac982ba8f0d1",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 5.700000000000003,
+      "limit": 0.6,
+      "depth": 10.036974992327131,
+      "busy": 4.9617779625622465,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
