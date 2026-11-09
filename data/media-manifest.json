@@ -17070,5 +17070,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1w_lh9GNEwMng1DMhZLljEtnqJa5W9bNf",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 59 បញ្ចទា្វរមរណាសន្នវិថីប្រភេទទី២ដល់ទី៤.mp3",
+    "source_md5": "ee90aaaf7eb228e6af9cdfee2c74a344",
+    "key": "audio/ee90aaaf7eb228e6-a64.mp3",
+    "bytes": 47625865,
+    "duration_s": 5953,
+    "sha256": "3a9e41bc19404a5631911011d449b3732cc38d8581b59d0556597a774468da1c",
+    "loudness": {
+      "pass1": {
+        "I": -17.6,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 0,
+      "limit": 0.6,
+      "depth": 2.4369749923271273,
+      "busy": 0.004199422159510851,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
