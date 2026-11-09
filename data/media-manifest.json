@@ -12082,5 +12082,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XEt4n9c4MZv6AbP__-gtRGhoSIQNTyjV",
+    "drive_name": "១០ តេជោធាតុ ៤ យ៉ាង និងវាយធាតុ ៦ យ៉ាង.mp3",
+    "source_md5": "1f41dfaa7c9be8c069b0be0ef1c9fb50",
+    "key": "audio/1f41dfaa7c9be8c0-a64.mp3",
+    "bytes": 47123060,
+    "duration_s": 5890,
+    "sha256": "e4d0aada79dafa4af6a1bc05dd1dd2edb60bb4478981e9d3b76ce6305f4c4d08",
+    "loudness": {
+      "pass1": {
+        "I": -16.3,
+        "TP": 1.1,
+        "LRA": 0
+      },
+      "G": -0.09999999999999787,
+      "limit": 0.6,
+      "depth": 5.43697499232713,
+      "busy": 6.306925734463996,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
