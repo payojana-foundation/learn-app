@@ -11937,5 +11937,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tKi3xnF2bFGMnYyzUGV_BdHAHcX43Tl9",
+    "drive_name": "០៨ បឋវីធាតុ បឋវីធាតុចែកជា ៤ យ៉ាង.mp3",
+    "source_md5": "f7138030c915ccdb33f0d93547a6a704",
+    "key": "audio/f7138030c915ccdb-a64.mp3",
+    "bytes": 44469855,
+    "duration_s": 5558,
+    "sha256": "84467b67cfb639ec064364b1809be4488f282973b093ccb516a944fb58c7358c",
+    "loudness": {
+      "pass1": {
+        "I": -24.9,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.996456005900661,
+      "out": {
+        "I": -18.6,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
