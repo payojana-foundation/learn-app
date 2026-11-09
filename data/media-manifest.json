@@ -8979,5 +8979,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1grH1Ww7avwS6YIJCQoV9OQD_P6yzqyAi",
+    "drive_name": "41.៤១ ការពិចារណាដើម្បីលះបង់ទោសមូលចិត្ត.mp3",
+    "source_md5": "a779e35650d253503b363871087e7d9a",
+    "key": "audio/a779e35650d25350-a64.mp3",
+    "bytes": 36826217,
+    "duration_s": 4603,
+    "sha256": "d5462e88cf41732737147d554240d9ea7e8bfa0113fe3d7c15c7d339f29c6dbd",
+    "loudness": {
+      "pass1": {
+        "I": -19.1,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 2.6000000000000014,
+      "limit": 0.6,
+      "depth": 7.036974992327129,
+      "busy": 5.139846847336122,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
