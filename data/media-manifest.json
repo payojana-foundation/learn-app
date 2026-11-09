@@ -4600,5 +4600,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pRekdC3qMrvfulkZiZvlxUI0H5gHhsJU",
+    "drive_name": "4.០៤ ពន្យល់ពាក្យថា ចិត្ត.mp3",
+    "source_md5": "2853e9e541015347896da1237d3ef415",
+    "key": "audio/2853e9e541015347-a64.mp3",
+    "bytes": 31841427,
+    "duration_s": 3980,
+    "sha256": "b79a134c0a6de6db4529f1c8346d9cc136385674199f9ff2ac71cfe471f8d5f8",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.899999999999999,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 5.541248445410349,
+      "out": {
+        "I": -18.2,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
