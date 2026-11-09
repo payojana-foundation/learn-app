@@ -12865,5 +12865,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1OPc3KWJCA92Dr0cEVFS5IwDNmB28HTHY",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ១១ ចែកវេទនា ៥ ប្រកបជាមួយនឹងចេតសិក.mp3",
+    "source_md5": "6ce26ebeb79698170b2dec9278fe72b0",
+    "key": "audio/6ce26ebeb7969817-a64.mp3",
+    "bytes": 42408898,
+    "duration_s": 5301,
+    "sha256": "d65cab01c7f342d5ffa0fea1c29d6e5df0baa1e4a9ea67fc040aedcf8f07f0b2",
+    "loudness": {
+      "pass1": {
+        "I": -20.9,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": 5.100000000000001,
+      "limit": 0.6,
+      "depth": 10.036974992327128,
+      "busy": 5.197977778196978,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
