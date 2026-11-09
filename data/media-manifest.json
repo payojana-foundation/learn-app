@@ -12604,5 +12604,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19qwukOVk0T3b5wX5bjrkfp39sLKOTdRV",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ០៩ ចែកវេទនា ៣ ដោយអារម្មណ៍ ៣យ៉ាង.mp3",
+    "source_md5": "73e414c04fbc28ef926042d04d8422e7",
+    "key": "audio/73e414c04fbc28ef-a64.mp3",
+    "bytes": 41246972,
+    "duration_s": 5155,
+    "sha256": "336ba8152207a2f12dd55ab0738fa0b898dc2b7a275d55ece3682a9c2bf88df2",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.300000000000001,
+      "limit": 0.6,
+      "depth": 10.436974992327128,
+      "busy": 4.613448800876674,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
