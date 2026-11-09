@@ -7239,5 +7239,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QuCQjAyGmTvH5kuw-tK6WrlHvxwDaDhA",
+    "drive_name": "២០ អហិរិក អនោត្តប្ប ឧទ្ធច្ចចេតសិក.m4a",
+    "source_md5": "8f622bce26e7351ded21afef17263044",
+    "key": "audio/8f622bce26e7351d-a64.mp3",
+    "bytes": 44927520,
+    "duration_s": 5615,
+    "sha256": "38d65eaf7f4c5ea88ee7878e2e304fdc544100cccaf9ce730a5d780ba68d69b7",
+    "loudness": {
+      "pass1": {
+        "I": -21.1,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 9.836974992327129,
+      "busy": 6.829938211150483,
+      "out": {
+        "I": -18.1,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
