@@ -12488,5 +12488,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1chv4tRCHYGm6JECLfVvbQ3muTIMacNsH",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ០៧ អាយុរបស់ចិត្ត ១៧ អាយុរបស់រូប១ខណៈ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "9467aa3784e99de0c5691c5c72f887e7",
+    "key": "audio/9467aa3784e99de0-a64.mp3",
+    "bytes": 43990038,
+    "duration_s": 5498,
+    "sha256": "0cf9bd5d11533bd8364bc5def8820e8b43620d29af6707c13a26a3a2ea7661e2",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.068707148962482,
+      "out": {
+        "I": -18.7,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
