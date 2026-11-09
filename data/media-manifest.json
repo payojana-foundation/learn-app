@@ -10603,5 +10603,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1A2ou7X62msqZAa4dgSYhxUSRjyYYMpwH",
+    "drive_name": "៤៦ អារម្មណសង្គហ អជ្ឈត្ត ពហិទ្ធ អជ្ឈត្តពិហទ្ធ.mp3",
+    "source_md5": "c4ebbbd7a6460a223aa8334a42370a9d",
+    "key": "audio/c4ebbbd7a6460a22-a64.mp3",
+    "bytes": 43058407,
+    "duration_s": 5382,
+    "sha256": "5cc9a4cb6a86e40bfb5bd605108c5d9b69a663181635edf39523a5783dddce72",
+    "loudness": {
+      "pass1": {
+        "I": -19.6,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 2.700000000000003,
+      "limit": 0.6,
+      "depth": 6.93697499232713,
+      "busy": 5.893678294393609,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
