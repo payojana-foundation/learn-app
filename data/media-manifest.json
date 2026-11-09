@@ -13764,5 +13764,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IR9BuiH5_qnE59aFOtUMJneVp70QsJv7",
+    "drive_name": "៣១ លក្ខណរូប ៤ ជរាមាន ២យ៉ាង និងអនិច្ចតារូប.mp3",
+    "source_md5": "43f0aa552950ca707ad955d6a1dad1dd",
+    "key": "audio/43f0aa552950ca70-a64.mp3",
+    "bytes": 36277855,
+    "duration_s": 4534,
+    "sha256": "b003344a0f784938f0c0ac48e663d76a1768560a5315a147e33d88bd41a312cb",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 11.5,
+      "limit": 0.6,
+      "depth": 11.636974992327128,
+      "busy": 6.858226564050543,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
