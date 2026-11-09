@@ -8660,5 +8660,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Da9L1c5j4WBrhHeu9k7QBKC6rq6-Jwgy",
+    "drive_name": "៣១ មច្ឆរិយចេតសិក សេចក្ដីកំណាញ់មាន៥យ៉ាង.m4a",
+    "source_md5": "7ee9f6c31151b2f171988727f0712775",
+    "key": "audio/7ee9f6c31151b2f1-a64.mp3",
+    "bytes": 48520506,
+    "duration_s": 6065,
+    "sha256": "438e492a6bf40a2fd0fd83e4f8c0581028f86f9f1cf4d9ed226360537c024cfc",
+    "loudness": {
+      "pass1": {
+        "I": -30.1,
+        "TP": -6.6,
+        "LRA": 0
+      },
+      "G": 14.163025007672871,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.81569813933933,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
