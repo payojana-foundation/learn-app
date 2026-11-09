@@ -17360,5 +17360,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KqZLp2vgP6IXJPirzKOQIgx22CRTEwgJ",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៥១ មរណាសន្នវិថី មរណៈសេចក្តីស្លាប់មាន៤ យ៉ាង(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "53fc41f0931783844f78d3897ffa5573",
+    "key": "audio/53fc41f093178384-a64.mp3",
+    "bytes": 40596000,
+    "duration_s": 5074,
+    "sha256": "9e395e3fb8b1795c0154a836767d9358dd4d97e9291794710c36c4a92786d0fd",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -1.3,
+        "LRA": 0
+      },
+      "G": 8.600000000000001,
+      "limit": 0.6,
+      "depth": 11.736974992327129,
+      "busy": 5.286287183832731,
+      "out": {
+        "I": -18.2,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
