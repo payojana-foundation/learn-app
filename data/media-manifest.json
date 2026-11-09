@@ -11618,5 +11618,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kboiCBhQvSScnGBRlb3-KWIJTI7O_fg4",
+    "drive_name": "71.៧១ អង្គរបស់បាណាតិបាតមាន ៥.mp3",
+    "source_md5": "727dd9187873cab411d02dc275e0c805",
+    "key": "audio/727dd9187873cab4-a64.mp3",
+    "bytes": 29140157,
+    "duration_s": 3642,
+    "sha256": "926149c83027ed4f6c8404772bd1e9437eb5f1291e7fc8a1bd176e4aaa772927",
+    "loudness": {
+      "pass1": {
+        "I": -20.9,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 4.399999999999999,
+      "limit": 0.6,
+      "depth": 8.736974992327127,
+      "busy": 5.12635725953685,
+      "out": {
+        "I": -18.1,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
