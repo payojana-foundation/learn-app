@@ -14170,5 +14170,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10mrx9LJL-db-SGzYzIDVs_jgwYBdKVzS",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ២១ កិច្ចសង្គហៈ និយមន័យកិច្ចទាំង ១៤.mp3",
+    "source_md5": "205922392ec56ba86f1dc49445d4f280",
+    "key": "audio/205922392ec56ba8-a64.mp3",
+    "bytes": 42870743,
+    "duration_s": 5358,
+    "sha256": "104fc63d3af92d3c29b9302d0e4e0d8d4fa4649a5e3b818add37d4861a4827d7",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "G": 11.663025007672871,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.930656117041129,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
