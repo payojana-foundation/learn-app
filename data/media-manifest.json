@@ -9269,5 +9269,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wC3QiMSPhAuUCJqcvxjyftwdSXhjSNZ_",
+    "drive_name": "៣៣ ទ្វារសង្គហ ចែកចេតសិកកើតតាមទ្វារ៦បញ្ចប់.mp3",
+    "source_md5": "d6c08042f1e467120dd3b9646e56d9a1",
+    "key": "audio/d6c08042f1e46712-a64.mp3",
+    "bytes": 31162452,
+    "duration_s": 3895,
+    "sha256": "dab3be3bbeb92f51b80b8192b6645b269e85f829f90e073b1eea5cfbe84419e7",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 7.100000000000001,
+      "limit": 0.6,
+      "depth": 8.13697499232713,
+      "busy": 5.079584108850523,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
