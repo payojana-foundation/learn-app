@@ -8080,5 +8080,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1f8j_sNdiob2H8Nr57XDGXTtRvprlw0P0",
+    "drive_name": "33.៣៣ ចែកលោភចិត្តដោយអារម្មណ៍ដល់វិញ្ញាណធាតុ.mp3",
+    "source_md5": "779ddf5c26b2caf2a5729ace83d086fe",
+    "key": "audio/779ddf5c26b2caf2-a64.mp3",
+    "bytes": 34871422,
+    "duration_s": 4358,
+    "sha256": "35e7042965b4bc802d0ea0a67becd1495291716259f1bd0802d4c3ae79994154",
+    "loudness": {
+      "pass1": {
+        "I": -23.7,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.8630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.3909816696873065,
+      "out": {
+        "I": -19,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
