@@ -11415,5 +11415,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tZx2QXLfBZJ5BEtr05PHh98-h5bfJdHz",
+    "drive_name": "69.៦៩ រម្លឹកមេរៀនអកុសលចិត្ត១២.mp3",
+    "source_md5": "6222ef94f08a2422fec4a05c9f4c028f",
+    "key": "audio/6222ef94f08a2422-a64.mp3",
+    "bytes": 35584878,
+    "duration_s": 4448,
+    "sha256": "0a26c61d61ce84e3bf83859d8ac05508c6be968571f999c515c2bdc71df26c20",
+    "loudness": {
+      "pass1": {
+        "I": -20.1,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": 3.6999999999999993,
+      "limit": 0.6,
+      "depth": 8.636974992327126,
+      "busy": 4.42328660873866,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
