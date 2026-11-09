@@ -6108,5 +6108,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vm7lXCzWR8Fsj-gAYYgiK70epwuHLD7z",
+    "drive_name": "០៨ វេទនាសង្គហៈ ចែកវេទនា១៨ និង១២យ៉ាង.mp3",
+    "source_md5": "2d39e36235e5d71e73c1b00fa6ff3ed6",
+    "key": "audio/2d39e36235e5d71e-a64.mp3",
+    "bytes": 43456304,
+    "duration_s": 5431,
+    "sha256": "261733fb6fe9a0b53c6fc712c1f011edfa44fc12653c5e569be86e30657fa2f3",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 4.681516936671576,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
