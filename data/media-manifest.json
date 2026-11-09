@@ -7500,5 +7500,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1meX9pSM4ApYUhJURag2mGCABG27tG6iP",
+    "drive_name": "៣១_អតិវិភូតារម្មណ៍មិនមានអតីតភវង្គប្រភេទទី៤ទី៥_ភិក្ខុអគ្គចិត្តោ_យ៉ុន.mp3",
+    "source_md5": "8b2ae5f5f4b24045a34b737a273c9184",
+    "key": "audio/8b2ae5f5f4b24045-a64.mp3",
+    "bytes": 28589078,
+    "duration_s": 3573,
+    "sha256": "52fccdd0ddc901aadd209c8c87fad50a079367c408acbaeacecdf8496d126a80",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "G": 5.800000000000001,
+      "limit": 0.6,
+      "depth": 8.336974992327129,
+      "busy": 6.279382135661518,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
