@@ -12401,5 +12401,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qXBM6d8WgiqwQynE0lfTQajCK358hnAz",
+    "drive_name": "១៣ ចក្ខុបសាទរូប ចែកជា ២ មំសំចក្ខុ បញ្ញាចក្ខុ.mp3",
+    "source_md5": "128619e88cb6136197ce477cd6bc86b0",
+    "key": "audio/128619e88cb61361-a64.mp3",
+    "bytes": 37849381,
+    "duration_s": 4731,
+    "sha256": "440d7de2131c875617ce79cde89092f146b3a679b165228af579cf370c7f2427",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.5,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 6.5143412736995625,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
