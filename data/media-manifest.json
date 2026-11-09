@@ -18230,5 +18230,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1I2ahFHF_CmqZ3VqCnRDCWid-_b1Fctqj",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៦៧ រូបវិថី សិក្សាតាមតារាងទី២(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "7ebab58121c4340a309b62ebcf16a323",
+    "key": "audio/7ebab58121c4340a-a64.mp3",
+    "bytes": 45432624,
+    "duration_s": 5679,
+    "sha256": "b4b1683ddea1f766bb5855de7122cd03bc8b2325294c6fec821567c740a33dc8",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 8.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.512638557505216,
+      "out": {
+        "I": -18.5,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
