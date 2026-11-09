@@ -13793,5 +13793,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HebBjlaZCgmbsHLqe6HGhgYDmD1cnXRY",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ១៩ ហេតុសង្គហៈ សរុបបញ្ចប់ហេតុសង្គហ.mp3",
+    "source_md5": "ac499a810fbfb8a231ac445c5eef559a",
+    "key": "audio/ac499a810fbfb8a2-a64.mp3",
+    "bytes": 41661587,
+    "duration_s": 5207,
+    "sha256": "242eee849c2155d821fdbbb7d2b269d10dc65b8af66e23e613e348a201157c9f",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 6.300000000000001,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 5.019778594951657,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
