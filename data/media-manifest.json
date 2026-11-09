@@ -6021,5 +6021,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fBtaJxQBrzdXs5Lh0w8DLpAxee970_88",
+    "drive_name": "29.បរិច្ឆេទទី៨ បច្ចយបរិច្ឆេទ ម៉ោងទី៣២ (ព្រះអង្គគ្រូ ពុទ្ធិកាលង្ការ ផេង ឌីណា).mp3",
+    "source_md5": "fcf7655143965fb59166239d526375c7",
+    "key": "audio/fcf7655143965fb5-a64.mp3",
+    "bytes": 28454077,
+    "duration_s": 3556,
+    "sha256": "57b4235ebffca0d1af8dc20705162d317bb81bd4bb7deb6df30073f0a80cc72f",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": 1.1,
+        "LRA": 0
+      },
+      "G": 6.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.174597596120053,
+      "out": {
+        "I": -18.9,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
