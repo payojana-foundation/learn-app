@@ -13851,5 +13851,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1d2uPiMmHUIZuffwNmvh4Kmh5zsV6TCnL",
+    "drive_name": "៣២ ចែករូបជាសាសវៈ សង្ខតៈ លោកិយ និងកាមាវចរ.mp3",
+    "source_md5": "663244864154aa8c196b4e66cb4bce9d",
+    "key": "audio/663244864154aa8c-a64.mp3",
+    "bytes": 33315151,
+    "duration_s": 4164,
+    "sha256": "0ba5ed43b2316407d4c66c2e79196e236be7eacf67775bcbcdd7f4826f82845b",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 11.400000000000002,
+      "limit": 0.6,
+      "depth": 11.53697499232713,
+      "busy": 5.787517859930121,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
