@@ -11560,5 +11560,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1I7hOdmNBvBXI2xcHe9R2I8643AADlu9X",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ០២ វេទនាសង្គហ និយមន័យរបស់វេទនា.mp3",
+    "source_md5": "f83b4072c0a1ea23a85ff67762f10ccd",
+    "key": "audio/f83b4072c0a1ea23-a64.mp3",
+    "bytes": 43607605,
+    "duration_s": 5450,
+    "sha256": "7cf3ba2cb326ae8f16b94ef08500d5c24bfee2c66f111f28253e05a9c23d2f02",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.8630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.104890935441854,
+      "out": {
+        "I": -18.3,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
