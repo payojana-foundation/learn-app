@@ -15881,5 +15881,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IAJaWAU9tthYekOc6z8TuyfPdrZqXw0V",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៣៤ សុទ្ធមនោទ្វារ ជវនវារៈមិនមានអតីតភវង្គប្រភេទទី៣(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "e83a220a420de589d39ffecb97698df3",
+    "key": "audio/e83a220a420de589-a64.mp3",
+    "bytes": 42143285,
+    "duration_s": 5267,
+    "sha256": "f921dc161a96f9b9fadf58f8445f884d13da972546be23841c216c4a835ad45d",
+    "loudness": {
+      "pass1": {
+        "I": -23.5,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.299999999999997,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 6.058628675563318,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
