@@ -10487,5 +10487,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mUmLDz9eHwWc6vyQC04PEfb0r096AWtt",
+    "drive_name": "56.៥៦ និយមន័យព្រះត្រៃបិដក.mp3",
+    "source_md5": "918039f957cc31c99d2a62afeceb1026",
+    "key": "audio/918039f957cc31c9-a64.mp3",
+    "bytes": 37739249,
+    "duration_s": 4717,
+    "sha256": "738d3e64fcd1af5b14eccb5788539c52bc51aa33de8b5375ef603bdec29e68be",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 7.300000000000001,
+      "limit": 0.6,
+      "depth": 11.936974992327128,
+      "busy": 7.370398634826756,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
