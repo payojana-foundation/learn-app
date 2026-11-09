@@ -6717,5 +6717,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gO_D09ygBdOMNjIps1DFsfy89ktzqWyp",
+    "drive_name": "១២ វេទនាសង្គហៈ ចែកវេទនាដោយឥន្រ្ទិយមាន៥.mp3",
+    "source_md5": "c11f5ae92bece4e989e8e18ca2f90a1e",
+    "key": "audio/c11f5ae92bece4e9-a64.mp3",
+    "bytes": 33560284,
+    "duration_s": 4194,
+    "sha256": "57207313bc85573205b4719ab13859cd712f4232eadefe88d0da147a0454cc50",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 9.599999999999998,
+      "limit": 0.6,
+      "depth": 10.136974992327126,
+      "busy": 4.536054827175208,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
