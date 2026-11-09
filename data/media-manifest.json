@@ -4832,5 +4832,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1o6r6wVZQEL6dx9isxA3ZStYEPnkN7kM7",
+    "drive_name": "7.០៧ ពាក្យថានិព្វាន.mp3",
+    "source_md5": "cc3a580ccfc7356f78ed0a7a18377617",
+    "key": "audio/cc3a580ccfc7356f-a64.mp3",
+    "bytes": 29578596,
+    "duration_s": 3697,
+    "sha256": "4a87556f2d2ca5a68560c5acbe8361d736c58186166b4a06b6773821e86168a0",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": -7.5,
+        "LRA": 0
+      },
+      "G": 4.899999999999999,
+      "limit": 0.6,
+      "depth": 1.836974992327126,
+      "busy": 0.004395158563797417,
+      "out": {
+        "I": -18,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
