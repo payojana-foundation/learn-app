@@ -1,0 +1,63 @@
+name: data-rebuild
+# bulk-07 P2 — a person edits data/*.json on GitHub's website; this job rebuilds
+# public/data/ (npm run build-courses) and, if it changed, commits
+# "data: rebuild after <short sha>" to main with the existing push-with-retry
+# script. Cloudflare then deploys main as usual.
+#
+# No loop:
+#   - the commit only touches public/data/, which is NOT in the `paths` filter;
+#   - it is pushed with GITHUB_TOKEN, and GitHub never starts workflow runs from
+#     a GITHUB_TOKEN push;
+#   - the job also skips a head commit whose message starts with "data: rebuild".
+# Never force-pushes. The course-audio workflow is untouched.
+#
+# data-check runs AFTER this job (workflow_run in data-check.yml), on the
+# rebuilt main, so the person's edit does not leave a red data-check.
+on:
+  push:
+    branches: [main]
+    paths:
+      - "data/**"
+permissions:
+  contents: write # commits the rebuilt public/data to main
+concurrency:
+  # One rebuild at a time; a newer push waits (never runs in parallel).
+  group: data-rebuild-main
+  cancel-in-progress: false
+jobs:
+  rebuild:
+    if: ${{ !startsWith(github.event.head_commit.message, 'data: rebuild') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out main (full history: the build stamp reads git log)
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - name: Install
+        run: npm ci
+      - name: Rebuild public/data and commit if it changed
+        id: rebuild
+        env:
+          DATA_REBUILD_SOURCE_SHA: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          node scripts/ci/data-rebuild.mjs
+      - name: Push (pull --rebase, retry up to 3x)
+        if: ${{ steps.rebuild.outputs.committed == 'true' }}
+        run: bash scripts/ci/push-with-retry.sh origin main
+      - name: Summary
+        if: ${{ always() }}
+        run: |
+          {
+            echo "### data-rebuild"
+            echo "source commit: \`${GITHUB_SHA::7}\`"
+            echo "committed: ${{ steps.rebuild.outputs.committed || 'false' }}"
+          } >> "$GITHUB_STEP_SUMMARY"

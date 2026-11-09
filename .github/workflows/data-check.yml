@@ -11,12 +11,21 @@ name: data-check
 # is byte-identical to what was committed. Course/teacher file bytes never carry
 # a timestamp, so their SHA-256 (the loader's integrity gate, P-01) is stable.
 
+#
+# bulk-07 P2: a person's edit to data/** is rebuilt by data-rebuild.yml, so this
+# check runs AFTER that job (workflow_run) on the rebuilt main instead of on the
+# person's push (which, by design, has stale public/data for a few minutes). A
+# push that changes the build script itself is still checked directly: such a
+# commit must carry its own rebuilt data.
 on:
   push:
     branches: [main]
     paths:
-      - "data/**"
       - "scripts/build-courses.mjs"
+  workflow_run:
+    workflows: [data-rebuild]
+    types: [completed]
+    branches: [main]
 
 permissions:
   contents: read
@@ -33,6 +42,9 @@ jobs:
       - name: Check out the repo
         uses: actions/checkout@v5
         with:
+          # After data-rebuild: check the CURRENT main (it now holds the rebuild
+          # commit). On a direct push: the pushed commit, as before.
+          ref: ${{ github.event_name == 'workflow_run' && 'main' || github.sha }}
           # Full history so build-courses can read the last commit date of the
           # data sources (its reproducible build stamp).
           fetch-depth: 0
