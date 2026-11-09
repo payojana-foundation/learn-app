@@ -4687,5 +4687,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18XQ7KfE7AS1DUcDgJRHVtILiUT3tIhkK",
+    "drive_name": "5.០៥ ការប្រៀបធៀបចិត្ត.mp3",
+    "source_md5": "2ce111d87d9cd4cf1a0f6bc3c584e643",
+    "key": "audio/2ce111d87d9cd4cf-a64.mp3",
+    "bytes": 24365600,
+    "duration_s": 3045,
+    "sha256": "6a6900f5a55b72bee48366cf2ad609b23ac0965589d82d06f36eaa633973ef79",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 5.5000000000000036,
+      "limit": 0.6,
+      "depth": 10.336974992327132,
+      "busy": 3.8912054897969233,
+      "out": {
+        "I": -18.1,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
