@@ -14895,5 +14895,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rXG95snh-z25EisPWHYPqNN_WmCBsRE4",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ២៧ កិច្ចសង្គហៈ ចែកចេតសិកធ្វើកិច្ច៩ និងកិច្ច១៤.mp3",
+    "source_md5": "d7382bdd61d5766ac66fa80eff3dd16c",
+    "key": "audio/d7382bdd61d5766a-a64.mp3",
+    "bytes": 40882720,
+    "duration_s": 5110,
+    "sha256": "224ff9cf9a69cf145d20b548266e5c30c90b58b529f56327aa2c4410b201f082",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 3.9638083869831515,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
