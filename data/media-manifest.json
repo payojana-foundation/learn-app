@@ -4890,5 +4890,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jPTTKZfJhjAX6h1roYvjibaGMP5RrSxH",
+    "drive_name": "០៤ វេទនចេតសិក ចែកវេទនាជា២ន័យ.mp3",
+    "source_md5": "5c15963a1ad535c1a348440336fa510f",
+    "key": "audio/5c15963a1ad535c1-a64.mp3",
+    "bytes": 38121891,
+    "duration_s": 4765,
+    "sha256": "d050b48bccd5e2e12b69a8899c061f186cdfc44f1df9dd4d93279084fd934c64",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6,
+      "limit": 0.6,
+      "depth": 10.036974992327128,
+      "busy": 6.865399143792495,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
