@@ -11763,5 +11763,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10BmaitgrGXtI6BbUmF46-ctFr83xjFSu",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ០២ ចែកវិថីចិត្តក្នុងបុគ្គល ១២​ ពួក(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "7b3308952a2497433f8f39095b0a6f4f",
+    "key": "audio/7b3308952a249743-a64.mp3",
+    "bytes": 43334678,
+    "duration_s": 5416,
+    "sha256": "10f603e1d26d0adbf42752878bf753de8f6fda45ec1d0957a120bd9567ed28ac",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 7.563025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.9182635504356815,
+      "out": {
+        "I": -18.9,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
