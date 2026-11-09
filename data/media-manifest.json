@@ -11502,5 +11502,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16K0kF2DN8lRXEKBTdlkYULuP4REvAgNv",
+    "drive_name": "០៣ រូប ២៨ ២ពួកធំ និងចែកជា ៥ យ៉ាង.mp3",
+    "source_md5": "ff0714db5663779a83c29fdbfdb6c1b5",
+    "key": "audio/ff0714db5663779a-a64.mp3",
+    "bytes": 39910129,
+    "duration_s": 4988,
+    "sha256": "0326eeaca12cf57a945f03870949ddd96abc15318026bce8940a3ba71c1cd952",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 6.446569246497083,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
