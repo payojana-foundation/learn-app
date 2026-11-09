@@ -14228,5 +14228,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bjjD0YQlV8_REx0S1y1n_4iOwLoqG6ec",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 25 សមូហគ្គហណវិថីចែកតាមបកិណ្ណកសង្គហៈ.mp3",
+    "source_md5": "9b8668257815c656c5a1928158ffc2da",
+    "key": "audio/9b8668257815c656-a64.mp3",
+    "bytes": 45565326,
+    "duration_s": 5695,
+    "sha256": "546f0271a3fb53865157e69baf0ce0e80c39652df7288c4ea7371756d04417c0",
+    "loudness": {
+      "pass1": {
+        "I": -20.9,
+        "TP": -5.3,
+        "LRA": 0
+      },
+      "G": 3.3999999999999986,
+      "limit": 0.6,
+      "depth": 2.536974992327126,
+      "busy": 0.011631683828886958,
+      "out": {
+        "I": -18,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
