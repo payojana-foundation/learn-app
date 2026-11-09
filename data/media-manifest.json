@@ -4484,5 +4484,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16DLFnLjQ3ICsven24gi_rbL_lCxCCqeD",
+    "drive_name": "2.០២ សច្ច២យ៉ាង.mp3",
+    "source_md5": "bc99e2362f1fb9216e25fa97672afa91",
+    "key": "audio/bc99e2362f1fb921-a64.mp3",
+    "bytes": 34572581,
+    "duration_s": 4321,
+    "sha256": "741783ba16924463a7636ab9e8e1895e010e81f259e305e5ee009b1fce0c14b8",
+    "loudness": {
+      "pass1": {
+        "I": -24.9,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.8630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.867825201605905,
+      "out": {
+        "I": -18.8,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
