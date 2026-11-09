@@ -17853,5 +17853,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ef87CjOlcrFZdnQzcgnZMuLkvt8IENqe",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៦០ ជវននិយម ការកំណតជវន មានតិចនិងច្រើនខណៈ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "b4ade94e0c034498b138100e3ac598b9",
+    "key": "audio/b4ade94e0c034498-a64.mp3",
+    "bytes": 42767507,
+    "duration_s": 5345,
+    "sha256": "af65cf3e94c2e9656da1a87583a0805aac77120badad11dd0a2eae61d4cac8c2",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.932518378570493,
+      "out": {
+        "I": -18.4,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
