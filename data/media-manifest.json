@@ -7326,5 +7326,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UwqcsQeuujwvK_CVyzVCBdkk8C9-CY-H",
+    "drive_name": "27.២៧ ហេតុឱ្យកើតទិដ្ឋិវិប្បយុត្តចិត្ត.mp3",
+    "source_md5": "97c7b01fa6d7dd89fa987547895c8942",
+    "key": "audio/97c7b01fa6d7dd89-a64.mp3",
+    "bytes": 29868660,
+    "duration_s": 3733,
+    "sha256": "bf285a7929fc3b841965597f71487f55ba3a4b8f397682b824bc643917017fa6",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 6.5,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 6.258118948453884,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
