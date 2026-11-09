@@ -8515,5 +8515,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1c1ClOjIBd2OURq2IyqJrIs3KlbDOsYif",
+    "drive_name": "២៦ កិច្ចសង្គហ ចេតសិកធ្វើកិច្ច១៤.mp3",
+    "source_md5": "4e7823d067e53ff415a617184bfe66d6",
+    "key": "audio/4e7823d067e53ff4-a64.mp3",
+    "bytes": 28019817,
+    "duration_s": 3502,
+    "sha256": "6b1dd440c86691ae5aae57c83d663670930b32d34499b85223b2066e1e5c704d",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 10.399999999999999,
+      "limit": 0.6,
+      "depth": 10.936974992327126,
+      "busy": 4.737755000071378,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
