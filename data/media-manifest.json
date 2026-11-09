@@ -10168,5 +10168,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mTkIcIrlcaHQg54_InmPRoov0P0J-XPw",
+    "drive_name": "៤៥ អប្បមញ្ញាចេតសិក ២ គឺ ករុណា និងមុទិតា.m4a",
+    "source_md5": "c1bd872dc5a6cb07393caff00d2829d1",
+    "key": "audio/c1bd872dc5a6cb07-a64.mp3",
+    "bytes": 42486429,
+    "duration_s": 5310,
+    "sha256": "7ce979dde5c1786bb4a399e2954903c14d4de1b3af6c1de6c86b497ad6863658",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 6.242526950054136,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
