@@ -12836,5 +12836,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ngLY6-MlcHvzmFMwFaWTLODO0B2Evoyv",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 11 អតិមហន្តារម្មណ៍មានអាគន្តុកភវង្គ.mp3",
+    "source_md5": "2af54cea603cd5ff02e3d8444a576651",
+    "key": "audio/2af54cea603cd5ff-a64.mp3",
+    "bytes": 43711886,
+    "duration_s": 5463,
+    "sha256": "87c380de4bbc5fcfb04c99e3a3d99ddc4300004b66c0c1fd943b08aa66a039bc",
+    "loudness": {
+      "pass1": {
+        "I": -19.6,
+        "TP": 2.9,
+        "LRA": 0
+      },
+      "G": 3.7478751964593706,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 4.296113617437934,
+      "out": {
+        "I": -18.7,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
