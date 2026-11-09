@@ -18172,5 +18172,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HQeh-hO58-8fd6V8cIt9BDOAsZuemBYC",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៦៣ ចែកចេតសិកវត្ថុ និងទ្វារបញ្ចប់បរិច្ឆេទទី៣.mp3",
+    "source_md5": "9f770fb2be82ecdc1e6fa0c15792f3b0",
+    "key": "audio/9f770fb2be82ecdc-a64.mp3",
+    "bytes": 46316189,
+    "duration_s": 5789,
+    "sha256": "512b83c087a5733313cf0b09c6f1bc3abd463da7569e4b75d527f3cfea9618cf",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 7.300000000000001,
+      "limit": 0.6,
+      "depth": 10.936974992327128,
+      "busy": 5.046420243544348,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
