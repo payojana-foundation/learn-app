@@ -13822,5 +13822,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ma1LuFDpF0APY1A66EL7RhicezbvFD_V",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ១៨ មហន្តារម្មណ៍សង្ខេប ៤ វថី និងប្រភេទទី១(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "1f037e8760ef74b6d261f99b1632dc5d",
+    "key": "audio/1f037e8760ef74b6-a64.mp3",
+    "bytes": 42800944,
+    "duration_s": 5350,
+    "sha256": "56e73ef292e45ed267c81b63687955c06583727ea117c9fdab63a368280febfe",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.100000000000001,
+      "limit": 0.6,
+      "depth": 11.236974992327129,
+      "busy": 5.027476121941646,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
