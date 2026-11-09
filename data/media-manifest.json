@@ -17998,5 +17998,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cxx5Ha9NjjKlYYlFh4M9U2XObTxQNHc-",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៦០ វត្ថុសង្គហ ចែកវិញ្ញាណធាតុ ៤ ក្នុងរូបភូមិ ១៥.mp3",
+    "source_md5": "fd0ff37ba5604e735adbcaba8f4e0a34",
+    "key": "audio/fd0ff37ba5604e73-a64.mp3",
+    "bytes": 42811811,
+    "duration_s": 5351,
+    "sha256": "c48da49455602851ddefaa89532ee608974f0c2e92e27606fced415ac7361895",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 8.7,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 6.169355968942996,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
