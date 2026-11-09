@@ -8631,5 +8631,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kGweEjnXCymBuv5ki236BKUbGPrrvrn5",
+    "drive_name": "38.៣៨ បុគ្គលជាទោសដល់ការផ្សាយមេត្តាចិត្ត.mp3",
+    "source_md5": "4976060595dccb12e38554e711e62614",
+    "key": "audio/4976060595dccb12-a64.mp3",
+    "bytes": 35193251,
+    "duration_s": 4399,
+    "sha256": "43c4f400d4dede4e53c4593f8d37bfe2db6306085216d7c3cce040ea78fb1fd7",
+    "loudness": {
+      "pass1": {
+        "I": -21.3,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 5.100000000000001,
+      "limit": 0.6,
+      "depth": 9.536974992327128,
+      "busy": 5.3309199609010935,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
