@@ -11183,5 +11183,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lT01j_9PRkZYi3JwqCURiZq-inXysilo",
+    "drive_name": "៥៨ រម្លឹកមេរៀនចេតសិកបរមត្ថភាគ ២ តទុភយមិស្សកន័យ.m4a",
+    "source_md5": "dddc6f561bccf7c95d13798e190d929c",
+    "key": "audio/dddc6f561bccf7c9-a64.mp3",
+    "bytes": 26846188,
+    "duration_s": 3355,
+    "sha256": "b5b81a21e2699c3191a4f9e0d437761a2f7852b57fd506b8d92ee0decf4cf3ef",
+    "loudness": {
+      "pass1": {
+        "I": -22.6,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.199999999999999,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 4.928853460478283,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
