@@ -10081,5 +10081,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZbfgseySFoLtQEwlCWl0XplrLrDZwa3o",
+    "drive_name": "៤៤ វីរតិ ៣ សម្មាអាជីវៈ ការចិញ្ចឹមជីវិតត្រូវ.m4a",
+    "source_md5": "f7a16a30a4e5190c8f440f9c2c53cf53",
+    "key": "audio/f7a16a30a4e5190c-a64.mp3",
+    "bytes": 42735742,
+    "duration_s": 5341,
+    "sha256": "22629b20184868fc1ce676370c07b2ce89345e793f10e5f01e643cdc6c70c213",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "G": 10.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.482019506168217,
+      "out": {
+        "I": -18.8,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
