@@ -13474,5 +13474,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18YXcUsQnDcJ1jplqr3EsxdXyt_067MdY",
+    "drive_name": "២៨ វិការរូប ៣ រូបលហុតា រូបមុទុតា រូបកម្មញ្ញតា.mp3",
+    "source_md5": "140024e2081548b3141306427e7a23e6",
+    "key": "audio/140024e2081548b3-a64.mp3",
+    "bytes": 43916268,
+    "duration_s": 5489,
+    "sha256": "6e8f52c86ba887fa83dc03cdaac614fb12ab52cb888db10e64b2126879ccdbdf",
+    "loudness": {
+      "pass1": {
+        "I": -27.8,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 11.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.809044539575553,
+      "out": {
+        "I": -18.3,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
