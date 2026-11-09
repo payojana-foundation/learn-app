@@ -5673,5 +5673,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WXoimMrR5tz4gJj8-zi3xhLYyrt-SUKa",
+    "drive_name": "០៨ ចក្ខុទ្វារិកអតិមហន្តារម្មណ៍ប្រភេទទី១ភិក្ខុអគ្គចិត្តោ យ៉ុន យី_ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "827a65bada5d8cc2124630dd3cb9932c",
+    "key": "audio/827a65bada5d8cc2-a64.mp3",
+    "bytes": 15328278,
+    "duration_s": 1915,
+    "sha256": "ceb3a1d5aedb6ebb9196aed4b985c95318eff7e7dcd8ea0c9312a420f5f5b262",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 9.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.2355167014613775,
+      "out": {
+        "I": -18.6,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
