@@ -6891,5 +6891,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yRMgUPZRpvUsXfZGPHRBdXeGL3aWjd9x",
+    "drive_name": "១៧ ឆន្ទចេតសិក សេចក្ដីឆ្អែតចិត្ត ឆន្ទៈមាន៣.m4a",
+    "source_md5": "8f744fe198ed252246063e7ef12997db",
+    "key": "audio/8f744fe198ed2522-a64.mp3",
+    "bytes": 32865427,
+    "duration_s": 4108,
+    "sha256": "90e0b9e245252d56cf5f53851bea6bbb03cd9bd494efae6f4218845d6ab84fa8",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": 1.3999999999999986,
+      "limit": 0.6,
+      "depth": 6.336974992327126,
+      "busy": 5.511300707130947,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
