@@ -3585,5 +3585,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10woaSVbYNNLNHzOQxou58CAPltJMFdZF",
+    "drive_name": "បិដកលេខ១៦ 06 ធម្មទំនៀមពេលព្រះពោធិសត្វប្រសូត្រ.mp3",
+    "source_md5": "c93214bea8376b1e956d19f4729290db",
+    "key": "audio/c93214bea8376b1e-a64.mp3",
+    "bytes": 39848480,
+    "duration_s": 4981,
+    "sha256": "bc6d30a093d1088d610d916255b6d54430d1945a143c34346c7bca723857daa7",
+    "loudness": {
+      "pass1": {
+        "I": -21.2,
+        "TP": -5.4,
+        "LRA": 0
+      },
+      "G": 3.6999999999999993,
+      "limit": 0.6,
+      "depth": 2.7369749923271263,
+      "busy": 1.2492345991307054,
+      "out": {
+        "I": -18,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
