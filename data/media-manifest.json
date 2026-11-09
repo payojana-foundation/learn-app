@@ -15562,5 +15562,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1srOfcmV5deqUEoATOtdnhgLG1l5Dn-tZ",
+    "drive_name": "៥៥ ថ្ងៃប្រឡងបិទវគ្គបញ្ចប់បរិច្ឆេទទី៦ រូបនិងនិព្វាន.mp3",
+    "source_md5": "195821b02440f002d0c0002e0b7b48ae",
+    "key": "audio/195821b02440f002-a64.mp3",
+    "bytes": 13079866,
+    "duration_s": 1634,
+    "sha256": "69e963e2fdc12ff2b89d5a900f307b43bf6e56e548dfa02ebbeab8c30461e5db",
+    "loudness": {
+      "pass1": {
+        "I": -24.7,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 9.200000000000003,
+      "limit": 0.6,
+      "depth": 10.036974992327131,
+      "busy": 5.289917122847793,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
