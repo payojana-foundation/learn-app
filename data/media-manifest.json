@@ -5876,5 +5876,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JftQyKuhmZQQXg14bGI6F9hZp53-4YUW",
+    "drive_name": "១០ ជីវិតិន្រ្ទិយចេតសិក មនសិការចេតសិក.m4a",
+    "source_md5": "c691010ab3445426d34e61b8431aec1b",
+    "key": "audio/c691010ab3445426-a64.mp3",
+    "bytes": 47986563,
+    "duration_s": 5998,
+    "sha256": "c53e754a8318fbd81add156ec602fe30a2ec81cc2134869c8a46432c17348ceb",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 6.400000000000002,
+      "limit": 0.6,
+      "depth": 10.93697499232713,
+      "busy": 7.116242237319218,
+      "out": {
+        "I": -18.1,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
