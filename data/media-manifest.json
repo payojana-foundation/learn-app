@@ -15417,5 +15417,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cmzps9HKt52DsWQNjZnSOH1UqChrQnbR",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៣០ សុទ្ធមនោទ្វារ តទាលម្ពណវារៈ ៥ ប្រភេទ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "e9ce59615900ada0a9f18b7f0b1b7247",
+    "key": "audio/e9ce59615900ada0-a64.mp3",
+    "bytes": 43746576,
+    "duration_s": 5468,
+    "sha256": "0afc07625d11b4217fc2d6ed3e6b3d481b70d9d26fa63980b9255d8d92b4c976",
+    "loudness": {
+      "pass1": {
+        "I": -23.7,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.4802223725838015,
+      "out": {
+        "I": -18.4,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
