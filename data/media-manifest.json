@@ -5644,5 +5644,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1oJFgjOmkkrj-Vr7_43aEr8PgnV7iN53T",
+    "drive_name": "25.បរិច្ឆេទទី៨ បច្ចយបរិច្ឆេទ ម៉ោងទី២៨ (ព្រះអង្គគ្រូ ពុទ្ធិកាលង្ការ ផេង ឌីណា).mp3",
+    "source_md5": "2899cb2cc738ef3a5b0d766ea2c78385",
+    "key": "audio/2899cb2cc738ef3a-a64.mp3",
+    "bytes": 26465218,
+    "duration_s": 3308,
+    "sha256": "ee7cc34879449817514dcf8edc1e3d72437a56f2e333d01d613ea3b4176f92d3",
+    "loudness": {
+      "pass1": {
+        "I": -20.3,
+        "TP": 0.6,
+        "LRA": 0
+      },
+      "G": 4.900000000000002,
+      "limit": 0.6,
+      "depth": 9.93697499232713,
+      "busy": 4.833590278407545,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
