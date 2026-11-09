@@ -7558,5 +7558,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1af19Pz8IivskczRH_b0eABHxvx1pd4TE",
+    "drive_name": "១៨ ហេតុសង្គហៈ ចែកហេតុ៦ដោយន័យផ្សេងៗ​.mp3",
+    "source_md5": "774faddaf9f3c0789aebf85b9cc99ecb",
+    "key": "audio/774faddaf9f3c078-a64.mp3",
+    "bytes": 41778616,
+    "duration_s": 5222,
+    "sha256": "b1377ba890f287c9aa144208ec2f95731dfe40cc9fa4c6e9aac648c0dd75e35e",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 10.636974992327126,
+      "busy": 4.790753116442946,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
