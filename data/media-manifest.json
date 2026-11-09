@@ -18085,5 +18085,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1FkOVITk9kca5I0W0PJNJlormcOs2xT6K",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៦៤ រូបវិថីកម្មជ្ជកលាប ចិត្តជ្ជកលាប(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "2273673a6da2e9091eefd342df1cb7c3",
+    "key": "audio/2273673a6da2e909-a64.mp3",
+    "bytes": 42740758,
+    "duration_s": 5342,
+    "sha256": "032f35cfd8d33a6a359e4b5aaf0dbd70abd1d66d2d05a9f2faf6f4b94cf63659",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 8.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.588623410169301,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
