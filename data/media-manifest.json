@@ -3759,5 +3759,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_44pqxHXD4lMMSkyT76huZ-QUhEvSn4C",
+    "drive_name": "បិដកលេខ១៦ ១០ ពន្យល់ការសម្តែងឱវាទបាតិមោក្ខ.mp3",
+    "source_md5": "f43d678b6f27f4ec11b0f7c20b43de99",
+    "key": "audio/f43d678b6f27f4ec-a64.mp3",
+    "bytes": 37885953,
+    "duration_s": 4735,
+    "sha256": "eb7dee984d9fe8b50244ddbcecf61f64d4f8e2738ce928efdc532c4bdf9e31d4",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -12.6,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.7369749923271263,
+      "busy": 0.004487193023206706,
+      "out": {
+        "I": -18,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
