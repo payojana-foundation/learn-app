@@ -13996,5 +13996,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1A2Zf49M4AXrq42mqaqhJvwdCnYTH7XkU",
+    "drive_name": "៣៤ ទុកន័យ វត្ថុរូប ទ្វាររូប ឥន្រ្ទិយរូបឱឡារិករូប.mp3",
+    "source_md5": "3809e9117b5425996ea0af2c81a9bf0f",
+    "key": "audio/3809e9117b542599-a64.mp3",
+    "bytes": 37020986,
+    "duration_s": 4627,
+    "sha256": "4433f13d5d021544f11610b5bc3cffb1c002df5643d2c83efd9b17ef6136a432",
+    "loudness": {
+      "pass1": {
+        "I": -30,
+        "TP": -8.4,
+        "LRA": 0
+      },
+      "G": 14,
+      "limit": 0.6,
+      "depth": 10.036974992327128,
+      "busy": 5.805385080819431,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
