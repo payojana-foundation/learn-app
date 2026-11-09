@@ -10661,5 +10661,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DcgosOI808ZMXKqcnhdAHpUFwj_PkMW7",
+    "drive_name": "៥២ សង្គហន័យ ចែកលោកុត្តរជា ៥ ន័យ.m4a",
+    "source_md5": "964b3a4bbd42e1b235c035a569b28a6a",
+    "key": "audio/964b3a4bbd42e1b2-a64.mp3",
+    "bytes": 42472846,
+    "duration_s": 5309,
+    "sha256": "830815a1f037684e3eaff2bf2580aeb6529298a589f7205c75e21bfa9f44d23b",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 7.399999999999999,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 6.131746734349837,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
