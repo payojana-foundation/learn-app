@@ -12053,5 +12053,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fOyQj1OdwvcJ0s1IOEvY7SCSYcmnvY1o",
+    "drive_name": "75.៧៥ សេទមោចនគាថា គាថាជាហេតុនៃការចេញញើស.mp3",
+    "source_md5": "0ae7464e9e480c1ecd691b954b820c8c",
+    "key": "audio/0ae7464e9e480c1e-a64.mp3",
+    "bytes": 27326841,
+    "duration_s": 3415,
+    "sha256": "c6fe8a6603a00c35bde11ffd429fc89dedaafc1556cfc9ee40219644dee5e3f9",
+    "loudness": {
+      "pass1": {
+        "I": -28.7,
+        "TP": -6.7,
+        "LRA": 0
+      },
+      "G": 12.8,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 4.856109842496633,
+      "out": {
+        "I": -18.2,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
