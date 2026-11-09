@@ -3730,5 +3730,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XtLpQjMsDMMla85ndUp4_33u1pYnMSmv",
+    "drive_name": "បិដកលេខ១៦ 09 ព្រះអានន្ទទូលសួរបដិច្ចសមុប្បាទ .mp3",
+    "source_md5": "f071ece3d01b941521d0633a82d7bda6",
+    "key": "audio/f071ece3d01b9415-a64.mp3",
+    "bytes": 41754792,
+    "duration_s": 5219,
+    "sha256": "95e2074866ea65b6bb0c6690d7b853bdd7403db3fd2ccadd19e031f3e75f7e3b",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -11.5,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 1.836974992327126,
+      "busy": 0.009579828712662618,
+      "out": {
+        "I": -18,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
