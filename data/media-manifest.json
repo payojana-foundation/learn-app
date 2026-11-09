@@ -12981,5 +12981,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tFI4AziXXBn-GlNeJ5qi6Qj8mnUO-_J-",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ១២ ចែកចេតសិកប្រកបជាមួយនឹងវេទនា.mp3",
+    "source_md5": "2506f7aeec24a27cffc040c9d4d1feff",
+    "key": "audio/2506f7aeec24a27c-a64.mp3",
+    "bytes": 39778890,
+    "duration_s": 4972,
+    "sha256": "d53a63e277e28f06bb4cd1d96f15e929db3cd2131d8809ae238c2c11205e01a4",
+    "loudness": {
+      "pass1": {
+        "I": -18.5,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": 2,
+      "limit": 0.6,
+      "depth": 6.736974992327127,
+      "busy": 3.641386869387714,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
