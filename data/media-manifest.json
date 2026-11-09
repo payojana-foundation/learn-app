@@ -6195,5 +6195,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18pifsORLxZDs7HqZIr_hpI2mYCrUd0lc",
+    "drive_name": "១៣_បញ្ចប់អតិមហន្តារម្មណ៍បន្តមហន្តារម្មណ៍ប្រភេទទី១ភិក្ខុអគ្គចិត្តោ.mp3",
+    "source_md5": "54539617fba8909b46c395ee8f2c2e2d",
+    "key": "audio/54539617fba8909b-a64.mp3",
+    "bytes": 34013979,
+    "duration_s": 4251,
+    "sha256": "78dcf072cee1556ac44f73782f790457046443fa688864e688331574d530862a",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "G": 9.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.222722675635628,
+      "out": {
+        "I": -18.9,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
