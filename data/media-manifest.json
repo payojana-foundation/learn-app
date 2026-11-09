@@ -9501,5 +9501,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1aOfH7SC9UvChpE5M3eVpq-Bw5ZwfT_nt",
+    "drive_name": "៣៥ អារម្មណសង្គហ សាមញ្ញអារម្មណ៍ អធិបតីអារម្មណ៍.mp3",
+    "source_md5": "223d903069bd88d419fe0d759e7197d7",
+    "key": "audio/223d903069bd88d4-a64.mp3",
+    "bytes": 40826087,
+    "duration_s": 5103,
+    "sha256": "0c328b14ad3742cc576363c8df620d7189b4d7f2bde741ea7fda3d3db71e10ed",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 5.600000000000001,
+      "limit": 0.6,
+      "depth": 6.836974992327129,
+      "busy": 5.550193995924126,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
