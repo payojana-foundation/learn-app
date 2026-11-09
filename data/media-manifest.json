@@ -4252,5 +4252,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NbteDNJTTqiuisJzcEarnGS5sdDLFGAE",
+    "drive_name": "បិដកលេខ១៦ 19 ទទួលចង្ហាន់នាយចុន្ទហើយអាពាធកាន់តែខ្លាំង .mp3",
+    "source_md5": "459b008eb60acff39747cdd392c04142",
+    "key": "audio/459b008eb60acff3-a64.mp3",
+    "bytes": 41915497,
+    "duration_s": 5239,
+    "sha256": "4cdbcc168170cde111c99b8338bf9dd9d4c21011b9a5be680327a26978c1b758",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -10,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 3.336974992327126,
+      "busy": 0.011690269878230332,
+      "out": {
+        "I": -18,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
