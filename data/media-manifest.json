@@ -4919,5 +4919,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DrZpnheQF-vNAQxkThXmkbqSXOqWkCJG",
+    "drive_name": "8.០៨ វេវចនរបស់ចិត្ត១០ យ៉ាង.mp3",
+    "source_md5": "ca1becca1e8e6eac738d1f2848220d84",
+    "key": "audio/ca1becca1e8e6eac-a64.mp3",
+    "bytes": 32912656,
+    "duration_s": 4114,
+    "sha256": "0058d916642101fec0167741e926daea7ce925cdf52a400d2880f5df79b44b3a",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -13.9,
+        "LRA": 0
+      },
+      "G": 9.2,
+      "limit": 0.6,
+      "depth": -0.26302500767287373,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
