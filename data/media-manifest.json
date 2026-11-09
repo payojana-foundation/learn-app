@@ -9617,5 +9617,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jvSldNl2fTm4OV_CSz0VH5Zp-YFVMoOr",
+    "drive_name": "៥០ តទាលម្ពណនិយម មិនកើតដោយហេតុ១១ យ៉ាងបន្ត ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "e8cdfdbfab57e4a8640d8345b22f74e0",
+    "key": "audio/e8cdfdbfab57e4a8-a64.mp3",
+    "bytes": 37496415,
+    "duration_s": 4686,
+    "sha256": "777f661cc408e7159cfb7523e7062e6c3e6508c74c23cd375805927239370551",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.399999999999999,
+      "limit": 0.54,
+      "depth": 11.352124803540628,
+      "busy": 8.217143161937273,
+      "out": {
+        "I": -18.3,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
