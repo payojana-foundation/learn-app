@@ -7529,5 +7529,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tZJ8V-RWx1l9fIIOxViiATMU9jjskU9N",
+    "drive_name": "២២ ទិដ្ឋិចេតសិក ការយល់ខុសពីការពិត.m4a",
+    "source_md5": "3cc3357f0b6386b018c9d40f67ae0baa",
+    "key": "audio/3cc3357f0b6386b0-a64.mp3",
+    "bytes": 45465852,
+    "duration_s": 5683,
+    "sha256": "1ebebb244a997dcc292cb3434c352618a853bf068ce17a072f759b304b5b0cdd",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 3.6999999999999993,
+      "limit": 0.6,
+      "depth": 8.236974992327127,
+      "busy": 6.9648261542792795,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
