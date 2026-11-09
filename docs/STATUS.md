@@ -114,3 +114,19 @@ page. All cells pass.
   `no-guilt.contract.test.ts`.
 - Start here marks stay invisible on the live site until `data/paths.json` is
   approved with course ids.
+## bulk-07 — finish the companion and parked items ✅
+- P1 (`7d1c042`): the three guide lines approved (`data/guide-lines.json`);
+  `[VERIFY]` removed from `my.branch.label` and `my.branch.device_note`
+  (`release-check`: 0 markers). No "វគ្គ" in interface strings: it appears only
+  in course/lesson titles from data, so nothing was changed for that item.
+- P2 (`44aa467`, `cdc6951`): `.github/workflows/data-rebuild.yml` +
+  `scripts/ci/data-rebuild.mjs`. A person's edit to `data/**` is rebuilt and
+  committed as "data: rebuild after <sha>" (push-with-retry, no loop, one run
+  at a time). `data-check` now runs after the rebuild and pins the stamp to the
+  committed catalog (bot stamp lag is not drift).
+- P3 (`56f74b2`): IndexedDB `blocking`/`blocked`/`terminated` handling; an old
+  tab closes for a newer one and shows the existing update prompt.
+- P4 (`d459fb3`): `/my` tabs in four equal columns (labels wrap, never cut);
+  tab bar items equal height, ≥ 44 px. `e2e/layout.e2e.mjs`.
+- Known: the bash-script unit tests (`push-with-retry`, `b3-loop`) time out when
+  this Windows machine is short on memory; they pass on a rerun.
