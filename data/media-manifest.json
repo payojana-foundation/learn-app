@@ -12691,5 +12691,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_W4cGrIL6CwavvJ0_B-goBuY6wwzCL2O",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ០៩ និយាម ៥ យ៉ាង និងកាករឧបមាវិថីចិត្ត (ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "8c3fe23eaf928b1fe0eb3de36d48e7f5",
+    "key": "audio/8c3fe23eaf928b1f-a64.mp3",
+    "bytes": 44404653,
+    "duration_s": 5550,
+    "sha256": "024019e57f6a4d2eb870503f2920bdd23933b57ee3eb1449ee581062729e41d7",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 8.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.359054508111809,
+      "out": {
+        "I": -18.7,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
