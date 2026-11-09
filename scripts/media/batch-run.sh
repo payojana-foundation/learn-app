@@ -13,6 +13,8 @@
 #         captured reason. Each id is logged as it starts, with the script's
 #         stdout/stderr and its exit code.
 #
+#         SAVE_CMD  optional command run after EACH id (commit the manifest).
+#
 # Runs ids SEQUENTIALLY: correctness and a legible log beat parallelism here, and
 # the old backgrounded loop silently dispatched nothing / raced its result files.
 
@@ -76,6 +78,13 @@ while IFS= read -r fid || [ -n "$fid" ]; do
   else
     reason="$(json_escape "$(printf '%s' "$out" | tail -n 3 | tr '\n' ' ')")"
     echo "{\"id\":\"$fid\",\"status\":\"failed\",\"reason\":\"transcode-one exit $code: $reason\"}" >> results.failed.ndjson
+  fi
+  # Save after EACH id (any exit code): an upload that finished is committed to
+  # the manifest now, not at the end of the job, so a cancel / 6 h timeout / runner
+  # loss cannot leave an R2 object without its entry. SAVE_CMD is unset in a dry run.
+  if [ -n "${SAVE_CMD:-}" ]; then
+    echo "[$fid] saving manifest ($SAVE_CMD)"
+    $SAVE_CMD || echo "::warning title=Manifest save failed::[$fid] per-file save failed; the final step retries"
   fi
 done < "$PLAN"
 

@@ -1,0 +1,79 @@
+name: r2-orphan-cleanup
+run-name: r2-orphan-cleanup · ${{ inputs.queue }} · ${{ inputs.confirm == 'DELETE' && 'DELETE' || 'LIST ONLY' }}
+# Deletes R2 objects of ONE queue that have no manifest entry ("orphans"; approved
+# by the coordinator, 8 Nov 2026). A key with any manifest entry is never touched.
+# confirm != DELETE -> dry listing only. Manual only; one run per queue at a time.
+on:
+  workflow_dispatch:
+    inputs:
+      queue:
+        description: "Queue path INCLUDING the folder (e.g. data/queues/c068.csv)"
+        required: true
+      confirm:
+        description: "Type DELETE to really delete; anything else only lists"
+        required: false
+        default: ""
+permissions:
+  contents: read
+  id-token: write
+concurrency:
+  group: r2-orphan-cleanup-${{ inputs.queue }}
+  cancel-in-progress: false
+jobs:
+  cleanup:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      QUEUE: ${{ inputs.queue }}
+      CONFIRM: ${{ inputs.confirm }}
+    steps:
+      - name: Check the queue input
+        run: |
+          set -euo pipefail
+          case "$QUEUE" in
+            data/queues/*.csv) ;;
+            *) echo "::error::queue must be data/queues/<id>.csv"; exit 1 ;;
+          esac
+          if ! printf '%s' "$QUEUE" | grep -Eq '^data/queues/[A-Za-z0-9_.-]+\.csv$'; then
+            echo "::error::bad queue path"; exit 1
+          fi
+      - uses: actions/checkout@v5
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - name: Authenticate to Google Cloud (Workload Identity Federation)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/drive
+      - uses: AnimMouse/setup-rclone@v1
+      - name: Configure rclone R2 remote (course-media token)
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+        run: |
+          set -euo pipefail
+          mkdir -p "$HOME/.config/rclone"
+          cat > "$HOME/.config/rclone/rclone.conf" <<EOF
+          [r2]
+          type = s3
+          provider = Cloudflare
+          access_key_id = ${R2_ACCESS_KEY_ID}
+          secret_access_key = ${R2_SECRET_ACCESS_KEY}
+          endpoint = https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com
+          no_check_bucket = true
+          EOF
+          rclone lsd "r2:course-media" >/dev/null
+      - name: List or delete orphans
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: |
+          set -euo pipefail
+          mode=list
+          [ "$CONFIRM" = "DELETE" ] && mode=delete
+          echo "mode: $mode"
+          node scripts/media/orphan-cleanup.mjs "$QUEUE" data/media-manifest.json "$mode" | tee -a "$GITHUB_STEP_SUMMARY"

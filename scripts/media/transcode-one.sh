@@ -243,6 +243,17 @@ if [ "$ucode" -ne 0 ]; then
   echo "[$DRIVE_FILE_ID] FAILED stage=rclone-copyto: ${up}" >&2
   exit 1
 fi
+# B4: manifest entry. Written RIGHT AFTER the upload succeeds and BEFORE the
+# size/public-URL checks: the object is on R2 now, so the entry must exist even if
+# a later check fails or the job is cancelled (else it becomes an orphan). The
+# entry is DRAFT; a failed check still ends the id red.
+LESSON_CODE="${LESSON_CODE:-}"
+nn 'const fs=require("fs");const a=process.argv;const o={lesson_code:a[11]||null,drive_file_id:a[1],drive_name:a[2],source_md5:a[3],key:a[4],bytes:Number(a[5])||0,duration_s:Number(a[6])||0,sha256:a[7],loudness:{pass1:{I:Number(a[8].split(",")[0]),TP:Number(a[8].split(",")[1]),LRA:Number(a[8].split(",")[2])},G:Number(a[9].split(",")[0]),limit:Number(a[9].split(",")[1]),depth:Number(a[12].split(",")[0]),busy:Number(a[12].split(",")[1]),out:{I:Number(a[10].split(",")[0]),TP:Number(a[10].split(",")[1]),LRA:Number(a[10].split(",")[2])},loops:Number(a[9].split(",")[2]),result:a[13]||null}};if(!/^[0-9a-f]{64}$/.test(o.sha256)){console.error("bad sha");process.exit(1)}fs.writeFileSync("entry-"+a[1]+".json",JSON.stringify(o))' \
+  "$DRIVE_FILE_ID" "$drive_name" "$md5" "$key" "${bytes:-0}" "${dur:-0}" "${sha:-}" \
+  "${p1_i},${p1_tp}," "${G},${limit},${loops}" "${out_i},${out_tp}," "$LESSON_CODE" \
+  "${depth},${busy}" "$result" || {
+    echo "[$DRIVE_FILE_ID] could not build a valid manifest entry" >&2; exit 1; }
+
 remote_size="$(object_size "$key")"
 if [ "${remote_size:-0}" != "$bytes" ]; then
   echo "[$DRIVE_FILE_ID] FAILED stage=verify: remote size ${remote_size} != local ${bytes}" >&2
@@ -252,14 +263,6 @@ if ! verify_on_r2 "$key"; then
   echo "[$DRIVE_FILE_ID] FAILED stage=verify: 200/206 check failed for ${key}" >&2
   exit 1
 fi
-
-# B4: manifest entry.
-LESSON_CODE="${LESSON_CODE:-}"
-nn 'const fs=require("fs");const a=process.argv;const o={lesson_code:a[11]||null,drive_file_id:a[1],drive_name:a[2],source_md5:a[3],key:a[4],bytes:Number(a[5])||0,duration_s:Number(a[6])||0,sha256:a[7],loudness:{pass1:{I:Number(a[8].split(",")[0]),TP:Number(a[8].split(",")[1]),LRA:Number(a[8].split(",")[2])},G:Number(a[9].split(",")[0]),limit:Number(a[9].split(",")[1]),depth:Number(a[12].split(",")[0]),busy:Number(a[12].split(",")[1]),out:{I:Number(a[10].split(",")[0]),TP:Number(a[10].split(",")[1]),LRA:Number(a[10].split(",")[2])},loops:Number(a[9].split(",")[2]),result:a[13]||null}};if(!/^[0-9a-f]{64}$/.test(o.sha256)){console.error("bad sha");process.exit(1)}fs.writeFileSync("entry-"+a[1]+".json",JSON.stringify(o))' \
-  "$DRIVE_FILE_ID" "$drive_name" "$md5" "$key" "${bytes:-0}" "${dur:-0}" "${sha:-}" \
-  "${p1_i},${p1_tp}," "${G},${limit},${loops}" "${out_i},${out_tp}," "$LESSON_CODE" \
-  "${depth},${busy}" "$result" || {
-    echo "[$DRIVE_FILE_ID] could not build a valid manifest entry" >&2; exit 1; }
 
 echo "[$DRIVE_FILE_ID] done → $key"
 exit 0

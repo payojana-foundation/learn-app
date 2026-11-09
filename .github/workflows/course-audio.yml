@@ -14,8 +14,9 @@ run-name: course-audio · ${{ inputs.list }} · ${{ inputs.dry_run == 'true' && 
 # - input `concurrency` : parallel transcodes (default 2).
 #
 # Ids already in data/media-manifest.json are SKIPPED. The manifest is committed
-# at the END of the run AND on cancellation (whatever finished so far), so a run
-# cancelled near the GitHub job time limit never loses completed work.
+# AFTER EACH FILE (scripts/ci/save-manifest.sh via SAVE_CMD) and again at the end
+# (also on cancellation), so a cancel, timeout or runner loss never leaves an R2
+# object without its entry.
 #
 # ffprobe decides the real type (some videos are named .mp3); for a video only
 # the audio TRACK is streamed from the Drive URL with the WIF access token as an
@@ -175,6 +176,9 @@ jobs:
         env:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
           DRY_RUN: ${{ inputs.dry_run == 'true' && '1' || '0' }}
+          # Commit the manifest after EACH file (empty in a dry run = no commits),
+          # so a cancel / timeout cannot leave an R2 object without its entry.
+          SAVE_CMD: ${{ inputs.dry_run == 'true' && '' || 'bash scripts/ci/save-manifest.sh' }}
           # Drive tokens expire after ~60 min. transcode-one re-mints a fresh
           # access token before each file and once on a 401 via this command
           # (the WIF credentials file is already on disk from the auth step).
