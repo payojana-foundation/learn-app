@@ -9965,5 +9965,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1v0ahlHJHX1X5FbJthLBCnjFK38mGrb_k",
+    "drive_name": "៥៣ ចែកបុគ្គលជា១២ ពួកនិងភូមិ៣ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "c5760570d1d73ca3f53ed6efc0488bde",
+    "key": "audio/c5760570d1d73ca3-a64.mp3",
+    "bytes": 36180470,
+    "duration_s": 4522,
+    "sha256": "c5810e1403e154c0466174009ec6ac0b2895326c07d046fc397bb0cc904324e4",
+    "loudness": {
+      "pass1": {
+        "I": -21.9,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 5.5,
+      "limit": 0.6,
+      "depth": 9.536974992327128,
+      "busy": 5.83686194735271,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
