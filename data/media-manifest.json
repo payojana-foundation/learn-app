@@ -7877,5 +7877,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14XEDJO3cKP0MjsdMWaxZyl7dUKub1EMU",
+    "drive_name": "៣៤ អវិភូតារម្មណ៍ និងអតិអវិភូតារម្មណ៍ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "8ec7a1f083bef744a0e79e13a63ebe23",
+    "key": "audio/8ec7a1f083bef744-a64.mp3",
+    "bytes": 30582325,
+    "duration_s": 3822,
+    "sha256": "52689d03374dcf16bed8207181ad040f7731b6dad4b583bbc0d6eb17d04c52d3",
+    "loudness": {
+      "pass1": {
+        "I": -20.9,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 4.299999999999997,
+      "limit": 0.6,
+      "depth": 8.236974992327124,
+      "busy": 6.068275456150677,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
