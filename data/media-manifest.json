@@ -13416,5 +13416,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XQhwyqCmkOLoFsPtyRxuLihQC96tDA-0",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 18 អតិបរិត្តារម្មណ៍ ៧.mp3",
+    "source_md5": "01e964d0f2c7cb8b9e3f5c88dd08befd",
+    "key": "audio/01e964d0f2c7cb8b-a64.mp3",
+    "bytes": 48088963,
+    "duration_s": 6011,
+    "sha256": "26f492a36da15414d4012a7f1298d3daebb861f9e839b803f31a3061958f75a2",
+    "loudness": {
+      "pass1": {
+        "I": -28.6,
+        "TP": -15.5,
+        "LRA": 0
+      },
+      "G": 11.100000000000001,
+      "limit": 0.6,
+      "depth": 0.03697499232712875,
+      "busy": 0.00020794862837084725,
+      "out": {
+        "I": -18,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
