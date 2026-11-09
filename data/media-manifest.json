@@ -10806,5 +10806,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dywUpYTxb7hTJz79BIc4HGFXm-_0bpEs",
+    "drive_name": "60.៦០ ផលនៃការធ្វើទានចំពោះសង្ឃនិងបុគ្គល.mp3",
+    "source_md5": "c942be0bead1d9405c083e111e77b3ac",
+    "key": "audio/c942be0bead1d940-a64.mp3",
+    "bytes": 42945140,
+    "duration_s": 5368,
+    "sha256": "f5eb98e00e5c0870ab8ed502d421f6231148e520936c6db79189107e66c89ce9",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 5.400000000000002,
+      "limit": 0.6,
+      "depth": 9.93697499232713,
+      "busy": 5.132169668970399,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
