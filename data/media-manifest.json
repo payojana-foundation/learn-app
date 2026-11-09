@@ -15475,5 +15475,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ASYRkSJg2RZ6fed_aP_QvB4pGIwEM-2m",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៣១ សម្បដិច្ឆន្នស្ថាន រហូតដល់តទាលម្ពណស្ថាន.mp3",
+    "source_md5": "4e43c07a8627a16926bef57edcf03edb",
+    "key": "audio/4e43c07a8627a169-a64.mp3",
+    "bytes": 43631638,
+    "duration_s": 5453,
+    "sha256": "54d8f5765f0b1233a814e2020e4924b770659db6a8f7ecc5f87b6118071ee9f4",
+    "loudness": {
+      "pass1": {
+        "I": -24.8,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "G": 9.100000000000001,
+      "limit": 0.6,
+      "depth": 11.13697499232713,
+      "busy": 5.456416509286933,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
