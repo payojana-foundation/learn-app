@@ -9907,5 +9907,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18CPnPWMLmo51V0oE9RTIuuwhmbUgEYbi",
+    "drive_name": "50.៥០ ព្រះនាមថាវិជ្ជាចរណសម្បន្នោ សុគតោ.mp3",
+    "source_md5": "852fd29f28e19c4cb950f3dcf68ae2b9",
+    "key": "audio/852fd29f28e19c4c-a64.mp3",
+    "bytes": 31653763,
+    "duration_s": 3956,
+    "sha256": "00229764986ec4764f55838c2e598022cc1fb6cfdba595c1921d0de895396c07",
+    "loudness": {
+      "pass1": {
+        "I": -19.3,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 3.3000000000000007,
+      "limit": 0.6,
+      "depth": 7.936974992327128,
+      "busy": 4.880329567568934,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
