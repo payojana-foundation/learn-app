@@ -18027,5 +18027,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XHAb3hgzCFGnx3NbSI2uQFXCKsAaTFL-",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៦៣ រូបវិថីចាប់ផ្តើមដំបូងកម្មជ្ជកលាប(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "11b13da78b62ec7ecaf88336a044be8e",
+    "key": "audio/11b13da78b62ec7e-a64.mp3",
+    "bytes": 42100653,
+    "duration_s": 5262,
+    "sha256": "1ed0dd1586d61baa1d5f5c1e80024cfc681f3a617fdb7c69a89ae18f7349d218",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.617770852533468,
+      "out": {
+        "I": -18.6,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
