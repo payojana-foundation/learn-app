@@ -8950,5 +8950,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EG9urnBwAQ101SADSnSgP9UWkUlUtl54",
+    "drive_name": "៣០ ទ្វារសង្គហ អង្គធម៌ទ្វារ៦ ចិត្តក្នុងទ្វារនិងក្រៅទ្វារ.mp3",
+    "source_md5": "5cb6232f2b48ad945f267b1edb4fdf82",
+    "key": "audio/5cb6232f2b48ad94-a64.mp3",
+    "bytes": 38991037,
+    "duration_s": 4873,
+    "sha256": "a375ecca54c20d65ad5d0f4807c6e642740f55f577d12864d1f116177692df0b",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 10.636974992327126,
+      "busy": 4.928855011951537,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
