@@ -18259,5 +18259,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ALiWbQQ-4GfoD39NKmSS1RgXDLwBeEjL",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ភាគបញ្ចប់ ៦៤ រម្លឹកមេរៀនបញ្ចប់បរិច្ឆេទទី៣.mp3",
+    "source_md5": "092f15c6672ca6838ee24c99916deefd",
+    "key": "audio/092f15c6672ca683-a64.mp3",
+    "bytes": 60884157,
+    "duration_s": 7610,
+    "sha256": "9ab68f26cbb824ba3c65b2ab1ea6296e7fc212a9442ec057846a7875699bba28",
+    "loudness": {
+      "pass1": {
+        "I": -18.9,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 2.4999999999999964,
+      "limit": 0.6,
+      "depth": 7.136974992327124,
+      "busy": 3.3939951382957756,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
