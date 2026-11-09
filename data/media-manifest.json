@@ -6427,5 +6427,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Q48Z0iXCJbE7lahfYisIbpqfYDFqzIu2",
+    "drive_name": "១៤ វិចារចេតសិក ការពិចារណាអារម្មណ៍.m4a",
+    "source_md5": "88432c9610c89d1c989564964bf02c05",
+    "key": "audio/88432c9610c89d1c-a64.mp3",
+    "bytes": 33452451,
+    "duration_s": 4181,
+    "sha256": "875f0c1f724d088346419f96ff534bdd5bec3ca440789c007d3fc545b390b904",
+    "loudness": {
+      "pass1": {
+        "I": -21,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 9.736974992327127,
+      "busy": 7.127227071625015,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
