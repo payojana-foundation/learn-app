@@ -16548,5 +16548,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wp2_0lAbVanunuxW3ikHEFVteQzerxIy",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៤១ អារម្មណសង្គហ ទ្វារវិមុត្តិដឹងអារម្មណ៍.mp3",
+    "source_md5": "2e9fdff4dd7a679789c0d659ae2ac194",
+    "key": "audio/2e9fdff4dd7a6797-a64.mp3",
+    "bytes": 42664480,
+    "duration_s": 5333,
+    "sha256": "e8396db8b50336aff9a9a8507bc1013b5acb357173b41b463b03b51e22cf0923",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 5.2697330795698525,
+      "out": {
+        "I": -18.1,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
