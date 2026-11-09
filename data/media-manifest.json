@@ -5412,5 +5412,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-O_C_NGjmdgvrpSsVEbe-66PyJwvz-a1",
+    "drive_name": "13.១៣ គាថាសម្តែងពីសភាពរបស់ចិត្ត.mp3",
+    "source_md5": "8efcf6eff8e7a043ba8f5624611bfe45",
+    "key": "audio/8efcf6eff8e7a043-a64.mp3",
+    "bytes": 29777545,
+    "duration_s": 3722,
+    "sha256": "f152b902e45b69bd343475e9bcbbf982ae4d29c5ff68eb9fef982afcd28734f2",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": -7.8,
+        "LRA": 0
+      },
+      "G": 4.199999999999999,
+      "limit": 0.6,
+      "depth": 0.8369749923271268,
+      "busy": 0.0010074822347299276,
+      "out": {
+        "I": -18,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
