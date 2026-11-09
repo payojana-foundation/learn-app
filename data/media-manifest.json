@@ -11270,5 +11270,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1edw9-qlO5jCATxa6r88lz0Kf38Yfu-fz",
+    "drive_name": "66.៦៦ ធម៌លះបង់វិចិកិច្ឆាមាន ៦ យ៉ាង.mp3",
+    "source_md5": "98ee0df6e3328ccf8e4c02beea817dfe",
+    "key": "audio/98ee0df6e3328ccf-a64.mp3",
+    "bytes": 37059020,
+    "duration_s": 4632,
+    "sha256": "9b6833719562f3a0ca074751b8d7e316346a99882e3e843e59d4829ecdd0710d",
+    "loudness": {
+      "pass1": {
+        "I": -20.6,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 4.5,
+      "limit": 0.6,
+      "depth": 9.136974992327128,
+      "busy": 5.063574643539456,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
