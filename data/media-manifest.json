@@ -5238,5 +5238,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1FcIt8MpERQrDB6KSoY5SKpFf2ysk4h4e",
+    "drive_name": "០៤ ចែកចិត្តនិងបុគ្គល និងភូមិទាំង ៣១ភិក្ខុអគ្គចិត្តោ យ៉ុន យី_ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "2a944bed56a99f6a81f4e4ec47f6e836",
+    "key": "audio/2a944bed56a99f6a-a64.mp3",
+    "bytes": 31549274,
+    "duration_s": 3943,
+    "sha256": "40751fddca108b44119190fce596b9a2636d305e11c82e710792e6b42321c343",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 9.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.9699897303259672,
+      "out": {
+        "I": -18.8,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
