@@ -4948,5 +4948,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_Bd61UVWgR-x-m9UV3bnPkQrnT85AaBI",
+    "drive_name": "០១ រម្លឹកបរមត្ថធម៌៤.mp3",
+    "source_md5": "54d63a3ea33952901339540105b7c8cb",
+    "key": "audio/54d63a3ea3395290-a64.mp3",
+    "bytes": 25445816,
+    "duration_s": 3180,
+    "sha256": "1a0325c2001bca6269ad621a61fb673560f3616420a6cd95649566cf60278678",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -5,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 5.318881360728153,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
