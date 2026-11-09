@@ -8718,5 +8718,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1k3ilfLejh4bAa1rqWMxQ95054dm_gLjD",
+    "drive_name": "២៨ ឋាន១០ ភវង្គស្ថានដល់សន្តីរណស្ថាន(១).mp3",
+    "source_md5": "4150f3986a38462d0491e5c96b533665",
+    "key": "audio/4150f3986a38462d-a64.mp3",
+    "bytes": 41491478,
+    "duration_s": 5186,
+    "sha256": "872a53f9ac08dd51f6270d9d6d4d7db611c64e98e19e1a63a18331c51ae1a6fc",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 10.899999999999999,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 5.029259216412155,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
