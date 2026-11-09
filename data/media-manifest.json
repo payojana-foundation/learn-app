@@ -10545,5 +10545,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1uBeupqFjSA1e0ftNQnmA-n-IGhwvCE_q",
+    "drive_name": "57.៥៧ ទេសនា ៣ យ៉ាងក្នុងព្រះត្រៃបិដក.mp3",
+    "source_md5": "277f1aa72c1c8e1f81e770fc3fd9a9d7",
+    "key": "audio/277f1aa72c1c8e1f-a64.mp3",
+    "bytes": 38806299,
+    "duration_s": 4850,
+    "sha256": "604beca13418c0df3c25e722b1f1fb8f18f02ed9d270742eaf9204d4b38123c6",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 7.369736638664124,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
