@@ -9559,5 +9559,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ehIJn0Jc0htRB9UP5uifw04qm5HCcVLU",
+    "drive_name": "៣៩ ឱត្តប្បចេតសិក ការខ្លាចបាប ឬខ្លាចទុច្ចរិត.m4a",
+    "source_md5": "7d55264ca22ac828f3a7c56607334e7a",
+    "key": "audio/7d55264ca22ac828-a64.mp3",
+    "bytes": 43267804,
+    "duration_s": 5408,
+    "sha256": "f436a56e4510dc97df97da4712c033e31fa1b42a9517b06849ac5031d3cfafc4",
+    "loudness": {
+      "pass1": {
+        "I": -22.7,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 6.399999999999999,
+      "limit": 0.6,
+      "depth": 10.836974992327125,
+      "busy": 5.730384860727195,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
