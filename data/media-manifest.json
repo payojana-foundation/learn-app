@@ -14953,5 +14953,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14FQen7Nxx9szDk7DCTOSOUfcow-weAJi",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ២៧ សមូហគ្គហណវិថីប្រភេទទី១ ដល់ទី៤(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "a7c7ca52a1149ee126fbf8d847e590cb",
+    "key": "audio/a7c7ca52a1149ee1-a64.mp3",
+    "bytes": 43225172,
+    "duration_s": 5403,
+    "sha256": "dcc94761f9ddbc31921ca49d3b5467493e25f330c0756f7bd39336723e2bd04e",
+    "loudness": {
+      "pass1": {
+        "I": -23.7,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 8.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.3906553645129645,
+      "out": {
+        "I": -18.3,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
