@@ -185,7 +185,7 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   `migrateAliases`, `src/db/aliases.ts`. Contract: "P-23" and `src/db/leaves.test.ts`,
   `src/db/migration.test.ts`. [from part bulk-05 P1]
 - **P-24** The branch panel on `/my` shows no numbers, levels, percent,
-  comparison or empty slots: one leaf per finished course, slots above the count
+  comparison or empty slots: one leaf per finished course, slots above the count of leaves plus buds
   are `display="none"`, 13+ leaves add a second branch. The device note is always
   shown. `branchPanelHtml`/`branchesHtml`, `src/ui/companion.ts`. Contract:
   "P-24". [from part bulk-05 P2]
@@ -196,3 +196,20 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   the build. `pathCourseIds`, `src/data/companion.ts`; `loadBase`, `src/app.ts`;
   `scripts/companion-check.mjs`. Contract: "P-25" and "P-10" in
   `companion.contract.test.ts`. [from part bulk-05 P1]
+
+## Buds and no guilt (bulk-06)
+
+- **P-26** No guilt: the app sends no notifications or reminders; shows no
+  streaks, day counts, points, ranks or leaderboards; never uses wording about
+  missing, losing, failing or sadness; nothing on the branch is removed or fades
+  because of time. Contract: `src/contracts/__tests__/no-guilt.contract.test.ts`
+  "P-26" (no Notification/push/badge API in `src/`, no streak/points/rank words
+  in interface strings, no time-based fade on the branch). [from part bulk-06 P2]
+- **P-27** Buds: a bud = class started (>=1 lesson done) and not finished;
+  derived from progress; leaves first, then buds. `startedCourseIds`/
+  `orderBranchItems`, `src/data/companion.ts`; `branchesHtml`/`markBuds`,
+  `src/ui/companion.ts`; `myCompanionCtx`, `src/app.ts`. Contract: "P-27".
+  [from part bulk-06 P1]
+- **P-28** Start here leaf mark: Start here row only, leaf sign only, no text or
+  numbers. `leafMarkHtml`, `src/ui/companion.ts`; `homeView`, `src/ui/views.ts`.
+  Contract: "P-28". [from part bulk-06 P1]

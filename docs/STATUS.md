@@ -102,3 +102,15 @@ page. All cells pass.
   replacement of the draft SVGs (same file names, `data-slot` 1..12).
 - Known: two shell-script tests (`push-with-retry`, `b3-loop`) can time out
   (5000 ms) when the machine is busy; they pass on a rerun.
+## bulk-06 — buds, Start here leaf marks, no-guilt rule ✅
+- P1 (`058f600`): a started class (in the catalogue, no leaf, >= 1 lesson done)
+  shows an outlined bud on the branch; derived from progress at render time (no
+  new store, no DB bump). Order: leaves first, then buds; 13+ items continue on
+  the next branch. Branch SVG gains def `bb` (bud) next to `bl` (leaf); protected
+  P-22 changed to name both ids. Start here row cards with a leaf show the 16 px
+  leaf sign (no text). `e2e/buds.e2e.mjs`.
+- P2: protected P-24 wording ("the count of leaves plus buds"); new **P-26** no
+  guilt, **P-27** buds, **P-28** Start here leaf mark; contract tests in
+  `no-guilt.contract.test.ts`.
+- Start here marks stay invisible on the live site until `data/paths.json` is
+  approved with course ids.
