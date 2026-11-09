@@ -9588,5 +9588,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SqRjpJzcql3Eoss4LZUvq6UMPqW2qa7G",
+    "drive_name": "47.៤៧ ហេតុនាំឱ្យកើតមោហមូលចិត្ត ២ ដួង.mp3",
+    "source_md5": "9fbab2e67c7c24f8e36a2a9458ca1c8e",
+    "key": "audio/9fbab2e67c7c24f8-a64.mp3",
+    "bytes": 35171935,
+    "duration_s": 4396,
+    "sha256": "1d9ba585af97328d5db14f458ad4e0ffd0e15e59b480fd11509490d6e0c5c08f",
+    "loudness": {
+      "pass1": {
+        "I": -19.6,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 3.0000000000000036,
+      "limit": 0.6,
+      "depth": 7.636974992327131,
+      "busy": 4.0700451500642565,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
