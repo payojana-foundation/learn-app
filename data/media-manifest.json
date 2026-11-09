@@ -9849,5 +9849,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cUVLVkYeEISQYlQwGZPz_Rn0_hfrRcUk",
+    "drive_name": "៣៨ អារម្មណសង្គហ កម្មារម្មណ៍ កម្មនិមិត្តារម្មណ៍ គតិនិមិត្ត.mp3",
+    "source_md5": "7be8c6e7319e7efe039f60de06a55d72",
+    "key": "audio/7be8c6e7319e7efe-a64.mp3",
+    "bytes": 45505976,
+    "duration_s": 5688,
+    "sha256": "b386419a714bc31790ee6fe4e9ff24511619dc39e80e28bb047a262e636a2691",
+    "loudness": {
+      "pass1": {
+        "I": -22.6,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 5.936974992327128,
+      "busy": 4.6693154249147355,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
