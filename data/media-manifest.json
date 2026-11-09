@@ -6079,5 +6079,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xPk6J0QNbyZchNuIzuGlxR48-Oaih8aL",
+    "drive_name": "18.១៨ ពន្យល់លោភមូលចិត្តដួងទី៣.mp3",
+    "source_md5": "64347533fbe4328c4a1b525322de2914",
+    "key": "audio/64347533fbe4328c-a64.mp3",
+    "bytes": 31223683,
+    "duration_s": 3902,
+    "sha256": "3f7f213fc6ac5078afde8d7af2c113bdac9aac008f3b0ed85e2405aa595ed09c",
+    "loudness": {
+      "pass1": {
+        "I": -24.9,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 8.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.64142048220554,
+      "out": {
+        "I": -19,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
