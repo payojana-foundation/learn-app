@@ -12430,5 +12430,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_xxqcoNdmOLEatBqjuExM9UbwDx-YpSh",
+    "drive_name": "79.៧៩ អទិន្នាទាននានាភណ្ឌបញ្ចកៈ.mp3",
+    "source_md5": "01efe714cb7bdbb1b42fd054d2bda21e",
+    "key": "audio/01efe714cb7bdbb1-a64.mp3",
+    "bytes": 16872846,
+    "duration_s": 2109,
+    "sha256": "d9fa6cf9624b85b8deef14e6fb5a89842c193e4390de39001455e07217bf8bcc",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": 2.3000000000000007,
+      "limit": 0.6,
+      "depth": 7.036974992327128,
+      "busy": 4.451648846637111,
+      "out": {
+        "I": -18.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
