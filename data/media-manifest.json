@@ -10052,5 +10052,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16fjewgjA-4DT_gtKt9Ra6e5g2Rb9Dn3Y",
+    "drive_name": "៤០ អារម្មណសង្គហ ចិត្តដឹងមហគ្គតារម្មណ៍ប្រាកដ.mp3",
+    "source_md5": "64271dd2b3cba6e1a84073f56879ff18",
+    "key": "audio/64271dd2b3cba6e1-a64.mp3",
+    "bytes": 43051301,
+    "duration_s": 5381,
+    "sha256": "594bb6419bf68401881a8c0d1a282a3546882aec4079b2e1bfae443272744011",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 4.800000000000001,
+      "limit": 0.6,
+      "depth": 6.036974992327128,
+      "busy": 4.984065484818077,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
