@@ -11821,5 +11821,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mkwuEem_jxNYbZjwvEObvG37GvFmrdE7",
+    "drive_name": "73.៧៣ បាណាតិបាតតាមវេជ្ជសាស្រ្ត វិទ្យាសាស្រ្ត.mp3",
+    "source_md5": "dd7d6764d59faa137e8ba9a30450683a",
+    "key": "audio/dd7d6764d59faa13-a64.mp3",
+    "bytes": 34380320,
+    "duration_s": 4297,
+    "sha256": "af05a5379022f37498f426e05783fd5d70e582af19a4bd56c06ef69d136972e3",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 2.8000000000000007,
+      "limit": 0.6,
+      "depth": 7.6369749923271275,
+      "busy": 5.12129144851658,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
