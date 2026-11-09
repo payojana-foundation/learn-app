@@ -13097,5 +13097,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1spki5v_pWNaTbj2l6tl5xakkBU9u8oIX",
+    "drive_name": "២៣ អាហាររូប រូបដែលជាអាហារចិញ្ចឹមរាងកាយ.mp3",
+    "source_md5": "b823e45ab9203d78e732b13d2eae83cf",
+    "key": "audio/b823e45ab9203d78-a64.mp3",
+    "bytes": 42969590,
+    "duration_s": 5371,
+    "sha256": "e26b71731e84b89d990677d473c27c4fdbe59303c30e401d66f36cb1b209e065",
+    "loudness": {
+      "pass1": {
+        "I": -23.7,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 5.68453683103246,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
