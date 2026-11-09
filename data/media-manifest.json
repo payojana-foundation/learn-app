@@ -12111,5 +12111,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RvT0EJA9-9CQaUt8VDGFaVSvBqtXG7G3",
+    "drive_name": "76.៧៦ អាការវិនិច្ឆ័យ៥របស់បាណាតិបាត.mp3",
+    "source_md5": "5274f8cbe160eab72642f2756202dea1",
+    "key": "audio/5274f8cbe160eab7-a64.mp3",
+    "bytes": 29868033,
+    "duration_s": 3733,
+    "sha256": "c7f1c0a45c59fdc991f4a77758e657a10012fc59af446ea6b23b631615dc8dfa",
+    "loudness": {
+      "pass1": {
+        "I": -22.2,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 5.600000000000001,
+      "limit": 0.6,
+      "depth": 10.036974992327128,
+      "busy": 4.61603878450227,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
