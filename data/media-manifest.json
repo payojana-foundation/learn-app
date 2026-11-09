@@ -12633,5 +12633,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qxksaYxtJ7V7lcpLOR2-vpt6aewBRUbs",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ០៨ ពន្យល់វិថីចិត្ត ១៧ ខណៈតាមបញ្វទ្វារ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "0f2c070e004d58b51441417a7cba148c",
+    "key": "audio/0f2c070e004d58b5-a64.mp3",
+    "bytes": 44904950,
+    "duration_s": 5613,
+    "sha256": "42998734899c3b278425999411d0df719b7f2b697473f68a5b2068546cbdef8e",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.187311824125706,
+      "out": {
+        "I": -19,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
