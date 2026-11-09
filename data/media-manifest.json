@@ -13155,5 +13155,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xRmlZ_3OVNYE0X-b25AE_Z-Ul3NcW0nD",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ១៣ អតិមហន្តារម្មណ៍ ប្រភេទទី២ និងទី៣(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "f3609c6e368874fe7a34d5ee1afa79fc",
+    "key": "audio/f3609c6e368874fe-a64.mp3",
+    "bytes": 44414266,
+    "duration_s": 5551,
+    "sha256": "6dacb24139c260f9cf13da3631d2191481e0168201a41d51d5b19634cba05456",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.515738280722295,
+      "out": {
+        "I": -18.3,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
