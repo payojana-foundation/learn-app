@@ -9182,5 +9182,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GCDND6XXcuAUao9fI5i9sAz26lm-bcjK",
+    "drive_name": "43.៤៣ វិធីយកឈ្នះមនុស្សមាន ៤ ប្រភេទ.mp3",
+    "source_md5": "487d17789088e7ac57cc18e40687737d",
+    "key": "audio/487d17789088e7ac-a64.mp3",
+    "bytes": 35053443,
+    "duration_s": 4381,
+    "sha256": "47d8cc358952dffd7487d5dad75ef93f301d0da9892321167fbb83beec84151e",
+    "loudness": {
+      "pass1": {
+        "I": -17.1,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": -0.5,
+      "limit": 0.6,
+      "depth": -0.463025007672873,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
