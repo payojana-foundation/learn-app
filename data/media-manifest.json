@@ -17041,5 +17041,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1TqT6wXipY2vzMOmCYfAaKhdf27ZuSu-T",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៤៦ អារម្មណសង្គហ ចិត្ត ២៥ ដឹងកាមារម្មណ៍.mp3",
+    "source_md5": "c32c3e522333345d693b7d75ebd9fd96",
+    "key": "audio/c32c3e522333345d-a64.mp3",
+    "bytes": 43478874,
+    "duration_s": 5434,
+    "sha256": "88c4244f17a60ae0f405988ae074ef675a782ca77795e98f676982818590a499",
+    "loudness": {
+      "pass1": {
+        "I": -25.5,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 5.318684048317801,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
