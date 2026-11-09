@@ -15040,5 +15040,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Q0zwTl3l7IChOSiJfjqktg_QBBbGESoM",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ២៨ កិច្ចសង្គហៈ សំណួរចម្លើយរម្លឹកមេរៀនក្នុងកិច្ច១៤.mp3",
+    "source_md5": "df43a23859da681b00bd85492d8d5ba2",
+    "key": "audio/df43a23859da681b-a64.mp3",
+    "bytes": 44876738,
+    "duration_s": 5609,
+    "sha256": "f8ef52c3a94dc73fcdd742021ad07ee177e43935d36a51a6773379ed996c0d54",
+    "loudness": {
+      "pass1": {
+        "I": -26.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 5.984882922872601,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
