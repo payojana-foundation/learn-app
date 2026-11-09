@@ -16113,5 +16113,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14AbgKfqEOwZl8HzXjddguP8W-hzAmlNC",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 45 វិភូតារម្មណ៍ ១៤ ជាកាមជវន២៧ និងទោសជវន២.mp3",
+    "source_md5": "ca5faa6e4b7fa6b1f5713c27f668f9f3",
+    "key": "audio/ca5faa6e4b7fa6b1-a64.mp3",
+    "bytes": 45229287,
+    "duration_s": 5653,
+    "sha256": "62a57fae1ec7f50e907684eec455e9bd873da770733038582bafb607a54fa607",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -8,
+        "LRA": 0
+      },
+      "G": 5.5,
+      "limit": 0.6,
+      "depth": 1.9369749923271273,
+      "busy": 0.02984797431747632,
+      "out": {
+        "I": -18,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
