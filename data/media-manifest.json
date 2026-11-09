@@ -17940,5 +17940,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Kk-iR3tggQcQho2rrMmFL_Z8ekPQ4EUQ",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៥៩ វត្ថុសង្គហ បច្ច័យ ៣ ប្រការក្នុងបញ្ចវោការភូមិ.mp3",
+    "source_md5": "8f55b12cbe5c06cb6a2ca07d57dae2b8",
+    "key": "audio/8f55b12cbe5c06cb-a64.mp3",
+    "bytes": 41591370,
+    "duration_s": 5198,
+    "sha256": "d7f61df8af7cff1accb4a7eb257a3db8f82f508c6fde2dcbaaf7615c81b05794",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 5.976504645213411,
+      "out": {
+        "I": -18.2,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
