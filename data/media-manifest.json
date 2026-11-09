@@ -6311,5 +6311,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xEoDHPHHODhnCNBWmUoNRwWn3wdJ_Fji",
+    "drive_name": "១៣ វិតក្កចេតសិក ការត្រិះរិះ.m4a",
+    "source_md5": "9bd82d151a9b84a480512b3436854515",
+    "key": "audio/9bd82d151a9b84a4-a64.mp3",
+    "bytes": 36678051,
+    "duration_s": 4584,
+    "sha256": "4552dcfeb60d6d538692adade06d7861efcdc39fbfb624328def3845ff5ed5a3",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.285035007743145,
+      "out": {
+        "I": -18.7,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
