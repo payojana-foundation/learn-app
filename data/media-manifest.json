@@ -14721,5 +14721,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ILJQy9pSj24Wu_6RhuEjnzdSaL-mTL3m",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ២៥ អតីតគ្គហណវិថី ប្រភេទទី១ ដល់ទី៣(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "4005916cfec9904fd8e0c0fed606e9c1",
+    "key": "audio/4005916cfec9904f-a64.mp3",
+    "bytes": 41661378,
+    "duration_s": 5207,
+    "sha256": "51254bb836dc3e18428e2fd6e4f09ff1ec4e431f4f1d828aeeb14c7fa3ebda5f",
+    "loudness": {
+      "pass1": {
+        "I": -23.5,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.569930774917669,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
