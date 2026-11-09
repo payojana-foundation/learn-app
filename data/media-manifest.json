@@ -16606,5 +16606,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1T-m95Xfvx5FNmgAS5bZ6DxThxFye3GZh",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 53 អភិញ្ញាវិថី ដោយបញ្ចមជ្ឈានចិត្ត២.mp3",
+    "source_md5": "4298625119a949929a93a97b8b851dbd",
+    "key": "audio/4298625119a94992-a64.mp3",
+    "bytes": 43563092,
+    "duration_s": 5445,
+    "sha256": "2595d6194f6dac042c730b14d9e47aac815f598b330582c6aaae3f26cf99cc3d",
+    "loudness": {
+      "pass1": {
+        "I": -16.5,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": -1,
+      "limit": 0.6,
+      "depth": 1.3369749923271272,
+      "busy": 0.00045910731174304684,
+      "out": {
+        "I": -18,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
