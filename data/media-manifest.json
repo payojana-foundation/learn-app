@@ -5209,5 +5209,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lP3Fmc852Kndkrw_26O3ufdKU4F4nfKu",
+    "drive_name": "០៦ សោមនស្សវេទនា ទោមនស្សវេទនា ឧបេក្ខាវេទនា.m4a",
+    "source_md5": "5a26351d9346fbc89c8598dffd064193",
+    "key": "audio/5a26351d9346fbc8-a64.mp3",
+    "bytes": 33098648,
+    "duration_s": 4137,
+    "sha256": "1046e233c827c462e7a4f784d0b59db339dfb8d2f63931a18e9392a2facb46eb",
+    "loudness": {
+      "pass1": {
+        "I": -22.6,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 6.900000000000002,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 7.7260532231165255,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
