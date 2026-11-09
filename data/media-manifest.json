@@ -6862,5 +6862,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Kf2uk-TvDFwDRquFngCZ0LOFQEfuEPEb",
+    "drive_name": "១៣ វេទនាសង្គហៈ ចែកវេទនាដោយឥន្រ្ទិយ៥​ ជាបន្ត.mp3",
+    "source_md5": "6fb4d096a805d9f47bcf3a2f789df8ea",
+    "key": "audio/6fb4d096a805d9f4-a64.mp3",
+    "bytes": 39533966,
+    "duration_s": 4941,
+    "sha256": "e2fa083a1929692ca370f2e65d648674663d2fb7244dd4c547bbdeb56eb0fc34",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 9.7,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 4.574589716089605,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
