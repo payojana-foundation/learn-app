@@ -10951,5 +10951,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11Jmy3axEO8E2IqeoSqfg-l_GEGVda82k",
+    "drive_name": "៥០_អារម្មណសង្គហ_ចេតសិក៥២ដឹងអារម្មណ៍២១.mp3",
+    "source_md5": "51b68bd3916ffd06d1204336935e02c9",
+    "key": "audio/51b68bd3916ffd06-a64.mp3",
+    "bytes": 35612464,
+    "duration_s": 4451,
+    "sha256": "ca68b75f5222123bc8544535234dae8f909eb68258dd82be940c4fbf11fc913e",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.4999999999999964,
+      "limit": 0.6,
+      "depth": 7.536974992327124,
+      "busy": 5.846063124789397,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
