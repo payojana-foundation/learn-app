@@ -17215,5 +17215,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1C_GTeQVrdvJQddf73rGu7foPVV8UrYTl",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 61 មនោទ្វារមរណាសន្នវិថីភាគ២.mp3",
+    "source_md5": "8340021f211cf076009863cde6bb4ebb",
+    "key": "audio/8340021f211cf076-a64.mp3",
+    "bytes": 46361538,
+    "duration_s": 5795,
+    "sha256": "6edd91bb04086d01f8f43c5c1b59075253adf8c6c84a4b3d3db6ccfca0e2a559",
+    "loudness": {
+      "pass1": {
+        "I": -14.1,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": -3.4000000000000004,
+      "limit": 0.6,
+      "depth": 1.536974992327127,
+      "busy": 0.0006470928276230987,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
