@@ -9356,5 +9356,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IuWYJYVagxtqHJ1sumLSa8NWv-R_VjMb",
+    "drive_name": "៣៤ អារម្មណសង្គហ ចែកអង្គធម៌របស់អារម្មណ៍៦.mp3",
+    "source_md5": "b039e7456a279b226b96525520f8f266",
+    "key": "audio/b039e7456a279b22-a64.mp3",
+    "bytes": 41270586,
+    "duration_s": 5158,
+    "sha256": "8f977c20b8191be8419d29917da16407614b14d558d06fc9b486cd98456a0965",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -10,
+        "LRA": 0
+      },
+      "G": 6.699999999999999,
+      "limit": 0.6,
+      "depth": 1.1369749923271266,
+      "busy": 3.769045126773668,
+      "out": {
+        "I": -18,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
