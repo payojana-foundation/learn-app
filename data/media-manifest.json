@@ -13677,5 +13677,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Juf3AWc2WijH50VGnF9KPeoeV0DwXddy",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ១៨ ហេតុសង្គហៈ អគហិតគហនន័យ អគហិតគហនន័យ.mp3",
+    "source_md5": "9fd67bb43bf43d0fd80fa2cc46c8abb2",
+    "key": "audio/9fd67bb43bf43d0f-a64.mp3",
+    "bytes": 44132353,
+    "duration_s": 5516,
+    "sha256": "5147f1e7779a01de3caaf205a7ad750a75233f7d0b74787c0d68e44cd8553c79",
+    "loudness": {
+      "pass1": {
+        "I": -24.5,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 8.8,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 5.199175201667724,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
