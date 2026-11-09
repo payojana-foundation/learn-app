@@ -17592,5 +17592,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YzBHGM02sO8xdY_21GS4OgVDdCkqjZHb",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៥២ អតីតារម្មណ៍ អនាគ.បច្ចុប្បន្ន កាលវិមុត្តារម្មណ៍.mp3",
+    "source_md5": "8ba05a96cc325aaa241626f4ea23a874",
+    "key": "audio/8ba05a96cc325aaa-a64.mp3",
+    "bytes": 43634563,
+    "duration_s": 5454,
+    "sha256": "dea5c5eaa2b6013a973108b47ab52cb02ddeb8efe0c4f94a9389b9b884f2acb9",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 5.479850759950865,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
