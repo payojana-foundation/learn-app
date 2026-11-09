@@ -15272,5 +15272,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1K--Dee09FYtuuhmpRXuOpnKFC7mnRSKr",
+    "drive_name": "៥១ រូបបវត្តិក្កមន័យទី៤ ចែករូបតាមកាល៣ មានបដិសន្ធិកាលជាដើម.mp3",
+    "source_md5": "d800fc13b769f8309d83b9466e631490",
+    "key": "audio/d800fc13b769f830-a64.mp3",
+    "bytes": 42369819,
+    "duration_s": 5296,
+    "sha256": "ddc16849b63fc0bba17dcdd294ff7280af92945961d4000a79467e3eca6b0459",
+    "loudness": {
+      "pass1": {
+        "I": -26.9,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 10.799999999999997,
+      "limit": 0.6,
+      "depth": 11.436974992327125,
+      "busy": 5.504942269384364,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
