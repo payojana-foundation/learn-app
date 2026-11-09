@@ -8109,5 +8109,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ArQnHaZjFGdhIzQdtu2eKZYNN38j60Oo",
+    "drive_name": "៣៦ អប្បនាជវនវារៈ វិថីចិត្តមុនសម្រេចអប្បនាឈាន ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "4900f84e16b435c3ae4db0286e8dce1a",
+    "key": "audio/4900f84e16b435c3-a64.mp3",
+    "bytes": 37593172,
+    "duration_s": 4699,
+    "sha256": "0b28b0f27e243e85e2c17ba0f4ae297ac2af4295bf411b6b583db7afa17723c6",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 5.600000000000001,
+      "limit": 0.6,
+      "depth": 9.13697499232713,
+      "busy": 6.8140707795109705,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
