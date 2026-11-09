@@ -17302,5 +17302,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UswBshHg3dvT-WXOaKO1RJ_ZRF0I7kh3",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 62 មនោទ្វារមរណាសន្នវិថីភាគ២.mp3",
+    "source_md5": "8ba91b1865cc5fb49e10a211f961cc19",
+    "key": "audio/8ba91b1865cc5fb4-a64.mp3",
+    "bytes": 46477313,
+    "duration_s": 5809,
+    "sha256": "9b16fad9926eb26e720a826da37aff5c798882e54ea4f904fdd25919438696c7",
+    "loudness": {
+      "pass1": {
+        "I": -14.4,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": -3.200000000000001,
+      "limit": 0.6,
+      "depth": 1.536974992327126,
+      "busy": 0.0006454777826547211,
+      "out": {
+        "I": -18,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
