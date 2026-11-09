@@ -10400,5 +10400,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1odcUYmLZDWioBQy947nnp--be440xU4z",
+    "drive_name": "៤៨ សម្បយោគន័យ វិតក្កៈ វិចារៈ អធិមោក្ខចេតសិក.m4a",
+    "source_md5": "b274e6255f1401fd7aac60a2c28b5528",
+    "key": "audio/b274e6255f1401fd-a64.mp3",
+    "bytes": 37299556,
+    "duration_s": 4662,
+    "sha256": "1efb310f084d97b23430b0d32b0c887819b1748c506bd27be1fca90007d0370a",
+    "loudness": {
+      "pass1": {
+        "I": -24.6,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 7.663025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.231189945092656,
+      "out": {
+        "I": -19,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
