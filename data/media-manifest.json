@@ -5789,5 +5789,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GmuLUaWou-N-alac4TtgXti9j6unpF-n",
+    "drive_name": "០៩_អតិមហន្តារម្មណប្រភេទទី១_បន្តចប់ភិក្ខុអគ្គចិត្តោ_យ៉ុន_យី​_បរិច្ឆេទទី៤.mp3",
+    "source_md5": "a489fda64bc02bd0e290a76fc4ec0a4c",
+    "key": "audio/a489fda64bc02bd0-a64.mp3",
+    "bytes": 35441309,
+    "duration_s": 4430,
+    "sha256": "b77386fe28908be59599080eb100e4c3bef670a74c68b4b75b19ad952609ec42",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "G": 9.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.301208762682979,
+      "out": {
+        "I": -18.8,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
