@@ -8254,5 +8254,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1k_JSqHXpIhj2RvqKklijbEoeYEuZOcnx",
+    "drive_name": "35.៣៥ ពន្យល់ទោសមូលចិត្ត ២ ដួង.mp3",
+    "source_md5": "eda6d9dc62f017c4e8e5d2575018bb51",
+    "key": "audio/eda6d9dc62f017c4-a64.mp3",
+    "bytes": 34477705,
+    "duration_s": 4309,
+    "sha256": "ee19b1c8f4c157f4d92eb55002ba99a02014f9fa89f58f9af00162398e2c5f5a",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 5.900000000000002,
+      "limit": 0.6,
+      "depth": 10.23697499232713,
+      "busy": 6.064877658278514,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
