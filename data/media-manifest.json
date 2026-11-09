@@ -7210,5 +7210,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1toNsTfSe5SjWbD8M-icNTdr7BW7k0-Xr",
+    "drive_name": "១៦ ហេតុសង្គហៈ ហេតុមាន ៤ យ៉ាង​.mp3",
+    "source_md5": "52907da32272e587c21758cc70f60363",
+    "key": "audio/52907da32272e587-a64.mp3",
+    "bytes": 42644418,
+    "duration_s": 5330,
+    "sha256": "b5b47a9d71d6af5673e5f1449bcece2d7f45407e69bd9ad97742105fd87b8bce",
+    "loudness": {
+      "pass1": {
+        "I": -26.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 5.505346590376138,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
