@@ -15707,5 +15707,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1iEQw3y9xELYiyAnDb8ZwWcJEbe78bZ0Q",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 39 សុទ្ធមនោទ្វារមិនមានអតីតភវង្គប្រភេទទី២.mp3",
+    "source_md5": "771b5a37bbe4a76e48f55d48461ac795",
+    "key": "audio/771b5a37bbe4a76e-a64.mp3",
+    "bytes": 42292496,
+    "duration_s": 5286,
+    "sha256": "8c03554dbe5229377781d476da01c3a5d629a11888aaa20e226abf7f93cdda87",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -9.8,
+        "LRA": 0
+      },
+      "G": 6.199999999999999,
+      "limit": 0.6,
+      "depth": 0.8369749923271259,
+      "busy": 0.010403760486517671,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
