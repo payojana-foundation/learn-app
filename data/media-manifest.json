@@ -17534,5 +17534,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1FBqtp0lOplcNNwS0g0l-3Fs7025wwMGu",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៥១ ចិត្តដឹងនូវ មហគ្គតារម្មណ៍ និព្វានារម្មណ៍.mp3",
+    "source_md5": "be0e4134c6acea4b65d7a7eddeb346ed",
+    "key": "audio/be0e4134c6acea4b-a64.mp3",
+    "bytes": 44243739,
+    "duration_s": 5530,
+    "sha256": "bbdac4514234c9839b933909993ea15ff469f4c7f3ed83da0a5d9b597de34f97",
+    "loudness": {
+      "pass1": {
+        "I": -26.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 5.876782178665389,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
