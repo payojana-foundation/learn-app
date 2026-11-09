@@ -5528,5 +5528,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hUlJT2HxN7s_LSYiP5b0XUgV3FMOIAMj",
+    "drive_name": "០៦ ឧបមាវិថីចិត្តរបស់បញ្ចទ្វារមាន ១៧_ ខណៈភិក្ខុអគ្គចិត្តោ យ៉ុន យី_ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "1eb573c58a5c6b88c138c0d5471f3491",
+    "key": "audio/1eb573c58a5c6b88-a64.mp3",
+    "bytes": 39539817,
+    "duration_s": 4942,
+    "sha256": "102533a5d0f79345709b435393f2b71c96f0c61fbedba4c328dd907202af2bdc",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 5.394085929043288,
+      "out": {
+        "I": -18.1,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
