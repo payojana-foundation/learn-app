@@ -16026,5 +16026,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QGJxuVKdz5DMzTuduP4kmYa5HO2RKTSP",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 44 អតិឥដ្ឋារម្មណ៍ ជាកាមចិត្ត ៥១ ទោសជវន ២.mp3",
+    "source_md5": "f3a3ce76ef0608dedd3ba40eb245e963",
+    "key": "audio/f3a3ce76ef0608de-a64.mp3",
+    "bytes": 44017623,
+    "duration_s": 5502,
+    "sha256": "2ad009fc015b92cf0c0917376c961431a0e31a61eb63ea3e9c77c5f177467f0d",
+    "loudness": {
+      "pass1": {
+        "I": -17.4,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": -0.10000000000000142,
+      "limit": 0.6,
+      "depth": 0.8369749923271259,
+      "busy": 0.011586379869687304,
+      "out": {
+        "I": -18,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
