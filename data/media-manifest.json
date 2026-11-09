@@ -7123,5 +7123,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ps2QKRgf5V1aJD7q4oGuMFLnMht646nQ",
+    "drive_name": "១៥ ហេតុសង្គហៈ ផលធម៌កើតពីហេតុដូចម្តេច​.mp3",
+    "source_md5": "1ed96e454c4186a7f10d459518e5b09b",
+    "key": "audio/1ed96e454c4186a7-a64.mp3",
+    "bytes": 40426727,
+    "duration_s": 5053,
+    "sha256": "16d6d7790dcaa1a1a6806798dbb82d2942c765c8e0c6824ae2416bec8a0ca289",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 9.2,
+      "limit": 0.6,
+      "depth": 9.836974992327127,
+      "busy": 4.651415906437378,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
