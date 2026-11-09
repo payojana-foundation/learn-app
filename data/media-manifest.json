@@ -6775,5 +6775,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JsTXqJWaGNSYiU1rD7Ibp9NCmeYknb1C",
+    "drive_name": "១៦ សង្វេគវត្ថុ៨ បីតិចេតសិក.m4a",
+    "source_md5": "e243bfd6a0eb902051077d8d8e744df7",
+    "key": "audio/e243bfd6a0eb9020-a64.mp3",
+    "bytes": 47013972,
+    "duration_s": 5876,
+    "sha256": "78fae6253029748c3afb6b959b7eccd8b44f6b68cba8da6edb098b29872c4c5a",
+    "loudness": {
+      "pass1": {
+        "I": -21.9,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 5.699999999999999,
+      "limit": 0.6,
+      "depth": 10.136974992327126,
+      "busy": 6.033998672724488,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
