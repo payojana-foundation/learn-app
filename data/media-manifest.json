@@ -4194,5 +4194,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LrSTss9HuVuvRd-cJPZLFlktdZ4Rh6LE",
+    "drive_name": "បិដកលេខ១៦ 18 សម្តែងពីមហាបទេស ៤ យ៉ាង .mp3",
+    "source_md5": "1b21f33339a3471dc78fef7126bfc0dc",
+    "key": "audio/1b21f33339a3471d-a64.mp3",
+    "bytes": 42963530,
+    "duration_s": 5370,
+    "sha256": "c4abba7c9b5ed808e9cb31abac8e56c553dcdbe8114560eaeb4906266e1bc4b4",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -12.7,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.6369749923271266,
+      "busy": 0.002793088038134962,
+      "out": {
+        "I": -18,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
