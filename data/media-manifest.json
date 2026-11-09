@@ -10777,5 +10777,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UNi9obrmAIe98r1RRBwqieaPyaJ7cH4o",
+    "drive_name": "៤៨​​ អារម្មណ៍សង្គហ​រសារម្មណ៍ផោដ្ធព្វ ធម្មារម្មណ៍.mp3",
+    "source_md5": "34eb1f1e559505a6471732933e8e51e0",
+    "key": "audio/34eb1f1e559505a6-a64.mp3",
+    "bytes": 42582978,
+    "duration_s": 5322,
+    "sha256": "2904ca0b1f6b238afb52ae9ce37f3d32fa585e74fdfcd0522226fdba6764c662",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 3.3999999999999986,
+      "limit": 0.6,
+      "depth": 7.536974992327126,
+      "busy": 5.6279120012023744,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
