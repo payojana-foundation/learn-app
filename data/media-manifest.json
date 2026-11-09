@@ -6630,5 +6630,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1y3Ou8KFVCxz_EzwqLEcXaqhtUDLYfl8Y",
+    "drive_name": "22.២២ លោភមូលចិត្តដួងទី៧ ទី៨.mp3",
+    "source_md5": "7761cff4a4853ee6abb3db145f57da2c",
+    "key": "audio/7761cff4a4853ee6-a64.mp3",
+    "bytes": 30274498,
+    "duration_s": 3784,
+    "sha256": "483ea670221fbf098d477f2c9140879c52a1aaee0391e9110631291403af46f2",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 7.563025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.315566947652142,
+      "out": {
+        "I": -18.4,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
