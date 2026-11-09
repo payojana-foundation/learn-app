@@ -15388,5 +15388,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1O3NTXANRVaNARrQD06wkhpAtNVrv40os",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 35 កាមជវនជាជវនវារៈភាគ១.mp3",
+    "source_md5": "85978a309fd09c6d22384c4ab847b6e9",
+    "key": "audio/85978a309fd09c6d-a64.mp3",
+    "bytes": 44506426,
+    "duration_s": 5563,
+    "sha256": "a5593542db8d943540609d66579879fc1f8009f6dde732cd27b1ef8bef8c0f54",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -10.7,
+        "LRA": 0
+      },
+      "G": 6.799999999999997,
+      "limit": 0.6,
+      "depth": 0.5369749923271252,
+      "busy": 0.0042690873140700135,
+      "out": {
+        "I": -18,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
