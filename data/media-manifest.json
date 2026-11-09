@@ -14286,5 +14286,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10Knv7ZUoAyTL7l-_Ys1ru1Ni-d4sygwN",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ២២ កិច្ចសង្គហៈ បដិសន្ធិ ភវង្គ ចុតិកិច្ចចិត្តអ្វីខ្លះ.mp3",
+    "source_md5": "131d04c96c386def1b57ada996f2859f",
+    "key": "audio/131d04c96c386def-a64.mp3",
+    "bytes": 44972451,
+    "duration_s": 5621,
+    "sha256": "dcb03485d5e059169684c9cb300ade5ef7ec8cf46006f04ef1334c076153e401",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.799999999999997,
+      "limit": 0.6,
+      "depth": 10.836974992327125,
+      "busy": 6.035310860090723,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
