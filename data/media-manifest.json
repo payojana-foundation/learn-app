@@ -6514,5 +6514,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ExJTeBhGv-oGVCpC2NlEVvL24bwG9p8q",
+    "drive_name": "១៦ បរិត្តារម្មណ៍មាន ៦ ប្រភេទបញ្ចប់ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី_ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "10c6c0cf351d305f860806e77d5f26b8",
+    "key": "audio/10c6c0cf351d305f-a64.mp3",
+    "bytes": 41190547,
+    "duration_s": 5148,
+    "sha256": "897e36fb70eb45fb0539d509c7d18cafb932add0d6bf855e17432e3c62fb119d",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 9.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.4151064325668115,
+      "out": {
+        "I": -18.7,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
