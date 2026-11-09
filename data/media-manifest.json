@@ -14982,5 +14982,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qwD4AhDbitKWGIFOkbppfa1OKv2l-9n4",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 31 នាមគ្គហណវិថីទី១.mp3",
+    "source_md5": "e958ddac45c71a9361ed273d3059d1ef",
+    "key": "audio/e958ddac45c71a93-a64.mp3",
+    "bytes": 42799272,
+    "duration_s": 5349,
+    "sha256": "5403f299575e46008871640574d5eb8e805ba5fc98b0ba702683fffe4a2b9726",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": -5.1,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 4.636974992327128,
+      "busy": 3.02155180470663,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
