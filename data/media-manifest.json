@@ -10255,5 +10255,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PP0_aA8iUhFYYUL0LPpt3YzJG8I75tkL",
+    "drive_name": "៤២ អារម្មណសង្គហ មហគ្គតារម្មណ៍ និព្វានារម្មណ៍.mp3",
+    "source_md5": "7eb860cc9a683a8fafd5eb79d8f8e9f9",
+    "key": "audio/7eb860cc9a683a8f-a64.mp3",
+    "bytes": 43492039,
+    "duration_s": 5436,
+    "sha256": "b3b6c72de117dea5ba9b36ad702f327656e2e4ea85d897bb003a5b1e87cc3017",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": 2.099999999999998,
+      "limit": 0.6,
+      "depth": 6.836974992327125,
+      "busy": 5.997939832059524,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
