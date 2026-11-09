@@ -5325,5 +5325,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Qqzmq4uTB8xSxQPacxQkw3VKA5_Frgsh",
+    "drive_name": "០៧ ហេតុនាំឲ្យកើតវេទនាមាន៥យ៉ាង.m4a",
+    "source_md5": "20fdab611c35a4c1a451b4b2129dc74f",
+    "key": "audio/20fdab611c35a4c1-a64.mp3",
+    "bytes": 35407664,
+    "duration_s": 4425,
+    "sha256": "35117f409146a157b1befe4b6311d3fd2cab94ea271bdfb1ce74ff8d3e3c0401",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 6.199999999999999,
+      "limit": 0.6,
+      "depth": 10.636974992327126,
+      "busy": 5.816613570121331,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
