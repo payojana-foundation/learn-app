@@ -16780,5 +16780,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1V9KBAgd0AkNIaw4qHU0fFxP-gFH_0-0O",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 55 ទិព្វសោត បរចិត្ត បុព្វេនិវាស ទិព្វចក្ខុ.mp3",
+    "source_md5": "1b8e2c82d7a55052ae89bcfbca112cb6",
+    "key": "audio/1b8e2c82d7a55052-a64.mp3",
+    "bytes": 44363693,
+    "duration_s": 5545,
+    "sha256": "39614f18aedc76dde7b2f3bc23cd963cf02dc21bbfedfb20ec1a05987dfc3480",
+    "loudness": {
+      "pass1": {
+        "I": -16.8,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "G": -0.6999999999999993,
+      "limit": 0.6,
+      "depth": 1.136974992327128,
+      "busy": 0.0004508200416557719,
+      "out": {
+        "I": -18,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
