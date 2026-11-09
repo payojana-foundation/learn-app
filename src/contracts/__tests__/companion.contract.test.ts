@@ -38,11 +38,11 @@ describe('P-10 Start here row reads the start-here path', () => {
     expect(sh.approved === false || sh.course_ids.length === 0).toBe(true);
   });
 
-  it('the committed guide-lines.json is well-formed and every line ships unapproved', () => {
+  it('the committed guide-lines.json is well-formed and the three lines are approved (coordinator, bulk-07 P1)', () => {
     const g = JSON.parse(readFileSync('data/guide-lines.json', 'utf-8'));
     expect(guideLinesShapeErrors(g)).toEqual([]);
     expect(Object.keys(g.lines).sort()).toEqual(['course.finished', 'home.start_here', 'my.branch.empty']);
-    expect(Object.values(g.lines).every((l) => (l as { approved: boolean }).approved === false)).toBe(true);
+    expect(Object.values(g.lines).every((l) => (l as { approved: boolean }).approved === true)).toBe(true);
   });
 });
 

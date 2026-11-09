@@ -5,7 +5,7 @@
  * wording. Course ids are taken from the real catalog; titles are never typed.
  *
  * PART A  layout matrix: 320 and 360 px x light and dark x km and en.
- *   - fresh device: /my shows a bare branch, NO guide text (lines unapproved),
+ *   - fresh device: /my shows a bare branch, only the empty-branch line (approved in bulk-07),
  *     the device note, no digits, no horizontal scroll, focus visible.
  *   - approved guide fixture + seeded leaves: the line shows in exactly the
  *     three places; a kids' class page shows the hare, others the leaf; stem
@@ -156,7 +156,7 @@ async function partA(browser, width, scheme, lang) {
   await open(page, '/my', lang);
   check((await page.locator('.branchp').count()) === 1, 'fresh /my: branch panel shown');
   check((await page.locator('.branch').count()) === 1 && (await visibleSlots(page)) === 0, 'fresh /my: bare branch (no leaf)');
-  check((await guides(page)).length === 0, 'fresh /my: no guide text (lines unapproved)');
+  check(JSON.stringify(await guides(page)) === '["my.branch.empty"]', 'fresh /my: only the empty-branch line (lines approved, bulk-07)');
   const devnote = await page.locator('.devnote').innerText();
   check(devnote.length > 20 && !devnote.includes('{exportLabel}'), 'fresh /my: device note shown, label filled');
   const panelText = await page.locator('.branchp').innerText();

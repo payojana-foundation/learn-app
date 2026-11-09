@@ -12,17 +12,17 @@
     "home.start_here": {
       "km": "មិនដឹងចាប់ផ្តើមពីណា? សូមចាប់ផ្តើមពីទីនេះ។",
       "en": "Not sure where to begin? Start here.",
-      "approved": false
+      "approved": true
     },
     "course.finished": {
       "km": "អ្នកបានសិក្សាថ្នាក់នេះចប់ហើយ។ ស្លឹកថ្មីមួយបានដុះលើមែករបស់អ្នក។",
       "en": "You have finished this class. A new leaf has grown on your branch.",
-      "approved": false
+      "approved": true
     },
     "my.branch.empty": {
       "km": "មែកនេះនឹងដុះស្លឹកមួយ រាល់ពេលអ្នកសិក្សាថ្នាក់មួយចប់។",
       "en": "This branch grows one leaf each time you finish a class.",
-      "approved": false
+      "approved": true
     }
   }
 }
