@@ -6485,5 +6485,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EKovV7zVC3vBg7z5BR_2LCoSbhbFuDeY",
+    "drive_name": "21.២១ លោភមូលចិត្តដួងទី៥ ទី៦.mp3",
+    "source_md5": "5f8161b12baaf5f863277bafd39db6d7",
+    "key": "audio/5f8161b12baaf5f8-a64.mp3",
+    "bytes": 32084470,
+    "duration_s": 4010,
+    "sha256": "ff8ec878cc1e7c83c4866ad987a194f9ed8dc81412591b5d82e694cdbc19bb8a",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.929746914349832,
+      "out": {
+        "I": -18.4,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
