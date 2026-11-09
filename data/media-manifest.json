@@ -16200,5 +16200,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yGeHcLtktF-MnANGcHrzuAI8KU5SqdQf",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 46 បញ្ចប់វិភូតារម្មណវិថី.mp3",
+    "source_md5": "09830fbb00d98229591062cf75aeeb99",
+    "key": "audio/09830fbb00d98229-a64.mp3",
+    "bytes": 45486749,
+    "duration_s": 5685,
+    "sha256": "45c7604c4afa8730fcfbfa4fdd02fed300bcc89fc33daeb3bf680e1b86e0123f",
+    "loudness": {
+      "pass1": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 0.5,
+      "limit": 0.6,
+      "depth": 1.7369749923271272,
+      "busy": 0.014729677442048613,
+      "out": {
+        "I": -18,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
