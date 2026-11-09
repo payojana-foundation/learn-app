@@ -5354,5 +5354,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GWWSyolA2u5eUtwkj0AeAt25xoM_1HgR",
+    "drive_name": "12.១២ ធម្មជាតិរបស់ចិត្ត ៣ ប្រការ.mp3",
+    "source_md5": "f015fffca8399b57cef017fcab2281f0",
+    "key": "audio/f015fffca8399b57-a64.mp3",
+    "bytes": 34383037,
+    "duration_s": 4297,
+    "sha256": "850e88b01fe24a20941504c0a21eb3420c7757971b459e794c1ef54bebcfd314",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": -5.7,
+        "LRA": 0
+      },
+      "G": 1.8999999999999986,
+      "limit": 0.6,
+      "depth": 0.6369749923271257,
+      "busy": 0.0008725292878997639,
+      "out": {
+        "I": -18,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
