@@ -13503,5 +13503,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MubjDXEEyf3BVIncxrYnL1gzaz5e-nG0",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 19 និយមន័យមនោទ្វារវិថី ភិក្ខុអគ្គចិត្តោ.mp3",
+    "source_md5": "1fc59a70990efbee5c2a3f315a1577cf",
+    "key": "audio/1fc59a70990efbee-a64.mp3",
+    "bytes": 43093306,
+    "duration_s": 5386,
+    "sha256": "4db6ff0e16c00ad4ddfe88b01ac9f38af8e08b9ad2dd4ba3798f71ce0bdc629d",
+    "loudness": {
+      "pass1": {
+        "I": -20.9,
+        "TP": -7.6,
+        "LRA": 0
+      },
+      "G": 3.299999999999997,
+      "limit": 0.6,
+      "depth": 0.13697499232712484,
+      "busy": 0.00023205517343803664,
+      "out": {
+        "I": -18,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
