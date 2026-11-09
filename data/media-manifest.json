@@ -4977,5 +4977,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1az2JbEY4BCjinZNEO-zAvIOzM_dAS2GL",
+    "drive_name": "០១ ចែកឆក្កៈចែក ៦ យ៉ាង ថ្ងៃបើកវគ្គថ្មីភិក្ខុអគ្គចិត្តោ យ៉ុន យី_ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "563fed3b349d22c9ec412e125ad1267a",
+    "key": "audio/563fed3b349d22c9-a64.mp3",
+    "bytes": 32251445,
+    "duration_s": 4031,
+    "sha256": "a178c595aea0df03f46ecc0d99f6b805c32f3c0d31104282ff016d125054d033",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 9.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.553318946271767,
+      "out": {
+        "I": -18.7,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
