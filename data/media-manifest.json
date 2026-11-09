@@ -14837,5 +14837,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1T6PXLpVoxi7SgfwVhOraObyar_N8TY5h",
+    "drive_name": "៤៥ រូបកលាបន័យទី៣ ឧតុជ្ជកលាបមាន ៦ កលាប.mp3",
+    "source_md5": "ca874c8582162b2c2138c9c7e0c7ced2",
+    "key": "audio/ca874c8582162b2c-a64.mp3",
+    "bytes": 30515869,
+    "duration_s": 3814,
+    "sha256": "8c702d7180feebc4c1ee6c8d70e385abdbe9455cc63b4e4395924ef3be3a6c3a",
+    "loudness": {
+      "pass1": {
+        "I": -27.3,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 11.2,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 5.508330165554667,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
