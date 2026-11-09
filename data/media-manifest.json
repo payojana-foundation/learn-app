@@ -15504,5 +15504,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1w3QRUVNTR4nsOB6RsEnQ-C9MzCIn_Rqm",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 36 កាមជវន២៧ មាន ៧ ប្រភេទ.mp3",
+    "source_md5": "14661145d8577497628d6dcba1f3d76a",
+    "key": "audio/14661145d8577497-a64.mp3",
+    "bytes": 45694684,
+    "duration_s": 5711,
+    "sha256": "fac8fd777a09312b68d10a430d747289c9bbefbe023d3d22e5a84516f735c216",
+    "loudness": {
+      "pass1": {
+        "I": -19.3,
+        "TP": -5.3,
+        "LRA": 0
+      },
+      "G": 1.8000000000000007,
+      "limit": 0.6,
+      "depth": 0.9369749923271282,
+      "busy": 0.014443783045624848,
+      "out": {
+        "I": -18,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
