@@ -3266,5 +3266,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GKfbPyAW1EqKcVaIWBlhHK6GfSNOS8Mw",
+    "drive_name": "១-៧៦ តេមិយជាតក បំពេញនេក្ខម្មបារមី ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​.mp3",
+    "source_md5": "0a29fed96b959b4a5f769faa60447e81",
+    "key": "audio/0a29fed96b959b4a-a64.mp3",
+    "bytes": 23023951,
+    "duration_s": 2877,
+    "sha256": "5b652505b8b95c551ee884c4c0aa781080741e1d47b73806b63091cb9ac4a116",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1.3,
+        "LRA": 0
+      },
+      "G": 8.863025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 9.36430445282232,
+      "out": {
+        "I": -18.4,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
