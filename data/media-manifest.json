@@ -8283,5 +8283,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "199EynIAy0Wz7n9-W6FRqdETowHjyNTEE",
+    "drive_name": "២៨ មានចេតសិក ហេតុនាំឲ្យលើកតម្កើងខ្លួន.m4a",
+    "source_md5": "2ff80dbe23307d0e6bed2f421dbcc728",
+    "key": "audio/2ff80dbe23307d0e-a64.mp3",
+    "bytes": 43566018,
+    "duration_s": 5445,
+    "sha256": "6724c27b4f467420730201ca373fc6789ce681e7e325cac211b142cc4055f055",
+    "loudness": {
+      "pass1": {
+        "I": -20.3,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 3.8000000000000007,
+      "limit": 0.6,
+      "depth": 8.236974992327127,
+      "busy": 5.603733220706245,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
