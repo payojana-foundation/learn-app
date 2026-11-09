@@ -13300,5 +13300,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1H0Nq77bmSNgje-SK-He-c0sc5-ORLeJx",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 17 បរិត្តារម្មណ៍ប្រភេទទី១.mp3",
+    "source_md5": "38aa946512512c64dcb85f54dbdec38a",
+    "key": "audio/38aa946512512c64-a64.mp3",
+    "bytes": 42792794,
+    "duration_s": 5349,
+    "sha256": "b1644245479e65d108f51a20c71cbab9c26ef14cccfc71c42375d40938a8ccdb",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -12.2,
+        "LRA": 0
+      },
+      "G": 8.3,
+      "limit": 0.6,
+      "depth": 0.5369749923271288,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
