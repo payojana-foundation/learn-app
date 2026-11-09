@@ -15852,5 +15852,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1K4UtakvVZkjOLhpGQfP3fa1aD09JpPQu",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៣៤ ទ្វារសង្គហៈ ចែកឯកទ្វារិកចិត្តដោយឯកន្ត និងអនេកន្ត.mp3",
+    "source_md5": "14c330696c9529e6a8f088c636ac6c34",
+    "key": "audio/14c330696c9529e6-a64.mp3",
+    "bytes": 43968304,
+    "duration_s": 5495,
+    "sha256": "37f3396c8a8288881c31306ff0eb771e8ba193d04160085e4a1b31f316acdc41",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 11.136974992327128,
+      "busy": 6.546806768558952,
+      "out": {
+        "I": -18.1,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
