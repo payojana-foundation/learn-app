@@ -11357,5 +11357,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MuH09XMXL0EDoKTm1pJpt8SiEzAMfv2c",
+    "drive_name": "68.៦៨ បញ្ចប់មោហមូលចិត្ត ២ ដួង.mp3",
+    "source_md5": "1e393c7e06c6ba9bdbdf8311c5b7c9a5",
+    "key": "audio/1e393c7e06c6ba9b-a64.mp3",
+    "bytes": 40504049,
+    "duration_s": 5062,
+    "sha256": "3d868c34926d308e6e5560628398985534aea67c2998df4b6d1525069da1bc19",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 4.399999999999999,
+      "limit": 0.6,
+      "depth": 8.936974992327126,
+      "busy": 4.812658627875053,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
