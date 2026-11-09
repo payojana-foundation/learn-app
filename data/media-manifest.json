@@ -14866,5 +14866,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "152-NLaWSKJzPk9mThOTWqgUJYmlp8hb0",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ២៦អតីតគ្គហណវិថី ប្រភេទទី៤ទី៥ និងសមូហគ្គហណវិថី(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "db3f635516eb2a6675b701342de50858",
+    "key": "audio/db3f635516eb2a66-a64.mp3",
+    "bytes": 42462397,
+    "duration_s": 5307,
+    "sha256": "0f72705f3a6c7c50661ba69c209ba434bcd55486681515c28eb25e7c0d9c75a7",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.299090951909943,
+      "out": {
+        "I": -18.5,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
