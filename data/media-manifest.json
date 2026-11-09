@@ -10893,5 +10893,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1amOgpI4vBs5j3t0320zmmAPqkcAxh0a1",
+    "drive_name": "61.៦១ សម្បត្តិនៃឧបាសក ឧបាសិកាមាន ៥.mp3",
+    "source_md5": "a44682b4fd931731972ac79bfb74b324",
+    "key": "audio/a44682b4fd931731-a64.mp3",
+    "bytes": 36221430,
+    "duration_s": 4527,
+    "sha256": "05bad99c98c2f3d5e45d0f9b631a7c3d2a07b570527dde31a22265087b738a5b",
+    "loudness": {
+      "pass1": {
+        "I": -23.5,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 7.299999999999997,
+      "limit": 0.6,
+      "depth": 11.936974992327125,
+      "busy": 4.517520126334854,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
