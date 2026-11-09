@@ -9240,5 +9240,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1peyRO-FiP_RTU938MTzu9TFlmfz1Kq0O",
+    "drive_name": "៤៧ មរណាសន្នវិថី បរិនិព្វានធម្មតា និងឈានសមនន្តរវិថី ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "27baffe3e4ff8a97f1b32407be5d9097",
+    "key": "audio/27baffe3e4ff8a97-a64.mp3",
+    "bytes": 36827680,
+    "duration_s": 4603,
+    "sha256": "2c3903dd83642215b800f070ca1c603936d3e0229a960525f804fc0019da6e21",
+    "loudness": {
+      "pass1": {
+        "I": -21.9,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 5.399999999999999,
+      "limit": 0.6,
+      "depth": 9.336974992327125,
+      "busy": 5.400840673842445,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
