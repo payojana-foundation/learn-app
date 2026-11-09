@@ -8196,5 +8196,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dKxi7gFiut6OW7P-2KsIIP3d8QfaYKoR",
+    "drive_name": "២៧ មានចេតសិក ការលើកតម្កើងខ្លួន.m4a",
+    "source_md5": "e993ce50e1383a42805d77e76ad138aa",
+    "key": "audio/e993ce50e1383a42-a64.mp3",
+    "bytes": 43406358,
+    "duration_s": 5425,
+    "sha256": "d22a253c2c1b36fb4af1efea28ce3a0d9263ece5419631bc0bb07bf946f0e215",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 6.699999999999999,
+      "limit": 0.6,
+      "depth": 8.936974992327126,
+      "busy": 5.598073998986315,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
