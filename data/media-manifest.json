@@ -7674,5 +7674,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RmaNac4fRaBmzNjzPKMEJRci_rg2qByD",
+    "drive_name": "២៣ ទិដ្ឋិចេតសិក ការួបរឹតដោយទិដ្ឋិ ១៦យ៉ាង.m4a",
+    "source_md5": "62ccce83b453aaae55c4809c6c31ddc0",
+    "key": "audio/62ccce83b453aaae-a64.mp3",
+    "bytes": 41208519,
+    "duration_s": 5150,
+    "sha256": "d499e85a3b4efd42e6f3683c62a91804d518b09bd4991a2c28b6f0b5b46d01ac",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 9.736974992327127,
+      "busy": 6.414288487672296,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
