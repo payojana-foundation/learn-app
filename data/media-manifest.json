@@ -10429,5 +10429,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lMfUCHzbdioaXDhW2aR-Ml_MG0RbsRLp",
+    "drive_name": "៤៤ អារម្មណសង្គហ បច្ចុប្បន្ន អនាគត កាលវិមុត្តារម្មណ៍.mp3",
+    "source_md5": "7229130a2c1e8d077a703c169d1223d6",
+    "key": "audio/7229130a2c1e8d07-a64.mp3",
+    "bytes": 39767187,
+    "duration_s": 4970,
+    "sha256": "d9579e96654f988b2f5af5a69ae9e6d35762f96837df8522bd42affad656187d",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 7.463025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.939970025247191,
+      "out": {
+        "I": -19,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
