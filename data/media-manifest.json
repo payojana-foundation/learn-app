@@ -11444,5 +11444,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HzlZRRZ58ta6I2PfI0hPrKIBZv2qfcWt",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ០១ រម្លឹកមេរៀនចិត្ត និងចេតសិក.mp3",
+    "source_md5": "23a2fbccef6d4435c29a1b119d1c0e65",
+    "key": "audio/23a2fbccef6d4435-a64.mp3",
+    "bytes": 26115804,
+    "duration_s": 3264,
+    "sha256": "e2a971d3d0b6ef6d81e11aff65f83646638b5a0f5a809e844896beac54342c58",
+    "loudness": {
+      "pass1": {
+        "I": -18.2,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 1.8999999999999986,
+      "limit": 0.6,
+      "depth": 6.336974992327126,
+      "busy": 3.578321003538115,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
