@@ -8457,5 +8457,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17E6ayH2lxajAXlizyV8OGRTBOaLFLane",
+    "drive_name": "៣០ ទោសចេតសិក ការខឹងក្រោធ ឥស្សា ច្រណែន.m4a",
+    "source_md5": "6ed57af2bce19645e478549aec91ee14",
+    "key": "audio/6ed57af2bce19645-a64.mp3",
+    "bytes": 47200382,
+    "duration_s": 5899,
+    "sha256": "7fc7bc66af5c1b3195d2305380e785a0585daaf646106dcc85cbdb3006ab6575",
+    "loudness": {
+      "pass1": {
+        "I": -29.8,
+        "TP": -8.7,
+        "LRA": 0
+      },
+      "G": 13.3,
+      "limit": 0.6,
+      "depth": 9.036974992327128,
+      "busy": 5.222245762711864,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
