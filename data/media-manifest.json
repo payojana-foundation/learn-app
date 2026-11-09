@@ -4020,5 +4020,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1t73FGofDPxZsbDe_ui5RO6ClAA9tAXUn",
+    "drive_name": "បិដកលេខ១៦ 15 ព្រះពុទ្ធជិតដាក់ជន្មាយុសង្ខារទៅកាន់ក្រុងវេសាលី .mp3",
+    "source_md5": "2acec6db17424c5ecaaed7f8c2c2cb28",
+    "key": "audio/2acec6db17424c5e-a64.mp3",
+    "bytes": 40456820,
+    "duration_s": 5057,
+    "sha256": "511b6f745d3ac7f673a9297afbec5faea6fc4fb38b987ed2faa8ecee36d054bb",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -12.4,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.9369749923271256,
+      "busy": 0.00741539039558636,
+      "out": {
+        "I": -18,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
