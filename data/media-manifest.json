@@ -7181,5 +7181,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xfmnMBPr1CwfVudkOzMRzFqRUGBF1L5H",
+    "drive_name": "26.២៦ ហេតុឱ្យកើតទិដ្ឋិសម្បយុត្តចិត្ត.mp3",
+    "source_md5": "a71d677bba7b7425150227bd2cf382e6",
+    "key": "audio/a71d677bba7b7425-a64.mp3",
+    "bytes": 37751997,
+    "duration_s": 4718,
+    "sha256": "e4c0df348dd1d0a8d8de6e0509a14b3c566aedee8d4d4b2033ffe2ff007885d4",
+    "loudness": {
+      "pass1": {
+        "I": -22.6,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.3626442322974395,
+      "out": {
+        "I": -18.3,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
