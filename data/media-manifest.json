@@ -9762,5 +9762,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hXEZhxg8_IPGY8QHLlCEUC8cbVUHMx20",
+    "drive_name": "៣៧ អារម្មណសង្គហ ពន្យល់កម្មារម្មណ៍របស់ទ្វារវិមុត្តិ.mp3",
+    "source_md5": "b5487e9cd5a53ca4ceb3814962ca32f7",
+    "key": "audio/b5487e9cd5a53ca4-a64.mp3",
+    "bytes": 24045652,
+    "duration_s": 3005,
+    "sha256": "b6667cc0a074c6ca5b97586cf69ad55380d6d7f5c9d8398f56f3aedde1d7ff7c",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 7.200000000000003,
+      "limit": 0.6,
+      "depth": 7.736974992327131,
+      "busy": 6.6162893217773195,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
