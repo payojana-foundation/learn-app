@@ -14605,5 +14605,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1t_LUQ2whx18MugtDPNKninYpyPDEx_Ry",
+    "drive_name": "៤២ ចែកកោដ្ឋាស ៤២ ដោយសមុដ្ឋាន ៤.mp3",
+    "source_md5": "8498aff42c84d498807682db58d57c38",
+    "key": "audio/8498aff42c84d498-a64.mp3",
+    "bytes": 41924065,
+    "duration_s": 5240,
+    "sha256": "7c72f5f49656579d8e9d8fa92c4326862a2b330f9f46e7c9ade26b52e73cdd77",
+    "loudness": {
+      "pass1": {
+        "I": -27.4,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.399999999999999,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 5.100468471219075,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
