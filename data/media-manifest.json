@@ -6369,5 +6369,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-QQU4CKl8P3qJsFKw-ko2oe0rJihYZ9F",
+    "drive_name": "១៥ មហន្តារម្មណ៍ប្រេភេទទី៤ ដល់ទី៦ចប់ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី_ បរិច្ឆេទទី៤ (1).mp3",
+    "source_md5": "fa5cf0382125cfb6f859aac627db51ea",
+    "key": "audio/fa5cf0382125cfb6-a64.mp3",
+    "bytes": 39935207,
+    "duration_s": 4991,
+    "sha256": "67fc0da3ebe24808c07b0a81e313f7f923c66fbc54b5fda2fb2fc94323eb5fea",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 9.7,
+      "limit": 0.6,
+      "depth": 10.636974992327126,
+      "busy": 5.5362741268267275,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
