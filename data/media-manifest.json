@@ -13242,5 +13242,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16aT-9SBsQWMTppyWUTSZ6lP6s83cLbWc",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ១៥ ហេតុសង្គហៈ ពាក្យថា ហេតុមាន ៤ យ៉ាង.mp3",
+    "source_md5": "3cb6333c4696018a24ccfc82a71eeffd",
+    "key": "audio/3cb6333c4696018a-a64.mp3",
+    "bytes": 45070044,
+    "duration_s": 5633,
+    "sha256": "e3f083244cd897c4a53982cd9dba2e1bc17f379e5ce7a67745a784adee761152",
+    "loudness": {
+      "pass1": {
+        "I": -21.9,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 6,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 6.237907591813551,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
