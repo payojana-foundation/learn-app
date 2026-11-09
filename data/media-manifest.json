@@ -3353,5 +3353,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "162eEDRK6aKKkKGKWPJuuCCgm9yQvUfL8",
+    "drive_name": "បិដកលេខ១៦ 01 មហាបទានសូត្រ របៀបអានព្រះត្រ័យបិដក ប្រវត្តព្រះអដ្ឋកថា .mp3",
+    "source_md5": "9c71181d1b638796cc22e256d6fa92b0",
+    "key": "audio/9c71181d1b638796-a64.mp3",
+    "bytes": 44931073,
+    "duration_s": 5616,
+    "sha256": "f15935b5d05f117cc5cc3e43ea94c50bd0eb74dda959c8296f2e248bbd6ef880",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 5.5000000000000036,
+      "limit": 0.6,
+      "depth": 9.636974992327131,
+      "busy": 3.1421652852831463,
+      "out": {
+        "I": -18.1,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
