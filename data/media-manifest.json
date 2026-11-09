@@ -14257,5 +14257,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JPxTMaKec9KEGZnzCgVqL_WLoUyLQ2PH",
+    "drive_name": "៣៧ រូបន័យទី ៣ កម្មជ្ជរូប រូបកើតកម្ម១៨.mp3",
+    "source_md5": "ee0d90f6e0f68fa842da24997d867e3f",
+    "key": "audio/ee0d90f6e0f68fa8-a64.mp3",
+    "bytes": 37504774,
+    "duration_s": 4688,
+    "sha256": "78202cd31b63f1f89dbfdcff50f5fc37c7d87e2963c224957012ada239610205",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "G": 11.100000000000001,
+      "limit": 0.6,
+      "depth": 11.43697499232713,
+      "busy": 6.687215366730304,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
