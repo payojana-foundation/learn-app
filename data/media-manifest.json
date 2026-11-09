@@ -8428,5 +8428,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YewhkIIbPUCfxmqqIHg35Q-tfyXPkSV6",
+    "drive_name": "២៥ កិច្ចសង្គហ ជវនកិច្ច និងតទាលម្ពណកិច្ច.mp3",
+    "source_md5": "3b4ee77ce4ff29f70ffae20de07870aa",
+    "key": "audio/3b4ee77ce4ff29f7-a64.mp3",
+    "bytes": 42052170,
+    "duration_s": 5256,
+    "sha256": "ab34c8617606960ebb398bf001c6416ddd418b4bda4ebff0ab73d8f737265921",
+    "loudness": {
+      "pass1": {
+        "I": -26.3,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 9.899999999999999,
+      "limit": 0.6,
+      "depth": 10.436974992327126,
+      "busy": 5.298252622967973,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
