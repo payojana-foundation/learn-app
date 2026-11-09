@@ -17128,5 +17128,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pzfmWixpP72SlR4hU2o0ub9Ly3RRPrA-",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 60 មនោទ្វារមរណាសន្នវិថីភាគ១.mp3",
+    "source_md5": "95f9c5b951f272b6ff1dce1b63767b2e",
+    "key": "audio/95f9c5b951f272b6-a64.mp3",
+    "bytes": 44084078,
+    "duration_s": 5510,
+    "sha256": "1ef02206bfe72f338aa2932d63f0f0177747ebc895d96b576e82c587851dd351",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "G": -0.40000000000000213,
+      "limit": 0.6,
+      "depth": 1.7369749923271254,
+      "busy": 0.0013610380183286454,
+      "out": {
+        "I": -18,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
