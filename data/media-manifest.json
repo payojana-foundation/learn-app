@@ -3672,5 +3672,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dmnrBIWE8jAupS1iZoLCxsWg7oSy2B1K",
+    "drive_name": "បិដកលេខ១៦ 08 ការឃើញទេវទូតរបស់ព្រះពោធិសត្វមុនចេញបួស .mp3",
+    "source_md5": "65e81f78916767dbf9106cc726f42324",
+    "key": "audio/65e81f78916767db-a64.mp3",
+    "bytes": 39448284,
+    "duration_s": 4930,
+    "sha256": "1ca81e2551394fef709c289e0ff0f20358ddf7ba9bf5c45e037b1b11bae92bf5",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -13,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.3369749923271259,
+      "busy": 0.003295477590752383,
+      "out": {
+        "I": -18,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
