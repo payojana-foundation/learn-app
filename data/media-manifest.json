@@ -4658,5 +4658,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12cmJ9gbBjDLdBukFDgKMrnJC1NE6B5wd",
+    "drive_name": "០២ លក្ខណាទិចតុក្ករបស់ចេតសិក.m4a",
+    "source_md5": "eea74c787a4b2ffced2f0094b91f3eba",
+    "key": "audio/eea74c787a4b2ffc-a64.mp3",
+    "bytes": 36699576,
+    "duration_s": 4587,
+    "sha256": "649c51fe63a8305cc749fae3503dea5ce783842ea2af59badd49490782951394",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 6.100000000000001,
+      "limit": 0.6,
+      "depth": 10.63697499232713,
+      "busy": 6.950287744691982,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
