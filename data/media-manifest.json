@@ -16374,5 +16374,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hbBkCrOfE2ojIp4YEGHsJRp4TzPzBE6_",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 49 ហេតុនាំឱ្យយល់សប្តិមាន ៤ យ៉ាង.mp3",
+    "source_md5": "bdc9022eb818a6c99726180ed27e29b5",
+    "key": "audio/bdc9022eb818a6c9-a64.mp3",
+    "bytes": 42144539,
+    "duration_s": 5268,
+    "sha256": "175e8fcf259b92a8b068dccb8f3522814ce2ef6b95c2e4303e56256e1770459c",
+    "loudness": {
+      "pass1": {
+        "I": -16.9,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": -0.7000000000000028,
+      "limit": 0.6,
+      "depth": 0.43697499232712467,
+      "busy": 0.00023727944875238466,
+      "out": {
+        "I": -18,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
