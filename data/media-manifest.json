@@ -11995,5 +11995,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ojID_vPP8L-n9A_O8Lsb5pDGUwia1Zzo",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ០៥ វេទនាសង្គហ ចែកវេទនាជា ១៨.mp3",
+    "source_md5": "a257705301a60027029b3a45313e16ff",
+    "key": "audio/a257705301a60027-a64.mp3",
+    "bytes": 40446998,
+    "duration_s": 5055,
+    "sha256": "49c2e4f0cbbb3271ce6e90e1d5e5e007fb40e2c74c2462a9d18a8b24c6527f7f",
+    "loudness": {
+      "pass1": {
+        "I": -21,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 5.200000000000003,
+      "limit": 0.6,
+      "depth": 9.536974992327131,
+      "busy": 4.9143566363717275,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
