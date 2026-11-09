@@ -3643,5 +3643,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KMr4_2EBj8UxDw88M_iVsAcTZQ3OMeoo",
+    "drive_name": "បិដកលេខ១៦ 07 មហាបុរិសលក្ខណៈ៣២ ប្រការ.mp3",
+    "source_md5": "0fdd65293a5eec6150ff7b559425cb2f",
+    "key": "audio/0fdd65293a5eec61-a64.mp3",
+    "bytes": 41047814,
+    "duration_s": 5130,
+    "sha256": "89553580507531d0119e7c8b101f4de8bb6c7cdad98fe1c9c99c0a4b90c652df",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -12.5,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.8369749923271259,
+      "busy": 0.0038979136417232677,
+      "out": {
+        "I": -18,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
