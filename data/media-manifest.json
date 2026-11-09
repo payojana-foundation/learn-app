@@ -8370,5 +8370,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1i_zryoxGqyIGrj45f8pYwa29ke2T3ejD",
+    "drive_name": "៣៩ អប្បនាជវនវារៈ លោកិយអភិញ្ញា ឥទ្ធិ១០យ៉ាង ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "bf4d90d2d0c1ac05221fc5daeb845c83",
+    "key": "audio/bf4d90d2d0c1ac05-a64.mp3",
+    "bytes": 38734619,
+    "duration_s": 4841,
+    "sha256": "8f60ad4eb8aa860712a35f295eed9e0b2e56be586e1b1a5445a226081eafc42f",
+    "loudness": {
+      "pass1": {
+        "I": -22.2,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 5.699999999999999,
+      "limit": 0.6,
+      "depth": 9.036974992327128,
+      "busy": 6.315058449337023,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
