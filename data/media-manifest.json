@@ -17969,5 +17969,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1htXqeGVcFkcqVtbJClohzhH7QHCkkAtA",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៦២ ចែកវិថីចិត្តក្នុងភូមិ ៣ ចប់នាមវិថី(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "059c4cbacb72c3f64a3123f9688da2c0",
+    "key": "audio/059c4cbacb72c3f6-a64.mp3",
+    "bytes": 42795510,
+    "duration_s": 5349,
+    "sha256": "e29780f8af3824ad9e29b1289deefef367300877200ddf3caab72249b7f616e6",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 5.775881407260627,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
