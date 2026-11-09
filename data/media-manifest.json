@@ -17012,5 +17012,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1v2JJg_joKUZIY2eJS1Rd6NXGNudyOXBJ",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៤៧ អភិញ្ញាវិថី ឥទ្ធិវិធ សម្តែងប្ញទ្ធ១០ យ៉ាង(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "ea67a4171464afb25aa11222e19d657e",
+    "key": "audio/ea67a4171464afb2-a64.mp3",
+    "bytes": 42754550,
+    "duration_s": 5344,
+    "sha256": "e91096fa562488cd35a733c821dda9fa6399b0e2b80bf79db8a594166a47c655",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.661873397825721,
+      "out": {
+        "I": -18.7,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
