@@ -75,9 +75,37 @@ export interface LearnDB extends DBSchema {
 
 let dbPromise: Promise<IDBPDatabase<LearnDB>> | null = null;
 
+/**
+ * Called when ANOTHER tab (a newer build) needs to upgrade the database. This
+ * tab has already closed its connection; the handler shows the existing
+ * "update available" prompt (registered by main.ts). bulk-07 P3.
+ */
+let versionChangeHandler: () => void = () => {};
+export function setVersionChangeHandler(fn: () => void): void {
+  versionChangeHandler = fn;
+}
+
 export function openLearnDB(): Promise<IDBPDatabase<LearnDB>> {
   if (dbPromise) return dbPromise;
-  dbPromise = openDB<LearnDB>(DB_NAME, DB_VERSION, {
+  const opening = openDB<LearnDB>(DB_NAME, DB_VERSION, {
+    // Another tab holds an older connection: the open WAITS (the request stays
+    // pending and completes by itself once that tab closes). Nothing is deleted
+    // or cleared while waiting.
+    blocked(currentVersion, blockedVersion) {
+      devLog('db open blocked by an older tab', { currentVersion, blockedVersion });
+    },
+    // A newer tab wants to upgrade: close at once so it is not blocked, forget
+    // this connection, and ask the user to reload (existing update prompt).
+    blocking(currentVersion, blockedVersion, event) {
+      devLog('db: newer version requested, closing this connection', { currentVersion, blockedVersion });
+      (event.target as IDBDatabase).close();
+      dbPromise = null;
+      versionChangeHandler();
+    },
+    // The browser closed the connection (e.g. storage cleared): reopen next time.
+    terminated() {
+      dbPromise = null;
+    },
     upgrade(db, oldVersion) {
       // Switch by oldVersion so future migrations never delete user stores.
       if (oldVersion < 1) {
@@ -95,7 +123,15 @@ export function openLearnDB(): Promise<IDBPDatabase<LearnDB>> {
       }
     },
   });
-  return dbPromise;
+  dbPromise = opening;
+  // A failed open (e.g. this old build meets a newer DB: VersionError) is not
+  // cached, so the next call tries again instead of failing forever.
+  opening.catch((err) => {
+    devLog('db open failed', err);
+    if (dbPromise === opening) dbPromise = null;
+    if (err && (err as DOMException).name === 'VersionError') versionChangeHandler();
+  });
+  return opening;
 }
 
 /** TEST-ONLY: drop the cached connection so a fresh DB can be opened. */
