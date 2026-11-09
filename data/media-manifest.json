@@ -6949,5 +6949,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vEt8nEU1UPHYVAi7oC-2zTmKyaELi2xb",
+    "drive_name": "២៦ អតិវិភូតារម្មណ៍មានអតីតភវង្គ១ដល់៥  ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "6fcf90423b77f95eed5b3b42f6117c72",
+    "key": "audio/6fcf90423b77f95e-a64.mp3",
+    "bytes": 35167964,
+    "duration_s": 4395,
+    "sha256": "c3af9d8b2650358417c9cbaf74347d121e2c035f06a37003813daabbd617bc4a",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 5.399999999999999,
+      "limit": 0.6,
+      "depth": 9.436974992327126,
+      "busy": 7.008439586437516,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
