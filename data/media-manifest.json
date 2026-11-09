@@ -16867,5 +16867,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1m6UHxxVOEyqVwc68fFFtDQwyu1_b9uwk",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៤៤ អារម្មណសង្គហ  គតិនិមិត្តារម្មណ៍.mp3",
+    "source_md5": "994d8b1fc3b7049f0422b6c436da91de",
+    "key": "audio/994d8b1fc3b7049f-a64.mp3",
+    "bytes": 44317927,
+    "duration_s": 5539,
+    "sha256": "dee769776ad11f7bb7c0df5acf436a554d9f874ba125b8a99970fd4af365a876",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 5.362655017419716,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
