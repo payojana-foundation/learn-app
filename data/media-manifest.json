@@ -9414,5 +9414,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LSjNTU7JaqT8TBDa7l_0Nd96vonKqblO",
+    "drive_name": "45.៤៥ អវិជ្ជាមិនដឹងធម៌ ៨ យ៉ាង.mp3",
+    "source_md5": "28de7022d01e7c259efe5e77588520cf",
+    "key": "audio/28de7022d01e7c25-a64.mp3",
+    "bytes": 38675269,
+    "duration_s": 4834,
+    "sha256": "e3354c4b6cba308d4fd1d661bebab5a2712ccab4be3517532a78ac596a19c091",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 4.199999999999999,
+      "limit": 0.6,
+      "depth": 8.436974992327126,
+      "busy": 4.50887916679595,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
