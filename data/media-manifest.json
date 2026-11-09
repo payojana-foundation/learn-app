@@ -12285,5 +12285,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CidiwxYvZujzyb5tvCELlVHwtWL7dFGl",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ០៦ មនោទ្វារ ៤ យ៉ាង និងហេតុនាឱ្យកើតមនោទ្វារជាបន្ត(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "5b4147528ba6425a8ce318e39083548e",
+    "key": "audio/5b4147528ba6425a-a64.mp3",
+    "bytes": 45051445,
+    "duration_s": 5631,
+    "sha256": "cce139e0cb07f47649f7c1bae2fefaf2eaf5f993c70738ed7a2f7946eb0eded3",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 9.3,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 7.159631707923429,
+      "out": {
+        "I": -18.1,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
