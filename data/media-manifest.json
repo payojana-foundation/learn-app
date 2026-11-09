@@ -14808,5 +14808,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1iv-_9hSJ_-iTZ2ITGPublzZlEQjA_WCg",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ២៦ កិច្ចសង្គហៈ ចែកចេតសិកធ្វើកិច្ច១ដល់៦.mp3",
+    "source_md5": "1e26e11280f3e0985f0b47970997048a",
+    "key": "audio/1e26e11280f3e098-a64.mp3",
+    "bytes": 44712271,
+    "duration_s": 5588,
+    "sha256": "eb99f6d6cdb3936f639ce51830b99d965aca5e85192e868d131f4c178fd31894",
+    "loudness": {
+      "pass1": {
+        "I": -21.3,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 5.100000000000001,
+      "limit": 0.6,
+      "depth": 9.336974992327129,
+      "busy": 4.353193773483628,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
