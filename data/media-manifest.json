@@ -13358,5 +13358,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UQ6NLOUnUyxr3gARkDZDBMurokBoy68A",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ១៦ ហេតុសង្គហៈ សហេតុកចិត្តចែកជា ៣ ប្រភេទ.mp3",
+    "source_md5": "c5117084710b4d58133023e7f882e2b4",
+    "key": "audio/c5117084710b4d58-a64.mp3",
+    "bytes": 27118070,
+    "duration_s": 3389,
+    "sha256": "e323a0bb8906a162bcfd384f3283a9a68522443a9b925ed725394409d624224c",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.5000000000000036,
+      "limit": 0.6,
+      "depth": 11.636974992327131,
+      "busy": 5.067851611475772,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
