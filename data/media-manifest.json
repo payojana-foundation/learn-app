@@ -5818,5 +5818,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1TDxBKz7h86NdgzUd7gCNdtQ4udo1yB-B",
+    "drive_name": "16.១៦ និយតនមិច្ឆាទិដ្ឋិ ៣ យ៉ាង.mp3",
+    "source_md5": "5ca77f029a6a1e877797a4ff192e5284",
+    "key": "audio/5ca77f029a6a1e87-a64.mp3",
+    "bytes": 35767736,
+    "duration_s": 4470,
+    "sha256": "4be0e71d0853faaa29cf93edd4bd48a52e50bca6c9ef050b0b98c1a953808b07",
+    "loudness": {
+      "pass1": {
+        "I": -25.1,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 8.663025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.037296741148315,
+      "out": {
+        "I": -19,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
