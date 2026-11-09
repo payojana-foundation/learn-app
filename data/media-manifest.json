@@ -9008,5 +9008,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jzmFQKgc-mN_Uq2W3wXKsZL1HMzFvrtR",
+    "drive_name": "៤៥ មរណាសន្នវិថី ការស្លាប់តាមបញ្ចទ្វារ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "2e328eafdfde79d09b434900e5b8f211",
+    "key": "audio/2e328eafdfde79d0-a64.mp3",
+    "bytes": 33662684,
+    "duration_s": 4207,
+    "sha256": "990389f1ed005d942153044eb86e323c57925d7cc30187745c49f48b173c2fcb",
+    "loudness": {
+      "pass1": {
+        "I": -21.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 4.5,
+      "limit": 0.6,
+      "depth": 8.536974992327128,
+      "busy": 5.6929987166690434,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
