@@ -15127,5 +15127,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mYcvwAPPlUsxWDy1aMhp4J1P4OA0gRWi",
+    "drive_name": "៤៩ រូបបវត្តិក្កមន័យទី៤ ចែករូបដោយសមុដ្ឋានតាមភូមិ៣.mp3",
+    "source_md5": "33d502d0a635ebfcde28df7c2891f4b2",
+    "key": "audio/33d502d0a635ebfc-a64.mp3",
+    "bytes": 40295069,
+    "duration_s": 5036,
+    "sha256": "9a19f1402f01f863317c6422b29e6eb675db25c9937cd7102aff78b731f5a779",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "G": 10.663025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.943814090155554,
+      "out": {
+        "I": -18.5,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
