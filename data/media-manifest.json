@@ -15649,5 +15649,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1z0oxHGUDyAhkrSHjYKxgHXJWYNGaYGca",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៣២ ចុតិស្ថាន ចុតិចិត្តមាន ៣ ស្ថាន.mp3",
+    "source_md5": "6f6f5851515d046ce6c8b0cfb95b4d2e",
+    "key": "audio/6f6f5851515d046c-a64.mp3",
+    "bytes": 43246906,
+    "duration_s": 5405,
+    "sha256": "685d6eeea14ee7648b82d86fde700cf455fd2dabf64730e2ddea0229468e6fd4",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 10.200000000000003,
+      "limit": 0.6,
+      "depth": 10.73697499232713,
+      "busy": 5.3934626376980495,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
