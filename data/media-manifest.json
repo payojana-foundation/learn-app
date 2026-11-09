@@ -5702,5 +5702,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xfL-U5YfpFa7A33B9kJ6VNskWFuQbOyE",
+    "drive_name": "០៩ ចេតនាចេតសិក ឯកគ្គតចេតសិក.m4a",
+    "source_md5": "02f93deefa3819c47a41e2a9baebff11",
+    "key": "audio/02f93deefa3819c4-a64.mp3",
+    "bytes": 40241153,
+    "duration_s": 5030,
+    "sha256": "636cd30a568c046e7df186014c7e88e2a5546538de0babb8c5866e659c7508b5",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 6.24787519645937,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 8.738146358919305,
+      "out": {
+        "I": -18.5,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
