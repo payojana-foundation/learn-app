@@ -14054,5 +14054,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YH7DHQ8h0tiP1QRSvsZvWpglj0mzPFyF",
+    "drive_name": "៣៥ ទុកន័យ សប្បដិឃរូប សនិទស្សនរូប គោរចរគាហិក.mp3",
+    "source_md5": "d11afb31b00d26bca7674c9eed30aa20",
+    "key": "audio/d11afb31b00d26bc-a64.mp3",
+    "bytes": 37507909,
+    "duration_s": 4688,
+    "sha256": "0ac9d2c6af537b4efd30f787e989e39c5ee36088a48494c5069b65496e49bc9f",
+    "loudness": {
+      "pass1": {
+        "I": -27.6,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 11.900000000000002,
+      "limit": 0.6,
+      "depth": 11.93697499232713,
+      "busy": 6.34671373268351,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
