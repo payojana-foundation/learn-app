@@ -13706,5 +13706,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16aHE20LeDAq2Dhg9M4b8pySNDC898Vqw",
+    "drive_name": "៣០ លក្ខណរូប ៤ ជរតារូប រូបចាស់គ្រាំគ្រា.mp3",
+    "source_md5": "644171f0ea04246b7eb6abc191cc612b",
+    "key": "audio/644171f0ea04246b-a64.mp3",
+    "bytes": 37288062,
+    "duration_s": 4660,
+    "sha256": "3d516ef5bd3b79fe45018f9b067f5b72ba5e1fcdeabca926565d7cecbedcf848",
+    "loudness": {
+      "pass1": {
+        "I": -27.3,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.100000000000001,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 5.916980443900922,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
