@@ -13880,5 +13880,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "138sKR4D6ze34lkshSb8oxRVpTs4A-n7M",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 22 សង្ខេបអតីតគ្គហណវិថីទាំង ៥ ប្រភេទ.mp3",
+    "source_md5": "0a1afb43ee3d2778f764ed4b4a17020c",
+    "key": "audio/0a1afb43ee3d2778-a64.mp3",
+    "bytes": 45176624,
+    "duration_s": 5647,
+    "sha256": "fd973b6be5041d281619e2ad8cde8f454227ab4688ee23e75931e2b38fbe924d",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 6.899999999999999,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 3.39137248651951,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
