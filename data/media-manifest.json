@@ -6572,5 +6572,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XOA-vCwYVzy0Xxu9scwY3Inau5YFxyU1",
+    "drive_name": "១១ វេទនាសង្គហៈ ចែកវេទនាដោយឥន្រ្ទិយនិងអារម្មណ៍៣.mp3",
+    "source_md5": "602e96c6df61b0fbc3e7828aa22613cb",
+    "key": "audio/602e96c6df61b0fb-a64.mp3",
+    "bytes": 42980457,
+    "duration_s": 5372,
+    "sha256": "077569e335683122d3850caf9423fa2e36a9179d2f9b07a32165d3ae5622b375",
+    "loudness": {
+      "pass1": {
+        "I": -26.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 9.899999999999999,
+      "limit": 0.6,
+      "depth": 10.436974992327126,
+      "busy": 4.453699395067473,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
