@@ -17621,5 +17621,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1J4ACrTxKJnFxG3W2epZ-zKVSEGAR0b4n",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៥៥ មរណាសន្នវិថី មរណាសន្នវិថីពិសេស និងបរិនិព្វានវិថីធម្មតា(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "ed75f7c336fad35bb0dd9def3777113e",
+    "key": "audio/ed75f7c336fad35b-a64.mp3",
+    "bytes": 43249205,
+    "duration_s": 5406,
+    "sha256": "c7ef968dc87430915999b618c2f71e9d68597534c235d2c968fa2bb9cc76311b",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 7.347875196459371,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 6.051959823162724,
+      "out": {
+        "I": -18.8,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
