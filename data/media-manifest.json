@@ -5180,5 +5180,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1o-PX-yz8biBDbh1TR8qir3ymaSmehRZK",
+    "drive_name": "10.១០ លក្ខណាទិចតុក្ករបស់ចិត្ត.mp3",
+    "source_md5": "1dfe17cd7b6f810f761ee08415ec0e8c",
+    "key": "audio/1dfe17cd7b6f810f-a64.mp3",
+    "bytes": 34028189,
+    "duration_s": 4253,
+    "sha256": "5c52e2c168d49635d7502c8eba5f5887e8900aedbfcd00c38928c29919855b5b",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 6.900000000000002,
+      "limit": 0.6,
+      "depth": 10.73697499232713,
+      "busy": 6.8834489244151875,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
