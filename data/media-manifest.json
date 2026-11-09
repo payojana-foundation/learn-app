@@ -12314,5 +12314,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10VFuARKxFSVkUHWZ9JXHeloG5be0KAGa",
+    "drive_name": "78.៧៨ អទិន្នាទានមានអង្គ៥.mp3",
+    "source_md5": "c595dec9706bc3d60d082f4cfc875eec",
+    "key": "audio/c595dec9706bc3d6-a64.mp3",
+    "bytes": 37928376,
+    "duration_s": 4740,
+    "sha256": "49f3182dab3d747d0fe9db141a2521064b214ea387ae24512897dfb82badc5c5",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": 1.7,
+        "LRA": 0
+      },
+      "G": 5.8630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.886363636363637,
+      "out": {
+        "I": -18.3,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
