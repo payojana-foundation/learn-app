@@ -16229,5 +16229,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jqDmjM4Du_pEgoJVOinzqYyTMY9onMTi",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៣៨ អារម្មណសង្គហ ចែកអារម្មណ៍ ៦ យ៉ាង.mp3",
+    "source_md5": "2c4aa31fd37c9c0c8a34a4a0cd66fedb",
+    "key": "audio/2c4aa31fd37c9c0c-a64.mp3",
+    "bytes": 44678625,
+    "duration_s": 5584,
+    "sha256": "b7617c471b95c7ea9f387804ca2fc53ee32b7dfeb113043f07d8b60b1958a3ea",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.399999999999999,
+      "limit": 0.6,
+      "depth": 11.536974992327126,
+      "busy": 5.555257126486177,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
