@@ -16084,5 +16084,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kNIC4czTL8aZDTqpKCaO1GU2UaiR8Htb",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៣៦ ជវនវារៈមិនមានអតីតភវង្គក្នុងអរូបព្រហ្ម(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "517f397fb71344e9330a440cc2a4da00",
+    "key": "audio/517f397fb71344e9-a64.mp3",
+    "bytes": 42018733,
+    "duration_s": 5252,
+    "sha256": "e470912cac9b9c08fe307165b108628d5f702a9e07199cb3af7f4ec62ce20be6",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 7.899999999999999,
+      "limit": 0.6,
+      "depth": 11.536974992327126,
+      "busy": 5.078489423681054,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
