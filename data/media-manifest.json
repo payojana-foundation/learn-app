@@ -15243,5 +15243,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zqJBCPocCi9kXWIbtstY_P2Avu5Lo1-V",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ២៩ នាមគ្គហណវិថី ៣ វិថី និងការសង្ខេបបញ្ចប់(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "3f9117b9ab9c738b98e2e27ef5ff3e4c",
+    "key": "audio/3f9117b9ab9c738b-a64.mp3",
+    "bytes": 42995713,
+    "duration_s": 5374,
+    "sha256": "e78f78d60f59b2e54017e1f7d1581170c8c401ffd9fc4bcc3c52dd48677b3974",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.400000000000002,
+      "limit": 0.6,
+      "depth": 11.53697499232713,
+      "busy": 5.305194019853194,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
