@@ -9443,5 +9443,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JV4VmVTZd3BC-u-7K3e4q6MKlr5ziy1u",
+    "drive_name": "៣៨ ហិរិ ការខ្មាសបាប គឺរង្កៀសទុច្ចរិត.m4a",
+    "source_md5": "58b1d2e171e2c08c5031a1f3eb951884",
+    "key": "audio/58b1d2e171e2c08c-a64.mp3",
+    "bytes": 36810753,
+    "duration_s": 4601,
+    "sha256": "3a266da3d3f017790ca36d2c37e82b8940e3ffd85b84109ca905bdc111994524",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 10.500000000000004,
+      "limit": 0.6,
+      "depth": 10.536974992327131,
+      "busy": 6.34087105817921,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
