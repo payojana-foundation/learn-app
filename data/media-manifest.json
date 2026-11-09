@@ -6978,5 +6978,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yzzTAeFeTkLJ0rpMHULWOuNUfD6m1Ewj",
+    "drive_name": "១៤ ចែកវេទនាកើតរួមនឹងចេតសិក.mp3",
+    "source_md5": "bd99138196dd3edc0acf9ea49815952f",
+    "key": "audio/bd99138196dd3edc-a64.mp3",
+    "bytes": 36205339,
+    "duration_s": 4525,
+    "sha256": "cc96b58d74bfdc4680cc7fb65c4d42a77952eb3f63e98797a734cdcd5f4d3a88",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 9.299999999999997,
+      "limit": 0.6,
+      "depth": 9.936974992327125,
+      "busy": 4.75903747569383,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
