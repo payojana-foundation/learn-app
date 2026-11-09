@@ -11908,5 +11908,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YTNI8niguGRzbuFSKZpMoo6vu61HueFb",
+    "drive_name": "០៧ ភូតមាន ៧ ន័យ មានភូតបានដល់ព្រះអហរន្តជាដើម.mp3",
+    "source_md5": "c426244214257798b014690ceaeb478c",
+    "key": "audio/c426244214257798-a64.mp3",
+    "bytes": 40136872,
+    "duration_s": 5017,
+    "sha256": "f5fc49cb5003d466f89fb4acf095def7c6e420a488499bbf737c8d1a325b02bd",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "G": 7.600000000000001,
+      "limit": 0.6,
+      "depth": 10.236974992327129,
+      "busy": 5.640515840982251,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
