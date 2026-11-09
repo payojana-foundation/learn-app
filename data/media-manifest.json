@@ -17795,5 +17795,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1FvIKY-ZzYFLc2KvB122VwvFgQRjqCo37",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៥៦ ចែកចិត្តទទួលអារម្មណ៍តិច និងច្រើន.mp3",
+    "source_md5": "7a21df32967c027107ba622ee896bbbc",
+    "key": "audio/7a21df32967c0271-a64.mp3",
+    "bytes": 43817629,
+    "duration_s": 5477,
+    "sha256": "c59ae6f2eb1dd34ab6a0655010ea358c61bf5c66fcaa2fd453248a998a4c04c0",
+    "loudness": {
+      "pass1": {
+        "I": -23.5,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 5.768510995682061,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
