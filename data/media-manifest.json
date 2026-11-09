@@ -15997,5 +15997,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tict9c3_wwPe76XvK9PpiMK7jqCQmoik",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 43 ចែកវិថីចិត្តទី៤មិនមានអតីតភវង្គ ទោសជវន២.mp3",
+    "source_md5": "4450a1744eacf0e8ae48ce4ec1d9e174",
+    "key": "audio/4450a1744eacf0e8-a64.mp3",
+    "bytes": 49425806,
+    "duration_s": 6178,
+    "sha256": "38456b89f818fc719fbe68eec8a6b6a483771b565c51dbb45a28d4063289b825",
+    "loudness": {
+      "pass1": {
+        "I": -20.4,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 2.799999999999997,
+      "limit": 0.6,
+      "depth": 2.4369749923271247,
+      "busy": 0.03297886115697129,
+      "out": {
+        "I": -18,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
