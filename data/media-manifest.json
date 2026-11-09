@@ -9327,5 +9327,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1OSoUFeabkcCCUoH3rNFMlycALpPR_VRf",
+    "drive_name": "៣៧ សតិចេតសិក ការរលឹកដឹង.m4a",
+    "source_md5": "57ec8b207b585144b14add3e60590253",
+    "key": "audio/57ec8b207b585144-a64.mp3",
+    "bytes": 40458909,
+    "duration_s": 5057,
+    "sha256": "4649626e983af8c452890f9a18e625d2df591681c90057360f7aa8864fd29b73",
+    "loudness": {
+      "pass1": {
+        "I": -21.3,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 4.899999999999999,
+      "limit": 0.6,
+      "depth": 9.336974992327125,
+      "busy": 5.773831886579796,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
