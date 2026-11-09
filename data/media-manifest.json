@@ -8602,5 +8602,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1geJkoH_ji3hO5yRVA1uk0fb6YO6EUy9B",
+    "drive_name": "៤១ មគ្គវិថី សោតាបត្តិមគ្គដល់អរហត្តមគ្គ  ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "2705c8de8bd4ebcdd75621d23236cfcc",
+    "key": "audio/2705c8de8bd4ebcd-a64.mp3",
+    "bytes": 34119305,
+    "duration_s": 4264,
+    "sha256": "5b94628c943d2fc8de803075d767f3cd7b1df583ccae5b4adda3f8574a4a11eb",
+    "loudness": {
+      "pass1": {
+        "I": -24.6,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "G": 8,
+      "limit": 0.6,
+      "depth": 8.236974992327127,
+      "busy": 5.764789326830641,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
