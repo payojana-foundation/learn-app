@@ -14460,5 +14460,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cRE08bYAtJbQdBYCqoLAmdToqluPdQ4I",
+    "drive_name": "៤០ ឧតុជ្ជរូប រូបកើតពីឧតុ និងអាហារជ្ជរូប រូបកើតពីអាហារ.mp3",
+    "source_md5": "12e18d07efc82b8ea9c38f06ef906b0b",
+    "key": "audio/12e18d07efc82b8e-a64.mp3",
+    "bytes": 39649740,
+    "duration_s": 4956,
+    "sha256": "bbb3afcd758d59de0afb5f49b5de8aad3e1a4e44b6be06a0dcee698fda7c53e7",
+    "loudness": {
+      "pass1": {
+        "I": -27.5,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.797574730385481,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
