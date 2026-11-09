@@ -5122,5 +5122,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wHcb_CO5d_brdT7g2CSbOPggTLe9jtLB",
+    "drive_name": "០២ និយមន័យវេទនា.mp3",
+    "source_md5": "4e1d288c0d4d85e53edc78f5a4a51bff",
+    "key": "audio/4e1d288c0d4d85e5-a64.mp3",
+    "bytes": 45921009,
+    "duration_s": 5740,
+    "sha256": "9e6243ae527f55f797e44056ec220492b78c63fdfd08f5580f19e7510d774e31",
+    "loudness": {
+      "pass1": {
+        "I": -27.5,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.697182975906343,
+      "out": {
+        "I": -18.7,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
