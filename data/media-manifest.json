@@ -16635,5 +16635,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1BWSnxb21KxlTuowYpVuxXkyWcdWKV68v",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៤២ វិថីមុនចូលសម្រេចអប្បនាចិត្ត(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "e770c54536125ce64c5abdcbfb6cb0ee",
+    "key": "audio/e770c54536125ce6-a64.mp3",
+    "bytes": 44494096,
+    "duration_s": 5561,
+    "sha256": "d337ee24669bc7aac4a3bff19f97a1e1d2bfd4066510d4167af1b181f2998bde",
+    "loudness": {
+      "pass1": {
+        "I": -23.5,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.835393536207129,
+      "out": {
+        "I": -18.3,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
