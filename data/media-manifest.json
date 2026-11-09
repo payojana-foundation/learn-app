@@ -17824,5 +17824,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GgMfJx9wi2yWqJmm_mX39BrNi4F0Utrq",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៥៧ ចែកចេតសិកដែលទទួលអារម្មណ៍ ២១.mp3",
+    "source_md5": "486d173e24dec50aca22bf5243653bea",
+    "key": "audio/486d173e24dec50a-a64.mp3",
+    "bytes": 44133398,
+    "duration_s": 5516,
+    "sha256": "782228cf52e12d7ddb04bd4633c2a2bdc4a07fcd8664196e757dbda387bb8206",
+    "loudness": {
+      "pass1": {
+        "I": -22.6,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 6.900000000000002,
+      "limit": 0.54,
+      "depth": 11.452124803540631,
+      "busy": 6.2837047846066,
+      "out": {
+        "I": -18.7,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
