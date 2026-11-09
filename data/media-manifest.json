@@ -12575,5 +12575,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bBx95Hn0JQxSBmSzuWaU8hEHWYylrXaF",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 09  អតិមន្តារម្មណ៍ប្រភេទទី២.mp3",
+    "source_md5": "25f93be8d2d318858b013ce84fe06a48",
+    "key": "audio/25f93be8d2d31885-a64.mp3",
+    "bytes": 41396810,
+    "duration_s": 5174,
+    "sha256": "b9d5bd4932b620f6895602c841fcf3d4a614be7109695732c5758e938f70bbb1",
+    "loudness": {
+      "pass1": {
+        "I": -20.9,
+        "TP": 1.7,
+        "LRA": 0
+      },
+      "G": 5.400000000000002,
+      "limit": 0.6,
+      "depth": 11.53697499232713,
+      "busy": 4.455459895063339,
+      "out": {
+        "I": -18.1,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
