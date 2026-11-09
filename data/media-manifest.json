@@ -8805,5 +8805,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1AyDfFgaPLZ9XfXKVguXgAToAdV_zv7yA",
+    "drive_name": "២៩ ឋាន១០ ជវនស្ថាន ដល់ចុតិស្ថាន(បញ្ចប់)(២).mp3",
+    "source_md5": "74ac750dac61c102831251ed1286fd5a",
+    "key": "audio/74ac750dac61c102-a64.mp3",
+    "bytes": 29962074,
+    "duration_s": 3745,
+    "sha256": "0d19b0b793bf81faf25d206a2cb9e26c52d45475c1bdb4b720ff3733a17691f9",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 11.036974992327128,
+      "busy": 4.970362063441205,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
