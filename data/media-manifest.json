@@ -7384,5 +7384,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1akaPd_rIPfj1x7ur_k0KDGgdLX3YsJat",
+    "drive_name": "១៧ ហេតុសង្គហៈ ចែកសហេតុកចិត្តជា ៣.mp3",
+    "source_md5": "daf3c2ddb1a7028af7d819c081974454",
+    "key": "audio/daf3c2ddb1a7028a-a64.mp3",
+    "bytes": 43309600,
+    "duration_s": 5413,
+    "sha256": "cc58f1f050692c9913b06e52afb14b7dc87b5f3b270ccbfbf332bd713e7e29d2",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 5.017178798038292,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
