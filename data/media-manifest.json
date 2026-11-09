@@ -12720,5 +12720,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fGMFgY_CjR3iry9p0z2oQUELU63f_usU",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ១០ ចែកវេទនា ៥ យ៉ាងដោយឥន្រ្ទិយ.mp3",
+    "source_md5": "bc34bbe67eaeed29e8dda9554676cdca",
+    "key": "audio/bc34bbe67eaeed29-a64.mp3",
+    "bytes": 42457799,
+    "duration_s": 5307,
+    "sha256": "7bf9db7ee1747b463ff9d3ccb3cd97ab08c65d2c40d4df92692be50392c3301d",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 3.3000000000000007,
+      "limit": 0.6,
+      "depth": 7.6369749923271275,
+      "busy": 5.221208923726259,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
