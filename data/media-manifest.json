@@ -10980,5 +10980,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11Tq84aQS_6DcaBF7N7EwVLfaHS8B7Tku",
+    "drive_name": "62.៦២ ត្រៃដល់ត្រៃសរណគមន៍មាន៤ យ៉ាង.mp3",
+    "source_md5": "e28aa37980e20d60d358afe9fdf740ec",
+    "key": "audio/e28aa37980e20d60-a64.mp3",
+    "bytes": 35263886,
+    "duration_s": 4407,
+    "sha256": "a40b8f87fa245d840046e98ffb3712dab1278955af29da37c274ccd32bb7b85e",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 7.399999999999999,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 4.905341485270931,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
