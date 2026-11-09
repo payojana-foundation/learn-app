@@ -12662,5 +12662,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1StUA2LxOfdMf2Qz1McE6_MXuf3-hN5mH",
+    "drive_name": "១៦ ជិវ្ហាបសាទ​ កាយបសាទរូប.mp3",
+    "source_md5": "5d60c327d76d316cd5451bf8c37462c6",
+    "key": "audio/5d60c327d76d316c-a64.mp3",
+    "bytes": 40634661,
+    "duration_s": 5079,
+    "sha256": "727749070de62d657b13ebbb0fc30bb02eefff9294d05f06eaf755200cdd11d5",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 8.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.7524068277124805,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
