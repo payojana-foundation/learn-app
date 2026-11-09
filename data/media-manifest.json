@@ -8776,5 +8776,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fVkEJpcQuCMwGTezma8HSBT0bAnctMbF",
+    "drive_name": "៣២ កុក្កុច្ចចេតសិក ការក្ដៅក្រហាយចិត្ត.m4a",
+    "source_md5": "6c28e3ead19861c389a135def013a341",
+    "key": "audio/6c28e3ead19861c3-a64.mp3",
+    "bytes": 43925045,
+    "duration_s": 5490,
+    "sha256": "a113130fdfc3a1052ed204171629cac6a3ed3521caf4d8e4e4b07314d42b7bc8",
+    "loudness": {
+      "pass1": {
+        "I": -29.7,
+        "TP": -7,
+        "LRA": 0
+      },
+      "G": 14,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 5.753469566167632,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
