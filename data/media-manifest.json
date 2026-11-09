@@ -8921,5 +8921,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "125YGvho1hJpq8aIdGHGYYqLg42QHmkIN",
+    "drive_name": "៣៣ ថីនមិទ្ធចេតសិក ការរួញរា ងងុយងោកងក់.m4a",
+    "source_md5": "fa0ac53da3660c5c1a8377731f06a147",
+    "key": "audio/fa0ac53da3660c5c-a64.mp3",
+    "bytes": 41215207,
+    "duration_s": 5151,
+    "sha256": "a7fa2813be7b87fd220f537f514c0802167c1fcab59d9047f500f14cd3bc0fb6",
+    "loudness": {
+      "pass1": {
+        "I": -15.7,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": -0.9000000000000021,
+      "limit": 0.6,
+      "depth": 3.836974992327125,
+      "busy": 6.37732076826771,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
