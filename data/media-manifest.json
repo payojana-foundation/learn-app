@@ -17418,5 +17418,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZIljvRiCbWFF4AjzQ3C6-rSxTYoONNeE",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 64 បញ្ចប់បរិច្ឆេទទី ៤ តទាលម្ពណ ជវន.mp3",
+    "source_md5": "e5053a1aad544fd8880450af64a1429e",
+    "key": "audio/e5053a1aad544fd8-a64.mp3",
+    "bytes": 40861613,
+    "duration_s": 5107,
+    "sha256": "09bbbcaffad7a150fc521db39fc7e8c11ac451e800a501d6e79b4f3d760dbde6",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": -0.40000000000000213,
+      "limit": 0.6,
+      "depth": 0.836974992327125,
+      "busy": 0.0019578475424118723,
+      "out": {
+        "I": -18,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
