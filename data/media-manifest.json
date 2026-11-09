@@ -15533,5 +15533,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kaKr-8EYtaM0N4KL-6U9VJM-wLYCiO1j",
+    "drive_name": "៥៤ និព្វានបរមត្ថ ព្រះនិព្វានមាន ១៤៣ ពាក្យបញ្ចប់បរិច្ឆេទទី៦.mp3",
+    "source_md5": "4774f8ae03a0e345cc5ef8166ada251b",
+    "key": "audio/4774f8ae03a0e345-a64.mp3",
+    "bytes": 28615827,
+    "duration_s": 3576,
+    "sha256": "0d356aa514a0bc1e203e878a8c0a419beb370517d80bbb1c09b847d10aa1f2c7",
+    "loudness": {
+      "pass1": {
+        "I": -29.4,
+        "TP": -6.5,
+        "LRA": 0
+      },
+      "G": 14,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 6.272452787989768,
+      "out": {
+        "I": -18.1,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
