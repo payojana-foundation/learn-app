@@ -8573,5 +8573,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nWQfaBR7LPZcP1uS33om6yP1dwXCszK2",
+    "drive_name": "២៧_កិច្ចសង្គហ_ឋានរបស់ចិត្តបដិសន្ធិស្ថាន.mp3",
+    "source_md5": "f6eed95107f78888546238dabc1bb269",
+    "key": "audio/f6eed95107f78888-a64.mp3",
+    "bytes": 27068751,
+    "duration_s": 3383,
+    "sha256": "f5b016094cbef513e9923a12da5b4d5ccc6831657b274ac236dcf0b83d35896c",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -3,
+        "LRA": 0
+      },
+      "G": 9.3,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 4.384078852093216,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
