@@ -12140,5 +12140,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Jm7NxDOdyROC4BrG0fbPQFupSMiraCHp",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ០៦ វេទនាសង្គហ ចែកវេទនាជា ៣៦ យ៉ាង.mp3",
+    "source_md5": "f5751c638b17f3457a29262c46ee23f1",
+    "key": "audio/f5751c638b17f345-a64.mp3",
+    "bytes": 45991644,
+    "duration_s": 5748,
+    "sha256": "2a067d6b2b2c6ac7b8265693d9f7d5af81f47a3b81f6a715fb328ebf9b4e7126",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 11.336974992327127,
+      "busy": 6.081163352989267,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
