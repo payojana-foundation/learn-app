@@ -9,7 +9,7 @@
 
 import { initLang, setLang, type Lang } from './lang';
 import { VACANA_BASE_URL, LIBRARY_BASE_URL } from './config';
-import { pathCourseIds, draftAllowed } from './data/companion';
+import { pathCourseIds, draftAllowed, startedCourseIds } from './data/companion';
 import type { CompanionCtx } from './ui/companion';
 import { t, STRINGS, displayString } from './strings';
 import { cleanForSearch, esc } from './format';
@@ -42,6 +42,7 @@ import {
   awardLeafIfFinished,
   backfillLeaves,
   listLeaves,
+  listProgress,
 } from './db';
 import { renderVersionLabel } from './version-label';
 import { createPlayer, setMediaMetadata, SPEEDS, SLEEP_OPTIONS, type PlayerHandle } from './audio/player';
@@ -101,7 +102,7 @@ async function loadBase(): Promise<void> {
 }
 
 /** What the screens need to draw the guide leaf and the branch. */
-function companionCtx(extra: Pick<CompanionCtx, 'hasLeaf' | 'leafCount'> = {}): CompanionCtx {
+function companionCtx(extra: Pick<CompanionCtx, 'hasLeaf' | 'leafCount' | 'budCount' | 'leafIds'> = {}): CompanionCtx {
   return { lang: state.lang, guide: guideFile, aliases, draft: guideDraft, ...extra };
 }
 
@@ -215,7 +216,7 @@ async function render(): Promise<void> {
   if (route.name === 'home') {
     const prog = await catalogProgress();
     const hist = (await listHistory()).map((h) => ({ courseId: h.courseId, lessonId: h.lessonId, lessonNum: h.lessonNum }));
-    html = V.homeView(catalog, teachers, teacherBySlug, prog, viewState(savedIds), startHereIds, hist, companionCtx());
+    html = V.homeView(catalog, teachers, teacherBySlug, prog, viewState(savedIds), startHereIds, hist, companionCtx({ leafIds: new Set((await listLeaves()).map((l) => l.course_id)) }));
   } else if (route.name === 'course') {
     const c = await course(route.id);
     if (!c) html = V.notFoundView(state.lang);
@@ -292,13 +293,21 @@ async function renderSearch(q: string): Promise<string> {
   return V.searchView(q, catalog, courseBundles, teacherHits, lessonHits, teacherBySlug, state.lang);
 }
 
+/** /my: leaves, then buds (started = in catalogue, no leaf, >= 1 lesson done), derived now. */
+async function myCompanionCtx(): Promise<CompanionCtx> {
+  const leaves = await listLeaves();
+  const known = new Set((catalog?.courses ?? []).map((c) => c.id));
+  const buds = startedCourseIds(await listProgress(), known, new Set(leaves.map((l) => l.course_id)));
+  return companionCtx({ leafCount: leaves.length, budCount: buds.length });
+}
+
 async function renderMy(savedIds: Set<string>): Promise<string> {
   if (!catalog) return '';
   const prog = await catalogProgress();
   const saved = await listSaved();
   const hist = await listHistory();
   const notes = await listNotes();
-  return V.myView(state.myTab, catalog, teacherBySlug, prog, viewState(savedIds), saved, hist, notes, companionCtx({ leafCount: (await listLeaves()).length }));
+  return V.myView(state.myTab, catalog, teacherBySlug, prog, viewState(savedIds), saved, hist, notes, await myCompanionCtx());
 }
 
 function renderTabbar(): void {

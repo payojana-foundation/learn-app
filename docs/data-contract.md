@@ -141,3 +141,15 @@ and the app loads them through the same hash-verified path as the catalog.
 IndexedDB store `leaves` (DB version 2): key `course_id`, value
 `{ course_id, at }`. One per finished course, added once, never updated or
 removed. Included in Export; Import merges by `course_id`.
+
+### Branch file `public/brand/companion/branch-draft.svg` (bulk-06)
+The app depends on ONLY these parts of the branch file, so the brand team may
+redraw everything else but must keep them when replacing it:
+- elements with `data-slot="1".."12"` (class `slot`), one per leaf position;
+- two defs with these ids: **`bl`** (leaf: a finished class) and **`bb`** (bud:
+  a started, unfinished class, drawn outlined). A slot shows a leaf with
+  `href="#bl"` or a bud with `href="#bb"`; the app swaps the href.
+- No `bb` def = buds are hidden. No `bl` def = no branch is drawn.
+Order on the branch: all leaves (oldest first), then buds. 13+ items start a
+second branch below, and so on. A bud = in the catalogue, no leaf, at least one
+lesson marked done; derived from progress when `/my` is drawn (nothing stored).

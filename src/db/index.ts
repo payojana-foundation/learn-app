@@ -180,6 +180,14 @@ export async function setLessonProgress(
   await tx.done;
 }
 
+/** Every progress record (read-only; used to derive buds at render time). */
+export async function listProgress(): Promise<
+  { courseId: string; lessons: Record<string, { pos: number; done: boolean }>; updatedAt: number }[]
+> {
+  const db = await openLearnDB();
+  return db.getAll('progress');
+}
+
 /** How many lessons in a course are marked done. */
 export async function doneCount(courseId: string): Promise<number> {
   const db = await openLearnDB();

@@ -12,7 +12,7 @@ import { t, topicLabel, TOPICS } from '../strings';
 import { num, time, esc, cleanForSearch, displayTitle } from '../format';
 import type { Catalog, CatalogCourse, Course, Lesson, Teacher } from '../data/catalog';
 import type { LessonProgress } from '../db';
-import { guideLineHtml, branchPanelHtml, type CompanionCtx } from './companion';
+import { guideLineHtml, branchPanelHtml, leafMarkHtml, type CompanionCtx } from './companion';
 
 export interface ProgressMap {
   // courseId → { lessonId → progress }
@@ -42,12 +42,12 @@ function teacherName(teacher: Teacher | undefined, lang: Lang): string {
   return esc(teacher.name_km) + (lang === 'en' ? en : en);
 }
 
-export function courseCard(c: CatalogCourse, teacher: Teacher | undefined, progress: ProgressMap, lang: Lang): string {
+export function courseCard(c: CatalogCourse, teacher: Teacher | undefined, progress: ProgressMap, lang: Lang, mark = ''): string {
   const p = pctOf(progress, c);
   const hasA = c.media_kinds.includes('acast') || c.media_kinds.includes('r2');
   const hasV = c.media_kinds.includes('youtube') || c.media_kinds.includes('drive');
   const isR2 = c.media_kinds.includes('r2');
-  return `<button class="card" data-nav="course" data-id="${c.id}"><span class="t">${esc(courseTitle(c, lang))}</span>
+  return `<button class="card" data-nav="course" data-id="${c.id}"><span class="t">${mark}${esc(courseTitle(c, lang))}</span>
   <span class="muted small">${teacherName(teacher, lang)}</span>
   <span class="meta"><span>${num(c.lesson_count, lang)} ${t('LESSONS', lang)}</span>${hasA ? '<span>♪ audio</span>' : ''}${hasV ? '<span>▶ video</span>' : ''}${isR2 ? '<span>R2</span>' : ''}</span>
   ${p ? `<span class="pbar"><i style="width:${p}%"></i></span><span class="meta">${num(p, lang)}% ${t('DONE', lang)}</span>` : ''}</button>`;
@@ -91,7 +91,7 @@ export function homeView(
       ? `<section><div class="sechead"><h2>${t('START_HERE', lang)}</h2></div>${guideLineHtml(companion, 'home.start_here', null)}<div class="hrow">${startHere
           .map((id) => catalog.courses.find((c) => c.id === id))
           .filter((c): c is CatalogCourse => !!c)
-          .map((c) => courseCard(c, teacherBySlug.get(c.teacher_slug), progress, lang))
+          .map((c) => courseCard(c, teacherBySlug.get(c.teacher_slug), progress, lang, leafMarkHtml(companion, c.id)))
           .join('')}</div></section>`
       : '';
 

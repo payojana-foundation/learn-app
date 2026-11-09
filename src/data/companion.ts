@@ -152,3 +152,45 @@ export function chooseSign(
   warn(`guide sign: unknown file name for ${courseId}; using default_sign`);
   return isSafeSignName(file.default_sign) ? file.default_sign : null;
 }
+
+// ── Buds (bulk-06) ───────────────────────────────────────────────────────────
+
+/** The part of a progress record the bud rule reads. */
+export interface ProgressLike {
+  courseId: string;
+  lessons?: Record<string, { done?: boolean }>;
+  updatedAt?: number;
+}
+
+/**
+ * Courses that are STARTED but not finished: in the catalogue, NO leaf, and at
+ * least one lesson with done === true (opening a lesson does not count).
+ * Derived from progress at render time; oldest `updatedAt` first (ties by id).
+ */
+export function startedCourseIds(
+  records: ProgressLike[],
+  catalogIds: Set<string>,
+  leafIds: Set<string>
+): string[] {
+  return records
+    .filter(
+      (r) =>
+        catalogIds.has(r.courseId) &&
+        !leafIds.has(r.courseId) &&
+        Object.values(r.lessons ?? {}).some((l) => l && l.done === true)
+    )
+    .sort((a, b) => (a.updatedAt ?? 0) - (b.updatedAt ?? 0) || a.courseId.localeCompare(b.courseId))
+    .map((r) => r.courseId);
+}
+
+/** Branch order: all leaves (by `at`), then buds (as given). */
+export function orderBranchItems(
+  leaves: { course_id: string; at: number }[],
+  budIds: string[]
+): { kind: 'leaf' | 'bud'; id: string }[] {
+  const ls = [...leaves].sort((a, b) => a.at - b.at || a.course_id.localeCompare(b.course_id));
+  return [
+    ...ls.map((l) => ({ kind: 'leaf' as const, id: l.course_id })),
+    ...budIds.map((id) => ({ kind: 'bud' as const, id })),
+  ];
+}

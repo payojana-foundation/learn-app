@@ -1,6 +1,6 @@
 import { describe, it, expect, beforeEach } from 'vitest';
 import { readFileSync, existsSync } from 'node:fs';
-import { guideLineHtml, branchPanelHtml, signHtml, type CompanionCtx } from '../../ui/companion';
+import { guideLineHtml, branchPanelHtml, branchesHtml, signHtml, type CompanionCtx } from '../../ui/companion';
 import { chooseSign, draftAllowed, guideLine, pathCourseIds } from '../../data/companion';
 import { homeView } from '../../ui/views';
 import {
@@ -59,6 +59,17 @@ describe('P-22 sign chosen from data', () => {
     for (const f of [g.default_sign, ...Object.values(g.course_signs)] as string[]) {
       expect(existsSync(`public/brand/companion/${f}`), f).toBe(true);
     }
+  });
+  it('the branch file has the leaf def bl and the bud def bb (bulk-06); no bb = no buds, no bl = no branch', () => {
+    const svg = readFileSync('public/brand/companion/branch-draft.svg', 'utf-8');
+    expect(svg).toMatch(/\sid="bl"/);
+    expect(svg).toMatch(/\sid="bb"/);
+    const noBud = { 'branch-draft.svg': svg.replace(/<path id="bb"[^>]*\/>/, '') };
+    const withBud = { 'branch-draft.svg': svg };
+    const visible = (h: string) => (h.match(/<[a-zA-Z][^>]*\sdata-slot="\d+"[^>]*>/g) ?? []).filter((t) => !t.includes('display="none"'));
+    expect(visible(branchesHtml(2, 3, withBud)).length).toBe(5);
+    expect(visible(branchesHtml(2, 3, noBud)).length).toBe(2); // buds hidden
+    expect(branchesHtml(2, 3, { 'branch-draft.svg': svg.replace(/<path id="bl"[^>]*\/>/, '') })).toBe(''); // no branch
   });
   it('the branch file still has slots 1..12 by data-slot', () => {
     const svg = readFileSync('public/brand/companion/branch-draft.svg', 'utf-8');

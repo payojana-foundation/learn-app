@@ -168,7 +168,10 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   `aliases.json`; the file is never rewritten), else `default_sign`. A name that
   is not a plain `.svg` file, or not in `public/brand/companion/`, falls back to
   `default_sign` with a console warning. Code depends only on the sign file names
-  and, in `branch-draft.svg`, on `data-slot="1..12"`. `chooseSign`,
+  and, in `branch-draft.svg`, on `data-slot="1..12"` and on the two def ids `bl`
+  (leaf) and `bb` (bud). A branch file without a `bb` def draws no buds (a slot
+  with a bud is hidden); a file without `bl` draws no branch (changed in bulk-06
+  P1, change protected: P-22). `chooseSign`,
   `src/data/companion.ts`; `signHtml`/`resolveSignFile`, `src/ui/companion.ts`.
   Contract: "P-22". [from part bulk-05 P1/P2]
 - **P-23** A leaf (IndexedDB store `leaves`, key `course_id`, DB version 2) is

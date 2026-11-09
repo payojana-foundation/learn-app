@@ -5,7 +5,8 @@
  * will replace under the same names. They are bundled as text at build time (so
  * they work offline with the app shell). This code depends on ONLY:
  *   - the sign file names (from guide-lines.json), and
- *   - in the branch file, elements with data-slot="1..12".
+ *   - in the branch file, elements with data-slot="1..12" and the two def ids
+ *     "bl" (leaf) and "bb" (bud). No bb = buds hidden; no bl = no branch.
  * Everything else in a file (titles, ids, roles, sizes) is replaced or ignored.
  *
  * Nothing here invents text: a guide line shows only if approved (or, in a DEV
@@ -29,6 +30,10 @@ export interface CompanionCtx {
   hasLeaf?: boolean;
   /** /my: number of leaves (used only to decide how many slots to show). */
   leafCount?: number;
+  /** /my: number of buds (started, unfinished classes), drawn after the leaves. */
+  budCount?: number;
+  /** Home: course ids that have a leaf (for the Start here leaf mark). */
+  leafIds?: Set<string>;
 }
 
 const RAW = import.meta.glob('../../public/brand/companion/*.svg', {
@@ -54,6 +59,7 @@ let uid = 0;
 export function prepareSvg(raw: string, suffix: string): string {
   let s = raw
     .replace(/<\?xml[\s\S]*?\?>/g, '')
+    .replace(/<!--[\s\S]*?-->/g, '')
     .replace(/<title[\s\S]*?<\/title>/g, '')
     .replace(/\srole="[^"]*"/g, '')
     .replace(/\saria-labelledby="[^"]*"/g, '')
@@ -124,17 +130,42 @@ export function guideLineHtml(c: CompanionCtx | undefined, key: string, courseId
  * The study branch for `leafCount` leaves: one branch per 12 leaves (13+ adds
  * a second branch below, and so on). 0 leaves = one bare branch. No numbers.
  */
-export function branchesHtml(leafCount: number, bundle: Record<string, string> = BUNDLE): string {
+export function branchesHtml(leafCount: number, budCount = 0, bundle: Record<string, string> = BUNDLE): string {
   const raw = bundle[BRANCH_FILE];
-  if (!raw) return '';
-  const count = Math.max(0, Math.floor(leafCount));
-  const n = Math.max(1, Math.ceil(count / 12));
+  // No leaf def (bl) = no branch at all. No bud def (bb) = buds are hidden.
+  if (!raw || !/\sid="bl"/.test(raw)) return '';
+  const leaves = Math.max(0, Math.floor(leafCount));
+  const buds = /\sid="bb"/.test(raw) ? Math.max(0, Math.floor(budCount)) : 0;
+  const total = leaves + buds;
+  const n = Math.max(1, Math.ceil(total / 12));
   let out = '';
   for (let k = 0; k < n; k++) {
-    const shown = Math.min(12, Math.max(0, count - 12 * k));
-    out += `<div class="branch" data-branch="${k}">${showSlots(prepareSvg(raw, `b${++uid}`), shown)}</div>`;
+    const shown = Math.min(12, Math.max(0, total - 12 * k)); // leaves first, then buds
+    const leavesHere = Math.min(shown, Math.max(0, leaves - 12 * k));
+    const suffix = `b${++uid}`;
+    const svg = showSlots(prepareSvg(raw, suffix), shown);
+    out += `<div class="branch" data-branch="${k}">${markBuds(svg, leavesHere, suffix)}</div>`;
   }
   return out;
+}
+
+/** PURE: slots after the first `leavesHere` draw the bud def instead of the leaf def. */
+export function markBuds(svg: string, leavesHere: number, suffix: string): string {
+  return svg.replace(/<[a-zA-Z][^>]*?\sdata-slot="(\d+)"[^>]*>/g, (tag, n: string) =>
+    Number(n) > leavesHere ? tag.replace(`#bl-${suffix}"`, `#bb-${suffix}"`) : tag
+  );
+}
+
+/**
+ * Start here leaf mark: the default sign (the leaf) at 16 px, aria-hidden, no
+ * text. '' unless this course has a leaf and the guide file names a usable
+ * default sign. Used on Start here row cards only.
+ */
+export function leafMarkHtml(c: CompanionCtx | undefined, courseId: string, bundle: Record<string, string> = BUNDLE): string {
+  if (!c || !c.leafIds?.has(courseId) || !c.guide) return '';
+  const def = isSafeSignName(c.guide.default_sign) ? c.guide.default_sign : null;
+  if (!def || !bundle[def]) return '';
+  return `<span class="gmark" data-sign="${esc(def)}" aria-hidden="true">${prepareSvg(bundle[def], `m${++uid}`)}</span>`;
 }
 
 /** The interface note under the branch, with {exportLabel} filled in. */
@@ -146,8 +177,10 @@ export function deviceNote(lang: Lang): string {
 export function branchPanelHtml(c: CompanionCtx | undefined): string {
   if (!c) return '';
   const count = c.leafCount ?? 0;
+  const buds = c.budCount ?? 0;
+  // The empty-branch line only for a truly bare branch: buds speak for themselves.
   return `<div class="branchp" role="group" aria-label="${esc(t('my.branch.label', c.lang))}">
-  <div class="branches" aria-hidden="true">${branchesHtml(count)}</div>
-  ${count === 0 ? guideLineHtml(c, 'my.branch.empty', null) : ''}
+  <div class="branches" aria-hidden="true">${branchesHtml(count, buds)}</div>
+  ${count === 0 && buds === 0 ? guideLineHtml(c, 'my.branch.empty', null) : ''}
   <p class="devnote">${esc(deviceNote(c.lang))}</p></div>`;
 }
