@@ -10313,5 +10313,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xZna_pPh3pCSdINQr37qY_riscMNUHSb",
+    "drive_name": "៤៧ បញ្ញិន្រ្ទិយចេតសិក ការដឹង.m4a",
+    "source_md5": "1433ebbcec8e415a8079d2a69bf82525",
+    "key": "audio/1433ebbcec8e415a-a64.mp3",
+    "bytes": 42517567,
+    "duration_s": 5314,
+    "sha256": "86cf4987113301c8058cb482717e8af7a3759417ab59174d4522ca6cf6b292b3",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -3,
+        "LRA": 0
+      },
+      "G": 10.100000000000001,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 6.1384569068518156,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
