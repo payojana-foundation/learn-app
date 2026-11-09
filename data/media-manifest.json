@@ -10748,5 +10748,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gxuZbekrgkUy2HzIVBrnLOI7cF82vZg_",
+    "drive_name": "៥៣ សង្គហន័យ ចែកមហគ្គតចិត្ត ២៧ និងមហាកុសល៨.m4a",
+    "source_md5": "94a6c02088efd331ae39e1b72ebf5133",
+    "key": "audio/94a6c02088efd331-a64.mp3",
+    "bytes": 39528532,
+    "duration_s": 4940,
+    "sha256": "e312c8c48e3bd27ca6971060c92c18af8965fd8c681b2ddc9811010b9397b926",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 6.799999999999997,
+      "limit": 0.6,
+      "depth": 10.236974992327124,
+      "busy": 5.422738312082575,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
