@@ -16722,5 +16722,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1b-jUHp4ip7a8rxyfFMyFP22xuyn1rBIo",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៤៣ វិបស្សនូបក្កិលេស ១០ យ៉ាង(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "01888fe589a0f43812b418094c011ea2",
+    "key": "audio/01888fe589a0f438-a64.mp3",
+    "bytes": 43768310,
+    "duration_s": 5470,
+    "sha256": "d2fb8247a60595ac5d083e0b275585b0e98cf911f01fc26f9088e89580956a59",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": 0.7,
+        "LRA": 0
+      },
+      "G": 6.8630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.464677389873881,
+      "out": {
+        "I": -18.9,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
