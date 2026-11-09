@@ -4774,5 +4774,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ia9icSLq2JUR02QcB9QmJB3PVuBwk7mR",
+    "drive_name": "០៣ ផស្សចេតសិក ការប៉ះខ្ទប់ឬពាល់ត្រូវ.m4a",
+    "source_md5": "b776d401be5f812e3f6d1958463e7569",
+    "key": "audio/b776d401be5f812e-a64.mp3",
+    "bytes": 40347105,
+    "duration_s": 5043,
+    "sha256": "86411bcdf3c4acbea16dff3e7f16523c0861903f81a821ee215fe9ec74302e58",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 7,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 7.257576809065403,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
