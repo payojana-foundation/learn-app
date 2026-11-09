@@ -15359,5 +15359,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1sBNV-BuAOF1RHrp0Fi6VnnLEOB2OiQ_4",
+    "drive_name": "៥២ រូបបវត្តិក្កមន័យទី៤ ចែករូបដោយកំណើត៣.mp3",
+    "source_md5": "c34e764c00379d5065a984426bdecd02",
+    "key": "audio/c34e764c00379d50-a64.mp3",
+    "bytes": 43440839,
+    "duration_s": 5430,
+    "sha256": "36c569a8cacdd5f29fec2302f2b8acd41279315ae58c4fb38f53c1dd42383a27",
+    "loudness": {
+      "pass1": {
+        "I": -27.7,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.407178571099713,
+      "out": {
+        "I": -18.4,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
