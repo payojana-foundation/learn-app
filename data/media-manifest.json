@@ -11299,5 +11299,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RMjVe2ahqkeJq8r8C1HFCBk2RxdwI_w1",
+    "drive_name": "៥៥ រម្លឹកមេរៀនបរិច្ឆេទទី៥ និងបញ្ចប់បរិច្ឆេទទី៣ភិក្ខុអគ្គចិត្តោ យ៉ុន យី_ បរិច្ឆេទទី៣.mp3",
+    "source_md5": "d500be5499fa749bfacfc16ea65636af",
+    "key": "audio/d500be5499fa749b-a64.mp3",
+    "bytes": 28042387,
+    "duration_s": 3505,
+    "sha256": "edba4f6eb35050a656287a01d1641259d5c8ecd1928901aaba3822faec04069c",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 9.600000000000001,
+      "limit": 0.6,
+      "depth": 9.63697499232713,
+      "busy": 4.609157692033379,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
