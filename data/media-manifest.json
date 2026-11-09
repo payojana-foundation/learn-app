@@ -9472,5 +9472,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vjXom72TQk93rCcYPfLrn1SbR01eNMIj",
+    "drive_name": "៤៩ តទាលម្ពណនិយម អារម្មណ៍ ៣ យ៉ាងរបស់តទា ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "36747e94f6d2663d01097e9d91de3e90",
+    "key": "audio/36747e94f6d2663d-a64.mp3",
+    "bytes": 35649453,
+    "duration_s": 4456,
+    "sha256": "172b89ff8622ff6990f7b202aff9e9691c0a100e4db253935b50a29d95ce84ac",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 5.199999999999999,
+      "limit": 0.6,
+      "depth": 9.536974992327128,
+      "busy": 5.350751209003287,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
