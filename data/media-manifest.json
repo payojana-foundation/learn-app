@@ -17737,5 +17737,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zbMdyuOpeFErmx17SdsB6x3MUGV5jTet",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៥៥ បញ្ចារម្មណ៍ រូបារម្មណ៍ដល់ធម្មារម្មណ៍.mp3",
+    "source_md5": "c7a8fd9b45be4fffd57be5ffb6a7c550",
+    "key": "audio/c7a8fd9b45be4fff-a64.mp3",
+    "bytes": 41335370,
+    "duration_s": 5166,
+    "sha256": "588cb2e844a57f2831d8a78587acb4d0e6d8cb9f5e2a6636ccd9f3359138c294",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "G": 8.5,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 6.544785074222454,
+      "out": {
+        "I": -18.2,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
