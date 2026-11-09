@@ -5731,5 +5731,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ev7v42mtoOX7W397qUdpNU4Cyf-Y28gF",
+    "drive_name": "០៦ វេទនាសង្គហៈ ចែកវេទនា៣.mp3",
+    "source_md5": "eca8b859d7a2ab5f504bd2d838cac104",
+    "key": "audio/eca8b859d7a2ab5f-a64.mp3",
+    "bytes": 37877176,
+    "duration_s": 4734,
+    "sha256": "49be8b68d4f15b34dad5b01ec11aa183adfc805572fcd62cd045c0373dd1c60b",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "G": 3,
+      "limit": 0.6,
+      "depth": 4.6369749923271275,
+      "busy": 5.02761584927977,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
