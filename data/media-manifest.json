@@ -4542,5 +4542,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1v45Q6qK-3R-w99kRrYNnyvGdW4Lvu6nu",
+    "drive_name": "០១ ចេតសិកមានអត្ថ៤យ៉ាង.m4a",
+    "source_md5": "d3c22e13ae722e99626d1f56fbc520ae",
+    "key": "audio/d3c22e13ae722e99-a64.mp3",
+    "bytes": 28730975,
+    "duration_s": 3591,
+    "sha256": "a973c6cc9e64a95033deef8837249624f63ba0fa6baa1bf3ba90c76cda899a1e",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.899999999999999,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 7.036003174293789,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
