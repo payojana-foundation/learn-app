@@ -10139,5 +10139,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DBZiaXsU7ScuDHPGvbOE5n9x5ZnzvTUa",
+    "drive_name": "៤១ អារម្មណសង្គហ ចិត្តដឹងនូវកាមារម្មណ៍.mp3",
+    "source_md5": "607123acc19783ab409a78f835ac2366",
+    "key": "audio/607123acc19783ab-a64.mp3",
+    "bytes": 43249205,
+    "duration_s": 5406,
+    "sha256": "22bee18361cbd510e2f544c5f807d2bb84dfd0203f28ed544a1f4bcc63723f4d",
+    "loudness": {
+      "pass1": {
+        "I": -22.6,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 6.436974992327128,
+      "busy": 5.128465992120012,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
