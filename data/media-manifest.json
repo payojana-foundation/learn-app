@@ -17563,5 +17563,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SkL4f_Y0OGYmlxLX9NQ089qKi-b6WMJC",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៥៤ មរណាសន្នវិថី តាមនោទ្វារប្រភេទទី១ដល់ទី៣(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "cac6f8eef2ed6b9ab8c9455393e75ed5",
+    "key": "audio/cac6f8eef2ed6b9a-a64.mp3",
+    "bytes": 43566018,
+    "duration_s": 5445,
+    "sha256": "99d92ceb71327aa5e40f0cd6ef56acab885b45b584326a5e093603d20f25deac",
+    "loudness": {
+      "pass1": {
+        "I": -23.5,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.900000000000002,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 5.284674146574361,
+      "out": {
+        "I": -18.1,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
