@@ -3817,5 +3817,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1osPWSGy4rmjcaq8oE-_WTSW_yRlPT1y0",
+    "drive_name": "បិដកលេខ១៦ 11 ពន្យល់បដិច្ចសមុប្បាទអាការ ១២​ .mp3",
+    "source_md5": "d03708339c157cba8963a30c3db68b88",
+    "key": "audio/d03708339c157cba-a64.mp3",
+    "bytes": 25856669,
+    "duration_s": 3232,
+    "sha256": "236f65ada3b9616f7750ddf06625ee5367cb492617266e2786e505b155b9c44f",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -12.2,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 1.1369749923271266,
+      "busy": 0.004254265868411689,
+      "out": {
+        "I": -18,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
