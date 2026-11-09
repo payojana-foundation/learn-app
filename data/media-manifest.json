@@ -10284,5 +10284,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zjHdfGxTW07OdvA0pL6MP6sP4H1LoTYY",
+    "drive_name": "54.៥៤ ទ្រង់ព្រះនាមថា ពុទ្ធោ ភគវា.mp3",
+    "source_md5": "3253d612585d1890a3480cfe00a795b0",
+    "key": "audio/3253d612585d1890-a64.mp3",
+    "bytes": 37665479,
+    "duration_s": 4708,
+    "sha256": "6bd836c1e60884f20509b0c5c6caf9b1b6f495c62d77afe35f66f45a9fa69a59",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 3.599999999999998,
+      "limit": 0.6,
+      "depth": 8.036974992327124,
+      "busy": 4.419729617790427,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
