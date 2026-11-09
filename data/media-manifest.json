@@ -16432,5 +16432,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wg10087cDsVnWFUQODmin_tediTa10iT",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៤០ អារម្មណសង្គហ ចែកមនោទ្វារិកចិត្ត ៦៧ ដោយអារម្មណ៍.mp3",
+    "source_md5": "3a901dccdcdb8fd094dcd9d6d7ecfff8",
+    "key": "audio/3a901dccdcdb8fd0-a64.mp3",
+    "bytes": 43406567,
+    "duration_s": 5425,
+    "sha256": "723fc41fc3d42ca78b68c22fc3276d48bae2355de47df8f6605b2a5c4a14d090",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 9.900000000000002,
+      "limit": 0.6,
+      "depth": 11.03697499232713,
+      "busy": 5.575675476427439,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
