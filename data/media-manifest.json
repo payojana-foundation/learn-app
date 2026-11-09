@@ -12459,5 +12459,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XAwkRZEGSJtJiZpAPROwIkPA4gDRyBXM",
+    "drive_name": "១៤ ចក្ខុបសាទរូប បញ្ញាចក្ខុ ៥ យ៉ាង និងចក្ខុចែកជា១៣ យ៉ាង.mp3",
+    "source_md5": "a4ccb9b5805e559bfb4257bcecfef829",
+    "key": "audio/a4ccb9b5805e559b-a64.mp3",
+    "bytes": 21164451,
+    "duration_s": 2645,
+    "sha256": "47c87cf8f45cf7affde71d504b23638040320a6d351d1739601e6d3718d051c7",
+    "loudness": {
+      "pass1": {
+        "I": -24.6,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 8.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.266773766773767,
+      "out": {
+        "I": -18.4,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
