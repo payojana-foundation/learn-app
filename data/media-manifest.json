@@ -17679,5 +17679,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1C-V8zJmp0o2HJjS475cYedqdTF5zJvnF",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៥៦ មរណាសន្នវិថី បរិនិព្វានវិថីរបស់ព្រះអរហន្ត(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "219d92f6c4bcfb72f0faf8216c7e0529",
+    "key": "audio/219d92f6c4bcfb72-a64.mp3",
+    "bytes": 42778583,
+    "duration_s": 5347,
+    "sha256": "3ecd24e2a4563ca2d278af7b4c59175da4f5d3e4b7278ae6f9f9cb68a4c1d6a7",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 7.563025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.32741757522488,
+      "out": {
+        "I": -19,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
