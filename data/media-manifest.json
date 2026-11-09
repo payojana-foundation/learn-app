@@ -16461,5 +16461,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1g0OLzx3sqIVfHqMebpN5FpxSxVHCtS0P",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៤០ សុបិនមនោទ្វារវិថីមាន ១២ ប្រភេទ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "e3d050379dedaf13a2ae9722cc0b8184",
+    "key": "audio/e3d050379dedaf13-a64.mp3",
+    "bytes": 42897910,
+    "duration_s": 5362,
+    "sha256": "cf76eda4d7ba54c33942a3ac257e67414ab780fe50fc9a3c92bb0cf62f81898c",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.2,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 5.268126888217522,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
