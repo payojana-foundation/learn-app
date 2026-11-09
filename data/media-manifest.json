@@ -16838,5 +16838,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_CoeKeoBE1Iq42KyPiM5iqC0nAcqQgG6",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 56 ផលសមាបត្តិ និងនិរោធសមាបត្តិ.mp3",
+    "source_md5": "e4ff6b4d3dafda834e2a76d78e704c3e",
+    "key": "audio/e4ff6b4d3dafda83-a64.mp3",
+    "bytes": 44304552,
+    "duration_s": 5538,
+    "sha256": "ba79c610f208979b7453d089cb62dbc0a6e353dc7f1aaac0eb2cdc40bb69d843",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": -6.2,
+        "LRA": 0
+      },
+      "G": 2.3000000000000007,
+      "limit": 0.6,
+      "depth": 0.5369749923271279,
+      "busy": 0.0011285560802087378,
+      "out": {
+        "I": -18,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
