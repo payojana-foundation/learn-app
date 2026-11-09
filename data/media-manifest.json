@@ -13909,5 +13909,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kQtHIEFaJ4esnEPFLX84Ls8cB0wwT22u",
+    "drive_name": "៣៣ ចែករូបជាឯកវិធន័យចប់ចូលអជ្ឈត្តិក និងពហិទ្ធរូប.mp3",
+    "source_md5": "cc43641bdf8a3a4033f40e2664054904",
+    "key": "audio/cc43641bdf8a3a40-a64.mp3",
+    "bytes": 36786093,
+    "duration_s": 4598,
+    "sha256": "4b66529069af8bc6fc941606f0413d74e09583021f33fd229ea57f95c481f0ab",
+    "loudness": {
+      "pass1": {
+        "I": -29.9,
+        "TP": -6.8,
+        "LRA": 0
+      },
+      "G": 13.7,
+      "limit": 0.6,
+      "depth": 11.336974992327127,
+      "busy": 5.645959288417207,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
