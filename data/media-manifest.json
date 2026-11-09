@@ -15330,5 +15330,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GoPJjuDK9vcxUiMH4B3RJp2dpKUXMk5u",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៣០ ស្ថានរបស់ចិត្ត ភវង្គស្ថាន អាវជ្ជនស្ថាន.mp3",
+    "source_md5": "b1c37160ee9ff330fe4324e4cdc0d4a0",
+    "key": "audio/b1c37160ee9ff330-a64.mp3",
+    "bytes": 42231056,
+    "duration_s": 5278,
+    "sha256": "d1051209b2f5658896412d26ac381865881c373f290cec9c84e716316ed4288f",
+    "loudness": {
+      "pass1": {
+        "I": -26.2,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 5.809030375934152,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
