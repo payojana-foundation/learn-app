@@ -3469,5 +3469,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IViUcmoIOwTRYhTipacaFFUmzp5DzcxM",
+    "drive_name": "បិដកលេខ១៦ 02 បុព្វេនិវាសរបស់ព្រះពុទ្ធ .mp3",
+    "source_md5": "08dc7ee3249ad3cf6e770a28168434fd",
+    "key": "audio/08dc7ee3249ad3cf-a64.mp3",
+    "bytes": 40655559,
+    "duration_s": 5081,
+    "sha256": "54955a96b9c96d281f2b311447e38b88b79e4f1b401e392f2dbc409d32d9758a",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 5.5000000000000036,
+      "limit": 0.6,
+      "depth": 9.336974992327132,
+      "busy": 3.182864676597336,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
