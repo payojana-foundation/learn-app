@@ -10226,5 +10226,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "127Lv8I5vrgdsC9fzcQWgqYsoyWrvLCaj",
+    "drive_name": "៤៦ មេត្តា ឧបេក្ខា និងបញ្ញិន្រ្ទិយចេតសិក.m4a",
+    "source_md5": "1add842e903e7fc60b40b35da7b05f8b",
+    "key": "audio/1add842e903e7fc6-a64.mp3",
+    "bytes": 41610178,
+    "duration_s": 5201,
+    "sha256": "7bfdf2ba5eff139f517f48064f2c39330bc227601dcee0b70b649f703a2a5273",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 10.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.9831771208844025,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
