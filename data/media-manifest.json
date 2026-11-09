@@ -7355,5 +7355,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HHW7Wkp6K2miXNKF06mUFHlFP4RRJASl",
+    "drive_name": "២១ លោភចេតសិក ការជាប់ជំពាក.m4a",
+    "source_md5": "88a2b3da0c9e618ed70f298f473bf86b",
+    "key": "audio/88a2b3da0c9e618e-a64.mp3",
+    "bytes": 36791109,
+    "duration_s": 4598,
+    "sha256": "dfd2c64de98b456ad30a5569c6a0df4fecea313d0856b9459cf7e37c746da6f0",
+    "loudness": {
+      "pass1": {
+        "I": -20.1,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 4.100000000000001,
+      "limit": 0.6,
+      "depth": 8.63697499232713,
+      "busy": 6.855790034465138,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
