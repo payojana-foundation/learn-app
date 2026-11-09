@@ -7442,5 +7442,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Flbn8DtUPXOVpXbh4AUCdCyjpnfn5oqV",
+    "drive_name": "28.២៨ ហេតុនាំឱ្យកើតសោមនស្ស និងឧបេក្ខាលោភ.mp3",
+    "source_md5": "e63f06daf5fbef9981bb19e2c2bd1224",
+    "key": "audio/e63f06daf5fbef99-a64.mp3",
+    "bytes": 31750312,
+    "duration_s": 3968,
+    "sha256": "c09659c60ff722c9d8558fc25ddf435373e25c5fed7e76cf07b126f6bb5060c5",
+    "loudness": {
+      "pass1": {
+        "I": -22.2,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 6.300000000000001,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 5.667086614173228,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
