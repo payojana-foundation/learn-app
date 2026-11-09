@@ -15011,5 +15011,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1OntmRI3lYQ4yQhvCEh_Ig-bZf8Qz3zEG",
+    "drive_name": "៤៧ រូបកលាបន័យទី៣ ចែកសសម្ភា៤២ ជារូបកលាប.mp3",
+    "source_md5": "eb603b34dac3e4b5f8c34b9debd73b45",
+    "key": "audio/eb603b34dac3e4b5-a64.mp3",
+    "bytes": 41634420,
+    "duration_s": 5204,
+    "sha256": "5fe98e1b836ff6e31e088e08d57c1cfee7490866236f1bf68409b8539c014b25",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.400000000000002,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 6.251381082768891,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
