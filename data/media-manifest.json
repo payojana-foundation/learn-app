@@ -8486,5 +8486,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Anp6aFFOHnm04kG3IqPqblrQ5WWksDF3",
+    "drive_name": "៤០ អប្បនាជវនវារៈ អភិញ្ញា លោកិយអភិញ្ញាមានទិព្វចក្ខុជាដើម  ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "79a3607c6c3fe0afa89df2806aa5843f",
+    "key": "audio/79a3607c6c3fe0af-a64.mp3",
+    "bytes": 41257838,
+    "duration_s": 5157,
+    "sha256": "79d875080bc7d5ff55b90be9dfe5da89dde23f5d86f45bdc2697a23686e8eeae",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 5.199999999999999,
+      "limit": 0.6,
+      "depth": 8.936974992327126,
+      "busy": 6.0582777476149845,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
