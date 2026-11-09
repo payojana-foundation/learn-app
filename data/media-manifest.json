@@ -16142,5 +16142,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1y9F0idIsoH8rJV4nOjAk2OFI4qaxxv_g",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៣៧ ទ្វារសង្គហៈ ចែកទ្វារិកចេតសិក និងទ្វារវិមុត្តចេតសិក.mp3",
+    "source_md5": "1686cd3a2d7c3fcf8a9c6ae57b4d2dd8",
+    "key": "audio/1686cd3a2d7c3fcf-a64.mp3",
+    "bytes": 42349757,
+    "duration_s": 5293,
+    "sha256": "22285194343bd0946dd4279449f53dab038b8abea07847b1a043838ca9f5bb4a",
+    "loudness": {
+      "pass1": {
+        "I": -25.4,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "G": 9.600000000000001,
+      "limit": 0.6,
+      "depth": 10.93697499232713,
+      "busy": 4.962030337948883,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
