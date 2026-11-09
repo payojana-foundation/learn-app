@@ -5905,5 +5905,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "102LjGS4R83Mnu_IQrR-wB-KRwSV_Hn4R",
+    "drive_name": "០៧ វេទនាសង្គហៈ ចែកវេទនា៦ យ៉ាងបន្ត.mp3",
+    "source_md5": "eb62fc018cf12a25c6d3c426c0455ca3",
+    "key": "audio/eb62fc018cf12a25-a64.mp3",
+    "bytes": 38842034,
+    "duration_s": 4855,
+    "sha256": "ded862142cba9b6220c8277d7308d8f33ad7f17d9a91b4e8ee19483c278206d5",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 10.936974992327126,
+      "busy": 5.1383053221288515,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
