@@ -14431,5 +14431,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1eAk9lUOadzprEuhJvv-Pu4QZOiMJtJq-",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ២៣ ចែកវីថចិត្តសង្រ្គោះតាមបកិណ្ណកសង្គហ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "6b4b5f82911983eb52a501b02b6f7fad",
+    "key": "audio/6b4b5f82911983eb-a64.mp3",
+    "bytes": 43633309,
+    "duration_s": 5454,
+    "sha256": "505a82275cd1582587c08cba0a9617bcab7ac2cbc050f2e8f4a19c22a9919807",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.1478751964593705,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 5.256547766379729,
+      "out": {
+        "I": -18.8,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
