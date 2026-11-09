@@ -11966,5 +11966,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VnoRWOwQ2OU8Rex-KWgqDZ7C_O7Dup9L",
+    "drive_name": "74.៧៤ បាណាតិបាត ការប្រើសម្លាប់៦ យ៉ាង.mp3",
+    "source_md5": "5aa47ed2f2aa3cac9881b58d791d5a58",
+    "key": "audio/5aa47ed2f2aa3cac-a64.mp3",
+    "bytes": 37556810,
+    "duration_s": 4694,
+    "sha256": "1dee089595843233d9a280ab4f164c36881364ed868d640c9cdbba805e2e8b8f",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 2.8999999999999986,
+      "limit": 0.6,
+      "depth": 7.536974992327126,
+      "busy": 4.187302297344793,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
