@@ -6050,5 +6050,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Mzzc7E836REubuYQnndmGeYRqMAiTCE2",
+    "drive_name": "១១ មនសិការចេតសិក ចែកជា៣យ៉ាង.m4a",
+    "source_md5": "e866f85cf717f72be4a93514c8d0404f",
+    "key": "audio/e866f85cf717f72b-a64.mp3",
+    "bytes": 36289140,
+    "duration_s": 4536,
+    "sha256": "641b2815ef2242f64d2fee07ef8cb3b96b7833f03dddc5f277013127cced093a",
+    "loudness": {
+      "pass1": {
+        "I": -18,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 2,
+      "limit": 0.6,
+      "depth": 6.6369749923271275,
+      "busy": 6.356506690769604,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
