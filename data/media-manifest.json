@@ -11154,5 +11154,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1u6r_PFbMRxX71KV5LEqEfra9ntppb_xr",
+    "drive_name": "៥២ អារម្មណសង្គហ ចេតសិក៥២ដឹងអជ្ឈត្តដល់ធម្មារម្មណ៍ ភិក្ខុអគ្គចិត្តោ យ៉ុន បរិច្ឆេទទី៣.mp3",
+    "source_md5": "95642981e2df83c28f41bfb97511cf1d",
+    "key": "audio/95642981e2df83c2-a64.mp3",
+    "bytes": 38751337,
+    "duration_s": 4843,
+    "sha256": "fcb644e768ddec5485d6940413b2d9ea1eecf5d047a2b32f3450d75effdd51b1",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.724031503865727,
+      "out": {
+        "I": -18.9,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
