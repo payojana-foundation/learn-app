@@ -7993,5 +7993,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10uYlATFbbRYM6a_CaYErnikM8nwu1gSv",
+    "drive_name": "៣៥ សុបិនមនោទ្វារវិថីមាន ១២ ប្រភេទ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "0b430b241c71f5a012093401bef32b3a",
+    "key": "audio/0b430b241c71f5a0-a64.mp3",
+    "bytes": 38737545,
+    "duration_s": 4842,
+    "sha256": "87b30ce6e2961a538e1ea95e3a3449b90312ca398d84b2e0949312b7d4c25ce2",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 8.536974992327128,
+      "busy": 6.068327086108444,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
