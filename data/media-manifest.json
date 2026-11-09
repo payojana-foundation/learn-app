@@ -10864,5 +10864,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RMSx6lBTlAzQ_DmWcNjybVzsiLosQvg-",
+    "drive_name": "៤៩ អារម្មណសង្គហ ចិត្តទទួលអារម្មណ៍តិចនិងច្រើន.mp3",
+    "source_md5": "7709e6edff4faa163a5e5735eb32a679",
+    "key": "audio/7709e6edff4faa16-a64.mp3",
+    "bytes": 38103709,
+    "duration_s": 4762,
+    "sha256": "04c6bbbe298bf2e7001d61e09688ab69271377770fa47afe9b941efa60a13777",
+    "loudness": {
+      "pass1": {
+        "I": -19.2,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 2.3000000000000007,
+      "limit": 0.6,
+      "depth": 6.436974992327128,
+      "busy": 5.572760293098742,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
