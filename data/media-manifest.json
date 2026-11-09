@@ -6601,5 +6601,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wBQmL3QmpPOxzXdxMDCeqI7v8SY-uW8V",
+    "drive_name": "១៥ អធិមោក្ខចេតសិក វីរិយាចេតសិក.m4a",
+    "source_md5": "2d2984512b7ea1d0477168219b1ce926",
+    "key": "audio/2d2984512b7ea1d0-a64.mp3",
+    "bytes": 39311820,
+    "duration_s": 4913,
+    "sha256": "224a6175f0f77dec1379116a5df458954ecbea765a66a2df853ab66b16355b26",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 9.63697499232713,
+      "busy": 5.711095056879464,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
