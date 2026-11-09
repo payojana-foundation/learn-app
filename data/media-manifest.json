@@ -8892,5 +8892,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SMGrcrh9LfL9gnunBWxrLWSQcKwF2ncI",
+    "drive_name": "៤៤,_មរណាសន្នវិថី_ការស្លាប់ដោយហេតុ៤_យ៉ាង_ភិក្ខុអគ្គចិត្តោ_យ៉ុន_យី​.mp3",
+    "source_md5": "a832783d63f856baf79a5a6441299320",
+    "key": "audio/a832783d63f856ba-a64.mp3",
+    "bytes": 35224180,
+    "duration_s": 4402,
+    "sha256": "4d594693df6ea7dceaf976233f6353f8568c8d8dfadaac599dbd3de3bb206a62",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 4.799999999999997,
+      "limit": 0.6,
+      "depth": 8.636974992327126,
+      "busy": 6.426584147172383,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
