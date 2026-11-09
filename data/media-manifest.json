@@ -7036,5 +7036,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kN2gbnknRCAeSNI4Wv6_FCaE2Eg7XCl8",
+    "drive_name": "25.២៥ ហេតុនាំឱ្យលោភកើតមាន ៤.mp3",
+    "source_md5": "3f38c9ae05de3660f761920734e45a30",
+    "key": "audio/3f38c9ae05de3660-a64.mp3",
+    "bytes": 31656898,
+    "duration_s": 3957,
+    "sha256": "fc768fb7668eec349ed3b029ae895d1990745c6f6bc10a3fbe94b81916bd40c3",
+    "loudness": {
+      "pass1": {
+        "I": -20.9,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 5.5,
+      "limit": 0.6,
+      "depth": 9.736974992327127,
+      "busy": 6.389780394733517,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
