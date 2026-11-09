@@ -7065,5 +7065,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kiNngmni50aOcXDY33t0omyGLtaNBXVn",
+    "drive_name": "២៧ អតិវិភូតារម្មណ៍មាន៣៦ ប្រភេទបញ្ចប់  ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "bc6825174d03c45d70bd24d70b92a515",
+    "key": "audio/bc6825174d03c45d-a64.mp3",
+    "bytes": 35792813,
+    "duration_s": 4474,
+    "sha256": "44e33f530435e7445105b539b7f9042e3b8e2fea84211f1a2b95fbb0f33add06",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 9.236974992327127,
+      "busy": 6.156334864384618,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
