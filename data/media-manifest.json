@@ -11589,5 +11589,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pQm7o5iwyGrUSSY-ae46a-OsWwsMdZIE",
+    "drive_name": "០៤ មហាភូត ដោយហេតុ ៥ យ៉ាង.mp3",
+    "source_md5": "8b2382daee5b082998e90d12130d125d",
+    "key": "audio/8b2382daee5b0829-a64.mp3",
+    "bytes": 40499243,
+    "duration_s": 5062,
+    "sha256": "cc429bce7d5e388dc3181f88988c167d847139cbb76b4e5b70c77fc5697ce5b2",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "G": 8.399999999999999,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 6.5466137268264735,
+      "out": {
+        "I": -18.1,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
