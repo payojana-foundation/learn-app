@@ -13010,5 +13010,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qS_cWMqXk2_9SxdSAS5A2Kja0klNt1KU",
+    "drive_name": "២២ ជីវិតរូប ការអនុបាលនូវសហជាតរូបឱ្យតាំងនៅ.mp3",
+    "source_md5": "8244a6abfcbd7bc2e19070f2bde7baa1",
+    "key": "audio/8244a6abfcbd7bc2-a64.mp3",
+    "bytes": 45047683,
+    "duration_s": 5630,
+    "sha256": "f7d58e0ae29fb61be40818a6d211dae962d9c09c43e72c761b0bac9f9ad91c78",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 8.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.710294979488181,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
