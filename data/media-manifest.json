@@ -12517,5 +12517,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jAauE4TVWTjrToQRoUMnOEGDB9vxOoc6",
+    "drive_name": "80.៨០ បញ្ចប់អវហារ ការលួច២៥.mp3",
+    "source_md5": "07afa7a6fe1ae90987e9852642d52ba3",
+    "key": "audio/07afa7a6fe1ae909-a64.mp3",
+    "bytes": 17969571,
+    "duration_s": 2246,
+    "sha256": "7366269fed143e9bbb0754b91570060d8ed4373daca32d54c8db12b47ec7c0b4",
+    "loudness": {
+      "pass1": {
+        "I": -21.9,
+        "TP": 0.6,
+        "LRA": 0
+      },
+      "G": 5.899999999999999,
+      "limit": 0.6,
+      "depth": 10.936974992327126,
+      "busy": 4.408654809340427,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
