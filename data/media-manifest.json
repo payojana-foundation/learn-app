@@ -3962,5 +3962,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rU0Np04TI1c-xDb0M25w9RmS1G9uJTSq",
+    "drive_name": "បិដកលេខ១៦ 14 ការព្រមព្រៀងគ្នាអ្នកដែនវជ្ជី មហាបរិនិព្វានសូត្រ.mp3",
+    "source_md5": "625b999b675fc25fa02aeb911d35719d",
+    "key": "audio/625b999b675fc25f-a64.mp3",
+    "bytes": 40959416,
+    "duration_s": 5119,
+    "sha256": "602925b127e5059140ca7d14b3fa6956f5f5f3456745eec4ffc87d0dcf5a19b8",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -10.9,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 2.4369749923271256,
+      "busy": 0.016846032149065413,
+      "out": {
+        "I": -18,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
