@@ -16519,5 +16519,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10vj_1X8M8O8wBHFF190Rtc4AVEnw84fC",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៤១ បញ្ចប់សុបិនមនោទ្វារចូលអប្បនាវិថី(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "625822a66ffef8f299cbd61d3d67d8e7",
+    "key": "audio/625822a66ffef8f2-a64.mp3",
+    "bytes": 42560199,
+    "duration_s": 5319,
+    "sha256": "90d8bde738f7c9ee35384b9e1a8fd5697e6136916bd3eb79ff106a08320a6c9f",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.6268796992481205,
+      "out": {
+        "I": -19,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
