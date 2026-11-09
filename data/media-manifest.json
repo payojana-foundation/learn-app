@@ -17650,5 +17650,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UJL340vKBhdIXSTXPmaLfwdQayfNJpO4",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៥៣ បរមត្ថារម្មណ៍ និងអជ្ឈត្តារម្មណ៍.mp3",
+    "source_md5": "a2376ce2aa4acbf5606e7189a4d07ea1",
+    "key": "audio/a2376ce2aa4acbf5-a64.mp3",
+    "bytes": 44727945,
+    "duration_s": 5590,
+    "sha256": "9d2ced816832867844388cbeadd6f953f84edb3cb2518a96e90110a0905044e8",
+    "loudness": {
+      "pass1": {
+        "I": -26.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 10.899999999999999,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 5.804246147792415,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
