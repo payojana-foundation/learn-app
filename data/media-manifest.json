@@ -15591,5 +15591,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yJo4sy4e0DCe3ckb1bIrPssDZI_Vu47v",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៣១ សុទ្ធមនោទ្វារ ជវនវារៈ ២៧ ប្រភេទមានអតីតភវង្គ (ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "32d18d21a5ab28b5fd1589c4494b434a",
+    "key": "audio/32d18d21a5ab28b5-a64.mp3",
+    "bytes": 44588346,
+    "duration_s": 5573,
+    "sha256": "f633fd8359dbae42ffeb07a3bbe9c597bed5f9be22ae7abeea8c7d0add2491aa",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 8.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.04916120929398,
+      "out": {
+        "I": -18.3,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
