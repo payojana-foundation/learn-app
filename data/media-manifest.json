@@ -13184,5 +13184,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tmxe2Sx6BYTH_1-ynTnnyyO-BCC2dKMu",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ១៤ ហេតុសង្គហៈ និយមន័យហេតុ.mp3",
+    "source_md5": "4a4bc94d86b2890d745a53060b3a2efb",
+    "key": "audio/4a4bc94d86b2890d-a64.mp3",
+    "bytes": 44214900,
+    "duration_s": 5526,
+    "sha256": "94f949a15428296e695ba44a93ba11ab8eecbc593b1e469b7e379bccae17c5a4",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 6.299999999999997,
+      "limit": 0.6,
+      "depth": 10.536974992327124,
+      "busy": 5.607172259062576,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
