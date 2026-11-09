@@ -9791,5 +9791,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19XO5wqVOF5oQJlDI0MnPntO7arBxI4FQ",
+    "drive_name": "៤១ តត្រមជ្ឈត្តតាចេតសិក និងយុគលធម៌៣គូ.m4a",
+    "source_md5": "20f5dd04c3e59a4caac08c52e52dda2a",
+    "key": "audio/20f5dd04c3e59a4c-a64.mp3",
+    "bytes": 41419171,
+    "duration_s": 5177,
+    "sha256": "23b5d00187362bae9e5381597c274a350182a20d1cb786ba843026cedbcda429",
+    "loudness": {
+      "pass1": {
+        "I": -27.4,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "G": 10.663025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.001352043033599,
+      "out": {
+        "I": -18.8,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
