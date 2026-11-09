@@ -10371,5 +10371,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1739lFguJJnSW0KO-ixAEoszjY-ttLs0y",
+    "drive_name": "55.៥៥ ធម្មគុណ ស្វាក្ខតោ ភគវតា ធម្មោ.mp3",
+    "source_md5": "e508ac8d878283ffc695c4f2eb46b138",
+    "key": "audio/e508ac8d878283ff-a64.mp3",
+    "bytes": 38201512,
+    "duration_s": 4775,
+    "sha256": "769f665a9cd26ff1ffb476471e7b6baf496c0a6f11f30bd2e214019b248510c6",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.100000000000001,
+      "limit": 0.6,
+      "depth": 11.036974992327128,
+      "busy": 4.629435724532214,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
