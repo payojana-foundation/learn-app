@@ -6398,5 +6398,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11wlyWnSZ0xqg3V3ZwTJPmUedI49EbkGL",
+    "drive_name": "១០ វេទនាសង្គហៈ ចែកវេទនាដោយអារម្មណានុភវលក្ខណន័យ.mp3",
+    "source_md5": "4fbb6ba3f2f3afc63d53fab310e3f5de",
+    "key": "audio/4fbb6ba3f2f3afc6-a64.mp3",
+    "bytes": 40269156,
+    "duration_s": 5033,
+    "sha256": "72de2f4971e209a4b7742958b8f7e61964a6912bea2b7d7555104413ecb1089b",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 10.336974992327129,
+      "busy": 4.567556023521933,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
