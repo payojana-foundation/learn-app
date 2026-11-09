@@ -10023,5 +10023,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Z9QSTcs7q7cQLi4IYVqSvk5W8DixevYX",
+    "drive_name": "51.៥១ ព្រះនាមថាលោកវិទូ ជ្រាបច្បាស់នូវត្រៃលោក.mp3",
+    "source_md5": "53c02d6d5913db023a5e1c858b6ad8f0",
+    "key": "audio/53c02d6d5913db02-a64.mp3",
+    "bytes": 38307883,
+    "duration_s": 4788,
+    "sha256": "93be6cabeec7f6211b4e8b5afcc4f44bf363c9b9e453c3b7137b5e16f64d2f9d",
+    "loudness": {
+      "pass1": {
+        "I": -18.8,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 2.3999999999999986,
+      "limit": 0.6,
+      "depth": 6.836974992327126,
+      "busy": 4.267560484081487,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
