@@ -5992,5 +5992,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14PwvRUYz3-V3jaNpBDy9IJj5iGfYpn2a",
+    "drive_name": "17.១៧ ពន្យល់លោភមូលចិត្តដួងទី១ទី២.mp3",
+    "source_md5": "22a5dee144cc03febac1a7a7b78aa01f",
+    "key": "audio/22a5dee144cc03fe-a64.mp3",
+    "bytes": 33642622,
+    "duration_s": 4205,
+    "sha256": "01f694869904b570478898b3d1cbfd98ff5328f5bd722161ac2111211937605d",
+    "loudness": {
+      "pass1": {
+        "I": -22.6,
+        "TP": 1.6,
+        "LRA": 0
+      },
+      "G": 5.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.6974175445271444,
+      "out": {
+        "I": -18.3,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
