@@ -15736,5 +15736,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EjjgtUWqyr0gRbql_1HKSGUt5lsgtMnd",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៣៣ ទ្វារសង្គហៈ បញ្ចទ្វារិក ដល់ទ្វារវិមុត្តសព្វថា.mp3",
+    "source_md5": "3410d4a9cc4cfc8318be9623d7380704",
+    "key": "audio/3410d4a9cc4cfc83-a64.mp3",
+    "bytes": 44222423,
+    "duration_s": 5527,
+    "sha256": "066e28c0861e08e47f45d7db108c5e7b2a74189e333a40e041d2596a06abfc2a",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 10.299999999999997,
+      "limit": 0.6,
+      "depth": 11.536974992327124,
+      "busy": 5.670706887974311,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
