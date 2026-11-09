@@ -17186,5 +17186,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18xBp8ke-svAuUZ_-QbQc6WYE8mW3__eh",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៤៩ មគ្គវិថី វិថីនៃការសម្រេចមគ្គ ៤(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "d15234bb8435d34049304559a74bd613",
+    "key": "audio/d15234bb8435d340-a64.mp3",
+    "bytes": 43133012,
+    "duration_s": 5391,
+    "sha256": "82c86e66bb554c21f9504b281ab780ba743c5d272931a23e750d46900f85e0a9",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.800000000000001,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 5.2222438608205355,
+      "out": {
+        "I": -18.2,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
