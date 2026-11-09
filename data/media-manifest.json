@@ -15069,5 +15069,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1f9NRXgaEcRAZOwlTxM7RSd60qpzqGT-d",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 32 នាមគ្គហណវិថីទី២ ទី៣.mp3",
+    "source_md5": "f606f52769caff8678e861d25ca76982",
+    "key": "audio/f606f52769caff86-a64.mp3",
+    "bytes": 42046736,
+    "duration_s": 5255,
+    "sha256": "71c05c8d019d9dccbbed58914db47f3130ed0bddccde60a9d0624d5ae3683d99",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": -7.3,
+        "LRA": 0
+      },
+      "G": 3.799999999999997,
+      "limit": 0.6,
+      "depth": 0.9369749923271247,
+      "busy": 0.0014269949389246167,
+      "out": {
+        "I": -18,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
