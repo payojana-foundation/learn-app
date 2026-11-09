@@ -13329,5 +13329,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1e_Sa4v1Y0M0pb1EUMtldD8hBwBkTxTe4",
+    "drive_name": "២៦ វិញ្ញត្តិរូប ២ វចីវិញ្ញត្តិរូប ការកម្រើកវាចា.mp3",
+    "source_md5": "8b2c90df2965e2ba6bc7fd05d8891005",
+    "key": "audio/8b2c90df2965e2ba-a64.mp3",
+    "bytes": 37273225,
+    "duration_s": 4659,
+    "sha256": "e5b4a4146841a5248f921728eac71d676abd1fdcb73c54e2ff7013cf1f62eb81",
+    "loudness": {
+      "pass1": {
+        "I": -27.9,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 12.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.5181580133502175,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
