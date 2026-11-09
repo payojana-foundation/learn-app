@@ -10110,5 +10110,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GRghqFvdIwLZBfU_5hJtb67L88_qpcSG",
+    "drive_name": "52.៥២ ទ្រង់ជ្រាបច្បាស់នូវសត្វលោក ឱកាសលោក.mp3",
+    "source_md5": "c6f302191c92569647add843505f23aa",
+    "key": "audio/c6f302191c925696-a64.mp3",
+    "bytes": 36118612,
+    "duration_s": 4514,
+    "sha256": "37e7962b68304e52add9234ca3cef541508b186ecc24e6be19addd21db1344e6",
+    "loudness": {
+      "pass1": {
+        "I": -19.5,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 2.900000000000002,
+      "limit": 0.6,
+      "depth": 7.43697499232713,
+      "busy": 3.85731372375299,
+      "out": {
+        "I": -18.1,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
