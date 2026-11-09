@@ -6920,5 +6920,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1y-QGoSLH0rkB3C7fToYzZ17YVicy91ht",
+    "drive_name": "24.២៤ សំយោជនជាហេតុនាំឱ្យលោភកើត.mp3",
+    "source_md5": "19bf1d44242b2bafaa8d86d308b2e93f",
+    "key": "audio/19bf1d44242b2baf-a64.mp3",
+    "bytes": 34998064,
+    "duration_s": 4374,
+    "sha256": "e2bbdc349d3a327e4e220f783d70604ee9a78a9eb67546f5fa54af680f061b42",
+    "loudness": {
+      "pass1": {
+        "I": -21.9,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 6.899999999999999,
+      "limit": 0.6,
+      "depth": 11.536974992327126,
+      "busy": 6.521875785768167,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
