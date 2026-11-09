@@ -10458,5 +10458,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fuZUJCIDqtz0Y3W8ZPHIqR8j7SttnEIW",
+    "drive_name": "៤៩ សម្បយោគន័យ វិរិយ វីតិ ឆន្ទចេតសិក.m4a",
+    "source_md5": "eb487ea4b541f2096b8aba98e9c0391a",
+    "key": "audio/eb487ea4b541f209-a64.mp3",
+    "bytes": 42979203,
+    "duration_s": 5372,
+    "sha256": "3629a82d589d04411691e5c994e9c9d327678b4f3fc809b22e484bd06d33767a",
+    "loudness": {
+      "pass1": {
+        "I": -22.7,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 6.299999999999997,
+      "limit": 0.6,
+      "depth": 10.736974992327124,
+      "busy": 5.472698167468613,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
