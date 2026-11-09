@@ -7007,5 +7007,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_uUXJx_BJEqWBVkS6K02-IsIfsjVEB-x",
+    "drive_name": "១៨ មោហចេតសិក ការវង្វេងមិនដឹងការពិត.m4a",
+    "source_md5": "43c864dfb58975975816914c29fe34c2",
+    "key": "audio/43c864dfb5897597-a64.mp3",
+    "bytes": 35615598,
+    "duration_s": 4451,
+    "sha256": "4896ddab4bce85ffccdc180a6c501ae52b0c118ef03d82e0f85a91d35c487e30",
+    "loudness": {
+      "pass1": {
+        "I": -16.6,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 0,
+      "limit": 0.6,
+      "depth": 4.6369749923271275,
+      "busy": 5.422965475414991,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
