@@ -15939,5 +15939,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nqzTBoPSdIucg_tc39x9NCCdfeG4FruY",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៣៥ ទ្វារសង្គហៈ ចែកបញ្ចទ្វារិកចិត្ត និងឆទ្វារិកចិត្ត.mp3",
+    "source_md5": "e6dd8693674b7e11ccf1f27fedcae52a",
+    "key": "audio/e6dd8693674b7e11-a64.mp3",
+    "bytes": 41555425,
+    "duration_s": 5194,
+    "sha256": "6b7d0d197d05fbbf39831c0c372088e8cf76cc18c491ca906e40443bb3066703",
+    "loudness": {
+      "pass1": {
+        "I": -25.5,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 9.700000000000003,
+      "limit": 0.6,
+      "depth": 10.93697499232713,
+      "busy": 4.903598105652241,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
