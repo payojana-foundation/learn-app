@@ -9530,5 +9530,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1aKqyJxnVip_jgBdfYajSnIZv1UwXuRHd",
+    "drive_name": "46.៤៦ ឧទាហរណ៍ក្នុងមោហមូលចិត្ត ២ ដួង.mp3",
+    "source_md5": "f9379ec89db605e2edbad95ae1b5c55a",
+    "key": "audio/f9379ec89db605e2-a64.mp3",
+    "bytes": 38753845,
+    "duration_s": 4844,
+    "sha256": "b93c8ed46cf7b25889e14a52a2e5ecd02d663f975fac4186a9b97880532f6a01",
+    "loudness": {
+      "pass1": {
+        "I": -20.1,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": 3.8000000000000007,
+      "limit": 0.6,
+      "depth": 8.736974992327127,
+      "busy": 4.254616392968838,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
