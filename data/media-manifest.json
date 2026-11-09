@@ -11067,5 +11067,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ywuPWWHi1w04flFAs3CETjXs8D9Z7GbQ",
+    "drive_name": "៥១ អារម្មណសង្គហ ចេតសិក៥២ដឹងកាលវិមុត្ត និងដល់បរមត្ថ ភិក្ខុអគ្គចិត្តោ យ៉ុន បរិច្ឆេទទី៣.mp3",
+    "source_md5": "97b6b2c293c0bf2fc7469d134624366b",
+    "key": "audio/97b6b2c293c0bf2f-a64.mp3",
+    "bytes": 39511396,
+    "duration_s": 4938,
+    "sha256": "f6e519c0f5ab85905fb40248634ee198bf774b6ec8abdd8a25cc012d5f2fdea7",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 3,
+      "limit": 0.6,
+      "depth": 7.236974992327127,
+      "busy": 5.896109418184395,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
