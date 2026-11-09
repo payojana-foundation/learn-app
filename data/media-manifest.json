@@ -15446,5 +15446,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11vtdHztXQ_8avy6Ti4UMSP4kV5Vk6w8M",
+    "drive_name": "៥៣ និព្វានបរមត្ថ និយមន័យនិព្វាន និព្វាននៅឯណា.mp3",
+    "source_md5": "69394648fa6d13c49278a7d0cd57aa9a",
+    "key": "audio/69394648fa6d13c4-a64.mp3",
+    "bytes": 42428751,
+    "duration_s": 5303,
+    "sha256": "00d5e3a213e77fc8a48a70362b71efa277a59ce5e286e30fa87e2c0ff86cb3ce",
+    "loudness": {
+      "pass1": {
+        "I": -28.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.755814501607414,
+      "out": {
+        "I": -18.7,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
