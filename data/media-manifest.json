@@ -13561,5 +13561,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EEhNHKJdIT0sTXJV92HpvE7dO6YeyYXI",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ១៦ បរិកប្ប ២ យ៉ាង និងចែកដោយហេតុ៥ យ៉ាង(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "e7619eff4dd47692e1a38491c80c254b",
+    "key": "audio/e7619eff4dd47692-a64.mp3",
+    "bytes": 42863847,
+    "duration_s": 5357,
+    "sha256": "d495ec9d8de070cc1bff72bec2fa2b15773c46925c8ca7959c8e2ff635043160",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.399999999999999,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 4.664797170559636,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
