@@ -7848,5 +7848,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NELj22NEh5CNd6I3kmloX_MKXtxH6Sve",
+    "drive_name": "២០ ហេតុសង្គហៈ ចែកហេតុ៦ ជាគហិតគហនន័យ​ភាគបញ្ចប់.mp3",
+    "source_md5": "b880e76d8a6e75070c05de13cbea7905",
+    "key": "audio/b880e76d8a6e7507-a64.mp3",
+    "bytes": 39438044,
+    "duration_s": 4929,
+    "sha256": "3e9ae951f46c7245c8869b3ab324806e6db4f04312f9320beb1f3d7a435b8e1d",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 9.7,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 5.16993934722194,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
