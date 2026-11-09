@@ -9733,5 +9733,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cZThlCsoPN-VvnXs2pYuqiMPPTPU1t1O",
+    "drive_name": "៥១_បញ្ចប់តទាលម្ពននិយមចូលជវននិយម_ភិក្ខុអគ្គចិត្តោ_យ៉ុន_យី​_បរិច្ឆេទទី៤.mp3",
+    "source_md5": "897368e127bceb0187a14672787ce8e5",
+    "key": "audio/897368e127bceb01-a64.mp3",
+    "bytes": 33953793,
+    "duration_s": 4244,
+    "sha256": "6a812643816fd8ee26f7462db3cdfc3caca3fcd5d0603805ca9ba4c2b5bd1e90",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": 1.8,
+        "LRA": 0
+      },
+      "G": 5.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.749316714575185,
+      "out": {
+        "I": -18.3,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
