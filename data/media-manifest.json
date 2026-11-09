@@ -17766,5 +17766,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1sEvhJfzpF4nnnc23sc7o393XbN7c210P",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៥៨ ជីវិតសមសីសី និងតទាលម្ពណនិយម(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "404fc3d9b456c0b4b937d932c529df4f",
+    "key": "audio/404fc3d9b456c0b4-a64.mp3",
+    "bytes": 43441257,
+    "duration_s": 5430,
+    "sha256": "bfc87f589e216325b68035349da0f911a465abcf8dc8a794ea289978e8631519",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.1478751964593705,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 5.578856742969743,
+      "out": {
+        "I": -18.8,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
