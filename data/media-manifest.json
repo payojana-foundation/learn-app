@@ -3875,5 +3875,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mzNOXwbl6f3vo6-mpGOap73VNQep-89D",
+    "drive_name": "បិដកលេខ១៦ 12 ការបញ្ញត្តថាមានខ្លួន ដោយហេតុអ្វីខ្លះ .mp3",
+    "source_md5": "c298412386e0273641c87b7a184dc327",
+    "key": "audio/c298412386e02736-a64.mp3",
+    "bytes": 38685300,
+    "duration_s": 4835,
+    "sha256": "ddc7bfa99fd1e0c039a4c67181d86d1fd1e63378d8917622078a5479bc3a6b81",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -12.3,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 1.0369749923271252,
+      "busy": 0.0018094775262891235,
+      "out": {
+        "I": -18,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
