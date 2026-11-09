@@ -14199,5 +14199,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1piq4ADmhjj_2nCoynASeFVkhrUkSsf7J",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ២១ អតិបរិត្តារម្មណ៍ បញ្ចប់អារម្មណ៍តាមបញ្ចទ្វារ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "3302e139579a1fdaadfc105c5e78af3a",
+    "key": "audio/3302e139579a1fda-a64.mp3",
+    "bytes": 42381313,
+    "duration_s": 5297,
+    "sha256": "520ecc86187f0f535b6fe311690504836cc14bc2227272cee9f0b5e6af9992c8",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.679848612120469,
+      "out": {
+        "I": -18.6,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
