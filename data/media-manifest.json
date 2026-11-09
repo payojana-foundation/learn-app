@@ -17273,5 +17273,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1a2ho848V4Pl0K-OB3f1L1KM-wkKSxNda",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៥០ ផលសមាបត្តិវិថី និរោធសមាបត្តិវិថី(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "76c777fe3ef7bb02ac12dee6a39d2f23",
+    "key": "audio/76c777fe3ef7bb02-a64.mp3",
+    "bytes": 41464937,
+    "duration_s": 5183,
+    "sha256": "612ea02ad8fe017e5f83c9f07eabefc5cb73da5372da1cc12f857e1db4883948",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.039213983909243,
+      "out": {
+        "I": -18.7,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
