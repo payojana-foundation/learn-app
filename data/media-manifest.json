@@ -8747,5 +8747,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EU3-1MqGDOXtYG22zb4nS_BHYhHDGRcd",
+    "drive_name": "39.៣៩ ផ្សាយមេត្តាចិត្តចំពោះខ្លួនឯងនិងអ្នកដទៃ.mp3",
+    "source_md5": "36e1c8efa2cf30adf8af37d868a78887",
+    "key": "audio/36e1c8efa2cf30ad-a64.mp3",
+    "bytes": 30960787,
+    "duration_s": 3870,
+    "sha256": "cadc7738852730fba96802eeb3c666f517d0a97efef2135446c557ddab134c6e",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 5.299999999999997,
+      "limit": 0.6,
+      "depth": 9.436974992327125,
+      "busy": 5.549669900905673,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
