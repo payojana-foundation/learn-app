@@ -3933,5 +3933,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pykyRW3YrBJd5Z0GqAX3Esbx0_yyXA2x",
+    "drive_name": "11-Buddhism in English Level 1 batch2.mp3",
+    "source_md5": "ac076bdcfc628a263df5921617342526",
+    "key": "audio/ac076bdcfc628a26-a64.mp3",
+    "bytes": 39649532,
+    "duration_s": 4956,
+    "sha256": "d9a040764ae8eb6b92a944bec223882bb5c322711f61197da814f8e2c8fa12fb",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -6,
+        "LRA": 0
+      },
+      "G": 10.899999999999999,
+      "limit": 0.6,
+      "depth": 9.336974992327125,
+      "busy": 6.34312924346519,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
