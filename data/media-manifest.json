@@ -16258,5 +16258,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12NncRNOXetzdbWfBDhBeBRTs4nkU5DHg",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 47 អវិភូតារម្មណ៍ ២ ប្រភេទ.mp3",
+    "source_md5": "8b38e0a3c5ada4e75f1bc1b3865b94d5",
+    "key": "audio/8b38e0a3c5ada4e7-a64.mp3",
+    "bytes": 43824317,
+    "duration_s": 5477,
+    "sha256": "feb4c0512855619583ffa926fc36a0805ec37f45a3468c7e9b5463566d3cba38",
+    "loudness": {
+      "pass1": {
+        "I": -22.2,
+        "TP": 2,
+        "LRA": 0
+      },
+      "G": 5.563025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 2.849351953267616,
+      "out": {
+        "I": -18.5,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
