@@ -10516,5 +10516,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ProiqqePvH7L_KQq61weNyFGeMLsEz66",
+    "drive_name": "៤៥ អារម្មណសង្គហ បញ្ញត្យារម្មណ៍ បរមត្ថារម្មណ៍.mp3",
+    "source_md5": "e7e4199075be3bb2d7d0cef9e4478534",
+    "key": "audio/e7e4199075be3bb2-a64.mp3",
+    "bytes": 35364405,
+    "duration_s": 4420,
+    "sha256": "7f54618230b4267b870c9b307fda32bbe3f65b20c81aa65f358ca2a71f4d2a78",
+    "loudness": {
+      "pass1": {
+        "I": -17.3,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": 2.6999999999999993,
+      "limit": 0.6,
+      "depth": 7.436974992327126,
+      "busy": 5.347528560117634,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
