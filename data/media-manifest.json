@@ -16403,5 +16403,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zbgouisx9ja9-Jyo9At7P-u7zUpsi1zI",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 50 អប្បនាវិថី ឧបសគ្គរបស់សមាធិ ៨ យ៉ាង.mp3",
+    "source_md5": "d2ba410f3a2e4c2c99c2e54688583548",
+    "key": "audio/d2ba410f3a2e4c2c-a64.mp3",
+    "bytes": 45214240,
+    "duration_s": 5651,
+    "sha256": "1f7b479a65b7ad9773fc01d3f4641b625d8ebc7ac85de61f652b6e9dcee7f851",
+    "loudness": {
+      "pass1": {
+        "I": -14.4,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": -3.200000000000001,
+      "limit": 0.6,
+      "depth": 1.6369749923271262,
+      "busy": 0.0015481930375547397,
+      "out": {
+        "I": -18,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
