@@ -14315,5 +14315,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hAJme1mS7iHinw7UZKATwsMU6bxM7UNa",
+    "drive_name": "៣៨ រូបន័យទី ៣ ពន្យល់កម្មជ្ជរូប និងចិត្តជ្ជរូបសាមញ្ញ.mp3",
+    "source_md5": "e3dc7bfe4f72dd3199107ef2e5c827f8",
+    "key": "audio/e3dc7bfe4f72dd31-a64.mp3",
+    "bytes": 40580327,
+    "duration_s": 5072,
+    "sha256": "468115291b8f15065575e8f279e0950591a6ee227aa887cc97390a36b3248a19",
+    "loudness": {
+      "pass1": {
+        "I": -27.4,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 11.399999999999999,
+      "limit": 0.6,
+      "depth": 11.536974992327126,
+      "busy": 5.4376540167570235,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
