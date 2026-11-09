@@ -4513,5 +4513,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19ncRgXcDqwqLqYJuBpBNWju2c-cHGIz5",
+    "drive_name": "3.០៣ សម្មតិសច្ចៈដោយហេតុ ៨.mp3",
+    "source_md5": "69f14f83c9e4726772260044a9221262",
+    "key": "audio/69f14f83c9e47267-a64.mp3",
+    "bytes": 30575638,
+    "duration_s": 3821,
+    "sha256": "dd05c6e04ea9c9d5ffa5688dcbf7b43e029ce631701a201197d3190f098dee44",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": 1.1,
+        "LRA": 0
+      },
+      "G": 6.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.101363196315969,
+      "out": {
+        "I": -18.5,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
