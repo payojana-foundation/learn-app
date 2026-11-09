@@ -17157,5 +17157,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RPOsJL52QlMt_Yum6AZfOtSFyQDXRgef",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៤៧ អារម្មណសង្គហ ៦ ដឹងមហគ្គត ចិត្ត២១ ដឹងបញ្ញត្តិ.mp3",
+    "source_md5": "18e567025dc5192decf5e82228ffec55",
+    "key": "audio/18e567025dc5192d-a64.mp3",
+    "bytes": 43149940,
+    "duration_s": 5393,
+    "sha256": "54e5b8650d6ca1d7d6fa8b7beffbc9055641f69fedf84a3cc7d7ffbc151f665a",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 10.400000000000002,
+      "limit": 0.6,
+      "depth": 11.13697499232713,
+      "busy": 5.702022730222296,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
