@@ -18056,5 +18056,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1y0uAqVRE437zqA6zBJfKVI0wV2b3HeX1",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៦១ វត្ថុសង្គហ ចែកវិញ្ញាណ១ ក្នុងអរូបភូមិ១២.mp3",
+    "source_md5": "e3b7c562f8aa8257f04403b8e90948d2",
+    "key": "audio/e3b7c562f8aa8257-a64.mp3",
+    "bytes": 43784611,
+    "duration_s": 5473,
+    "sha256": "269ba252b606485b347be50faeede49cc81deacf310e0ced0780c832fc9df3de",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "G": 8.099999999999998,
+      "limit": 0.6,
+      "depth": 11.036974992327124,
+      "busy": 6.24948611834352,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
