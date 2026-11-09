@@ -9066,5 +9066,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hmJIbH4KkHzlndJUI9Qh4og4qj080qmX",
+    "drive_name": "៣១ ទ្វារសង្គហ ចែកចិត្តកើតតាមទ្វារទាំង៦.mp3",
+    "source_md5": "fd62dafb7a942fad787ea48ea9d33842",
+    "key": "audio/fd62dafb7a942fad-a64.mp3",
+    "bytes": 38394818,
+    "duration_s": 4799,
+    "sha256": "eb26d650f7061fecb046a3d14f5ecb8c8bcc301e7ab97a1075110cae6b7f19c1",
+    "loudness": {
+      "pass1": {
+        "I": -28.7,
+        "TP": -5.3,
+        "LRA": 0
+      },
+      "G": 12.863025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.320046673473215,
+      "out": {
+        "I": -18.3,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
