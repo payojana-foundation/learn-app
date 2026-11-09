@@ -16171,5 +16171,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vb3YvQrkXpyEqmdurSsmPst9nX3u80cc",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៣៧ ជវនវារៈមិនមានអតីតភវង្គទោសជវនប្រភេទទី៤(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "3e1bdf3cc0af889057757820bf0f2e50",
+    "key": "audio/3e1bdf3cc0af8890-a64.mp3",
+    "bytes": 42271598,
+    "duration_s": 5283,
+    "sha256": "1f2f9becbe832b3ca1c8643aa53c28faa24a4a854f66694673ce5894b8b6b7d1",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 7.847875196459371,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 6.4348776471924145,
+      "out": {
+        "I": -18.8,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
