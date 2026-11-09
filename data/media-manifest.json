@@ -17331,5 +17331,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12COOJLcDiozWilv_KcbO3TLTKVJXVxzA",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 63 អភិញ្ញាសនមន្តរ ជីវិតសមសីសី.mp3",
+    "source_md5": "199d405bf68642bfeaecebc87a440ddd",
+    "key": "audio/199d405bf68642bf-a64.mp3",
+    "bytes": 42588829,
+    "duration_s": 5323,
+    "sha256": "de39d5f72e22f444b98e1abbc41049695f4709af49ef5dc9bdf31c0dca0c7dd4",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "G": -0.3000000000000007,
+      "limit": 0.6,
+      "depth": 1.0369749923271265,
+      "busy": 0.00187844577396662,
+      "out": {
+        "I": -18,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
