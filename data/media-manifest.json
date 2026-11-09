@@ -14518,5 +14518,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1FHeycvVeoV_fRZYpojJM1T8l1yJaLvpZ",
+    "drive_name": "៤១ សិក្សាសមុដ្ឋានិករូប រូបកើតពីសមុដ្ឋានទាំង ៤.mp3",
+    "source_md5": "0f29d78b7c109b9b483625ea02a3cd8f",
+    "key": "audio/0f29d78b7c109b9b-a64.mp3",
+    "bytes": 40517633,
+    "duration_s": 5064,
+    "sha256": "0cd2f1e61d43503df8d1ea3667d79d9d8b1e68730b62678700f3e5ff753827ac",
+    "loudness": {
+      "pass1": {
+        "I": -27.8,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.085000937873298,
+      "out": {
+        "I": -18.5,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
