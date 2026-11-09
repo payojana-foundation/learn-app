@@ -3527,5 +3527,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14-hGbWUlO5Ptv1nXPAGx5ItoQUxXz88p",
+    "drive_name": "បិដកលេខ១៦ 05 មហាបទានសូត្រ ធម្មតារបស់ព្រះពោធិសត្វចាប់បដិសន្ធិនិងប្រសូត្រ .mp3",
+    "source_md5": "6d990d0321f02235b758909f7745dfec",
+    "key": "audio/6d990d0321f02235-a64.mp3",
+    "bytes": 13532098,
+    "duration_s": 1691,
+    "sha256": "d0a13f2a931fe5ce46a059ad6a7eac432cfc3c1b684e5d8af57ff9be7c7b9c31",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -13,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.3369749923271259,
+      "busy": 0.0014779781259237363,
+      "out": {
+        "I": -18,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
