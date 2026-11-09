@@ -13532,5 +13532,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wIyDnnXQO7PW-navIQESbck7-M4BPfig",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ១៧ ហេតុសង្គហៈ ចែកហេតុដោយន័យផ្សេងៗ.mp3",
+    "source_md5": "90145a75acac51b110119ef9df95ae01",
+    "key": "audio/90145a75acac51b1-a64.mp3",
+    "bytes": 40886064,
+    "duration_s": 5110,
+    "sha256": "8643347a0f436eefbd26372da9b180bfc7a330cb49a66f2ba836778e18952802",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.700000000000003,
+      "limit": 0.6,
+      "depth": 11.73697499232713,
+      "busy": 5.373285459917428,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
