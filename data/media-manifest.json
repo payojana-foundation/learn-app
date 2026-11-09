@@ -12894,5 +12894,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WXO1rPKs-GKCu188ej903oH2mrmVzWMh",
+    "drive_name": "២០ ភាវរូប ២ និងហទយវត្ថុ.mp3",
+    "source_md5": "6c20f34343c18aea8dba765bddcd2782",
+    "key": "audio/6c20f34343c18aea-a64.mp3",
+    "bytes": 39943357,
+    "duration_s": 4992,
+    "sha256": "1ba108bf5b68f71e1bff606b642e5c20bf6bbee7ff25b3a3b0f02b82617827b3",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 8.200000000000003,
+      "limit": 0.6,
+      "depth": 11.43697499232713,
+      "busy": 6.126260552590204,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
