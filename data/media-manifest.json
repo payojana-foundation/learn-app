@@ -14141,5 +14141,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12Pwqo61rCDxPkPpu1Gh0r09zvktjZ4LA",
+    "drive_name": "៣៦ រូបន័យទី ៣ រូបសមុដ្ឋាន មាន៤.mp3",
+    "source_md5": "7bde2ecb7ffdd98f46b6c173b7d2db4a",
+    "key": "audio/7bde2ecb7ffdd98f-a64.mp3",
+    "bytes": 36801349,
+    "duration_s": 4600,
+    "sha256": "a308dbd6c363037ff408b7dfc5792228cf341b725eed8eddb220b8f52b6f872c",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 10.100000000000001,
+      "limit": 0.6,
+      "depth": 9.736974992327129,
+      "busy": 5.504711802875994,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
