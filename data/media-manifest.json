@@ -10342,5 +10342,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mFm98N5ylDbJBugu9qPOEgKpXr805vVd",
+    "drive_name": "៤៣ អារម្មណសង្គហ នាមារម្មណ៍ អតីតារម្មណ៍.mp3",
+    "source_md5": "388459023a4d2d71ad31cf6b8d327e65",
+    "key": "audio/388459023a4d2d71-a64.mp3",
+    "bytes": 36741789,
+    "duration_s": 4592,
+    "sha256": "2f243b75b212adfdf1caf657f0e1e0f8eefabd309152d82be9bb212388fdd8f5",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 7.463025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.568391142465217,
+      "out": {
+        "I": -18.5,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
