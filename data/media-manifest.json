@@ -10574,5 +10574,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1aXs4ndnUkYT2yMe3zhSQ2H2xLICVJ5_l",
+    "drive_name": "៥១ សម្បយោគន័យ ចែកចេតសិកជា២ គឺអនិយតយោគី និងនិយតយោគី.m4a",
+    "source_md5": "af4504975286563605671c4d233985a4",
+    "key": "audio/af45049752865636-a64.mp3",
+    "bytes": 45397515,
+    "duration_s": 5674,
+    "sha256": "46c176b83e597c813e0c0257825e0a181ed377475e3eb969745379449b2f6e8b",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.800000000000001,
+      "limit": 0.6,
+      "depth": 10.936974992327128,
+      "busy": 5.84441331183421,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
