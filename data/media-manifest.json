@@ -12952,5 +12952,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZprywHqStWT848hffLntN-iVI5yN9wdQ",
+    "drive_name": "២១ ហទយវត្ថុរូប បេះដូង ទឹកឈាមមានពណ៌ ៦ យ៉ាង.mp3",
+    "source_md5": "afbff2b19e62221fe8dae75516162d0d",
+    "key": "audio/afbff2b19e62221f-a64.mp3",
+    "bytes": 40708640,
+    "duration_s": 5088,
+    "sha256": "4c97fdfc5ce99704dfecdf3c7c0d154e0dc4d0f1d992dfbf0419fb1bf0eed99d",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 8,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 5.61751383006947,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
