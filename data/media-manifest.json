@@ -12546,5 +12546,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CgXjiDgILhVlJjyoMilCwY1vAfrDYopN",
+    "drive_name": "១៥ សោតបសាទរូប ឃានបសាទរូប.mp3",
+    "source_md5": "f680d18647dcf3051c271ff1f6d2357f",
+    "key": "audio/f680d18647dcf305-a64.mp3",
+    "bytes": 42394896,
+    "duration_s": 5299,
+    "sha256": "376a5ca15adf1584f9eab566f65ba7ecba3a90dcc8f3935222e1b30bf7fc6543",
+    "loudness": {
+      "pass1": {
+        "I": -24.5,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 8.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.5154831770233805,
+      "out": {
+        "I": -18.4,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
