@@ -13126,5 +13126,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cM6E3ISrB6KIZodRFL4zKSYrBnJNXau4",
+    "drive_name": "២៤ អាហាររូប និងបរិច្ឆេទរូប.mp3",
+    "source_md5": "7907688d4bf90ce994806c37f522329b",
+    "key": "audio/7907688d4bf90ce9-a64.mp3",
+    "bytes": 41263481,
+    "duration_s": 5157,
+    "sha256": "c337f9e4023c03864845eec8aa9f18c2a45e2d0a36ce51d1a4e256484c7ddb31",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.111014172434518,
+      "out": {
+        "I": -18.3,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
