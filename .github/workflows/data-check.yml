@@ -57,10 +57,16 @@ jobs:
       - name: Rebuild public/data from source
         run: |
           set -euo pipefail
-          # No SOURCE_DATE_EPOCH: build-courses stamps `generated`/`updated` from
-          # the last commit that touched a data source, which is exactly what the
-          # committed data was built from. checkout@v4 fetches full history by
-          # default, so `git log` can see that commit.
+          # bulk-07 P2: pin the stamp to the one in the COMMITTED catalog. The
+          # course-audio bot commits data/media-manifest.json (a stamp input)
+          # without rebuilding, so the git-log stamp moves ahead of the committed
+          # data within minutes. A stamp lag is not an integrity problem (the app
+          # keys freshness on each file's sha256 only, and Cloudflare rebuilds on
+          # deploy), so the check compares CONTENT: same sources + same stamp
+          # must give the committed bytes. Any real content drift still fails.
+          SOURCE_DATE_EPOCH="$(node -e "console.log(Math.floor(Date.parse(require('./public/data/catalog.json').generated)/1000))")"
+          export SOURCE_DATE_EPOCH
+          echo "SOURCE_DATE_EPOCH=${SOURCE_DATE_EPOCH} (from the committed catalog.json)"
           npm run build-courses
 
       - name: Fail if the regenerated data differs from the committed data

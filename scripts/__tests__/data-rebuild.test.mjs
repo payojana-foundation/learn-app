@@ -136,4 +136,8 @@ describe('data-rebuild.yml', () => {
     expect(check).toMatch(/- "scripts\/build-courses\.mjs"/);
     expect(check).not.toMatch(/- "data\/\*\*"/);
   });
+  it('data-check pins SOURCE_DATE_EPOCH to the committed catalog stamp (a bot stamp lag is not drift)', () => {
+    expect(check).toMatch(/SOURCE_DATE_EPOCH="\$\(node -e .*public\/data\/catalog\.json.*generated/);
+    expect(check).toMatch(/export SOURCE_DATE_EPOCH/);
+  });
 });
