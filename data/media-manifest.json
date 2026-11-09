@@ -12778,5 +12778,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jO67gEQVvmxA6XJHO5AUatEDvMFmBn32",
+    "drive_name": "១៩ គន្ធារម្មណ៍ រសារម្មណ៍ ផោដ្ឋព្វារម្មណ៍.mp3",
+    "source_md5": "79c73a40c4212914c9139354fed1b0c8",
+    "key": "audio/79c73a40c4212914-a64.mp3",
+    "bytes": 19944010,
+    "duration_s": 2492,
+    "sha256": "6deaa699d0000f6f42a1dc28ba075aca03df0831f1722c0bd3d9451bd625d30b",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.8630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.667301791050763,
+      "out": {
+        "I": -18.9,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
