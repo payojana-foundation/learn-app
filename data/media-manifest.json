@@ -5934,5 +5934,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1AjV35T444K8GkLwgJHHfcjkq1_30IQLc",
+    "drive_name": "១១_អតិមហន្តារម្មណប្រភេទទី៥_និងមានវិថីមានអាគន្តុកភិក្ខុអគ្គចិត្តោ.mp3",
+    "source_md5": "4473be0d073c2c8b26a35c15ea126c3f",
+    "key": "audio/4473be0d073c2c8b-a64.mp3",
+    "bytes": 39815252,
+    "duration_s": 4976,
+    "sha256": "82d40bba6df97fba6a134fb8312628b4f9ab3e250c464b8e9ff62f8a49d00d69",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 9.663025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.5392668053085785,
+      "out": {
+        "I": -18.6,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
