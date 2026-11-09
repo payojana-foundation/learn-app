@@ -7413,5 +7413,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Dy52vtMD4uodhm6_AFT031Pu5f3B9JPe",
+    "drive_name": "៣០ អតិវិភូតារម្មណ៍មិនមានអតីតភវង្គប្រភេទទី៣ទី៤ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "4f07dc32dea5d9c0526d4a3f23b7b642",
+    "key": "audio/4f07dc32dea5d9c0-a64.mp3",
+    "bytes": 37374580,
+    "duration_s": 4671,
+    "sha256": "c941312be10d493f67e9344cca74aca4aa342724e0e70798519b2d1bd62dab0c",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 5,
+      "limit": 0.6,
+      "depth": 9.036974992327128,
+      "busy": 6.3048503788689585,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
