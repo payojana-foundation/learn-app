@@ -6340,5 +6340,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jj0Mcw82tTTElN3qUR1-KUf5dpnmwtZc",
+    "drive_name": "20.២០ ចិត្តបរមត្ថ.mp3",
+    "source_md5": "c63db6bc5bcf07a6caad88f0121954f0",
+    "key": "audio/c63db6bc5bcf07a6-a64.mp3",
+    "bytes": 35252810,
+    "duration_s": 4406,
+    "sha256": "b142d74c3ef14debd48548852118464b4ad354df6d937f8fc75434188f77ca23",
+    "loudness": {
+      "pass1": {
+        "I": -25.4,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "G": 9.099999999999998,
+      "limit": 0.6,
+      "depth": 10.836974992327125,
+      "busy": 4.363107192701774,
+      "out": {
+        "I": -18.1,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
