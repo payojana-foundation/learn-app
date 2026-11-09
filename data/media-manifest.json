@@ -5586,5 +5586,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jb20wCCXf1WNLOAftveRmYBWEB2p-e1V",
+    "drive_name": "០៥ ពន្យល់វេទនា៣តាមបិដកនិងដីកា.mp3",
+    "source_md5": "179ff96dbf19ed0201e9235c40fc920e",
+    "key": "audio/179ff96dbf19ed02-a64.mp3",
+    "bytes": 32668359,
+    "duration_s": 4083,
+    "sha256": "f641fd3d63d5fee16591b0e726b0d81c4432956d7ac0d0ee370f0ccd55cbc717",
+    "loudness": {
+      "pass1": {
+        "I": -26.9,
+        "TP": -5.1,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 10.036974992327128,
+      "busy": 5.869352271335864,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
