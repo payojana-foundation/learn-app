@@ -11096,5 +11096,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17s9iXYyVBpQvAyZ-__eLPrb0_nXTy7U2",
+    "drive_name": "៥៧ រម្លឹកមេរៀនចេតសិកបរមត្ថភាគ ១ សម្បយោគន័យ.m4a",
+    "source_md5": "bf667ff00cadc092d9cb392bcd706c6d",
+    "key": "audio/bf667ff00cadc092-a64.mp3",
+    "bytes": 22845900,
+    "duration_s": 2855,
+    "sha256": "104b99def6914901c460f3642bc21cc525e023b623af4c19ca4b6877464369e8",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.600000000000001,
+      "limit": 0.6,
+      "depth": 10.63697499232713,
+      "busy": 5.240834121231222,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
