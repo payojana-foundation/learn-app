@@ -17708,5 +17708,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19XcSEKqjJRYnPZp7r_ekG3Dc6c32a7IX",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៥៤ ពហិទ្ធារម្មណ៍ អជ្ឈត្តពហិទ្ធារម្មណ៍ បញ្ចារម្មណ៍.mp3",
+    "source_md5": "a76c0517be1e38d08d5a9e0c23f60bb3",
+    "key": "audio/a76c0517be1e38d0-a64.mp3",
+    "bytes": 40574684,
+    "duration_s": 5071,
+    "sha256": "ed70f5e5e7bdfe62d1bfd6e1a63c56ea7a92d205cab2a9b123d8e7520abe9fcd",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 11.136974992327128,
+      "busy": 5.1584250167593355,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
