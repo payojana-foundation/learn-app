@@ -11473,5 +11473,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18K1V-1FaWgNu35wPpqogDE-bsDhqjWTY",
+    "drive_name": "២  និយមន័យរូប ៧ន័យ និងវចនត្ថៈរបស់រូប.mp3",
+    "source_md5": "dbd999417180c9ea27ac43f3fb3fb3b5",
+    "key": "audio/dbd999417180c9ea-a64.mp3",
+    "bytes": 38157417,
+    "duration_s": 4769,
+    "sha256": "46be10f7f176332325e5b25d4fd4a449edd150fd26bcc5ba644ad4dd0423c477",
+    "loudness": {
+      "pass1": {
+        "I": -24.6,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.886438208254274,
+      "out": {
+        "I": -18.4,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
