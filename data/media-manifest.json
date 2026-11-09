@@ -11850,5 +11850,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qUXjvSu7vyZRWVB62fCJZpsB5zsdres4",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ០៤ វេទនាសង្គហ វេទនា២ គឺកាយិកសុខ ចេតសិកសុខ.mp3",
+    "source_md5": "8b77616553703b8863fecaa2c1de5c0f",
+    "key": "audio/8b77616553703b88-a64.mp3",
+    "bytes": 42038377,
+    "duration_s": 5254,
+    "sha256": "2cac4d17d3090bd18be4559c0a90bd4684c5043f3ef0cee9197e9cac862487b6",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.599999999999998,
+      "limit": 0.6,
+      "depth": 11.736974992327125,
+      "busy": 6.348303915505019,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
