@@ -9675,5 +9675,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GGpzi9_E0ft8LKchWhbSrCMbLmkcwpuf",
+    "drive_name": "៤០ អលោភចេតសិក អទោសចេតសិក.m4a",
+    "source_md5": "b50dfd3474d9e33f571090f05fa307ec",
+    "key": "audio/b50dfd3474d9e33f-a64.mp3",
+    "bytes": 41386361,
+    "duration_s": 5173,
+    "sha256": "d2d060aeff9249a1b2fcf3b015aabd7eb9241b0198d29510a724ef84d8160368",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 6,
+      "limit": 0.6,
+      "depth": 10.436974992327126,
+      "busy": 5.779973904218818,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
