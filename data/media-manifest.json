@@ -6282,5 +6282,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1g3pyvmggW1aLhDXfVBxBlHO2ajEG0rn5",
+    "drive_name": "០៩ វេទនាសង្គហៈ ចែក៩ តាមព្រះសូត្រ.mp3",
+    "source_md5": "c76009852d05e72cffcd7a3b69e91d7b",
+    "key": "audio/c76009852d05e72c-a64.mp3",
+    "bytes": 42317365,
+    "duration_s": 5289,
+    "sha256": "c4dd2d3f2287c8f8b3171a3ed4ece5f4c405318ec3c67e5eac19a130306a9c04",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.2,
+      "limit": 0.6,
+      "depth": 11.836974992327127,
+      "busy": 5.403476600531226,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
