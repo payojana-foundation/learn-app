@@ -14344,5 +14344,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19LdeT6OK886Jfh342ptSzt-9-E1SLi7j",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 26 សមូហគ្គហណវិថីភាគ៤.mp3",
+    "source_md5": "226d3300c7f9fca4290592692c5370fb",
+    "key": "audio/226d3300c7f9fca4-a64.mp3",
+    "bytes": 41842772,
+    "duration_s": 5230,
+    "sha256": "9be0e8c57660f4aefa1c9183dc2b75cf531e9d08170a568d1598f8a138f88ef0",
+    "loudness": {
+      "pass1": {
+        "I": -24.8,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "G": 8.200000000000003,
+      "limit": 0.6,
+      "depth": 10.13697499232713,
+      "busy": 2.9656520658470833,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
