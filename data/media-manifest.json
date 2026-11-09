@@ -17244,5 +17244,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1M7yUFq1_4e5GkhYbGBdaE7XsW0cGmcm9",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៤៨ ចិត្ត៨ ដឹងនិព្វាន ចិត្ត២០ មិនដឹងនិព្វាន.mp3",
+    "source_md5": "70e1830aaa679059e04fd2f133193164",
+    "key": "audio/70e1830aaa679059-a64.mp3",
+    "bytes": 43585871,
+    "duration_s": 5448,
+    "sha256": "944232b1d250e74402a559056b2b480721906ed295dbdb23abe34ea93ffbc656",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.200000000000003,
+      "limit": 0.6,
+      "depth": 11.33697499232713,
+      "busy": 5.310240079292243,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
