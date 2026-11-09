@@ -12343,5 +12343,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1F_VnyEfvPO2u3nm5CGe9iJH_x42CKHIO",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 08  អតិមន្តារម្មណ៍ប្រភេទទី១.mp3",
+    "source_md5": "436276034477711a8feaba35f12922f3",
+    "key": "audio/436276034477711a-a64.mp3",
+    "bytes": 43188392,
+    "duration_s": 5398,
+    "sha256": "f43dc55b6e12da248dacdd1b9f4b823e5fe33e9c0f5eaf7f00f0dee060b75b90",
+    "loudness": {
+      "pass1": {
+        "I": -20.6,
+        "TP": 1.6,
+        "LRA": 0
+      },
+      "G": 5.047875196459371,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 5.097943873298139,
+      "out": {
+        "I": -18.7,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
