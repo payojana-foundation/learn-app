@@ -15910,5 +15910,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19jFGCsx57IPUp1P8uAo-9lK7HG_LP9sM",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 42 ចែកវិថីចិត្តរបស់អរូបព្រហ្ម.mp3",
+    "source_md5": "009d4ee812824f272ecc4702ec58d4ab",
+    "key": "audio/009d4ee812824f27-a64.mp3",
+    "bytes": 41913198,
+    "duration_s": 5239,
+    "sha256": "9a548c94c597b51d69bb4d5274b99721a80f69006c03ebc6100c21fa7f91e19f",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -8.3,
+        "LRA": 0
+      },
+      "G": 5.699999999999999,
+      "limit": 0.6,
+      "depth": 1.836974992327126,
+      "busy": 0.11476207745605162,
+      "out": {
+        "I": -18,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
