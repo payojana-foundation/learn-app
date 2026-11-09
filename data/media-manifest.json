@@ -5615,5 +5615,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JoPfo62b-vUvjh_wZcNW10d3GbBNuERQ",
+    "drive_name": "14.១៤ ពាក្យថាអកុសលចិត្ត.mp3",
+    "source_md5": "926ac76365830d6ec0e6612e17a2f3b1",
+    "key": "audio/926ac76365830d6e-a64.mp3",
+    "bytes": 34346256,
+    "duration_s": 4293,
+    "sha256": "c78a3b291e6391393d7e5c9a9a1ccaa2fb0b8939234e609d19e0bc600d679cc4",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 6.012344960111803,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
