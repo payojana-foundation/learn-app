@@ -9936,5 +9936,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dI97ZEEBqzkZZsRi3iTUtlTofohinoOz",
+    "drive_name": "៣៩ អារម្មណសង្គហ សង្ខេបអារម្មណ៍ជា៤ប្រភេទ.mp3",
+    "source_md5": "caa5f57002347e4d407e73ac5b0a136b",
+    "key": "audio/caa5f57002347e4d-a64.mp3",
+    "bytes": 40760885,
+    "duration_s": 5095,
+    "sha256": "27e5ace5ae92fd0cd3d68ece97d4f315283265246647b45ff880c9776f2592e7",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.8630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.322087123776999,
+      "out": {
+        "I": -18.6,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
