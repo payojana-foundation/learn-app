@@ -14576,5 +14576,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1M4v9qlR5bWbXc-ix3pEqBzHT7LKMJ9sv",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ២៤ វិថីចិត្តចែកដោយបកិណ្ណកសង្គហភាគបន្ត(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "623f65969a1eda85dc46b7e3a2e27643",
+    "key": "audio/623f65969a1eda85-a64.mp3",
+    "bytes": 41322413,
+    "duration_s": 5165,
+    "sha256": "c99befb36ff674dbe44b405165ce827ab14bb0ed9a13e09a49ea0902b8c073d5",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 4.765984221480084,
+      "out": {
+        "I": -18.1,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
