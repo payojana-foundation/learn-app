@@ -13445,5 +13445,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rGN5zCXzTFakBDDQVRJieB4Zb8p-32QB",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ១៥ អតិមហន្តារម្មណ៍ ដែលមានអាគន្តុកភវង្គនិងមិនមាន(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "112892bd7b77c1a3c23a09c60433df1d",
+    "key": "audio/112892bd7b77c1a3-a64.mp3",
+    "bytes": 43390266,
+    "duration_s": 5423,
+    "sha256": "c362aedc973b1b215ab785a624c1957b25ecd3ab0aeacbe178b74242ef6e0dff",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.699999999999999,
+      "limit": 0.6,
+      "depth": 10.836974992327127,
+      "busy": 4.856188061765383,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
