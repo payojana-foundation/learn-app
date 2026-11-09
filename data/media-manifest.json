@@ -16287,5 +16287,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JhHLwOt6l-O5ibdvYNKXag5UpbJRh-CS",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៣៨ ជវនវារៈ វិភូតារម្មណ៍មាន ២៤ ប្រភេទ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "67904ff0d0e9514095dc54e929f13a13",
+    "key": "audio/67904ff0d0e95140-a64.mp3",
+    "bytes": 45550279,
+    "duration_s": 5693,
+    "sha256": "1eb18f9b16f0063babdd473f75b969c53b61a028bc9c9e1b73b51f72ffb13eec",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 7.899999999999999,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 5.647639956092206,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
