@@ -7819,5 +7819,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Bj8ud7F7H02wZXZOOCXrFukp111N_pqA",
+    "drive_name": "២៤ ទិដ្ឋិចេតសិក ហេតុនាំឲ្យកើតមិច្ឆាទិដ្ឋិមាន៥.m4a",
+    "source_md5": "9241efa4a37664412442980323ce0f4b",
+    "key": "audio/9241efa4a3766441-a64.mp3",
+    "bytes": 41874746,
+    "duration_s": 5234,
+    "sha256": "616998a5d89c4d102c0e119356d2a601e4f2ebbc90b7ee40c5f6520ee24e7ff6",
+    "loudness": {
+      "pass1": {
+        "I": -20.9,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 4.599999999999998,
+      "limit": 0.6,
+      "depth": 9.136974992327126,
+      "busy": 6.242955122939075,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
