@@ -12227,5 +12227,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1r1LCyrvCXD-tZ1HXb3LDzjroHrpYEDni",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ០៧ វេទនាសង្គហ ចែកវេទនា ១០៨ និងវេទនា ៩.mp3",
+    "source_md5": "5fcb55b9e18e27b45dbbef2464c551dd",
+    "key": "audio/5fcb55b9e18e27b4-a64.mp3",
+    "bytes": 38652699,
+    "duration_s": 4831,
+    "sha256": "0c02aefef5be05289f0bd2e58f8d942486cca05e8916fa73d3e06abc32baf047",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 7.5,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 5.652947811778828,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
