@@ -13387,5 +13387,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1aBpUjvAwaWJ2V5jjNb4GuqsYd4EkAHqe",
+    "drive_name": "២៧ វិញ្ញត្តិរូប ២ ចិត្តដែលញុំាងវិញ្ញត្តិរូបឱ្យកើត.mp3",
+    "source_md5": "365c747b60e6c007a16036f521082df1",
+    "key": "audio/365c747b60e6c007-a64.mp3",
+    "bytes": 37191723,
+    "duration_s": 4648,
+    "sha256": "7e48709b70f9c9d6f6ab99c75a87bb65d23cb3e8fa3dc866741b60723692e49d",
+    "loudness": {
+      "pass1": {
+        "I": -30.1,
+        "TP": -7,
+        "LRA": 0
+      },
+      "G": 14.000000000000004,
+      "limit": 0.6,
+      "depth": 11.43697499232713,
+      "busy": 6.106820968401127,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
