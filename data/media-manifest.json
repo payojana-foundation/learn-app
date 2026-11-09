@@ -10690,5 +10690,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kP68-jMox0HsYOxeBzhKPErHrlebrwiS",
+    "drive_name": "៤៧​​ អារម្មណ៍សង្គ រូប​ សទ្ធារម្មណ៍គន្ធារម្មណ៍.mp3",
+    "source_md5": "2416cbbbe60538f17f53ffeac1d0770b",
+    "key": "audio/2416cbbbe60538f1-a64.mp3",
+    "bytes": 41781541,
+    "duration_s": 5222,
+    "sha256": "07b2d1bf582e6be1e54831902fc9d6fa3ff46d6cccd89bef7d9e8fa0f4718520",
+    "loudness": {
+      "pass1": {
+        "I": -20.4,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.6999999999999993,
+      "limit": 0.6,
+      "depth": 7.736974992327127,
+      "busy": 5.842579916326003,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
