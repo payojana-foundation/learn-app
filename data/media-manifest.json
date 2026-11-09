@@ -8544,5 +8544,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1o8gzWMUttMLvsnGDXkT2QcSWg2T4qnFG",
+    "drive_name": "37.៣៧ ហេតុនាំឱ្យកើតទោសមូលចិត្តមាន ៤ ប្រការ.mp3",
+    "source_md5": "b2762d62f3a51d462af5bc6f0cf4d614",
+    "key": "audio/b2762d62f3a51d46-a64.mp3",
+    "bytes": 41455742,
+    "duration_s": 5181,
+    "sha256": "4afc0a15bafec1c657d55254922e64c22e29c07b9a2d3a86e5aa5cdaa47a2d8e",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 5.800000000000001,
+      "limit": 0.6,
+      "depth": 10.436974992327128,
+      "busy": 6.0566003145534015,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
