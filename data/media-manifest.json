@@ -12024,5 +12024,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1j4oak7G9V4WZP1KurWUyoSo1OzRmoRwp",
+    "drive_name": "០៩ អាបោធាតុ ធាតុដី តេជោធាតុ ធាតភ្លើង.mp3",
+    "source_md5": "a9a43e516326ce8d08ee4807df35c502",
+    "key": "audio/a9a43e516326ce8d-a64.mp3",
+    "bytes": 41845071,
+    "duration_s": 5230,
+    "sha256": "004632f8b13b60ff27f4ba703b6ba7ec68017c982b1f983d6a1b342df7546007",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 11.036974992327128,
+      "busy": 6.783160631667495,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
