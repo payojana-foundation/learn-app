@@ -9095,5 +9095,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tQG7I--isPYVIxyBwOnjhNZ0ulwEuWJn",
+    "drive_name": "42.៤២ ពិចារណាធម៌ដូចម្តេចដើម្បីលះទោសៈ.mp3",
+    "source_md5": "da09fa5f7448121f2b05c3be2e7b2278",
+    "key": "audio/da09fa5f7448121f-a64.mp3",
+    "bytes": 34362139,
+    "duration_s": 4295,
+    "sha256": "e152874bff37eebffb68933ece65476e51bc5607d0f3268a71bf8c4f75a7ecd9",
+    "loudness": {
+      "pass1": {
+        "I": -18.7,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": 2.5,
+      "limit": 0.6,
+      "depth": 7.236974992327127,
+      "busy": 5.867819102496944,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
