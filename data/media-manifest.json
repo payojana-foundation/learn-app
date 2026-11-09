@@ -15794,5 +15794,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17jU0wGbAw81n8Vx_BTvuJWSpgoG8BWdE",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 40 ចែកមនោទ្វារក្នុងកាមភូមិ ១១.mp3",
+    "source_md5": "6db591bc4061690171a9ab80a183aa27",
+    "key": "audio/6db591bc40616901-a64.mp3",
+    "bytes": 41293365,
+    "duration_s": 5161,
+    "sha256": "b70b32da2d156a2f6a231e00856d59deb01d353aae72eba56acd701a4c9a3373",
+    "loudness": {
+      "pass1": {
+        "I": -26.9,
+        "TP": -8.3,
+        "LRA": 0
+      },
+      "G": 9.299999999999997,
+      "limit": 0.6,
+      "depth": 5.436974992327124,
+      "busy": 0.13270950180659286,
+      "out": {
+        "I": -18,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
