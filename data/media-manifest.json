@@ -11647,5 +11647,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1TwbOCq6XKZcPNKAmSo7w4f8UGdHMWyZf",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ០១ ពណ៌នាអំពីឆក្កធម៌មាន ៦ យ៉ាង(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "6ef1886eee558c5c75d2336d857619db",
+    "key": "audio/6ef1886eee558c5c-a64.mp3",
+    "bytes": 45406919,
+    "duration_s": 5675,
+    "sha256": "b6363e7cfd954ad0fb099490b4f33307b0732955134962fb2f51f6b6c53b1b78",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.594316269809808,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
