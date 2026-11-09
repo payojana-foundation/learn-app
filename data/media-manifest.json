@@ -12372,5 +12372,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kmftpfxGMATxnl6LAMnuy-Yi2S6LRqtt",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ០៨ វេទនាសង្គហ ចែកវេទនាដោយអារម្មណានុភវលក្ខណន័យ.mp3",
+    "source_md5": "1ba30a5ffa2a0521536b390e5b9c815b",
+    "key": "audio/1ba30a5ffa2a0521-a64.mp3",
+    "bytes": 42865936,
+    "duration_s": 5358,
+    "sha256": "ed2e13dedbd203b9fea75f25ead2644323861d6390ac1644ad60cc7f392498d4",
+    "loudness": {
+      "pass1": {
+        "I": -24.5,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "G": 8.8,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 5.00191295584338,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
