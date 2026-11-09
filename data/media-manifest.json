@@ -16577,5 +16577,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15_GSuOc1HqiSaPndU2kV0kCP7Myhmq0G",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 52 ឈានសមាបត្តិវិថី និងបាទកឈានវិថី.mp3",
+    "source_md5": "3d52c6a001c5407d5dd69f8bf0b877c4",
+    "key": "audio/3d52c6a001c5407d-a64.mp3",
+    "bytes": 43638325,
+    "duration_s": 5454,
+    "sha256": "3a36f4ce543edf59d3f5fae960cd94ef616f76e0601be5194454f9964272c3d1",
+    "loudness": {
+      "pass1": {
+        "I": -14.3,
+        "TP": 0.6,
+        "LRA": 0
+      },
+      "G": -3.3000000000000007,
+      "limit": 0.6,
+      "depth": 1.7369749923271267,
+      "busy": 0.0009166322929556808,
+      "out": {
+        "I": -18,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
