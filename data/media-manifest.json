@@ -16925,5 +16925,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16Az9-BdyoCmAjYBortNnJmuOsPdmcrWv",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៤៦ អភិញ្ញាវិថី ការហ្វឹកហាត់ឱ្យស្ទាត់ជំនាញ១៤ យ៉ាង(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "0902cc4af63e72315bf080f950e8a3d8",
+    "key": "audio/0902cc4af63e7231-a64.mp3",
+    "bytes": 21236131,
+    "duration_s": 2654,
+    "sha256": "fef62ff315b0406775695ff0fcb10f1f3971a4a462683f9f520bf239aeb57802",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 7.400000000000002,
+      "limit": 0.6,
+      "depth": 10.73697499232713,
+      "busy": 4.860614051610473,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
