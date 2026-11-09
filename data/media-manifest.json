@@ -11386,5 +11386,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nJuAh9bP0fuOtHc8IPzHHg6lz357djVH",
+    "drive_name": "១  និយមន័យរូប ពាក្យថារូបក្ខន្ធ.mp3",
+    "source_md5": "9b556d4ee18d714099899e98fd0d1d21",
+    "key": "audio/9b556d4ee18d7140-a64.mp3",
+    "bytes": 21647612,
+    "duration_s": 2705,
+    "sha256": "4cb2fe4dce1b9d39040589baf7c98bd85d07f46f89381ff4b3fc227e2fbc850c",
+    "loudness": {
+      "pass1": {
+        "I": -24.6,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 8.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.212812742525593,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
