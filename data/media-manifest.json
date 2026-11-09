@@ -14547,5 +14547,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Kt-R3-7Im4Y27i1EQeLghel5FrJCNLPf",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ២៤ កិច្ចសង្គហៈ ជវនកិច្ច និងតទាលម្ពណកិច្ច.mp3",
+    "source_md5": "b72381a7d2bf31f1de203cd2c12fdcef",
+    "key": "audio/b72381a7d2bf31f1-a64.mp3",
+    "bytes": 43749920,
+    "duration_s": 5468,
+    "sha256": "4c267c6e3b82be6f6dfdf2c3e266190687b8bd8bf32b3aba0e3b04d84a1707ae",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.699999999999999,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 5.930568508054931,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
