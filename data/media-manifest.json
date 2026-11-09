@@ -6688,5 +6688,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CdUzgYoOqzbNy3Xet8m7n1BWNi8eX6uz",
+    "drive_name": "១៨ មិស្សកមនោទ្វារវិថី និយមមនោទ្វារមាន៤ យ៉ាង ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "3a6cfc35a2fe1a5e2088affba934f361",
+    "key": "audio/3a6cfc35a2fe1a5e-a64.mp3",
+    "bytes": 38952167,
+    "duration_s": 4868,
+    "sha256": "69d6549834861bac9620a12ea282c786bc7778100e21f3b39d0c27300075c04d",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "G": 9.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.141764222632984,
+      "out": {
+        "I": -18.8,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
