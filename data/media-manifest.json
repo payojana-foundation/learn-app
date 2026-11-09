@@ -4136,5 +4136,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1W2RbeoHbxTiMEYnHrSENNnUeq9EPl6qR",
+    "drive_name": "បិដកលេខ១៦ 17 ការកម្រើកផែនដីដោយហេតុ ៨ យ៉ាង.mp3",
+    "source_md5": "6032f725242765e061be9df3adaad5fb",
+    "key": "audio/6032f725242765e0-a64.mp3",
+    "bytes": 38747576,
+    "duration_s": 4843,
+    "sha256": "dd6b2dca6dc236d95730fdbaff6ceebe9a61ab44571df5ad69dad3fc5e439368",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -11.7,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 1.6369749923271266,
+      "busy": 0.052907048767394806,
+      "out": {
+        "I": -18,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
