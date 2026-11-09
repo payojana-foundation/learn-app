@@ -4368,5 +4368,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PQY1azm1NNDzoUwISTJ9vEzgreZ7FvE6",
+    "drive_name": "បិដកលេខ១៦ 22 ការបូជាព្រះសពនៃព្រះពុទ្ធ .mp3",
+    "source_md5": "fddef09745419916727ea14802d0a5af",
+    "key": "audio/fddef09745419916-a64.mp3",
+    "bytes": 42983592,
+    "duration_s": 5372,
+    "sha256": "4154bf9512ccbafe097ae8d99a9150ff33982446e058e05653ff54df555919ac",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 9.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.250107018556087,
+      "out": {
+        "I": -18.7,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
