@@ -16316,5 +16316,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1j-XJofUhBXDsZkS4avyKMa2DmcJdsBKE",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 48 សុបិនមនោទ្វារវិថី ១២ ប្រភេទ.mp3",
+    "source_md5": "84e043a45fa164869fabcabb876f3433",
+    "key": "audio/84e043a45fa16486-a64.mp3",
+    "bytes": 42529270,
+    "duration_s": 5316,
+    "sha256": "c9db8198b09a7fa1d71def5ee6597ba225dd21e782e33fef63a828f37100425a",
+    "loudness": {
+      "pass1": {
+        "I": -16.9,
+        "TP": -3,
+        "LRA": 0
+      },
+      "G": -0.6000000000000014,
+      "limit": 0.6,
+      "depth": 0.8369749923271259,
+      "busy": 0.001881060541933542,
+      "out": {
+        "I": -18,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
