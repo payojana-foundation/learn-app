@@ -6253,5 +6253,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tXygwSjZsiffgG27yDsfw2opP4Wa4ttM",
+    "drive_name": "19.១៩ មានះ ៩ យ៉ាង.mp3",
+    "source_md5": "49358ce8bf5586231c7d4468040d2d30",
+    "key": "audio/49358ce8bf558623-a64.mp3",
+    "bytes": 38060660,
+    "duration_s": 4757,
+    "sha256": "15bda700c8da75e51e2cd9c664489764005719e242d07bfb20910fad228270cd",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.599999999999998,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 6.163361393994808,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
