@@ -10922,5 +10922,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19w4d-WGGqZ57LFzYAZ2Wpiskk9hGkHFj",
+    "drive_name": "៥៥ សង្គហន័យ ចែកអកុសលចិត្ត អហេតុកចិត្តនិងចេតសិក.m4a",
+    "source_md5": "3328ae4ad2cc9aef916428a49a6b4f41",
+    "key": "audio/3328ae4ad2cc9aef-a64.mp3",
+    "bytes": 36727579,
+    "duration_s": 4590,
+    "sha256": "3fe6f0d292fcfc2f3c54bcda3aca4d39860b9f0cebfbdd7a77471122d64f6b35",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 6.199999999999999,
+      "limit": 0.6,
+      "depth": 10.636974992327126,
+      "busy": 5.558278333224422,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
