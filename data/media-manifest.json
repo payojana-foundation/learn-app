@@ -7790,5 +7790,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IBm3iBZsuCYJON3CAGLg7iccFu_Hcjlr",
+    "drive_name": "31.៣១ ចែកលោភចិត្តដោយន័យផ្សេងៗ.mp3",
+    "source_md5": "eec28b1039f076d877955685d5e5a7a3",
+    "key": "audio/eec28b1039f076d8-a64.mp3",
+    "bytes": 39146727,
+    "duration_s": 4893,
+    "sha256": "59678c2faadc18d70b3cc87a3a417f70a852e246e3745ead421add97eba6b5ac",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.979604765700039,
+      "out": {
+        "I": -18.8,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
