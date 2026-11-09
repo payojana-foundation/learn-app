@@ -10632,5 +10632,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IQYpRa42AKYYLeLiTqcr8HuajjFKlIz7",
+    "drive_name": "58.៥៨ បញ្ចប់ធម្មគុណ គុណរបស់ព្រះធម៌.mp3",
+    "source_md5": "70b4617bc7d5684364b49fc36ecff5e2",
+    "key": "audio/70b4617bc7d56843-a64.mp3",
+    "bytes": 36244836,
+    "duration_s": 4530,
+    "sha256": "3827509a2fc043fd53e6899c09ce778ed697a2a0cb19e20bf583f0a8c246c7d3",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 6.899999999999999,
+      "limit": 0.6,
+      "depth": 11.336974992327125,
+      "busy": 7.000529737007648,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
