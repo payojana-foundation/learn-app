@@ -8167,5 +8167,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LmOTwbORA8K3Vrbvad0B9P5xHMvXZBdG",
+    "drive_name": "២៣ កិច្ចសង្គហ ពន្យល់ចិត្ត និងចេតសិកធ្វើកិច្ចតាមទ្វារ៣.mp3",
+    "source_md5": "67f61c86b1cc33197b1bd76186b86d4c",
+    "key": "audio/67f61c86b1cc3319-a64.mp3",
+    "bytes": 42062619,
+    "duration_s": 5257,
+    "sha256": "14d4affb6092d8d326bfa6793a241208f7194e2e52afc65a27ee0821466f545f",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 10.436974992327128,
+      "busy": 5.148303472935448,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
