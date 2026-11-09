@@ -13619,5 +13619,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WweJCqQiXILK-wh52a-M8lQGCYAM1-Vi",
+    "drive_name": "២៩ លក្ខណរូប ឧបចយរូប សន្តតិរូប.mp3",
+    "source_md5": "cc53c7d96587711525286fea06173770",
+    "key": "audio/cc53c7d965877115-a64.mp3",
+    "bytes": 39124784,
+    "duration_s": 4890,
+    "sha256": "ccfc6f73fe85ce79e6b6166941b76cd7e9d69e515cddef693ed2952a08f86482",
+    "loudness": {
+      "pass1": {
+        "I": -27.7,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 11.599999999999998,
+      "limit": 0.6,
+      "depth": 11.536974992327124,
+      "busy": 5.9845007207778265,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
