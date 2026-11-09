@@ -9298,5 +9298,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Od3Jl8ZQZfs-55tEtlKVQC0wmW6R44hA",
+    "drive_name": "44.៤៤ និយមន័យមោហមូលចិត្ត ២ ដួង.mp3",
+    "source_md5": "558a21a3d915e0407973608c21382627",
+    "key": "audio/558a21a3d915e040-a64.mp3",
+    "bytes": 37288062,
+    "duration_s": 4660,
+    "sha256": "f0f9aaff621bbb5f6ef488c1c5c5d704088d9e0a7f869647f587f9670ce3ec40",
+    "loudness": {
+      "pass1": {
+        "I": -19.1,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 2.6000000000000014,
+      "limit": 0.6,
+      "depth": 7.236974992327129,
+      "busy": 4.11933189585814,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
