@@ -13648,5 +13648,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1W3SjmSBR5LEZh64e1v9F7zPfXpTAAJ22",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ១៧ មហន្តារម្មណ៍សង្ខេប ២ វិថី និង ៤ វិថី(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "51064f67ab843bd9383844a39b1501fe",
+    "key": "audio/51064f67ab843bd9-a64.mp3",
+    "bytes": 38287194,
+    "duration_s": 4785,
+    "sha256": "0db8a50ef0338e6cd336f3fdc8ab75827e17adc4a76a35b98d250157838558ba",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "G": 7,
+      "limit": 0.6,
+      "depth": 9.936974992327126,
+      "busy": 4.936427175945757,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
