@@ -5499,5 +5499,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18tK9H5JAKFNJ9er-bFkh6nZZMzpVz0ek",
+    "drive_name": "០៨ សញ្ញាចេតសិក ចេតនាចេតសិក.m4a",
+    "source_md5": "90711f7496a63168d472c8ab215a105b",
+    "key": "audio/90711f7496a63168-a64.mp3",
+    "bytes": 43137819,
+    "duration_s": 5392,
+    "sha256": "13d6400963c769f5eafc3e1e4666e83972a0f368177d9e79f6004cfd6aeec80f",
+    "loudness": {
+      "pass1": {
+        "I": -17,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 0.3000000000000007,
+      "limit": 0.6,
+      "depth": 4.936974992327128,
+      "busy": 6.253245428582026,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
