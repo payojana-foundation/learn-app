@@ -14779,5 +14779,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_RSdj3ClIrwiio2AZHHrhliKQKAXPFvS",
+    "drive_name": "៤៤ រូបកលាបន័យទី៣ ចិត្តជ្ជកលាបមាន ៩ កលាប.mp3",
+    "source_md5": "47eb70fc3552f1517364eaf8f1d82fdb",
+    "key": "audio/47eb70fc3552f151-a64.mp3",
+    "bytes": 43919612,
+    "duration_s": 5489,
+    "sha256": "2de188c38eae1b2cebff465ab87c0efc8009df4fe755867c9d3d616a44fb062e",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.100000000000001,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 5.482567988487951,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
