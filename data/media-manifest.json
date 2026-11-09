@@ -14692,5 +14692,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RFFZSFL7ApGJLHMPHytgzPQpnEfegozW",
+    "drive_name": "៤៣ រូបកលាបន័យទី៣ កម្មជ្ជកលាបមាន ៩ កលាប.mp3",
+    "source_md5": "df0b46812f2d712f8871f694f1c5ff1f",
+    "key": "audio/df0b46812f2d712f-a64.mp3",
+    "bytes": 42590501,
+    "duration_s": 5323,
+    "sha256": "c69e5912c64422140bf36ae83c30f7c400b5505af3699a511a4660a2c040add4",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 11.636974992327128,
+      "busy": 5.41230335759568,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
