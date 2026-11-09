@@ -7094,5 +7094,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dENHVedsValpRXsAX2AGYzxpQBSrqYEV",
+    "drive_name": "១៩ មោហចេតសិក ការមិនដឹងក្នុងខន្ធ អាយតន ធាតុ.m4a",
+    "source_md5": "86b102f9827999471a34d9c1e36871cd",
+    "key": "audio/86b102f982799947-a64.mp3",
+    "bytes": 28239455,
+    "duration_s": 3529,
+    "sha256": "f48f255d96a48c8ca9057b08717ab37cf8bf12df6c902f5ba7b55b12c2560c57",
+    "loudness": {
+      "pass1": {
+        "I": -22.6,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 6.5,
+      "limit": 0.6,
+      "depth": 10.936974992327126,
+      "busy": 5.729269950990113,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
