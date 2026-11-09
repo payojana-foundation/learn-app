@@ -11734,5 +11734,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1uSZlArmQotTPOsPR6ycKAdh9KkL7OnK6",
+    "drive_name": "72.៧២ ប្រយោគរបស់បាណាតិបាតមាន៥  ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី១.mp3",
+    "source_md5": "c6900ccdfe5b5ba493dfd5929f9362ea",
+    "key": "audio/c6900ccdfe5b5ba4-a64.mp3",
+    "bytes": 33699047,
+    "duration_s": 4212,
+    "sha256": "cbc05f3878884b5d7ec0599832cbb16cb6c8f78aeb1d6c83d5b8da586f122454",
+    "loudness": {
+      "pass1": {
+        "I": -20,
+        "TP": 0.6,
+        "LRA": 0
+      },
+      "G": 4,
+      "limit": 0.6,
+      "depth": 9.036974992327128,
+      "busy": 5.404643488788918,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
