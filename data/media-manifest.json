@@ -10197,5 +10197,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1j3ie7t51JLfhWLWp8uzjEPJ3PI6CHGeG",
+    "drive_name": "53.៥៣ ទ្រង់ព្រះនាមថា បុរិសទម្មសារថិ.mp3",
+    "source_md5": "7e8cf9224ea04d5e590e877bbf55071b",
+    "key": "audio/7e8cf9224ea04d5e-a64.mp3",
+    "bytes": 37976650,
+    "duration_s": 4747,
+    "sha256": "aa076902a8ed5cf44b899b67f6f12c0bba0b1cfb4e15974ba19c1986fa61c990",
+    "loudness": {
+      "pass1": {
+        "I": -20.1,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 3.900000000000002,
+      "limit": 0.6,
+      "depth": 8.236974992327129,
+      "busy": 4.8306316554491735,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
