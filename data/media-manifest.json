@@ -8399,5 +8399,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XuFjvEI7MPLRQh1cMnJjsz3rkjcnwQFz",
+    "drive_name": "36.៣៦ អាឃាតអ្នកដទៃដោយវត្ថុ ១០ ប្រការ.mp3",
+    "source_md5": "596090f914296176f95a0fdc4949de82",
+    "key": "audio/596090f914296176-a64.mp3",
+    "bytes": 33870410,
+    "duration_s": 4233,
+    "sha256": "ef967c3f802fae9ca4f172087a80eca9a43b6eb4cec70f0dcfa4c937eb202981",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 6.600000000000005,
+      "limit": 0.6,
+      "depth": 11.236974992327132,
+      "busy": 6.4425745497490405,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
