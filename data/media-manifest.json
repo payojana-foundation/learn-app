@@ -7935,5 +7935,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ia6o87PgpAcFl3c2gHVlg8StVAkdo53t",
+    "drive_name": "២៥ ទិដ្ឋិចេតសិក និយតមិច្ឆាទិដ្ឋិ ទិដ្ឋិមានទោសធ្ងន់.m4a",
+    "source_md5": "8a913d724e3d9f9c3c7ab61ffcb7865f",
+    "key": "audio/8a913d724e3d9f9c-a64.mp3",
+    "bytes": 39703657,
+    "duration_s": 4962,
+    "sha256": "c6af526d24b38b083a73260b37ea3368b3b056133cbdef90b21a19636473e176",
+    "loudness": {
+      "pass1": {
+        "I": -25.2,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.243154204195128,
+      "out": {
+        "I": -19,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
