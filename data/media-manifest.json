@@ -6137,5 +6137,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1OO5imvimqWOr9o4t5GzcC3NhHJlkK69H",
+    "drive_name": "១២_ពន្យល់បរិកប្ប_២_ទាក់ទងនឹង៥_ចំណុចភិក្ខុអគ្គចិត្តោ_យ៉ុន_យី​_បរិច្ឆេទទី៤.mp3",
+    "source_md5": "29771953665c55a81a25191f0d55aa78",
+    "key": "audio/29771953665c55a8-a64.mp3",
+    "bytes": 40413143,
+    "duration_s": 5051,
+    "sha256": "7dd977f7099a7faf2544c6cee7a0b7af5f2186617c4036ab3d678547c0120910",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 9.736974992327127,
+      "busy": 6.520211418164542,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
