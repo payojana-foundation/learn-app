@@ -3324,5 +3324,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KGRtOUxT7h76x5ySNGk8FpeAeQLBMySz",
+    "drive_name": "២-៧៧ តេមិយជាតក ទ្រង់បំពេញនេក្ខម្មបារមី ពោធិសត្វទ្រាំអស់១៦ឆ្នាំ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​.mp3",
+    "source_md5": "036616f1415d2b070c4a5741cc512776",
+    "key": "audio/036616f1415d2b07-a64.mp3",
+    "bytes": 34473525,
+    "duration_s": 4309,
+    "sha256": "e9e25e76f86e06b3b9161d87bbbc5f09f202555224f3cbd0ba36d5915d44a3fb",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 8.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 9.375108780153859,
+      "out": {
+        "I": -18.9,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
