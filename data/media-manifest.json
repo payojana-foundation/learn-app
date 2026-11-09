@@ -8863,5 +8863,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vSNRVf8FN3WfB-jlWOWaqBxj6UWdRMGM",
+    "drive_name": "40.៤០ ផ្សាយមេត្តាទៅកាន់ទិសផ្សេងៗ.mp3",
+    "source_md5": "f653e151c12d0ee772487abcf6504bcb",
+    "key": "audio/f653e151c12d0ee7-a64.mp3",
+    "bytes": 38042896,
+    "duration_s": 4755,
+    "sha256": "4dfa9bafa7d1537d421924a4f23067d609e0267f7753ba77fbfc3e8d22af9cf0",
+    "loudness": {
+      "pass1": {
+        "I": -22.6,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 6.199999999999999,
+      "limit": 0.6,
+      "depth": 10.636974992327126,
+      "busy": 4.866149349147268,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
