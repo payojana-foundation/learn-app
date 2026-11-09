@@ -11792,5 +11792,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yycTJTa1JpH0L0RPhMgs6TeSNyiCNO_Q",
+    "drive_name": "០៦ មហាភូតរូបន័យទី ៤ និងន័យទី ៥.mp3",
+    "source_md5": "56f0353f3eeec0a46e6691486ebd4c61",
+    "key": "audio/56f0353f3eeec0a4-a64.mp3",
+    "bytes": 42124268,
+    "duration_s": 5265,
+    "sha256": "65c6f66540bf3ad2c999d07682887ec5770f4b53128adc4c79323498aaac6061",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 8.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.18341088215744,
+      "out": {
+        "I": -18.4,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
