@@ -8225,5 +8225,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MnmDSTa63Xhaal8SKnGHAf8KN0e6th-W",
+    "drive_name": "៣៧ អប្បនាជវនវារៈ អាទិកម្មិកឈានវិថី ឈានសមាបត្តិវិថី  ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "704ddea07a4b0afa2cdc4a0d60e2f289",
+    "key": "audio/704ddea07a4b0afa-a64.mp3",
+    "bytes": 35881838,
+    "duration_s": 4485,
+    "sha256": "0eabc1534783f63447a7dd9adc3eb63af641a09d66de776965188f05543138ef",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 6.300000000000001,
+      "limit": 0.6,
+      "depth": 9.836974992327129,
+      "busy": 6.489398466066173,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
