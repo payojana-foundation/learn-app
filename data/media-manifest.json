@@ -17447,5 +17447,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19Y-CAWE3mNP3PJBde-C7ZqKCcPiE_6Dv",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៥២ មរណៈសេចក្តីស្លាប់ចែកជា ៣ យ៉ាង(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "8b5865ca4f7598b5eda86b2b88c4f7f3",
+    "key": "audio/8b5865ca4f7598b5-a64.mp3",
+    "bytes": 44028072,
+    "duration_s": 5503,
+    "sha256": "08c451d4c111ca3fee1307211d0c1ea790176bfee3bab855f2110cfeffee50e6",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -1.3,
+        "LRA": 0
+      },
+      "G": 8.599999999999998,
+      "limit": 0.6,
+      "depth": 11.736974992327125,
+      "busy": 6.172208594530753,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
