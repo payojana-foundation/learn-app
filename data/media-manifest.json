@@ -6833,5 +6833,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19JaC37nrgHxTk02PK0MyV_dOfUl-aOjZ",
+    "drive_name": "២៥_បញ្ចប់មិស្សកមនោទ្វារ_អត្ថគ្គហណវិថី_នាមគ្គហណវិថិ_ភិក្ខុអគ្គចិត្តោ.mp3",
+    "source_md5": "338fb5ca142766a8e79c544e285499ba",
+    "key": "audio/338fb5ca142766a8-a64.mp3",
+    "bytes": 34845091,
+    "duration_s": 4355,
+    "sha256": "d9f7ed9c1f0d3483d4a965963def9e26b3104914c93f36332c08f2ff45b25e56",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 5.599999999999998,
+      "limit": 0.6,
+      "depth": 8.836974992327125,
+      "busy": 6.427070897235742,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
