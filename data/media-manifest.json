@@ -18114,5 +18114,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fdzgNk0bDjT8OMonxg_0S2IRI9K86Zd_",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៦២ វត្ថុសង្គហ ចែកចិត្តអាស្រ័យវត្ថុនិទ្វារ.mp3",
+    "source_md5": "d424815b85b24676b051fdcbf8ea14aa",
+    "key": "audio/d424815b85b24676-a64.mp3",
+    "bytes": 42304199,
+    "duration_s": 5287,
+    "sha256": "1c262409986603d9d559f0efa0a69cbf6c520f01d66d4d7be548ca7e1b11ac9d",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 5.626181921331316,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
