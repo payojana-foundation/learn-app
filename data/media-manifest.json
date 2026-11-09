@@ -17476,5 +17476,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ClmWrWBehcP5jTp6XzuR9shPSVi0Ri6I",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ៥០ បញ្ចប់អង្គធម៌របស់អារម្មណ៍ និងចូលកាមារម្មណ៍.mp3",
+    "source_md5": "ac0884699b60e0778b62fb3517b747e5",
+    "key": "audio/ac0884699b60e077-a64.mp3",
+    "bytes": 44860438,
+    "duration_s": 5607,
+    "sha256": "5f54edb7749c81440a9dbd42b274054db222debc4a95eac17facc4b43c683fb0",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 10.500000000000004,
+      "limit": 0.6,
+      "depth": 11.73697499232713,
+      "busy": 5.450066874721355,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
