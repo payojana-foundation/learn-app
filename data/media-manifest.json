@@ -16983,5 +16983,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zUhDt87fstdBgLVC4cOhLZELtfQD-Dwd",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 58 បញ្ចទា្វរមរណាសន្នវិថី ភិក្ខុអគ្គចិត្តោ.mp3",
+    "source_md5": "36d72a20fff93c0e881fcab33f784956",
+    "key": "audio/36d72a20fff93c0e-a64.mp3",
+    "bytes": 42185499,
+    "duration_s": 5273,
+    "sha256": "fe29cc9ac3c3a0f4cfeb1b78b3e1d55571634dbc02a760fa3c0518e4129bccf0",
+    "loudness": {
+      "pass1": {
+        "I": -17.4,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": -0.20000000000000284,
+      "limit": 0.6,
+      "depth": 2.1369749923271244,
+      "busy": 0.003555749409745598,
+      "out": {
+        "I": -18,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
