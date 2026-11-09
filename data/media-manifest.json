@@ -16896,5 +16896,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1077ePza4tC6Ioj0p8JmaBjKbweHMBQyK",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 57 មរណាសន្នវិថី វិថីពេលជិតស្លាប់.mp3",
+    "source_md5": "1bfbaeb38d895a82e8966bd40f3da238",
+    "key": "audio/1bfbaeb38d895a82-a64.mp3",
+    "bytes": 47608937,
+    "duration_s": 5951,
+    "sha256": "48a177a640978e353a0b86dfae405d89536182c49bc59bf01f91ec5a494ef3cf",
+    "loudness": {
+      "pass1": {
+        "I": -17.3,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": -0.3000000000000007,
+      "limit": 0.6,
+      "depth": 2.0369749923271265,
+      "busy": 0.0006301356051822353,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
