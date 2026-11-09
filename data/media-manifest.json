@@ -4745,5 +4745,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1i4QzFD0qkyIYQkNax0njokv3TT7MRNEC",
+    "drive_name": "6.០៦ សមុដ្ឋាននាំឱ្យរូបបែកធ្លាយ.mp3",
+    "source_md5": "74aedce83990ced095bf5ccf948da8f5",
+    "key": "audio/74aedce83990ced0-a64.mp3",
+    "bytes": 30224761,
+    "duration_s": 3778,
+    "sha256": "82755c4217965024dc18c04c23e20b840fba8792a2c6a1a42cce0d30e8e9368a",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 5.100000000000001,
+      "limit": 0.6,
+      "depth": 9.63697499232713,
+      "busy": 4.229364354627387,
+      "out": {
+        "I": -18.1,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
