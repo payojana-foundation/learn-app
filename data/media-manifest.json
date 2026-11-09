@@ -13938,5 +13938,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GA1DK0TXyR1YH-SCLq_a5rAo1kTHeh_M",
+    "drive_name": "បរិច្ឆេទ ទី៣ បកិណ្ណក​សង្គហវិភាគ ២០ កិច្ចសង្គហ ពន្យល់បដិសន្ធិកិច្ច ភវង្គកិច្ច.mp3",
+    "source_md5": "627e1a10ff180f0da980b559236cb2bb",
+    "key": "audio/627e1a10ff180f0d-a64.mp3",
+    "bytes": 43231860,
+    "duration_s": 5403,
+    "sha256": "e5ebc1fd5188a202efe528dc3dd53595b2e6d40ac4cf43671b836c2a0751764d",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 6.066164564809075,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
