@@ -12256,5 +12256,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cONIh-ErchgAvHhsl6dNO2draM2ueiwv",
+    "drive_name": "១២ ឧបមាធាតុ ៤ ពេជ្ឈឃាតគម្រប់៥ ពេជ្ឈឃាតគ្រប់៦.mp3",
+    "source_md5": "c09e3a62d83a9401d9ac94cc5551925b",
+    "key": "audio/c09e3a62d83a9401-a64.mp3",
+    "bytes": 44017205,
+    "duration_s": 5502,
+    "sha256": "ed3b63dbff55e8b3570df9a82414f4ca2cfb09ca773d194de14f28759c211281",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.099999999999998,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 6.400056342123916,
+      "out": {
+        "I": -18.1,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
