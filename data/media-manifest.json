@@ -17505,5 +17505,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HsVOed5556NEWUpqpgld6vnIPWVqboeA",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ៥៣ បញ្ចទ្វារមរណាសន្នវិថី មាន៤ យ៉ាង(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "0cd065288652310216c55e2cb1bc5af7",
+    "key": "audio/0cd0652886523102-a64.mp3",
+    "bytes": 42856532,
+    "duration_s": 5357,
+    "sha256": "24539b0442ec09b6b129c2d771dd343c06b0ae2b48fbe74fbedea863dfb62fc9",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 8.000000000000004,
+      "limit": 0.6,
+      "depth": 11.636974992327131,
+      "busy": 5.698565441800991,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
