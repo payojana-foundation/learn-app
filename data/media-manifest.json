@@ -11038,5 +11038,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WdNme1XgkAvzRZZOJMujy7FN1ngAs1tb",
+    "drive_name": "63.៦៣ ការសៅហ្នងព្រះត្រៃសរណគមន៍.mp3",
+    "source_md5": "7d7ef11a31032a8f99037e3654410c38",
+    "key": "audio/7d7ef11a31032a8f-a64.mp3",
+    "bytes": 25400885,
+    "duration_s": 3175,
+    "sha256": "0aac7903d8446ee30fa5f5b2d8842e306e4472dc706ec24aee11a623c5152631",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 7.663025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.854571509558754,
+      "out": {
+        "I": -18.4,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
