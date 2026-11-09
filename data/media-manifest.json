@@ -9385,5 +9385,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15_4vfQebt71HFwVyKuGlUZEcBaXgwHZs",
+    "drive_name": "៤៨ បរិនិព្វានវិថីពិសេស បច្ចវេក្ខណសមន្តរ អភិញ្ញា ជីវិតសមសីសី ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "e8bd49a2ccd084ccbc6224821a8d78c8",
+    "key": "audio/e8bd49a2ccd084cc-a64.mp3",
+    "bytes": 40754198,
+    "duration_s": 5094,
+    "sha256": "de39c5920b1cea196e3629473b02fb7e9f8d4e11ef6de098ce2c8b58ef40a584",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.200000000000003,
+      "limit": 0.6,
+      "depth": 10.23697499232713,
+      "busy": 6.708298571919321,
+      "out": {
+        "I": -18.1,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
