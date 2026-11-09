@@ -8138,5 +8138,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1sYfmF57NKZOUvtDg43YjGcDFVGdrnzOO",
+    "drive_name": "34.៣៤ ផលរបស់លោភមូលចិត្តបច្ចុប្បន្ននិងអនាគត.mp3",
+    "source_md5": "7dfaedb3852793d7b90acd6b9f460855",
+    "key": "audio/7dfaedb3852793d7-a64.mp3",
+    "bytes": 28619171,
+    "duration_s": 3577,
+    "sha256": "6a7a3a03f7285183ce2c5dcf099f6b9fdc460d08a8afa1648d917405d65afc75",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 5.5,
+      "limit": 0.6,
+      "depth": 9.936974992327126,
+      "busy": 5.37618628314255,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
