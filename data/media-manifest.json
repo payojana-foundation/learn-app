@@ -13590,5 +13590,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vtHbMXjizZlxUcF3IHUKsFyoTq3mpt3j",
+    "drive_name": "បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 20 អតីតគ្គហណវិថី.mp3",
+    "source_md5": "2828fb7fb3830025220e51a437b72f77",
+    "key": "audio/2828fb7fb3830025-a64.mp3",
+    "bytes": 38324183,
+    "duration_s": 4790,
+    "sha256": "6716201d98875cedb3f1058abeed465c6ef31df58b78934b83d5ae4bd8d120aa",
+    "loudness": {
+      "pass1": {
+        "I": -18.3,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "G": 0.6999999999999993,
+      "limit": 0.6,
+      "depth": 0.9369749923271264,
+      "busy": 0.0015655985805239536,
+      "out": {
+        "I": -18,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
