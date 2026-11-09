@@ -12749,5 +12749,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Eu9XY_qCSW43_iR4OaC8xtwm4P6qsGN3",
+    "drive_name": "១៨ សទ្ទារម្មណ៍​ សំឡេង គន្ធារម្មណ៍ ក្លិន.mp3",
+    "source_md5": "428b9116c7e66fe0fa8f8735bc7d351c",
+    "key": "audio/428b9116c7e66fe0-a64.mp3",
+    "bytes": 18202792,
+    "duration_s": 2275,
+    "sha256": "eeebde2724242a357aa5cc02b88bcbc4e059abff507535dfd3e8b53c68165fa6",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.100000000000001,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 6.977651298729838,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
