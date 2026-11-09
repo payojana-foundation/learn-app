@@ -10719,5 +10719,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1emuWFsDweIEWzZKRpw8d0mGbMGJQb4Yh",
+    "drive_name": "59.៥៩ បញ្ចប់សង្ឃគុណ គុណរបស់ព្រះសង្ឃ 1152x648.mp3",
+    "source_md5": "accdaacfdf5de723f2da1e449f0539c3",
+    "key": "audio/accdaacfdf5de723-a64.mp3",
+    "bytes": 30637496,
+    "duration_s": 3829,
+    "sha256": "15ea4446aa030aa21a41b91002041248d370634647f7d390b198323f8f2e8949",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": 6,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 5.021999399422924,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
