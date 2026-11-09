@@ -14924,5 +14924,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jFMDQ1gmbcarVhNCCa48q1_AIMJJA0go",
+    "drive_name": "៤៦ រូបកលាបន័យទី៣ អាហារជ្ជកលាបមាន ២ កលាប.mp3",
+    "source_md5": "6c2575288041ac4c0050c6ad56c1bdcc",
+    "key": "audio/6c2575288041ac4c-a64.mp3",
+    "bytes": 46399572,
+    "duration_s": 5799,
+    "sha256": "94ad2fabb98d71553ba26a0107dad367f4954996999a0951e6ff530fe68c7583",
+    "loudness": {
+      "pass1": {
+        "I": -27.5,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 11.863025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.853764720081381,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
