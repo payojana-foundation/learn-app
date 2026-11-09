@@ -8022,5 +8022,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hVEBb9uknB4CnFhIrw-zxgLrCnQsBCI5",
+    "drive_name": "២២ កិច្ចសង្គហ ពន្យល់ឃាយតនកិច្ចដល់ជវនកិច្ច.mp3",
+    "source_md5": "c1acd81d90ae854c64695db2d6d5aa1b",
+    "key": "audio/c1acd81d90ae854c-a64.mp3",
+    "bytes": 41230671,
+    "duration_s": 5153,
+    "sha256": "7d4bcdfc089e8574dee24cdf587e44e15652ea6ba0f7f743c6828afbde354e8e",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 9.7,
+      "limit": 0.6,
+      "depth": 10.436974992327126,
+      "busy": 4.958962319065544,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
