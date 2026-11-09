@@ -5064,5 +5064,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VIE5W89ukNBueScwGTDf_a97pZj2nu6e",
+    "drive_name": "០៥ លក្ខណាទិចតុក្គរបស់វេទនា.m4a",
+    "source_md5": "060198d5d35cf481351acc4a02d80e02",
+    "key": "audio/060198d5d35cf481-a64.mp3",
+    "bytes": 33609394,
+    "duration_s": 4201,
+    "sha256": "b7e52bf5a67680c9cc6b0189bca77253a15d982277f5e93d22bcd7d922913143",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 6.700000000000003,
+      "limit": 0.6,
+      "depth": 11.23697499232713,
+      "busy": 6.838901253228283,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
