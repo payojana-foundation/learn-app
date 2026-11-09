@@ -3411,5 +3411,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1w0Ap-w8t72uwzOOZ3BEbcZrCKVr4uaES",
+    "drive_name": "3_៧៨_តេមិយជាតក_ព្រះពោធិសត្វបានចេញបួសសម្រេចអភិញ្ញា៥_ភិក្ខុអគ្គចិត្តោ.mp3",
+    "source_md5": "2031b2bec9fd69de4543196f9d3107d8",
+    "key": "audio/2031b2bec9fd69de-a64.mp3",
+    "bytes": 32187288,
+    "duration_s": 4023,
+    "sha256": "4f1377283633acf6c17937f4319648141ba9680f10f22eac02bbbbe8d43685d6",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 8.3,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 9.263309638614107,
+      "out": {
+        "I": -18.2,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
