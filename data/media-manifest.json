@@ -12198,5 +12198,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1K9cI3jnR4oYXrS6oWsmmMs0bc6UMV3K5",
+    "drive_name": "77.៧៧ ទោសរបស់បាណាតិបាត៤យ៉ាងរមែងធ្លាក់នរក.mp3",
+    "source_md5": "881a1d2b35d195de734ed596ff30045a",
+    "key": "audio/881a1d2b35d195de-a64.mp3",
+    "bytes": 33663102,
+    "duration_s": 4207,
+    "sha256": "3578c348d1ae784892d14f64185cb668d6aabe3376001aaf2c14083f48c5653f",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 6.399999999999999,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 6.54104827881222,
+      "out": {
+        "I": -18.1,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
