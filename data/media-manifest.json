@@ -5296,5 +5296,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YuX-54iAqduPcwBfpsrldkf2sH_BfvJC",
+    "drive_name": "០៣ ចែកវេទនាជា ៣ ប្រភេទ.mp3",
+    "source_md5": "346263da2d7fb18f1bbd83adbbeb8175",
+    "key": "audio/346263da2d7fb18f-a64.mp3",
+    "bytes": 40682936,
+    "duration_s": 5085,
+    "sha256": "5a666c32c6ee66320e1e3ead092760b19c26c8b8c28eca082b47f7687cd81118",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.111920633984229,
+      "out": {
+        "I": -18.4,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
