@@ -9037,5 +9037,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RFJvseelW6VQ_RWxJVeR6jfv2l7rjXZc",
+    "drive_name": "៣៤ វិចិកិច្ឆាចេតសិក ការសង្ស័យក្នុងព្រះរតនត្រ័យ.m4a",
+    "source_md5": "f97b3d5ddd183cb1369296df7513b3fe",
+    "key": "audio/f97b3d5ddd183cb1-a64.mp3",
+    "bytes": 37953244,
+    "duration_s": 4744,
+    "sha256": "f85d6145ea3211e56154efa6a1c1fa08fe4a22be37a25322004195d223cc0b88",
+    "loudness": {
+      "pass1": {
+        "I": -26.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 6.871693261103265,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
