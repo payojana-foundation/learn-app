@@ -44649,5 +44649,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1s_5IoYzsVq1noEZmCxoOI67JuDSdocxN",
+    "drive_name": "១១៦ នាមរូបប្បច្ចយា សឡាយនំ ចែកដោយបច្ច័យបញ្ចប់  ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "191a9bc8a54dad1011ca33aee9b11827",
+    "key": "audio/191a9bc8a54dad10-a64.mp3",
+    "bytes": 44788131,
+    "duration_s": 5598,
+    "sha256": "e0108c2c05d0618530c9c12ec13ec71a8bd50f1a57299bc627e98cf311487656",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.399999999999999,
+      "limit": 0.6,
+      "depth": 10.536974992327126,
+      "busy": 4.3527284093953735,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
