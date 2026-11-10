@@ -57090,5 +57090,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1h5sAR9zNG6PVrhiz-rFJ5MXEclifn0lW",
+    "drive_name": "37_Ñāṇa_30Sep2026_វិធីចម្រើនអរូបជ្ឈាន៤_ចប់.mp3",
+    "source_md5": "da313a3465ffbedd537bf416a8e9369a",
+    "key": "audio/da313a3465ffbedd-a64.mp3",
+    "bytes": 30125078,
+    "duration_s": 3765,
+    "sha256": "1545fbe3ac5de25a773e51a626bdbc4db569c85c6893abc06463011e875232da",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -3,
+        "LRA": 0
+      },
+      "G": 8.5,
+      "limit": 0.6,
+      "depth": 9.936974992327126,
+      "busy": 7.3929121521138725,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
