@@ -44562,5 +44562,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Y26tizU5TroaAsWDFRU71mGYxNiozsH9",
+    "drive_name": "១១៤ វិញ្ញាណប្បច្ចយា នាមរូបំ នាមរូបជាបច្ច័យដល់នាមរូប  ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "17933093c50d96704cce766fd42beef0",
+    "key": "audio/17933093c50d9670-a64.mp3",
+    "bytes": 43644803,
+    "duration_s": 5455,
+    "sha256": "b7b99cd386e21959b7386517bc7ea88d0fd8824a81b7c28b3b44cb4301c6aeac",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 5.5,
+      "limit": 0.6,
+      "depth": 9.436974992327126,
+      "busy": 5.372510562638047,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
