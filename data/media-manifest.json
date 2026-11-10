@@ -41169,5 +41169,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16-6TzH3mdcujc7C5tI2Nkma-Df5u_0iR",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 20 អធិប្បាយករុណា មុទិតា ឧបេក្ខា.mp3",
+    "source_md5": "bb60c50474d7463b0088bf971a8eeca7",
+    "key": "audio/bb60c50474d7463b-a64.mp3",
+    "bytes": 40649499,
+    "duration_s": 5081,
+    "sha256": "59ebb1a8f7e42893a444cc37f2d945407155fbcfcd21ee28b932a075dcb93de7",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": -3,
+        "LRA": 0
+      },
+      "G": 0.3000000000000007,
+      "limit": 0.6,
+      "depth": 1.736974992327128,
+      "busy": 0.622644480088169,
+      "out": {
+        "I": -18,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
