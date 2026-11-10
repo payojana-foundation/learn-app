@@ -23682,5 +23682,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15zCh8zlgjpFTrsz7lsFhCMWZmU376xSH",
+    "drive_name": "113.១១៣  ហេតុនាំឲ្យកើតសោមនស្សមហាកុសល.mp3",
+    "source_md5": "c79efdcfcc9aa00fb9e720efe2171ee5",
+    "key": "audio/c79efdcfcc9aa00f-a64.mp3",
+    "bytes": 50020980,
+    "duration_s": 6252,
+    "sha256": "a41480b9707b6ffd45f8457e0b3e7e7561b9be77dfb15ec872d1bef80dd9dd9b",
+    "loudness": {
+      "pass1": {
+        "I": -20.1,
+        "TP": 0.7,
+        "LRA": 0
+      },
+      "G": 3.8000000000000007,
+      "limit": 0.6,
+      "depth": 8.936974992327128,
+      "busy": 4.4271583021463075,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
