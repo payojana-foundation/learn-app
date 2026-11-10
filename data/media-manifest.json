@@ -28670,5 +28670,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ojkl6sDWPiJ1bc5IQb4oa9wr3au_Q1e3",
+    "drive_name": "147.១៤៧ ចែកមហាកិរិយាចិត្តដោយន័យផ្សេងៗ.mp3",
+    "source_md5": "ada6e93c6c5e170ccc83a367f0ab5660",
+    "key": "audio/ada6e93c6c5e170c-a64.mp3",
+    "bytes": 38560121,
+    "duration_s": 4819,
+    "sha256": "b7b5b494c7b75875a4106af9656c73598ba3455a4dc695c98266a66a8292ba83",
+    "loudness": {
+      "pass1": {
+        "I": -13.4,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": -4.200000000000001,
+      "limit": 0.6,
+      "depth": -0.4630250076728739,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
