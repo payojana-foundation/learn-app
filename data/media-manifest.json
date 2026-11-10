@@ -47694,5 +47694,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nMMycBFBXJbM8oFgHJY6SZ0-0eBR4o-7",
+    "drive_name": "២៨ ចូឡវេទល្លសូត្រទី៤ វិសាខឧបាសកសួរពីសក្កាយទិដ្ឋិជាដើម (បិដកលេខ ២២).mp3",
+    "source_md5": "05376ca28b3821aff7d1759bfbb1f0d1",
+    "key": "audio/05376ca28b3821af-a64.mp3",
+    "bytes": 56080134,
+    "duration_s": 7009,
+    "sha256": "cea7641cf6fbfa148744716bce43d2fadecc1e16b936c0f839cf2b6091caab5b",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 9.536974992327128,
+      "busy": 5.140870185449358,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
