@@ -47375,5 +47375,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IA7EjDkOnnOwLdEemCkejYS7KbB5X8Ru",
+    "drive_name": "បិដកលេខ១៩ 26 ធម៌ពួក ៤ដល់ពួក៥ និងអដ្ឋកថា .mp3",
+    "source_md5": "9d29fb2f0a162cda9f46caa90c296b15",
+    "key": "audio/9d29fb2f0a162cda-a64.mp3",
+    "bytes": 42726965,
+    "duration_s": 5340,
+    "sha256": "014e40588428966291af6d27698c1db6c802c7ee14ac201f5e5742dab45c641a",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -12.8,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.5369749923271252,
+      "busy": 0.0002340451426271099,
+      "out": {
+        "I": -18,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
