@@ -55553,5 +55553,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zNuD6KSF6nkb8rktE5s0UgJ4MeVAqPzg",
+    "drive_name": "សិក្សារសតិប្បដ្ឋាន ភាគ៤៦ (លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញ ថូ ចន្ថា).mp3",
+    "source_md5": "496f31dbdb9b41e90d7c9572ea536da2",
+    "key": "audio/496f31dbdb9b41e9-a64.mp3",
+    "bytes": 20041812,
+    "duration_s": 2505,
+    "sha256": "f19d1edccd8b4e170466e8be65a58fa566dc17451e51d381b6ad58cff9636776",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 1.3000000000000007,
+      "limit": 0.6,
+      "depth": 5.136974992327128,
+      "busy": 4.726668529458726,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
