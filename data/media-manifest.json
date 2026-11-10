@@ -43750,5 +43750,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14rE9Ef1epLaKv_z6wOWllLHbm1E4UMmi",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១១៨ អរិយសច្ចៈ សមុទយសច្ចៈ និរោធសច្ចៈ.mp3",
+    "source_md5": "b035fd8b4dc2d32e0812dce2c6ee2ae3",
+    "key": "audio/b035fd8b4dc2d32e-a64.mp3",
+    "bytes": 42436065,
+    "duration_s": 5304,
+    "sha256": "49a81c2c8a3e6073a72bed3eddecef027003534867cf714823437bf2117bc6aa",
+    "loudness": {
+      "pass1": {
+        "I": -24.5,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.6086304894946695,
+      "out": {
+        "I": -18.8,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
