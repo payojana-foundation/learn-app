@@ -31309,5 +31309,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Zk0dYgokBZqrDNKGsv1HJpC-9x6XvpEn",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៩០ បញ្ចប់អាយតនៈ ចូលពោជ្ឈង្គបព្វ សតិសម្ពោជ្ឈង្គៈ.mp3",
+    "source_md5": "23a80cb65df8bc5158623e958b77e3eb",
+    "key": "audio/23a80cb65df8bc51-a64.mp3",
+    "bytes": 42475354,
+    "duration_s": 5309,
+    "sha256": "c402e1039be3cf54633529f33ebe2fd1feba2dab3b720e4f2cda7512395cc4d5",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 5.199999999999996,
+      "limit": 0.6,
+      "depth": 9.436974992327123,
+      "busy": 5.007392549063924,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
