@@ -23363,5 +23363,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1f6YgC5bBwobrm4J1c-_hAFYGVO5HMEbG",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៣១ មេរៀនវចីវិញ្ញត្តិរូប.mp3",
+    "source_md5": "d762f68ba5035e0d147d87670527b7c1",
+    "key": "audio/d762f68ba5035e0d-a64.mp3",
+    "bytes": 26888193,
+    "duration_s": 3360,
+    "sha256": "d3c1a18f68e66f6300d82efd9a9de7771ca2af7ffc05401227b91b48b2bb6b3d",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 6.0305712585540014,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
