@@ -29743,5 +29743,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kNY4U6VUj5EgXMLoqT9RWLiKL53EFqLa",
+    "drive_name": "៦ ខ្លះ-រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "e77596e27fd4a3b72ed271c5ef5da268",
+    "key": "audio/e77596e27fd4a3b7-a64.mp3",
+    "bytes": 23035445,
+    "duration_s": 2879,
+    "sha256": "36785765b7a0431671741456e5722cc182dd4de87089f4ae8eaea1d0d6f2febe",
+    "loudness": {
+      "pass1": {
+        "I": -20,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 3,
+      "limit": 0.6,
+      "depth": 5.436974992327127,
+      "busy": 3.2246301312773493,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
