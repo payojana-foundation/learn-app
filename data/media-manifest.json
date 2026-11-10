@@ -39516,5 +39516,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nbkI1Zu339-XnPEt-wq-CbWRvn2pGf5J",
+    "drive_name": "៩៨ រកសភាគបច្ច័យ អារម្មណជាតិ វត្ថុបុរេជាតជាតិភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "4dedd8c389c32b6bf8ebff1ddcb7bea9",
+    "key": "audio/4dedd8c389c32b6b-a64.mp3",
+    "bytes": 39117260,
+    "duration_s": 4889,
+    "sha256": "28a42908afe3cac326df682dc3aede40d3ee1e429dd16bc06696bd044e2c7cca",
+    "loudness": {
+      "pass1": {
+        "I": -20.7,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 4.099999999999998,
+      "limit": 0.6,
+      "depth": 8.036974992327124,
+      "busy": 4.452562581806283,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
