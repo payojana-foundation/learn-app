@@ -30352,5 +30352,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13U-r4uLDWis20ADq2-TJV0igriWSinEm",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៨៨ ធម្មានុបស្សនា ខន្ធបព្វៈ ពន្យល់ឧបមាខន្ធ៥ ដូចពពុះទឹកជាដើម.mp3",
+    "source_md5": "c14de867a3525f72dbb51e92a6103b40",
+    "key": "audio/c14de867a3525f72-a64.mp3",
+    "bytes": 43543657,
+    "duration_s": 5442,
+    "sha256": "8020c9245ae6eafabb2b16212374341ea16ca8e44d4ab03381d5338e46bc8c1c",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "G": 7.900000000000002,
+      "limit": 0.6,
+      "depth": 10.43697499232713,
+      "busy": 5.259604255084605,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
