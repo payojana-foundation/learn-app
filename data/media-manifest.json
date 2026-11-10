@@ -29076,5 +29076,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WVVI0-gVzInVS7Ik42rSMMxBTaz5nN2Q",
+    "drive_name": "157.១៥៧ ចម្រើនមេត្តា និងករុណាចិត្តចំពោះសព្វសត្វ.mp3",
+    "source_md5": "46fd94bf677a2b53a4b3072e23605f7c",
+    "key": "audio/46fd94bf677a2b53-a64.mp3",
+    "bytes": 45050818,
+    "duration_s": 5631,
+    "sha256": "50843e96f09f371308c146284848fa98081b4e82e3ca00399299850acbd55ecd",
+    "loudness": {
+      "pass1": {
+        "I": -16.3,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": -1.3000000000000007,
+      "limit": 0.6,
+      "depth": 2.9369749923271264,
+      "busy": 0.14716850460817218,
+      "out": {
+        "I": -18,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
