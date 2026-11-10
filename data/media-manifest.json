@@ -41865,5 +41865,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1K23VzbmB18hjPsYoImNgd_bdhCOT_eAN",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 24 មេរៀន វិបស្សនា ទិដ្ឋិវិសុទ្ធិ បរិសុទ្ធិនៃទិដ្ឋិ.mp3",
+    "source_md5": "c25a391c74e6ed90718ceeeb9541bd17",
+    "key": "audio/c25a391c74e6ed90-a64.mp3",
+    "bytes": 40768826,
+    "duration_s": 5096,
+    "sha256": "d4149629cda72cd4e92e6d27f47a11a4545cab970a92a4943abbd69b1bf515c2",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 0.3000000000000007,
+      "limit": 0.6,
+      "depth": 1.5369749923271279,
+      "busy": 0.3576299290627054,
+      "out": {
+        "I": -18,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
