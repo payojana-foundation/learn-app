@@ -21101,5 +21101,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_QteqE0kwtYB1C-WMdacIovQ-fW1zjnC",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ២២ ឧត្តមាតុប្រេត សុតប្រេត កណ្ណមុណ្ឌប្រេត.mp3",
+    "source_md5": "e9cc2c1df331db391cac1c5d92d7dff7",
+    "key": "audio/e9cc2c1df331db39-a64.mp3",
+    "bytes": 47330158,
+    "duration_s": 5916,
+    "sha256": "7b89478533454d605c4df867b3444f28c7246ac9d2170029a11b099e25953a93",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": 1.5,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 4.555250369744348,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
