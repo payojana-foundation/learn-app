@@ -43315,5 +43315,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lV2YsE_bKoYvC9KMyW7CTOcSlPIlp078",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 31 ភង្គញ្ញាណ ឃើញការរលត់របស់ខន្ធ ៥.mp3",
+    "source_md5": "5bbcbfe2edaa819f623a7ad673a1b718",
+    "key": "audio/5bbcbfe2edaa819f-a64.mp3",
+    "bytes": 33451197,
+    "duration_s": 4181,
+    "sha256": "e6a768b05632b195014fb617d1940fef99d3b3c818e2b7bda5d974ad47494471",
+    "loudness": {
+      "pass1": {
+        "I": -17.5,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": -0.10000000000000142,
+      "limit": 0.6,
+      "depth": 0.936974992327126,
+      "busy": 0.011658913987109427,
+      "out": {
+        "I": -18,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
