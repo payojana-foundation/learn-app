@@ -27278,5 +27278,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ob48vxenTR49XfIXDZcdFDZN3XIVmQtI",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៥៦ អារហារជ្ជកលាបមាន ២ និងសសម្ភារបឋវី.mp3",
+    "source_md5": "a207e349ae5eb4663def05248558b95f",
+    "key": "audio/a207e349ae5eb466-a64.mp3",
+    "bytes": 43157045,
+    "duration_s": 5394,
+    "sha256": "c1ce27dbb11dbdd46b21082b359daee7f99f80a5d48db4c24fbd6fe81d4c10dc",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 11.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.790902013124235,
+      "out": {
+        "I": -18.3,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
