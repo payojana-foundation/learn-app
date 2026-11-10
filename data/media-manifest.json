@@ -45838,5 +45838,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GLDeNKj7Ci0ewQ79n_nidO7tDyC7IE-5",
+    "drive_name": "បិដកលេខ១៩ 07 សិង្គាលកសូត្រ តួនាទីរបស់កូនមាន ៥ យ៉ាង.mp3",
+    "source_md5": "af898f8426a849792476fb6f8dc7d621",
+    "key": "audio/af898f8426a84979-a64.mp3",
+    "bytes": 44055657,
+    "duration_s": 5506,
+    "sha256": "75d0d0ceb712fd0d1cb30f8944f2551d6db48571ccb96dadf526b5bf70f44c98",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -8.5,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 4.836974992327126,
+      "busy": 0.054931086455174416,
+      "out": {
+        "I": -18,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
