@@ -53436,5 +53436,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hiBVBC5L-6VJCEWHqFKDyimIERGL-vOv",
+    "drive_name": "17-16Oct2025-2026-10-10 08 38 27(copy).mp3",
+    "source_md5": "b17f7847f26be6a2d1db49a65f53049b",
+    "key": "audio/b17f7847f26be6a2-a64.mp3",
+    "bytes": 45741287,
+    "duration_s": 5717,
+    "sha256": "4dcf46279759731ca74c27add441bd128091c0c40f942ae5797747ee1ea84435",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -6.3,
+        "LRA": 0
+      },
+      "G": 10.100000000000001,
+      "limit": 0.6,
+      "depth": 8.236974992327129,
+      "busy": 4.868258812624068,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
