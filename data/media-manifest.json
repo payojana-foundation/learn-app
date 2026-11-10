@@ -37863,5 +37863,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_teNhuIS5RvO6rv2qpoO2wgKT3qUIzbW",
+    "drive_name": "31.វចនានុក្រម 06-02-2025.mp3",
+    "source_md5": "77c68b5a13cff7e206307509d0a93122",
+    "key": "audio/77c68b5a13cff7e2-a64.mp3",
+    "bytes": 26545257,
+    "duration_s": 3318,
+    "sha256": "ff8a7add7276fa819ff09f560d7c20ec1659c58c179c8ad50b1fb9f88ab53136",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 3.099999999999998,
+      "limit": 0.6,
+      "depth": 6.636974992327126,
+      "busy": 3.6202947469937614,
+      "out": {
+        "I": -18.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
