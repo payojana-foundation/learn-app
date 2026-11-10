@@ -43431,5 +43431,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XyWq1nydNsq_eYBCNG2uCMSFfzEE79ot",
+    "drive_name": "១០៨ បដិច្ចសមុប្បាទ សង្ខារ៦ជាផលរបស់អវិជ្ជាភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "7ba86647fef5421c813fb69547d4722b",
+    "key": "audio/7ba86647fef5421c-a64.mp3",
+    "bytes": 42755804,
+    "duration_s": 5344,
+    "sha256": "1dadcf8316f9dd4c6cc82f3e7ddf508d97cd781912942ab290e350add8a37034",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 6.600000000000001,
+      "limit": 0.6,
+      "depth": 10.43697499232713,
+      "busy": 5.592016016615367,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
