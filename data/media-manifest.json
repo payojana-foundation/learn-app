@@ -31367,5 +31367,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WGGkvdZH19KwvhFF7HCTrmhzkF9zx9yK",
+    "drive_name": "010.វចនានុក្រម July-11-2024.mp3",
+    "source_md5": "c56503d26c7d23711c1bff4c8074b929",
+    "key": "audio/c56503d26c7d2371-a64.mp3",
+    "bytes": 13692176,
+    "duration_s": 1711,
+    "sha256": "fa82cf5ca5ffd68433d6610500c10760be8e2e0317c5c5abb8ed79a16df90584",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 10.436974992327126,
+      "busy": 4.091559788483449,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
