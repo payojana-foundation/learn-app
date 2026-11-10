@@ -45983,5 +45983,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cQOvrS2JnmlrjFA0lIakdtNzoxgbE3Ca",
+    "drive_name": "បិដកលេខ១៩ 08 សិង្គាលកសូត្រ តួនាទីរបស់សមណព្រាហ្មណ៍ ៥ យ៉ាង.mp3",
+    "source_md5": "96e8e264355922f2e7b45f9f267dfb30",
+    "key": "audio/96e8e264355922f2-a64.mp3",
+    "bytes": 43541358,
+    "duration_s": 5442,
+    "sha256": "868f4cea33abeedad7d0313edc0571f6c305096ea546972dedad09255790c56c",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -12.3,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 1.0369749923271252,
+      "busy": 0.005052685732134163,
+      "out": {
+        "I": -18,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
