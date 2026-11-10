@@ -19738,5 +19738,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1U180A-DOiIotFV4wLxn6T9gJFpsBFZOF",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ០៩ ប្រៀបធៀបមហាភូតរូប ៤ នឹងអាសិរពិស.mp3",
+    "source_md5": "6678c0b6adaf53e628f98ff12552f448",
+    "key": "audio/6678c0b6adaf53e6-a64.mp3",
+    "bytes": 44177492,
+    "duration_s": 5522,
+    "sha256": "d4e26e282e4f298599a2e4973b1900559f094a8d4589b4548fecf43fa1744f64",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.5000000000000036,
+      "limit": 0.6,
+      "depth": 11.536974992327131,
+      "busy": 6.91103102958087,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
