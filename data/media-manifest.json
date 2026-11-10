@@ -41923,5 +41923,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gkHU3HHJiG-vMFcuCm9GTdpWdMlzr-w7",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១១១ សព្វសង្គហៈ ខន្ធ ៥ ពន្យល់ពីខន្ធចែជា ១១ ពួក.mp3",
+    "source_md5": "b897aacd7ef6ab10ccc4b314d793d337",
+    "key": "audio/b897aacd7ef6ab10-a64.mp3",
+    "bytes": 42200545,
+    "duration_s": 5275,
+    "sha256": "9aa7b95cc39350af0e35ed1f6356f629e39154ccdca7de92bb6a213e1eadecde",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 7.900000000000002,
+      "limit": 0.6,
+      "depth": 11.23697499232713,
+      "busy": 5.8712713623567545,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
