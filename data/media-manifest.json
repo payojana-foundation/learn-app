@@ -30700,5 +30700,63 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fGZUlSlQABzEQ_u63MWt-4xfZq_PBi5A",
+    "drive_name": "007.វចនានុក្រម 2024-6-20.mp3",
+    "source_md5": "59ec3458312e15d783a28186d8bc167c",
+    "key": "audio/59ec3458312e15d7-a64.mp3",
+    "bytes": 26847233,
+    "duration_s": 3355,
+    "sha256": "c5c896aa197434de30fe845728b5fd4833d50f5f46d062c0728304972941b4cc",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 7.599999999999998,
+      "limit": 0.6,
+      "depth": 7.736974992327125,
+      "busy": 4.431068134749765,
+      "out": {
+        "I": -18.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zmqD_i3vISri9atWMiRKfP_4fIoI-3b8",
+    "drive_name": "006.វចនានុក្រម 13 Jun 2024.mp3",
+    "source_md5": "0b9810529460114b5735dc89edbe3391",
+    "key": "audio/0b9810529460114b-a64.mp3",
+    "bytes": 25291380,
+    "duration_s": 3161,
+    "sha256": "c7c44324e86a35e7337b445ea168c5d7e52ca1e051ff5a4d8b6fbe0df816747f",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 7.300000000000001,
+      "limit": 0.6,
+      "depth": 7.336974992327128,
+      "busy": 4.150850888846714,
+      "out": {
+        "I": -18.1,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
