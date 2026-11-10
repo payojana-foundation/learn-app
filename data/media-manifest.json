@@ -25509,5 +25509,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1D7BP4Wc_rqIDY9CaVpu-5ffEuDkXSJZX",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៤៤  ចិត្តជ្ជរូបរូបកើតពីចិត្តមាន ១៥.mp3",
+    "source_md5": "a6a39c66736c25d173996905bdedfdc6",
+    "key": "audio/a6a39c66736c25d1-a64.mp3",
+    "bytes": 46706145,
+    "duration_s": 5838,
+    "sha256": "a538e758c72c8c173f1f8dd42856e915d0d131c6d14bfb4b57f6a65aa47c711b",
+    "loudness": {
+      "pass1": {
+        "I": -26.3,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 9.663025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.51226823106239,
+      "out": {
+        "I": -18.6,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
