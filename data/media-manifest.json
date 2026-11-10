@@ -26901,5 +26901,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16jOsSfBqnqTa34CDRQuXkfFESHU_rRQr",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៦៥ ឧបឃាតកកម្ម ក ប្រការទី១មាន ៣ ប្រការ.mp3",
+    "source_md5": "9749e7ed1b2c25a51eaeed6a3e5af36e",
+    "key": "audio/9749e7ed1b2c25a5-a64.mp3",
+    "bytes": 43061959,
+    "duration_s": 5382,
+    "sha256": "49e3fd37feab52984d36dfefaa02bec2c09e5d2476c253080a25406e7a8ac588",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": 3.3,
+        "LRA": 0
+      },
+      "G": 2.8999999999999986,
+      "limit": 0.6,
+      "depth": 10.636974992327126,
+      "busy": 4.4958849647946195,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
