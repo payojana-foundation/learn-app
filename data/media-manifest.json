@@ -21217,5 +21217,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19qNLnDHCnWjIzkdxSs9P0O9JzSSYt5DR",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ២៣ អភិជ្ជមានប្រេត សានុវាសិប្រេត.mp3",
+    "source_md5": "46f21d24d1c346b1dabfb4d8e64067a0",
+    "key": "audio/46f21d24d1c346b1-a64.mp3",
+    "bytes": 44265264,
+    "duration_s": 5533,
+    "sha256": "ac700fc341d4565ca6c15204f4cdbafda4e6a847c27a94620fd5c3158e933337",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": 1.2,
+        "LRA": 0
+      },
+      "G": 6.199999999999999,
+      "limit": 0.6,
+      "depth": 11.836974992327127,
+      "busy": 4.461558619941805,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
