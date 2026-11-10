@@ -23595,5 +23595,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nj_Ik9UIIP2Oe_n2zMHbeAzRWcl1C8cD",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៤២ បរនិម្មតវសវត្តី និងបញ្ចប់ទេវតា៦ជាន់.mp3",
+    "source_md5": "3ffa9b1097314edd393f43455c7e3f7b",
+    "key": "audio/3ffa9b1097314edd-a64.mp3",
+    "bytes": 46259138,
+    "duration_s": 5782,
+    "sha256": "ebf6a0e1a7be3129e2535290ea47ea6294cbcc9cb75a86a14809940cf6ceb801",
+    "loudness": {
+      "pass1": {
+        "I": -22.2,
+        "TP": 0.7,
+        "LRA": 0
+      },
+      "G": 5.9999999999999964,
+      "limit": 0.6,
+      "depth": 11.136974992327124,
+      "busy": 3.8853147941580843,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
