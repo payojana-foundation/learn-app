@@ -38733,5 +38733,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1m8dxha4UBLFybygKCbSNHhRway5m3Z0d",
+    "drive_name": "57-៦៣ ការមិនសេពគប់បុគ្គលពាល64.mp3",
+    "source_md5": "99244353579a42a6158efe9e515aa98a",
+    "key": "audio/99244353579a42a6-a64.mp3",
+    "bytes": 4778361,
+    "duration_s": 597,
+    "sha256": "afd582335d7114681291742bf67a30846bd232e6554edc061c64d74acb66111d",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6,
+        "LRA": 0
+      },
+      "G": 9.900000000000002,
+      "limit": 0.6,
+      "depth": 8.336974992327129,
+      "busy": 4.508162411050649,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
