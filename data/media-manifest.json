@@ -26466,5 +26466,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14XAqSC6EG8uoXQQl3axuvjKh1-IO2kB-",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៦៤ បដិកូលមនសិការបព្វៈ មនសិការកោសល្យ ១០ យ៉ាង.mp3",
+    "source_md5": "aa122fa22c08627694b28d59d84d187f",
+    "key": "audio/aa122fa22c086276-a64.mp3",
+    "bytes": 41141646,
+    "duration_s": 5142,
+    "sha256": "4acd440bbe4aeabeedf78181212cae83c50f165f13ec80fe5531f09bf6f1d360",
+    "loudness": {
+      "pass1": {
+        "I": -27.8,
+        "TP": -6.4,
+        "LRA": 0
+      },
+      "G": 11.900000000000002,
+      "limit": 0.6,
+      "depth": 9.93697499232713,
+      "busy": 6.115037966806996,
+      "out": {
+        "I": -18.1,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
