@@ -27481,5 +27481,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1eMkpbWvAgo8UG9oO_lBk2xeOoJfQu4Qr",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៧២ ធាតុមនសិការបព្វ នវសីវថិកាបព្វ.mp3",
+    "source_md5": "1d2d1fd5b7e8b4b39b318731ce2bb672",
+    "key": "audio/1d2d1fd5b7e8b4b3-a64.mp3",
+    "bytes": 44110410,
+    "duration_s": 5513,
+    "sha256": "384bd59217aa1653c58c9c998d1f5b867f60bded02eb1dab465df63c7f177710",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 6.700000000000003,
+      "limit": 0.6,
+      "depth": 10.93697499232713,
+      "busy": 5.404670142824756,
+      "out": {
+        "I": -18.1,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
