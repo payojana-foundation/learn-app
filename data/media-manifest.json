@@ -24088,5 +24088,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11ubfvuAa_7KD7s93F-AtCtOxEZMXkT4k",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៣៥  ឧបចយរូប រូបកើតគ្រាដំបូងនិងក្រោយ.mp3",
+    "source_md5": "03e6b4dd85a2a9cf68afe1a03040a1b6",
+    "key": "audio/03e6b4dd85a2a9cf-a64.mp3",
+    "bytes": 44138831,
+    "duration_s": 5517,
+    "sha256": "9d9e38a230204315a8047577fc44d82d6964b9d1dc88de23d56fdfd3a908e092",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 11.936974992327128,
+      "busy": 6.393299258695376,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
