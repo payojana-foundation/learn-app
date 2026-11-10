@@ -24523,5 +24523,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1iagxXkTdLaub09oSDoPXlOHCyaMJp5h5",
+    "drive_name": "បរិច្ឆេទទី ៨-៤៧ រម្លឹកសហជាតប្បច្ច័យ បច្ច័យកើតព្រមគ្នា.mp3",
+    "source_md5": "bf2f6ecf8ecb59a0c636e6c486d6a6e0",
+    "key": "audio/bf2f6ecf8ecb59a0-a64.mp3",
+    "bytes": 42487683,
+    "duration_s": 5310,
+    "sha256": "c4dd9b90a9267dd32b8e30585b401ccf91ee271aa7120f0dc8b5119e57235e24",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 7.599999999999998,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 3.7636863461339307,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
