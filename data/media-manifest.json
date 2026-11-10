@@ -20028,5 +20028,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1T5cnG_WADznomQ1bxfFmbYOqxP6DpFrr",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ១១ ចក្ខុបសាទ និយមន័យចក្ខុ៣ យ៉ាង.mp3",
+    "source_md5": "6978e09ed0a3f04a6317b1cd6f0cbec5",
+    "key": "audio/6978e09ed0a3f04a-a64.mp3",
+    "bytes": 47360669,
+    "duration_s": 5920,
+    "sha256": "e14c19cf7f0a269bfb2654ddcaa3c0b1469f8659a2d2d2620d31cb002391f4e5",
+    "loudness": {
+      "pass1": {
+        "I": -25,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 9.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.119036156789217,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
