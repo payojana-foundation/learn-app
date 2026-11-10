@@ -29540,5 +29540,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1A1a3dGuvuszeCetycjDjS-UPF6_pP7w1",
+    "drive_name": "001_វចនានុក្រម.mp3",
+    "source_md5": "04906a673e7cb940b0d544d34006b406",
+    "key": "audio/04906a673e7cb940-a64.mp3",
+    "bytes": 14284634,
+    "duration_s": 1785,
+    "sha256": "531a6ede2d4c787b145b00fc1e5fc9344e504439a063ef8d2546bfec1ddcda88",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -7.2,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 7.036974992327128,
+      "busy": 3.490521127943771,
+      "out": {
+        "I": -18.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
