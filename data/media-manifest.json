@@ -27220,5 +27220,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1i4Rhaq2xeJQyTj_vKCku11iHfgfw4cLB",
+    "drive_name": "បរិច្ឆេទទី ៨-៦៧ បកតូបនិស្សយប្បច្ច័យ អកុសលជាបច្ច័យដល់អព្យាកតភិក្ខុអគ្គចិត្តោ.mp3",
+    "source_md5": "73b7a3a13aa139f5de58a878e06a15a7",
+    "key": "audio/73b7a3a13aa139f5-a64.mp3",
+    "bytes": 43059869,
+    "duration_s": 5382,
+    "sha256": "562b71e175628eea9f00cf28855e58c1b68dcbf04f5385e10fe41ed78f021b47",
+    "loudness": {
+      "pass1": {
+        "I": -24.7,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 10.836974992327125,
+      "busy": 4.84677052271735,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
