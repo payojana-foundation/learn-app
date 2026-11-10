@@ -24175,5 +24175,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1I1QDOXmr_chPDhv5tI03VN28xZ23-lZn",
+    "drive_name": "116.១១៦ ហេតុនាំឱ្យកើតអសង្ខារ សសង្ខារ.mp3",
+    "source_md5": "a454427b763c62c843b866f48b28314e",
+    "key": "audio/a454427b763c62c8-a64.mp3",
+    "bytes": 50769754,
+    "duration_s": 6346,
+    "sha256": "e843f9c03c51b78bdae94e25f0a1327354bb305926eee32866d0c2becc2075b0",
+    "loudness": {
+      "pass1": {
+        "I": -15,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": -2.5,
+      "limit": 0.6,
+      "depth": 1.9369749923271273,
+      "busy": 0.04293908165516372,
+      "out": {
+        "I": -18,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
