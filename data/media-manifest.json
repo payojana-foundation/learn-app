@@ -32237,5 +32237,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JgPI2cEf3oe4mzTzfpv3Xn7dEmb44bmN",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៩២ ពោជ្ឈង្គបព្វៈ វីរិយសម្ពោជ្ឈង្គៈ និងធម៌នាំឱ្យកើតវីរិយៈ.mp3",
+    "source_md5": "ea08b3fcdace2c6fc8e42df6cc314393",
+    "key": "audio/ea08b3fcdace2c6f-a64.mp3",
+    "bytes": 41484790,
+    "duration_s": 5185,
+    "sha256": "846488f2fdbcf51880b0e857aa98c7f131d10ffab655bc301da9a5fd249f5643",
+    "loudness": {
+      "pass1": {
+        "I": -24.5,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "G": 8,
+      "limit": 0.6,
+      "depth": 9.836974992327129,
+      "busy": 4.949089296217373,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
