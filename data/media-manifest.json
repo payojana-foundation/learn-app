@@ -24784,5 +24784,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ipz1bWn_s85i4ZpU87Y15epHlxdYJZPq",
+    "drive_name": "បរិច្ឆេទទី ៨-៤៩ រម្លឹកសហជាតប្បច្ច័យភាគបញ្ចប់.mp3",
+    "source_md5": "d5d3a35be02f90feaf9af4953d5b43a5",
+    "key": "audio/d5d3a35be02f90fe-a64.mp3",
+    "bytes": 42784852,
+    "duration_s": 5348,
+    "sha256": "abde18fccae6752a36eda0bb59a6a6272914b28f713c7deaa6f3329288e309cf",
+    "loudness": {
+      "pass1": {
+        "I": -23.7,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 10.636974992327126,
+      "busy": 4.065266779480371,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
