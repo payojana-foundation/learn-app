@@ -42358,5 +42358,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fz0Jbs2Hh-p8A_3dxrs1iKgxjUhMNDIt",
+    "drive_name": "165.១៦៥ សំណួរចម្លើយក្នុងលោកិយចិត្ត ៨១.mp3",
+    "source_md5": "fffbff38d9cd732b9341df8d2af6a3f3",
+    "key": "audio/fffbff38d9cd732b-a64.mp3",
+    "bytes": 38235158,
+    "duration_s": 4779,
+    "sha256": "1abb83f3ae36e4513facb0f04d6789e26dc2795c983b4202c141a798c32c32d3",
+    "loudness": {
+      "pass1": {
+        "I": -18.8,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 3.5,
+      "limit": 0.6,
+      "depth": 8.036974992327128,
+      "busy": 7.1019071631079544,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
