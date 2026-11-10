@@ -26205,5 +26205,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Yt2UCkwBa3v1-OyU5SrXJ89iHvAuziJe",
+    "drive_name": "បរិច្ឆេទទី ៨-៦០ បកតូបនិស្សយប្បច្ច័យ មគ្គ៣ជាបច្ច័យដល់បដិសម្ភិទា៤.mp3",
+    "source_md5": "61c1aead69c1220164068a388f62c70a",
+    "key": "audio/61c1aead69c12201-a64.mp3",
+    "bytes": 41698785,
+    "duration_s": 5212,
+    "sha256": "0d5dc16046ad7bfbd52b13757c3e0aa44e775a3984a5d186d3e77af5f34718f1",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.100000000000001,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 4.653415958406078,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
