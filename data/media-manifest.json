@@ -41401,5 +41401,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Tv8fCnw6QaAW9ijb3nFXVJDQMrHiBe3I",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 21 អភិញ្ញាភាគ ២ ត្រចៀកទិព្វ ភ្នែកទិព្វ.mp3",
+    "source_md5": "0514af1afa5553ac556a7c972d45be36",
+    "key": "audio/0514af1afa5553ac-a64.mp3",
+    "bytes": 40448669,
+    "duration_s": 5056,
+    "sha256": "a83512e237329393a9d1a74ad2b8f65d6b9663623e8e555c9167f3aceaebb324",
+    "loudness": {
+      "pass1": {
+        "I": -17.5,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": -0.10000000000000142,
+      "limit": 0.6,
+      "depth": 0.5369749923271261,
+      "busy": 0.012855885523283987,
+      "out": {
+        "I": -18,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
