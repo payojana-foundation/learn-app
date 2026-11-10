@@ -26379,5 +26379,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hRwyIr8OdvkU1qhxzpYGSVRTQtvf51dw",
+    "drive_name": "130.១៣០ វិកាលសិក្ខាបទ ភាគបញ្ចប់.mp3",
+    "source_md5": "8e66643e0111767601b0c034e1ee1177",
+    "key": "audio/8e66643e01117676-a64.mp3",
+    "bytes": 45682563,
+    "duration_s": 5710,
+    "sha256": "0311d43477f2748b5db185f7c21f8d072629f739c15cbe7f952979dc0ba04c8d",
+    "loudness": {
+      "pass1": {
+        "I": -16.2,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": -1.4000000000000021,
+      "limit": 0.6,
+      "depth": 2.7369749923271254,
+      "busy": 0.012039647654238832,
+      "out": {
+        "I": -18,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
