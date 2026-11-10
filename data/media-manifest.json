@@ -27974,5 +27974,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1TCYt4h91cDbDLS8YZH6jTPL5iv4ebmLD",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៦១ ចែករូបដោយកាល ៣ គឺបដិសន្ធិកាល បវត្តិកាល ចុតិកាល.mp3",
+    "source_md5": "0eb58013e03cc0747f9da6d74eeed60a",
+    "key": "audio/0eb58013e03cc074-a64.mp3",
+    "bytes": 43895579,
+    "duration_s": 5486,
+    "sha256": "083e6d4dcba27b5e5a03c295d328722dcbd75a61c9e8eee4b5b5e6fe343eb01b",
+    "loudness": {
+      "pass1": {
+        "I": -27.4,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.863025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.793234795604075,
+      "out": {
+        "I": -18.5,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
