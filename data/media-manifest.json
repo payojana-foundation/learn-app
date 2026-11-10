@@ -18607,5 +18607,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_gNdioCr_e15U5HrOyvkvGVsAVHOvw7g",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ០៣ មហាភូតរូបដោយហេតុ ៥ ប្រការ.mp3",
+    "source_md5": "2e683bd78b225e8aa9e0f89cc313a0e6",
+    "key": "audio/2e683bd78b225e8a-a64.mp3",
+    "bytes": 38443510,
+    "duration_s": 4805,
+    "sha256": "3ad8af13ee008379c1042183c1fd25adabf9a08810632a77c6f517a4ad6f4d90",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.700000000000003,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 6.627960211428809,
+      "out": {
+        "I": -18.1,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
