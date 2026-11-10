@@ -36703,5 +36703,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fRHtdG_YdvzD1J_BfI52FWB2IlGrwiDo",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 08 ចាគានុស្សតិ ទេវតានុស្សតិ ឧបសមានុស្សតិ.mp3",
+    "source_md5": "fdd3f9fbce5a30e82142884382ba925a",
+    "key": "audio/fdd3f9fbce5a30e8-a64.mp3",
+    "bytes": 41225447,
+    "duration_s": 5153,
+    "sha256": "eefef92dfaff724e252be4369a86e3e7f0273325c02bde915da07f3160fc14be",
+    "loudness": {
+      "pass1": {
+        "I": -17.5,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 0,
+      "limit": 0.6,
+      "depth": 1.0369749923271274,
+      "busy": 0.049969436170109544,
+      "out": {
+        "I": -18,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
