@@ -18839,5 +18839,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1F8qe5yOlcu5860fEDeLdUshl1NHeYzoA",
+    "drive_name": "បរិច្ឆេទទី ៨-០៣ ហេតុប្បច្ច័យ អារម្មណប្បច្ច័យ អធិបតិប្បច្ច័យ.mp3",
+    "source_md5": "da955e15226c737b4801b14410bdc4c1",
+    "key": "audio/da955e15226c737b-a64.mp3",
+    "bytes": 43041270,
+    "duration_s": 5380,
+    "sha256": "ed62df3d18587852a2739a8c9ebbc7f5f17e7c568b4dbf49fe3a45a13da2600e",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "G": 8,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 4.979182736540802,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
