@@ -50101,5 +50101,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jJo5A-Mn9VNZruiLVENIbGIOsu_QV-xH",
+    "drive_name": "១១៦ រាត្រីធម្មទាន_ June 14-2023_648x360.mp3",
+    "source_md5": "2f848a7b0312b0de650c6c058597c665",
+    "key": "audio/2f848a7b0312b0de-a64.mp3",
+    "bytes": 12070495,
+    "duration_s": 1508,
+    "sha256": "d8ef3fe4f704135baa51a44d5a2839ef2d2226b6b9f509e827d664a9f52614bb",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 2.5,
+      "limit": 0.6,
+      "depth": 6.536974992327128,
+      "busy": 2.563295334040297,
+      "out": {
+        "I": -18.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
