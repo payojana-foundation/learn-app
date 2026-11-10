@@ -28728,5 +28728,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xb-l8pZtJMyqN5343JTFTiYHQKDLZu4e",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៨០ ភាវនា អបចាយន វេយ្យាវច្ច បត្តិទាន.mp3",
+    "source_md5": "487fdd02ea3433ba08ef59a7e4a37730",
+    "key": "audio/487fdd02ea3433ba-a64.mp3",
+    "bytes": 42644627,
+    "duration_s": 5330,
+    "sha256": "b1b929a2cc88a52f16e146e8564b69bfd8183036947e2c84838f8b35f8e7fa33",
+    "loudness": {
+      "pass1": {
+        "I": -15.9,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "G": -1.700000000000001,
+      "limit": 0.6,
+      "depth": 0.3369749923271259,
+      "busy": 0.00046899475663862077,
+      "out": {
+        "I": -18,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
