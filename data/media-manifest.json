@@ -32063,5 +32063,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DGlabpg49vPPq-WNwgAqa5aKfRsPeffQ",
+    "drive_name": "៣៣ January 25. 2023_640x360 (2).mp3",
+    "source_md5": "64e46489e885d654fac9013362e90cfd",
+    "key": "audio/64e46489e885d654-a64.mp3",
+    "bytes": 13577865,
+    "duration_s": 1697,
+    "sha256": "cd1996a6f7f15466775893c5f436180f189ca752254d1184a8162c9eb71c5bbc",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 2.3999999999999986,
+      "limit": 0.6,
+      "depth": 6.536974992327126,
+      "busy": 3.046193730850813,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
