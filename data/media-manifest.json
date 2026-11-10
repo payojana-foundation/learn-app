@@ -19187,5 +19187,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1s3cXpryV7gs0WGyTiZe6jMrc1bw_K6ac",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១០​ សញ្ញោជនៈមាន ១០ ប្រការ.mp3",
+    "source_md5": "3e6e2a0177844f938754bccee8656918",
+    "key": "audio/3e6e2a0177844f93-a64.mp3",
+    "bytes": 46400199,
+    "duration_s": 5799,
+    "sha256": "72c2fc9ed4f9eb8aac6c0ddac7d34f661f643c12d4f7b7e00a33bae3827bba6c",
+    "loudness": {
+      "pass1": {
+        "I": -11.3,
+        "TP": 3.7,
+        "LRA": 0
+      },
+      "G": -6.300000000000001,
+      "limit": 0.6,
+      "depth": 1.8369749923271268,
+      "busy": 0.0015086206896551724,
+      "out": {
+        "I": -18,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
