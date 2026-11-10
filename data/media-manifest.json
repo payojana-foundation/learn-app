@@ -43344,5 +43344,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZwoOaFZs_LWHr62phZmVEAkpn_iu6xAr",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១១៦ ទុក្ខសច្ចៈ ជាតិ ជរា ព្យាធ មរណៈ សោក បរិទេវ ទុក្ខទុក្ខ.mp3",
+    "source_md5": "dceec6bbcd41d0db26d752e20e0efa9b",
+    "key": "audio/dceec6bbcd41d0db-a64.mp3",
+    "bytes": 42958723,
+    "duration_s": 5369,
+    "sha256": "a7a05fcf98877bbb62bfbac6dfaf3e2eed1a1fec398c0f57fae6a4f606487c9b",
+    "loudness": {
+      "pass1": {
+        "I": -24.6,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 8.8,
+      "limit": 0.6,
+      "depth": 11.13697499232713,
+      "busy": 6.142919661812358,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
