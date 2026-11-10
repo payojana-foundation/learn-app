@@ -22870,5 +22870,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1p0ndA0ipQ_fnSZp7r_A1g9nA9_12-aY5",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ២៨ បរិច្ឆេទរូប រូបកំណត់ព្រំដែនរបស់រូប.mp3",
+    "source_md5": "b9d811ad14c0311e6d57ab0014fb1918",
+    "key": "audio/b9d811ad14c0311e-a64.mp3",
+    "bytes": 45661038,
+    "duration_s": 5707,
+    "sha256": "d07e5bcfefe3f42507b6c316bbc305bd00756fc74edd9f29ff3de39915d2103c",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.399999999999999,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 6.230070432405915,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
