@@ -43112,5 +43112,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1H0uJuVNEPZb25TpLN17dV-hyguQGxFz6",
+    "drive_name": "ថ្នាក់កុមារ ភាគ៤០.mp3",
+    "source_md5": "1ece6522bd3917de30a5bae70ceca12d",
+    "key": "audio/1ece6522bd3917de-a64.mp3",
+    "bytes": 35919037,
+    "duration_s": 4489,
+    "sha256": "2b6a4bb1bae594f706dd87ecefe0358961bdc0626e11ff29e98df18be36df63e",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 8.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.2496854015167544,
+      "out": {
+        "I": -18.3,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
