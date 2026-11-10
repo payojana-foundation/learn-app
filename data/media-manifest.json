@@ -49811,5 +49811,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YzcQc9AuwECQbL5v0JA-L4FftRcBJVEA",
+    "drive_name": "17-21 Nov 2025 នាទីធម្មចរិយា សិក្សាព្រះត្រៃបិដកលេខ១៥ ទីឃនិកាយ ទុតិយភាគ សុភសូត្រ ការពោលអំពីបញ្ញា!  Ma.mp3",
+    "source_md5": "a25adfc07db06a995f9ca4dc12ab9d14",
+    "key": "audio/a25adfc07db06a99-a64.mp3",
+    "bytes": 22985499,
+    "duration_s": 2873,
+    "sha256": "e879cfd26eb9f6eb6704c5deb40574e6a2723a177c6c4990b69f368433d71794",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 9.3,
+      "limit": 0.6,
+      "depth": 10.13697499232713,
+      "busy": 3.483110871343299,
+      "out": {
+        "I": -18.1,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
