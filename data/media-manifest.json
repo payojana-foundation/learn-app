@@ -30149,5 +30149,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1trMGw3uY9ryfJAEhXlhqAw8qk-oTrH7x",
+    "drive_name": "១០ រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "832fbb2f709573569a55dc2de7ceda22",
+    "key": "audio/832fbb2f70957356-a64.mp3",
+    "bytes": 10533241,
+    "duration_s": 1316,
+    "sha256": "53597ce4122d6c199f070e79b86245573ee00255517c5ab4c7a4b979092b0cde",
+    "loudness": {
+      "pass1": {
+        "I": -20.4,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 3.1999999999999993,
+      "limit": 0.6,
+      "depth": 3.9369749923271264,
+      "busy": 2.8283077624183504,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
