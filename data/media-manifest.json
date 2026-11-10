@@ -47955,5 +47955,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1B2H5IvzZDGQ9HQxlGTjuIs3oOSGatUqY",
+    "drive_name": "៣៩ មារតជ្ជនីយសូត្រទី៩ មារចូលក្នុងពោះព្រះមោគ្គល្លាន ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២.mp3",
+    "source_md5": "669966db25f6b2c5edc165dd8ada036c",
+    "key": "audio/669966db25f6b2c5-a64.mp3",
+    "bytes": 49825166,
+    "duration_s": 6228,
+    "sha256": "3005f5937da304d7f8d90f19e43843d065866138eb4528faaa2a69a5b7ad03bc",
+    "loudness": {
+      "pass1": {
+        "I": -25.2,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 8.836974992327125,
+      "busy": 5.712817713267288,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
