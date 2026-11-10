@@ -43025,5 +43025,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DiqPJMu2m1N_QOJw_h93fZhfvAYZlog0",
+    "drive_name": "167.១៦៧ សោតាបត្តិមគ្គចិត្ត.mp3",
+    "source_md5": "d63b03ae54b2b8c8e0b6f316b5569b5e",
+    "key": "audio/d63b03ae54b2b8c8-a64.mp3",
+    "bytes": 49622038,
+    "duration_s": 6202,
+    "sha256": "f608d46fdace2f65015967e3acd46ca3cabf724d82af3b1909f88bbd803ddc68",
+    "loudness": {
+      "pass1": {
+        "I": -16.5,
+        "TP": 2.1,
+        "LRA": 0
+      },
+      "G": 0.3000000000000007,
+      "limit": 0.6,
+      "depth": 6.836974992327129,
+      "busy": 5.572976284521257,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
