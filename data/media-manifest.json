@@ -45461,5 +45461,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_qwhC_l7vB7L5kz_BmTCdV-MEWYkHaJZ",
+    "drive_name": "០២ ចូឡគោសិង្គសាលសូត្រ អំពីការមានមេត្តាចិត្ត បិដកលេខ ២២.mp3",
+    "source_md5": "cd5576152d7852122218ace5d91c5db3",
+    "key": "audio/cd5576152d785212-a64.mp3",
+    "bytes": 54383011,
+    "duration_s": 6797,
+    "sha256": "ba0acc68496dcf57087643670808455b476e402a2c7a7c3dcea6e164ae7b6278",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "G": 10.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.874335267768486,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
