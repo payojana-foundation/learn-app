@@ -45751,5 +45751,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UL4y6E2f6QU_t-9fDOsBovWSdZkCIZKt",
+    "drive_name": "19.Dhamma in English(វគ្គ ២).mp3",
+    "source_md5": "50e153cc24aad9d159815dfc4d9146d6",
+    "key": "audio/50e153cc24aad9d1-a64.mp3",
+    "bytes": 9695860,
+    "duration_s": 1211,
+    "sha256": "8783918c1eed3dbe23e99c9a5cecbd20ca4041f9ea5811531587d786a7b59d5e",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -7.1,
+        "LRA": 0
+      },
+      "G": 11.3,
+      "limit": 0.6,
+      "depth": 8.63697499232713,
+      "busy": 5.54684599199637,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
