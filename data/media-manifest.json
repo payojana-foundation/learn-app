@@ -59526,5 +59526,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1eb8iPRjN5cjzgGIsHPKYfAcBdtO7XcYz",
+    "drive_name": "34.វិនយបិដកេ មហាវគ្គបាឡិ ភាគ៣៤ (ព្រះអង្គគ្រូ ពុទ្ធង្កុរ ភុល ណារិន).mp3",
+    "source_md5": "0aafa824aafdc161211d69bade9e82ab",
+    "key": "audio/0aafa824aafdc161-a64.mp3",
+    "bytes": 55752245,
+    "duration_s": 6968,
+    "sha256": "dc753822db0c5b94fe14ed04e7dc09ab940c405ababc8698da9538a54721768d",
+    "loudness": {
+      "pass1": {
+        "I": -20,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 4.100000000000001,
+      "limit": 0.6,
+      "depth": 7.736974992327129,
+      "busy": 4.440558186253408,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
