@@ -57380,5 +57380,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IGBeZcPpHs4MaKqjA3e4RFbmItcEyOZn",
+    "drive_name": "បិដកលេខ២១-០៩ រថវិនីតសូត្រ កថាវត្ថុ និងអ្នកបដិបត្តិ ៤ ប្រភេទ.mp3",
+    "source_md5": "c877dea09800345da8c198c4af276d3b",
+    "key": "audio/c877dea09800345d-a64.mp3",
+    "bytes": 57791677,
+    "duration_s": 7223,
+    "sha256": "86ab0b9cadc20c439c9889184129055ca7bbd57a0b9ea1508d49d3fb384d238b",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 10.600000000000001,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 5.601160030177396,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
