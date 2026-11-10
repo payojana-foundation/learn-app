@@ -43837,5 +43837,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Iqs_rVtAah-YsH234RHxLku7iO9NOrH_",
+    "drive_name": "65  វចនានុក្រម​  16 កក្កដា​  2026.mp3",
+    "source_md5": "a6863e4fefdaf86016dbd649e7fa0431",
+    "key": "audio/a6863e4fefdaf860-a64.mp3",
+    "bytes": 9393257,
+    "duration_s": 1174,
+    "sha256": "633caa6158a8a64e286e3339ce67ff33648e147ba7c574838b47792752851401",
+    "loudness": {
+      "pass1": {
+        "I": -19.6,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 2.700000000000003,
+      "limit": 0.6,
+      "depth": 6.33697499232713,
+      "busy": 3.5388808449024785,
+      "out": {
+        "I": -18.1,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
