@@ -50797,5 +50797,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tNanBtajJwfv38AY4ONnaVacmF9gRNO5",
+    "drive_name": "សិក្សារសតិប្បដ្ឋាន ភាគ១១ (លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញ ថូ ចន្ថា).mp3",
+    "source_md5": "69d15735a91ef874222a256483bbc8d4",
+    "key": "audio/69d15735a91ef874-a64.mp3",
+    "bytes": 30703533,
+    "duration_s": 3837,
+    "sha256": "c0645bc6ff27da94e1c010b71e9db0a312c9c985be862f0211f8592fc2a689d9",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 1.3000000000000007,
+      "limit": 0.6,
+      "depth": 5.836974992327129,
+      "busy": 4.859754032153,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
