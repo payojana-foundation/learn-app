@@ -29482,5 +29482,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CALJzfIUPW6Uu4FkIDpDOPiWCM4vi8nS",
+    "drive_name": "៤ រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "d5e9898d806a9fc8ca984ac2e03e045b",
+    "key": "audio/d5e9898d806a9fc8-a64.mp3",
+    "bytes": 24423487,
+    "duration_s": 3052,
+    "sha256": "6115eb84e5ad863f12c3d0b92b3e123e5c8bd2adcf4cf2824974fe5397050a4d",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 2.6000000000000014,
+      "limit": 0.6,
+      "depth": 4.836974992327129,
+      "busy": 2.671230633168463,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
