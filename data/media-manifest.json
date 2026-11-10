@@ -18752,5 +18752,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1FOxu8kCLehEDw-cHSwu94sddFbJJvFDS",
+    "drive_name": "82.៨២ កាមេសុមិច្ឆាចារៈស្រ្តី ២០ ជំពូក.mp3",
+    "source_md5": "68cbfbb50f18fc329e4e2897738b9bfa",
+    "key": "audio/68cbfbb50f18fc32-a64.mp3",
+    "bytes": 42271807,
+    "duration_s": 5283,
+    "sha256": "e4be137f9ce7678c78a5c121e12cf2d92f51ba9d82c6e1625eba59d2dad534a1",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": 5.399999999999999,
+      "limit": 0.6,
+      "depth": 10.336974992327125,
+      "busy": 4.343578194343247,
+      "out": {
+        "I": -18.2,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
