@@ -51261,5 +51261,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "108NhHI2jMtYnJKcfr4VWPXojD_7VXnkf",
+    "drive_name": "បិដក ១៤ ភាគ 24.mp3",
+    "source_md5": "132202d8d592aa5c0a864a4e8d42bb8a",
+    "key": "audio/132202d8d592aa5c-a64.mp3",
+    "bytes": 19203804,
+    "duration_s": 2400,
+    "sha256": "44b2aafa43c904ac3f75cb0dff21951d8840026bb82c7f72dff48bb05cf4261a",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -10.8,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 2.536974992327125,
+      "busy": 1.939219729634027,
+      "out": {
+        "I": -18,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
