@@ -41952,5 +41952,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1n08DfvZv6kfPBdIVrgGonnBXsG6DuBDX",
+    "drive_name": "51 វចនានុក្រម​ 11-13-2025.mp3",
+    "source_md5": "d26035320a95b0e46ab3ff9ac5acf582",
+    "key": "audio/d26035320a95b0e4-a64.mp3",
+    "bytes": 28591167,
+    "duration_s": 3573,
+    "sha256": "9b80edb1c7e2e63e14099d06e834caa3bd19e469ed9ba78c94d343c464a059fd",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 2.5,
+      "limit": 0.6,
+      "depth": 6.036974992327128,
+      "busy": 2.9282146704534324,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
