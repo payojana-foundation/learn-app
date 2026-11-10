@@ -30961,5 +30961,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vPVuYmqk5deIpfn5uXGVgeg2rpFXNAMx",
+    "drive_name": "008.វចនានុក្រម 2024-6-27.mp3",
+    "source_md5": "73152f90d3b6d98c1cd256ba4f04dbcc",
+    "key": "audio/73152f90d3b6d98c-a64.mp3",
+    "bytes": 25628255,
+    "duration_s": 3203,
+    "sha256": "0d2c93b7445e5728cfff8b7ae1b6016a77732dbdba02af05a3dfb49d1ece6637",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 6.5,
+      "limit": 0.6,
+      "depth": 6.536974992327127,
+      "busy": 3.488372093023256,
+      "out": {
+        "I": -18.2,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
