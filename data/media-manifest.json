@@ -18665,5 +18665,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mJadgZtUDga5dkCOiy_1s2oZ6wO-0Flj",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ០៥​ ឧបាទាន (ការប្រកាន់មាំ) មាន ៤ យ៉ាង.mp3",
+    "source_md5": "97a8a794cc1b838d76226f4c61946227",
+    "key": "audio/97a8a794cc1b838d-a64.mp3",
+    "bytes": 42987772,
+    "duration_s": 5373,
+    "sha256": "34e01d1e161cbd2d95adc5a0e8d5c75ccb340bbeacbf8d013f5320c88761b9b8",
+    "loudness": {
+      "pass1": {
+        "I": -16.3,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "G": -1.1999999999999993,
+      "limit": 0.6,
+      "depth": 1.5369749923271279,
+      "busy": 0.00023262522215708716,
+      "out": {
+        "I": -18,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
