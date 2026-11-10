@@ -56423,5 +56423,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CQJEpXDtcEBE6CiEljjvGAULEc58ciJK",
+    "drive_name": "បិដកលេខ២១-០១ កកចូបមសូត្រ ការនៅច្រឡូកច្រឡំជាមួយភិក្ខុនី និងឆាន់អាសនៈតែមួយ.mp3",
+    "source_md5": "25c082ea7f8425d6288ae926eea76860",
+    "key": "audio/25c082ea7f8425d6-a64.mp3",
+    "bytes": 56190893,
+    "duration_s": 7023,
+    "sha256": "a9d7146384e4fbfdad1ad00c571f68cfa46cf23f97b2ca73a903aabf4edfa535",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 10.400000000000002,
+      "limit": 0.6,
+      "depth": 10.03697499232713,
+      "busy": 5.460146500850673,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
