@@ -28699,5 +28699,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1U8P7qqrX_kPCnX00CzeRMbZfzK8fOlsV",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៦៥ និព្វានមាន ១ ២ ៣ និង៥ យ៉ាង.mp3",
+    "source_md5": "de0d23ca7e280610f83fd6800c07c50d",
+    "key": "audio/de0d23ca7e280610-a64.mp3",
+    "bytes": 39703030,
+    "duration_s": 4962,
+    "sha256": "f7415cb459b13f885bda959b9911f78c780d149eeea945c2a3a7b90905352004",
+    "loudness": {
+      "pass1": {
+        "I": -26.9,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 10.599999999999998,
+      "limit": 0.6,
+      "depth": 11.036974992327124,
+      "busy": 5.464601992806553,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
