@@ -40299,5 +40299,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19khf3T6X5IgVHMa3k7txdCjJm2bWq48N",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១០៥ ឥទ្ធិបាទធម៌ ៤ យ៉ាង មានឆន្ទិទ្ធិបាទជាដើម.mp3",
+    "source_md5": "33eaf2d6bda7b49c20efa4af76f17fc9",
+    "key": "audio/33eaf2d6bda7b49c-a64.mp3",
+    "bytes": 42590292,
+    "duration_s": 5323,
+    "sha256": "de40ec367b2d7500504c3a8d466ecfeeee64f9e9f1cd2246be2aea4b72cd5d64",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "G": 9.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.92509978868279,
+      "out": {
+        "I": -18.3,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
