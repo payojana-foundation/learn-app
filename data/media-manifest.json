@@ -23479,5 +23479,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1B8q6kEA3Iib7iQbiivZ_i9H1i_Y4QX1p",
+    "drive_name": "112.១១២ ចក្កធម៌៥យ៉ាង.mp3",
+    "source_md5": "353abf949a236e6adbc66d618aa27c14",
+    "key": "audio/353abf949a236e6a-a64.mp3",
+    "bytes": 50042714,
+    "duration_s": 6255,
+    "sha256": "2a2989ec7e7221ec92f6029ed37c10d9757522a279a6c3ff2ced9f7416ad23eb",
+    "loudness": {
+      "pass1": {
+        "I": -19.7,
+        "TP": 1,
+        "LRA": 0
+      },
+      "G": 3.299999999999997,
+      "limit": 0.6,
+      "depth": 8.736974992327124,
+      "busy": 3.88230780298307,
+      "out": {
+        "I": -18.1,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
