@@ -39748,5 +39748,63 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "174XUa9ua2w6jKLDjXeZI7tmN7bTjIgL2",
+    "drive_name": "37.វាចានានុក្រម 10-04-25.mp3",
+    "source_md5": "93c9691ee070b5576b75973cd01251bc",
+    "key": "audio/93c9691ee070b557-a64.mp3",
+    "bytes": 25856252,
+    "duration_s": 3231,
+    "sha256": "6c87644fe170ed50e4a59be47ee33ec3851643fb49e66a0a0f2443de60e2a8a6",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 3.1000000000000014,
+      "limit": 0.6,
+      "depth": 7.636974992327129,
+      "busy": 3.635519801980198,
+      "out": {
+        "I": -18.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vbO4D8y1RL4njLJcipzXK9AjfJUpMHoy",
+    "drive_name": "38. វចនានុក្រម​ 24-04-25.mp3",
+    "source_md5": "af885b3913a02ee15eb78beb22810273",
+    "key": "audio/af885b3913a02ee1-a64.mp3",
+    "bytes": 19192937,
+    "duration_s": 2399,
+    "sha256": "95ef78944ffcb43eb146c63f0db6e761055b7e96ce2003bdcc9a6c4f6d92242f",
+    "loudness": {
+      "pass1": {
+        "I": -20.1,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 3.5,
+      "limit": 0.6,
+      "depth": 6.936974992327127,
+      "busy": 3.7831895294068607,
+      "out": {
+        "I": -18.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
