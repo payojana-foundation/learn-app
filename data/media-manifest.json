@@ -26843,5 +26843,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kfMgiHcBb85PUf4AAXX1VKzVDc0IYBm_",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៥៣ ចិត្តជ្ជកលាប មាន ៦ កលាបភាគបញ្ចប់.mp3",
+    "source_md5": "29a11a15cfff0f8cf52a264ce0c00580",
+    "key": "audio/29a11a15cfff0f8c-a64.mp3",
+    "bytes": 44678416,
+    "duration_s": 5584,
+    "sha256": "8aaf62d4e3c2758076d5410e13b3930c5142ad125ce05c52a7b9553205cca28b",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 9.599999999999998,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 4.8419803930346035,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
