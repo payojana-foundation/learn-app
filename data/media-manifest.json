@@ -31802,5 +31802,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UI-orNkF6IinkvwsUmTBV1gAp1APi5tm",
+    "drive_name": "012.វចនានុក្រម 07. 25.2024.mp3",
+    "source_md5": "9e9fadd54e5c9acdbd663aadc26e9930",
+    "key": "audio/9e9fadd54e5c9acd-a64.mp3",
+    "bytes": 25693247,
+    "duration_s": 3211,
+    "sha256": "98c0b2c914af40f2fdcacd4e8beb71b84adf6771ebd62ba84cb086827f2f2706",
+    "loudness": {
+      "pass1": {
+        "I": -13.4,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": -4.200000000000001,
+      "limit": 0.6,
+      "depth": 0.6369749923271262,
+      "busy": 0.1004172375140117,
+      "out": {
+        "I": -18,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
