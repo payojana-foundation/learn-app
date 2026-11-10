@@ -35659,5 +35659,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UQga4Fu8DG3OurwUTwmznN1l04e985p7",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 06 សិក្សាពីអសុភ (សាកសពមិនស្អាត) ១០.mp3",
+    "source_md5": "65da00b8acf72ec335509d79daabd54c",
+    "key": "audio/65da00b8acf72ec3-a64.mp3",
+    "bytes": 41969832,
+    "duration_s": 5246,
+    "sha256": "e423661b638e26d5669145e9a80e4ef445881e852fe4fc788aaa940beb0cb8fd",
+    "loudness": {
+      "pass1": {
+        "I": -17.5,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "G": -0.10000000000000142,
+      "limit": 0.6,
+      "depth": 1.2369749923271258,
+      "busy": 0.012151652624756967,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
