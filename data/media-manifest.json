@@ -45287,5 +45287,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zdg3gcO-LBCXwoD8_TIuIDkQg8Vf6HJD",
+    "drive_name": "០១ ចូឡគោសិង្គសាលសូត្រ អំពីការសាមគ្គីរបស់ភិក្ខុក្នុងព្រៃ បិដកលេខ ២២.mp3",
+    "source_md5": "50185500999601a445738a2dff9d2a33",
+    "key": "audio/50185500999601a4-a64.mp3",
+    "bytes": 44581450,
+    "duration_s": 5572,
+    "sha256": "ec4a9460656d97ca7ff34acf0f278f431f70fa498d24fddc886d7652dd83eb0c",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "G": 10.100000000000001,
+      "limit": 0.6,
+      "depth": 10.43697499232713,
+      "busy": 5.535292903735207,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
