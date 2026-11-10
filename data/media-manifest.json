@@ -21304,5 +21304,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14JytzVoRlBKGjWW21NcSMJi_jB2bBET1",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ២៤ សានុវាសិប្រេត រថកាប្រេត ភុសប្រេត.mp3",
+    "source_md5": "ec5986b76396ffde59bea24f0ed2b9b4",
+    "key": "audio/ec5986b76396ffde-a64.mp3",
+    "bytes": 47787824,
+    "duration_s": 5973,
+    "sha256": "bc11a6b923d662bcfcd7840371edc2ee5a1ab9e58cb09bee9937fd919be0056b",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": 0.9,
+        "LRA": 0
+      },
+      "G": 6.663025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.518276707765194,
+      "out": {
+        "I": -19,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
