@@ -23015,5 +23015,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-a0jylIrxlnaQ1aUoHc0gzwJbIybCtaG",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៣៨ ស្ថានភាពរស់នៅមនុស្សក្នុងទី្វបទាំង៤.mp3",
+    "source_md5": "3e548288a0ec4fb5f60495f9e718e1ac",
+    "key": "audio/3e548288a0ec4fb5-a64.mp3",
+    "bytes": 43661731,
+    "duration_s": 5457,
+    "sha256": "99b75980439e340342dfb523bea1fbb3aa73300e0bfe17c2aeb875985b8829ca",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": 1.2,
+        "LRA": 0
+      },
+      "G": 6,
+      "limit": 0.6,
+      "depth": 11.636974992327128,
+      "busy": 3.553694779852319,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
