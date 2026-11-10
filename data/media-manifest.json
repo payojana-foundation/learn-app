@@ -18926,5 +18926,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Q3ZEJu9C-OQ97gcJJYTUfbMACHvOtoce",
+    "drive_name": "83.៨៣ បញ្ចប់កាមេសុមិច្ឆាចារនិងសុរាមេរ័យ.mp3",
+    "source_md5": "f270bb925823dc650b7b6eb1a3db0bea",
+    "key": "audio/f270bb925823dc65-a64.mp3",
+    "bytes": 48509430,
+    "duration_s": 6063,
+    "sha256": "ffb3f18961840fce2fcad86091bf96c93efebf63bd1b2971436d957bcde2597e",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 5.699999999999999,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 4.646747421107749,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
