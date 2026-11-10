@@ -45113,5 +45113,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1BuZXm1M63XgV0PRzV_GjxMNPsSXjp2Gj",
+    "drive_name": "បិដកលេខ១៩ 01 លក្ខណៈសូត្រ និយាយពីមហាបុរិសលក្ខណៈ ៣២ .mp3",
+    "source_md5": "cb0b82999b576368ab77843bbc7b3813",
+    "key": "audio/cb0b82999b576368-a64.mp3",
+    "bytes": 42365430,
+    "duration_s": 5295,
+    "sha256": "afadedc0d39906c6ae6b26964f6bd7de46016b87b33a3c0c12ac9cb837155661",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -7.2,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 6.136974992327126,
+      "busy": 3.0355102773030693,
+      "out": {
+        "I": -18.1,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
