@@ -28960,5 +28960,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UcbmjC6JNlEwoCms6Rua_E_lftKOlFPX",
+    "drive_name": "153.១៥៣ ពាក្យសមថភាវនា.mp3",
+    "source_md5": "54f3d27e781ef5a5e4da26e35a126716",
+    "key": "audio/54f3d27e781ef5a5-a64.mp3",
+    "bytes": 51093045,
+    "duration_s": 6386,
+    "sha256": "64c722b35592d804d05daf9d3066e6f46ce8d1f096e980e456dd64e6dd76265a",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": 0.9,
+        "LRA": 0
+      },
+      "G": 1.3999999999999986,
+      "limit": 0.6,
+      "depth": 6.736974992327125,
+      "busy": 4.811832586978987,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
