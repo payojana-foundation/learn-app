@@ -27829,5 +27829,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1aURtYvCpr6Mc-4CxmtINDAJ95pUk4EvW",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៦០ ចែករូបកើតក្នុងភូមិទាំង ៤ មានកាមភូមិជាដើម.mp3",
+    "source_md5": "5aa0f948e8ccf0637527c432dfb3a5a8",
+    "key": "audio/5aa0f948e8ccf063-a64.mp3",
+    "bytes": 43435824,
+    "duration_s": 5429,
+    "sha256": "9d0a318fe89decc933badc7804b6693d467c57d9dc96ac025544161ff4243ead",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 5.139332713258249,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
