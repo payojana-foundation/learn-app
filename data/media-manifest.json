@@ -23566,5 +23566,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Oma7nndW8r7fp3cX7INbzNHT38uHJqQj",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៤៣ ហេតុអ្វីព្រះអង្គសម្តែងធម៌នៅដែនកុរុ.mp3",
+    "source_md5": "bfd370a5f598f7862c220980ea6f765e",
+    "key": "audio/bfd370a5f598f786-a64.mp3",
+    "bytes": 42650269,
+    "duration_s": 5331,
+    "sha256": "c2c5f69395947bdcd7b012ccab81d3207e593a9525afcc3b9ce0a79b18f5a7ee",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 11.7,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 5.086283704572098,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
