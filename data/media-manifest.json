@@ -26582,5 +26582,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1FYGWu1gIdNYQqXhgKAHT9UoTZ1KA5pdv",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៦៣ ឧបបីឡកកម្ម កម្មបៀតបៀនមាន ៣ ប្រការ.mp3",
+    "source_md5": "b1365f277eda0cbc3f18cb609d293bdb",
+    "key": "audio/b1365f277eda0cbc-a64.mp3",
+    "bytes": 42545153,
+    "duration_s": 5318,
+    "sha256": "9aeb31480ca4dc796a1ee013c561fa918f1485d2e2fb2aca1afec0ed3bee9ffd",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": 1.2,
+        "LRA": 0
+      },
+      "G": 3.400000000000002,
+      "limit": 0.6,
+      "depth": 9.03697499232713,
+      "busy": 4.90823790451477,
+      "out": {
+        "I": -18.1,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
