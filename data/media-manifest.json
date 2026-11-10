@@ -56336,5 +56336,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1o5PeXWaj3gLJsRdZTDySDVMMWN2BP782",
+    "drive_name": "32_Ñāṇa_06Sep2026_វិធីចម្រើនក្រុមវណ្ណៈកសិណ.mp3",
+    "source_md5": "0c5b43241e7f92f1a807781c7371e914",
+    "key": "audio/0c5b43241e7f92f1-a64.mp3",
+    "bytes": 24859210,
+    "duration_s": 3107,
+    "sha256": "0fc4783fcab5633caa6ccc50a162236a0c4ef43fa3b57927f565f80074a6aef5",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -3,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 8.636974992327126,
+      "busy": 4.829275749432797,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
