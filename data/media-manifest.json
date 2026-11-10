@@ -24262,5 +24262,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KtZ5_mnlsVv23-a54iUf5YJuEtgmtAgm",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៤៧ សត្តាវាស៩ វិញ្ញាណឋិតិ៧.mp3",
+    "source_md5": "223b2287ece2e69552efb4637d7fd66f",
+    "key": "audio/223b2287ece2e695-a64.mp3",
+    "bytes": 44075510,
+    "duration_s": 5509,
+    "sha256": "6382820c79a593164182d16b6e1860011d83b138bcf916a35cfa3376ae28f548",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": 0.8,
+        "LRA": 0
+      },
+      "G": 6.100000000000001,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 4.37978727266127,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
