@@ -24581,5 +24581,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19Bwy4zErQsDogi9FT1vtwqs5oDeVTMLy",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៤៩ សុញ្ញកប្ប និងអសុញ្ញកប្ប.mp3",
+    "source_md5": "01fb699be72ff9bc9a85ff76f06dbf02",
+    "key": "audio/01fb699be72ff9bc-a64.mp3",
+    "bytes": 46193518,
+    "duration_s": 5774,
+    "sha256": "2d7572ced934cb8679ac6957a9d3bef59cecb5c38feebed42cb3d4cd7f7dfff0",
+    "loudness": {
+      "pass1": {
+        "I": -20.4,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": 4.5,
+      "limit": 0.6,
+      "depth": 9.436974992327126,
+      "busy": 4.029380947845137,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
