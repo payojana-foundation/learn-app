@@ -46795,5 +46795,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16HkL300rOPbAY3g0UZbmEW7c1TmCTxdh",
+    "drive_name": "១៣៣ ប្រៀបធៀបបដិច្ចសមុប្បាទអង្គ១២ ដូចមនុស្សខ្វាក់ជាដើមភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "71e75727753ac24beaa5d681e8097f59",
+    "key": "audio/71e75727753ac24b-a64.mp3",
+    "bytes": 44896800,
+    "duration_s": 5612,
+    "sha256": "6d6543981f5db5d3ecd5d410a32d6c80cd2357dfc5b937c528b2163f53b4c07d",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 5.199999999999999,
+      "limit": 0.6,
+      "depth": 9.236974992327127,
+      "busy": 5.554342887180264,
+      "out": {
+        "I": -18.2,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
