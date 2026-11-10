@@ -28583,5 +28583,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1G6Iz-vVG3QjtfYEUVgYRaJS5a85dPBqI",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៨០ នីវរណបព្វៈ ថីនមិទ្ធនីវរណ ឧទ្ធច្ចកុក្កុច្ចនីវរណៈ.mp3",
+    "source_md5": "ef35829f07e7ba02e91f2dd11fb7e5e9",
+    "key": "audio/ef35829f07e7ba02-a64.mp3",
+    "bytes": 42811811,
+    "duration_s": 5351,
+    "sha256": "30c85b3aa24c224ac8665885a5ade7c78b09ce915256a7a2c99578b30a1b7411",
+    "loudness": {
+      "pass1": {
+        "I": -27.9,
+        "TP": -6.5,
+        "LRA": 0
+      },
+      "G": 11.399999999999999,
+      "limit": 0.6,
+      "depth": 9.336974992327125,
+      "busy": 5.334769081277037,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
