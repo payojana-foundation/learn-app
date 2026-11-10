@@ -43083,5 +43083,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rDG47QOvKspt4prjWzT-2-HD1tpf-fZM",
+    "drive_name": "59 វចនានុក្រម​​ 19 មីនា​​ 2026.mp3",
+    "source_md5": "30f12cc40fd2e787a1e0bf23ece886f8",
+    "key": "audio/30f12cc40fd2e787-a64.mp3",
+    "bytes": 29553309,
+    "duration_s": 3694,
+    "sha256": "fc4133ff975dc065a8e4444b12721e1998c341393256219215266625cf6228c2",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -7.8,
+        "LRA": 0
+      },
+      "G": 9.3,
+      "limit": 0.6,
+      "depth": 5.936974992327128,
+      "busy": 3.837147923067553,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
