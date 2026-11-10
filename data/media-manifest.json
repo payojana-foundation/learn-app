@@ -44011,5 +44011,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Wj6oHb_BCuEgvkURXnu00R50T-9ITW0h",
+    "drive_name": "171.១៧១ តើព្រះអរិយបុគ្គលត្រាស់ដឹងនូវធម៌អ្វី.mp3",
+    "source_md5": "76949e2bd2f06ba0df460875fe407dc3",
+    "key": "audio/76949e2bd2f06ba0-a64.mp3",
+    "bytes": 36931752,
+    "duration_s": 4616,
+    "sha256": "b1b6240858cfc74072e5b387033c6f20acd762d48a4741f9f99abc4495595394",
+    "loudness": {
+      "pass1": {
+        "I": -18.8,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 3.1000000000000014,
+      "limit": 0.6,
+      "depth": 7.536974992327129,
+      "busy": 7.514702856090719,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
