@@ -24146,5 +24146,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ehc5bpZf4rQJikivpxYZPzngckoVlNw2",
+    "drive_name": "បរិច្ឆេទទី ៨-៤៤ រម្លឹកអធិប្បច្ច័យ និងចែកដោយលក្ខណៈជាដើម.mp3",
+    "source_md5": "b26db9985d056ef8178a536b5537f6fe",
+    "key": "audio/b26db9985d056ef8-a64.mp3",
+    "bytes": 41437979,
+    "duration_s": 5179,
+    "sha256": "b119296cf6972226f97dd692d774f155e1e958fbc6a8bdfabe33e384907cfdc1",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "G": 8.099999999999998,
+      "limit": 0.6,
+      "depth": 10.736974992327125,
+      "busy": 3.7695233314670733,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
