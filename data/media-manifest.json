@@ -28322,5 +28322,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LZFLzYGKCZ2tgbtnXyxJVNq8nmpj0HOf",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៧៦ កាមេសុមិច្ឆាចារ មុសាវាទ បិសុណាវាទ.mp3",
+    "source_md5": "13319e3cd714c22abb1c9a15a7b4a5a3",
+    "key": "audio/13319e3cd714c22a-a64.mp3",
+    "bytes": 41824591,
+    "duration_s": 5228,
+    "sha256": "e9001462d3eb9cfcc13e1dcc6733eff1a14ee67668c7f3464455654bb7df1173",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": 0.8,
+        "LRA": 0
+      },
+      "G": 6.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.494849896232821,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
