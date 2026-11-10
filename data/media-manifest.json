@@ -26872,5 +26872,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1eSKczAQFKZfKX2zRN9qfdcX0X1MugSY-",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៦៧ បដិកូលមនសិការបព្វៈ កាយគតាសតិតាមហាដីកា.mp3",
+    "source_md5": "731f55ea27e2563a3ec9d76f0039ba6a",
+    "key": "audio/731f55ea27e2563a-a64.mp3",
+    "bytes": 42182991,
+    "duration_s": 5272,
+    "sha256": "7ee27adb5f9967f1c125de819b2b4e4aa6fe7a2816bb542e5d74a2214dd08366",
+    "loudness": {
+      "pass1": {
+        "I": -24.6,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "G": 9.100000000000005,
+      "limit": 0.6,
+      "depth": 11.636974992327133,
+      "busy": 5.834131446940459,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
