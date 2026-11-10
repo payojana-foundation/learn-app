@@ -21623,5 +21623,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qj0CNIvY9nWTJiNjKNVDQWKuTxGTa62P",
+    "drive_name": "101.១០១ កុសលវិបាក ចក្ខុវិញ្ញាណ សោតវិញ្ញាណ.mp3",
+    "source_md5": "8a5ec963c457397d1adc199be016cc90",
+    "key": "audio/8a5ec963c457397d-a64.mp3",
+    "bytes": 48854038,
+    "duration_s": 6106,
+    "sha256": "b80997bc028a313c08a5ddfc59a6d86c57c3550148896cb76dfad4f656ebb3d0",
+    "loudness": {
+      "pass1": {
+        "I": -19.6,
+        "TP": 1.2,
+        "LRA": 0
+      },
+      "G": 3.3000000000000007,
+      "limit": 0.6,
+      "depth": 8.936974992327128,
+      "busy": 4.2864804231417954,
+      "out": {
+        "I": -18.2,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
