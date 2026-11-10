@@ -57931,5 +57931,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lBKS-7moZL_f-YZ6QTDEUHA95hPlQZ4P",
+    "drive_name": "បិដកលេខ២១-១៥ បាសរាសិសូត្រ ការស្វែករកប្រសើរតើដូចម្តេច.mp3",
+    "source_md5": "241b68e217b629f6dd005d59e1742310",
+    "key": "audio/241b68e217b629f6-a64.mp3",
+    "bytes": 57885091,
+    "duration_s": 7235,
+    "sha256": "e3ce3f6ec04a1d0b7524ddfb305258b39f436212b6099b38c7404945fc59244e",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 7.003911216761567,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
