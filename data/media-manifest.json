@@ -39139,5 +39139,63 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KFSljlyPY8CngJkj8HT1TjkbRcQLPQaS",
+    "drive_name": "៥២ បច្ចេកពុទ្ធ.mp3",
+    "source_md5": "143d1413d176ce43cd310aeb33486d37",
+    "key": "audio/143d1413d176ce43-a64.mp3",
+    "bytes": 10708575,
+    "duration_s": 1338,
+    "sha256": "e588ae7af653365e6df3b7efa1795e671402a43e6d641f63e0aeab2671db559b",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 2.8999999999999986,
+      "limit": 0.6,
+      "depth": 6.936974992327126,
+      "busy": 3.161187896899514,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1aa7IHd1lQQTPXJkn_2l1vatFHY-MqWZN",
+    "drive_name": "៥៣ បច្ចេកពុទ្ធ.mp3",
+    "source_md5": "5b76941b9c9df3e51b6383ac4861d057",
+    "key": "audio/5b76941b9c9df3e5-a64.mp3",
+    "bytes": 20317665,
+    "duration_s": 2539,
+    "sha256": "27e2744d77943771cf24f0b057105fb4c250eed2f2e049738f80796f003b4a6f",
+    "loudness": {
+      "pass1": {
+        "I": -20.1,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 2.900000000000002,
+      "limit": 0.6,
+      "depth": 7.03697499232713,
+      "busy": 2.1036363278404506,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
