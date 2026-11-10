@@ -40966,5 +40966,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13rlmu_2ODYLZK_vdc2P25mknF6VmJcuG",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១០៧ ពោធិបក្ខិយ ពលៈ ៥ និងពោជ្ឈង្គ ៧ ប្រការ.mp3",
+    "source_md5": "74621c2d86dbba29fec5dedc0b6e4cf8",
+    "key": "audio/74621c2d86dbba29-a64.mp3",
+    "bytes": 42067425,
+    "duration_s": 5258,
+    "sha256": "51b9014cc7578d588931397ecec8fd11fbfee4f7538a3d357d75d09e8aa1b689",
+    "loudness": {
+      "pass1": {
+        "I": -26.3,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.400000000000002,
+      "limit": 0.6,
+      "depth": 11.53697499232713,
+      "busy": 5.290582686748821,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
