@@ -24871,5 +24871,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PpGXAyFuU2w5ka2pNgfl1KsfigS3CPH-",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៥៣ អានាបានបព្វៈ និមិត្តរបស់អានាបានគឺអ្វី.mp3",
+    "source_md5": "6857cdb1d39484029b32faf9dc1394d3",
+    "key": "audio/6857cdb1d3948402-a64.mp3",
+    "bytes": 43545538,
+    "duration_s": 5443,
+    "sha256": "0b05414dfe0a149cefb06bca9505b7a851ea42519fa34ede160d67709270a2b1",
+    "loudness": {
+      "pass1": {
+        "I": -27.4,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "G": 11.599999999999998,
+      "limit": 0.6,
+      "depth": 11.336974992327125,
+      "busy": 6.01673663228094,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
