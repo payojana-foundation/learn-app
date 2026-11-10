@@ -40792,5 +40792,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lJMQxYBn5etnqBakgtRls5dnn-JX_JZG",
+    "drive_name": "159.១៥៩ ចែកកម្មដ្ឋាន៤០ ដោយអាការៈ១០យ៉ាង.mp3",
+    "source_md5": "98225b9f5ee15f482d41ade6c3b47f52",
+    "key": "audio/98225b9f5ee15f48-a64.mp3",
+    "bytes": 45726658,
+    "duration_s": 5715,
+    "sha256": "f412083013963e5617b8bad7f38dd25f18ecb9b28ac34e5b69559ecfed6838cd",
+    "loudness": {
+      "pass1": {
+        "I": -19.6,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": 4.5,
+      "limit": 0.6,
+      "depth": 9.436974992327126,
+      "busy": 8.140374050876519,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
