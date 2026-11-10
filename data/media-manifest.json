@@ -57148,5 +57148,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1o6pKik15u0Nsyp_odio71a_-HEUvvJqP",
+    "drive_name": "9.សមថៈ និង  វិបស្សនា.mp3",
+    "source_md5": "492f7d58c40405daa8fb60bd4b13cc6f",
+    "key": "audio/492f7d58c40405da-a64.mp3",
+    "bytes": 14620464,
+    "duration_s": 1827,
+    "sha256": "c1b54ea3b91cd1a587d50a44af3ea76ee0023ec38859f3866d4dc88a05af78e0",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 8.7,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 7.1265389876880985,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
