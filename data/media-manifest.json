@@ -29337,5 +29337,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xVw-q2RYMCc0sIwzNpUSdNRiQQ_mq_LR",
+    "drive_name": "២ រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "3862b26b0d27a9c39f7ecf9d1afd4bc3",
+    "key": "audio/3862b26b0d27a9c3-a64.mp3",
+    "bytes": 24206149,
+    "duration_s": 3025,
+    "sha256": "c921a04b5408c94058a6020c5494dbccdbdde8acdd8b343ba4fae4edeae66418",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 0.8000000000000007,
+      "limit": 0.6,
+      "depth": 5.436974992327128,
+      "busy": 3.0753214132266913,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
