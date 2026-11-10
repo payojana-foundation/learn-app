@@ -56655,5 +56655,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1trEIUyXiJT1aktQemKAi5hYuuaS0WvID",
+    "drive_name": "បិដកលេខ២១-០៣ អលគទ្ទូបមសូត្រ អរិដ្ឋភិក្ខុមានទិដ្ឋិអាក្រក់.mp3",
+    "source_md5": "820cade904e9d38f69539237a0f78132",
+    "key": "audio/820cade904e9d38f-a64.mp3",
+    "bytes": 55327598,
+    "duration_s": 6915,
+    "sha256": "a1a2a05efa56f0fed67c6d8d6f201b7771698d6b361c21941858ff0b7d04e58c",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 10.936974992327126,
+      "busy": 5.038209054497607,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
