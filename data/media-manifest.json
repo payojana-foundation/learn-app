@@ -29250,5 +29250,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hQl3yaM9CaINOIusfNNI0xwth4jGoi_U",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៨៤ ធម្មានុបស្សនា ខន្ធបព្វៈ ហេតុអ្វីខន្ធមានតែ ៥ មិនលើស មិនខ្វះ.mp3",
+    "source_md5": "f98fbda4a2ff8589a3fc51d2c101f865",
+    "key": "audio/f98fbda4a2ff8589-a64.mp3",
+    "bytes": 43358292,
+    "duration_s": 5419,
+    "sha256": "90d5ea1e3a385b477da5424f7c0cdcc5caa353050bd7072adf927632b23ab136",
+    "loudness": {
+      "pass1": {
+        "I": -20.4,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 4.199999999999999,
+      "limit": 0.6,
+      "depth": 8.536974992327128,
+      "busy": 4.862078509156326,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
