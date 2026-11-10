@@ -26756,5 +26756,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kC1tjyMcapaB7bulWeMGii8d350PIzSf",
+    "drive_name": "133.១៣៣ ឧច្ចាសយនមហាសយនសិក្ខាបទ.mp3",
+    "source_md5": "e4ed98c17748a8112c546b7b0befd631",
+    "key": "audio/e4ed98c17748a811-a64.mp3",
+    "bytes": 41943709,
+    "duration_s": 5242,
+    "sha256": "089d68f009dfc4624f9e90dc1adb96809afa6b8efe8c6c91a83ae2a2fb2eddc8",
+    "loudness": {
+      "pass1": {
+        "I": -12.7,
+        "TP": 1.3,
+        "LRA": 0
+      },
+      "G": -4.800000000000001,
+      "limit": 0.6,
+      "depth": 0.9369749923271264,
+      "busy": 0.0004768307918252129,
+      "out": {
+        "I": -18,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
