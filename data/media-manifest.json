@@ -20057,5 +20057,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fHXCeP9bHfW9lR9VWmmHpG4wzHMvIrBM",
+    "drive_name": "បរិច្ឆេទទី ៨-១២ ពន្យល់កម្មប្បច្ច័យ កុសលជាបច្ច័យកុសល និងអព្យាកត.mp3",
+    "source_md5": "7b7866c8b70e6570f9610593b19ed1d8",
+    "key": "audio/7b7866c8b70e6570-a64.mp3",
+    "bytes": 43831840,
+    "duration_s": 5478,
+    "sha256": "b02a3aadc89b4cfae69f9f8332a3e61cb6e666e5709cc1e1aa427f5cbbe33df3",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 6.5000000000000036,
+      "limit": 0.6,
+      "depth": 9.73697499232713,
+      "busy": 4.435612663010248,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
