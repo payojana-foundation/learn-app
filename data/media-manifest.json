@@ -24697,5 +24697,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_F7bHuIJyn7i-PBQT5g9H-ATRzDDT5wy",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៥០ កប្បដែលព្រះពុទ្ធបំពេញបារមី៤ អសង្ខេយ្យ១សែនកប្ប.mp3",
+    "source_md5": "1db1378f0a0329ad69f2079aabe1759f",
+    "key": "audio/1db1378f0a0329ad-a64.mp3",
+    "bytes": 43535298,
+    "duration_s": 5441,
+    "sha256": "db9effee53fb48ba75c8b49b8013023d93528a63eb752cf5cb093b00848b242b",
+    "loudness": {
+      "pass1": {
+        "I": -20.4,
+        "TP": 1.1,
+        "LRA": 0
+      },
+      "G": 4.399999999999999,
+      "limit": 0.6,
+      "depth": 9.936974992327126,
+      "busy": 4.599955897756298,
+      "out": {
+        "I": -18.2,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
