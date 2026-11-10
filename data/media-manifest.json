@@ -52334,5 +52334,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "169-s-jwLYwG9t_aZIspg5w116TIrXewB",
+    "drive_name": "១៤៤ រាត្រីធម្មទាន _July 16-2023_648x360.mp3",
+    "source_md5": "8d5a17db0db1eba382670e2c57408928",
+    "key": "audio/8d5a17db0db1eba3-a64.mp3",
+    "bytes": 11989620,
+    "duration_s": 1498,
+    "sha256": "565a219994cf7c17c5d354a687f22d75ede2e0289b49826a2c8edf0e1932bc70",
+    "loudness": {
+      "pass1": {
+        "I": -21.3,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 4.100000000000001,
+      "limit": 0.6,
+      "depth": 8.036974992327128,
+      "busy": 2.3045741167050346,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
