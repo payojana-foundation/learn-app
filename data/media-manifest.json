@@ -23885,5 +23885,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16_HebWAw6wYQChjD4-ygMCwR8Id-rL7H",
+    "drive_name": "បរិច្ឆេទទី ៨-៤២ រម្លឹកមេរៀនហេតុប្បច្ច័យ ហេតុ ៦.mp3",
+    "source_md5": "5cc5d38f60a9ecb1496a22f9c9e5f30a",
+    "key": "audio/5cc5d38f60a9ecb1-a64.mp3",
+    "bytes": 41859491,
+    "duration_s": 5232,
+    "sha256": "bdac21ad741999755cd694c932a37162bbb5b23952ab14b580e5c036d04f03fc",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 10.636974992327126,
+      "busy": 4.1013683969115515,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
