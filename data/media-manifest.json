@@ -56742,5 +56742,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1K4quFQVFu82XcQIzmJJQVU0AcpTdfh-r",
+    "drive_name": "35_Ñāṇa_23Sep2026_វិធីចម្រើនកសិណដែលជាបាតនៃអរូបជ្ឈាន.mp3",
+    "source_md5": "2b3871d5bfb9db4613e7106de9ab9b81",
+    "key": "audio/2b3871d5bfb9db46-a64.mp3",
+    "bytes": 31686991,
+    "duration_s": 3960,
+    "sha256": "fb96d4e212f44dd12a65d6bdb6194436f2861c2aaeaaf73622fb03796a138734",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 8.299999999999997,
+      "limit": 0.6,
+      "depth": 9.536974992327124,
+      "busy": 6.378446273480105,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
