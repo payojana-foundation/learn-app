@@ -38269,5 +38269,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Pqf6HPu0NPn87X2Uij9jNm2O-8tNaVQZ",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១០១ មគ្គសច្ចៈ សម្មាវាចា សម្មាកម្មន្ត សម្មាអាជីវ សម្មាវាយាម.mp3",
+    "source_md5": "428fa0fdfec33738c0b02bc32558acd4",
+    "key": "audio/428fa0fdfec33738-a64.mp3",
+    "bytes": 41333280,
+    "duration_s": 5166,
+    "sha256": "8eeb044f981244d058572713c2f34778c0cd1616ed335a01834d26b7408e887f",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "G": 7.9999999999999964,
+      "limit": 0.6,
+      "depth": 9.536974992327124,
+      "busy": 4.574288949319191,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
