@@ -27771,5 +27771,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HXGYiTODU-r3TNhSEQaJ3jx9BOmtCvCy",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៧២ ឧបបជ្ជវេទនីកម្ម អបរាបរិយវេទនីយកម្ម.mp3",
+    "source_md5": "6a5658d7dbf138ee43b60bb0595a1c50",
+    "key": "audio/6a5658d7dbf138ee-a64.mp3",
+    "bytes": 44037058,
+    "duration_s": 5504,
+    "sha256": "6f5c10c3f7fd57121c3d5b371d3b70a9e39ada6ff124b19ca062b014dfaadc61",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": 1.9,
+        "LRA": 0
+      },
+      "G": 1.2000000000000028,
+      "limit": 0.6,
+      "depth": 7.53697499232713,
+      "busy": 4.058878029284599,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
