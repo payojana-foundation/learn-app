@@ -20492,5 +20492,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1A0nLg7yKKMEPTamhu6HxitglYCV5Sejp",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ២១ មគ្គង្គ សម្មាវាយាម សម្មាសតិ សម្មាសមាធិ.mp3",
+    "source_md5": "05c234ccd577765985a7e1225f75b06f",
+    "key": "audio/05c234ccd5777659-a64.mp3",
+    "bytes": 41309665,
+    "duration_s": 5163,
+    "sha256": "7c0f1651942069e30c97e4e8bd4816e5592cf08521097124d62609c8d35345e9",
+    "loudness": {
+      "pass1": {
+        "I": -16.9,
+        "TP": 3.9,
+        "LRA": 0
+      },
+      "G": 1.1000000000000014,
+      "limit": 0.6,
+      "depth": 9.43697499232713,
+      "busy": 3.5643391786817467,
+      "out": {
+        "I": -18.1,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
