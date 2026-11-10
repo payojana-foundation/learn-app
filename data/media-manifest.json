@@ -20521,5 +20521,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19yZ2zehhDaFl4arVXAJX_P2o4LTkBlbr",
+    "drive_name": "បរិច្ឆេទទី ៨-១៥ អាហារប្បច្ច័យ រូបអាហារប្បច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3",
+    "source_md5": "5713198069a099f72d9edda9cd1b7eb2",
+    "key": "audio/5713198069a099f7-a64.mp3",
+    "bytes": 41995536,
+    "duration_s": 5249,
+    "sha256": "30520c08e422e3bcd6553c5e29237cb1b506b6602b25090033c069b37c655242",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 6.74787519645937,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 5.515392235303082,
+      "out": {
+        "I": -18.6,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
