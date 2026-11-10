@@ -30323,5 +30323,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wfaOIx4qkgU_6LLNqhJp46WYiMJbBYNL",
+    "drive_name": "១២ រាត្រីធម្មទាន_630x360 (1).mp3",
+    "source_md5": "b781fce38bacaacb5591454adea191a7",
+    "key": "audio/b781fce38bacaacb-a64.mp3",
+    "bytes": 8259752,
+    "duration_s": 1032,
+    "sha256": "7b932fbfde4d28ad8d8b1582b714dad1e8c43775cc43f9ab21514a3922747011",
+    "loudness": {
+      "pass1": {
+        "I": -19.3,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 2.1999999999999993,
+      "limit": 0.6,
+      "depth": 4.536974992327126,
+      "busy": 3.3804726850058118,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
