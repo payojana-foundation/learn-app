@@ -60164,5 +60164,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12Hgqvgj2fvEEow2qQtu4C6OG0TXwWjus",
+    "drive_name": "60.វិនយបិដកេ មហាវគ្គបាឡិ ភាគ៦០ (ព្រះអង្គគ្រូ ពុទ្ធង្កុរ ភុល ណារិន).mp3",
+    "source_md5": "fb8d5dd1684d4d58c1277f78654b32ca",
+    "key": "audio/fb8d5dd1684d4d58-a64.mp3",
+    "bytes": 38481127,
+    "duration_s": 4810,
+    "sha256": "4866521a0ac6ef851bd4856064067bd59876337cee94e6591146acc03a1be563",
+    "loudness": {
+      "pass1": {
+        "I": -24.8,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "G": 10.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.108500862767926,
+      "out": {
+        "I": -18.3,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
