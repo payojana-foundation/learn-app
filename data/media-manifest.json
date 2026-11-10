@@ -20898,5 +20898,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1map3kZej1DDFIkoVhhyfNCsxRHyWnPGB",
+    "drive_name": "96.៩៦ អកុសលវិបាកសោតវិញ្ញាណ.mp3",
+    "source_md5": "ec7600e0406a1e0581e14700c6e5faa4",
+    "key": "audio/ec7600e0406a1e05-a64.mp3",
+    "bytes": 46082550,
+    "duration_s": 5760,
+    "sha256": "4e0521093b5c9cbd44e1250ba114cd804c8a110a95fddc6b46a87b277b6820d5",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 4.299999999999997,
+      "limit": 0.6,
+      "depth": 8.936974992327125,
+      "busy": 5.5093094917755305,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
