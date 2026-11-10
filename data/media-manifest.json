@@ -22290,5 +22290,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1T2p24C55d4pLLQAh-ZuW_jtF0mb3d9ci",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៣៤ ពលៈ ៩ យ៉ាងបញ្ចប់ និងនិយមន័យអធិបតី.mp3",
+    "source_md5": "cb86dc3ddb4572d9a910164d3fab0236",
+    "key": "audio/cb86dc3ddb4572d9-a64.mp3",
+    "bytes": 40960878,
+    "duration_s": 5120,
+    "sha256": "bfef5a895cb242ab2be9c16ce195e6a2417fe8675ed3b6f2774cf4496e19f1e8",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": 1.2,
+        "LRA": 0
+      },
+      "G": 5.099999999999998,
+      "limit": 0.6,
+      "depth": 10.736974992327125,
+      "busy": 6.44713970430265,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
