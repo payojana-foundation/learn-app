@@ -29772,5 +29772,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PSE-C48r1pDwlVQp8tLSp_psoHjXt7bx",
+    "drive_name": "003.វចនានុក្រម May 9 2024.mp3",
+    "source_md5": "bfafd06edd38ec5e11e00fb915ebb1e1",
+    "key": "audio/bfafd06edd38ec5e-a64.mp3",
+    "bytes": 14316189,
+    "duration_s": 1789,
+    "sha256": "904a98e28cba5cc7f36581c43c8aa456508090ea3b1c961bd75eec687902245c",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 6.599999999999998,
+      "limit": 0.6,
+      "depth": 6.736974992327125,
+      "busy": 3.8699041604962416,
+      "out": {
+        "I": -18.1,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
