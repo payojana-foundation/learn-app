@@ -19042,5 +19042,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UeYHZAteCGS2pFtsMYSmirW5GROBgqTZ",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ 05 អវីចិនរក នរកមិនមានចន្លោះនៃភ្លើង.mp3",
+    "source_md5": "87dd2c52d7fd84f8b1bb4030af581a1c",
+    "key": "audio/87dd2c52d7fd84f8-a64.mp3",
+    "bytes": 54716124,
+    "duration_s": 6839,
+    "sha256": "be5b9ad86430f765b84416216793eb84192f461ab663c9e2b9280804faa09b20",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": 2,
+        "LRA": 0
+      },
+      "G": 4.200000000000003,
+      "limit": 0.6,
+      "depth": 10.63697499232713,
+      "busy": 4.749067914321222,
+      "out": {
+        "I": -18.1,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
