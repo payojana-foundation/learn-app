@@ -18578,5 +18578,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1aYfbN6ePUGHzaIG1bjr08Cl_I_CnxZlE",
+    "drive_name": "81.៨១ អាការវិនិច្ឆ័យ ៥ របស់អទិន្នាទាន.mp3",
+    "source_md5": "efc825f40491c2eb1a1db796f232fb4a",
+    "key": "audio/efc825f40491c2eb-a64.mp3",
+    "bytes": 50976225,
+    "duration_s": 6371,
+    "sha256": "2407b73364d26913c52b9b98f487e9d61655e0b35eb9f049fb739b0c1234751b",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 5.700000000000003,
+      "limit": 0.6,
+      "depth": 9.83697499232713,
+      "busy": 4.152150031387319,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
