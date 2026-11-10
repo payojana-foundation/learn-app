@@ -26002,5 +26002,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1r1_-GoXlRQlgSE0zSajpa3pR-nh6z79H",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៤៧  ចែករូបដោយសមុដ្ឋាន៤ ជា ៥ ន័យ.mp3",
+    "source_md5": "10329df24868cd6cf880bfae9518ac8a",
+    "key": "audio/10329df24868cd6c-a64.mp3",
+    "bytes": 43570407,
+    "duration_s": 5446,
+    "sha256": "aabf46dc7d361f50ff77b1c31e41549112e3b3cfb0dd575c5051191c1b41f108",
+    "loudness": {
+      "pass1": {
+        "I": -27.7,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.647922882717467,
+      "out": {
+        "I": -18.6,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
