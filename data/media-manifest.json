@@ -23189,5 +23189,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QiGKv4a2-RqOmv9_18mquJdSGMtn45zZ",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៣៩ ទេវតាចាតុម្មហារាជិកភូមិ.mp3",
+    "source_md5": "344c57e5b754f80312a9518b499e8dd0",
+    "key": "audio/344c57e5b754f803-a64.mp3",
+    "bytes": 43105427,
+    "duration_s": 5388,
+    "sha256": "ace8e65fa7a19b2de258ded02be2f9d368e833239d906796daa21e3aa76142b9",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": 1.7,
+        "LRA": 0
+      },
+      "G": 5.299999999999997,
+      "limit": 0.6,
+      "depth": 11.436974992327125,
+      "busy": 4.026892347095014,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
