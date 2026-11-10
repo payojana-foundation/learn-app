@@ -20405,5 +20405,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nXcIHzJTSRfttgCPcFcYxVH09hDe2iky",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ១៣ សោតបសាទ សោតមាន ៧ ប្រការ.mp3",
+    "source_md5": "289fdfdd30722a7657dfda256ccb8b55",
+    "key": "audio/289fdfdd30722a76-a64.mp3",
+    "bytes": 45632826,
+    "duration_s": 5704,
+    "sha256": "8f48d85bd3181047979f3d864147242584ed9cecd798755ef3114527244642b3",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 4.600000000000001,
+      "limit": 0.6,
+      "depth": 9.43697499232713,
+      "busy": 6.3349725195256,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
