@@ -34267,5 +34267,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1O4WWgTMRh-jlUw5fGB_N0YOUiss4ak3b",
+    "drive_name": "021.វចនានុក្រម 7 Nov 2024.mp3",
+    "source_md5": "db678abd67b9a4167e9dd5ea375ba712",
+    "key": "audio/db678abd67b9a416-a64.mp3",
+    "bytes": 15914883,
+    "duration_s": 1989,
+    "sha256": "d52d96a0aae8a299cdd16ae6c67b1d77f276aba0daaf43e4f118bfca10afd844",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 3.3999999999999986,
+      "limit": 0.6,
+      "depth": 6.836974992327126,
+      "busy": 3.740637410144272,
+      "out": {
+        "I": -18.1,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
