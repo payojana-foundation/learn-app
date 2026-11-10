@@ -38037,5 +38037,63 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10jbPA3EtC2mNmUa2Azhqe03rgu6zbrgY",
+    "drive_name": "៧៦_រាត្រីធម្មទាន April 5-2023_640x360.mp3",
+    "source_md5": "ecf4f04aa24f8ca2d3e147410730fba5",
+    "key": "audio/ecf4f04aa24f8ca2-a64.mp3",
+    "bytes": 12987706,
+    "duration_s": 1623,
+    "sha256": "1ce1887aefa57ede14db5f627963a4405a0082748c32d88530caeedb6d69ddaa",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 1.8999999999999986,
+      "limit": 0.6,
+      "depth": 6.036974992327126,
+      "busy": 3.3009424664284834,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gkL7SJMSTwRpUklM61ojLWOYWDGUu9dN",
+    "drive_name": "៧៥ រាត្រីធម្មទាន April 4-2023_640x360.mp3",
+    "source_md5": "67bf4dc5f7d24f91af992cef29f15104",
+    "key": "audio/67bf4dc5f7d24f91-a64.mp3",
+    "bytes": 10552467,
+    "duration_s": 1318,
+    "sha256": "20b13b1c74ebf2dcecb342322b7bd8d3eecb948bf1659c15bfb806aa5c21d501",
+    "loudness": {
+      "pass1": {
+        "I": -17.7,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 1.2999999999999972,
+      "limit": 0.6,
+      "depth": 5.536974992327124,
+      "busy": 5.836808188021228,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
