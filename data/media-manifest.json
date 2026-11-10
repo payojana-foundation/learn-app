@@ -32817,5 +32817,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14NcbezgKhwKsHYTwQlRoBMHcGjS7wTmI",
+    "drive_name": "៨ Buddhism in English by Ven.Hak Sienghai 8.mp3",
+    "source_md5": "92d9a79a4b66a82e7e03ea3a4a296e9f",
+    "key": "audio/92d9a79a4b66a82e-a64.mp3",
+    "bytes": 4242119,
+    "duration_s": 530,
+    "sha256": "8f0369b617a4e86c8dbe064d27e7b0fb78c70370d3ca70c723d31cb6c1b22abd",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 9.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.655822725129656,
+      "out": {
+        "I": -18.4,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
