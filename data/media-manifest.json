@@ -48593,5 +48593,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LqWneYykqnlWI5vlZMn8Wma00Q8xEUtT",
+    "drive_name": "08-២៤ ឧសភា ២០២៥-នាទីធម្មចរិយា សិក្សាសុត្តបិដកលេខ១៤ទីឃនិកាយបឋមភាគសីលក្ខន�.mp3",
+    "source_md5": "c71ddff99a5a9f2c6264a4117e7ce8d5",
+    "key": "audio/c71ddff99a5a9f2c-a64.mp3",
+    "bytes": 16118638,
+    "duration_s": 2014,
+    "sha256": "1ed7f57f09995483d109364d4db08b71d7cd0505cce385af723cd195ff3c63fe",
+    "loudness": {
+      "pass1": {
+        "I": -25.1,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 8.200000000000003,
+      "limit": 0.6,
+      "depth": 11.93697499232713,
+      "busy": 2.402843954734961,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
