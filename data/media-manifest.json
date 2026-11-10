@@ -45954,5 +45954,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PynFjditD4vFlN4B6OWOa3GOkyUYooUQ",
+    "drive_name": "០៦ មហាគោបាលសូត្រទី៣ នាយគោបាលមិនស្គាល់លក្ខណគោ១១.mp3",
+    "source_md5": "2586dcf98a1518e31be7762e84239a5b",
+    "key": "audio/2586dcf98a1518e3-a64.mp3",
+    "bytes": 24284,
+    "duration_s": 2,
+    "sha256": "b8b20bf7d832e719e90155b9d19dc02162ceeaeb4de0c71e125e59ab8b382c62",
+    "loudness": {
+      "pass1": {
+        "I": -26.9,
+        "TP": -11.5,
+        "LRA": 0
+      },
+      "G": 9.399999999999999,
+      "limit": 0.6,
+      "depth": 2.336974992327126,
+      "busy": 5.833333333333333,
+      "out": {
+        "I": -18.2,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
