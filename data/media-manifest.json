@@ -38211,5 +38211,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-482R54PV_SWy7i2Ro-GNqrrb1zsv_ir",
+    "drive_name": "៧៧ រាត្រីធម្មទាន _April 8-2023_648x360.mp3",
+    "source_md5": "46391ee2c2920ac62b46644a079af8de",
+    "key": "audio/46391ee2c2920ac6-a64.mp3",
+    "bytes": 13390619,
+    "duration_s": 1673,
+    "sha256": "4f4ad85040f08e1a5c3af70eed7e320fc1cfa695cc601cb8d2af14571b5564ed",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 2.3999999999999986,
+      "limit": 0.6,
+      "depth": 6.536974992327126,
+      "busy": 2.404707850400287,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
