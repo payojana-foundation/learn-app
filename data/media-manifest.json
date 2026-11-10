@@ -32585,5 +32585,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KuW4nmu31oN7nswIURGk4uAhta-X4T-r",
+    "drive_name": "៣៧ Jauary 29.2023 រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "d84972e78f30f18171b399e051e1031c",
+    "key": "audio/d84972e78f30f181-a64.mp3",
+    "bytes": 9387615,
+    "duration_s": 1173,
+    "sha256": "dcbf302b1e5637a4b923658bcbc535fbed50cb55cdfd68cfc0aefcad52dd7b18",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 2.6000000000000014,
+      "limit": 0.6,
+      "depth": 6.736974992327129,
+      "busy": 2.094341230611897,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
