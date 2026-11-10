@@ -39893,5 +39893,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JMx8Ih4bDtjWNVFcEiYVz3ss6p7VAt_Z",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 15 កាយគតាសតិភាគ៥ បញ្ចាប់អាការៈ២០.mp3",
+    "source_md5": "cc47f9828cba164a65e0fa7b2e20c882",
+    "key": "audio/cc47f9828cba164a-a64.mp3",
+    "bytes": 41099432,
+    "duration_s": 5137,
+    "sha256": "7967a4416e5175435f3e970b8f3a09779e942fc3f147bcaf7c14a5d1cd0b343b",
+    "loudness": {
+      "pass1": {
+        "I": -17.9,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "G": 0.3999999999999986,
+      "limit": 0.6,
+      "depth": 2.536974992327126,
+      "busy": 0.857680928095924,
+      "out": {
+        "I": -18,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
