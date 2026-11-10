@@ -18462,5 +18462,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JiUOzqRgMNNC-mezi5kEnp-k2QPSn1b5",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ០២ លក្ខណាទិចតុក្ករបស់រូប.mp3",
+    "source_md5": "1f32dc20effefbcfe660375811f2b205",
+    "key": "audio/1f32dc20effefbcf-a64.mp3",
+    "bytes": 43782730,
+    "duration_s": 5472,
+    "sha256": "fdc991bbb3ffd4d427d21e781842815293e5378e21bcbe774f160127d3efdd4c",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.200000000000003,
+      "limit": 0.6,
+      "depth": 11.13697499232713,
+      "busy": 6.492791624031574,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
