@@ -47665,5 +47665,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15PzU9kaAO4MVPDL3jgIZoqtc_jMwDMUh",
+    "drive_name": "២៧ មហាវេទល្លសូត្រទី៣ សួរអំពីៈអាយុ ភ្លើងធាតុជាដើម (បិដកលេខ ២២).mp3",
+    "source_md5": "251786fb325c18bc616f901afa8014d3",
+    "key": "audio/251786fb325c18bc-a64.mp3",
+    "bytes": 55350168,
+    "duration_s": 6918,
+    "sha256": "b085a795a17c4c8a3bb3b2784c52c6146f2ce714b84a07a25ee58eae28bd9719",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 10.036974992327128,
+      "busy": 5.331526648599819,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
