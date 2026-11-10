@@ -42155,5 +42155,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1z7SrLIPOAIW2fKyD3BwR_ts1AdlzsCIO",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 25 កង្ឋាវិតរណវិសុទ្ធិ បរិសុទ្ធផុតចាកសេចក្តីសង្ស័យ.mp3",
+    "source_md5": "4cfbaaf031804ba7c9db067119aececb",
+    "key": "audio/4cfbaaf031804ba7-a64.mp3",
+    "bytes": 40270619,
+    "duration_s": 5033,
+    "sha256": "905ba4f3270d23530c3e7c1975d55a6b5b12cc0602b72b7fc946f0b73fc122d2",
+    "loudness": {
+      "pass1": {
+        "I": -17.5,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "G": -0.10000000000000142,
+      "limit": 0.6,
+      "depth": 1.936974992327126,
+      "busy": 0.019617386467479837,
+      "out": {
+        "I": -18,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
