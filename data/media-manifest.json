@@ -44069,5 +44069,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ze_AKqoVljASFWIQdUaY6lZw2W7ZaKer",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 35 អនុលោមញាណ.mp3",
+    "source_md5": "442b74cb695e0668251073a1d740639f",
+    "key": "audio/442b74cb695e0668-a64.mp3",
+    "bytes": 42331785,
+    "duration_s": 5291,
+    "sha256": "16688a0344f4ad6dc9d5e956380cced96208c64ff130a1a1889637edcb569ac5",
+    "loudness": {
+      "pass1": {
+        "I": -17.4,
+        "TP": -3,
+        "LRA": 0
+      },
+      "G": -0.10000000000000142,
+      "limit": 0.6,
+      "depth": 1.336974992327126,
+      "busy": 0.011102816808247267,
+      "out": {
+        "I": -18,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
