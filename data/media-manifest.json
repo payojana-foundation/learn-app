@@ -39052,5 +39052,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1abbTnf3vq-w9mBKuMVC-uvKnE63pRJpl",
+    "drive_name": "៨៣ រាត្រីធម្មទាន April 16-2023_1152x648.mp3",
+    "source_md5": "991881f22cc2ac32480ff3a9a331c074",
+    "key": "audio/991881f22cc2ac32-a64.mp3",
+    "bytes": 12997319,
+    "duration_s": 1624,
+    "sha256": "2bcfb86cdf55fb4f57aceea33793ed52841ad4ec894e01e254c55d75b3b718fa",
+    "loudness": {
+      "pass1": {
+        "I": -19.2,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 2.099999999999998,
+      "limit": 0.6,
+      "depth": 6.336974992327125,
+      "busy": 2.4944601748122617,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
