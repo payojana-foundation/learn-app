@@ -46592,5 +46592,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vvAvsaOhFSHDBXm7kyb4ycCIJFkHJHwv",
+    "drive_name": "បិដកលេខ១៩ 11 សង្គីតិសូត្រ ទុកនិទ្ទេស ធម៌ពួក២.mp3",
+    "source_md5": "6adb3e5e5e37eb36bdbd9702e65a1e30",
+    "key": "audio/6adb3e5e5e37eb36-a64.mp3",
+    "bytes": 43020790,
+    "duration_s": 5377,
+    "sha256": "c224d14fe6973d8a3ed4fe65076f897bc59e562e144e6b8c6a62ed669e43ab76",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -10.1,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 3.2369749923271263,
+      "busy": 0.18200667590259506,
+      "out": {
+        "I": -18,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
