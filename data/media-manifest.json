@@ -30062,5 +30062,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PCBFrUlvY8ewB6Wnavm4EcHCBT0gdTew",
+    "drive_name": "៩  នាទីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "defb6c7e1c8b8a42f7cfa3b10a811e47",
+    "key": "audio/defb6c7e1c8b8a42-a64.mp3",
+    "bytes": 8580745,
+    "duration_s": 1072,
+    "sha256": "8b6a3fd6d6419ceba22590b45b231f5b2d12bb01b9e067dac1d7797e0fa9a325",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "G": 3.8000000000000007,
+      "limit": 0.6,
+      "depth": 5.936974992327128,
+      "busy": 3.4998368374434756,
+      "out": {
+        "I": -18.1,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
