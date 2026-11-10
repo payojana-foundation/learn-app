@@ -22638,5 +22638,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_msVFMHv9EKCsAxpriYqobDrOQTZQ44K",
+    "drive_name": "បរិច្ឆេទទី ៨-៣២ ចែកបញ្ហាវារៈរបស់បច្ឆាជាតវិប្បយុត្តប្បច្ច័យ.mp3",
+    "source_md5": "3c3caeea853824c836a828f39a005755",
+    "key": "audio/3c3caeea853824c8-a64.mp3",
+    "bytes": 42446932,
+    "duration_s": 5305,
+    "sha256": "fffafc6b9273b2ca71db9198547d3444a973df6e96303d9952505eeeb88457b8",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.295023417548555,
+      "out": {
+        "I": -18.4,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
