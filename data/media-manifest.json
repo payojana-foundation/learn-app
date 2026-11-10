@@ -41227,5 +41227,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KdoyFEngt7nmgVgsx5gwHOcQmV2BeuJZ",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១០៨ មគ្គង្គ សម្មាទិដ្ឋិ និងសម្មាសង្កប្បៈភិក្ខុ.mp3",
+    "source_md5": "a7d5fb991d9e778a58aadbae9c47fb6c",
+    "key": "audio/a7d5fb991d9e778a-a64.mp3",
+    "bytes": 42875132,
+    "duration_s": 5359,
+    "sha256": "fee0c75c6ce5d9dfdfc516da4e8fbf7a0e95e66e47fab3b66854b9b70b2ccc5a",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.5,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 5.3994420965228995,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
