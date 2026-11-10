@@ -27017,5 +27017,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DUZdHXt7xO_05zfjiurLlMU6yQiVQ-HS",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៦៨ បដិកូលមនសិការបព្វៈ អធិប្បាយសក់ រោម ក្រចក ធ្មេញ ស្បែក.mp3",
+    "source_md5": "fc42c6b2ecb91114f69c09b2aa9c0665",
+    "key": "audio/fc42c6b2ecb91114-a64.mp3",
+    "bytes": 45917665,
+    "duration_s": 5739,
+    "sha256": "aaf7fc0d97c90e9b3acdde9544728861173765c75ee478c8c775430b042b9f4d",
+    "loudness": {
+      "pass1": {
+        "I": -27.9,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "G": 11.499999999999996,
+      "limit": 0.6,
+      "depth": 11.236974992327124,
+      "busy": 5.401679544919986,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
