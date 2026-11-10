@@ -29656,5 +29656,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MMLK9cK4iV-AwY0OPRaRyAUdRe05C0b5",
+    "drive_name": "002. វចនានុក្រម May 2 2024.mp3",
+    "source_md5": "7735be8ccc36e7e807d712583884c599",
+    "key": "audio/7735be8ccc36e7e8-a64.mp3",
+    "bytes": 15203935,
+    "duration_s": 1900,
+    "sha256": "c0a89d430c8dd4b058f4a0beca6a7cdc75264f8b6f93bddb7db05ae57909b156",
+    "loudness": {
+      "pass1": {
+        "I": -22.7,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 5.5,
+      "limit": 0.6,
+      "depth": 5.436974992327127,
+      "busy": 3.237391144202689,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
