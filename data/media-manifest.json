@@ -37399,5 +37399,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1c8nmzeBaF_Gdp_tCpyCrqQlLmxQsBMoM",
+    "drive_name": "៩៤ រម្លឹកអត្ថិប្បច្ច័យ រូបអាហារត្ថិប្បច្ច័យ និងនត្ថិប្បច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "fa79c2dd604f73910dba3162ed71c7e1",
+    "key": "audio/fa79c2dd604f7391-a64.mp3",
+    "bytes": 42477025,
+    "duration_s": 5309,
+    "sha256": "10545ef1c70db928b9e129cd113a61eb04a6107e4c8a6aeb2359d1811bac3bfb",
+    "loudness": {
+      "pass1": {
+        "I": -20,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 3.299999999999997,
+      "limit": 0.6,
+      "depth": 7.136974992327124,
+      "busy": 5.256281075787253,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
