@@ -22667,5 +22667,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gfEfBo3ryNZcaEMSLGlObUft8lgAZH56",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៣៥ កំណើតសត្វតិរច្ឆាន.mp3",
+    "source_md5": "dc630bf7082fc7da2d4bccc53c4db1d8",
+    "key": "audio/dc630bf7082fc7da-a64.mp3",
+    "bytes": 44557626,
+    "duration_s": 5569,
+    "sha256": "63cffb69c4d20ed3158c29f6b3d5eb485885e1318018ed7f424c872f651460af",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": 1.3,
+        "LRA": 0
+      },
+      "G": 5.800000000000001,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 3.8707548948318116,
+      "out": {
+        "I": -18.2,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
