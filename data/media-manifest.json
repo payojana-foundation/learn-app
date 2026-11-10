@@ -28525,5 +28525,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Uo5NkxUCD7orY4byPLEQLb2-hUJaSc-S",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៦៤ និព្វានបរមត្ថ និយមន័យនិព្វាន.mp3",
+    "source_md5": "bf6aab0c6ad15d155569447dd381a9ed",
+    "key": "audio/bf6aab0c6ad15d15-a64.mp3",
+    "bytes": 43060705,
+    "duration_s": 5382,
+    "sha256": "cf6878f067169c33125e9c761cbe7733af2e9052114d258975a52062f878be7a",
+    "loudness": {
+      "pass1": {
+        "I": -27.3,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 5.848761274860428,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
