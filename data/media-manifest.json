@@ -28293,5 +28293,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qd92y2LWHq8SfhMklMtTbc8qMdJQO9iR",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៧៨ ធម្មានុបស្សនាសតិប្បដ្ឋាន នីវរណបព្វៈ ការកំណត់នាមរូប.mp3",
+    "source_md5": "93f83095cca477af28252d7dba338f31",
+    "key": "audio/93f83095cca477af-a64.mp3",
+    "bytes": 42104206,
+    "duration_s": 5262,
+    "sha256": "57454c8ef26d55da8498464c6eaaf8e0f6c99a3e36629bfcb8d5cef2849a37ec",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 5.157942238267148,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
