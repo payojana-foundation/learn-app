@@ -27713,5 +27713,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hONlmgbzqpwrkg1qcmHnDPHfMMgB_JeZ",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៧៤ វេទនានុបស្សនាសតិប្បដ្ឋាន សាមិសសុខវេទនា.mp3",
+    "source_md5": "e2e60a24c8cd67ec98cc8493f0ae6d21",
+    "key": "audio/e2e60a24c8cd67ec-a64.mp3",
+    "bytes": 42394896,
+    "duration_s": 5299,
+    "sha256": "44927640d555a5e861d604326201585e4f1ef32f64ec0ee8cf241620b319d024",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 11.200000000000003,
+      "limit": 0.6,
+      "depth": 10.73697499232713,
+      "busy": 5.0626491928255355,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
