@@ -42735,5 +42735,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MxVZwcoHl0S1DY104xOTR5_vnA0TznsI",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១១៤ ធាតុ ១៨ មានចក្ខុធាតុជាដើម.mp3",
+    "source_md5": "2ed66c7f19ea98d0f9cfaef9411f58f3",
+    "key": "audio/2ed66c7f19ea98d0-a64.mp3",
+    "bytes": 42796764,
+    "duration_s": 5349,
+    "sha256": "25fb036ae055e48867dd5060ced810d670987ec9227834151618f049e92e28fe",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 8.400000000000002,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 5.88787841968016,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
