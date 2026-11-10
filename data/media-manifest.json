@@ -40328,5 +40328,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XRZEFEkKcyi_v5oo97-hjP9iPy-AaM3-",
+    "drive_name": "158.១៥៨ អាហារេបដិកូលសញ្ញា ចតុធាតុវវត្ថាន.mp3",
+    "source_md5": "4b79d4eef91fe92b19d2b2fb9be9b431",
+    "key": "audio/4b79d4eef91fe92b-a64.mp3",
+    "bytes": 43113786,
+    "duration_s": 5389,
+    "sha256": "2ca4bc3efd97ba045a300c8613b57044d6944b5daf6da9bae239227e131c5f4f",
+    "loudness": {
+      "pass1": {
+        "I": -14.2,
+        "TP": 2.8,
+        "LRA": 0
+      },
+      "G": -3,
+      "limit": 0.6,
+      "depth": 4.236974992327127,
+      "busy": 4.444537222593334,
+      "out": {
+        "I": -18.1,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
