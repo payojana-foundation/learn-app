@@ -39371,5 +39371,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QlBC5JwFOYKby1m2WvB2X-DS3q5FijkK",
+    "drive_name": "36.វាចានុក្រម​_03_04_25.mp3",
+    "source_md5": "4ed375d2d116dd42118ab05b68a65a39",
+    "key": "audio/4ed375d2d116dd42-a64.mp3",
+    "bytes": 25659393,
+    "duration_s": 3207,
+    "sha256": "d315596421975e20675bad1967c4bbccef06258068bb3343a9ebe8d2da463238",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 3,
+      "limit": 0.6,
+      "depth": 6.6369749923271275,
+      "busy": 3.5889661407994016,
+      "out": {
+        "I": -18.1,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
