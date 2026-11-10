@@ -34209,5 +34209,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xRQ3pLdYt3RaZ6e6nEe2qKWoaoFcR4BT",
+    "drive_name": "17 អដ្ឋកថាជាតក ដាច់ភាគ (ត) ១ភាគ.mp3",
+    "source_md5": "a35b1eada3b89cb5f647e60e7b5103f0",
+    "key": "audio/a35b1eada3b89cb5-a64.mp3",
+    "bytes": 20728937,
+    "duration_s": 2591,
+    "sha256": "fd67d2595077a61c787b857e7854fcc2b61483b3e2c711f5a2abdf92642e4741",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "G": 6.5,
+      "limit": 0.6,
+      "depth": 9.236974992327127,
+      "busy": 2.3320211493188223,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
