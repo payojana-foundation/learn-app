@@ -25045,5 +25045,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QtHIRj62y4HTH-Y5b-R6tbFjLMgX63VU",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៥៤ អានាបានបព្វៈ ការកំណត់ខ្យល់ដង្ហើមនឹងសម្រេចអរហត្ត.mp3",
+    "source_md5": "335c705487a3a4dccde72c907e92306d",
+    "key": "audio/335c705487a3a4dc-a64.mp3",
+    "bytes": 46025290,
+    "duration_s": 5753,
+    "sha256": "c7f54bf851d3478e0776704ec12b2e0b32b8852fbc2b7f32b71df7c94360b262",
+    "loudness": {
+      "pass1": {
+        "I": -26.3,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 9.836974992327129,
+      "busy": 5.694923650521888,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
