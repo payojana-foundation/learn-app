@@ -36123,5 +36123,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1k8wkdyR8wIuYj3lXy-F-QZnu3Yv5fx3t",
+    "drive_name": "26.វចនានុក្រម 26.12 .2024.mp3",
+    "source_md5": "36abe880ddfcb079e7996eefff51d3bb",
+    "key": "audio/36abe880ddfcb079-a64.mp3",
+    "bytes": 24117332,
+    "duration_s": 3014,
+    "sha256": "bb7b5bfe8eb8f1ab7aff1c42380bebdc09d9a40095aa56c217a59a57265f3984",
+    "loudness": {
+      "pass1": {
+        "I": -20,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 3.3000000000000007,
+      "limit": 0.6,
+      "depth": 7.1369749923271275,
+      "busy": 4.051117892921117,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
