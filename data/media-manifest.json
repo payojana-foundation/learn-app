@@ -19883,5 +19883,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Vv7G5vFu3aS7si_VyP-V4mzAMicV-uBc",
+    "drive_name": "89.៨៩ សម្ផប្បលាបា និយាយពាក្យឥតប្រយោជន៍.mp3",
+    "source_md5": "d740252c2ccb3c47501533070fc2c9b2",
+    "key": "audio/d740252c2ccb3c47-a64.mp3",
+    "bytes": 42493744,
+    "duration_s": 5311,
+    "sha256": "e1e835f6700c1e219a618c1c561e4ab2eae5efebe3d02a7d2ed5ec5adfa21d81",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 2.8000000000000007,
+      "limit": 0.6,
+      "depth": 7.436974992327128,
+      "busy": 5.012754861908617,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
