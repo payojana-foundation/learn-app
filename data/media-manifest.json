@@ -58627,5 +58627,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vP36aqzJS-FpO5uLy26MVhs2nYgArEwA",
+    "drive_name": "បិដកលេខ២១-២៣ មហាហត្ថិបទោបមសូត្រ ការលះបង់នូវសេចក្តីប្រកាន់ក្នុងធាតុ-1.mp3",
+    "source_md5": "b1c83615663a06f22fb877815fd12f51",
+    "key": "audio/b1c83615663a06f2-a64.mp3",
+    "bytes": 56390678,
+    "duration_s": 7048,
+    "sha256": "a968750551e473ce6f38aecddcbd7a32504d4f478c296d2902ba24c138a9eca7",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 11.136974992327128,
+      "busy": 6.072310180456248,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
