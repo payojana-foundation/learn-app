@@ -28264,5 +28264,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Zg7mUx_AthTJDfWozgWyGGfEbmNhMssM",
+    "drive_name": "144.១៤៤ ផលរបស់កម្ម ៧ យ៉ាង ចូឡកម្មវិភាគសូត្រ.mp3",
+    "source_md5": "b4075b260a697b644b1d3fc0a1c5a05f",
+    "key": "audio/b4075b260a697b64-a64.mp3",
+    "bytes": 48498981,
+    "duration_s": 6062,
+    "sha256": "ec0ac0880d72fe66bd9701e4d5ab8ce10289758eff0e2086ae0fc07270e092d8",
+    "loudness": {
+      "pass1": {
+        "I": -18.8,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 3.200000000000003,
+      "limit": 0.6,
+      "depth": 7.83697499232713,
+      "busy": 7.988238884261054,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
