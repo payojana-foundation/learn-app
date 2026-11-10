@@ -40531,5 +40531,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HF2GPc8nnGC4k63U1VP3VYwwHfkpvOIr",
+    "drive_name": "៩៨ រាត្រីធម្មទាន__ May 23-2023_648x360.mp3",
+    "source_md5": "00ef79fc0ebbc856ab405adc8566ee52",
+    "key": "audio/00ef79fc0ebbc856-a64.mp3",
+    "bytes": 11658387,
+    "duration_s": 1457,
+    "sha256": "2fc41863fa24a5d3456d853511a8171847a99cfb106f72462880fd553ae29a45",
+    "loudness": {
+      "pass1": {
+        "I": -20.3,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 3.1999999999999993,
+      "limit": 0.6,
+      "depth": 8.036974992327126,
+      "busy": 2.677131583462,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
