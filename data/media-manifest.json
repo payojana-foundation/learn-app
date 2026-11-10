@@ -26553,5 +26553,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IxhqnP_SKRpuD-4XmPX_VjnDkDG4oUtJ",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៥១ កម្មជ្ជកលាប កលាបរូបកើតពីកម្មមាន ៩ កលាប.mp3",
+    "source_md5": "cb45a5e80b45cd305bc038cb4e9da185",
+    "key": "audio/cb45a5e80b45cd30-a64.mp3",
+    "bytes": 39818805,
+    "duration_s": 4977,
+    "sha256": "25e4802f4081f8ef9c5b604e2153dd33289859fa9802d9fc657d24319b218c9f",
+    "loudness": {
+      "pass1": {
+        "I": -23.7,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.599999999999998,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 5.069766741004159,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
