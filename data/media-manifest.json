@@ -20811,5 +20811,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pi6sOLF_7pJdV5X_LlTYI0eOngZmRQ6C",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ២៣ បញ្ចប់មគ្គង្គ ចូលនិយមន័យឥន្រ្ទិយ.mp3",
+    "source_md5": "64f214b49e4a4ce89a4ba48745282f35",
+    "key": "audio/64f214b49e4a4ce8-a64.mp3",
+    "bytes": 43318377,
+    "duration_s": 5414,
+    "sha256": "051fca92a0fc6cd4ac68c4a8a630b50b7116c25251ae01098fd6d222d5789e0c",
+    "loudness": {
+      "pass1": {
+        "I": -14.5,
+        "TP": 7.1,
+        "LRA": 0
+      },
+      "G": -1.3000000000000007,
+      "limit": 0.54,
+      "depth": 11.152124803540628,
+      "busy": 4.853409668036382,
+      "out": {
+        "I": -18.3,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
