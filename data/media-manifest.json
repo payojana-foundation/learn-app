@@ -28206,5 +28206,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Wlo6G_xtDPBC7L_2OUDoP20qgF4x77YB",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៦២ ចែករូបកើតក្នុងសមុដ្ឋាន ៤ ក្នុងចុតិកាល.mp3",
+    "source_md5": "f63a80f5249f3a402a7bcb80bf67acd2",
+    "key": "audio/f63a80f5249f3a40-a64.mp3",
+    "bytes": 44501620,
+    "duration_s": 5562,
+    "sha256": "1f260eed056900841045b6c602e50666e3a50ff3ef9e626d87394228436381a0",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 11.3,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 5.884560416348323,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
