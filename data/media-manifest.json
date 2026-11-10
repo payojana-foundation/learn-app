@@ -23972,5 +23972,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GnDMz-bX5bLviWGu-UYpFa38oL7qbeCF",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៤៦ សតិប្បដ្ឋានដើម្បីរំងាប់ទុក្ខនិងទោមនស្ស.mp3",
+    "source_md5": "45e19b2748840602a0f989fc4ea105a2",
+    "key": "audio/45e19b2748840602-a64.mp3",
+    "bytes": 42738459,
+    "duration_s": 5342,
+    "sha256": "26f0ee1fae98171b7bf2167e3b454a95f6efbb9cfc9afaeebdfed9a734558cb3",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 7.599999999999998,
+      "limit": 0.6,
+      "depth": 10.036974992327124,
+      "busy": 6.278487528663017,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
