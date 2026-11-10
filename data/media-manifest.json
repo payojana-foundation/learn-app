@@ -19999,5 +19999,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wF4X52-DggyXhzQ_jN69D5YaU_HjdFHu",
+    "drive_name": "90.៩០ អភិជ្ឃា សម្លឹងរំពៃចង់បានរបស់អ្នកដទៃ.mp3",
+    "source_md5": "210792ee0711b5e2b1943e4c6c770bc8",
+    "key": "audio/210792ee0711b5e2-a64.mp3",
+    "bytes": 42940333,
+    "duration_s": 5367,
+    "sha256": "3102bb1fb7efa30d56d1b2e081590b15bbc126e2df3257b1fc459153c1ed4ae7",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 4.199999999999999,
+      "limit": 0.6,
+      "depth": 8.636974992327126,
+      "busy": 5.820214252445273,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
