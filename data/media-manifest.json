@@ -33252,5 +33252,63 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VI2cd0zf9Imn_PE7381wXVdTT59hun89",
+    "drive_name": "៤២ February 3. 2023 រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "421e87882102a25d06412340f23f5b13",
+    "key": "audio/421e87882102a25d-a64.mp3",
+    "bytes": 11408238,
+    "duration_s": 1425,
+    "sha256": "8cc486c2b44bb985e4ec2f005cd2f2874f395072dbc75615422da0387eaf3772",
+    "loudness": {
+      "pass1": {
+        "I": -23.5,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 6.199999999999999,
+      "limit": 0.6,
+      "depth": 7.236974992327127,
+      "busy": 1.8776955713734704,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bHKYqazWzbuI-uqPwmUetpOq5GMmBaaa",
+    "drive_name": "៤៣ February 4  2023 រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "1b771eb000d3f7a1e48d3b8397f36398",
+    "key": "audio/1b771eb000d3f7a1-a64.mp3",
+    "bytes": 12639755,
+    "duration_s": 1579,
+    "sha256": "cc73cf22ab5b942ff5e1c13bf12b4462a3cc0fbc31f385c9ddcb8a62ac91c992",
+    "loudness": {
+      "pass1": {
+        "I": -18.7,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 1.5,
+      "limit": 0.6,
+      "depth": 5.736974992327127,
+      "busy": 2.7216912462814102,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
