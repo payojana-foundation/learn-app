@@ -30033,5 +30033,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1f7FPYxm1_7ckLlB1mb9Ma0dyskqsjn1Y",
+    "drive_name": "004.វចនានុក្រម 30 May 2024.mp3",
+    "source_md5": "4502acc5d81b06f419507a8c9868d939",
+    "key": "audio/4502acc5d81b06f4-a64.mp3",
+    "bytes": 31148451,
+    "duration_s": 3893,
+    "sha256": "2f8cde19cdad0eba6963f6e7a0327b83963f867f423e0309fcdac16ed52cde40",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 7.636974992327127,
+      "busy": 3.834596121741364,
+      "out": {
+        "I": -18.2,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
