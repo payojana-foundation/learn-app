@@ -41024,5 +41024,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MJxg2g2a_H5CfqUSmvSzwDvX3C4YL7Mr",
+    "drive_name": "ថ្នាក់កុមារ ភាគ២៧.mp3",
+    "source_md5": "c79672221260fd01be3787bcc01a9c41",
+    "key": "audio/c79672221260fd01-a64.mp3",
+    "bytes": 24628705,
+    "duration_s": 3078,
+    "sha256": "4b3d09aa73c632f563b8da209560f6aecd6d8f8cf7988f8e9f25d495f6d5f417",
+    "loudness": {
+      "pass1": {
+        "I": -23.5,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 7,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 4.950788520569748,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
