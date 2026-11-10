@@ -20753,5 +20753,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nAcqidA3pvGKve7gX3g1wcOWKtvL6AJv",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ១៩ ប្រេតជាមាតាព្រះសារីបុត្តជាដើមភាគ៦.mp3",
+    "source_md5": "3442015b76d1086574e72a27bc93b85f",
+    "key": "audio/3442015b76d10865-a64.mp3",
+    "bytes": 43225799,
+    "duration_s": 5403,
+    "sha256": "533b0beaa7297e11f6fc600351cc67809a0ed4968689478de4d418294b22482e",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": 0.8,
+        "LRA": 0
+      },
+      "G": 5.899999999999999,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 4.8332469647616225,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
