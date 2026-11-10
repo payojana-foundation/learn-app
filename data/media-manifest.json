@@ -58047,5 +58047,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1podoZk4X7XPGrWJfmd9r5O7Nt68N11vX",
+    "drive_name": "បិដកលេខ២១-១៧ បាសរាសិសូត្រ ការយាងទៅប្រោសដល់បញ្ចវគ្គីយតាបស.mp3",
+    "source_md5": "063ef188b34e711ed6eda76eccbaf2bc",
+    "key": "audio/063ef188b34e711e-a64.mp3",
+    "bytes": 53766730,
+    "duration_s": 6720,
+    "sha256": "81ff4786fafbd41f6dc6db2a96f3eb4f5770a5a692a5a1b8ba73881bc072bb5e",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 11.636974992327128,
+      "busy": 6.241072491370075,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
