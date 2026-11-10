@@ -48883,5 +48883,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wISCGbioqTrqEjq9Qjm0AJwQGik_8i1R",
+    "drive_name": "10-០៧ មិថុនា ២០២៥ នាទីធម្មចរិយា សិក្សាបិដកកេខ១៤ទីឃនិកាយ សីលក្ខន្ធវគ្គ សូមអនុមោទនា.mp3",
+    "source_md5": "dc3f640f928e52a4ddc5fa48141ac621",
+    "key": "audio/dc3f640f928e52a4-a64.mp3",
+    "bytes": 20407736,
+    "duration_s": 2550,
+    "sha256": "48ada815aca45693d44e53cce3fd7ad2102f357d073df106d2400881db93a7b0",
+    "loudness": {
+      "pass1": {
+        "I": -19.2,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 2.6999999999999993,
+      "limit": 0.6,
+      "depth": 7.336974992327127,
+      "busy": 3.989278293935474,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
