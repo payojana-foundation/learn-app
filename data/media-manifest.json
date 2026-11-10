@@ -21449,5 +21449,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vEPD8UcHk5_xoctYDMwdICZsv6cLdlsu",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ២៥ សេរីនីប្រេត មិគលុទ្ទប្រេត ធាតុវិវណ្ណប្រេត.mp3",
+    "source_md5": "fce843053040f42ea12406dae4a6ad43",
+    "key": "audio/fce843053040f42e-a64.mp3",
+    "bytes": 41189711,
+    "duration_s": 5148,
+    "sha256": "236231d0b450a5c8ce63f744147a45ae66c046d18e915a7cb903bd475d6f412c",
+    "loudness": {
+      "pass1": {
+        "I": -22.2,
+        "TP": 1,
+        "LRA": 0
+      },
+      "G": 6.563025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.831802202497718,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
