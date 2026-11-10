@@ -30381,5 +30381,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1t07KZko4KMRnF4k0WXZ0QL3ZO2xFxR6w",
+    "drive_name": "១៣ រាត្រីធម្មទាន-1_630x360 (1).mp3",
+    "source_md5": "cb24f023e4524d50e58a02dcf9c3d203",
+    "key": "audio/cb24f023e4524d50-a64.mp3",
+    "bytes": 7017786,
+    "duration_s": 877,
+    "sha256": "30b223bfa5fba7a16f61b2590c96a2ce903e3a652ca7ee5153ea7cdacb23eafb",
+    "loudness": {
+      "pass1": {
+        "I": -18.6,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 1.9000000000000021,
+      "limit": 0.6,
+      "depth": 4.236974992327129,
+      "busy": 4.320811719774269,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
