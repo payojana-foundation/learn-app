@@ -20869,5 +20869,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NLeRQAjxWScPQShF5nNU54Sn9wa5VzEa",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ២៤ អំពីឥន្រ្ទិយ ២២ ភាគ២ និងបញ្ញត្តិ៦ យ៉ាង.mp3",
+    "source_md5": "6ddcb01a15a564be74a4f51abeacef8b",
+    "key": "audio/6ddcb01a15a564be-a64.mp3",
+    "bytes": 43175017,
+    "duration_s": 5396,
+    "sha256": "2db72dc8ea4beee81f7deb93e50d74e19342223cd2d839661425e78d76e7fc9d",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": 0.7,
+        "LRA": 0
+      },
+      "G": -0.3000000000000007,
+      "limit": 0.54,
+      "depth": 5.752124803540629,
+      "busy": 2.6721606122089736,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
