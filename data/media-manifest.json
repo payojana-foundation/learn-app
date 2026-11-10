@@ -44301,5 +44301,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DnQnCvTUhMLwDGd9bzUAT5eQ5zTiz8u7",
+    "drive_name": "១១២  វិញ្ញាណជាផលរបស់សង្ខារមាន២ បដិសន្ធិកាល បវត្តិកាលភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "21c5a1127d33d5dc95706bf43baaee8f",
+    "key": "audio/21c5a1127d33d5dc-a64.mp3",
+    "bytes": 44258158,
+    "duration_s": 5532,
+    "sha256": "887622454b64075975323faff1ea0f0f27e890bfbcaac0aa14098c2772be565d",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.899999999999999,
+      "limit": 0.6,
+      "depth": 10.936974992327126,
+      "busy": 4.680057842649917,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
