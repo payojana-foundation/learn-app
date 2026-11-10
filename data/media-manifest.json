@@ -22754,5 +22754,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16uHWxF4E4x7MXPYmHZqKCnmVXq70kIhS",
+    "drive_name": "បរិច្ឆេទទី ៨-៣៣ អត្ថិប្បច្ច័យ បាលីនិទ្ទេសរបស់អត្ថិប្បច្ច័យ.mp3",
+    "source_md5": "2cd9420d5034c19ca7e801f0a56aafbd",
+    "key": "audio/2cd9420d5034c19c-a64.mp3",
+    "bytes": 42176931,
+    "duration_s": 5272,
+    "sha256": "1d74c059f25e40118a8aafece9335e4d56a99e19f407fcfcf49f6201fb4bcbf0",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 7.899999999999999,
+      "limit": 0.6,
+      "depth": 10.936974992327126,
+      "busy": 4.294303977542156,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
