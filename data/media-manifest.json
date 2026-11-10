@@ -31164,5 +31164,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Fva5KnDBbYlLaZgXzB-1xoQKHTSSg5fa",
+    "drive_name": "009.វចនានុក្រម 04 July 24.mp3",
+    "source_md5": "d10c3705ced5071be519a7f78b9d0ef5",
+    "key": "audio/d10c3705ced5071b-a64.mp3",
+    "bytes": 20673349,
+    "duration_s": 2584,
+    "sha256": "f22d9118ecbe39576d9cc955e0f8d6d9f9f3102ad80c954973d55600a71bc6f6",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 3.5,
+      "limit": 0.6,
+      "depth": 7.1369749923271275,
+      "busy": 3.738245423938702,
+      "out": {
+        "I": -18.1,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
