@@ -45345,5 +45345,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fAU-9f0kASML5I20kWGe_O1kcozKbkFt",
+    "drive_name": "បិដកលេខ១៩ 03 បុព្វកម្មដែលនាំឱ្យមានមហាបុរិសលក្ខណៈ ៣២ ប្រការភាគ២.mp3",
+    "source_md5": "2811ea7e2b79ff02416cd3a139af216a",
+    "key": "audio/2811ea7e2b79ff02-a64.mp3",
+    "bytes": 42710038,
+    "duration_s": 5338,
+    "sha256": "2051e4a5a25f664c13c0c532aac352cd8babd357bd4b0c00083df210057c256b",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 11.336974992327127,
+      "busy": 4.143096634012025,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
