@@ -29888,5 +29888,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kPzVU3zXnv41Zzr6QlQNvGPSXn9TH1T1",
+    "drive_name": "3 អដ្ឋកថាជាតក.mp3",
+    "source_md5": "3694369d8bebbbb9e8c97b1c9955cf40",
+    "key": "audio/3694369d8bebbbb9-a64.mp3",
+    "bytes": 21976754,
+    "duration_s": 2747,
+    "sha256": "d4d08e0bc4e035a13b0557d335a7305116e15e0c91878e483cb80df520cae838",
+    "loudness": {
+      "pass1": {
+        "I": -18.1,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 1.6000000000000014,
+      "limit": 0.6,
+      "depth": 5.936974992327128,
+      "busy": 4.3018874792959725,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
