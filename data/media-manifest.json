@@ -49492,5 +49492,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1sVkxmpPlZv6z9trmHvsYaTE2-9OBh1Tf",
+    "drive_name": "១១០ រាត្រីធម្មទាន_ June 7-2023_648x360.mp3",
+    "source_md5": "cde675f6d86d423a0d89410d00add04f",
+    "key": "audio/cde675f6d86d423a-a64.mp3",
+    "bytes": 14093835,
+    "duration_s": 1761,
+    "sha256": "5b71d221155cb704a4ce0cc315d886ea405eddcb2a8dfdcccbe2832734187f6f",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.099999999999998,
+      "limit": 0.6,
+      "depth": 7.136974992327126,
+      "busy": 3.4192825112107625,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
