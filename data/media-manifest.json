@@ -33397,5 +33397,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JIx-ICj4j6RMryQurvbUfsG9OW8Le84T",
+    "drive_name": "៤៤ February 7. 2024 រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "7894afd18e300dbe2a265b92cff5ce46",
+    "key": "audio/7894afd18e300dbe-a64.mp3",
+    "bytes": 12064225,
+    "duration_s": 1507,
+    "sha256": "ecd71dec6ff987a18a3727979af1437456cd1b37543bcfc2dfa087d4cea936d3",
+    "loudness": {
+      "pass1": {
+        "I": -18.8,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 1.6999999999999993,
+      "limit": 0.6,
+      "depth": 5.836974992327127,
+      "busy": 2.84565649867374,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
