@@ -27539,5 +27539,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1d5oMKg-pdARN5G1DnlHo-dazM43eCMHU",
+    "drive_name": "139.១៣៩ ធម្មស្សវន ធម្មទេសនា.mp3",
+    "source_md5": "515b4a2e7042e97721901da3bb4498e7",
+    "key": "audio/515b4a2e7042e977-a64.mp3",
+    "bytes": 42313394,
+    "duration_s": 5289,
+    "sha256": "d05e31d5a7bf1ff3f2c58c6136e214e6ed14d555a3bb480aced1afad247b20ae",
+    "loudness": {
+      "pass1": {
+        "I": -8.5,
+        "TP": 4.3,
+        "LRA": 0
+      },
+      "G": -9.100000000000001,
+      "limit": 0.6,
+      "depth": -0.36302500767287427,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
