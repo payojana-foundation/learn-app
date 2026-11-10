@@ -49869,5 +49869,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xLXR34lATiA3eZudehBVSCiAOn1gSoNq",
+    "drive_name": "15-២២ មិថុនា ២០២៥ នាទីធម...ក្ខន្ធវគ្គ សូមអនុមោទនា.mp3",
+    "source_md5": "fe5df1d1d715426934a170731df35679",
+    "key": "audio/fe5df1d1d7154269-a64.mp3",
+    "bytes": 20019452,
+    "duration_s": 2502,
+    "sha256": "e3fc5fae4be3ec65c4024129bf23ba1a071c8b455e0319d26251ca3a4a4cbf79",
+    "loudness": {
+      "pass1": {
+        "I": -22.2,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 9.436974992327128,
+      "busy": 3.124500479539642,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
