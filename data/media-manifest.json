@@ -32382,5 +32382,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_N1pI1JeqL26hUc_Dm-QysDYgwGX_5gt",
+    "drive_name": "៣៥ January រាត្រីធុម្មទាន_ 27 2023_640x360 (1).mp3",
+    "source_md5": "03d752d1485c1e12e16e54c22c434585",
+    "key": "audio/03d752d1485c1e12-a64.mp3",
+    "bytes": 11810942,
+    "duration_s": 1476,
+    "sha256": "6a67d2ec58342db6af3aae529f42847d4ef7859d2c14965064ef5c724b7652af",
+    "loudness": {
+      "pass1": {
+        "I": -18.8,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 1.6000000000000014,
+      "limit": 0.6,
+      "depth": 5.736974992327129,
+      "busy": 2.332689832689833,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
