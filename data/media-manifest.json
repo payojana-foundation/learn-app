@@ -23914,5 +23914,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VqjBzf0A1BPiH-6Wt8MBEGDQzw6fKoBA",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៣៤ រូបមុទុតា រូបកម្មញ្ញតា.mp3",
+    "source_md5": "6cdf87ecca0d29ac90770dacf6b91765",
+    "key": "audio/6cdf87ecca0d29ac-a64.mp3",
+    "bytes": 38303703,
+    "duration_s": 4787,
+    "sha256": "f8ccc42f265b9bd460cb85d9f4f5e8a160532162513ca4aaf23c4f735b3d7b13",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.799999999999997,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 5.927641266095093,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
