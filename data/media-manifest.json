@@ -19303,5 +19303,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pKXVj_9YlwccuI33LCMOl5hJt89NLksw",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១១​ សំយោជនៈ១០ កើតក្នុងរូបារម្មណ៍.mp3",
+    "source_md5": "d46c71f4d1f7990253f1492a29655e42",
+    "key": "audio/d46c71f4d1f79902-a64.mp3",
+    "bytes": 44737140,
+    "duration_s": 5592,
+    "sha256": "3f6d2b14022bed85359258d48d918ee93c9616e7813cca85e72732294cf7a58e",
+    "loudness": {
+      "pass1": {
+        "I": -11.8,
+        "TP": 2.5,
+        "LRA": 0
+      },
+      "G": -5.800000000000001,
+      "limit": 0.6,
+      "depth": 1.1369749923271266,
+      "busy": 0.0013411777328731604,
+      "out": {
+        "I": -18,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
