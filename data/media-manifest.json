@@ -43402,5 +43402,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CMYJNsm8lyypDdOWUisHnqntDCZEh3Rk",
+    "drive_name": "61​- វចនានុក្រម ​23 មេសា 2026.mp3",
+    "source_md5": "96fabb2de0e5a77819f77168e6b7a9fe",
+    "key": "audio/96fabb2de0e5a778-a64.mp3",
+    "bytes": 21754400,
+    "duration_s": 2719,
+    "sha256": "bd7d876afd3b883b7546c2e2baab5c36a3a4fa6117884c218fb48b6507a02d79",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 1,
+      "limit": 0.6,
+      "depth": 5.036974992327127,
+      "busy": 4.658453617725476,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
