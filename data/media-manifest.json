@@ -18868,5 +18868,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UaTFZGyfe3t-gG2IBv3IFE6-NhskPmww",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ 04 តាបននរកដល់មហារោរុវនរក.mp3",
+    "source_md5": "fead55cd3b5ac7122d35b76b06caff96",
+    "key": "audio/fead55cd3b5ac712-a64.mp3",
+    "bytes": 45917038,
+    "duration_s": 5739,
+    "sha256": "56c58327e2e29617c71816bb6eb2f8217cbc8f4e346d780e4ddca0393f44ee64",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": 1.1,
+        "LRA": 0
+      },
+      "G": 2.8999999999999986,
+      "limit": 0.6,
+      "depth": 8.436974992327126,
+      "busy": 3.5039462680326157,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
