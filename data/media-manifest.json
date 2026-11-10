@@ -52624,5 +52624,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10i7Oxvd4was9TvWyc2HiQKrF01z39oX-",
+    "drive_name": "14-01Oct2025.mp3",
+    "source_md5": "63e6e6fcf8bfec2ba6ba0bf16ab3d88e",
+    "key": "audio/63e6e6fcf8bfec2b-a64.mp3",
+    "bytes": 43163732,
+    "duration_s": 5395,
+    "sha256": "86b7dc6ad90a804a033d2813aba1153317821358d10c5e3dc32d069123ec0b57",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "G": 10.663025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.6126829087471855,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
