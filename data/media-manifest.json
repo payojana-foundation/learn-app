@@ -28148,5 +28148,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EhFILYuQOwkTO9vTXkvI3slR25BG8kf8",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៧៧ ចិត្តានុបស្សនា ចិត្តប្រកបទោស មោហៈដល់អនុត្តរចិត្ត.mp3",
+    "source_md5": "c34e37d54f5777a92f28cd786b2af18f",
+    "key": "audio/c34e37d54f5777a9-a64.mp3",
+    "bytes": 43356412,
+    "duration_s": 5419,
+    "sha256": "c6132d7635153e41a6b56237881da3fd2ff2b08f040c1c89b6f0c78fd5aecf14",
+    "loudness": {
+      "pass1": {
+        "I": -21.3,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 9.436974992327128,
+      "busy": 4.823092536211828,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
