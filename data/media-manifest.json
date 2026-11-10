@@ -42764,5 +42764,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zlGOAleDPQyr-UBLYVRxyrmUs-F7kMe0",
+    "drive_name": "១០៦ អវិជ្ជាមិនដឹងទុក្ខសមុទយេ ទុក្ខនិរោធេ អញ្ញាណំភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "4602fb8f52fd8868d27aaad89975cfe2",
+    "key": "audio/4602fb8f52fd8868-a64.mp3",
+    "bytes": 41783422,
+    "duration_s": 5222,
+    "sha256": "26100c9be3b539fa3c44cc5b5f36ebd71fabbdf96af9bde9238b058ccd82ab4e",
+    "loudness": {
+      "pass1": {
+        "I": -22.6,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 6.200000000000003,
+      "limit": 0.6,
+      "depth": 9.43697499232713,
+      "busy": 4.906517451990274,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
