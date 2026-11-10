@@ -20927,5 +20927,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yF28Arj67yVPdzO4o8xCx1RzBJrIt_Mq",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ១៦ គោរចររូប រូបារម្មណ៍.mp3",
+    "source_md5": "352fdc9cfabb54f12fb5f869a97a23d3",
+    "key": "audio/352fdc9cfabb54f1-a64.mp3",
+    "bytes": 46817949,
+    "duration_s": 5852,
+    "sha256": "60df041063838a3e22cdc134d46291a17ff108fe1d8fd1a6aab86adadf21c36d",
+    "loudness": {
+      "pass1": {
+        "I": -22.2,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.300000000000001,
+      "limit": 0.6,
+      "depth": 10.336974992327129,
+      "busy": 5.74207135777998,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
