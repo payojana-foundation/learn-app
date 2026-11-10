@@ -26292,5 +26292,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1b69JR6RkA9pVHUbBXDTkVlDWWcPf_y91",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៦១ ឧបត្ថម្ភកកម្មប្រការទី៣គ លេខ ១ដល់លេខ៣.mp3",
+    "source_md5": "2805b44b99c0866cbc4278c3dc5a92a6",
+    "key": "audio/2805b44b99c0866c-a64.mp3",
+    "bytes": 43040643,
+    "duration_s": 5380,
+    "sha256": "737f53e70032c29267cc0d3fa99a56d1f8c0c69b685a5ab1d2048d9d1f97935f",
+    "loudness": {
+      "pass1": {
+        "I": -19.3,
+        "TP": 2.6,
+        "LRA": 0
+      },
+      "G": 3.8000000000000043,
+      "limit": 0.6,
+      "depth": 10.836974992327132,
+      "busy": 4.868913857677903,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
