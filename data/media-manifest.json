@@ -47607,5 +47607,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1J-P5hzzHUQzun3kQwGe5Ujyp6fZNWQX5",
+    "drive_name": "២៥ មហាវេទល្លសូត្រទី៣ សួរអំពីវេទនា សញ្ញា វិញ្ញាផ្សេងគ្នាឬទេ (បិដកលេខ ២២).mp3",
+    "source_md5": "edf541f7f0ae9b699c85e2775808279b",
+    "key": "audio/edf541f7f0ae9b69-a64.mp3",
+    "bytes": 56291830,
+    "duration_s": 7036,
+    "sha256": "20b976bbca507aa06690edf659f03fb83a9e3cc4554db75f00393d9abbf31357",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 9.599999999999998,
+      "limit": 0.6,
+      "depth": 10.536974992327124,
+      "busy": 5.241456984701093,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
