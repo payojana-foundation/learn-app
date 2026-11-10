@@ -27742,5 +27742,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11Elqd-xCS-B-VX-IR7bqV_8XsOfVzl-F",
+    "drive_name": "141.១៤១ ចែកអានិសង្សរបស់មហាកុសលចិត្ត៨ ដួង.mp3",
+    "source_md5": "f81d506359dfd7bb5a630b6a6c6feb94",
+    "key": "audio/f81d506359dfd7bb-a64.mp3",
+    "bytes": 41815396,
+    "duration_s": 5226,
+    "sha256": "44bae225f8683ded6e44d8d0cfba028637cd96eab67d770d2906aea9a211c5d8",
+    "loudness": {
+      "pass1": {
+        "I": -12.8,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": -4.800000000000001,
+      "limit": 0.6,
+      "depth": -0.963025007672873,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
