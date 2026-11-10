@@ -47723,5 +47723,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-jjNU4ZII7dppEt7059TOhQopdSp7GxL",
+    "drive_name": "២៩ ចូឡវេទល្លសូត្រទី៤ វិសាខឧបាសកសួរការចូលនិរោធជាដើមភិក្ខុ (បិដកលេខ ២២).mp3",
+    "source_md5": "490b7ebcbb25dcb0d52f6683b08df41e",
+    "key": "audio/490b7ebcbb25dcb0-a64.mp3",
+    "bytes": 56276575,
+    "duration_s": 7034,
+    "sha256": "a7fe8ca9ec4709a78de21e32fc5ab1843abdc6a0a729f1529e6ce64f78f4f974",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 5.600000000000001,
+      "limit": 0.6,
+      "depth": 9.63697499232713,
+      "busy": 5.822689439978392,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
