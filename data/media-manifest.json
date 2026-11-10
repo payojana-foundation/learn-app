@@ -23769,5 +23769,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zI9Ozhszm5Yt7V_Jh8972w3IyD9KhVFj",
+    "drive_name": "បរិច្ឆេទទី ៨-៤១ អវិគតប្បច្ច័យ បច្ច័យដែលមិនទាន់ប្រាស់ទៅ.mp3",
+    "source_md5": "acf02398e2bcc1c4c201b997caf07424",
+    "key": "audio/acf02398e2bcc1c4-a64.mp3",
+    "bytes": 29917143,
+    "duration_s": 3739,
+    "sha256": "b3148f38bf7fb02ee12fb9fc6bf93e3d12518398ca420866c381c627bd2a5d10",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "G": 6.699999999999999,
+      "limit": 0.6,
+      "depth": 9.236974992327127,
+      "busy": 3.2647208257567653,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
