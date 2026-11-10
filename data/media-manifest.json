@@ -28235,5 +28235,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Oeg0u93KSiAY8hykuvhLANRsqUwapS5z",
+    "drive_name": "៧៧ កម្មប្បច្ច័យ នានក្ខណិកកម្ម និងសម្បត្តិ៤ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "3d67a3cfcaaff552409d22916e22e5e6",
+    "key": "audio/3d67a3cfcaaff552-a64.mp3",
+    "bytes": 41744970,
+    "duration_s": 5218,
+    "sha256": "9b0d4b98130bdd32a5d6d1ac2b4f1ce3f08103fc43e948568ff7b74e6f924e71",
+    "loudness": {
+      "pass1": {
+        "I": -20.3,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.599999999999998,
+      "limit": 0.6,
+      "depth": 7.636974992327126,
+      "busy": 5.394683888771775,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
