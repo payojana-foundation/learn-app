@@ -46302,5 +46302,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mLebFpp2_QH68Bi2LsDxUPYX9yiOsEYh",
+    "drive_name": "០៩ ចូឡសច្ចកសូត្រទី៥ សច្ចនិគ្រន្ថទៅតតាំងវាទៈនឹងព្រះភិក្ខុ បិដកលេខ ២២.mp3",
+    "source_md5": "d22f93e3bc6227d07486c302d0c50352",
+    "key": "audio/d22f93e3bc6227d0-a64.mp3",
+    "bytes": 55747856,
+    "duration_s": 6968,
+    "sha256": "ff21be5470ef3ae959231442bc0614296850f781e8448479830403131ac5e336",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -6.6,
+        "LRA": 0
+      },
+      "G": 9.899999999999999,
+      "limit": 0.6,
+      "depth": 7.736974992327126,
+      "busy": 5.407407673155436,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
