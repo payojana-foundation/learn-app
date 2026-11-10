@@ -48274,5 +48274,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nbN8ZH7PVjqBNo9NPMF6IpRbrvPzDRMS",
+    "drive_name": "04-១៦ ឧសភា ២០២៥-នាទីធម្ម...្ខន្ធវគ្គ) សូមអនុមោទនា.mp3",
+    "source_md5": "4b697dd505bc39b64a8487521462f064",
+    "key": "audio/4b697dd505bc39b6-a64.mp3",
+    "bytes": 12331928,
+    "duration_s": 1541,
+    "sha256": "08c4964ce4b8d86692ef5b7a7abb278fa44360f3d63f8855cf9f559470ff054e",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.699999999999999,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 3.1585520127153006,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
