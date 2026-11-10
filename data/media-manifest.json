@@ -28496,5 +28496,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wC9X2nV2YlGcgn3xXZUruW_MxOhyNaCl",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៧៨ បញ្ចប់អកុសលកម្ម១០ ភាគបញ្ចប់.mp3",
+    "source_md5": "c31827ee8c0e743c46ccbe283ef2d356",
+    "key": "audio/c31827ee8c0e743c-a64.mp3",
+    "bytes": 42028137,
+    "duration_s": 5253,
+    "sha256": "031785be77669dd421785c745d1388cb028a7658594ce7335b95906b82678ac7",
+    "loudness": {
+      "pass1": {
+        "I": -16.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": -1.5,
+      "limit": 0.6,
+      "depth": 2.5369749923271274,
+      "busy": 0.002141429523175026,
+      "out": {
+        "I": -18,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
