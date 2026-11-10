@@ -47926,5 +47926,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gndDZ0scUlYpKExJo-K2AMai_LNFlTPz",
+    "drive_name": "៣៨ ព្រហ្មនិមន្តនិកសូត្រទី៩ ទ្រង់យ៉ាងទៅដោះទិដ្ឋីរបស់ព្រហ្ម ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២.mp3",
+    "source_md5": "6cd90770f47442d64c5b78465548816c",
+    "key": "audio/6cd90770f47442d6-a64.mp3",
+    "bytes": 57905153,
+    "duration_s": 7238,
+    "sha256": "c2707b530e4785b3f44e3fd3da3d14ba5758b659996555464396cb0ab3ee3950",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 9.399999999999999,
+      "limit": 0.6,
+      "depth": 9.936974992327126,
+      "busy": 5.422693800859341,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
