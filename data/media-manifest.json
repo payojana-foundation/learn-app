@@ -23421,5 +23421,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rxmnq3Wl4HHPk-t7pynMVpWJuZBOp-UM",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៤២ ពោធិបក្ខិយធម៌ ពាក្យថា សតិប្បដ្ឋាន.mp3",
+    "source_md5": "3ca639a51e4ba2c76e401ef3c09c707a",
+    "key": "audio/3ca639a51e4ba2c7-a64.mp3",
+    "bytes": 43637698,
+    "duration_s": 5454,
+    "sha256": "5d1753a315e05024131619700bb00f2834e1255110ba7470f1af4e163f1bc46b",
+    "loudness": {
+      "pass1": {
+        "I": -21.9,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 6.399999999999999,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 6.886263222542028,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
