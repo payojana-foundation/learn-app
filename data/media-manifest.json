@@ -28380,5 +28380,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13Jdz4cUT2N7PhrmSUJ0is1y04IUwcoaD",
+    "drive_name": "៧៨ នានក្ខណិកកម្ម ចែកបញ្ហាវារៈជា២ យ៉ាងភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "693670264804f9eec69c0bf04c0a3aa5",
+    "key": "audio/693670264804f9ee-a64.mp3",
+    "bytes": 41382599,
+    "duration_s": 5172,
+    "sha256": "2b72d6b46898bf093a34ec8502bb594d58a546e36c011870b1dcda48e34b65cb",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 3.3000000000000007,
+      "limit": 0.6,
+      "depth": 6.336974992327129,
+      "busy": 4.981103077636869,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
