@@ -46882,5 +46882,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jrjp2I51blCBr29xddyLbtiv1-_HyN-v",
+    "drive_name": "បិដកលេខ១៩ 16 សង្គីតិសូត្រ ចតុក្កនិទ្ទេស ពួក៤ ភាគបញ្ចប់ .mp3",
+    "source_md5": "76159e7bdf9f9cd6d86b9f9bd96c6099",
+    "key": "audio/76159e7bdf9f9cd6-a64.mp3",
+    "bytes": 42297303,
+    "duration_s": 5287,
+    "sha256": "57bae9307f1913c534e1a8902206edf131a8a0714b9d68575eb03f600a4b9168",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -13.7,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": -0.3630250076728734,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
