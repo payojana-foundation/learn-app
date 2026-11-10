@@ -19100,5 +19100,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1aThd_k3wwl-4T007MciaiRoPVurZPRTh",
+    "drive_name": "84.៨៤ មុសាវាទភាគ១.mp3",
+    "source_md5": "88b555627755d6757e5f1be1ab1de4b8",
+    "key": "audio/88b555627755d675-a64.mp3",
+    "bytes": 40046593,
+    "duration_s": 5005,
+    "sha256": "0daaba647158790888bd93cdceb910fa0d54fee527064d261316a2f3ecbd8c81",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": -1.3,
+        "LRA": 0
+      },
+      "G": 6.600000000000005,
+      "limit": 0.6,
+      "depth": 9.736974992327132,
+      "busy": 7.8161832274561505,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
