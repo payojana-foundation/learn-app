@@ -26031,5 +26031,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HH45qx85ax8Kmas8QmnxQllJK-qSOMdb",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៦១ ពន្យល់អសម្មោហសម្បជញ្ញៈ ក្នុងការប្រើចីវរជាដើម.mp3",
+    "source_md5": "5ae08bb4b66115db4088f55e8baf7402",
+    "key": "audio/5ae08bb4b66115db-a64.mp3",
+    "bytes": 43117966,
+    "duration_s": 5389,
+    "sha256": "a9cde5b23062d7e28800c1c17b8461bbcbbd82d549f02021f1581811ceaa5fb8",
+    "loudness": {
+      "pass1": {
+        "I": -27.6,
+        "TP": -5.1,
+        "LRA": 0
+      },
+      "G": 11.3,
+      "limit": 0.6,
+      "depth": 10.63697499232713,
+      "busy": 6.058778781750376,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
