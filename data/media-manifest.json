@@ -46476,5 +46476,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1D_Zw9lJ3DEXHsbUUCVNJYXatEyRqhzQ6",
+    "drive_name": "បិដកលេខ១៩ 10 ត្រកូលយក្ស២៨ អានាដាដិយសូត្រ.mp3",
+    "source_md5": "9d63bea46acffceb6741e294f0ab886a",
+    "key": "audio/9d63bea46acffceb-a64.mp3",
+    "bytes": 41799305,
+    "duration_s": 5224,
+    "sha256": "8fe76f5f33ec3f6930acb13c4283f859014f18cec63f740880a13b964b8e1647",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -10.9,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 2.4369749923271256,
+      "busy": 1.0512162912208847,
+      "out": {
+        "I": -18,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
