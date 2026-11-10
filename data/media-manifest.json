@@ -49521,5 +49521,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qVSTgpPhSiCMADwFdKEMKZr9P4Jdzm0_",
+    "drive_name": "13-១៥ មិថុនា ២០២៥ នាទីធម្មចរិយាសិក្សាបិដកលេខ១៤សុត្.mp3",
+    "source_md5": "4590bc0f29e598f7ef927018f8fb5145",
+    "key": "audio/4590bc0f29e598f7-a64.mp3",
+    "bytes": 24139484,
+    "duration_s": 3017,
+    "sha256": "c006ec41ce8235a9b0e35ad84f0cbedfd38329f9866fe4513ca4c85281e1c3b5",
+    "loudness": {
+      "pass1": {
+        "I": -20.1,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 3,
+      "limit": 0.6,
+      "depth": 7.536974992327128,
+      "busy": 2.996785311857891,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
