@@ -45403,5 +45403,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lq7LTdoSZdd5XpirbLOFEGW-cGQ3Ar6E",
+    "drive_name": "១២៦ ឧបាទានប្បច្ចយា ភវោ ភពកើតមានព្រោះឧបាទានភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "8880f119b0016d0c61f44316f698dc60",
+    "key": "audio/8880f119b0016d0c-a64.mp3",
+    "bytes": 45119990,
+    "duration_s": 5639,
+    "sha256": "c78dccdfc291a702881a820109cafed5174c3a687b25ab4245e1f848f73423f1",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 5.100000000000001,
+      "limit": 0.6,
+      "depth": 9.236974992327129,
+      "busy": 5.526644739758331,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
