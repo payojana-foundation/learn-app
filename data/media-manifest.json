@@ -23653,5 +23653,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pGQ16YLRyJquNv_ifeVw4_gBrziHUDD-",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៤៤ ពន្យល់ថា ឯកាយនមគ្គោ ផ្លូវមូលតែមួយដូចម្តេច.mp3",
+    "source_md5": "af5d42c40ddce13490fceab6036befdc",
+    "key": "audio/af5d42c40ddce134-a64.mp3",
+    "bytes": 39773665,
+    "duration_s": 4971,
+    "sha256": "c563d2451afd713cacfb4dae4903e1b17327403f915cd3b6eb06fadbf72efb3e",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 8.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.726298110285318,
+      "out": {
+        "I": -19,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
