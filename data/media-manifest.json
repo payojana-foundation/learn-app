@@ -49318,5 +49318,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "196UrzwDz1giEv9nosNFvoWSyTu1O3apM",
+    "drive_name": "5-13Aug2025 (part1).mp3",
+    "source_md5": "c71a1435826ed66e52f7fdbf4a83cf70",
+    "key": "audio/c71a1435826ed66e-a64.mp3",
+    "bytes": 24081806,
+    "duration_s": 3010,
+    "sha256": "a3dac0c18f94ead1cf47a89a21fb000ad236686b9bef53205b235ad11721fed0",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "G": 10.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.797372267623413,
+      "out": {
+        "I": -18.5,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
