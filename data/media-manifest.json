@@ -23450,5 +23450,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YTAHIOYaIa0zPFzV7ppPVA4dtnpfGs__",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៤១ ទេវតាតាវត្តិង្ស យាមា តុសិត និម្មានរតី.mp3",
+    "source_md5": "62ab53935b3b4aa6c3e0234ec37b6ec6",
+    "key": "audio/62ab53935b3b4aa6-a64.mp3",
+    "bytes": 43125071,
+    "duration_s": 5390,
+    "sha256": "53b2a99b3f07f4a4907de15d21152f10d4d6fc4f1af4f2757532c5c2c629c27b",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": 1.6,
+        "LRA": 0
+      },
+      "G": 5.047875196459371,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 4.285005379735094,
+      "out": {
+        "I": -18.9,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
