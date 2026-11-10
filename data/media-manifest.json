@@ -22174,5 +22174,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14FbWSImhs5RnO8Ajd9oiYOR9bRyEXHV1",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៣១ ប្រេត ១២ ពួកតាមបរមត្ថជោតិកៈ.mp3",
+    "source_md5": "34fab01a40d19cb1a053963d3a4c5342",
+    "key": "audio/34fab01a40d19cb1-a64.mp3",
+    "bytes": 43436033,
+    "duration_s": 5429,
+    "sha256": "0fdf293c990523d4ec00cd3eae8f3c43b6a0e4b9ea4baa3085d916df971265a9",
+    "loudness": {
+      "pass1": {
+        "I": -20.3,
+        "TP": 1,
+        "LRA": 0
+      },
+      "G": 4,
+      "limit": 0.6,
+      "depth": 9.436974992327126,
+      "busy": 3.753372809400584,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
