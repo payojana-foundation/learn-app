@@ -18723,5 +18723,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZYwVTQSuT2Yzs0qtpqxiPrSMlxrHrRdV",
+    "drive_name": "បរិច្ឆេទទី ៨-០២ និយមន័យបដ្ឋាន មាន ៣ ន័យ.mp3",
+    "source_md5": "132fa412bb144f5665d59a7fb6d49c12",
+    "key": "audio/132fa412bb144f56-a64.mp3",
+    "bytes": 44730870,
+    "duration_s": 5591,
+    "sha256": "f2bcd3de817383bcff8e0299d0ed764c294ca32a1091b2ada5cea0f0888cd77f",
+    "loudness": {
+      "pass1": {
+        "I": -24.5,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 8.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.448129700340705,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
