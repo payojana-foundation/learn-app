@@ -36065,5 +36065,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-Nq3oysKmPahPQVrMi3Ofs01iWzib0cc",
+    "drive_name": "36-Buddhism in English by Ven.Hak Sienghai 39.mp3",
+    "source_md5": "562f6e0a2701eee12b2181202ee23041",
+    "key": "audio/562f6e0a2701eee1-a64.mp3",
+    "bytes": 6026805,
+    "duration_s": 753,
+    "sha256": "6ca37e212ec7f0d38f4484033163cd651002de2d74d0e4dd4260657c796d4d18",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -7.6,
+        "LRA": 0
+      },
+      "G": 9,
+      "limit": 0.6,
+      "depth": 5.836974992327128,
+      "busy": 2.245121465551573,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
