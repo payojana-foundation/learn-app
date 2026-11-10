@@ -23624,5 +23624,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QcGWd1vZnn2quxEbRsmZD8zQp1WUZUYw",
+    "drive_name": "បរិច្ឆេទទី ៨-៤០ វិគតប្បច្ច័យ បញ្ហាវារៈទី១ដល់ទី៣.mp3",
+    "source_md5": "69238c97fc74ebf52ab04f9ac7e3f748",
+    "key": "audio/69238c97fc74ebf5-a64.mp3",
+    "bytes": 41695860,
+    "duration_s": 5211,
+    "sha256": "3c353dcfa3df23719fa829bb75526c3e1639702db083194b9c9001ae33f92662",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 4.825449208069916,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
