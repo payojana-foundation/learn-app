@@ -52392,5 +52392,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17IF3ajgTeayioe5bsiItFocs89jLv39V",
+    "drive_name": "១៤៥ រាត្រីធម្មទាន July 17-2023 New_648x360.mp3",
+    "source_md5": "edbc0c88e28cc986f8789aed2e3033ad",
+    "key": "audio/edbc0c88e28cc986-a64.mp3",
+    "bytes": 4011824,
+    "duration_s": 501,
+    "sha256": "f4288a3570ca5a13931d36abb3174190b450f0d603e30468e6c1ff37a243d4ed",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 4.5,
+      "limit": 0.6,
+      "depth": 8.436974992327126,
+      "busy": 2.4852926513111977,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
