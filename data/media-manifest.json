@@ -22899,5 +22899,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ae03gBjFXrK0LE8C20wpxMYgIfQ4k34n",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៣៧ ទ្វីបមនុស្សមាន ៤ ទ្វីប.mp3",
+    "source_md5": "fe6e102258369a26022d6a757091a69f",
+    "key": "audio/fe6e102258369a26-a64.mp3",
+    "bytes": 44108111,
+    "duration_s": 5513,
+    "sha256": "9d496c0f3a24f2e72d97bbb0ce4f568c978686288ad8679c72b1c54d60598589",
+    "loudness": {
+      "pass1": {
+        "I": -17,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": -0.6000000000000014,
+      "limit": 0.6,
+      "depth": 1.7369749923271258,
+      "busy": 0.0018137299356125872,
+      "out": {
+        "I": -18,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
