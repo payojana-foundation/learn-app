@@ -29366,5 +29366,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15iVK4WSSpJYyCuBWLWIRqlvi74vFDFZd",
+    "drive_name": "៨១ អាហារប្បច្ច័យ រូបអាហារ នាមអាហារប្បច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "ae0f127cf4b52fbe7c0956862f5e1792",
+    "key": "audio/ae0f127cf4b52fbe-a64.mp3",
+    "bytes": 41871820,
+    "duration_s": 5233,
+    "sha256": "a389a38a162159f6b430f3500e1a0e1ac99e5322662b6b8e88860eba8faf10fb",
+    "loudness": {
+      "pass1": {
+        "I": -20.9,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 4.399999999999999,
+      "limit": 0.6,
+      "depth": 7.236974992327125,
+      "busy": 5.033005664937571,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
