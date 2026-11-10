@@ -25886,5 +25886,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZGMlO8FRbJGKUzEuUuPM9BPcgSnEG4E9",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៦០ សម្បជញ្ញបព្វៈ អសម្មោហសម្បជញ្ញ ការមិនវង្វេងភាគបញ្ចប់.mp3",
+    "source_md5": "c88cd5d04f1bf233eb650942faf2e623",
+    "key": "audio/c88cd5d04f1bf233-a64.mp3",
+    "bytes": 42412033,
+    "duration_s": 5301,
+    "sha256": "5f6c820eff06f7db33eefcac2e6c5f08058f5ef0dec18df284e903610b1ed4b7",
+    "loudness": {
+      "pass1": {
+        "I": -27.6,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 11.399999999999999,
+      "limit": 0.6,
+      "depth": 11.336974992327125,
+      "busy": 5.094125192164408,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
