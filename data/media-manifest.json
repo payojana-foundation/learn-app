@@ -19332,5 +19332,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1G-kedLIkEIxf3BLPCuh3-BlXWupAaTMP",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ០៧ វាយោធាតុ ខ្យល់មាន ៤ យ៉ាង.mp3",
+    "source_md5": "05061560a92462390156497ab1b2537d",
+    "key": "audio/05061560a9246239-a64.mp3",
+    "bytes": 42816617,
+    "duration_s": 5352,
+    "sha256": "51c3f0f926694551281732f31790edef0d2a4f1bebffd04051c26be2354325ca",
+    "loudness": {
+      "pass1": {
+        "I": -22.7,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.5,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 5.9021776702385065,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
