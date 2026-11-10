@@ -20434,5 +20434,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1t2QvL1iogG7omAhmz-LHKzDC_Szm2vm3",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ១៦ រឿងប្រេតញាតិព្រះបាទពិម្ពិសារ.mp3",
+    "source_md5": "5aef5a8ad397ebc83d00e95d378f60e0",
+    "key": "audio/5aef5a8ad397ebc8-a64.mp3",
+    "bytes": 46513884,
+    "duration_s": 5814,
+    "sha256": "69f545a6daa6cdcf912fcf59c658c763cf40dff0eca561334ed473d119b54920",
+    "loudness": {
+      "pass1": {
+        "I": -20.7,
+        "TP": 1,
+        "LRA": 0
+      },
+      "G": 5.699999999999999,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 6.1444394757662275,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
