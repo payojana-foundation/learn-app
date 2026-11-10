@@ -48216,5 +48216,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QgpYmbkatsTcAVWF1mIg7U97_MLRuqiJ",
+    "drive_name": "03_១០_ឧសភា_២០២៥_នាទីធម្មចរិយា_សិក្សារព្រះសូត្រក្នុងបិដកលេខ១៤_ព្រហ្មជាលសូ.mp3",
+    "source_md5": "794de6f7ad38806a8df0705046a00409",
+    "key": "audio/794de6f7ad38806a-a64.mp3",
+    "bytes": 13926652,
+    "duration_s": 1740,
+    "sha256": "89dd35678aed0d7383349e2dc3ef1f51f03c62023140bd3c0a4cb1c3bce6bf6a",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 4.899999999999999,
+      "limit": 0.6,
+      "depth": 9.136974992327126,
+      "busy": 3.89404296875,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
