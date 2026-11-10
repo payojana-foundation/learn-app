@@ -43518,5 +43518,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1w4XRpIukVw10WHTosFyen8KAarRuzIkV",
+    "drive_name": "169.១៦៩ អនាគាមី ចែកចេញជា ៥ ប្រភេទ.mp3",
+    "source_md5": "626d51de5890615c25314986c0930d51",
+    "key": "audio/626d51de5890615c-a64.mp3",
+    "bytes": 42168154,
+    "duration_s": 5270,
+    "sha256": "c89c25a457553d4a4862f2f362b22f20545846e9ceea7fc9a9b13d740bf91173",
+    "loudness": {
+      "pass1": {
+        "I": -19.3,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 3.200000000000003,
+      "limit": 0.6,
+      "depth": 7.43697499232713,
+      "busy": 7.986150635553026,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
