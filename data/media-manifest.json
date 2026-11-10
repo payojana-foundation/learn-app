@@ -58279,5 +58279,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1x-JGQ3IQYOOEZawOJ0E4JAYkHGSG6PcJ",
+    "drive_name": "បិដកលេខ២១-១៩ ចូឡហត្ថិបទោបមសូត្រ អំពីៈឧបមាអ្នកទៅរកដំរីក្នុងព្រៃ.mp3",
+    "source_md5": "8d2d8a1eecc9d060fb793dd976346684",
+    "key": "audio/8d2d8a1eecc9d060-a64.mp3",
+    "bytes": 54313629,
+    "duration_s": 6789,
+    "sha256": "932b61ea5447d637e1acd6f733a390f08efde3f402079bfa18b924d50c7c04bf",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 9.999999999999996,
+      "limit": 0.6,
+      "depth": 10.736974992327124,
+      "busy": 5.318228349646127,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
