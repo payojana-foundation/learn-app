@@ -37747,5 +37747,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xQQe1DjyO0gCduydk_Ub_gHBrks09itO",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 10 វិធីសាស្រ្តចម្រើនមរណានុស្សតិ ៨ ប្រភេទ.mp3",
+    "source_md5": "2d6863fd7cfd1c56399c19976f0e9b10",
+    "key": "audio/2d6863fd7cfd1c56-a64.mp3",
+    "bytes": 36646286,
+    "duration_s": 4580,
+    "sha256": "e8cc7fb8725d9d101016423b2105368c0b12c9c035d0bb0bdf573017295f307f",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 0.3000000000000007,
+      "limit": 0.6,
+      "depth": 1.4369749923271282,
+      "busy": 0.5195655733231458,
+      "out": {
+        "I": -18,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
