@@ -41517,5 +41517,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1s_x7-ZRUetHT_BHGjnl9OYrlkWjYshHV",
+    "drive_name": "48 វចនានុក្រម 8- 28 -​ 2025.mp3",
+    "source_md5": "2bb994b6bf23656dcec816177051b6ba",
+    "key": "audio/2bb994b6bf23656d-a64.mp3",
+    "bytes": 26966769,
+    "duration_s": 3370,
+    "sha256": "7576c9f796a58657ebc659037820e2b314216046eb7ae10afec479b567f0e313",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 2.5,
+      "limit": 0.6,
+      "depth": 6.1369749923271275,
+      "busy": 3.324878367153198,
+      "out": {
+        "I": -18.1,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
