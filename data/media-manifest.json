@@ -47288,5 +47288,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lR03RrbPhR_UQc3Cdx8sQwlCf2HKGk6x",
+    "drive_name": "១៨ មហាតណ្ហាសង្ខយសូត្រទី៨ ទឹកដោះម៉ែដូចទឹកឈាមជាដើម.mp3",
+    "source_md5": "103a0be54c1ba849cde7af78523db69b",
+    "key": "audio/103a0be54c1ba849-a64.mp3",
+    "bytes": 56099569,
+    "duration_s": 7012,
+    "sha256": "59265bef9321844e14846ade4769042cae6e5e4d5c736d76d2f6afee74c3d57d",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -6.5,
+        "LRA": 0
+      },
+      "G": 9.700000000000003,
+      "limit": 0.6,
+      "depth": 7.63697499232713,
+      "busy": 4.95408134162341,
+      "out": {
+        "I": -18.1,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
