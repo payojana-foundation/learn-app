@@ -52711,5 +52711,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "166xuS6hq0yxKw23aTZjq_TzqMq2bbnDz",
+    "drive_name": "១៥០ រាត្រីធម្មទាន_(_ប្រសូត)_ July 23-2023_648x360.mp3",
+    "source_md5": "055500ed16274b2130c4798c8654ba12",
+    "key": "audio/055500ed16274b21-a64.mp3",
+    "bytes": 12804013,
+    "duration_s": 1600,
+    "sha256": "d629d29a2360d2176bda1e9913c46b21ed888cc117840487d75151dbeccfd3a5",
+    "loudness": {
+      "pass1": {
+        "I": -20.9,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 3.6999999999999993,
+      "limit": 0.6,
+      "depth": 7.836974992327127,
+      "busy": 1.9299259583242212,
+      "out": {
+        "I": -18.1,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
