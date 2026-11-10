@@ -22348,5 +22348,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Pw6dFI1tjNJGMiOVlfUTGXpfA4HycKAC",
+    "drive_name": "បរិច្ឆេទទី ៨-៣០ វិប្បយុត្តប្បច្ច័យ បញ្ហាវារៈវត្ថុបុរេជាតវិប្បយុត្តប្បច្ច័យ.mp3",
+    "source_md5": "104042079213193318b33b0e634e3c9f",
+    "key": "audio/1040420792131933-a64.mp3",
+    "bytes": 43097277,
+    "duration_s": 5387,
+    "sha256": "01ebb781907315c69e5fd9f7137cfa89add7d1afe77053e8651f515fdf5b36de",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.200000000000003,
+      "limit": 0.6,
+      "depth": 11.73697499232713,
+      "busy": 5.233750684499225,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
