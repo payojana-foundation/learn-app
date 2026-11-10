@@ -47230,5 +47230,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZeZKNDRC99yRcUfCtwIR1h3GCpsHmyuB",
+    "drive_name": "បិដកលេខ១៩ 23 ទសកនិទ្ទេស ធម៌ពួក ១០ .mp3",
+    "source_md5": "524f839e9a71d73c2691a28352eb37ca",
+    "key": "audio/524f839e9a71d73c-a64.mp3",
+    "bytes": 43892026,
+    "duration_s": 5486,
+    "sha256": "9333498b3aec123d3b40e325b43a295bd98537a555e9d85151efe54a1cdf0cbc",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 9.663025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.7232636768766687,
+      "out": {
+        "I": -18.5,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
