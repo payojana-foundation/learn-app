@@ -24378,5 +24378,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12r7O8gaxZjuHmR5HHRMJtkUvcnN7HC-U",
+    "drive_name": "បរិច្ឆេទទី ៨-៤៦ រម្លឹកអនន្តរប្បច្ច័យ សមនន្តរ សហជាតប្បច្ច័យ.mp3",
+    "source_md5": "d439a556adfcf7061814f2e66584689c",
+    "key": "audio/d439a556adfcf706-a64.mp3",
+    "bytes": 41403079,
+    "duration_s": 5175,
+    "sha256": "058b21b6dab7fa09b3b87070c56702033a0fa2326bb2d60cbc22146d1479e81a",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "G": 7.900000000000002,
+      "limit": 0.6,
+      "depth": 10.63697499232713,
+      "busy": 3.9661568782787637,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
