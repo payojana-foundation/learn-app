@@ -48738,5 +48738,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14TrUQcHiDQXYff3X_-nmGjXeYqeOUoug",
+    "drive_name": "១០២ រាត្រីធម្មទាន_ May 27-2023_648x360.mp3",
+    "source_md5": "637b0ba3caff1c81b0c2649bfc75f55f",
+    "key": "audio/637b0ba3caff1c81-a64.mp3",
+    "bytes": 13687161,
+    "duration_s": 1710,
+    "sha256": "915b738b37059dc381dfcf732da590379c7a3f225cb02da1b95a9617b195bae1",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 2.8999999999999986,
+      "limit": 0.6,
+      "depth": 7.136974992327126,
+      "busy": 3.5530584212525937,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
