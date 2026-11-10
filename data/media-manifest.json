@@ -50188,5 +50188,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PpWaPDT8pgYpB2qgthZ_BBxUrjNC-NIs",
+    "drive_name": "17-​០៦ កក្កដា ២០២៥ នាទីធម្មចរិយា សិក្សាបិដកលេខ១៤ ទីឃនិកាយបឋមភាគសីលក្ខន្ធ.mp3",
+    "source_md5": "b63d92013cafebffacea85d26c6eb2ab",
+    "key": "audio/b63d92013cafebff-a64.mp3",
+    "bytes": 21801838,
+    "duration_s": 2725,
+    "sha256": "dddce01041451df223976b6006aab8ce3aa1d14697ad00fd39d41e257a084ec0",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.400000000000002,
+      "limit": 0.6,
+      "depth": 10.53697499232713,
+      "busy": 3.1194958168207836,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
