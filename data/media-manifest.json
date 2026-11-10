@@ -46911,5 +46911,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UtkFWy7WIosJ-_rPp3DmVanEGBALbZQL",
+    "drive_name": "១៤ ចូឡតណ្ហាសង្ខយសូត្រទី៧ ការបង្អោនចិត្តទៅកាន់និព្វាន.mp3",
+    "source_md5": "144bf93cae072193f152e7108b815d8d",
+    "key": "audio/144bf93cae072193-a64.mp3",
+    "bytes": 55556013,
+    "duration_s": 6944,
+    "sha256": "6b313f7119057c19ff42ade72196600d19c551302aef8476f42b393ec2969891",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6.1,
+        "LRA": 0
+      },
+      "G": 9.600000000000001,
+      "limit": 0.6,
+      "depth": 7.936974992327129,
+      "busy": 5.275615779507376,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
