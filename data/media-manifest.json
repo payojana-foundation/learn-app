@@ -44591,5 +44591,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17vhRRO2g-Q5D7VlTdsn8pBymtdhP00zh",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 41 បញ្ចប់មហាវិបស្សនា​១៨​.mp3",
+    "source_md5": "3c1482a3510032a48b01796ef3ec67bc",
+    "key": "audio/3c1482a3510032a4-a64.mp3",
+    "bytes": 43105845,
+    "duration_s": 5388,
+    "sha256": "efeb36427ad930dacddc1353f028d6529f16d00560b836769b23e3d9e43895fd",
+    "loudness": {
+      "pass1": {
+        "I": -16.9,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": -0.7000000000000028,
+      "limit": 0.6,
+      "depth": 2.3369749923271246,
+      "busy": 0.07562822463902602,
+      "out": {
+        "I": -18,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
