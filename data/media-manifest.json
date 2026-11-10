@@ -22696,5 +22696,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fYxIG60aoO5FPB1_LbobhWGvk48Twujy",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ២៧ អាហាររូប ការប្រៀបធៀបអាហារ.mp3",
+    "source_md5": "48fe044843b2b74fc09523481f315e96",
+    "key": "audio/48fe044843b2b74f-a64.mp3",
+    "bytes": 40338537,
+    "duration_s": 5042,
+    "sha256": "4d3b42ed398820a373e58df855b53702e0548945cfc2b249fe4cfb9e4a33827e",
+    "loudness": {
+      "pass1": {
+        "I": -25.5,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 9.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.938510203676893,
+      "out": {
+        "I": -18.7,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
