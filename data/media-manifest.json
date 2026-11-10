@@ -46679,5 +46679,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1llaKS6YpjyKewdWA2onBJPh_p0HhoRhL",
+    "drive_name": "១៣២ បញ្ចប់អង្គបដិច្ចសមុប្បាទទាំង ១២ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "fb3d2a396a4f86594f7bbaa7a03a385d",
+    "key": "audio/fb3d2a396a4f8659-a64.mp3",
+    "bytes": 42762074,
+    "duration_s": 5345,
+    "sha256": "f7b92c0a0e331b702de75e8c0e05e3006b3347862cbd250b3c0e2d39b1a64a39",
+    "loudness": {
+      "pass1": {
+        "I": -22.8,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 7.300000000000001,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 5.993873064870679,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
