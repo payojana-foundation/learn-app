@@ -38501,5 +38501,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12exMtxPpz87aHv-cmdEd_wTJQgwArQhI",
+    "drive_name": "55-៦០ ព្យាយាមត្រូវ៤យ៉ាង61.mp3",
+    "source_md5": "06e41e8182c98e6c8991206eab7cce5c",
+    "key": "audio/06e41e8182c98e6c-a64.mp3",
+    "bytes": 3473910,
+    "duration_s": 434,
+    "sha256": "d8ad14f4bcbe2b16d9ee047187a86e126fd435b1e9a255547abc992b4c4c5b53",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 10.600000000000001,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 5.228005527406725,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
