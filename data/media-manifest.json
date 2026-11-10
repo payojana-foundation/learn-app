@@ -40879,5 +40879,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yD4W2S9XRQwKzi29gGZzFA9hWHSBnBoL",
+    "drive_name": "ថ្នាក់កុមារ ភាគ២៥.mp3",
+    "source_md5": "0ea36657f3ca6d8f7fc9422c5b424b31",
+    "key": "audio/0ea36657f3ca6d8f-a64.mp3",
+    "bytes": 20962367,
+    "duration_s": 2620,
+    "sha256": "9c9b950b83d625b143f050bc2824bbfd38a7af37cccabc2dc6a8444f4105222b",
+    "loudness": {
+      "pass1": {
+        "I": -23.5,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 7.74787519645937,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 7.330407403873676,
+      "out": {
+        "I": -19,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
