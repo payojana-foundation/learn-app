@@ -26611,5 +26611,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1W2eRahLqCdgXtsBJrBnlWP1DZm_a-EvK",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៦៥ បដិកូលមនសិការបព្វៈ អធិចិត្តសូត្រ សតីភាវសូត្រ.mp3",
+    "source_md5": "b212ffed3d5f3a2b276019258cff5717",
+    "key": "audio/b212ffed3d5f3a2b-a64.mp3",
+    "bytes": 41455951,
+    "duration_s": 5181,
+    "sha256": "00c3dd5d04cc214419709397f7b75262a2e6bfc2a54cff1aa3b73d08182e097f",
+    "loudness": {
+      "pass1": {
+        "I": -26.9,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.499999999999996,
+      "limit": 0.6,
+      "depth": 11.636974992327124,
+      "busy": 4.628566466291647,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
