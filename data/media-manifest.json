@@ -36558,5 +36558,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ETIv3U1Ec16vGsKVYNQyLxSQ7Mw6EYpg",
+    "drive_name": "៤១ បច្ចេកពុទ្ធ.mp3",
+    "source_md5": "5cb4266bfb04f302f01cb22313824e5c",
+    "key": "audio/5cb4266bfb04f302-a64.mp3",
+    "bytes": 15594727,
+    "duration_s": 1949,
+    "sha256": "60e3826c6009468d01982f36d92eb3c97d3b79d3351e8d65b2b29b70ac4e1ccd",
+    "loudness": {
+      "pass1": {
+        "I": -20.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3,
+      "limit": 0.6,
+      "depth": 7.036974992327128,
+      "busy": 2.7464987431385626,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
