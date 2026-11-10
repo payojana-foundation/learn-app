@@ -31251,5 +31251,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LgcR6rBEDtxDo1YhHe1xf7IiOQKrg1pu",
+    "drive_name": "៨៥ រម្លឹកបញ្ចប់ឥន្រ្ទិយប្បច្ច័យ ចូលឈានប្បច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "c1d3839327712e5af9f2d5724a6e5f0d",
+    "key": "audio/c1d3839327712e5a-a64.mp3",
+    "bytes": 43968513,
+    "duration_s": 5496,
+    "sha256": "d7c20723f52fd0ddaff9d4efb371b1548af3c5c2695f99dd38f3304c2d93cd49",
+    "loudness": {
+      "pass1": {
+        "I": -21,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 4.399999999999999,
+      "limit": 0.6,
+      "depth": 8.436974992327126,
+      "busy": 5.009506827630753,
+      "out": {
+        "I": -18.2,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
