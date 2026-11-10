@@ -22377,5 +22377,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ev2Xz99hcoyjA0-U5AF4PJejMAQFPlvI",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៣៣ បញ្ចប់មេរៀនកំណើតប្រេត.mp3",
+    "source_md5": "9b12358aecbb661880be0cca88d64bdb",
+    "key": "audio/9b12358aecbb6618-a64.mp3",
+    "bytes": 42287272,
+    "duration_s": 5285,
+    "sha256": "c126ec08132b7f3ad7cd7b048fff836508cbcfd800656a65e940b2f2e200b286",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 7.563025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.4757562572125846,
+      "out": {
+        "I": -18.6,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
