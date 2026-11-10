@@ -46099,5 +46099,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1REEYfl4OSkUsuF0YxpdMmms20bF_rjhI",
+    "drive_name": "បិដកលេខ១៧ 17 សតិប្បដ្ឋានសូត្រភាគ២.mp3",
+    "source_md5": "669a66044ee2a335bc0d38b5011884fd",
+    "key": "audio/669a66044ee2a335-a64.mp3",
+    "bytes": 41695651,
+    "duration_s": 5211,
+    "sha256": "7a46e3515bb9d1b407ea2ce46fd2fa7878fb1d599c0e986ce6d2a43f0743e948",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "G": 9.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 2.9020127017018744,
+      "out": {
+        "I": -19,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
