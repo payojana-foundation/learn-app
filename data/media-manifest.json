@@ -21855,5 +21855,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qsXsNm8EVnmMdv7f9gDIQuIGQaWI4jSX",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៣១ ចែកឥន្រ្ទិយ២២ បដិសន្ធក្នុងព្រហ្មលោក.mp3",
+    "source_md5": "4be9c6d6643366ddf095b90611ec3098",
+    "key": "audio/4be9c6d6643366dd-a64.mp3",
+    "bytes": 27071050,
+    "duration_s": 3383,
+    "sha256": "c7e1ebe5dada03d65e423a9ad7f0e3652234f5dd6927f2bd76a19b43b408ffcc",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 4.976210529426541,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
