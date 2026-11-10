@@ -28119,5 +28119,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fv1MbopzQmtLJAMaij4kF8zJEZfUIzv-",
+    "drive_name": "៧៦ កម្មប្បច្ច័យ សហជាតកម្មប្បច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "522cf68571a7e401c2261fcf770b0998",
+    "key": "audio/522cf68571a7e401-a64.mp3",
+    "bytes": 41228999,
+    "duration_s": 5153,
+    "sha256": "c3d459218942f27986ee9f58161a3323196f4becd2af4dfa3b4b56f64c8e5d1b",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 5.699999999999999,
+      "limit": 0.6,
+      "depth": 8.136974992327126,
+      "busy": 3.571047423160509,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
