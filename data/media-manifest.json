@@ -27104,5 +27104,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tonNYt53O9VPPWWF1LlOb9qO2INE6H98",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៦៩ បដិកូលមនសិការបព្វៈ អធិប្បាយសាច់ សសៃ ឆ្អឹង.mp3",
+    "source_md5": "93111ea9f35a63da2841ab8c62b3ed65",
+    "key": "audio/93111ea9f35a63da-a64.mp3",
+    "bytes": 44223677,
+    "duration_s": 5527,
+    "sha256": "5b013d8495b02068a4df67c17788c8068cfdb4885c63523f091bd2eb74c1e9d1",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 4.584430032833148,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
