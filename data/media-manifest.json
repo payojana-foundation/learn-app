@@ -28090,5 +28090,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mEy1t8vH9EoBOcoFXEb32rrXr7iBEAMa",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៧៤ បាកដ្ឋាចតុក្ក អកុសលកម្ម បាណាតិបាត.mp3",
+    "source_md5": "2db469f907409853eb45f51c618015ea",
+    "key": "audio/2db469f907409853-a64.mp3",
+    "bytes": 42536794,
+    "duration_s": 5317,
+    "sha256": "26dbc28f657f20e7f113722f1fe3d9f3dc8567245366f689878000dd6a6c1223",
+    "loudness": {
+      "pass1": {
+        "I": -20.1,
+        "TP": 0.7,
+        "LRA": 0
+      },
+      "G": 3.900000000000002,
+      "limit": 0.6,
+      "depth": 9.03697499232713,
+      "busy": 3.936393300796494,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
