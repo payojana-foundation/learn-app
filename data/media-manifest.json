@@ -47897,5 +47897,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tObUWAyLGP2eOvKV_8obe8dD5C1E-2Uj",
+    "drive_name": "៣៧ កោសម្ពិយសូត្រទី៧ ពន្យល់សាធារណភោគី សីលសាមញ្ញតា ទិដ្ឋិសាមញ្ញតា ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២.mp3",
+    "source_md5": "8195f239e08a2e02610b3efe919f85b7",
+    "key": "audio/8195f239e08a2e02-a64.mp3",
+    "bytes": 56325894,
+    "duration_s": 7040,
+    "sha256": "aceba7df109d1037dfdf3453b413e2debf9bff1a0ee4ec7f76c3297377fe8ba8",
+    "loudness": {
+      "pass1": {
+        "I": -21.9,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 6,
+      "limit": 0.6,
+      "depth": 9.836974992327129,
+      "busy": 6.360340591134404,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
