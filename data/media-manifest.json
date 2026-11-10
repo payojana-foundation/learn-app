@@ -39400,5 +39400,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11J_CkTF4XtAB1Dkj0_1CEQHaE9M2uvHA",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១០៣ សម្មាសមាធិ ការតម្កល់ចិត្តនឹងត្រូវបញ្ចប់សតិប្បដ្ឋាន ៤.mp3",
+    "source_md5": "fed35152e86c84b1bb635585c973819f",
+    "key": "audio/fed35152e86c84b1-a64.mp3",
+    "bytes": 43059034,
+    "duration_s": 5382,
+    "sha256": "9c796973d2b72acd5e35d1143658b946fad3d21ec3ab8c796dfdd95d066cd31e",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 8.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.823432143951991,
+      "out": {
+        "I": -18.4,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
