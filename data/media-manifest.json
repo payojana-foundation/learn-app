@@ -41720,5 +41720,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1uEjUe8Az2Sd8O5mq9WJMal-vo2ImOCcg",
+    "drive_name": "49 វចនានុក្រម​​ 09-04-2025.mp3",
+    "source_md5": "1c22d849039ffd4a2316482767e40e02",
+    "key": "audio/1c22d849039ffd4a-a64.mp3",
+    "bytes": 27737068,
+    "duration_s": 3467,
+    "sha256": "5b995e7b698caea07104a172ec11be075e85173c703d57870811e1d588609f46",
+    "loudness": {
+      "pass1": {
+        "I": -20,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 2.8999999999999986,
+      "limit": 0.6,
+      "depth": 6.336974992327126,
+      "busy": 3.454976781748435,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
