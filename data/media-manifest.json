@@ -25712,5 +25712,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yQ51kfiRJHTVmvjy1Gr3FxUk0ZJ_vcnk",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៤៥  ឧតុជ្ជរូប មាន ១២ រូប.mp3",
+    "source_md5": "41f9858f1f3f1fdea76674fe74154d45",
+    "key": "audio/41f9858f1f3f1fde-a64.mp3",
+    "bytes": 42296467,
+    "duration_s": 5286,
+    "sha256": "a94e83f2c8c248f86ed8663ed29f657431f6925ac795fafd8d66b5e852683f5a",
+    "loudness": {
+      "pass1": {
+        "I": -27.9,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "G": 12.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.692736901834689,
+      "out": {
+        "I": -18.3,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
