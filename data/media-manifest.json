@@ -44272,5 +44272,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EWeEiLcyPXrBg6wDt9kbi_bYUpLQSBij",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 37 បច្ចវេក្ខណញ្ញាណ ១៩.mp3",
+    "source_md5": "b51ccabdf6ae6d3abc397baba1bd3270",
+    "key": "audio/b51ccabdf6ae6d3a-a64.mp3",
+    "bytes": 40557130,
+    "duration_s": 5069,
+    "sha256": "95c21dd65e699baafffcbb19c27003de23a3381d59c8c509df09352136453429",
+    "loudness": {
+      "pass1": {
+        "I": -17.7,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 0.09999999999999787,
+      "limit": 0.6,
+      "depth": 0.836974992327125,
+      "busy": 0.09172321287675557,
+      "out": {
+        "I": -18,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
