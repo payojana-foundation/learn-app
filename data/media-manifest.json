@@ -24407,5 +24407,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1F92kJS8P9Hi_o3WmqErJkpPmxlrsvAGC",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៣៧ ជរតារូប អនិច្ចតារូប.mp3",
+    "source_md5": "d472776197d176fb26f61bf810ee6c10",
+    "key": "audio/d472776197d176fb-a64.mp3",
+    "bytes": 40334567,
+    "duration_s": 5041,
+    "sha256": "e89ed13561176557e24ecdf4f9a7ba2cafe1ba1c00aa9c55a315662057ed7062",
+    "loudness": {
+      "pass1": {
+        "I": -26.3,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 11.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.647427506049427,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
