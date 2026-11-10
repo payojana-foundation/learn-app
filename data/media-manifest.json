@@ -47781,5 +47781,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1r0byKNQ5zi5h-dvoAzZ9mkSe2xJtPcxj",
+    "drive_name": "៣១ ចូឡធម្មសមាទានសូត្រទី៥ ការសមាទានមាន៤យ៉ាង (បិដកលេខ ២២).mp3",
+    "source_md5": "e671f0bef00037ccf1472825ccd61bbc",
+    "key": "audio/e671f0bef00037cc-a64.mp3",
+    "bytes": 56482211,
+    "duration_s": 7060,
+    "sha256": "a3035d3933da404c29badf6f374efddaf13ab56c8035e6cab38fadab4093d4b4",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 5.491129917495839,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
