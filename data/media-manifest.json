@@ -41256,5 +41256,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1iUYHKDoIkbtsYtkRA2FJvk8iIrV8nTUb",
+    "drive_name": "ថ្នាក់កុមារ ភាគ២៨.mp3",
+    "source_md5": "c66644fab3f52368a37f6e9dc4b020e3",
+    "key": "audio/c66644fab3f52368-a64.mp3",
+    "bytes": 37323798,
+    "duration_s": 4665,
+    "sha256": "1f58a89e734a8956c97db099171b4ec13d15954aabad4e705db11cf2caf7f8b4",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 8.8,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 6.58323420034509,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
