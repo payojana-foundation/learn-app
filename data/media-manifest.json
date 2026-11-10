@@ -50449,5 +50449,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12bMukaH-LkIWDDblgbUhG1DNEw6cwfX9",
+    "drive_name": "22-07 Dec 2025 នាទីធម្មចរិយា សិក្សារព្រះត្រៃបិដក លេខ១៥ សូមអនុមោទនា!  ធម្ម រស.mp3",
+    "source_md5": "c4c9fb55a485fc0684594790e241ea32",
+    "key": "audio/c4c9fb55a485fc06-a64.mp3",
+    "bytes": 17894756,
+    "duration_s": 2236,
+    "sha256": "c02d48a4016d6c5f8569164390dc31949aa8bbafa8a6feaeff7271ddf8d6961f",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -5.7,
+        "LRA": 0
+      },
+      "G": 9.7,
+      "limit": 0.6,
+      "depth": 8.436974992327126,
+      "busy": 4.105194921316166,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
