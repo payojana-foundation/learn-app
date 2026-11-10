@@ -21333,5 +21333,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DmIXWm9tgsxuFx_FImJOmcsMP-oZEzN8",
+    "drive_name": "បរិច្ឆេទទី ៨-២២ ឈានប្បច្ច័យ កុសលជាបច្ច័យដល់កុសល(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨).mp3",
+    "source_md5": "fa4f3867f343b0b0bf3366774166a14e",
+    "key": "audio/fa4f3867f343b0b0-a64.mp3",
+    "bytes": 42920480,
+    "duration_s": 5365,
+    "sha256": "913012f0deef4cc2aa39306afc5ff246949eb381b8ad5df8c579c6968f8ca834",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 7.300000000000001,
+      "limit": 0.6,
+      "depth": 10.336974992327129,
+      "busy": 4.231554225962479,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
