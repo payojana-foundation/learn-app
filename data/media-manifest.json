@@ -25103,5 +25103,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zGpTRhWdmjkBqM7EKNR0MRNEk0ZD4reZ",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៥៣ សិក្សាបញ្ចប់ភូមចតុក្ក.mp3",
+    "source_md5": "73ca5512aeeddf078fc963af5f59fd73",
+    "key": "audio/73ca5512aeeddf07-a64.mp3",
+    "bytes": 42837724,
+    "duration_s": 5354,
+    "sha256": "3e4d1f21ddf904a1997c933f198e3e858468828ed07dd972a2c6632c7dca47bd",
+    "loudness": {
+      "pass1": {
+        "I": -17.7,
+        "TP": 2.1,
+        "LRA": 0
+      },
+      "G": 2.1000000000000014,
+      "limit": 0.54,
+      "depth": 9.55212480354063,
+      "busy": 6.580900890806207,
+      "out": {
+        "I": -18.3,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
