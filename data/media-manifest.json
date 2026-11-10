@@ -42648,5 +42648,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1K62jAgZVUEbSd-i-fgtJ4xhn4H4PnnnV",
+    "drive_name": "56 វចនានុក្រម​ ១២​ កុម្ភៈ​ ២០២៦-22.mp3.mp3",
+    "source_md5": "476ea8b737aaf65d4ad1f2d328817f92",
+    "key": "audio/476ea8b737aaf65d-a64.mp3",
+    "bytes": 25159723,
+    "duration_s": 3144,
+    "sha256": "182ae4cc2219d9e2b057e95f3006221f2ebb9c384c9ebaa8f6405949f9fb1ed3",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -7.4,
+        "LRA": 0
+      },
+      "G": 9.7,
+      "limit": 0.6,
+      "depth": 6.736974992327126,
+      "busy": 3.970714490126872,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
