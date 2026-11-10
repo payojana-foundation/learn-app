@@ -19564,5 +19564,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZEWbIZu-uTOFvqBKKBJyi-8vC3nBqGLC",
+    "drive_name": "87.៨៧ ផរុសវាចា ការជេរប្រទេច ភាក១.mp3",
+    "source_md5": "f56d99b9631badaad283f40a8c365920",
+    "key": "audio/f56d99b9631badaa-a64.mp3",
+    "bytes": 41848206,
+    "duration_s": 5230,
+    "sha256": "6393039ab199b4b41bf0ab7b855545aae40e2438c432875e60bf5b94c9d2815a",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 5.099999999999998,
+      "limit": 0.6,
+      "depth": 9.436974992327126,
+      "busy": 4.828472839541575,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
