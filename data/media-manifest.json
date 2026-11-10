@@ -23537,5 +23537,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Y6zvtPvVCa4L_4cMrXC4SCQgjgwPDqYs",
+    "drive_name": "បរិច្ឆេទទី ៨-៣៩ នត្ថិប្បច្ច័យ បញ្ហាវារៈទី៤ និងទី៥(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "a9065f1680020d34d6cdfed10b0c2283",
+    "key": "audio/a9065f1680020d34-a64.mp3",
+    "bytes": 41540170,
+    "duration_s": 5192,
+    "sha256": "780ac7d0bc81cc6cf95e86963b51b8dd779d5b37fc43af33f93e016f65c0bb18",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 6.699999999999999,
+      "limit": 0.6,
+      "depth": 9.536974992327128,
+      "busy": 4.450409244102071,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
