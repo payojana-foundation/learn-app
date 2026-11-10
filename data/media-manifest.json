@@ -30758,5 +30758,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1k2H-fqkyaQpvz6pCVxbA1IgLoNkgpVmi",
+    "drive_name": "១៨ រាត្រីធម្មទាន_640x360 (2).mp3",
+    "source_md5": "65024d3b853c49152e5670df4d5dc236",
+    "key": "audio/65024d3b853c4915-a64.mp3",
+    "bytes": 8994106,
+    "duration_s": 1124,
+    "sha256": "897c3cd6e298f55d8a81743dd0324977902a51d6230ed2bc90ae984a49d2c445",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 5.199999999999999,
+      "limit": 0.6,
+      "depth": 5.836974992327127,
+      "busy": 2.6274239459170965,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
