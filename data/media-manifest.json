@@ -43286,5 +43286,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1F8mASxAjFEewRkKOlavrKjmdwyO1JZu3",
+    "drive_name": "ថ្នាក់កុមារ ភាគ41.mp3",
+    "source_md5": "e9a5a690320e3d962db26de1474b0c9c",
+    "key": "audio/e9a5a690320e3d96-a64.mp3",
+    "bytes": 33959853,
+    "duration_s": 4244,
+    "sha256": "31e53f902eb3a72fa223e62fb78dd6653b1dc2f0c7f928aeb1b032b3a868fc35",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 8.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.878571933378878,
+      "out": {
+        "I": -18.3,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
