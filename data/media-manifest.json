@@ -46853,5 +46853,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Sun0OCBm0eqdqf92BNy_NVrfcwve5hE6",
+    "drive_name": "បិដកលេខ១៩ 15 សង្គីតិសូត្រ ចតុក្កនិទ្ទេស ពួក៤.mp3",
+    "source_md5": "ed098efe438bdf41fdbdacd6b8862979",
+    "key": "audio/ed098efe438bdf41-a64.mp3",
+    "bytes": 43652327,
+    "duration_s": 5456,
+    "sha256": "6e06235f4263e50d3e0126e58307a2256df4306d9672781b7e581f5ca50af31d",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -13,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.3369749923271259,
+      "busy": 0.00045816915605241456,
+      "out": {
+        "I": -18,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
