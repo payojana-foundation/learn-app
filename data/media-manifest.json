@@ -37022,5 +37022,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1a5Pm2QynYUGKmMrr4mbQiPLOJ1rJ8hVI",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៩៩ សមុទយសច្ចៈ តណ្ហា ៣ និរោធសច្ចៈ ព្រះនិព្វាន.mp3",
+    "source_md5": "7981d69d3505f3772825a7a8614e1ce7",
+    "key": "audio/7981d69d3505f377-a64.mp3",
+    "bytes": 41735357,
+    "duration_s": 5216,
+    "sha256": "9a9a3606b48530ae47880f0d3c08e3732b4723726f6eabea52a61bf9c7dbd555",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 8.299999999999997,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 4.9830838237267345,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
