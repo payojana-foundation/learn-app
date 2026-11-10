@@ -34615,5 +34615,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DOsLwwJdVGPNnb8kOWrNp0Y2LIN0MUWV",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 04 និមិត្ត ៣ យ៉ាងរបស់សមាធិ.mp3",
+    "source_md5": "48ca5fe00a4a7423455d27801f268c74",
+    "key": "audio/48ca5fe00a4a7423-a64.mp3",
+    "bytes": 41080206,
+    "duration_s": 5134,
+    "sha256": "af8a3a81e08e94632baadee05f789d5a8f4bf1b676e5e148619e53f733794266",
+    "loudness": {
+      "pass1": {
+        "I": -17.6,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 0,
+      "limit": 0.6,
+      "depth": 1.2369749923271272,
+      "busy": 0.05501460564751704,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
