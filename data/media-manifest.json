@@ -19854,5 +19854,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14lzkdTkTFs4Wp1lDlRpOJbn6BRPeNpyM",
+    "drive_name": "បរិច្ឆេទទី ៨-១០ ពន្យល់អាសេវនប្បច្ច័យ ការសេពរឿយៗ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3",
+    "source_md5": "71b755ae9296bb7cc35c646b81086cdb",
+    "key": "audio/71b755ae9296bb7c-a64.mp3",
+    "bytes": 43196124,
+    "duration_s": 5399,
+    "sha256": "d5180c7f84bfc9b93521f4f2083d15cc6e622877d8bdffe1e7de5a1a09a763e0",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 6.100000000000001,
+      "limit": 0.6,
+      "depth": 10.036974992327128,
+      "busy": 3.9526808037781276,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
