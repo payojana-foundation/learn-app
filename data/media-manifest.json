@@ -42271,5 +42271,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VyQhHTYVoFnTGO4L2OwwU9u9VCgIjAFd",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 26 សម្មសនញាណភាគ១ (ពិចារណាត្រៃលក្ខណ៍ធម៌) ភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3",
+    "source_md5": "39573f688abdd989701ec495335f899d",
+    "key": "audio/39573f688abdd989-a64.mp3",
+    "bytes": 28932013,
+    "duration_s": 3616,
+    "sha256": "398c3831bd2f7903b0208e5b13b681e63ea8cc0a1d688636117cb68aa1438ab0",
+    "loudness": {
+      "pass1": {
+        "I": -17.4,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": -0.20000000000000284,
+      "limit": 0.6,
+      "depth": 0.43697499232712467,
+      "busy": 0.006567213704046786,
+      "out": {
+        "I": -18,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
