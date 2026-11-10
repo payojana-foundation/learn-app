@@ -19013,5 +19013,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mCMsBVbQRhA2L6a-hzT1oRymaYFeI6hj",
+    "drive_name": "បរិច្ឆេទទី ៨-០៤ អង្គធម៌របស់អនន្តរ សមនន្តរ សហជាត និស្សយប្បច្ច័យ.mp3",
+    "source_md5": "31b8287344a3cf047697b5900bac8b55",
+    "key": "audio/31b8287344a3cf04-a64.mp3",
+    "bytes": 42742429,
+    "duration_s": 5342,
+    "sha256": "ee9a939415a39080eab4112772dae945743dbe4a6d5cf3b5daea0a91f27d45b1",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 8.500000000000004,
+      "limit": 0.6,
+      "depth": 11.536974992327131,
+      "busy": 5.627719807215385,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
