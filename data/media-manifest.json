@@ -31106,5 +31106,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18fvxH87ThT4lvk_YDIZhrXaGczOZCeKq",
+    "drive_name": "២៣ រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "f5c4eb92f44eca117f6e4a503dfb6bf6",
+    "key": "audio/f5c4eb92f44eca11-a64.mp3",
+    "bytes": 10244640,
+    "duration_s": 1280,
+    "sha256": "fb536873f80996f6e8180d8c925e2c3c0f52044d6746dece270a9a4134f53a40",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 1.8999999999999986,
+      "limit": 0.6,
+      "depth": 6.036974992327126,
+      "busy": 2.8855915657946114,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
