@@ -22435,5 +22435,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CSMQqdP-M4aSZHdPv8-LoJkJSMGzjoim",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៣៥ អធិបតី ភាពជាធំមាន ៤ យ៉ាង.mp3",
+    "source_md5": "a4d0f397bb69210d6cc53cbd154817f8",
+    "key": "audio/a4d0f397bb69210d-a64.mp3",
+    "bytes": 41534318,
+    "duration_s": 5191,
+    "sha256": "3b1885a9172234b4ec607f0d01f1e8db0ee04ebdc49a1e47ed3259c2e4955dec",
+    "loudness": {
+      "pass1": {
+        "I": -27.4,
+        "TP": -5.2,
+        "LRA": 0
+      },
+      "G": 11.199999999999996,
+      "limit": 0.6,
+      "depth": 10.436974992327123,
+      "busy": 4.715173111186016,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
