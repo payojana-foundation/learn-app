@@ -56481,5 +56481,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1m6yKFqKS90ABbGGcFReOMe9lSmDHLV1D",
+    "drive_name": "33_Ñāṇa_09Sep2026_វិធីចម្រើនឱទាតកសិណ.mp3",
+    "source_md5": "2c87f4655b1d2bd24d6cf2c8e1ef3597",
+    "key": "audio/2c87f4655b1d2bd2-a64.mp3",
+    "bytes": 29839820,
+    "duration_s": 3729,
+    "sha256": "52599145f5c641d52aecd2534526b5ff3235c003a52704c55dfe877148eb353b",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 8.3,
+      "limit": 0.6,
+      "depth": 9.13697499232713,
+      "busy": 6.76215498867277,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
