@@ -37631,5 +37631,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fqdXFysoVe0qkD4RwQv0gDJJVyzaHG8p",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១០០ មគ្គសច្ចៈ ផ្លូវទៅកាន់ព្រះនិព្វាន សម្មាទិដ្ឋិ សម្មាសង្កប្បៈ.mp3",
+    "source_md5": "e628f06acdc73dab34730ae19e0e38f8",
+    "key": "audio/e628f06acdc73dab-a64.mp3",
+    "bytes": 42007030,
+    "duration_s": 5250,
+    "sha256": "0ba5132eb2a61cff2adcdb2377f27664dcbb3ff53810aa154243359ebda49720",
+    "loudness": {
+      "pass1": {
+        "I": -24.6,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 8.3,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 5.158926649970957,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
