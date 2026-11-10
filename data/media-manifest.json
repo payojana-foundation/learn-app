@@ -36645,5 +36645,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1e79A_VHDXVih3hTSvIm6hdDafq5Mz2Kh",
+    "drive_name": "៩៣ រម្លឹកអត្ថិប្បច្ច័យ វត្ថុបុរេជាត អារម្មណបុរេជាតត្ថិប្បច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "c84345bdc8cd819dd7b7c630d55502cd",
+    "key": "audio/c84345bdc8cd819d-a64.mp3",
+    "bytes": 41153976,
+    "duration_s": 5144,
+    "sha256": "54624c0d12d7627f21e66f3536e69f9e6b492e89b3b714be22bf2be93576a34f",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": 3.1999999999999957,
+      "limit": 0.6,
+      "depth": 7.936974992327123,
+      "busy": 4.933225768827029,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
