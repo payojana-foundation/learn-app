@@ -43895,5 +43895,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mhhd1TPTHql9Oc_3EJBqF6TDwFrLBIt9",
+    "drive_name": "70  វចនានុក្រម​ 1-តុលា​ 2026,.mp3",
+    "source_md5": "74a78ce77308d17b22e5da64e326c03a",
+    "key": "audio/74a78ce77308d17b-a64.mp3",
+    "bytes": 10909404,
+    "duration_s": 1363,
+    "sha256": "f02270b94d55b3e8e8526421225e9e6cb498f3821e77a8405d0ebae1259e8ed7",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 3.5,
+      "limit": 0.6,
+      "depth": 7.1369749923271275,
+      "busy": 4.36420635793642,
+      "out": {
+        "I": -18.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
