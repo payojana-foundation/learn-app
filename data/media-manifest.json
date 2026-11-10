@@ -21536,5 +21536,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ixyt6mcL2KNLZ4isKz3-tIrr-cKxSSN1",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ២៨ ចែកឥន្រ្ទិយ២២ ដោយភូមិ និងកុសលតិកៈ.mp3",
+    "source_md5": "73a791ee1594b001031a88a4aa8033fb",
+    "key": "audio/73a791ee1594b001-a64.mp3",
+    "bytes": 43588170,
+    "duration_s": 5448,
+    "sha256": "b1397fa5fa25d175fc4138cedd9a9526f43df23a97ef7b58565b9193c020b345",
+    "loudness": {
+      "pass1": {
+        "I": -15.4,
+        "TP": 3,
+        "LRA": 0
+      },
+      "G": -0.7999999999999989,
+      "limit": 0.6,
+      "depth": 6.636974992327128,
+      "busy": 2.9849958704230524,
+      "out": {
+        "I": -18.2,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
