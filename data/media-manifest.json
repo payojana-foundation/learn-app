@@ -28061,5 +28061,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1oaQ23TP9i_4scdHsAnRMhVdrauuvjNwv",
+    "drive_name": "143.១៤៣ មហាវិបាកចិត្ត៨ដួង.mp3",
+    "source_md5": "cac912878d9f6de2161c55eac1885898",
+    "key": "audio/cac912878d9f6de2-a64.mp3",
+    "bytes": 30505212,
+    "duration_s": 3813,
+    "sha256": "382df6245a928a2cf4ae1fa72e0bbfa0de5e4c34725f18a6cfd7e96a3e069248",
+    "loudness": {
+      "pass1": {
+        "I": -18.8,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 3.3000000000000043,
+      "limit": 0.6,
+      "depth": 7.836974992327132,
+      "busy": 6.859248380582728,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
