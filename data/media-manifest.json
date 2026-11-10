@@ -21478,5 +21478,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1t0Rdz3AAlN8_PzoRz7DSN7iTX-EQgX6K",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ១៩ គោរចររូប រសារម្មណ៍ រសមាន ៤ យ៉ាង.mp3",
+    "source_md5": "ac4ec04d927212e5dd3c2322a4c13883",
+    "key": "audio/ac4ec04d927212e5-a64.mp3",
+    "bytes": 42371700,
+    "duration_s": 5296,
+    "sha256": "1d9569700097456f85b9f2f5938c755810bd92fc8953fb9f6aac73c4fd212b6a",
+    "loudness": {
+      "pass1": {
+        "I": -22.7,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 7.399999999999999,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 5.828432251791294,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
