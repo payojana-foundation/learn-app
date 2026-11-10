@@ -36819,5 +36819,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1C24uyt4mrHsdAoVn9llhe1eu5tNu-i9d",
+    "drive_name": "28.វចនានុក្រម_ 09-01-2025.mp3",
+    "source_md5": "8a7bd68870152021f5aba6da6055378a",
+    "key": "audio/8a7bd68870152021-a64.mp3",
+    "bytes": 26884640,
+    "duration_s": 3360,
+    "sha256": "834aa03f6986ee60e5e8b89bdaf69f13c2ccec368d474f8d55b5ea9f961b2d69",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 2.1000000000000014,
+      "limit": 0.6,
+      "depth": 6.236974992327129,
+      "busy": 3.167683380449338,
+      "out": {
+        "I": -18,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
