@@ -24059,5 +24059,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1U6qZ-aGUCMx2Yh5MC2CygAaXu63mEXF7",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៤៧ សតិប្បដ្ឋាន ព្រោះហេតុ ៣ យ៉ាង.mp3",
+    "source_md5": "5a2cce6a27747ebeeb83bc41e31eaa1b",
+    "key": "audio/5a2cce6a27747ebe-a64.mp3",
+    "bytes": 42572738,
+    "duration_s": 5321,
+    "sha256": "0f99143224540d77ebaeca2c11b832db77ebcb0bf52eb9e82406a916b789e6b0",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 10.936974992327126,
+      "busy": 5.008174310116414,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
