@@ -19796,5 +19796,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wz7iCea690l-xf3-7IfNNMep5YVksR09",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ១១ បាបកម្មធ្លាក់នរកក្នុងនេមិរាជជាតកបន្ត.mp3",
+    "source_md5": "8b698f83bd7c73c26af981a60819f273",
+    "key": "audio/8b698f83bd7c73c2-a64.mp3",
+    "bytes": 44479677,
+    "duration_s": 5559,
+    "sha256": "c2d1644b598451b5123a5fa69f343000c7c92f3d29e458792f71c641c1918a73",
+    "loudness": {
+      "pass1": {
+        "I": -21.2,
+        "TP": 1,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 3.7480103238338476,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
