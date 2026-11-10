@@ -32991,5 +32991,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZUAr0D6J0zqjSpsegZE_zsyf3L4jGcuD",
+    "drive_name": "៨៩ រម្លឹកវិប្បយុត្តប្បច្ច័យ សហជាតវិប្បយុត្តប្បច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "afca0e829e3ccc8fa4cbce12e1603534",
+    "key": "audio/afca0e829e3ccc8f-a64.mp3",
+    "bytes": 41642152,
+    "duration_s": 5205,
+    "sha256": "763a69e47b6b494d3fa8530ca66f3625ad3b1d5d317f20d60345212f02020c6b",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 3.6999999999999993,
+      "limit": 0.6,
+      "depth": 7.836974992327127,
+      "busy": 4.83166034292301,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
