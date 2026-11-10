@@ -46650,5 +46650,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1sR6LH2kM5Tl1sVSEA5VVasMMsqsBIL57",
+    "drive_name": "បិដកលេខ១៩ 12 សង្គីតិសូត្រ តិកនិទ្ទេស ធម៌ពួក៣ .mp3",
+    "source_md5": "8c0dd07ed6c16245c404bfed365615c5",
+    "key": "audio/8c0dd07ed6c16245-a64.mp3",
+    "bytes": 45336284,
+    "duration_s": 5666,
+    "sha256": "e54fb7df96ff28a0f10a7aba37d4d081e738a7a9f91e62ff2573d0d427439f92",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -12.9,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.43697499232712556,
+      "busy": 0.0006617257808364214,
+      "out": {
+        "I": -18,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
