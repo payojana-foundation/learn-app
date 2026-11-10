@@ -31019,5 +31019,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LrC301GWfT8FJVTuZ1Q1A8VYzbpTyM5N",
+    "drive_name": "១០ បច្ចេកពុទ្ធ.mp3",
+    "source_md5": "966bd0ccded94aead9281af9fd8f9d8e",
+    "key": "audio/966bd0ccded94aea-a64.mp3",
+    "bytes": 20797483,
+    "duration_s": 2599,
+    "sha256": "4de5d274699940624711657505e64db6601c13613395565edd84aa031b2323e9",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 4.900000000000002,
+      "limit": 0.6,
+      "depth": 8.93697499232713,
+      "busy": 3.309099301829092,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
