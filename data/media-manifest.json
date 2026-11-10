@@ -41285,5 +41285,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fF7rC_VvMEN6OyKz6dQ5i2vnZ2QA-FdH",
+    "drive_name": "46 វចនានុក្រម 7 17 2025.mp3",
+    "source_md5": "c805fbc50231f57862bdb4fd97cd9c93",
+    "key": "audio/c805fbc50231f578-a64.mp3",
+    "bytes": 37026838,
+    "duration_s": 4628,
+    "sha256": "40caed1d7de50beb1618b52cf8e90fc8919cababa2724f912a702548c11dca99",
+    "loudness": {
+      "pass1": {
+        "I": -19.7,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 2.3999999999999986,
+      "limit": 0.6,
+      "depth": 5.936974992327126,
+      "busy": 2.9738240822764297,
+      "out": {
+        "I": -18.2,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
