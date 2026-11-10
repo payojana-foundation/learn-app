@@ -20608,5 +20608,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Mno4a5uIuFjOmcF9LYn4-_1tE66lGK-I",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ២២ មិច្ឆាទិដ្ឋិ មិច្ឆាសង្កប្ប មិច្ឆាវាយាម មិច្ឆាសមាធិ.mp3",
+    "source_md5": "90f93dcf7f8dc8ae9da78450c1d4e775",
+    "key": "audio/90f93dcf7f8dc8ae-a64.mp3",
+    "bytes": 43013267,
+    "duration_s": 5376,
+    "sha256": "ccbd30bc34ab1aec2965947425a1a58a58462d5f5bb2d526e51d2ae50f55c790",
+    "loudness": {
+      "pass1": {
+        "I": -15.9,
+        "TP": 6.3,
+        "LRA": 0
+      },
+      "G": 1.7763568394002505e-15,
+      "limit": 0.6,
+      "depth": 10.736974992327129,
+      "busy": 3.809563664769557,
+      "out": {
+        "I": -18.1,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
