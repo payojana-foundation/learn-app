@@ -37486,5 +37486,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yS59XYcdx68zERe8mWSN-DJK098OEAnx",
+    "drive_name": "30.វចនានុក្រម 23-01-2024.mp3",
+    "source_md5": "d8d4fe64a4222892012c66a4bfb24242",
+    "key": "audio/d8d4fe64a4222892-a64.mp3",
+    "bytes": 23215167,
+    "duration_s": 2901,
+    "sha256": "ac470c792a69984ccebcc10f8b9e4d71f4c9796d571ce26fb3e43e7c9205e750",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 2.599999999999998,
+      "limit": 0.6,
+      "depth": 6.736974992327125,
+      "busy": 3.779485500628909,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
