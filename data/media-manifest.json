@@ -58453,5 +58453,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1e15sdv0NExOXCb8uCj_SGemHE_5cudU2",
+    "drive_name": "បិដកលេខ២១-២១ ចូឡហត្ថិបទោបមសូត្រ ការសង្រួមក្នុងសីលរបស់ភិក្ខុ.mp3",
+    "source_md5": "b84c8502b5c45d581052c980a9c5d09e",
+    "key": "audio/b84c8502b5c45d58-a64.mp3",
+    "bytes": 53802465,
+    "duration_s": 6725,
+    "sha256": "0ea096f085d7f27e1e2dac7be22384b809ff4e877802ffbc2c4584a7a74c9aab",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 4.529351850475072,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
