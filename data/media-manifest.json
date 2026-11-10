@@ -26640,5 +26640,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QiCDu_0m6xE4InVoTyYF1lVa3AhU0g6q",
+    "drive_name": "132.១៣២ មាលាគន្ធវិលេបនធារណមណ្ឌនវិភូសន.mp3",
+    "source_md5": "c3b82ac67360765d74ada5ee4c9fa418",
+    "key": "audio/c3b82ac67360765d-a64.mp3",
+    "bytes": 45111840,
+    "duration_s": 5638,
+    "sha256": "170f97c29e0f8fad6fff3acb2ca786c2ef264f00757af138ef048bcd4b14ac95",
+    "loudness": {
+      "pass1": {
+        "I": -14.4,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": -3.200000000000001,
+      "limit": 0.6,
+      "depth": 0.8369749923271264,
+      "busy": 0.0006650174234564945,
+      "out": {
+        "I": -18,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
