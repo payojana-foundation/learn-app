@@ -46969,5 +46969,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qV5Uk3_-xmKhDlA8hCuzlPo5ybNRHXbA",
+    "drive_name": "បិដកលេខ១៩ 17 សង្គីតិសូត្រ បញ្ចកនិទ្ទេស ធម៌ពួក ៥ .mp3",
+    "source_md5": "bd260528771994aecc6f1de33238e64c",
+    "key": "audio/bd260528771994ae-a64.mp3",
+    "bytes": 42972725,
+    "duration_s": 5371,
+    "sha256": "638deafa20a92425885badac60293a5cb86af205ba187e9010b6e5162efdd5cb",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -13.6,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": -0.26302500767287373,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
