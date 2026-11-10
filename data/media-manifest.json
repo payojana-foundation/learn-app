@@ -47520,5 +47520,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12vJIOWxOceOKZhP1YdQ19DAIh4s5EZ-Z",
+    "drive_name": "២២ សាលេយ្យកសូត្រទី១ ផលនៃការប្រព្រឹត្តស្មើនិងមិនស្មើ.mp3",
+    "source_md5": "67943a75df3af7c53ac2bd4e478b9b33",
+    "key": "audio/67943a75df3af7c5-a64.mp3",
+    "bytes": 54564614,
+    "duration_s": 6820,
+    "sha256": "1843c7cd7a804126d042405998f0205d6c1db3a3071fcb66c87dfb14d8f6999f",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -6.3,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 8.136974992327128,
+      "busy": 6.149797303736502,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
