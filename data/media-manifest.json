@@ -19593,5 +19593,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CdKeTnN-sho-cVsyv-VkOj16x968d5qx",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ 09 វិនិច្ឆ័យទោសនៃបាណាតិបាតទៅនរក.mp3",
+    "source_md5": "4cc19caf4e69d3a66e1104af1e8e0a24",
+    "key": "audio/4cc19caf4e69d3a6-a64.mp3",
+    "bytes": 45526665,
+    "duration_s": 5690,
+    "sha256": "b2b2788a6242ff06f43d37d0864ac0d39ff74ee5755f7e97ad52b9bb3b45127a",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 7.100000000000001,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 4.339899486891123,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
