@@ -33455,5 +33455,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "160TiLE9XvjmLRnUzxhXqneanP24o4z9Y",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៩៤ សច្ចបព្វៈ អធិប្បាយមាតិកានៃអរិយសច្ចៈ ៤.mp3",
+    "source_md5": "56405c6dd550a65d9829a5bbee66099a",
+    "key": "audio/56405c6dd550a65d-a64.mp3",
+    "bytes": 41830234,
+    "duration_s": 5228,
+    "sha256": "f80b9f4ab2180161f227a3805034d91e4e50dc48882988f2684915b801858cd4",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "G": 7.9999999999999964,
+      "limit": 0.6,
+      "depth": 10.936974992327123,
+      "busy": 5.293091082954817,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
