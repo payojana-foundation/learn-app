@@ -51145,5 +51145,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1n8y0H-0x2CSv-ZT1j9qu-C9B8Gb4Lqsl",
+    "drive_name": "បិដក ១៤ ភាគ 23.mp3",
+    "source_md5": "278d50064ddbc9122a9ce22d5aef93f9",
+    "key": "audio/278d50064ddbc912-a64.mp3",
+    "bytes": 17335945,
+    "duration_s": 2166,
+    "sha256": "4756542cb772f19a57e4917491a1719f209b66aa9fb121ae59720e2f4774ac19",
+    "loudness": {
+      "pass1": {
+        "I": -14.4,
+        "TP": 2,
+        "LRA": 0
+      },
+      "G": -3.0999999999999996,
+      "limit": 0.6,
+      "depth": 3.3369749923271277,
+      "busy": 2.460832045040264,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
