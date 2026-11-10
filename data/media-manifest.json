@@ -25190,5 +25190,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10sBArCahyQMAMIsFCiISUf2_IsAKPWUe",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៥៥ អានាបានបព្វៈ កំណត់ខ្យល់វេទនា ចិត្ត ធម៌.mp3",
+    "source_md5": "acdc94fb1da91596be4dd292845adf9f",
+    "key": "audio/acdc94fb1da91596-a64.mp3",
+    "bytes": 41013750,
+    "duration_s": 5126,
+    "sha256": "ddb31cf33d95d64765dc67c1abd878c828773d8e2e84d48224731107fcb4a3cf",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 5.800000000000001,
+      "limit": 0.6,
+      "depth": 10.13697499232713,
+      "busy": 5.653002906353015,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
