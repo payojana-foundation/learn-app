@@ -38443,5 +38443,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1el3D_ccbdweFdOOm3DUhIGORfbvywCh-",
+    "drive_name": "54-កាប់ព្រៃបី រក្សាព្រៃដប់ ផឹកថ្នាំ៥កញ្ចប់ តមត្រណមពីរ59.mp3",
+    "source_md5": "b59cf6f7ed52080975c93f9affe53b55",
+    "key": "audio/b59cf6f7ed520809-a64.mp3",
+    "bytes": 4920676,
+    "duration_s": 615,
+    "sha256": "ee28c9771f40b669f102942f6d67a210654b0152269fc8452bbbda14e7190300",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.399999999999999,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 4.8471668970002435,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
