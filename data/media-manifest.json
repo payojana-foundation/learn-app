@@ -22087,5 +22087,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1X1Hg5shu5QBkc3ri-9ngLuh6eOzHZphG",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៣០ ភោគសំហរប្រេត សេដ្ឋីបុត្តប្រេត សដ្ឋីកូដសហស្ស.mp3",
+    "source_md5": "1eb6ed7246578e183fe5ab505cc38a27",
+    "key": "audio/1eb6ed7246578e18-a64.mp3",
+    "bytes": 43245652,
+    "duration_s": 5405,
+    "sha256": "6955b1259e5ada67009edb50e45f2e5e32c9673be0ce369e8922bf4d892b9d10",
+    "loudness": {
+      "pass1": {
+        "I": -18.9,
+        "TP": 1.1,
+        "LRA": 0
+      },
+      "G": 2,
+      "limit": 0.6,
+      "depth": 7.536974992327128,
+      "busy": 3.7412244595932034,
+      "out": {
+        "I": -18.2,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
