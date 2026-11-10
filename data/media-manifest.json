@@ -49579,5 +49579,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZWIgVf0UXMkQr9qV2AfnplC9t1MChgHI",
+    "drive_name": "១១១ រាត្រីធម្មទាន_ June 9-2023_648x360.mp3",
+    "source_md5": "68b9614ad0067fc3dc69b8322793008f",
+    "key": "audio/68b9614ad0067fc3-a64.mp3",
+    "bytes": 11476575,
+    "duration_s": 1434,
+    "sha256": "7938141d4647ccb4c245fea37c1494b7e6e8fe4f36811916a57fc24bc541e8c9",
+    "loudness": {
+      "pass1": {
+        "I": -21,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.8999999999999986,
+      "limit": 0.6,
+      "depth": 7.936974992327126,
+      "busy": 2.8668525618682468,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
