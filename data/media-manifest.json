@@ -34528,5 +34528,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11oG7b3LkOWCHEhunSDfJ1zTkya8oUcDY",
+    "drive_name": "៩២ រម្លឹកអត្ថិប្បច្ច័យ បច្ច័យដែលមាននៅភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "71f255fc79418057daf9bca030c18958",
+    "key": "audio/71f255fc79418057-a64.mp3",
+    "bytes": 41791363,
+    "duration_s": 5223,
+    "sha256": "37eb704d2cbe94817b4d51e6d120627198b3f803ff6c882e69f634fb701c4a0d",
+    "loudness": {
+      "pass1": {
+        "I": -20,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 3.299999999999997,
+      "limit": 0.6,
+      "depth": 6.836974992327125,
+      "busy": 4.876624743965237,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
