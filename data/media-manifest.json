@@ -23711,5 +23711,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RRmd63mberagNagVfEYnNryq4zB3k7Tp",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៤៣ រូបព្រហ្មបឋមជ្ឈានភូមិ ទុតិយជ្ឈានភូមិ.mp3",
+    "source_md5": "b309862759ca04c230659c8f7a0a8330",
+    "key": "audio/b309862759ca04c2-a64.mp3",
+    "bytes": 37311677,
+    "duration_s": 4663,
+    "sha256": "aed424423cc6c7784de2927205cce62a4165bb89a008ac128a8d69e225f1814a",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": 1.3,
+        "LRA": 0
+      },
+      "G": 2.6999999999999993,
+      "limit": 0.6,
+      "depth": 8.436974992327126,
+      "busy": 3.832320243570364,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
