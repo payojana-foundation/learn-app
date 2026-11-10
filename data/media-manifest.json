@@ -26408,5 +26408,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16zHBYQLI1GcnVA0Oz7SGBylyj3Pcrhb7",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៥០ រូបកលាប ចែកសំណុរបស់រូបជា ២១ កលាប.mp3",
+    "source_md5": "b2c46140e1b3c306cdc9e777103f63ee",
+    "key": "audio/b2c46140e1b3c306-a64.mp3",
+    "bytes": 38139863,
+    "duration_s": 4767,
+    "sha256": "d3013c088810d282a428c29b7dd474c086612b5b35b02cf7710d90e38a1b4c7d",
+    "loudness": {
+      "pass1": {
+        "I": -27.8,
+        "TP": -5.7,
+        "LRA": 0
+      },
+      "G": 12.200000000000003,
+      "limit": 0.6,
+      "depth": 10.93697499232713,
+      "busy": 5.675203725261932,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
