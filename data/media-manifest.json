@@ -30584,5 +30584,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZrpD9txkjzoJERH4Jq-FYz4Ml_h--Chj",
+    "drive_name": "១៦  រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "4ac9180373286d4260b9373a95ffa4ef",
+    "key": "audio/4ac9180373286d42-a64.mp3",
+    "bytes": 10311514,
+    "duration_s": 1288,
+    "sha256": "24d6a94373fca6515e761642f56796dfd203876f9f300c7f1dfebf261ba3ff76",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 4.199999999999999,
+      "limit": 0.6,
+      "depth": 5.036974992327126,
+      "busy": 2.1723950655597797,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
