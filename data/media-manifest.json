@@ -46824,5 +46824,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1A1HbpQfNnQld0NlUnn0-kRcaZRKGLeF8",
+    "drive_name": "១៣ មហាសច្ចកសូត្រទី៦ ព្រះអង្គសម្តែងពីទុក្ករកិរិយា បិដកលេខ ២២.mp3",
+    "source_md5": "833a9725b2b79da3eab86dde1000ee04",
+    "key": "audio/833a9725b2b79da3-a64.mp3",
+    "bytes": 54740366,
+    "duration_s": 6842,
+    "sha256": "950ef70b46a3a78484e6534b275682d7a661abb1fa4b5bb1733798b983316e8c",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -6.4,
+        "LRA": 0
+      },
+      "G": 9.599999999999998,
+      "limit": 0.6,
+      "depth": 7.636974992327125,
+      "busy": 4.997259773474608,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
