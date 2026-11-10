@@ -40473,5 +40473,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1AJR2uqFFfmu13fDbd26kkz5z-phlCU5t",
+    "drive_name": "៩៩ រកបច្ច័យ២៤ តាមកាល៣ និងកាលវិមុត្តិភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "fa8730b8abc51bbb77ade47f72c5c505",
+    "key": "audio/fa8730b8abc51bbb-a64.mp3",
+    "bytes": 42265538,
+    "duration_s": 5283,
+    "sha256": "90da0806a51f285e4471176cb3d29aec85b97f5e33e9eedb59e91f4d45869fa8",
+    "loudness": {
+      "pass1": {
+        "I": -20.7,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 4.300000000000001,
+      "limit": 0.6,
+      "depth": 8.436974992327128,
+      "busy": 5.005299868449693,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
