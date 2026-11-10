@@ -28612,5 +28612,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QISBkHYZ8BCtmSX48Bf3z1GmREa-blWu",
+    "drive_name": "៧៩ វិបាកកប្បច្ច័យ ផលរបស់កម្មដើរតួជាបច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "f079d57e4c2d3507e57ce8fb53b07cab",
+    "key": "audio/f079d57e4c2d3507-a64.mp3",
+    "bytes": 41397228,
+    "duration_s": 5174,
+    "sha256": "440ccf161d897dfc8e9a7eb6cad76fe06a7589443e31ea005e13801de690d79c",
+    "loudness": {
+      "pass1": {
+        "I": -20.1,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 4.300000000000001,
+      "limit": 0.54,
+      "depth": 9.85212480354063,
+      "busy": 6.479244772542805,
+      "out": {
+        "I": -18.3,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
