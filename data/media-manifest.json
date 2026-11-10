@@ -19767,5 +19767,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "157DhS-mayrnLRlJcCnq6-ohliTtQj8Xo",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១៥ មិស្សកសង្គហៈ ឈានង្គៈ អង្គឈាន ៧.mp3",
+    "source_md5": "3c8a625483a243fe9e2d27d53b346c88",
+    "key": "audio/3c8a625483a243fe-a64.mp3",
+    "bytes": 43891399,
+    "duration_s": 5486,
+    "sha256": "7b4f9e392ef5a82c5e742374f9cc6f86f8b7ebefab29a37ae0e6e2393d489184",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": 7,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 3.0655347769028873,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
