@@ -48100,5 +48100,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NxLOOwUj7qKj87-VEjTz5kJKwwJ1WNZ1",
+    "drive_name": "02_០៩_ឧសភា_២០២៥_នាទីធម្មចរិយា_សិក្សារក្នុងបីដកលេខ១៤_ព្រហ្មជាលសូត្រ.mp3",
+    "source_md5": "d25a6b4d38a7365a818b74b33273fe7f",
+    "key": "audio/d25a6b4d38a7365a-a64.mp3",
+    "bytes": 14271468,
+    "duration_s": 1783,
+    "sha256": "51c88a5c7ee178101d395fe3184213b7952d9f5610ddf3330c0db15184f383af",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 5.200000000000003,
+      "limit": 0.6,
+      "depth": 9.23697499232713,
+      "busy": 3.208559896855205,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
