@@ -47114,5 +47114,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HYeN5Glvlcs22hPKhRcUtocZAliJUi-m",
+    "drive_name": "បិដកលេខ១៩ 21 សង្គីតិសូត្រ អដ្ឋកនិទ្ទេស ធម៌ពួក ៨.mp3",
+    "source_md5": "fa7cdbb1d56eca2e81c586db3068dc7e",
+    "key": "audio/fa7cdbb1d56eca2e-a64.mp3",
+    "bytes": 41934096,
+    "duration_s": 5241,
+    "sha256": "b2912bdd742942e5d75929e8d3f43b38c9685e6e58fc6952e4df934950af8685",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -5.7,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 7.636974992327126,
+      "busy": 2.953689130538465,
+      "out": {
+        "I": -18.1,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
