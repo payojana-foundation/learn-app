@@ -44939,5 +44939,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mpTO-7RfCCsyHHBvMe-QAxmutKnt3c0z",
+    "drive_name": "១២៣ តណ្ហាជាបច្ច័យដល់ទិដ្ឋុបាទាន សក្កាយទិដ្ឋិ២០ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "25d3be98a087b20b151b4c2f941e6732",
+    "key": "audio/25d3be98a087b20b-a64.mp3",
+    "bytes": 43785865,
+    "duration_s": 5473,
+    "sha256": "466540047312b032e237f6e933fc6c9869960ff086a10ffe31b239e0247ddee1",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 4.699999999999999,
+      "limit": 0.6,
+      "depth": 8.736974992327127,
+      "busy": 4.940208653073157,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
