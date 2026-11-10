@@ -43924,5 +43924,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "156kzeVoO0_qX6QSwtvL-lca0e2hGNnV-",
+    "drive_name": "១១០ ពន្យល់អវិជ្ជាជាបច្ច័យដល់បុញ្ញាភិសង្ខារដោយបច្ច័យ២ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "c1dbc497de49ba4b978db1ead5fd6f0a",
+    "key": "audio/c1dbc497de49ba4b-a64.mp3",
+    "bytes": 39641590,
+    "duration_s": 4955,
+    "sha256": "fd1a1d0aae9bf68664c8d864a979483a45416ef46252245d7295c0d6abecaa71",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.799999999999997,
+      "limit": 0.6,
+      "depth": 11.936974992327125,
+      "busy": 6.223827734780985,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
