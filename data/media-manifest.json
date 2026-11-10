@@ -48245,5 +48245,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16ZTQsw5oaOoXcQLXc4Lqz_6Z5mZU-7ew",
+    "drive_name": "04-31 សីហា​ 2025 បិដកលេខ ១៥.mp3",
+    "source_md5": "186ec5a547b86b814e01b0b2bdce0ff3",
+    "key": "audio/186ec5a547b86b81-a64.mp3",
+    "bytes": 19762825,
+    "duration_s": 2470,
+    "sha256": "ca60d9060555e384da4720350e2135c9a8e2ba8ef9263af7dfba042b11d8127b",
+    "loudness": {
+      "pass1": {
+        "I": -18.4,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 1.8000000000000007,
+      "limit": 0.6,
+      "depth": 5.836974992327129,
+      "busy": 3.51627332712626,
+      "out": {
+        "I": -18,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
