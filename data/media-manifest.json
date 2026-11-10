@@ -52131,5 +52131,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PsZ_UHy2wqVaNzL2yLq5RIrHPUrbIqKm",
+    "drive_name": "សិក្សារសតិប្បដ្ឋាន ភាគ១៧ (លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញ ថូ ចន្ថា).mp3",
+    "source_md5": "0af3adcd589f8064a3bb191cb8da2c5d",
+    "key": "audio/0af3adcd589f8064-a64.mp3",
+    "bytes": 25008630,
+    "duration_s": 3126,
+    "sha256": "90edcd81203e05f3b51adb0114f5a3c69c48dba1e988a93d745a95d3270f53f2",
+    "loudness": {
+      "pass1": {
+        "I": -17.9,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 1.5999999999999979,
+      "limit": 0.6,
+      "depth": 5.336974992327125,
+      "busy": 3.8447081780521746,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
