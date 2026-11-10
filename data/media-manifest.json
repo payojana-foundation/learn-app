@@ -45722,5 +45722,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19pz1L1iUZ8_mJmIVkwyF0T7cs8Pgyy2z",
+    "drive_name": "០៤ ចូឡគោសិង្គសាលសូត្រ ព្រៃរុងរឿងដោយភិក្ខទ្រទ្រង់នូវគុណភិក្ខុ.mp3",
+    "source_md5": "658f4b6c2e8d7e6e7c45174f9ef8cfb2",
+    "key": "audio/658f4b6c2e8d7e6e-a64.mp3",
+    "bytes": 45515380,
+    "duration_s": 5689,
+    "sha256": "9285f135f8d039bc718c521da6e20da62175d855e60dcf4924e21a0857bd8b31",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 9.900000000000002,
+      "limit": 0.6,
+      "depth": 10.43697499232713,
+      "busy": 3.7912942603285087,
+      "out": {
+        "I": -18.1,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
