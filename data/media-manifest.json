@@ -54103,5 +54103,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VTO3cM6DyUatjzqWnFvyWpM4-w9HXKd-",
+    "drive_name": "22-12Nov2025.mp3",
+    "source_md5": "1b3440d2e8ddad4d2f9636b078753771",
+    "key": "audio/1b3440d2e8ddad4d-a64.mp3",
+    "bytes": 38259817,
+    "duration_s": 4782,
+    "sha256": "021ba0eb3272aac02b54d959285ae3cf93fd8e4a9fc650ec9fc4cf64dfef2e4f",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 11.099999999999998,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 5.896297922612887,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
