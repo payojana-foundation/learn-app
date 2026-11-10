@@ -42532,5 +42532,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UBMrVkM1U1peNqSld36FkNXb4VrQ-7D8",
+    "drive_name": "55 វចនានុក្រម​ 29 មករា​​២០២៦.mp3.mp3",
+    "source_md5": "cb7cfc41640aa35894e544f20e3d08ca",
+    "key": "audio/cb7cfc41640aa358-a64.mp3",
+    "bytes": 28152728,
+    "duration_s": 3519,
+    "sha256": "09620ec9b074925d1e080b15139a8bdb9b1d9d01cfcbc89dd7bb024cd0538eab",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6.5,
+        "LRA": 0
+      },
+      "G": 9.399999999999999,
+      "limit": 0.6,
+      "depth": 7.336974992327126,
+      "busy": 3.2015032466148536,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
