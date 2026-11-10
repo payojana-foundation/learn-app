@@ -27249,5 +27249,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jqHhSxpO-2YDfSWt5rFlKU_7JEO7zUTM",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៧០ បដិកូលមនសិការបព្វៈ អធិប្បាយវក្កបញ្ចក មត្ថលុង្គបញ្ចក.mp3",
+    "source_md5": "1b075fdd60e438db237077333333d649",
+    "key": "audio/1b075fdd60e438db-a64.mp3",
+    "bytes": 42266792,
+    "duration_s": 5283,
+    "sha256": "87044a41cda25ba28b3cfd8bb94d229ad471873a38739de4c51c1063d7282990",
+    "loudness": {
+      "pass1": {
+        "I": -27.7,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.549003463744251,
+      "out": {
+        "I": -18.6,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
