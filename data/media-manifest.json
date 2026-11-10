@@ -50855,5 +50855,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15rdvLDLUVGU-mlLzCNY1MfZCADzuw_84",
+    "drive_name": "បិដក ១៤ ភាគ 21.mp3",
+    "source_md5": "8a417626309de91e8207c6bab417d0b0",
+    "key": "audio/8a417626309de91e-a64.mp3",
+    "bytes": 21246371,
+    "duration_s": 2655,
+    "sha256": "4be9e69e2863d83ca5dfd51f51a397bf98eaa73219e4e7b979fb97ec6a0800bb",
+    "loudness": {
+      "pass1": {
+        "I": -13.6,
+        "TP": 1.2,
+        "LRA": 0
+      },
+      "G": -4.000000000000002,
+      "limit": 0.6,
+      "depth": 1.6369749923271257,
+      "busy": 2.168878847783112,
+      "out": {
+        "I": -18,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
