@@ -42126,5 +42126,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1guC_X7ks89DTGJBvbJvpzZ7d1S99OjV7",
+    "drive_name": "១០៤ បដិច្ចសមុប្បាទ អវិជ្ជាមានលក្ខណៈ២៥ យ៉ាងភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "d61eb013adbe1cebc90cae598d07cad6",
+    "key": "audio/d61eb013adbe1ceb-a64.mp3",
+    "bytes": 41605998,
+    "duration_s": 5200,
+    "sha256": "b6745555d7a73532dcbc9dc6bbfbe88100e5bad30df8cdad878a9438e8aa760f",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 5.700000000000003,
+      "limit": 0.6,
+      "depth": 9.73697499232713,
+      "busy": 5.188243890245544,
+      "out": {
+        "I": -18.1,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
