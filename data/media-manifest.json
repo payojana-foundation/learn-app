@@ -47317,5 +47317,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1siH1pLonwkCSEIWLkOrBz9okxUwgSyi5",
+    "drive_name": "១៣៨ ចែកបដិច្ចសមុប្បាទជាអភិធម្មភាជនីយ៦ និទ្ទេសភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "3016e36d0b567e998cc9f10fdba8458b",
+    "key": "audio/3016e36d0b567e99-a64.mp3",
+    "bytes": 44124829,
+    "duration_s": 5515,
+    "sha256": "148c4ebcfe377a67c43631bfee670c7cf4b0714d302a8e4ea067325020a9d601",
+    "loudness": {
+      "pass1": {
+        "I": -22.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.600000000000001,
+      "limit": 0.6,
+      "depth": 10.63697499232713,
+      "busy": 4.694001504836327,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
