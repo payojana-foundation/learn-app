@@ -44765,5 +44765,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16W4na_zBn7aoiJtHsNVCRG6PG-C-C2me",
+    "drive_name": "១២០ តណ្ហាបច្ចយា ឧបាទានំ ឧបាទានកើតព្រោះតណ្ហាជាបច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "255dec72bed5a90d212493d64f2d53c3",
+    "key": "audio/255dec72bed5a90d-a64.mp3",
+    "bytes": 42497923,
+    "duration_s": 5312,
+    "sha256": "865c44af0b44d2d3e88f70dfcdb6ff7d5302f78186432dbe844c99c07abf07eb",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 6.800000000000001,
+      "limit": 0.6,
+      "depth": 10.336974992327129,
+      "busy": 5.903392191559052,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
