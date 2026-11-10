@@ -58134,5 +58134,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QIP9kUyMnyXFRwF1cbXRIH41ouB09NIa",
+    "drive_name": "បិដកលេខ២១-១៨ បាសរាសិសូត្រ ជាប់ចំណងរបស់មារដោយមិនពិចារណាបច្ច័យ៤.mp3",
+    "source_md5": "464531b334a1ab9ea247ceb50dc1f25d",
+    "key": "audio/464531b334a1ab9e-a64.mp3",
+    "bytes": 56373750,
+    "duration_s": 7046,
+    "sha256": "b901e9dca1a82a972aa1b32d637b8e0cadf52e9eaf867a6de8313ceced404709",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5.6,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 9.036974992327128,
+      "busy": 5.74630678189791,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
