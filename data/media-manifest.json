@@ -30265,5 +30265,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gMJdpn0hCfZmSZns2EAo7813ITujfcY6",
+    "drive_name": "១១ រាត្រីធម្មទាន_630x360 (1).mp3",
+    "source_md5": "618aae5f45d4a3c79832aa96eef1a761",
+    "key": "audio/618aae5f45d4a3c7-a64.mp3",
+    "bytes": 8519096,
+    "duration_s": 1064,
+    "sha256": "101b62bbf26f965db4cd4c04ad54167faf50065532b579c50cdfafa917e4dbb9",
+    "loudness": {
+      "pass1": {
+        "I": -18.9,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 2.1999999999999993,
+      "limit": 0.6,
+      "depth": 4.436974992327126,
+      "busy": 3.9442174954218903,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
