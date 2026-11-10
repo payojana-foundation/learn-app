@@ -22783,5 +22783,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1t54Q0dIxtr2JnM2DnnQ366FCy9Pau8Eo",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៣៦ មេរៀនកំណើតមនុស្ស.mp3",
+    "source_md5": "374b6631e73160e2c18cac8bb5f70d53",
+    "key": "audio/374b6631e73160e2-a64.mp3",
+    "bytes": 43049212,
+    "duration_s": 5381,
+    "sha256": "04253cb7f97c3b6a0d2cfc1b254e37be039a36fe56ba96c8cfac90ccb293848e",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": 1.8,
+        "LRA": 0
+      },
+      "G": 5.399999999999999,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 3.8790860604709074,
+      "out": {
+        "I": -18.1,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
