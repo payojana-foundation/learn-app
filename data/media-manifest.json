@@ -23218,5 +23218,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lhWdUUFUkh_EaNIjt3BQEXYxETijEyO8",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៤១ ពាក្យថា ពោធិបក្ខិយធម៌ មាន ៣៧ ប្រការ.mp3",
+    "source_md5": "a15d6880cdad0244906aaa01fbd0133a",
+    "key": "audio/a15d6880cdad0244-a64.mp3",
+    "bytes": 45215285,
+    "duration_s": 5651,
+    "sha256": "586ee7d4d60ba303884208659145fc2ffe7b8cff4e5c6911f1a0ef109ba4d88c",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 8.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.0690918098338615,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
