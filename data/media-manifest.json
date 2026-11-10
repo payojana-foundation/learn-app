@@ -56800,5 +56800,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Soi29yaXuSuUUo0kfvsu9LrK8WownpXp",
+    "drive_name": "បិដកលេខ២១-០៤ អលគទ្ទូបមសូត្រ ការសិក្សាពុទ្ធវចនៈដោយល្អ.mp3",
+    "source_md5": "c02bc769ab28e6df98e07c040c4df182",
+    "key": "audio/c02bc769ab28e6df-a64.mp3",
+    "bytes": 57070906,
+    "duration_s": 7133,
+    "sha256": "a762acb747c059abb42329ef6f722d53d2c947adf22545b721906faf7947e0a6",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 5.366667367550481,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
