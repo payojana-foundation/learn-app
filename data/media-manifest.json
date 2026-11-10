@@ -44330,5 +44330,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1AsQz7zD2vPTiap1WRRPoOnwEthKtiike",
+    "drive_name": "173.១៧៣ សរុបចិត្ត ៨៩ ដួងដោយន័យផ្សេងៗ.mp3",
+    "source_md5": "3b21abdeab6a1474cc7448685b7c0409",
+    "key": "audio/3b21abdeab6a1474-a64.mp3",
+    "bytes": 30237091,
+    "duration_s": 3779,
+    "sha256": "84736ed90747e0607b9fb2c78ab7667ecd0a6cc9d4653952f9f92f67e29921d2",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 2.8000000000000007,
+      "limit": 0.6,
+      "depth": 7.336974992327129,
+      "busy": 5.965909090909091,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
