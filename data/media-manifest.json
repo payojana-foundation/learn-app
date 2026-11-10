@@ -25799,5 +25799,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CIa8s4Vk0HsLhNTnmGsNYQ98dS_ATXxN",
+    "drive_name": "បរិច្ឆេទទី ៨-៥៧ រម្លឹកបកតូបនិស្សយប្បច្ច័យ ឈានប្បច្ច័យដល់ឈាន.mp3",
+    "source_md5": "2c7a1e0aa7f244440f1f4d8d5a6dcd4b",
+    "key": "audio/2c7a1e0aa7f24444-a64.mp3",
+    "bytes": 42817453,
+    "duration_s": 5352,
+    "sha256": "8af18a9d05c26b5fd95fce20f68557970f9a1bb495180478adc3af89c7245290",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 7.9999999999999964,
+      "limit": 0.6,
+      "depth": 11.536974992327124,
+      "busy": 4.222602131853554,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
