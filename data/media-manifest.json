@@ -19680,5 +19680,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1i7PDL04AeVYVnc79PHdU27AKaNpvDMaq",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ១០ បាបកម្មធ្លាក់នរកក្នុងនេមិរាជជាតក.mp3",
+    "source_md5": "fddf7c71b1f03298e43ac72f8c84c323",
+    "key": "audio/fddf7c71b1f03298-a64.mp3",
+    "bytes": 44881754,
+    "duration_s": 5610,
+    "sha256": "4848d95c339b319e21ac3294ea77ab3f73a2012708a7f91077768bb3c4717cdf",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 2.653203094363837,
+      "out": {
+        "I": -19,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
