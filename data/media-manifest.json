@@ -51348,5 +51348,63 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15nsg7VhmyH5T7uWbZONnT-_OTpIQfxmz",
+    "drive_name": "សិក្សារសតិប្បដ្ឋាន ភាគ១២ (លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញ ថូ ចន្ថា).mp3",
+    "source_md5": "6fd2efdf0c95fe0a4eb46f33c0d7cea6",
+    "key": "audio/6fd2efdf0c95fe0a-a64.mp3",
+    "bytes": 30774586,
+    "duration_s": 3846,
+    "sha256": "413a38ad0b9bfc97ef97a50c9fdb2188cb222761634df3c9d1f3e8b1cc9bf673",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 5.800000000000001,
+      "limit": 0.6,
+      "depth": 10.336974992327129,
+      "busy": 4.936245710720599,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1k-piRvYX1vMieDPn58_4wdAQ5z6da20Z",
+    "drive_name": "សិក្សារសតិប្បដ្ឋាន ភាគ១៣ (លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញ ថូ ចន្ថា).mp3",
+    "source_md5": "85716b3a335cce73564a25e262f865a0",
+    "key": "audio/85716b3a335cce73-a64.mp3",
+    "bytes": 31720637,
+    "duration_s": 3965,
+    "sha256": "8a2dab1da3ecd079465a99a8f90c71554f5c3530cc6caa63aab421377188672a",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.429641492541077,
+      "out": {
+        "I": -18.4,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
