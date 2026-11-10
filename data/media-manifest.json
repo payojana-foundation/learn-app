@@ -29192,5 +29192,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nh_xj_JhI12COYmC49GJIQS6Tc5O9UaH",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៨២ ធម្មានុបស្សនា ខន្ធបព្វៈ កំណត់ដឹងបញ្ចក្ខន្ធ.mp3",
+    "source_md5": "35264be6d1234b733e538758fd937edd",
+    "key": "audio/35264be6d1234b73-a64.mp3",
+    "bytes": 42800944,
+    "duration_s": 5350,
+    "sha256": "d085214e825514add864ad4ffc60d937e1468e047b9177ca5d7f2b0a307ec922",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 5.106212967981907,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
