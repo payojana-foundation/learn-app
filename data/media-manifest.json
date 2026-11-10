@@ -34064,5 +34064,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ztQus5EBNqpeB_OCh63_CyjeZ-O6CFXM",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 03 បលិពោធ គ្រឿងកង្វល់របស់សមាធិ១០.mp3",
+    "source_md5": "e4c9b1d804673ee7f35e6e359bd93090",
+    "key": "audio/e4c9b1d804673ee7-a64.mp3",
+    "bytes": 40814384,
+    "duration_s": 5101,
+    "sha256": "92ef4691d766a850f2a33347f9af41a6fbdc50b9a43cbab3e9d4de3c94ff86f5",
+    "loudness": {
+      "pass1": {
+        "I": -17.9,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "G": 0.29999999999999716,
+      "limit": 0.6,
+      "depth": 1.8369749923271246,
+      "busy": 0.36360072524133874,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
