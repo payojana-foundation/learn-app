@@ -41372,5 +41372,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PknIM1vWqrM50IyVv9ZZuMMLkGKH2X8D",
+    "drive_name": "161.១៦១ ការប្រព្រឹត្តិធម៌របស់ចរិតទាំង ៦.mp3",
+    "source_md5": "79b777d6e7276d05a6ffdba1aaf19eed",
+    "key": "audio/79b777d6e7276d05-a64.mp3",
+    "bytes": 36848578,
+    "duration_s": 4606,
+    "sha256": "8ffd676282aa55ee721c5b02577ef109871c19f5df3914d89cc32c9dcd96a6ae",
+    "loudness": {
+      "pass1": {
+        "I": -15.1,
+        "TP": 1.7,
+        "LRA": 0
+      },
+      "G": -1.6000000000000032,
+      "limit": 0.6,
+      "depth": 4.536974992327124,
+      "busy": 3.9122458505661033,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
