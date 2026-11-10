@@ -41778,5 +41778,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18WFRa5UHTnG3hzJLc8TqYentS6_YlGDE",
+    "drive_name": "១០៣ បដិច្ចសមុប្បាទ រៀនមើលតារាងរបស់បដិច្ចសមុប្បាទភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "0ded47174c42e6bdc980003edac285c2",
+    "key": "audio/0ded47174c42e6bd-a64.mp3",
+    "bytes": 41971295,
+    "duration_s": 5246,
+    "sha256": "95730a5bac0b764e73ccb37a564428d6439f3369094272bb6818d28284af9524",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 5,
+      "limit": 0.6,
+      "depth": 9.636974992327128,
+      "busy": 4.8985971332723395,
+      "out": {
+        "I": -18.2,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
