@@ -20695,5 +20695,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1aFvZyiwVN8Y9kLvaCd2XZ3tuZRgKoGOS",
+    "drive_name": "បរិច្ឆេទទី ៨-១៧ ចែកបញ្ហាវារៈរបស់នាមអារប្បច្ច័យ.mp3",
+    "source_md5": "13d94d230d83ffdc4c2ce8dbfc0e9b32",
+    "key": "audio/13d94d230d83ffdc-a64.mp3",
+    "bytes": 42838560,
+    "duration_s": 5354,
+    "sha256": "94d002b803ead7c78befa93c6fb37a834461355d7a0343c5432ded4e90e64d96",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 6.847875196459371,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 5.280309255247628,
+      "out": {
+        "I": -18.5,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
