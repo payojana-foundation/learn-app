@@ -18375,5 +18375,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dItrWt_57bOV_UaZIQzfKiExJYQ_wdYK",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ០១ អាសវៈ ៤ យ៉ាងថ្ងៃផ្តើមដំបូង.mp3",
+    "source_md5": "0647df351aec6d6b7e9cd54e20bd69aa",
+    "key": "audio/0647df351aec6d6b-a64.mp3",
+    "bytes": 44397339,
+    "duration_s": 5549,
+    "sha256": "be5709680b6aeadedd1b0699d6d7b7cda47b9a3e5533347aba7acbe64d802ca3",
+    "loudness": {
+      "pass1": {
+        "I": -13.3,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": -4.199999999999999,
+      "limit": 0.6,
+      "depth": 0.736974992327128,
+      "busy": 0.0006757182885407188,
+      "out": {
+        "I": -18,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
