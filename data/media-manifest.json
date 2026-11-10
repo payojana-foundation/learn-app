@@ -36355,5 +36355,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1eq-izQ0rVNmqKeadcXkQDxz66i8UkQwd",
+    "drive_name": "៦៤ រាត្រីធម្មទាន March 13 .2023_648x360.mp3",
+    "source_md5": "484e15b8669d3681202c4ea768be862a",
+    "key": "audio/484e15b8669d3681-a64.mp3",
+    "bytes": 12409878,
+    "duration_s": 1551,
+    "sha256": "75d1610528ea3483195472eb5b78c5f5ddba10be4f001befabbb1cd2a7e6ae29",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 2,
+      "limit": 0.6,
+      "depth": 6.336974992327127,
+      "busy": 3.08309695719443,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
