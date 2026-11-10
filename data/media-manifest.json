@@ -20115,5 +20115,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tD3VRqkrC1GeBnQp0WKbuvuIuDlVefcc",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១៨ មគ្គង្គ សម្មាទិដ្ឋិរបស់បុគ្គល ៣ ប្រភេទ.mp3",
+    "source_md5": "794697c12734bbbad6574256cc8ed006",
+    "key": "audio/794697c12734bbba-a64.mp3",
+    "bytes": 41220431,
+    "duration_s": 5152,
+    "sha256": "c210b62c5aae19180588c83e86022ecf5fd4283f6a3d1e01220abb3129729d75",
+    "loudness": {
+      "pass1": {
+        "I": -20.4,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 5.4999999999999964,
+      "limit": 0.6,
+      "depth": 8.736974992327124,
+      "busy": 2.7598253275109172,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
