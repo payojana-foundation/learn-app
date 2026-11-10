@@ -47027,5 +47027,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1H40wJdDqqcprFvyDrAVTVNK4oZOsFVRk",
+    "drive_name": "១៥ ចូឡតណ្ហាសង្ខយសូត្រទី៧ ព្រះមហាមោគ្គល្លានធ្វើឱ្យព្រះឥន្ទតក់ស្លុត.mp3",
+    "source_md5": "8006cf0fe93b6cd232adf515db4483fe",
+    "key": "audio/8006cf0fe93b6cd2-a64.mp3",
+    "bytes": 54551866,
+    "duration_s": 6818,
+    "sha256": "c84a872821a964f905d285a2d68bb4716e51f1431d9f570ee80dba14ef0b2f63",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -7.1,
+        "LRA": 0
+      },
+      "G": 9.600000000000001,
+      "limit": 0.6,
+      "depth": 6.936974992327129,
+      "busy": 5.42440551697842,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
