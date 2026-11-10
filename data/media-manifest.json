@@ -24233,5 +24233,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12km3cbfGtkFzbLP_Vp6Yvv7tojCCrcfE",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៣៦ មោហៈការមិនដឹងក្នុងទុក្ខសច្ចៈ.mp3",
+    "source_md5": "25d01c7e5981f8a8c396b8cbe87e6947",
+    "key": "audio/25d01c7e5981f8a8-a64.mp3",
+    "bytes": 38163478,
+    "duration_s": 4770,
+    "sha256": "98f00746afe0fd04c0ada73bd923d06974c0bb178c47cdb47fa2e4f8c028ef64",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 5.826031360053665,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
