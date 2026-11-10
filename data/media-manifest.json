@@ -28554,5 +28554,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vj-1AtnxZ1D9lT-46C59KWTYCZwp23FY",
+    "drive_name": "146.១៤៦ ចែកមហាវិបាកចិត្តដោយន័យផ្សេងៗ.mp3",
+    "source_md5": "b101b75a27f4cf939bd77b7bbdc66b41",
+    "key": "audio/b101b75a27f4cf93-a64.mp3",
+    "bytes": 45165339,
+    "duration_s": 5645,
+    "sha256": "d64513f6cf56398c0152380604ec2ddbf69b02f7e11fcc02df5f8260b144dae6",
+    "loudness": {
+      "pass1": {
+        "I": -12.9,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": -4.6,
+      "limit": 0.6,
+      "depth": -1.263025007672872,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
