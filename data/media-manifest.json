@@ -20202,5 +20202,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14c4hW7vytW6v9DHKrJajWowdoC1fpS3r",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ១៤  និយមន័យបេត (ប្រេត).mp3",
+    "source_md5": "a0795ba289070db2e8637e5b278eda02",
+    "key": "audio/a0795ba289070db2-a64.mp3",
+    "bytes": 43663194,
+    "duration_s": 5457,
+    "sha256": "64ba6a278d2a9f9ecc06e2c0d22972e5ffdc3fe0972d970b3c710af637bacbad",
+    "loudness": {
+      "pass1": {
+        "I": -17.7,
+        "TP": 1.7,
+        "LRA": 0
+      },
+      "G": 1.5,
+      "limit": 0.6,
+      "depth": 7.6369749923271275,
+      "busy": 4.884020264389823,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
