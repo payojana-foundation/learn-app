@@ -36094,5 +36094,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1sORcNayS5ekE0DapR2sZkq6JZtQGPVxM",
+    "drive_name": "៦២ រាត្រីធម្មទាន_ March 9-2023_640x360.mp3",
+    "source_md5": "a10dad992093cc79a02a32b2649d88d7",
+    "key": "audio/a10dad992093cc79-a64.mp3",
+    "bytes": 12575598,
+    "duration_s": 1571,
+    "sha256": "2706867212c1ff9b0eef3ecbbcfbe7d152ef19ca44f9ec862eddbb6300ec5290",
+    "loudness": {
+      "pass1": {
+        "I": -18.2,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 1.0999999999999979,
+      "limit": 0.6,
+      "depth": 5.236974992327125,
+      "busy": 2.7697372606399897,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
