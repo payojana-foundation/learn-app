@@ -18549,5 +18549,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1P5ic1j9xomNTMlEMkawCaxZWaDfBLw1R",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ០៤ គន្ថៈមាន ៤ យ៉ាង.mp3",
+    "source_md5": "f222219f33dba187301367683309d861",
+    "key": "audio/f222219f33dba187-a64.mp3",
+    "bytes": 42198247,
+    "duration_s": 5274,
+    "sha256": "33791de67aa39cb3177d9b7c43f0f6d725d79daf7aca56ea41269b541c0e945f",
+    "loudness": {
+      "pass1": {
+        "I": -16.5,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "G": -1.1000000000000014,
+      "limit": 0.6,
+      "depth": 0.936974992327126,
+      "busy": 0.0009479122233281199,
+      "out": {
+        "I": -18,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
