@@ -29975,5 +29975,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10ZbBKel89b6PuLfVdZXu-eyEV8DMCKc6",
+    "drive_name": "៨ រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "6d8db1e59a5d0c0c88bb2fb68b4169df",
+    "key": "audio/6d8db1e59a5d0c0c-a64.mp3",
+    "bytes": 24823683,
+    "duration_s": 3102,
+    "sha256": "c4dc46f1da130bc8c6cc472dcec2af31bd9aa7704cbd05c9df7056e688f09161",
+    "loudness": {
+      "pass1": {
+        "I": -19.1,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "G": 2.1000000000000014,
+      "limit": 0.6,
+      "depth": 4.736974992327129,
+      "busy": 3.7690547552289795,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
