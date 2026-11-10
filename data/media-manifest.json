@@ -23392,5 +23392,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1a1NdBSQvLulYV_IeMn0m5ezOqHTzSirH",
+    "drive_name": "បរិច្ឆេទទី ៨-៣៨ នត្ថិប្បច្ច័យ ការមិនមានក្នុងអនុខណៈទាំង៣.mp3",
+    "source_md5": "7a5fdfc182650248937e88761be8a53e",
+    "key": "audio/7a5fdfc182650248-a64.mp3",
+    "bytes": 42838978,
+    "duration_s": 5354,
+    "sha256": "0058cc1095355a4e357f45bfbea2fa2082c17a368019c3d4bfe703e250324d9b",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 7.600000000000001,
+      "limit": 0.6,
+      "depth": 11.236974992327129,
+      "busy": 4.842339187839062,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
