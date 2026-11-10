@@ -28641,5 +28641,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1s42O3UTd3sSHZCAuALp1jXy6wdUXJiBo",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៧៩ ទានមយបុណ្យ សីលមយបុណ្យ.mp3",
+    "source_md5": "835ac86525c54c040ff3dbe4c897b06b",
+    "key": "audio/835ac86525c54c04-a64.mp3",
+    "bytes": 43648565,
+    "duration_s": 5456,
+    "sha256": "13e93f431d029320915dba133445aefb8ad6d2d5ff168b884994fc2b41ec4669",
+    "loudness": {
+      "pass1": {
+        "I": -16.1,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": -1.5,
+      "limit": 0.6,
+      "depth": 2.4369749923271273,
+      "busy": 0.0006873104168766781,
+      "out": {
+        "I": -18,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
