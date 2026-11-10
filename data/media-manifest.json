@@ -25451,5 +25451,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1F3YU13GpEGnA1oINvVep34azqDSa-J-c",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៥៧ សម្បជញ្ញបព្វៈ ការដឹងខ្លួនគ្រប់ឥរិយាបថទាំង ៤.mp3",
+    "source_md5": "27cbbac488d2a3e94bc5749d52afa9bd",
+    "key": "audio/27cbbac488d2a3e9-a64.mp3",
+    "bytes": 43526730,
+    "duration_s": 5440,
+    "sha256": "fe395042a8a9653925fdf4c00b5b4969f9b70fc579a2b43badb14dbd697cbccc",
+    "loudness": {
+      "pass1": {
+        "I": -19.7,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 4.300000000000001,
+      "limit": 0.6,
+      "depth": 8.736974992327127,
+      "busy": 5.274040582267314,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
