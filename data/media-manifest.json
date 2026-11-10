@@ -29569,5 +29569,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17D7geK8EKM7zKnJv8ce2JiGWVkNN0FuJ",
+    "drive_name": "៥ រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "7139baa2898e95aecfed743314f7125e",
+    "key": "audio/7139baa2898e95ae-a64.mp3",
+    "bytes": 24370198,
+    "duration_s": 3046,
+    "sha256": "3cc24a6965788f0fb637c818097322044f9277a4138727dd1867ef3416a8748d",
+    "loudness": {
+      "pass1": {
+        "I": -19.5,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 2.3999999999999986,
+      "limit": 0.6,
+      "depth": 4.736974992327125,
+      "busy": 3.0931980828573304,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
