@@ -50565,5 +50565,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YXKTJmDciEk2SgybWKuj5xVXyr8MiTF3",
+    "drive_name": "បិដក ១៤ ភាគ 19.mp3",
+    "source_md5": "cd8d9483526ee23487a75e60c5248055",
+    "key": "audio/cd8d9483526ee234-a64.mp3",
+    "bytes": 23959762,
+    "duration_s": 2994,
+    "sha256": "566cfa1344606c8294232cbc02d060ad88f7a348f97d4b01dd534f1cb055ba8c",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.800000000000001,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 2.7513439513840194,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
