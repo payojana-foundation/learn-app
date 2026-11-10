@@ -53175,5 +53175,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NcIBTvc4eammkhtUANxg7e6HJuJwVZqy",
+    "drive_name": "១៥៦ រាត្រីធម្មទាន__ April 22-2024_648x360.mp3",
+    "source_md5": "e1af65da930d84a16d8c7e726142d3b8",
+    "key": "audio/e1af65da930d84a1-a64.mp3",
+    "bytes": 13189789,
+    "duration_s": 1648,
+    "sha256": "589265e8dabebe3d52ed4f6b7d760aea5192097dd4547f4b198aeeed7a07b36d",
+    "loudness": {
+      "pass1": {
+        "I": -25.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 7.900000000000002,
+      "limit": 0.6,
+      "depth": 8.43697499232713,
+      "busy": 1.9962697883180687,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
