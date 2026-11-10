@@ -46070,5 +46070,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1B8b-dGvw1_otvz6SrdlHgNI4yZOlNZWl",
+    "drive_name": "១២៩ ភវប្បច្ចយា ជាតិ ជាតិកើតមានព្រោះភពជាបច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "f7c31ce8aa01cc11c6b178f6b9435796",
+    "key": "audio/f7c31ce8aa01cc11-a64.mp3",
+    "bytes": 45727285,
+    "duration_s": 5715,
+    "sha256": "79b3ce9c9bf19ee647196de958734a09806a04d0d3dd958f455afb73ca5222f6",
+    "loudness": {
+      "pass1": {
+        "I": -21.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 4.5,
+      "limit": 0.6,
+      "depth": 8.536974992327128,
+      "busy": 5.037264472786438,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
