@@ -41633,5 +41633,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NPkpKHsQmuUSCL5WY6LAakPOAsm_yvzA",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១១០ សព្វសង្គហៈ ខន្ធ ៥ និយមន័យខន្ធ.mp3",
+    "source_md5": "0f33c1274eaf5856d52e5ef1c5722848",
+    "key": "audio/0f33c1274eaf5856-a64.mp3",
+    "bytes": 42153107,
+    "duration_s": 5269,
+    "sha256": "da1e53a1f6276872ffb2e20bf64cbe17570dcc30561886c8a374ae74ba307f20",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.657038203867833,
+      "out": {
+        "I": -18.5,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
