@@ -39110,5 +39110,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gUgt5ziV9ozwWj7Mo_DYcBMPD23df5SG",
+    "drive_name": "35.នាទីវចនានុក្រម_ 06-3-2025.mp3",
+    "source_md5": "69ca3984d4010eb52eb3d31267b6edff",
+    "key": "audio/69ca3984d4010eb5-a64.mp3",
+    "bytes": 24837685,
+    "duration_s": 3104,
+    "sha256": "74cc5304ec4904c22b81d623e7943b55ff2c53ca0e524aeb8d56c9f509806b90",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 3.6999999999999993,
+      "limit": 0.6,
+      "depth": 7.236974992327127,
+      "busy": 3.721776661191097,
+      "out": {
+        "I": -18.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
