@@ -46940,5 +46940,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Jit0jRkDGF4GXwa7SuJBVKd-Fk-wJ570",
+    "drive_name": "១៣៤ ការឈ្លាសក្នុងបដិច្ចសមុប្បាទរបស់ព្រះអានន្ទដោយហេតុ៤ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "6413c5183fc09c143abd6cad7dab7907",
+    "key": "audio/6413c5183fc09c14-a64.mp3",
+    "bytes": 44586465,
+    "duration_s": 5573,
+    "sha256": "890d0604e7a541aeab72e6cbb676a6dfaf9c335cb05aa4d6cc75a6c62fe1fa7d",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 7.100000000000001,
+      "limit": 0.6,
+      "depth": 10.736974992327129,
+      "busy": 5.613146609728527,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
