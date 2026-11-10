@@ -26785,5 +26785,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1G4Tf54dEgV85qbMgBAni-eLx5XDYDRPm",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៦៤ ឧបបីឡកកម្ម កម្មបៀតបៀន ៣ ប្រការភាគបញ្ចប់.mp3",
+    "source_md5": "9ff3526e4de4e97c284660ad666b4654",
+    "key": "audio/9ff3526e4de4e97c-a64.mp3",
+    "bytes": 41534945,
+    "duration_s": 5191,
+    "sha256": "6e614e516b708e2f090e01fbe3daf1f635338c7c940d8cbb8e154e1168aef7bf",
+    "loudness": {
+      "pass1": {
+        "I": -17.3,
+        "TP": 1.5,
+        "LRA": 0
+      },
+      "G": 1.7000000000000028,
+      "limit": 0.54,
+      "depth": 8.552124803540632,
+      "busy": 6.217677706405231,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
