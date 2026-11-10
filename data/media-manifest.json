@@ -29134,5 +29134,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ptW8EuUqjcgTWqEctO6t4CZn9teluFF2",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៨១ ធម្មស្សវន ធម្មទេសនា ទិដ្ឋុជុកម្ម.mp3",
+    "source_md5": "13c980217c23d2c319b4f38680a30b91",
+    "key": "audio/13c980217c23d2c3-a64.mp3",
+    "bytes": 40211687,
+    "duration_s": 5026,
+    "sha256": "d2e0073f920a9c1aa7956ebe70c4ee2d288725eb263ad20821d0ec4cd69f29b2",
+    "loudness": {
+      "pass1": {
+        "I": -17.9,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "G": 0.3999999999999986,
+      "limit": 0.6,
+      "depth": 3.1369749923271257,
+      "busy": 0.00348158242895085,
+      "out": {
+        "I": -18,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
