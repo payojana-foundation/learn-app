@@ -27887,5 +27887,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Nb2Lq7fkoZ82QShs76q7XkIL0_33kpsL",
+    "drive_name": "142.១៤២ ចែកមហាកុសលចិត្តដោយន័យផ្សេងៗ.mp3",
+    "source_md5": "19c955a1d3e19add2ac6e9028aabce95",
+    "key": "audio/19c955a1d3e19add-a64.mp3",
+    "bytes": 44071331,
+    "duration_s": 5508,
+    "sha256": "8ee0a81ef110fdc285c584dddf024e067dec49854e7fea9338655ae7009b6f3b",
+    "loudness": {
+      "pass1": {
+        "I": -12.6,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": -5.000000000000002,
+      "limit": 0.6,
+      "depth": -0.7630250076728746,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
