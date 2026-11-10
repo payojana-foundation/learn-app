@@ -22493,5 +22493,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rUhigQm3tvjHofeZ54TpIdtU6ivVHT3q",
+    "drive_name": "បរិច្ឆេទទី ៨-៣១ បញ្ហាវារៈក្នុងវត្ថារម្មណបុរេជាតវិប្បយុត្តប្បច្ច័យ.mp3",
+    "source_md5": "5793cc3e12991eb5527ad78bd978520e",
+    "key": "audio/5793cc3e12991eb5-a64.mp3",
+    "bytes": 42973143,
+    "duration_s": 5371,
+    "sha256": "ac444b5af5d52b4afb61bfd7aef2bb2c6d0b8fb5b883a4a796e75483cecf5221",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 7.800000000000004,
+      "limit": 0.6,
+      "depth": 10.836974992327132,
+      "busy": 5.102762677786879,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
