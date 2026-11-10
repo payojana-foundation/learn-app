@@ -28177,5 +28177,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1svQAfl-6iDE6lZvK2zrBP7ei9KOgqzsb",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៧៥ បាកដ្ឋាចតុក្ក អកុសលកម្មបថ អទិន្នាទាន.mp3",
+    "source_md5": "9396ad44d4d49543e2969e3cc8b56551",
+    "key": "audio/9396ad44d4d49543-a64.mp3",
+    "bytes": 43696212,
+    "duration_s": 5461,
+    "sha256": "5b1e63ea78215595db9f432c5035e4125faa81d6cc9a0fdd4643ef5f2f797541",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": -5.2,
+        "LRA": 0
+      },
+      "G": 1.3999999999999986,
+      "limit": 0.6,
+      "depth": 0.6369749923271257,
+      "busy": 0.0009154155986818016,
+      "out": {
+        "I": -18,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
