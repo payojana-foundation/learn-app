@@ -19941,5 +19941,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1G1PrtIkPt5UP5Ofru3j6qimMdIrZ57_l",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១៧ មគ្គង្គ សម្មាទិដ្ឋិ ការយល់ត្រូវ.mp3",
+    "source_md5": "2fb90d6434bf0d1ed859640453467481",
+    "key": "audio/2fb90d6434bf0d1e-a64.mp3",
+    "bytes": 41911527,
+    "duration_s": 5238,
+    "sha256": "8bd1009edb8171e0736d8dd25229976b3e509b4f81a9156dfba967fb7910f8b0",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": 1,
+        "LRA": 0
+      },
+      "G": 1.3999999999999986,
+      "limit": 0.6,
+      "depth": 6.836974992327126,
+      "busy": 2.7613143980606614,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
