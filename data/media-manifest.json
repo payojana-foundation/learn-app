@@ -24900,5 +24900,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XFFQDYAcqqN02d_pM0ABi-7ceubQNQAO",
+    "drive_name": "បរិច្ឆេទទី ៨-៥០ រម្លឹកអញ្ញមញ្ញប្បច្ច័យ បច្ច័យដល់គ្នានិងគ្នា.mp3",
+    "source_md5": "6f66cbba675cd57bb29ed0e1ce41df44",
+    "key": "audio/6f66cbba675cd57b-a64.mp3",
+    "bytes": 42418093,
+    "duration_s": 5302,
+    "sha256": "654d8503b2bfcde59dc61988e843d9bd46471e19dc22b1d6ddd0cc2d0d94c28f",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 4.034372200480928,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
