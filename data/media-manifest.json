@@ -57728,5 +57728,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1thaJ84NQnsa-Um6EWf1qsTyWE08w-Rho",
+    "drive_name": "បិដកលេខ២១-១៣ និវាបសូត្រ ការប្រៀបធៀបម្រឹគនិងការប្រមាទ.mp3",
+    "source_md5": "5d49b7c7d5d118f6f6ea0944dbf787bc",
+    "key": "audio/5d49b7c7d5d118f6-a64.mp3",
+    "bytes": 57841205,
+    "duration_s": 7230,
+    "sha256": "31095ebc129e460afead8ad572f409871aeed5b5d99ee35a3e727f491814565c",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 5.658116761870514,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
