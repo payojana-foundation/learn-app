@@ -20637,5 +20637,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1a587diOXr9eyesogAn26nBnlZuSxfhHR",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ១៨ ប្រេតគ្មានសម្លៀកបំពាក់ជាដើម.mp3",
+    "source_md5": "61e91ec0baaccd420169e56db65c07b9",
+    "key": "audio/61e91ec0baaccd42-a64.mp3",
+    "bytes": 42843158,
+    "duration_s": 5355,
+    "sha256": "50f42c26e4ada8343857d590678f1cdf10a1d5fa47431830ba8847c41fbae338",
+    "loudness": {
+      "pass1": {
+        "I": -22,
+        "TP": 1.7,
+        "LRA": 0
+      },
+      "G": 5.800000000000001,
+      "limit": 0.6,
+      "depth": 11.936974992327128,
+      "busy": 4.30083934756832,
+      "out": {
+        "I": -18.2,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
