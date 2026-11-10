@@ -42996,5 +42996,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1o7bZfK63kGp4c46IShXL-grnbSgPs_gr",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១១៥ អរិយសច្ចៈ ទុក្ខសច្ចៈ ឧបមាអរិយសច្ចៈ.mp3",
+    "source_md5": "f905c2ec50b8e921a459fc2df5513360",
+    "key": "audio/f905c2ec50b8e921-a64.mp3",
+    "bytes": 34426714,
+    "duration_s": 4303,
+    "sha256": "b8535008f58fbd7de68db8e0e45b01752d7069efce6e81b078cafb3e2d88d49e",
+    "loudness": {
+      "pass1": {
+        "I": -24.5,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 8.663025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.02618920363442,
+      "out": {
+        "I": -18.3,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
