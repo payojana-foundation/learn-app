@@ -45577,5 +45577,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1chYvu8tCWdmyEgez6cPGHw1j1h2GadWt",
+    "drive_name": "បិដកលេខ១៩ 05 សិង្គាលកសូត្រ និយាយពីសេចក្តីនិងចម្រើន.mp3",
+    "source_md5": "da7114bed7d91da3693df8a5a3af9f4a",
+    "key": "audio/da7114bed7d91da3-a64.mp3",
+    "bytes": 43769773,
+    "duration_s": 5471,
+    "sha256": "c10a4a5647b5fc9a244164b11e2e0de6f21a9285abcf80af0b375e0d745ea883",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -12.2,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 1.1369749923271266,
+      "busy": 0.0054832577862260565,
+      "out": {
+        "I": -18,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
