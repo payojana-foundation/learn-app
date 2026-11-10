@@ -53204,5 +53204,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10Go_PLYWVKM91bIouPtdy56lINh88rWW",
+    "drive_name": "សិក្សារសតិប្បដ្ឋាន ភាគ២៣ (លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញ ថូ ចន្ថា).mp3",
+    "source_md5": "3f02417f5e01c67eda7636982f2270b7",
+    "key": "audio/3f02417f5e01c67e-a64.mp3",
+    "bytes": 22136206,
+    "duration_s": 2766,
+    "sha256": "7afcac7a68b2a11586b2df47e9983930f662e5a2975b0f5e01accbe4cfaf896a",
+    "loudness": {
+      "pass1": {
+        "I": -17.9,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 1.3999999999999986,
+      "limit": 0.6,
+      "depth": 4.9369749923271256,
+      "busy": 4.283068305023491,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
