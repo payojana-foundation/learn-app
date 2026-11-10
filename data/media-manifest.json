@@ -19245,5 +19245,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jR8f3T31wAqbSO6M1yiRhhoKMsRLi4dz",
+    "drive_name": "បរិច្ឆេទទី ៨-០៦ អង្គធម៌របស់ឧបនិស្សយប្បច្ច័យ បកតូបនិស្ស័យ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3",
+    "source_md5": "176346bd5c5a75c241d6f2a3b4a60bec",
+    "key": "audio/176346bd5c5a75c2-a64.mp3",
+    "bytes": 43330080,
+    "duration_s": 5416,
+    "sha256": "e5d88595a2e0cc1b71068a7be5bd7407c74607f1423ed81a3035d95c936e9ab3",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.150242326332795,
+      "out": {
+        "I": -18.4,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
