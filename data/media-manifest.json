@@ -41343,5 +41343,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1O6Nwz1xnyBYgYo-WhFlYDauil9CeP5dv",
+    "drive_name": "47 វចនានុក្រម​ 8 .7. 2025.mp3",
+    "source_md5": "186f2dfc6acb024acec6bef82f1a618c",
+    "key": "audio/186f2dfc6acb024a-a64.mp3",
+    "bytes": 30712310,
+    "duration_s": 3838,
+    "sha256": "a67cbdefd8043c5d5fc0e382d9756705b608ec1142d90c0b927dac4448ab9d98",
+    "loudness": {
+      "pass1": {
+        "I": -19.5,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 2.1999999999999993,
+      "limit": 0.6,
+      "depth": 5.636974992327127,
+      "busy": 2.800533993227403,
+      "out": {
+        "I": -18.2,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
