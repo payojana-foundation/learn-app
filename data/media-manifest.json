@@ -27307,5 +27307,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kLNqcZJAKKJx_QlWEQ7uYStbGi_ZrdHf",
+    "drive_name": "137.១៣៧ ភាវនា អបចាយន.mp3",
+    "source_md5": "38b4cf22613105543fcceb5b08654f7b",
+    "key": "audio/38b4cf2261310554-a64.mp3",
+    "bytes": 52183709,
+    "duration_s": 6522,
+    "sha256": "44edc2da74a422b9817bdcdecb5de8ceb1b49ec292687642c3fca25beb445dfa",
+    "loudness": {
+      "pass1": {
+        "I": -12.8,
+        "TP": 0.7,
+        "LRA": 0
+      },
+      "G": -4.800000000000001,
+      "limit": 0.6,
+      "depth": 0.3369749923271268,
+      "busy": 0.00019163255607168591,
+      "out": {
+        "I": -18,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
