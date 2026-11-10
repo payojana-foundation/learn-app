@@ -57003,5 +57003,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jTbEXlSlXsjp0lH1TBE-eRcYkoWwCBLS",
+    "drive_name": "50-Buddhism in English for Beginners.mp3",
+    "source_md5": "65a5f58ed4575a7b938e3c027b4ad2da",
+    "key": "audio/65a5f58ed4575a7b-a64.mp3",
+    "bytes": 27234472,
+    "duration_s": 3404,
+    "sha256": "86a0098da7dbd13e971f6c5720a4a3d5c843251e05033d4c885e4f98ffc1925b",
+    "loudness": {
+      "pass1": {
+        "I": -21.2,
+        "TP": -6.3,
+        "LRA": 0
+      },
+      "G": 3.6999999999999993,
+      "limit": 0.6,
+      "depth": 1.8369749923271268,
+      "busy": 1.9596539670416826,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
