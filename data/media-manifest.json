@@ -28786,5 +28786,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1twvNaon1Sbne32YjEIHUYbDhbk37TR5s",
+    "drive_name": "148.១៤៨ ពាក្យថា ឈានចិត្តរូបាវចរឈាន.mp3",
+    "source_md5": "7e94f3e0d0ae150b5bf3c5832943eb93",
+    "key": "audio/7e94f3e0d0ae150b-a64.mp3",
+    "bytes": 48148732,
+    "duration_s": 6018,
+    "sha256": "9fa7cb13b7fd9f9ca84b7649d8242781509e070ba357b9eca463ac0ae17f06f2",
+    "loudness": {
+      "pass1": {
+        "I": -13.2,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": -4.300000000000001,
+      "limit": 0.6,
+      "depth": -0.1630250076728732,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
