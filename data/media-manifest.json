@@ -41604,5 +41604,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1V2J6UVvTvu-kbrNZeMQ9SFmvQjnavJWM",
+    "drive_name": "162.១៦២ ចែកន័យផ្សេងៗក្នុងរូបកុសល ៥.mp3",
+    "source_md5": "19b49fd4254c8ab10b163610708db54b",
+    "key": "audio/19b49fd4254c8ab1-a64.mp3",
+    "bytes": 38122727,
+    "duration_s": 4765,
+    "sha256": "9ce1ff47852517a989bd2827e7ae79ec92e1e814ce95174991714d57f5ee08e0",
+    "loudness": {
+      "pass1": {
+        "I": -13.8,
+        "TP": 3.1,
+        "LRA": 0
+      },
+      "G": -3.6999999999999993,
+      "limit": 0.6,
+      "depth": 3.836974992327128,
+      "busy": 3.1401485740666906,
+      "out": {
+        "I": -18.2,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
