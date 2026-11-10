@@ -43634,5 +43634,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1S02XhB8ZWuPfNNei-hRb9Sez1ZwAlPUZ",
+    "drive_name": "១០៩ ពន្យល់បុញ្ញាភិសង្ខារ និងអបុញ្ញាសង្ខារកើតពីអវិជ្ជាភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "f9d1fdbe2ba7ad818ba7d156555119d6",
+    "key": "audio/f9d1fdbe2ba7ad81-a64.mp3",
+    "bytes": 26471905,
+    "duration_s": 3308,
+    "sha256": "7e790127770daeb2b4f1a0f154800335a57164bc1d1428a1ffe3bd5458fdf678",
+    "loudness": {
+      "pass1": {
+        "I": -25.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 9.100000000000001,
+      "limit": 0.6,
+      "depth": 9.736974992327129,
+      "busy": 6.452197827105275,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
