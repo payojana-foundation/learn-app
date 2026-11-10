@@ -25364,5 +25364,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LoE4ae5M7jjAZ4t84UyTbKvvJ_roKA7a",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៥៥ ជនកកម្ម កម្មញុំាងវិបាកនិងកម្មជ្ជរូបឱ្យកើត.mp3",
+    "source_md5": "33f9e91687b86036c16dd8582983724f",
+    "key": "audio/33f9e91687b86036-a64.mp3",
+    "bytes": 44804013,
+    "duration_s": 5600,
+    "sha256": "f5df8d95761f81e72f629c2bdc7101bdd7d04c21c6cb2859876a0211d28e7611",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": 1.2,
+        "LRA": 0
+      },
+      "G": 3.799999999999997,
+      "limit": 0.6,
+      "depth": 9.436974992327125,
+      "busy": 4.076904534457053,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
