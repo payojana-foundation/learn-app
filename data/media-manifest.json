@@ -44504,5 +44504,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12O_w0wSSCRu9tpTUey9TkKXcLF3k_6pC",
+    "drive_name": "174.១៧៤ បញ្ចប់ថ្នាក់ចិត្តបរមត្ថរយៈពេល២ ឆ្នាំ.mp3",
+    "source_md5": "b94ffd92e0941a50b4873fb1e23d8ed5",
+    "key": "audio/b94ffd92e0941a50-a64.mp3",
+    "bytes": 49559971,
+    "duration_s": 6194,
+    "sha256": "49713aab6518686c701e36d6acbb751804b8c493f25c98def0008c927dd13992",
+    "loudness": {
+      "pass1": {
+        "I": -20.8,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 4.699999999999999,
+      "limit": 0.6,
+      "depth": 9.536974992327128,
+      "busy": 5.262149008466573,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
