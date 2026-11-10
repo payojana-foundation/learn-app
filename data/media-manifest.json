@@ -21681,5 +21681,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KsJ7m-4khKV2v5-Gl4fhTna7en796ZsY",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ២៧ សេរីសកប្រេត នន្ទិកាប្រេត.mp3",
+    "source_md5": "666b698ffbaae51479ce2cf5c95c5355",
+    "key": "audio/666b698ffbaae514-a64.mp3",
+    "bytes": 43931105,
+    "duration_s": 5491,
+    "sha256": "37785274ab2f846a720cf61b6abeade840ab7949480a6cc46f1794db072eb488",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": 6.699999999999999,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 4.979194551430886,
+      "out": {
+        "I": -18.2,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
