@@ -41691,5 +41691,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1O4isYOiR-Ap8PZZvmijBAspbcHnfmp6t",
+    "drive_name": "163.១៦៣ រូបាវចរចិត្ត ៥ រូបព្រហ្ម ១៦.mp3",
+    "source_md5": "4347dce4e640015773b2d63530874c1e",
+    "key": "audio/4347dce4e6400157-a64.mp3",
+    "bytes": 11641251,
+    "duration_s": 1455,
+    "sha256": "12fe28443329a5bebc4af095c1811793d1f3739f0f790fb90e1644d4c6c3189b",
+    "loudness": {
+      "pass1": {
+        "I": -14,
+        "TP": 2.2,
+        "LRA": 0
+      },
+      "G": -3.5,
+      "limit": 0.6,
+      "depth": 3.1369749923271275,
+      "busy": 3.0547728678441346,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
