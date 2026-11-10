@@ -43228,5 +43228,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10J2s-hs_gvdxukcsvj1rAWbWYPt9COQT",
+    "drive_name": "168.១៦៨ សោតាបន្នបុគ្គលចែកជា ៣ ប្រភេទ.mp3",
+    "source_md5": "4952098e0592678c9465ea93483ae41f",
+    "key": "audio/4952098e0592678c-a64.mp3",
+    "bytes": 32345695,
+    "duration_s": 4043,
+    "sha256": "39a0744ced28134ebf3d348336b3147f2f0516ce6de641b3fedd3b8d95b3cdb1",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 1.6000000000000014,
+      "limit": 0.6,
+      "depth": 6.136974992327129,
+      "busy": 7.567335278986941,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
