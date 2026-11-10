@@ -53871,5 +53871,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YA9YRzQkAPlMY_jgwjOMtWmWnzkzWLcz",
+    "drive_name": "សិក្សារសតិប្បដ្ឋាន ភាគ៣០ (លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញ ថូ ចន្ថា).mp3",
+    "source_md5": "5cf2780dbe2cd4b191155f3014299e25",
+    "key": "audio/5cf2780dbe2cd4b1-a64.mp3",
+    "bytes": 14407305,
+    "duration_s": 1800,
+    "sha256": "3ae5437adf85ee5f14e8d3fa8e9ede013147cb7502003aa275074a4a6c940540",
+    "loudness": {
+      "pass1": {
+        "I": -18,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 2.1000000000000014,
+      "limit": 0.6,
+      "depth": 5.836974992327129,
+      "busy": 5.088428008218113,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
