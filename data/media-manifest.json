@@ -26147,5 +26147,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "108WWRPzXRhqOMt1mpYdrWnJSKd9UvXcT",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៤៨ ចែកសសម្ភារៈជាសុត្តន្តន័យ បឋវីធាតុ ២០.mp3",
+    "source_md5": "8470f2faefa636ec25a4f5c9990a7685",
+    "key": "audio/8470f2faefa636ec-a64.mp3",
+    "bytes": 41949143,
+    "duration_s": 5243,
+    "sha256": "0934956b20f5dd42341d85c2dbd10e93d34d8966b00d997562959de7e2bdc9fc",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 10.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.931487909070104,
+      "out": {
+        "I": -18.3,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
