@@ -27133,5 +27133,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vtWB2XamSnRLrHtJsBUqxFApajCoCkNM",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៥៥ ឧតុជ្ជកលាប ៤ យ៉ាងផ្សេងទៀត.mp3",
+    "source_md5": "4543de4fdcdfaa62dc0966ccba360748",
+    "key": "audio/4543de4fdcdfaa62-a64.mp3",
+    "bytes": 39328539,
+    "duration_s": 4916,
+    "sha256": "bdba9872b3c27bd55a01798b2b9c5a02d28aeb97f02b28f474021fd0223583ac",
+    "loudness": {
+      "pass1": {
+        "I": -27.4,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "G": 11.7,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 5.519166810752535,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
