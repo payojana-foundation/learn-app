@@ -24494,5 +24494,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LuuI2iyxap_W_rP3wlZLVv7qN_oxEpHS",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៥០ សតិប្បដ្ឋាន កាយេ កាយានុបស្សី វិហរតិ.mp3",
+    "source_md5": "75a6dcf32552d2a620bd2bb176a6a132",
+    "key": "audio/75a6dcf32552d2a6-a64.mp3",
+    "bytes": 42278913,
+    "duration_s": 5284,
+    "sha256": "48c0affb8c47ab74ec334a8aff4f20d43cca6cac5cf62af473fbda5c4695029e",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "G": 10.799999999999997,
+      "limit": 0.6,
+      "depth": 11.036974992327124,
+      "busy": 4.075092008287841,
+      "out": {
+        "I": -18.1,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
