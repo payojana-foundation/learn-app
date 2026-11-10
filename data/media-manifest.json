@@ -56046,5 +56046,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hL_wEt2GA2l0stqkKKnqahTyQTSDtbUk",
+    "drive_name": "30-Ñāṇa-26Aug2026.mp3",
+    "source_md5": "e92290788fcac974d2d684292cb03792",
+    "key": "audio/e92290788fcac974-a64.mp3",
+    "bytes": 38090126,
+    "duration_s": 4761,
+    "sha256": "65f5f18184ad972d616c832eee9cd1c9db8578e786c9af2acad5e9638bbfbeee",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 7.300000000000001,
+      "limit": 0.6,
+      "depth": 8.436974992327128,
+      "busy": 6.514045681281176,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
