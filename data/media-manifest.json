@@ -18984,5 +18984,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1glgqEyowUiPoOLCDrzipr-OVnKIj63ii",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ០៨​ ពន្យល់អនុស័យ ៧ បន្ត.mp3",
+    "source_md5": "b868346a0e857378d32cc9cb7f099caf",
+    "key": "audio/b868346a0e857378-a64.mp3",
+    "bytes": 42629372,
+    "duration_s": 5328,
+    "sha256": "a6d7a84d638aa34c6fe01df088d767f2912be1245c7f47b3a965c6d1c803f5b6",
+    "loudness": {
+      "pass1": {
+        "I": -16.6,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": -0.8999999999999986,
+      "limit": 0.6,
+      "depth": 1.9369749923271287,
+      "busy": 0.0007037429742993065,
+      "out": {
+        "I": -18,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
