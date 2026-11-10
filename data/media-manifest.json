@@ -50275,5 +50275,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VHgI-J-G9qOV900dqC7RKhUO5kCe8Aai",
+    "drive_name": "21-29 Nov 2025 នាទីធម្មចរិយា សិក្សារក្នុងសុត្តន្តបិដក ទីឃនិកាយទុតិយភាគ សីលក្ខន្ធវគ្គ បិដកលេខ១៥ សូមអន.mp3",
+    "source_md5": "58443ce785d25289a1bf576fe1fa1729",
+    "key": "audio/58443ce785d25289-a64.mp3",
+    "bytes": 11083066,
+    "duration_s": 1385,
+    "sha256": "32025cf8ca79c90523a95050e5b6030f4a585bf9661f4c4b82ac4d9a98cb0a67",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 2.7808856967553326,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
