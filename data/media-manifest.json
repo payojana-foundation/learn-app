@@ -25248,5 +25248,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1FopolJqLW03ZAY863JmOwJtoWChcDsdQ",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៥៤ កម្មនាំឱ្យពិការផ្សេងៗ.mp3",
+    "source_md5": "aa132892cbf93ddc52d9b27042ced6e6",
+    "key": "audio/aa132892cbf93ddc-a64.mp3",
+    "bytes": 35565025,
+    "duration_s": 4445,
+    "sha256": "bd6f75b737b60e8b6e189842c17b656752fb4f20ce80631aba4b6bff135460cc",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 0.7000000000000028,
+      "limit": 0.54,
+      "depth": 6.052124803540632,
+      "busy": 4.253644052546338,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
