@@ -20724,5 +20724,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1i4QhuERPhsX86BLcs-ZQtUJAM7NxWRgE",
+    "drive_name": "95.៩៥ អកុសលវិបាក បរិកប្ប២យ៉ាង.mp3",
+    "source_md5": "90c398ade0f81491a2c12285986945ba",
+    "key": "audio/90c398ade0f81491-a64.mp3",
+    "bytes": 19238704,
+    "duration_s": 2404,
+    "sha256": "9d5dd8346479f27514bc2b6d13bf107bf55aa8e7b3135f479834f3575e22ffc4",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 4.899999999999999,
+      "limit": 0.6,
+      "depth": 9.736974992327127,
+      "busy": 5.262391882900865,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
