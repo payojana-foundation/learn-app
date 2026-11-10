@@ -47056,5 +47056,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1oMUg-PaVKJQTAbIO6DslcctEcPWcz3EE",
+    "drive_name": "បិដកលេខ១៩ 20 សង្គីតិសូត្រ សត្តកនិទ្ទេស ធម៌ពួក ៧.mp3",
+    "source_md5": "673ef6e15986cf6d787ba954eddc114c",
+    "key": "audio/673ef6e15986cf6d-a64.mp3",
+    "bytes": 37305198,
+    "duration_s": 4663,
+    "sha256": "5437a765dd18d3c7d494b4730135e20be2daf50c28c9edeb5253f6d4d91c541f",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -13.1,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.23697499232712627,
+      "busy": 0.0002680620188286762,
+      "out": {
+        "I": -18,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
