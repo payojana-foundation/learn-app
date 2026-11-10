@@ -43576,5 +43576,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1h4u6VSkgIbNg0gEv0qdCu6IY-Uh_6GO-",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១១៧ បញ្ចប់ទុក្ខ ១២ កង និងចូលសមុទយសច្ចៈ.mp3",
+    "source_md5": "cf471ee417516c0aa6f32d5ba1173f7c",
+    "key": "audio/cf471ee417516c0a-a64.mp3",
+    "bytes": 42575246,
+    "duration_s": 5321,
+    "sha256": "e968286f962e15d4678b915871e2fcd019ec36314c2a1804cc9e6bd4c66dbfcb",
+    "loudness": {
+      "pass1": {
+        "I": -24.9,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 9.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.59075321551716,
+      "out": {
+        "I": -18.6,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
