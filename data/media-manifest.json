@@ -24030,5 +24030,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Vbrb_iDbidcdOxdhoDj0lWlyP9XKITRV",
+    "drive_name": "បរិច្ឆេទទី ៨-៤៣ រម្លឹកអារម្មណប្បច្ច័យ​និងចែកដោយកាលជាដើម.mp3",
+    "source_md5": "af97fcf8e910e3a54d0012907b7b8f6d",
+    "key": "audio/af97fcf8e910e3a5-a64.mp3",
+    "bytes": 41693143,
+    "duration_s": 5211,
+    "sha256": "2d43d331aabf42ed19cee7f01a9ed64619efee1b322332696775e4193fd82907",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 8,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 3.7349374472330954,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
