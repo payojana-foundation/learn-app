@@ -40154,5 +40154,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1z5RihNV-CEmxAjdxcq2Xl-H_TkxAiTYB",
+    "drive_name": "40.វចនានុក្រម 08-05-25.mp3",
+    "source_md5": "0854c1df237bf965825d3b355df09ac2",
+    "key": "audio/0854c1df237bf965-a64.mp3",
+    "bytes": 22876829,
+    "duration_s": 2859,
+    "sha256": "558464d5bc2dd07a8f0fa9749d1e8b91746098dba9f836f95a5a17104e08d6c5",
+    "loudness": {
+      "pass1": {
+        "I": -19.6,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 2.3000000000000007,
+      "limit": 0.6,
+      "depth": 6.036974992327128,
+      "busy": 2.795894458918361,
+      "out": {
+        "I": -18.2,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
