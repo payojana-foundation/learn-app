@@ -30526,5 +30526,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vUztQwtVGbkWn5IWc5XtFWsyh1qttJXK",
+    "drive_name": "១៥  រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "5a033bf8d429121a7e8460b5463f8849",
+    "key": "audio/5a033bf8d429121a-a64.mp3",
+    "bytes": 9581757,
+    "duration_s": 1197,
+    "sha256": "26425bb39c7e8e6e0ace161bbe52e09726109a9be04d1c5f85a46272eda58806",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 4.199999999999999,
+      "limit": 0.6,
+      "depth": 4.836974992327127,
+      "busy": 2.8043333055022126,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
