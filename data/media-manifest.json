@@ -57641,5 +57641,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1okeSGDGnCmYM41TPd_rX5hm2S6LnRwAU",
+    "drive_name": "បិដកលេខ២១-១២ រថវិនីតសូត្រ សំណួរព្រះសារីបុត្រពីវិសុទ្ធិ ៧ ប្រការ.mp3",
+    "source_md5": "0f8a09648458cd53c8c518c41fb52f27",
+    "key": "audio/0f8a09648458cd53-a64.mp3",
+    "bytes": 57353865,
+    "duration_s": 7169,
+    "sha256": "2a591666ac67a1dddc26983d8b051923172d55969298a17822c12aebfe633dff",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 6.020197511577303,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
