@@ -44620,5 +44620,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YRsCFyCiExIh8_k0wukRwl2vcIy3HCpX",
+    "drive_name": "១១៥ នាមរូបប្បច្ចយា សឡាយតនំ អាយតនៈកើតព្រោះនាមរូបជាបច្ច័យ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "95570891c3ad0bf13422c478e0e200a1",
+    "key": "audio/95570891c3ad0bf1-a64.mp3",
+    "bytes": 43966423,
+    "duration_s": 5495,
+    "sha256": "dc01c76b9bfefc905fe2283658cd44b79c8a9a83ebd1b1e9823aeb3b3ccba231",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 6.699999999999999,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 4.575808579356775,
+      "out": {
+        "I": -18.2,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
