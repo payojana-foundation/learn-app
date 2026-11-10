@@ -25132,5 +25132,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1F--MjyvuNXe0OHMUarrGWqTwjOqRN4n3",
+    "drive_name": "122.១២២ មហាកុសលក្នុងទានមយបុណ្យ ភាគ៥.mp3",
+    "source_md5": "ebbe55af497fb55d2bb78a7e92c564ec",
+    "key": "audio/ebbe55af497fb55d-a64.mp3",
+    "bytes": 47593264,
+    "duration_s": 5949,
+    "sha256": "d6f05ff523cebc5de913331304fa0002f1b55f681577375ff4c781dd94e2541f",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": 0.9,
+        "LRA": 0
+      },
+      "G": 5.099999999999998,
+      "limit": 0.6,
+      "depth": 10.436974992327126,
+      "busy": 4.724033887478778,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
