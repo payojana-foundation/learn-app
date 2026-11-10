@@ -24436,5 +24436,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1p-D2AJblYwR_LkSyiM2sssztYirdVvwv",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៤៨ អំពីកប្បមាន ៤ យ៉ាង.mp3",
+    "source_md5": "98c021334dd5a095e6e285ff7fb6c52f",
+    "key": "audio/98c021334dd5a095-a64.mp3",
+    "bytes": 43432898,
+    "duration_s": 5429,
+    "sha256": "5315e7c0870f22f2b252ffb2684ba5b4a737a17c812355bfc73d3d24e5d5c736",
+    "loudness": {
+      "pass1": {
+        "I": -19.6,
+        "TP": 1.1,
+        "LRA": 0
+      },
+      "G": 4.100000000000005,
+      "limit": 0.6,
+      "depth": 9.636974992327133,
+      "busy": 4.530216794680518,
+      "out": {
+        "I": -18.1,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
