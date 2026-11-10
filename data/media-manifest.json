@@ -20550,5 +20550,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hO4TdzGb-j_PmQ-cn2rbVCA9tmQrKJGP",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ១៤ ឃានបសាទ និងជិវ្ហាបសាទរូប.mp3",
+    "source_md5": "f0b815d140edf2d954a1b395b2374504",
+    "key": "audio/f0b815d140edf2d9-a64.mp3",
+    "bytes": 43569780,
+    "duration_s": 5446,
+    "sha256": "cc6e87b7ce36e13a33febeb81205e0bb88ab06759592ddf0e33bd64cbd2c7a05",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.100000000000001,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 6.59014542249642,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
