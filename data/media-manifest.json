@@ -21826,5 +21826,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1oAvSagu4p2UejlekiLw-uG1Nv5ksOPYw",
+    "drive_name": "102.១០២ បញ្ចប់កុសលវិបាកចិត្ត៨ដួង.mp3",
+    "source_md5": "df3d058168c4a0efc0ff7ce30a6727f5",
+    "key": "audio/df3d058168c4a0ef-a64.mp3",
+    "bytes": 47679154,
+    "duration_s": 5959,
+    "sha256": "12721468eac5215535104534b14d18593bf7919536fa71e2a094cfa788b19ddc",
+    "loudness": {
+      "pass1": {
+        "I": -20.8,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 4.699999999999999,
+      "limit": 0.6,
+      "depth": 9.236974992327127,
+      "busy": 5.292708709111807,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
