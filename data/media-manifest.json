@@ -43547,5 +43547,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13WEYRWxW2H-CC6Kg15kQv-EE21xMhZe0",
+    "drive_name": "62 _វចនានុក្រម_១៤ឧសភា២០២៦.mp3",
+    "source_md5": "76be954d785c42fa7d604e20d238bad5",
+    "key": "audio/76be954d785c42fa-a64.mp3",
+    "bytes": 26796242,
+    "duration_s": 3349,
+    "sha256": "16a409c0f3915a595bbed7446fc80980049f77f8c08278ad0d846adb13c19429",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 1,
+      "limit": 0.6,
+      "depth": 5.036974992327127,
+      "busy": 4.80444842513808,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
