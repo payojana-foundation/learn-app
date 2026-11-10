@@ -28815,5 +28815,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Dz0wtlp_jxSKl0xIZNCNXfaJHs5QRm01",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៦៦(ចប់) និព្វានមាន ១៤៣បទ និងប្រៀបធៀបនឹងអាកាស ១០.mp3",
+    "source_md5": "fde962fd7e8889c7e1f20d7ad83c6a88",
+    "key": "audio/fde962fd7e8889c7-a64.mp3",
+    "bytes": 56573117,
+    "duration_s": 7071,
+    "sha256": "f64e45abb84fa54a4f482fecf38e9d6cade704267f89114eb749706e8c4bb7a1",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 5.951269868205215,
+      "out": {
+        "I": -18.1,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
