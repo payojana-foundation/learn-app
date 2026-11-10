@@ -22609,5 +22609,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jeOsOPsnWX7sCbCItDq_mPs_d35aExwz",
+    "drive_name": "106.១០៦ ចែកអហេតុកដោយន័យផ្សេងៗ.mp3",
+    "source_md5": "34b368a3f465ff8dcf28ad1a0f4ece84",
+    "key": "audio/34b368a3f465ff8d-a64.mp3",
+    "bytes": 42552885,
+    "duration_s": 5319,
+    "sha256": "7d42750194cd573c39b8c7c4a456932e938d3b79a09353617664e8f29f3ef0ff",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": 1.5,
+        "LRA": 0
+      },
+      "G": 3.8999999999999986,
+      "limit": 0.6,
+      "depth": 9.836974992327125,
+      "busy": 4.9179364736184095,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
