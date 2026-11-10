@@ -38965,5 +38965,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18GjzUAeLkjF7as5Y-bZHf1jpE80c5K4r",
+    "drive_name": "ថ្នាក់កុមារ ភាគ១៧.mp3",
+    "source_md5": "53cb4db0fac8452b6958506e6125ee64",
+    "key": "audio/53cb4db0fac8452b-a64.mp3",
+    "bytes": 29516947,
+    "duration_s": 3689,
+    "sha256": "0fdc3f571bbfe2d07d43267b97f91218b16b89c6c8400eb12b2ca56ee7500e1f",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "G": 7,
+      "limit": 0.6,
+      "depth": 8.936974992327126,
+      "busy": 5.637205079210202,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
