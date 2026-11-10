@@ -58366,5 +58366,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xR-NQV8jzxApoZebPYcsu-U7kQBLYvIB",
+    "drive_name": "បិដកលេខ២១-២០ ចូឡហត្ថិបទោបមសូត្រ ការប្រកាសសម្តែងធម៌មានលម្អ៣បទ.mp3",
+    "source_md5": "29f231c26d09f5ee017d222ba0f8401f",
+    "key": "audio/29f231c26d09f5ee-a64.mp3",
+    "bytes": 56983344,
+    "duration_s": 7122,
+    "sha256": "124ce73b1534fb980d065c19b613bc95effe81b5c246f8c5c95cd370c83cf730",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 4.450960984992068,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
