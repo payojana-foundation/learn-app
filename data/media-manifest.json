@@ -24117,5 +24117,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GnHZLOkjXusaDnf9SXLDEJDB3dMx7kPS",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៤៦ បញ្ចប់ភូមិ ៣១ ភូមិ.mp3",
+    "source_md5": "e3bcee44dbea47eba2c9a9b94df2ef83",
+    "key": "audio/e3bcee44dbea47eb-a64.mp3",
+    "bytes": 37163092,
+    "duration_s": 4645,
+    "sha256": "1c70feb7b8fa4bd3cb706aee212a8afdb2c52c4abe0f0de7551474560a741818",
+    "loudness": {
+      "pass1": {
+        "I": -21,
+        "TP": 0.8,
+        "LRA": 0
+      },
+      "G": 5.699999999999999,
+      "limit": 0.6,
+      "depth": 10.936974992327126,
+      "busy": 3.882915173237754,
+      "out": {
+        "I": -18.1,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
