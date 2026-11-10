@@ -47433,5 +47433,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JhNcgQI8AI9bEFlK0fzxhWhFMRzjPyCz",
+    "drive_name": "១៣៩ ចែកបញ្ញត្តិផ្សេងបញ្ចប់បរិច្ឆេទទី៨ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "8bb30e31f13f11d229ef4a7f49d98850",
+    "key": "audio/8bb30e31f13f11d2-a64.mp3",
+    "bytes": 60278952,
+    "duration_s": 7534,
+    "sha256": "37c3849e8150fb339cc45bc0a50de6edc59050bbe572ca20de2eea896d89e5d6",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.800000000000001,
+      "limit": 0.6,
+      "depth": 10.936974992327128,
+      "busy": 4.702648360617664,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
