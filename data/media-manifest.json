@@ -20782,5 +20782,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Z0ViCIZcqJWhpozAJcHxoU37LKPx8YAY",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ១៥ កាយបសាទរូប កាយមាន៤ យ៉ាង.mp3",
+    "source_md5": "b3080e7cad40be65da04840fe3b13730",
+    "key": "audio/b3080e7cad40be65-a64.mp3",
+    "bytes": 46609806,
+    "duration_s": 5826,
+    "sha256": "07b029d17b3efbb702cdc5d4a8dbed3facda2f7568933daad40bd90ea815f29f",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 3.799999999999997,
+      "limit": 0.6,
+      "depth": 8.336974992327125,
+      "busy": 5.668574714221963,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
