@@ -42677,5 +42677,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "182-UjUCB9boEzgdP2MDDzYTH3z8JuNdx",
+    "drive_name": "166.១៦៦ និយមន័យលោកុត្តរចិត្ត.mp3",
+    "source_md5": "58caeb8081b3d79892dd76d69f62de1c",
+    "key": "audio/58caeb8081b3d798-a64.mp3",
+    "bytes": 47979458,
+    "duration_s": 5997,
+    "sha256": "466a10ffc6dda2642a0c2b6a92befe5d3aa5d80b3f5845ed0ac296c2c46ac516",
+    "loudness": {
+      "pass1": {
+        "I": -16.1,
+        "TP": 1.9,
+        "LRA": 0
+      },
+      "G": -0.3999999999999986,
+      "limit": 0.6,
+      "depth": 5.936974992327128,
+      "busy": 5.041559675859539,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
