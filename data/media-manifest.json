@@ -45432,5 +45432,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NcSdNl_fx1pPrTgIk7CvodwrZBrtpo_u",
+    "drive_name": "បិដកលេខ១៩ 04 បុព្វកម្មដែលនាំឱ្យមានមហាបុរិសលក្ខណៈ ៣២ ប្រការភាគបញ្ចប់ .mp3",
+    "source_md5": "8075d0588472b9dceef16f9e12d5ef7d",
+    "key": "audio/8075d0588472b9dc-a64.mp3",
+    "bytes": 42357698,
+    "duration_s": 5294,
+    "sha256": "6fef7ceb5c6b9caa148e60a05d5685839cc89317c704f119ce340697267f966e",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -11,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 2.336974992327126,
+      "busy": 0.033051919844372675,
+      "out": {
+        "I": -18,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
