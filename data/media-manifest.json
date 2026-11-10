@@ -59062,5 +59062,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_aHvLsNVG_LquSCJ1lqZ_-mecaJ6M45N",
+    "drive_name": "18.វិនយបិដកេ មហាវគ្គបាឡិ ភាគ១៨ (ព្រះអង្គគ្រូ ពុទ្ធង្កុរ ភុល ណារិន).mp3",
+    "source_md5": "cfaa817b81bb89ec002d4b1a32ebd701",
+    "key": "audio/cfaa817b81bb89ec-a64.mp3",
+    "bytes": 51974730,
+    "duration_s": 6496,
+    "sha256": "81baa0abd64d81eb8987b70ebbd5e299335b071e4e7a38350d8cb5092cad6a8f",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 6.699999999999999,
+      "limit": 0.6,
+      "depth": 9.036974992327128,
+      "busy": 4.909339982760744,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
