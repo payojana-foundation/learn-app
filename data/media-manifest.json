@@ -21739,5 +21739,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1It9fL3KxiSHi-m_7KyZc35xN_KyeHMCy",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៣០ ឥន្រ្ទិយ២២ ដោយធាតុដល់កំណើត៤.mp3",
+    "source_md5": "9d2932ecb46bcd53cbdd7e9ea8d52f1f",
+    "key": "audio/9d2932ecb46bcd53-a64.mp3",
+    "bytes": 44814880,
+    "duration_s": 5601,
+    "sha256": "111031623a1409f0ef1ec8a0f8b5ed6bcdc044075227273f483178758e23f4d5",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "G": 1.7999999999999972,
+      "limit": 0.6,
+      "depth": 3.7369749923271245,
+      "busy": 0.19257031159349144,
+      "out": {
+        "I": -18,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
