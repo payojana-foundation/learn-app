@@ -50594,5 +50594,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QmbTdyjqvRTMk9RRZdbmv4ZOJk8ofNTM",
+    "drive_name": "សិក្សារសតិប្បដ្ឋាន ភាគ១០ (លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញ ថូ ចន្ថា).mp3",
+    "source_md5": "154904a3199d86dbd622f4af35feba9c",
+    "key": "audio/154904a3199d86db-a64.mp3",
+    "bytes": 30581698,
+    "duration_s": 3822,
+    "sha256": "9f37c3581f0b045715b16dcf7a3352d7b7a1a2bdce0a4e1e0b090eb4e427efca",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 1.3000000000000007,
+      "limit": 0.6,
+      "depth": 6.1369749923271275,
+      "busy": 4.5864179768226645,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
