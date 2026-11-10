@@ -40763,5 +40763,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1W3CstBW4iDDEw5ejAvEFiSSUT51Zn4-C",
+    "drive_name": "43 វចនានុក្រម_ 5 មិថុនា 2025.mp3",
+    "source_md5": "d085365311c722ee5d4b0b693064319d",
+    "key": "audio/d085365311c722ee-a64.mp3",
+    "bytes": 30279305,
+    "duration_s": 3784,
+    "sha256": "2e4afa2d70eaadd74841a02f9dd94d939231e7e241cdd7040201f278c05b5fad",
+    "loudness": {
+      "pass1": {
+        "I": -20.4,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 3.799999999999997,
+      "limit": 0.6,
+      "depth": 7.536974992327124,
+      "busy": 3.867341277180375,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
