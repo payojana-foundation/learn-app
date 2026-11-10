@@ -47346,5 +47346,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dUffbOPjr_RstMBoC-_lYC9CMnK-BLk7",
+    "drive_name": "១៩ មហាអស្សបុរសូត្រទី៩ កាយ វាចា ចិត្តបរិសុទ្ធ និងមិនបរិសុទ្ធ.mp3",
+    "source_md5": "b3deea0f806e1e3664b3859bef3f4266",
+    "key": "audio/b3deea0f806e1e36-a64.mp3",
+    "bytes": 54920924,
+    "duration_s": 6865,
+    "sha256": "baf79ac3cd72cd4fcc32239323c24d7181a6c45d148abf8158ebd586777c33d6",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -6.4,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 8.036974992327128,
+      "busy": 5.835311940102839,
+      "out": {
+        "I": -18.1,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
