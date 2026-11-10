@@ -27858,5 +27858,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bYpKdfFNLhdWeDeCv8pWDG6KC1DBEuTg",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៧៥ សាមិសសុខវេទនា និរាមិសសុខ សាមិសទុក្ខ និរាមិសទុក្ខ.mp3",
+    "source_md5": "bb3cec64cf0f5a71626295e5ab64b556",
+    "key": "audio/bb3cec64cf0f5a71-a64.mp3",
+    "bytes": 42814945,
+    "duration_s": 5351,
+    "sha256": "f55c345be02e938a09c31e2a8198e32f697fc1029d17519ecfc8903ae9e07650",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 5.044750880536637,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
