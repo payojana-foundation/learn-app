@@ -38820,5 +38820,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pbHQf-nwjOB8aiGsOGW-fLoBRZgLd86T",
+    "drive_name": "34.​វចនានុក្រម 27-02-2025.mp3",
+    "source_md5": "9ccacc5bcf023df7db01a165788d1a3a",
+    "key": "audio/9ccacc5bcf023df7-a64.mp3",
+    "bytes": 21578439,
+    "duration_s": 2697,
+    "sha256": "a6328d1927f8123fbb8cf2bdfcdd586980dc28a27d0bb8d0e547de09fce9e151",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.099999999999998,
+      "limit": 0.6,
+      "depth": 11.236974992327125,
+      "busy": 3.561034386875521,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
