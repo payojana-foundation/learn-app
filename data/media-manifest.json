@@ -40502,5 +40502,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kRw7r3NKbEQgRZK39sYsXeONoI079WU6",
+    "drive_name": "ថ្នាក់កុមារ ភាគ២៣.mp3",
+    "source_md5": "1044494834818b1335febb4dcfd49d6e",
+    "key": "audio/1044494834818b13-a64.mp3",
+    "bytes": 34752722,
+    "duration_s": 4344,
+    "sha256": "b9ec325adac2ebe363569f50217048162de90f4b4d4aa5c9362dc5b3a26c1f64",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.687883426756137,
+      "out": {
+        "I": -18.8,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
