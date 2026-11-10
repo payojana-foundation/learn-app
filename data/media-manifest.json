@@ -18955,5 +18955,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13tsrfU0dRsnyi7La9dbjJlzLHjHS8uXO",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ០៥ អាបោធាតុ មាន ៤ ន័យ.mp3",
+    "source_md5": "240a6fd2463a57f7e89eb1fb7538966a",
+    "key": "audio/240a6fd2463a57f7-a64.mp3",
+    "bytes": 48510266,
+    "duration_s": 6063,
+    "sha256": "fba56465611d9e19a06f8972c7d141261b677a499d5c6881081bfb20b023d3c0",
+    "loudness": {
+      "pass1": {
+        "I": -20.1,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 4.700000000000003,
+      "limit": 0.6,
+      "depth": 9.23697499232713,
+      "busy": 6.79282622139765,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
