@@ -21391,5 +21391,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qGhP_eIycgwsScXpSPpTQNdYxzSmt9tl",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ២៧ អធិប្បាយសតិន្រ្ទិយ ដល់អនញ្ញត្តញ្ញស្សាមីតិន្រ្ទិយ.mp3",
+    "source_md5": "31d70d151d9d0dd26020db3c40ee49eb",
+    "key": "audio/31d70d151d9d0dd2-a64.mp3",
+    "bytes": 43907073,
+    "duration_s": 5488,
+    "sha256": "741a61e61dd3872ddf5dc991418f967552ac7943fc55947ec3e35953ce9b0ffb",
+    "loudness": {
+      "pass1": {
+        "I": -14.6,
+        "TP": 4.9,
+        "LRA": 0
+      },
+      "G": -1.5000000000000018,
+      "limit": 0.54,
+      "depth": 8.752124803540628,
+      "busy": 3.842684959960644,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
