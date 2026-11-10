@@ -24465,5 +24465,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NfaXzLhkiwCIWFPTQgAQEakCPfTWtXWM",
+    "drive_name": "118.១១៨ មហាកុសលក្នុងទានមយបុណ្យ (ភាគ១).mp3",
+    "source_md5": "ded32569cb53e39013c8cd26cde108f1",
+    "key": "audio/ded32569cb53e390-a64.mp3",
+    "bytes": 33940627,
+    "duration_s": 4242,
+    "sha256": "ec961a6287dc7bc9ef90e159250edc5ea626dcb669e330c587586761362316d4",
+    "loudness": {
+      "pass1": {
+        "I": -20.7,
+        "TP": 2.6,
+        "LRA": 0
+      },
+      "G": 4.299999999999997,
+      "limit": 0.6,
+      "depth": 11.336974992327125,
+      "busy": 4.173786991314186,
+      "out": {
+        "I": -18.2,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
