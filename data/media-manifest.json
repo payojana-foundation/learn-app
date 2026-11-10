@@ -60135,5 +60135,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1j0i50muFmJ3tYmw4U0c9fs4-pfqh_owI",
+    "drive_name": "59.វិនយបិដកេ មហាវគ្គបាឡិ ភាគ៥៩ (ព្រះអង្គគ្រូ ពុទ្ធង្កុរ ភុល ណារិន).mp3",
+    "source_md5": "29f6acd9bdb2e3f88e23388c0fd5ce55",
+    "key": "audio/29f6acd9bdb2e3f8-a64.mp3",
+    "bytes": 37172078,
+    "duration_s": 4646,
+    "sha256": "3069543b7f676de989712028b7f983e326710e8452a34abecca94253c27a26d0",
+    "loudness": {
+      "pass1": {
+        "I": -13.6,
+        "TP": 0.8,
+        "LRA": 0
+      },
+      "G": -4.000000000000002,
+      "limit": 0.6,
+      "depth": 1.2369749923271254,
+      "busy": 0.009415689228451523,
+      "out": {
+        "I": -18,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
