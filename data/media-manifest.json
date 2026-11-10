@@ -18433,5 +18433,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KG7d-MstfU24yEXRMS3g5Q4bVdm3cxbK",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ០២ អង្គធម៌របស់អាសវៈ ៤ យ៉ាង.mp3",
+    "source_md5": "9919309b4ef5a42437671202b55a1fe3",
+    "key": "audio/9919309b4ef5a424-a64.mp3",
+    "bytes": 43863605,
+    "duration_s": 5482,
+    "sha256": "a47705990b69dce80c7eecf3edcf6cba18ae8c5757192215f27be45d922ca0c3",
+    "loudness": {
+      "pass1": {
+        "I": -16,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": -1.6000000000000014,
+      "limit": 0.6,
+      "depth": 0.8369749923271259,
+      "busy": 0.00022798154261430994,
+      "out": {
+        "I": -18,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
