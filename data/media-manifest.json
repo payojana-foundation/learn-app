@@ -22406,5 +22406,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GVh36lg_f64reecoLIkJt_8ECzWEE0Hr",
+    "drive_name": "105.១០៥ ចែកអហេតុកចិត្ត១៨.mp3",
+    "source_md5": "0071c9c2bf09f63f3deae6b94374b723",
+    "key": "audio/0071c9c2bf09f63f-a64.mp3",
+    "bytes": 43855037,
+    "duration_s": 5481,
+    "sha256": "7afb67421bf996609a589490e8683585cabbf163e9a3ba01b8725a93e871f5db",
+    "loudness": {
+      "pass1": {
+        "I": -19.6,
+        "TP": 1.8,
+        "LRA": 0
+      },
+      "G": 3.400000000000002,
+      "limit": 0.6,
+      "depth": 9.63697499232713,
+      "busy": 4.563012486660525,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
