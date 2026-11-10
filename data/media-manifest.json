@@ -45693,5 +45693,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19JI1MDl8OZd0CKH4N7a3NhWz_oWDk19L",
+    "drive_name": "បិដកលេខ១៩ 06 សិង្គាលកសូត្រ មិត្តគិតតែប្រយោជន៍ខ្លួន ៤ យ៉ាង .mp3",
+    "source_md5": "d92c79e6a9eacc852f4c5fba31ffa8ce",
+    "key": "audio/d92c79e6a9eacc85-a64.mp3",
+    "bytes": 42587785,
+    "duration_s": 5323,
+    "sha256": "2cfcbd6a15a571bb6751cf1891704f7a89eaa7c8f73b04da361b87120d07365c",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -11.9,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 1.4369749923271256,
+      "busy": 0.35268481905531185,
+      "out": {
+        "I": -18,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
