@@ -18897,5 +18897,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XF1K3wT4XBNmOYBJXKheThAI0aMbKoQx",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ០៧​ អនុសយមាន ៧ ប្រការ.mp3",
+    "source_md5": "d17d249825eea62b781ae6bb4bd5bcdf",
+    "key": "audio/d17d249825eea62b-a64.mp3",
+    "bytes": 44307478,
+    "duration_s": 5538,
+    "sha256": "ce4fcd1c5504bfb98ab33a9a53d25da7b5e03af9960d3c1c0e53bfcb36b12b9a",
+    "loudness": {
+      "pass1": {
+        "I": -14,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": -3.6000000000000014,
+      "limit": 0.6,
+      "depth": 0.8369749923271259,
+      "busy": 0.001354181713130146,
+      "out": {
+        "I": -18,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
