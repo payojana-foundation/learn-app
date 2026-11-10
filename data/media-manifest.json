@@ -49550,5 +49550,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DW3_cHXqzV5KpkY_sqKU-QjKfcUO4q5a",
+    "drive_name": "15-26 Oct 2025  បិតកលេខ១៥.mp3",
+    "source_md5": "9a55ea1943a0ad1ce0ec971e5923cab1",
+    "key": "audio/9a55ea1943a0ad1c-a64.mp3",
+    "bytes": 23628529,
+    "duration_s": 2953,
+    "sha256": "049c97c76c5a8dd24d2082de5f4957894d81e849c1eca02b64e8d9b955b2caf4",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 7.4999999999999964,
+      "limit": 0.6,
+      "depth": 8.736974992327124,
+      "busy": 4.022769595395293,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
