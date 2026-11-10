@@ -21130,5 +21130,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Kwle13bC_3ZaMuMqvgZ8UGMtOgleRtB5",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ១៧ គោរចររូប សទ្ទារម្មណ៍ គន្ធារម្មណ៍.mp3",
+    "source_md5": "0f1bf339de03322a41fd2ddc60bf301a",
+    "key": "audio/0f1bf339de03322a-a64.mp3",
+    "bytes": 43416807,
+    "duration_s": 5427,
+    "sha256": "2a1e46114920a5360412d2761a7f880db05fb5faa461feedbe2739c39ac45769",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 7.400000000000002,
+      "limit": 0.6,
+      "depth": 11.23697499232713,
+      "busy": 6.022608968039727,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
