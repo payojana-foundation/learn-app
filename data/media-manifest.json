@@ -45809,5 +45809,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cWqXpFs8vW_JKB-bUnnZs1B_gMLcg61A",
+    "drive_name": "១២៨ ឧបាទានប្បច្ចយា ភវោ សង្គ្រោះបច្ច័យ២៤ចប់ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "10c08363d0c992f8992e5af97eba4bed",
+    "key": "audio/10c08363d0c992f8-a64.mp3",
+    "bytes": 43397372,
+    "duration_s": 5424,
+    "sha256": "b02387602cb948a7065e9bbf42e84e00bd4053ab7e169e78b4817b004a173e67",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 5.100000000000001,
+      "limit": 0.6,
+      "depth": 9.13697499232713,
+      "busy": 5.383757477440941,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
