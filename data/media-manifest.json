@@ -24610,5 +24610,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1iBjL9LWnILGQUW1qCWsLMOJTg1qcN3k-",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៥១ សតិប្បដ្ឋាន អាតាបី សម្បជានោ សតិមា.mp3",
+    "source_md5": "8867110dd7c28316014eb83624a61ef3",
+    "key": "audio/8867110dd7c28316-a64.mp3",
+    "bytes": 40395380,
+    "duration_s": 5049,
+    "sha256": "1b36ee80c95925da51fe5d8b934c281a837f511504324c848f96cfbaf77ad5bf",
+    "loudness": {
+      "pass1": {
+        "I": -27.5,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.14417554560938,
+      "out": {
+        "I": -18.3,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
