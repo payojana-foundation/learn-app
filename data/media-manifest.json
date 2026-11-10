@@ -25074,5 +25074,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-xfrb9IXddjr2L8h1FRIpd86JOB0g1Rf",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៤១  ទុកន័យ គូទី៨ ដល់ទី១១ បញ្ចប់.mp3",
+    "source_md5": "c25fbb3faffcd84a160e3e8c8639a618",
+    "key": "audio/c25fbb3faffcd84a-a64.mp3",
+    "bytes": 42607847,
+    "duration_s": 5325,
+    "sha256": "abebe07b6020d2204c0721a43aa3ae2671afc7dc94be01b73260d440c27c91d3",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 6.650926125855481,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
