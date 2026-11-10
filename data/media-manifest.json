@@ -30671,5 +30671,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1eZ8Get8wnMGQ8y5nqGQz3ul4iirPuUwi",
+    "drive_name": "១៧ រាត្រីធម្មទាន_640x360 (2).mp3",
+    "source_md5": "565f274202e5e4785d987f11f1efeb6c",
+    "key": "audio/565f274202e5e478-a64.mp3",
+    "bytes": 9774436,
+    "duration_s": 1221,
+    "sha256": "d24f1ff4850df8f28854e30ba7cf2866144da1f3aaaa9d3386b145036de512be",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 5.199999999999999,
+      "limit": 0.6,
+      "depth": 5.936974992327126,
+      "busy": 2.939431143851033,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
