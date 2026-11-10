@@ -53088,5 +53088,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-ZT2gvH97Gqeg5UaO_AOAyD3DXgpqmvq",
+    "drive_name": "២០.បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត្តបច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត្ត -(កម្រិតសម្លេងខ្ពស់ ត្រូវបន្ថយ).mp3",
+    "source_md5": "45112c19e73e5a7df19e53d2d630b9bb",
+    "key": "audio/45112c19e73e5a7d-a64.mp3",
+    "bytes": 23652144,
+    "duration_s": 2956,
+    "sha256": "8d544fe2bbf1ca7c184429f2af015715b739d1b9563ed93d064616e3cf2f9fb9",
+    "loudness": {
+      "pass1": {
+        "I": -12.9,
+        "TP": 2,
+        "LRA": 0
+      },
+      "G": -4.700000000000001,
+      "limit": 0.6,
+      "depth": 1.7369749923271263,
+      "busy": 0.05411804498562489,
+      "out": {
+        "I": -18,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
