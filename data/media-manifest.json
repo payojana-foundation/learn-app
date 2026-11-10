@@ -58714,5 +58714,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wr9O6GhLSijGZYa0AIkZ88I9GXWAx_MY",
+    "drive_name": "បិដកលេខ២១-២៤ មហាសារោបមសូត្រ ការប្រៀបធៀបអ្នករកខ្លឹមឈើភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3",
+    "source_md5": "ed043dbb6d00a8c5c61686a716e4ae75",
+    "key": "audio/ed043dbb6d00a8c5-a64.mp3",
+    "bytes": 69020359,
+    "duration_s": 8627,
+    "sha256": "78dd7880f286bf4258b7aae322e1c8136ea44abbf94af42871737684fc705d20",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 5.669226311214141,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
