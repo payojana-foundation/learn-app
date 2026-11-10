@@ -24320,5 +24320,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mJxaajr0kt_pW6oJrhq6ad9F8194rINx",
+    "drive_name": "117.១១៧ មហាកុសលក្នុងកុសលកម្មបថ១០.mp3",
+    "source_md5": "7c33724469e9c52c0794ccda538b5a87",
+    "key": "audio/7c33724469e9c52c-a64.mp3",
+    "bytes": 42359161,
+    "duration_s": 5294,
+    "sha256": "299b978d5bf0bdab5292d60777a55e2ee6b4097cbf85bd91001acae260d52b02",
+    "loudness": {
+      "pass1": {
+        "I": -20.8,
+        "TP": 0.9,
+        "LRA": 0
+      },
+      "G": 4.600000000000001,
+      "limit": 0.6,
+      "depth": 9.93697499232713,
+      "busy": 4.633511808644249,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
