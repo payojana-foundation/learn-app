@@ -49289,5 +49289,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PQjNgAVUV709ep3J14BPQwb2S-Hs5Pty",
+    "drive_name": "12_១៤_មិថុនា_២០២៥_នាទីធម្មចរិយាសិក្សាបិដកលេខ១៤_ទីឃនិកាយ_បឋមភាគ_សីលក្ខន្ធវគ្គ.mp3.mp3",
+    "source_md5": "d32b861f5549b3f64fda0ce83b65c9e7",
+    "key": "audio/d32b861f5549b3f6-a64.mp3",
+    "bytes": 21675197,
+    "duration_s": 2709,
+    "sha256": "6aa9c2c35306f181c630522ff96d98ee6896dcf8e2b1feeb29b1ac2e8cea0ac1",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -6.5,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 8.436974992327126,
+      "busy": 4.071087161127208,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
