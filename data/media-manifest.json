@@ -33745,5 +33745,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VPQGhgniBq9ofd2B28UEKx-p_H3p0ikV",
+    "drive_name": "019.វចនានុក្រម 19 កញ្ញា 2024.mp3",
+    "source_md5": "ec9a0f95c77d3525679104a8470bf4ec",
+    "key": "audio/ec9a0f95c77d3525-a64.mp3",
+    "bytes": 21823990,
+    "duration_s": 2727,
+    "sha256": "18f9bf73253e54dc7c017f02200e0d41d6f22dca722504092de3ed4c8ba433ca",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 2.6999999999999993,
+      "limit": 0.6,
+      "depth": 6.636974992327127,
+      "busy": 3.1401785223336205,
+      "out": {
+        "I": -18.2,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
