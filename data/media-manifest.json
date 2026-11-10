@@ -39661,5 +39661,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10jjxfFrFPJ07ehIoy2yKO6Aar-5JLlcH",
+    "drive_name": "៨៨ រាត្រីធម្មទាន_ April 22-2023_648x360.mp3",
+    "source_md5": "2feae5b0a02691555acfb028dc37dd55",
+    "key": "audio/2feae5b0a0269155-a64.mp3",
+    "bytes": 12883007,
+    "duration_s": 1610,
+    "sha256": "eba179904c60abc5c5f7f3275cf280ff64de031a3cb1ee4bfba2a61ed26a9bf9",
+    "loudness": {
+      "pass1": {
+        "I": -19.3,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 2.3000000000000007,
+      "limit": 0.6,
+      "depth": 6.436974992327128,
+      "busy": 3.0825001552505746,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
