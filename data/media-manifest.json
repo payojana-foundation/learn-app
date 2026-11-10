@@ -28844,5 +28844,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Cztgx-h5m2lNInQSY8HxE49-EGCd0jzn",
+    "drive_name": "149.១៤៩ បុព្វកិច្ចរបស់អ្នកបដិបត្តិកម្មដ្ឋាន៧.mp3",
+    "source_md5": "aa404dc11106df0008f7364e32f2ba72",
+    "key": "audio/aa404dc11106df00-a64.mp3",
+    "bytes": 52551514,
+    "duration_s": 6568,
+    "sha256": "dc4a06460a02e41dda4b793e1aa2b86865f2650b69b6da6518e8dfbe44fb0c2b",
+    "loudness": {
+      "pass1": {
+        "I": -13.2,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": -4.400000000000002,
+      "limit": 0.6,
+      "depth": -0.8630250076728752,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
