@@ -21014,5 +21014,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1q-olJwQeovcxDKhd1PXR1wGZTKjTxpDQ",
+    "drive_name": "97.៩៧ អកុសលវិបាក ឃានវិញ្ញាណ ជីវ្ហាវិញ្ញាណ.mp3",
+    "source_md5": "50daa58384b12071261661443a21672e",
+    "key": "audio/50daa58384b12071-a64.mp3",
+    "bytes": 44772875,
+    "duration_s": 5596,
+    "sha256": "ced995a72a68aeaf8f6f1469370bfed49e460de2ef72628b3fa9b64d02eacb68",
+    "loudness": {
+      "pass1": {
+        "I": -19.5,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 3.3999999999999986,
+      "limit": 0.6,
+      "depth": 8.236974992327125,
+      "busy": 4.738410270613145,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
