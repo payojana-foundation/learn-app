@@ -40995,5 +40995,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1d-6vMYsv-33zX6e4Js_JyLR-wCVsU8-o",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 19 របៀបចម្រើនមេត្តាចិត្តភាគ ២.mp3",
+    "source_md5": "275756e6de4fcce073226e932c5c3811",
+    "key": "audio/275756e6de4fcce0-a64.mp3",
+    "bytes": 39889231,
+    "duration_s": 4986,
+    "sha256": "37a2fa908fb915c7d9805390acb30e73fad47f74f454e301e251e20e18738631",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "G": -0.40000000000000213,
+      "limit": 0.6,
+      "depth": 0.9369749923271251,
+      "busy": 0.005013938749724233,
+      "out": {
+        "I": -18,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
