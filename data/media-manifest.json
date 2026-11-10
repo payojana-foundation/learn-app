@@ -51174,5 +51174,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19Ld-WGFdkJTzccLJjpf9xYzxBykZ7OWG",
+    "drive_name": "១២៧ រាត្រីធម្មទាន_ June 25-2023_648x360.mp3",
+    "source_md5": "e5e4d501e6773a4ea75b01546f52e448",
+    "key": "audio/e5e4d501e6773a4e-a64.mp3",
+    "bytes": 5649806,
+    "duration_s": 706,
+    "sha256": "452265217318edfa2dfbc89bc18d8825c2fde41fa257d98a77242b91459d1296",
+    "loudness": {
+      "pass1": {
+        "I": -20.7,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 3.3999999999999986,
+      "limit": 0.6,
+      "depth": 7.336974992327126,
+      "busy": 1.8780090625885018,
+      "out": {
+        "I": -18.1,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
