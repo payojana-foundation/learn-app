@@ -27568,5 +27568,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XUCkziQCTzkneCSPZ-ftqqNA1ZWcXEQV",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៥៨ សសម្ភាររបស់កលាប ៤ ភាគបញ្ចប់.mp3",
+    "source_md5": "4ca9e34ac8e2bb705cd73b9f7f78bec5",
+    "key": "audio/4ca9e34ac8e2bb70-a64.mp3",
+    "bytes": 44999618,
+    "duration_s": 5624,
+    "sha256": "d4175086a11681d203026f6223bada87672e1796aae8914ace49d3a0da67673d",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.899999999999999,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 5.164980710768192,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
