@@ -26089,5 +26089,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1n0Amx0SbA-rwcHqnFALyy5iaHVQJSeoE",
+    "drive_name": "បរិច្ឆេទទី ៨-៥៩ រម្លឹកបកតូបនិស្សយប្បច្ច័យ មគ្គជាបច្ច័យដល់មគ្គ.mp3",
+    "source_md5": "648652700b35c0298f79473dbdf975a6",
+    "key": "audio/648652700b35c029-a64.mp3",
+    "bytes": 42384238,
+    "duration_s": 5297,
+    "sha256": "08ce2b946cc992c11971cd126af2a6fab4500d53ff1e1bc46078973086295d3e",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 7.899999999999999,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 4.24900906002265,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
