@@ -23044,5 +23044,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EdAMNWB-Zp1nYOnJ9eyLH1QnfmD_YY2W",
+    "drive_name": "109.១០៩ អត្ថរបស់កុសលមាន៥យ៉ាង.mp3",
+    "source_md5": "191749d5690b3bb90109390178517a26",
+    "key": "audio/191749d5690b3bb9-a64.mp3",
+    "bytes": 44835151,
+    "duration_s": 5604,
+    "sha256": "a69a5fca475fd4b189661f985933c3503dfc74a51829f5945a6d537f099eb717",
+    "loudness": {
+      "pass1": {
+        "I": -20.9,
+        "TP": 0.6,
+        "LRA": 0
+      },
+      "G": 4.399999999999999,
+      "limit": 0.6,
+      "depth": 9.436974992327126,
+      "busy": 3.656757697145967,
+      "out": {
+        "I": -18.1,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
