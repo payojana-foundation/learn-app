@@ -32266,5 +32266,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KU9e1-jIVOqNCOqt77JhOZoBhar5F_r8",
+    "drive_name": "014.វចនានុក្រម 08.Aug.2024.mp3",
+    "source_md5": "51975657519a04aac48ea0abb88ee64c",
+    "key": "audio/51975657519a04aa-a64.mp3",
+    "bytes": 22819778,
+    "duration_s": 2852,
+    "sha256": "2ea1de3d1b1a10891c18ebdbad08ec5296104eec55cc2547ee963e1daeaaa88d",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 3.099999999999998,
+      "limit": 0.6,
+      "depth": 6.736974992327125,
+      "busy": 3.705651381292946,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
