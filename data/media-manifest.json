@@ -43054,5 +43054,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JAjWOeqrbaPjmtwG1KuhBNJre-fOzCfQ",
+    "drive_name": "១០៧ បដិច្ចសមុប្បាទ អវិជ្ជាមិនដឹងនិរោធ មិនដឹងអរិយមគ្គភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "4ddbedc9c3c1dc9d7efbc539bf34fb0f",
+    "key": "audio/4ddbedc9c3c1dc9d-a64.mp3",
+    "bytes": 41937022,
+    "duration_s": 5242,
+    "sha256": "d8aff459e1a542bf44b3063a9a0f749b40ed5901d9c6c06ac78e179aeb24f66a",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 6,
+      "limit": 0.6,
+      "depth": 10.336974992327129,
+      "busy": 5.1882833215696,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
