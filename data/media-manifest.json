@@ -30816,5 +30816,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ts-3c1qYeHn6KdaMSqxAHnGsoPiWW9Rn",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៨៩ អាយតនបព្វៈ អត្ថន័យអាយតនៈមាន ៥ ន័យ.mp3",
+    "source_md5": "63043bc81a2fbb14f66d9374468db955",
+    "key": "audio/63043bc81a2fbb14-a64.mp3",
+    "bytes": 44416983,
+    "duration_s": 5552,
+    "sha256": "df92c574492633d5a652365ceca399ee66fd7d8d9a7e31e6d56ea420eecf23af",
+    "loudness": {
+      "pass1": {
+        "I": -21.1,
+        "TP": 0.7,
+        "LRA": 0
+      },
+      "G": 5.200000000000003,
+      "limit": 0.6,
+      "depth": 10.33697499232713,
+      "busy": 5.125763224725779,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
