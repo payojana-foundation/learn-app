@@ -24958,5 +24958,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1paN9ybZWiqMfIbHv6K6Oe3dDykZoERCO",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៥២ តើផែនដីក៏កើតឡើងយ៉ាងដូចម្តេច.mp3",
+    "source_md5": "3d041823b34618a4451d5f08c7079107",
+    "key": "audio/3d041823b34618a4-a64.mp3",
+    "bytes": 45461672,
+    "duration_s": 5682,
+    "sha256": "0760d28cf8bc670f5fc4cf067256d565ab955da58f16d72ff087672fe74f8636",
+    "loudness": {
+      "pass1": {
+        "I": -20,
+        "TP": 1.8,
+        "LRA": 0
+      },
+      "G": 4,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 4.653377795766097,
+      "out": {
+        "I": -18.2,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
