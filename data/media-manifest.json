@@ -31570,5 +31570,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17TFe6vH-snshGKF-Pq9p_g-boHI-nZZa",
+    "drive_name": "២៨ រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "bc5ca6de300b90a9113e51e2521234ac",
+    "key": "audio/bc5ca6de300b90a9-a64.mp3",
+    "bytes": 10983801,
+    "duration_s": 1372,
+    "sha256": "3a781c2083931cbacd2426c66a9849c6a2a31c071b0e4f3ad0c439752f9965a4",
+    "loudness": {
+      "pass1": {
+        "I": -18.5,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 1.8000000000000007,
+      "limit": 0.6,
+      "depth": 6.036974992327128,
+      "busy": 3.4853230388229295,
+      "out": {
+        "I": -18,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
