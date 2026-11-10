@@ -47578,5 +47578,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1FrQ5ChFDQfcBNdTTPBt2rPJPmEiMRy_1",
+    "drive_name": "២៤ មហាវេទល្លសូត្រទី៣ សួរអំពីប្រាជ្ញានិងវិញ្ញាណខុសគ្នាឬទេ(បិដកលេខ ២២).mp3",
+    "source_md5": "c284af8abffd7c51d368082ffd80fba6",
+    "key": "audio/c284af8abffd7c51-a64.mp3",
+    "bytes": 56245019,
+    "duration_s": 7030,
+    "sha256": "87e2ef98088be816e1935e1ca859eb54b61bc99946625b59790ee592b7dbd8a9",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -7.4,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 6.836974992327128,
+      "busy": 5.708972207208489,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
