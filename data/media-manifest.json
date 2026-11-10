@@ -46708,5 +46708,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Hr92tHnIU0uxaj8FMn3y9k5iNqAvs7o3",
+    "drive_name": "បិដកលេខ១៩ 13 សង្គីតិសូត្រ តិកនិទ្ទេស ពុទ្ធធម៌១៨ មានក្នុងព្រះពុទ្ធ.mp3",
+    "source_md5": "6bb77e43695a11e7be145eadf355d009",
+    "key": "audio/6bb77e43695a11e7-a64.mp3",
+    "bytes": 45167847,
+    "duration_s": 5645,
+    "sha256": "41b6e0e7769025325ef7938265ec49760f0470506a581309bada1855695c3379",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 9.2,
+      "limit": 0.6,
+      "depth": 8.736974992327127,
+      "busy": 3.393804408469788,
+      "out": {
+        "I": -18.1,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
