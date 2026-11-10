@@ -41140,5 +41140,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jguDn7I2yZ3AhtEXcYIXkKlJxnns2YvM",
+    "drive_name": "160.១៦០ កម្មដ្ឋានសមគួរដល់ចរិត ៦.mp3",
+    "source_md5": "759a747922192e9c19374b4731874e81",
+    "key": "audio/759a747922192e9c-a64.mp3",
+    "bytes": 43954929,
+    "duration_s": 5494,
+    "sha256": "f0bc999ef7f3899acb3755f281e9b83f66772658e749ab3d21af36e477e579c2",
+    "loudness": {
+      "pass1": {
+        "I": -17.7,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 2.1999999999999993,
+      "limit": 0.6,
+      "depth": 7.036974992327126,
+      "busy": 7.7539449975429084,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
