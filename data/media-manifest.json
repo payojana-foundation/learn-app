@@ -26727,5 +26727,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15vJZx4qtQHEJgSIQR2zQZnRmzxtbWoHb",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៦៦ បដិកូលមនសិការបព្វៈ អធិប្បាយឧគ្គហកោសល្សតាមមហាដីកាចារ្យ.mp3",
+    "source_md5": "b87a166b41b06749722550cc4aaa2bb7",
+    "key": "audio/b87a166b41b06749-a64.mp3",
+    "bytes": 43790253,
+    "duration_s": 5473,
+    "sha256": "6b88ae4d3be97f6489fd7c7766f87af74f4d52c8af425dc19a10533fafbcbe04",
+    "loudness": {
+      "pass1": {
+        "I": -27.5,
+        "TP": -6.5,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 8.936974992327126,
+      "busy": 5.808175382507422,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
