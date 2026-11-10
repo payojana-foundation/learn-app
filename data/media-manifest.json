@@ -27916,5 +27916,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wkfJqjI0ws22ex0_P9whnOUl8u6V8hd4",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៧៣ អហោសិកម្ម កម្មមិនមានឱកាសឱ្យផល.mp3",
+    "source_md5": "63ee582675836c1101b8d087a8f79e88",
+    "key": "audio/63ee582675836c11-a64.mp3",
+    "bytes": 42098145,
+    "duration_s": 5262,
+    "sha256": "40ef72f5c70bef6c5dbcf3d1d1c41eaa7a62d0a19088bbb82ae813acec83b246",
+    "loudness": {
+      "pass1": {
+        "I": -16.9,
+        "TP": 3.4,
+        "LRA": 0
+      },
+      "G": 1,
+      "limit": 0.6,
+      "depth": 8.836974992327129,
+      "busy": 5.175542781129745,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
