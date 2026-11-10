@@ -23073,5 +23073,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PtaRN6xfMSbtucjA9TEgplGzWAyY3T2Q",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៤០ តើអាហារ៤ មានអ្វីជាបច្ច័យ.mp3",
+    "source_md5": "9b9e6571c83a9eaa54d3b202e77271dc",
+    "key": "audio/9b9e6571c83a9eaa-a64.mp3",
+    "bytes": 41496911,
+    "duration_s": 5187,
+    "sha256": "eb484820015cc1c5a850a6bff2b303e57d9b8175913c3807ed1889d516666f4c",
+    "loudness": {
+      "pass1": {
+        "I": -27.3,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.916282701316728,
+      "out": {
+        "I": -18.5,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
