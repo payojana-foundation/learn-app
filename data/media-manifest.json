@@ -37167,5 +37167,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lI9ZnlJkYW5fCLaDESTd0yOMMNKrnbql",
+    "drive_name": "29.វចនានុក្រម 16-01-2025.mp3",
+    "source_md5": "a3a69f15677ac9d711fe6712279d36d7",
+    "key": "audio/a3a69f15677ac9d7-a64.mp3",
+    "bytes": 26494684,
+    "duration_s": 3311,
+    "sha256": "000e90d8a4ec7e485f1cd63c8bf07000dddfd7e49b15729e06f5672838186819",
+    "loudness": {
+      "pass1": {
+        "I": -19.5,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 2.6999999999999993,
+      "limit": 0.6,
+      "depth": 6.836974992327127,
+      "busy": 3.7543782837127844,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
