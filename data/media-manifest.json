@@ -55321,5 +55321,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1f6oXRgu8UO2lii1tAFXmrEUhDom7nFZm",
+    "drive_name": "26-Ñāṇa-អង្គឈាន៥និងវសីភាវៈ៥.mp3",
+    "source_md5": "a529b513f22eec8be846fe11fe34d26e",
+    "key": "audio/a529b513f22eec8b-a64.mp3",
+    "bytes": 27510743,
+    "duration_s": 3438,
+    "sha256": "1c3e219f45ac0a2948b20fffdefcfd74404d0152dd216e976672aebeb9008da8",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "G": 7.700000000000003,
+      "limit": 0.6,
+      "depth": 9.43697499232713,
+      "busy": 5.895952076305688,
+      "out": {
+        "I": -18.1,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
