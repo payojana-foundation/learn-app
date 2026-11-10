@@ -43257,5 +43257,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Td1f5KHSvGY4MCihxfxw9jEH1CT4BSr8",
+    "drive_name": "60-វចនានុក្រម​ 26 មីនា 2026.mp3",
+    "source_md5": "fb8008ab493f0bb4193c52e65350f958",
+    "key": "audio/fb8008ab493f0bb4-a64.mp3",
+    "bytes": 27395177,
+    "duration_s": 3424,
+    "sha256": "0db33279985a8c6faf4876b1b083a07c49017ba48a3035a7e2d04cb57b5fe2a2",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -8.9,
+        "LRA": 0
+      },
+      "G": 9.600000000000001,
+      "limit": 0.6,
+      "depth": 5.136974992327128,
+      "busy": 4.606713682888723,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
