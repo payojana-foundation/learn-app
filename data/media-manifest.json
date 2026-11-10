@@ -25973,5 +25973,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MBk1oQK_0j2IK5VPJfCAzQKQqfzcWPH6",
+    "drive_name": "បរិច្ឆេទទី ៨-៥៨ រម្លឹកបកតូបនិស្សយប្បច្ច័យ អភិញ្ញាជាបច្ច័យដល់អភិញ្ញា.mp3",
+    "source_md5": "b89c2a3b6e3f0d65d174d34ff0d5742d",
+    "key": "audio/b89c2a3b6e3f0d65-a64.mp3",
+    "bytes": 41995118,
+    "duration_s": 5249,
+    "sha256": "e4b00f8004a9e79c1e983489adc1782f84bc5cd8c50a3dc6ed173a6914ce1395",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 8.099999999999998,
+      "limit": 0.6,
+      "depth": 11.536974992327124,
+      "busy": 4.44364540371665,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
