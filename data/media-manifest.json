@@ -57438,5 +57438,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GbwUXdZLDwmhC9oiD9rtpmh_wtkb-Fe6",
+    "drive_name": "បិដកលេខ២១-១០ រថវិនីតសូត្រ សំសគ្គៈច្រឡូកច្រឡំមាន ៥ យ៉ាង.mp3",
+    "source_md5": "17586ed0e6fc167930cb71f900f62cda",
+    "key": "audio/17586ed0e6fc1679-a64.mp3",
+    "bytes": 55802818,
+    "duration_s": 6975,
+    "sha256": "e0d33b5c5bd65e669902cac40c576c7c5a8a49be1a21e7822edcfafe833be61f",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "G": 10.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.475793155849928,
+      "out": {
+        "I": -18.6,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
