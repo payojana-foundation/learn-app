@@ -26669,5 +26669,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xBEHo0rpnDBIHNxMXdtcL4L7FERiS5zQ",
+    "drive_name": "បរិច្ឆេទទី ៨-៦៣ បកតូបនិស្សយប្បច្ច័យ បញ្ហាវារៈ៤.mp3",
+    "source_md5": "4d4372fde2b45f9a6e700f096da129c7",
+    "key": "audio/4d4372fde2b45f9a-a64.mp3",
+    "bytes": 42407853,
+    "duration_s": 5300,
+    "sha256": "3e20c06a618cbeb9e5aa695c19ad733e42330573dbc4100c1e2ab61f59bbfd9d",
+    "loudness": {
+      "pass1": {
+        "I": -24.9,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "G": 9.400000000000002,
+      "limit": 0.6,
+      "depth": 11.43697499232713,
+      "busy": 4.9795319706845,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
