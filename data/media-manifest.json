@@ -44678,5 +44678,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1BnMn6bBlZRzlFM4ju8qrSUKCLUwvL87N",
+    "drive_name": "១១៧ សឡាយតនប្បច្ចយា ផស្សោ ផស្សកើតព្រោះសឡាយតនចប់  ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "156ac5e317be681a472bab9281a20a98",
+    "key": "audio/156ac5e317be681a-a64.mp3",
+    "bytes": 37803824,
+    "duration_s": 4725,
+    "sha256": "14eda734d34065201426720bf00ce6cb695d867f021468d1b5f62a5cd80552f3",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 5.800000000000001,
+      "limit": 0.6,
+      "depth": 9.436974992327128,
+      "busy": 4.682093768847412,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
