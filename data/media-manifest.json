@@ -51000,5 +51000,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1S3QBkKKEeytsRG69kZrxI3cVwNLcC8ev",
+    "drive_name": "បិដក ១៤ ភាគ 22.mp3",
+    "source_md5": "2f735d616ce9b1bc8035425fc1e3d59e",
+    "key": "audio/2f735d616ce9b1bc-a64.mp3",
+    "bytes": 19071102,
+    "duration_s": 2383,
+    "sha256": "d221bab4fc7a5f26911a03885f52dc737c1a44e736ba577a54ac90bbe8ac9cfc",
+    "loudness": {
+      "pass1": {
+        "I": -13.9,
+        "TP": 1.8,
+        "LRA": 0
+      },
+      "G": -3.700000000000001,
+      "limit": 0.6,
+      "depth": 2.536974992327126,
+      "busy": 1.9354195943536716,
+      "out": {
+        "I": -18,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
