@@ -25219,5 +25219,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "112oY4pRHx3NzZ_xkUSS7qUiOap_4yZmB",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៤២  រូបសមុដ្ឋាន កម្មជ្ជរូប ១៨.mp3",
+    "source_md5": "9dec271264d3b1f6063aed170f376246",
+    "key": "audio/9dec271264d3b1f6-a64.mp3",
+    "bytes": 43752219,
+    "duration_s": 5468,
+    "sha256": "8960c97cef95922ff1dcdea56c4ceb2b6619bf4f0a3cb7b2b8e77f9f68330365",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.875114280490035,
+      "out": {
+        "I": -18.4,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
