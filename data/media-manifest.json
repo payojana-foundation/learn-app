@@ -42503,5 +42503,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Qei4NCFmfHTI5u6HN7GEij-C4w0YnSKz",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 27 វិបស្សនា សម្មសនញាណភាគ ២.mp3",
+    "source_md5": "58ae57a21c15dbd9d2774601024e6c16",
+    "key": "audio/58ae57a21c15dbd9-a64.mp3",
+    "bytes": 41148124,
+    "duration_s": 5143,
+    "sha256": "2fa8a8f44cc15cb70bbe5dfac85cd8197b50b0f172ab79937d001befcef91344",
+    "loudness": {
+      "pass1": {
+        "I": -17.4,
+        "TP": -3,
+        "LRA": 0
+      },
+      "G": -0.20000000000000284,
+      "limit": 0.6,
+      "depth": 1.2369749923271245,
+      "busy": 0.01944201419267036,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
