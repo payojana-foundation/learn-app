@@ -36268,5 +36268,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1X2UMNI8MLVfhTFX4Bc7GgGxdy4TRtBk-",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 07 វីធីសាស្រ្តចម្រើនអនុស្សតិ ៤ ខាងដើម.mp3",
+    "source_md5": "3734be17774642de5fcd8e8dbbf8fa2a",
+    "key": "audio/3734be17774642de-a64.mp3",
+    "bytes": 38454586,
+    "duration_s": 4806,
+    "sha256": "b266a05e413967837b3eeb7bb309f98fd074a2244ab98e2b6d6685e39a6b965b",
+    "loudness": {
+      "pass1": {
+        "I": -17.6,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 0,
+      "limit": 0.6,
+      "depth": 1.1369749923271275,
+      "busy": 0.046808687692435715,
+      "out": {
+        "I": -18,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
