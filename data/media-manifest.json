@@ -54509,5 +54509,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XidIPRTkUO25Aigg_unC_uHDdaVjVDow",
+    "drive_name": "សិក្សារសតិប្បដ្ឋាន ភាគ៣៨ (លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញ ថូ ចន្ថា).mp3",
+    "source_md5": "508af561384661e5a41259bb05f4b988",
+    "key": "audio/508af561384661e5-a64.mp3",
+    "bytes": 15650524,
+    "duration_s": 1956,
+    "sha256": "7a8e13e0a23b40977b49b6c5cfaf28d3827291af36a2bc89c98dbc01c4c828b5",
+    "loudness": {
+      "pass1": {
+        "I": -17.7,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 1.0999999999999979,
+      "limit": 0.6,
+      "depth": 4.536974992327125,
+      "busy": 4.573685017635332,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
