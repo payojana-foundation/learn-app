@@ -30207,5 +30207,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1OJIMSBtLyUog8-qV1znP6ydtb4m4_KyL",
+    "drive_name": "005.វចនានុក្រម 06 June 2024.mp3",
+    "source_md5": "4c610afdd5aff7e2268d556f718a042b",
+    "key": "audio/4c610afdd5aff7e2-a64.mp3",
+    "bytes": 14257466,
+    "duration_s": 1782,
+    "sha256": "8a08ff04c92b88b637ce739371f9530e688410caf94629bbb81610fe4c3e8a2d",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 7.136974992327127,
+      "busy": 3.988160368094717,
+      "out": {
+        "I": -18.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
