@@ -37602,5 +37602,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pALlUJ4fHnKso9bYCcy_09PiV-A_Whvn",
+    "drive_name": "៧៣  រាត្រីធម្មទាន_ March 30-2023_648x360.mp3",
+    "source_md5": "844f54dc948752a2995738bd0539d695",
+    "key": "audio/844f54dc948752a2-a64.mp3",
+    "bytes": 13764483,
+    "duration_s": 1720,
+    "sha256": "c24850396a57d0b657e043f80e244ad3a95fe137f9b2851c0231f9fe9dd45d3a",
+    "loudness": {
+      "pass1": {
+        "I": -17.6,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 0.5,
+      "limit": 0.6,
+      "depth": 4.736974992327127,
+      "busy": 2.6315024702121477,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
