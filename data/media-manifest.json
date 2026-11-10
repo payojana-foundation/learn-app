@@ -38298,5 +38298,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1oV-LnPdZlM7UWV4s5Odj6UzR58b3i97k",
+    "drive_name": "53-មនុស្ស៥ប្រភេទ.mp3",
+    "source_md5": "42cf425caa4a2a8b66b4aca6424bd1a3",
+    "key": "audio/42cf425caa4a2a8b-a64.mp3",
+    "bytes": 4876790,
+    "duration_s": 609,
+    "sha256": "ec930e89a58dcab56bd9d2284170ea34d85bf8ae6fbf28f8cce4a347427085e0",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "G": 10.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.458206873923386,
+      "out": {
+        "I": -18.5,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
