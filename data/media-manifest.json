@@ -24291,5 +24291,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1420qp5UqbaTkOBTL9MGaO4VFJ1kDkjLj",
+    "drive_name": "បរិច្ឆេទទី ៨-៤៥ រម្លឹកអារម្មណាធិបតិប្បច្ច័យ និងឥដ្ឋារម្មណ៍២ យ៉ាង.mp3",
+    "source_md5": "6c9ac8bc342339f6f845559bc73a484a",
+    "key": "audio/6c9ac8bc342339f6-a64.mp3",
+    "bytes": 41975265,
+    "duration_s": 5246,
+    "sha256": "e85e097f450966e6ffa86459acaa6b654d8ec4f38228f0aea71ab26221cfee81",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "G": 7.599999999999998,
+      "limit": 0.6,
+      "depth": 10.236974992327125,
+      "busy": 4.3011521198433345,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
