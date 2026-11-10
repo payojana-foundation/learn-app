@@ -46998,5 +46998,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NkZn9db-vWN8wOwpUTNpvCMcqNc529Yp",
+    "drive_name": "បិដកលេខ១៩ 18 សង្គីតិសូត្រ បញ្ចប់បញ្ចកនិទ្ទេស ធម៌ពួក ៥ .mp3",
+    "source_md5": "39cfc2e317c8d86e6cc3400dbdc6144a",
+    "key": "audio/39cfc2e317c8d86e-a64.mp3",
+    "bytes": 42127612,
+    "duration_s": 5265,
+    "sha256": "50edaa4d2d0bcedf6782a0a346e5dbceb950c32f7f247386cc96ccaf06a1794f",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -12.3,
+        "LRA": 0
+      },
+      "G": 8.799999999999997,
+      "limit": 0.6,
+      "depth": 0.9369749923271238,
+      "busy": 0.002611139596270343,
+      "out": {
+        "I": -18,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
