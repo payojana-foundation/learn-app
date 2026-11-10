@@ -22812,5 +22812,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12dJe6N-12AGz8TmrT-oz9aUQbGA8ks_w",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៣៨ ពន្យល់អាហារភ័យគឺជាភ័យ.mp3",
+    "source_md5": "1aceae96818e73a1ebf2ef13b6bd8451",
+    "key": "audio/1aceae96818e73a1-a64.mp3",
+    "bytes": 41982580,
+    "duration_s": 5247,
+    "sha256": "544d95ae6f9662c91cccae0e03b92c28ecc006b6501bcfab2457a3b801ee3aa8",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 6.100000000000001,
+      "limit": 0.6,
+      "depth": 10.336974992327129,
+      "busy": 5.720730591867068,
+      "out": {
+        "I": -18.1,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
