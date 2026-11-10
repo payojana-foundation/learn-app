@@ -46737,5 +46737,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Trvyab5wI8nQ1BKrrEw2j6rpqGuslxV-",
+    "drive_name": "១២ មហាសច្ចកសូត្រទី៦ កាយភាវនា ចិត្តភាវនា.mp3",
+    "source_md5": "fe4d6f89a85c9b481dc3b171288c9ca1",
+    "key": "audio/fe4d6f89a85c9b48-a64.mp3",
+    "bytes": 56594015,
+    "duration_s": 7074,
+    "sha256": "92a615e178b9080f3bccb780258d2caefbb6dad68c708713941e85b5c90b0cfa",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6.6,
+        "LRA": 0
+      },
+      "G": 9.600000000000001,
+      "limit": 0.6,
+      "depth": 7.436974992327129,
+      "busy": 5.4698764524610555,
+      "out": {
+        "I": -18.1,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
