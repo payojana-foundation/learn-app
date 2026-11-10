@@ -32788,5 +32788,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lMTraYoMcY0uBmGMjCNllZogCDt6vGRf",
+    "drive_name": "16 ធម្មចរិយា.mp3",
+    "source_md5": "be69a8be8c2bbf86bb49bca8a980766d",
+    "key": "audio/be69a8be8c2bbf86-a64.mp3",
+    "bytes": 24330283,
+    "duration_s": 3041,
+    "sha256": "a86ef8502e60751c7448ea0b2da38e153ba4cb160262fc02a82c3424e5072f7c",
+    "loudness": {
+      "pass1": {
+        "I": -17.9,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 1.1999999999999993,
+      "limit": 0.6,
+      "depth": 5.336974992327127,
+      "busy": 3.0953555281545415,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
