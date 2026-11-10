@@ -41111,5 +41111,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "171QQAgZ_zHJWWhNX4uPYmsZzEH9eAsBT",
+    "drive_name": "45 វចនានុក្រម_ 6.26.2025.mp3",
+    "source_md5": "652aa7e10af4d2f573678bce8a943887",
+    "key": "audio/652aa7e10af4d2f5-a64.mp3",
+    "bytes": 31632656,
+    "duration_s": 3954,
+    "sha256": "47067ef6d1ede336f66de297375a1bc17a643506ca84ad0140f9cab9aa5e3162",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 3,
+      "limit": 0.6,
+      "depth": 6.6369749923271275,
+      "busy": 3.722765265993096,
+      "out": {
+        "I": -18.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
