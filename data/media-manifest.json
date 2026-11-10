@@ -25625,5 +25625,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DrRTQyi2ntfNhUlsmlGdVhkJY2EJB7Xo",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៥៨ សម្បជញ្ញបព្វៈ សប្បាយសម្បជញ្ញ គោចរសម្បជញ្ញ.mp3",
+    "source_md5": "57ebcb9bb88f817e9868afbc617be86e",
+    "key": "audio/57ebcb9bb88f817e-a64.mp3",
+    "bytes": 43311063,
+    "duration_s": 5413,
+    "sha256": "2d75d6bdfbd942c673f17e88661ce89baba08bddccfbd4400530368dffb4f38b",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.400000000000002,
+      "limit": 0.6,
+      "depth": 10.53697499232713,
+      "busy": 5.935932838922393,
+      "out": {
+        "I": -18.1,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
