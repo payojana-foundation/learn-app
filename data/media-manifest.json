@@ -40096,5 +40096,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dBxAswq-0ObPTXZtE_uDYMiDg26fzMum",
+    "drive_name": "៩៣ រាត្រីធម្មទាន May 15-2023_640x360.mp3",
+    "source_md5": "64177957894d21cd59031784022ecb34",
+    "key": "audio/64177957894d21cd-a64.mp3",
+    "bytes": 11695167,
+    "duration_s": 1461,
+    "sha256": "c4413b8a4e0d7e7915844d6f5ed4589d263c9e72e45ae3d7c2355c76840bfef4",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": 1.3,
+        "LRA": 0
+      },
+      "G": 3.6999999999999993,
+      "limit": 0.6,
+      "depth": 9.436974992327126,
+      "busy": 2.8850429250607106,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
