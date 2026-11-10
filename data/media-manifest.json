@@ -18520,5 +18520,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mDqLiSYPcp0ztu8CeatkdP8oq-vD81Zs",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ០៣ ឱឃៈ ៤ យោគៈ ៤.mp3",
+    "source_md5": "b4a187ff67a25698b4948e3e2c7e5be9",
+    "key": "audio/b4a187ff67a25698-a64.mp3",
+    "bytes": 45775559,
+    "duration_s": 5721,
+    "sha256": "3544e78ce5089522f2b747c909e29328ffad208a761a1697be4d08828371ba0b",
+    "loudness": {
+      "pass1": {
+        "I": -13.8,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": -3.6999999999999993,
+      "limit": 0.6,
+      "depth": 0.5369749923271279,
+      "busy": 0.0006553767105332145,
+      "out": {
+        "I": -18,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
