@@ -21942,5 +21942,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ak4Q-fG8DFDbsIxurKoxbHU1zlcAKzhI",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ២៩ គណប្រេត បាដលិប្រេត អម្ពវនប្រេត.mp3",
+    "source_md5": "a3313c89f87b25b5a88eccf57b6cf37a",
+    "key": "audio/a3313c89f87b25b5-a64.mp3",
+    "bytes": 43384833,
+    "duration_s": 5423,
+    "sha256": "e4837ad626d7b2850acf640bfb24c56a8594a0212334e54c7e0c703a9777d6f9",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": 1.9,
+        "LRA": 0
+      },
+      "G": 4.300000000000001,
+      "limit": 0.6,
+      "depth": 10.63697499232713,
+      "busy": 5.544158729866035,
+      "out": {
+        "I": -18.1,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
