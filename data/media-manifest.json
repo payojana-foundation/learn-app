@@ -46157,5 +46157,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ey0SkwRGpd-uIIdaWpsEsxUzfRr1cYl9",
+    "drive_name": "បិដកលេខ១៧ 18 កាយានុបស្សនាសតិប្បដ្ឋានភាគ១.mp3",
+    "source_md5": "17a5fd6ef9e6ed9f63afa8e5f98af688",
+    "key": "audio/17a5fd6ef9e6ed9f-a64.mp3",
+    "bytes": 2629424,
+    "duration_s": 328,
+    "sha256": "68e6721d70f05590315b11e038183f87c134a410c81282c27b6122287cfd59fb",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "G": 10.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.871900197778792,
+      "out": {
+        "I": -18.3,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
