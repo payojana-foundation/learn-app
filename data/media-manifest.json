@@ -34470,5 +34470,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pK8Wu7LLk2hyn9K62XtYAVlwKIWSni5Z",
+    "drive_name": "ថ្នាក់កុមារ ភាគ៦.mp3",
+    "source_md5": "627f04ed431d8678ccfb70f43a975803",
+    "key": "audio/627f04ed431d8678-a64.mp3",
+    "bytes": 30586296,
+    "duration_s": 3823,
+    "sha256": "5a3b39fee9edfce73ab715740410d0ef7aae4fcc7cb48fbf0223da77e6a57581",
+    "loudness": {
+      "pass1": {
+        "I": -26.3,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 11.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.096841692277513,
+      "out": {
+        "I": -18.3,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
