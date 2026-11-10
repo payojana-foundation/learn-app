@@ -42706,5 +42706,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tvnfqmu8ftJbNT_8Ow1AkfkAudnYGgJI",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 28 សម្មសនញាណភាគ ៣ ពិចារណាសង្ខារធម៌.mp3",
+    "source_md5": "17858342f3eecd2dbf695d77783daa6e",
+    "key": "audio/17858342f3eecd2d-a64.mp3",
+    "bytes": 41092118,
+    "duration_s": 5136,
+    "sha256": "316477165ccc83089f06004a40d3a44b83fb11a2a65b110073a47063b436c9e1",
+    "loudness": {
+      "pass1": {
+        "I": -17.5,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": -0.10000000000000142,
+      "limit": 0.6,
+      "depth": 0.43697499232712556,
+      "busy": 0.013627956779908497,
+      "out": {
+        "I": -18,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
