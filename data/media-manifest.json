@@ -47462,5 +47462,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1n15cTPHub4AuWv2djk0Rgn5E6ffxD3i4",
+    "drive_name": "បិដកលេខ១៩ 28 ធម៌ពួក ៨ ពន្យល់តាមអដ្ឋកថា .mp3",
+    "source_md5": "b29b7645c1c91bbce9713282a8b05d49",
+    "key": "audio/b29b7645c1c91bbc-a64.mp3",
+    "bytes": 41987386,
+    "duration_s": 5248,
+    "sha256": "bb52f3aca54b978720675350cd38a1281a2c489bc38a9b96d81b012c0e3af69f",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -10.8,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 2.536974992327125,
+      "busy": 0.00428702080634098,
+      "out": {
+        "I": -18,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
