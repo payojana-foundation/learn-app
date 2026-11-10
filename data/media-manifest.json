@@ -24726,5 +24726,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Vc_7AHYI8A7ZFY-Q_FuesDyZJ_DHqTAy",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៥២ សតិប្បដ្ឋាន ពាក្យថា អានាបានបព្វ.mp3",
+    "source_md5": "5beb87e843c9d86076f36fadb2858d03",
+    "key": "audio/5beb87e843c9d860-a64.mp3",
+    "bytes": 42011419,
+    "duration_s": 5251,
+    "sha256": "fcb105b6a1083860fab41b34f6bb11f6a4fd583f3c3166915e9cbceb8ea1189a",
+    "loudness": {
+      "pass1": {
+        "I": -28.6,
+        "TP": -5.2,
+        "LRA": 0
+      },
+      "G": 12.5,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 5.435455307156187,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
