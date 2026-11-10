@@ -47404,5 +47404,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "146i0k-jbu27Dueg46M1C4YgKHNnr0VEG",
+    "drive_name": "២០ មហាអស្សបុរសូត្រទី៩ សេចក្តីសុខក្នុងឈាននិងអស់អាសវ.mp3",
+    "source_md5": "5a4c42537666caf30a3b9ddf0e0cebb1",
+    "key": "audio/5a4c42537666caf3-a64.mp3",
+    "bytes": 55004516,
+    "duration_s": 6875,
+    "sha256": "0f17135aa355287e29a2fe81820533cb4511e866852c823f5fe30879229ede18",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -5.4,
+        "LRA": 0
+      },
+      "G": 9.700000000000003,
+      "limit": 0.6,
+      "depth": 8.73697499232713,
+      "busy": 5.205401749678208,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
