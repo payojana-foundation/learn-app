@@ -35021,5 +35021,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YfZe2AcwI-jblr13bgImzbl3KowgOtQp",
+    "drive_name": "023.វចនានុក្រម​ 05 Dec 2024.mp3",
+    "source_md5": "9df5d3e947221135fda06598bc749351",
+    "key": "audio/9df5d3e947221135-a64.mp3",
+    "bytes": 26261463,
+    "duration_s": 3282,
+    "sha256": "6b47e231263855ccf53f0480912c9274e8c08abd7ed13ee8d690b50421e9a067",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 2.900000000000002,
+      "limit": 0.6,
+      "depth": 6.43697499232713,
+      "busy": 3.2900248275021706,
+      "out": {
+        "I": -18.1,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
