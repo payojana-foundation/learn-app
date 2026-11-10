@@ -43199,5 +43199,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1a1OwNDIYD4JUd6DFaswxMXz8w0pmeULJ",
+    "drive_name": "71 នាទីធម្មចរិយា.mp3",
+    "source_md5": "147ac0b97c22a4067f4964de8190ba15",
+    "key": "audio/147ac0b97c22a406-a64.mp3",
+    "bytes": 23422475,
+    "duration_s": 2927,
+    "sha256": "8cb36216e24379772fba10034bf2d2afc911306475e771170298995b5343d76b",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 3.5,
+      "limit": 0.6,
+      "depth": 7.6369749923271275,
+      "busy": 2.6056698830159677,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
