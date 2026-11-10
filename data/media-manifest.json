@@ -22232,5 +22232,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-ynaHhGf3dmm2etpVnoQVVn08jdXE5jf",
+    "drive_name": "104.១០៤ រម្លឹកមេរៀនក្នុងអហេតុកចិត្ត១៨.mp3",
+    "source_md5": "e0a31b461ad8fc3e891560d128ab61c7",
+    "key": "audio/e0a31b461ad8fc3e-a64.mp3",
+    "bytes": 37641029,
+    "duration_s": 4705,
+    "sha256": "25866ad9aaa9e19fbf6a812da4391fff4b09fed2c7ec015c943bf60a7cec894f",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": 1.9,
+        "LRA": 0
+      },
+      "G": 4.599999999999998,
+      "limit": 0.54,
+      "depth": 11.852124803540628,
+      "busy": 6.474623281120486,
+      "out": {
+        "I": -18.3,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
