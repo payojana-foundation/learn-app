@@ -30178,5 +30178,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1osuOGm1yLzvkVhelSYtCiF-857zprnFZ",
+    "drive_name": "៨៣ រម្លឹកឥន្រ្ទិយប្បច្ច័យ ចែកជា៣ ប្រភេទភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "a5cf3fa022a445eba952a7a9d9a700d5",
+    "key": "audio/a5cf3fa022a445eb-a64.mp3",
+    "bytes": 40834446,
+    "duration_s": 5104,
+    "sha256": "869f69fe394738b7da90371953026a50475867f53bdcfd77ea2221899b08df93",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 7.799999999999997,
+      "limit": 0.6,
+      "depth": 8.536974992327124,
+      "busy": 4.565558113336925,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
