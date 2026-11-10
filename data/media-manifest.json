@@ -57583,5 +57583,63 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bbAEtNJQjRGrX9d87frSPxhmvXE9D1ux",
+    "drive_name": "17.សមថៈ និង  វិបស្សនា.mp3",
+    "source_md5": "7a7231380fe52117e7ecbd39c21d0503",
+    "key": "audio/7a7231380fe52117-a64.mp3",
+    "bytes": 19059399,
+    "duration_s": 2382,
+    "sha256": "0e7ad94d2ecadb47dcf0cac3b23d207601958c16eef4ea4b2f5736b929b5a1ab",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 7.799999999999997,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 4.804503861652115,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gQ9ZGIkYnUzs2ZgPHk0UxIT9w2Obw4g5",
+    "drive_name": "18.សមថៈ និង  វិបស្សនា.mp3",
+    "source_md5": "916213bd4faf54bcd4273145a9002edf",
+    "key": "audio/916213bd4faf54bc-a64.mp3",
+    "bytes": 13903873,
+    "duration_s": 1737,
+    "sha256": "14cdce799afb52f30926d4d0f18e6dc388bbf485b5221ea711e7bd81e21cd990",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 7.800000000000001,
+      "limit": 0.6,
+      "depth": 11.036974992327128,
+      "busy": 5.231738542535746,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
