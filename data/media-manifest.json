@@ -20376,5 +20376,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17g7NzVzlkpqVUoiZ2k2owolUOf0ZpnIz",
+    "drive_name": "បរិច្ឆេទទី ៨-១៤ ពន្យល់នានក្ខណិកកម្មប្បច្ច័យ និងវិបាកប្បច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3",
+    "source_md5": "1d928f355897d9ad3a87b6a5edc816e8",
+    "key": "audio/1d928f355897d9ad-a64.mp3",
+    "bytes": 41761270,
+    "duration_s": 5220,
+    "sha256": "42df8a1a0c946ff72dcf08c6fa949995cdacbafbd0b9f7b9835e71321597fb55",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 7.3630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.609062957960978,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
