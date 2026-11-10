@@ -19448,5 +19448,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VncXvNpa-HnSmEGcmpYYatO7-TFKUBhn",
+    "drive_name": "86.៨៦ បិសុណាវាទ ការនិយាយញុះញង់.mp3",
+    "source_md5": "a3afce4c6c25fa3d279cb32f5257e27e",
+    "key": "audio/a3afce4c6c25fa3d-a64.mp3",
+    "bytes": 31285541,
+    "duration_s": 3910,
+    "sha256": "f40729ba966b03a6f43d2136dd7236cf173ba9e4ece76463233fc84d444ba627",
+    "loudness": {
+      "pass1": {
+        "I": -21.2,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 4.799999999999997,
+      "limit": 0.6,
+      "depth": 9.236974992327124,
+      "busy": 4.6012171889583575,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
