@@ -21246,5 +21246,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cXagozfQKUKVGaFh3MHONMiAPFNwiQVD",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ២៦ អធិប្បាយទោមនិស្សិន្ទ្រិយដល់វីរិយិន្រ្ទិយ.mp3",
+    "source_md5": "0485ad81c2fc44422f690434afd4938b",
+    "key": "audio/0485ad81c2fc4442-a64.mp3",
+    "bytes": 44558253,
+    "duration_s": 5569,
+    "sha256": "b8aca3f345b0643afb1f7e55c5a18c2656bb9b156f4d6e594cc01cd4f054b39b",
+    "loudness": {
+      "pass1": {
+        "I": -18,
+        "TP": 1.9,
+        "LRA": 0
+      },
+      "G": 1.9000000000000021,
+      "limit": 0.6,
+      "depth": 8.236974992327129,
+      "busy": 3.426320750482517,
+      "out": {
+        "I": -18.1,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
