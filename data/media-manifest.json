@@ -27423,5 +27423,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cS3P07dOwyTyd2D-CmLfL1YocmLhr4HZ",
+    "drive_name": "138.១៣៨ វេយ្យាវច្ច អបចាយន បត្តិទាន បត្តានុមោទនា.mp3",
+    "source_md5": "f87821dddae79084dff5767ed73fa815",
+    "key": "audio/f87821dddae79084-a64.mp3",
+    "bytes": 49196346,
+    "duration_s": 6149,
+    "sha256": "f076018269b6aaf93ae3a18f984133d82d7fe744f5dbf3b60f40efcfe026c23b",
+    "loudness": {
+      "pass1": {
+        "I": -9.6,
+        "TP": 3.4,
+        "LRA": 0
+      },
+      "G": -8.000000000000002,
+      "limit": 0.6,
+      "depth": -0.1630250076728741,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
