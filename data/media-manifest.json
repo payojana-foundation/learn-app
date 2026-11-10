@@ -29163,5 +29163,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gSBHH0OILTKt5vphHdPsGiaG913sJIc0",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៨២ មរណុប្បត្តិចតុក្ក ការស្លាប់មាន ៤ យ៉ាង  ភាគបញ្ចប់.mp3",
+    "source_md5": "ded1b5197f3350d9cf333c1ec379fdf2",
+    "key": "audio/ded1b5197f3350d9-a64.mp3",
+    "bytes": 40475210,
+    "duration_s": 5059,
+    "sha256": "340de7d793a836e9c0a300e98d1df0dfb1b85b9d38082b05f5b5bed69b451d63",
+    "loudness": {
+      "pass1": {
+        "I": -15.9,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "G": -1.5999999999999996,
+      "limit": 0.6,
+      "depth": 1.0369749923271279,
+      "busy": 0.0004941346220364276,
+      "out": {
+        "I": -18,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
