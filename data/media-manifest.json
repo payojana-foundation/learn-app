@@ -19361,5 +19361,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1eyZQXdjeJ9wA4_9uKtEM7RW8XBJkRzAu",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ 07 ទេវទូតសូត្រភាគ២.mp3",
+    "source_md5": "3b9b8eb82b6ad09ff022fe47369271ac",
+    "key": "audio/3b9b8eb82b6ad09f-a64.mp3",
+    "bytes": 42685587,
+    "duration_s": 5335,
+    "sha256": "14035320cfe5e20774e964037273ffbf73e0d56e3550831afda7c105deb987ca",
+    "loudness": {
+      "pass1": {
+        "I": -17.9,
+        "TP": 2,
+        "LRA": 0
+      },
+      "G": 1.5999999999999979,
+      "limit": 0.6,
+      "depth": 8.036974992327124,
+      "busy": 4.325855331590341,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
