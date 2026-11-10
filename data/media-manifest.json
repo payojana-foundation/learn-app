@@ -47636,5 +47636,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1L1tCdP8r0V2sxbe6QzWesrvjHm2xyg2R",
+    "drive_name": "២៦ មហាវេទល្លសូត្រទី៣ សួរអំពីឥន្រ្ទិយ៥ ជាដើម (បិដកលេខ ២២).mp3",
+    "source_md5": "2fc146ccc9d9cb363296fc1f4a9c8de5",
+    "key": "audio/2fc146ccc9d9cb36-a64.mp3",
+    "bytes": 56519200,
+    "duration_s": 7064,
+    "sha256": "eca3b06d87aef8f5043c72093e79cfbcbf159164dd1e6f8ebdf937d6db47b475",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 7.699999999999996,
+      "limit": 0.6,
+      "depth": 7.336974992327123,
+      "busy": 4.97639723419464,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
