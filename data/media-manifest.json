@@ -28409,5 +28409,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17T8kaTwAbtEfncJsbRWnghH3YsfY79DN",
+    "drive_name": "145.១៤៥ បុព្វហេតុនាំឱ្យផលរបស់កម្មផ្សេងគ្នា.mp3",
+    "source_md5": "51b309e874fd7ac4e97407af5b44850e",
+    "key": "audio/51b309e874fd7ac4-a64.mp3",
+    "bytes": 39218825,
+    "duration_s": 4902,
+    "sha256": "2f279d5f756baa2dcd14bfa6169f65eb7ff47016ca4f87ff4b2c5614ae3a4ae5",
+    "loudness": {
+      "pass1": {
+        "I": -13,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": -4.5,
+      "limit": 0.6,
+      "depth": 0.23697499232712715,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
