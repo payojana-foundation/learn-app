@@ -26060,5 +26060,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1T1U_C9EOQzKUiUuVLY5rjnv_X-ZYMTKP",
+    "drive_name": "128.១២៨ ឧបោសថសីល វិកាលសិក្ខាបទ.mp3",
+    "source_md5": "860fb11b22516c7c16373ac2f43a786d",
+    "key": "audio/860fb11b22516c7c-a64.mp3",
+    "bytes": 48373594,
+    "duration_s": 6046,
+    "sha256": "08bae852b7e628aedb059a552c90b7244c247da92885f681350cc15ab0d285f1",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": 0.9,
+        "LRA": 0
+      },
+      "G": 3.3999999999999986,
+      "limit": 0.6,
+      "depth": 8.736974992327127,
+      "busy": 4.588904600067806,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
