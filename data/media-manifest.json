@@ -41082,5 +41082,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1oXnuGsyu_LFdh3iDnM7ph_zpXc8vBIgU",
+    "drive_name": "១០១ បដិច្ចសមុប្បាទ អាការៈ២០ សន្ទិ៣ សង្ខេប៤ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "e082c38d663c7b3d5650d1069c6eab89",
+    "key": "audio/e082c38d663c7b3d-a64.mp3",
+    "bytes": 42273270,
+    "duration_s": 5284,
+    "sha256": "1663d7c35d03df7be14d1eb1d904c0b3ceec643d6978fa05d1d9e5551639e44a",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 6,
+      "limit": 0.6,
+      "depth": 9.336974992327129,
+      "busy": 4.375585477323694,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
