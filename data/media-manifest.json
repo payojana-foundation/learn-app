@@ -38907,5 +38907,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14EgiugOA14mCP5Sm8MTFBBZr9lwwivWl",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១០២ មគ្គសច្ចៈ សម្មាវាយាម ព្យាយាមត្រូវ សម្មាសតិ រលឹកត្រូវ.mp3",
+    "source_md5": "ba394951fc8c955f78278d0e09513390",
+    "key": "audio/ba394951fc8c955f-a64.mp3",
+    "bytes": 44379785,
+    "duration_s": 5547,
+    "sha256": "75dfd47f3ac3126a82e40ea5a4cb8c9ed27455f8cbf8229cc086f2ea29930f71",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 4.715905506133448,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
