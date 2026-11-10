@@ -25915,5 +25915,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1be_UwAs73VQfPFvMCfhpokhpPfTeVOQy",
+    "drive_name": "127.១២៧ បដិហារិយឧបោសថសីល.mp3",
+    "source_md5": "432cb6c5dcd969cff89f8ef86e765037",
+    "key": "audio/432cb6c5dcd969cf-a64.mp3",
+    "bytes": 46482955,
+    "duration_s": 5810,
+    "sha256": "682909d83c8906f2b1ce58f3822e9f09aba3191e5038a774960a58a46775e407",
+    "loudness": {
+      "pass1": {
+        "I": -19.3,
+        "TP": 1.7,
+        "LRA": 0
+      },
+      "G": 2.8999999999999986,
+      "limit": 0.6,
+      "depth": 9.036974992327126,
+      "busy": 4.585997401189257,
+      "out": {
+        "I": -18.1,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
