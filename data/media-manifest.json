@@ -34673,5 +34673,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1d9VHwWZtzV5MZCyfSx1s4z4Ex2XQnBPp",
+    "drive_name": "022.វចនានុក្រម _28.វិច្ឆិកា 24.mp3",
+    "source_md5": "4c68b32580a9b2cad1ccad2fa6cc4ec4",
+    "key": "audio/4c68b32580a9b2ca-a64.mp3",
+    "bytes": 26636163,
+    "duration_s": 3329,
+    "sha256": "6498fea63339c21f52b338f815d29cb5d92382fe9c65af43a7ae1c0f896d37cc",
+    "loudness": {
+      "pass1": {
+        "I": -20,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 3.1000000000000014,
+      "limit": 0.6,
+      "depth": 6.536974992327129,
+      "busy": 3.667968163387896,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
