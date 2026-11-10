@@ -47810,5 +47810,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rWbH0ufdRW0oUuitfdpwZ4ZEHY1uzmSk",
+    "drive_name": "៣៣ មហាធម្មសមាទានសូត្រទី៦ ឧបមាមហាធម្មសមាទាន (បិដកលេខ ២២).mp3",
+    "source_md5": "e3edee23ea1b198cea02fe224f4671ca",
+    "key": "audio/e3edee23ea1b198c-a64.mp3",
+    "bytes": 55455494,
+    "duration_s": 6931,
+    "sha256": "8908aabf951fad3b91cebbf0f945560e93ac1caf3f5c39f598b74aae98e54cc6",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 10.13697499232713,
+      "busy": 4.568732959217531,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
