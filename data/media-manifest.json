@@ -31222,5 +31222,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QcNrQQfEfLsfZyf9KVe6E00BJAX64ppk",
+    "drive_name": "២៤ រាត្រីធម្មទាន__640x360 (1).mp3",
+    "source_md5": "585a06565eea64dc84e2fe8965451258",
+    "key": "audio/585a06565eea64dc-a64.mp3",
+    "bytes": 9164634,
+    "duration_s": 1145,
+    "sha256": "95743559bf908792da1f8324c2433c1fd0d13e81734cee917c37fdda1512de16",
+    "loudness": {
+      "pass1": {
+        "I": -18.2,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 1,
+      "limit": 0.6,
+      "depth": 5.1369749923271275,
+      "busy": 2.685508511567001,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
