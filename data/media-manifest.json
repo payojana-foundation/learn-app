@@ -40357,5 +40357,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CGsPUi-AoB1IKamuVB_kTuXxcpO20Wlp",
+    "drive_name": "៩៦ រាត្រីធម្មទាន_ May 21-2023_648x360.mp3",
+    "source_md5": "da3ed1029c86a6dd806dad054fcd8747",
+    "key": "audio/da3ed1029c86a6dd-a64.mp3",
+    "bytes": 10572529,
+    "duration_s": 1321,
+    "sha256": "8cf0b890745eeed5c643fe10b5f6d280e1635be428eb0d463cc1d760c5a1c510",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 2.8999999999999986,
+      "limit": 0.6,
+      "depth": 7.436974992327126,
+      "busy": 2.7762012864169505,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
