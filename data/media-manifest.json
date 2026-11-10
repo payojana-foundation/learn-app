@@ -44359,5 +44359,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1x7177Wslm5m1EAWu9Xh0l2v9_NaGPXLh",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 38 ឈ្មោះរបស់មហាវិបស្សនា ១៨.mp3",
+    "source_md5": "1632b072e65e95054a0a68d138fce887",
+    "key": "audio/1632b072e65e9505-a64.mp3",
+    "bytes": 42502730,
+    "duration_s": 5312,
+    "sha256": "8777ac3a0948f8d34c75d190c76e022c701e4c0cd0ea2f940aaafea586df6e1f",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "G": -0.40000000000000213,
+      "limit": 0.6,
+      "depth": 1.2369749923271254,
+      "busy": 0.011058199066405662,
+      "out": {
+        "I": -18,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
