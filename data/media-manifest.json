@@ -26814,5 +26814,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14qFyBxZU6K8TGYS3nM4FZGoya9kX12Hl",
+    "drive_name": "បរិច្ឆេទទី ៨-៦៤ បកតូបនិស្សយប្បច្ច័យ អកុសលកម្មបថជាបច្ច័យដល់កម្មបថ.mp3",
+    "source_md5": "7749e9257f97d726a6150d8bb0c6880a",
+    "key": "audio/7749e9257f97d726-a64.mp3",
+    "bytes": 42309006,
+    "duration_s": 5288,
+    "sha256": "6570f547d163ed21ed10812f6d4e3ebe048cb9c09975a2c4f71297fd10438798",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 8.5,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 4.937507090723443,
+      "out": {
+        "I": -18.1,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
