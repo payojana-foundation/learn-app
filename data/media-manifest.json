@@ -22580,5 +22580,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17kY5JPO7iVRoCSg-wsNn9oyEI3p4bN3y",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ២៦ អាហាររូប កពលិង្ការាហារ.mp3",
+    "source_md5": "8b907c920447d02b041b84444141eb51",
+    "key": "audio/8b907c920447d02b-a64.mp3",
+    "bytes": 26474413,
+    "duration_s": 3309,
+    "sha256": "c80ba7d386594110062f4641563329fe941105c197fcf80f710e181b6c4cd74b",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 10.399999999999999,
+      "limit": 0.6,
+      "depth": 10.936974992327126,
+      "busy": 6.255571504117247,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
