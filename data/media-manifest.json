@@ -30497,5 +30497,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yZCSauHwHQte8cLzsO-FqkN_ERQ40sMv",
+    "drive_name": "១៤ រាត្រីធម្មទាន_630x360 (1).mp3",
+    "source_md5": "2d07302d17fe685d1ddef105c74cf8b3",
+    "key": "audio/2d07302d17fe685d-a64.mp3",
+    "bytes": 9548111,
+    "duration_s": 1193,
+    "sha256": "67399c15324e640f973353ae3c29384ebc2db9abac0051d7c2583a7c63a9340f",
+    "loudness": {
+      "pass1": {
+        "I": -19.3,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 2.6000000000000014,
+      "limit": 0.6,
+      "depth": 4.836974992327129,
+      "busy": 4.048137751895764,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
