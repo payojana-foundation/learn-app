@@ -28931,5 +28931,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ErqOtldrGObQtzeyG3jYSTsFOMR-Kbh9",
+    "drive_name": "152.១៥២ អង្គឈានលះនីវរណៈ ៥ យ៉ាង.mp3",
+    "source_md5": "60d44db53b051ac291d3303b78ff7bb0",
+    "key": "audio/60d44db53b051ac2-a64.mp3",
+    "bytes": 37491817,
+    "duration_s": 4686,
+    "sha256": "a8b929f9ffaec1eef31352c5385f8c488d87d82772936266e1eafe82875eb56e",
+    "loudness": {
+      "pass1": {
+        "I": -11.7,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": -5.800000000000001,
+      "limit": 0.6,
+      "depth": -0.963025007672873,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
