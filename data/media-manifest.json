@@ -19912,5 +19912,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xDIBSd_hLV9LgBSSs5gdtYKXstWkSUEd",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ១០ ឧបាទានក្ខន្ធ ៥ ជាពេជ្ឈឃាតជាដើម.mp3",
+    "source_md5": "7ce0a1a8816360b113dc476e1a495fc3",
+    "key": "audio/7ce0a1a8816360b1-a64.mp3",
+    "bytes": 40682727,
+    "duration_s": 5085,
+    "sha256": "7775c20c375cbff3975a19a261c4bbf1ca3664e184bbf3ad37512653e76fb155",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.5000000000000036,
+      "limit": 0.6,
+      "depth": 11.536974992327131,
+      "busy": 6.599659803748058,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
