@@ -21884,5 +21884,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-EjHGy-b3ltuSiBbND2xDMCgPtN7Zjgt",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ២១ ភាវរូប គឺឥត្ថីភាវ​ បុរិសភាវ.mp3",
+    "source_md5": "a389c4c7353adae8e793a2097318c5f5",
+    "key": "audio/a389c4c7353adae8-a64.mp3",
+    "bytes": 38936284,
+    "duration_s": 4866,
+    "sha256": "643b81bcfd07983446d2e053f5312fdabd7f5f0da5ea85a2ac0c13792082d9e3",
+    "loudness": {
+      "pass1": {
+        "I": -20.7,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 4.299999999999997,
+      "limit": 0.6,
+      "depth": 8.636974992327126,
+      "busy": 5.627183069652763,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
