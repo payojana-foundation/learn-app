@@ -22928,5 +22928,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cu1QHxBppDmpJnEKStda_kO9ddw6Kg4x",
+    "drive_name": "បរិច្ឆេទទី ៨-៣៤ អត្ថិប្បច្ច័យ អធិប្បាយបញ្ហាវារៈបញ្ចប់.mp3",
+    "source_md5": "f4f9e2491b4e838788ecc15d4b394494",
+    "key": "audio/f4f9e2491b4e8387-a64.mp3",
+    "bytes": 42511507,
+    "duration_s": 5313,
+    "sha256": "d3e68d7508347a563272c7fe2d9f06a75a161d5b3057167f76204c9c4cc2f4cc",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 4.281459944673403,
+      "out": {
+        "I": -18.2,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
