@@ -26930,5 +26930,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JmQcsgNJfk30TPuoZCHN0omop9GNVGwL",
+    "drive_name": "134.១៣៤ ជាតរូបបរជិតប្បដិគ្គហណសិក្ខាបទ.mp3",
+    "source_md5": "96b9f272e93a293477b24e8c85dce484",
+    "key": "audio/96b9f272e93a2934-a64.mp3",
+    "bytes": 44816970,
+    "duration_s": 5602,
+    "sha256": "922b481784e943ff31c5e1f69a3fa4281ab0e48485456a2f14139f1991d3a58b",
+    "loudness": {
+      "pass1": {
+        "I": -19.8,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": 3.5,
+      "limit": 0.6,
+      "depth": 8.236974992327127,
+      "busy": 4.267857302237574,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
