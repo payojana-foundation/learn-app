@@ -24552,5 +24552,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rObfFYdZDLU4AyAXYLeRSZUmD_gMHq-d",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៣៨  រូបន័យទី២ ឯកវិធន័យ ចែករូបជាន័យ១.mp3",
+    "source_md5": "f2d89a36b203e95f27014c496377db98",
+    "key": "audio/f2d89a36b203e95f-a64.mp3",
+    "bytes": 42608474,
+    "duration_s": 5326,
+    "sha256": "6488f0c9e338fa754387d021f7d0b47e5772bf81bf2cd66bad80c00ac15a96ee",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.180706151838605,
+      "out": {
+        "I": -18.5,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
