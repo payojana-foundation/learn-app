@@ -40444,5 +40444,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mTb63iFlNMSqmQI8QuoXN2z7TumcLLqH",
+    "drive_name": "៩៧ រាត្រីធម្មទាន_ May 22-2023_648x360.mp3",
+    "source_md5": "91a6b375a9ce52b6683a4c5008a690eb",
+    "key": "audio/91a6b375a9ce52b6-a64.mp3",
+    "bytes": 11250668,
+    "duration_s": 1406,
+    "sha256": "85dc35ceb6691c28330ec45c44f4311c811edd63acd363d05af987c23e15bc14",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 2.6999999999999993,
+      "limit": 0.6,
+      "depth": 7.036974992327126,
+      "busy": 3.4745431273554717,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
