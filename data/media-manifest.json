@@ -19709,5 +19709,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lVL-6KtbOJWTW3CN-BIA-FogqrYW_krt",
+    "drive_name": "88.៨៨ ផរុសវាចា ការជេរប្រទេច (ភាគ២).mp3",
+    "source_md5": "bf0416a93535939d99bb4c6ab2b6dd8e",
+    "key": "audio/bf0416a93535939d-a64.mp3",
+    "bytes": 44235380,
+    "duration_s": 5529,
+    "sha256": "f2eb6e75e09ebc9144779469c9859f86cd68ad5faf6f7181d182c5cf3825be48",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 9.336974992327129,
+      "busy": 5.106612893016358,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
