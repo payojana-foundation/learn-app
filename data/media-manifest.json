@@ -38646,5 +38646,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cM1FvV0tTLCZsHpE9TQnFWtJTo4vK4uG",
+    "drive_name": "ថ្នាក់កុមារ ភាគ១៦.mp3",
+    "source_md5": "9b5f70b4f6995ca6b2a037da7e86bcc2",
+    "key": "audio/9b5f70b4f6995ca6-a64.mp3",
+    "bytes": 30942606,
+    "duration_s": 3867,
+    "sha256": "1cfee00ae421b0e056f5cc6237ae10a4d448d32ea7bc5ab704ea8a8fc14d2f12",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": 2.3,
+        "LRA": 0
+      },
+      "G": 1.5999999999999979,
+      "limit": 0.6,
+      "depth": 8.336974992327125,
+      "busy": 7.292582346553596,
+      "out": {
+        "I": -18.2,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
