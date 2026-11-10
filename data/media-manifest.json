@@ -29714,5 +29714,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jWRkRsiITPtBAbx-vwvYqSNQL9MQk5FD",
+    "drive_name": "៨២ អាហារប្បច្ច័យ បញ្ហាវារៈនាមអាហារប្បច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "76f5654a910cecc20ca70a39a32813e4",
+    "key": "audio/76f5654a910cecc2-a64.mp3",
+    "bytes": 41953114,
+    "duration_s": 5244,
+    "sha256": "6c8c9acf279a3ff99362bc2b994a35c5d5846f52aa1cd82e7871719831f674ce",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 3.8999999999999986,
+      "limit": 0.6,
+      "depth": 8.136974992327126,
+      "busy": 5.08714555405122,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
