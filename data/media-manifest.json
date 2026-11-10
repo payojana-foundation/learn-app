@@ -40415,5 +40415,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bgs24cz5l7dhj5CKbjNZckGb-iYXr99e",
+    "drive_name": "41 វចនានុក្រម___ 5. 22. 2025.mp3",
+    "source_md5": "e59506c03636247519050246ca00a734",
+    "key": "audio/e59506c036362475-a64.mp3",
+    "bytes": 27621920,
+    "duration_s": 3452,
+    "sha256": "f3386f5bebaf0d06a1e69d5717dcd40167cd82be6e30523c37274c2a0dd273d1",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 3.5,
+      "limit": 0.6,
+      "depth": 7.1369749923271275,
+      "busy": 3.9027427810119617,
+      "out": {
+        "I": -18.1,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
