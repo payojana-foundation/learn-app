@@ -27626,5 +27626,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11mzPK5lFfIkB8a0dUTqtcO-xaeUGiiRN",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៧១ ទិដ្ឋធម្មវេទនីយកម្ម ប្រកបដោយលក្ខណៈ៤ ប្រការ.mp3",
+    "source_md5": "0c028b820de42dda8e8937f66b339c29",
+    "key": "audio/0c028b820de42dda-a64.mp3",
+    "bytes": 41321786,
+    "duration_s": 5165,
+    "sha256": "b95ce1e9efb4c977a621a9f5520c6e1343a763fd1dc0ce008757b816f071218f",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": 0.9,
+        "LRA": 0
+      },
+      "G": 5.600000000000001,
+      "limit": 0.6,
+      "depth": 10.93697499232713,
+      "busy": 4.324372725160691,
+      "out": {
+        "I": -18.2,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
