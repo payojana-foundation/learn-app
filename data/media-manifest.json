@@ -42387,5 +42387,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vdFR-CelWCsRy0NvjTynnm51cS14TMXc",
+    "drive_name": "54 វចនានុក្រម 12-4- 2025.mp3",
+    "source_md5": "b6879cc398b529fd3f9c12c1bc1b8ee5",
+    "key": "audio/b6879cc398b529fd-a64.mp3",
+    "bytes": 26038691,
+    "duration_s": 3254,
+    "sha256": "0ee414488cc04a92f869d3fb0dd8c5e007ef5d091ad3ef8cdbc6436c14ff9769",
+    "loudness": {
+      "pass1": {
+        "I": -20.3,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 3.900000000000002,
+      "limit": 0.6,
+      "depth": 7.3369749923271295,
+      "busy": 4.247572815533981,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
