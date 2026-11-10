@@ -47201,5 +47201,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RU9st_ZGQNIQ_pkSiT9qtS0FW0sK0ttm",
+    "drive_name": "១៧ មហាតណ្ហាសង្ខយសូត្រទី៨ សម្តែងពីបដិច្ចសមុប្បាទធម៌.mp3",
+    "source_md5": "ddb04aecec3932093dcd38e564fb9e32",
+    "key": "audio/ddb04aecec393209-a64.mp3",
+    "bytes": 55252993,
+    "duration_s": 6906,
+    "sha256": "8be2475fa3980f11fda5f118b03a3b840d430f789c250f39c2cc304577754d60",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 9.600000000000001,
+      "limit": 0.6,
+      "depth": 9.13697499232713,
+      "busy": 5.0158544001389975,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
