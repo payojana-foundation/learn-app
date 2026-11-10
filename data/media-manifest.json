@@ -36616,5 +36616,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WcujKrtSc99Gf1NVaUQ7zrVJEjOhyD1H",
+    "drive_name": "៦៦ រាត្រីធម្មទាន March 19-2023_648x360.mp3",
+    "source_md5": "9ef47c20f653173d1b419ee06a6c524f",
+    "key": "audio/9ef47c20f653173d-a64.mp3",
+    "bytes": 11590678,
+    "duration_s": 1448,
+    "sha256": "2effc0cbbca81d0e1e654a4691209a5f1f68241cb9176f95a4ff74d02f6c5869",
+    "loudness": {
+      "pass1": {
+        "I": -18.5,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 1.9000000000000021,
+      "limit": 0.6,
+      "depth": 6.136974992327129,
+      "busy": 3.877346769740475,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
