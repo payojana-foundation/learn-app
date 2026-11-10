@@ -20463,5 +20463,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UcsUFkMvteQmoTM5qtkayuzFOPv13Mfk",
+    "drive_name": "93.៩៣ និយមន័យអហេតុកចិត្ត អកុសលវិបាក.mp3",
+    "source_md5": "e732240c7a0bd387870e5036bfd47011",
+    "key": "audio/e732240c7a0bd387-a64.mp3",
+    "bytes": 52781600,
+    "duration_s": 6597,
+    "sha256": "c909f7e0ac5d43d5b0f93c61ea19399629c9aedcdfd342049a24850cb5e8e6be",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.300000000000001,
+      "limit": 0.6,
+      "depth": 11.436974992327128,
+      "busy": 7.6813335051116685,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
