@@ -25596,5 +25596,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1awQ35-RAqu6TWEJU6khunc-pLhlB-rq9",
+    "drive_name": "125.១២៥ សីលមយបុណ្យ ភាគ២.mp3",
+    "source_md5": "e3052dbd224acfbda568600d0cfc0348",
+    "key": "audio/e3052dbd224acfbd-a64.mp3",
+    "bytes": 42103370,
+    "duration_s": 5262,
+    "sha256": "4cfd1491506a2e6f69c9d6b318b90b0d74154a424dbfbbc4108f52d6d2e0023f",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": 2.2,
+        "LRA": 0
+      },
+      "G": 4.099999999999998,
+      "limit": 0.6,
+      "depth": 10.736974992327125,
+      "busy": 4.959005491269072,
+      "out": {
+        "I": -18.2,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
