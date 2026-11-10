@@ -41546,5 +41546,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LRZ7V8QO-9cLusWC6YpCL76icPyrwop2",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 22 សីលវិសុទ្ធិ សេចក្តីបរិសុទ្ធនៃសីល.mp3",
+    "source_md5": "9334a4e2df747c3c14aee81319131703",
+    "key": "audio/9334a4e2df747c3c-a64.mp3",
+    "bytes": 25613626,
+    "duration_s": 3201,
+    "sha256": "caaff360672a1776270cef0c972edd3cc7ebdd306d52248f3fa9e7d46ef9f1cb",
+    "loudness": {
+      "pass1": {
+        "I": -17.6,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 0.10000000000000142,
+      "limit": 0.6,
+      "depth": 0.6369749923271288,
+      "busy": 0.07339965330376524,
+      "out": {
+        "I": -18,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
