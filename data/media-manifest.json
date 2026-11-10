@@ -23131,5 +23131,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HYFbS3A4hz491eaNVLvvecWEH-nYa0ij",
+    "drive_name": "110.១១០ មហាកុសលដួងទី១ដល់ទី៤.mp3",
+    "source_md5": "a81da5eb95bda85a5e88898a7c30d7b0",
+    "key": "audio/a81da5eb95bda85a-a64.mp3",
+    "bytes": 14781796,
+    "duration_s": 1847,
+    "sha256": "e1f29651f9b77207fac1fc6e956fee7386f842844699d30aacaa457f80607911",
+    "loudness": {
+      "pass1": {
+        "I": -19.3,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": 3.6000000000000014,
+      "limit": 0.54,
+      "depth": 9.452124803540631,
+      "busy": 6.643394490447584,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
