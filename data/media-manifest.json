@@ -47752,5 +47752,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SvUGuPOftQkE-uPfP72rdHTe0JjWdjdt",
+    "drive_name": "៣០ ចូឡវេទល្លសូត្រទី៤ វិសាខសួរពីការអនុស័យដេកត្រាំក្នុងវេទនា (បិដកលេខ ២២).mp3",
+    "source_md5": "1a69763ffdcffc595f64bb267a48890c",
+    "key": "audio/1a69763ffdcffc59-a64.mp3",
+    "bytes": 54859484,
+    "duration_s": 6857,
+    "sha256": "be8d06251096c3bba15932a4af940d2f6a678e2d7797091f139b1a6bd44eede3",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -6,
+        "LRA": 0
+      },
+      "G": 9.899999999999999,
+      "limit": 0.6,
+      "depth": 8.336974992327125,
+      "busy": 4.9344503747776125,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
