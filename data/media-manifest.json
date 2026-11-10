@@ -19390,5 +19390,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VCk_dxvLMyHSvbQu90P3Vkj8MQeoc8Fu",
+    "drive_name": "បរិច្ឆេទទី ៨-០៧ ពន្យល់បកតូបនិស្សយប្បច្ច័យ អព្យាកតជាបច្ច័យដល់កុសលធម៌ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3",
+    "source_md5": "dc504f0c47ea12a4a3043674527edbda",
+    "key": "audio/dc504f0c47ea12a4-a64.mp3",
+    "bytes": 41828353,
+    "duration_s": 5228,
+    "sha256": "11e799c9bc1f90ad2eef07dc54c006fb27fadf6f4752592ab1a4dd4766df0186",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 7.800000000000001,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 4.817347231519556,
+      "out": {
+        "I": -18.2,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
