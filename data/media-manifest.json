@@ -36471,5 +36471,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19u8EwX4c6KTYo1_LNSTGvED7GJQwIiYU",
+    "drive_name": "27.វចនានុក្រម 2025-1-02.mp3",
+    "source_md5": "84139ba40421655051b9d91a645eeda3",
+    "key": "audio/84139ba404216550-a64.mp3",
+    "bytes": 33225081,
+    "duration_s": 4153,
+    "sha256": "648eb5ca7c3ba74b8d5d3e3411c01d3b037995f8c18016ef7b577f610aa299f9",
+    "loudness": {
+      "pass1": {
+        "I": -18.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 1.5,
+      "limit": 0.6,
+      "depth": 5.536974992327128,
+      "busy": 2.433423226023934,
+      "out": {
+        "I": -18.2,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
