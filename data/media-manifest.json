@@ -43953,5 +43953,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NxUu-W950mczdQh3x3-qAoG1L5WDNORU",
+    "drive_name": "71  វចនានុក្រម  15-តុលា​ 2026.mp3",
+    "source_md5": "c5429a3b7ae978f0350466130ddba051",
+    "key": "audio/c5429a3b7ae978f0-a64.mp3",
+    "bytes": 12312284,
+    "duration_s": 1538,
+    "sha256": "0c97931b32dbb3068e1a6d3860077f1ee8e80a3ab1dc4e70d1245a7b045a392e",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 6.099999999999998,
+      "limit": 0.6,
+      "depth": 5.736974992327125,
+      "busy": 2.8565627030539313,
+      "out": {
+        "I": -18.2,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
