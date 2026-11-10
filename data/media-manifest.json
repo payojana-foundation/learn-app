@@ -47984,5 +47984,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1f1tmTS1CyscKLsJJw0UYqIJ7SMZ6vkH_",
+    "drive_name": "៤០ មារតជ្ជនីយសូត្រទី១០ មារធ្លាក់នរកព្រោះបៀតបៀនអគ្គសាវ័កចប់ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២.mp3",
+    "source_md5": "89fbb4e7502941326b0c2a0a2cdc0220",
+    "key": "audio/89fbb4e750294132-a64.mp3",
+    "bytes": 53289003,
+    "duration_s": 6661,
+    "sha256": "0297f86e498e8235dc554dafabd8c89fee61ac3ce186da726d9f9b9d4a693db2",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "G": 5.199999999999999,
+      "limit": 0.6,
+      "depth": 8.136974992327126,
+      "busy": 4.882827160679167,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
