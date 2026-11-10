@@ -19477,5 +19477,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ttxgowE8p2SjdgGYr_ts4xxjtnkAXVvE",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ 08 អ្នកក្បត់ចិត្តស្វាមី និងបុរសក្បត់ចិត្តប្រពន្ធ.mp3",
+    "source_md5": "1b647d9d7270699defb9b8fd997c6004",
+    "key": "audio/1b647d9d7270699d-a64.mp3",
+    "bytes": 38076333,
+    "duration_s": 4759,
+    "sha256": "1d781e096fdb511a35b4e636ee95e52dc4bedb97c3b425e5c5576cc297a760f5",
+    "loudness": {
+      "pass1": {
+        "I": -24.9,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.227229751024267,
+      "out": {
+        "I": -19,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
