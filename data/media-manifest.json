@@ -27191,5 +27191,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10ZrHRIqxVU8HgVYocd7JccUhUNu2w7s2",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៦៧ គរុកកម្ម កម្មដែលធ្ងន់.mp3",
+    "source_md5": "7b020a3a78fe2a3d8f308cbe871bcae5",
+    "key": "audio/7b020a3a78fe2a3d-a64.mp3",
+    "bytes": 45139843,
+    "duration_s": 5642,
+    "sha256": "5938d075a6ec0750783d64eec4c35fddf52f04e7cfe79db586ede80a28f8d367",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": 0.8,
+        "LRA": 0
+      },
+      "G": 5.847875196459371,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 5.126319240755346,
+      "out": {
+        "I": -18.4,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
