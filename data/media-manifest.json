@@ -20840,5 +20840,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IK-GXq7fkpbfGva0Ul0wNkl9w_0lvnpm",
+    "drive_name": "បរិច្ឆេទទី ៨-១៨ ចែកបញ្ហាវារៈរបស់នាមអាហារប្បច្ច័យបញ្ចប់.mp3",
+    "source_md5": "cee0c85b5388133cf855f4c4f6a13e06",
+    "key": "audio/cee0c85b5388133c-a64.mp3",
+    "bytes": 41856147,
+    "duration_s": 5231,
+    "sha256": "469dfbdf713aa745e442a40a0a2675fd51cb2d33b53f093bb10eafb2bb68d349",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 6.800000000000001,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 4.072056574923548,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
