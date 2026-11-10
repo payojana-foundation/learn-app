@@ -42909,5 +42909,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SR_fQ10W2EEZG6urpYmricA7nbXLZZwK",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 29 សម្មសនញាណភាគ៤ វិបស្សនូបក្កិលេស១០.mp3",
+    "source_md5": "38f3444754f10414adad1c3687637f59",
+    "key": "audio/38f3444754f10414-a64.mp3",
+    "bytes": 35491674,
+    "duration_s": 4436,
+    "sha256": "1eccc349cb62e6347fd86826d7ba5fbdc0790a6366a222c09b12ba6d86a2c7cd",
+    "loudness": {
+      "pass1": {
+        "I": -17.5,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": -0.10000000000000142,
+      "limit": 0.6,
+      "depth": 0.6369749923271257,
+      "busy": 0.02141351756471954,
+      "out": {
+        "I": -18,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
