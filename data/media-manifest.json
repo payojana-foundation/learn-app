@@ -20086,5 +20086,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1baw0IuzeQV_315_w3Cfqqi-dmzQsQ6Uw",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ១៣ លោកន្តរនរក នរកបាបកម្មធ្ងន់.mp3",
+    "source_md5": "63084a82a9959b6179a1dd54d773ba0c",
+    "key": "audio/63084a82a9959b61-a64.mp3",
+    "bytes": 41325757,
+    "duration_s": 5165,
+    "sha256": "030959fe1580c32a074c50f917dd8195dfdd1d58d1e7c4e286edd57630e26b57",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": 2.7,
+        "LRA": 0
+      },
+      "G": 1.3999999999999986,
+      "limit": 0.6,
+      "depth": 8.536974992327126,
+      "busy": 4.311855121280756,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
