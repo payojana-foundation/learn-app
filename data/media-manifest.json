@@ -26988,5 +26988,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "105hpsXfdDYHB-kR4-YQlfsaqGYn3dDLK",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៥៤ ឧតុជ្ជកលាបមាន ៦ កលាប ក្នុងកាយសត្វនិងក្រៅកាយ.mp3",
+    "source_md5": "df0e5abdd7740296751315c58240acea",
+    "key": "audio/df0e5abdd7740296-a64.mp3",
+    "bytes": 34853032,
+    "duration_s": 4356,
+    "sha256": "d7dc08c6fc7f07bb159dea775887ce1919b117f4ee70d2c7b33eb18162b014b2",
+    "loudness": {
+      "pass1": {
+        "I": -27.6,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 11.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.13846807143185,
+      "out": {
+        "I": -18.6,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
