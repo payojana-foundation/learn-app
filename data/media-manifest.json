@@ -42416,5 +42416,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qfJC6fLXY84BTeXBYaBJ7HqSNFLcNUGW",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១១៣ ឧបាទានក្ខន្ធ ៥ និងអាយតនៈ ១២ យ៉ាង.mp3",
+    "source_md5": "7558cd635b399bd9c502ef3ab305cc21",
+    "key": "audio/7558cd635b399bd9-a64.mp3",
+    "bytes": 42035452,
+    "duration_s": 5254,
+    "sha256": "701825c6bfdbfb603d41b9d1378d2842cf15fcaeba9ec201ea97f48de1ec8e79",
+    "loudness": {
+      "pass1": {
+        "I": -24.7,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.338506775274056,
+      "out": {
+        "I": -18.8,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
