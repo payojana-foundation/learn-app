@@ -49985,5 +49985,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cEu7xtIFNs89squ7xr_coOyAUPJXE0JS",
+    "drive_name": "19-23 Nov 2025 នាទីធម្មចរិយា សិក្សារ សុត្តន្ត បិដកទីឃនិកាយលេខ១៥ ទុតិយភាគ សីលក្ខន្ធវគ្គ សូមអនុមោទនា!.mp3",
+    "source_md5": "692972cb922fbd58ead077a0fab3fe81",
+    "key": "audio/692972cb922fbd58-a64.mp3",
+    "bytes": 21255566,
+    "duration_s": 2656,
+    "sha256": "dee6e26edad5b19c26bff73d8db914ef4ff1bf431e9dbc6f95d6ac972219a105",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "G": 9,
+      "limit": 0.6,
+      "depth": 10.936974992327126,
+      "busy": 2.2507433475102565,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
