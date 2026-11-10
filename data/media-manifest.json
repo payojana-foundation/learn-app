@@ -51580,5 +51580,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-Zqfo8wJWe5aITCVhVxHTl6n72dCc2Q0",
+    "drive_name": "១៣២ រាត្រីធម្មទាន__ July 1-2023_648x360.mp3",
+    "source_md5": "9ce95abefbe5d3b935e6a9c6f6dea613",
+    "key": "audio/9ce95abefbe5d3b9-a64.mp3",
+    "bytes": 13111213,
+    "duration_s": 1638,
+    "sha256": "488755c31ed30f5b0c87ba6cdb42646e9340eda199ffa714045b0695ae2c5759",
+    "loudness": {
+      "pass1": {
+        "I": -20.6,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.5,
+      "limit": 0.6,
+      "depth": 7.536974992327128,
+      "busy": 2.408701223418861,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
