@@ -42938,5 +42938,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1I2A0nmKgAHnweccvF9bDP6QyTzaZoPg9",
+    "drive_name": "58 វចនានុក្រម​​ 11 មីនា ​2026.mp3",
+    "source_md5": "ff763c91fcc359a1a29c628a5da95764",
+    "key": "audio/ff763c91fcc359a1-a64.mp3",
+    "bytes": 28604333,
+    "duration_s": 3575,
+    "sha256": "5bac32b47cd4101790d0666d331e5ca20b476a20b11f4d9061983a8bcd5e7271",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -7.1,
+        "LRA": 0
+      },
+      "G": 9.7,
+      "limit": 0.6,
+      "depth": 7.036974992327127,
+      "busy": 4.573486225702699,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
