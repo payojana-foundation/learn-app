@@ -52508,5 +52508,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DL8Xt0Vc8rKR2C2WrnJ_x_s3mH7zJXOM",
+    "drive_name": "សិក្សារសតិប្បដ្ឋាន ភាគ១៩ (លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញ ថូ ចន្ថា).mp3",
+    "source_md5": "eb616dea39a3de67af3a8b820be0ea93",
+    "key": "audio/eb616dea39a3de67-a64.mp3",
+    "bytes": 25752807,
+    "duration_s": 3219,
+    "sha256": "468973b7080082394a86f4269acda61817d540dc309a6d49eb90eed627d1289d",
+    "loudness": {
+      "pass1": {
+        "I": -17.5,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "G": 0.6000000000000014,
+      "limit": 0.6,
+      "depth": 2.736974992327129,
+      "busy": 5.168062005871297,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
