@@ -47839,5 +47839,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1FU66VXocGh2aItOKQuiteOg-KnNJqLCh",
+    "drive_name": "៣៥ វីមំសកសូត្រទី ៧ សោតាបត្តិបន្នមានសទ្ធាមិនកម្រើកជាដើមភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២.mp3",
+    "source_md5": "15f4b16377846a5566f9648fcca50b6e",
+    "key": "audio/15f4b16377846a55-a64.mp3",
+    "bytes": 53762968,
+    "duration_s": 6720,
+    "sha256": "3e2fd4643409887a43e9760ad29b5e20f279fda762979329605eea21852b2c30",
+    "loudness": {
+      "pass1": {
+        "I": -22.2,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 5.899999999999999,
+      "limit": 0.6,
+      "depth": 9.236974992327127,
+      "busy": 5.86762594210123,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
