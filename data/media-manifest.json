@@ -45200,5 +45200,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NhwZkZrmImDQXDyD9IR3Q-R_EBKW0X9Y",
+    "drive_name": "១២៥ តណ្ហាជាបច្ច័យដល់សីលបាទុបាទាន អត្តវាទុបាទានភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "01c9f3fb272e0b9ef8793b3893ad81d8",
+    "key": "audio/01c9f3fb272e0b9e-a64.mp3",
+    "bytes": 46712206,
+    "duration_s": 5838,
+    "sha256": "4243dec3fe75e56577c7eba19429d9b556bb4757ee50833acf0d5f84d7c6928e",
+    "loudness": {
+      "pass1": {
+        "I": -21.3,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 4.5,
+      "limit": 0.6,
+      "depth": 8.436974992327126,
+      "busy": 5.209153964719986,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
