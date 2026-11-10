@@ -43866,5 +43866,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1i9Thdt4oLDmP7d48si5OQBXJTT_wGV_c",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 34 សងា្ខរុបេក្ខាញាណ = ព្រងើយចំពោះសង្ខារ.mp3",
+    "source_md5": "e5c1158d84cb3ffe5e965c503e071e54",
+    "key": "audio/e5c1158d84cb3ffe-a64.mp3",
+    "bytes": 40631318,
+    "duration_s": 5078,
+    "sha256": "f7d52f622479133af936070f2d6e3eb077143de6ae8e82aa6d5e0d70a7561459",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "G": -0.40000000000000213,
+      "limit": 0.6,
+      "depth": 2.2369749923271254,
+      "busy": 0.039624721888597926,
+      "out": {
+        "I": -18,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
