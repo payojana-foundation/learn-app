@@ -40560,5 +40560,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UGpYU0mtNR6u3i6r1rkBqQdp_A8ilvGu",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 17 អានាបានស្សតិភាគ ២.mp3",
+    "source_md5": "cf26c220ce834aa405e84613e6c7ed65",
+    "key": "audio/cf26c220ce834aa4-a64.mp3",
+    "bytes": 41199533,
+    "duration_s": 5149,
+    "sha256": "8c49b733a97398c44ac928ccf2311435fa55d9256e905c027203f6c3ed6f251d",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "G": -0.3000000000000007,
+      "limit": 0.6,
+      "depth": 1.4369749923271264,
+      "busy": 0.014563389580380202,
+      "out": {
+        "I": -18,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
