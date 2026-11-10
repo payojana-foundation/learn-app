@@ -38182,5 +38182,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11dmuCN01AP8oINWTGqRds8xqDDYU0UqV",
+    "drive_name": "ថ្នាក់កុមារ ភាគ១៥.mp3",
+    "source_md5": "8b62fc01221f09c3f9cada1d3293cc30",
+    "key": "audio/8b62fc01221f09c3-a64.mp3",
+    "bytes": 30466132,
+    "duration_s": 3808,
+    "sha256": "0be811a3c9c74ff73f5f549807ae1c0107bf50e9b3258b7f1e06b35a6caca429",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 8.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.056193789798463,
+      "out": {
+        "I": -18.7,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
