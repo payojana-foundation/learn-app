@@ -28032,5 +28032,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mM2w0c9ppSCSDZ9ldp37mVMEBbHOryNg",
+    "drive_name": "៧៥ អាសេវនប្បច្ច័យ បច្ច័យសេពរឿយៗភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "e4bd77b544c1027685e423ceb4d4a00f",
+    "key": "audio/e4bd77b544c10276-a64.mp3",
+    "bytes": 34834433,
+    "duration_s": 4354,
+    "sha256": "f54a49c878d7c6f54ef30ac224e77a044363f74f3a6fb778987c21f7282308c2",
+    "loudness": {
+      "pass1": {
+        "I": -20.6,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 3.5,
+      "limit": 0.6,
+      "depth": 6.336974992327127,
+      "busy": 3.489406901303324,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
