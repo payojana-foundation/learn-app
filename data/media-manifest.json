@@ -31773,5 +31773,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gtS98z_RviQg0GTQQZbOp7wrei2zVss9",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៩១ ពោជ្ឈង្គបព្វៈ ធម្មវិចយសម្ពជ្ឈង្គ ការពិចារណាធម៌.mp3",
+    "source_md5": "104c8aac1848bab841e4acf2b79643be",
+    "key": "audio/104c8aac1848bab8-a64.mp3",
+    "bytes": 42944304,
+    "duration_s": 5367,
+    "sha256": "a41872aa46e450aaa037d6d5d5341274997d16500c34e7b413745f2d3df07eb2",
+    "loudness": {
+      "pass1": {
+        "I": -20.8,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 4.399999999999999,
+      "limit": 0.6,
+      "depth": 8.736974992327127,
+      "busy": 5.303884128166915,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
