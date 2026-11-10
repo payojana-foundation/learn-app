@@ -31599,5 +31599,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1n8YCiMrcVd3UEJd_l7-vMEA22AvIS15v",
+    "drive_name": "011.វចនានុក្រម 18 July 2024.mp3",
+    "source_md5": "fcd4298ac9991356f063d126d7a8de7b",
+    "key": "audio/fcd4298ac9991356-a64.mp3",
+    "bytes": 25254808,
+    "duration_s": 3156,
+    "sha256": "f38f765ba981bb281d59e5073a4e436838af1175e7f8a50666be3c385bf5bae0",
+    "loudness": {
+      "pass1": {
+        "I": -20.4,
+        "TP": -1.3,
+        "LRA": 0
+      },
+      "G": 3.799999999999997,
+      "limit": 0.6,
+      "depth": 6.936974992327125,
+      "busy": 4.034544475418145,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
