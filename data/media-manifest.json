@@ -28757,5 +28757,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SO9oA3OQqRdZvApcDEjyCgiPD6GnVfQw",
+    "drive_name": "៨០ វិបាកប្បច្ច័យបញ្ចប់ ចូលអាហារប្បច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "9b34c7867f8c3781dbb45f1b706971f5",
+    "key": "audio/9b34c7867f8c3781-a64.mp3",
+    "bytes": 42508790,
+    "duration_s": 5313,
+    "sha256": "20e1722be0b88f658d6b1115ce55802200615139b1b2e05f80d578f02493e397",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 3,
+      "limit": 0.6,
+      "depth": 6.836974992327127,
+      "busy": 4.18223221763228,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
