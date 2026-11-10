@@ -56278,5 +56278,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13DMfKX1KK1ikpx0D6MXPe6v_W5EzqksH",
+    "drive_name": "42 .Buddhism for Beginners.mp3",
+    "source_md5": "549f8ea48a04128c7e45735768f6ab74",
+    "key": "audio/549f8ea48a04128c-a64.mp3",
+    "bytes": 27050570,
+    "duration_s": 3381,
+    "sha256": "9599035e122ba8785a7302833bf2fc1eccc95e25f5c1a861d902b70676df1bb8",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 9.836974992327129,
+      "busy": 6.617647058823529,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
