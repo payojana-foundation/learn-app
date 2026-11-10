@@ -21768,5 +21768,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16qJHJ9oY5NNM8XTMzEBpz7tGCLtyidP8",
+    "drive_name": "បរិច្ឆេទទី ៨-២៦ មគ្គប្បច្ច័យ បញ្ហាវារៈទី១ដល់ទី៤ អកុសលជាបច្ច័យដល់អកុសល(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨).mp3",
+    "source_md5": "8933aff075965f561467823041b6dbcf",
+    "key": "audio/8933aff075965f56-a64.mp3",
+    "bytes": 39909711,
+    "duration_s": 4988,
+    "sha256": "f24fa259f457c7778ed505d2d37251993e0d5b7de5bd29fc4a5bf545a2cced0a",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": 0.8,
+        "LRA": 0
+      },
+      "G": 5.847875196459371,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 4.259877322749413,
+      "out": {
+        "I": -18.7,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
