@@ -27365,5 +27365,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Nognr5rGCGwXT3xRoSAdDrdX6CIU5IFN",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៧១ បដិកូលមនសិការបព្វៈ អធិប្បាយកោដ្ឋាសក្នុងអាបោធាតុ.mp3",
+    "source_md5": "e2d7c8877f8daed1d3e77257c02c66d8",
+    "key": "audio/e2d7c8877f8daed1-a64.mp3",
+    "bytes": 42410152,
+    "duration_s": 5301,
+    "sha256": "2057882bb91b98ffe95656ad28e63a354dc147dbae3c97f80ded9c7d999d10d0",
+    "loudness": {
+      "pass1": {
+        "I": -27.5,
+        "TP": -6.2,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 9.236974992327127,
+      "busy": 4.9924546097618485,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
