@@ -29308,5 +29308,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DHM62QcjL0cOfmHpazle2ClUKQEBAm8D",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៨៥ ធម្មានុបស្សនា ខន្ធបព្វៈ ឧបមាខន្ធ ៥ ជាជំងឺ និងអ្នកជំងឺ.mp3",
+    "source_md5": "30f6ea9cdfc0ea105adb81465af3b4ef",
+    "key": "audio/30f6ea9cdfc0ea10-a64.mp3",
+    "bytes": 43747830,
+    "duration_s": 5468,
+    "sha256": "22c11116869a0cc34cfa01faac3624e23d2c56580bb9709d9b1ce86cbefe00f5",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 10.336974992327129,
+      "busy": 4.988387934423831,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
