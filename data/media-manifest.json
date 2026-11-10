@@ -23798,5 +23798,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1X02NCPlyuBsHa9bx_piu7vg7i0Dy8Tyk",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៤៥ សតិប្បដ្ឋានដើម្បីកម្ចាត់សេចក្តីសោក និងខ្សឹកខ្សួល.mp3",
+    "source_md5": "14722fa895d172f2d2c8f441f3dd8015",
+    "key": "audio/14722fa895d172f2-a64.mp3",
+    "bytes": 45953610,
+    "duration_s": 5744,
+    "sha256": "53cb7a7300f222ecf6c07d953dc3b89d4d8db2a10d6a99bd57e1db5c107508e8",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 5.699999999999999,
+      "limit": 0.6,
+      "depth": 10.036974992327128,
+      "busy": 5.172871530165473,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
