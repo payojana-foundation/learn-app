@@ -49840,5 +49840,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EfJuc1OOK-TBwfi8yc-Dljk74wrHujJq",
+    "drive_name": "4-ញាណទស្សនៈ.mp3",
+    "source_md5": "7992b7c2631dad8b44e4ad7359594e6a",
+    "key": "audio/7992b7c2631dad8b-a64.mp3",
+    "bytes": 43868620,
+    "duration_s": 5483,
+    "sha256": "c2b48682cd364100d6c4d74e4bcea7cf353609783880320e16b9366bd1324e56",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 11.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.927273390413145,
+      "out": {
+        "I": -18.6,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
