@@ -44533,5 +44533,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Tz2KhY3quVzT1W7uwB0qKQV9jMiaKLhJ",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 40 អនត្តានុបស្សនា និព្វិទានុបស្សនា វិរាគានុបស្សនា.mp3",
+    "source_md5": "153a519d415b5fd63fee3327d5541bb2",
+    "key": "audio/153a519d415b5fd6-a64.mp3",
+    "bytes": 41648630,
+    "duration_s": 5206,
+    "sha256": "0af61b3c51c69c1d967c927dda522a8c255b88708981510bd8a46d53831a381f",
+    "loudness": {
+      "pass1": {
+        "I": -17.6,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 0.10000000000000142,
+      "limit": 0.6,
+      "depth": 1.236974992327129,
+      "busy": 0.0914801048779785,
+      "out": {
+        "I": -18,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
