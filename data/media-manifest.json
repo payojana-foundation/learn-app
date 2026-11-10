@@ -22464,5 +22464,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vuc_yfijL5mNT0BPNWDqshGXPpdafMs1",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ២៥ ជីវិតរូប បច្ចុប្បន្នជីវិតិន្រ្ទិយមាន ៣ ប្រការ.mp3",
+    "source_md5": "318bbc8ea610583f5b4d8dae6104bb27",
+    "key": "audio/318bbc8ea610583f-a64.mp3",
+    "bytes": 42226459,
+    "duration_s": 5278,
+    "sha256": "41c40178b8daa4de814066cd3a52eb2361dc29c3f06db565cdaaa67f5380f9d3",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.800000000000001,
+      "limit": 0.6,
+      "depth": 10.936974992327128,
+      "busy": 5.329181073272391,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
