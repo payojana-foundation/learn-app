@@ -18810,5 +18810,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mzv3frOvKDPuGDTjHFbaMuInUXnUMkjh",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ០៦​ នីវរណៈ (គ្រឿងរារាំ)មាន ៦ យ៉ាង.mp3",
+    "source_md5": "9b62af20853f93355f178ef5c9fa4a6a",
+    "key": "audio/9b62af20853f9335-a64.mp3",
+    "bytes": 43500189,
+    "duration_s": 5437,
+    "sha256": "875c337261332b3450ff1b66b3d25fa503f404e405848991ddab27d1e6f71f3e",
+    "loudness": {
+      "pass1": {
+        "I": -13.5,
+        "TP": 1.7,
+        "LRA": 0
+      },
+      "G": -4.100000000000001,
+      "limit": 0.6,
+      "depth": 2.036974992327126,
+      "busy": 0.0009195402298850574,
+      "out": {
+        "I": -18,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
