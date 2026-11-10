@@ -27046,5 +27046,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1iikFLAGsFWN9mjtUCeog6fttQuaPMmQu",
+    "drive_name": "135.១៣៥ អានិសង្សវៀរចាកបាណាបាតិបាតជាដើម.mp3",
+    "source_md5": "e9ca3e6b14841b8764ce51ab8afb4727",
+    "key": "audio/e9ca3e6b14841b87-a64.mp3",
+    "bytes": 47775076,
+    "duration_s": 5971,
+    "sha256": "98924411e8e42892d9c3d8a979c97da9a655c54a75bf7ee305b04951886a7a3f",
+    "loudness": {
+      "pass1": {
+        "I": -12.2,
+        "TP": 1.4,
+        "LRA": 0
+      },
+      "G": -5.300000000000001,
+      "limit": 0.6,
+      "depth": 0.5369749923271265,
+      "busy": 0.00041863074256721114,
+      "out": {
+        "I": -18,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
