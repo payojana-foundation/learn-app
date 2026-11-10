@@ -35775,5 +35775,63 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IyMvLBAgZina7rA7HlB_HEh7YyhpVDHR",
+    "drive_name": "25.វចនានុក្រម 19.12.2024.mp3",
+    "source_md5": "eee75050b897a56c5f1e86ac7cd3ad72",
+    "key": "audio/eee75050b897a56c-a64.mp3",
+    "bytes": 26704500,
+    "duration_s": 3337,
+    "sha256": "8accea083c6db7f2548b0d2d0442eafc089d2701307e682e614f5eba3e5a5af8",
+    "loudness": {
+      "pass1": {
+        "I": -19.7,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 3,
+      "limit": 0.6,
+      "depth": 7.536974992327128,
+      "busy": 3.9383612941881365,
+      "out": {
+        "I": -18.1,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XobuHDzmwJDj_Et6NHwhvS6oizrxB5g_",
+    "drive_name": "24.វចនានុក្រម 12. 12. 2024 (online-audio-converter.com).mp3",
+    "source_md5": "29ac41ffb67191f42345530c632f01f0",
+    "key": "audio/29ac41ffb67191f4-a64.mp3",
+    "bytes": 26645985,
+    "duration_s": 3330,
+    "sha256": "7969a41a3db61a33fbfad73eb0d4e1a7197754451f0d6d511f04a1ebdefe3a3d",
+    "loudness": {
+      "pass1": {
+        "I": -19.6,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 2.400000000000002,
+      "limit": 0.6,
+      "depth": 6.43697499232713,
+      "busy": 2.943450325757348,
+      "out": {
+        "I": -18.2,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
