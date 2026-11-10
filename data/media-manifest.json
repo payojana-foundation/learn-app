@@ -40937,5 +40937,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_GLOVXX9Y6yog_m208YYEnEFYytN-EuI",
+    "drive_name": "44 វចនានុក្រម_ 12-06-2025.mp3",
+    "source_md5": "2c9c947ffffa6bfcba59830716c6e0e3",
+    "key": "audio/2c9c947ffffa6bfc-a64.mp3",
+    "bytes": 30229985,
+    "duration_s": 3778,
+    "sha256": "fa5f6d12d654743fe1ef0535116e95938640a55c6081f9484d08220b17dce2d1",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 3.099999999999998,
+      "limit": 0.6,
+      "depth": 7.036974992327125,
+      "busy": 3.6179770820652606,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
