@@ -24929,5 +24929,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ESVa77yIfZ4H9JrMmkK0E9rqY1seGZRA",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៤០  ទុកន័យ គូទី៤ ទី៥ ទី៦ ទី៧.mp3",
+    "source_md5": "61aed7dca7d94f6774a41be0cccd3403",
+    "key": "audio/61aed7dca7d94f67-a64.mp3",
+    "bytes": 43871337,
+    "duration_s": 5483,
+    "sha256": "37501f9e8c279bdb06b8c54b910b88920bac2099d25f0411b7bc905e5ab05827",
+    "loudness": {
+      "pass1": {
+        "I": -26.3,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.685479312168347,
+      "out": {
+        "I": -18.4,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
