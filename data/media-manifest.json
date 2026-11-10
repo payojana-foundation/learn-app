@@ -43982,5 +43982,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18F7k129_bQMejf5XojntWKPC4m2W0x6o",
+    "drive_name": "72 វចនានុក្រម ​29 តុលា 2026.mp3",
+    "source_md5": "430b5808025bc30c0faf82ff836629e4",
+    "key": "audio/430b5808025bc30c-a64.mp3",
+    "bytes": 8904245,
+    "duration_s": 1112,
+    "sha256": "f388c3ca151e3ad089fb8172821c9a6cbfc01f4dcb57c3253f5b09da9917e148",
+    "loudness": {
+      "pass1": {
+        "I": -19.6,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 2.700000000000003,
+      "limit": 0.6,
+      "depth": 6.236974992327131,
+      "busy": 3.2738095238095237,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
