@@ -21797,5 +21797,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1u4xBntuv2sH-OCfqbHdJGgM0UCSSekiS",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ២៨ រេវតីប្រេត ឧច្ឆុប្រេត កុមារប្រេត រាជបុត្តប្រេត.mp3",
+    "source_md5": "74eba5fcf4aaabeb5c303ff9d76f17a2",
+    "key": "audio/74eba5fcf4aaabeb-a64.mp3",
+    "bytes": 42696245,
+    "duration_s": 5336,
+    "sha256": "4c0887bd54bd857538c3ebbdde9da301517443a710e125fd33d4f5e006d5fbe0",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": 2.2,
+        "LRA": 0
+      },
+      "G": 5.3630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.5200955593029795,
+      "out": {
+        "I": -18.4,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
