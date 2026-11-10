@@ -36007,5 +36007,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ubBJLv4HhWhBBUc7lBviefw7eipZFnOV",
+    "drive_name": "៩០ រម្លឹកវត្ថុបុរេជាត វត្ថារម្មណបុរេជាត បច្ឆាជាតភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "3c78f6887f4476d422e662cb73a783cc",
+    "key": "audio/3c78f6887f4476d4-a64.mp3",
+    "bytes": 41254077,
+    "duration_s": 5156,
+    "sha256": "3e770097ad98d87967c8e537803ed5a5484bc87b840308517a70255777e67bdf",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 3.1999999999999957,
+      "limit": 0.6,
+      "depth": 7.136974992327123,
+      "busy": 5.156348475299365,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
