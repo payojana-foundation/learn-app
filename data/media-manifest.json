@@ -18491,5 +18491,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1M5gfMfEwZujPCqX7uDyqJGpryp_pPYkW",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ 01 ថ្ងៃបើកវិគ្គបរិច្ឆេទទី ៥ ដំបូង.mp3",
+    "source_md5": "dfcd43c3fa9ff5f432820249404fc716",
+    "key": "audio/dfcd43c3fa9ff5f4-a64.mp3",
+    "bytes": 46177218,
+    "duration_s": 5772,
+    "sha256": "47e25ca99f53e1ae443dc40fb21edae48e51638eb270f61266d0d387c99ec99e",
+    "loudness": {
+      "pass1": {
+        "I": -20.6,
+        "TP": 1.5,
+        "LRA": 0
+      },
+      "G": 4.400000000000002,
+      "limit": 0.6,
+      "depth": 10.336974992327129,
+      "busy": 3.8053741272673722,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
