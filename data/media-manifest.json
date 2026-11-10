@@ -22319,5 +22319,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cgEB5n9x4Oggd-zbAMoqFZ-Mi-K1YXat",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៣២ ប្រេត ២១ ជំពូកក្នុងព្រះវិន័យបិដក.mp3",
+    "source_md5": "2c19c998dd79b41bbd727ec237704346",
+    "key": "audio/2c19c998dd79b41b-a64.mp3",
+    "bytes": 43392565,
+    "duration_s": 5424,
+    "sha256": "28d694de602dd36e106f153647c648b686804afc3058fa8a99a5b01271de56be",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": 1.1,
+        "LRA": 0
+      },
+      "G": 6.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.56421861892866,
+      "out": {
+        "I": -18.8,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
