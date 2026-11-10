@@ -22986,5 +22986,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1H3-x4YzbtWMkpSVFrXlkoVvCh_O1EPWz",
+    "drive_name": "បរិច្ឆេទទី ៨-៣៥ សហជាតត្ថិប្បច្ច័យ វត្ថុបុរេជាតត្ថិប្បច្ច័យ.mp3",
+    "source_md5": "f088168fed5e9b54d2f32ff60074dce8",
+    "key": "audio/f088168fed5e9b54-a64.mp3",
+    "bytes": 43558077,
+    "duration_s": 5444,
+    "sha256": "037ca9c6d5b53cf95c914a4492e92211c0ee1c3a3c3b4ff234326a57e5b1f933",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 10.636974992327126,
+      "busy": 4.144818403048808,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
