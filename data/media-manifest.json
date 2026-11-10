@@ -35833,5 +35833,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-SU_ZjJ5JJxwNx9xl2cm7DGmJ2o4yTpS",
+    "drive_name": "៦០ រាត្រីធម្មទាន_ March 4-2023_640x360.mp3",
+    "source_md5": "c8a1c0dd959bd8fcf1723d8adc27891a",
+    "key": "audio/c8a1c0dd959bd8fc-a64.mp3",
+    "bytes": 14595386,
+    "duration_s": 1824,
+    "sha256": "83cfc8fdd0b06aa73b730724213e4f47890d3e2bc32e40c3834234f830860e1e",
+    "loudness": {
+      "pass1": {
+        "I": -19.5,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 2.5,
+      "limit": 0.6,
+      "depth": 6.6369749923271275,
+      "busy": 2.693351238763429,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
