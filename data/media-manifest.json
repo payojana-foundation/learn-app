@@ -22145,5 +22145,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xdVHE8petYXTFtpEBzYDX4BdtT-l5L3P",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ២៣ ហទយវត្ថុ និងទឹកឈាមក្នុងបេះដូង.mp3",
+    "source_md5": "e7b75b207c6d98409560e76149a25094",
+    "key": "audio/e7b75b207c6d9840-a64.mp3",
+    "bytes": 41531393,
+    "duration_s": 5191,
+    "sha256": "f0362b8a8f790770829620e4418b9c5a487fc7b62db03e049231e9678e56f663",
+    "loudness": {
+      "pass1": {
+        "I": -18.6,
+        "TP": 1.8,
+        "LRA": 0
+      },
+      "G": 1.5,
+      "limit": 0.6,
+      "depth": 7.736974992327127,
+      "busy": 1.8949608968678968,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
