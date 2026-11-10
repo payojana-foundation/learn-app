@@ -46563,5 +46563,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wuulw8JSr-MzpObrVncS52IGUg8S88fr",
+    "drive_name": "១៣១ សោកបរិទេវទុក្ខទោមនស្សុបាយាសា សម្ភវន្តិភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "5ce70a90b5c631510f75d400013e6968",
+    "key": "audio/5ce70a90b5c63151-a64.mp3",
+    "bytes": 43348052,
+    "duration_s": 5418,
+    "sha256": "f7ca105b51fd8c3a4c244624ad3f705ec53bba6de369b0291b266134644cd834",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": 0.6,
+        "LRA": 0
+      },
+      "G": 5.5,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 5.577471417102677,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
