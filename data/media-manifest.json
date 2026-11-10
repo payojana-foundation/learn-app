@@ -27684,5 +27684,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1FRkNGLFgwSMGGgD-aKXsnbvpKThjNlBa",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៥៩ រូបបវត្តិកមន័យ សម្តែងការប្រព្រឹត្តទៅរបស់រូប.mp3",
+    "source_md5": "7593d53b11d5578c37ba898d6f84a2f3",
+    "key": "audio/7593d53b11d5578c-a64.mp3",
+    "bytes": 43820137,
+    "duration_s": 5477,
+    "sha256": "1da237daf5e26295af3577537e94cb0a25632e12aa7f6b19d5339419b1a420d6",
+    "loudness": {
+      "pass1": {
+        "I": -27.4,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.863025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.925148334094021,
+      "out": {
+        "I": -18.4,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
