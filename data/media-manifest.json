@@ -23740,5 +23740,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Vn18AlUbI8vnplxsq87GqISqduKRAXV2",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៣៣ វិការរូប រូបលហុតា ភាពស្រាលនៃរូប.mp3",
+    "source_md5": "50c23a5f16d53a0a9267d050f2a22ad1",
+    "key": "audio/50c23a5f16d53a0a-a64.mp3",
+    "bytes": 42579216,
+    "duration_s": 5322,
+    "sha256": "025ff31638195dfdbbf023bca908b6a6c24d33a893283c227633b6dfb2fe51db",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.756620665683392,
+      "out": {
+        "I": -18.3,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
