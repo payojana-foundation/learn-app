@@ -55669,5 +55669,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GAkhY9-0pwWkD10YSjtv2v3ygER06PaI",
+    "drive_name": "28-Ñāṇa-15Aug2026-រម្លឹកឡើងវិញអំពីការចូលឈាន និងវិថីចិត្តរបស់ឈាន.mp3",
+    "source_md5": "942bd80d9953864227ee117e828fe9d8",
+    "key": "audio/942bd80d99538642-a64.mp3",
+    "bytes": 28729930,
+    "duration_s": 3591,
+    "sha256": "8490b2cd3495c247b392dbbcb7c57f78b1f40e6090c8721116bec9858bd740d4",
+    "loudness": {
+      "pass1": {
+        "I": -30,
+        "TP": -8.9,
+        "LRA": 0
+      },
+      "G": 15,
+      "limit": 0.54,
+      "depth": 11.45212480354063,
+      "busy": 8.419539429717085,
+      "out": {
+        "I": -18.5,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
