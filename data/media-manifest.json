@@ -40821,5 +40821,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kNe5QSfLZUUnyU0bJwCHGyt482MpE4T3",
+    "drive_name": "១០០ បញ្ចប់បដ្ឋានន័យ ចូលបដិច្ចសមុប្បាទភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "4d803eaab068301828e4e172daa9cacb",
+    "key": "audio/4d803eaab0683018-a64.mp3",
+    "bytes": 42013091,
+    "duration_s": 5251,
+    "sha256": "6e89c788f5d2b39cdeaf5210f9392658ec972e5304ebe436d991baf7eaf76397",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 4,
+      "limit": 0.6,
+      "depth": 8.136974992327128,
+      "busy": 5.728016223627085,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
