@@ -45896,5 +45896,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1TCfAT8nLaQRVk3y47FSSFgktR79UgEJN",
+    "drive_name": "០៥ មហាគោសិង្គសាលសូត្រ ព្រះសារីបុត្រសួរព្រះអង្គពីព្រៃគោសិង្គ.mp3",
+    "source_md5": "52d1c1590e29829f65fee0f4aeebe494",
+    "key": "audio/52d1c1590e29829f-a64.mp3",
+    "bytes": 55816402,
+    "duration_s": 6976,
+    "sha256": "5c0df141fbbcf5ee2869f230584e776d6b77e65d34ec718b752802818d4311ea",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 9.5,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 3.8177225168410494,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
