@@ -25016,5 +25016,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1la2qjgiu6tRPNV4J9pfvfitSkdATGnyd",
+    "drive_name": "បរិច្ឆេទទី ៨-៥១ រម្លឹកនិស្សយប្បច្ច័យ វត្ថុបុរេជាតនិស្សយប្បច្ច័យ.mp3",
+    "source_md5": "14d93e35196695e6972ae375b7d4d19b",
+    "key": "audio/14d93e35196695e6-a64.mp3",
+    "bytes": 41925946,
+    "duration_s": 5240,
+    "sha256": "6871172750220cfc3f3a595830d20839227fff6d560519a09a90ce1689dafa62",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 7.74787519645937,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 5.269334249241513,
+      "out": {
+        "I": -18.6,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
