@@ -40647,5 +40647,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PdYMT6cBG1zcy2AkWo8UMpP2Mbv7IFGA",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១០៦ ឥន្រ្ទិយ ៥ យ៉ាងមានសទ្ធិន្រ្ទិយជាដើម.mp3",
+    "source_md5": "92ca6753549f246416b68b36a0216b8d",
+    "key": "audio/92ca6753549f2464-a64.mp3",
+    "bytes": 42631252,
+    "duration_s": 5328,
+    "sha256": "5ba9d794759cf734a9ee45cc391b98699e782456260451f6fabc1824eada631e",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "G": 8,
+      "limit": 0.6,
+      "depth": 9.336974992327129,
+      "busy": 5.476087711232255,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
