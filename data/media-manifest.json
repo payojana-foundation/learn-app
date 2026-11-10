@@ -21565,5 +21565,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pR5_-h_CAT_cNxJ6MaAtsryPcC5_wJhd",
+    "drive_name": "បរិច្ឆេទទី ៨-២៤ ឈានប្បច្ច័យ ចែកបញ្ហាវារទី៧ និងបដិសន្ធិកាល បវត្តិកាល(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨).mp3",
+    "source_md5": "a9d867f71388fbc909294a96285e7782",
+    "key": "audio/a9d867f71388fbc9-a64.mp3",
+    "bytes": 43703318,
+    "duration_s": 5462,
+    "sha256": "1d7078189a830a8ab3555d686224c144cbef41069f88316d94afcb59c0dd0276",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": 0.7,
+        "LRA": 0
+      },
+      "G": 6,
+      "limit": 0.6,
+      "depth": 11.136974992327128,
+      "busy": 3.6523641289425033,
+      "out": {
+        "I": -18.2,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
