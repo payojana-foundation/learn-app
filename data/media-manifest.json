@@ -36442,5 +36442,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lY58OB64QJd3f-_09gmA-y7-iHorKx8G",
+    "drive_name": "៦៥ រាត្រីធម្មទាន March-14-2023_648x360.mp3",
+    "source_md5": "c3a158f63b368d3c62f5d68b2c9e8e63",
+    "key": "audio/c3a158f63b368d3c-a64.mp3",
+    "bytes": 11480336,
+    "duration_s": 1434,
+    "sha256": "ff99b0c4698e11a603e616a195ce29b0dfb7b2cabda1de2104269e8ae35548d9",
+    "loudness": {
+      "pass1": {
+        "I": -20.4,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.299999999999997,
+      "limit": 0.6,
+      "depth": 7.336974992327125,
+      "busy": 2.7918118466898956,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
