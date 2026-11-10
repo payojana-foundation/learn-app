@@ -27597,5 +27597,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JhcboliAfwmmG1-uXyDnSvX04yE7801F",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៧៣ វេទនានុបស្សនាសតិប្បដ្ឋាន ការកំណត់វេទនា.mp3",
+    "source_md5": "fc2de5c5d3b91c4fbeada6f600df686f",
+    "key": "audio/fc2de5c5d3b91c4f-a64.mp3",
+    "bytes": 41496493,
+    "duration_s": 5187,
+    "sha256": "ea740a3dc5cb264689b4230be3cc104ff6b94c695d36233cdb45c0d8ff94d139",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -6.1,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 8.836974992327129,
+      "busy": 4.866205261179283,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
