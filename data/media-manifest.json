@@ -25857,5 +25857,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tktT0VXKvJ2xi40aaTXPUDGC_PXgFf7s",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៤៦  អាហារជ្ជរូបមាន ១២ រូប.mp3",
+    "source_md5": "6fd58b99c7fd9e5149b383ca05301228",
+    "key": "audio/6fd58b99c7fd9e51-a64.mp3",
+    "bytes": 40419412,
+    "duration_s": 5052,
+    "sha256": "062ddc2919cb9d548fcf36b55d227ce9c7d25dde2bdae59d1a076214b7ae4cbd",
+    "loudness": {
+      "pass1": {
+        "I": -28.2,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 12.3,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 5.887053677460217,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
