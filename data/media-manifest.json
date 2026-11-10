@@ -50681,5 +50681,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DItIfDjkpu1i43EB3eVrdBgtTHbzRFW7",
+    "drive_name": "៨.បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត្ត .mp3",
+    "source_md5": "b31d2f5b24359d702793672b4363d857",
+    "key": "audio/b31d2f5b24359d70-a64.mp3",
+    "bytes": 27184526,
+    "duration_s": 3398,
+    "sha256": "4d304927ba812305fa4d0e157f4bf64f8ff4289eb75514a77a8e07990b467982",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -8.7,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 4.636974992327127,
+      "busy": 0.7622018510616383,
+      "out": {
+        "I": -18,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
