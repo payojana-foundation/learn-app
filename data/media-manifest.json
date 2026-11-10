@@ -39690,5 +39690,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Bjvpm1ThWbQ7U4v9ZLdhHbb7SCBI_eEo",
+    "drive_name": "៨៩ រាត្រីធម្មទាន___640x360.mp3",
+    "source_md5": "9bd4e9b0aa06861d0ea3de9ce6453b27",
+    "key": "audio/9bd4e9b0aa06861d-a64.mp3",
+    "bytes": 12186687,
+    "duration_s": 1523,
+    "sha256": "5b062686ed2ab1e2d7e5ac3f5873bee107b51d26d5b858b0cf86574b3f7b76b2",
+    "loudness": {
+      "pass1": {
+        "I": -18.7,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 1.5999999999999979,
+      "limit": 0.6,
+      "depth": 5.836974992327125,
+      "busy": 2.858924702947548,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
