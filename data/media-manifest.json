@@ -27655,5 +27655,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Kqy42HrXBg1ykRt48fDGze1L-HscCE1L",
+    "drive_name": "140.១៤០ ចែកមហាកុសល ឧកដ្ឋ និងឱមក.mp3",
+    "source_md5": "25a29d1758ef5a7d8e97dc29a81d48f7",
+    "key": "audio/25a29d1758ef5a7d-a64.mp3",
+    "bytes": 45648291,
+    "duration_s": 5705,
+    "sha256": "9955c48dccae9cd5f98572c274e7d9b5f7a6ab680abb28723a03c4d2e72e50d5",
+    "loudness": {
+      "pass1": {
+        "I": -14.1,
+        "TP": 0.8,
+        "LRA": 0
+      },
+      "G": -3.5000000000000018,
+      "limit": 0.6,
+      "depth": 1.7369749923271254,
+      "busy": 0.0015334735366281107,
+      "out": {
+        "I": -18,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
