@@ -22058,5 +22058,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EYkZwy40goWQsi0q0u_Z9dMbrY78NmFD",
+    "drive_name": "បរិច្ឆេទទី ៨-២៨ សម្បយុត្តប្បច្ច័យ ការប្រកបព្រមគ្នា.mp3",
+    "source_md5": "fb5cd99303039163d250599449825926",
+    "key": "audio/fb5cd99303039163-a64.mp3",
+    "bytes": 41749985,
+    "duration_s": 5218,
+    "sha256": "46ab36bfcb0cd6ba04703908a53091ba8a313f05c6f9a9be6c93073ece73ef1a",
+    "loudness": {
+      "pass1": {
+        "I": -22.8,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.5,
+      "limit": 0.6,
+      "depth": 10.636974992327128,
+      "busy": 4.394054074769579,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
