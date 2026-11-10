@@ -20173,5 +20173,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "149e8Eba4HkJ-laBzn0b0X1sYS_SK18xR",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១៩ មគ្គង្គ បញ្ហាផ្សេងៗជុំវិញសម្មាទិដ្ឋិ(លឺដាច់ៗសម្លេង).mp3",
+    "source_md5": "72e92fc7bc9f9cda3751eef58298e014",
+    "key": "audio/72e92fc7bc9f9cda-a64.mp3",
+    "bytes": 27174286,
+    "duration_s": 3396,
+    "sha256": "267d851fd3b5c9105413d7279530c9c1a6cbaae4bb3a561cc5df499baef28586",
+    "loudness": {
+      "pass1": {
+        "I": -20.8,
+        "TP": 0.6,
+        "LRA": 0
+      },
+      "G": 5.5,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 2.704791344667697,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
