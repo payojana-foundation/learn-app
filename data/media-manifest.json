@@ -19651,5 +19651,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vNEePlwWyLE3nwzu3ODW373BuDCKSUWM",
+    "drive_name": "បរិច្ឆេទទី ៨-០៩ ពន្យល់បុរេជាតប្បច្ច័យ និងបច្ឆាជាតប្បច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3",
+    "source_md5": "6c3a016d816d4c9c28fd132188d9d021",
+    "key": "audio/6c3a016d816d4c9c-a64.mp3",
+    "bytes": 41666812,
+    "duration_s": 5208,
+    "sha256": "bbf783f7cc8e67d4f650fa51e3f263aae325d11d3a25fe06eae8a1c01b50269f",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 7.600000000000001,
+      "limit": 0.6,
+      "depth": 9.93697499232713,
+      "busy": 5.197233262292879,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
