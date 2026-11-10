@@ -40212,5 +40212,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GTLCgMkOmk2y3YK1Ci69KtLJVn8Q2ceg",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 16 អានាបានស្សតិភាគ១.mp3",
+    "source_md5": "8afeb746123adb23fdbb8a15a881998e",
+    "key": "audio/8afeb746123adb23-a64.mp3",
+    "bytes": 40275425,
+    "duration_s": 5034,
+    "sha256": "3c69e8670ef3e8d6594d90c68e93dbbe65b0b2067fa5acca0cbf13e2887bb340",
+    "loudness": {
+      "pass1": {
+        "I": -17.7,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 0.1999999999999993,
+      "limit": 0.6,
+      "depth": 1.4369749923271264,
+      "busy": 0.2964603527729223,
+      "out": {
+        "I": -18,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
