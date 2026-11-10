@@ -19535,5 +19535,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DwM23OM04778C97AvyynTDWSouh8mDb-",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ០៨ បញ្ចប់ធាតុ ៤ និងប្រៀបនឹងអាសិរពិស.mp3",
+    "source_md5": "83031f241c46b349e31b03922e4cacdf",
+    "key": "audio/83031f241c46b349-a64.mp3",
+    "bytes": 42171079,
+    "duration_s": 5271,
+    "sha256": "44593e869164d1b6a240c244acea7cb0b725e2d4669c101571c5969b281a1650",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.5,
+      "limit": 0.6,
+      "depth": 11.636974992327128,
+      "busy": 6.885570110123592,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
