@@ -28438,5 +28438,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jUZdbRYVmKOUZJaBIXy1t_EHoOgErqEc",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៧៧ បញ្ចប់អកុសលកម្មបថ១០.mp3",
+    "source_md5": "d0ba33eaa197b95e6fd3b4d6df01f33c",
+    "key": "audio/d0ba33eaa197b95e-a64.mp3",
+    "bytes": 39160310,
+    "duration_s": 4894,
+    "sha256": "8be6d03243170d29c5981d8abbb9f754dedb59e6e352c1e074a04a9aaf83c848",
+    "loudness": {
+      "pass1": {
+        "I": -15.5,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": -2.1000000000000014,
+      "limit": 0.6,
+      "depth": 0.936974992327126,
+      "busy": 0.004596527068437181,
+      "out": {
+        "I": -18,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
