@@ -57554,5 +57554,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1a-ypH6-Ned34KP1Mm75jisWx20x033NW",
+    "drive_name": "បិដកលេខ២១-១១ រថវិនីតសូត្រ ការបានលាភ ៥ យ៉ាង ការសរសរព្រះមន្តាណីបុត្រ.mp3",
+    "source_md5": "49a0d3866ddbcabe56fd3d9d11b38a45",
+    "key": "audio/49a0d3866ddbcabe-a64.mp3",
+    "bytes": 57002570,
+    "duration_s": 7125,
+    "sha256": "29283f1cc6fb7d50931ebce8878ba42cb4893d3f0362c8a42d5c3906898ecdc5",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "G": 10.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.432051983776121,
+      "out": {
+        "I": -18.5,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
