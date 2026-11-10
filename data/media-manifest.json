@@ -22841,5 +22841,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1TMVipWjpz7JsZJnzjLBI2AoPrK7JQ_6T",
+    "drive_name": "108.១០៨ និយមន័យកុសល ឬបុញ្ញ បុណ្យ.mp3",
+    "source_md5": "230b399ae83c8d711821f242fe4e993f",
+    "key": "audio/230b399ae83c8d71-a64.mp3",
+    "bytes": 43612412,
+    "duration_s": 5451,
+    "sha256": "c1b285b89b8b5903140e135cb2542dc34ec93887d65a997c44b091b6bac3301f",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": 1.3,
+        "LRA": 0
+      },
+      "G": 3.1999999999999993,
+      "limit": 0.6,
+      "depth": 8.936974992327126,
+      "busy": 4.89016784371274,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
