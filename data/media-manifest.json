@@ -46766,5 +46766,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1X9tUxbZWLyGUN9ywSNN_mm98PcT_zx8w",
+    "drive_name": "បិដកលេខ១៩ 14 សង្គីតិសូត្រ តិកនិទ្ទេស ពួក៣ បន្ត .mp3",
+    "source_md5": "3a3bda48cfc3993c597adaafff9dfcf4",
+    "key": "audio/3a3bda48cfc3993c-a64.mp3",
+    "bytes": 43549300,
+    "duration_s": 5443,
+    "sha256": "6d7ef65dca3a045d46bcbe711647b21a1f2811951fe42d97890d0e8fa098f030",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -13.2,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.13697499232712662,
+      "busy": 0.00022962534328988823,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
