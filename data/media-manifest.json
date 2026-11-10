@@ -40734,5 +40734,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1AiRltg0G_buj7oYfS265RBRUW1gX_IAh",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 18 របៀបចម្រើនមេត្តាចិត្តភាគ ១ ភិក្ខុអគ្គចិត្តោ យ៉ុន​ យី.mp3",
+    "source_md5": "cd322a9e9f0a4e3a35aa183eb2f869d8",
+    "key": "audio/cd322a9e9f0a4e3a-a64.mp3",
+    "bytes": 37182945,
+    "duration_s": 4647,
+    "sha256": "6d7b89589e95c1023eb31ae0a43ed13702e6b7f83a48763ba3c6e9497b69e810",
+    "loudness": {
+      "pass1": {
+        "I": -17.3,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "G": -0.3000000000000007,
+      "limit": 0.6,
+      "depth": 1.5369749923271265,
+      "busy": 0.0021515324289725357,
+      "out": {
+        "I": -18,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
