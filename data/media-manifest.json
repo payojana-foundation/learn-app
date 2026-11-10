@@ -22522,5 +22522,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bPDMQcWm9cdsnnENs0Q7uEv6Xs_eAef0",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៣៤ កំណើតអសុរកាយ.mp3",
+    "source_md5": "ce52166168eb731b2a478795a9c80ec5",
+    "key": "audio/ce52166168eb731b-a64.mp3",
+    "bytes": 44453345,
+    "duration_s": 5556,
+    "sha256": "39dec7a968e43c04d12d8e03e7e212e4fa781bb3d202cf7f6a83b33170f86a3f",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": 1,
+        "LRA": 0
+      },
+      "G": 5.199999999999999,
+      "limit": 0.6,
+      "depth": 10.636974992327126,
+      "busy": 4.184850584434867,
+      "out": {
+        "I": -18.1,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
