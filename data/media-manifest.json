@@ -29830,5 +29830,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Zu0xq7eDIUi1t5PhfGkCfFO1u2BAsR5o",
+    "drive_name": "៧ ខ្លះ-រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "9a36538b073d3ae9b74877848905f063",
+    "key": "audio/9a36538b073d3ae9-a64.mp3",
+    "bytes": 24445221,
+    "duration_s": 3055,
+    "sha256": "7d3d3f9f48cc181605a171fef8903336d8c14f8a67e94ced656c60b6b27b66b5",
+    "loudness": {
+      "pass1": {
+        "I": -19.6,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 2.6000000000000014,
+      "limit": 0.6,
+      "depth": 4.936974992327128,
+      "busy": 3.4514497970938605,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
