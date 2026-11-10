@@ -33716,5 +33716,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Cjt5ZN5YmRJrXCFcE3B9ZZPJ22ZKf7Mg",
+    "drive_name": "៩១ រម្លឹកបច្ឆាជាតប្បច្ច័យ នាមជាបច្ច័យដល់រូបភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "adc04a8aae5a80fda3b8b1831d58ef19",
+    "key": "audio/adc04a8aae5a80fd-a64.mp3",
+    "bytes": 41939530,
+    "duration_s": 5242,
+    "sha256": "5b98683e771954cfa0cfdf89dbfd9411cdb664256f6da2f314d25164b2a23b62",
+    "loudness": {
+      "pass1": {
+        "I": -20.3,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 3.6999999999999993,
+      "limit": 0.6,
+      "depth": 7.636974992327127,
+      "busy": 4.6033305356325345,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
