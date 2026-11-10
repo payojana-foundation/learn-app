@@ -20347,5 +20347,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GSlUqQTFhgk6I665iWK-JFCWhU-I7ZoJ",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ១៥ រឿងប្រេតភាគ៣.mp3",
+    "source_md5": "20a2d9c698ada4a806682d4e0fd985da",
+    "key": "audio/20a2d9c698ada4a8-a64.mp3",
+    "bytes": 36466563,
+    "duration_s": 4558,
+    "sha256": "6268f62d2ea269f5f8826740d4d540ef77667c6ee2e74446491f43c78a26b3bd",
+    "loudness": {
+      "pass1": {
+        "I": -18.4,
+        "TP": 1.5,
+        "LRA": 0
+      },
+      "G": 2.099999999999998,
+      "limit": 0.6,
+      "depth": 8.036974992327124,
+      "busy": 4.979926727069302,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
