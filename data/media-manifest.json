@@ -57264,5 +57264,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1d9As_1x1VsmcodwzGtm8Yb7ey6QIBcqy",
+    "drive_name": "បិដកលេខ២១-០៨ វម្មិកសូត្រ ចម្លើយប្រស្នាទាំង ១៥ របស់ព្រះពុទ្ធភាគបញ្ចប់.mp3",
+    "source_md5": "d989d40392cdb68fd385023899af0899",
+    "key": "audio/d989d40392cdb68f-a64.mp3",
+    "bytes": 56524425,
+    "duration_s": 7065,
+    "sha256": "167b1558e366bee5d376a1433fe574f8c29b24e2d280265555d21075f4bfbf8c",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.399999999999999,
+      "limit": 0.6,
+      "depth": 11.336974992327125,
+      "busy": 5.527563512844101,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
