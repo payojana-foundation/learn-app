@@ -47085,5 +47085,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SrIYgiKPBEg_992HH4odgfgwJc-fxmFh",
+    "drive_name": "១៦ មហាតណ្ហាសង្ខយសូត្រទី៨ សាតិភិក្ខុមានទិដ្ឋិអាក្រក់.mp3",
+    "source_md5": "eae34050a96a0c09e6481ff70d8a5752",
+    "key": "audio/eae34050a96a0c09-a64.mp3",
+    "bytes": 56353061,
+    "duration_s": 7044,
+    "sha256": "d555ff91deaaf55af59ca5f1d1684622663eae9995419cae52dcc8a6f0453080",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "G": 9.7,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 5.664847177070172,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
