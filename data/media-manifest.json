@@ -22551,5 +22551,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1G5KM_0r5yQ0J4L0L4a9zx-C5l4ICYvSa",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៣៦ បញ្ចប់អធិបតី ៤ ចូលនិយមន័យអាហារ.mp3",
+    "source_md5": "a9203632e55ebed963060146666374ae",
+    "key": "audio/a9203632e55ebed9-a64.mp3",
+    "bytes": 34086704,
+    "duration_s": 4260,
+    "sha256": "050f540e7e5ab6a24a05a19ae24f0dd0100d95ace6da75cbe1fb383ff3d4e4c3",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 8.8,
+      "limit": 0.6,
+      "depth": 11.13697499232713,
+      "busy": 5.928757510326699,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
