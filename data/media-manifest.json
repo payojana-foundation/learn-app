@@ -21362,5 +21362,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1n418zQBoDhsGluoFfbmLq62dTTHV-H-u",
+    "drive_name": "100.១០០ ប្រៀបធៀបវិថីចិត្ត១៧ខណៈ.mp3",
+    "source_md5": "2f04b26953f6bfb566e4be94b24bb055",
+    "key": "audio/2f04b26953f6bfb5-a64.mp3",
+    "bytes": 48799912,
+    "duration_s": 6099,
+    "sha256": "f24ced4985008b223c1c5db37dad01edc82dd1bf43b5001c5740785f771867e8",
+    "loudness": {
+      "pass1": {
+        "I": -19.1,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 3,
+      "limit": 0.6,
+      "depth": 7.536974992327128,
+      "busy": 4.633439618357528,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
