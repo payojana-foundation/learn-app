@@ -42213,5 +42213,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "131AAKwLXJ4owMjQg7WvMtnIpq6dvWNne",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១១២ ខន្ធ ៥ ចែកដោយអង្គធម៌និងការឧបមា.mp3",
+    "source_md5": "86982a6bf7a6efa95d8877e4dba2ece4",
+    "key": "audio/86982a6bf7a6efa9-a64.mp3",
+    "bytes": 40970492,
+    "duration_s": 5121,
+    "sha256": "ac4406031199a425cc2967788115bb81367b2c3e9fcb0a1a8c8fa7b1238ab935",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 8.000000000000004,
+      "limit": 0.6,
+      "depth": 10.836974992327132,
+      "busy": 4.962363071876282,
+      "out": {
+        "I": -18.1,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
