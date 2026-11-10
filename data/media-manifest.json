@@ -23943,5 +23943,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11QCdJJ-8favKH0BAVsLBQ1EsDphbkRcK",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៤៥ អរូបភូមិមាន ៤.mp3",
+    "source_md5": "8e952f23f047f36cbe714c7cc9dd8aeb",
+    "key": "audio/8e952f23f047f36c-a64.mp3",
+    "bytes": 42070351,
+    "duration_s": 5258,
+    "sha256": "b3b3500bee209bba75c5528966e24fd92d4e5aa033e5fc60baac3d5007235965",
+    "loudness": {
+      "pass1": {
+        "I": -16.9,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": -0.6000000000000014,
+      "limit": 0.6,
+      "depth": 0.23697499232712627,
+      "busy": 0.0002376990729736154,
+      "out": {
+        "I": -18,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
