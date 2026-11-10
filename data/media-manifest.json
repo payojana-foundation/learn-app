@@ -21710,5 +21710,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xf9yVPkw_CSJN_Z7b1ifevMGOvcCszm6",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ២០ ផោដ្ឋព្វារម្មណ៍ ៣ គឺដី ភ្លើង ខ្យល់.mp3",
+    "source_md5": "55e9f1f39be4f976e53918dbb3ffc5b2",
+    "key": "audio/55e9f1f39be4f976-a64.mp3",
+    "bytes": 44724183,
+    "duration_s": 5590,
+    "sha256": "78e10815abc09db74147352265cd65256c860a0a254b59047c082db349bd06a2",
+    "loudness": {
+      "pass1": {
+        "I": -24.6,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 9.2,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 5.891691261962257,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
