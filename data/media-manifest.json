@@ -19071,5 +19071,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zT0Awa0zqEKdKNmKo7YtOj3odJ7fWQHI",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ០៩​ ការលះកិលេស ៣ កម្រិត.mp3",
+    "source_md5": "15d60a4260d1150603b7af28ae58f94c",
+    "key": "audio/15d60a4260d11506-a64.mp3",
+    "bytes": 42826439,
+    "duration_s": 5353,
+    "sha256": "9ed2cc77e569861d995a1c1c428356bdd1cf0fa7d5436750f39effa49f5508e1",
+    "loudness": {
+      "pass1": {
+        "I": -14.2,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": -3.400000000000002,
+      "limit": 0.6,
+      "depth": 1.1369749923271253,
+      "busy": 0.0028020361462662868,
+      "out": {
+        "I": -18,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
