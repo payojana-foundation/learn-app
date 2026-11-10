@@ -27336,5 +27336,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dJ5m2MROA1MIW-b7y59qtEtHhyeQsqjg",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៦៨ អាសន្នកម្ម កម្មកើតពេលជិតស្លាប់.mp3",
+    "source_md5": "8be95159894d61b40e6fcbc453e75632",
+    "key": "audio/8be95159894d61b4-a64.mp3",
+    "bytes": 44057120,
+    "duration_s": 5507,
+    "sha256": "46e3002a10bda9d10b4ea6c2ca6b549837a762b430c7599505cf69cce7a1357d",
+    "loudness": {
+      "pass1": {
+        "I": -19.5,
+        "TP": 2.1,
+        "LRA": 0
+      },
+      "G": 3.3999999999999986,
+      "limit": 0.6,
+      "depth": 9.936974992327126,
+      "busy": 4.4735432441757,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
