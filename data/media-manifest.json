@@ -28467,5 +28467,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mHTJRuqWblKKyeRpmKEB6w-a3tMZleOV",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៧៩ នីវរណបព្វៈ កាមឆន្ទ ព្យាបាទនីវរណៈ.mp3",
+    "source_md5": "fb136c87c977e1397c0bf29899b0346a",
+    "key": "audio/fb136c87c977e139-a64.mp3",
+    "bytes": 42989025,
+    "duration_s": 5373,
+    "sha256": "42e1c1b5d241a672c43fd8fa080e455dbd2238e5ee67eb88b351beaeb6bfc37d",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -5.3,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 9.836974992327127,
+      "busy": 5.396056647312789,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
