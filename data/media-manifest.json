@@ -57032,5 +57032,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1m5DELaziZxgsMAc5gER9mAFHo79fE8-V",
+    "drive_name": "បិដកលេខ២១-០៦ អលគទ្ទូបមសូត្រ ពួកទេវតា ព្រហ្ម រកព្រះខីណាស្រពមិនឃើញ.mp3",
+    "source_md5": "3154baf91451f4a792eccd296857ee8e",
+    "key": "audio/3154baf91451f4a7-a64.mp3",
+    "bytes": 57087207,
+    "duration_s": 7135,
+    "sha256": "bad672c869796fe1a96c9401b568e1f7dd97ecdd1f83acc37f8a48bd3b7ffb1c",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "G": 10.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.483579391382946,
+      "out": {
+        "I": -18.3,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
