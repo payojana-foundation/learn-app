@@ -31744,5 +31744,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VEpjP6-RjsqsfDIKhAyFgQ_lo7ch2hFO",
+    "drive_name": "៨៦ រម្លឹកបញ្ចប់ឈានប្បច្ច័យ អង្គឈាន៧ជាបច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "46c9c5f42c0f80f88a75bb8f2c22874a",
+    "key": "audio/46c9c5f42c0f80f8-a64.mp3",
+    "bytes": 41123047,
+    "duration_s": 5140,
+    "sha256": "7c37071c1965c58491cee57204626d578cbc0a8b9bf92ced6b7e46e124a38204",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 3.8999999999999986,
+      "limit": 0.6,
+      "depth": 8.036974992327126,
+      "busy": 4.979232931609715,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
