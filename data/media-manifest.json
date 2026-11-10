@@ -21420,5 +21420,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Poq0Zwimp9hKz9oqbfv5rU-iNEyoms3P",
+    "drive_name": "បរិច្ឆេទទី ៨-២៣ ឈានប្បច្ច័យ បញ្ហាវារៈទី១ ដល់ទី៦(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨).mp3",
+    "source_md5": "2d5fd60ec38637440d5909328e6c061c",
+    "key": "audio/2d5fd60ec3863744-a64.mp3",
+    "bytes": 42938870,
+    "duration_s": 5367,
+    "sha256": "5fb7af0d0b85f45462819a3b714c7bf7f2cd5f997b14e1ee01fc750872330032",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.099999999999998,
+      "limit": 0.6,
+      "depth": 11.236974992327125,
+      "busy": 3.7388096546712997,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
