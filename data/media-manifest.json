@@ -23856,5 +23856,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "106uN5HIrI9mitZHohwDN9fuf3SxvAV4c",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៤៤ តតិយជ្ឈានភូមិ ចតុត្ថជ្ឈានភូមិ.mp3",
+    "source_md5": "9ed4c63246c1adeeea5f67345c83d5d6",
+    "key": "audio/9ed4c63246c1adee-a64.mp3",
+    "bytes": 46824846,
+    "duration_s": 5853,
+    "sha256": "3eb37cacff02411d55f96547fbe636959978b6c59f97463f4b1f65a3b4557561",
+    "loudness": {
+      "pass1": {
+        "I": -20.4,
+        "TP": 2,
+        "LRA": 0
+      },
+      "G": 4.199999999999996,
+      "limit": 0.6,
+      "depth": 10.636974992327122,
+      "busy": 3.4622974346708126,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
