@@ -47549,5 +47549,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Uxvrk3Ob_Z3xZCdWnOQOsS6kzBSkBc13",
+    "drive_name": "២៣ វេរញ្ជកសូត្រទី២ និងមហាវេទល្លសូត្រទី៣ពីការសួរ៥ យ៉ាង (បិដកលេខ ២២).mp3.mp3",
+    "source_md5": "5dbc5ca376145c3083d4cb8d222694a1",
+    "key": "audio/5dbc5ca376145c30-a64.mp3",
+    "bytes": 56906230,
+    "duration_s": 7113,
+    "sha256": "ac5f9470e4d2321fa5f299453202c52b795f493e45a62a70cdb197593a3531de",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -5.4,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 9.036974992327128,
+      "busy": 5.559870663901873,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
