@@ -23334,5 +23334,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UQ7eYlxGfbv1fcSIdKmYD-a4b6DBt2Zz",
+    "drive_name": "111.១១១ មហាកុសលដួងទី៥ដល់ទី៨.mp3",
+    "source_md5": "38713ae8774524d92af78b3eee6261d4",
+    "key": "audio/38713ae8774524d9-a64.mp3",
+    "bytes": 46781587,
+    "duration_s": 5847,
+    "sha256": "44741c046c3d0848e51c3262be82a6ea9172075d6039987e347760a06411a68b",
+    "loudness": {
+      "pass1": {
+        "I": -19.1,
+        "TP": 1,
+        "LRA": 0
+      },
+      "G": 2.6000000000000014,
+      "limit": 0.6,
+      "depth": 8.036974992327128,
+      "busy": 4.121313690114833,
+      "out": {
+        "I": -18.1,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
