@@ -24349,5 +24349,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WZr9qWKntSWUhxdbY--Ar8dv_-nxMDne",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៤៩ សតិប្បដ្ឋាន ពន្យល់ថា ភិក្ខុ.mp3",
+    "source_md5": "d8e8be61aaebb462446162036dfe63d2",
+    "key": "audio/d8e8be61aaebb462-a64.mp3",
+    "bytes": 43134266,
+    "duration_s": 5391,
+    "sha256": "56d51ff92a66dcd4067f2e78a8b86b2bd7d64f435ebf00e17065bc546b948979",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 5.285621551444336,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
