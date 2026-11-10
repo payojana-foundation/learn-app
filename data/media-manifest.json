@@ -39922,5 +39922,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13cgUHAEw1ABpU-Zm0sZSQYA3eM4tPuiL",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១០៤ សម្មប្បធាន ៤.mp3",
+    "source_md5": "0e0bded88bdee98cde2b0d69b649f099",
+    "key": "audio/0e0bded88bdee98c-a64.mp3",
+    "bytes": 41860327,
+    "duration_s": 5232,
+    "sha256": "82d322b4f81ab0b38d5c10fe6c76508e46947eaac7c21f120f813bdfde0221d1",
+    "loudness": {
+      "pass1": {
+        "I": -25.1,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "G": 9.600000000000005,
+      "limit": 0.6,
+      "depth": 11.436974992327134,
+      "busy": 5.774247491638796,
+      "out": {
+        "I": -18.1,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
