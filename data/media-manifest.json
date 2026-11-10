@@ -25161,5 +25161,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14jUtCR5R6MFvJmOg-j9ZFrAAYQiyM-za",
+    "drive_name": "បរិច្ឆេទទី ៨-៥២ រម្លឹកនិស្សយប្បច្ច័យ វត្ថារម្មណបុរេជាតនិស្សយប្បច្ច័យ.mp3",
+    "source_md5": "42c6f5ba66cc00682f91d87c40a44cc5",
+    "key": "audio/42c6f5ba66cc0068-a64.mp3",
+    "bytes": 42383194,
+    "duration_s": 5297,
+    "sha256": "04baa1339c382a668f0ac46483a458c7d5a88209bebdd14c63119018106152c8",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 8.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.1757505403135236,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
