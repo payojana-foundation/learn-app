@@ -21652,5 +21652,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZErDk-r8iUCpHvUCXNw3RxcjCYw3qiWM",
+    "drive_name": "បរិច្ឆេទទី ៨-២៥ មគ្គប្បច្ច័យ ផ្លូវទៅកាន់ទុគ្គតិ សុគតិ និព្វាន(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨).mp3",
+    "source_md5": "b23e14061bb6a13f2b932f71796d81bb",
+    "key": "audio/b23e14061bb6a13f-a64.mp3",
+    "bytes": 42250074,
+    "duration_s": 5281,
+    "sha256": "8fafff32b8d939703a67af6f5e0b4a3e4b5fa301a5f4023d422abbf14c79942b",
+    "loudness": {
+      "pass1": {
+        "I": -22.8,
+        "TP": -1.3,
+        "LRA": 0
+      },
+      "G": 6.600000000000001,
+      "limit": 0.6,
+      "depth": 9.736974992327129,
+      "busy": 3.9512426035502957,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
