@@ -20260,5 +20260,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1FUgmMCd1gvcs8uHIlDgPulgfFgHpQuxx",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ១២ បញ្ញាចក្ខុមាន ៥ យ៉ាង និងចក្ខុ ១៤ន័យ.mp3",
+    "source_md5": "4381e0161a509b5b6c84dcf6d0b3be5c",
+    "key": "audio/4381e0161a509b5b-a64.mp3",
+    "bytes": 42405972,
+    "duration_s": 5300,
+    "sha256": "c154d9f10d73216d33dcb6c818425c10120105a49850e1e7a2767e3ab78877f4",
+    "loudness": {
+      "pass1": {
+        "I": -22.7,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.200000000000003,
+      "limit": 0.6,
+      "depth": 11.33697499232713,
+      "busy": 6.35081215688494,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
