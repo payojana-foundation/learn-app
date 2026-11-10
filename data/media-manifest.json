@@ -46331,5 +46331,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1m0UtF4IdWCNtC_VAITi9LTU_9p-XUh23",
+    "drive_name": "១៣០ ជាតិប្បច្ចយា ជរាមរណំ ជរានិងមរណំកើតព្រោះជាតិភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "46fbe53d9241b7a17f3997bd2434e2cd",
+    "key": "audio/46fbe53d9241b7a1-a64.mp3",
+    "bytes": 44492425,
+    "duration_s": 5561,
+    "sha256": "4274e91e7073b7833628311abf63122c1b802274a64992f1d95c22c5fcf2ebb7",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.047875196459371,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 6.661871797177021,
+      "out": {
+        "I": -18.5,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
