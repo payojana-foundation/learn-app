@@ -43721,5 +43721,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Lz5evDSysMAG102ChSh9e2hp0RXwcjCC",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 33 និព្វិទាញាណ មុញ្ចិតកម្យតាញាណ.mp3",
+    "source_md5": "f56a169375758044fcaf55154313bbf5",
+    "key": "audio/f56a169375758044-a64.mp3",
+    "bytes": 39766351,
+    "duration_s": 4970,
+    "sha256": "737b762c2d920801c382b44ee995eec0d9079750fe10298f2b8fc99d27d3324c",
+    "loudness": {
+      "pass1": {
+        "I": -17.1,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": -0.3999999999999986,
+      "limit": 0.6,
+      "depth": 4.336974992327129,
+      "busy": 3.208268369964291,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
