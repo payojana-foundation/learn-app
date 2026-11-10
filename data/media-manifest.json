@@ -19506,5 +19506,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yceT4r796TgZHcQ5mhPixZKofpl2TlVa",
+    "drive_name": "បរិច្ឆេទទី ៨-០៨ ពន្យល់បកតូបនិស្សយប្បច្ច័យ និងបុរេជាតប្បច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3",
+    "source_md5": "65d6187dc5841c4e0033cc978ab144c5",
+    "key": "audio/65d6187dc5841c4e-a64.mp3",
+    "bytes": 43425584,
+    "duration_s": 5428,
+    "sha256": "d19760f268e5a9be0ed15f4de5089f5f6f7a584e1fdb8c2b05e48e5910e97378",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 8.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.71016828938036,
+      "out": {
+        "I": -18.4,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
