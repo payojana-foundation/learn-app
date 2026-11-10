@@ -21913,5 +21913,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1g4BlBajcS21Rere-YUnWplGxDFL5TCh0",
+    "drive_name": "បរិច្ឆេទទី ៨-២៧ មគ្គប្បច្ច័យ បញ្ហាវារៈទី៤ដល់ទី៧ អព្យាកតជាបច្ច័យដល់អព្យាកត.mp3",
+    "source_md5": "4fc76e5e148f2c3f1053fc93b6e69ec0",
+    "key": "audio/4fc76e5e148f2c3f-a64.mp3",
+    "bytes": 43351187,
+    "duration_s": 5418,
+    "sha256": "4a43093fe41d15e77a373dd35395069e780fd17eee64fbe8ec2cfad991555372",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 4.699567251354069,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
