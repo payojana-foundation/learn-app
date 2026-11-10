@@ -47172,5 +47172,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jK79zzUGfFe3YEk_FdYVMrO5r5HWtWHY",
+    "drive_name": "បិដកលេខ១៩ 22 ធម៌ពួក ៩ អខណអសម័យ ៩ យ៉ាង .mp3",
+    "source_md5": "0cdf2cd5de9d515f1d691087e5b4ec1d",
+    "key": "audio/0cdf2cd5de9d515f-a64.mp3",
+    "bytes": 41749985,
+    "duration_s": 5218,
+    "sha256": "318b51afb62e1ae0c43d259e659274d3c975844c4086fdc48886d3c304b4105b",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -12.8,
+        "LRA": 0
+      },
+      "G": 8.799999999999997,
+      "limit": 0.6,
+      "depth": 0.4369749923271238,
+      "busy": 0,
+      "out": {
+        "I": -18.1,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
