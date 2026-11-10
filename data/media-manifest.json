@@ -32295,5 +32295,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JrFSBQcSyL8spT63vZvsNM6cFayArHbE",
+    "drive_name": "៨៧ រម្លឹកមគ្គប្បច្ច័យ បញ្ហាវារៈកុសលជាបច្ច័យដល់កុសលភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "9dd9762b1bc0d53657999d98e9642355",
+    "key": "audio/9dd9762b1bc0d536-a64.mp3",
+    "bytes": 41299843,
+    "duration_s": 5162,
+    "sha256": "d140736cd3b4679ff0a9dffb4f37a5b405d99d05f8f77ce08ffc8e27de3230c9",
+    "loudness": {
+      "pass1": {
+        "I": -20.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 4.199999999999999,
+      "limit": 0.6,
+      "depth": 8.236974992327127,
+      "busy": 4.577284041491927,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
