@@ -48042,5 +48042,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1p_JXs6Nbp6HodaTEaG2z2DTl0Cl7ZMlv",
+    "drive_name": "01-០២ ឧសភា ២០២៥-សុត្តន្តបិដក ទីឃនិកាយ បឋមភាគ (សីលក្ខន្ធវគ្គ)បិដកលេខ១៤.mp3",
+    "source_md5": "50f87dd999a2e2fd607937fc1ddf2de3",
+    "key": "audio/50f87dd999a2e2fd-a64.mp3",
+    "bytes": 16104010,
+    "duration_s": 2012,
+    "sha256": "ed704f0ee7860ee869d78db09e5483e907dda0483eaddd9d3d0856e56393be03",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6,
+      "limit": 0.6,
+      "depth": 10.036974992327128,
+      "busy": 1.8219528552621773,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
