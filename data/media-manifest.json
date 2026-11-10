@@ -56626,5 +56626,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12aaQPBqKxGc-l57TyfsY3HUfZD2WDywS",
+    "drive_name": "34_Ñāṇa_12Sep2026_វិធីចម្រើនបឋវីកសិណ.mp3",
+    "source_md5": "7495c463ee7261669c20afc6c4dce481",
+    "key": "audio/7495c463ee726166-a64.mp3",
+    "bytes": 31051484,
+    "duration_s": 3881,
+    "sha256": "6578b21c027150813c3b6ccc53cc470870c4453a2113ac91d32dc07b6a370e93",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 8.2,
+      "limit": 0.6,
+      "depth": 9.136974992327126,
+      "busy": 7.0647833256041634,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
