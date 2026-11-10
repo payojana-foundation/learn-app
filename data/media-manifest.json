@@ -38095,5 +38095,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1eNuUxZh0z_Vz9JtfxQgq4XoCW7TOjxNW",
+    "drive_name": "52-ចរិត៦.mp3",
+    "source_md5": "a48153fc45c1eef272766be4c903b414",
+    "key": "audio/a48153fc45c1eef2-a64.mp3",
+    "bytes": 4299589,
+    "duration_s": 537,
+    "sha256": "92ed58b2afda43bd415cc6778ca01f0e2aa588507cedb3d144d9428a122d69d9",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 4.533401563081504,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
