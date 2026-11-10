@@ -57815,5 +57815,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MLSGfL_UpgU0NNTaFwMIXnCli2ddCUhP",
+    "drive_name": "បិដកលេខ២១-១៤ បាសរាសិសូត្រ ការស្វែករកមិនប្រសើរតើដូចម្តេច.mp3",
+    "source_md5": "4e01e33a19122a43e223a8aee4e72774",
+    "key": "audio/4e01e33a19122a43-a64.mp3",
+    "bytes": 57540692,
+    "duration_s": 7192,
+    "sha256": "a79c4aa85587792cdeff437574554d7d9370d1856a3f9f98c266b892b265d285",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5.3,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 9.636974992327128,
+      "busy": 5.3908210579001885,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
