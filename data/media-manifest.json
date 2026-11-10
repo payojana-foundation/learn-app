@@ -43170,5 +43170,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cYIBTK-kc5PHmlJg-ACNUY3khAxhsLSx",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 30 ឧទយព្វយញ្ញាណ ឃើញការកើតនិងរលត់.mp3",
+    "source_md5": "d70f1e2dfb39ea471866e58ef9e4f543",
+    "key": "audio/d70f1e2dfb39ea47-a64.mp3",
+    "bytes": 40844059,
+    "duration_s": 5105,
+    "sha256": "2ed5a9889bd998bb9963b2a6fb39319d6a9b849e6d0bab7cea35f29c8e26fcdb",
+    "loudness": {
+      "pass1": {
+        "I": -17.6,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "G": 0,
+      "limit": 0.6,
+      "depth": 1.7369749923271272,
+      "busy": 0.05998491807774045,
+      "out": {
+        "I": -18,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
