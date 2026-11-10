@@ -43692,5 +43692,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1u-hitnfSJpseMcuQt-9hzS7N6KQMb2gB",
+    "drive_name": "63_វចនានុក្រម_២១ឧសភា២០២៦.mp3",
+    "source_md5": "5066bce5bc4f108e4310cba8415e68e4",
+    "key": "audio/5066bce5bc4f108e-a64.mp3",
+    "bytes": 27342514,
+    "duration_s": 3417,
+    "sha256": "6206bbd87b02a1fcef4341d377c627b2cdd797b14785598d9191c3504da79c53",
+    "loudness": {
+      "pass1": {
+        "I": -18,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 1.1999999999999993,
+      "limit": 0.6,
+      "depth": 5.136974992327127,
+      "busy": 3.738881736789748,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
