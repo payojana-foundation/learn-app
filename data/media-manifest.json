@@ -31831,5 +31831,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19d_FZW4y-ihs1hrigBYORF9LiJiJ8mE1",
+    "drive_name": "៣០ រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "0072af7e4db58563c15c80a396ce49af",
+    "key": "audio/0072af7e4db58563-a64.mp3",
+    "bytes": 12545087,
+    "duration_s": 1568,
+    "sha256": "45e7d9d70c6760fc6e974093cadb18c58ee24f9681c0a427969f9e3e066a384e",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 5.599999999999998,
+      "limit": 0.6,
+      "depth": 5.536974992327125,
+      "busy": 3.1965435877813917,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
