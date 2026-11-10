@@ -31048,5 +31048,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vL78d287hcZGVVOLF9X7FVGqTkTsJJ8t",
+    "drive_name": "២២ រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "18bf6e2ab06250a4b05df051dfbc52d5",
+    "key": "audio/18bf6e2ab06250a4-a64.mp3",
+    "bytes": 10446096,
+    "duration_s": 1305,
+    "sha256": "6104cda65bf7a109280f4cb86b8e7a2eb03de0c1cadf9d260d9dfcb7f80c0c78",
+    "loudness": {
+      "pass1": {
+        "I": -18.5,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 1.3999999999999986,
+      "limit": 0.6,
+      "depth": 5.736974992327125,
+      "busy": 3.135291414566899,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
