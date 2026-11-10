@@ -57177,5 +57177,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qTVz-5UtvqpsFV1pvOT2fP8feez3dj9_",
+    "drive_name": "បិដកលេខ២១-០៧ វម្មិកសូត្រ ទេវតាសួរប្រស្នា១៥ នឹងកុមារកស្សបៈ.mp3",
+    "source_md5": "160fe38d4e7e2f52344e8ec45251587f",
+    "key": "audio/160fe38d4e7e2f52-a64.mp3",
+    "bytes": 56436026,
+    "duration_s": 7054,
+    "sha256": "0a0bc12d73fdadd4f5eb71f996764df393585221cf3085849c8e007c82dee3c3",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 11.936974992327128,
+      "busy": 5.4315006839654405,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
