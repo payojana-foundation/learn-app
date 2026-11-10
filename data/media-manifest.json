@@ -18404,5 +18404,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XCiMvFdaARjXBvBHxN8Bo8CRqZQktVgK",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ០១ និយមន័យរូប ថ្ងៃផ្តើមដំបូង ភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3",
+    "source_md5": "c7bf4b9b2a3c2a6ac0adc6d1f4ffccf9",
+    "key": "audio/c7bf4b9b2a3c2a6a-a64.mp3",
+    "bytes": 25108732,
+    "duration_s": 3138,
+    "sha256": "cefc40346912957eba718e71f329c6f393209fb797a5dee422d7fd9082175159",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 6.149336477035574,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
