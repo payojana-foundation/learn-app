@@ -26234,5 +26234,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1In4uR88S6w4QxfxPlxcF4t69VikY7PT6",
+    "drive_name": "129.១២៩ វិកាលសិក្ខាបទ រឿងភេសជ្ជៈ.mp3",
+    "source_md5": "9be2e734621d9ea1504b24607f032639",
+    "key": "audio/9be2e734621d9ea1-a64.mp3",
+    "bytes": 39978256,
+    "duration_s": 4997,
+    "sha256": "3a417ebbebe7e59ab8fa8894461ca8caa134f011b45eb7b78d874241ac4c4b3f",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": 2.5,
+        "LRA": 0
+      },
+      "G": 3.099999999999998,
+      "limit": 0.6,
+      "depth": 10.036974992327124,
+      "busy": 4.357396568112462,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
