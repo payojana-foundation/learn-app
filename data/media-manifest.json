@@ -44794,5 +44794,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1A2kbgMIJlrRqGJ_-SZiqiJtHeslkH2rn",
+    "drive_name": "១២១ តណ្ហាជាបច្ច័យដល់ទិដ្ឋុបាទាន ទិដ្ឋិ៦២ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "4908bfaa6bc6c4edd1a61dfab71636bc",
+    "key": "audio/4908bfaa6bc6c4ed-a64.mp3",
+    "bytes": 41639644,
+    "duration_s": 5204,
+    "sha256": "9b56d6fdd0511f30f81eda68f4f0f9bb87f52bd7cf22a2a70ce2a7e255f9b85f",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 5.800000000000001,
+      "limit": 0.6,
+      "depth": 9.436974992327128,
+      "busy": 5.722492266902342,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
