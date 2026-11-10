@@ -33368,5 +33368,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cuUhmNg_a4OB7ZSUkgunY-B2uBy3dny5",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 02 ចរិតលាយគ្នា ៦៣ ចរិត.mp3",
+    "source_md5": "eced7d266ca3c9fe6273c12663708e23",
+    "key": "audio/eced7d266ca3c9fe-a64.mp3",
+    "bytes": 41375285,
+    "duration_s": 5171,
+    "sha256": "b056cfdbeacc2c1e23413f65d5b2c51a892c97c65776deffe2dd023dbf98fa89",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": 3.3,
+        "LRA": 0
+      },
+      "G": 2.8000000000000007,
+      "limit": 0.54,
+      "depth": 11.452124803540631,
+      "busy": 5.86800788878362,
+      "out": {
+        "I": -18.3,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
