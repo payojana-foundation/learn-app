@@ -36384,5 +36384,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1r6XDp_5JCunvDvt-O4GliWC-SechwgGt",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៩៨ ទុក្ខសច្ចៈ បិយសម្បយោទុក្ខ អប្បិយទុក្ខ ឥច្ឆិតាលាភទុក្ខ.mp3",
+    "source_md5": "bceefc57668f1ddbcb0cb4d47d855c17",
+    "key": "audio/bceefc57668f1ddb-a64.mp3",
+    "bytes": 42948692,
+    "duration_s": 5368,
+    "sha256": "bda6ec51e0784d54183e62d17e2a919ce3a3a78d1fc1d304406b3c4588316a5e",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "G": 7.799999999999997,
+      "limit": 0.6,
+      "depth": 10.536974992327124,
+      "busy": 4.937087295452217,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
