@@ -41836,5 +41836,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1q3JBm0DLLCxb2r08p3uvjkAcAPCO-vQ_",
+    "drive_name": "50 វចនានុក្រម​ 16 តុលា 2025.mp3",
+    "source_md5": "c6e699e91916d9e3f141b011675cc18a",
+    "key": "audio/c6e699e91916d9e3-a64.mp3",
+    "bytes": 29325104,
+    "duration_s": 3665,
+    "sha256": "0755f5d91b08feeb26a77ff5251381d5dde803fba3c38b4175dc0b9fc4abe982",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 4.199999999999999,
+      "limit": 0.6,
+      "depth": 7.836974992327127,
+      "busy": 4.1995171322566565,
+      "out": {
+        "I": -18.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
