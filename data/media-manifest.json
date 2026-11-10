@@ -26263,5 +26263,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fq34WTBi6VM_Glj1wyfUwfuRsI0589dJ",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៤៩ ចែកសសម្ភារៈជាសុត្តន្តន័យ អាបោ តេជោ វាយោធាតុ.mp3",
+    "source_md5": "390792d6a7bdd8c7a167c37ca4fc19fe",
+    "key": "audio/390792d6a7bdd8c7-a64.mp3",
+    "bytes": 38677985,
+    "duration_s": 4834,
+    "sha256": "d9462e244148d036ee8ef5d042370b61470a5825541cd68d1abee4be87cb7a78",
+    "loudness": {
+      "pass1": {
+        "I": -27.8,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.863025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.632397046352411,
+      "out": {
+        "I": -18.8,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
