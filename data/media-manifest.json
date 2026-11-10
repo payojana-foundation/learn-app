@@ -44475,5 +44475,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SCfSne_lsiUzokA4bgynPnFmToEbW0mT",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 39 អនិច្ចានុបស្សនា ទុក្ខានុបស្សនា.mp3",
+    "source_md5": "8a59b7878638f32a030e2c25442d8b81",
+    "key": "audio/8a59b7878638f32a-a64.mp3",
+    "bytes": 41502345,
+    "duration_s": 5187,
+    "sha256": "51979eca53ca07539ec07cfe5ece60191de51054cd1b63f47212629907c1c485",
+    "loudness": {
+      "pass1": {
+        "I": -17.6,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 0.10000000000000142,
+      "limit": 0.6,
+      "depth": 0.7369749923271289,
+      "busy": 0.12264469182208086,
+      "out": {
+        "I": -18,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
