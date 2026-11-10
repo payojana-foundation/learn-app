@@ -52073,5 +52073,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KpPEGGy0hyU5KW9G-CaxbE0Szf8mC2Ps",
+    "drive_name": "8-ញាណទស្សនៈ.mp3",
+    "source_md5": "28ad9f0101cd5884491f7f1d70fd40e7",
+    "key": "audio/28ad9f0101cd5884-a64.mp3",
+    "bytes": 48247788,
+    "duration_s": 6030,
+    "sha256": "c609b35228ba26a05267f8420059d2dbc6d49e15ef2f5c976f00cb11b2fa446e",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -8,
+        "LRA": 0
+      },
+      "G": 12.099999999999998,
+      "limit": 0.5,
+      "depth": 10.120599913279623,
+      "busy": 8.869663983286216,
+      "out": {
+        "I": -19,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
