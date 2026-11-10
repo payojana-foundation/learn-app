@@ -33977,5 +33977,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Iaf0OpzXl_DAXQ13BAyi0voRd3vx4uiA",
+    "drive_name": "020. វចនានុក្រម 10.10.2024.mp3",
+    "source_md5": "309796e40089e968c23c693800910be9",
+    "key": "audio/309796e40089e968-a64.mp3",
+    "bytes": 23270965,
+    "duration_s": 2908,
+    "sha256": "192c545ba17622fc39eaced507f20aabb8f547ce5041fbf384c431c5150406ee",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 2.799999999999997,
+      "limit": 0.6,
+      "depth": 6.036974992327124,
+      "busy": 3.1482054455445545,
+      "out": {
+        "I": -18.2,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
