@@ -23305,5 +23305,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ut2zoUxzRp76wNvODiBmYn1xcFhvxZyD",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៤០ ទេវតាចិត្តអាក្រក់មាន ៤ ប្រភេទ.mp3",
+    "source_md5": "db9e0b7d4dcdab366544eb698a4f6dac",
+    "key": "audio/db9e0b7d4dcdab36-a64.mp3",
+    "bytes": 44485737,
+    "duration_s": 5560,
+    "sha256": "8c5ba718afe5a8ef81d0a72d0d1de5a416d3b0fdd79779a76c43b57f306aed20",
+    "loudness": {
+      "pass1": {
+        "I": -21.1,
+        "TP": 1.9,
+        "LRA": 0
+      },
+      "G": 4.800000000000001,
+      "limit": 0.6,
+      "depth": 11.13697499232713,
+      "busy": 4.041757332709911,
+      "out": {
+        "I": -18.1,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
