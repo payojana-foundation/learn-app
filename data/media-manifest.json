@@ -19129,5 +19129,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Qd-oN21LwYv6UY0X7vPPr91fnlEkL7vT",
+    "drive_name": "បរិច្ឆេទទី ៨-០៥ អង្គធម៌របស់ឧបនិស្សយប្បច្ច័យ ទីអាស្រ័យដ៏មានកម្លាំង.mp3",
+    "source_md5": "c5fb467f6bc0c3076348fede1f674024",
+    "key": "audio/c5fb467f6bc0c307-a64.mp3",
+    "bytes": 43332379,
+    "duration_s": 5416,
+    "sha256": "8d2c2e0ecd6314525641a36ea3729cc2129743d027acda427b6580725344a7bf",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.803840118157482,
+      "out": {
+        "I": -18.5,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
