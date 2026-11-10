@@ -38994,5 +38994,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1auRl3eZ7BpeFps8QBxlo9qLsxC6_ZSwU",
+    "drive_name": "៩៦ ចែកបច្ច័យ២៤ ជា ៦ ពួក និងសរុបចុះក្នុងបច្ច័យ៤ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "5fc2e733644c757e1788995286d8a8e2",
+    "key": "audio/5fc2e733644c757e-a64.mp3",
+    "bytes": 53633192,
+    "duration_s": 6704,
+    "sha256": "93d9f5c1798b59610906bd88ee4622cd12fdeefc83601f86f4560ac02ea64a0b",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 3.599999999999998,
+      "limit": 0.6,
+      "depth": 7.336974992327125,
+      "busy": 4.63186706642204,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
