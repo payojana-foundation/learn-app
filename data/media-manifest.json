@@ -38849,5 +38849,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_L60zEgTIXJSopQJMmUExbeAhAGKc2RY",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 12 កាយគតាសតិ​ ត្រូវឈ្លាស ២ យ៉ាង ១.ឧគ្គហកោសល្ល ២.មនសិការកោសល្ល.mp3",
+    "source_md5": "4844187c7f609d48191d856d02405670",
+    "key": "audio/4844187c7f609d48-a64.mp3",
+    "bytes": 39939386,
+    "duration_s": 4992,
+    "sha256": "9da1be424f22fe84a17d841e9c390c2b62372d0f12948626845583907c70d03f",
+    "loudness": {
+      "pass1": {
+        "I": -17.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "G": -0.40000000000000213,
+      "limit": 0.6,
+      "depth": 1.0369749923271252,
+      "busy": 0.018778543385946637,
+      "out": {
+        "I": -18,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
