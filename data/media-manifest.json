@@ -47868,5 +47868,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LaDytv9L78DwywB6qYldQAoR7l0Rwq6N",
+    "drive_name": "៣៦ កោសម្ពិយសូត្រទី៧ សារាណីយធម៌ ៦ប្រការភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២.mp3",
+    "source_md5": "7d996acf6b74de572c35ca4c3d05b3a7",
+    "key": "audio/7d996acf6b74de57-a64.mp3",
+    "bytes": 57302874,
+    "duration_s": 7162,
+    "sha256": "d8998a3dc38ce921be6b9de30ffa798ebc2431249ca2425289b1f96e4e7d2598",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 5.9999999999999964,
+      "limit": 0.6,
+      "depth": 10.036974992327124,
+      "busy": 5.531841375988608,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
