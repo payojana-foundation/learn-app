@@ -26176,5 +26176,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12ogOpKDbqf9bv4AQCbXl1I33gNBMRth7",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៦២ បដិកូលមនសិការបព្វៈ ពិចារណាអាការៈ៣២ជាបដិកូល.mp3",
+    "source_md5": "38f47ce40541c45692e8a6b5f86a0561",
+    "key": "audio/38f47ce40541c456-a64.mp3",
+    "bytes": 41415827,
+    "duration_s": 5176,
+    "sha256": "da40e320d85d06cdf26ba599005d29c9b30538c5d66333741bdacbcdf198f4c6",
+    "loudness": {
+      "pass1": {
+        "I": -28.2,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 12.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.053757521320469,
+      "out": {
+        "I": -18.3,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
