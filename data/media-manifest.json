@@ -43808,5 +43808,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RHLmFkLWW_-ETs1YhSQiiTginxGfQh9o",
+    "drive_name": "170.១៧០ ព្រះអរហន្ត ចែកជា ២ ប្រភេទ.mp3",
+    "source_md5": "52cf18c36766272328539f2c06a8cf82",
+    "key": "audio/52cf18c367662723-a64.mp3",
+    "bytes": 44105603,
+    "duration_s": 5513,
+    "sha256": "7f3facc5b9b0ab7a56d91a247f0e59f9ccddfd743b5c3d8fafdbafcc797da46a",
+    "loudness": {
+      "pass1": {
+        "I": -19.2,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 3,
+      "limit": 0.6,
+      "depth": 7.336974992327127,
+      "busy": 6.54707381442551,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
