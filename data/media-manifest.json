@@ -23276,5 +23276,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1G2ArcO0Rwp0d2NnWTaOfekHFikBJbQyv",
+    "drive_name": "បរិច្ឆេទទី ៨-៣៧ បច្ឆាជាតត្ថិប្បច្ច័យ រូបអាហារត្ថិប្បច្ច័យ.mp3",
+    "source_md5": "6eefeec314190e4b9998a3044f2787c9",
+    "key": "audio/6eefeec314190e4b-a64.mp3",
+    "bytes": 42006612,
+    "duration_s": 5250,
+    "sha256": "c84f6e4788ebe0bbc441d7adbf28645a9913779cb3ce658411d1fdee7728119d",
+    "loudness": {
+      "pass1": {
+        "I": -23.7,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.399999999999999,
+      "limit": 0.6,
+      "depth": 11.336974992327125,
+      "busy": 4.680239201645463,
+      "out": {
+        "I": -18.2,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
