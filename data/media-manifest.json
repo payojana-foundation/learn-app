@@ -24204,5 +24204,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1J8-Im_hvXfQDZVHrnAAZ5GtuAkEYJWC-",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៤៨ សតិប្បដ្ឋាន មានត្រឹមតែ៤ ព្រោះហេតុអ្វី.mp3",
+    "source_md5": "a188bcbbc629a17c9053c32d5c010ea1",
+    "key": "audio/a188bcbbc629a17c-a64.mp3",
+    "bytes": 43151194,
+    "duration_s": 5393,
+    "sha256": "89f00d02cb583c89c1d71a9502332e840218a60a445f82c729552514bb5bde8b",
+    "loudness": {
+      "pass1": {
+        "I": -27.6,
+        "TP": -5.3,
+        "LRA": 0
+      },
+      "G": 11.2,
+      "limit": 0.6,
+      "depth": 10.336974992327127,
+      "busy": 5.801514688024324,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
