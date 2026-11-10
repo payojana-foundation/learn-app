@@ -27945,5 +27945,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10O_ilNvE5EjbEwa_ujGdpfd2dsGBgruC",
+    "drive_name": "បរិច្ឆេទទី ៨-៧៤ បច្ឆាជាតប្បច្ច័យ នាមធម៌កើតក្រោយជាបច្ច័យ.mp3",
+    "source_md5": "69d5941d3290de083225b6863d92628d",
+    "key": "audio/69d5941d3290de08-a64.mp3",
+    "bytes": 41056173,
+    "duration_s": 5131,
+    "sha256": "e708d68ff7691c2e39beddc54fb09d4c24f81e79ca7e0f405b4ae1a28cb53398",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 6.099999999999998,
+      "limit": 0.6,
+      "depth": 6.936974992327125,
+      "busy": 4.755212392829306,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
