@@ -19158,5 +19158,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DsatKee3NPnVtOh97lx4b3ZqQXybu0IK",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ០៦ តេជោធាតុ មានសេចក្តី ៣ ប្រការ.mp3",
+    "source_md5": "e5b6cd19a569601afaf97443302b3b9a",
+    "key": "audio/e5b6cd19a569601a-a64.mp3",
+    "bytes": 45936474,
+    "duration_s": 5742,
+    "sha256": "88a1ed08a4a3206c4bd5bf63508794f2d472fe61d972788916a53f550d72dcdc",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 11.100000000000001,
+      "limit": 0.6,
+      "depth": 11.93697499232713,
+      "busy": 6.058811748417377,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
