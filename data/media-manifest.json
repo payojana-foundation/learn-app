@@ -21594,5 +21594,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qah1K2HWtKnKJA3rRaCr0QI6f9gw75uo",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ២៩ ចែកឥន្រ្ទិយ២២ ដោយនាមរូប ដល់អាយតន.mp3",
+    "source_md5": "d16d2f7bd19e4a66cb3ca89bec9ac736",
+    "key": "audio/d16d2f7bd19e4a66-a64.mp3",
+    "bytes": 42623520,
+    "duration_s": 5327,
+    "sha256": "ee6f47937f9e75191c93c2f9fd8a51d3b6ffcf5ec07881bb1f7ff04d26bfb807",
+    "loudness": {
+      "pass1": {
+        "I": -14.6,
+        "TP": 4.3,
+        "LRA": 0
+      },
+      "G": -2.4999999999999982,
+      "limit": 0.6,
+      "depth": 6.236974992327129,
+      "busy": 2.6811689408584995,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
