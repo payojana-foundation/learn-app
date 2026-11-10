@@ -52856,5 +52856,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16T6rChPWNRDsfcl6cPBQVKp8gNEeG5OL",
+    "drive_name": "សិក្សារសតិប្បដ្ឋាន ភាគ២១ (លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញ ថូ ចន្ថា).mp3",
+    "source_md5": "217482e9c6a00e9f6c91389dcd27150f",
+    "key": "audio/217482e9c6a00e9f-a64.mp3",
+    "bytes": 23990064,
+    "duration_s": 2998,
+    "sha256": "7036f37551682d0ef1cb529df22f6f0650d2c07824f6057397b25cd299ca538c",
+    "loudness": {
+      "pass1": {
+        "I": -18,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 2.3000000000000007,
+      "limit": 0.6,
+      "depth": 5.936974992327128,
+      "busy": 5.079284356554507,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
