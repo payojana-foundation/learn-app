@@ -30990,5 +30990,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1BySxBsbBI80oeGjmHD8lN4PBAA1tqh0S",
+    "drive_name": "២១ រាត្រីធម្មទាន_640x360 (1).mp3",
+    "source_md5": "cf4921072300a690454a04b4350a2888",
+    "key": "audio/cf4921072300a690-a64.mp3",
+    "bytes": 9348327,
+    "duration_s": 1168,
+    "sha256": "04a69354eba8bf7befba0f2981c294e9d00edaf86a1d69fe00bac75d7593073a",
+    "loudness": {
+      "pass1": {
+        "I": -16.2,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": -0.6000000000000014,
+      "limit": 0.6,
+      "depth": 3.836974992327126,
+      "busy": 4.517543859649122,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
