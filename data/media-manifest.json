@@ -40067,5 +40067,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yeZfcoEw9FWwvcgmOlw1yA3x7i2CFj8U",
+    "drive_name": "៩៧ រកសភាគបច្ច័យ និងជាតិរបស់បច្ច័យ៩ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "0672c5ce27c74a7b36a723f5ccabe968",
+    "key": "audio/0672c5ce27c74a7b-a64.mp3",
+    "bytes": 42268046,
+    "duration_s": 5283,
+    "sha256": "651604d57f6b8e742105a068da5a9e46b1ca58181328fcdc64292477b58dae7d",
+    "loudness": {
+      "pass1": {
+        "I": -25,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 9,
+      "limit": 0.6,
+      "depth": 9.136974992327128,
+      "busy": 5.239947382865362,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
