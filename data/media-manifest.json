@@ -28989,5 +28989,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1timsiJehCz2tGXloFVK7p0uelfVwDZ5h",
+    "drive_name": "154.១៥៤ កិសណ ១០ អសុភ ១០.mp3",
+    "source_md5": "78afe62f1705e31aec0d5ad03f6c5be1",
+    "key": "audio/78afe62f1705e31a-a64.mp3",
+    "bytes": 56106465,
+    "duration_s": 7013,
+    "sha256": "e30297bc3d67950173461d60ec012e5d586d30bfed57e6883a87d21894cc58b6",
+    "loudness": {
+      "pass1": {
+        "I": -16.8,
+        "TP": 0.8,
+        "LRA": 0
+      },
+      "G": 1.1999999999999993,
+      "limit": 0.6,
+      "depth": 6.436974992327126,
+      "busy": 7.545360567497237,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
