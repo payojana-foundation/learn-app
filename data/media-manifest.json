@@ -19970,5 +19970,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1oQsYSWH-RSg4O-QQ6wba6SHhir7uCf9f",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ១២ យកលោកនរកទាំង ១០.mp3",
+    "source_md5": "c66b78138a88ee07dd7cf85de1c869ce",
+    "key": "audio/c66b78138a88ee07-a64.mp3",
+    "bytes": 44888023,
+    "duration_s": 5610,
+    "sha256": "bf31cfe77c83c39cb29efa24efe83f4477bbfdab29bb9fcbdda24b03fa7a0756",
+    "loudness": {
+      "pass1": {
+        "I": -21,
+        "TP": 0.9,
+        "LRA": 0
+      },
+      "G": 5.699999999999996,
+      "limit": 0.54,
+      "depth": 11.952124803540626,
+      "busy": 5.832122902538786,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
