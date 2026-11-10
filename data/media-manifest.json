@@ -22029,5 +22029,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RZDV_fMpAEsJuhFwB4S7b8A5Yk7xV62p",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ២២ ហទយវត្ថុ បេះដូង.mp3",
+    "source_md5": "cebe7a57e4ff2b1978851ac189b2167c",
+    "key": "audio/cebe7a57e4ff2b19-a64.mp3",
+    "bytes": 48267223,
+    "duration_s": 6033,
+    "sha256": "0a494e192cb09857d84ce9b9a8e0c7d517e098ab63c1a0c0732113bd14c29660",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.4999999999999964,
+      "limit": 0.6,
+      "depth": 10.636974992327124,
+      "busy": 5.644252363943746,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
