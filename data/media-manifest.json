@@ -23508,5 +23508,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1I3Z6Awu6C7KzR9vcXhjm2oPtFVDiYiw8",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៣២ ចិត្ត ២៦ ញុំាងរូប និងឧបត្ថម្ភឥរិយាបថ.mp3",
+    "source_md5": "72fb3c13daf601f60b0548865fca16cf",
+    "key": "audio/72fb3c13daf601f6-a64.mp3",
+    "bytes": 38000892,
+    "duration_s": 4750,
+    "sha256": "5ad02dcedc6c4a131ffb50340f52d34eb6f4583d658c8ad411e3673bed38e12d",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 10.799999999999997,
+      "limit": 0.6,
+      "depth": 10.336974992327125,
+      "busy": 5.912507105113576,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
