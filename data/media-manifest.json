@@ -23247,5 +23247,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qsO5teU0jJxgBfgupizXwLhhJdjX80Eb",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៣០ វចីវិញ្ញត្តិរូប ការកម្រើកវាចា.mp3",
+    "source_md5": "264adf0a750181b9fd3d32ab7414489d",
+    "key": "audio/264adf0a750181b9-a64.mp3",
+    "bytes": 44138413,
+    "duration_s": 5517,
+    "sha256": "c63c5985cd677c690275d34f5f964d6bc5ee3f445bd51d2fef1f783281cd9e6e",
+    "loudness": {
+      "pass1": {
+        "I": -21.8,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 6.399999999999999,
+      "limit": 0.6,
+      "depth": 10.536974992327126,
+      "busy": 6.0340296343286965,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
