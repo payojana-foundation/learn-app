@@ -18781,5 +18781,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1x3Coj3SCRqjxifjTVOESRQ0JYlpdqaKd",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ 03 សង្ឃាតនរក នរកភ្នំភ្លើងកិនឱ្យខ្ទិច.mp3",
+    "source_md5": "aeddb6940dc6d9be4b1847e9cac84052",
+    "key": "audio/aeddb6940dc6d9be-a64.mp3",
+    "bytes": 47433812,
+    "duration_s": 5929,
+    "sha256": "7af58e157c4e302a0a367e4615e5fc144e21143f45a065bd75328ebf827291ea",
+    "loudness": {
+      "pass1": {
+        "I": -18.2,
+        "TP": 2.5,
+        "LRA": 0
+      },
+      "G": 2.099999999999998,
+      "limit": 0.6,
+      "depth": 9.036974992327124,
+      "busy": 3.878685151453822,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
