@@ -44127,5 +44127,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1O1F9ya66hhIvnreGJXXoUwcnn4-SdpBo",
+    "drive_name": "១១១ សង្ខារប្បច្ចយា វិញ្ញាណំ សង្ខារជាបច្ច័យដល់វិញ្ញាណភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "107e4a64f127f7bf55b0a8551b2719b1",
+    "key": "audio/107e4a64f127f7bf-a64.mp3",
+    "bytes": 44247709,
+    "duration_s": 5530,
+    "sha256": "04fb4eef1a61e9691ba489c0157ba5db6db77fdc34199082080a40ad32bd37a8",
+    "loudness": {
+      "pass1": {
+        "I": -22.8,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 7.100000000000001,
+      "limit": 0.6,
+      "depth": 10.93697499232713,
+      "busy": 5.0488614071723665,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
