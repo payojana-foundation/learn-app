@@ -23160,5 +23160,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1R9LQ1MPc2cl1Xp6dQemou95MupbpWCXX",
+    "drive_name": "បរិច្ឆេទទី ៨-៣៦ វត្ថុបុរេជាតត្ថិប្បច្ច័យ វត្ថារម្មណបុរេជាតត្ថិប្បច្ច័យ.mp3",
+    "source_md5": "08f0cb82ce872175a7f871d305979d1c",
+    "key": "audio/08f0cb82ce872175-a64.mp3",
+    "bytes": 41366090,
+    "duration_s": 5170,
+    "sha256": "4ab12f8b71f248117e05ff5baddac27b336ca41bb3da08d906ab87dbbb7d8e6b",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 7.099999999999998,
+      "limit": 0.6,
+      "depth": 10.336974992327125,
+      "busy": 4.751486728230915,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
