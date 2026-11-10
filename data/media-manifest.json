@@ -20956,5 +20956,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Mq_ZJ-BdAk4dBQwkYDy-aFyU-4EO7oCW",
+    "drive_name": "បរិច្ឆេទទី ៨-១៩ ឥន្រ្ទិយប្បច្ច័យ បច្ច័យដោយសភាពជាធំភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "f5be628588e5b49bafd2ede12fdd3b81",
+    "key": "audio/f5be628588e5b49b-a64.mp3",
+    "bytes": 43172718,
+    "duration_s": 5396,
+    "sha256": "5e7971c01f6f7f850d1fe51aa6412aa40ac09f76de522126e58f4029762d5e1f",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 8.3,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 4.737980746958705,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
