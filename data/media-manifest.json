@@ -50710,5 +50710,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pE0Fg3vxMTITaY3uAcILyYw94tVvHtdV",
+    "drive_name": "បិដក ១៤ ភាគ 20.mp3",
+    "source_md5": "d67d3340fa2158dcc6b5a10ce7083378",
+    "key": "audio/d67d3340fa2158dc-a64.mp3",
+    "bytes": 21580738,
+    "duration_s": 2697,
+    "sha256": "d179d4eedc384809aadb85178457555b5a3bfda7cd68a1bc7501fba2f131df5a",
+    "loudness": {
+      "pass1": {
+        "I": -15,
+        "TP": 2,
+        "LRA": 0
+      },
+      "G": -2.3999999999999986,
+      "limit": 0.6,
+      "depth": 4.036974992327129,
+      "busy": 2.5481455394710015,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
