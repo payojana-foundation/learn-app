@@ -56887,5 +56887,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1chxy1IByaYrOc1gzO-aHTV9zKNyKUe9c",
+    "drive_name": "បិដកលេខ២១-០៥ អលគទ្ទូបមសូត្រ ការលះបងតណ្ហា ទិដ្ឋិ មានះ.mp3",
+    "source_md5": "b639a23fc90a868f256bc8b1ab587c7a",
+    "key": "audio/b639a23fc90a868f-a64.mp3",
+    "bytes": 57779765,
+    "duration_s": 7222,
+    "sha256": "0672f31d6464b79ab575cbc8b86beb86405da2a9c0ae53b9ee269530803fdf12",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 5.45452028051423,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
