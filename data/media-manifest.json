@@ -41662,5 +41662,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XKsqFeCAYFf4wzNGguLJLLttDV733DAO",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 23 ចិត្តវិសុទ្ធិ សេចក្តីបរិសុទ្ធិនៃចិត្ត.mp3",
+    "source_md5": "8d8a74b55ccaa6bf626da16ec77376b5",
+    "key": "audio/8d8a74b55ccaa6bf-a64.mp3",
+    "bytes": 20276078,
+    "duration_s": 2534,
+    "sha256": "f384cd27286aaf98d1852d5c7930b31bfa81e77990c98787e8b66cad768c8711",
+    "loudness": {
+      "pass1": {
+        "I": -17.8,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 0.3000000000000007,
+      "limit": 0.6,
+      "depth": 0.9369749923271282,
+      "busy": 0.2880252515289012,
+      "out": {
+        "I": -18,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
