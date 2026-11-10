@@ -27452,5 +27452,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vpLcINWGkMQWea077CFNajWhGH2OrgwC",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៦៩ អាចិណ្ណកម្ម កម្មសន្សំរឿយៗ.mp3",
+    "source_md5": "4d82fecf7ad4620af946a8ed6be6cd25",
+    "key": "audio/4d82fecf7ad4620a-a64.mp3",
+    "bytes": 42668660,
+    "duration_s": 5333,
+    "sha256": "ab5724c30e3675e71a798dba49b8da825d61bf8e60023e778cb8452401ff5d82",
+    "loudness": {
+      "pass1": {
+        "I": -18.1,
+        "TP": 1.5,
+        "LRA": 0
+      },
+      "G": 1.9000000000000021,
+      "limit": 0.6,
+      "depth": 7.8369749923271295,
+      "busy": 4.793242774512286,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
