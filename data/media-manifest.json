@@ -51435,5 +51435,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CjqujHgWRzhwW8jGaGXBDWAsGJ6_Pm-0",
+    "drive_name": "១១.បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត្ត-(មានសម្លេងខាងក្រោយ..កាត់ចេញ).mp4.mp3",
+    "source_md5": "1d869e10595cfba9be26528c293f5c59",
+    "key": "audio/1d869e10595cfba9-a64.mp3",
+    "bytes": 26038691,
+    "duration_s": 3254,
+    "sha256": "c54b9c39f72ddac8ebdeb97cb79a5fd09323ad8827c8e25bda0b48c10033ae57",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "G": 9.899999999999999,
+      "limit": 0.6,
+      "depth": 9.636974992327126,
+      "busy": 4.505269140961042,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
