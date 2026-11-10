@@ -44214,5 +44214,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KOL5rLcaaA8euw4kAnBTeAokYhb3xJRc",
+    "drive_name": "172.១៧២ ចែកលោកុត្តរចិត្តលះបង់កិលេសដូចម្តេចខ្លះ.mp3",
+    "source_md5": "f7bbfec9118032453f4ac9eb54bfc599",
+    "key": "audio/f7bbfec911803245-a64.mp3",
+    "bytes": 39899262,
+    "duration_s": 4987,
+    "sha256": "ad8c3f4ff2d3c0897c89727d947eb36355d3b3d19b94c7517cb6678e5e443269",
+    "loudness": {
+      "pass1": {
+        "I": -19.5,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 3.8000000000000007,
+      "limit": 0.6,
+      "depth": 8.236974992327127,
+      "busy": 7.753867284229099,
+      "out": {
+        "I": -18.1,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
