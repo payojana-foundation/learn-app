@@ -21043,5 +21043,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Jqjk-3svksC_ak9ikLG-LKhViV9ZR_ct",
+    "drive_name": "បរិច្ឆេទទី ៨-២០ ឥន្រ្ទិយប្បច្ច័យ សហជាតិន្រ្ទិយប្បច្ច័យ បញ្ហាវារៈ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨).mp3",
+    "source_md5": "7d0bc63493415d1c70eab615f13b04da",
+    "key": "audio/7d0bc63493415d1c-a64.mp3",
+    "bytes": 42626237,
+    "duration_s": 5328,
+    "sha256": "5482d898edf51c5ebcc67c67e05c8c8d17291405c446faa072b1112966d55dc9",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 11.036974992327128,
+      "busy": 4.285647257542345,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
