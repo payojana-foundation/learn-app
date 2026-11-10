@@ -19622,5 +19622,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HwPej7HLJ5OqsaV-5jURKvETrKrUtCJp",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១៤ មិស្សកសង្គហៈហេតុ ៦.mp3",
+    "source_md5": "72f97a9f40c2ba1238020758c273ec02",
+    "key": "audio/72f97a9f40c2ba12-a64.mp3",
+    "bytes": 42579425,
+    "duration_s": 5322,
+    "sha256": "0cd965fd40bee25e991bc087c623cf762d5fee821ac74dbe1b731febb990bb3a",
+    "loudness": {
+      "pass1": {
+        "I": -17,
+        "TP": 0.9,
+        "LRA": 0
+      },
+      "G": -0.5,
+      "limit": 0.6,
+      "depth": 4.836974992327128,
+      "busy": 2.5298737411693972,
+      "out": {
+        "I": -18.1,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
