@@ -34847,5 +34847,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VP5vfC0BB4f225qBctWHG8qYIPk9KEsB",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៩៦ ទុក្ខសច្ចៈ ជាតិទុក្ខ ជរាទុក្ខ មរណទុក្ខតាមវិសុទ្ធិមគ្គ.mp3",
+    "source_md5": "8e5bf65921c0f058e152941c744f6e18",
+    "key": "audio/8e5bf65921c0f058-a64.mp3",
+    "bytes": 42171497,
+    "duration_s": 5271,
+    "sha256": "5e0a0b0c0a6e96e43810f9fc21a6034c463b659a1174886d346e902a990f0771",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 8.2,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 4.960494365823121,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
