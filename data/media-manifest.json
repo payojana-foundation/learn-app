@@ -19825,5 +19825,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1na4ssJoNxYyuVmOcjOuJuwQlVKkBhZJJ",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ១៦ ឈានង្គៈ អង្គឈាន៧ លះបដិបក្ខធម៌.mp3",
+    "source_md5": "8ca03bd9ef39d2f1d38e10c73a241d7e",
+    "key": "audio/8ca03bd9ef39d2f1-a64.mp3",
+    "bytes": 41486044,
+    "duration_s": 5185,
+    "sha256": "ec0384d1e95315a6006272b89b25ee552f6cb88a97be3b4e0db198ecb8a85f59",
+    "loudness": {
+      "pass1": {
+        "I": -16.8,
+        "TP": 0.7,
+        "LRA": 0
+      },
+      "G": -0.6999999999999993,
+      "limit": 0.6,
+      "depth": 4.436974992327128,
+      "busy": 1.9028289334130397,
+      "out": {
+        "I": -18.1,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
