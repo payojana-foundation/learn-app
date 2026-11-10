@@ -38240,5 +38240,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Tk3eN4pZVnSirt1XMr0CZBgWNyQsbmu7",
+    "drive_name": "32.នាទីវចនានុក្រម_ 13-2-2025.mp3",
+    "source_md5": "c88c4d5e1e8793387fd331278d18d731",
+    "key": "audio/c88c4d5e1e879338-a64.mp3",
+    "bytes": 24926919,
+    "duration_s": 3115,
+    "sha256": "ae15e5968911964399d09fd6a1b623e278cfd22baef16f459acbd710547e9771",
+    "loudness": {
+      "pass1": {
+        "I": -17.7,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 1.1999999999999993,
+      "limit": 0.6,
+      "depth": 5.536974992327126,
+      "busy": 4.123272943177624,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
