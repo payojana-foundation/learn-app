@@ -24842,5 +24842,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1a59kAzKH13CZy9ShH_MKu_xVtHW9NzjC",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៥១ កប្បដែលវិនាសដោយភ្លើង.mp3",
+    "source_md5": "621f19b340a0fd6d093d6db3a493fd4c",
+    "key": "audio/621f19b340a0fd6d-a64.mp3",
+    "bytes": 46320787,
+    "duration_s": 5790,
+    "sha256": "586cbabe65e838a59a5cbf3fcb3397efe0ce05f50048c1952c3be13f79377866",
+    "loudness": {
+      "pass1": {
+        "I": -20.6,
+        "TP": 1.5,
+        "LRA": 0
+      },
+      "G": 4.700000000000003,
+      "limit": 0.6,
+      "depth": 10.63697499232713,
+      "busy": 4.4824742446092865,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
