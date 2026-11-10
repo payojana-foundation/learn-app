@@ -43489,5 +43489,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dAvjnTAS54XTA6cllkFdpGB83mhQ0vq0",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 32 ភយញ្ញាណ ឃើញភ័យ អាទីនវញ្ញាណ ឃើញទោស ភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3",
+    "source_md5": "3a19588ae6bf474d10dfa24f984d7511",
+    "key": "audio/3a19588ae6bf474d-a64.mp3",
+    "bytes": 41377793,
+    "duration_s": 5172,
+    "sha256": "191bb77bcbc4eeedeea91ff7a627d8da83735d7ad9c1d572c7bce4f9da612e77",
+    "loudness": {
+      "pass1": {
+        "I": -17.5,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "G": 0,
+      "limit": 0.6,
+      "depth": 1.9369749923271273,
+      "busy": 0.04906036116159468,
+      "out": {
+        "I": -18,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
