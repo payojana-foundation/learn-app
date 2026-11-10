@@ -39342,5 +39342,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1e0nFO4e-awWBTzx-GAopWdLsBmiITmxm",
+    "drive_name": "៨៥ រាត្រីធម្មទាន April 18-2023_648x360.mp3",
+    "source_md5": "362b36f12890079e655dc952d1e055ad",
+    "key": "audio/362b36f12890079e-a64.mp3",
+    "bytes": 13044131,
+    "duration_s": 1630,
+    "sha256": "840ca25b33c00f1625624bbec2485b750e448841053e0cfa24b79235288a6fb5",
+    "loudness": {
+      "pass1": {
+        "I": -19,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 2.3000000000000007,
+      "limit": 0.6,
+      "depth": 6.436974992327128,
+      "busy": 3.563433407954859,
+      "out": {
+        "I": -18,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
