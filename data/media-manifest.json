@@ -27800,5 +27800,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1b-H8O1k2U-QIyFzGzyeKVeZDYw4S4u43",
+    "drive_name": "បរិច្ឆេទទី ៨-៧៣ បុរេជាតប្បច្ច័យ រកបច្ច័យក្នុងបុរេជាតជាតិប្បច្ច័យភិក្ខុអគ្គចិ.mp3",
+    "source_md5": "e7be7776a88786e7137551d82560bc67",
+    "key": "audio/e7be7776a88786e7-a64.mp3",
+    "bytes": 39027190,
+    "duration_s": 4878,
+    "sha256": "b8cf2686cfe794f6b8904d6606d0701dc015eed7dc431b50c4ecbd5627f8ab4b",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 3.3999999999999986,
+      "limit": 0.6,
+      "depth": 7.336974992327126,
+      "busy": 4.859481177037318,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
