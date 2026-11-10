@@ -48477,5 +48477,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Z2QLUlBs9hfok382M5pDm0KV1aPJvxTG",
+    "drive_name": "14,.) 1Apr2025 Tuesday-004.mp3",
+    "source_md5": "6953dca50a2d28a1ce90391adab6de34",
+    "key": "audio/6953dca50a2d28a1-a64.mp3",
+    "bytes": 37633296,
+    "duration_s": 4704,
+    "sha256": "5e6a238da0adb38e951418e4903565cd82fd1eb63855206f746e8bbb5231fdc2",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "G": 9.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.86065347250271,
+      "out": {
+        "I": -18.8,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
