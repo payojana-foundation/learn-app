@@ -44446,5 +44446,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-43uthAxGdfSlNWUpOaS5ikOUrcOVCWq",
+    "drive_name": "១១៣ សង្ខារប្បច្ចយា វិញ្ញាណំ វិញ្ញាណជាផលរបស់សង្ខារបញ្ចប់ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "bb9d2e13a3bd5a2e13741476a51a3155",
+    "key": "audio/bb9d2e13a3bd5a2e-a64.mp3",
+    "bytes": 44442478,
+    "duration_s": 5555,
+    "sha256": "c1e4c0e5e6b88c0c83399ec82c4eea2bd1267965117e2d9e6756b2154c144a47",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 6.100000000000001,
+      "limit": 0.6,
+      "depth": 10.036974992327128,
+      "busy": 4.999504977228953,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
