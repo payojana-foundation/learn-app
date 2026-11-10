@@ -53320,5 +53320,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14Veeeq4l8nF-SWQC4_QolhH45fHWLmGW",
+    "drive_name": "១៥៨ រាត្រីធម្មទាន_ April 24-2024_648x360.mp3",
+    "source_md5": "fcb87700cd7cb3ebd4c1485c22c90cf8",
+    "key": "audio/fcb87700cd7cb3eb-a64.mp3",
+    "bytes": 13550906,
+    "duration_s": 1693,
+    "sha256": "7d5f8b08d11c18fbf5d091b43f402886e3f2a124c35c08f1a8ac4efff7709e99",
+    "loudness": {
+      "pass1": {
+        "I": -25.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 7.899999999999999,
+      "limit": 0.6,
+      "depth": 8.936974992327126,
+      "busy": 1.5660054315739758,
+      "out": {
+        "I": -18.1,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
