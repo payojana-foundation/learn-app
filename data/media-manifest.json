@@ -18694,5 +18694,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1TKXSPPG2QaOoHAr1KSDsMIMcbP2wktQh",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ០៤ ពាក្យភូតមាន ៧ ន័យ.mp3",
+    "source_md5": "14d659e402b4c9fdf30f189c9d4d4d10",
+    "key": "audio/14d659e402b4c9fd-a64.mp3",
+    "bytes": 36076189,
+    "duration_s": 4509,
+    "sha256": "b2ea4f3e3c92c4c7bb9d58c89587ad5e9ce219edf1a8328ac3808cdefca5c6a3",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -3,
+        "LRA": 0
+      },
+      "G": 10.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.028384521565584,
+      "out": {
+        "I": -18.6,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
