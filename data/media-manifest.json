@@ -33136,5 +33136,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nVkzzPzfsG1SYn6LqdOHQyNtFo_O6hLy",
+    "drive_name": "១២_Buddhism_in_English_by_Ven_Hak_Sienghai_12កាត់ហើយ.mp3",
+    "source_md5": "2bd5763a0a6c4e652b68b0a5706305ae",
+    "key": "audio/2bd5763a0a6c4e65-a64.mp3",
+    "bytes": 4949097,
+    "duration_s": 618,
+    "sha256": "c3c3f19b744364b9e77d681298d5c2d18b54aa03856f8fa7a56addf50acf3907",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -5.3,
+        "LRA": 0
+      },
+      "G": 9.5,
+      "limit": 0.6,
+      "depth": 8.636974992327128,
+      "busy": 3.9908664726802456,
+      "out": {
+        "I": -18.1,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
