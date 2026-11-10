@@ -46360,5 +46360,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1O_AGE5enXmHjfIlqiFEXm8cu_xxNyf51",
+    "drive_name": "បិដកលេខ១៩ 09 អាដានាដិយសូត្រ សេនារបស់ស្តេចចតុលោកបាល.mp3",
+    "source_md5": "43fd499abc19a3f4628c8f8ac8b92084",
+    "key": "audio/43fd499abc19a3f4-a64.mp3",
+    "bytes": 384774,
+    "duration_s": 48,
+    "sha256": "ff4b137e0f0e7090dd402177b8e2b5d8bbb3dfb8d316812abce97554ac61e762",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -12.8,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.5369749923271252,
+      "busy": 0.7544224765868887,
+      "out": {
+        "I": -18,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
