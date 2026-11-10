@@ -52015,5 +52015,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Qi3t8Fi_yevHwdmsf5licOi7ddSJhPx0",
+    "drive_name": "១៣៩ រាត្រីធម្មទាន_ July 9-2023_648x360.mp3",
+    "source_md5": "e912747d41f99ea822120645ca603b29",
+    "key": "audio/e912747d41f99ea8-a64.mp3",
+    "bytes": 13261469,
+    "duration_s": 1657,
+    "sha256": "aa7dda0c6676c0a1bbf3db5427bcfd80d7aefb962e65735e0742d6bfeabf8fb7",
+    "loudness": {
+      "pass1": {
+        "I": -21,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.8000000000000007,
+      "limit": 0.6,
+      "depth": 7.836974992327129,
+      "busy": 2.0081138961783247,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
