@@ -18636,5 +18636,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jgeIN5VK8L7XpWoIjvynN8WKxEDnPbxm",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ 02 និយមន័យនរក ឬនិរយ.mp3",
+    "source_md5": "1899e2a367d506b5b87cbb081db008ff",
+    "key": "audio/1899e2a367d506b5-a64.mp3",
+    "bytes": 47486266,
+    "duration_s": 5935,
+    "sha256": "87808c0ff7a98a280dd56825d762018418426a87457c00cff7c0a22c1b884435",
+    "loudness": {
+      "pass1": {
+        "I": -18.6,
+        "TP": 1.3,
+        "LRA": 0
+      },
+      "G": 3.0000000000000036,
+      "limit": 0.6,
+      "depth": 8.73697499232713,
+      "busy": 4.64915975234806,
+      "out": {
+        "I": -18.2,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
