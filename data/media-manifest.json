@@ -27075,5 +27075,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1k9-gTELNycxzu2yEm6QV-bUDpIZ-s5cP",
+    "drive_name": "បរិច្ឆេទទី ៨-៦៦ បកតូបនិស្សយប្បច្ច័យ អកុសលជាបច្ច័យដល់កុសល.mp3",
+    "source_md5": "1c6a3bde0aaa872e634c547e4e9ce7aa",
+    "key": "audio/1c6a3bde0aaa872e-a64.mp3",
+    "bytes": 42212666,
+    "duration_s": 5276,
+    "sha256": "ba5cc0eb3c73e92feb8abbde601b98c79e4e1d82e4b9d095e41cf9ccf5499ead",
+    "loudness": {
+      "pass1": {
+        "I": -25.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 9.700000000000003,
+      "limit": 0.6,
+      "depth": 11.93697499232713,
+      "busy": 5.191365570306355,
+      "out": {
+        "I": -18.1,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
