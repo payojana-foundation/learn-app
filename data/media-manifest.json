@@ -20579,5 +20579,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pdkaLsMMenkRE7BWkI30WVA6O4OLYp3X",
+    "drive_name": "បរិច្ឆេទទី ៨-១៦ អាហារប្បច្ច័យ រូបអាហារប្បច្ច័យចែកតាមសមុដ្ឋាន៤.mp3",
+    "source_md5": "ff5d002e293975734810d27532019e4f",
+    "key": "audio/ff5d002e29397573-a64.mp3",
+    "bytes": 40895677,
+    "duration_s": 5111,
+    "sha256": "36b021861e7879577a878a2471f86c7d3cdd1e9a6ee97610d670e28837f0c03b",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 5,
+      "limit": 0.6,
+      "depth": 8.936974992327126,
+      "busy": 3.979401206975812,
+      "out": {
+        "I": -18.2,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
