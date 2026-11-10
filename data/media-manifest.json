@@ -29917,5 +29917,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fBm6kXVSFwA_2-kNI2IwMf-iCc42IGL3",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៨៧ ធម្មានុបស្សនា ខន្ធបព្វៈ ពន្យល់៥ ជាបន្តតាមមហាដីកា.mp3",
+    "source_md5": "ac0b128b5f2f1f581875f45be9918011",
+    "key": "audio/ac0b128b5f2f1f58-a64.mp3",
+    "bytes": 42149345,
+    "duration_s": 5268,
+    "sha256": "bc1622f015f102b9aadbe60facfcefef4eb53621e0b4dba68e2c49a610678a48",
+    "loudness": {
+      "pass1": {
+        "I": -22.8,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 6.5,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 4.716103745741319,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
