@@ -27162,5 +27162,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yzo7z8lSDGDNn6qoz7ct49AOGBX365II",
+    "drive_name": "136.១៣៦ ឧបមារបស់សីលផ្សេងៗ.mp3",
+    "source_md5": "8eec7f11293aa0853dd508e824075701",
+    "key": "audio/8eec7f11293aa085-a64.mp3",
+    "bytes": 42482250,
+    "duration_s": 5310,
+    "sha256": "82f43a3be8604d9b718325feeaa7757771063cc1da0a2b8abcf0ecc35a685c9d",
+    "loudness": {
+      "pass1": {
+        "I": -10.6,
+        "TP": 2.6,
+        "LRA": 0
+      },
+      "G": -7.000000000000002,
+      "limit": 0.6,
+      "depth": 0.0369749923271252,
+      "busy": 0,
+      "out": {
+        "I": -18,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
