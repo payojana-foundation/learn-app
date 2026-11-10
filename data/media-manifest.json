@@ -25741,5 +25741,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1BxHQ8mrJSt5EuSo-hXbSfdyuNGKvvh75",
+    "drive_name": "បរិច្ឆេទទី ៨-៥៦ រម្លឹកបកតូបនិស្សយប្បច្ច័យ សីល សុត ចាគបញ្ញាជាបច្ច័យ.mp3",
+    "source_md5": "bdfa3e26fcb742ced5ed14e7768131c0",
+    "key": "audio/bdfa3e26fcb742ce-a64.mp3",
+    "bytes": 41596176,
+    "duration_s": 5199,
+    "sha256": "2ed79933e07ad039be67d2c0485adf6edddf618925066219a827a816f5c5de0f",
+    "loudness": {
+      "pass1": {
+        "I": -24.5,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 8.663025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.104096547744976,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
