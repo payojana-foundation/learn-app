@@ -49144,5 +49144,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15aB5e8Onf8CVaXx0BqBOG9MAxirUaNhd",
+    "drive_name": "12-18 តុលា_ 2025 បិតកលេខ១៥.mp3.mp3",
+    "source_md5": "5e62335f2f1566f463f24b18b131d91b",
+    "key": "audio/5e62335f2f1566f4-a64.mp3",
+    "bytes": 21445528,
+    "duration_s": 2680,
+    "sha256": "6ca524a9149771dc979e6787aba4b3f0ff26c75d5e7784d90fe1e111a67898fd",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6.5,
+        "LRA": 0
+      },
+      "G": 9.900000000000002,
+      "limit": 0.6,
+      "depth": 7.8369749923271295,
+      "busy": 3.70525805308414,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
