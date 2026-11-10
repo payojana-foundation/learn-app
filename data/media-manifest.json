@@ -26321,5 +26321,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yryxzRMZ5ohOrD-7NHB9eTHKjjz4SefX",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៦៣ បដិកូលមនសិការបព្វៈ ឧគ្គហកោសល្យ ៧ ប្រការ.mp3",
+    "source_md5": "2d1c5eae02359fc6bad26339cd5b718e",
+    "key": "audio/2d1c5eae02359fc6-a64.mp3",
+    "bytes": 41227745,
+    "duration_s": 5153,
+    "sha256": "f94f25c51ada646c70660115384cf286d2519f18d06359e8f29b11a4ada6ed46",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -5.6,
+        "LRA": 0
+      },
+      "G": 11.7,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 6.355693758550098,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
