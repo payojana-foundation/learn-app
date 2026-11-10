@@ -20289,5 +20289,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_zfdGrEj34uldRu9GTXMuByiMBnrBw9u",
+    "drive_name": "92.៩២ សរុបបញ្ចប់អកុសលកម្មបថ១០.mp3",
+    "source_md5": "69fb542ba6646ddb073e16f67f83712e",
+    "key": "audio/69fb542ba6646ddb-a64.mp3",
+    "bytes": 38337558,
+    "duration_s": 4792,
+    "sha256": "2ee60dcdc67f987025b188f1d79183024c4af966b395dab5ba1fc2bd5a731499",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 5.299999999999997,
+      "limit": 0.6,
+      "depth": 9.636974992327126,
+      "busy": 5.103398265914047,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
