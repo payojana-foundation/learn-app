@@ -20231,5 +20231,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1AKIt4iCXbDj33Bf2IRDoyNVJlUCsY3HO",
+    "drive_name": "បរិច្ឆេទទី ៨-១៣ ពន្យល់នានក្ខណិកកម្មប្បច្ច័យ បច្ច័យក្នុងខណៈផ្សេងៗ.mp3",
+    "source_md5": "c1f4f36c29b8da3c8b01c4cc81b01578",
+    "key": "audio/c1f4f36c29b8da3c-a64.mp3",
+    "bytes": 42412033,
+    "duration_s": 5301,
+    "sha256": "e4969001c13160ad8fd6e07c355ca5c5bfbc0941660b42ad0ba6ad8dca24c7bc",
+    "loudness": {
+      "pass1": {
+        "I": -23.5,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "G": 7.800000000000001,
+      "limit": 0.6,
+      "depth": 10.336974992327129,
+      "busy": 5.036357977534448,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
