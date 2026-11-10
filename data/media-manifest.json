@@ -33803,5 +33803,63 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GNivymEf9U6g8Y0T7L5oJ8NELIgI09RF",
+    "drive_name": "19 នាទីធម្មចរិយា.mp3",
+    "source_md5": "8f6a4592a3bcb5e6c6cb76b6210086d0",
+    "key": "audio/8f6a4592a3bcb5e6-a64.mp3",
+    "bytes": 23752454,
+    "duration_s": 2968,
+    "sha256": "dc29c9ca1639d4ac4c7bfe6db4ab65505b7dd66c3cc4aa594722071feaccd431",
+    "loudness": {
+      "pass1": {
+        "I": -18.1,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 1,
+      "limit": 0.6,
+      "depth": 5.236974992327127,
+      "busy": 2.8843886830582686,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HjmlxZWbckxw4gmG4TDbSOSfgJkN-_z7",
+    "drive_name": "18 នាទីធម្មចរិយា.mp3",
+    "source_md5": "64eb8936380aafb9a802c9d12d39789a",
+    "key": "audio/64eb8936380aafb9-a64.mp3",
+    "bytes": 30915438,
+    "duration_s": 3864,
+    "sha256": "34dddbafb7310d44d980183da6f751dd6c435f7dde3c541dd0764dfec017011b",
+    "loudness": {
+      "pass1": {
+        "I": -19.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 2.5,
+      "limit": 0.6,
+      "depth": 4.736974992327127,
+      "busy": 3.5707816320985417,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
