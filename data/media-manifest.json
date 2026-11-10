@@ -25393,5 +25393,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zGGoLDb6n3DCMBKonecM0HWwLY9_k2Q5",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៤៣  រូបសមុដ្ឋាន ចិត្តជ្ជរូប ១៥.mp3",
+    "source_md5": "925fa202dc3bc99bf536b345bfb2b24e",
+    "key": "audio/925fa202dc3bc99b-a64.mp3",
+    "bytes": 37739667,
+    "duration_s": 4717,
+    "sha256": "0cd93b78a296ef790bdb1e759eab3795d4a132bd536448b077e12e361631696b",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.799999999999997,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 6.432833764361725,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
