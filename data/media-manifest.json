@@ -35717,5 +35717,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KKoIIZ1g2v6y3A_Bvnv5SVR9tioZ2mN0",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៩៧ សច្ចបព្វៈ សោក បរិទេវ ទុក្ខទុក្ខ ឧបាយាស អប្បិយសម្បយោគទុក្ខ.mp3",
+    "source_md5": "98097e906a9514c68758a9a93025537c",
+    "key": "audio/98097e906a9514c6-a64.mp3",
+    "bytes": 43195079,
+    "duration_s": 5399,
+    "sha256": "ab7f14b7f8bf039ef41f06dd77319ddc2672ba3404a358676e53e9bda479d7d9",
+    "loudness": {
+      "pass1": {
+        "I": -25.1,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "G": 9.3,
+      "limit": 0.6,
+      "depth": 11.936974992327128,
+      "busy": 6.126200375971182,
+      "out": {
+        "I": -18.1,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
