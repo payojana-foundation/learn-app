@@ -23827,5 +23827,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qIOSAz418ZUxJlR_Unbjk3v8O8i4DRs3",
+    "drive_name": "114.១១៤ ហេតុនាំឲ្យកើតកុសលញាណសម្បយុត្តចិត្ត.mp3",
+    "source_md5": "5a2ed5403a1baa73c3ea0b8ffb84ea69",
+    "key": "audio/5a2ed5403a1baa73-a64.mp3",
+    "bytes": 35017499,
+    "duration_s": 4377,
+    "sha256": "8ccaeb83031b3325aa3dbe2708b452f95dfaa99667f9ddf97a779d24cbe48bdb",
+    "loudness": {
+      "pass1": {
+        "I": -18.7,
+        "TP": 1.9,
+        "LRA": 0
+      },
+      "G": 2.1999999999999993,
+      "limit": 0.6,
+      "depth": 8.536974992327128,
+      "busy": 4.283894771712188,
+      "out": {
+        "I": -18.1,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
