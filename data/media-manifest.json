@@ -34180,5 +34180,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SjnTJmgUgeXvr9w7th_zSREP7dHl63Xd",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៩៥ សច្ចបព្វៈ ហេតុអ្វីអរិយសច្ចៈ មានត្រឹមតែ៤.mp3",
+    "source_md5": "ff1fda9b63e90b03b2f16287ed84461c",
+    "key": "audio/ff1fda9b63e90b03-a64.mp3",
+    "bytes": 42123850,
+    "duration_s": 5265,
+    "sha256": "b639368c9775e8d7f599b473dc1945f411110762d6ac1a44dcf9a1dbe72a84ff",
+    "loudness": {
+      "pass1": {
+        "I": -24.7,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "G": 8.5,
+      "limit": 0.6,
+      "depth": 10.136974992327128,
+      "busy": 5.7193592190601,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
