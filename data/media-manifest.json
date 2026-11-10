@@ -22000,5 +22000,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "187MS_M0uXKBNTrCVLZGLRfvUnkggvyI3",
+    "drive_name": "103.១០៣ អហេតុកកិរិយាចិត្ត​៣ដួង.mp3",
+    "source_md5": "9b3519e8ff99bc569737992a741dab5e",
+    "key": "audio/9b3519e8ff99bc56-a64.mp3",
+    "bytes": 46330609,
+    "duration_s": 5791,
+    "sha256": "81f1083d6dd709a50d7b030111dc06fd7f7330d123b62ccfb158531461ea075f",
+    "loudness": {
+      "pass1": {
+        "I": -20.3,
+        "TP": 2.2,
+        "LRA": 0
+      },
+      "G": 4.199999999999999,
+      "limit": 0.6,
+      "depth": 10.836974992327127,
+      "busy": 4.908482624649255,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
