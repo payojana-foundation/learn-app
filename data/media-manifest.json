@@ -44156,5 +44156,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CAdGbyy0Kh2eBsJiB0v66cGLrd5R-eSc",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 36 គោត្រភូនិងមគ្គញ្ញាណ ផលញ្ញាណ.mp3",
+    "source_md5": "4a80d1bbf590a18cbaf984adc707dae4",
+    "key": "audio/4a80d1bbf590a18c-a64.mp3",
+    "bytes": 37855651,
+    "duration_s": 4731,
+    "sha256": "650204c179b5b3ecc578de543b1afc87650b99909395b2dcbc6d22a7d467dfe8",
+    "loudness": {
+      "pass1": {
+        "I": -17.6,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "G": 0.10000000000000142,
+      "limit": 0.6,
+      "depth": 2.136974992327129,
+      "busy": 0.06287115112322746,
+      "out": {
+        "I": -18,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
