@@ -33426,5 +33426,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1UOpU87opOnfo7hUfcVNo7nq2epZvq4MN",
+    "drive_name": "018.វចនានុក្រម 12 កញ្ញា_ 2024.mp3",
+    "source_md5": "c7bb22f9690556a5e7f9cb43de1df25a",
+    "key": "audio/c7bb22f9690556a5-a64.mp3",
+    "bytes": 26220294,
+    "duration_s": 3277,
+    "sha256": "771da5ecde8e230360299f701d090732227d7c1eb35df5d2b004936745c7ec61",
+    "loudness": {
+      "pass1": {
+        "I": -20,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 3.1999999999999993,
+      "limit": 0.6,
+      "depth": 6.936974992327126,
+      "busy": 3.676964149504195,
+      "out": {
+        "I": -18.1,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
