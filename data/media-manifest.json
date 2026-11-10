@@ -54654,5 +54654,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1V-wM9q48iuAQSt2DPUhlq14PqsJRbFJy",
+    "drive_name": "៣៤.បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត្ត( នាទី 11:56 មេរៀននេះជាប់សម្លេងត្រេត...ប្រើអេ អាយជួយលុបចេញ).mp3",
+    "source_md5": "5a8511c6ea796430365995c7e1d0c302",
+    "key": "audio/5a8511c6ea796430-a64.mp3",
+    "bytes": 23341600,
+    "duration_s": 2917,
+    "sha256": "35b86cbaa2e2c01058eddf3e875e3755867098d9f5817587d00ff9a85fab88bf",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "G": 9.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.210906037393108,
+      "out": {
+        "I": -18.6,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
