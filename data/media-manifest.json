@@ -21072,5 +21072,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1y0hpd7U9cxF98qeVL55O_OKZEWYexgsH",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ២៥ អធិប្បាយចក្ខុន្រ្ទិយដល់សោមនស្សិន្រ្ទិយ.mp3",
+    "source_md5": "d831dc4c9424eda60463e0501d0e3510",
+    "key": "audio/d831dc4c9424eda6-a64.mp3",
+    "bytes": 43077633,
+    "duration_s": 5384,
+    "sha256": "e029bb7d5ae9be0aa27d7af7fa6c208567f92f911792e7423038f6b7f29355fa",
+    "loudness": {
+      "pass1": {
+        "I": -14.2,
+        "TP": 4,
+        "LRA": 0
+      },
+      "G": -2.1000000000000014,
+      "limit": 0.54,
+      "depth": 7.252124803540628,
+      "busy": 4.024634841633161,
+      "out": {
+        "I": -18.1,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
