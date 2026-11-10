@@ -25335,5 +25335,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rKJxAYkJBGqb2Rm6USpYWcj29FDum-mH",
+    "drive_name": "123.១២៣ អានិស្សនៃការធ្វើទានផ្សេងៗ.mp3",
+    "source_md5": "ab7b90c73049eb8d4bf6e568a1472cb2",
+    "key": "audio/ab7b90c73049eb8d-a64.mp3",
+    "bytes": 54372980,
+    "duration_s": 6796,
+    "sha256": "6d1363ec50865425ff558ab2ae89408204c5b4177b8d5fc2b55d9e6e22126e90",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": 2.2,
+        "LRA": 0
+      },
+      "G": 3.799999999999997,
+      "limit": 0.6,
+      "depth": 10.436974992327125,
+      "busy": 5.069262572462702,
+      "out": {
+        "I": -18.2,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
