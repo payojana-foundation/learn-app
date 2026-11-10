@@ -35079,5 +35079,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Gxg9_loAwdxbn3l1WVWAP_LPZEeWl4t3",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 05 អធិប្បយកសិណ ១០ យ៉ាង.mp3",
+    "source_md5": "b43747b86550131906bb8c6037dd432d",
+    "key": "audio/b43747b865501319-a64.mp3",
+    "bytes": 35202237,
+    "duration_s": 4400,
+    "sha256": "e37f32eb60cb8d699cca6da446dffbbce527da5ead2a5186326dfa9159120bbf",
+    "loudness": {
+      "pass1": {
+        "I": -17.4,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": -0.20000000000000284,
+      "limit": 0.6,
+      "depth": 2.1369749923271244,
+      "busy": 0.015055962729390375,
+      "out": {
+        "I": -18,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
