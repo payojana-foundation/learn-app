@@ -21971,5 +21971,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yZHPSPOxBUQfrdsZUJx74CmGXAgoCSP7",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៣២ ពលៈ ៩ យ៉ាង សទ្ធាពល វីរិយពលៈ.mp3",
+    "source_md5": "22b09592ed134cf58fd33c9c08f73768",
+    "key": "audio/22b09592ed134cf5-a64.mp3",
+    "bytes": 42057812,
+    "duration_s": 5257,
+    "sha256": "7d9702e0b8196c8d68023043a40627f4c742fdbf0057a82d6805c3865195c1bb",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -5,
+        "LRA": 0
+      },
+      "G": 11.3,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 6.294225062771057,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
