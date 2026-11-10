@@ -22261,5 +22261,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15z0JOmQW4fyHT3BlZWZdA0WZFwfUMp6B",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ២៤ ជីវិតរូប រូបរក្សាកម្មជ្ជរូប.mp3",
+    "source_md5": "036fcb357681527f1aca57ac4b6a95b2",
+    "key": "audio/036fcb357681527f-a64.mp3",
+    "bytes": 43718991,
+    "duration_s": 5464,
+    "sha256": "2404ab0558b535647105e41ed183c02e16fcf9a043ce89f82fa5854200e3d22c",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 6.899999999999999,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 5.555962194753745,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
