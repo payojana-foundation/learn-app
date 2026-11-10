@@ -50391,5 +50391,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WrX0Fiw3XjXcuKAY6BX78fanJkWitpcu",
+    "drive_name": "18-_១២ កក្កដា ២០២៥ នាទីធម្មចរិយា សិក្សាបិដកលេខ១៤សុត្តន្តបិដក ទីឃនិកាយ បឋមភាគ សីលក្ខន្ធវគ្គសូមអនុមោទនា!.mp3",
+    "source_md5": "373a6ec4436e363dc0ea85555db1a413",
+    "key": "audio/373a6ec4436e363d-a64.mp3",
+    "bytes": 19756555,
+    "duration_s": 2469,
+    "sha256": "8dbc7978ec78b16bc267ac0fa7a5418ec8b1fd04a5b7f6a935e68a04b415311b",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -10.9,
+        "LRA": 0
+      },
+      "G": 9.100000000000001,
+      "limit": 0.6,
+      "depth": 2.6369749923271284,
+      "busy": 3.1184831244558726,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
