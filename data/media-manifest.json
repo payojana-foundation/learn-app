@@ -30642,5 +30642,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Vuuruh6E1xcN56WadJAjsK64k0_5ozmD",
+    "drive_name": "៨៤ រម្លឹកវត្ថុបុរេជាតិន្រ្ទិយ និងសហជាតិន្រ្ទិយប្បច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "db235fe7c1aa2ba6f86031c65a9c7cdd",
+    "key": "audio/db235fe7c1aa2ba6-a64.mp3",
+    "bytes": 41923438,
+    "duration_s": 5240,
+    "sha256": "fe5db69e9fc0e67e5ab07e74943bd6cc0a1a5089592d818327b0cf8df73ecb93",
+    "loudness": {
+      "pass1": {
+        "I": -19.7,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 2.9999999999999964,
+      "limit": 0.6,
+      "depth": 7.036974992327124,
+      "busy": 5.3917639874818715,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
