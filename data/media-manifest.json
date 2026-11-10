@@ -39284,5 +39284,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11vb-mV0Fh8wKsVQdMB6XulZNh1z4Tsc-",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 13 កាយគតាសតិ រលឹកកាយភាគ ៣.mp3",
+    "source_md5": "14baa2ca181c1287fcf3ce3724291460",
+    "key": "audio/14baa2ca181c1287-a64.mp3",
+    "bytes": 41961264,
+    "duration_s": 5245,
+    "sha256": "456004aaebab3cfde9c052f19ebe479d031e5bdee68a19d0db94743011065ec3",
+    "loudness": {
+      "pass1": {
+        "I": -17.4,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": -0.20000000000000284,
+      "limit": 0.6,
+      "depth": 2.1369749923271244,
+      "busy": 0.036939238527387466,
+      "out": {
+        "I": -18,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
