@@ -59149,5 +59149,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1eM7gdGr5tpPIhFOQZw6DD-rsWHrLB7ta",
+    "drive_name": "21.វិនយបិដកេ មហាវគ្គបាឡិ ភាគ២១ (ព្រះអង្គគ្រូ ពុទ្ធង្កុរ ភុល ណារិន).mp3",
+    "source_md5": "e75936344207fe7a696f65ca6c65392c",
+    "key": "audio/e75936344207fe7a-a64.mp3",
+    "bytes": 41117404,
+    "duration_s": 5139,
+    "sha256": "6421c1af2c3b0bee58c6ffb0ea8b978f07d3265e7d8d88c6ff1e8a060ec74fcb",
+    "loudness": {
+      "pass1": {
+        "I": -21.3,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 5.829433910869417,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
