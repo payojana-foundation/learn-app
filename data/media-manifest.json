@@ -35195,5 +35195,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "141Yv8wtcj3dqfkksxm5dK3RnHaUus5w0",
+    "drive_name": "24 នាទីថម្មចរិយា.mp3",
+    "source_md5": "a7db3797a128b74f2dcd3fdbaea674d5",
+    "key": "audio/a7db3797a128b74f-a64.mp3",
+    "bytes": 23770844,
+    "duration_s": 2971,
+    "sha256": "c9c295362c31aa4db546ee226ec726d7835cadc0e33e4d89ca72fca7051b70f8",
+    "loudness": {
+      "pass1": {
+        "I": -17.3,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 0.10000000000000142,
+      "limit": 0.6,
+      "depth": 4.436974992327129,
+      "busy": 2.847659273718574,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
