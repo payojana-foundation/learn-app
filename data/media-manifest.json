@@ -20666,5 +20666,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1T7zjUVZA99czXJbHzpofwI5Y73UhxfHz",
+    "drive_name": "94.៩៤ ចក្ខុវិញ្ញាណជាអកុសលវិបាក១ដួង.mp3",
+    "source_md5": "7d9cd3b605cf252a265486ef7484b378",
+    "key": "audio/7d9cd3b605cf252a-a64.mp3",
+    "bytes": 50380007,
+    "duration_s": 6297,
+    "sha256": "784e25b233d77378a1c46024802eee63290c0e965c90b617fc61adf24649ba67",
+    "loudness": {
+      "pass1": {
+        "I": -22.2,
+        "TP": 0.7,
+        "LRA": 0
+      },
+      "G": 6.8630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.181875203455367,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
