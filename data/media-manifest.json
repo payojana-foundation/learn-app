@@ -26495,5 +26495,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "160fDe8AQAUbPlqXa3IVRn5KyuamYNtsn",
+    "drive_name": "បរិច្ឆេទទី ៨-៦២ បកតូបនិស្សយប្បច្ច័យ បញ្ហាវារៈទី៣កុសលដល់អព្យាកត.mp3",
+    "source_md5": "d56621f91552bc56f7056843059d5939",
+    "key": "audio/d56621f91552bc56-a64.mp3",
+    "bytes": 41875791,
+    "duration_s": 5234,
+    "sha256": "58b5a81616577857f3014d18ff301cccc0e6b3abcc890a0b2e05cd47a6779eb6",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "G": 8.099999999999998,
+      "limit": 0.6,
+      "depth": 10.736974992327125,
+      "busy": 4.147522662361853,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
