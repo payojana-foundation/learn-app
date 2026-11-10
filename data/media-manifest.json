@@ -29511,5 +29511,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SLabCylJgxsrI0EFRECWOJ0OW69Dst9D",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៨៦ ធម្មានុបស្សនា ខន្ធបព្វៈ ពន្យល់ខន្ធដោយអាការ២.mp3",
+    "source_md5": "4f0576f1f8fb6270e2bfad833a0c915d",
+    "key": "audio/4f0576f1f8fb6270-a64.mp3",
+    "bytes": 43158090,
+    "duration_s": 5394,
+    "sha256": "d9d7b9d1850e1a8031f0129f1ce015dab01aed8bea8eec0d29e56ea3aad5d609",
+    "loudness": {
+      "pass1": {
+        "I": -27.8,
+        "TP": -5.7,
+        "LRA": 0
+      },
+      "G": 11.399999999999999,
+      "limit": 0.6,
+      "depth": 10.136974992327126,
+      "busy": 5.721303118772881,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
