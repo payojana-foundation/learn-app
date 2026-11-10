@@ -58540,5 +58540,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1utzjC_27h2me8uC1LDAoP-uCbsnjoF_k",
+    "drive_name": "បិដកលេខ២១-២២ មហាហត្ថិបទោបមសូត្រ កុសលណាមួយប្រជុំចុះក្នុងសច្ចៈ៤.mp3",
+    "source_md5": "c00648c373ea0171e908f8353c92692d",
+    "key": "audio/c00648c373ea0171-a64.mp3",
+    "bytes": 53535598,
+    "duration_s": 6691,
+    "sha256": "82c3135e4615dd23ccf469b64a24bbc8c5d3fa6d2e3b8748c5564d718eb76a7f",
+    "loudness": {
+      "pass1": {
+        "I": -23.5,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 4.807304353023805,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
