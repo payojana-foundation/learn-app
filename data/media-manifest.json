@@ -38356,5 +38356,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Z-JQlJaoH11hVnHNFvbIrpZuf2lcXw_x",
+    "drive_name": "បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 11 កាយគតាសតិ រលឹកដល់អាការៈ ៣២ ប្រការ.mp3",
+    "source_md5": "7f1305fa08d25c8c195f69148861a1dd",
+    "key": "audio/7f1305fa08d25c8c-a64.mp3",
+    "bytes": 40994733,
+    "duration_s": 5124,
+    "sha256": "ee89dd77ac7d3cd3c0829e0f1036a68c0668b91ecc4779a39e1e9d0b130dedf1",
+    "loudness": {
+      "pass1": {
+        "I": -17.4,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": -0.20000000000000284,
+      "limit": 0.6,
+      "depth": 1.0369749923271243,
+      "busy": 0.00731807271237047,
+      "out": {
+        "I": -18,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
