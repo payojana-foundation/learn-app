@@ -22957,5 +22957,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19a2VkPkWNg35b01-JwvVVbjWIt9mqVhX",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៣៩ ភ័យក្នុងអាហារ៤ ប្រៀបដូចពុកម្តាយស៊ីសាច់កូន.mp3",
+    "source_md5": "1fd0710a47f5625b1ac4f30ec7a99874",
+    "key": "audio/1fd0710a47f5625b-a64.mp3",
+    "bytes": 40603732,
+    "duration_s": 5075,
+    "sha256": "77e8ab423d8dc781cb3e05ed0e4b92b259038a4031445d007576a5b4359901ca",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": 7.199999999999999,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 6.221123250155158,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
