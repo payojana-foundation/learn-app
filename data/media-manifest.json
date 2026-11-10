@@ -21188,5 +21188,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1z3NLVUUdcqOTHgpV_4Y6H-xTwUccJXdU",
+    "drive_name": "98.៩៨ អកុសលវិបាកទុក្ខសហគតកាយវិញ្ញាណ.mp3",
+    "source_md5": "57e42e7e2e42ea41344709a388ab5d6d",
+    "key": "audio/57e42e7e2e42ea41-a64.mp3",
+    "bytes": 40775932,
+    "duration_s": 5096,
+    "sha256": "9f1b19d537528a5b3fcab30cabba648a2059c81af856beb4cabeb655a9fe7051",
+    "loudness": {
+      "pass1": {
+        "I": -19.1,
+        "TP": 1.3,
+        "LRA": 0
+      },
+      "G": 3.1000000000000014,
+      "limit": 0.6,
+      "depth": 8.836974992327129,
+      "busy": 4.924268435044487,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
