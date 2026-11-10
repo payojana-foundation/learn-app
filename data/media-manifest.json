@@ -52218,5 +52218,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1z77Fo-q8wSKAkeFyCyPmqV1j3kmQUb0E",
+    "drive_name": "១៤២ រាត្រីធម្មទាន_ July 14 -2023_648x360.mp3",
+    "source_md5": "f158310344ca0a7f9c9e18415401f48f",
+    "key": "audio/f158310344ca0a7f-a64.mp3",
+    "bytes": 12863781,
+    "duration_s": 1607,
+    "sha256": "24311e184eea5d4f79d4df4c5f4684751043ec23e99a8cd9263063b4abf1c350",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 5.599999999999998,
+      "limit": 0.6,
+      "depth": 9.436974992327126,
+      "busy": 1.973786498336391,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
