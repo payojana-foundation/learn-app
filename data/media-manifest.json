@@ -32904,5 +32904,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15yezEndm12DxPZjStr8MYT9D1jYr3uuC",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៩៣ ពោជ្ឈង្គបព្វៈ បីតិ បស្សទ្ធិ សមាធិ ឧបេក្ខាសម្ពោជ្ឈង្គៈ.mp3",
+    "source_md5": "380e987eec1cd3ca3be27298e107cc0d",
+    "key": "audio/380e987eec1cd3ca-a64.mp3",
+    "bytes": 42424572,
+    "duration_s": 5303,
+    "sha256": "dcc47dc469282fbdad42fa7dfa0232dc2ed8000df2e9c4850ba7d7fb75e8c43c",
+    "loudness": {
+      "pass1": {
+        "I": -25,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 8.5,
+      "limit": 0.6,
+      "depth": 9.236974992327127,
+      "busy": 5.845456859731664,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
