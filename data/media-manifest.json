@@ -32179,5 +32179,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yINWEqNeMvMqhZbTqa3W2-6y8WfbH8Mt",
+    "drive_name": "៣៤ Jauary_ រាត្រីធម្មទាន_ 26.2023_640x360 (1).mp3",
+    "source_md5": "a7e37c7838afcf0beb3bf5d185f6762b",
+    "key": "audio/a7e37c7838afcf0b-a64.mp3",
+    "bytes": 12539445,
+    "duration_s": 1567,
+    "sha256": "613ff444129e40cc8b3cbe955628815872523cc0e312c816de40b92a660c578e",
+    "loudness": {
+      "pass1": {
+        "I": -18.9,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 1.7999999999999972,
+      "limit": 0.6,
+      "depth": 6.036974992327124,
+      "busy": 2.9754689294372847,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
