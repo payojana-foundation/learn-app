@@ -28351,5 +28351,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1F0utZpLfI-Wxu3_EjiX8nnV3BbcfL7p9",
+    "drive_name": "បរិច្ឆេទទី ៦ រូបសង្គហវិភាគ ៦៣ ចែករូបដោយកំណើតរបស់សត្វ ៤.mp3",
+    "source_md5": "9cc5a1201781dd0a742758ed8d519470",
+    "key": "audio/9cc5a1201781dd0a-a64.mp3",
+    "bytes": 42796346,
+    "duration_s": 5349,
+    "sha256": "c5ab4236033b81e81fb1782bf7bd2451f79b549ce72de4823d5dba846ed7139c",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 5.178755023834003,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
