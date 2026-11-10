@@ -55466,5 +55466,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YgJWtjiHwj5rhmY-XkJa4cfmFWvX50n5",
+    "drive_name": "27-Ñāṇa-12Aug2026-វិធីចូលឈាន និងចេញចាកឈាន.mp3",
+    "source_md5": "32e14537b5a40af2bd355f57d69121c9",
+    "key": "audio/32e14537b5a40af2-a64.mp3",
+    "bytes": 28011040,
+    "duration_s": 3501,
+    "sha256": "8e224ae6e25a5d1782666e60e7c0a49b9df7d220256bbf48ba5127305e1c6dbe",
+    "loudness": {
+      "pass1": {
+        "I": -30.1,
+        "TP": -8.9,
+        "LRA": 0
+      },
+      "G": 15,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 7.294329330115527,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
