@@ -25277,5 +25277,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LPSn5LsYguVP_3yH0nAFstjmSlVr8lfh",
+    "drive_name": "បរិច្ឆេទទី ៧ សមុច្ចយសង្គហវិភាគ ៥៦ ឥរិយាបថបព្វៈ ការពិចារណាឥរិយាបថទាំង ៤.mp3",
+    "source_md5": "17cb0f868b3cd6e2931721ba42397763",
+    "key": "audio/17cb0f868b3cd6e2-a64.mp3",
+    "bytes": 43123190,
+    "duration_s": 5390,
+    "sha256": "c7021ed9b53fb9e0984b60d805f759a497b831ef625d43dcd06101273a1fa5de",
+    "loudness": {
+      "pass1": {
+        "I": -28.3,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 11.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.350598755182873,
+      "out": {
+        "I": -18.8,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
