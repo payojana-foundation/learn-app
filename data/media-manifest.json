@@ -25567,5 +25567,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KTzRFnG3KRA_B5mnUXp0wI04ODywgueE",
+    "drive_name": "បរិច្ឆេទទី ៨-៥៥ រម្លឹកបកតូបនិស្សយប្បច្ច័យ កុសលជាបច្ច័យដល់កុសល.mp3",
+    "source_md5": "6dd33cb009a432994fda0d9ee4d212fd",
+    "key": "audio/6dd33cb009a43299-a64.mp3",
+    "bytes": 41775690,
+    "duration_s": 5221,
+    "sha256": "b52ee553ea18dae1d4b4a2922fbab4a274b966e3683abaa9509be85273414062",
+    "loudness": {
+      "pass1": {
+        "I": -23.7,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.600000000000001,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 5.014170951464491,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
