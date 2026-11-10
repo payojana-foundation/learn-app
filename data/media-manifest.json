@@ -27510,5 +27510,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ucQxDkKQEwcaZcQSTZZvnlDynifAYpwb",
+    "drive_name": "បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ ៧០ ទិដ្ឋធម្មវេទនីយកម្ម កម្មឱ្យផលក្នុងបច្ចុប្បន្នជាតិ.mp3",
+    "source_md5": "b1a33a8b44729cc397997b9d24e14875",
+    "key": "audio/b1a33a8b44729cc3-a64.mp3",
+    "bytes": 28516980,
+    "duration_s": 3564,
+    "sha256": "3b467eb95edb498ac8922cc2f89ca6ef8e5ca568fd4c10dbffd5423eb3ac46ec",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": 0.5,
+        "LRA": 0
+      },
+      "G": 7.063025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.3099786792346966,
+      "out": {
+        "I": -18.9,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
