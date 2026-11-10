@@ -37341,5 +37341,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1uTnSEirZHL5rjyj1ykgp__LjD21S9av6",
+    "drive_name": "45-៤៨ Buddhism in English by Ven.Hak Sienghai 49.mp3",
+    "source_md5": "25f347368a63181f5100cad78d2f7394",
+    "key": "audio/25f347368a63181f-a64.mp3",
+    "bytes": 8321819,
+    "duration_s": 1040,
+    "sha256": "9b9b461b075d0dff1a1cfc17e8a75a1a66811da4cec7fcf1c22ff7a3b46cbda5",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -6.8,
+        "LRA": 0
+      },
+      "G": 9.999999999999996,
+      "limit": 0.6,
+      "depth": 7.636974992327124,
+      "busy": 4.319088592991395,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
