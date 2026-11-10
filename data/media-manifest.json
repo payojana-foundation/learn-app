@@ -26959,5 +26959,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YrMvU8ZdnDEq-SycaL1i7joDWyqG_53R",
+    "drive_name": "បរិច្ឆេទទី ៨-៦៥ បកតូបនិស្សយប្បច្ច័យ និយតមិច្ឆាទិដ្ឋិជាបច្ច័យដល់អនន្តរិយកម្ម.mp3",
+    "source_md5": "af8ff859a3ad59f8bd3ec806325d2832",
+    "key": "audio/af8ff859a3ad59f8-a64.mp3",
+    "bytes": 42876385,
+    "duration_s": 5359,
+    "sha256": "709f2bcd9298f5f20a83e3d4d2abe6cd7ceebbabcb11d41581609ed3aec31df6",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.2,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 4.027894393133688,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
