@@ -44707,5 +44707,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15Y6w5J85qOvyDwSImMFf4gzh1QarLoSD",
+    "drive_name": "១១៨ ផស្សប្បច្ចយា វេទនា វេទនាកើតពីផស្សជាបច្ច័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "164a4ae88e62093540fd5da548d26007",
+    "key": "audio/164a4ae88e620935-a64.mp3",
+    "bytes": 43638952,
+    "duration_s": 5454,
+    "sha256": "7cf7f299de536b63e5ae77e93c65117a8ccca0474217043311cf05d438f08b51",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 6,
+      "limit": 0.6,
+      "depth": 9.936974992327126,
+      "busy": 4.105291621217815,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
