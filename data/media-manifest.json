@@ -41459,5 +41459,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tiEhcqELWeDRlBo79wXgbiLeWfcDT3TU",
+    "drive_name": "១០២ បដិច្ចសមុប្បាទ វដ្តៈមាន៣ មូលមាន២ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៨.mp3",
+    "source_md5": "f1e0ede5a793d200917b69ff2898e5db",
+    "key": "audio/f1e0ede5a793d200-a64.mp3",
+    "bytes": 42813274,
+    "duration_s": 5351,
+    "sha256": "6911fa1d7c0494f8403642d147d2f3f58904c4afaf3d714cb81df5ab132ad61a",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 7.200000000000003,
+      "limit": 0.6,
+      "depth": 10.536974992327131,
+      "busy": 5.602010594863266,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
