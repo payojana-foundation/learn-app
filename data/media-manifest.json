@@ -50130,5 +50130,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1W-xyTm8s9srT4hCUc1tnRc7Vcq7hPyzp",
+    "drive_name": "20-28 Nov 2025 នាទីធម្មចរិយា សិក្សាសុត្តន្តបិដកលេខ១៥ ទីឃនិកាយ ទុតិយភាគ សូមអនុមោទនា  ធម្ម រស.mp3",
+    "source_md5": "6b45acb845aea194f3c40d787032ea02",
+    "key": "audio/6b45acb845aea194-a64.mp3",
+    "bytes": 19872121,
+    "duration_s": 2483,
+    "sha256": "26427f8aa98a7ed903deba33b33e753d11798de59843935e54b91ffd86bb4872",
+    "loudness": {
+      "pass1": {
+        "I": -26.2,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 9.600000000000001,
+      "limit": 0.6,
+      "depth": 9.536974992327128,
+      "busy": 3.743961352657005,
+      "out": {
+        "I": -18.1,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
