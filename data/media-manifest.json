@@ -65848,5 +65848,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GuDhpp0Ly3eAX_hJlFxSRE-bzZp6UA2U",
+    "drive_name": "19.១៩ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣មេរៀនថ្ងៃទី១៩ ៣-កិច្ចសង្គហៈតសម្តែងការចែកចិត្ត​៨៩​ឫ​១២១​ដោយ​កិច្ច១៤ចប់.mp3",
+    "source_md5": "6f87d9abd9ce948212d7e758cfbfa9b3",
+    "key": "audio/6f87d9abd9ce9482-a64.mp3",
+    "bytes": 31493058,
+    "duration_s": 3936,
+    "sha256": "6c6ebc1ac60fddbf31f2f38bb87b0b6a5216175d5104ef7dfdc134fe0af7d674",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 11.5,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 8.743585835492556,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
