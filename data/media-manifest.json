@@ -66109,5 +66109,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1b_2Xtwm8HVLNbCcQWgIFke5xwEYH6AWn",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៥០ (១៥២ រូបាវចរចិត្ត ពន្យល់អង្គឈាន ៥ លះនីវរណធម៌.mp3",
+    "source_md5": "10b98627ff7c60f0937b8d527f142668",
+    "key": "audio/10b98627ff7c60f0-a64.mp3",
+    "bytes": 43672598,
+    "duration_s": 5459,
+    "sha256": "aeb6e9af57462dc04300ebd9487ac0f0eab8a2f11cdde1189f7099cdf24d15b7",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.701825409182916,
+      "out": {
+        "I": -18.6,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
