@@ -71793,5 +71793,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RvCe2FVe6hUPZyRDF0oVLGlzp0yfGCsp",
+    "drive_name": "50.៥០ អប្បនាជវនមនោទ្វារវិថី​ ៧វិថីត ថ្ងៃទី៤៥ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "f7f9b41e5a512feda4fb34ec87b5178c",
+    "key": "audio/f7f9b41e5a512fed-a64.mp3",
+    "bytes": 29886423,
+    "duration_s": 3735,
+    "sha256": "9d1fe0888f1f37fbab5c205e1e1bf6c7d5ca84a7bf2a2835faa71a66731b18d3",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 9.113631800843205,
+      "out": {
+        "I": -18.3,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
