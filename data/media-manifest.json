@@ -78985,5 +78985,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1d-W_m6BXPvjDe-_nwCmj6Gy960ahRiX2",
+    "drive_name": "396-17 Sep 2025 រាត្រីធម្មទាន.mp3",
+    "source_md5": "1a9e73287e73c604195accccf5279201",
+    "key": "audio/1a9e73287e73c604-a64.mp3",
+    "bytes": 12942149,
+    "duration_s": 1617,
+    "sha256": "692378a74426c31b552cbe2a339235e043d6c2035bcd32df87b9b984b693bfc8",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 6.199999999999999,
+      "limit": 0.6,
+      "depth": 9.836974992327127,
+      "busy": 2.7469555541818633,
+      "out": {
+        "I": -18.1,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
