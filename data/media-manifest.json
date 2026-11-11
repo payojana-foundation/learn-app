@@ -75766,5 +75766,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "172QbF249m8tcVkojFk2bBbXxjtM1LFC5",
+    "drive_name": "72.៧២ មហាកិរិយាចិត្ត៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧២.mp3",
+    "source_md5": "d8767d9c58624d306872be931574e938",
+    "key": "audio/d8767d9c58624d30-a64.mp3",
+    "bytes": 28805372,
+    "duration_s": 3600,
+    "sha256": "6e0ecb52b0a8ad1e3b673bf819f5f690bf287b39af4c1d880a415fc0e8044693",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.845291822309861,
+      "out": {
+        "I": -18.5,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
