@@ -84611,5 +84611,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lAZoEVLiJl9rfG1Ze2kUThCMsMJa2KYM",
+    "drive_name": "90.៩០ អរូបាវចរកុសលចិត្ត ៤ដួង ត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៩០.mp3",
+    "source_md5": "69bef497d2f7a640b70b31c2ce7d8e44",
+    "key": "audio/69bef497d2f7a640-a64.mp3",
+    "bytes": 25421574,
+    "duration_s": 3177,
+    "sha256": "b59803c8c977e646efde6f4bb5d9215924775f97badeebcd199c46c4efd5cad2",
+    "loudness": {
+      "pass1": {
+        "I": -25.2,
+        "TP": -5.4,
+        "LRA": 0
+      },
+      "G": 8.599999999999998,
+      "limit": 0.6,
+      "depth": 7.636974992327125,
+      "busy": 5.114235362610734,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
