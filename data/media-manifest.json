@@ -83944,5 +83944,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fsGJqFzvhEo127rLjqppcCvUcfaYVFNY",
+    "drive_name": "បិដកលេខ២០-74 មហាសីហនាទសូត្រ បរិយាយពីកម្លាំងទាំង១០ បញ្ចប់និងវេសារជ្ជញ្ញាណ ៤.mp3",
+    "source_md5": "fe868f0a0d85b4761610a2d7748dfc52",
+    "key": "audio/fe868f0a0d85b476-a64.mp3",
+    "bytes": 56400291,
+    "duration_s": 7049,
+    "sha256": "340e29ce06e3b6fe18d7a4d3b4d6b8bc24e6198a18e3644d415c0b3f7329e3f7",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -6.2,
+        "LRA": 0
+      },
+      "G": 9.999999999999996,
+      "limit": 0.6,
+      "depth": 8.236974992327124,
+      "busy": 4.736347517730496,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
