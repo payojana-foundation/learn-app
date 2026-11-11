@@ -73533,5 +73533,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QpMc8JoGTLcimCL2pxG7OeVSBOS4RthE",
+    "drive_name": "58.៥៨ មហាកុសលចិត្ត៨ដួង ចប់ ចូលដល់សេចក្តីអធិប្បាយ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៥៨.mp3",
+    "source_md5": "54d70e2951f70a6ea2cfdab9be6b5fab",
+    "key": "audio/54d70e2951f70a6e-a64.mp3",
+    "bytes": 27803314,
+    "duration_s": 3475,
+    "sha256": "3373480341af64988219e0482592f943642c5527c1d149d304bc047e42647dc8",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.395039348554822,
+      "out": {
+        "I": -19,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
