@@ -67066,5 +67066,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19n0AN5KklsuEG5b2K-Blj1aW9powuQon",
+    "drive_name": "16.១៥ ទោសមូលចិត្ត​ ២ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ១៥.mp3",
+    "source_md5": "968a9b6805c74d52ae696e7e260e2168",
+    "key": "audio/968a9b6805c74d52-a64.mp3",
+    "bytes": 26153838,
+    "duration_s": 3269,
+    "sha256": "b3b725ba85a0af18d6a8fc9be05f61a54ef71749ff3c58366053dc3c58d69b08",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "G": 8.099999999999998,
+      "limit": 0.6,
+      "depth": 10.236974992327125,
+      "busy": 5.51549308699376,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
