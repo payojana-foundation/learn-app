@@ -80435,5 +80435,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1sifFuhBva4A1z0sR39owDL2xp9huaboB",
+    "drive_name": "បិដកលេខ២០-26 សម្មាទិដ្ឋិ ការយល់ត្រូវក្នុងកម្មបថ១០ .mp3",
+    "source_md5": "420e6a7d968203b03a08b7dd11389b04",
+    "key": "audio/420e6a7d968203b0-a64.mp3",
+    "bytes": 43774998,
+    "duration_s": 5471,
+    "sha256": "f33ec6ad7b08abcc12fed18716d717b788723b5c0f4690d820d3b0bfb865d142",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -11.9,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 1.4369749923271256,
+      "busy": 0.001599093542403392,
+      "out": {
+        "I": -18,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
