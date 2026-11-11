@@ -76085,5 +76085,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10mvbtqGAV51raA3V5Y16nxBCYb_lQG4k",
+    "drive_name": "61.៦១ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី​៦១ ៦-អារម្មណសង្គហៈការសម្តែងអារម្មណ៍.mp3",
+    "source_md5": "5af3fb045da02eeb62ddf033d73c877c",
+    "key": "audio/5af3fb045da02eeb-a64.mp3",
+    "bytes": 30023932,
+    "duration_s": 3752,
+    "sha256": "1528d745ef5df1a0fe64031644d90b9da3aa391e56d4268eb2e09e11a0a10153",
+    "loudness": {
+      "pass1": {
+        "I": -25.4,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.04787519645937,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 8.784755991952997,
+      "out": {
+        "I": -19,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
