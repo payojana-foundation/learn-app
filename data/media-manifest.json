@@ -70198,5 +70198,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10lc1yo57vkKU54DaTDncn7pd9vAv-KJZ",
+    "drive_name": "37.៣៧ វិនិច្ឆ័យអកុសលកម្មបថដោយ អាការ៥ប្រការផ្សេងទៀត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣៧.mp3",
+    "source_md5": "2b18df0cc22d2469935cb76330bb1e27",
+    "key": "audio/2b18df0cc22d2469-a64.mp3",
+    "bytes": 27436973,
+    "duration_s": 3429,
+    "sha256": "ac1566d97073ae07b7df0045acc018793e070af219b21764ceba2b0800a9e2d9",
+    "loudness": {
+      "pass1": {
+        "I": -27.5,
+        "TP": -5.8,
+        "LRA": 0
+      },
+      "G": 11.8,
+      "limit": 0.6,
+      "depth": 10.436974992327128,
+      "busy": 6.367088976687904,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
