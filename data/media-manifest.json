@@ -83248,5 +83248,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1thAMNAyxIxcnOfRLpywvkCuBgtvkPDgS",
+    "drive_name": "បិដកលេខ២០-50 ធម្មានុបស្សនាអាយតនបព្វៈ .mp3",
+    "source_md5": "5ace48d662506f021f49a418d600068a",
+    "key": "audio/5ace48d662506f02-a64.mp3",
+    "bytes": 54597633,
+    "duration_s": 6824,
+    "sha256": "905d02cb74be30994d9c50e61a9f98595ef2805136ee74b9627669a8ba48acbc",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 9.736974992327127,
+      "busy": 5.568966906727818,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
