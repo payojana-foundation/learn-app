@@ -66486,5 +66486,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mKAWT-njqxFLI3U-QD70SgbR-5NZ5D6M",
+    "drive_name": "18.១៨ អធិប្បាយវិថីចិត្ត​២យ៉ាង ១-កាមវិថីចិត្ត មហន្តារម្មណ៍ មេរៀនថ្ងៃទី ១៨ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤.mp3",
+    "source_md5": "d1aea871434ea5894549d36c38871089",
+    "key": "audio/d1aea871434ea589-a64.mp3",
+    "bytes": 31091608,
+    "duration_s": 3886,
+    "sha256": "c39db2daf035ef544488a163dab97fc3a963c75eb4ba7ac03ce99037c1ee243a",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "G": 12.099999999999998,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 8.917635858377933,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
