@@ -83219,5 +83219,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Hjth0dXoxlVhFRbXAwTvKNQUJEMKYUC_",
+    "drive_name": "បិដកលេខ២០-49 សតិប្បដ្ឋានសូត្រ ធម្មានុបស្សនាសតិប្បដ្ឋាន ឧទ្ធច្ចកុក្កុច្ច វិចិកិច្ឆា.mp3",
+    "source_md5": "ca6bb54218507b391b4216b68bbdb21f",
+    "key": "audio/ca6bb54218507b39-a64.mp3",
+    "bytes": 55120291,
+    "duration_s": 6889,
+    "sha256": "4c362308bb9341667d0fd6c30f45bd4d987967bd59271dfb91228f518c29067d",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 5.095428156748912,
+      "out": {
+        "I": -18.2,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
