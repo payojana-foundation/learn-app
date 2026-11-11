@@ -80145,5 +80145,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1awzqPahPWQYA5Q7dhFdb78akzdDBnvwm",
+    "drive_name": "425-21_ nov 2025  រាត្រីធម្មទានកន្លះម៉ោង សិក្សារទិស ទាំងប្រាំមួយ!  ធម្ម រស.mp3",
+    "source_md5": "0c009721b98b2c90549bf0a508776737",
+    "key": "audio/0c009721b98b2c90-a64.mp3",
+    "bytes": 12128173,
+    "duration_s": 1515,
+    "sha256": "7fd63e48d1ed013477c668b9566e13ae0caf6cee93b1fb13c1d0207f33531538",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 9.399999999999999,
+      "limit": 0.6,
+      "depth": 10.036974992327126,
+      "busy": 2.4802928856492628,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
