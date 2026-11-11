@@ -82958,5 +82958,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1el6-BoFab19becdorVHXOLjVfJFEtGWS",
+    "drive_name": "បិដកលេខ២០-45 សតិប្បដ្ឋានសូត្រ ចិត្តានុបស្សនាសតិប្បដ្ឋានដោយអាការៈ ១៦ .mp3",
+    "source_md5": "4fedc6f2a58e6eb269d921365a8f0415",
+    "key": "audio/4fedc6f2a58e6eb2-a64.mp3",
+    "bytes": 55965613,
+    "duration_s": 6995,
+    "sha256": "9aa02f60b5a3ad5988060c5522fce2a45e75d092c4adcee9e8568d2a259d5caf",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6.1,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 9.336974992327129,
+      "busy": 6.522803456433641,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
