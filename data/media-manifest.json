@@ -81624,5 +81624,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CvPDuqvBl36deffIcl1Lao0wWmpzwfms",
+    "drive_name": "458 5-Feb-26 រាត្រីធម្មទាន សិក្សាក្នុងគម្ពីរវិសុទ្ធិមគ្គ( អាហាររេបដិកូល ) សូមអន�.mp3",
+    "source_md5": "f5b461394400ff83f8445dee516bcc89",
+    "key": "audio/f5b461394400ff83-a64.mp3",
+    "bytes": 13184565,
+    "duration_s": 1648,
+    "sha256": "dead816f235f21b1cbc84a2434795b23acef2f67fab12c03daaf7c77d4b37d95",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "G": 9.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 2.032705318406602,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
