@@ -83074,5 +83074,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Yd1vNehYCR1Aj75-I4vpza7GB4lOZ2gL",
+    "drive_name": "2.251218_2001.mp3",
+    "source_md5": "160fc839b1c3d8559d21a0388802699c",
+    "key": "audio/160fc839b1c3d855-a64.mp3",
+    "bytes": 11994217,
+    "duration_s": 1499,
+    "sha256": "6b00bf63404b20c3ae98a2e695858370cf66f77bfdca07564c4895220c56cf38",
+    "loudness": {
+      "pass1": {
+        "I": -22.8,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 7.200000000000003,
+      "limit": 0.6,
+      "depth": 11.536974992327131,
+      "busy": 6.622477905619476,
+      "out": {
+        "I": -18.1,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
