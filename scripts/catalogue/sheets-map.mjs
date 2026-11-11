@@ -44,7 +44,11 @@ export const LABELS = {
   teacher: 'ឈ្មោះគ្រូ',
 };
 const NT = norm(LABELS.title);
-const NC = norm(LABELS.code);
+// Accepted spellings of the lesson-code label. The second is a typo found in a
+// teacher sheet (missing ខ); accepted here, the sheet itself is never edited.
+export const CODE_LABEL_VARIANTS = [LABELS.code, 'លេដកូដមេរៀន'];
+const NCS = CODE_LABEL_VARIANTS.map(norm);
+const isCodeLabel = (c) => NCS.some((n) => c.includes(n));
 const NTE = norm(LABELS.teacher);
 
 const NUM_RE = /^[0-9\u17E0-\u17E9]+\s*[.)]?$/; // 1  ១  1.
@@ -78,7 +82,7 @@ export function findHeaderRow(text, maxRows = 25) {
     const cells = (text[r] || []).map(norm);
     const hasTitle = cells.some((c) => c.includes(NT));
     const hasTeacher = cells.some((c) => c.includes(NTE));
-    const hasCode = cells.some((c) => c.includes(NC));
+    const hasCode = cells.some(isCodeLabel);
     if (hasTitle && (hasTeacher || hasCode)) return r;
   }
   return -1;
@@ -92,7 +96,7 @@ export function mapColumns(text, hr) {
   const find = (pred) => labels.findIndex(pred);
   const teacher = find((c) => c.includes(NTE));
   const title = find((c) => c.includes(NT));
-  const codeCols = labels.map((c, i) => (c.includes(NC) ? i : -1)).filter((i) => i >= 0);
+  const codeCols = labels.map((c, i) => (isCodeLabel(c) ? i : -1)).filter((i) => i >= 0);
   const lessonCode = codeCols.find((i) => !/video/i.test(labels[i])) ?? -1;
   const videoCode = codeCols.find((i) => /video/i.test(labels[i])) ?? -1;
 
