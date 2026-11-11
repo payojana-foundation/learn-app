@@ -70430,5 +70430,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ab0DlDhFNOfccij0ipDds_yp2NWFVJOS",
+    "drive_name": "39.៣៩ អហេតុកអកុសលវិបាកចិត្ត៧ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣៩.mp3",
+    "source_md5": "9a36c7f2d45e015287ae5071c1b215cf",
+    "key": "audio/9a36c7f2d45e0152-a64.mp3",
+    "bytes": 28925326,
+    "duration_s": 3615,
+    "sha256": "d524b8a502ddcdd25ba66e77db4150e2ed23634011d2d1f84ad2815585137aec",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 11.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.309377290390386,
+      "out": {
+        "I": -19,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
