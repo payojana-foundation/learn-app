@@ -85365,5 +85365,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14WfsmrFq-eEfZNQYpYfZVsc51WkSk0CK",
+    "drive_name": "102.១០២ ការបិទថ្នាក់រៀន ព្រះអភិធម្មបរិច្ឆេទទី១ និងចំណាប់អារម្មណ៍សិស្ស ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី១០២.mp3",
+    "source_md5": "0d60874091cb9cc5eb907fec0fce6c81",
+    "key": "audio/0d60874091cb9cc5-a64.mp3",
+    "bytes": 26537316,
+    "duration_s": 3317,
+    "sha256": "38f2b7dff4661db22958c3d79d49d9a6f5f6120e34aa1df5b8803e6ab5b72d92",
+    "loudness": {
+      "pass1": {
+        "I": -27.3,
+        "TP": -5.5,
+        "LRA": 0
+      },
+      "G": 12,
+      "limit": 0.6,
+      "depth": 10.936974992327126,
+      "busy": 6.6469958698863465,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
