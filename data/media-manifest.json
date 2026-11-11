@@ -63644,5 +63644,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Lg52cvc3duK3LYPPkAbW1Pk5PHE3rlBf",
+    "drive_name": "11.១១ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី​ ១១   ២-ហេតុសង្គហៈ ត.mp3",
+    "source_md5": "e76b609be9e9aed27edede9626ff2ea6",
+    "key": "audio/e76b609be9e9aed2-a64.mp3",
+    "bytes": 29249662,
+    "duration_s": 3656,
+    "sha256": "08ab4c227b92dbe2cb7fc8bbebcb324145f883bc2002e8b5e8063e489c9b8e84",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "G": 10.500000000000004,
+      "limit": 0.6,
+      "depth": 10.336974992327132,
+      "busy": 6.435047796179041,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
