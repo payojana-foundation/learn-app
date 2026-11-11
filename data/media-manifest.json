@@ -69734,5 +69734,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Fm1MiUwc6DVxwb0XC9xGbp47i-DCeXct",
+    "drive_name": "34.៣៤ អកុសលកម្មបថ​​សម្ផប្បលាប​ អភិជ្ឈា​ ព្យាបាទ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣៤.mp3",
+    "source_md5": "8614d6e0b81e77cb037b3abb49a9f39c",
+    "key": "audio/8614d6e0b81e77cb-a64.mp3",
+    "bytes": 28093378,
+    "duration_s": 3511,
+    "sha256": "4d19aa15be823383ef73b23fcf50e54e7bd61be77654300d29ed5caa212442b6",
+    "loudness": {
+      "pass1": {
+        "I": -27.3,
+        "TP": -5.9,
+        "LRA": 0
+      },
+      "G": 13.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.866672361995073,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
