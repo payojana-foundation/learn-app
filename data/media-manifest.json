@@ -73910,5 +73910,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DinzpzgaSoSnq8gROrNjPaNs3Qc40Lvv",
+    "drive_name": "60.៦០ អប្បនាជវនមនោទ្វារវិថី​ ៧ វិថីត មេរៀនថ្ងៃទី៦០ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "6059dbff301e6a106057d846e1d7cb3b",
+    "key": "audio/6059dbff301e6a10-a64.mp3",
+    "bytes": 29338687,
+    "duration_s": 3667,
+    "sha256": "d8b758fafe68565b30bde814ae95fb92cef95a3b77db95e1c134770d990b9e3d",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 11.299999999999997,
+      "limit": 0.6,
+      "depth": 10.936974992327125,
+      "busy": 8.642257246475609,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
