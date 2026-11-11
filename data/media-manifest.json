@@ -85829,5 +85829,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1M8tFNSUSsx4qEQyXctHW8dbXtW8NYn7Q",
+    "drive_name": "119.១១៩ រូបវិថី១ មេរៀនថ្ងៃទី ១១៩ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "8c8eb2001369c9536fc9d57448e96e5a",
+    "key": "audio/8c8eb2001369c953-a64.mp3",
+    "bytes": 30043367,
+    "duration_s": 3755,
+    "sha256": "943327153ca5d7e72e3d661630e3bd7ad0ba560ef9c6f3a8bb717abb83271920",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 9.009479808806104,
+      "out": {
+        "I": -18.4,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
