@@ -85481,5 +85481,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LZZO_8mrDs6I50p190qhuetcfFOvvhmA",
+    "drive_name": "107.១០៧ ចែកវិថីចិត្ត​តាមប្រភេទបុគ្គលព្រហ្មបុគ្គលដែលជាបុថុជ្ជន ចប់  ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤.mp3",
+    "source_md5": "12e569adf7917f4a6018f777739a017a",
+    "key": "audio/12e569adf7917f4a-a64.mp3",
+    "bytes": 29071403,
+    "duration_s": 3633,
+    "sha256": "f5b511e708af7b4939ff6a785e353cd490ca3eac173b5e42d5dd06d0266a7f8a",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -5.7,
+        "LRA": 0
+      },
+      "G": 11.3,
+      "limit": 0.6,
+      "depth": 10.036974992327128,
+      "busy": 8.156182063347918,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
