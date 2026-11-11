@@ -1,0 +1,60 @@
+# c057 approve list, run review 2026-11-10
+# teacher: លោកម្ចាស់គ្រូ មុនីចរិយាវង្ស ហ៊ុន ខេមរា
+# course: 1-បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត
+# queued 51 · converted 51 · approved 0 · failed 0
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	APSYHK0010001	1yfHeRNiqbnKdycoNz-u1x5w1LvVdFX9A	DRAFT	52.7	-18.1	ok	https://media.84000.digital/audio/5192b03677cc6dba-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ០១
+2	APSYHK0010002	1nDA-Is5zNBZH3d1DVvShGQ_AVBMiL3-U	DRAFT	26.5	-18.1	ok	https://media.84000.digital/audio/a332d04819af79f5-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ០២
+3	APSYHK0010003	1-H4NmzFk5ol53sEV8NyCvgY12ERd-eA6	DRAFT	34.8	-18	ok	https://media.84000.digital/audio/5a4fffa00d519dce-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ០៣
+4	APSYHK0010004	1JdxK8AAD8o3ZXum-Lo7oJUgO9QY_HoR8	DRAFT	57.0	-18.2	ok	https://media.84000.digital/audio/f670b6e27b4e17ab-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ០៤
+5	APSYHK0010005	1Tpbeivx1KQkBebWz-eDnigUpYShdtPMM	DRAFT	62.0	-18	ok	https://media.84000.digital/audio/17cd16d9393af498-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ០៥
+6	APSYHK0010006	1MDZstWWMzhPI3TVae_U4QX5a6x1Rszlt	DRAFT	52.3	-18	ok	https://media.84000.digital/audio/4b9c45974db7bdc6-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ០៦
+7	APSYHK0010007	1TjU50X3-PV92NEmbhxp4t5R0xSPdNUUI	DRAFT	64.7	-18	ok	https://media.84000.digital/audio/9da3af27050d6437-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ០៧
+8	APSYHK0010008	1DItIfDjkpu1i43EB3eVrdBgtTHbzRFW7	DRAFT	56.6	-18	ok	https://media.84000.digital/audio/b31d2f5b24359d70-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ០៨
+9	APSYHK0010009	14KVgyK-5OXjqzzkXEoit8I-EQ-C0B9nU	DRAFT	58.9	-18	ok	https://media.84000.digital/audio/40a3f780e287953c-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ០៧
+10	APSYHK0010010	19WLIhCOKypBzm5ZA9VLMfFU48n2L3OBm	DRAFT	67.4	-18	ok	https://media.84000.digital/audio/d397d1d235cbad87-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ១០
+11	APSYHK0010011	1CjqujHgWRzhwW8jGaGXBDWAsGJ6_Pm-0	DRAFT	54.2	-18.2	ok	https://media.84000.digital/audio/1d869e10595cfba9-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ១១
+12	APSYHK0010012	1kUs9hT3qU4sRzGFFYJUd0O9csR5QGAhX	DRAFT	88.1	-18	ok	https://media.84000.digital/audio/b951033b4d7a456c-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ១២
+13	APSYHK0010013	1aw1FlSbJ23TBIR1vsSad18JlVWyGOP5K	DRAFT	74.4	-18.8	cap	https://media.84000.digital/audio/1d2181cad9fb52f6-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ១៣
+14	APSYHK0010014	1-29W9tXriNVJHLTFxBmgqzcFC_9mVGiD	DRAFT	50.8	-18.1	ok	https://media.84000.digital/audio/6b5cefb89ecc6ff3-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ១៤
+15	APSYHK0010015	15tQJAHnY3keqNWNkprwYZBi3xkdKk8Pn	DRAFT	48.2	-18.2	ok	https://media.84000.digital/audio/4a10c688d4bc6503-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ១៥
+16	APSYHK0010016	15F3b77U9cVPD8Cs-CcY1OEAv6n19UdhT	DRAFT	47.4	-18	ok	https://media.84000.digital/audio/ca1c4efcd8a17dbc-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ១៦
+17	APSYHK0010017	1jqiK8N95wqY2hbT5TzHdbZUen8CxLInR	DRAFT	46.5	-18.1	ok	https://media.84000.digital/audio/fdce6ddfd3bd5d0f-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ១៧
+18	APSYHK0010018	1b_5PGIIvBySLh_03MukufTW8AEIsglNf	DRAFT	54.6	-18.1	ok	https://media.84000.digital/audio/39ff2574ee4e5a0d-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ១៨
+19	APSYHK0010019	1d_GR-ADqUW9M9ZkvtDnbrFTmjnxiO8K6	DRAFT	58.6	-18	ok	https://media.84000.digital/audio/d0ced40cc59d57fd-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ១៩
+20	APSYHK0010020	1-ZT2gvH97Gqeg5UaO_AOAyD3DXgpqmvq	DRAFT	49.3	-18	ok	https://media.84000.digital/audio/45112c19e73e5a7d-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ១៩
+21	APSYHK0010021	1yzrAoRY8GfHfZFL5A_oIX3HfV8oZ9UIj	DRAFT	13.4	-18	ok	https://media.84000.digital/audio/f6d27a44c471cef1-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ២១
+22	APSYHK0010022	1CM8b_65B1ooGEeLmrVu6a9vCIO7Dr5im	DRAFT	57.5	-18.1	ok	https://media.84000.digital/audio/ff0698a7f7225cd5-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ២២
+23	APSYHK0010023	1iN5R_VyEFoPayR9v6y6k3RdIdtZlqlD_	DRAFT	38.9	-18.2	ok	https://media.84000.digital/audio/e42943c55a434544-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ២៣
+24	APSYHK0010024	1U_3kGPdo7SN82hzvE06SyZM8NDvCs6l_	DRAFT	45.0	-18.2	ok	https://media.84000.digital/audio/c6cc327e8541c21d-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ២៤
+25	APSYHK0010025	1QrDVEYCQEbK3WxQUneyM1-klvSN4ZIAa	DRAFT	46.6	-18.1	ok	https://media.84000.digital/audio/a0fd54c62537d3bf-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ២៥
+26	APSYHK0010026	1zcjR829AxabfOHcJq61RK68bdQ-ddmDc	DRAFT	47.9	-18.1	ok	https://media.84000.digital/audio/f01dcb83b5e5c25d-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ២៦
+27	APSYHK0010027	1FECYVAgiccC_PTiG0Q1drvKWmgv6_QLJ	DRAFT	48.1	-18.1	ok	https://media.84000.digital/audio/8cb6df83ba15a516-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ២៧
+28	APSYHK0010028	1on-xqxsv_sll6jLDW_WjiSFZtQkIbuqK	DRAFT	51.3	-18.1	ok	https://media.84000.digital/audio/cbfae1cabaa41a89-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ២៨
+29	APSYHK0010029	1FTjVnhAxZFKfG-nldW8NAqKUVej7IyYH	DRAFT	49.2	-18.3	ok	https://media.84000.digital/audio/240744549d78d336-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ២៩
+30	APSYHK0010030	1DtfjGU5VhonIzL3kW24JVNL-w4RyPoL0	DRAFT	53.0	-18.2	ok	https://media.84000.digital/audio/f6535ced68c37168-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៣០
+31	APSYHK0010031	1H7cpzB_q4D88AwAUBIo2dRnIxUZvHpvu	DRAFT	42.1	-18.2	ok	https://media.84000.digital/audio/0985a42b38616eb2-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៣១
+33	APSYHK0010033	19mhv9C6cB4F-tscw96vrs8m2mQUKotCX	DRAFT	49.6	-18.2	ok	https://media.84000.digital/audio/782f054067bbaa29-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៣៣
+34	APSYHK0010034	1V-wM9q48iuAQSt2DPUhlq14PqsJRbFJy	DRAFT	48.6	-18.6	cap	https://media.84000.digital/audio/5a8511c6ea796430-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៣៤
+35	APSYHK0010035	1-Zw4ds7tcnnLyZeRHO7qaho2KzG4flA2	DRAFT	49.1	-18.2	ok	https://media.84000.digital/audio/1c50854a5d9bb02d-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៣៥
+36	APSYHK0010036	1bsPvr64dy8uc672WxIL0JNNjcZOLj_7R	DRAFT	52.2	-18.2	ok	https://media.84000.digital/audio/812cc340ab3349af-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៣៦
+37	APSYHK0010037	1KUU-k4ipquWGrPTQWrnvnwK62BZBbmpF	DRAFT	54.5	-18.2	ok	https://media.84000.digital/audio/39548619edefc806-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៣៧
+38	APSYHK0010038	17y1dnKzpk-3dt_EZsHXeJifIcWlalIwr	DRAFT	47.7	-18.1	ok	https://media.84000.digital/audio/b95d521ec5b42801-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៣៨
+39	APSYHK0010039	112QhTbpXOTqN1XfyFI0kZy7v9QxXzntc	DRAFT	42.3	-18.2	ok	https://media.84000.digital/audio/b2418c9e50ee9cfb-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៣៩
+40	APSYHK0010040	1EW38NHc3R37v-NQEWMhgwb-CTpPRR8lm	DRAFT	48.0	-18.2	ok	https://media.84000.digital/audio/f54ded7f1183fe19-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៤០
+41	APSYHK0010041	1jhWrgK9h_d6Ngc_KzEPzL9j2xt1grtED	DRAFT	43.5	-18.1	ok	https://media.84000.digital/audio/0de41f47fdc5de34-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៤១
+42	APSYHK0010042	19oUScV7KBsZkzAT0WcD8_fuIAXy_pab0	DRAFT	52.7	-18.2	ok	https://media.84000.digital/audio/078b43eb9fd87473-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៤២
+44	APSYHK0010044	1MQsb7nGfHiFnj_UOMjmV1WKWtG6aZFp8	DRAFT	35.8	-18.2	ok	https://media.84000.digital/audio/80bebe9527be0d97-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៤៤
+45	APSYHK0010045	14IfB7fsXrZfqBWzKLyxx_-31vBU0wjw4	DRAFT	46.9	-18.2	ok	https://media.84000.digital/audio/43ed676988d1d6c1-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៤៥
+46	APSYHK0010046	1wIyWhLtpiZbDvOA_3wkvsCUuOm8SvZE6	DRAFT	44.9	-18.2	ok	https://media.84000.digital/audio/8ad59d89c137df03-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៤៦
+47	APSYHK0010047	1v_2M0imH9-fX6JxMCSsrUPmGEso3LbPb	DRAFT	51.7	-18.1	ok	https://media.84000.digital/audio/95e270565a69767d-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៤៧
+48	APSYHK0010048	1XUIC_oAVfT7bMj2kRxbLE8-YgbLwz5_F	DRAFT	46.9	-18.2	ok	https://media.84000.digital/audio/14bf3cdff2fbd04f-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៤៨
+49	APSYHK0010049	1p_wSqEAsENWeKoh7wFlJTAEMDLMVBKG9	DRAFT	43.2	-18.2	ok	https://media.84000.digital/audio/dc28c12d3d1c839a-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៤៩
+50	APSYHK0010050	1HQuc0T4w1Bo4U00dz761duvyKyKjevFO	DRAFT	44.7	-18.2	ok	https://media.84000.digital/audio/b414d71337e4f9b5-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៥០
+51	APSYHK0010051	1-z3ASb3uYnOKrRyOlB0PAD814zIVP2YV	DRAFT	31.1	-18.2	ok	https://media.84000.digital/audio/b602bd8015e3079a-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៥១
+52	APSYHK0010052	1oQYmfwjjfucmM6izwIQ4GPu4krNqZKoH	DRAFT	50.5	-18.1	ok	https://media.84000.digital/audio/95462d10129e15e6-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៥២
+53	APSYHK0010053	1aJQgc9NgzWkbylWbKAC1BAXyojP7vMHO	DRAFT	42.9	-18.2	ok	https://media.84000.digital/audio/3656dcf2acb3709d-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៥៣
+
+# approve-media drive_file_ids (DRAFT lessons only), comma separated:
+1yfHeRNiqbnKdycoNz-u1x5w1LvVdFX9A,1nDA-Is5zNBZH3d1DVvShGQ_AVBMiL3-U,1-H4NmzFk5ol53sEV8NyCvgY12ERd-eA6,1JdxK8AAD8o3ZXum-Lo7oJUgO9QY_HoR8,1Tpbeivx1KQkBebWz-eDnigUpYShdtPMM,1MDZstWWMzhPI3TVae_U4QX5a6x1Rszlt,1TjU50X3-PV92NEmbhxp4t5R0xSPdNUUI,1DItIfDjkpu1i43EB3eVrdBgtTHbzRFW7,14KVgyK-5OXjqzzkXEoit8I-EQ-C0B9nU,19WLIhCOKypBzm5ZA9VLMfFU48n2L3OBm,1CjqujHgWRzhwW8jGaGXBDWAsGJ6_Pm-0,1kUs9hT3qU4sRzGFFYJUd0O9csR5QGAhX,1aw1FlSbJ23TBIR1vsSad18JlVWyGOP5K,1-29W9tXriNVJHLTFxBmgqzcFC_9mVGiD,15tQJAHnY3keqNWNkprwYZBi3xkdKk8Pn,15F3b77U9cVPD8Cs-CcY1OEAv6n19UdhT,1jqiK8N95wqY2hbT5TzHdbZUen8CxLInR,1b_5PGIIvBySLh_03MukufTW8AEIsglNf,1d_GR-ADqUW9M9ZkvtDnbrFTmjnxiO8K6,1-ZT2gvH97Gqeg5UaO_AOAyD3DXgpqmvq,1yzrAoRY8GfHfZFL5A_oIX3HfV8oZ9UIj,1CM8b_65B1ooGEeLmrVu6a9vCIO7Dr5im,1iN5R_VyEFoPayR9v6y6k3RdIdtZlqlD_,1U_3kGPdo7SN82hzvE06SyZM8NDvCs6l_,1QrDVEYCQEbK3WxQUneyM1-klvSN4ZIAa,1zcjR829AxabfOHcJq61RK68bdQ-ddmDc,1FECYVAgiccC_PTiG0Q1drvKWmgv6_QLJ,1on-xqxsv_sll6jLDW_WjiSFZtQkIbuqK,1FTjVnhAxZFKfG-nldW8NAqKUVej7IyYH,1DtfjGU5VhonIzL3kW24JVNL-w4RyPoL0,1H7cpzB_q4D88AwAUBIo2dRnIxUZvHpvu,19mhv9C6cB4F-tscw96vrs8m2mQUKotCX,1V-wM9q48iuAQSt2DPUhlq14PqsJRbFJy,1-Zw4ds7tcnnLyZeRHO7qaho2KzG4flA2,1bsPvr64dy8uc672WxIL0JNNjcZOLj_7R,1KUU-k4ipquWGrPTQWrnvnwK62BZBbmpF,17y1dnKzpk-3dt_EZsHXeJifIcWlalIwr,112QhTbpXOTqN1XfyFI0kZy7v9QxXzntc,1EW38NHc3R37v-NQEWMhgwb-CTpPRR8lm,1jhWrgK9h_d6Ngc_KzEPzL9j2xt1grtED,19oUScV7KBsZkzAT0WcD8_fuIAXy_pab0,1MQsb7nGfHiFnj_UOMjmV1WKWtG6aZFp8,14IfB7fsXrZfqBWzKLyxx_-31vBU0wjw4,1wIyWhLtpiZbDvOA_3wkvsCUuOm8SvZE6,1v_2M0imH9-fX6JxMCSsrUPmGEso3LbPb,1XUIC_oAVfT7bMj2kRxbLE8-YgbLwz5_F,1p_wSqEAsENWeKoh7wFlJTAEMDLMVBKG9,1HQuc0T4w1Bo4U00dz761duvyKyKjevFO,1-z3ASb3uYnOKrRyOlB0PAD814zIVP2YV,1oQYmfwjjfucmM6izwIQ4GPu4krNqZKoH,1aJQgc9NgzWkbylWbKAC1BAXyojP7vMHO

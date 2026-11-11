@@ -1,0 +1,177 @@
+# c012 approve list, run review 2026-11-10
+# teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
+# course: 7-A.S.បរិច្ឆេទ ទី១ (២០២៣)
+# queued 168 · converted 158 · approved 0 · failed 10
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	AABH000YY2023.1001	1uIj70CnF2ccTlRcHIHrcifYz9bPvQYCt	DRAFT	83.4	-18.1	ok	https://media.84000.digital/audio/854e36fe73d57bf8-a64.mp3	០២  ប្រយោជន៍នៃការសិក្សាព្រះអភិធម្ម
+2	AABH000YY2023.1002	1_D86jneFS0wHrtGAyXoY9fLLVpvjj9jp	DRAFT	67.6	-18.2	ok	https://media.84000.digital/audio/a2dec45448a2924c-a64.mp3	០៣ និយមន័យ ពាក្យថា អភិធម្ម
+3	AABH000YY2023.1003	1w_TRv0geESXcty4I2JqpDpysJBm6IyuJ	DRAFT	95.1	-18.2	ok	https://media.84000.digital/audio/2cb859a915297a0c-a64.mp3	០៤ និយមន័យ បរមត្ថធម៌
+4	AABH000YY2023.1004	1bjyTSi88Mi6cz5OWr4UZ62nr9xDr1hpz	DRAFT	70.0	-18.1	ok	https://media.84000.digital/audio/2a39a2993e049f6b-a64.mp3	០៥ លក្ខណៈប្រចាំ២គឺសាមញ្ញលក្ខណ វិសេសលក្ខណៈ
+5	AABH000YY2023.1005	1xfyBX3OymEEH5Msm1y6oz0nC5qwpsE91	DRAFT	88.7	-18.1	ok	https://media.84000.digital/audio/4ac61aab974ef0a2-a64.mp3	០៦ ព្រះអង្គសម្តែងសម្មតិសច្ចៈដោយហេតុ៨
+6	AABH000YY2023.1006	1Vv_riFMgNaZ4CnnMQGhJvzOiQ082zD55	DRAFT	69.1	-18.2	ok	https://media.84000.digital/audio/f01ce970900a2140-a64.mp3	០៧ និយមន័យរបស់ចិត្តបរមត្ថ
+7	AABH000YY2023.1007	14mfCxfO5zyoT4PQfJFrCgnFXjEQhabgg	DRAFT	99.6	-18.2	ok	https://media.84000.digital/audio/d42de93c81f655e4-a64.mp3	០៨ វេវចនៈរបស់ចិត្តមាន១០ យ៉ាង
+8	AABH000YY2023.1008	1SkxVogQUSH5f5cELR4J4OxO-GV80fzXV	DRAFT	87.7	-18.2	ok	https://media.84000.digital/audio/f9f87a4475425f79-a64.mp3	០៩ អំណាចរបស់ចិត្ត
+9	AABH000YY2023.1009	1xc1xtxb8cH3H6pVIinRQxM1rAzl3o_X7	DRAFT	92.7	-18.1	ok	https://media.84000.digital/audio/59b150d0a82e1ad1-a64.mp3	១០ ពន្យល់គាថាសម្តែងអំពីចិត្តជាប្រធាន
+10	AABH000YY2023.1010	13W5inc4PaG83wdb0EH3_9hUfkJtdiTSb	DRAFT	57.5	-18.2	ok	https://media.84000.digital/audio/34c9ae5f8ea67ff1-a64.mp3	11 ពាក្យថា អកុសលចិត្ត
+11	AABH000YY2023.1011	1MtVT7sUKpdWzUgv-LpqMC7UjRbqXcIDA	DRAFT	100.4	-18.1	ok	https://media.84000.digital/audio/05d20c19eff29210-a64.mp3	12 លោភមូលចិត្តដួងទី ១
+12	AABH000YY2023.1012	1D2XycZ0p3TnFEyRPfPxCrWSNRpKzKkSo	DRAFT	92.6	-18.1	ok	https://media.84000.digital/audio/b156446853ba81a6-a64.mp3	13 លោភមូលចិត្តដួងទី ១ ,២
+13	AABH000YY2023.1013	1XN_8KLsEUKXKWDVsymkhHzASI3gXHfeY	DRAFT	92.1	-18.2	ok	https://media.84000.digital/audio/caf58b20d1501d34-a64.mp3	14 លោភមូលចិត្តដួងទី ៣
+14	AABH000YY2023.1014	17yZYtFaAb7d9RgwK7dpNLSly0sVeSmS5	DRAFT	97.4	-18.1	ok	https://media.84000.digital/audio/bb6a50f3ea76b75b-a64.mp3	15 មានះ មាន៩ យ៉ាងមេរៀនលោភដួងទី៣
+15	AABH000YY2023.1015	1pkhtIx_IgjGpv1xsDJc5nCsGgZD-yDeB	DRAFT	90.5	-18.4	ok	https://media.84000.digital/audio/7cfddf469381c5a3-a64.mp3	16 លោភមូលចិត្តដួងទី៤​,៥​ ៦
+16	AABH000YY2023.1016	1L2M37suqxNKHibMpZUMT6t5cAzuuGO8S	DRAFT	96.2	-18.2	ok	https://media.84000.digital/audio/a007fe699be501ed-a64.mp3	17 លោភមូលចិត្តដួងទី ៧ ទី ៨
+17	AABH000YY2023.1017	1VvRjD6SsUwYgx16jp6HENCZ4UXykf2IB	DRAFT	96.7	-18.2	ok	https://media.84000.digital/audio/6f59bf1fb3cc7813-a64.mp3	18 ហេតុនាំឱ្យកើតលោភមូលចិត្តមាន៤
+18	AABH000YY2023.1018	13dKgEey4D8xrPahnZXIaU155AHNwbTOz	DRAFT	96.0	-18.2	ok	https://media.84000.digital/audio/61f55e55025508dc-a64.mp3	19 ហេតុនាំឱ្យកើតទិដ្ឋិគតសម្បយុត្តចិត្ត
+19	AABH000YY2023.1019	1F7_a7lUjDoqBZCbLhwf0j4k7lo3NqnxS	DRAFT	95.1	-18.2	ok	https://media.84000.digital/audio/c19a6b93c0dc549e-a64.mp3	20  ហេតុនាំឱ្យកើតទិដ្ឋិគតវិប្បយុត្តចិត្ត
+20	AABH000YY2023.1020	1qUCeW6LpojHDJT6JCIGCI8GzaP-hhieH	DRAFT	93.0	-18.2	ok	https://media.84000.digital/audio/5d4b1a48f1aa971e-a64.mp3	21 ហេតុនាំឱ្យកើតសោមនស្សនិងឧបេក្ខា
+21	AABH000YY2023.1021	10Em6TJpG1eKStqiyL3DYMk4BwP4EdwAW	DRAFT	92.7	-18.2	ok	https://media.84000.digital/audio/dcbcd5249fed9392-a64.mp3	22 វិធីសង្កេតលោភមូលចិត្ត
+22	AABH000YY2023.1022	14Gc-FEZrir0ZQpEjkP0U0guZs12RQEYe	DRAFT	93.3	-18.1	ok	https://media.84000.digital/audio/8ed4ed57642abef9-a64.mp3	23 ចែកលោភមូលចិត្តដោហេតុដល់កិច្ច
+23	AABH000YY2023.1023	1sYf_LYKFKru13_nV2B49OQNNAFdDtjFk	DRAFT	98.9	-18.2	ok	https://media.84000.digital/audio/c07d4f97cd8ac833-a64.mp3	24 ចែកលោភមូលចិត្តដោន័យផ្សេងបញ្ចប់
+24	AABH000YY2023.1024	17XgRkT6Hy7oNQOyF_Pkwa_FucJcHW4XK	DRAFT	62.8	-18	ok	https://media.84000.digital/audio/d515e6c433100af0-a64.mp3	25 និយមន័យទោសមូលចិត្ត
+25	AABH000YY2023.1025	1EfyjJUgQ2r5Q2yjMFUuJSheJjyw2m50k	DRAFT	95.5	-18.2	ok	https://media.84000.digital/audio/1cdf421bb43db7ab-a64.mp3	26 លក្ខណាទិចតុក្កៈរបស់ទោសៈ
+26	AABH000YY2023.1026	18u2oA35Yegi5Sm94ZWmAQBzmqdbC4D1v	DRAFT	98.8	-18.2	ok	https://media.84000.digital/audio/9af6f781774403a8-a64.mp3	27 ហេតុនាំឱ្យកើតទោសមូលចិត្តមាន៤
+27	AABH000YY2023.1027	1DrAwSn62HtxpC3YgHmiJ6wkhwpGAHaJh	DRAFT	89.3	-18.2	ok	https://media.84000.digital/audio/92f862f7395832b4-a64.mp3	28 វិធីចម្រើនមេត្តាចិត្ត
+28	AABH000YY2023.1028	14LTRJO3uL0wZ-7PtXbW3wO-l2BHH-QJw	DRAFT	95.9	-18.1	ok	https://media.84000.digital/audio/8a17ec014d2d0bdd-a64.mp3	29 ផ្សាយមេត្តាទៅកាន់បុគ្គលផ្សេងតាមលំដាប់
+29	AABH000YY2023.1029	12TgMs5WbqK6lW8x3UXHsUBr3D4mmeXDw	DRAFT	103.9	-18.1	ok	https://media.84000.digital/audio/ad100ca41134b61e-a64.mp3	30 មេត្តសូត្រ សម្តែងរឿងភិក្ខុចម្រើនមេត្តា
+30	AABH000YY2023.1030	1bdjHBHIoIkba29qIAKSO8Sk4yc27vhUG	DRAFT	92.6	-18.2	ok	https://media.84000.digital/audio/00a7e84cc4528fbc-a64.mp3	31 មេត្តសូត្រ អធិប្បាយតាមអដ្ឋកថាបិដក៥៤
+31	AABH000YY2023.1031	1hMGAEhcAkWv8Q0AmNy47dkSypVu-YLAr	DRAFT	93.9	-18.2	ok	https://media.84000.digital/audio/30e6b1a22a8176e4-a64.mp3	32 ពិចារណាកម្មដើម្បីលះបង់ទោសមូលចិត្ត
+32	AABH000YY2023.1032	1PmBTNkxjj_VqvTeZXYCJ-ECLYB_Emu5B	DRAFT	88.6	-18.2	ok	https://media.84000.digital/audio/e71345b01683a1ad-a64.mp3	33 ការពិចារណាពុទ្ធោវាទដើម្បីលះទោសៈ
+33	AABH000YY2023.1033	1B1EfBJ91_Uv8hRC_hjX3QRMTpdXeJjLN	DRAFT	89.3	-18.2	ok	https://media.84000.digital/audio/aa89d8e6866e16f9-a64.mp3	34 អានិសង្សនៃការចម្រើនមេត្តាមាន១១
+34	AABH000YY2023.1034	1dO0V_xw5HTaMXACKGahr-X3qwCPPWY2R	DRAFT	89.9	-18.2	ok	https://media.84000.digital/audio/f222dfa7a0a07655-a64.mp3	35 វិធីឈ្នះមនុស្ស ៤ យ៉ាង
+35	AABH000YY2023.1035	1Wr5roatZgQvt8MFoMkclbGDmfpFzAnGQ	DRAFT	90.1	-18.3	ok	https://media.84000.digital/audio/92955046744e894c-a64.mp3	36 ចែកទោសមូលចិត្តដោយន័យផ្សេងៗ ១៤ យ៉ាង
+36	AABH000YY2023.1036	189VQ11mV57NH9CceZ1C3D3OULYPGE35N	DRAFT	56.0	-18.2	ok	https://media.84000.digital/audio/d63de6fe71f5771a-a64.mp3	37 និយមន័យមោហមូលចិត្ត
+37	AABH000YY2023.1037	1-Gv4zocWJisvqp7CXDCpo02QYvjogJ8J	DRAFT	89.2	-18.2	ok	https://media.84000.digital/audio/262b7670f5b98b4b-a64.mp3	39 មោហៈការមិនដឹងក្នុងនិរោធ និងមគ្គ
+38	AABH000YY2023.1038	1wTOq-lJ65s4P4hi9tfoahOZsLn9Da8ZO	DRAFT	90.8	-18.3	ok	https://media.84000.digital/audio/0e2eff07c796f380-a64.mp3	40 អវិជ្ជាមិនដឹងខន្ធ អាយតនៈ ធាតុ
+39	AABH000YY2023.1039	1lO3JZ2kAF3SPzqPkZoAnB8J2cRTvmFZn	DRAFT	96.9	-18.3	ok	https://media.84000.digital/audio/e7cf75128d50b8fe-a64.mp3	41 ពន្យល់វិចិកិច្ឆា និងឧទ្ធច្ចៈ
+40	AABH000YY2023.1040	1VgEAL439FKg4ParKFn9GnQZhaaLAeWqG	DRAFT	98.9	-18.7	cap	https://media.84000.digital/audio/b643db44a94cff77-a64.mp3	42 ពន្យល់ការដល់ព្រះសរណគមន៍
+41	AABH000YY2023.1041	10c3NHjEHuEwD05Hg93hV9ItrjXYejhWA	DRAFT	87.5	-18.2	ok	https://media.84000.digital/audio/8b527d939c3849a0-a64.mp3	43 ពន្យល់ពាក្យថា ព្រះពុទ្ធ
+42	AABH000YY2023.1042	1E1ELHifIcjDm6MYm06FM0mF0Xi9NyXvA	DRAFT	92.9	-18.2	ok	https://media.84000.digital/audio/bc6a58b32287b4be-a64.mp3	44 ពន្យល់ពាក្យថា បារមី ទាន សីល នេក្ខម្ម
+43	AABH000YY2023.1043	1MmNI_uLaA2ty1Y8Zu4FvbJU2G-CkVT5Q	DRAFT	88.8	-18.2	ok	https://media.84000.digital/audio/5c70ec0c7df68f0d-a64.mp3	45 ពន្យល់ពាក្យថា បារមី បញ្ចប់ទាំង ៣០
+44	AABH000YY2023.1044	1PVs3hMhT6F7LDBKcQFvJnsv4O7HSguqV	FAILED (no manifest entry)					46 ព្រះពុទ្ធគុណ​ អរហំ សម្មាសម្ពុទ្ធោ
+45	AABH000YY2023.1045	1IUBibL1Y6VtM7hJMG6O2O8voPukzaQez	FAILED (no manifest entry)					47 ព្រះពុទ្ធគុណ​ វិជ្ជាចរណសម្បន្នោ សុគតោ
+46	AABH000YY2023.1046	1IA65j1ZNrNpmF69yTZlPyFZmZE7oiJEw	DRAFT	60.0	-18.1	ok	https://media.84000.digital/audio/2681deef9d2c9aaf-a64.mp3	48 លោកវិទូ​ ទ្រង់ជ្រាបនូវវិញ្ញាណឋិតិ ៧ ប្រការ
+47	AABH000YY2023.1047	1mdl4Lexp0Z3doXKGEgGjfSHWczLMvRfs	DRAFT	86.6	-18.2	ok	https://media.84000.digital/audio/85dd1c7be5b15cd7-a64.mp3	49 លោកវិទូ​ ទ្រង់ជ្រាបធម៌៨ គឺលោកធម៌ទាំង ៨ ប្រការ
+48	AABH000YY2023.1048	1SIEcCywglEuVfZqCM54A3ww0Pmge6ENz	DRAFT	98.7	-18.1	ok	https://media.84000.digital/audio/4fb4b5c07f8ad99f-a64.mp3	50 លោកវិទូ ទ្រង់ជាបនូវសត្វលោក
+49	AABH000YY2023.1049	167WgJLqd5rRd7KjdT95StrIaznxJ_eo6	DRAFT	86.8	-18.5	ok	https://media.84000.digital/audio/820d7005b9a11939-a64.mp3	51 អនុត្តរោ ទ្រង់ប្រសើរលើសដោយសីលាទិគុណជាដើម
+50	AABH000YY2023.1050	1xhde-kd1LQnRP7HKAfnt2eiEEKp50QUe	DRAFT	87.5	-18.3	ok	https://media.84000.digital/audio/5d6cb41274a4a731-a64.mp3	52 និយមន័យធុតង្គ បង្សុកូលិកង្គ
+51	AABH000YY2023.1051	1IX1DeN6D0-DHOOv35oWvZ1tFgcwy0ncu	DRAFT	92.7	-18.7	cap	https://media.84000.digital/audio/92d068ef32a6350b-a64.mp3	53 តេចីវរិកង្គធុតង្គ បិណ្ឌបាតិកង្គធុតង្គ
+52	AABH000YY2023.1052	1USPCTtya-R_q8NFbNUR5VSs2gAClUNQH	FAILED (no manifest entry)					54 សបទានចារិកង្គធុតង្គ និងឯកាសនិកង្គធុតង្គ
+53	AABH000YY2023.1053	11j_Wo-WLKEjfhoaYCdQ8Mld-nNGgMBuu	DRAFT	92.5	-18.6	cap	https://media.84000.digital/audio/a3cec089fad2cdea-a64.mp3	55 បត្តបិណ្ឌក ខលុបច្ឆាភត្តិ អារញ្ញិកង្គធុតង្គ
+54	AABH000YY2023.1054	1Z_VKmq5bXlZLrvsLqYSW_W71Q4ujScbQ	DRAFT	88.9	-18.8	cap	https://media.84000.digital/audio/0ac198ee0f9a7f36-a64.mp3	56 រុក្ខមូលិកង្គ អព្ភោកាសិកង្គ សោសានិកង្គ
+55	AABH000YY2023.1055	1cZJuORTY7s8XpTyz7lFHHbqJbiHZ0g7K	DRAFT	92.9	-18.2	ok	https://media.84000.digital/audio/eb1496eee9322c9f-a64.mp3	57 យថាសន្ថិកង្គ និងនេសជ្ជិកង្គធុតង្គ
+56	AABH000YY2023.1056	1F-DjESLPdLUeqMwnNGIs4qoiq0an0FKo	DRAFT	95.5	-18.2	ok	https://media.84000.digital/audio/9452b900f26310f7-a64.mp3	58 ទ្រង់ព្រះនាមថា បុរិសទម្មសារថិ
+57	AABH000YY2023.1057	1b1XAfr6oTYc1zrBLfAIqMBSdYRt9DAoj	DRAFT	93.5	-18.2	ok	https://media.84000.digital/audio/9ebcd83a8e87981c-a64.mp3	59 សត្ថាទេវមនុស្សានំ ពុទ្ធោ ភគវា
+58	AABH000YY2023.1058	1SiPJv--_DG55OKSzfMHS8yQjRGEjwdP7	DRAFT	92.4	-18.2	ok	https://media.84000.digital/audio/dcca53d1b8c75208-a64.mp3	60 ធម្មគុណ​ ស្ខាក្ខាតោ ភគវតា ធម្មោ
+59	AABH000YY2023.1059	1DscrCmbQPtZopgSE_3XK2pdN9L60Ly8N	DRAFT	92.1	-18.1	ok	https://media.84000.digital/audio/c03b6b21a8709559-a64.mp3	61 ធម្មគុណ​ និយមន័យព្រះត្រៃបិដក
+60	AABH000YY2023.1060	17PfcPvxMv52g9C9n6ogNJvMJNT8vY4TD	DRAFT	86.5	-18.4	ok	https://media.84000.digital/audio/ee01c9e632bbb184-a64.mp3	62 ធម្មគុណ​ព្រះអង្គសម្តែងព្រះត្រៃមានន័យផ្សេងគ្នា
+61	AABH000YY2023.1061	1hydSKXw6EnYYZzotrtFRvjNiwKVlexHE	DRAFT	88.9	-18.2	ok	https://media.84000.digital/audio/cea7b81c71ec07c5-a64.mp3	63 ធម្មគុណ ​សន្ទិដ្ឋិកោ អកាលិកោ
+62	AABH000YY2023.1062	1u960GbKHw-mfotcHQQWz2Eyl--613UiX	DRAFT	91.6	-18.7	cap	https://media.84000.digital/audio/70cfb9d6cb916ab5-a64.mp3	64 សង្ឃគុណ ​សុបដិបន្នោ ឧជុ ញាយ សាមីចិ យទិទំ ចត្តារិ
+63	AABH000YY2023.1063	16atu2i12HgtJbTrd9QhqO8-M435Wyu5O	DRAFT	89.4	-18.1	ok	https://media.84000.digital/audio/ba77f3b655cb071b-a64.mp3	65 សង្ឃគុណ ​អាហុណេយ្យោ ដល់បុញ្ញេក្ខេត្តំ លោកស្ស
+64	AABH000YY2023.1064	16_EXAtLdeXdYcdBfYbiiyO-TVHiFZrGS	DRAFT	96.3	-19	cap	https://media.84000.digital/audio/932d67fb974a52b7-a64.mp3	66 បាដិបុគ្គលិកទាន ១៤ យ៉ាង និងវេលាមសូត្រ
+65	AABH000YY2023.1065	1HdMRBL0iHP5jUOc4I-zqZPPz8VcNyMUw	DRAFT	89.8	-18.2	ok	https://media.84000.digital/audio/adb5b94e2433be9f-a64.mp3	67 សម្បត្តិរបស់ឧបាសក ឧបាសិកាមាន ៥ យ៉ាង
+66	AABH000YY2023.1066	16jGWAu8k-iOuzSZDIJWzdln1xotuVb7D	DRAFT	90.1	-18.2	ok	https://media.84000.digital/audio/338723677992de9a-a64.mp3	68 ការដល់ព្រះត្រៃសរណគមនមាន ៤ យ៉ាង
+67	AABH000YY2023.1067	1rPH7S5x1JFDEEAS8Gz0XJ4h-rSTF3imQ	DRAFT	87.2	-18.1	ok	https://media.84000.digital/audio/36b4fbc8afd14a5a-a64.mp3	69 សេចក្តីសង្ស័យ ៨ យ៉ាង និងសង្ស័យ ១៦
+68	AABH000YY2023.1068	1mD45G4YBvKNyzMjH6gg0lfHy8_hN6pKi	DRAFT	88.9	-18.2	ok	https://media.84000.digital/audio/903aa98e71b5f801-a64.mp3	70 ហេតុលះបង់វិចិកិច្ឆា និងឧទ្ធច្ចចិត្ត
+69	AABH000YY2023.1069	16eQezZ71CEcXY9oVd5cRXfJYD_0_kBE0	DRAFT	90.8	-18.2	ok	https://media.84000.digital/audio/b3efd711451c9257-a64.mp3	71 សំណួរចម្លើយរម្លឹកអកុសលចិត្ត ១២ ដួង
+70	AABH000YY2023.1070	1MupdLZXj3HJjjqC5FSv1Ky-MyqzTh6oX	DRAFT	97.7	-18.6	cap	https://media.84000.digital/audio/97ac308cda514fe1-a64.mp3	72 បាណាតិបាត ការសម្លាប់សត្វ អង្គរបស់បាណាតិបាត
+71	AABH000YY2023.1071	1083-4b0ipdG6jluC-S3lEOwynAapYlbb	DRAFT	96.5	-18.2	ok	https://media.84000.digital/audio/3b07603b176dca4b-a64.mp3	72 ប្រយោគរបស់បាណាតិបាតមាន ៦ យ៉ាង
+72	AABH000YY2023.1072	1bjCYrAa1nCI8NVOMYoW9FihbdYdnYGwu	DRAFT	93.0	-18.2	ok	https://media.84000.digital/audio/bdb584c179022966-a64.mp3	73 បាណាតិបាត ការស្លាប់មាន ៤ យ៉ាង
+73	AABH000YY2023.1073	15lIMt4kldNW0pGwFd4psPhqWSiryiO4L	DRAFT	85.6	-18.2	ok	https://media.84000.digital/audio/8b581166f7a96cc7-a64.mp3	75 បាណាតិបាត អាណត្តិកប្រយោគមាន ៦ យ៉ាង
+74	AABH000YY2023.1074	1j86NJ2SxZAlRyuXNXqvEwEqrn9282n_Y	DRAFT	88.5	-18.2	ok	https://media.84000.digital/audio/ef9716909aafa96c-a64.mp3	76 បាណាតិបាត ទោស និងអានិសង្សរបស់បាណាតិបាត
+75	AABH000YY2023.1075	1KdJVidLjYLY0IxdsiWm6oblm9uJoVOzI	DRAFT	93.2	-18.2	ok	https://media.84000.digital/audio/d2e1c554434d9a2e-a64.mp3	77 អទិន្នាទាន ប្រយោគនៃការលួចមាន ៦ ប្រការ
+76	AABH000YY2023.1076	1R7tAjB2SvCIwX1ZC6NDGINcryU6owYck	DRAFT	98.6	-18.2	ok	https://media.84000.digital/audio/e6beba4db53e9e47-a64.mp3	78 អទិន្នាទាន នានាភណ្ឌបញ្ចក លួចទ្រព្យផ្សេងៗចែកជា៥
+77	AABH000YY2023.1077	1RRvLXymo3dmhjHnS6u9jL37YfUabOyIV	DRAFT	91.8	-18.2	ok	https://media.84000.digital/audio/5a8bca9ac3b0073d-a64.mp3	79 អទិន្នាទាន ឯកភណ្ឌបញ្ចក ដល់ថេយ្យវហារបញ្ចក
+78	AABH000YY2023.1078	1XGqPGpVqgZGMAUfj-y3o68PdROPGNxWR	DRAFT	91.7	-18.2	ok	https://media.84000.digital/audio/4f87f8d8ae86352a-a64.mp3	80 អទិន្នាទាន ទោស និងអានិស្សនៃអទិន្នាទាន
+79	AABH000YY2023.1079	1wzCUqMDIZC9fLx-niVQ3pMHDQHkawpRb	DRAFT	96.4	-18.2	ok	https://media.84000.digital/audio/d12aa9b59b26ad49-a64.mp3	81 កាមេសុមិច្ឆាចារ ការប្រព្រឹត្តិខុសក្នុងកាមទាំងឡាយ
+80	AABH000YY2023.1080	1Ye-ADFYUn5FZ8Z7Ihks4lDZ1d_5IRX25	DRAFT	91.2	-18.2	ok	https://media.84000.digital/audio/c372e08a1d47cf1b-a64.mp3	82 កាមេសុមិច្ឆាចារ វិនិច្ឆ័យដោយអាការៈ ៥ យ៉ាង
+81	AABH000YY2023.1081	13seBpU-2JqV7-WDO2Z3XPjM475Ooqqpr	DRAFT	88.3	-18.2	ok	https://media.84000.digital/audio/952ef866566b8b11-a64.mp3	83 មុសាវាទ ការពោលពាក្យកុហក អនអរិយវោហារ៨
+82	AABH000YY2023.1082	1mRhngr5Rzlrig4CfGv0NWCCZombRS4Wf	DRAFT	92.1	-18.2	ok	https://media.84000.digital/audio/8d929d4ef527aa9e-a64.mp3	៨៤ មុសាវាទ ការពោលពាក្យកុហក វិនិច្ឆ័យដោយអាការៈ៥
+83	AABH000YY2023.1083	1KV62Cals5LBe2SGM-3tayTg1tnBfor7-	DRAFT	87.7	-18.1	ok	https://media.84000.digital/audio/bca97c08a64eb8bc-a64.mp3	៨៥ បិសុណាវាទ ការនិយាយញុះញង់ វិនិច្ឆ័យដោយអាការៈ៥
+84	AABH000YY2023.1084	1ZtNn75h9D2c1FbtFuFt147nf5kvzKOkt	DRAFT	91.2	-18.1	ok	https://media.84000.digital/audio/0a454b228eb9c3d3-a64.mp3	៨៦ ផរុសវាទ ការជេរប្រទេច ឬគ្រោតគ្រាត វិនិច្ឆ័យដោយអាការៈ៥
+85	AABH000YY2023.1085	1NZbR7_lQrX2sGvO7vCXXOiLuWPVX9aEM	DRAFT	98.7	-18.6	cap	https://media.84000.digital/audio/e7b0a80750b00596-a64.mp3	៨៧ សម្ផប្បលាស ការនិយាយរោយរាយឥតប្រយោជន៍
+86	AABH000YY2023.1086	1bvQ2fIGelVvTWJ3c4zRsviDw3sBn_2r7	DRAFT	93.2	-18.1	ok	https://media.84000.digital/audio/870565146ddb61bd-a64.mp3	៨៨ អនភិជ្ឈា ការសម្លឹងរំពៃចង់បានរបស់អ្នកដទៃ
+87	AABH000YY2023.1087	1WOrh1tVmo2S7t5_UVNjM_s7kw_zaEd0E	DRAFT	93.6	-18.2	ok	https://media.84000.digital/audio/798fcc827e112966-a64.mp3	៨៩ អកសលកម្មបថ ព្យាបាទ ការព្យាបាទ
+88	AABH000YY2023.1088	1gtUvyENzKSlY6SKioEqoglQrzDEy6Unf	DRAFT	85.6	-18.5	ok	https://media.84000.digital/audio/fb1fe8383bf7b2c3-a64.mp3	៩០ អកុសលកម្មបថ មិច្ឆាទិដ្ឋិ ការយល់ខុស (និយតមិច្ឆាទិដ្ឋិ
+89	AABH000YY2023.1089	1hM0wS1ew-foHEZwrtWb3OqoFsHUfbDuh	DRAFT	96.4	-18.1	ok	https://media.84000.digital/audio/200e465059d23211-a64.mp3	៩២ អកុសលកម្មបថ ចែកដោយមូល និងដោយវេទនា
+90	AABH000YY2023.1090	1LMyBVQglKksshBw2Wlftldrlh40Q0qXb	DRAFT	85.0	-18.2	ok	https://media.84000.digital/audio/e5ab7654d7bf5951-a64.mp3	៩៣ អកុសលកម្មបថ ចែកលំដាប់នៃអកុសលកម្មបថ១០
+91	AABH000YY2023.1091	1z_zNGX6a1xY2ffP22f664VGj4UiOnCCt	DRAFT	85.0	-18.2	ok	https://media.84000.digital/audio/0df978bd73c27080-a64.mp3	៩៤ បញ្ចប់អកុសលកម្មបថ និងចូលនិយមន័យអហេតុកចិត្ត
+92	AABH000YY2023.1092	1VqsXz7FZ_AdgQcj3y74bJckH3fkLQnSW	DRAFT	95.7	-18.2	ok	https://media.84000.digital/audio/701f694cba5f6945-a64.mp3	៩៥ អហេតុកចិត្ត អកុសលវិបាកចក្ខុវិញ្ញាណ១ ដួង
+93	AABH000YY2023.1093	10dXWBvhd_nZ_ffqg-h638cVS1GfrKXfi	DRAFT	97.3	-18.2	ok	https://media.84000.digital/audio/f0d96af520b24226-a64.mp3	៩៦ អហេតុកចិត្ត អកុសលវិបាកចក្ខុវិញ្ញាណ និងបរិកប្ប២យ៉ាង
+94	AABH000YY2023.1094	1WQg9sdrBhq8EVnKR-YJZQg2fBUNQyxeE	DRAFT	88.5	-18.2	ok	https://media.84000.digital/audio/7f91f5c09f7151db-a64.mp3	៩៧ អកុសលវិបាកសោតវិញ្ញាណ និងបរិកប្ប៥ចំណុច
+95	AABH000YY2023.1095	1CVxskjJmq3emjijJ_L73CLTErO8DgLg3	DRAFT	96.2	-18.2	ok	https://media.84000.digital/audio/25b8c23138a029fd-a64.mp3	៩៨ អកុសលវិបាកឃានវិញ្ញាណ ជិវ្ហាវិញ្ញាណ
+96	AABH000YY2023.1096	1OhXOIRJ9Gkpc2kyoIXRcxQQdXtwZe3K2	DRAFT	90.0	-18.2	ok	https://media.84000.digital/audio/1b5694069674ffaf-a64.mp3	៩៩ អកុសលវិបាក ជិវ្ហាវិញ្ញាណ និងទុក្ខកាយវិញ្ញាណ
+97	AABH000YY2023.1097	18ROC6stDN3MZDPk_zmN33m2eI6CHwL_O	DRAFT	91.5	-18.2	ok	https://media.84000.digital/audio/69e3c1efd02bfd48-a64.mp3	១០០ អកុសលវិបាក មនោធាតុ មនោវិញ្ញាណធាតុ
+98	AABH000YY2023.1098	1qiui9Q1LOjNLixeYVVRBP0vxRQLVGrY4	DRAFT	88.7	-18.2	ok	https://media.84000.digital/audio/8a3fc36d6e40285f-a64.mp3	១០១ កិច្ចរបស់ចិត្ត ១៤ ក្នុងអកុសលវិបាក ៧ ដួង
+99	AABH000YY2023.1099	1Rybx1aTZ9NFZ60EjLoIEbOR3hZgPTBCW	DRAFT	93.4	-18.1	ok	https://media.84000.digital/audio/0ec82e514292b854-a64.mp3	១០២ វិថីចិត្តតាមបញ្ចទ្វារនិងមនោទ្វារក្នុងអហេតុកចិត្ត
+100	AABH000YY2023.1100	1sqvba5Lab33HxxNeR7JPF5KgcLysMl3q	DRAFT	92.8	-18.1	ok	https://media.84000.digital/audio/58ddf2161599296b-a64.mp3	១០៣ កុសលវិបាក ចក្ខុវិញ្ញាណ សោតវិញ្ញាណ ឃានវិញ្ញាណ
+101	AABH000YY2023.1101	1cJdEtRGaEOMLY0T4LRVr6rZwwpqiZJ45	DRAFT	92.4	-18.6	cap	https://media.84000.digital/audio/e156a481b8632353-a64.mp3	១០៤ កុសលវិបាក ជិវ្ហាវិញ្ញាណ កាយវិញ្ញា ដល់មនោវិញ្ញាណ
+102	AABH000YY2023.1102	1NX6rnoyXqd_zLy306HgwK5ut_4cI5Bv_	DRAFT	96.4	-18.2	ok	https://media.84000.digital/audio/0ef15be4b1b81369-a64.mp3	១០៥ អហេតុកកិរិយាចិត្តដួងទី១ ដួងទី២ និងរម្លឹកមេរៀន
+103	AABH000YY2023.1103	1pJFu0W2Y9lasCZYfebwuh4wJM65mAN_c	DRAFT	95.7	-18.2	ok	https://media.84000.digital/audio/0eaa5480c7ae417c-a64.mp3	១០៦ ហសិតុប្បាទចិត្ត ការញញឹមចែកចេញជា ៦ យ៉ាង
+104	AABH000YY2023.1104	1Vo2PxwELuQkqGoKulPqRDKebK9NLB13G	DRAFT	91.3	-18.2	ok	https://media.84000.digital/audio/ef95b20f49b84f1c-a64.mp3	១០៧ អហេតុកចិត្ត ១៨ កិច្ចក្នុងអហេតុកចិត្ត ១៨
+105	AABH000YY2023.1105	1aFHR4dndMO9QXuu138Cj-l2erk_XPozr	DRAFT	74.5	-18.5	ok	https://media.84000.digital/audio/529a9f4cb841c1b8-a64.mp3	១០៨ អហេតុកចិត្ត ចែកទ្វារ វត្ថុ វិញ្ញាណធាតុ៧
+106	AABH000YY2023.1106	13oSnekwYN514x2-TE8ospPsy45aRPLJ5	DRAFT	93.7	-18.2	ok	https://media.84000.digital/audio/8834d1067787ff11-a64.mp3	១០៩ បញ្ចប់អហេតុកចិត្ត១៨ ចែកដោយន័យផ្សេងៗ
+107	AABH000YY2023.1107	1wHT8ULyA-pXtmXElcUcX_8-II3ZqhK08	DRAFT	94.3	-18.2	ok	https://media.84000.digital/audio/a4c4149b76364126-a64.mp3	១១០ មហាកុសលចិត្ត ៨ និយមន័យសោភណចិត្ត
+108	AABH000YY2023.1108	1ueQi6LSjpgC0jvLS7olRbdmVwIeYukIT	DRAFT	96.7	-18.2	ok	https://media.84000.digital/audio/d05a0596f00267bb-a64.mp3	១១១ មហាកុសលចិត្ត ៨ ពាក្យថាបុណ្យ និងកុសល
+109	AABH000YY2023.1109	1u7Za_32YCfXVXx0kqzgoZf9ADLKiSJL9	DRAFT	95.7	-19	cap	https://media.84000.digital/audio/4cb0331e1460ce60-a64.mp3	១១២ មហាកុសលចិត្តដួងទី១ និងអត្ថរបស់កុសល
+110	AABH000YY2023.1110	18PdAiIdnAZRQ5yUKs5U907L4CLkWo_AX	DRAFT	94.2	-18.2	ok	https://media.84000.digital/audio/1310539cc5ad4e61-a64.mp3	១១៣ មហាកុសលចិត្តដួងទី២ ដួងទី៣
+111	AABH000YY2023.1111	1JhvxBDbznFyhNaRHacJ1uiXxh5RY4P_o	DRAFT	97.3	-18.2	ok	https://media.84000.digital/audio/63e24eaaf20c12d9-a64.mp3	១១៤ មហាកុសលចិត្តដួងទី៤ ដួងទី ៥
+112	AABH000YY2023.1112	13O5hxEkHFdJT_zXp2kXo7oLeDerld0Vo	DRAFT	94.5	-18.1	ok	https://media.84000.digital/audio/384adc89c7d00908-a64.mp3	១១៥ មហាកុសលចិត្តដួងទិ៥ដល់ទី៨ និងលក្ខណាទិចតុក្កៈកុសល
+113	AABH000YY2023.1113	1w5jA3cXEngwEA5_8vYBnTwIUyv0rVnq3	DRAFT	89.8	-18.2	ok	https://media.84000.digital/audio/5cbfe26ef2b41357-a64.mp3	១១៦ ចក្កធម៌ ៤ យ៉ាង និងសប្បុរិសធម៌ ៧ ប្រការ
+114	AABH000YY2023.1114	17Vx4G8Ie-G-WuIEyo5dobuIQKXGRKFbs	DRAFT	93.1	-18.2	ok	https://media.84000.digital/audio/9cb0400fb21d6290-a64.mp3	១១៧ ហេតុនាំឱ្យកើតសោមនស្សក្នុងមហាកុសលចិត្ត
+115	AABH000YY2023.1115	1O1JHy1K4o5oEsaXDfmVIqEOeT95dkTht	DRAFT	96.0	-18.2	ok	https://media.84000.digital/audio/3ecd0854ae7ea6e8-a64.mp3	១១៨ ផលរបស់បុណ្យមាន ២៧ យ៉ាងក្នុងនធិកណ្ឌសូត្
+116	AABH000YY2023.1116	1nQEKmnpIElat6LpEHIQM-Lq4b9RATt2H	DRAFT	93.9	-18.5	ok	https://media.84000.digital/audio/05c49bc9c6f13346-a64.mp3	១១៩ ហេតុនាំឱ្យកើតមហាកុសលញាណសម្បយុត្តចិត្ត
+117	AABH000YY2023.1117	1wg-QD_GOQ5ytiNid2QmvBVw08-zhARLp	DRAFT	96.3	-18.2	ok	https://media.84000.digital/audio/e9633a01c9bc245b-a64.mp3	១២០ ហេតុនាំឱ្យកើតមហាកុសលអសង្ខារិកចិត្តមាន ៦ យ៉ាង
+118	AABH000YY2023.1118	1XEC3kpzxshsHSREPi-4uUkN7GnjUtPl2	DRAFT	95.4	-18.2	ok	https://media.84000.digital/audio/406756e3fb432949-a64.mp3	១២១ ហេតុនាំកើតសសង្ខារ និងហេតុនាំឱ្យកើតបញ្ញាមាន ៣
+119	AABH000YY2023.1119	1QzCx6EHR5eA_-NuPLW5_JiG2d-qk6-yB	DRAFT	93.1	-18.2	ok	https://media.84000.digital/audio/0f5ee6090527e7ad-a64.mp3	១២២ ចែកមហាកុសលដោយកុសលកម្មបថ១០
+120	AABH000YY2023.1120	1E9jG47EL8YBDNR5PjSgu5gTkS60sJEW1	DRAFT	98.3	-18.2	ok	https://media.84000.digital/audio/5432064abe357a00-a64.mp3	១២៣ ចែកមហាកុសលដោយបុញ្ញកិរិយាវត្ថុ ទានមយបុណ្យ
+121	AABH000YY2023.1121	1nlv2AJJF-HAcje0tdmBc2hJ_N7u20LRE	DRAFT	100.3	-18.1	ok	https://media.84000.digital/audio/e19ac19eb11fefb9-a64.mp3	១២៤ ចែកមហាកុសល ទានវត្ថុ ៤ និងទុកទាន
+122	AABH000YY2023.1122	1RLPnjS5GBe6b6QCNDgFzFciPsYv0gqdP	DRAFT	92.8	-18.3	ok	https://media.84000.digital/audio/0df448d22b1e647b-a64.mp3	១២៥ ទានមយបុណ្យ ទុកទាន និងតិកទាន
+123	AABH000YY2023.1123	1Uf2TC6lSy2bsA_FGiNYE4__7iwPt5Hch	DRAFT	87.3	-18.1	ok	https://media.84000.digital/audio/26f478b1765ac490-a64.mp3	១២៦ ទានមយបុណ្យ តិកទាន ទាសទាន សហាយទាន សាមិទាន
+124	AABH000YY2023.1124	1doMeI27jArumVlZC10HaGFOELCbgPcFD	DRAFT	94.2	-18.2	ok	https://media.84000.digital/audio/eb167c59705fb8c1-a64.mp3	១២៧ ទានមយបុណ្យ ទាន ៨ យ៉ាង និងផលរបស់ទានផ្សេងៗ
+125	AABH000YY2023.1125	1U7MHNWUVBB_5KtBsIDgIdISYckw42Cv8	DRAFT	90.9	-18.6	cap	https://media.84000.digital/audio/c8062ee50a54f682-a64.mp3	១២៨ បុញ្ញកិរិយាវត្ថុ ទានមយបុណ្យ ផលរបស់ទានជាបន្ត
+126	AABH000YY2023.1126	1PQuKOFf_ZcwYTxR_iqXbMf4DbBdPLGIg	DRAFT	91.7	-18.6	cap	https://media.84000.digital/audio/b603d454803107c7-a64.mp3	១២៩ បុញ្ញកិរិយាវត្ថុ ទានមយបុណ្យ អានិសង្សថ្វាយបាយជាដើម
+127	AABH000YY2023.1127	1SPtVjHeG7j-IoVTak-fQRM9zc9WXOTR9	FAILED (no manifest entry)					១៣០ បុញ្ញកិរិយាវត្ថុ សីលមយបុណ្យ សីលរបស់គ្រហស្ថមាន ៣យ៉ាង
+128	AABH000YY2023.1128	1vYxYL8OKrrjUH0j4_PB3NpE-1iLmAVag	DRAFT	90.7	-18.2	ok	https://media.84000.digital/audio/0f65b4eeabc13c61-a64.mp3	១៣១ បុញ្ញកិរិយាវត្ថុ សីលមយបុណ្យ បុណ្យសម្រេចដោយការរក្សាសីល
+129	AABH000YY2023.1129	1dgw8t45AW4sf_-zo8yNY1BexTBNsgnv3	DRAFT	96.5	-18.2	ok	https://media.84000.digital/audio/6b61db68cd5f06dd-a64.mp3	១៣២ បុញ្ញកិរិយាវត្ថុ សីលមយបុណ្យ ឧបោសថសីល ៣ យ៉ាង
+130	AABH000YY2023.1130	1f4CNyXzFIRlLXMqpNUSizkP93GYHBDuB	FAILED (no manifest entry)					១៣៣ សីលមយបុណ្យ ពន្យល់ វិកាលភោជនសិក្ខាបទ
+131	AABH000YY2023.1131	1k1zMsBswCN8p0mBD-1J4qoTDuOJDbxxy	DRAFT	92.4	-18.2	ok	https://media.84000.digital/audio/aba539eef42e94a8-a64.mp3	១៣៤ សីលមយ វិកាលសិក្ខា ភេសជ្ជគួរបរិភោគ
+132	AABH000YY2023.1132	1s_cC6hszmp7_FAc5t72oKU6vZK4TVa3o	DRAFT	94.1	-18.2	ok	https://media.84000.digital/audio/44faed7ab0d3c80a-a64.mp3	១៣៥ សីលមយ វិកាលសិក្ខាបញ្ចប់ ចូលនច្ចគីតសិក្ខាបទ
+133	AABH000YY2023.1133	194bLhQl7izHvKHkistD5Ucis7CeeJuLQ	DRAFT	94.3	-18.2	ok	https://media.84000.digital/audio/ff0bedb708b5b20c-a64.mp3	១៣៦ សីលមយ មាលាគន្ធវិលេបន និងឧច្ចាសយនមហាសយនា
+134	AABH000YY2023.1134	1thNm-Mn9_jhA3jvByuuQsqzffSj5lL72	DRAFT	92.7	-18.1	ok	https://media.84000.digital/audio/e5f261917b134871-a64.mp3	១៣៧ សីលមយ ឧច្ចាសយនមហាសយនសិក្ខាបទ
+135	AABH000YY2023.1135	1X9BxzdYqBqwvjldtHB1ESrQ-7G_o-Z4E	DRAFT	92.8	-18.3	ok	https://media.84000.digital/audio/8c3977e0bc89a7d0-a64.mp3	១៣៨ សីលមយ ជាតរូបបរជតប្បដិគ្គហណសិក្ខាបទ
+136	AABH000YY2023.1136	1t34gsEPIHZCz1dYpWiaYQqYWEeMsQCSj	DRAFT	51.9	-18.7	cap	https://media.84000.digital/audio/9a33ad3d2a0777da-a64.mp3	១៣៩ សីលមយ អានិសង្សការវៀរចាកបាណាតិបាត អទិន្នាទាន
+137	AABH000YY2023.1137	1sfZIHqHdq5MxecM9m6XFoDIe4Cm1XbzW	DRAFT	93.8	-18.2	ok	https://media.84000.digital/audio/d66861910957e881-a64.mp3	១៤០ អានិសង្សការវៀរចាកអព្រហ្មចរិយ មុសាវាទ សុរាមេរ័យ
+138	AABH000YY2023.1138	1PY0F_A4orobhz1lkXlatQuSyZzXL5klP	DRAFT	98.3	-18.5	ok	https://media.84000.digital/audio/94cb1a9b80f99ccc-a64.mp3	១៤១ អានិសង្សនៃការរក្សាភាបន្ត
+139	AABH000YY2023.1139	1HjEqZ6SpOI741reYXhq5POa5UTDjyCwi	DRAFT	95.6	-18.4	ok	https://media.84000.digital/audio/09f1aa82e71caca7-a64.mp3	១៤១ បដិបក្ខរបស់សីល និងភាវនាមយបុណ្យ
+140	AABH000YY2023.1140	1Or9GIGvpb0QDxupnUnT4YltyNPG-olQS	FAILED (no manifest entry)					១៤២ អាបចាយនៈ និងវេយ្យាវច្ចមយបុណ្យ
+141	AABH000YY2023.1141	1jL9CuJe0Jmgdaete3OCWoHJsAURki0nJ	DRAFT	91.2	-18.3	ok	https://media.84000.digital/audio/c3c7caed13509b24-a64.mp3	១៤៣ បត្តិទាន ការចែកបុណ្យ បត្តានុមោទនា ត្រេកអរនឹងបុណ្យ
+142	AABH000YY2023.1142	143JJ-QCk7fwii6nJBsN_KbeAD-Vf3IFx	DRAFT	91.0	-18.1	ok	https://media.84000.digital/audio/e9d3d70d218df6c8-a64.mp3	១៤៤ ធម្មស្សវន ធម្មទេសនា ទិដ្ឋុជុកម្មមយបុណ្យ
+143	AABH000YY2023.1143	1yjBtOF3Tiv2z0BGsFPRkN-xsIc_BE3NA	DRAFT	95.8	-18.2	ok	https://media.84000.digital/audio/6e6658b76e9c3b5b-a64.mp3	១៤៥ ចែកមហាកុសលជាឧក្កដ្ឋកុសល និងឱមកកុសល
+144	AABH000YY2023.1144	1HrbrHFKD1Vo9330iDFj0GpP3yaz5u_7i	FAILED (no manifest entry)					១៤៦ ចែកមហាកុសលដោយន័យផ្សេងៗ ១៤ ន័យ
+145	AABH000YY2023.1145	1baXFtmFOAz9raiWs6cJwXeCQ9_4h-qo5	DRAFT	92.3	-18.1	ok	https://media.84000.digital/audio/9c8a26ec9f54edc1-a64.mp3	១៤៧ មហាវិបាកចិត្ត ៨ ដួង និងផលរបស់ទាន៧/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+146	AABH000YY2023.1146	1T05d3MBeUybX8L35_fI1Pv8kqlhcoFqV	DRAFT	91.0	-18.2	ok	https://media.84000.digital/audio/fa26dbc947095bc4-a64.mp3	១៤៨ មហាវិបាកចិត្ត ៨ ដួង និងសមង្គិតា៥/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+147	AABH000YY2023.1147	16bV2jfYWiB4rTi3i0W0JyrCW4aiiRd6t	FAILED (no manifest entry)					១៤៩ មហាកិរិយាចិត្ត ៨ ដួង ការដឹងអារម្មណ៍តាមទ្វារ ៦/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+148	AABH000YY2023.1148	18ht1PZprCbevTzaIxL9PAaw66lJJgy7g	DRAFT	94.5	-18.2	ok	https://media.84000.digital/audio/8db6019ee6c18d79-a64.mp3	១៥០ សំណួរបញ្ចប់កាមាវចរចិត្ត និងរូបឈាន/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+149	AABH000YY2023.1149	1onydhSccZ_X1-zdWcuPY1qLxvxmD6xcr	DRAFT	90.6	-18.2	ok	https://media.84000.digital/audio/72d61b75d1182586-a64.mp3	១៥១ រូបាវចរចិត្ត បលិពោធ គ្រឿងកង្វល់របស់សមាធិ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+150	AABH000YY2023.1150	1b_2Xtwm8HVLNbCcQWgIFke5xwEYH6AWn	DRAFT	91.0	-18.6	cap	https://media.84000.digital/audio/10b98627ff7c60f0-a64.mp3	១៥២ រូបាវចរចិត្ត ពន្យល់អង្គឈាន ៥ លះនីវរណធម៌/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+151	AABH000YY2023.1151	1vS-u0KnyxFx2f1AIWG50qE6zB6ZUPu6m	DRAFT	91.2	-18.4	ok	https://media.84000.digital/audio/bf3ed9de9fda89c4-a64.mp3	១៥៣ រូបាវចរកុសល កសិណ១០ យ៉ាង/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+152	AABH000YY2023.1152	19wNh_lgr5Aln0BgOwwMZc4aKhNCvSJ9O	FAILED (no manifest entry)					១៥៤ រូបាវចរកុសល អសុភ១០ និងអនុស្សតិ ១០/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+153	AABH000YY2023.1153	1ZU0ORtyLOOke0rIKy99cN9j_4aFlxYpM	DRAFT	97.1	-18.7	cap	https://media.84000.digital/audio/78b4f03589f91202-a64.mp3	១៥៥ ឧបសមានុស្សតិ និងមរណានុស្សតិ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+154	AABH000YY2023.1154	18b23h3sw02DF3ri0LI7eQRuV-dy_LUUy	FAILED (no manifest entry)					១៥៦ មរណានុស្សតិ អានាបានស្សតិ និងមេត្តា ករុណា/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+155	AABH000YY2023.1155	1WzWF5g4OFpRRiongOu4FCJl0GVoA_-SM	DRAFT	92.8	-18.2	ok	https://media.84000.digital/audio/d9bac8ebf9e3c428-a64.mp3	១៥៧ ព្រហ្មវិហារកម្មដ្ឋាន របៀបចម្រើនព្រហ្មវិហារធម៌៤/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+156	AABH000YY2023.1156	1hp0KlwJA-UoRk3Qnt83hvqvSEal61wlH	DRAFT	91.2	-18.4	ok	https://media.84000.digital/audio/253e797b53fa1f80-a64.mp3	១៥៨ អាហារបដិកូលសញ្ញា ចតុធាតុវវត្ថាន
+157	AABH000YY2023.1157	1av2ympkJe6VWEizQaEAmOqT9eLJkBJ-j	DRAFT	94.4	-18.2	ok	https://media.84000.digital/audio/bb0bb7fe75f4bf53-a64.mp3	១៥៩ សមថកម្មដ្ឋាន៤០ វិនិច្ឆ័យដោយអាការ១០យ៉ាង
+158	AABH000YY2023.1158	1oo9hPINgBDbdvhYvhheqTQpLEQ0Ch-dY	DRAFT	94.6	-18.1	ok	https://media.84000.digital/audio/4714db9bb4ec9205-a64.mp3	១៦០ សមថកម្មដ្ឋាន៤០ ចែកតាមចរិតរបស់បុគ្គល
+159	AABH000YY2023.1159	1rn60IDvd6z_RBBWDepBQi1Idua1QA078	DRAFT	92.3	-18.4	ok	https://media.84000.digital/audio/67f1eab90dae07b9-a64.mp3	១៦១ ចែកការប្រព្រឹត្តរបស់ចរិត៦ និងន័យផ្សេងៗ ១៤
+160	AABH000YY2023.1160	1LC5uODnWpw6TUf8P849bZ76vQc8z2n1E	DRAFT	92.6	-18.5	ok	https://media.84000.digital/audio/7f54ead1700ddecf-a64.mp3	១៦២ រូបាវចរវិបាកចិត្ត ៥ ដួង ផលទៅកើតព្រហ្មលោក
+161	AABH000YY2023.1161	1LxtqCRP0dTNFysNFQnynQT0dil6wmIlP	DRAFT	94.4	-18.2	ok	https://media.84000.digital/audio/3920a2aa4f5c3ecd-a64.mp3	១៦៣ រូបាវចរវិបាកចិត្ត ៥ ដួង និងរូបាវចរកិរិយា៥ ដួង
+162	AABH000YY2023.1162	1OU4uNPTsOMs8haiQbNmdy3fPdfMPGrSo	DRAFT	93.6	-18.3	ok	https://media.84000.digital/audio/120bbe0e98d65d59-a64.mp3	១៦៤ អរូបាវចរចិត្ត ១២ អរូបកុសល ៤ អរូបវិបាក៤
+163	AABH000YY2023.1163	15XltsRsmBdjVqADM_6nA3T0EBUTdujLl	DRAFT	90.6	-18.2	ok	https://media.84000.digital/audio/8bdc2a422d82b3dc-a64.mp3	១៦៥ បញ្ចប់អរូបាវចរចិត្ត១២ និងចូលលោកុត្តរចិត្ត
+164	AABH000YY2023.1164	1IOcQmZmmZG48bik-IKMmr7yoIEzZyimr	DRAFT	93.4	-18.2	ok	https://media.84000.digital/audio/feb356e3f7a693f0-a64.mp3	១៦៦ លោកុត្តរចិត្ត សោតាបត្តិមគ្គ សោតាមាន៣ ប្រភេទ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+165	AABH000YY2023.1165	1MYSk8T9MHl5ulZY3F9FYWNAFFnS2gE76	DRAFT	92.0	-18.2	ok	https://media.84000.digital/audio/ee67472c26955a3b-a64.mp3	១៦៧ សកទាគាមី៥ អនាគាមីមាន ៥ ប្រភេទ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+166	AABH000YY2023.1166	1Wz0DzfDMveSVX8vXkZwG2T-87b3K9Mpq	DRAFT	91.3	-18.1	ok	https://media.84000.digital/audio/79fce4f43d862f82-a64.mp3	១៦៨ លោកុត្តរចិត្ត ទុក្ខសច្ចៈ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+167	AABH000YY2023.1167	1q3QfnjiESb5vIRyseDyZi9m2s8-sFNGo	DRAFT	90.5	-18.1	ok	https://media.84000.digital/audio/525c3595e7efffe3-a64.mp3	១៦៩ ពន្យល់អរិយសច្ចៈ ៤ មានទុក្ខសច្ចជាដើម/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១
+168	AABH000YY2023.1168	1eOWdNUlfDlzPXumHauNUJ7GoXIa2D-LX	DRAFT	92.3	-18.2	ok	https://media.84000.digital/audio/2d2886803032d47e-a64.mp3	១៧០ មគ្គចិត្ត ៤ លះកិលស១០ យ៉ាង
+
+# approve-media drive_file_ids (DRAFT lessons only), comma separated:
+1uIj70CnF2ccTlRcHIHrcifYz9bPvQYCt,1_D86jneFS0wHrtGAyXoY9fLLVpvjj9jp,1w_TRv0geESXcty4I2JqpDpysJBm6IyuJ,1bjyTSi88Mi6cz5OWr4UZ62nr9xDr1hpz,1xfyBX3OymEEH5Msm1y6oz0nC5qwpsE91,1Vv_riFMgNaZ4CnnMQGhJvzOiQ082zD55,14mfCxfO5zyoT4PQfJFrCgnFXjEQhabgg,1SkxVogQUSH5f5cELR4J4OxO-GV80fzXV,1xc1xtxb8cH3H6pVIinRQxM1rAzl3o_X7,13W5inc4PaG83wdb0EH3_9hUfkJtdiTSb,1MtVT7sUKpdWzUgv-LpqMC7UjRbqXcIDA,1D2XycZ0p3TnFEyRPfPxCrWSNRpKzKkSo,1XN_8KLsEUKXKWDVsymkhHzASI3gXHfeY,17yZYtFaAb7d9RgwK7dpNLSly0sVeSmS5,1pkhtIx_IgjGpv1xsDJc5nCsGgZD-yDeB,1L2M37suqxNKHibMpZUMT6t5cAzuuGO8S,1VvRjD6SsUwYgx16jp6HENCZ4UXykf2IB,13dKgEey4D8xrPahnZXIaU155AHNwbTOz,1F7_a7lUjDoqBZCbLhwf0j4k7lo3NqnxS,1qUCeW6LpojHDJT6JCIGCI8GzaP-hhieH,10Em6TJpG1eKStqiyL3DYMk4BwP4EdwAW,14Gc-FEZrir0ZQpEjkP0U0guZs12RQEYe,1sYf_LYKFKru13_nV2B49OQNNAFdDtjFk,17XgRkT6Hy7oNQOyF_Pkwa_FucJcHW4XK,1EfyjJUgQ2r5Q2yjMFUuJSheJjyw2m50k,18u2oA35Yegi5Sm94ZWmAQBzmqdbC4D1v,1DrAwSn62HtxpC3YgHmiJ6wkhwpGAHaJh,14LTRJO3uL0wZ-7PtXbW3wO-l2BHH-QJw,12TgMs5WbqK6lW8x3UXHsUBr3D4mmeXDw,1bdjHBHIoIkba29qIAKSO8Sk4yc27vhUG,1hMGAEhcAkWv8Q0AmNy47dkSypVu-YLAr,1PmBTNkxjj_VqvTeZXYCJ-ECLYB_Emu5B,1B1EfBJ91_Uv8hRC_hjX3QRMTpdXeJjLN,1dO0V_xw5HTaMXACKGahr-X3qwCPPWY2R,1Wr5roatZgQvt8MFoMkclbGDmfpFzAnGQ,189VQ11mV57NH9CceZ1C3D3OULYPGE35N,1-Gv4zocWJisvqp7CXDCpo02QYvjogJ8J,1wTOq-lJ65s4P4hi9tfoahOZsLn9Da8ZO,1lO3JZ2kAF3SPzqPkZoAnB8J2cRTvmFZn,1VgEAL439FKg4ParKFn9GnQZhaaLAeWqG,10c3NHjEHuEwD05Hg93hV9ItrjXYejhWA,1E1ELHifIcjDm6MYm06FM0mF0Xi9NyXvA,1MmNI_uLaA2ty1Y8Zu4FvbJU2G-CkVT5Q,1IA65j1ZNrNpmF69yTZlPyFZmZE7oiJEw,1mdl4Lexp0Z3doXKGEgGjfSHWczLMvRfs,1SIEcCywglEuVfZqCM54A3ww0Pmge6ENz,167WgJLqd5rRd7KjdT95StrIaznxJ_eo6,1xhde-kd1LQnRP7HKAfnt2eiEEKp50QUe,1IX1DeN6D0-DHOOv35oWvZ1tFgcwy0ncu,11j_Wo-WLKEjfhoaYCdQ8Mld-nNGgMBuu,1Z_VKmq5bXlZLrvsLqYSW_W71Q4ujScbQ,1cZJuORTY7s8XpTyz7lFHHbqJbiHZ0g7K,1F-DjESLPdLUeqMwnNGIs4qoiq0an0FKo,1b1XAfr6oTYc1zrBLfAIqMBSdYRt9DAoj,1SiPJv--_DG55OKSzfMHS8yQjRGEjwdP7,1DscrCmbQPtZopgSE_3XK2pdN9L60Ly8N,17PfcPvxMv52g9C9n6ogNJvMJNT8vY4TD,1hydSKXw6EnYYZzotrtFRvjNiwKVlexHE,1u960GbKHw-mfotcHQQWz2Eyl--613UiX,16atu2i12HgtJbTrd9QhqO8-M435Wyu5O,16_EXAtLdeXdYcdBfYbiiyO-TVHiFZrGS,1HdMRBL0iHP5jUOc4I-zqZPPz8VcNyMUw,16jGWAu8k-iOuzSZDIJWzdln1xotuVb7D,1rPH7S5x1JFDEEAS8Gz0XJ4h-rSTF3imQ,1mD45G4YBvKNyzMjH6gg0lfHy8_hN6pKi,16eQezZ71CEcXY9oVd5cRXfJYD_0_kBE0,1MupdLZXj3HJjjqC5FSv1Ky-MyqzTh6oX,1083-4b0ipdG6jluC-S3lEOwynAapYlbb,1bjCYrAa1nCI8NVOMYoW9FihbdYdnYGwu,15lIMt4kldNW0pGwFd4psPhqWSiryiO4L,1j86NJ2SxZAlRyuXNXqvEwEqrn9282n_Y,1KdJVidLjYLY0IxdsiWm6oblm9uJoVOzI,1R7tAjB2SvCIwX1ZC6NDGINcryU6owYck,1RRvLXymo3dmhjHnS6u9jL37YfUabOyIV,1XGqPGpVqgZGMAUfj-y3o68PdROPGNxWR,1wzCUqMDIZC9fLx-niVQ3pMHDQHkawpRb,1Ye-ADFYUn5FZ8Z7Ihks4lDZ1d_5IRX25,13seBpU-2JqV7-WDO2Z3XPjM475Ooqqpr,1mRhngr5Rzlrig4CfGv0NWCCZombRS4Wf,1KV62Cals5LBe2SGM-3tayTg1tnBfor7-,1ZtNn75h9D2c1FbtFuFt147nf5kvzKOkt,1NZbR7_lQrX2sGvO7vCXXOiLuWPVX9aEM,1bvQ2fIGelVvTWJ3c4zRsviDw3sBn_2r7,1WOrh1tVmo2S7t5_UVNjM_s7kw_zaEd0E,1gtUvyENzKSlY6SKioEqoglQrzDEy6Unf,1hM0wS1ew-foHEZwrtWb3OqoFsHUfbDuh,1LMyBVQglKksshBw2Wlftldrlh40Q0qXb,1z_zNGX6a1xY2ffP22f664VGj4UiOnCCt,1VqsXz7FZ_AdgQcj3y74bJckH3fkLQnSW,10dXWBvhd_nZ_ffqg-h638cVS1GfrKXfi,1WQg9sdrBhq8EVnKR-YJZQg2fBUNQyxeE,1CVxskjJmq3emjijJ_L73CLTErO8DgLg3,1OhXOIRJ9Gkpc2kyoIXRcxQQdXtwZe3K2,18ROC6stDN3MZDPk_zmN33m2eI6CHwL_O,1qiui9Q1LOjNLixeYVVRBP0vxRQLVGrY4,1Rybx1aTZ9NFZ60EjLoIEbOR3hZgPTBCW,1sqvba5Lab33HxxNeR7JPF5KgcLysMl3q,1cJdEtRGaEOMLY0T4LRVr6rZwwpqiZJ45,1NX6rnoyXqd_zLy306HgwK5ut_4cI5Bv_,1pJFu0W2Y9lasCZYfebwuh4wJM65mAN_c,1Vo2PxwELuQkqGoKulPqRDKebK9NLB13G,1aFHR4dndMO9QXuu138Cj-l2erk_XPozr,13oSnekwYN514x2-TE8ospPsy45aRPLJ5,1wHT8ULyA-pXtmXElcUcX_8-II3ZqhK08,1ueQi6LSjpgC0jvLS7olRbdmVwIeYukIT,1u7Za_32YCfXVXx0kqzgoZf9ADLKiSJL9,18PdAiIdnAZRQ5yUKs5U907L4CLkWo_AX,1JhvxBDbznFyhNaRHacJ1uiXxh5RY4P_o,13O5hxEkHFdJT_zXp2kXo7oLeDerld0Vo,1w5jA3cXEngwEA5_8vYBnTwIUyv0rVnq3,17Vx4G8Ie-G-WuIEyo5dobuIQKXGRKFbs,1O1JHy1K4o5oEsaXDfmVIqEOeT95dkTht,1nQEKmnpIElat6LpEHIQM-Lq4b9RATt2H,1wg-QD_GOQ5ytiNid2QmvBVw08-zhARLp,1XEC3kpzxshsHSREPi-4uUkN7GnjUtPl2,1QzCx6EHR5eA_-NuPLW5_JiG2d-qk6-yB,1E9jG47EL8YBDNR5PjSgu5gTkS60sJEW1,1nlv2AJJF-HAcje0tdmBc2hJ_N7u20LRE,1RLPnjS5GBe6b6QCNDgFzFciPsYv0gqdP,1Uf2TC6lSy2bsA_FGiNYE4__7iwPt5Hch,1doMeI27jArumVlZC10HaGFOELCbgPcFD,1U7MHNWUVBB_5KtBsIDgIdISYckw42Cv8,1PQuKOFf_ZcwYTxR_iqXbMf4DbBdPLGIg,1vYxYL8OKrrjUH0j4_PB3NpE-1iLmAVag,1dgw8t45AW4sf_-zo8yNY1BexTBNsgnv3,1k1zMsBswCN8p0mBD-1J4qoTDuOJDbxxy,1s_cC6hszmp7_FAc5t72oKU6vZK4TVa3o,194bLhQl7izHvKHkistD5Ucis7CeeJuLQ,1thNm-Mn9_jhA3jvByuuQsqzffSj5lL72,1X9BxzdYqBqwvjldtHB1ESrQ-7G_o-Z4E,1t34gsEPIHZCz1dYpWiaYQqYWEeMsQCSj,1sfZIHqHdq5MxecM9m6XFoDIe4Cm1XbzW,1PY0F_A4orobhz1lkXlatQuSyZzXL5klP,1HjEqZ6SpOI741reYXhq5POa5UTDjyCwi,1jL9CuJe0Jmgdaete3OCWoHJsAURki0nJ,143JJ-QCk7fwii6nJBsN_KbeAD-Vf3IFx,1yjBtOF3Tiv2z0BGsFPRkN-xsIc_BE3NA,1baXFtmFOAz9raiWs6cJwXeCQ9_4h-qo5,1T05d3MBeUybX8L35_fI1Pv8kqlhcoFqV,18ht1PZprCbevTzaIxL9PAaw66lJJgy7g,1onydhSccZ_X1-zdWcuPY1qLxvxmD6xcr,1b_2Xtwm8HVLNbCcQWgIFke5xwEYH6AWn,1vS-u0KnyxFx2f1AIWG50qE6zB6ZUPu6m,1ZU0ORtyLOOke0rIKy99cN9j_4aFlxYpM,1WzWF5g4OFpRRiongOu4FCJl0GVoA_-SM,1hp0KlwJA-UoRk3Qnt83hvqvSEal61wlH,1av2ympkJe6VWEizQaEAmOqT9eLJkBJ-j,1oo9hPINgBDbdvhYvhheqTQpLEQ0Ch-dY,1rn60IDvd6z_RBBWDepBQi1Idua1QA078,1LC5uODnWpw6TUf8P849bZ76vQc8z2n1E,1LxtqCRP0dTNFysNFQnynQT0dil6wmIlP,1OU4uNPTsOMs8haiQbNmdy3fPdfMPGrSo,15XltsRsmBdjVqADM_6nA3T0EBUTdujLl,1IOcQmZmmZG48bik-IKMmr7yoIEzZyimr,1MYSk8T9MHl5ulZY3F9FYWNAFFnS2gE76,1Wz0DzfDMveSVX8vXkZwG2T-87b3K9Mpq,1q3QfnjiESb5vIRyseDyZi9m2s8-sFNGo,1eOWdNUlfDlzPXumHauNUJ7GoXIa2D-LX

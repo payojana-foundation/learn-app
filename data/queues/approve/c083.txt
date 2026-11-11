@@ -1,0 +1,18 @@
+# c083 approve list, run review 2026-11-10
+# teacher: លោកម្ចាស់គ្រូ ឡេង ស៊ីដែន
+# course: 3-បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី
+# queued 9 · converted 9 · approved 0 · failed 0
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	d-1jhUWczHA9YV8x_AnOszEVEWTJvs8-PRF	1jhUWczHA9YV8x_AnOszEVEWTJvs8-PRF	DRAFT	12.9	-18.2	ok	https://media.84000.digital/audio/043b2e4253bc39fd-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០១(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)
+2	d-1XX0L9oFTGajz3LW2rzAmxJZ4LILprgkX	1XX0L9oFTGajz3LW2rzAmxJZ4LILprgkX	DRAFT	11.3	-18.3	ok	https://media.84000.digital/audio/d35cc5c07c0f2c7a-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០២(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)
+3	d-1oziqB77FBVsvqEVJAvJR5zoFkn-4idE2	1oziqB77FBVsvqEVJAvJR5zoFkn-4idE2	DRAFT	10.3	-18.2	ok	https://media.84000.digital/audio/8c289fdd4551b5d4-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០៣(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)
+4	d-1qPX-LQHMXINZjsvKLQoT_WdnqcLK9lB0	1qPX-LQHMXINZjsvKLQoT_WdnqcLK9lB0	DRAFT	9.7	-18.1	ok	https://media.84000.digital/audio/d7323e8b9643e509-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០៤(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)
+5	d-1ihWMmNfZb9kr38A5ZLgboptsjbf04kJy	1ihWMmNfZb9kr38A5ZLgboptsjbf04kJy	DRAFT	11.0	-18.1	ok	https://media.84000.digital/audio/275bd0a06b623c82-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០៥(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)
+6	d-1ABBxtbkbxHw1-GrzD7i-40yJ9NsJvfRX	1ABBxtbkbxHw1-GrzD7i-40yJ9NsJvfRX	DRAFT	10.0	-18.1	ok	https://media.84000.digital/audio/a3b2289b60cbe614-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០៦(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)
+7	d-14we7yK03Rql1xqgz0WNJ1fYlP9onUi4D	14we7yK03Rql1xqgz0WNJ1fYlP9onUi4D	DRAFT	10.5	-18.1	ok	https://media.84000.digital/audio/eea34407bb6831af-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០៧(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)
+8	d-14RM_KEOdwMMTNbW3D7INUT0k-Py6HHuW	14RM_KEOdwMMTNbW3D7INUT0k-Py6HHuW	DRAFT	12.5	-18.2	ok	https://media.84000.digital/audio/4642a45de9254ba2-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០៨(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)
+9	d-1y8CLrM4H6UDVWwEPwJovrM3Jtfra-5Yh	1y8CLrM4H6UDVWwEPwJovrM3Jtfra-5Yh	DRAFT	14.6	-18.2	ok	https://media.84000.digital/audio/cc0d88973d9b71f2-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០៩(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)
+
+# approve-media drive_file_ids (DRAFT lessons only), comma separated:
+1jhUWczHA9YV8x_AnOszEVEWTJvs8-PRF,1XX0L9oFTGajz3LW2rzAmxJZ4LILprgkX,1oziqB77FBVsvqEVJAvJR5zoFkn-4idE2,1qPX-LQHMXINZjsvKLQoT_WdnqcLK9lB0,1ihWMmNfZb9kr38A5ZLgboptsjbf04kJy,1ABBxtbkbxHw1-GrzD7i-40yJ9NsJvfRX,14we7yK03Rql1xqgz0WNJ1fYlP9onUi4D,14RM_KEOdwMMTNbW3D7INUT0k-Py6HHuW,1y8CLrM4H6UDVWwEPwJovrM3Jtfra-5Yh
