@@ -81131,5 +81131,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WZngoj0O3_Mt5g0c86VNyjH0ggCOkeA8",
+    "drive_name": "447-14 Jan 2025  រាត្រីធម្មទានកន្លះម៉ោង សិក្សារក្នុងគម្ពីរវិសុទ្ធិមគ្គ ប្រធានបទ ព្រហ្មវិហារនិទិស្ទ សូម.mp3",
+    "source_md5": "e5c1e37b960644625d59138ffd20475f",
+    "key": "audio/e5c1e37b96064462-a64.mp3",
+    "bytes": 17394877,
+    "duration_s": 2174,
+    "sha256": "56c13f81f9a4e7e37f851bb110db7718faa687b1107d90b3d47447f483641d83",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6.4,
+        "LRA": 0
+      },
+      "G": 9.3,
+      "limit": 0.6,
+      "depth": 7.336974992327128,
+      "busy": 2.1777123671986387,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
