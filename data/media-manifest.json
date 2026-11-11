@@ -83451,5 +83451,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1J5mpPT70vqNwjN4sj7EF_NaPPjAv4tlh",
+    "drive_name": "បិដកលេខ២០-57 សតិប្បដ្ឋានសូត្រ ធម្មានុបស្សនាសច្ចបព្វ ហេតុអ្វីសច្ចៈ៤ មិនលើសមិនខ្វះ .mp3",
+    "source_md5": "6dc687f13227ab6b43c7994cbdfbbf3d",
+    "key": "audio/6dc687f13227ab6b-a64.mp3",
+    "bytes": 55656323,
+    "duration_s": 6956,
+    "sha256": "9883c74d223454ff242c03d0b783556166d37b39b02e226d1702f0dcd5db0f81",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 11.336974992327127,
+      "busy": 6.177950265919218,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
