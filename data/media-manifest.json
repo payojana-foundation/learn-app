@@ -60425,5 +60425,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10dXWBvhd_nZ_ffqg-h638cVS1GfrKXfi",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៩៣ អហេតុកចិត្ត អកុសលវិបាកចក្ខុវិញ្ញាណ និងបរិកប្ប២យ៉ាង.mp3",
+    "source_md5": "f0d96af520b24226efa5d71695b2a725",
+    "key": "audio/f0d96af520b24226-a64.mp3",
+    "bytes": 46705518,
+    "duration_s": 5838,
+    "sha256": "794cda1e1249e7b77e2b025afdc5f34e2b5cf3a4101e32fa7b3ecc287acac81d",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.100000000000001,
+      "limit": 0.6,
+      "depth": 11.036974992327128,
+      "busy": 5.4642737853600885,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
