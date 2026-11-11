@@ -63093,5 +63093,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PY0F_A4orobhz1lkXlatQuSyZzXL5klP",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៣៨.(១៤១ អានិសង្សនៃការរក្សាភាបន្តភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "94cb1a9b80f99ccc53ee070ab679ba43",
+    "key": "audio/94cb1a9b80f99ccc-a64.mp3",
+    "bytes": 47211249,
+    "duration_s": 5901,
+    "sha256": "a37a0a0881965f0b4e7ec89e86e9d1fd5cc71357ef011c1551bfdd1abaa8f1e9",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 7.663025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.650630787870572,
+      "out": {
+        "I": -18.5,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
