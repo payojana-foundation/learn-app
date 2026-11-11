@@ -66602,5 +66602,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1d32aoIFTjoiKlvvNOva70ONXaoEydwYJ",
+    "drive_name": "22.២២ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ មេរៀនថ្ងៃទី ​២២ អំពីស្ថាន១០ ៣-កិច្ចសង្គហៈត ការចែកនូវស្ថាន​១០​ដោ.mp3",
+    "source_md5": "7bef72fd3a66708bc5f79d8291cdd821",
+    "key": "audio/7bef72fd3a66708b-a64.mp3",
+    "bytes": 29517365,
+    "duration_s": 3689,
+    "sha256": "2f319827ba6dad7ae35400152b0c18430512e7c55dc7f2f17ce89165ee623140",
+    "loudness": {
+      "pass1": {
+        "I": -25.4,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.600000000000001,
+      "limit": 0.6,
+      "depth": 11.43697499232713,
+      "busy": 7.996015882265255,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
