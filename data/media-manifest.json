@@ -84495,5 +84495,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bMsmJKx__K6OOBP6iCwXr-d4gZHhrGKs",
+    "drive_name": "88.៨៨ រូបាវចរកិរិយាចិត្ត ៥ដួង ចប់ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៨៨.mp3",
+    "source_md5": "cca2b04f4d1189b6488f5ea40cd12d70",
+    "key": "audio/cca2b04f4d1189b6-a64.mp3",
+    "bytes": 28176761,
+    "duration_s": 3522,
+    "sha256": "a93d19e07914fec21751f20f8b69928841c69d18e2915ecdc700c58f746d99b5",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 6.4468846268508395,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
