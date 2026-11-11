@@ -83712,5 +83712,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gHAuKs6o8NjA67ReAfBa_CQ6gyomODp0",
+    "drive_name": "បិដកលេខ២០-66 និរោធសច្ចៈ បញ្ហាអាថកំបាំងក្នុងព្រះនិព្វាន.mp3",
+    "source_md5": "e3836ee08ff2502458c36f3724b416f6",
+    "key": "audio/e3836ee08ff25024-a64.mp3",
+    "bytes": 55205763,
+    "duration_s": 6900,
+    "sha256": "afebef1ce7cee4daaa07d8bbc6b4c28e422d7a424d04157f8bff4c4f3a489754",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -5.9,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 8.636974992327126,
+      "busy": 5.311779964351443,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
