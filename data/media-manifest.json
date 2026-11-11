@@ -79072,5 +79072,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1B9WHTPhamhC3mS0nsg-dR2L7SPcNF5Mr",
+    "drive_name": "បិដកលេខ២០-18 ការមិនត្រេកអរ របស់ភិក្ខុ បិដកភាគ២០  ភិក្ខុយ៉ុន យី អនង្គណសូត្រ.mp3",
+    "source_md5": "b2b6d4a52586284e9ce25c3a15c7c0a4",
+    "key": "audio/b2b6d4a52586284e-a64.mp3",
+    "bytes": 37509789,
+    "duration_s": 4688,
+    "sha256": "f0a2f2c225805207c41ce9a610df7959dd1e72961d421969815223b13180da46",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5.8,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 8.436974992327128,
+      "busy": 4.594823725126368,
+      "out": {
+        "I": -18.1,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
