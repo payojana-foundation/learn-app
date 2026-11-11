@@ -71677,5 +71677,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "193H5vQxQ6YhQFudKehK6rNF9j2uBc8dq",
+    "drive_name": "45.៤៥ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ​៤៥  ៦-អារម្មណសង្គហៈ ការចែកចិត្ត៦០.mp3",
+    "source_md5": "271dccff413117a44db3bf5801124099",
+    "key": "audio/271dccff413117a4-a64.mp3",
+    "bytes": 29123438,
+    "duration_s": 3640,
+    "sha256": "c6cbce873f9d1c8b64bb8d198936bf7a15f460fd4bb2bc5c719aad0f74939998",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 11.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.349700582353588,
+      "out": {
+        "I": -18.3,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
