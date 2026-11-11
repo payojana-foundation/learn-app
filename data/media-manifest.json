@@ -71880,5 +71880,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1i8iuk_e1Q27atmqARpH7MYLYvxxTg8RZ",
+    "drive_name": "48.៤៨ អធិប្បាយអហេតុកកិរិយាចិត្ត៣ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤៨.mp3",
+    "source_md5": "6de2e999a515946243169fb200a92149",
+    "key": "audio/6de2e999a5159462-a64.mp3",
+    "bytes": 27743128,
+    "duration_s": 3467,
+    "sha256": "dae30ece148f7017e25b1d2615413ee4d26c0e4301c6646f49da235de38a9a73",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.252433063713829,
+      "out": {
+        "I": -18.9,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
