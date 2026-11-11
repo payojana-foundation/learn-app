@@ -65587,5 +65587,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NZf1We4mHeBl6QZGy7iHy9Vv7xgaldGq",
+    "drive_name": "14.១៤ អធិប្បាយវិថីចិត្ត ​២យ៉ាង ១-កាមវិថីចិត្ត អតិមហន្តារម្មណ៏​ ៥ ប្រភេទចប់ ព្រះអភិធម្ម​បរិច្.mp3",
+    "source_md5": "dfec5af4337944c4041e1c52b4c50157",
+    "key": "audio/dfec5af4337944c4-a64.mp3",
+    "bytes": 30000526,
+    "duration_s": 3750,
+    "sha256": "43baca73701239ab76c1688ff1f15445f6990d1a2dd85a1da6737d5a78fc1bd9",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.335222197037373,
+      "out": {
+        "I": -18.4,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
