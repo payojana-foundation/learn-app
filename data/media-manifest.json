@@ -61411,5 +61411,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xFPKLp74Rfeo1oqmJAlh8Ls-EzvnPrVB",
+    "drive_name": "១៦០ រាត្រីធម្មទាន_ April 29-2024_648x360.mp3",
+    "source_md5": "4767d2154c95482b6f02e596f7a338a8",
+    "key": "audio/4767d2154c95482b-a64.mp3",
+    "bytes": 10693737,
+    "duration_s": 1336,
+    "sha256": "d8ff9c7cf1e1a38182bac610d9ed1ee77f77b850a941c3b0b0287460491d0191",
+    "loudness": {
+      "pass1": {
+        "I": -16.4,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": -1,
+      "limit": 0.6,
+      "depth": 3.3369749923271272,
+      "busy": 1.687053454531852,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
