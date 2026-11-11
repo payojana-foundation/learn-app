@@ -84930,5 +84930,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17GIh119tOdchbP1cC9jMzshV1HEbYse3",
+    "drive_name": "95.៩៥ អកុសល៩កង​ និង​ អកុសលចិត្ត​១២ដួង​ លះដោយមគ្គចិត្ត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៩៥.mp3",
+    "source_md5": "1a830dac6723b8855627be0a61ca0343",
+    "key": "audio/1a830dac6723b885-a64.mp3",
+    "bytes": 28134129,
+    "duration_s": 3516,
+    "sha256": "dc2d59f4877d3568cb79f16e93cd2ca31455eba8209e41ff6d1fb008410b4b4d",
+    "loudness": {
+      "pass1": {
+        "I": -18,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 2,
+      "limit": 0.6,
+      "depth": 6.236974992327127,
+      "busy": 7.326826286006768,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
