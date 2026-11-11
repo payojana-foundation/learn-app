@@ -84089,5 +84089,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1n8GBFmsX6RwhgKcdyb9c3b6AofuavPAJ",
+    "drive_name": "បិដកលេខ២០-79 មហាទុក្ខក្ខន្ធសូត្រ អំពីតម្រេកក្នុងកាម ទោសរបស់កាម.mp3",
+    "source_md5": "c572714ad2fc751b4b7d5ad33c885b71",
+    "key": "audio/c572714ad2fc751b-a64.mp3",
+    "bytes": 57068398,
+    "duration_s": 7133,
+    "sha256": "02ee092affa09a3c5beaf2a70d35eb534455225291bdd59a4acd5a5e4f66b9f4",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 8.736974992327127,
+      "busy": 5.271781033153431,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
