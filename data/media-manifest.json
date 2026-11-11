@@ -68342,5 +68342,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1h80JIe1K4HeyBML_V7P52uPU94PCfEhR",
+    "drive_name": "25.២៤ ហេតុដែលលះវិចិកិច្ឆា​ និង​ ឧទ្ធច្ចៈ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ២៤.mp3",
+    "source_md5": "94f92aeeba41c14d54d0f1f3624e4a15",
+    "key": "audio/94f92aeeba41c14d-a64.mp3",
+    "bytes": 29612869,
+    "duration_s": 3701,
+    "sha256": "faf5de4f033d0fbb6dd76ceca179de3a7862fd682aa4fb9658d0fd65c79ce606",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "G": 9.7,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 7.411422242033742,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
