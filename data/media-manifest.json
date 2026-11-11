@@ -69792,5 +69792,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1H06-mJW-yeKJ4fCPjZR0t9J6s56LkZCx",
+    "drive_name": "6.វគ្គខ្លី លើកទី ៤៣.mp3",
+    "source_md5": "c97a90c0bb3547b70e23d22fa8c4deab",
+    "key": "audio/c97a90c0bb3547b7-a64.mp3",
+    "bytes": 28631292,
+    "duration_s": 3578,
+    "sha256": "0dd778204ac3e445ae4451800e75b204664915fb59dcaa704e662b9a1a13b9c0",
+    "loudness": {
+      "pass1": {
+        "I": -29.3,
+        "TP": -9.8,
+        "LRA": 0
+      },
+      "G": 13.8,
+      "limit": 0.5,
+      "depth": 10.020599913279625,
+      "busy": 7.88545363100394,
+      "out": {
+        "I": -19,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
