@@ -61034,5 +61034,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17Vx4G8Ie-G-WuIEyo5dobuIQKXGRKFbs",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១១៤ ហេតុនាំឱ្យកើតសោមនស្សក្នុងមហាកុសលចិត្ត.mp3",
+    "source_md5": "9cb0400fb21d62905447ef875a6740d0",
+    "key": "audio/9cb0400fb21d6290-a64.mp3",
+    "bytes": 44680506,
+    "duration_s": 5585,
+    "sha256": "a601ce901f9dc909e711d825e05b6271d35b15632a25284f692b9234a1a0b875",
+    "loudness": {
+      "pass1": {
+        "I": -20.4,
+        "TP": 1.1,
+        "LRA": 0
+      },
+      "G": 4.900000000000002,
+      "limit": 0.6,
+      "depth": 10.43697499232713,
+      "busy": 4.736304956983375,
+      "out": {
+        "I": -18.2,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
