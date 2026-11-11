@@ -84524,5 +84524,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17tczWpoVmYBU2PZb6Zco_5VfrAUO5r4I",
+    "drive_name": "88.៨៨ អធិប្បាយកាមជវនមនោទ្វារមរណាសន្នវិថី​ ៤វិថី​ -វិថីប្រភេទទី៣​ និង​ទី៤ ព្រះអភិធម្ម​បរិច្ឆ.mp3",
+    "source_md5": "ab2919871278ebc9666b471bab37eec7",
+    "key": "audio/ab2919871278ebc9-a64.mp3",
+    "bytes": 29156666,
+    "duration_s": 3644,
+    "sha256": "18be4d38e17160c056e29ac3daf727f9203d56c132ef988a53d62e5c2b2aefa5",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -6,
+        "LRA": 0
+      },
+      "G": 11.7,
+      "limit": 0.6,
+      "depth": 10.136974992327126,
+      "busy": 8.475326171955386,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
