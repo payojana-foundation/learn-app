@@ -346,6 +346,14 @@ export function renderReport(cat, pilot, opts = {}) {
   L.push('trimmed only); nothing is invented. One course = one tab. The per-lesson rows are in');
   L.push('`catalogue-draft.csv` (filter its `flags` column to list any group below).');
   L.push('');
+  if (opts.unmappedTeacherFiles && opts.unmappedTeacherFiles.length) {
+    L.push('## ERRORS (the catalogue job fails)');
+    L.push('');
+    for (const u of opts.unmappedTeacherFiles) {
+      L.push(`- **ERROR** sheet file «${esc(u.file_name || '(no name)')}» · id \`${u.file_id}\` has no teacher. Add it to \`data/source/file-aliases.json\` (new id → old id) or to \`data/teacher-files.json\`.`);
+    }
+    L.push('');
+  }
   L.push('## Summary');
   L.push('');
   L.push(`- Files: **${files.size}** · tabs: **${cat.tabs.length}** (read: **${ok.length}**, skipped: **${skipped.length}**)`);
@@ -544,10 +552,23 @@ async function main() {
   const cat = buildCatalogue(files);
   const queueIds = existsSync(queuePath) ? parseQueueIds(readFileSync(queuePath, 'utf-8')) : [];
   const pilot = pilotCheck(cat, queueIds, pilotTab);
+  // Part B: a course sheet with no teacher (after aliases) is an ERROR.
+  const root = process.cwd();
+  const readJson = (p, d) => (existsSync(p) ? JSON.parse(readFileSync(p, 'utf-8')) : d);
+  const { unmappedTeacherFiles } = await import('./catalogue-build.mjs');
+  const unmapped = unmappedTeacherFiles(files, {
+    teacherFiles: readJson(join(root, 'data', 'teacher-files.json'), { files: {} }).files || {},
+    teachers: readJson(join(root, 'data', 'source', 'teachers-2026-11-02', 'teachers-2026-11-02.json'), []),
+    aliases,
+  });
   writeFileSync(join(out, 'catalogue-draft.csv'), renderCsv(cat.rows), 'utf-8');
-  writeFileSync(join(out, 'CATALOGUE-REPORT.md'), renderReport(cat, pilot, { queuePath }), 'utf-8');
+  writeFileSync(join(out, 'CATALOGUE-REPORT.md'), renderReport(cat, pilot, { queuePath, unmappedTeacherFiles: unmapped }), 'utf-8');
   console.log(`files ${files.length} · tabs ${cat.tabs.length} (skipped ${cat.tabs.filter((t) => t.status !== 'ok').length}) · lessons ${cat.rows.length}`);
   console.log(`wrote ${join(out, 'catalogue-draft.csv')} and ${join(out, 'CATALOGUE-REPORT.md')}`);
+  if (unmapped.length) {
+    for (const u of unmapped) console.error(`::error::no teacher for sheet file ${u.file_id} (${u.file_name || 'no name'}) — add to data/source/file-aliases.json`);
+    process.exit(1);
+  }
 }
 
 if (process.argv[1] && process.argv[1].endsWith('sheets-map.mjs')) main();

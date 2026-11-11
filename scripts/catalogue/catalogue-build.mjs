@@ -34,6 +34,7 @@
  */
 import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync } from 'node:fs';
 import { join, basename, extname } from 'node:path';
+import { execFileSync } from 'node:child_process';
 import { parseTab, sheetToGrid, parseInventoryNames, outer, norm } from './sheets-map.mjs';
 import { loadAliases, canonicalFileId, canonicalTab } from './file-aliases.mjs';
 
@@ -141,6 +142,50 @@ export function matchTeacher(fileName, teachers) {
   return slugs.size === 1 ? hits[0] : null;
 }
 
+/** Teacher for one sheet file AFTER aliases: the teacher-files.json entry for the
+ * canonical (old) file id, else an unambiguous name match. { slug|null, match|null }. */
+export function resolveTeacher(f, { teacherFiles = {}, teachers = [], aliases = null } = {}) {
+  const fid = canonicalFileId(f.file_id, aliases);
+  if (teacherFiles[fid]) return { slug: teacherFiles[fid], match: null };
+  const m = matchTeacher(f.file_name, teachers);
+  return m ? { slug: m.slug, match: m } : { slug: null, match: null };
+}
+
+/** Part B: sheet files that are course sheets but have no teacher after aliases.
+ * [{ file_id, canonical_id, file_name }] — the catalogue job must fail on any. */
+export function unmappedTeacherFiles(files, { teacherFiles = {}, teachers = [], aliases = null } = {}) {
+  const out = [];
+  for (const f of files) {
+    const fid = canonicalFileId(f.file_id, aliases);
+    if (NON_COURSE_FILES.has(fid)) continue;
+    if (!resolveTeacher(f, { teacherFiles, teachers, aliases }).slug) out.push({ file_id: f.file_id, canonical_id: fid, file_name: f.file_name });
+  }
+  return out;
+}
+
+/** Part B: the lessons that are playable now (approved media), id → where. This is
+ * the "catalogue" snapshot the id guard compares against. */
+export function lessonIdSnapshot(plan) {
+  const lessons = {};
+  for (const c of plan.courses) for (const l of c.visible) lessons[l.lesson_id] = { course_id: c.course_id, source_id: l.source_id };
+  return lessons;
+}
+
+/** Part B id guard: every lesson id that had approved media in the LAST committed
+ * snapshot must still exist with the same source and course, unless the id is a
+ * key in data/id-aliases.json. Returns [{ id, problem, was, now }]; [] = ok.
+ * No baseline (first run) = nothing to compare. */
+export function guardLessonIds(baseline, current, idAliases = {}) {
+  const out = [];
+  for (const [id, was] of Object.entries(baseline || {})) {
+    if (Object.prototype.hasOwnProperty.call(idAliases || {}, id)) continue;
+    const now = current[id];
+    if (!now) out.push({ id, problem: 'disappeared', was, now: null });
+    else if (now.source_id !== was.source_id || now.course_id !== was.course_id) out.push({ id, problem: 'changed', was, now });
+  }
+  return out;
+}
+
 /**
  * Pure core. Given parsed files + registries, produce the per-course plan.
  *   files        = [{ file_id, file_name, tabs: [{ name, text, links }] }]
@@ -172,12 +217,9 @@ export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseI
     if (NON_COURSE_FILES.has(fid)) continue; // decision 5: skip non-courses
     const isPilotFile = fid === PILOT_FILE;
     // decision 6: teacher = the registry entry if present, else a name match.
-    let slug = teacherFiles[fid] || null;
-    if (!slug) {
-      const m = matchTeacher(f.file_name, teachers);
-      if (m) { slug = m.slug; matchedFiles[fid] = m; }
-    }
-    if (!slug) unmappedFiles.push({ file_id: f.file_id, file_name: f.file_name });
+    const { slug, match } = resolveTeacher(f, { teacherFiles, teachers, aliases });
+    if (match) matchedFiles[fid] = match;
+    if (!slug) unmappedFiles.push({ file_id: f.file_id, canonical_id: fid, file_name: f.file_name });
 
     for (const t of f.tabs) {
       // Part A: then the tab name (new → old), still before any lookup.
@@ -283,6 +325,16 @@ function arg(name, def) {
 const readJson = (p, d) => (existsSync(p) ? JSON.parse(readFileSync(p, 'utf-8')) : d);
 const csvCols = 'drive_file_id';
 
+/** The lesson-id snapshot from the last COMMIT (git show HEAD:…), else the file on
+ * disk, else null (first run: nothing to compare). */
+function committedSnapshot(root, rel) {
+  let text = null;
+  try { text = execFileSync('git', ['show', `HEAD:${rel}`], { cwd: root, encoding: 'utf-8', stdio: ['ignore', 'pipe', 'ignore'] }); } catch { /* not committed yet */ }
+  if (text == null && existsSync(join(root, rel))) text = readFileSync(join(root, rel), 'utf-8');
+  if (text == null) return null;
+  try { return JSON.parse(text).lessons || null; } catch { return null; }
+}
+
 async function main() {
   const root = process.cwd();
   const dir = arg('dir', join(root, 'data', 'source', 'sheets'));
@@ -326,6 +378,15 @@ async function main() {
   // never dirties the committed registries/queues/public-data it is diffing.
   const reportOnly = process.argv.includes('--report-only');
 
+  // Part B: fail loud. (1) a course sheet with no teacher after aliases;
+  // (2) an id with approved media that changed/disappeared since the last
+  // committed snapshot (unless listed in data/id-aliases.json). Only THIS job
+  // fails (exit 1 at the end) — the deploy build never runs this script.
+  const teacherErrors = unmappedTeacherFiles(files, { teacherFiles, teachers, aliases: fileAliases });
+  const snapshot = lessonIdSnapshot(plan);
+  const snapRel = 'data/source/sheets/lesson-ids.json';
+  const idProblems = guardLessonIds(committedSnapshot(root, snapRel), snapshot, aliases);
+
   const inMan = manifestIds(manifest);
   let totalQueued = 0;
   if (!reportOnly) {
@@ -350,6 +411,11 @@ async function main() {
       index.push(`| ${c.course_id} | ${c.teacher || '(unmapped)'} | ${String(title).replace(/\|/g, '\\|')} | ${c.lessons} | ${q.length} |`);
     }
     writeFileSync(join(qdir, 'INDEX.md'), index.join('\n') + '\n', 'utf-8');
+    // Part B: refresh the lesson-id snapshot ONLY when the guard passed, so a
+    // failing run never overwrites the baseline it failed against.
+    if (idProblems.length === 0) {
+      writeFileSync(join(root, snapRel), JSON.stringify({ _doc: 'Lessons with approved media (lesson id -> course id + source id). Written by catalogue-build.mjs; the id guard compares against the last COMMITTED copy. Do not edit by hand.', lessons: snapshot }, null, 2) + '\n', 'utf-8');
+    }
   } else {
     for (const c of plan.courses) totalQueued += queueFor(c, inMan).length;
   }
@@ -358,6 +424,12 @@ async function main() {
   const byReason = {};
   for (const h of plan.hidden) byReason[h.reason] = (byReason[h.reason] || 0) + 1;
   const H = ['# Hidden lessons (per course, with reason)', '', 'Generated by scripts/catalogue/catalogue-build.mjs. These rows are NOT shown in the app.', ''];
+  if (teacherErrors.length || idProblems.length) {
+    H.push('## ERRORS (the catalogue job fails)', '');
+    for (const e of teacherErrors) H.push(`- ERROR no teacher for sheet file «${String(e.file_name || '(no name)').replace(/\|/g, '\\|')}» id \`${e.file_id}\` — add to data/source/file-aliases.json (new id → old id) or to data/teacher-files.json`);
+    for (const p of idProblems) H.push(`- ERROR lesson id \`${p.id}\` had approved media (course ${p.was.course_id}, source \`${p.was.source_id}\`) and ${p.problem === 'disappeared' ? 'would DISAPPEAR' : `would CHANGE (now course ${p.now.course_id}, source \`${p.now.source_id}\`)`} — fix the sheet or add the old id to data/id-aliases.json`);
+    H.push('');
+  }
   H.push('## By reason');
   H.push('');
   for (const [reason, n] of Object.entries(byReason).sort((a, b) => b[1] - a[1])) H.push(`- ${reason}: ${n}`);
@@ -383,6 +455,13 @@ async function main() {
   console.log(`teacher files matched ${Object.keys(plan.matchedFiles).length} · unmatched ${plan.unmappedFiles.length}`);
   console.log(`pilot ${pilot ? (pilot.queueable || []).length + ' lessons, aliases c080-l001→' + ((pilot.queueable || [])[0]?.lesson_id) + ' … ' + ((pilot.queueable || []).slice(-1)[0]?.lesson_id) : 'NOT FOUND'}`);
   for (const [reason, n] of Object.entries(byReason)) console.log(`  hidden: ${reason} = ${n}`);
+
+  if (teacherErrors.length || idProblems.length) {
+    for (const e of teacherErrors) console.error(`::error::no teacher for sheet file ${e.file_id} (${e.file_name || 'no name'}) — add to data/source/file-aliases.json`);
+    for (const p of idProblems) console.error(`::error::lesson id ${p.id} with approved media ${p.problem} (course ${p.was.course_id}, source ${p.was.source_id})`);
+    console.error(`CATALOGUE FAILED — ${teacherErrors.length} file(s) without a teacher, ${idProblems.length} approved lesson id(s) changed/disappeared.`);
+    process.exit(1);
+  }
 }
 
 if (process.argv[1] && process.argv[1].endsWith('catalogue-build.mjs')) main();
