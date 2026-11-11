@@ -60860,5 +60860,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ueQi6LSjpgC0jvLS7olRbdmVwIeYukIT",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១០៨ មហាកុសលចិត្ត ៨ ពាក្យថាបុណ្យ និងកុសល.mp3",
+    "source_md5": "d05a0596f00267bb84a5cd6eabef26f5",
+    "key": "audio/d05a0596f00267bb-a64.mp3",
+    "bytes": 46427158,
+    "duration_s": 5803,
+    "sha256": "d3910d258e09870615655dbd04b2e2c7b4c4e4dfa17fdd533c575013d086d0d7",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "G": 7.599999999999998,
+      "limit": 0.6,
+      "depth": 10.536974992327124,
+      "busy": 5.1819207871315704,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
