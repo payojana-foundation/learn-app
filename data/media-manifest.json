@@ -62774,5 +62774,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1McZVYoSLTjrSReImh93LF2MxKNsEfEb6",
+    "drive_name": "១៩៤ រាត្រីធម្មទាន​ 02 July 2024.mp3",
+    "source_md5": "475d46930671a248faee91a288961dc8",
+    "key": "audio/475d46930671a248-a64.mp3",
+    "bytes": 12578733,
+    "duration_s": 1572,
+    "sha256": "32e7f7d77c78fb458af8279f79853a102543d56b4a3012e37de06bcbf9ff72af",
+    "loudness": {
+      "pass1": {
+        "I": -20.4,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 3.099999999999998,
+      "limit": 0.6,
+      "depth": 7.436974992327125,
+      "busy": 1.861127011384596,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
