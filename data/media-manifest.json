@@ -67124,5 +67124,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cAb-qPPtbbM4C0gVzN0a5bGvU4FMdzlc",
+    "drive_name": "24.២៤ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ អំពីស្ថាន១០  ៣-កិច្ចសង្គហៈត សម្តែងការចែកស្ថាន​ ២៥ ​ដោយន័យនៃវិថីចិត្ត.mp3",
+    "source_md5": "4c4bc707b962dc18e074a5728de380b3",
+    "key": "audio/4c4bc707b962dc18-a64.mp3",
+    "bytes": 30329669,
+    "duration_s": 3791,
+    "sha256": "3f7255514f37586cc1c3b978bb9f8aaed1ca47acdad156b4ac74aa4c207c9358",
+    "loudness": {
+      "pass1": {
+        "I": -25.4,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 7.36814686836448,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
