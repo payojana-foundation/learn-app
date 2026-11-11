@@ -81508,5 +81508,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1R-sWp7lwYGuvWFfc-o9OE2ALEUq6xL0C",
+    "drive_name": "បិដកលេខ២០-33 សតិប្បដ្ឋានសូត្រ ពិចារណាកាយ កាយេ កាយានុបស្សី.mp3",
+    "source_md5": "b85ddfa80e46c41cc8e88507c11186df",
+    "key": "audio/b85ddfa80e46c41c-a64.mp3",
+    "bytes": 41086684,
+    "duration_s": 5135,
+    "sha256": "a046172ab388cd382493fc0ebf51cc4acbbe4081723ed9e2e0ee3f8a6056ee89",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -9.9,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 3.4369749923271256,
+      "busy": 0.0021905058608201254,
+      "out": {
+        "I": -18,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
