@@ -85713,5 +85713,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xS90lfBezJ3Ellk45Hu6WEf3zy5bTU61",
+    "drive_name": "115.១១៥ ការចែកវិថីចិត្តក្នុងភូមិផ្សេងៗ មេរៀនថ្ងៃទី ១១៥ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "f2d2211c389686f8f0e3a3a39d8875a4",
+    "key": "audio/f2d2211c389686f8-a64.mp3",
+    "bytes": 29453208,
+    "duration_s": 3681,
+    "sha256": "74752f5599e665b78c487a5b4a31d888535152346ffd3ce5841ec7392568d940",
+    "loudness": {
+      "pass1": {
+        "I": -25.5,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 10.600000000000001,
+      "limit": 0.6,
+      "depth": 10.63697499232713,
+      "busy": 8.228080182529336,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
