@@ -75882,5 +75882,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dkfOZaf7zGZatHAeZtPypJJBqARc7u3x",
+    "drive_name": "60.៦០ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី​៦០ ៦-អារម្មណសង្គហៈការសម្តែងអារម្មណ៏.mp3",
+    "source_md5": "3fcd37ccca8f68c226c83b5ab40d3a6b",
+    "key": "audio/3fcd37ccca8f68c2-a64.mp3",
+    "bytes": 14829234,
+    "duration_s": 1853,
+    "sha256": "7890f376cb7ce4dec8fa5d8666e335444afbd10e727b6dd98a441b3ed39a922e",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -5.7,
+        "LRA": 0
+      },
+      "G": 11.599999999999998,
+      "limit": 0.6,
+      "depth": 10.336974992327125,
+      "busy": 9.396579628830384,
+      "out": {
+        "I": -18.3,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
