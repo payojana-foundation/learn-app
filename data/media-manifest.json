@@ -63296,5 +63296,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HjEqZ6SpOI741reYXhq5POa5UTDjyCwi",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៣៩.(១៤១ បដិបក្ខរបស់សីល និងភាវនាមយបុណ្យភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "09f1aa82e71caca71fee7c5b8232fcc5",
+    "key": "audio/09f1aa82e71caca7-a64.mp3",
+    "bytes": 45900529,
+    "duration_s": 5737,
+    "sha256": "8a140d94a1aecf04624869ca3a998a4b2b79444499aa16dcc6f2d5fb33105a37",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 7.163025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.85838779956427,
+      "out": {
+        "I": -18.4,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
