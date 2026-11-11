@@ -69995,5 +69995,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mraKHkvnfPTmG5QRZojLEw5ZScwG2w_C",
+    "drive_name": "36.៣៦ អកុសលមនោកម្ម​ មិច្ឆាទិដ្ឋិចប់ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣៦.mp3",
+    "source_md5": "60ebb2324f8a9e7f9e4df9660e0cd321",
+    "key": "audio/60ebb2324f8a9e7f-a64.mp3",
+    "bytes": 25635569,
+    "duration_s": 3204,
+    "sha256": "03f12761106211dbfabd44afec9bad637b25849a464b804c05e45de15ee1e8d7",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 11.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.9141336911746345,
+      "out": {
+        "I": -18.9,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
