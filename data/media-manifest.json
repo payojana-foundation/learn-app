@@ -66138,5 +66138,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1biPDLQTr8CI9OpYhXao-K-FblQy2E0Ec",
+    "drive_name": "10.០៨ អធិប្បាយលោភមូលចិត្ត​ ៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៨.mp3",
+    "source_md5": "d1e1fcb7d228a12e6b64ea7c43d1983d",
+    "key": "audio/d1e1fcb7d228a12e-a64.mp3",
+    "bytes": 24306459,
+    "duration_s": 3038,
+    "sha256": "39e59e47dcdf0cacb17163f461ea17f896868e4072e628e16e61949d938f1947",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 6.977289558133794,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
