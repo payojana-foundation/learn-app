@@ -86235,5 +86235,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "116LtMCcQ0_jpwOlZcHVdvPoxWGDLMQws",
+    "drive_name": "134.១៣៤ រូបវិថីទី៦​ និង​ ទី​៧ មេរៀនថ្ងៃទី ១៣៤ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "9d2ba7910e2e494dd889e4fcab76c869",
+    "key": "audio/9d2ba7910e2e494d-a64.mp3",
+    "bytes": 30306681,
+    "duration_s": 3788,
+    "sha256": "952f07d56dbbadedfe2942532a3163d843e3ab81d242e093fbd453968e0ad5bc",
+    "loudness": {
+      "pass1": {
+        "I": -25.5,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 11.200000000000003,
+      "limit": 0.6,
+      "depth": 11.93697499232713,
+      "busy": 7.9250587334688385,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
