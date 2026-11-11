@@ -67675,5 +67675,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1h6kODTfDKYBZy-NNJZGckfIJ-iahQyzS",
+    "drive_name": "20.១៩ មោហមូលចិត្ត​ ២ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី១៩.mp3",
+    "source_md5": "d048b76df76874b52b3e3b311558d0fe",
+    "key": "audio/d048b76df76874b5-a64.mp3",
+    "bytes": 28731602,
+    "duration_s": 3591,
+    "sha256": "6fe236a4ab6de8d7ea2e6cbd436d2fee065ba7feb101fb32f4b74865095a25fa",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 9.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.529487108091552,
+      "out": {
+        "I": -18.4,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
