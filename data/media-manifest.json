@@ -76317,5 +76317,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mIC5hNcjoQycshc2zWmq6sKzWIaDmwmj",
+    "drive_name": "72.៧២ ចប់អប្បនាជវនវិថី មេរៀនថ្ងៃទី៧២ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "1d4dfcd7d8c233c0e0cea6be50b74caa",
+    "key": "audio/1d4dfcd7d8c233c0-a64.mp3",
+    "bytes": 28867438,
+    "duration_s": 3608,
+    "sha256": "79fdfa2fca79e1ed9432d441aa62d58bcc1d980bb413e2f9852cdd48087e658a",
+    "loudness": {
+      "pass1": {
+        "I": -25.5,
+        "TP": -5.2,
+        "LRA": 0
+      },
+      "G": 11.2,
+      "limit": 0.6,
+      "depth": 10.436974992327126,
+      "busy": 9.621646713224697,
+      "out": {
+        "I": -18.3,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
