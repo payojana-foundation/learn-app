@@ -72170,5 +72170,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XTbzBURPlna9KNGDsJZmwXtRkaKyDZui",
+    "drive_name": "47.៤៧ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី៤៧  ៦-អារម្មណសង្គហៈ ការអធិប្បាយក្នុង.mp3",
+    "source_md5": "f54c005d518d0d24f135554c1ba84b5f",
+    "key": "audio/f54c005d518d0d24-a64.mp3",
+    "bytes": 27991396,
+    "duration_s": 3498,
+    "sha256": "92490a1df30e71598650bab7d00a4f708d451be27ff5d3cae650f56a23e5586c",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 11.036974992327124,
+      "busy": 6.841793134985281,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
