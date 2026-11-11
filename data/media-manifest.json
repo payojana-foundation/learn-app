@@ -81885,5 +81885,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1q6yvml5Tx7jqY_NMzVAeApYQiBn2gjbc",
+    "drive_name": "បិដកលេខ២០-35 កាយានុបស្សនា អធិប្បាយបន្ថែម  .mp3",
+    "source_md5": "e4e2e3d18e5cfc2fc108ff94cd823a1e",
+    "key": "audio/e4e2e3d18e5cfc2f-a64.mp3",
+    "bytes": 41868059,
+    "duration_s": 5233,
+    "sha256": "2ac30f361f82af98f8ef738a67f809b09c5ff3166990e147ee5937af5c75ad43",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -11.7,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 1.6369749923271266,
+      "busy": 0.0031050263210692756,
+      "out": {
+        "I": -18,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
