@@ -83364,5 +83364,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1uIkwaJCkJPWKDh3qdfBrxCQOXcgj3BKh",
+    "drive_name": "បិដកលេខ២០-54 ធម្មានុបស្សនាពោជ្ឈង្គបព្វៈ បស្សទ្ធិ សមាធិសម្ពោជ្ឈង្គ .mp3",
+    "source_md5": "d11b82d66b93d7d41f20752ec3e427d0",
+    "key": "audio/d11b82d66b93d7d4-a64.mp3",
+    "bytes": 57581443,
+    "duration_s": 7197,
+    "sha256": "960c813d9df24fbca3feab503f43ddb0ef5f06f39e633676e09b146002145ccf",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.600000000000001,
+      "limit": 0.6,
+      "depth": 11.43697499232713,
+      "busy": 4.893611109181469,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
