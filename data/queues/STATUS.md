@@ -1,6 +1,6 @@
 # Queue status
 
-Run review of 2026-11-10 (the team finished all course-audio runs on 10-11 Nov). Generated from data/queues/c###.csv, data/media-manifest.json and data/queues/failed-review.csv; no run logs were available (no gh CLI).
+Run review of 2026-11-10 (the team finished all course-audio runs on 10-11 Nov), manifest of 2982 entries. Generated from data/queues/c###.csv, data/media-manifest.json and data/queues/failed-review.csv; no run logs were available (no gh CLI).
 
 - queued = data rows of data/queues/c###.csv (ids already in the manifest when the queue was built are not in it).
 - converted = the drive_file_id has an entry in data/media-manifest.json (any status). approved = that entry has status approved.
@@ -8,7 +8,7 @@ Run review of 2026-11-10 (the team finished all course-audio runs on 10-11 Nov).
 - not started = no manifest entry and not in failed-review.csv (never converted, or failed without a record: unknown).
 - DONE = every queued lesson is converted or failed. Queues with 0 data rows are EMPTY and not counted.
 
-Totals over 66 non-empty queues: queued 3810 · converted 2963 · approved 0 · failed 10 · not started 837.
+Totals over 66 non-empty queues: queued 3810 · converted 2972 · approved 0 · failed 10 · not started 828.
 
 ## (a) DONE (7)
 
@@ -54,7 +54,7 @@ Totals over 66 non-empty queues: queued 3810 · converted 2963 · approved 0 · 
 | c043 | លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន | 5-សមាធិ វគ្គខ្លី | 166 | 148 | 0 | 0 | 18 |
 | c044 | លោកម្ចាស់គ្រូ ពុទ្ធង្កុរ ភុល ណារិន | 1-វិនយបិដកេ មហាវគ្គបាឡិ  | 67 | 61 | 0 | 0 | 6 |
 | c047 | លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង | ០០​​​​​​​​​ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃបើកថ្នាក់ដំបូង | 100 | 97 | 0 | 0 | 3 |
-| c049 | លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង | 4-បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ (ឆ | 142 | 132 | 0 | 0 | 10 |
+| c049 | លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង | 4-បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ (ឆ | 142 | 141 | 0 | 0 | 1 |
 | c054 | លោកម្ចាស់គ្រូ មុនីបុត្តោ សុខ ធាវី | 1-Buddhism in English for Begin | 57 | 47 | 0 | 0 | 10 |
 | c058 | លោកម្ចាស់គ្រូ មុនីចរិយាវង្ស ហ៊ុន ខេមរា | 2-ញាណទស្សនៈ (២០២៦) | 37 | 30 | 0 | 0 | 7 |
 | c068 | លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា | 1-Buddhism in English Level 1 b | 22 | 19 | 0 | 0 | 3 |
@@ -96,7 +96,7 @@ Totals over 66 non-empty queues: queued 3810 · converted 2963 · approved 0 · 
 - c043 not started: 1r4JUyZU5-_zJR-Idrqapd0f2tED50rxU, 1842Is4vxreIb7IqTlT12HN87e9pR9jUP, 1uDhKT1t8T2BVLTWO6Ck4XHkqgrrDFRAk, 1fAH_KKKw7kNsD2Y64LTYqcW-GJtOsGHT, 1iCdtJuAGkEkTXXxFXersgOTGjkMSCuJB, 1Wat-lTpaUy0ly4_ISiNgNf4gyMIJzZ1I, 1HFba5-rXW7A1Lvt4NLvW8GvBmcvnuxEm, 17GlrtjImTXQ7-GKvMuqdv0bie31tAiMv, 1Uzgl16vqglI4czVZEPEHBL9Qe0oKduVX, 1RoUtYUl55UzWl1BgE3jVepIvwRT7YyZ3, 1U4FPwrQU25A3fiSYabHshvT-tQrrHp7R, 1bRpNnrTJpOrH8WJj_yTwk_njDenSJ7Nu, 1l5CuFI9C0h8QQcPl9qUNMMiwBRYDI__6, 1nlvh2ehUGmCqWSB2vxBfKM4ic591WEEG, 1moe8qc5rHexzqIsv9duS9rWEOKeQ7eIt, 1rZVKgW4OT1HYkyPCvIAr1URFWz1mG02M, 1B2PeYO1A_wJo_YczeFHWp52gJH5sGO6u, 17UNHrJg_RY-PC2SC6HawmKSMFlbS04il
 - c044 not started: 1eZOS74HAqtn3mXcZq8M2cmgwcvxtP4UD, 15_ExjYjmzPgnctZ0ByPuGJs8rr_-M3tC, 1FNPbtyi5_S0jMGpu38F2TzjTqgboOSbg, 1ZGCY6i_zy-nI9g6Gjp3pwurXt_5ry7bK, 1fnlsAAYbBpvEilIBsqjd7Np6FtwiWXI7, 1YiyPph0cHBiSJ-Wk7VPZzejwftTZNpc2
 - c047 not started: 1S5C1n4r_2w1J9x-u7FAJPYzs6JBHv6y8, 1FtaysUUfboGp62-uIRa5Cq6iLAYfiHET, 1X_OcWdPXzwyJCNyIM04VjhKMd8zaKWDm
-- c049 not started: 1x1j43XSQ7XxYQwrfR7yR49DmPly2T5Es, 116LtMCcQ0_jpwOlZcHVdvPoxWGDLMQws, 1Cj-U9nJTNMC4KQv6GVzOo5eTswRENAIr, 1GiIzJTH_dZM9UUru-8uS65AWy_u7ru3y, 15bUsB5_5LQC6RJZJSZpy2WiaK3H1WgYM, 1Q0oeabPuLXdMbMmSjaeTcXc3C3MelPMl, 1rYpg3hsvRcf5Wd2C3-TnConyT-ZJdXZG, 1xlsPWrMVg9Xc8-t59wiJRQQHBgetbrWc, 1tax6ttHzi0VEboULmHumPN8umJmuGRd8, 1WTWTFI3zflJyiiL7mejmnt-Rye4zSRrf
+- c049 not started: 1x1j43XSQ7XxYQwrfR7yR49DmPly2T5Es
 - c054 not started: 1gLFoSJNbeRXCtVnpMTFYRDt7pG37GF_S, 1tsuIQKeRjMzDfJtoDNSN4N1yfEf43Wjt, 1QxJ8kOOP1WNbEUKl0rMZOLnhJjkDrLB5, 1_fBpQ_d3rbbi1j2qjMLvroOod4CoAoD5, 14N-ufMKrzZuNESlpMP9A6wetf1JKWeqT, 1ppd7DvBK5QzysHMPU8KHhwGQgLv3vl8o, 1BrVviC9kHLaSuw-x_inX8GDUqohC3on7, 1RsbpmHtPoHSCWDAZ1lRbeGCRXjvlovah, 1fyjQZFCANLG113c1ECIs8gtUKFx-y0AM, 1yIdijZOz6C85se0BcqUq_WuQNh6K61Kp
 - c058 not started: 16QPcWkN05XHNe9e7KrMnmEaJ4BAuhk0K, 1MN985R6fDH6V_LtLVyRv2QmLy4-LgdnC, 13gbdD53GpYWnAxYm-i0-aB3-3EmqsKQ7, 1Kl0nnWJDgYF7AGUnxDZfN1ofSI5k_95K, 1Gr2URzzfF5xnz-dZ4ZkrpbEc3DVLJBqs, 1ygm7682i8bMk-aaa5_cAXti8ntT5re5F, 145ewx4vofyerFERMpIuBeSfavsLFvhUx
 - c068 not started: 1PXxGq8P9EWRasLAW9yS7vsD413HArxoC, 1-3h-LLI8qgrtIZN11s2kOj2VetigR6X2, 19tEjDAqtpmO3OUuprkkTce6Ccp6IdRWP
