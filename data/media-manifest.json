@@ -66921,5 +66921,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1I61AuiHHU9VbzJ739GjfesF2X4uGYXcx",
+    "drive_name": "23.២៣ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ អំពីស្ថាន១០ ៣-កិច្ចសង្គហៈត សម្តែងការចែកចិត្តដោយកិច្ច​និង​ស្ថាន.mp3",
+    "source_md5": "3fae907df7a8cee128ccd9e8c622acea",
+    "key": "audio/3fae907df7a8cee1-a64.mp3",
+    "bytes": 34863063,
+    "duration_s": 4357,
+    "sha256": "34dfa80c486345d6bd8cb80517c0dcbd4190e5c1415e6f267249af2b0c36ff59",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.900000000000002,
+      "limit": 0.6,
+      "depth": 11.73697499232713,
+      "busy": 7.2925869408079675,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
