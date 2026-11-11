@@ -84031,5 +84031,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bIypr9cw3Yjqan6MRZBbqNhuoeVsHkjx",
+    "drive_name": "បិដកលេខ២០-77 ក្នុមហាសីហនាទសូត្រ អំពីព្រហ្មចរិយរបស់ព្រះពុទ្ធ៤ យ៉ាងបន្ត.mp3",
+    "source_md5": "16a3617c157205bf88a9009031c44cc8",
+    "key": "audio/16a3617c157205bf-a64.mp3",
+    "bytes": 57234119,
+    "duration_s": 7154,
+    "sha256": "d064a61324fe125b9ef586e140b25de45e40b694e7b387701d15011898335912",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 5.83726456302198,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
