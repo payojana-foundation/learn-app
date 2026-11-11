@@ -61324,5 +61324,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1doMeI27jArumVlZC10HaGFOELCbgPcFD",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១២៤.(១២៧ ទានមយបុណ្យ ទាន ៨ យ៉ាង និងផលរបស់ទានផ្សេងៗភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "eb167c59705fb8c165879b310a189a76",
+    "key": "audio/eb167c59705fb8c1-a64.mp3",
+    "bytes": 45232421,
+    "duration_s": 5653,
+    "sha256": "639582ad75514f95bed9b2cfb482dbf583379cb1bca47f3864852d7d8681ff60",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.000000000000004,
+      "limit": 0.6,
+      "depth": 11.93697499232713,
+      "busy": 6.002387690130881,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
