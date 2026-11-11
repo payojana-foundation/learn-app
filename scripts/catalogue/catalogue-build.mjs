@@ -231,7 +231,7 @@ export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseI
       if (parsed.status !== 'ok' || tabHidden || teamSkipped) {
         if (teamSkipped) {
           hidden.push({ course_id: registry[key] || null, teacher: slug, title: t.name, lesson_id: null, num: '', reason: 'confirmed not a course (team 4 Nov)' });
-        } else if (tabHidden || parsed.lessons.length) {
+        } else if (tabHidden || parsed.lessons.length || /^no header row/.test(parsed.reason)) {
           hidden.push({ course_id: registry[key] || null, teacher: slug, title: t.name, lesson_id: null, num: '', reason: tabHidden ? `hidden tab (${t.name})` : `skipped tab: ${parsed.reason}` });
         }
         continue;
@@ -253,7 +253,7 @@ export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseI
           continue;
         }
         const { id: sourceId, from } = pickSource(l, { pilot: isPilotCourse });
-        cand.push({ course_id: cid, teacher: slug, title, num: l.number, num_sort: khmerToInt(l.number), lesson_code: outer(l.lesson_code), lesson_id: lessonIdOf(l, sourceId), source_id: sourceId, source_from: from });
+        cand.push({ course_id: cid, teacher: slug, title, num: l.number, num_sort: khmerToInt(l.number), lesson_code: outer(l.lesson_code), lesson_id: lessonIdOf(l, sourceId), source_id: sourceId, source_from: from, folder_link: !!l.folder_link });
       }
       courses.push({ course_id: cid, file_id: f.file_id, file_name: f.file_name, tab: t.name, teacher: slug, title, title_missing: missing, pilot: isPilotCourse, candidates: cand });
     }
@@ -269,7 +269,7 @@ export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseI
     const visible = [];
     const queueable = [];
     for (const l of c.candidates) {
-      if (!l.source_id) { hidden.push({ ...l, reason: 'no source (no cut MP3 / MP4 / MiniCourse id)' }); continue; }
+      if (!l.source_id) { hidden.push({ ...l, reason: l.folder_link ? 'folder link (media cell is a Drive folder, not a file)' : 'no source (no cut MP3 / MP4 / MiniCourse id)' }); continue; }
       if (l.lesson_code && seenCode.has(l.lesson_code)) { hidden.push({ ...l, reason: `duplicate lesson code ${l.lesson_code} (first kept)` }); continue; }
       if (seenSrc.has(l.source_id)) { hidden.push({ ...l, reason: `duplicate source id ${l.source_id} (first kept, may be another course)` }); continue; }
       if (l.lesson_code) seenCode.add(l.lesson_code);
