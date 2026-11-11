@@ -62745,5 +62745,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1t34gsEPIHZCz1dYpWiaYQqYWEeMsQCSj",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៣៦.(១៣៩ សីលមយ អានិសង្សការវៀរចាកបាណាតិបាត អទិន្នាទានភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "9a33ad3d2a0777dadf72084fc7482320",
+    "key": "audio/9a33ad3d2a0777da-a64.mp3",
+    "bytes": 24935905,
+    "duration_s": 3116,
+    "sha256": "cdbb71b802169289b7a6c43953af14fbe6cd0f4a384fbd345cc3dcffdb3215be",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 7.563025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.699706443799227,
+      "out": {
+        "I": -18.7,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
