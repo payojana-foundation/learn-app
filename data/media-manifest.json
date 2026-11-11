@@ -66776,5 +66776,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pweXNPXpnEJTnDe6fg7wCP5ompwgSwF1",
+    "drive_name": "14.១២ លោភមូលចិត្ត៨ដួងដោយន័យ  ១៤ន័យ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ១២.mp3",
+    "source_md5": "0539cd2765ff88e386534e97427a07f1",
+    "key": "audio/0539cd2765ff88e3-a64.mp3",
+    "bytes": 22143311,
+    "duration_s": 2767,
+    "sha256": "3fc24d741fa0fea31f7904361205f246c12d38099eb712ee9fb204fe8564e726",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.433368860306737,
+      "out": {
+        "I": -18.9,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
