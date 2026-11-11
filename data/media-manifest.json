@@ -84321,5 +84321,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lpTGPJiAOtJfJx0JMmlBfO6mgXYAgdPa",
+    "drive_name": "85.៨៥ ការពន្យល់ពីអារម្មណ៍របស់សមថកម្មដ្ឋាន​ និង វិបស្សនាកម្មដ្ឋាន ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៨៥.mp3",
+    "source_md5": "4680e3a4d6395dac862bbdfeec1558de",
+    "key": "audio/4680e3a4d6395dac-a64.mp3",
+    "bytes": 27596843,
+    "duration_s": 3449,
+    "sha256": "a53806f7e75786d5ec06d9b809b1e76350cad69a7ba057fb7c4e7cc1f39268fa",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 9.3,
+      "limit": 0.6,
+      "depth": 10.336974992327129,
+      "busy": 6.111666739139888,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
