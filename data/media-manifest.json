@@ -64978,5 +64978,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vYNVFRr9BjiiwtaGHiMgEvA2Az7nof1b",
+    "drive_name": "3.០១ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី១.mp3",
+    "source_md5": "db152206d9331aecb6c7ccf8808f7ca2",
+    "key": "audio/db152206d9331aec-a64.mp3",
+    "bytes": 17026237,
+    "duration_s": 2128,
+    "sha256": "29cb4cc885353546e2a513b906e49f80a44c0d7dc1d4d74f511b3203c61a7b54",
+    "loudness": {
+      "pass1": {
+        "I": -16.4,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 0.3000000000000007,
+      "limit": 0.6,
+      "depth": 4.636974992327128,
+      "busy": 7.291789028544579,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
