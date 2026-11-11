@@ -65442,5 +65442,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CuERPY2PoHlH9hX5acw2IK6EbwwOU7l3",
+    "drive_name": "7.វក្គខ្លីលើកទី៣៦.mp3",
+    "source_md5": "14532f2d276c0f786f605695d66dca2c",
+    "key": "audio/14532f2d276c0f78-a64.mp3",
+    "bytes": 7609825,
+    "duration_s": 951,
+    "sha256": "30e4c93b68bf3beff2030a0f7255bc7d0dd4a5cc63f465681f762713d83ec989",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -8.9,
+        "LRA": 0
+      },
+      "G": 9.899999999999999,
+      "limit": 0.6,
+      "depth": 5.4369749923271256,
+      "busy": 6.660008410428932,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
