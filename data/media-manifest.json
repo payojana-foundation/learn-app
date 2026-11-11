@@ -68661,5 +68661,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1OU4uNPTsOMs8haiQbNmdy3fPdfMPGrSo",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៦២ (១៦៤ អរូបាវចរចិត្ត ១២ អរូបកុសល ៤ អរូបវិបាក៤.mp3",
+    "source_md5": "120bbe0e98d65d595f7d8d6e25fe636c",
+    "key": "audio/120bbe0e98d65d59-a64.mp3",
+    "bytes": 44951344,
+    "duration_s": 5618,
+    "sha256": "09eac3fbd57b50b8ff69a2b7061aff90b7e5216cb78fa389149da466d0db9425",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.122666358183986,
+      "out": {
+        "I": -18.3,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
