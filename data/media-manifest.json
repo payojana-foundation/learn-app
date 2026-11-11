@@ -80783,5 +80783,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZJPGq66BIrVuTn5AyOYuursO9H20WBWH",
+    "drive_name": "បិដកលេខ២០-28 ការយល់ត្រូវអំពីការអាហារ ៤ យ៉ាង.mp3",
+    "source_md5": "263cb21e6b137b56db8d33a604971c03",
+    "key": "audio/263cb21e6b137b56-a64.mp3",
+    "bytes": 41445293,
+    "duration_s": 5180,
+    "sha256": "d3336156d0b2c80de30200ca902978a9ea301b53cedacffaed785f056e611c7d",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -10.6,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 2.7369749923271263,
+      "busy": 0.0016889772518892416,
+      "out": {
+        "I": -18,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
