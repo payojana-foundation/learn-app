@@ -83393,5 +83393,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CkmVwxlZuUyhsRzqPYyO5mxV1yx3yBsh",
+    "drive_name": "បិដកលេខ២០-55 ពោជ្ឈង្គបព្វៈ សមាធិសម្ពោជ្ឈង្គ ឧបេក្ខាសម្ពោជ្ឈង្គ .mp3",
+    "source_md5": "888df1a016966de3c68b0ee681096d4e",
+    "key": "audio/888df1a016966de3-a64.mp3",
+    "bytes": 57847892,
+    "duration_s": 7230,
+    "sha256": "45c99074a0c88591ba66c16a7440cf4a1c7054a23c5db59cd7acaff299a193a3",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 10.436974992327128,
+      "busy": 5.169963836010483,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
