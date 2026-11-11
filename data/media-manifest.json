@@ -60628,5 +60628,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1sqvba5Lab33HxxNeR7JPF5KgcLysMl3q",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១០០ កុសលវិបាក ចក្ខុវិញ្ញាណ សោតវិញ្ញាណ ឃានវិញ្ញាណ.mp3",
+    "source_md5": "58ddf2161599296b51af46466fe834c5",
+    "key": "audio/58ddf2161599296b-a64.mp3",
+    "bytes": 44535265,
+    "duration_s": 5566,
+    "sha256": "f0dbd262d0fd696aa258225dbd6c03a1f08b505b2da1fe4697793398ff1032cd",
+    "loudness": {
+      "pass1": {
+        "I": -24.7,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 11.336974992327125,
+      "busy": 5.407232097146501,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
