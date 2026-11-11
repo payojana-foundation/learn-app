@@ -66660,5 +66660,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xZ_UUMRrn1r2ia6Dp4pjUMAE_O6P0afm",
+    "drive_name": "13.១១ ហេតុ៦ប្រការ​ឱ្យកេីតអសង្ខារិកៈ និង​សសង្ខារិកៈ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ១១.mp3",
+    "source_md5": "877c2139dcd139983e094a5de0710ec1",
+    "key": "audio/877c2139dcd13998-a64.mp3",
+    "bytes": 29526978,
+    "duration_s": 3690,
+    "sha256": "a79407e1b0e57db2b21a16806c676b121dbd8f96a2c5b1167ff4fd2bda538eac",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "G": 8.7,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 6.21807984610591,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
