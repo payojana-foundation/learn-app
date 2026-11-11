@@ -86438,5 +86438,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tax6ttHzi0VEboULmHumPN8umJmuGRd8",
+    "drive_name": "141.១៤១ រូបវិថីទី១០​ និងសេចក្តីអធិប្បាយ ថ្ងៃទី ១៤១ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "544cfdaaa917df6cc149de21b5475f86",
+    "key": "audio/544cfdaaa917df6c-a64.mp3",
+    "bytes": 29743272,
+    "duration_s": 3717,
+    "sha256": "babf3297521aee9a1c317aa88dfa2eac339e858052c70808371a5f0e0b379bb6",
+    "loudness": {
+      "pass1": {
+        "I": -25,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.200398079535216,
+      "out": {
+        "I": -18.3,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
