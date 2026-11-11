@@ -67240,5 +67240,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VWlvhS3OlgulshBFrdkfkJbEzplvw27W",
+    "drive_name": "23.២៣ អធិប្បាយវិថីចិត្ត​២យ៉ាង ១-កាមវិថីចិត្ត អតិបរិត្តារម្មណ៏វិថី​ មាន​៦វិថី​ ព្រះអភិធម្ម​បរ.mp3",
+    "source_md5": "6eef37b63d51ef75d71baa8769c4d0d6",
+    "key": "audio/6eef37b63d51ef75-a64.mp3",
+    "bytes": 29199089,
+    "duration_s": 3649,
+    "sha256": "7795eed35bf4c6237fee688c2239c80791a7c5b3a1a3e457863110ec50e57c15",
+    "loudness": {
+      "pass1": {
+        "I": -25.4,
+        "TP": -5.6,
+        "LRA": 0
+      },
+      "G": 11.499999999999996,
+      "limit": 0.6,
+      "depth": 10.336974992327125,
+      "busy": 8.414729372439963,
+      "out": {
+        "I": -18.3,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
