@@ -67849,5 +67849,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JbdmKBnwlM6OT-TQdBGFMiv5Byakdh-Y",
+    "drive_name": "28.២៨ អធិប្បាយវិថីចិត្ត​២យ៉ាង ១-កាមវិថីចិត្ត​  អារម្មណ៏ដែលជាបរិកប្បៈ អភិធម្ម​បរិច្ឆេទ​ទី៤ មេ.mp3",
+    "source_md5": "0377378191bee0dbdcba8d10564c55e4",
+    "key": "audio/0377378191bee0db-a64.mp3",
+    "bytes": 28522622,
+    "duration_s": 3565,
+    "sha256": "cc197aeb045cd575c15916b377412e7be9695fbe329a342686afb32fa98d363c",
+    "loudness": {
+      "pass1": {
+        "I": -24.6,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 7.700000000000003,
+      "limit": 0.6,
+      "depth": 7.83697499232713,
+      "busy": 7.509886966033714,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
