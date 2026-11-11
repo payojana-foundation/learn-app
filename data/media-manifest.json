@@ -74461,5 +74461,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kZQt0HoehG_iVRONoBnRkWaEm8uYerIb",
+    "drive_name": "55.៥៥ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ​៥៥  ៦-អារម្មណសង្គហៈ​ អារម្មណ៏ពិ.mp3",
+    "source_md5": "93050a58bf12e6d40188067f442590aa",
+    "key": "audio/93050a58bf12e6d4-a64.mp3",
+    "bytes": 28169865,
+    "duration_s": 3521,
+    "sha256": "5289694bfade8164ab89e9bac6caea6e0297016eb94f26bab7640b26971e8e9f",
+    "loudness": {
+      "pass1": {
+        "I": -25.4,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "G": 11.5,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 9.058701579007156,
+      "out": {
+        "I": -18.3,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
