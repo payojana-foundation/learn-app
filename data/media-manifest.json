@@ -63441,5 +63441,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JzdhPymgkazGa9MUdxpn_VFxUoRSqwqG",
+    "drive_name": "2.២ សង្គហគាថា មេរៀនថ្ងៃទី ២  ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "4110fc583a9ec5811cc6ee40c09df36b",
+    "key": "audio/4110fc583a9ec581-a64.mp3",
+    "bytes": 29480585,
+    "duration_s": 3685,
+    "sha256": "5103f1b4d5fb4fcbbcafde0cee9de73bd2cfcc4bf4a063cd6d8b3b03d634100d",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.5,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 9.12063608363523,
+      "out": {
+        "I": -18.3,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
