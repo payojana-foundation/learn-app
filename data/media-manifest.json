@@ -63151,5 +63151,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1v22tjsBX6IZEDcwbipVO5A2cyiO6sfdP",
+    "drive_name": "8.៨ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី​ ៨ ទដ្ធព្វសូត្រ.mp3",
+    "source_md5": "3e56d85344c163ffb63a957b8499280e",
+    "key": "audio/3e56d85344c163ff-a64.mp3",
+    "bytes": 29196999,
+    "duration_s": 3649,
+    "sha256": "9de99633cf9412fd5f9d10b6610c59fe0b335705c7914efa496c52ccaedad371",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 8.093010192897852,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
