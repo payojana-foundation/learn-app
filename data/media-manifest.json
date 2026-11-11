@@ -84437,5 +84437,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WmS39LSpmUIyuOo3Al4zyAUp7W2EH01m",
+    "drive_name": "87.៨៧ រូបាវចរកុសលចិត្ត ៥ដួង ចប់ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៨៧.mp3",
+    "source_md5": "76d79a66e0ea6fa39dde010227a97d67",
+    "key": "audio/76d79a66e0ea6fa3-a64.mp3",
+    "bytes": 26605652,
+    "duration_s": 3325,
+    "sha256": "caacaee888da64e18f1da21eb76a171ceda244371548ebdc0526360ad16afadc",
+    "loudness": {
+      "pass1": {
+        "I": -26.9,
+        "TP": -5.7,
+        "LRA": 0
+      },
+      "G": 11.400000000000002,
+      "limit": 0.6,
+      "depth": 10.13697499232713,
+      "busy": 7.707139957602274,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
