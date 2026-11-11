@@ -60744,5 +60744,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Vo2PxwELuQkqGoKulPqRDKebK9NLB13G",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១០៤ អហេតុកចិត្ត ១៨ កិច្ចក្នុងអហេតុកចិត្ត ១៨.mp3",
+    "source_md5": "ef95b20f49b84f1ca015ea66032fc011",
+    "key": "audio/ef95b20f49b84f1c-a64.mp3",
+    "bytes": 43832885,
+    "duration_s": 5479,
+    "sha256": "cd36a343d4d12e2d7c6f5d0d912ae81db18ea46c7e864c2f97a9ceb5fcd37fe3",
+    "loudness": {
+      "pass1": {
+        "I": -22.4,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 6.399999999999999,
+      "limit": 0.6,
+      "depth": 10.636974992327126,
+      "busy": 3.629473818692851,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
