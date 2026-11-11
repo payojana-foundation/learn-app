@@ -74780,5 +74780,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18sL7l3tpfWdlsk9dHX7VHLU2sRWgqbg7",
+    "drive_name": "67.៦៧ ផ្តេីមមហាវិបាកចិត្ត៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៦៧.mp3",
+    "source_md5": "53f612ea9bf3b85de35eea5834c085a0",
+    "key": "audio/53f612ea9bf3b85d-a64.mp3",
+    "bytes": 29039429,
+    "duration_s": 3629,
+    "sha256": "d651191f9ccd4a6d3298f8d6cf836eb0921b84dcde94e84aae0bd2c07ed5dcfa",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 9.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.9846965481142735,
+      "out": {
+        "I": -18.3,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
