@@ -85626,5 +85626,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1y-uVPwOqO9Ov__Q9CKsd5IDi86F_o34s",
+    "drive_name": "112.១១២​ចែកវិថីចិត្ត​តាមប្រភេទបុគ្គលអរូបព្រហ្មដែលជា​ ព្រះអរហន្តក្នុងអរូបភូមិ​ទី១​ និង​អរូបភ.mp3",
+    "source_md5": "c54421e840605e45e0445a45e9f18ec7",
+    "key": "audio/c54421e840605e45-a64.mp3",
+    "bytes": 28113440,
+    "duration_s": 3514,
+    "sha256": "9baf9fdb751ccfbf0338a1bab2ebf9c60720322040fe949f2eceefc16fe84e4b",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 11.500000000000004,
+      "limit": 0.6,
+      "depth": 11.536974992327131,
+      "busy": 9.067982300129476,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
