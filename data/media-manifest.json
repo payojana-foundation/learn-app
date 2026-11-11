@@ -63789,5 +63789,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1airuFGHRl_SRoCft5PdNUXpd050XdHwg",
+    "drive_name": "២១៥-13 Aug 2024 រាត្រីធម្មទាំន.mp3",
+    "source_md5": "cc842d94bab1900004a722ce1c43ab99",
+    "key": "audio/cc842d94bab19000-a64.mp3",
+    "bytes": 16228980,
+    "duration_s": 2028,
+    "sha256": "e4e8ad60915acf6478d2fd99434f65f2b846e620cf3496feff13b63ed57ff705",
+    "loudness": {
+      "pass1": {
+        "I": -21.5,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 4.300000000000001,
+      "limit": 0.6,
+      "depth": 8.336974992327129,
+      "busy": 1.7598343685300206,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
