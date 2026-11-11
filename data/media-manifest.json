@@ -78260,5 +78260,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10EBZfsIUGTA_hdoWXInLvJiB9ZjbabrD",
+    "drive_name": "70.៧០ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៣ បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី ៧០  ៦-វត្ថុសង្គហៈ ចប់.mp3",
+    "source_md5": "fdc189935b58c8f32b5c0f85b7434d5e",
+    "key": "audio/fdc189935b58c8f3-a64.mp3",
+    "bytes": 32420927,
+    "duration_s": 4052,
+    "sha256": "18c05afd97ee849516a756167e819099da4919f3bb7111ab43813e35952635a6",
+    "loudness": {
+      "pass1": {
+        "I": -25.4,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.863025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.181268583977989,
+      "out": {
+        "I": -18.5,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
