@@ -66834,5 +66834,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZU0ORtyLOOke0rIKy99cN9j_4aFlxYpM",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៥៣ (១៥៥ ឧបសមានុស្សតិ និងមរណានុស្សតិ.mp3",
+    "source_md5": "78b4f03589f912028c0c90bbed0d76bb",
+    "key": "audio/78b4f03589f91202-a64.mp3",
+    "bytes": 46602909,
+    "duration_s": 5825,
+    "sha256": "3019c799c9aa5e4c3c819cabd7b7a7c0e1700879bc76ad04de498c5e87f9ee25",
+    "loudness": {
+      "pass1": {
+        "I": -24.6,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 7.563025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.5879818380011503,
+      "out": {
+        "I": -18.7,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
