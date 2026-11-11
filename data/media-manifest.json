@@ -68255,5 +68255,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LC5uODnWpw6TUf8P849bZ76vQc8z2n1E",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៦០( ១៦២  រូបាវចរវិបាកចិត្ត ៥ ដួង ផលទៅកើតព្រហ្មលោក.mp3",
+    "source_md5": "7f54ead1700ddecf1c669ff54391afa4",
+    "key": "audio/7f54ead1700ddecf-a64.mp3",
+    "bytes": 44460451,
+    "duration_s": 5557,
+    "sha256": "4223788e8e9cde1693d4ec5b13ea07a63fccf39b875361e6533957e49fb067a6",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.8630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.280026990553306,
+      "out": {
+        "I": -18.5,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
