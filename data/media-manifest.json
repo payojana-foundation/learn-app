@@ -60541,5 +60541,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18ROC6stDN3MZDPk_zmN33m2eI6CHwL_O",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៩៧ អកុសលវិបាក មនោធាតុ មនោវិញ្ញាណធាតុ.mp3",
+    "source_md5": "69e3c1efd02bfd48c254241740c9c3c3",
+    "key": "audio/69e3c1efd02bfd48-a64.mp3",
+    "bytes": 43902893,
+    "duration_s": 5487,
+    "sha256": "05eda1a5451fb5ab38b2172a3e449f44fef712b7d0c837fab248b04aa4c6241c",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 6.599999999999998,
+      "limit": 0.6,
+      "depth": 10.836974992327125,
+      "busy": 5.086008181710506,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
