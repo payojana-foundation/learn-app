@@ -72373,5 +72373,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_mk8KczOBdgt9N_PGC9juLFtPYuykoIC",
+    "drive_name": "51.៥១ កិច្ច១៤យ៉ាង​របស់អហេតុកចិត្ត ចប់ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៥១.mp3",
+    "source_md5": "f02866cd79850a4c939a3b32e0abb024",
+    "key": "audio/f02866cd79850a4c-a64.mp3",
+    "bytes": 27942913,
+    "duration_s": 3492,
+    "sha256": "8499e294d6d1bf579471ba0524c892934a90642e1460c6dc15fdddbf564f93d6",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 8.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.773934951901054,
+      "out": {
+        "I": -18.7,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
