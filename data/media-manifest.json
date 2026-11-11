@@ -61121,5 +61121,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wg-QD_GOQ5ytiNid2QmvBVw08-zhARLp",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១១៧ ហេតុនាំឱ្យកើតមហាកុសលអសង្ខារិកចិត្តមាន ៦ យ៉ាង.mp3",
+    "source_md5": "e9633a01c9bc245b9ac97d121a6a43b9",
+    "key": "audio/e9633a01c9bc245b-a64.mp3",
+    "bytes": 46255376,
+    "duration_s": 5781,
+    "sha256": "d40669f7aca022bbde223f2f1549559ff5bea2a0b855d4c6961d6b90583b173c",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.319401926702295,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
