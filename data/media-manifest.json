@@ -70053,5 +70053,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Yyn-toUaMvdcvBLOgatwlvEpSvKuwQfh",
+    "drive_name": "42.៤២ អធិប្បាយវិថីចិត្ត​២យ៉ាង ១-កាមវិថីចិត្ត​ មនោទ្វារវិថី​ ដោយពិស្តារមាន​ ៥២វិថី ​ ចប់កាមជវន.mp3",
+    "source_md5": "cae4509d4d206dfc806f9d6f04870616",
+    "key": "audio/cae4509d4d206dfc-a64.mp3",
+    "bytes": 29761035,
+    "duration_s": 3720,
+    "sha256": "366ccfb687a3ffb0defbc2a0c41289337462dbb3f332b69bfa032736ebeb44f9",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 11.036974992327128,
+      "busy": 8.229392078063468,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
