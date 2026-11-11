@@ -62107,5 +62107,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1s_cC6hszmp7_FAc5t72oKU6vZK4TVa3o",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៣២.(១៣៥ សីលមយ វិកាលសិក្ខាបញ្ចប់ ចូលនច្ចគីតសិក្ខាបទភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "44faed7ab0d3c80a524b07e0ed159dd4",
+    "key": "audio/44faed7ab0d3c80a-a64.mp3",
+    "bytes": 45174534,
+    "duration_s": 5646,
+    "sha256": "759b07c2875b5108486f6b002eb490ce56057bc4f14b7a74529113a59c6f588a",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 7.100000000000001,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 4.62987559215478,
+      "out": {
+        "I": -18.2,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
