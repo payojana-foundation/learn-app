@@ -85684,5 +85684,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qGS8g5czUokoMAwmnMup8fp4xwfqmNmM",
+    "drive_name": "114.១១៤ ​ចែកវិថីចិត្ត​តាមប្រភេទបុគ្គលអរូបព្រហ្មដែលជា​ ព្រះអរហន្ត​ ក្នុងអរូបភូមិទី៤​.mp3",
+    "source_md5": "ecd99e608421e1a8d7653d8361deaffe",
+    "key": "audio/ecd99e608421e1a8-a64.mp3",
+    "bytes": 27457244,
+    "duration_s": 3432,
+    "sha256": "ecc358b823155f4f57fe15abb2ac4e415c87ccf928a92a62f8c18968a25f328e",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.3,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 8.112744383904898,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
