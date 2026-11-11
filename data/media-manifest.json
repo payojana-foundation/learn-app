@@ -84408,5 +84408,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1a3qFSEv0SVRO_KkKFUqOHFLLSt0a4rWM",
+    "drive_name": "86.៨៦ អធិប្បាយមនោទ្វារមរណាសន្នវិថី មេរៀនថ្ងៃទី ៨៦ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "4cdb77f378e79b6ab2cd5e7afe707605",
+    "key": "audio/4cdb77f378e79b6a-a64.mp3",
+    "bytes": 29435654,
+    "duration_s": 3679,
+    "sha256": "370085b0653ccded53b006f0707575fa9089ff6bc395a94b1670b768c8ddfab3",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -5.6,
+        "LRA": 0
+      },
+      "G": 11.399999999999999,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 8.4147551231179,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
