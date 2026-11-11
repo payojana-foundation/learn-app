@@ -81914,5 +81914,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-FxGNSDVnhjFjE5si4YEPVw_LvlxNLR_",
+    "drive_name": "463 17-Feb-26 រាត្រីធម្មទាន កន្លះម៉ោងសិក្សាក្នុងគម្ពីវិសុទ្ធិមគ្គ សូមអនុមោទនា!  Mam Sokheng.mp3",
+    "source_md5": "42b9ed10186db9b11492b48523efe605",
+    "key": "audio/42b9ed10186db9b1-a64.mp3",
+    "bytes": 11817838,
+    "duration_s": 1477,
+    "sha256": "76c5624d159f7387bc0207763949f047da07d0c46e9b7e0cda4e33900bd69c6f",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 8.7,
+      "limit": 0.6,
+      "depth": 9.436974992327126,
+      "busy": 1.71614257184443,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
