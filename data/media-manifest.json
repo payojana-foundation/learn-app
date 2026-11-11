@@ -66370,5 +66370,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bTTnTIJyv4iy6igh8U3XMJwJBORSBrfd",
+    "drive_name": "21.២១ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣មេរៀនថ្ងៃទី២០ អំពីស្ថាន១០ ៣-កិច្ចសង្គហៈតសម្តែងការចែកចេតសិក​៥២​ដោយ.mp3",
+    "source_md5": "ad8c5d84ec36db9299946e4c169f7574",
+    "key": "audio/ad8c5d84ec36db92-a64.mp3",
+    "bytes": 30545127,
+    "duration_s": 3818,
+    "sha256": "38d7051d8c6e20453216c588d115d16213de249726bca4c3016856f3b95bd048",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.2,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 7.4965296875409235,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
