@@ -79507,5 +79507,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IESQNqN0OBlwMMTc1U64lwrLpu4Ij632",
+    "drive_name": "បិដកលេខ២០-20 ការមិនមានមានះរបស់ភិក្ខុ បិដកភាគ២០.mp3",
+    "source_md5": "0a4748adc1a2e0765b8309b381a2c742",
+    "key": "audio/0a4748adc1a2e076-a64.mp3",
+    "bytes": 43057153,
+    "duration_s": 5382,
+    "sha256": "4845d8c7b9ee3145aa64511491385d283c4a579c6afbbc0072f961b590e75c0a",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 9.999999999999996,
+      "limit": 0.6,
+      "depth": 11.136974992327124,
+      "busy": 4.354712844428755,
+      "out": {
+        "I": -18.2,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
