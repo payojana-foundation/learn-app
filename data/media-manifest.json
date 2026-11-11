@@ -68835,5 +68835,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15XltsRsmBdjVqADM_6nA3T0EBUTdujLl",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៦៣ (១៦៥ បញ្ចប់អរូបាវចរចិត្ត១២ និងចូលលោកុត្តរចិត្ត.mp3",
+    "source_md5": "8bdc2a422d82b3dc02d52d56fb66dd58",
+    "key": "audio/8bdc2a422d82b3dc-a64.mp3",
+    "bytes": 43493084,
+    "duration_s": 5436,
+    "sha256": "8f0e77fe90eef5ddecbed4b20c29e46baa7b78af10560cb196b766aaa95a5cb1",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.631046977890593,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
