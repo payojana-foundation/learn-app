@@ -73620,5 +73620,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rB-FilNSL6aWIakRiYTn3KHENRqOpTZi",
+    "drive_name": "2.វគ្គខ្លី លើកទី ៥០.mp3",
+    "source_md5": "d1bdbf5495dc7b2b13621d23ec50ec79",
+    "key": "audio/d1bdbf5495dc7b2b-a64.mp3",
+    "bytes": 18200911,
+    "duration_s": 2275,
+    "sha256": "35a6a2b562338694838bf6eb87ed66b9e8e6abc3ff3b6aab5ee9eae2b9e8a932",
+    "loudness": {
+      "pass1": {
+        "I": -29.6,
+        "TP": -10.1,
+        "LRA": 0
+      },
+      "G": 14.100000000000001,
+      "limit": 0.5,
+      "depth": 10.020599913279625,
+      "busy": 7.470550745022197,
+      "out": {
+        "I": -19,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
