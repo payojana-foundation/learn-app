@@ -63122,5 +63122,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qcHPwcZTfUeAYBuC3fHedGA6rnMp0Pvx",
+    "drive_name": "២០២ រាត្រីធម្មទាន​ 22 July 2024.mp3",
+    "source_md5": "6a351e99b80dca3640fedbbedc3a9941",
+    "key": "audio/6a351e99b80dca36-a64.mp3",
+    "bytes": 11210335,
+    "duration_s": 1401,
+    "sha256": "aa7b2835d8a72194e6a3597da95873060f7824cdde9a1b0a4e401c5c28a979cf",
+    "loudness": {
+      "pass1": {
+        "I": -24.9,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 7.599999999999998,
+      "limit": 0.6,
+      "depth": 8.836974992327125,
+      "busy": 1.8501338090990187,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
