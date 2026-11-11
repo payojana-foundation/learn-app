@@ -81740,5 +81740,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1OFQcd9Kkw34mQY0qoQuESArOpqXthFyi",
+    "drive_name": "បិដកលេខ២០-34 កាយានុបស្សនា ដើម្បីលះអភិជ្ឈានិងទោមនស្ស .mp3",
+    "source_md5": "262ec3157a1cd9c7adef5dd70f2e44cb",
+    "key": "audio/262ec3157a1cd9c7-a64.mp3",
+    "bytes": 47510926,
+    "duration_s": 5938,
+    "sha256": "6027242abb0d016e4148fc6ec5f8df964274dd2797830011f88ac26451a015d8",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -12.7,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.6369749923271266,
+      "busy": 0.0006314353789033231,
+      "out": {
+        "I": -18,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
