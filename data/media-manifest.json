@@ -60947,5 +60947,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JhvxBDbznFyhNaRHacJ1uiXxh5RY4P_o",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១១១ មហាកុសលចិត្តដួងទី៤ ដួងទី ៥.mp3",
+    "source_md5": "63e24eaaf20c12d9658398e822869b16",
+    "key": "audio/63e24eaaf20c12d9-a64.mp3",
+    "bytes": 46709698,
+    "duration_s": 5838,
+    "sha256": "fc5c11cc4ac354608840e06bdaafaa9dcfde89e0ae6b4658ba0798e5be868a14",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 7.799999999999997,
+      "limit": 0.6,
+      "depth": 11.336974992327125,
+      "busy": 5.217342901673318,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
