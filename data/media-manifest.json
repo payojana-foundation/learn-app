@@ -61962,5 +61962,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1k1zMsBswCN8p0mBD-1J4qoTDuOJDbxxy",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៣១.(១៣៤ សីលមយ វិកាលសិក្ខា ភេសជ្ជគួរបរិភោគភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "aba539eef42e94a8c297180b473dddf5",
+    "key": "audio/aba539eef42e94a8-a64.mp3",
+    "bytes": 44342795,
+    "duration_s": 5542,
+    "sha256": "2029b009f43fe5b50d140cab5b7badda0a863a9a783625a9a5d50219e4138fc3",
+    "loudness": {
+      "pass1": {
+        "I": -22.2,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 6,
+      "limit": 0.6,
+      "depth": 10.636974992327128,
+      "busy": 4.717832142599408,
+      "out": {
+        "I": -18.2,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
