@@ -60599,5 +60599,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Rybx1aTZ9NFZ60EjLoIEbOR3hZgPTBCW",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៩៩ វិថីចិត្តតាមបញ្ចទ្វារនិងមនោទ្វារក្នុងអហេតុកចិត្ត.mp3",
+    "source_md5": "0ec82e514292b8547df7a87b9152c076",
+    "key": "audio/0ec82e514292b854-a64.mp3",
+    "bytes": 44827419,
+    "duration_s": 5603,
+    "sha256": "df41defc745e8a2e2cd5fb2d39594a68ef05905be7c007656c6382ae51eeb1bd",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 8.399999999999999,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 5.212906449655566,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
