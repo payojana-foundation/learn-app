@@ -67385,5 +67385,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hp0KlwJA-UoRk3Qnt83hvqvSEal61wlH",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៥៦(១៥៨ អាហារបដិកូលសញ្ញា ចតុធាតុវវត្ថាន.mp3",
+    "source_md5": "253e797b53fa1f80246ed0b1b4287145",
+    "key": "audio/253e797b53fa1f80-a64.mp3",
+    "bytes": 43799657,
+    "duration_s": 5474,
+    "sha256": "f1926c4081a1c7c172f037821ef8052cb213eebabe9a5c315ce10b603bc175d6",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.998493123162067,
+      "out": {
+        "I": -18.4,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
