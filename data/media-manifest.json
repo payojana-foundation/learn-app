@@ -83306,5 +83306,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1BXIk45cApoglbhysHsZsYY7qx8zoYyW-",
+    "drive_name": "បិដកលេខ២០-52 ធម្មានុបស្សនាពោជ្ឈង្គបព្វៈ ធម្មវិចយសម្ពោជ្ឈង្គ.mp3",
+    "source_md5": "00c4ef69c43cc47c3857460f04fab928",
+    "key": "audio/00c4ef69c43cc47c-a64.mp3",
+    "bytes": 60664937,
+    "duration_s": 7583,
+    "sha256": "8f9037e2a3210d1975d195efc0c3bc7b5200ed78e8297664d2cebc4b1074329a",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5.5,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 9.036974992327124,
+      "busy": 4.698770951194103,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
