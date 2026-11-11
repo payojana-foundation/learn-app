@@ -74316,5 +74316,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17LtK8q-385hrAdoqxPrda_qqNWP0vzT8",
+    "drive_name": "64.៦៤​ ចំណែកកុសលដោយភាពជាឧក្រិដ្ឋនិងឱមក ៤និង៨ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៦៤.mp3",
+    "source_md5": "706cf0987437bfbcea349c3bb10a99e0",
+    "key": "audio/706cf0987437bfbc-a64.mp3",
+    "bytes": 26984114,
+    "duration_s": 3372,
+    "sha256": "d92eda040ba15c55470736f5274136903270d29cbbd0885c9fd7f415f717139c",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 8.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.964868069967388,
+      "out": {
+        "I": -18.5,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
