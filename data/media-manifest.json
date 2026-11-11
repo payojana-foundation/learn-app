@@ -62716,5 +62716,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11dNx516MKuEQzQkQUfUuvSzJSEjULrY8",
+    "drive_name": "១៩៣ រាត្រីធម្មទាន​ 29.06.2024.mp3",
+    "source_md5": "fcec1ef3e9f99a9cd615a9f724e99cad",
+    "key": "audio/fcec1ef3e9f99a9c-a64.mp3",
+    "bytes": 12765352,
+    "duration_s": 1595,
+    "sha256": "be3f211bf8fc715a701665318688b598fa52966afba4aa5bb1aa716c5d7dc5a9",
+    "loudness": {
+      "pass1": {
+        "I": -22.2,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 5.199999999999999,
+      "limit": 0.6,
+      "depth": 9.236974992327127,
+      "busy": 2.3995675607921787,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
