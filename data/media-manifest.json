@@ -85539,5 +85539,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kDhbD7uPjIDrTd_CZAABWR-vEiojYTvU",
+    "drive_name": "109.១០៩​ ចែកវិថីចិត្ត​តាមប្រភេទបុគ្គល​ ព្រហ្មដែលជាអនាគាមីក្នុងសុទ្វាវាសភូមិ៥  ព្រះអភិធម្ម​ប.mp3",
+    "source_md5": "b1e4ff649cf06d7db2e6e911d70197d7",
+    "key": "audio/b1e4ff649cf06d7d-a64.mp3",
+    "bytes": 30124869,
+    "duration_s": 3765,
+    "sha256": "2488fed6d14b4708585676c26680a347f495b0a5509d899729b6cafa56057cb6",
+    "loudness": {
+      "pass1": {
+        "I": -25.5,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 7.112506805114791,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
