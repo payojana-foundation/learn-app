@@ -81595,5 +81595,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "143_PjOCYbkmVqI9ieonvl4891QBTXEum",
+    "drive_name": "457 2-Feb-26 រាត្រីធម្មទាន!សិក្សាក្នុង គម្ពីរវិសុទ្ធិមគ្គ ប្រធានបទ អាហារេបដិកូ.mp3",
+    "source_md5": "557c46bfe0308e2d58b6b9e3848020e4",
+    "key": "audio/557c46bfe0308e2d-a64.mp3",
+    "bytes": 13917874,
+    "duration_s": 1739,
+    "sha256": "4e0a5fb2219502b485307e16f5984754dfc656b47ab43438bea0ba74e8109d84",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 9.100000000000001,
+      "limit": 0.6,
+      "depth": 9.736974992327129,
+      "busy": 1.370926021727884,
+      "out": {
+        "I": -18.1,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
