@@ -68371,5 +68371,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1o-lfEmSu2NErj2-5YgH_7fiLoEOiRXMU",
+    "drive_name": "31.៣១ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៣  មេរៀនថ្ងៃទី ​៣១   ៤-ទ្វារសង្គហៈ ”ត  សង្គ្រោះចេតសិក​ដែលកើតក្នុ.mp3",
+    "source_md5": "8071708a0ef1395c92302db07b466bb5",
+    "key": "audio/8071708a0ef1395c-a64.mp3",
+    "bytes": 30164575,
+    "duration_s": 3770,
+    "sha256": "dd715ef2c7db3af2ebcf476592706bcb55bf6d319dafa37bf8cce3139f4204e6",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -5.4,
+        "LRA": 0
+      },
+      "G": 11.400000000000002,
+      "limit": 0.6,
+      "depth": 10.43697499232713,
+      "busy": 7.503547227858005,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
