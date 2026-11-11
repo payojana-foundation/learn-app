@@ -83915,5 +83915,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1smO5Px5abG6OJMLvdilgXZ3ATISBGBVz",
+    "drive_name": "បិដកលេខ២០-73 មហាសីហនាទសូត្រ បរិយាយពីកម្លាំងទាំង១០ របស់ព្រះពុទ្ធ.mp3",
+    "source_md5": "3e0edbced2601cfa084277f380a726c9",
+    "key": "audio/3e0edbced2601cfa-a64.mp3",
+    "bytes": 55295625,
+    "duration_s": 6911,
+    "sha256": "a8a761671b2eb9929474f2c6ebf238ebae62e1a28298043111520f1976edd898",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 9.736974992327127,
+      "busy": 5.490892518699634,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
