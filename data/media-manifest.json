@@ -60918,5 +60918,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18PdAiIdnAZRQ5yUKs5U907L4CLkWo_AX",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១១០ មហាកុសលចិត្តដួងទី២ ដួងទី៣.mp3",
+    "source_md5": "1310539cc5ad4e6138216949039510a9",
+    "key": "audio/1310539cc5ad4e61-a64.mp3",
+    "bytes": 45223226,
+    "duration_s": 5652,
+    "sha256": "4875017d1dd728adcf2748d6a735e0b935fb3d2d974b12c9f2259c2ed74b67b8",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "G": 6.9999999999999964,
+      "limit": 0.6,
+      "depth": 9.536974992327124,
+      "busy": 4.622668211610073,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
