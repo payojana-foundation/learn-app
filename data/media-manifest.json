@@ -71387,5 +71387,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bVUVb1iIT4sel-etSox8-HRCGXhSc3DC",
+    "drive_name": "45.៤៥ អហេតុកកុសលវិបាកចិត្តត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤៥.mp3",
+    "source_md5": "185d988ddfde2c0f89a68cb3deac0a52",
+    "key": "audio/185d988ddfde2c0f-a64.mp3",
+    "bytes": 28012503,
+    "duration_s": 3501,
+    "sha256": "650eb1e82a24eaeecf5e54d11e94d165c2896bd85435abd3f96804fce841c32f",
+    "loudness": {
+      "pass1": {
+        "I": -24.6,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 8.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.077665605231969,
+      "out": {
+        "I": -18.8,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
