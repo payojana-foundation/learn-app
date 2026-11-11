@@ -85104,5 +85104,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vCsKoVj2Eg0GiwmroM_58YKTRve9dPkK",
+    "drive_name": "99.៩៩ ចែកវិថីចិត្ត​តាមប្រភេទបុគ្គល មេរៀនថ្ងៃទី ៩៩ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "fc3968741c21278216e29081fad93948",
+    "key": "audio/fc3968741c212782-a64.mp3",
+    "bytes": 28919474,
+    "duration_s": 3614,
+    "sha256": "6e1127937f15bf267a5edf32972dd264cad5d6fa7873ba61d3866d40d00039f1",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "G": 11.2,
+      "limit": 0.6,
+      "depth": 11.036974992327128,
+      "busy": 8.249882431049269,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
