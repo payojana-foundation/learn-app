@@ -65558,5 +65558,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hVwkfIlHUO-7rzXwYKaDgFwjmhkNVi2j",
+    "drive_name": "239-06 Oct 2024 រាត្រីធម្មទាន.mp3",
+    "source_md5": "f698703d026055800392e5422ccc1dfc",
+    "key": "audio/f698703d02605580-a64.mp3",
+    "bytes": 9349163,
+    "duration_s": 1168,
+    "sha256": "c214d5c1a3aaf663d7abb8e031fad916b70a32e3e6862b6bb044e8b95567a1e5",
+    "loudness": {
+      "pass1": {
+        "I": -21.1,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 3.8000000000000007,
+      "limit": 0.6,
+      "depth": 7.936974992327128,
+      "busy": 1.54030463802841,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
