@@ -85220,5 +85220,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Le1z7eUIQxkc-TXSgecQgVeiwJ6c9IkQ",
+    "drive_name": "100.១០០ ព្រះអរហន្ត ២ប្រភេទ និង ១២ពួក ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី១០០.mp3",
+    "source_md5": "1c14ea9ed4c4d059257f477f1ede77c5",
+    "key": "audio/1c14ea9ed4c4d059-a64.mp3",
+    "bytes": 27458916,
+    "duration_s": 3432,
+    "sha256": "bb7540f4d67b5c2c1d2c582a4180ebe518e016eb0f2a166f01ef2f5f012e8734",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 11.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.243626722605833,
+      "out": {
+        "I": -18.9,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
