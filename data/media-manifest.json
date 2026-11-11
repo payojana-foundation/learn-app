@@ -80551,5 +80551,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "176ZmAboM3w7p1m0h7mrNcahNF_IYCKFf",
+    "drive_name": "434-12 Dec 2025 រាត្រីធម្មទានកន្លះម៉ោង លើកយកធម៌ មនុស្ស ធម៌ទេវតា ធម៌ព្រហ្ម!  ធម្ម រស.mp3",
+    "source_md5": "adcd25fdf55f641e414a3c81e2c30c70",
+    "key": "audio/adcd25fdf55f641e-a64.mp3",
+    "bytes": 7069613,
+    "duration_s": 883,
+    "sha256": "b04a5944ec28ecdeb5126098b591c8ebe0c3925373e5d543b4fa7c93e93833dd",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "G": 9.599999999999998,
+      "limit": 0.6,
+      "depth": 9.836974992327125,
+      "busy": 3.513834663045323,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
