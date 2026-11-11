@@ -74432,5 +74432,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15Yas8JmxkZoMDSBOMLoZeduTIbFOu8LV",
+    "drive_name": "65.៦៥ អានិសង្ឃរបស់តិហេតុកនិងទុហេតុក ៤ន័យ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៦៥.mp3",
+    "source_md5": "1f9f8891157259c1958bbfff838b6af4",
+    "key": "audio/1f9f8891157259c1-a64.mp3",
+    "bytes": 27808330,
+    "duration_s": 3475,
+    "sha256": "3e2bee566af3186c0b3b26ea43b0ddd6dfc429ad90eb2ce25d3df7dea531acc0",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 7.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.951884349827388,
+      "out": {
+        "I": -19,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
