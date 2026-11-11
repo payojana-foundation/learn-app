@@ -73852,5 +73852,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1V435BY7ByQPwpKUe773KNgmPOm8WYg2L",
+    "drive_name": "53.៥៣ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ មេរៀនថ្ងៃទី ៥៣  ៦-អារម្មណសង្គហៈ អារម្មណ៏របស់ទ្វារវិមុត្តិចិត្ត​.mp3",
+    "source_md5": "d567b90ca41015fbda2fd570a8311451",
+    "key": "audio/d567b90ca41015fb-a64.mp3",
+    "bytes": 28818119,
+    "duration_s": 3602,
+    "sha256": "d0b74896ffd4dec492bb4072f2d2754b6bb3b3d77313c59658b22bbb6fbf4b26",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 11.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.756332847525853,
+      "out": {
+        "I": -18.4,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
