@@ -69531,5 +69531,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WpV9ON_XZ7xG8X-LcENBrcc9e3vO93TB",
+    "drive_name": "33.៣៣ អកុសលកម្មបថផរុសវាចា​ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣៣.mp3",
+    "source_md5": "98bbc3ffe1342ed99f71a9ccb926da9a",
+    "key": "audio/98bbc3ffe1342ed9-a64.mp3",
+    "bytes": 28886874,
+    "duration_s": 3610,
+    "sha256": "5f52c677b6962ac908a4d33c3c3bdd7cb30c3c926a8cd8ddca0c5f80858455d7",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -5.1,
+        "LRA": 0
+      },
+      "G": 12.663025007672871,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.183311177578376,
+      "out": {
+        "I": -18.5,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
