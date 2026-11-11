@@ -77013,5 +77013,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pZp-vCokv3-AAoxCeCt07JDmVYQa_rQo",
+    "drive_name": "81.៨១ អារម្មណ៍កម្មដ្ឋាន៤០ ព្រហ្មវិហារ៤ អរូបជ្ឈាន៤ អាហារេបដិកូលសញ្ញា១ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៨១.mp3",
+    "source_md5": "4557c580195c726236d9563889eeb764",
+    "key": "audio/4557c580195c7262-a64.mp3",
+    "bytes": 28993035,
+    "duration_s": 3624,
+    "sha256": "fda5794d7cf640308d9fa28b468d17bffe37d0ca8f312a6258714f12e9ea3bba",
+    "loudness": {
+      "pass1": {
+        "I": -23.7,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "G": 8.399999999999999,
+      "limit": 0.6,
+      "depth": 10.336974992327125,
+      "busy": 8.302061201401727,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
