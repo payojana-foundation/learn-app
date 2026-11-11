@@ -60686,5 +60686,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NX6rnoyXqd_zLy306HgwK5ut_4cI5Bv_",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១០២ អហេតុកកិរិយាចិត្តដួងទី១ ដួងទី២ និងរម្លឹកមេរៀន.mp3",
+    "source_md5": "0ef15be4b1b8136982c2eb8534740b95",
+    "key": "audio/0ef15be4b1b81369-a64.mp3",
+    "bytes": 46282753,
+    "duration_s": 5785,
+    "sha256": "6e661bf7dae186ece5cc3591614e4f4585a64658b2f301eb1b2497f5418c5a81",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 6.699999999999999,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 4.377690007432631,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
