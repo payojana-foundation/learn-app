@@ -72547,5 +72547,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ci5-MgKrVr7e8QGtfyQhwmxF-ou4grt_",
+    "drive_name": "52.៥២ អហេតុកចិត្ត១៨​ ដោយន័យ១៤ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៥២.mp3",
+    "source_md5": "2ffca0bebce7ea20a8dc0c7e9f12c288",
+    "key": "audio/2ffca0bebce7ea20-a64.mp3",
+    "bytes": 28535579,
+    "duration_s": 3566,
+    "sha256": "dd2216b24eebb1a28e682a4b433809b0f81a37ea018548d2740c2effcc00572d",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 8.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.940200173820404,
+      "out": {
+        "I": -18.4,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
