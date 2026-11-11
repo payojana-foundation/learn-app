@@ -62310,5 +62310,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jeOqyVuQO6Z21y8qsAyBHUZxPkd9OXQR",
+    "drive_name": "១៨៤ រាត្រីធម្មទាន​ 12. 06.2024.mp3",
+    "source_md5": "6eb30f761ea7ec0b4f8e2f3807fa94d6",
+    "key": "audio/6eb30f761ea7ec0b-a64.mp3",
+    "bytes": 12093065,
+    "duration_s": 1511,
+    "sha256": "3e68fdfc301196c653baf1ff68fc185a7fcd5a8a6cce6a593ce9dfaf5eaff04c",
+    "loudness": {
+      "pass1": {
+        "I": -20.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.900000000000002,
+      "limit": 0.6,
+      "depth": 7.93697499232713,
+      "busy": 3.0017861868219105,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
