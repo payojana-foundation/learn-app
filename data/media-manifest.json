@@ -79623,5 +79623,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1N7D3dZBf4JMbLeKCMuKSb46zjYaxctv8",
+    "drive_name": "៤០៩-២០ តុលា ២០២៥ រាត្រីធម្មទានកន្លះម៉ោង សិក្សារក្នុងគម្ពីវវិសុទ្ធិមគ្គ កាយគតាសតិ សូមអន.mp3",
+    "source_md5": "8466db3770809b78267e481e590c6b96",
+    "key": "audio/8466db3770809b78-a64.mp3",
+    "bytes": 13687579,
+    "duration_s": 1710,
+    "sha256": "d493d580c058c78ad73e5b9892680c6ec5b531b049c2f9164e766a5a29ba90d6",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 3.3999999999999986,
+      "limit": 0.6,
+      "depth": 7.336974992327126,
+      "busy": 2.764626804605763,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
