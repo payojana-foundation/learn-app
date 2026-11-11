@@ -69067,5 +69067,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ON76BqG-VCtJhu6I1In59shhK5gSXztr",
+    "drive_name": "30.២៩ សង្គ្រោះអកុសលចិត្ត ១២​ ក្នុងអកុសលកម្មបថ ១០ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ២៩.mp3",
+    "source_md5": "336a64781ca3eed0ed324366c66bfed3",
+    "key": "audio/336a64781ca3eed0-a64.mp3",
+    "bytes": 29103585,
+    "duration_s": 3637,
+    "sha256": "3f8c3af9b8e375a8e5f6b57a3954e547eab3c08509297d1f4c7445ac0473b8e3",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 8.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.471109706149152,
+      "out": {
+        "I": -18.5,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
