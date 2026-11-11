@@ -68516,5 +68516,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qNMQ0cUSPdrBaFqG2ths52yRLo7yRBgY",
+    "drive_name": "26.២៥ មោហមូលចិត្តចែកដោយន័យ១៤ន័យ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ២៥.mp3",
+    "source_md5": "0c32b638e242eaa5de43a82baa27ef20",
+    "key": "audio/0c32b638e242eaa5-a64.mp3",
+    "bytes": 32003804,
+    "duration_s": 4000,
+    "sha256": "aba55cac6dc5edf935dd5d18101509bf77394115fc3d5beda325cf5a359367ad",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "G": 9.499999999999996,
+      "limit": 0.6,
+      "depth": 10.936974992327123,
+      "busy": 7.120448949493182,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
