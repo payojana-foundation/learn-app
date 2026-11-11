@@ -76578,5 +76578,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_2vATv7c4J2heVQ47W2w5TQho2aWx2dl",
+    "drive_name": "79.៧៩ អារម្មណ៍កម្មដ្ឋាន៤០ កសិណ១០ អសុភ១០ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧៩.mp3",
+    "source_md5": "2c84825538dacf7d109a971ce05eedf0",
+    "key": "audio/2c84825538dacf7d-a64.mp3",
+    "bytes": 28054299,
+    "duration_s": 3506,
+    "sha256": "81765bd7dd953bf879ad2fa696a014934e7b39a362b00bb9fc2e4fe73cdf7521",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 8.8,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 8.19027589648535,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
