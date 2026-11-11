@@ -64253,5 +64253,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yjBtOF3Tiv2z0BGsFPRkN-xsIc_BE3NA",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៤៣.(១៤៥ ចែកមហាកុសលជាឧក្កដ្ឋកុសល និងឱមកកុសល.mp3",
+    "source_md5": "6e6658b76e9c3b5b83bc3708be951384",
+    "key": "audio/6e6658b76e9c3b5b-a64.mp3",
+    "bytes": 45989345,
+    "duration_s": 5748,
+    "sha256": "c24e81bb13afe074094f259a34902fba9e7e2a93db005047700e4c94d70eb961",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 8.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.640219877710419,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
