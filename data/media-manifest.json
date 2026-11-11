@@ -76839,5 +76839,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1n_HbWR-FlxtaBGIox8E_QqgyciA_kdA3",
+    "drive_name": "បិដកលេខ២០-១០ ការលះអាសវៈដោយការសេព និងការអត់ធន់.mp3",
+    "source_md5": "feffe3ccda374cc0d30d7d25a0f442c6",
+    "key": "audio/feffe3ccda374cc0-a64.mp3",
+    "bytes": 41127017,
+    "duration_s": 5140,
+    "sha256": "90974d388f86cac56b855dc58f1449a3efe441b84f915ffa7edb1fc63b3eb486",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 1.3383000865615609,
+      "out": {
+        "I": -18.1,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
