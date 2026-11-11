@@ -82813,5 +82813,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1oxIvhjUGK6HZ5wzEbJt1nEeePfixv5dM",
+    "drive_name": "បិដកលេខ២០-44 សតិប្បដ្ឋានសូត្រ វេទនានុបស្សនាសតិប្បដ្ឋានកំណត់៩ យ៉ាង ភាគបញ្ចប់ .mp3",
+    "source_md5": "978273444a50baee09644857ad691493",
+    "key": "audio/978273444a50baee-a64.mp3",
+    "bytes": 40053071,
+    "duration_s": 5006,
+    "sha256": "ca6071f69ea13f77c84ae2166452b089cd9beced104d72470ad96d2ad410a757",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 9.836974992327127,
+      "busy": 5.823812567411017,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
