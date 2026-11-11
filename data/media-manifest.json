@@ -68458,5 +68458,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LxtqCRP0dTNFysNFQnynQT0dil6wmIlP",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៦១(១៦៣ រូបាវចរវិបាកចិត្ត ៥ ដួង និងរូបាវចរកិរិយា៥ ដួង.mp3",
+    "source_md5": "3920a2aa4f5c3ecdbba678caad8d1118",
+    "key": "audio/3920a2aa4f5c3ecd-a64.mp3",
+    "bytes": 45332105,
+    "duration_s": 5666,
+    "sha256": "85ce8a3cee4430e282f06a52154f92414ddc4240d45e71ad4dbbc06e1d28a27f",
+    "loudness": {
+      "pass1": {
+        "I": -24.8,
+        "TP": -1.3,
+        "LRA": 0
+      },
+      "G": 8.863025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.9786023118327005,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
