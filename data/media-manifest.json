@@ -62281,5 +62281,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "194bLhQl7izHvKHkistD5Ucis7CeeJuLQ",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៣៣.(១៣៦ សីលមយ មាលាគន្ធវិលេបន និងឧច្ចាសយនមហាសយនាភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "ff0bedb708b5b20c0ac08fa12ca8e98a",
+    "key": "audio/ff0bedb708b5b20c-a64.mp3",
+    "bytes": 45246423,
+    "duration_s": 5655,
+    "sha256": "481d2e25675488ae63f18cad72914e4dccb2cc059df38b136fb9244631187012",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.8630250076728725,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.0360252840030055,
+      "out": {
+        "I": -18.2,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
