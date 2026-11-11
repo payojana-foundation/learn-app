@@ -72257,5 +72257,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1aynG81e3AOjvYhnJG6MwWOGSPqv4dMpv",
+    "drive_name": "50.៥០ កិច្ច១៤យ៉ាង​ របស់អហេតុកចិត្ត១៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៥០​.mp3",
+    "source_md5": "de277a5d48f38f9b680f8b4f13f7b81a",
+    "key": "audio/de277a5d48f38f9b-a64.mp3",
+    "bytes": 22157731,
+    "duration_s": 2769,
+    "sha256": "7adb07ecfe6110beaf8fd8d6a0b964570a458b7e428b52246106516b11729ee0",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "G": 9.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.253944470520273,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
