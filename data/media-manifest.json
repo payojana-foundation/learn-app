@@ -75128,5 +75128,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GAdIEpwq8XPJtMaVdl5AcmLS_Xe9h1nz",
+    "drive_name": "69.៦៩ មហាវិបាកផ្សេងគ្នា អំពីមហាកុសល ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៦៩.mp3",
+    "source_md5": "e87b2e70394c9b067d7b32b90234da07",
+    "key": "audio/e87b2e70394c9b06-a64.mp3",
+    "bytes": 29417891,
+    "duration_s": 3677,
+    "sha256": "301d9d41f10fd76b9d15bd76260b1b10d2ddb20230a567631215ac5c75ac2144",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 8.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.2007913629935825,
+      "out": {
+        "I": -18.3,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
