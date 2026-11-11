@@ -78579,5 +78579,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-__uAi7McFNtivCCXIKcg9XyA0mIXAKm",
+    "drive_name": "បិដកលេខ២០-១៦ ភយភេរវសូត្រ ភ័យមិនមានដល់ព្រះពុទ្ធ .mp3",
+    "source_md5": "9c95bd61bd40c15f7a39e27413858964",
+    "key": "audio/9c95bd61bd40c15f-a64.mp3",
+    "bytes": 44214273,
+    "duration_s": 5526,
+    "sha256": "be45512d391ac58c2264cb65890c0f63eb644e37a7b8fb6ced10543a4f179bba",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -7.7,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 7.036974992327128,
+      "busy": 4.774731985344009,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
