@@ -69328,5 +69328,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hVUc8xR_j1F5fHi4n2y_sJ52v1tiURjS",
+    "drive_name": "36.៣៦ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ​៣៦  ៦-អារម្មណសង្គហៈ អំណាចរបស់អារម.mp3",
+    "source_md5": "eb50ac3cb7fd08ef8d1fac5d3fc96939",
+    "key": "audio/eb50ac3cb7fd08ef-a64.mp3",
+    "bytes": 29868660,
+    "duration_s": 3733,
+    "sha256": "24515f1640382b1e76b2dd312d748247aed7a15a9d53998db07e005672057ceb",
+    "loudness": {
+      "pass1": {
+        "I": -25.4,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 9.899999999999995,
+      "limit": 0.6,
+      "depth": 10.836974992327121,
+      "busy": 6.204215826760054,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
