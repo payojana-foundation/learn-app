@@ -74142,5 +74142,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Pbz0Ja7M6JWrWXqShb1VoRrg6iLhfk6i",
+    "drive_name": "63.៦៣ មហាកុសលចិត្តប្រព្រឹត្តក្នុងបុញ្ញកិរិយាវត្ថុ១០និងមហាកុសល២ប្រភេទ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៦៣.mp3",
+    "source_md5": "7c2eddbe3155bc788f53934f52e7a5c3",
+    "key": "audio/7c2eddbe3155bc78-a64.mp3",
+    "bytes": 27603948,
+    "duration_s": 3450,
+    "sha256": "8d25cf905dbf7eafba750fd463829ae014adf46025077cb949ad52e7a7fcfefc",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 8.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.866133402889478,
+      "out": {
+        "I": -18.5,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
