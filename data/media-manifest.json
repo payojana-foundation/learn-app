@@ -70401,5 +70401,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16-dBgJVPg-RPKDp575Yz6k80JhsbTpuC",
+    "drive_name": "40.៤០ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣   ៦-អារម្មណសង្គហៈ ការចែកទ្វារិក​ និង​ ទ្វារវិមុត្តិចិត្ត​ ដោយអា.mp3",
+    "source_md5": "da2e29892a5bf72101cdb5bca9714aff",
+    "key": "audio/da2e29892a5bf721-a64.mp3",
+    "bytes": 27455154,
+    "duration_s": 3431,
+    "sha256": "20b676b7b164a19a3a1b996b1c20740f75aaf22df990319832a30c29f596ffba",
+    "loudness": {
+      "pass1": {
+        "I": -25,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.200000000000003,
+      "limit": 0.6,
+      "depth": 11.13697499232713,
+      "busy": 7.084735638212626,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
