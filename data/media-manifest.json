@@ -67907,5 +67907,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1oo9hPINgBDbdvhYvhheqTQpLEQ0Ch-dY",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៥៨(១៦០ សមថកម្មដ្ឋាន៤០ ចែកតាមចរិតរបស់បុគ្គល.mp3",
+    "source_md5": "4714db9bb4ec9205dc3fb223b0a134ac",
+    "key": "audio/4714db9bb4ec9205-a64.mp3",
+    "bytes": 45423011,
+    "duration_s": 5677,
+    "sha256": "93c2f5c654225189d9f9695ac981fec4be515c8563711bc0cd3082713ec353a3",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 8.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.334545646679641,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
