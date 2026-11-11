@@ -73069,5 +73069,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CwY6VbLg9nxnYxaWqpzJWTn__i91COG-",
+    "drive_name": "55.៥៥ អំពីអត្ថរបស់កុសល ៥ ប្រការ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៥៥.mp3",
+    "source_md5": "5ccb865598233beb1b18cdfad1ba2a77",
+    "key": "audio/5ccb865598233beb-a64.mp3",
+    "bytes": 25364523,
+    "duration_s": 3170,
+    "sha256": "d63e476d26b3d658773c976095e69d85b0263bb500d42d2e4ddb0a921571030f",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "G": 9.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.426550598476605,
+      "out": {
+        "I": -18.4,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
