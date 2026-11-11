@@ -81827,5 +81827,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kUOL-BHMCZgZOaQC3W9JnWL2XmCQPbb-",
+    "drive_name": "462 16-Feb-26  រាត្រីធម្មមទានកន្លះម៉ោង ក្នុងគម្ពីវិសុទ្ធិមគ្គ សូមអនុមោទន!  ធម្ម រស.mp3",
+    "source_md5": "a1836ce0e450979f8061b0b95d1b34f3",
+    "key": "audio/a1836ce0e450979f-a64.mp3",
+    "bytes": 13557176,
+    "duration_s": 1694,
+    "sha256": "5c25c33f73135c5773f8981274ce6435e0c53c51e7a314188cf512ee7aea46c5",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "G": 8.8,
+      "limit": 0.6,
+      "depth": 10.436974992327128,
+      "busy": 1.9613773161808097,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
