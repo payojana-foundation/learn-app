@@ -67530,5 +67530,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LZq3ztYkx3cblMXA_DkrNcTNW7zE5qFC",
+    "drive_name": "19.១៨ ទោសមូលចិត្ត​ ២ដួង​ ចប់ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី១៨.mp3",
+    "source_md5": "2088c2b0c263f26748b9b14451a89f21",
+    "key": "audio/2088c2b0c263f267-a64.mp3",
+    "bytes": 29078926,
+    "duration_s": 3634,
+    "sha256": "d658373fb2484c998306771b8214c9f99abdecdca1acf1ecb72996be0c9441b2",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "G": 9.5,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 6.545064377682404,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
