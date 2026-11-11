@@ -81015,5 +81015,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NEwO4b_oPgA93De7s3DY01zp4m40wEYK",
+    "drive_name": "6.វគ្គខ្លី លើកទី ​៥៥.mp3",
+    "source_md5": "a8ff2ea460939ba9eebb1786725bd14f",
+    "key": "audio/a8ff2ea460939ba9-a64.mp3",
+    "bytes": 18838926,
+    "duration_s": 2354,
+    "sha256": "8c40fd289d1d25d560c9380d7cad6eeaa46a0630f8b4c9706c331a16526757e1",
+    "loudness": {
+      "pass1": {
+        "I": -28.4,
+        "TP": -8.6,
+        "LRA": 0
+      },
+      "G": 13.2,
+      "limit": 0.54,
+      "depth": 9.95212480354063,
+      "busy": 7.328492260653545,
+      "out": {
+        "I": -18.4,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
