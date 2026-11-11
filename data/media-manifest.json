@@ -85510,5 +85510,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XghfuNRaqHDEapm8z0NtTNJ1lfAEmPAK",
+    "drive_name": "108.១០៨​ ចែកវិថីចិត្ត​តាមប្រភេទបុគ្គលព្រហ្មបុគ្គលដែលជាព្រះអរិយៈ មេរៀនថ្ងៃទី ១០៨ ព្រះអភិធម្ម.mp3",
+    "source_md5": "6bcd159f31d5ae511530971476377db8",
+    "key": "audio/6bcd159f31d5ae51-a64.mp3",
+    "bytes": 28434851,
+    "duration_s": 3554,
+    "sha256": "b23575d602ac034f82410a933a973db04a3d55d39737240f9e2747f3bf6420a4",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 12.3,
+      "limit": 0.6,
+      "depth": 11.936974992327128,
+      "busy": 10.105365332132909,
+      "out": {
+        "I": -18.3,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
