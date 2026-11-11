@@ -61759,5 +61759,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1iELF882NyHw3gaddfrZe9QFIHg6d_i5H",
+    "drive_name": "១៧០ រាត្រីធម្មទាន May 15-2024_648x360.mp3",
+    "source_md5": "9ff3b9a6b21abab72837b604efbe7eb2",
+    "key": "audio/9ff3b9a6b21abab7-a64.mp3",
+    "bytes": 13657904,
+    "duration_s": 1707,
+    "sha256": "c9e0818bb8a23c559a251543fcbd850cd4cd147a6763bf684a6675ffe9858a6f",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 5.799999999999997,
+      "limit": 0.6,
+      "depth": 10.136974992327126,
+      "busy": 1.8077846766635426,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
