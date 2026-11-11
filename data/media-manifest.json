@@ -64311,5 +64311,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1S8d-X5nIsR7K33meYD43KIctyYY3t_oI",
+    "drive_name": "8.៨ អធិប្បាយវិថីចិត្ត​២យ៉ាង ១-កាមវិថីចិត្តអធិប្បាយសង្គហគាថា មេរៀនថ្ងៃទី៨  ព្រះអភិធម្ម​បរិច្ឆ.mp3",
+    "source_md5": "d436c23cac822246b1b9b47b7d673ebb",
+    "key": "audio/d436c23cac822246-a64.mp3",
+    "bytes": 29152069,
+    "duration_s": 3643,
+    "sha256": "c66a37933af93aef41a3d9d851d01c4111a99167f2acc71fccdb7dc4a7e289b4",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.9251224632610215,
+      "out": {
+        "I": -18.7,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
