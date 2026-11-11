@@ -64659,5 +64659,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13mRtE9nKS0rfZth2y-98jv0N9aZ1McO-",
+    "drive_name": "10.១០ អធិប្បាយវិថីចិត្ត​ ២ យ៉ាង ១-កាមវិថីចិត្តអធិប្បាយវិសយប្បវត្តិ​ ៤ ​ន័យ មេរៀនថ្ងៃទី១០ បរិ.mp3",
+    "source_md5": "7035962d4c7bf2efd468d7f73063ba5a",
+    "key": "audio/7035962d4c7bf2ef-a64.mp3",
+    "bytes": 28104036,
+    "duration_s": 3512,
+    "sha256": "04475de3a7260ce16312ccdf5d4f1072de6cafa838d7a76ea39a2ff992add775",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.863025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.6484863149205085,
+      "out": {
+        "I": -18.3,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
