@@ -77999,5 +77999,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1t91LR2LUTcUXtiTRTqFZxEQnPTcesGw-",
+    "drive_name": "80.៨០ មរណាសន្នវិថី​ ៩ប្រភេទកាមចុតិ​មាន​ ២យ៉ាង មេរៀនថ្ងៃទី ៨០ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីស.mp3",
+    "source_md5": "16c2160281a1617c8f3468b8e90dc0fb",
+    "key": "audio/16c2160281a1617c-a64.mp3",
+    "bytes": 31253776,
+    "duration_s": 3906,
+    "sha256": "0940af0afe95457e54eb178939ee240fdc0ac745ad770b9ef44335121eb6ac07",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 11.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.11148938348713,
+      "out": {
+        "I": -18.4,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
