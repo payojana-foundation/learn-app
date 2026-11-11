@@ -62687,5 +62687,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ym9B7EZnM1z06N3FRYPgqnMUKs-6lm3S",
+    "drive_name": "5.៥ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី​ ៥.mp3",
+    "source_md5": "d095dff1318b63869b014a5bc602e7f2",
+    "key": "audio/d095dff1318b6386-a64.mp3",
+    "bytes": 28493574,
+    "duration_s": 3561,
+    "sha256": "c9d58e99e36c0946c7d676b3a464ea486ef20e2b50145b3bc443d5a105b6aa3a",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "G": 10.599999999999998,
+      "limit": 0.6,
+      "depth": 10.836974992327125,
+      "busy": 7.735178919882639,
+      "out": {
+        "I": -18.1,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
