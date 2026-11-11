@@ -63006,5 +63006,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hchIr7HKeT1FTf2sJKtiKok1Tudpgjd6",
+    "drive_name": "១៩៩ រាត្រីធម្មទាន​ 13 July 2024.mp3",
+    "source_md5": "9f01c9b1ce837d73dbb79d8fc762b6bd",
+    "key": "audio/9f01c9b1ce837d73-a64.mp3",
+    "bytes": 10901881,
+    "duration_s": 1362,
+    "sha256": "50a59c0ee988b69aac507b77f4cd099c9a919730ff0c787ecb089ccd1404fcc2",
+    "loudness": {
+      "pass1": {
+        "I": -20.7,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.599999999999998,
+      "limit": 0.6,
+      "depth": 7.636974992327126,
+      "busy": 2.378549937623835,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
