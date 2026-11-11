@@ -74838,5 +74838,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1q_chbMSHLKssUs6hDpP42OSFz7tPXpl8",
+    "drive_name": "333-22 April​ រាត្រីធម្មទាន.mp3",
+    "source_md5": "53a5b3b2062db9b0256e766d4a305b99",
+    "key": "audio/53a5b3b2062db9b0-a64.mp3",
+    "bytes": 12723765,
+    "duration_s": 1590,
+    "sha256": "862d87dbe244f1168df617fbade4cc97d6f916ca0cb1d6897672a663322f1175",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 4.399999999999999,
+      "limit": 0.6,
+      "depth": 8.436974992327126,
+      "busy": 2.301307847082495,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
