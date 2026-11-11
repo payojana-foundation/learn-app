@@ -81189,5 +81189,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1puH8M96KVBVbOA1-S-0euuW28xat5U0n",
+    "drive_name": "449_19_Jan_2026_រាត្រីធម្មទាន_កន្លះម៉ោងសិក្សាក្នុងគម្ពីរវិសុទ្ធិមគ្គ.mp3",
+    "source_md5": "8d1ecb281810f54a3c3f897c08221871",
+    "key": "audio/8d1ecb281810f54a-a64.mp3",
+    "bytes": 13853300,
+    "duration_s": 1731,
+    "sha256": "7fc0f7052132772eac23f922b28a6a284e1ee2bb7f1dee6aacb98116cc5c4052",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 9.100000000000001,
+      "limit": 0.6,
+      "depth": 9.536974992327128,
+      "busy": 1.4553014553014554,
+      "out": {
+        "I": -18.1,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
