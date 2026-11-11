@@ -66399,5 +66399,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vS-u0KnyxFx2f1AIWG50qE6zB6ZUPu6m",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៥១(១៥៣ រូបាវចរកុសល កសិណ១០ យ៉ាង.mp3",
+    "source_md5": "bf3ed9de9fda89c4b1af553261940b28",
+    "key": "audio/bf3ed9de9fda89c4-a64.mp3",
+    "bytes": 43771027,
+    "duration_s": 5471,
+    "sha256": "5ce8478fcec7b3c7d946c9768820f9e1b8d8e641943dbc80c86600169830e25b",
+    "loudness": {
+      "pass1": {
+        "I": -24.7,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 8.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.530874464254708,
+      "out": {
+        "I": -18.4,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
