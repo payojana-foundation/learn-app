@@ -77390,5 +77390,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nNsysx0zRfU3Oaicw-SoRfaHiRG7TFzq",
+    "drive_name": "បិដកលេខ២០-១១ ការលះអាសវៈដោយឧបាយផ្សេងៗបញ្ចប់.mp3",
+    "source_md5": "94a5c51c808670fc4db98a6216527eca",
+    "key": "audio/94a5c51c808670fc-a64.mp3",
+    "bytes": 43373966,
+    "duration_s": 5421,
+    "sha256": "714b3eae6588685cbcaa122c7b8e689553ecfa6ba74807d307caf93ddbf193b5",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5,
+        "LRA": 0
+      },
+      "G": 11.8,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 6.54776177213789,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
