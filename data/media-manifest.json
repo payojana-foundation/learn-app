@@ -80174,5 +80174,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NNBYztCPkliYbEBSZsCQmfpoEdjCOQmY",
+    "drive_name": "បិដកលេខ២០-24 ការដុះខាតកិលេសដោយឧបាយច្រើនយ៉ាង.mp3",
+    "source_md5": "519e77dcd69c9eff23ea6ae17f2d97ff",
+    "key": "audio/519e77dcd69c9eff-a64.mp3",
+    "bytes": 44261084,
+    "duration_s": 5532,
+    "sha256": "11831f83972564687a17106bdab7ce6aaa97b24ca28de04efd0dcd8601e34039",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -10.8,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 2.536974992327125,
+      "busy": 0.011974478545349384,
+      "out": {
+        "I": -18,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
