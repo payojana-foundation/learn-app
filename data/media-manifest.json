@@ -81363,5 +81363,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jTLut2O22dX7Pom0UsKqoxt_HCcZKPeH",
+    "drive_name": "បិដកលេខ២០-32 សតិប្បដ្ឋាននាំចេញធម៌៤ នាំចូលនូវធម៌៣ .mp3",
+    "source_md5": "b8e9ed9e65e31c51da66d65045321cf5",
+    "key": "audio/b8e9ed9e65e31c51-a64.mp3",
+    "bytes": 43210126,
+    "duration_s": 5401,
+    "sha256": "a3f54fcd763c12a290fc64e1d19bebd77a5e5b09e602d7ea225006e0c3149fce",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -12.8,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.5369749923271252,
+      "busy": 0.0006942837306179125,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
