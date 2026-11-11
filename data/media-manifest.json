@@ -77622,5 +77622,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nHbawTjBabnpM3WnWQdNpOyQNAmjPvr2",
+    "drive_name": "78.៧៨ មរណាសន្នវិថីត មេរៀនថ្ងៃទី៧៨ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "ca8a804dd91dee50dcd806b6bb14e6e6",
+    "key": "audio/ca8a804dd91dee50-a64.mp3",
+    "bytes": 30682217,
+    "duration_s": 3835,
+    "sha256": "08671ca71aa88715763f50e3bfb5f7ac77de37a02c08668971b28ab65ade2b4e",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 11.5,
+      "limit": 0.6,
+      "depth": 11.136974992327128,
+      "busy": 8.926080438041849,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
