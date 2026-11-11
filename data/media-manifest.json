@@ -63586,5 +63586,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yCMoXTEX6uxRR7W1hk7lR9V-AJ1ij3Js",
+    "drive_name": "3.៣ អារម្មណ៏របស់វិថីមុត្តចិត្ត​មាន ៣ យ៉ាង មេរៀនថ្ងៃទី ៣ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "410fcdd292d50506ab6d3090fcb55355",
+    "key": "audio/410fcdd292d50506-a64.mp3",
+    "bytes": 29580895,
+    "duration_s": 3697,
+    "sha256": "2db1d55392bad823b60a21a5775785a5df35c3d51f8b6c89181bab2642e145e9",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 12.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.911644196833038,
+      "out": {
+        "I": -18.3,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
