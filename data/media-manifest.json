@@ -84959,5 +84959,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19Ce18XfbVPltXIV-Cn4PluTsUTkxxeuU",
+    "drive_name": "96.៩៦ ជវននិយម មេរៀនថ្ងៃទី ៩៦ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "138b39b845f32600e49fcb6ddc50a98f",
+    "key": "audio/138b39b845f32600-a64.mp3",
+    "bytes": 20726429,
+    "duration_s": 2590,
+    "sha256": "cbc4de2258864c80b6cfdb01ae2cc86298b6d84d20429fe6e6f8ce49d95276b4",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -5.8,
+        "LRA": 0
+      },
+      "G": 11.299999999999997,
+      "limit": 0.6,
+      "depth": 9.936974992327125,
+      "busy": 8.353758564122359,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
