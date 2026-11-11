@@ -68777,5 +68777,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1oPsAgAztTZQKGLWyjS7CCPt0OyhfwbvV",
+    "drive_name": "28.២៧ សេចក្តីស្រវឹង​ ២៧​ ប្រការ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ២៧.mp3",
+    "source_md5": "645f7c2f9bc4e5176d2ff0e7940fa91f",
+    "key": "audio/645f7c2f9bc4e517-a64.mp3",
+    "bytes": 29511096,
+    "duration_s": 3688,
+    "sha256": "94ec57ed567f6259e2fb9445e8d94e09dec7dba01e63839d9ac8b53f40322974",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 7.493527793214687,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
