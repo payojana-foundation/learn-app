@@ -80232,5 +80232,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mYdhp63fsQQIioYUOo5pmDIrjU9SJISN",
+    "drive_name": "427-25 Nov 2025 រាត្រីធម្មទានកន្លះម៉ោង សិក្សារកល្យាណធម៌ប្រាំ ប្រែថាធម៌ដ៍ល្អរបស់មនុស្ស!  ធម្ម រស.mp3",
+    "source_md5": "0f695f2996c6575511e5dd6ce5e49474",
+    "key": "audio/0f695f2996c65755-a64.mp3",
+    "bytes": 12616140,
+    "duration_s": 1576,
+    "sha256": "5567abf6ce02d24ffc7f644d36b946c88f0aecd3c5c8f0dc4e810b59b68db869",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 10.63697499232713,
+      "busy": 3.1358001204857477,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
