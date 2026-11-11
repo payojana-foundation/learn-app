@@ -77912,5 +77912,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dps0jXxEqTqzmWNPox-aClzWOELoLmsq",
+    "drive_name": "បិដកលេខ២០-១៣ ធម្មទាយាទសូត្របញ្ចប់ ពោលអំពីការលះកិលេស .mp3",
+    "source_md5": "1aae6b7e3f44c2dca4f4a372af7a91ea",
+    "key": "audio/1aae6b7e3f44c2dc-a64.mp3",
+    "bytes": 45533352,
+    "duration_s": 5691,
+    "sha256": "552865cb4a8840054ca05096e04bc8b604f122d228286519e47aec270cc9b9e6",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -5.2,
+        "LRA": 0
+      },
+      "G": 10.299999999999997,
+      "limit": 0.6,
+      "depth": 9.536974992327124,
+      "busy": 4.652429436103766,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
