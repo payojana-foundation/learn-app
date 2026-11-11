@@ -1,0 +1,80 @@
+name: master-seed
+
+# Bulk 08 PART 2 — seeds the master content sheet from the teacher sheets in
+# data/source/sheets (committed .xlsx exports). Manual.
+#
+#   mode = dry   (default) writes reports/master-seed-*.csv as an artifact. No
+#                Google call, no authentication.
+#   mode = write fills the tabs Lessons, Legacy and Lists of the given sheet and
+#                REFUSES (exit 3) if Lessons already has data rows. The
+#                coordinator runs this.
+#
+# Auth (write only): Workload Identity Federation, the spreadsheets scope. The
+# sheet must be shared with the service account as Editor. The protected ranges
+# name the service account as their only editor. Format: docs/master-sheet.md.
+
+on:
+  workflow_dispatch:
+    inputs:
+      sheet_id:
+        description: "Google Sheet id of the master content sheet"
+        required: true
+        default: "12MOXAOHwwtKa6DFVwbfRMj8UtaKmN1758boN1EUKNZs"
+      mode:
+        description: "dry = CSV preview only; write = fill the sheet (refuses if Lessons has data rows)"
+        required: true
+        type: choice
+        default: dry
+        options:
+          - dry
+          - write
+
+permissions:
+  contents: read
+  id-token: write # Workload Identity Federation (write mode only)
+
+concurrency:
+  group: master-seed
+  cancel-in-progress: false
+
+jobs:
+  seed:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v5
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Install the xlsx reader
+        run: npm install --no-save xlsx@0.18.5
+
+      - name: Authenticate to Google Cloud (write mode only)
+        id: auth
+        if: ${{ inputs.mode == 'write' }}
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/spreadsheets
+
+      - name: Seed (dry writes CSV files; write fills the sheet)
+        env:
+          MODE: ${{ inputs.mode }}
+          SHEET_ID: ${{ inputs.sheet_id }}
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          SA_EMAIL: ${{ vars.GCP_SERVICE_ACCOUNT }}
+        run: node scripts/master/seed.mjs --mode "$MODE" --sheet-id "$SHEET_ID"
+
+      - name: Upload the CSV files
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: master-seed
+          path: reports/master-seed-*.csv
+          if-no-files-found: ignore

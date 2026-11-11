@@ -262,7 +262,7 @@ export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseI
           continue;
         }
         const { id: sourceId, from } = pickSource(l, { pilot: isPilotCourse });
-        cand.push({ course_id: cid, teacher: slug, title, num: l.number, num_sort: khmerToInt(l.number), lesson_code: outer(l.lesson_code), lesson_id: lessonIdOf(l, sourceId), source_id: sourceId, source_from: from, folder_link: !!l.folder_link, pending_teacher: isPending });
+        cand.push({ course_id: cid, teacher: slug, title, num: l.number, num_sort: khmerToInt(l.number), lesson_code: outer(l.lesson_code), lesson_id: lessonIdOf(l, sourceId), source_id: sourceId, source_from: from, folder_link: !!l.folder_link, pending_teacher: isPending, row: l.row });
       }
       courses.push({ course_id: cid, file_id: f.file_id, file_name: f.file_name, tab: t.name, teacher: slug, title, title_missing: missing, pilot: isPilotCourse, candidates: cand });
     }
