@@ -63963,5 +63963,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "143JJ-QCk7fwii6nJBsN_KbeAD-Vf3IFx",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៤២.(១៤៤ ធម្មស្សវន ធម្មទេសនា ទិដ្ឋុជុកម្មមយបុណ្យ.mp3",
+    "source_md5": "e9d3d70d218df6c81a463a87477e1a21",
+    "key": "audio/e9d3d70d218df6c8-a64.mp3",
+    "bytes": 43683047,
+    "duration_s": 5460,
+    "sha256": "0e5f76a251d230900ca7a6206e6f1cdb61efc7d4d7eed7ce9dd04d7c83363ac6",
+    "loudness": {
+      "pass1": {
+        "I": -23.7,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 7.800000000000001,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 5.202963180015933,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
