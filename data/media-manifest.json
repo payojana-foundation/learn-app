@@ -75563,5 +75563,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zKFJ5FBHDOwSz_8QxGeSfU36h-JIkAg6",
+    "drive_name": "បិដកលេខ២០-០៣ បុថុជ្ជនសំគាល់ដីថាជារបស់ខ្លួន.mp3",
+    "source_md5": "04914d6a9cfb0848421f11aa2862a4da",
+    "key": "audio/04914d6a9cfb0848-a64.mp3",
+    "bytes": 41225865,
+    "duration_s": 5153,
+    "sha256": "5eae3d5138f6cbf89555c2be2f9431b1f5eb6d392303905f7cb9b0819f3896a4",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 11.936974992327128,
+      "busy": 6.31039936350229,
+      "out": {
+        "I": -18.1,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
