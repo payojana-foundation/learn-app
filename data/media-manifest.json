@@ -69183,5 +69183,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18lXeyUorWEbWndajvObFF2ze4UigR3Cb",
+    "drive_name": "31.៣១ អកុសលកម្មបថអទិន្នាទាន ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣១.mp3",
+    "source_md5": "40bbf2a98533a5e4bdbba93ab9b255de",
+    "key": "audio/40bbf2a98533a5e4-a64.mp3",
+    "bytes": 27645326,
+    "duration_s": 3455,
+    "sha256": "3aac057fea3f9f220d978e2931d7004002ed11dd3829287b4deb3eb8b2f5e21e",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -5.8,
+        "LRA": 0
+      },
+      "G": 13.200000000000003,
+      "limit": 0.6,
+      "depth": 11.83697499232713,
+      "busy": 7.692947679129529,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
