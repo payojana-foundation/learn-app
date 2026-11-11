@@ -61063,5 +61063,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1O1JHy1K4o5oEsaXDfmVIqEOeT95dkTht",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១១៥ ផលរបស់បុណ្យមាន ២៧ យ៉ាងក្នុងនធិកណ្ឌ.mp3",
+    "source_md5": "3ecd0854ae7ea6e82145f67e965b7167",
+    "key": "audio/3ecd0854ae7ea6e8-a64.mp3",
+    "bytes": 46059772,
+    "duration_s": 5757,
+    "sha256": "9a6d6033b24045310a671c53195665c8fd95a586187fff9befca40a053751851",
+    "loudness": {
+      "pass1": {
+        "I": -20.8,
+        "TP": 1.1,
+        "LRA": 0
+      },
+      "G": 4.600000000000001,
+      "limit": 0.6,
+      "depth": 10.13697499232713,
+      "busy": 5.242989517928944,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
