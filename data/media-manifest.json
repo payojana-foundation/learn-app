@@ -76491,5 +76491,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14YBs7qlyCLHz9E7hzB8OSvJqTRi9S3h-",
+    "drive_name": "78.៧៨  រូបាវចសោភណចិត្ត​ ១៥ដួង ការលះនីវរណធម៌៥យ៉ាង ឈានមាន២យ៉ាង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧៨.mp3",
+    "source_md5": "c281232191a305a5f4c603cb940376ca",
+    "key": "audio/c281232191a305a5-a64.mp3",
+    "bytes": 27465603,
+    "duration_s": 3433,
+    "sha256": "aadb30e1ff871b670fa67dc146906a41a09b56db9a94f1023616c8925a4fbd44",
+    "loudness": {
+      "pass1": {
+        "I": -23.4,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 9.936974992327126,
+      "busy": 7.08241702226818,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
