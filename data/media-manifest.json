@@ -86090,5 +86090,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1t9lcEet5qbHr4woebD8LvWy1gzKkdFu2",
+    "drive_name": "128.១២៨ អធិប្បាយរូបវិថីទី៣ មេរៀនថ្ងៃទី ១២៨ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "7f40fa6681687973db7bb3598b2b7b03",
+    "key": "audio/7f40fa6681687973-a64.mp3",
+    "bytes": 24837058,
+    "duration_s": 3104,
+    "sha256": "65a4343bbdab78985679c69862be50d0cbe316c376afc28aa884498e82c2e2ed",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.899999999999999,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 7.922518198801778,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
