@@ -86467,5 +86467,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WTWTFI3zflJyiiL7mejmnt-Rye4zSRrf",
+    "drive_name": "142.១៤២ រូបវិថីទី១០​ និងសេចក្តីអធិប្បាយ ចប់ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "5f18db4e0142c2f3a820bab793965fb6",
+    "key": "audio/5f18db4e0142c2f3-a64.mp3",
+    "bytes": 33810433,
+    "duration_s": 4226,
+    "sha256": "68b3a5d5cb22ea5f121cef7674b496564c34f9d2527d3e032988447ab087e42d",
+    "loudness": {
+      "pass1": {
+        "I": -24.8,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 7.603963324460219,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
