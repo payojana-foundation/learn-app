@@ -69908,5 +69908,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12Nzr07MRhYA4WfMC5mH1BlrBn2SEnh9E",
+    "drive_name": "35.៣៥ អកុសល​មនោកម្ម​មិច្ឆាទិដ្ឋិ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣៥.mp3",
+    "source_md5": "1cd91c64319cc150871d172f74245da2",
+    "key": "audio/1cd91c64319cc150-a64.mp3",
+    "bytes": 27791194,
+    "duration_s": 3473,
+    "sha256": "cfbdc6ff6409b7df6ded1c94c834183df71ede810d2672c0a9e2719bebcfa66f",
+    "loudness": {
+      "pass1": {
+        "I": -27.6,
+        "TP": -6.3,
+        "LRA": 0
+      },
+      "G": 13.300000000000004,
+      "limit": 0.6,
+      "depth": 11.436974992327132,
+      "busy": 8.216747988542972,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
