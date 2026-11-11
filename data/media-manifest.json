@@ -82030,5 +82030,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NoKroaBqB3Cf57WTJGWT3a0ECDJYcRBe",
+    "drive_name": "4.វគ្គខ្លី លើកទី ​៥៧.mp3",
+    "source_md5": "618b5071f14615b25b93c0da6cf8bb06",
+    "key": "audio/618b5071f14615b2-a64.mp3",
+    "bytes": 17387772,
+    "duration_s": 2173,
+    "sha256": "74c08d31be58f901b32d67f707c597a168e329e7423ca0254b9909bbc0d721c1",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -8.1,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 7.136974992327128,
+      "busy": 5.319883135107778,
+      "out": {
+        "I": -18.1,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
