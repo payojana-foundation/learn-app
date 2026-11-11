@@ -62803,5 +62803,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mta17yhfJsNiCG2Fc6O2ydG8sRfPXebT",
+    "drive_name": "១៩៥ រាត្រីធម្មទាន​ 03 July 2024.mp3",
+    "source_md5": "c71da44cb65a0e76212f30950896c085",
+    "key": "audio/c71da44cb65a0e76-a64.mp3",
+    "bytes": 15339772,
+    "duration_s": 1917,
+    "sha256": "6f5ee3568c286dd867deaaeed25399edf3108a4bb668b3e83b944d2f0849f815",
+    "loudness": {
+      "pass1": {
+        "I": -17.5,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": 0.3000000000000007,
+      "limit": 0.6,
+      "depth": 5.036974992327128,
+      "busy": 2.5470689475331176,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
