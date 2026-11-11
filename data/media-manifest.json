@@ -77448,5 +77448,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1q3QfnjiESb5vIRyseDyZi9m2s8-sFNGo",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ភាគ១៦៧ ពន្យល់អរិយសច្ចៈ ៤ មានទុក្ខសច្ចជាដើម(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "525c3595e7efffe384673db975eec311",
+    "key": "audio/525c3595e7efffe3-a64.mp3",
+    "bytes": 43463618,
+    "duration_s": 5432,
+    "sha256": "bcf9dc4e0d3f8c25bb7f47edbbb87984102aaf061ba40e07d0c14ea64d2f5258",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 8.2,
+      "limit": 0.6,
+      "depth": 11.036974992327128,
+      "busy": 5.472905814574169,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
