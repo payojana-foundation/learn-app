@@ -62658,5 +62658,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1X9BxzdYqBqwvjldtHB1ESrQ-7G_o-Z4E",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៣៥.(១៣៨ សីលមយ ជាតរូបបរជតប្បដិគ្គហណសិក្ខាបទភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "8c3977e0bc89a7d009af8aaaf0d0a64e",
+    "key": "audio/8c3977e0bc89a7d0-a64.mp3",
+    "bytes": 44526279,
+    "duration_s": 5565,
+    "sha256": "95883ab40ecc45fb7b7766c67f53746a8384426eff0a2a04d439ecd017e2961c",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 7.563025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.826393567803081,
+      "out": {
+        "I": -18.3,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
