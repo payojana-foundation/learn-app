@@ -61904,5 +61904,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17mdMAzy6CfW9nVclHQowbv-OnpisT4Wy",
+    "drive_name": "១៧៥ រាត្រីធម្មទាន_ May 27-2024_648x360.mp3",
+    "source_md5": "f8629634172ce863be350d038ac73895",
+    "key": "audio/f8629634172ce863-a64.mp3",
+    "bytes": 12741528,
+    "duration_s": 1592,
+    "sha256": "4435e54d3fbb538182312fea21c67ad8b6687c746fbff5f7647e2ad5ff8d188e",
+    "loudness": {
+      "pass1": {
+        "I": -21.6,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 4.5,
+      "limit": 0.6,
+      "depth": 8.336974992327127,
+      "busy": 2.185822371519166,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
