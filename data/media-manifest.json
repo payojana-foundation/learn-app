@@ -84379,5 +84379,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bkkT-khTC-axnUJeAo2HnmBidThWnyLs",
+    "drive_name": "86.៨៦ រូបាវចរវិបាកចិត្ត ៥ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៨៦.mp3",
+    "source_md5": "49ec1c2ca63a9da7efdba9149bf0881c",
+    "key": "audio/49ec1c2ca63a9da7-a64.mp3",
+    "bytes": 27963393,
+    "duration_s": 3495,
+    "sha256": "eefb2d1e23607e78c8784a83255ac4d493ebe6bb7d9eb88be78c0763c75d50ba",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -5.1,
+        "LRA": 0
+      },
+      "G": 11.200000000000003,
+      "limit": 0.6,
+      "depth": 10.536974992327131,
+      "busy": 7.728839744231622,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
