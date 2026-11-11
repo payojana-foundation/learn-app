@@ -66515,5 +66515,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1a0hNB9eDDelHIiSvGc6y_WuLMLFSWr-t",
+    "drive_name": "12.១០ ហេតុឱ្យកេីតទិដ្ឋិគតវិប្បយុត្ត៥ប្រការ​&លោភជាឧបេក្ខាវេទនា៤ប្រការ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ១០.mp3",
+    "source_md5": "92c114cef43bc9f5ec40e9f022789d4e",
+    "key": "audio/92c114cef43bc9f5-a64.mp3",
+    "bytes": 16787373,
+    "duration_s": 2098,
+    "sha256": "0ea786f60b4add2195ab3ce8901cff2bc28ca42d561d2e11a0b2a2484ce889af",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -3,
+        "LRA": 0
+      },
+      "G": 9.399999999999999,
+      "limit": 0.6,
+      "depth": 10.836974992327125,
+      "busy": 6.799389996902328,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
