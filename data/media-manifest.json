@@ -81218,5 +81218,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1D5iubBHrond11rOP4PH9gU77wNNkEtYx",
+    "drive_name": "បិដកលេខ២០-31 សតិប្បដ្ឋានជាផ្លូវមូលតែមួយ (ឯកាយនោ) .mp3",
+    "source_md5": "6bf5b60c085f33f3739f422c26b31425",
+    "key": "audio/6bf5b60c085f33f3-a64.mp3",
+    "bytes": 42671376,
+    "duration_s": 5333,
+    "sha256": "049cef77f1c5c8158aa17a80b94121c083522f21af6a374d43bbbbd76f978f25",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -10.3,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 3.036974992327125,
+      "busy": 0.0021091509027165866,
+      "out": {
+        "I": -18,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
