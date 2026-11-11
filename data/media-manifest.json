@@ -69038,5 +69038,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IOcQmZmmZG48bik-IKMmr7yoIEzZyimr",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ភាគ១៦៤ លោកុត្តរចិត្ត សោតាបត្តិមគ្គ សោតាមាន៣ ប្រភេទ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "feb356e3f7a693f0ba0df3d3dab524c3",
+    "key": "audio/feb356e3f7a693f0-a64.mp3",
+    "bytes": 44816552,
+    "duration_s": 5602,
+    "sha256": "434cc492246bd164e943dac34981439809797b88e9d3c8bd6bbfe0f09f7a85a9",
+    "loudness": {
+      "pass1": {
+        "I": -24.5,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 8.5,
+      "limit": 0.6,
+      "depth": 9.336974992327129,
+      "busy": 5.693005239153524,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
