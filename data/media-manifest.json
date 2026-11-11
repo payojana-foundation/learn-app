@@ -82291,5 +82291,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RgAWPxizf6a8xalgM5F4AgwVXzc5RU9L",
+    "drive_name": "បិដកលេខ២០-39 សម្បជញ្ញបព្វ ការដឹងខ្លួនមាន ៤ យ៉ាង.mp3",
+    "source_md5": "1bdebeaad3e4427042e657253c753151",
+    "key": "audio/1bdebeaad3e44270-a64.mp3",
+    "bytes": 38937120,
+    "duration_s": 4867,
+    "sha256": "56b382f86719bfec1fae1e899ab69de903b3a4888d405d8b329a2c31cca239bf",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -7.9,
+        "LRA": 0
+      },
+      "G": 9.799999999999997,
+      "limit": 0.6,
+      "depth": 6.336974992327124,
+      "busy": 4.264089498880237,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
