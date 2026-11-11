@@ -68023,5 +68023,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1F_0HtCQtEkuzz39YssAXrjLxVe0hUXyi",
+    "drive_name": "3.វគ្គខ្លី លើកទី ៤០.mp3",
+    "source_md5": "828f484486dfd49877a1e212d66cf846",
+    "key": "audio/828f484486dfd498-a64.mp3",
+    "bytes": 26736474,
+    "duration_s": 3342,
+    "sha256": "574cbb0eb9db4431a5b3bd65c25f8c37b35031d229d52397062bf740463b00fd",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -8.3,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 6.336974992327126,
+      "busy": 5.480543379063748,
+      "out": {
+        "I": -18.1,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
