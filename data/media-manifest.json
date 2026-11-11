@@ -76230,5 +76230,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_Jpjh242_VPw3x_Kgfspz1QFPNC0y7AM",
+    "drive_name": "75.៧៥  រូបាវចសោភណចិត្ត​ ១៥ដួង រូបាវចរកុសល​ ៥ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧៥.mp3",
+    "source_md5": "e31bedfa1a51436695c767f55cd1aa86",
+    "key": "audio/e31bedfa1a514366-a64.mp3",
+    "bytes": 27962766,
+    "duration_s": 3495,
+    "sha256": "a895baf3ceed4e5aecb520495d8d9f3c35f7fdf56560fc65a2dd274e170d3b0d",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "G": 7.400000000000002,
+      "limit": 0.6,
+      "depth": 10.336974992327129,
+      "busy": 7.473249792578605,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
