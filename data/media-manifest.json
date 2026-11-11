@@ -71764,5 +71764,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Q76byf5jk6o7fPwYxJm18tsR0vzeGecc",
+    "drive_name": "47.៤៧ អហេតុកកិរិយាចិត្តត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤៧.mp3",
+    "source_md5": "6910c55dd938672532fac536a28be927",
+    "key": "audio/6910c55dd9386725-a64.mp3",
+    "bytes": 28761277,
+    "duration_s": 3595,
+    "sha256": "e17a3010f8e422dc8281d890eb14458905d151f8470377d8e6905ba360cff979",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 9.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.427367425559434,
+      "out": {
+        "I": -18.4,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
