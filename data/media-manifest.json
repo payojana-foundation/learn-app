@@ -84002,5 +84002,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MSpbXCf6qbCJgcM1_SKYoECObjMLic0M",
+    "drive_name": "បិដកលេខ២០-76 មហាសីហនាទសូត្រ អំពីព្រហ្មចរិយធម៌របស់ព្រះពុទ្ធ.mp3",
+    "source_md5": "2e64dc0ea16ceb1c098e0b330e87a003",
+    "key": "audio/2e64dc0ea16ceb1c-a64.mp3",
+    "bytes": 39952552,
+    "duration_s": 4994,
+    "sha256": "b6686752d865a4b3349121a82cf9b496ca418397964073a75de039e07a43e117",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -7.3,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 7.336974992327127,
+      "busy": 5.942571660275728,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
