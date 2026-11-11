@@ -67269,5 +67269,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rUwsGWAmUP6NW5pA62q99tVZvcA0CGOy",
+    "drive_name": "8.វក្គខ្លីលើកទី៣៨.mp3",
+    "source_md5": "f3f8f9eff8fe1758ed6e16c4986243c8",
+    "key": "audio/f3f8f9eff8fe1758-a64.mp3",
+    "bytes": 21645731,
+    "duration_s": 2705,
+    "sha256": "7b007c85d87d09855ad3baa0545b71132b8d0a03474bc82e44e75c045ca386d3",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -7.2,
+        "LRA": 0
+      },
+      "G": 9.7,
+      "limit": 0.6,
+      "depth": 6.936974992327126,
+      "busy": 5.730032893521085,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
