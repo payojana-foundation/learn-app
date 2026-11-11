@@ -76549,5 +76549,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1d9pw1WnHhOTA2NeSS4NPngHa3CJHQmv4",
+    "drive_name": "74.៧៤ ការប្រៀបធៀបគ្នារវាងកាមវិថី​ និង​ អប្បនាវិថី មេរៀនថ្ងៃទី៧៤ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថ.mp3",
+    "source_md5": "1e62fcf10acbc38451970eb8711e26d7",
+    "key": "audio/1e62fcf10acbc384-a64.mp3",
+    "bytes": 32625518,
+    "duration_s": 4078,
+    "sha256": "e6332493fa93f0eb0ae26b81372fded8802c8832bab18ede5556117b58a7f1ed",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "G": 11.500000000000004,
+      "limit": 0.6,
+      "depth": 11.73697499232713,
+      "busy": 8.986611576327501,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
