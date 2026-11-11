@@ -68052,5 +68052,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QHuHAvqidRY8RqdmHjLpBDG2Nd7AYNsx",
+    "drive_name": "29.២៩ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ​២៨   ៤-ទ្វារសង្គហៈ ”ត.mp3",
+    "source_md5": "0574a5059be9d5dfb7a290714494f172",
+    "key": "audio/0574a5059be9d5df-a64.mp3",
+    "bytes": 30787961,
+    "duration_s": 3848,
+    "sha256": "fbdf549b22f158625945da86438018108e550750deeee1d93a2b38a0b7e9c264",
+    "loudness": {
+      "pass1": {
+        "I": -26.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.100261144096974,
+      "out": {
+        "I": -18.4,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
