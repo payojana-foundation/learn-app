@@ -70923,5 +70923,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1N_N2LV6kW6GmdqWgLBrqFwlhMjG1nbt4",
+    "drive_name": "42.៤២ វិថីចិត្តកេីត១៧ខណៈតាមបញ្ចទ្វារ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤២.mp3",
+    "source_md5": "7a26c8755329641eecd3f10220368b69",
+    "key": "audio/7a26c8755329641e-a64.mp3",
+    "bytes": 27356307,
+    "duration_s": 3419,
+    "sha256": "ce6c258bd6fd7cf1d94b1667724125481942d872303f6ec24cc42e6daabc1bb9",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 8.3,
+      "limit": 0.6,
+      "depth": 8.936974992327128,
+      "busy": 6.693595554905688,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
