@@ -80493,5 +80493,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1RtsUoFXwIH8W1lAferzd-PKeNqOOpsuC",
+    "drive_name": "433-09 Dec 2025 រាត្រីធម្មទានកន្លះម៉ោង សិក្សាក្នុង.mp3",
+    "source_md5": "dbaf44b4683d31bc65fe7e270a6fa7e8",
+    "key": "audio/dbaf44b4683d31bc-a64.mp3",
+    "bytes": 11575631,
+    "duration_s": 1446,
+    "sha256": "0c3944c03f3690c5a67ab0f4155c3d352733a3cb0aad49e84ed7e8612203f0d3",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -5.1,
+        "LRA": 0
+      },
+      "G": 9,
+      "limit": 0.6,
+      "depth": 8.336974992327129,
+      "busy": 2.859561821825973,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
