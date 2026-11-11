@@ -70343,5 +70343,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1TlxzmjIJvvqVF25InHsSpsXODTozIN3v",
+    "drive_name": "270-03 Dec 2024 រាត្រីធម្មទាន.mp3",
+    "source_md5": "c169a3757d71e3254e3136a82a9b1dcc",
+    "key": "audio/c169a3757d71e325-a64.mp3",
+    "bytes": 14670201,
+    "duration_s": 1833,
+    "sha256": "cc604b24bd8da7c9c18ef80a7ee6c0acd8dcc03d59ed8f83377144bbd5b4bf90",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 2.799999999999997,
+      "limit": 0.6,
+      "depth": 6.836974992327125,
+      "busy": 2.6496973332606206,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
