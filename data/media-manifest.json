@@ -63876,5 +63876,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kgEQCV8PHJVRZ5RZ3QRwHRsmiGgvwtDY",
+    "drive_name": "12.១២ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី​ ១២   ២-ហេតុសង្គហៈ ត.mp3",
+    "source_md5": "f71e45fb05927d23740f5699037a9fff",
+    "key": "audio/f71e45fb05927d23-a64.mp3",
+    "bytes": 29246109,
+    "duration_s": 3655,
+    "sha256": "1f39988c975d0896d63c4197152f60a6a9f413c87ef1143f7fb4d394cb8e78a6",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 11.736974992327127,
+      "busy": 7.513608884755314,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
