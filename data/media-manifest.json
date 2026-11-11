@@ -64891,5 +64891,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xPPFFEZXouzn2NwTGhNY71GJnP2Fg8lP",
+    "drive_name": "11.១១ អធិប្បាយវិថីចិត្ត​២យ៉ាង ១-កាមវិថីចិត្ត មេរៀនថ្ងៃទី ១១ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង.mp3",
+    "source_md5": "c866dc6c3b3d41308d1207948924b94c",
+    "key": "audio/c866dc6c3b3d4130-a64.mp3",
+    "bytes": 30197385,
+    "duration_s": 3774,
+    "sha256": "86ff61cec6c86dc6f29e6e419e4cbb96dc0b43e60840a07c3fa273f6611c14e9",
+    "loudness": {
+      "pass1": {
+        "I": -25.1,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 10.200000000000003,
+      "limit": 0.6,
+      "depth": 10.23697499232713,
+      "busy": 7.884837004755408,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
