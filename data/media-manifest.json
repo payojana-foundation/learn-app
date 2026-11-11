@@ -80580,5 +80580,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1kIYeZKHtR6mrPK3c7Ix9XIWKJnq2wtjt",
+    "drive_name": "435-22 Dec 2025  រាត្រីធម្មទានកន្លះម៉ោង ក្នុងប្រធានបទ ការផ្លាស់ប្តូរនៃជីវិត!  ធម្ម រស.mp3",
+    "source_md5": "0b41d94bcd25b3fd768a7cd82aa01c52",
+    "key": "audio/0b41d94bcd25b3fd-a64.mp3",
+    "bytes": 14741254,
+    "duration_s": 1842,
+    "sha256": "2f6d0473b43acdac8f7db56f9f3d535c00cf497627a9488ae001b9495f7be289",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -5.1,
+        "LRA": 0
+      },
+      "G": 9,
+      "limit": 0.6,
+      "depth": 8.336974992327129,
+      "busy": 2.7481547812873113,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
