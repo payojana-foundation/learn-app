@@ -86206,5 +86206,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_PWbhsVDRN4lwIGyiZ1DjsfAZRAcrjF5",
+    "drive_name": "132.១៣២ រូបវិថីទី៥​ និង​សេចក្តីអធិប្បាយចប់ មេរៀនថ្ងៃទី ១៣២ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្.mp3",
+    "source_md5": "743b6b37d02da5fcd6fa19c3566fb295",
+    "key": "audio/743b6b37d02da5fc-a64.mp3",
+    "bytes": 29411830,
+    "duration_s": 3676,
+    "sha256": "4ec3d151a91a54c96a0bc2da6061642b1125ec83543667c19b177762ed94a871",
+    "loudness": {
+      "pass1": {
+        "I": -25.2,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "G": 10.400000000000002,
+      "limit": 0.6,
+      "depth": 10.73697499232713,
+      "busy": 7.451141726393668,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
