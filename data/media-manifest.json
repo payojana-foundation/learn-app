@@ -81682,5 +81682,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IGExaoJhZ_TeFMobgpjEF02NP5j_ZGbw",
+    "drive_name": "459 8-Feb-26  រាត្រីធម្មទានកន្លះម៉ោង សិក្សាក្នុងគម.mp3",
+    "source_md5": "e3ad7df5b6234b51d05396557ecb313f",
+    "key": "audio/e3ad7df5b6234b51-a64.mp3",
+    "bytes": 13800637,
+    "duration_s": 1724,
+    "sha256": "f8130cc780b75e915f2737bb138a4f956f81624c0b35657946003098ea595fc3",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 10.036974992327126,
+      "busy": 2.3869565217391306,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
