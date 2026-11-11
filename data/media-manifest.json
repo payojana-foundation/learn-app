@@ -82523,5 +82523,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Hzyr-9Pi3fl6I_gvsY4QRWFvl_fe6Cal",
+    "drive_name": "3.វគ្គខ្លី លើកទី ៦០.mp3",
+    "source_md5": "5f4bca56627ced976869b28c0bfd7a46",
+    "key": "audio/5f4bca56627ced97-a64.mp3",
+    "bytes": 19034113,
+    "duration_s": 2379,
+    "sha256": "664235410dbf4637ec4f5454c8e23096bd1568c4479bce8567eba4f7b16190f5",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -8.2,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 6.236974992327128,
+      "busy": 5.287380477041085,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
