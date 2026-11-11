@@ -70227,5 +70227,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GVPoGNfgti2pgBZbWXw75xhseu4Myqeq",
+    "drive_name": "268-01 Dec 2024 រាត្រីធម្មទាំន.mp3",
+    "source_md5": "094b8623bea0377c85e97587d0c788f4",
+    "key": "audio/094b8623bea0377c-a64.mp3",
+    "bytes": 13227406,
+    "duration_s": 1653,
+    "sha256": "637c566a774db287b154adf6cb5ec94c695c8dfa34d2ad049350ad6dbfff88ff",
+    "loudness": {
+      "pass1": {
+        "I": -19.5,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 2.3999999999999986,
+      "limit": 0.6,
+      "depth": 6.436974992327126,
+      "busy": 2.485030845530422,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
