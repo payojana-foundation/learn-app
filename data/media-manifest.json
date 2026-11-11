@@ -85394,5 +85394,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-5ta-fz4kRU5UUYUea5GzQfYlH5lVhGx",
+    "drive_name": "104.១០៤ ចែកវិថីចិត្ត​តាមប្រភេទបុគ្គលព្រហ្មបុគ្គល មេរៀនថ្ងៃទី ១០៤ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វ.mp3",
+    "source_md5": "102be9929d979284a47c426d9d343a20",
+    "key": "audio/102be9929d979284-a64.mp3",
+    "bytes": 29623736,
+    "duration_s": 3702,
+    "sha256": "9ae0ce46cdd08868389a2241368805b4cbc0de93cbaa2bc515455278e4c2da56",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "G": 12,
+      "limit": 0.6,
+      "depth": 11.836974992327129,
+      "busy": 9.147222447271059,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
