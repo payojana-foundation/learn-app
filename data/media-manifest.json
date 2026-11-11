@@ -83422,5 +83422,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ye0sKxQLTdA2NG5rT_danVmA-IFVBFlJ",
+    "drive_name": "បិដកលេខ២០-56 សតិប្បដ្ឋានសូត្រ ធម្មានុបស្សនាសច្ចបព្វ អត្ថន័យអរិយសច្ចៈ.mp3",
+    "source_md5": "bb0f499b595cada58baf947c27dd7667",
+    "key": "audio/bb0f499b595cada5-a64.mp3",
+    "bytes": 50229959,
+    "duration_s": 6278,
+    "sha256": "f7fb7ad559f67b96ddba630d54272cd15f5dd2a1a4a56a8729f516d99d1c41b4",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 10.600000000000001,
+      "limit": 0.6,
+      "depth": 10.13697499232713,
+      "busy": 5.867854810709224,
+      "out": {
+        "I": -18.1,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
