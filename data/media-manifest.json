@@ -69966,5 +69966,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1L2Jv6H7ZuYm_DYd6F7Ni37sL-I43-gsr",
+    "drive_name": "265-25 Nov 2024 រាត្រីធម្មទាំន.mp3",
+    "source_md5": "41c353c97d433964a5a622aa6b3a684f",
+    "key": "audio/41c353c97d433964-a64.mp3",
+    "bytes": 13884438,
+    "duration_s": 1735,
+    "sha256": "2e6e746f5dfbd4c0aedb59ca1ee61b22538476cd890920403c02493c7423c8a9",
+    "loudness": {
+      "pass1": {
+        "I": -20.6,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 3.400000000000002,
+      "limit": 0.6,
+      "depth": 7.3369749923271295,
+      "busy": 1.8280034572169404,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
