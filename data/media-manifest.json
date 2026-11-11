@@ -72895,5 +72895,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18FP55IgtEEFfzzCaM1Lsste_vvUOKwdD",
+    "drive_name": "50.៥០ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី៥០  ៦-អារម្មណសង្គហៈ ការអធិប្បាយក្នុង.mp3",
+    "source_md5": "7665eb6fb1e3f32bfdbe9055e1aeeb54",
+    "key": "audio/7665eb6fb1e3f32b-a64.mp3",
+    "bytes": 30823278,
+    "duration_s": 3852,
+    "sha256": "84c820a99178ac3ee18541a1a6d76502c93df49d793230807cc72163d2dec7f5",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.999999999999996,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 6.885162931336543,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
