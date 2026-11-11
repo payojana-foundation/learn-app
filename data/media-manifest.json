@@ -82088,5 +82088,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mpoYNGQrM_gZWdcNAdz2JfI4-QET6lxO",
+    "drive_name": "បិដកលេខ២០-37 អានបានបព្វៈក្នុងឥរិយាបថ៤ .mp3",
+    "source_md5": "92bc5f4b511eccd7276266f270eec4b6",
+    "key": "audio/92bc5f4b511eccd7-a64.mp3",
+    "bytes": 40729538,
+    "duration_s": 5091,
+    "sha256": "4379621ed051d095bf4ef38e173211832dbba121760e5a682376410fb36abc27",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 10.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.523820747768186,
+      "out": {
+        "I": -18.3,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
