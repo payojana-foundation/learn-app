@@ -60802,5 +60802,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13oSnekwYN514x2-TE8ospPsy45aRPLJ5",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១០៦ បញ្ចប់អហេតុកចិត្ត១៨ ចែកដោយន័យផ្សេងៗ ភិក្ខុអគ្គចិត្តោ.mp3",
+    "source_md5": "8834d1067787ff113f82e907d0416175",
+    "key": "audio/8834d1067787ff11-a64.mp3",
+    "bytes": 44974749,
+    "duration_s": 5621,
+    "sha256": "f2aa59dbec7d878655f3e5580569c78c6feb2045b32658960abea73b0cf07850",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7,
+      "limit": 0.6,
+      "depth": 10.936974992327126,
+      "busy": 4.337578711444733,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
