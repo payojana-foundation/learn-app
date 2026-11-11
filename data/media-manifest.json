@@ -66051,5 +66051,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LSHMuC74gBOqIe0S0bjjVaDr2NEWWwzQ",
+    "drive_name": "20.២០ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣មេរៀនថ្ងៃទី២០ ៣-កិច្ចសង្គហៈត អំពីកិច្ច១៤.mp3",
+    "source_md5": "1763f08114855c8ece3a1e085d3d2159",
+    "key": "audio/1763f08114855c8e-a64.mp3",
+    "bytes": 32810256,
+    "duration_s": 4101,
+    "sha256": "a197f6971cb6db6bf14cdf07a4755ce2be90c032fc902665c66cd6db9458b2e3",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.777811642791832,
+      "out": {
+        "I": -18.5,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
