@@ -61469,5 +61469,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1s3gU2beUJNWMuG52HFiQZ4E8Ibjhf5wE",
+    "drive_name": "១៦២ រាត្រីធម្មទាន_ May 2-2024_648x360.mp3",
+    "source_md5": "ef74647c857efd459c1bc2db0c3943b3",
+    "key": "audio/ef74647c857efd45-a64.mp3",
+    "bytes": 10129701,
+    "duration_s": 1266,
+    "sha256": "1732a16a2b2977bccbc3cfff0c1561b2d5dd66ed5f101228f3146d488282b07e",
+    "loudness": {
+      "pass1": {
+        "I": -21.4,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 4.099999999999998,
+      "limit": 0.6,
+      "depth": 7.636974992327126,
+      "busy": 1.8826758282983849,
+      "out": {
+        "I": -18.1,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
