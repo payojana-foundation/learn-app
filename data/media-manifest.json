@@ -67008,5 +67008,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "15aJ7JN0pQ-dXkpNmaAn23YgCKyI_3F0u",
+    "drive_name": "15.១៣ លោភមូលចិត្ត៨ដួង​ចប់ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី១៣.mp3",
+    "source_md5": "28d6f77c5ab75c8acb355c5b73d59f2c",
+    "key": "audio/28d6f77c5ab75c8a-a64.mp3",
+    "bytes": 28707778,
+    "duration_s": 3588,
+    "sha256": "1c3b945dd8bbab59b693c6633417618d9094b80abd11a396c0ef746ceada2ddf",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "G": 9,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 6.532159179578643,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
