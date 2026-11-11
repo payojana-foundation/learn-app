@@ -84176,5 +84176,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1BMWhh_15XB4e3A5bWJZt9Fbiu3Bd0VPo",
+    "drive_name": "82.៨២ អធិប្បាយបញ្ចទ្វារមរណាសន្នវិថី​ ៤ប្រភេទ មេរៀនថ្ងៃទី ៨២ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង.mp3",
+    "source_md5": "2abaf77e1261ef70136dd57d7c30c4e0",
+    "key": "audio/2abaf77e1261ef70-a64.mp3",
+    "bytes": 31646449,
+    "duration_s": 3955,
+    "sha256": "caaa0a351fff46f22fb18ea4bf30b0e478779ced28882274e4baf82078d246b4",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 11.3,
+      "limit": 0.6,
+      "depth": 10.936974992327128,
+      "busy": 8.066738292359224,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
