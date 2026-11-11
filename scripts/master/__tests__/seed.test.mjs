@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { LABELS } from '../../catalogue/sheets-map.mjs';
 import { HIDDEN_TABS } from '../../catalogue/catalogue-build.mjs';
 import {
-  buildMaster, acastEmbedUrl, acastEpisodeId, loadColumns, masterCsv, legacyCsv, excludedCsv, rawLink, minicourseDecision, scanMiniCourse,
+  buildMaster, buildCourses, coursesCsv, acastEmbedUrl, acastEpisodeId, loadColumns, masterCsv, legacyCsv, excludedCsv, rawLink, minicourseDecision, scanMiniCourse,
   writeToSheet, RefuseError, DETAILS_LABEL, YOUTUBE_EXTRA_LABEL,
 } from '../seed.mjs';
 import { parseCsvObjects } from '../csv.mjs';
@@ -223,7 +223,42 @@ function fakeSheets({ lessonsData = false, existing = ['Lessons'] } = {}) {
   };
   return { fetchFn, calls };
 }
+const smallCourses = () => buildCourses(small().rows);
 const small = () => one([{ num: '1', title: 'A', code: 'CODE0001', mp3: url('A') }, { num: '2', title: 'B', code: 'CODE0002', mp3: url('B') }]);
+
+describe('PART 6: Courses tab', () => {
+  it('one row per distinct non-empty course id, in order of first appearance; copied title and teacher; lesson_count; status empty', () => {
+    const rows = [
+      { course_id: 'c002', course_title_km: 'T2', teacher: 'A', x: 1 },
+      { course_id: 'c001', course_title_km: 'T1', teacher: 'B' },
+      { course_id: 'c002', course_title_km: 'T2 changed', teacher: 'A2' },
+      { course_id: '', course_title_km: 'hidden tab', teacher: 'A' },
+      { course_id: 'c002', course_title_km: 'T2 again', teacher: 'A' },
+    ];
+    expect(buildCourses(rows)).toEqual([
+      { course_id: 'c002', course_title_km: 'T2', teacher: 'A', lesson_count: '3', course_status: '' },
+      { course_id: 'c001', course_title_km: 'T1', teacher: 'B', lesson_count: '1', course_status: '' },
+    ]);
+  });
+  it('from a real build: counts add up, hidden-tab rows are not a course', () => {
+    const { rows } = buildMaster([file(F1, [tab(HIDDEN_TABS[0], [{ num: '1', title: 'H', code: 'CODE0100', mp3: url('H') }]), tab('T1', [
+      { num: '1', title: 'a', code: 'CODE0001', mp3: url('A') }, { num: '2', title: 'b', code: 'CODE0002', mp3: url('B') },
+    ])])], ctx());
+    const courses = buildCourses(rows);
+    expect(courses.map((c) => [c.course_id, c.lesson_count])).toEqual([['c001', '2']]);
+    expect(rows.length).toBe(3); // 2 + the hidden-tab row, which has no course id
+  });
+  it('CSV: header = the Courses column keys, values round-trip, Khmer-safe', () => {
+    const rows = [{ course_id: 'c001', course_title_km: 'a,"b"\n\u1780\u200B', teacher: 'pending' }];
+    const courses = buildCourses(rows);
+    const back = parseCsvObjects(coursesCsv(columns, courses));
+    expect(back).toEqual(courses);
+    expect(coursesCsv(columns, courses).split('\n')[0]).toBe('course_id,course_title_km,teacher,lesson_count,course_status');
+  });
+  it('smallCourses helper sees the fixture course', () => {
+    expect(smallCourses().map((c) => c.lesson_count)).toEqual(['2']);
+  });
+});
 
 describe('PART 2 seed: write mode (fake Sheets API)', () => {
   it('REFUSES when Lessons already has data rows and changes nothing', async () => {
@@ -235,16 +270,24 @@ describe('PART 2 seed: write mode (fake Sheets API)', () => {
   it('empty Lessons: creates tabs, validation, protected ranges (service account only), freeze; Lessons rows LAST', async () => {
     const { rows, legacy } = small();
     const { fetchFn, calls } = fakeSheets({ existing: ['Lessons'] });
-    const r = await writeToSheet({ sheetId: 'SHEETID', token: 'tok', saEmail: 'sa@x', columns, rows, legacy, fetchFn });
-    expect(r).toEqual({ rows: 2, legacy: legacy.length });
+    const courses = buildCourses(rows);
+    const r = await writeToSheet({ sheetId: 'SHEETID', token: 'tok', saEmail: 'sa@x', columns, rows, legacy, courses, fetchFn });
+    expect(r).toEqual({ rows: 2, legacy: legacy.length, courses: 1 });
     expect(calls.every((c) => c.auth === 'Bearer tok')).toBe(true);
     const add = calls.find((c) => c.path === ':batchUpdate' && c.body.requests.some((x) => x.addSheet));
-    expect(add.body.requests.map((x) => x.addSheet.properties.title)).toEqual(['Legacy', 'Lists']);
+    expect(add.body.requests.map((x) => x.addSheet.properties.title)).toEqual(['Legacy', 'Lists', 'Courses']);
     const fmt = calls.filter((c) => c.path === ':batchUpdate').pop().body.requests;
     expect(fmt.some((x) => x.deleteProtectedRange)).toBe(true); // an earlier attempt's ranges are replaced
     expect(fmt.some((x) => x.updateSheetProperties && x.updateSheetProperties.properties.gridProperties.frozenRowCount === 1)).toBe(true);
     const dd = fmt.filter((x) => x.setDataValidation);
-    expect(dd.length).toBe(columns.columns.filter((c) => c.dropdown).length);
+    expect(dd.length).toBe(columns.columns.filter((c) => c.dropdown).length + columns.courses.columns.filter((c) => c.dropdown).length);
+    // Part 6: the Courses tab gets its own protected ranges and its course_status dropdown
+    const coursesProt = fmt.filter((x) => x.addProtectedRange).map((x) => x.addProtectedRange.protectedRange).filter((p) => p.description.startsWith('master sheet Courses'));
+    expect(coursesProt.length).toBe(1);
+    expect(coursesProt[0].range).toMatchObject({ startColumnIndex: 0, endColumnIndex: 4 });
+    expect(dd.some((x) => x.setDataValidation.rule.condition.values.some((v) => v.userEnteredValue === 'ongoing'))).toBe(true);
+    const coursesPut = calls.find((c) => c.method === 'PUT' && c.path.includes('Courses!A1'));
+    expect(coursesPut.body.values).toEqual([columns.courses.columns.map((c) => c.key), ['c001', expect.any(String), 'Teacher One Display', '2', '']]);
     expect(dd[0].setDataValidation.rule.condition.type).toBe('ONE_OF_LIST');
     const prot = fmt.filter((x) => x.addProtectedRange).map((x) => x.addProtectedRange.protectedRange);
     expect(prot.length).toBeGreaterThan(0);

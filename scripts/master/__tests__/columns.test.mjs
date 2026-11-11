@@ -41,10 +41,35 @@ describe('PART 1: data/master/columns.json', () => {
   });
   it('Lists tab: one column per dropdown column; protected runs are contiguous and cover all protected columns', () => {
     const grid = listsTable(columns);
-    expect(grid[0]).toEqual(columns.columns.filter((c) => c.dropdown).map((c) => c.key));
+    expect(grid[0]).toEqual([...columns.columns, ...columns.courses.columns].filter((c) => c.dropdown).map((c) => c.key));
     const covered = new Set();
     for (const [a, b] of protectedRuns(columns)) for (let i = a; i < b; i++) covered.add(i);
     expect([...covered].sort((x, y) => x - y)).toEqual(columns.columns.flatMap((c, i) => (c.protected ? [i] : [])));
+  });
+  it('Part 6: the Courses tab schema is in columns.json and in the doc, in order', () => {
+    const ck = columns.courses.columns.map((c) => c.key);
+    expect(columns.courses.tab).toBe('Courses');
+    expect(ck).toEqual(['course_id', 'course_title_km', 'teacher', 'lesson_count', 'course_status']);
+    for (const c of columns.courses.columns) {
+      expect(c.protected).toBe(c.owner === 'SYSTEM');
+      expect(c.owner).toBe(c.key === 'course_status' ? 'TEAM' : 'SYSTEM');
+    }
+    expect(columns.courses.columns.find((c) => c.key === 'course_status').dropdown).toEqual(['ongoing', 'complete']);
+    const from = doc.indexOf('## Courses tab');
+    expect(from).toBeGreaterThan(0);
+    let at = from;
+    for (const k of ck) {
+      const i = doc.indexOf(`\`${k}\``, at + 1);
+      expect(i, `docs/master-sheet.md Courses tab must list ${k}`).toBeGreaterThan(at);
+      at = i;
+    }
+    expect(doc).toContain('master-seed-courses.csv');
+  });
+  it('Part 5: acast_embed and acast_episode_id are SYSTEM columns', () => {
+    const e = columns.columns.find((c) => c.key === 'acast_episode_id');
+    expect(e).toMatchObject({ owner: 'SYSTEM', protected: true });
+    expect(keys.indexOf('acast_episode_id')).toBe(keys.indexOf('acast_embed') + 1);
+    expect(e.source).toContain('24 hex');
   });
   it('colLetter', () => {
     expect([0, 25, 26, 27, 51, 52].map(colLetter)).toEqual(['A', 'Z', 'AA', 'AB', 'AZ', 'BA']);

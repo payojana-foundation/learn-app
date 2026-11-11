@@ -6,7 +6,8 @@ One Google Sheet that lists every lesson row of the teacher sheets, so the team 
 
 - **Lessons**: one row per numbered lesson row, the columns below, in this order. Header row frozen.
 - **Legacy**: every other labelled column that holds data: `row_key, source_file, source_tab, source_row, label, value`. Label and value are copied byte-for-byte.
-- **Lists**: the dropdown values (one column per dropdown column, header = column key).
+- **Courses** (Part 6): one row per course, the columns in the "Courses tab" section below. Header row frozen.
+- **Lists**: the dropdown values (one column per dropdown column of Lessons and Courses, header = column key).
 
 ## Columns
 
@@ -45,6 +46,18 @@ Owner TEAM = the team edits it. SYSTEM = written by the seed/sync; a protected r
 | 29 | `source_tab` | SYSTEM | yes |  | Tab name, byte-for-byte. |
 | 30 | `source_row` | SYSTEM | yes |  | Sheet row number (1-based). |
 
+## Courses tab
+
+One row per distinct non-empty `course_id` of the Lessons rows, in order of first appearance. SYSTEM columns are protected like the Lessons ones; `course_status` is the only TEAM column and is empty at seed. The hidden tab has no course id, so it has no row here.
+
+| # | column | owner | protected | dropdown | source |
+| --- | --- | --- | --- | --- | --- |
+| 1 | `course_id` | SYSTEM | yes |  | One row per distinct non-empty course_id of the Lessons rows, in order of first appearance (the hidden tab has none). |
+| 2 | `course_title_km` | SYSTEM | yes |  | Copied from the course_title_km of the first Lessons row of the course. |
+| 3 | `teacher` | SYSTEM | yes |  | Copied from the teacher of the first Lessons row of the course (Khmer display name, or: pending). |
+| 4 | `lesson_count` | SYSTEM | yes |  | Number of Lessons rows with this course_id (hidden rows included). |
+| 5 | `course_status` | TEAM | no | ongoing / complete | Empty at seed; the team sets it. |
+
 ## Rows
 
 - In: every numbered, non-section lesson row of every tab that has a header row, including rows Learn hides today (`issues` = the hide reason) and the rows of the hidden tab (issue `hidden tab`). A numbered row without a title is in with issue `no title`.
@@ -62,10 +75,11 @@ Owner TEAM = the team edits it. SYSTEM = written by the seed/sync; a protected r
 
 - `master-seed-preview.csv`: the Lessons tab. UTF-8, no BOM, `\n` line ends, header = the column keys above in order. A value is double-quoted when it contains a comma, a double quote, CR or LF (quotes doubled). Nothing is trimmed or normalised.
 - `master-seed-legacy.csv`: the Legacy tab, same rules.
+- `master-seed-courses.csv`: the Courses tab, same rules, header = the Courses column keys in order.
 - `master-seed-excluded.csv`: `file_id, tab, row, kind, text` for the rows that are out (section rows, unnumbered rows).
 
 `scripts/master/parity.mjs` reads `master-seed-preview.csv` and writes `reports/master-parity.md`.
 
 ## Write mode
 
-`.github/workflows/master-seed.yml` (workflow_dispatch, inputs `sheet_id`, `mode` = dry | write). Only the write mode authenticates, with the `https://www.googleapis.com/auth/spreadsheets` scope. It REFUSES (exit 3) if the Lessons tab already has data rows. Order: Legacy and Lists first, then freeze, dropdowns and protected ranges, and the Lessons rows last, so a failure half way leaves Lessons empty and a re-run is allowed. Values are written RAW (no formula parsing). The sheet owner can always edit a protected range; the protection keeps every other editor out.
+`.github/workflows/master-seed.yml` (workflow_dispatch, inputs `sheet_id`, `mode` = dry | write). Only the write mode authenticates, with the `https://www.googleapis.com/auth/spreadsheets` scope. It REFUSES (exit 3) if the Lessons tab already has data rows. Order: Legacy, Lists and Courses first, then freeze, dropdowns and protected ranges (Lessons and Courses), and the Lessons rows last, so a failure half way leaves Lessons empty and a re-run is allowed. Values are written RAW (no formula parsing). The sheet owner can always edit a protected range; the protection keeps every other editor out.

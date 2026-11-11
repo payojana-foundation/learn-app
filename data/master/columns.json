@@ -33,7 +33,16 @@
     { "key": "source_tab", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Tab name, byte-for-byte." },
     { "key": "source_row", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Sheet row number (1-based)." }
   ],
-  "legacy": {
+  "courses": {
+    "tab": "Courses",
+    "columns": [
+      { "key": "course_id", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "One row per distinct non-empty course_id of the Lessons rows, in order of first appearance (the hidden tab has none)." },
+      { "key": "course_title_km", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Copied from the course_title_km of the first Lessons row of the course." },
+      { "key": "teacher", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Copied from the teacher of the first Lessons row of the course (Khmer display name, or: pending)." },
+      { "key": "lesson_count", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Number of Lessons rows with this course_id (hidden rows included)." },
+      { "key": "course_status", "owner": "TEAM", "protected": false, "dropdown": ["ongoing", "complete"], "source": "Empty at seed; the team sets it." }
+    ]
+  },  "legacy": {
     "tab": "Legacy",
     "columns": ["row_key", "source_file", "source_tab", "source_row", "label", "value"]
   }

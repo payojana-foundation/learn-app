@@ -342,11 +342,29 @@ export function legacyCsv(columns, legacy) {
 export function excludedCsv(excluded) {
   return toCsv(EXCLUDED_HEADER, excluded);
 }
+export function coursesCsv(columns, courses) {
+  return toCsv(columns.courses.columns.map((c) => c.key), courses);
+}
+
+/** Courses tab (bulk 08 Part 6): one row per distinct non-empty course_id of the Lessons
+ * rows, in order of first appearance. course_title_km and teacher are copied from the
+ * first Lessons row of the course; lesson_count = Lessons rows with that course_id;
+ * course_status is empty at seed (the team fills it). Hidden-tab rows have no course_id
+ * and are not in this tab. */
+export function buildCourses(rows) {
+  const by = new Map();
+  for (const r of rows) {
+    if (!r.course_id) continue;
+    if (!by.has(r.course_id)) by.set(r.course_id, { course_id: r.course_id, course_title_km: r.course_title_km, teacher: r.teacher, lesson_count: 0, course_status: '' });
+    by.get(r.course_id).lesson_count += 1;
+  }
+  return [...by.values()].map((c) => ({ ...c, lesson_count: String(c.lesson_count) }));
+}
 
 // ── Lists tab (dropdown values) ──────────────────────────────────────────────
 
 export function listsTable(columns) {
-  const dd = columns.columns.filter((c) => Array.isArray(c.dropdown));
+  const dd = [...columns.columns, ...(columns.courses ? columns.courses.columns : [])].filter((c) => Array.isArray(c.dropdown));
   const height = Math.max(0, ...dd.map((c) => c.dropdown.length));
   const grid = [dd.map((c) => c.key)];
   for (let i = 0; i < height; i++) grid.push(dd.map((c) => c.dropdown[i] ?? ''));
@@ -377,7 +395,7 @@ export function protectedRuns(columns) {
  * Lessons rows LAST — a failure half way leaves Lessons without data rows, so a
  * re-run is allowed (protected ranges of an earlier attempt are removed first).
  */
-export async function writeToSheet({ sheetId, token, saEmail, columns, rows, legacy, fetchFn = fetch, log = () => {} }) {
+export async function writeToSheet({ sheetId, token, saEmail, columns, rows, legacy, courses = [], fetchFn = fetch, log = () => {} }) {
   if (!sheetId) throw new Error('sheet id missing');
   if (!/^[A-Za-z0-9_-]+$/.test(sheetId)) throw new Error('sheet id has characters a Google sheet id never has');
   if (!token) throw new Error('ACCESS_TOKEN missing');
@@ -404,13 +422,14 @@ export async function writeToSheet({ sheetId, token, saEmail, columns, rows, leg
     if (hasData) throw new RefuseError('Lessons already has data rows - refusing to overwrite team edits');
   }
 
-  const missing = ['Lessons', 'Legacy', 'Lists'].filter((t) => !byTitle(sheets, t));
+  const missing = ['Lessons', 'Legacy', 'Lists', 'Courses'].filter((t) => !byTitle(sheets, t));
   if (missing.length) {
     await api('POST', ':batchUpdate', { requests: missing.map((title) => ({ addSheet: { properties: { title } } })) });
     sheets = await meta();
   }
   const id = (title) => byTitle(sheets, title).properties.sheetId;
   const lessonsId = id('Lessons');
+  const coursesId = id('Courses');
 
   const put = async (title, grid) => {
     await api('POST', `/values/${enc(`${title}!A:ZZ`)}:clear`, {});
@@ -422,40 +441,47 @@ export async function writeToSheet({ sheetId, token, saEmail, columns, rows, leg
   const keys = columns.columns.map((c) => c.key);
   await put('Legacy', [columns.legacy.columns, ...legacy.map((r) => columns.legacy.columns.map((k) => r[k] ?? ''))]);
   await put('Lists', listsTable(columns));
+  const courseKeys = columns.courses.columns.map((c) => c.key);
+  await put('Courses', [courseKeys, ...courses.map((r) => courseKeys.map((k) => r[k] ?? ''))]);
   await put('Lessons', [keys]); // header only for now
-  log('tabs written: Legacy, Lists, Lessons header');
+  log('tabs written: Legacy, Lists, Courses, Lessons header');
 
+  // freeze + dropdowns + protected ranges (service account only), for Lessons and Courses
   const requests = [];
-  const old = (byTitle(sheets, 'Lessons').protectedRanges || []);
-  for (const p of old) requests.push({ deleteProtectedRange: { protectedRangeId: p.protectedRangeId } });
-  requests.push({ updateSheetProperties: { properties: { sheetId: lessonsId, gridProperties: { frozenRowCount: 1 } }, fields: 'gridProperties.frozenRowCount' } });
-  columns.columns.forEach((c, i) => {
-    if (!Array.isArray(c.dropdown)) return;
-    requests.push({
-      setDataValidation: {
-        range: { sheetId: lessonsId, startRowIndex: 1, startColumnIndex: i, endColumnIndex: i + 1 },
-        rule: { condition: { type: 'ONE_OF_LIST', values: c.dropdown.map((v) => ({ userEnteredValue: v })) }, strict: true, showCustomUi: true },
-      },
-    });
-  });
-  for (const [a, b] of protectedRuns(columns)) {
-    requests.push({
-      addProtectedRange: {
-        protectedRange: {
-          range: { sheetId: lessonsId, startColumnIndex: a, endColumnIndex: b },
-          description: `master sheet: ${keys.slice(a, b).join(', ')} (service account only)`,
-          warningOnly: false,
-          editors: { users: [saEmail] },
+  const formatTab = (title, tabSheetId, defs) => {
+    const tabKeys = defs.columns.map((c) => c.key);
+    for (const p of (byTitle(sheets, title).protectedRanges || [])) requests.push({ deleteProtectedRange: { protectedRangeId: p.protectedRangeId } });
+    requests.push({ updateSheetProperties: { properties: { sheetId: tabSheetId, gridProperties: { frozenRowCount: 1 } }, fields: 'gridProperties.frozenRowCount' } });
+    defs.columns.forEach((c, i) => {
+      if (!Array.isArray(c.dropdown)) return;
+      requests.push({
+        setDataValidation: {
+          range: { sheetId: tabSheetId, startRowIndex: 1, startColumnIndex: i, endColumnIndex: i + 1 },
+          rule: { condition: { type: 'ONE_OF_LIST', values: c.dropdown.map((v) => ({ userEnteredValue: v })) }, strict: true, showCustomUi: true },
         },
-      },
+      });
     });
-  }
+    for (const [a, b] of protectedRuns(defs)) {
+      requests.push({
+        addProtectedRange: {
+          protectedRange: {
+            range: { sheetId: tabSheetId, startColumnIndex: a, endColumnIndex: b },
+            description: `master sheet ${title}: ${tabKeys.slice(a, b).join(', ')} (service account only)`,
+            warningOnly: false,
+            editors: { users: [saEmail] },
+          },
+        },
+      });
+    }
+  };
+  formatTab('Lessons', lessonsId, columns);
+  formatTab('Courses', coursesId, columns.courses);
   await api('POST', ':batchUpdate', { requests });
-  log('formatting done: freeze, dropdowns, protected ranges');
+  log('formatting done: freeze, dropdowns, protected ranges (Lessons, Courses)');
 
   await put('Lessons', [keys, ...rows.map((r) => keys.map((k) => r[k] ?? ''))]);
   log(`Lessons rows written: ${rows.length}`);
-  return { rows: rows.length, legacy: legacy.length };
+  return { rows: rows.length, legacy: legacy.length, courses: courses.length };
 }
 
 // ── CLI ──────────────────────────────────────────────────────────────────────
@@ -517,12 +543,14 @@ async function main() {
   const ctx = loadContext(root);
   const files = await loadFiles(dir, ctx.aliases);
   const { rows, legacy, excluded, stats } = buildMaster(files, ctx);
+  const courses = buildCourses(rows);
 
   mkdirSync(out, { recursive: true });
+  writeFileSync(join(out, 'master-seed-courses.csv'), coursesCsv(columns, courses), 'utf-8');
   writeFileSync(join(out, 'master-seed-preview.csv'), masterCsv(columns, rows), 'utf-8');
   writeFileSync(join(out, 'master-seed-legacy.csv'), legacyCsv(columns, legacy), 'utf-8');
   writeFileSync(join(out, 'master-seed-excluded.csv'), excludedCsv(excluded), 'utf-8');
-  console.log(`rows ${stats.rows} · legacy ${stats.legacy} · excluded ${stats.excluded} · new course ids ${stats.newCourseIds.length}`);
+  console.log(`rows ${stats.rows} · legacy ${stats.legacy} · courses ${courses.length} · excluded ${stats.excluded} · new course ids ${stats.newCourseIds.length}`);
   console.log(`minicourse decision: ${stats.minicourse.decision} · other values: ${JSON.stringify(stats.minicourse.other)}`);
   console.log(`wrote ${join(out, 'master-seed-preview.csv')}, master-seed-legacy.csv, master-seed-excluded.csv`);
   if (stats.newCourseIds.length) { console.error('::error::a dry run must not create course ids: ' + stats.newCourseIds.join(', ')); process.exit(1); }
@@ -531,9 +559,9 @@ async function main() {
   try {
     const r = await writeToSheet({
       sheetId: arg('sheet-id', ''), token: process.env.ACCESS_TOKEN, saEmail: process.env.SA_EMAIL,
-      columns, rows, legacy, log: (m) => console.log(`[sheet] ${m}`),
+      columns, rows, legacy, courses, log: (m) => console.log(`[sheet] ${m}`),
     });
-    console.log(`write done: ${r.rows} Lessons rows, ${r.legacy} Legacy rows`);
+    console.log(`write done: ${r.rows} Lessons rows, ${r.legacy} Legacy rows, ${r.courses} Courses rows`);
   } catch (e) {
     if (e instanceof RefuseError) { console.error(`::error::${e.message}`); process.exit(3); }
     console.error(`::error::${e.message}`);
