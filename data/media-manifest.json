@@ -77071,5 +77071,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13XE75Yp2-fWLASICU_6rfA6Cbc-KOLUm",
+    "drive_name": "5.គ្គខ្លី លើកទី ​៥២.mp3",
+    "source_md5": "1059ef4d69554c8e70c8c65e720ef1bf",
+    "key": "audio/1059ef4d69554c8e-a64.mp3",
+    "bytes": 20577218,
+    "duration_s": 2572,
+    "sha256": "b36c8ac7322db50eb5d52775b60ae9a0a35b7acd7ea3925179c0ed345ddeb204",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -10.1,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 3.2369749923271263,
+      "busy": 0.012149605380817231,
+      "out": {
+        "I": -18,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
