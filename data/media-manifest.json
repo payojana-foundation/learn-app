@@ -83625,5 +83625,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KBbXQOocYT4QCNmpnIUWY5VPP3c2o92q",
+    "drive_name": "បិដកលេខ២០-63 ទុក្ខសច្ចៈ បរិទេវ ទុក្ខ ទោមនស្ស ឧបាយាស.mp3",
+    "source_md5": "fe253addc0eaece6bbf58ef16785992c",
+    "key": "audio/fe253addc0eaece6-a64.mp3",
+    "bytes": 57824905,
+    "duration_s": 7228,
+    "sha256": "37ca40641eb96565a72e8250ef43708e8d1d53c6cd4ef05d62de955168dd0382",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6.1,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 8.536974992327128,
+      "busy": 4.756609620785546,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
