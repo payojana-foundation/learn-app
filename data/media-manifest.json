@@ -74287,5 +74287,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WhbXlW8TEK-nSI3BmhFHnpfpAiJgVG9-",
+    "drive_name": "326-7 April 2025 រាត្រីធម្មទាន.mp3",
+    "source_md5": "8837bf987ae0d46f49a8258e6b6faf6b",
+    "key": "audio/8837bf987ae0d46f-a64.mp3",
+    "bytes": 11854619,
+    "duration_s": 1481,
+    "sha256": "7a3a71dcb4d631a0d3f647039ce8441238258b187767977d2eb3a22a5e430683",
+    "loudness": {
+      "pass1": {
+        "I": -21.3,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 4.300000000000001,
+      "limit": 0.6,
+      "depth": 8.436974992327128,
+      "busy": 2.595748270625949,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
