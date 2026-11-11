@@ -80667,5 +80667,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Mta5X5OCalZfdxZ4y6jEeRh_exHohwWm",
+    "drive_name": "436-25_ Dec 2025 រាត្រីធម្មទានកន្លះម៉ោង ប្រធានបទ វិជ្ជា ជាប្រធាននៃកុសលធម៌ទាំងឡាយ!  ធម្ម រស.mp3",
+    "source_md5": "0000832a4b6937e1b9f85350fb68a56d",
+    "key": "audio/0000832a4b6937e1-a64.mp3",
+    "bytes": 12201943,
+    "duration_s": 1525,
+    "sha256": "5be31365488bac26b4a33c287cfccac9a62cd00fc46424dd4574d08f84d90d5b",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 9.3,
+      "limit": 0.6,
+      "depth": 9.936974992327128,
+      "busy": 2.658667715709415,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
