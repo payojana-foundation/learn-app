@@ -73388,5 +73388,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1th9319seaHdZt0b44Z641PFoq4N-RMWU",
+    "drive_name": "57.៥៧ មហាកុសលចិត្ត៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៥៧.mp3",
+    "source_md5": "3bd8730a968835d919b47d5636967661",
+    "key": "audio/3bd8730a968835d9-a64.mp3",
+    "bytes": 27207305,
+    "duration_s": 3400,
+    "sha256": "619745e63105aa7b1aeec21b1934f05c75af25c4cde19a55302ef4df517ca3f6",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 9.2,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 7.311774997427114,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
