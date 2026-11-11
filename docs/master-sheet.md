@@ -1,0 +1,69 @@
+# Master content sheet (bulk 08)
+
+One Google Sheet that lists every lesson row of the teacher sheets, so the team edits one place. Decisions: `docs/kiro-bulk-08.md`. Schema (single source for the seed, the reader and the dashboard): `data/master/columns.json`. Bulk 08 only SEEDS the sheet and REPORTS parity; the app and `build-courses` keep reading what they read today (the switch is bulk 09).
+
+## Tabs
+
+- **Lessons**: one row per numbered lesson row, the columns below, in this order. Header row frozen.
+- **Legacy**: every other labelled column that holds data: `row_key, source_file, source_tab, source_row, label, value`. Label and value are copied byte-for-byte.
+- **Lists**: the dropdown values (one column per dropdown column, header = column key).
+
+## Columns
+
+Owner TEAM = the team edits it. SYSTEM = written by the seed/sync; a protected range whose only editor is the service account. `lesson_code` is TEAM-owned but protected the same way (only the coordinator's account changes codes).
+
+| # | column | owner | protected | dropdown | source |
+| --- | --- | --- | --- | --- | --- |
+| 1 | `row_key` | SYSTEM | yes |  | Assigned once at seed (M00001...), never changes; the row's identity. Order: file name, tab order, sheet row. |
+| 2 | `lesson_id` | SYSTEM | yes |  | catalogue-build lessonIdOf via planCatalogue (code, else d-<source drive id>); recomputed on every seed/sync. Empty when no source and no code. |
+| 3 | `course_id` | SYSTEM | yes |  | data/course-ids.json registry via planCatalogue (file id + tab). No new ids in a dry run. |
+| 4 | `teacher` | SYSTEM | yes |  | data/teacher-files.json (file -> slug) shown as the teacher's Khmer display name (name_km); pending files show: pending. |
+| 5 | `course_title_km` | TEAM | no |  | catalogue-build courseTitle (section row above the first lesson, else the tab name). |
+| 6 | `course_title_en` | TEAM | no |  | No source in the sheets; empty. |
+| 7 | `lesson_no` | TEAM | no |  | Number column, trimmed like the reader. |
+| 8 | `lesson_title` | TEAM | no |  | Title column, trimmed like the reader. |
+| 9 | `lesson_code` | TEAM | yes |  | Lesson-code column (both spellings). Protected: only the coordinator's account changes it. |
+| 10 | `video_code` | TEAM | no |  | The code column whose label contains 'video'. |
+| 11 | `mp3_link` | TEAM | no |  | Cut MP3 link column (cell text, or the hyperlink target when the text holds no link). |
+| 12 | `mp4_link` | TEAM | no |  | Cut MP4 link column. |
+| 13 | `minicourse_link` | TEAM | no |  | 'Video for MiniCourse' column. |
+| 14 | `youtube_link` | TEAM | no |  | YouTube column, else the column labelled តំណក្នុង YoutTube. |
+| 15 | `original_video_link` | TEAM | no |  | Original-video link column. |
+| 16 | `details` | TEAM | no |  | Column labelled គោលធម៌. |
+| 17 | `source_type` | SYSTEM | yes |  | Which link the catalogue picked: mp3 \| mp4 \| minicourse (planCatalogue source_from); empty when none. |
+| 18 | `audio_status` | SYSTEM | yes | not started / converted / needs review / approved | data/media-manifest.json by source drive id: approved; id in data/queues/failed-review.csv = needs review; any other manifest entry = converted; else not started. |
+| 19 | `learn_live` | SYSTEM | yes | yes / no | yes = approved AND visible in the catalogue (planCatalogue visible). Not what the app shows today (app switch: bulk 09). |
+| 20 | `acast_status` | TEAM | no | to do / posted / not needed | Acast column: done -> posted, empty -> to do; an Acast embed link present -> posted. 'not needed' is team-only (never seeded). |
+| 21 | `acast_embed` | SYSTEM | yes |  | Column labelled 'Embed link from Acast'. |
+| 22 | `soundwise_status` | TEAM | no | to do / posted / not needed | Soundwise column: done -> posted, empty -> to do; any other value -> to do and the value goes to Legacy. |
+| 23 | `minicourse_status` | TEAM | no | to do / posted / not needed | Column labelled MiniCourse / minicourse (only when every value is done or empty, else those columns go to Legacy): done -> posted, empty -> to do. 'not needed' is team-only. |
+| 24 | `issues` | SYSTEM | yes |  | Hide reason from the catalogue, plus: hidden tab, no title, no source, no code, acast embed missing. Joined with '; '. |
+| 25 | `ready` | TEAM | no | yes | 'Ready ?' / 'Realy ?' / 'Realy' columns: yes or Yes -> yes; empty -> empty. Not used for visibility or parity. |
+| 26 | `notes` | TEAM | no |  | No source; empty. |
+| 27 | `source_file` | SYSTEM | yes |  | Drive file id (the .xlsx name in data/source/sheets). |
+| 28 | `source_tab` | SYSTEM | yes |  | Tab name, byte-for-byte. |
+| 29 | `source_row` | SYSTEM | yes |  | Sheet row number (1-based). |
+
+## Rows
+
+- In: every numbered, non-section lesson row of every tab that has a header row, including rows Learn hides today (`issues` = the hide reason) and the rows of the hidden tab (issue `hidden tab`). A numbered row without a title is in with issue `no title`.
+- Out: section rows, unnumbered rows (listed in `reports/master-seed-excluded.csv`), tabs named `0_…`, tabs without a header row, files that are not course sheets.
+- `row_key` (M00001…) is assigned once at seed, in the order file name, tab order, sheet row, and never changes: it is the row's identity. `lesson_id` is recomputed on every seed/sync and is empty when there is no source and no code (issue `no source, no code`). Two rows may share a `lesson_id` (a duplicate code); the later one is hidden.
+- `course_id`, `lesson_id`, `learn_live` and the hide reason come from `scripts/catalogue/catalogue-build.mjs` (`planCatalogue`): the same functions, no copy. `learn_live = yes` means approved media AND visible in the catalogue; it is not what the app shows today.
+- Statuses: audio_status `approved` (manifest status approved) > `needs review` (id in `data/queues/failed-review.csv`) > `converted` (any other manifest entry) > `not started`. acast_status / soundwise_status / minicourse_status: `done` -> posted, empty -> to do (an Acast embed link also means posted); `not needed` is only ever set by the team. A value that is neither done nor empty (in Acast, Soundwise, Ready) -> to do / empty and the value goes to Legacy. If an Acast status is posted but there is no embed link: issue `acast embed missing`.
+- `ready`: yes/Yes in the Ready ?, Realy ? and Realy columns -> `yes`, empty -> empty. Not used for visibility or parity.
+- MiniCourse / minicourse columns: if every value over the rows that go in is done or empty they feed `minicourse_status`; otherwise they go to Legacy. The dry run prints the evidence.
+
+## CSV format (dry run and parity input)
+
+`node scripts/master/seed.mjs --mode dry` writes, in `reports/`:
+
+- `master-seed-preview.csv`: the Lessons tab. UTF-8, no BOM, `\n` line ends, header = the column keys above in order. A value is double-quoted when it contains a comma, a double quote, CR or LF (quotes doubled). Nothing is trimmed or normalised.
+- `master-seed-legacy.csv`: the Legacy tab, same rules.
+- `master-seed-excluded.csv`: `file_id, tab, row, kind, text` for the rows that are out (section rows, unnumbered rows).
+
+`scripts/master/parity.mjs` reads `master-seed-preview.csv` and writes `reports/master-parity.md`.
+
+## Write mode
+
+`.github/workflows/master-seed.yml` (workflow_dispatch, inputs `sheet_id`, `mode` = dry | write). Only the write mode authenticates, with the `https://www.googleapis.com/auth/spreadsheets` scope. It REFUSES (exit 3) if the Lessons tab already has data rows. Order: Legacy and Lists first, then freeze, dropdowns and protected ranges, and the Lessons rows last, so a failure half way leaves Lessons empty and a re-run is allowed. Values are written RAW (no formula parsing). The sheet owner can always edit a protected range; the protection keeps every other editor out.

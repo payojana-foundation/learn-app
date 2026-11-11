@@ -1,0 +1,39 @@
+{
+  "version": 1,
+  "doc": "Single source for the master content sheet: column order, owner, dropdown values, source mapping. Read by scripts/master/seed.mjs (Lessons tab + CSV), scripts/master/parity.mjs and the future dashboard. Owner: TEAM = the team edits it; SYSTEM = written by the seed/sync, protected (editor: the service account only). protected = a protected range in the sheet (every SYSTEM column and lesson_code). Described in docs/master-sheet.md. Decisions: docs/kiro-bulk-08.md.",
+  "columns": [
+    { "key": "row_key", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Assigned once at seed (M00001...), never changes; the row's identity. Order: file name, tab order, sheet row." },
+    { "key": "lesson_id", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "catalogue-build lessonIdOf via planCatalogue (code, else d-<source drive id>); recomputed on every seed/sync. Empty when no source and no code." },
+    { "key": "course_id", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "data/course-ids.json registry via planCatalogue (file id + tab). No new ids in a dry run." },
+    { "key": "teacher", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "data/teacher-files.json (file -> slug) shown as the teacher's Khmer display name (name_km); pending files show: pending." },
+    { "key": "course_title_km", "owner": "TEAM", "protected": false, "dropdown": null, "source": "catalogue-build courseTitle (section row above the first lesson, else the tab name)." },
+    { "key": "course_title_en", "owner": "TEAM", "protected": false, "dropdown": null, "source": "No source in the sheets; empty." },
+    { "key": "lesson_no", "owner": "TEAM", "protected": false, "dropdown": null, "source": "Number column, trimmed like the reader." },
+    { "key": "lesson_title", "owner": "TEAM", "protected": false, "dropdown": null, "source": "Title column, trimmed like the reader." },
+    { "key": "lesson_code", "owner": "TEAM", "protected": true, "dropdown": null, "source": "Lesson-code column (both spellings). Protected: only the coordinator's account changes it." },
+    { "key": "video_code", "owner": "TEAM", "protected": false, "dropdown": null, "source": "The code column whose label contains 'video'." },
+    { "key": "mp3_link", "owner": "TEAM", "protected": false, "dropdown": null, "source": "Cut MP3 link column (cell text, or the hyperlink target when the text holds no link)." },
+    { "key": "mp4_link", "owner": "TEAM", "protected": false, "dropdown": null, "source": "Cut MP4 link column." },
+    { "key": "minicourse_link", "owner": "TEAM", "protected": false, "dropdown": null, "source": "'Video for MiniCourse' column." },
+    { "key": "youtube_link", "owner": "TEAM", "protected": false, "dropdown": null, "source": "YouTube column, else the column labelled តំណក្នុង YoutTube." },
+    { "key": "original_video_link", "owner": "TEAM", "protected": false, "dropdown": null, "source": "Original-video link column." },
+    { "key": "details", "owner": "TEAM", "protected": false, "dropdown": null, "source": "Column labelled គោលធម៌." },
+    { "key": "source_type", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Which link the catalogue picked: mp3 | mp4 | minicourse (planCatalogue source_from); empty when none." },
+    { "key": "audio_status", "owner": "SYSTEM", "protected": true, "dropdown": ["not started", "converted", "needs review", "approved"], "source": "data/media-manifest.json by source drive id: approved; id in data/queues/failed-review.csv = needs review; any other manifest entry = converted; else not started." },
+    { "key": "learn_live", "owner": "SYSTEM", "protected": true, "dropdown": ["yes", "no"], "source": "yes = approved AND visible in the catalogue (planCatalogue visible). Not what the app shows today (app switch: bulk 09)." },
+    { "key": "acast_status", "owner": "TEAM", "protected": false, "dropdown": ["to do", "posted", "not needed"], "source": "Acast column: done -> posted, empty -> to do; an Acast embed link present -> posted. 'not needed' is team-only (never seeded)." },
+    { "key": "acast_embed", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Column labelled 'Embed link from Acast'." },
+    { "key": "soundwise_status", "owner": "TEAM", "protected": false, "dropdown": ["to do", "posted", "not needed"], "source": "Soundwise column: done -> posted, empty -> to do; any other value -> to do and the value goes to Legacy." },
+    { "key": "minicourse_status", "owner": "TEAM", "protected": false, "dropdown": ["to do", "posted", "not needed"], "source": "Column labelled MiniCourse / minicourse (only when every value is done or empty, else those columns go to Legacy): done -> posted, empty -> to do. 'not needed' is team-only." },
+    { "key": "issues", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Hide reason from the catalogue, plus: hidden tab, no title, no source, no code, acast embed missing. Joined with '; '." },
+    { "key": "ready", "owner": "TEAM", "protected": false, "dropdown": ["yes"], "source": "'Ready ?' / 'Realy ?' / 'Realy' columns: yes or Yes -> yes; empty -> empty. Not used for visibility or parity." },
+    { "key": "notes", "owner": "TEAM", "protected": false, "dropdown": null, "source": "No source; empty." },
+    { "key": "source_file", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Drive file id (the .xlsx name in data/source/sheets)." },
+    { "key": "source_tab", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Tab name, byte-for-byte." },
+    { "key": "source_row", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Sheet row number (1-based)." }
+  ],
+  "legacy": {
+    "tab": "Legacy",
+    "columns": ["row_key", "source_file", "source_tab", "source_row", "label", "value"]
+  }
+}

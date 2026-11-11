@@ -33,3 +33,19 @@ Rules: git pull first; main only; one commit per part; tests must pass; push wit
 
 ## STOP gate
 After PART 3: coordinator spot-checks 20 rows in the sheet + parity = 0. The reader switch, freeze and sync Action come in bulk 09.
+
+## Decisions 10 Nov
+
+Coordinator answers to the PART 0 report (conflict numbers as in reports/kiro-bulk-08-report.md section e). They override the spec text above where they differ. Conflict 12 (the claude/ plan files are not in the repo) is fixed by recording the answers here.
+
+- **C1/C2 row_key.** New SYSTEM column `row_key` (M00001…), assigned once at seed, never changes; it is the row's identity. `lesson_id` = SYSTEM, recomputed on every seed/sync (not frozen). No source + no code -> `lesson_id` empty, issue "no source, no code".
+- **C3 learn_live** = approved AND catalogue-visible (10 today). Do not touch build-courses; the app switch is bulk 09.
+- **C4 teacher** = SYSTEM from teacher-files.json until bulk 09; shown as the Khmer display name; pending files -> "pending".
+- **C5 audio_status:** not started | converted | needs review (id in failed-review.csv) | approved. "too quiet" and "failed" are dropped.
+- **C6 acast / soundwise:** done -> posted, empty -> to do; "not needed" is team-only. Acast posted + no embed -> issue "acast embed missing". Embed present but acast empty -> posted. Soundwise value "កាត់ស្អាត" -> to do + Legacy.
+- **C7 ready:** yes/Yes and the "Realy ?"/"Realy" columns -> yes; empty -> empty. Not used for visibility or parity.
+- **C8 columns.** details <- គោលធម៌. youtube_link also <- "តំណក្នុង YoutTube". New TEAM column `video_code` <- the video_code labels. course_title_en = empty (no source). MiniCourse/minicourse: if the values are only done/empty -> new TEAM column `minicourse_status` (to do|posted|not needed); otherwise -> Legacy (report which). Every other labelled column with data -> new tab "Legacy": row_key, source_file, source_tab, source_row, label, value, byte-exact.
+- **C9 files:** `scripts/master/seed.mjs` and `scripts/master/__tests__/`.
+- **C10 Google:** the Sheets API is enabled; the sheet is shared with the service account as Editor. sheet_id = 12MOXAOHwwtKa6DFVwbfRMj8UtaKmN1758boN1EUKNZs. The spreadsheets scope is added only in master-seed.yml. Protected-range editors: the service account only. Parity reads the dry-run CSV (format in docs/master-sheet.md). Kiro builds and tests dry mode; the coordinator runs write mode.
+- **C11 rows:** in = titled numbered rows (4752; hidden-tab rows with issue "hidden tab") + numbered untitled rows (100, issue "no title"). Out = section rows and the 54 unnumbered rows; they are listed in the report.
+- **C13** OK; no new course ids in dry mode.
