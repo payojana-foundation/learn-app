@@ -71561,5 +71561,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mLTZA-6Me8ZasxI19cWLKuCyyMEgnJy-",
+    "drive_name": "46.៤៦ អហេតុកកិរិយាចិត្ត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤៦.mp3",
+    "source_md5": "cf695d2a7bf18eed4e0bb9f7bdbcf52e",
+    "key": "audio/cf695d2a7bf18eed-a64.mp3",
+    "bytes": 27722021,
+    "duration_s": 3465,
+    "sha256": "4a6533a11cd963131a8a918dbf6c8ea307eeacff97ec0d37d87d82691f351c0e",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 9.2,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 6.865765323790835,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
