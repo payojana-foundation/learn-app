@@ -70836,5 +70836,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dnS3Ns20speST4oIs96AwvWCU1saQjof",
+    "drive_name": "42.៤២ មេរៀនថ្ងៃទី៤២ ៦-អារម្មណសង្គហៈ សម្តៃងចិត្តដែលទទួលអារម្មណ៏ដោយឯកន្តៈ​៤ប្រភេទ​ និងដោយអនេកន្ត.mp3",
+    "source_md5": "d18c338aed4fff3137f0a3c8ab7c893a",
+    "key": "audio/d18c338aed4fff31-a64.mp3",
+    "bytes": 29794890,
+    "duration_s": 3724,
+    "sha256": "86678ab35490450ad8acf0ade3462a4ea9713c80a585f8c6d12872755fcaeb9b",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.363025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.199191794431169,
+      "out": {
+        "I": -18.5,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
