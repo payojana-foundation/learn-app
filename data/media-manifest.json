@@ -85974,5 +85974,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1uRyU80HyCl44DXDoI6nbjktlUvUZLy2_",
+    "drive_name": "124.១២៤ រូបវិថី១ មេរៀនថ្ងៃទី ១២៤ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "f46f663b22928ef69210e0f4918c0ba1",
+    "key": "audio/f46f663b22928ef6-a64.mp3",
+    "bytes": 30226642,
+    "duration_s": 3778,
+    "sha256": "a8172249737091cb489bb8969021cd222b3c69072e86ab3a95b10753b4d3dc56",
+    "loudness": {
+      "pass1": {
+        "I": -25.5,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 7.744885265860307,
+      "out": {
+        "I": -18.1,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
