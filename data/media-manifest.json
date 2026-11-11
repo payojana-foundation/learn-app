@@ -77158,5 +77158,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MY25Lyn5V7TFErVxM-bKxxsqVAeVkPOU",
+    "drive_name": "66.៦៦ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ​៦៦  ៦-វត្ថុសង្គហៈ ចិត្ត​ ជាមួយន.mp3",
+    "source_md5": "f1c660c89a5a8d53d6e4b18b49fa359f",
+    "key": "audio/f1c660c89a5a8d53-a64.mp3",
+    "bytes": 28577584,
+    "duration_s": 3572,
+    "sha256": "8e0c054c885602d676487943b27427129bf0369f08d7335d3cf0f7abf47273dd",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -5.1,
+        "LRA": 0
+      },
+      "G": 12.299999999999997,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 9.025726803185757,
+      "out": {
+        "I": -18.3,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
