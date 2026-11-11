@@ -83103,5 +83103,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19eON33IHbaLoxa8j6Loy2I9LK1oxk2zB",
+    "drive_name": "បិដកលេខ២០-46 សតិប្បដ្ឋានសូត្រ ធម្មានុបស្សនាសតិប្បដ្ឋាន នីវរណបព្វៈ .mp3",
+    "source_md5": "a8f8241c5f67f77e5ddee8c485ed1af9",
+    "key": "audio/a8f8241c5f67f77e-a64.mp3",
+    "bytes": 56286606,
+    "duration_s": 7035,
+    "sha256": "e6531182ff91b0be97b3c4ef268ed78e0c951149a13732d86b21b5b06c2773f3",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6.3,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 7.936974992327128,
+      "busy": 4.264618096023196,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
