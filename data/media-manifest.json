@@ -76346,5 +76346,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1c4yh4ZbCtJeuoQGrXZbnL9ULdC86GDyy",
+    "drive_name": "បិដកលេខ២០-០៧ មានះរបស់ភិក្ខ ៥០០ អង្គស្តាប់ធម៌មិនយល់.mp3",
+    "source_md5": "33243af87b241255358e61f59126cd2f",
+    "key": "audio/33243af87b241255-a64.mp3",
+    "bytes": 53612085,
+    "duration_s": 6701,
+    "sha256": "ae94be4dca80c6734196931875e911176d091140a4f25a51e0a7f1ce6edfedb9",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.299999999999997,
+      "limit": 0.6,
+      "depth": 11.436974992327125,
+      "busy": 4.19961948817429,
+      "out": {
+        "I": -18.1,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
