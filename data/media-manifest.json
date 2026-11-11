@@ -71445,5 +71445,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zJBo1pAicYxTpBO3-_nTM4KQhtm9ld3f",
+    "drive_name": "44.៤៤ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ​៤៤  ៦-អារម្មណសង្គហៈ ការចែកចិត្ត៦០.mp3",
+    "source_md5": "7e679702fe3385c49d0e25cfd5e5e054",
+    "key": "audio/7e679702fe3385c4-a64.mp3",
+    "bytes": 30080356,
+    "duration_s": 3759,
+    "sha256": "236f0f55b37ac4ff69531b0044cc9d6741c94e2caadcdd32452f07776c5cb6f6",
+    "loudness": {
+      "pass1": {
+        "I": -25.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.400000000000002,
+      "limit": 0.6,
+      "depth": 11.23697499232713,
+      "busy": 7.741023936170213,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
