@@ -68574,5 +68574,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SefLkrGCn3vgcejvg40la4aLlQIvt6yr",
+    "drive_name": "32.៣២ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣   ៤-ទ្វារសង្គហៈ ”ត ការចែកចេតសិកដែលកើតក្នុងទ្វារជាឯកន្តៈ​ និង​ អ.mp3",
+    "source_md5": "c706932bee383f19294c2482acc942df",
+    "key": "audio/c706932bee383f19-a64.mp3",
+    "bytes": 30924843,
+    "duration_s": 3865,
+    "sha256": "c7282b2cee49b16161fd751d66cf242c4c91610f5c6048564282b60b4e3a9d6c",
+    "loudness": {
+      "pass1": {
+        "I": -25.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 9.999999999999996,
+      "limit": 0.6,
+      "depth": 11.036974992327124,
+      "busy": 6.017578352369003,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
