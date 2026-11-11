@@ -68081,5 +68081,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rn60IDvd6z_RBBWDepBQi1Idua1QA078",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៥៩(១៦១ ចែកការប្រព្រឹត្តរបស់ចរិត៦ និងន័យផ្សេងៗ ១៤.mp3",
+    "source_md5": "67f1eab90dae07b91cfbc1a7e813ad57",
+    "key": "audio/67f1eab90dae07b9-a64.mp3",
+    "bytes": 44317091,
+    "duration_s": 5539,
+    "sha256": "0bcc88e20d8be4fdb278695f4b3f5a40fbe19915527b30c98b980d484d26dfae",
+    "loudness": {
+      "pass1": {
+        "I": -23.7,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.575014441475918,
+      "out": {
+        "I": -18.4,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
