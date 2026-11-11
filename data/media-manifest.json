@@ -84669,5 +84669,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gLVLPEceFh9fPcoKP-2vBGlHVCnRejMA",
+    "drive_name": "91.៩១ អំពីការចម្រើននេវសញ្ញានាសញ្ញាយតនៈ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៩១.mp3",
+    "source_md5": "8e51a0d59a4b5ca1e255790a055e5060",
+    "key": "audio/8e51a0d59a4b5ca1-a64.mp3",
+    "bytes": 25493045,
+    "duration_s": 3186,
+    "sha256": "0f2baafc0d47566d70d182b2c194f4475bfbbf4a1a0612ddc8f39d515defc1b0",
+    "loudness": {
+      "pass1": {
+        "I": -26.9,
+        "TP": -5.9,
+        "LRA": 0
+      },
+      "G": 11.699999999999996,
+      "limit": 0.6,
+      "depth": 10.236974992327124,
+      "busy": 7.754738592857591,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
