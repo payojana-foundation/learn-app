@@ -90,9 +90,18 @@ jobs:
           # The teacher sheets' hidden-lessons report, for the team. --report-only
           # writes ONLY HIDDEN.md so it never dirties the diffed data above.
           npm install --no-save xlsx@0.18.5 >/dev/null 2>&1 || true
-          node scripts/catalogue/catalogue-build.mjs --report-only || echo "catalogue-build skipped (no xlsx / no sheets)"
+          # No sheet exports -> skip (green, with a notice). Otherwise a catalogue
+          # ERROR exit (no teacher, approved lesson id changed) FAILS the job,
+          # after HIDDEN.md is printed and uploaded.
+          status=0
+          if ls data/source/sheets/*.xlsx >/dev/null 2>&1; then
+            node scripts/catalogue/catalogue-build.mjs --report-only || status=$?
+          else
+            echo "::notice::catalogue-build skipped: no .xlsx sheet exports in data/source/sheets"
+          fi
           echo "----- HIDDEN.md (head) -----"
           head -n 30 data/source/sheets/HIDDEN.md 2>/dev/null || true
+          exit "$status"
 
       - name: Upload HIDDEN.md
         if: ${{ always() }}
