@@ -63760,5 +63760,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jL9CuJe0Jmgdaete3OCWoHJsAURki0nJ",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៤១.(១៤១បត្តិទាន ការចែកបុណ្យ បត្តានុមោទនា ត្រេកអរនឹងបុណ្យ.mp3",
+    "source_md5": "c3c7caed13509b240dc9b734f490ee73",
+    "key": "audio/c3c7caed13509b24-a64.mp3",
+    "bytes": 43787536,
+    "duration_s": 5473,
+    "sha256": "06581c9eb52c69bb92592d616cc05cde87ccf48c97c424c34f84a42d9b2a8713",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -0.7,
+        "LRA": 0
+      },
+      "G": 8.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 5.021330434464867,
+      "out": {
+        "I": -18.3,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
