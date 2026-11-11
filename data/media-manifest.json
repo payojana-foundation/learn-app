@@ -75244,5 +75244,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1uRQ3IU6nTxPgufAapDi2NeDI6gBmioDi",
+    "drive_name": "បិដកលេខ២០-០២ មូលបរិយាយសូត្រ មានះរបស់បុថុជ្ជនរៀនធម៌ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3",
+    "source_md5": "004d8da3bf8bcb3efdd0ef9478be0f9e",
+    "key": "audio/004d8da3bf8bcb3e-a64.mp3",
+    "bytes": 44966390,
+    "duration_s": 5620,
+    "sha256": "49af47bafcd6a28f605b5c0b9863ccccd188735b98fe595c831ea46b8878a6f3",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -1.3,
+        "LRA": 0
+      },
+      "G": 8.863025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 3.256015656273629,
+      "out": {
+        "I": -19,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
