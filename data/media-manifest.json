@@ -81537,5 +81537,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1uLGfTOCUs2LE-hR22DsEmr8SmK5w2zhb",
+    "drive_name": "456 31-Jan-27 រាត្រីធម្មទាន សិក្សាក្នុងវិសុទ្ធិមគ្គ សមាធិនិទ្ទេស (អាហារេបដិកូល�.mp3",
+    "source_md5": "09388d837dfdfe7eb017106534a00680",
+    "key": "audio/09388d837dfdfe7e-a64.mp3",
+    "bytes": 13306609,
+    "duration_s": 1663,
+    "sha256": "538c1df1d62c0c773f3c4f25bf22be48ebe6399896b118b012ee2d1d57c33944",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "G": 9.3,
+      "limit": 0.6,
+      "depth": 10.936974992327128,
+      "busy": 2.1606144411711656,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
