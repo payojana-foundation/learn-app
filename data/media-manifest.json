@@ -80696,5 +80696,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hxz9aAKAVAz1CRBQ-JOQzP-430gAwWOf",
+    "drive_name": "437-03_ Jan 2025 រាត្រីធម្មទាន សិក្សាក្នុងគម្ពីរ វិសុទ្ឌិមគ្គ ក្នុងមេត្តា ភាវនា សូមអនុមោទនា។  ធម្ម រស.mp3",
+    "source_md5": "171c02d227e5692c66819b0af53bc4c3",
+    "key": "audio/171c02d227e5692c-a64.mp3",
+    "bytes": 14425068,
+    "duration_s": 1803,
+    "sha256": "b9aba987f2e50b3e35bd7793d0d1c2f9c0e5151219c0f52b4a0b970e43138c97",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 9.399999999999999,
+      "limit": 0.6,
+      "depth": 9.836974992327125,
+      "busy": 2.7307137707281903,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
