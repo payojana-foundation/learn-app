@@ -83016,5 +83016,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1myAaDWtUAEvOBtNqHZsDxx_6BfTc9IIh",
+    "drive_name": "7.វគ្គខ្លី លើកទី ៦២ 251208_2007.mp3",
+    "source_md5": "b3f954fbcccff6a134f581ab151529b2",
+    "key": "audio/b3f954fbcccff6a1-a64.mp3",
+    "bytes": 18581463,
+    "duration_s": 2322,
+    "sha256": "47ff4cfeb7482c940d646d8b98c3b4006b42184cc70c9addd15b9d1ee3c2341a",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5.7,
+        "LRA": 0
+      },
+      "G": 10.900000000000002,
+      "limit": 0.6,
+      "depth": 9.63697499232713,
+      "busy": 4.872128818375562,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
