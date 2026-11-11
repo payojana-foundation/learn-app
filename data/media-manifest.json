@@ -75331,5 +75331,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ccnTgB0OGLUNZQbpHtOCILZQS_FmapZq",
+    "drive_name": "70.៧០ កុសលកម្មឱ្យផលផ្សេងគ្នា​ ៧យ៉ាង ​ មហាវិបាក៨ ដោយន័យ១៤​ និងដោយកិច្ច៤ ព្រះអភិធម្មថ្នាក់ដំបូង​ថ្ងៃទី៧០.mp3",
+    "source_md5": "55ea3c49f027a733b7cec547c37eee28",
+    "key": "audio/55ea3c49f027a733-a64.mp3",
+    "bytes": 28701509,
+    "duration_s": 3587,
+    "sha256": "f6c02d7c2a7ec2dd1529eeb8e45ca3be2b7f07c2ecf12d3d66444aefb4b35291",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 10.600000000000001,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 7.1244407899321285,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
