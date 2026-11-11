@@ -83480,5 +83480,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17i6sPPniZAT0KIWkpu3mg8c-UWIUVawj",
+    "drive_name": "បិដកលេខ២០-58 សតិប្បដ្ឋានសូត្រ ធម្មានុបស្សនាសច្ចបព្វ ពន្យល់អត្ថនៃសច្ចតាមមហាដីកា .mp3",
+    "source_md5": "67cdae500b77f88b2d2519a878859861",
+    "key": "audio/67cdae500b77f88b-a64.mp3",
+    "bytes": 50714165,
+    "duration_s": 6339,
+    "sha256": "a0129eb194424dc6cd34fba8cee7b2755a28c0ad6b11cf05ab6d885f9a209338",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6.6,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 8.036974992327128,
+      "busy": 5.159127657057223,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
