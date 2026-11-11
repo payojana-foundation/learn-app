@@ -83799,5 +83799,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jC6-5vEhcByvyfAVgHPEF8S7yRAAHjBz",
+    "drive_name": "បិដកលេខ២០-69 ធម្មានុបស្សនា មគ្គសច្ចៈ ផ្លូវចេញចាកទុក្ខ.mp3",
+    "source_md5": "deee20d692269b4cf5e79e740eed2bd7",
+    "key": "audio/deee20d692269b4c-a64.mp3",
+    "bytes": 57083027,
+    "duration_s": 7135,
+    "sha256": "06c93964b6f78a923619790fda4fa8dfc1f633f74de380d21664f1be57c70775",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6.2,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 8.336974992327125,
+      "busy": 4.895870559958516,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
