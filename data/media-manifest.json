@@ -68632,5 +68632,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1esW96aJrJ64uh9VAc7MR-wQCbo9yuLF5",
+    "drive_name": "27.២៦ មោហមូលចិត្តចែកដោយន័យ ១៤ ន័យ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ២៦.mp3",
+    "source_md5": "e452df3e10598dfbaffdf76a72febeca",
+    "key": "audio/e452df3e10598dfb-a64.mp3",
+    "bytes": 26440558,
+    "duration_s": 3304,
+    "sha256": "5892452df6af5f44f80161c1d3d508785d45fbf43b9f15da50e0a30e101d6b26",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 9.399999999999999,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 6.976550680786687,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
