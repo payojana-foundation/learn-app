@@ -86003,5 +86003,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16vMeSzFFQCVyr-UdrXmHfYpApC5hCgUR",
+    "drive_name": "125.១២៥ រូបវិថីទី២ មេរៀនថ្ងៃទី ១២៥ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "a0dd41bcfd24687e43738eca804a7747",
+    "key": "audio/a0dd41bcfd24687e-a64.mp3",
+    "bytes": 28778622,
+    "duration_s": 3597,
+    "sha256": "fc8c18841305bfe07f05d54897fe9a720b3d65c0b085d6d6657bc66dc21b6373",
+    "loudness": {
+      "pass1": {
+        "I": -25.5,
+        "TP": -5.2,
+        "LRA": 0
+      },
+      "G": 10.700000000000003,
+      "limit": 0.6,
+      "depth": 9.93697499232713,
+      "busy": 7.966738943096211,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
