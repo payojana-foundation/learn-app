@@ -64398,5 +64398,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1B6uKyPLKSN7XA8WMRuTirsdMms1IOr2l",
+    "drive_name": "14.១៤ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី​ ១៤   ៣-កិច្ចសង្គហៈ.mp3",
+    "source_md5": "9c97c50faf3d8884333842af33a18890",
+    "key": "audio/9c97c50faf3d8884-a64.mp3",
+    "bytes": 29159383,
+    "duration_s": 3644,
+    "sha256": "57df7d85d38f3d21e3065bdd7901ff52ae763e1dfef428ce1bbb3dd34094a2b2",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -5.8,
+        "LRA": 0
+      },
+      "G": 11.399999999999999,
+      "limit": 0.6,
+      "depth": 10.036974992327126,
+      "busy": 8.103445910724574,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
