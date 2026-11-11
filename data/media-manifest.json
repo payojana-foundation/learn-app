@@ -74606,5 +74606,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "141UEx6kgzv3eNe75LJfLDI2UJVqVqBTG",
+    "drive_name": "66.៦៦ ចែកមហាកុសល៨ ដោយន័យ១៤ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៦៦.mp3",
+    "source_md5": "771464db1222bf15396f03d152bdded4",
+    "key": "audio/771464db1222bf15-a64.mp3",
+    "bytes": 28961897,
+    "duration_s": 3620,
+    "sha256": "476e8183b940bf421930c5cfbe0d6fe00e4a55a8eb1d089ff2101f66b3d82489",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.5500524832882165,
+      "out": {
+        "I": -18.5,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
