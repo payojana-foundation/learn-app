@@ -79391,5 +79391,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DHLiotp4LXj-dqsPJzGgOGsGv-sEHNjz",
+    "drive_name": "៤០៤-30 Sep 2025 រាត្រីធម្មទានកន្លះម៉ោង_សិក្សារក្នុងគម្ពីរវិសុទ្ធិមគ្គ.mp3",
+    "source_md5": "23f9919a96430a82d4f698702e778896",
+    "key": "audio/23f9919a96430a82-a64.mp3",
+    "bytes": 15191396,
+    "duration_s": 1898,
+    "sha256": "57d4181d92bd02510c7af6aa06b1bf1ffe9d9d6a1d4551c93fee9cd02fab4f4b",
+    "loudness": {
+      "pass1": {
+        "I": -20.2,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 3.5,
+      "limit": 0.6,
+      "depth": 7.6369749923271275,
+      "busy": 2.945861969086552,
+      "out": {
+        "I": -18,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
