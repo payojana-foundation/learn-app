@@ -67994,5 +67994,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1e9fwd80ReIU811pziZ_Xj4HkGBzmMHZE",
+    "drive_name": "29.២៩ អធិប្បាយវិថីចិត្ត​២យ៉ាង ១-កាមវិថីចិត្ត​ មនោទ្វារវិថី​ សុទ្ធមនោទ្វារវិថី អភិធម្ម​បរិច្ឆ.mp3",
+    "source_md5": "2735ecefce299430cb76477b34d06bf1",
+    "key": "audio/2735ecefce299430-a64.mp3",
+    "bytes": 29239213,
+    "duration_s": 3654,
+    "sha256": "f08c845fdfda045c91eb3240c7847b0c7856964577ab29c48bb5d1776ef16b98",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.091645347962297,
+      "out": {
+        "I": -18.7,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
