@@ -68197,5 +68197,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JQ-7FpaZ1fpV40JgkSup4FcjbcVTkAey",
+    "drive_name": "30.៣០ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ​៣០   ៤-ទ្វារសង្គហៈ ”ត ​.mp3",
+    "source_md5": "f479681c2bc1fe7ba88961afcad0a66c",
+    "key": "audio/f479681c2bc1fe7b-a64.mp3",
+    "bytes": 29084150,
+    "duration_s": 3635,
+    "sha256": "3a9802aee94f2b6f5e5381ed9d3ed7fec0b698aa5290b80e93323f2a3f119c73",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 11.099999999999998,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 6.644546829872095,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
