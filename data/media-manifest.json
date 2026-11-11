@@ -73301,5 +73301,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1sn4AO6thfso9uuKCP5AIuN8VHIU8Xo41",
+    "drive_name": "51.៥១ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៣ មេរៀនថ្ងៃទី ៥១  ៦-អារម្មណសង្គហៈ អារម្មណ៍របស់ទ្វារវិមុត្តិចិត្ត.mp3",
+    "source_md5": "ca940345833ea8bc900a14794536fbcf",
+    "key": "audio/ca940345833ea8bc-a64.mp3",
+    "bytes": 39452046,
+    "duration_s": 4931,
+    "sha256": "9e80882b7267a14a0dff6c9c3ee8081654531dbffbbc606673c89c9594771741",
+    "loudness": {
+      "pass1": {
+        "I": -24.7,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 9.7,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 7.853673868740431,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
