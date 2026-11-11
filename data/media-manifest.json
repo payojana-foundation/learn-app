@@ -83886,5 +83886,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1reueiQh99wwpInsFl8BqmCttVrowdFjP",
+    "drive_name": "បិដកលេខ២០-72 ចូឡសីហនាទសូត្រ អំពីសង្ខារជាដើម្បីកើតមានព្រោះតណ្ហាជាបច្ច័យ.mp3",
+    "source_md5": "12e0eaa61d5e8cdb76b9837e96b8ad06",
+    "key": "audio/12e0eaa61d5e8cdb-a64.mp3",
+    "bytes": 52896539,
+    "duration_s": 6612,
+    "sha256": "4f649896bb85f9680c210ae299dad4c4c72fa437e71708de36de97f089c0d219",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -7.6,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 7.036974992327127,
+      "busy": 5.604729244334208,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
