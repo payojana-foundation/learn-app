@@ -83045,5 +83045,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gaQwYHgGi2KQ5Jy0fq70i4RKzHQCRf5o",
+    "drive_name": "8.វគ្គខ្លី លើកទី ៦២ 251209_0724.mp3",
+    "source_md5": "97da6e9de4a4e4a154622168c58f7550",
+    "key": "audio/97da6e9de4a4e4a1-a64.mp3",
+    "bytes": 14722446,
+    "duration_s": 1840,
+    "sha256": "865f04be323e81f99fd54bc7ae34a9eb1111e0044062b1d541a4f882f74f5cb6",
+    "loudness": {
+      "pass1": {
+        "I": -26.7,
+        "TP": -5.5,
+        "LRA": 0
+      },
+      "G": 10.599999999999998,
+      "limit": 0.6,
+      "depth": 9.536974992327124,
+      "busy": 4.371688629262328,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
