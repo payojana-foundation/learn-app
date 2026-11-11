@@ -82436,5 +82436,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1GsLlPLAZ_oJoY5GOHl1eKpZ1B51_bdyw",
+    "drive_name": "បិដកលេខ២០-41 សតិប្បដ្ឋានសូត្រ បដិកូលមនសិការ ធាតុ នវសីវថិការបព្វ.mp3",
+    "source_md5": "a259c933473e21fa27ed893145396aa4",
+    "key": "audio/a259c933473e21fa-a64.mp3",
+    "bytes": 50944252,
+    "duration_s": 6367,
+    "sha256": "1632211bf8847d47bf2875ec64e1ce1e58bef658687bf4f45849fbb5585f67e9",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -5.8,
+        "LRA": 0
+      },
+      "G": 9.599999999999998,
+      "limit": 0.6,
+      "depth": 8.236974992327125,
+      "busy": 3.302646042713568,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
