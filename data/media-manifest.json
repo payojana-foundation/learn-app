@@ -73127,5 +73127,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PDDZ8xIUbRBRKZZcia2g9P3rka5JbMiu",
+    "drive_name": "310-03 March 2025 រាត្រីធម្មទាន.mp3",
+    "source_md5": "fdb5345fc20a5b443d25faca6cc76cf3",
+    "key": "audio/fdb5345fc20a5b44-a64.mp3",
+    "bytes": 12853541,
+    "duration_s": 1606,
+    "sha256": "c449ab0f45497442f81a3f7d246543f847695a112b2d5f4a4b8613c32757a744",
+    "loudness": {
+      "pass1": {
+        "I": -25,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 7.800000000000001,
+      "limit": 0.6,
+      "depth": 9.036974992327128,
+      "busy": 1.8524569756947686,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
