@@ -77274,5 +77274,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZaCBv8CeJ6uUvvJ8fhF6v7WXzRFvxviv",
+    "drive_name": "82.៨២ អារម្មណ៍កម្មដ្ឋាន៤០ ដោយអាការៈ១០ និងសេចក្តីអធិប្បាយ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៨២.mp3",
+    "source_md5": "d07e48330bd22bcb3fb6ba32e0e2246a",
+    "key": "audio/d07e48330bd22bcb-a64.mp3",
+    "bytes": 27797045,
+    "duration_s": 3474,
+    "sha256": "ab80ca6b3734e1e3f4700e2fdf65bdd1696012e13effe434df38a17cc175ae78",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -1.1,
+        "LRA": 0
+      },
+      "G": 8.400000000000002,
+      "limit": 0.6,
+      "depth": 11.73697499232713,
+      "busy": 8.1843953260807,
+      "out": {
+        "I": -18.2,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
