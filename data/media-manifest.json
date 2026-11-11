@@ -63180,5 +63180,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19VlMSEx7_GGOrCjdki6z9tOPxvGVmOmO",
+    "drive_name": "២០៣ រាត្រីធម្មទាន​​​ 23 July 2024.mp3",
+    "source_md5": "1916e5d8bba5215eebd05b07653acfe2",
+    "key": "audio/1916e5d8bba5215e-a64.mp3",
+    "bytes": 14216924,
+    "duration_s": 1777,
+    "sha256": "b147481374b2fc6ac36e31795f2445a2499dc67a2d1e591ac15cc2c9462ae9fe",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 6.900000000000002,
+      "limit": 0.6,
+      "depth": 7.93697499232713,
+      "busy": 1.8485692580400102,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
