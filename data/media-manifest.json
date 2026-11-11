@@ -84640,5 +84640,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10B39-7zSeGN9akekJjUPRUpWx9uzTAJx",
+    "drive_name": "90.៩០ អធិប្បាយកាមជវនមនោទ្វារមរណាសន្នវិថីកាមចុតិ​-ទៅបដិសន្ធិក្នុងរូបព្រហ្ម១៦​   ព្រះអភិធម្ម​.mp3",
+    "source_md5": "62c0123fc9c646e88e074bab7f1d8cca",
+    "key": "audio/62c0123fc9c646e8-a64.mp3",
+    "bytes": 29348509,
+    "duration_s": 3668,
+    "sha256": "da7227ef6fb78190d763f1bf9aaf1736489069639942984e969d2b38bfdb40fc",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -5.6,
+        "LRA": 0
+      },
+      "G": 11.400000000000002,
+      "limit": 0.6,
+      "depth": 10.23697499232713,
+      "busy": 8.039730134932533,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
