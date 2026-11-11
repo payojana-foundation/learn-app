@@ -84060,5 +84060,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WA6po_9YiNuYIhgR_Zj91AWAzQ-cGTuY",
+    "drive_name": "បិដកលេខ២០-78 មហាសីហនាទសូត្រ អំពីព្រហ្មចរិយរបស់ព្រះពុទ្ធភាគបញ្ចប់.mp3",
+    "source_md5": "322d09edef739bb21617028ac7e989d8",
+    "key": "audio/322d09edef739bb2-a64.mp3",
+    "bytes": 53757326,
+    "duration_s": 6719,
+    "sha256": "33aec50fb52a2f4960cc16a761347d84f3f4242f829ebb6148959fbb806736ec",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 5.692074736035359,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
