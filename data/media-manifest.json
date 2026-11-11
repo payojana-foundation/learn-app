@@ -73997,5 +73997,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WCa7_4Sft_GxcB0OBBr9bcGuSsNrTDY8",
+    "drive_name": "62.៦២ ហេតុឱ្យកេីតបញ្ញា​ ៣ប្រការ​ ចេតនាក្នុងមហាកុសល​ ៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៦២.mp3",
+    "source_md5": "705205fb9a1eb78fbb257738f74e45ba",
+    "key": "audio/705205fb9a1eb78f-a64.mp3",
+    "bytes": 28023370,
+    "duration_s": 3502,
+    "sha256": "d9801cda304a81b75f74570356b4a8e7ba471de158818e136ba711028b068182",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.2231468661233,
+      "out": {
+        "I": -19,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
