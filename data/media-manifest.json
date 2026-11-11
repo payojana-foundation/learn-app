@@ -60338,5 +60338,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LMyBVQglKksshBw2Wlftldrlh40Q0qXb",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៩០ អកុសលកម្មបថ ចែកលំដាប់នៃអកុសលកម្មបថ១០.mp3",
+    "source_md5": "e5ab7654d7bf59512904c38c0d7a296e",
+    "key": "audio/e5ab7654d7bf5951-a64.mp3",
+    "bytes": 40803517,
+    "duration_s": 5100,
+    "sha256": "94942993e3c7446bcfcec1f4785281c5da0975755adcc9f157230e369df849aa",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 6.300000000000001,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 5.19689632185711,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
