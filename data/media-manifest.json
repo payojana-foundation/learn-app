@@ -83596,5 +83596,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wQ4kYYfRmMtUM9rMZa7vGhW9CSs8RQlD",
+    "drive_name": "បិដកលេខ២០-62 ទុក្ខសច្ចៈ ជរាទុក្ខ ព្យាធិទុក្ខ មរណទុក្ខ សោក.mp3",
+    "source_md5": "23d68db0a7eddca38073abadded9c361",
+    "key": "audio/23d68db0a7eddca3-a64.mp3",
+    "bytes": 54432330,
+    "duration_s": 6803,
+    "sha256": "461e7a8bd77d8a04c245664670911afd9ff292467571167733e9141d0da0eadb",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5.6,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 8.936974992327126,
+      "busy": 4.839800117577895,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
