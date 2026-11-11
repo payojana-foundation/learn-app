@@ -83683,5 +83683,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xOzLPdeBAA3gZYEHSIva117Rln1LfEb_",
+    "drive_name": "បិដកលេខ២០-65 និរោធសច្ចៈ ការរលត់ទុក្ខ គឺព្រះនិព្វាន.mp3",
+    "source_md5": "6563831efccc6feb344dee9b8425e55b",
+    "key": "audio/6563831efccc6feb-a64.mp3",
+    "bytes": 54475171,
+    "duration_s": 6809,
+    "sha256": "07e98e27ac94acd22b989334f4b0cc95bfe628202edfe2b85bde22fbb645e642",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 4.917319567947014,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
