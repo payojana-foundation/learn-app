@@ -69444,5 +69444,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Wz0DzfDMveSVX8vXkZwG2T-87b3K9Mpq",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ភាគ១៦៦ លោកុត្តរចិត្ត ទុក្ខសច្ចៈ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "79fce4f43d862f828f4b5f7cde719002",
+    "key": "audio/79fce4f43d862f82-a64.mp3",
+    "bytes": 43851066,
+    "duration_s": 5481,
+    "sha256": "0444979898b2655e69d7af0d70ac4e087eea2d7efb667428de88ceeaa9182a4a",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 8.3,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 5.772300619372965,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
