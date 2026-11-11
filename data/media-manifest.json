@@ -60454,5 +60454,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WQg9sdrBhq8EVnKR-YJZQg2fBUNQyxeE",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៩៤ អកុសលវិបាកសោតវិញ្ញាណ និងបរិកប្ប៥ចំណុច.mp3",
+    "source_md5": "7f91f5c09f7151dbcccb0b782928b2ce",
+    "key": "audio/7f91f5c09f7151db-a64.mp3",
+    "bytes": 42485385,
+    "duration_s": 5310,
+    "sha256": "bf9f4168a848eb47d53927f254f0bf4b3c8fdfe4787050da2b45fb02635eb85d",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.600000000000001,
+      "limit": 0.6,
+      "depth": 10.63697499232713,
+      "busy": 4.737885192961314,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
