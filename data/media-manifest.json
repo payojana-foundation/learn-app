@@ -75824,5 +75824,63 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Njp0rGdMrk6x7vGW-P5vthjClf32pgO9",
+    "drive_name": "69.៦៩ អប្បនាជវនវារៈមានវេទនា២ មេរៀនថ្ងៃទី៦៩ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "77ba358377c7a6e669d777a2fe0a479e",
+    "key": "audio/77ba358377c7a6e6-a64.mp3",
+    "bytes": 29801159,
+    "duration_s": 3725,
+    "sha256": "94db09d670d6d3eac3761303851bddf8f9908fca680ec8a1355d1762c4c80e1a",
+    "loudness": {
+      "pass1": {
+        "I": -25.5,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 11.436974992327128,
+      "busy": 7.017932404499208,
+      "out": {
+        "I": -18.2,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1isRPnO6kLpEXvfuiToCfhgc6Lrnpob6p",
+    "drive_name": "68.៦៨ អប្បនាវិថី​ អប្បនាជវនវារមានវេទនា២ មេរៀនថ្ងៃទី៦៨ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "a7857afcae46acef39e801c58b3aa966",
+    "key": "audio/a7857afcae46acef-a64.mp3",
+    "bytes": 27982201,
+    "duration_s": 3497,
+    "sha256": "624c37caed7d4e74c8dac3cfab0af7c35c586d011de15961b94ead4c2385808b",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -5,
+        "LRA": 0
+      },
+      "G": 11.7,
+      "limit": 0.6,
+      "depth": 11.136974992327126,
+      "busy": 8.647344721606748,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
