@@ -61150,5 +61150,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1XEC3kpzxshsHSREPi-4uUkN7GnjUtPl2",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១១៨ ហេតុនាំកើតសសង្ខារ និងហេតុនាំឱ្យកើតបញ្ញាមាន ៣.mp3",
+    "source_md5": "406756e3fb43294916f730807dc1a3fd",
+    "key": "audio/406756e3fb432949-a64.mp3",
+    "bytes": 45791651,
+    "duration_s": 5723,
+    "sha256": "f00dbe8db3dafdfb6ee497647367ba81dbda9c40359e4e853f05bd52c56ffd24",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 11.836974992327127,
+      "busy": 4.971042471042471,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
