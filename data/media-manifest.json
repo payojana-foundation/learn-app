@@ -84843,5 +84843,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1eZ42MrNFZS46KR5aW2KgZ07U1AtfvMd9",
+    "drive_name": "94.៩៤ កិលេស​៩​កង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៩៤.mp3",
+    "source_md5": "78b2a050eab44ddea1bfa34c89986cd0",
+    "key": "audio/78b2a050eab44dde-a64.mp3",
+    "bytes": 27191422,
+    "duration_s": 3398,
+    "sha256": "5dfa55b10dcce20703df9a386a3e3edf4e6104eb4111d0188895280ab2c780e6",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 11.200000000000003,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 7.461605225219924,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
