@@ -65732,5 +65732,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xsyV_7zN41j8X5W50w15sO3LulDOvU6S",
+    "drive_name": "241-14 Oct 2024 រាត្រីធម្មទាំន.mp3",
+    "source_md5": "1f58b8b3e2bbd3452268e3b42ee8683a",
+    "key": "audio/1f58b8b3e2bbd345-a64.mp3",
+    "bytes": 10983174,
+    "duration_s": 1372,
+    "sha256": "a6ec81902c121989a9c3910600d0bdaf4680f364a1f807eb9f0bc736080cd38c",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": 0.4,
+        "LRA": 0
+      },
+      "G": 2.799999999999997,
+      "limit": 0.6,
+      "depth": 7.636974992327124,
+      "busy": 2.156098626943949,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
