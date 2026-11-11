@@ -26,11 +26,11 @@ concurrency:
   cancel-in-progress: false
 jobs:
   rebuild:
-    if: ${{ !startsWith(github.event.head_commit.message, 'data: rebuild') }}
+    if: "${{ !startsWith(github.event.head_commit.message, 'data: rebuild') }}"
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
-      - name: Check out main (full history: the build stamp reads git log)
+      - name: "Check out main (full history: the build stamp reads git log)"
         uses: actions/checkout@v5
         with:
           ref: main
