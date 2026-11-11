@@ -86409,5 +86409,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xlsPWrMVg9Xc8-t59wiJRQQHBgetbrWc",
+    "drive_name": "140.១៤០ រូបវិថីទី១០​ និងសេចក្តីអធិប្បាយ ថ្ងៃទី ១៤០ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "3e385e70dcdae94b5724f1800433e2bd",
+    "key": "audio/3e385e70dcdae94b-a64.mp3",
+    "bytes": 30492464,
+    "duration_s": 3811,
+    "sha256": "24bc30819c6ae86eeb2a520895180e3ff7a50ae36ad316e706bc25ca92da6b8b",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "G": 11.2,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 7.868621277712187,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
