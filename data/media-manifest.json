@@ -76462,5 +76462,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CsPOuP95FSXl2RGVnOsw667hwP0MVcuI",
+    "drive_name": "បិដកលេខ២០-០៨ ធម៌ជាហេតុលះបង់អាសវៈទាំងពួង.mp3",
+    "source_md5": "a5b555b89e581e6c753489de7b4c0708",
+    "key": "audio/a5b555b89e581e6c-a64.mp3",
+    "bytes": 44055657,
+    "duration_s": 5506,
+    "sha256": "0cf278b84f7105504c354009f7f7c3e97988ba6f0fdf2c51c668b106f1c116b0",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -11.9,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 1.4369749923271256,
+      "busy": 0.0015889157239100038,
+      "out": {
+        "I": -18,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
