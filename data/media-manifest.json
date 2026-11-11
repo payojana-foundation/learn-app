@@ -77738,5 +77738,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1tfYZKWuSf02ptrZKMChcHkqi4ZaUS9OB",
+    "drive_name": "367.13 Jul 2025 រាត្រីធម្មទានកន្លះម៉ោង! សិក្សាក្នុងគម្ពីវិសុទ្ធិមគ្គ សូមអនុមោទនា!.mp3",
+    "source_md5": "18d8f1406bcdb8c783873767ca195fd3",
+    "key": "audio/18d8f1406bcdb8c7-a64.mp3",
+    "bytes": 14354433,
+    "duration_s": 1794,
+    "sha256": "4e3afcdf76adf16ffbf09c1cfb36d90b0958eb230dad1142fc72362ce4cb537f",
+    "loudness": {
+      "pass1": {
+        "I": -20.7,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 3.599999999999998,
+      "limit": 0.6,
+      "depth": 8.236974992327125,
+      "busy": 2.8890901490873624,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
