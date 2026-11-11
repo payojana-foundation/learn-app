@@ -76288,5 +76288,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1sPBKBBloG1zoRKbGiSewimuTOVyh8zSA",
+    "drive_name": "76.៧៦ រូបាវចសោភណចិត្ត​ ១៥ដួង អធិប្យាយអង្គឈាន៥ របស់បឋមឈាន ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧៦.mp3",
+    "source_md5": "6d3a78ead741bbe1f8c4b0ff377aebb5",
+    "key": "audio/6d3a78ead741bbe1-a64.mp3",
+    "bytes": 27720349,
+    "duration_s": 3464,
+    "sha256": "d26856eff6bcaa62ea23c19d57e46c9dca0508a93134792d4475db423eade80b",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "G": 8.5,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 7.852453102453103,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
