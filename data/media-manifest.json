@@ -76926,5 +76926,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gdVF5JsQx-D13-4NuKd-MwyYl-McdIEq",
+    "drive_name": "4.គ្គខ្លី លើកទី ​៥២.mp3",
+    "source_md5": "086e6023f71eb4fb0f71568307532fe1",
+    "key": "audio/086e6023f71eb4fb-a64.mp3",
+    "bytes": 23599899,
+    "duration_s": 2949,
+    "sha256": "8406e92e78444ee93fe976781e84860b21cb315654656b11e36991eac205cce1",
+    "loudness": {
+      "pass1": {
+        "I": -31.7,
+        "TP": -10.3,
+        "LRA": 0
+      },
+      "G": 16,
+      "limit": 0.6,
+      "depth": 10.136974992327126,
+      "busy": 6.278496245699079,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
