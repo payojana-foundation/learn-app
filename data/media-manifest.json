@@ -60512,5 +60512,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1OhXOIRJ9Gkpc2kyoIXRcxQQdXtwZe3K2",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៩៦ អកុសលវិបាក ជិវ្ហាវិញ្ញាណ និងទុក្ខកាយវិញ្ញាណ.mp3",
+    "source_md5": "1b5694069674ffaf244189703e0f53c2",
+    "key": "audio/1b5694069674ffaf-a64.mp3",
+    "bytes": 43210126,
+    "duration_s": 5401,
+    "sha256": "d572edbe5467465a7723eff469a8e0043ef759cd65b491f9e3a75afac4c7e621",
+    "loudness": {
+      "pass1": {
+        "I": -25,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 9,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 5.189308030548484,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
