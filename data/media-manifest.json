@@ -84988,5 +84988,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1zHhuTjG9RW35KBc9e0_HfcOyj4QrSKjB",
+    "drive_name": "96.៩៦ លោកុត្តរចិត្ត៤០​ ប្រកបដោយឈាន ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៩៦.mp3",
+    "source_md5": "8ea19775a02269b05287bddea362b9ff",
+    "key": "audio/8ea19775a02269b0-a64.mp3",
+    "bytes": 26043079,
+    "duration_s": 3255,
+    "sha256": "9f726236d3bd0682c0f32dae4f2e54ab5cc3edb55fb5704399ae3a441b2b7af1",
+    "loudness": {
+      "pass1": {
+        "I": -18.6,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 4,
+      "limit": 0.6,
+      "depth": 8.136974992327128,
+      "busy": 8.056353387500575,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
