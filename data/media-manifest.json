@@ -67646,5 +67646,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1av2ympkJe6VWEizQaEAmOqT9eLJkBJ-j",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៥៧(១៥៩ សមថកម្មដ្ឋាន៤០ វិនិច្ឆ័យដោយអាការ១០យ៉ាង.mp3",
+    "source_md5": "bb0bb7fe75f4bf5344f5f2195857e884",
+    "key": "audio/bb0bb7fe75f4bf53-a64.mp3",
+    "bytes": 45303892,
+    "duration_s": 5662,
+    "sha256": "acec8a49b485ff250d55ff9e3f5837d80432c6a38e113109a70782bc8fe649ee",
+    "loudness": {
+      "pass1": {
+        "I": -22.9,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.299999999999997,
+      "limit": 0.6,
+      "depth": 11.336974992327125,
+      "busy": 5.188770870306112,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
