@@ -72286,5 +72286,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Cd6C2hd6R3QHnP49WUimhDNPL22tvqtX",
+    "drive_name": "297-05 Feb 2025 រាត្រីធម្មទាន.mp3",
+    "source_md5": "7e35806cf2096b081aa8fc5ea1dc587f",
+    "key": "audio/7e35806cf2096b08-a64.mp3",
+    "bytes": 12835360,
+    "duration_s": 1604,
+    "sha256": "ba49185d94f99310a8db823c4a71a100cbb57ccda8b335e2ededae23841b2e73",
+    "loudness": {
+      "pass1": {
+        "I": -20.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.5000000000000036,
+      "limit": 0.6,
+      "depth": 7.536974992327131,
+      "busy": 3.576993798111385,
+      "out": {
+        "I": -18,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
