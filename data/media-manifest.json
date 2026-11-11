@@ -63035,5 +63035,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1y0lHPLAWkE-PQn33YJs5gbF92uji1uOL",
+    "drive_name": "២០០ រាត្រីធម្មទាន​ 19 July 2024.mp3",
+    "source_md5": "67c41f6b51501c9decd942eb1b02d3ca",
+    "key": "audio/67c41f6b51501c9d-a64.mp3",
+    "bytes": 6800238,
+    "duration_s": 849,
+    "sha256": "7ee24419af84e96f441d30c8b901eaa88bb47701c75b3698e152b56c77e2721d",
+    "loudness": {
+      "pass1": {
+        "I": -20.7,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.6999999999999993,
+      "limit": 0.6,
+      "depth": 7.736974992327127,
+      "busy": 2.7044117647058825,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
