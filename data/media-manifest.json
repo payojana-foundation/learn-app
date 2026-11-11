@@ -85133,5 +85133,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IZuH-_PgQO5XjE2bLsT0YpwFMUhyeQPG",
+    "drive_name": "97.៩៧ លោកុត្តរចិត្ត៨ដួង​ ដោយន័យ១៤ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៩៧.mp3",
+    "source_md5": "8a3d845b3f10745f073b01e79c8e2e89",
+    "key": "audio/8a3d845b3f10745f-a64.mp3",
+    "bytes": 27347739,
+    "duration_s": 3418,
+    "sha256": "cd9f2240571615cf60ffd101902436e34794cde295a5a9d85f97a1ccb79a5b71",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "G": 9.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.67208343084484,
+      "out": {
+        "I": -18.3,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
