@@ -141,6 +141,10 @@ export function mapColumns(text, hr) {
 
 // ── one tab ──────────────────────────────────────────────────────────────────
 
+export const INSTRUCTION_TAB_REASON = 'ignored: instruction tab';
+/** Part F: tab names starting with "0_" are instructions, not courses. */
+export const isInstructionTab = (name) => String(name ?? '').startsWith('0_');
+
 /**
  * Parse one tab grid → { status, reason, headerRow, cols, lessons[], unnumbered[] }.
  * grid = { text: string[][], links: string[][] } (row 0 = sheet row 1).
@@ -148,6 +152,11 @@ export function mapColumns(text, hr) {
 export function parseTab(grid) {
   const text = grid.text || [];
   const links = grid.links || [];
+  // Part F: a tab named "0_…" (any file) is an instruction tab, never a course.
+  // Checked BEFORE the header search, which would match label words in sentences.
+  if (isInstructionTab(grid.name)) {
+    return { status: 'skipped', reason: INSTRUCTION_TAB_REASON, headerRow: -1, lessons: [], unnumbered: [] };
+  }
   if (text.length === 0 || text.every((r) => (r || []).every((c) => outer(c) === ''))) {
     return { status: 'skipped', reason: 'empty tab', headerRow: -1, lessons: [], unnumbered: [] };
   }
