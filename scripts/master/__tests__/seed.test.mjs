@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { LABELS } from '../../catalogue/sheets-map.mjs';
 import { HIDDEN_TABS } from '../../catalogue/catalogue-build.mjs';
 import {
-  buildMaster, loadColumns, masterCsv, legacyCsv, excludedCsv, rawLink, minicourseDecision, scanMiniCourse,
+  buildMaster, acastEmbedUrl, loadColumns, masterCsv, legacyCsv, excludedCsv, rawLink, minicourseDecision, scanMiniCourse,
   writeToSheet, RefuseError, DETAILS_LABEL, YOUTUBE_EXTRA_LABEL,
 } from '../seed.mjs';
 import { parseCsvObjects } from '../csv.mjs';
@@ -17,9 +17,9 @@ const SLUG = 't-one';
 const teachers = [{ slug: SLUG, name_km: 'Teacher One Display', name_en: 'Teacher One' }];
 
 // column order of the fixture tabs
-const H0 = ['', '', '', '', 'MP3 link', 'MP4 link', 'Video for MiniCourse', 'YouTube link', DETAILS_LABEL, YOUTUBE_EXTRA_LABEL, 'Embed link from Acast', 'acast', 'Soundwise', 'Ready ?', 'MiniCourse', 'Position', ''];
-const H1 = ['L.R', LABELS.teacher, LABELS.title, LABELS.code, '', '', '', '', '', '', '', '', '', '', '', '', `${LABELS.code} Video`];
-const cells = (o) => [o.num ?? '', 'tc', o.title ?? '', o.code ?? '', o.mp3 ?? '', o.mp4 ?? '', o.mini ?? '', o.yt ?? '', o.details ?? '', o.ytx ?? '', o.embed ?? '', o.acast ?? '', o.sw ?? '', o.ready ?? '', o.mc ?? '', o.pos ?? '', o.vcode ?? ''];
+const H0 = ['', '', '', '', 'MP3 link', 'MP4 link', 'Video for MiniCourse', 'YouTube link', DETAILS_LABEL, YOUTUBE_EXTRA_LABEL, 'Embed link from Acast', 'acast', 'Soundwise', 'Ready ?', 'MiniCourse', 'Position', '', 'Other Embed link'];
+const H1 = ['L.R', LABELS.teacher, LABELS.title, LABELS.code, '', '', '', '', '', '', '', '', '', '', '', '', `${LABELS.code} Video`, ''];
+const cells = (o) => [o.num ?? '', 'tc', o.title ?? '', o.code ?? '', o.mp3 ?? '', o.mp4 ?? '', o.mini ?? '', o.yt ?? '', o.details ?? '', o.ytx ?? '', o.embed ?? '', o.acast ?? '', o.sw ?? '', o.ready ?? '', o.mc ?? '', o.pos ?? '', o.vcode ?? '', o.embed2 ?? ''];
 function tab(name, rows) {
   const text = [H0, H1, ...rows.map(cells)];
   return { name, text, links: text.map((r) => r.map(() => '')) };
@@ -102,18 +102,41 @@ describe('PART 2 seed: columns of the sheet', () => {
   });
   it('acast / soundwise / minicourse statuses (C6, C8)', () => {
     const { rows, legacy } = one([
-      { num: '1', title: 'a', code: 'CODE0001', mp3: url('A'), acast: 'done', embed: 'https://embed/1', sw: 'done', mc: 'done' },
+      { num: '1', title: 'a', code: 'CODE0001', mp3: url('A'), acast: 'done', embed: 'https://embed.acast.com/1', sw: 'done', mc: 'done' },
       { num: '2', title: 'b', code: 'CODE0002', mp3: url('B'), acast: 'done', sw: '', mc: '' },
-      { num: '3', title: 'c', code: 'CODE0003', mp3: url('C'), acast: '', embed: 'https://embed/3', sw: 'STRAY VALUE ' },
+      { num: '3', title: 'c', code: 'CODE0003', mp3: url('C'), acast: '', embed: 'https://embed.acast.com/3', sw: 'STRAY VALUE ' },
       { num: '4', title: 'd', code: 'CODE0004', mp3: url('D') },
     ]);
     expect(rows.map((r) => r.acast_status)).toEqual(['posted', 'posted', 'posted', 'to do']);
-    expect(rows.map((r) => r.acast_embed)).toEqual(['https://embed/1', '', 'https://embed/3', '']);
+    expect(rows.map((r) => r.acast_embed)).toEqual(['https://embed.acast.com/1', '', 'https://embed.acast.com/3', '']);
     expect(rows.map((r) => r.issues.includes('acast embed missing'))).toEqual([false, true, false, false]);
     expect(rows.map((r) => r.soundwise_status)).toEqual(['posted', 'to do', 'to do', 'to do']);
     expect(rows.map((r) => r.minicourse_status)).toEqual(['posted', 'to do', 'to do', 'to do']);
     // the stray Soundwise value is kept byte-for-byte in Legacy
     expect(legacy.filter((l) => l.label === 'Soundwise')).toEqual([{ row_key: 'M00003', source_file: F1, source_tab: 'T1', source_row: '5', label: 'Soundwise', value: 'STRAY VALUE ' }]);
+  });
+  it('PART 4: acast_embed is decided by the URL host (both embed labels); anything else stays in Legacy', () => {
+    const { rows, legacy } = one([
+      { num: '1', title: 'a', code: 'CODE0001', mp3: url('A'), embed2: 'https://play.acast.com/s/x/1' },
+      { num: '2', title: 'b', code: 'CODE0002', mp3: url('B'), embed: 'https://example.com/e/2', acast: 'done' },
+      { num: '3', title: 'c', code: 'CODE0003', mp3: url('C'), embed2: '6748088e74eb04a4db2ba53c' },
+      { num: '4', title: 'd', code: 'CODE0004', mp3: url('D'), embed: 'https://embed.acast.com/4', embed2: 'https://play.acast.com/s/y/4' },
+    ]);
+    expect(rows.map((r) => r.acast_embed)).toEqual(['https://play.acast.com/s/x/1', '', '', 'https://embed.acast.com/4']);
+    expect(rows.map((r) => r.acast_status)).toEqual(['posted', 'posted', 'to do', 'posted']);
+    expect(rows.map((r) => r.issues.includes('acast embed missing'))).toEqual([false, true, false, false]); // done + no Acast URL
+    expect(legacy.map((l) => [l.row_key, l.label, l.value])).toEqual([
+      ['M00002', 'Embed link from Acast', 'https://example.com/e/2'],
+      ['M00003', 'Other Embed link', '6748088e74eb04a4db2ba53c'],
+      ['M00004', 'Other Embed link', 'https://play.acast.com/s/y/4'],
+    ]);
+  });
+  it('acastEmbedUrl: host only, not the path or the text', () => {
+    expect(acastEmbedUrl('https://embed.acast.com/abc')).toBe(true);
+    expect(acastEmbedUrl('<iframe src="https://play.acast.com/x">')).toBe(true);
+    expect(acastEmbedUrl('https://example.com/acast')).toBe(false);
+    expect(acastEmbedUrl('acast')).toBe(false);
+    expect(acastEmbedUrl('')).toBe(false);
   });
   it('MiniCourse with a value that is not done/empty → the whole column goes to Legacy, minicourse_status stays empty', () => {
     const { rows, legacy, stats } = one([

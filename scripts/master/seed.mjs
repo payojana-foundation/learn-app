@@ -41,6 +41,7 @@ export const YOUTUBE_EXTRA_LABEL = 'តំណក្នុង YoutTube';
 const DONE = /^done$/i;
 const YES = /^yes$/i;
 const READY_RE = /^(ready|realy)\s*\?*$/i;
+const EMBED_LABEL_RE = /embed link/i;
 const MINI_RE = /^minicourse$/i; // the plain MiniCourse / minicourse status columns
 const urlish = (t) => /https?:\/\//i.test(t) || t.length > 90;
 
@@ -92,10 +93,12 @@ export function assignColumns(text, hr, cols, { miniStatus = false } = {}) {
   byLabel('details', (l) => l === norm(DETAILS_LABEL));
   byLabel('youtube_extra', (l) => l === norm(YOUTUBE_EXTRA_LABEL));
   byLabel('acast', (l) => /^acast$/i.test(l));
-  byLabel('acast_embed', (l) => /^embed link from acast$/i.test(l));
   byLabel('soundwise', (l) => /^soundwise$/i.test(l));
   byLabel('ready', (l) => READY_RE.test(l));
   if (miniStatus) byLabel('minicourse_status', (l) => MINI_RE.test(l));
+  // Every embed-labelled column (the Acast label and the other embed label): the CELL decides
+  // (acastEmbedUrl); a cell that is not an Acast URL stays in Legacy.
+  norms.forEach((l, i) => { if (l && !role.has(i) && EMBED_LABEL_RE.test(l)) role.set(i, 'embed'); });
   return { norms, raws, role };
 }
 
@@ -108,6 +111,23 @@ export function rawLink(text, link) {
   const raw = outer(text);
   if (driveIds(raw).length || hasFolderLink(raw) || /https?:\/\//i.test(raw)) return raw;
   return link ? String(link) : raw;
+}
+
+/** True when the URL host of 	ext contains cast (embed.acast.com, play.acast.com …). */
+export function acastEmbedUrl(text) {
+  const m = /https?:\/\/([^\/\s?#"'<>]+)/i.exec(String(text ?? ''));
+  return !!m && m[1].toLowerCase().includes('acast');
+}
+
+/** acast_embed for one row: the first embed-labelled cell (both labels) whose URL host
+ * contains cast; marks that column used. Other embed cells stay for Legacy. */
+function acastEmbed(t, r0, role, used) {
+  for (const [c, r] of role) {
+    if (r !== 'embed') continue;
+    const v = rawLink(cellText(t, r0, c), cellLink(t, r0, c));
+    if (v !== '' && acastEmbedUrl(v)) { used.add(c); return v; }
+  }
+  return '';
 }
 
 /** Evidence for the MiniCourse decision (C8): done/empty only → a status column,
@@ -223,7 +243,7 @@ export function buildMaster(files, ctx = {}) {
         };
         const youtube = L('youtube') || L('youtube_extra');
         const acastCell = idx('acast') >= 0 ? cellText(t, r0, idx('acast')) : '';
-        const embed = L('acast_embed');
+        const embed = acastEmbed(t, r0, role, used);
         const swCell = idx('soundwise') >= 0 ? cellText(t, r0, idx('soundwise')) : '';
         const readyCell = idx('ready') >= 0 ? cellText(t, r0, idx('ready')) : '';
         const miniCell = idx('minicourse_status') >= 0 ? cellText(t, r0, idx('minicourse_status')) : '';
@@ -281,7 +301,7 @@ export function buildMaster(files, ctx = {}) {
         for (let c = 0; c < norms.length; c++) {
           if (!norms[c]) continue;
           const r = role.get(c);
-          const consumed = r && !(r === 'youtube_extra' && !used.has(c)) && !strayCols.has(c);
+          const consumed = r && !((r === 'youtube_extra' || r === 'embed') && !used.has(c)) && !strayCols.has(c);
           if (consumed) continue;
           const text = cellText(t, r0, c);
           const value = outer(text) !== '' ? text : cellLink(t, r0, c);
