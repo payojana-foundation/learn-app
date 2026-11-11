@@ -60889,5 +60889,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1u7Za_32YCfXVXx0kqzgoZf9ADLKiSJL9",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១០៩ មហាកុសលចិត្តដួងទី១ និងអត្ថរបស់កុសល.mp3",
+    "source_md5": "4cb0331e1460ce608048142fcc498cb2",
+    "key": "audio/4cb0331e1460ce60-a64.mp3",
+    "bytes": 45944624,
+    "duration_s": 5743,
+    "sha256": "4b2c3e1fd42f852a73ad8af0f95d15b2c006fb0e7a4abdbd1bc7ff0808967a45",
+    "loudness": {
+      "pass1": {
+        "I": -25.4,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.579012893845604,
+      "out": {
+        "I": -19,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
