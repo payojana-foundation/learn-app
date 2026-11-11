@@ -83509,5 +83509,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18x1EuTupk5VPjUIUQAuMHXvJW972Vo0x",
+    "drive_name": "បិដកលេខ២០-59 ធម្មានុបស្សនាសច្ចបព្វ ពន្យល់អត្ថនៃសច្ចតាមមហាដីកាភាគ២.mp3",
+    "source_md5": "a318c2521a6829ab8a93e9724de44593",
+    "key": "audio/a318c2521a6829ab-a64.mp3",
+    "bytes": 51772020,
+    "duration_s": 6471,
+    "sha256": "65a28ef859104749967847d4057af88f58b56ec699a3feccb777f2d37e650d21",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5.5,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 9.436974992327126,
+      "busy": 4.9079031747135495,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
