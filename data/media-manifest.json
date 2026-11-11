@@ -65123,5 +65123,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CwizkD1QeFvPOP8YUtaxsfbgSIIXUSRP",
+    "drive_name": "12.១២ អធិប្បាយវិថីចិត្ត​២យ៉ាង ១-កាមវិថីចិត្ត មេរៀនថ្ងៃទី ១២ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង.mp3",
+    "source_md5": "ff6449360258e207a3d16aecf0f99138",
+    "key": "audio/ff6449360258e207-a64.mp3",
+    "bytes": 32760728,
+    "duration_s": 4095,
+    "sha256": "a134e0730bb32d2f6ddcefff451148224a33357c6e4fa06ef8450eefca5ffd1e",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.680309153734386,
+      "out": {
+        "I": -18.4,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
