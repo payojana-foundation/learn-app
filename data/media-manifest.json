@@ -67762,5 +67762,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "185vS75d4X5ahdcoJl0GrkJzh1CetAHxJ",
+    "drive_name": "27.២៧ អធិប្បាយវិថីចិត្ត​២យ៉ាង ១-កាមវិថីចិត្ត​ កិ​ច្ចផ្សេងៗក្នុងវិថីចិត្តនេះមិនច្រឡំគ្នាឡើយ.mp3",
+    "source_md5": "07bc9766fe916d043ad933500d783ef6",
+    "key": "audio/07bc9766fe916d04-a64.mp3",
+    "bytes": 26200023,
+    "duration_s": 3274,
+    "sha256": "3122562a5f3c22c4c34db07d27d294181b39475cff463b9fd5289d95507716bd",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "G": 11.200000000000003,
+      "limit": 0.6,
+      "depth": 10.93697499232713,
+      "busy": 8.019588085314279,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
