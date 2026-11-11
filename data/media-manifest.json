@@ -63731,5 +63731,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1L_85z4g-AZmJPgtAWuld8qLhgQapuaCm",
+    "drive_name": "4.៤ វិសយប្បវត្តិឆក្កៈទី ​៦ មេរៀនថ្ងៃទី ៤ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "3b53a4edb27ef33330aef27b017fe7cb",
+    "key": "audio/3b53a4edb27ef333-a64.mp3",
+    "bytes": 21911135,
+    "duration_s": 2738,
+    "sha256": "fc80555ff785ffb9277ef15f1981f042988c8881e47f520ab5405b79d6594401",
+    "loudness": {
+      "pass1": {
+        "I": -25.5,
+        "TP": -5.1,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 10.336974992327129,
+      "busy": 8.141647041641566,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
