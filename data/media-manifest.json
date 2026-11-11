@@ -63847,5 +63847,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JOH5iiB3msS4i-ZlcbzuwQatEWjAkkAK",
+    "drive_name": "5.៥ អាយុរបស់រូបធម៌ មេរៀនថ្ងៃទី ៥ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "86ffad4230c0b20af30a16fb21b34c98",
+    "key": "audio/86ffad4230c0b20a-a64.mp3",
+    "bytes": 30530080,
+    "duration_s": 3816,
+    "sha256": "2aed2b8fdba7d81a7389fe3b5508c0826f22d4339cd899fef3a16b19d8b054cc",
+    "loudness": {
+      "pass1": {
+        "I": -25.5,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "G": 11.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.524186363398146,
+      "out": {
+        "I": -18.6,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
