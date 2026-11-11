@@ -83654,5 +83654,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1G9lggGWbo6f3AAK04_qHVTkxHgBfl0LF",
+    "drive_name": "បិដកលេខ២០-64 សមុទយសច្ចៈ តណ្ហា ៣ គឺកាមតណ្ហា ភវតណ្ហា វិភវតណ្ហា.mp3",
+    "source_md5": "5e268c1af0fd1774a5162d5b3f10c97c",
+    "key": "audio/5e268c1af0fd1774-a64.mp3",
+    "bytes": 52250583,
+    "duration_s": 6531,
+    "sha256": "3dd6fcebf004baf86846c04a8e1f66745d862b3b8eb413a677918d17ddde760e",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6.2,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 8.436974992327126,
+      "busy": 4.784843752392327,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
