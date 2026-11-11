@@ -81073,5 +81073,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12Hnc-8aUKeEOiN4scmkcPcLEwcHh-vqs",
+    "drive_name": "បិដកលេខ២០-30 ដឹងច្បាស់នូវ អាយតន ផស្សៈ វេទនា .mp3",
+    "source_md5": "bf885a20fa0e2e6206e7d1aa2e333bfb",
+    "key": "audio/bf885a20fa0e2e62-a64.mp3",
+    "bytes": 43615546,
+    "duration_s": 5451,
+    "sha256": "73e5e2f2da0f52df809d2b4bce58bee369c58e6a37b60703a5fbfa660ea31048",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -12.9,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.43697499232712556,
+      "busy": 0.0006878335992956583,
+      "out": {
+        "I": -18,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
