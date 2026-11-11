@@ -85307,5 +85307,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1svh82zflhd9CpM704J984EkR-fAWzFCS",
+    "drive_name": "101.១០១ ចិត្ត ១២១ដួង ដោយន័យ ១៤ន័យ ចប់បរិច្ឆេទទី១ ចិត្តបរមត្ថ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី១០១.mp3",
+    "source_md5": "ea0f009c4c6d7a48b9b15d5b6611d55d",
+    "key": "audio/ea0f009c4c6d7a48-a64.mp3",
+    "bytes": 26307647,
+    "duration_s": 3288,
+    "sha256": "e30da0dc1fcf225ecd1fc760fb51d6fce6535bec6ff8f0818d41f96b6b40d92c",
+    "loudness": {
+      "pass1": {
+        "I": -27.5,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 12.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.8296892105583265,
+      "out": {
+        "I": -18.4,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
