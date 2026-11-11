@@ -70314,5 +70314,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1eX7S5Rss2ujtkrbA-I5WLIqxFmWduvff",
+    "drive_name": "38.៣៨ អកុសលកម្មបថ​១០ ចប់ ផ្តើមអហេតុកចិត្ត​១៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣៨.mp3",
+    "source_md5": "5c730774de486558659ed37d170c31a6",
+    "key": "audio/5c730774de486558-a64.mp3",
+    "bytes": 24594224,
+    "duration_s": 3074,
+    "sha256": "76720873a6d0ac0e23dc3301d1185466506ebc8260a1361c5aea30b9c9c6b650",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 8.163025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.647556314548264,
+      "out": {
+        "I": -19,
+        "TP": -4.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
