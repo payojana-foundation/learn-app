@@ -65790,5 +65790,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1OInG74FUsLM5UEVh3up8-u1ateU6u9Pa",
+    "drive_name": "8.០៦ លោភមូលចិត្ត​ ៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៦.mp3",
+    "source_md5": "648b007d2cf5648584ff15cbf2167c01",
+    "key": "audio/648b007d2cf56485-a64.mp3",
+    "bytes": 14258511,
+    "duration_s": 1782,
+    "sha256": "b9fa862235a511f711fe82f1d7d9515f73c8b7bb31afeedf8113ce3577828a07",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 9.599999999999998,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 7.0058914293729835,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
