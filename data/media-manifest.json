@@ -83828,5 +83828,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vRvVGn_6_vNu9kAN6ZVbh6ceCRc8K7_2",
+    "drive_name": "បិដកលេខ២០-70 ចូឡសីហនាទសូត្រ អំពីការជ្រះថ្លា៤ យ៉ាង.mp3",
+    "source_md5": "6aedd3bf8c262d018b2b340b35f28b8c",
+    "key": "audio/6aedd3bf8c262d01-a64.mp3",
+    "bytes": 51388124,
+    "duration_s": 6423,
+    "sha256": "17b2b8a4a112e8c68a6414b65c6e10cdd12dde3421ea1a1040428b5a34ac92ac",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5.8,
+        "LRA": 0
+      },
+      "G": 9.899999999999999,
+      "limit": 0.6,
+      "depth": 8.536974992327126,
+      "busy": 5.55674476531486,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
