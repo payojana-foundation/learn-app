@@ -80754,5 +80754,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14gqwFciO9kv52hIveMgjvDcWqS-jOsKQ",
+    "drive_name": "438-04 Jan 2025  រាត្រីធម្មទាន សិក្សារក្នុងគម្ពីវិសុទ្ធិមគ្គ ព្រ ហ្មវិហារនិទ្ទេស! សូមសព្វសត្វក្នុងបានស.mp3",
+    "source_md5": "75b7f71c0d8600f5466ef00931559fcf",
+    "key": "audio/75b7f71c0d8600f5-a64.mp3",
+    "bytes": 14371778,
+    "duration_s": 1796,
+    "sha256": "9fddff3e5857cb148be884f014347b4696496a8c52325801cca6d886662ebe7c",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5.3,
+        "LRA": 0
+      },
+      "G": 9.2,
+      "limit": 0.6,
+      "depth": 8.336974992327127,
+      "busy": 1.9858610036460798,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
