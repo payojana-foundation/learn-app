@@ -76172,5 +76172,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lUkjOSGfrU456qYPG5KK4feljyiei4mf",
+    "drive_name": "71.៧១ អប្បនាជវនវារៈមានវេទនា២អធិប្បាយសង្គហគាថាទី​៦ មេរៀនថ្ងៃទី៧១ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤.mp3",
+    "source_md5": "16e37ebb6b61006a09ee55d781663e79",
+    "key": "audio/16e37ebb6b61006a-a64.mp3",
+    "bytes": 30721087,
+    "duration_s": 3840,
+    "sha256": "831d69911cbb35dc89723ab9226b95a5849edf6eb24bc3efa86395a5107b5639",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 11.900000000000002,
+      "limit": 0.6,
+      "depth": 11.93697499232713,
+      "busy": 9.055102731699696,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
