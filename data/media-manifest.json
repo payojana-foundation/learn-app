@@ -67965,5 +67965,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-wMIHMIGEhYmrSCBFlsiQ4IigkUGZPDB",
+    "drive_name": "22.២១ លក្ខណាទិចតុករបស់​ វិចិកិច្ឆា ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ២១.mp3",
+    "source_md5": "e5259ff63ef80f52d8d9e40892638739",
+    "key": "audio/e5259ff63ef80f52-a64.mp3",
+    "bytes": 29288114,
+    "duration_s": 3660,
+    "sha256": "3d04d0ed0e659056a6a1d72ebe55d917affc87dda03600761f0741501bca9931",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "G": 8.900000000000002,
+      "limit": 0.6,
+      "depth": 10.93697499232713,
+      "busy": 6.347309478284622,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
