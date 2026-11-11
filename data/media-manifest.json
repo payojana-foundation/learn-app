@@ -80841,5 +80841,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1t1nBGRCEVKq0SCij-4eB4Bgo5ICu_ASm",
+    "drive_name": "439-05 Jan 2025 រាត្រីធម្មទានកន្លះម៉ោង សិក្សារ ក្នុងគម្ពីវិសុទ្ធិមគ្គ ព្រហ្មវិហារនិទេស សូមអនុមោទនា។.mp3",
+    "source_md5": "b38a8e13f4e799ee940db405754c470f",
+    "key": "audio/b38a8e13f4e799ee-a64.mp3",
+    "bytes": 12368500,
+    "duration_s": 1545,
+    "sha256": "74ed02b498eb10782c1ae8be099d908cd4944f4f62404cf0d4ea11511177f9fb",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 9.399999999999999,
+      "limit": 0.6,
+      "depth": 9.036974992327126,
+      "busy": 2.505659767141009,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
