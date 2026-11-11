@@ -79826,5 +79826,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1jmdZHTcWh2bq5yV_sn9lxLFB57GQseY0",
+    "drive_name": "415-04 Nov 2025 រាត្រីធម្មទាន កន្លះម៉ោង សិក្សាក្នុងគម្ពីរ វិសុទ្ធិមគ្គ សូមអនុមោទនា។  ធម្ម រស.mp3",
+    "source_md5": "e087bbac55c4db911cea8c299a121380",
+    "key": "audio/e087bbac55c4db91-a64.mp3",
+    "bytes": 12026400,
+    "duration_s": 1503,
+    "sha256": "73745d50d974e3e48342f4beaf979c9af307f619223485cba66db3667879c147",
+    "loudness": {
+      "pass1": {
+        "I": -18.9,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 1.5999999999999979,
+      "limit": 0.6,
+      "depth": 5.836974992327125,
+      "busy": 1.8060868119075337,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
