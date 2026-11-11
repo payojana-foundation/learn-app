@@ -60715,5 +60715,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pJFu0W2Y9lasCZYfebwuh4wJM65mAN_c",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១០៣ វេហសិតុប្បាទចិត្ត ការញញឹមចែកចេញជា ៦ យ៉ាង.mp3",
+    "source_md5": "0eaa5480c7ae417c4bff9e458611e9e8",
+    "key": "audio/0eaa5480c7ae417c-a64.mp3",
+    "bytes": 45924771,
+    "duration_s": 5740,
+    "sha256": "ba06c463f3120beb9c02b8266adc0fb765c2731fbdf18acb5be08f98d57524c6",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 7.800000000000001,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 5.31133776380312,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
