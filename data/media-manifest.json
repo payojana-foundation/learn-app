@@ -62919,5 +62919,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1sfZIHqHdq5MxecM9m6XFoDIe4Cm1XbzW",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៣៧.(១៤០ អានិសង្សការវៀរចាកអព្រហ្មចរិយ មុសាវាទ សុរាមេរ័យភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "d66861910957e8813f70a1d300187f64",
+    "key": "audio/d66861910957e881-a64.mp3",
+    "bytes": 45004634,
+    "duration_s": 5625,
+    "sha256": "fcc55d121166a7c48dc04bd940d4cc56763003c905eb1f70ef56d277a284662e",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 7,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 4.468047284685806,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
