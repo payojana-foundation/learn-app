@@ -65500,5 +65500,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1F1W-czlCM_RlwKAWgzUbsjNqA6OfbyfD",
+    "drive_name": "6.០៤ គាថាធម្មបទ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤.mp3",
+    "source_md5": "eb75bca7d91925a336ec794c82505d62",
+    "key": "audio/eb75bca7d91925a3-a64.mp3",
+    "bytes": 27630488,
+    "duration_s": 3453,
+    "sha256": "efea5d9090dd55c180574d1c3fc423e95be796a8793d56baec8074576b4e2c45",
+    "loudness": {
+      "pass1": {
+        "I": -23.9,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "G": 9.499999999999996,
+      "limit": 0.6,
+      "depth": 11.036974992327124,
+      "busy": 6.8935939196525515,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
