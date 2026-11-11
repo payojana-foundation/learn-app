@@ -60367,5 +60367,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1z_zNGX6a1xY2ffP22f664VGj4UiOnCCt",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៩១ បញ្ចប់អកុសលកម្មបថ និងចូលនិយមន័យអហេតុកចិត្ត.mp3",
+    "source_md5": "0df978bd73c270808d7acd1b2b8054c0",
+    "key": "audio/0df978bd73c27080-a64.mp3",
+    "bytes": 40815220,
+    "duration_s": 5101,
+    "sha256": "6ebe5f2e53bdd741560980ba91df3b4fbd68618e0e18e003be2df9ac2a2b06a5",
+    "loudness": {
+      "pass1": {
+        "I": -23,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 6.899999999999999,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 5.043758636573008,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
