@@ -85191,5 +85191,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1uvwpER3bEFcz6ZKqKGqphiCCr6LVM_1i",
+    "drive_name": "99.៩៩ រាប់ព្រះអរិយបុគ្គលដោយពិស្តារ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៩៩.mp3",
+    "source_md5": "ca147a782db01d01ff04c2484c33b94e",
+    "key": "audio/ca147a782db01d01-a64.mp3",
+    "bytes": 25183546,
+    "duration_s": 3147,
+    "sha256": "376cd2afe6346c1c528cfa5fc0a22e5ed746aa1e5a5f3f227b54a90eff897e21",
+    "loudness": {
+      "pass1": {
+        "I": -27.3,
+        "TP": -6.1,
+        "LRA": 0
+      },
+      "G": 13.663025007672871,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.468343975348645,
+      "out": {
+        "I": -18.5,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
