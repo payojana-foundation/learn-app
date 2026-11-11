@@ -84263,5 +84263,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1b3AaBLycvxd14bwKGgC-w1inYr4RSH2r",
+    "drive_name": "84.៨៤ សេចក្តីអធិប្បាយរូបាវចរឈានកុសល៥ដួង ចែករូបាវចរសោភណចិត្តដោយន័យ១៤ន័យ ព្រះអភិធម្មថ្នាក់ដំបូង​ថ្ងៃទី៨៤.mp3",
+    "source_md5": "c3dc7ddabeee51835d25bb425da70ca7",
+    "key": "audio/c3dc7ddabeee5183-a64.mp3",
+    "bytes": 28858034,
+    "duration_s": 3607,
+    "sha256": "0d3aacf0f33e412efd09fd7f8d3fca5fdcf29900a700010cf5b87a4535bc23f2",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "G": 9.500000000000004,
+      "limit": 0.6,
+      "depth": 9.23697499232713,
+      "busy": 6.532421268573963,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
