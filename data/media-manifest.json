@@ -78405,5 +78405,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1xeBYl7CGxH67NXvbxlaqULbVlee-K036",
+    "drive_name": "បិដកលេខ២០-១៥ ភយភេរវសូត្រ ភ័យរបស់សមណអ្នកនៅក្នុងព្រៃ.mp3",
+    "source_md5": "143bd2f47cf691fe00849f31dd747d27",
+    "key": "audio/143bd2f47cf691fe-a64.mp3",
+    "bytes": 46537290,
+    "duration_s": 5817,
+    "sha256": "72d572c4f7c9b645538fd23270c503591f32ede92ea088f28ca29f9880b050a1",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "G": 10.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.648109469413717,
+      "out": {
+        "I": -18.3,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
