@@ -70749,5 +70749,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16pBDqQuyhYgpSsb3izHhwC08oSBk67aw",
+    "drive_name": "41.៤១ អកុសលវិបាកចិត្ត​៧ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤១.mp3",
+    "source_md5": "1162075051bfd96b766bb77067c848a0",
+    "key": "audio/1162075051bfd96b-a64.mp3",
+    "bytes": 26752147,
+    "duration_s": 3343,
+    "sha256": "080e91c4fff1ae96221ce74315117e111d0fa89c7f3749bbee720b01bdac5b01",
+    "loudness": {
+      "pass1": {
+        "I": -24,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "G": 8.200000000000003,
+      "limit": 0.6,
+      "depth": 9.83697499232713,
+      "busy": 8.289847488038278,
+      "out": {
+        "I": -18.1,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
