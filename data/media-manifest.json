@@ -80899,5 +80899,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ggVo0RUvIgIPF8aVoTP0TIvmzprdNAjH",
+    "drive_name": "441-07 Jan 2025 រាត្រីធម្មទាន សិក្សារក្នុងគម្ពីរ វិសុទ្ធិមគ្គ វិហារធម៌ សូមអនុមោទនា!  ធម្ម រស.mp3",
+    "source_md5": "38d867aaec44814bd58c1e0ec3d222b7",
+    "key": "audio/38d867aaec44814b-a64.mp3",
+    "bytes": 14200415,
+    "duration_s": 1774,
+    "sha256": "0c10062fcb7a9055f49e320aa29594e6ccbfa6059699ca889e423ef3159130cf",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5.2,
+        "LRA": 0
+      },
+      "G": 9.3,
+      "limit": 0.6,
+      "depth": 8.536974992327128,
+      "busy": 2.223943661971831,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
