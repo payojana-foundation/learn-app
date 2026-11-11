@@ -78057,5 +78057,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KIRdcSmCA8_wgKzDozCb3BwdGOD-3FZD",
+    "drive_name": "69.៦៩ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៣ បកិណ្ណកសង្គហវិភាគមេរៀនថ្ងៃទី ៦៩   ៦-វត្ថុសង្គហៈ វត្ថុ​ ជាមួយនឹ.mp3",
+    "source_md5": "4ba9f5c6da68081d77d49a6084324830",
+    "key": "audio/4ba9f5c6da68081d-a64.mp3",
+    "bytes": 29553100,
+    "duration_s": 3694,
+    "sha256": "c0a7952e0918a84f3356c7f6134521c59f83ee5c09ae9221a297e6bac5c62b1a",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 11.5,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 8.563993936276766,
+      "out": {
+        "I": -18.3,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
