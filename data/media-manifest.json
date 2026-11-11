@@ -77709,5 +77709,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nfa55T5-NTywPXSx1CwEUxrGJ_SgaZU-",
+    "drive_name": "បិដកលេខ២០-១២ ធម្មទាយាទសូត្រ អំពីចូរយកធម៌ជាមរក.mp3",
+    "source_md5": "a1c485e58f1982b7966923e9323d5ff8",
+    "key": "audio/a1c485e58f1982b7-a64.mp3",
+    "bytes": 47807677,
+    "duration_s": 5975,
+    "sha256": "8786d1b5daca89dba073933af692eb1b03826612b541b0b7163285fdf7279391",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -5.3,
+        "LRA": 0
+      },
+      "G": 10.299999999999997,
+      "limit": 0.6,
+      "depth": 9.436974992327125,
+      "busy": 4.283419372652047,
+      "out": {
+        "I": -18.2,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
