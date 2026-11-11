@@ -84147,5 +84147,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KhzUSfqfi2jRqvNiHnUmyEOX7Q2dup13",
+    "drive_name": "81.៨១ កាមភព​ចុតិ​ និង​ បដិសន្ធិក្នុងកាមភពថ្មី​ ទី១ មេរៀនថ្ងៃទី៨១ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិ.mp3",
+    "source_md5": "b914fa5fd2fa9d2700023241d7f5d8a7",
+    "key": "audio/b914fa5fd2fa9d27-a64.mp3",
+    "bytes": 28890426,
+    "duration_s": 3611,
+    "sha256": "496ee43a43e08abee9032fe17db47b8e1b37c6712a897d5b41f29a5039be86d9",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 11.499999999999996,
+      "limit": 0.6,
+      "depth": 11.136974992327124,
+      "busy": 8.626168224299066,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
