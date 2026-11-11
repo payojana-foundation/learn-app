@@ -78231,5 +78231,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lak3yg0iyOi6MwT3mEY1nX_NSprhayVu",
+    "drive_name": "378-04 Aug 2025 រាត្រីធម្មទាន.mp3",
+    "source_md5": "577c6539daaf12774d7469c15427b607",
+    "key": "audio/577c6539daaf1277-a64.mp3",
+    "bytes": 9622717,
+    "duration_s": 1202,
+    "sha256": "d322bced8076ac10edcdaf9117d1aa70c253b34ce562e02c3f29a52427ff5db6",
+    "loudness": {
+      "pass1": {
+        "I": -22.7,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.100000000000001,
+      "limit": 0.6,
+      "depth": 10.13697499232713,
+      "busy": 3.638385433987363,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
