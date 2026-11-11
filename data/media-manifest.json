@@ -68226,5 +68226,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16uF4UKPHjtre0_90bf01_rAU7Za4VmNe",
+    "drive_name": "24.២៣ អធិប្បាយសេចក្តីសង្ស័យ ៨ ប្រការ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ២៣.mp3",
+    "source_md5": "bf2531ecbe3b246c9af9a02e6b15237c",
+    "key": "audio/bf2531ecbe3b246c-a64.mp3",
+    "bytes": 27221515,
+    "duration_s": 3402,
+    "sha256": "bd93af4722da0c46f4f10fb01e797c7eb957cff3c4de02bc8baecb493d6885cb",
+    "loudness": {
+      "pass1": {
+        "I": -24.5,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 10.400000000000002,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 7.841314857537507,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
