@@ -75186,5 +75186,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cNVzlodeCkPYAJJUfZCe7CH9kq7YRJgr",
+    "drive_name": "66.៦៦ អប្បនាជវនមនោទ្វារវិថី​ ៧ វិថីត មេរៀនថ្ងៃទី៦៦ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "b35ab19361c70b7d00e92fa058f13432",
+    "key": "audio/b35ab19361c70b7d-a64.mp3",
+    "bytes": 30028529,
+    "duration_s": 3753,
+    "sha256": "b9e671cc24804314f66901f0c3769fe2078fc945397169cadcde7a3f05f1c601",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -5.2,
+        "LRA": 0
+      },
+      "G": 11.000000000000004,
+      "limit": 0.6,
+      "depth": 10.23697499232713,
+      "busy": 8.687558278939656,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
