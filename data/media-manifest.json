@@ -85800,5 +85800,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EfeyaQj6_J_GG8k9KFx6u1xNc_a-9y7B",
+    "drive_name": "118.១១៨ រូបវិថី មេរៀនថ្ងៃទី ១១៨ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "fa1301c1d73127c7922134448881dcd8",
+    "key": "audio/fa1301c1d73127c7-a64.mp3",
+    "bytes": 30755778,
+    "duration_s": 3844,
+    "sha256": "775fe6127fbe73072ae446991414357cf14c5e4c0069545ada87ee324745bcbc",
+    "loudness": {
+      "pass1": {
+        "I": -25.4,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 11.2,
+      "limit": 0.6,
+      "depth": 11.336974992327127,
+      "busy": 9.212956339658469,
+      "out": {
+        "I": -18.3,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
