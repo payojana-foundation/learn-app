@@ -60831,5 +60831,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1wHT8ULyA-pXtmXElcUcX_8-II3ZqhK08",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១០៧ មហាកុសលចិត្ត ៨ និយមន័យសោភណចិត្ត.mp3",
+    "source_md5": "a4c4149b76364126086c8d239810e501",
+    "key": "audio/a4c4149b76364126-a64.mp3",
+    "bytes": 45256663,
+    "duration_s": 5657,
+    "sha256": "c31e7d330e3b11019d20a2c643ceec167dd0101a59a984684df3814b2a53984e",
+    "loudness": {
+      "pass1": {
+        "I": -22.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.5,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 5.713667017261647,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
