@@ -78173,5 +78173,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11LzswZxKpwl24yspclV2zlUg5tqOwzWC",
+    "drive_name": "បិដកលេខ២០-១៤ ភយភេវរសូត្រ ពោលពីភ័យពីការសង្រួម.mp3",
+    "source_md5": "68cc1f0db0253e2a75aab40a36196ac9",
+    "key": "audio/68cc1f0db0253e2a-a64.mp3",
+    "bytes": 43722544,
+    "duration_s": 5465,
+    "sha256": "5b649ea0b1eeefce1043257137f0ee8cffcb644f1f68086d70bcb31f8a0e43f8",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 10.299999999999997,
+      "limit": 0.6,
+      "depth": 10.436974992327125,
+      "busy": 4.400261650778548,
+      "out": {
+        "I": -18.2,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
