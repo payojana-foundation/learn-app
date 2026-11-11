@@ -61179,5 +61179,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1QzCx6EHR5eA_-NuPLW5_JiG2d-qk6-yB",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១១៩(១២២ ក្នុងយូធូប) ចែកមហាកុសលដោយកុសលកម្មបថ១.mp3",
+    "source_md5": "0f5ee6090527e7ad052494a23c407f99",
+    "key": "audio/0f5ee6090527e7ad-a64.mp3",
+    "bytes": 44706420,
+    "duration_s": 5588,
+    "sha256": "3fcadb15def70ba558b9cb4224ef0b76d7fec33be8b3604bfe3e6b082339db7d",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.5,
+      "limit": 0.6,
+      "depth": 11.536974992327128,
+      "busy": 4.900013421017313,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
