@@ -83538,5 +83538,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Y0L_blpbT86XFovUooFUh-rx9bdve8lG",
+    "drive_name": "បិដកលេខ២០-60 ធម្មានុបស្សនាសច្ចបព្វ ពន្យល់ពាក្យថាជាតិទុក្ខ.mp3",
+    "source_md5": "132b1db866bf003b77f60fd3d73bf5a0",
+    "key": "audio/132b1db866bf003b-a64.mp3",
+    "bytes": 53009597,
+    "duration_s": 6626,
+    "sha256": "85922b963e6ff029e0eec62a344f98e8a481ada8d26002cae9340161f6c9a2ed",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -5.9,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 8.636974992327126,
+      "busy": 4.666171155195702,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
