@@ -560,6 +560,7 @@ async function main() {
     teacherFiles: readJson(join(root, 'data', 'teacher-files.json'), { files: {} }).files || {},
     teachers: readJson(join(root, 'data', 'source', 'teachers-2026-11-02', 'teachers-2026-11-02.json'), []),
     aliases,
+    pending: readJson(join(root, 'data', 'teacher-files.json'), {}).pending || [],
   });
   writeFileSync(join(out, 'catalogue-draft.csv'), renderCsv(cat.rows), 'utf-8');
   writeFileSync(join(out, 'CATALOGUE-REPORT.md'), renderReport(cat, pilot, { queuePath, unmappedTeacherFiles: unmapped }), 'utf-8');

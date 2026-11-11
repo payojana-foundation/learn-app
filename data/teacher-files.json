@@ -1,5 +1,5 @@
 {
-  "_doc": "Decision 4 (4 Nov): map each teacher-sheet SOURCE FILE (Drive file id = the .xlsx basename in data/source/sheets/) to an existing teacher slug in data/source/teachers-2026-11-02/. The teacher is taken from this map, NOT from the sheet cell. A file with no entry here is UNMAPPED: catalogue-build lists it and hides its courses — slugs are NEVER guessed. The 13 non-pilot entries were confirmed by the coordinator (5 Nov) by surname against the teacher data; 2 files (មុំ ចំរើន, ប៊ុត សាវង្ស) remain unmapped because no teacher record exists for them.",
+  "_doc": "Decision 4 (4 Nov): map each teacher-sheet SOURCE FILE (Drive file id = the .xlsx basename in data/source/sheets/) to an existing teacher slug in data/source/teachers-2026-11-02/. The teacher is taken from this map, NOT from the sheet cell. A file with no entry here is UNMAPPED: catalogue-build lists it and hides its courses — slugs are NEVER guessed. The 13 non-pilot entries were confirmed by the coordinator (5 Nov) by surname against the teacher data; 3 files remain unmapped because no teacher record exists for them; they are listed in \"pending\" below: catalogue-build hides their lessons as PENDING TEACHER and does not fail. Any unmapped file NOT in \"pending\" is an ERROR and fails the catalogue job. When a teacher record exists, move the file id into \"files\" and delete it from \"pending\".",
   "files": {
     "1B7NgdftwwJeMZEtKm4cpz-3_Lp8RCtv7": "yon-yi",
     "1HaE7GKpHucFT6Zz6b5KMgYD0vuUgn_6l": "yon-yi",
@@ -14,5 +14,19 @@
     "1Cti9njtCOS___CMOwk7NR48x1_qu9zo9Rqxv_hdamZI": "hak-sienghai",
     "1x8gSAqqV_Yr4gjwlEBVpx7k8TnLb2w03": "sok-heng",
     "1zoBXNEV2e_XupLEjxsxVJHZadQBZ3cpZ": "leng-sideoun"
-  }
+  },
+  "pending": [
+    {
+      "file_id": "19Ph6xPZlVewZio_EHE237fsxEV19c-ji",
+      "name": "លោកម្ចាស់ មុំ ចំរើន.xlsx"
+    },
+    {
+      "file_id": "1T_fbqhd1mxkzdj66kOpL0lP4gz2Wwywg",
+      "name": "លោកម្ចាស់មិត្ត សាន.xlsx"
+    },
+    {
+      "file_id": "1c_0m_cmYGXVG3qAx-4RItnqxgg9d3lzy",
+      "name": "លោកគ្រូអគ្គបណ្ឌិតប៊ុត សាវង្ស"
+    }
+  ]
 }

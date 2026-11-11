@@ -142,6 +142,9 @@ export function matchTeacher(fileName, teachers) {
   return slugs.size === 1 ? hits[0] : null;
 }
 
+/** Part E: teacher-files.json "pending" ([{file_id,name}]) -> Set of file ids. */
+export const pendingSet = (pending) => new Set((Array.isArray(pending) ? pending : []).map((p) => (p && typeof p === 'object' ? p.file_id : p)).filter(Boolean));
+
 /** Teacher for one sheet file AFTER aliases: the teacher-files.json entry for the
  * canonical (old) file id, else an unambiguous name match. { slug|null, match|null }. */
 export function resolveTeacher(f, { teacherFiles = {}, teachers = [], aliases = null } = {}) {
@@ -153,11 +156,13 @@ export function resolveTeacher(f, { teacherFiles = {}, teachers = [], aliases = 
 
 /** Part B: sheet files that are course sheets but have no teacher after aliases.
  * [{ file_id, canonical_id, file_name }] — the catalogue job must fail on any. */
-export function unmappedTeacherFiles(files, { teacherFiles = {}, teachers = [], aliases = null } = {}) {
+export function unmappedTeacherFiles(files, { teacherFiles = {}, teachers = [], aliases = null, pending = [] } = {}) {
   const out = [];
+  const pendingIds = pendingSet(pending);
   for (const f of files) {
     const fid = canonicalFileId(f.file_id, aliases);
     if (NON_COURSE_FILES.has(fid)) continue;
+    if (pendingIds.has(fid)) continue; // Part E: known, reported as PENDING TEACHER
     if (!resolveTeacher(f, { teacherFiles, teachers, aliases }).slug) out.push({ file_id: f.file_id, canonical_id: fid, file_name: f.file_name });
   }
   return out;
@@ -193,7 +198,7 @@ export function guardLessonIds(baseline, current, idAliases = {}) {
  *   courseIds    = { "<file_id>\t<tab>": "c###" }  (mutated copy returned)
  * Returns { courses[], hidden[], unmappedFiles[], registry, nextFree }.
  */
-export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseIds = {}, approved = new Set(), inManifest = new Set(), aliases = null } = {}) {
+export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseIds = {}, approved = new Set(), inManifest = new Set(), aliases = null, pending = [] } = {}) {
   const registry = { ...courseIds };
   const used = new Set(Object.values(registry));
   let probe = 1;
@@ -205,6 +210,8 @@ export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseI
     }
   };
 
+  const pendingIds = pendingSet(pending);
+  const pendingFiles = []; // Part E: course sheets whose teacher is still pending
   const hidden = []; // { course_id, teacher, title, lesson_id|null, num, reason }
   const unmappedFiles = [];
   const matchedFiles = {}; // file_id → { slug, matchedOn } (decision 6)
@@ -219,7 +226,9 @@ export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseI
     // decision 6: teacher = the registry entry if present, else a name match.
     const { slug, match } = resolveTeacher(f, { teacherFiles, teachers, aliases });
     if (match) matchedFiles[fid] = match;
-    if (!slug) unmappedFiles.push({ file_id: f.file_id, canonical_id: fid, file_name: f.file_name });
+    const isPending = !slug && pendingIds.has(fid);
+    if (isPending) pendingFiles.push({ file_id: f.file_id, canonical_id: fid, file_name: f.file_name });
+    else if (!slug) unmappedFiles.push({ file_id: f.file_id, canonical_id: fid, file_name: f.file_name });
 
     for (const t of f.tabs) {
       // Part A: then the tab name (new → old), still before any lookup.
@@ -253,7 +262,7 @@ export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseI
           continue;
         }
         const { id: sourceId, from } = pickSource(l, { pilot: isPilotCourse });
-        cand.push({ course_id: cid, teacher: slug, title, num: l.number, num_sort: khmerToInt(l.number), lesson_code: outer(l.lesson_code), lesson_id: lessonIdOf(l, sourceId), source_id: sourceId, source_from: from, folder_link: !!l.folder_link });
+        cand.push({ course_id: cid, teacher: slug, title, num: l.number, num_sort: khmerToInt(l.number), lesson_code: outer(l.lesson_code), lesson_id: lessonIdOf(l, sourceId), source_id: sourceId, source_from: from, folder_link: !!l.folder_link, pending_teacher: isPending });
       }
       courses.push({ course_id: cid, file_id: f.file_id, file_name: f.file_name, tab: t.name, teacher: slug, title, title_missing: missing, pilot: isPilotCourse, candidates: cand });
     }
@@ -275,7 +284,7 @@ export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseI
       if (l.lesson_code) seenCode.add(l.lesson_code);
       seenSrc.add(l.source_id);
       // teacher check AFTER the dup checks (decision 3)
-      if (!l.teacher) { hidden.push({ ...l, reason: 'teacher file not mapped' }); continue; }
+      if (!l.teacher) { hidden.push({ ...l, reason: l.pending_teacher ? 'PENDING TEACHER' : 'teacher file not mapped' }); continue; }
       queueable.push(l);
       if (approved.has(l.source_id)) visible.push({ ...l, playable: true });
       else hidden.push({ ...l, reason: 'no approved manifest entry yet (hidden until approved)' });
@@ -295,7 +304,7 @@ export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseI
     else idSeen.set(l.lesson_id, `${c.course_id} row ${l.num}`);
   }
 
-  return { courses, hidden, unmappedFiles, matchedFiles, registry, nextFree: probe, idCollisions, total: all.length };
+  return { courses, hidden, unmappedFiles, pendingFiles, matchedFiles, registry, nextFree: probe, idCollisions, total: all.length };
 }
 
 /** Decision 1: alias map for the pilot — provisional c080-l0NN → the new lesson
@@ -356,11 +365,12 @@ async function main() {
 
   const tfJson = readJson(join(root, 'data', 'teacher-files.json'), { files: {} });
   const teacherFiles = tfJson.files || {};
+  const pending = Array.isArray(tfJson.pending) ? tfJson.pending : [];
   const courseIds = (readJson(join(root, 'data', 'course-ids.json'), { courses: {} })).courses || {};
   const manifest = readJson(join(root, 'data', 'media-manifest.json'), []);
   const teachers = readJson(join(root, 'data', 'source', 'teachers-2026-11-02', 'teachers-2026-11-02.json'), []);
 
-  const plan = planCatalogue(files, { teacherFiles, teachers, courseIds, approved: approvedIds(manifest), inManifest: manifestIds(manifest), aliases: fileAliases });
+  const plan = planCatalogue(files, { teacherFiles, teachers, courseIds, approved: approvedIds(manifest), inManifest: manifestIds(manifest), aliases: fileAliases, pending });
 
   // Decision 3: a duplicate VISIBLE lesson id is a build failure.
   if (plan.idCollisions.length) {
@@ -382,7 +392,7 @@ async function main() {
   // (2) an id with approved media that changed/disappeared since the last
   // committed snapshot (unless listed in data/id-aliases.json). Only THIS job
   // fails (exit 1 at the end) — the deploy build never runs this script.
-  const teacherErrors = unmappedTeacherFiles(files, { teacherFiles, teachers, aliases: fileAliases });
+  const teacherErrors = unmappedTeacherFiles(files, { teacherFiles, teachers, aliases: fileAliases, pending });
   const snapshot = lessonIdSnapshot(plan);
   const snapRel = 'data/source/sheets/lesson-ids.json';
   const idProblems = guardLessonIds(committedSnapshot(root, snapRel), snapshot, aliases);
@@ -397,7 +407,7 @@ async function main() {
     // hand-set slug). A slug is only ever an existing teacher's.
     const mergedFiles = { ...teacherFiles }; // keyed by the OLD (canonical) file id
     for (const [fid, m] of Object.entries(plan.matchedFiles)) if (!mergedFiles[fid]) mergedFiles[fid] = m.slug;
-    writeFileSync(join(root, 'data', 'teacher-files.json'), JSON.stringify({ _doc: tfJson._doc || '', files: mergedFiles }, null, 2) + '\n', 'utf-8');
+    writeFileSync(join(root, 'data', 'teacher-files.json'), JSON.stringify({ _doc: tfJson._doc || '', files: mergedFiles, pending }, null, 2) + '\n', 'utf-8');
 
     // Decision 7: queues + INDEX.
     const qdir = join(root, 'data', 'queues');
@@ -437,6 +447,10 @@ async function main() {
   if (matchedEntries.length) {
     H.push('', '## Teacher files matched by name (decision 6)', '');
     for (const [fid, m] of matchedEntries) H.push(`- \`${fid}\` → ${m.slug}  (${String(m.matchedOn).replace(/\|/g, '\\|')})`);
+  }
+  if (plan.pendingFiles.length) {
+    H.push('', '## PENDING TEACHER (listed in teacher-files.json "pending"; lessons hidden, no failure)', '');
+    for (const u of plan.pendingFiles) H.push(`- \`${u.file_id}\`  «${String(u.file_name).replace(/\|/g, '\\|')}»`);
   }
   if (plan.unmappedFiles.length) {
     H.push('', '## Unmatched teacher files (add to data/teacher-files.json — never guess a slug)', '',
