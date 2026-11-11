@@ -76607,5 +76607,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16MOhvSo-X49R5utlQ1DwsKxPtnzPmnV8",
+    "drive_name": "បិដកលេខ២០-០៩ ការលះអាសវៈដោយទស្សនៈ .mp3",
+    "source_md5": "2d5bc474f37b9f444214758a6fd70a82",
+    "key": "audio/2d5bc474f37b9f44-a64.mp3",
+    "bytes": 43041270,
+    "duration_s": 5380,
+    "sha256": "175b548e53c346f0cefdaf4e4d29b355c95d94f3bf2566aa77058e6014329317",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -7.6,
+        "LRA": 0
+      },
+      "G": 9.7,
+      "limit": 0.6,
+      "depth": 6.536974992327127,
+      "busy": 3.4464652472514707,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
