@@ -82726,5 +82726,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1mwgjtP19TdlpNHpJduhBdvlK0zY6l7Hz",
+    "drive_name": "បិដកលេខ២០-43 វេទនានុបស្សនាសតិប្បដ្ឋានកំណត់វេទនា៣.mp3",
+    "source_md5": "c4f2a95f55fdd496ccac02e299d02063",
+    "key": "audio/c4f2a95f55fdd496-a64.mp3",
+    "bytes": 55428954,
+    "duration_s": 6928,
+    "sha256": "18245d4d3421a1a68699c9c4d701dd50a0bdff435a230930729724d3478474dd",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.8,
+        "LRA": 0
+      },
+      "G": 10.600000000000001,
+      "limit": 0.6,
+      "depth": 10.236974992327129,
+      "busy": 4.986757786565828,
+      "out": {
+        "I": -18.2,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
