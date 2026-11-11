@@ -67182,5 +67182,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HK2KbVH93iEfmiNsci7LF_Givt2qUEwm",
+    "drive_name": "17.១៦ ទោសមូលចិត្ត​ ២ដួង ត ហេតុឱ្យកើតទោសមូលចិត្ត ៤ ប្រការ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ១៦.mp3",
+    "source_md5": "218c444b29ef84e3fc7e984d5335683c",
+    "key": "audio/218c444b29ef84e3-a64.mp3",
+    "bytes": 27215037,
+    "duration_s": 3401,
+    "sha256": "d9022eb676a80cc431e7c9ade41251391979c603b1dc0d1ac3ec06e2c35c00ad",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "G": 8.700000000000003,
+      "limit": 0.6,
+      "depth": 10.83697499232713,
+      "busy": 6.002616223525434,
+      "out": {
+        "I": -18.2,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
