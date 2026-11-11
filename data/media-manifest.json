@@ -62165,5 +62165,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1l7s9m5zvahoMorOxIyWG3Jnq8D16nWbN",
+    "drive_name": "១៨១ រាត្រីធម្មទាន_ 06.06.2024_640x360.mp3",
+    "source_md5": "bd321233dfe9f731d64595f6a4ece6e0",
+    "key": "audio/bd321233dfe9f731-a64.mp3",
+    "bytes": 9583638,
+    "duration_s": 1197,
+    "sha256": "93b31ff250460af82926c959199a3e4ac5c2b21793821f440eb7488792da7ec8",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.6000000000000014,
+      "limit": 0.6,
+      "depth": 7.636974992327129,
+      "busy": 2.972910927456382,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
