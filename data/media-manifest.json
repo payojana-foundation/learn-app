@@ -84727,5 +84727,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CUZxaF6nEu9jq3AoOqolyE_ich2jlHGG",
+    "drive_name": "92.៩២ លោកុត្តរចិត្ត ៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៩២.mp3",
+    "source_md5": "c5a80c80ff92a35a7d22580fa75f0b16",
+    "key": "audio/c5a80c80ff92a35a-a64.mp3",
+    "bytes": 27782834,
+    "duration_s": 3472,
+    "sha256": "9b7cd05f25f4083df684d8fa8c2495d3797b87d82ea073b6b61ea0637c5a4654",
+    "loudness": {
+      "pass1": {
+        "I": -23.6,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "G": 8.000000000000004,
+      "limit": 0.6,
+      "depth": 10.73697499232713,
+      "busy": 7.062744759272057,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
