@@ -62484,5 +62484,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1thNm-Mn9_jhA3jvByuuQsqzffSj5lL72",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៣៤.(១៣៧ សីលមយ ឧច្ចាសយនមហាសយនសិក្ខាបទភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "e5f261917b134871880e2080f91584e7",
+    "key": "audio/e5f261917b134871-a64.mp3",
+    "bytes": 44503709,
+    "duration_s": 5562,
+    "sha256": "ee26bfdc8c49279e19e37c67e9b7121fb14417a5b5c651c875e19f833f7f4f23",
+    "loudness": {
+      "pass1": {
+        "I": -22.3,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 6.400000000000002,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 4.569109637059807,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
