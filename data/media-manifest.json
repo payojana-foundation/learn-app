@@ -80609,5 +80609,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ngdIz2tWRHccxJHGT0o0BjMtfMVgBsmE",
+    "drive_name": "បិដកលេខ២០-27 សម្មាទិដ្ឋិ ការយល់ត្រូវក្នុងបដិច្ចសមុប្បាទធម៌.mp3",
+    "source_md5": "78fb88cbb2ff5b6ae032af8fd20d9397",
+    "key": "audio/78fb88cbb2ff5b6a-a64.mp3",
+    "bytes": 43455259,
+    "duration_s": 5431,
+    "sha256": "9f5972c4f3336674c1cc0915a2755d7f0c76842d083e2153e0759e3cd7ec5405",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -12.6,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 0.7369749923271263,
+      "busy": 0.0009204967000193304,
+      "out": {
+        "I": -18,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
