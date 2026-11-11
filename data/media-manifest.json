@@ -71213,5 +71213,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1pu7WxGsR2lBVDssuO093dIftlGfOsoyf",
+    "drive_name": "282-12 Jan 2025 រាត្រីធម្មទាន.mp3",
+    "source_md5": "602ba8f1fa345010077cee534c174af7",
+    "key": "audio/602ba8f1fa345010-a64.mp3",
+    "bytes": 10786524,
+    "duration_s": 1348,
+    "sha256": "403b84babff2538fb1f9af51ad913470ac9e3ec5188f5df7a3b49367aa87ad8a",
+    "loudness": {
+      "pass1": {
+        "I": -19.3,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 2.700000000000003,
+      "limit": 0.6,
+      "depth": 6.83697499232713,
+      "busy": 3.9401468515908924,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
