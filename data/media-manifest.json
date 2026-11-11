@@ -64601,5 +64601,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1uM8t0G44VWy5Wx54bPcZuujUqDAGKaXO",
+    "drive_name": "15.១៥ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី​១៥   ៣-កិច្ចសង្គហៈតសម្តែងកិច្ចរបស់.mp3",
+    "source_md5": "ceb4a55bdda99ada4073addb0f7ba9dc",
+    "key": "audio/ceb4a55bdda99ada-a64.mp3",
+    "bytes": 31641852,
+    "duration_s": 3955,
+    "sha256": "5391806f1a3d129e66336ad436cc08aa5c0e334893542e96ea17996bea17170b",
+    "loudness": {
+      "pass1": {
+        "I": -25.9,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "G": 11.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.728382888349515,
+      "out": {
+        "I": -18.3,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
