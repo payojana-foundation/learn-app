@@ -72054,5 +72054,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-U29ar1a_HPbyvXbrklTQszS2xOwpqSL",
+    "drive_name": "49.៤៩ ហេតុកើត​ ទ្វិបញ្ចវិញ្ញាណ​១០ មនោធាតុ​៣ និង​ មនោវិញ្ញាណធាតុ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤៩.mp3",
+    "source_md5": "4b124d78332621edec86689b91de30c5",
+    "key": "audio/4b124d78332621ed-a64.mp3",
+    "bytes": 27096127,
+    "duration_s": 3386,
+    "sha256": "5dc7bbaee78ba26704129c62c29e0033bc72a4290b34ae25bbad123bbd21fa90",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "G": 9.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.796675474984869,
+      "out": {
+        "I": -18.3,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
