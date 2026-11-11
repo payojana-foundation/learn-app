@@ -79275,5 +79275,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Bx6qkFazM1nRyW6FkeBLwjX8nsinfQFG",
+    "drive_name": "បិដកលេខ២០-19 សេចក្តីក្រោធរបស់ភិក្ខុដោយប្រការផ្សេងៗបិដកភាគ២០.mp3",
+    "source_md5": "14b8d3b8bce7f3c48327f21b7df33735",
+    "key": "audio/14b8d3b8bce7f3c4-a64.mp3",
+    "bytes": 35612673,
+    "duration_s": 4451,
+    "sha256": "97258594479a70ea0aec2e3a843fd14c0ab6e00b217a747791641aa94085047d",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 10.34787519645937,
+      "limit": 0.54,
+      "depth": 12,
+      "busy": 6.003526861430288,
+      "out": {
+        "I": -18.6,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
