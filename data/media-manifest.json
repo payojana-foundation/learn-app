@@ -75998,5 +75998,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fwC-X0JnM0S2j2rv2xEv7hag8wGnyEDu",
+    "drive_name": "បិដកលេខ២០-០៥ សេក្ខបុគ្គលនិងព្រះអរហន្តលះការប្រកាន់.mp3",
+    "source_md5": "c20cbb91ada9ccfe438e92b169d43c2f",
+    "key": "audio/c20cbb91ada9ccfe-a64.mp3",
+    "bytes": 42030018,
+    "duration_s": 5253,
+    "sha256": "28d35674b3f230121949de1f645cc09ea7ae703bccf9ba2a3bffd63a8cf8b9a5",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 10.199999999999996,
+      "limit": 0.6,
+      "depth": 10.136974992327122,
+      "busy": 3.999800140853113,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
