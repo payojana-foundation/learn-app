@@ -60570,5 +60570,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qiui9Q1LOjNLixeYVVRBP0vxRQLVGrY4",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៩៨ កិច្ចរបស់ចិត្ត ១៤ ក្នុងអកុសលវិបាក ៧ ដួង.mp3",
+    "source_md5": "8a3fc36d6e40285f104ce94d0cb7f077",
+    "key": "audio/8a3fc36d6e40285f-a64.mp3",
+    "bytes": 42560617,
+    "duration_s": 5320,
+    "sha256": "ca2b1bb7f33c10a88e915aaf6136a6d02c98edb974ad749f90436359bdf75d85",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 7.5,
+      "limit": 0.6,
+      "depth": 10.736974992327127,
+      "busy": 4.879183466320805,
+      "out": {
+        "I": -18.2,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
