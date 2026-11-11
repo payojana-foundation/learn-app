@@ -60773,5 +60773,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1aFHR4dndMO9QXuu138Cj-l2erk_XPozr",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១០៥ អហេតុកចិត្ត ចែកទ្វារ វត្ថុ វិញ្ញាណធាតុ៧.mp3",
+    "source_md5": "529a9f4cb841c1b8abf9bb052bd26893",
+    "key": "audio/529a9f4cb841c1b8-a64.mp3",
+    "bytes": 35791559,
+    "duration_s": 4473,
+    "sha256": "bbfb9603f1efa74465ab39f2fb404f348ad52bbc0a9ea54ea8702acef827cbf7",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.684950490623393,
+      "out": {
+        "I": -18.5,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
