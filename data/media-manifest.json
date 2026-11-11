@@ -76201,5 +76201,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1KsXzCuFQkPmix4mv7Qzri2YxrIT2mt1O",
+    "drive_name": "បិដកលេខ២០-០៦ ពាក្យថា តគថាតមានន័យ ៨ ប្រការ.mp3",
+    "source_md5": "6ca0e0cc65aa789d5925000fbedaf2a2",
+    "key": "audio/6ca0e0cc65aa789d-a64.mp3",
+    "bytes": 44223050,
+    "duration_s": 5527,
+    "sha256": "607efdb50fc66c7f14832c49a7fef0e7ddaa9afab501025ce0ddf3f1ed258f7d",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 11.736974992327125,
+      "busy": 4.282858615917581,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
