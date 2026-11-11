@@ -79536,5 +79536,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18JHXtyB3zQRYBEobtszhBL2mZBM1wUHs",
+    "drive_name": "៤០៧-13 តុលា 2025 រាត្រីធម្មទានកន្លះម៉ោង_សិក្សារក្នុងគម្ពីរវិសុទ្ធិមគ្គ.mp3",
+    "source_md5": "77f9adadb44536c00f5cf62565f1aae7",
+    "key": "audio/77f9adadb44536c0-a64.mp3",
+    "bytes": 11665910,
+    "duration_s": 1458,
+    "sha256": "99d9056839b7cc1449ad5ad30ff57521894b04a58bb6633ead2cb131e118b5ca",
+    "loudness": {
+      "pass1": {
+        "I": -20.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.900000000000002,
+      "limit": 0.6,
+      "depth": 7.93697499232713,
+      "busy": 2.730249622822658,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
