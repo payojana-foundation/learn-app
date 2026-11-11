@@ -84814,5 +84814,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13FqXsKTSb70uh-9Tq4o2iloDVBMCkkh2",
+    "drive_name": "93.៩៣ តទាលម្ពននិយម មេរៀនថ្ងៃទី ៩៣ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "62f5f4eba04d0d79b066bf7bfd816bf6",
+    "key": "audio/62f5f4eba04d0d79-a64.mp3",
+    "bytes": 27797254,
+    "duration_s": 3474,
+    "sha256": "b586c78432667bf98262b665fe4368739137a76f7a72b06a9e1cf7d31d3785df",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10.600000000000001,
+      "limit": 0.6,
+      "depth": 11.43697499232713,
+      "busy": 7.875366948713521,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
