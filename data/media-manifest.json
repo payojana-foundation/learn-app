@@ -84118,5 +84118,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1-TrcDS5PNX4QVE6Oj1BgmNS0f1bRtuuA",
+    "drive_name": "បិដកលេខ២០-80 មហាទុក្ខក្ខន្ធសូត្រ.mp3",
+    "source_md5": "9d2cfc71c9b35b171692e9c41b46cfa3",
+    "key": "audio/9d2cfc71c9b35b17-a64.mp3",
+    "bytes": 57381659,
+    "duration_s": 7172,
+    "sha256": "9d2b0831fe5410f46f474dbc06e556063a6e0be97b525fd66914e4724ad519ba",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.2,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 5.68757711584979,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
