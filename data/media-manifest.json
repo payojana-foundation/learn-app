@@ -83277,5 +83277,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1v4tzomK56Y0s07d9XzNGNeLEogaJy9PC",
+    "drive_name": "បិដកលេខ២០-51 ធម្មានុបស្សនាពោជ្ឈង្គបព្វៈ សតិសម្ពោជ្ឈង្គ .mp3",
+    "source_md5": "fd79d6cfadc44b5e92c78afd706dddd1",
+    "key": "audio/fd79d6cfadc44b5e-a64.mp3",
+    "bytes": 56345747,
+    "duration_s": 7043,
+    "sha256": "612d6c0baa036c872f3ba1ee6a7dc6e98f2e5bacdbfb4cb8753b2659f6bd0716",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -5.2,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 9.736974992327127,
+      "busy": 5.407698205361199,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
