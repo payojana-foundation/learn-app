@@ -68400,5 +68400,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1fjNqfuAV7dnqaZrNMaAvZr2GDhiZ5TpZ",
+    "drive_name": "2.វគ្គខ្លី លើកទី ៤១.mp3",
+    "source_md5": "428bf4e0e21ec3083ed0cf317ccf9880",
+    "key": "audio/428bf4e0e21ec308-a64.mp3",
+    "bytes": 19821966,
+    "duration_s": 2477,
+    "sha256": "6c55702d6f3206ab11bd8367c219035ae906dcecda2ed3f3bd64389572c73cca",
+    "loudness": {
+      "pass1": {
+        "I": -29.7,
+        "TP": -9.9,
+        "LRA": 0
+      },
+      "G": 15,
+      "limit": 0.54,
+      "depth": 10.45212480354063,
+      "busy": 7.946381724986883,
+      "out": {
+        "I": -18.4,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
