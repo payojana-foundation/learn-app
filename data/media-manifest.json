@@ -65703,5 +65703,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_reyVq4srhfrY_ojGKqZcymZ1PeLewEH",
+    "drive_name": "7.០៥ ចិត្តចែកចេញជាបួនភូមិ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៥.mp3",
+    "source_md5": "b783809501d8536ce70c9b370457a612",
+    "key": "audio/b783809501d8536c-a64.mp3",
+    "bytes": 25961995,
+    "duration_s": 3245,
+    "sha256": "4e01454eea86fbb72d983f69df3ce70fe14d01bcd6cc9ef833349952680b11cb",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "G": 9.7,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 6.995331566621472,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
