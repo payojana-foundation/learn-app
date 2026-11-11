@@ -71126,5 +71126,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1_ewJ79T1HkdwbMp30ikfP1QKtvoOrGF8",
+    "drive_name": "281-10 Jan 2025 រាត្រីធម្មទាំន.mp3",
+    "source_md5": "c67eece08b90e7cdab87a5e8a7dd63c7",
+    "key": "audio/c67eece08b90e7cd-a64.mp3",
+    "bytes": 9570472,
+    "duration_s": 1196,
+    "sha256": "00779bcefddae23589d93007a09fdedddbf2e4cab579ef93e6190e2ec6e275bd",
+    "loudness": {
+      "pass1": {
+        "I": -19.4,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 2.3999999999999986,
+      "limit": 0.6,
+      "depth": 6.636974992327126,
+      "busy": 2.968652037617555,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
