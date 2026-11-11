@@ -83335,5 +83335,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dgq17fck-TR3m7bj7qrOdQFFDgLbgl3_",
+    "drive_name": "បិដកលេខ២០-53 សតិប្បដ្ឋានសូត្រ ធម្មានុបស្សនាពោជ្ឈង្គបព្វៈ វីរិយសម្ពោជ្ឈង្គ.mp3",
+    "source_md5": "6d9bc49a74229ccd852baad86b6742e7",
+    "key": "audio/6d9bc49a74229ccd-a64.mp3",
+    "bytes": 52327905,
+    "duration_s": 6540,
+    "sha256": "8c617b423f86606652bcb14fc225bf786ae0d64c17f6c9235b5d1eac1755881c",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 10.899999999999999,
+      "limit": 0.6,
+      "depth": 10.836974992327125,
+      "busy": 6.284064241432819,
+      "out": {
+        "I": -18.1,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
