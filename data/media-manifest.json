@@ -61701,5 +61701,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dgw8t45AW4sf_-zo8yNY1BexTBNsgnv3",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១២៩.(១៣២ បុញ្ញកិរិយាវត្ថុ សីលមយបុណ្យ ឧបោសថសីល ៣ យ៉ាងភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "6b61db68cd5f06ddeb43b80d42e362e8",
+    "key": "audio/6b61db68cd5f06dd-a64.mp3",
+    "bytes": 46306994,
+    "duration_s": 5788,
+    "sha256": "87ade228e651775994101536cb2e12f9d49a0da7da72467f79e5d38c91f76ad8",
+    "loudness": {
+      "pass1": {
+        "I": -22.7,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 6.600000000000001,
+      "limit": 0.6,
+      "depth": 11.13697499232713,
+      "busy": 5.5115491595114285,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
