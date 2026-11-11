@@ -60396,5 +60396,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1VqsXz7FZ_AdgQcj3y74bJckH3fkLQnSW",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៩២ អហេតុកចិត្ត អកុសលវិបាកចក្ខុវិញ្ញាណ១.mp3",
+    "source_md5": "701f694cba5f694586988b1586d2be57",
+    "key": "audio/701f694cba5f6945-a64.mp3",
+    "bytes": 45917665,
+    "duration_s": 5739,
+    "sha256": "2455e22326ba46b984ddc9fa4717e72494f7d4b024debdd8c28eb5bbf78234d2",
+    "loudness": {
+      "pass1": {
+        "I": -22.8,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 6.600000000000001,
+      "limit": 0.6,
+      "depth": 10.63697499232713,
+      "busy": 5.3134773026229825,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
