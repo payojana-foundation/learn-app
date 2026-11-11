@@ -86264,5 +86264,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Cj-U9nJTNMC4KQv6GVzOo5eTswRENAIr",
+    "drive_name": "135.១៣៥ រូបវិថីទី៧​ និងសេចក្តីអធិប្បាយ មេរៀនថ្ងៃទី ១៣៥ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "db18da3a4ce240d239b1f5b129a79e99",
+    "key": "audio/db18da3a4ce240d2-a64.mp3",
+    "bytes": 30677202,
+    "duration_s": 3834,
+    "sha256": "9f71fabc6c37f97189cd15397e1ae91fc83e35686aa6ffbd50a88e2eecf83278",
+    "loudness": {
+      "pass1": {
+        "I": -25.4,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 11.099999999999998,
+      "limit": 0.6,
+      "depth": 11.236974992327125,
+      "busy": 7.738095238095238,
+      "out": {
+        "I": -18.2,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
