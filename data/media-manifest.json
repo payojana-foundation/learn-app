@@ -67414,5 +67414,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1L6daBMLz77X_KF5d8VYe_ixU0EkTGcnt",
+    "drive_name": "24.២៤ អធិប្បាយវិថីចិត្ត​២យ៉ាង ​ ១-កាមវិថីចិត្ត អធិប្បាយអារម្មណ៍៤ប្រភេទ ​ មានអតិមហន្តារម្មណ៍ជាដេីម.mp3",
+    "source_md5": "7eab3f1982791b764d1a4cbfa210d12d",
+    "key": "audio/7eab3f1982791b76-a64.mp3",
+    "bytes": 30403438,
+    "duration_s": 3800,
+    "sha256": "fd02165cd9cc3c95bbe19811e1685b1fd43b34c74c0e58551b72cefb8020f359",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -4.9,
+        "LRA": 0
+      },
+      "G": 12.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 9.709175349963163,
+      "out": {
+        "I": -18.4,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
