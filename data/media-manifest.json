@@ -64862,5 +64862,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ND8-c1UZxmPYUX9VH4SXuIhry8ggXmh7",
+    "drive_name": "16.១៦ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ មេរៀនថ្ងៃទី​១៦   ៣-កិច្ចសង្គហៈ ត សម្តែងការចែកកិច្ច​ ១៤ ដោយចិត្ត.mp3",
+    "source_md5": "4717aa1566e7b7b3b40fa8e6acb8fd26",
+    "key": "audio/4717aa1566e7b7b3-a64.mp3",
+    "bytes": 29889767,
+    "duration_s": 3736,
+    "sha256": "da3407be4ff0d2dba8e268c0d834ad4beb8a7a709410dc99ad76d30b70ae654e",
+    "loudness": {
+      "pass1": {
+        "I": -24.8,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.200000000000003,
+      "limit": 0.6,
+      "depth": 11.23697499232713,
+      "busy": 7.634195629190477,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
