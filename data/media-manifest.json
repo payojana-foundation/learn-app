@@ -65906,5 +65906,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1onydhSccZ_X1-zdWcuPY1qLxvxmD6xcr",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៤៩ (១៥១ រូបាវចរចិត្ត បលិពោធ គ្រឿងកង្វល់របស់សមាធិ.mp3",
+    "source_md5": "72d61b75d1182586f1681ed7b640dfeb",
+    "key": "audio/72d61b75d1182586-a64.mp3",
+    "bytes": 43511056,
+    "duration_s": 5438,
+    "sha256": "990efa5a901c9c09d85451ec87d600739d880147a38c2e12e0b18b008794b6af",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.299999999999997,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 4.598858214512259,
+      "out": {
+        "I": -18.2,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
