@@ -62977,5 +62977,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yMVIxtWN7xZzf7SKOLsZbefMj33cBCxr",
+    "drive_name": "7.៧ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី​ ៧.mp3",
+    "source_md5": "3895159228e431dfc023f6102ae7c7fa",
+    "key": "audio/3895159228e431df-a64.mp3",
+    "bytes": 29469300,
+    "duration_s": 3683,
+    "sha256": "5817149d6922cd5d6281d7339110a8694ed1e9c10b04047baa4769f1b195fd18",
+    "loudness": {
+      "pass1": {
+        "I": -26.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 11.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.736317732652839,
+      "out": {
+        "I": -18.3,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
