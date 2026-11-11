@@ -65297,5 +65297,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cTD6ADhe7D3Szq6PVq9uB7HghxlTV2ML",
+    "drive_name": "5.០៣ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី៣ អានមេរៀន.mp3",
+    "source_md5": "af8ca3f980b6792c7bb2dbc686a339c6",
+    "key": "audio/af8ca3f980b6792c-a64.mp3",
+    "bytes": 16321349,
+    "duration_s": 2040,
+    "sha256": "f8b95fc3359d39225ccb950323d6c8e53abc42dcdf3bd50ac4538af5e8216a95",
+    "loudness": {
+      "pass1": {
+        "I": -15.2,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": -1.7000000000000028,
+      "limit": 0.6,
+      "depth": 3.0369749923271243,
+      "busy": 6.565080998946156,
+      "out": {
+        "I": -18.1,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
