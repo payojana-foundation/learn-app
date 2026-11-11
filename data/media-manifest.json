@@ -65036,5 +65036,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1T05d3MBeUybX8L35_fI1Pv8kqlhcoFqV",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៤៦ (១៤៨ មហាវិបាកចិត្ត ៨ ដួង និងសមង្គិតា៥.mp3",
+    "source_md5": "fa26dbc947095bc4e9ef9397f7328bd9",
+    "key": "audio/fa26dbc947095bc4-a64.mp3",
+    "bytes": 43696212,
+    "duration_s": 5461,
+    "sha256": "3275ef099ae5b1ccb492906276f3efb38858685a824bd805f3bc78ef5262fa66",
+    "loudness": {
+      "pass1": {
+        "I": -23.2,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 6.899999999999999,
+      "limit": 0.6,
+      "depth": 10.836974992327125,
+      "busy": 5.273938117905529,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
