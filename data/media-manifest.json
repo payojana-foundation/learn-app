@@ -60657,5 +60657,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1cJdEtRGaEOMLY0T4LRVr6rZwwpqiZJ45",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១០១ កុសលវិបាក ជិវ្ហាវិញ្ញាណ កាយវិញ្ញា ដល់មនោវិញ្ញាណ.mp3",
+    "source_md5": "e156a481b863235368d24e139cee596e",
+    "key": "audio/e156a481b8632353-a64.mp3",
+    "bytes": 44355125,
+    "duration_s": 5544,
+    "sha256": "019d8f1a253aa05e4455840b15bc6e878ebcfb42d02413dc02574405c9816a18",
+    "loudness": {
+      "pass1": {
+        "I": -25.2,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 8.563025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.597247648507039,
+      "out": {
+        "I": -18.6,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
