@@ -83190,5 +83190,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1szKqLVdR6txeZnzd5U-vfA671vMb_s2V",
+    "drive_name": "បិដកលេខ២០-48 សតិប្បដ្ឋានសូត្រ ធម្មានុបស្សនាសតិប្បដ្ឋាន ថីនមិទ្ធៈ .mp3",
+    "source_md5": "2930bae486048991adcfc60240d42627",
+    "key": "audio/2930bae486048991-a64.mp3",
+    "bytes": 57494299,
+    "duration_s": 7186,
+    "sha256": "8804647ea3237f68acaa0383800f685bab32285ab6ab5c12bf5c201e4eb72c5f",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "G": 10.5,
+      "limit": 0.6,
+      "depth": 10.236974992327127,
+      "busy": 5.093922844122865,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
