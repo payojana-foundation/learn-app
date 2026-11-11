@@ -71068,5 +71068,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ujuJ1o_9k35mQ2mq5fi-c8iJgkjsV3y2",
+    "drive_name": "43.៤៣ អធិប្បាយអហេតុកអកុសលវិបាកចិត្ត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤៣.mp3",
+    "source_md5": "3d104f3d6b03f16ddaf7c7366e4bfd34",
+    "key": "audio/3d104f3d6b03f16d-a64.mp3",
+    "bytes": 27120369,
+    "duration_s": 3389,
+    "sha256": "85815ba46c4c7b47cbd1673fc355d58f06ad2d3e1929a39900bfdfb4f5a74514",
+    "loudness": {
+      "pass1": {
+        "I": -24.4,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.0202802359882,
+      "out": {
+        "I": -18.9,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
