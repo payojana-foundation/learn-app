@@ -76752,5 +76752,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11rlmZCs3F-O62V9by9UhE4Jb-uf8D-Mw",
+    "drive_name": "65.៦៥ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ​៦៥  ៦-វត្ថុសង្គហៈ.mp3",
+    "source_md5": "b73897b5f8d65ee62f7d722534031870",
+    "key": "audio/b73897b5f8d65ee6-a64.mp3",
+    "bytes": 29351017,
+    "duration_s": 3668,
+    "sha256": "2ac0b1bb8dd3ab613e94bfce0a36943da8def1f038da68f83e41071f49a17a2e",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 11.7,
+      "limit": 0.6,
+      "depth": 11.836974992327127,
+      "busy": 8.564332147675703,
+      "out": {
+        "I": -18.3,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
