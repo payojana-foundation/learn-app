@@ -70575,5 +70575,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19wmmGHxq4aEhMaxWAzRVGwwE2D5eEymE",
+    "drive_name": "40.៤០ ទ្វារវិថីចិត្ត​ ដែលទទួលអារម្មណ៏បរមត្ថ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤០.mp3",
+    "source_md5": "744e2c4443a2fa69bebbd2510087e231",
+    "key": "audio/744e2c4443a2fa69-a64.mp3",
+    "bytes": 27361740,
+    "duration_s": 3420,
+    "sha256": "18c311efc133cb12f2cdfbbc198453cce34c2da6fa877661f53a27f880102faf",
+    "loudness": {
+      "pass1": {
+        "I": -27.9,
+        "TP": -6.5,
+        "LRA": 0
+      },
+      "G": 12,
+      "limit": 0.6,
+      "depth": 9.936974992327126,
+      "busy": 7.0040787684750665,
+      "out": {
+        "I": -18.1,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
