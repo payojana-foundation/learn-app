@@ -69212,5 +69212,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MYSk8T9MHl5ulZY3F9FYWNAFFnS2gE76",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ភាគ១៦៥ សកទាគាមី៥ អនាគាមីមាន ៥ ប្រភេទ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "ee67472c26955a3b951d26109cbb3ccd",
+    "key": "audio/ee67472c26955a3b-a64.mp3",
+    "bytes": 44154505,
+    "duration_s": 5519,
+    "sha256": "7b48e7bb668572064be117e9b1a8e366e16cd2ea0823b83728787b86029ce33a",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 4.832587465801823,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
