@@ -86148,5 +86148,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1hcMHIot7QwDHZOFM9y12jegYZ0n-6PaG",
+    "drive_name": "130.១៣០ រូបវិថីទី៥​ និង​សេចក្តីអធិប្បាយ មេរៀនថ្ងៃទី ១៣០ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "3cd6e1df51ee41fb08c4a7b1380375f5",
+    "key": "audio/3cd6e1df51ee41fb-a64.mp3",
+    "bytes": 32134625,
+    "duration_s": 4016,
+    "sha256": "774e9086e4eaad85477047adf47cade6bfcb946b3fad6618d3a4a25f34460510",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "G": 11.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.499128659629556,
+      "out": {
+        "I": -18.3,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
