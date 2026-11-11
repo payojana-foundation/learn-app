@@ -69850,5 +69850,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1u6HDz9Gb8rPha8klcupEVb87Gma7FimS",
+    "drive_name": "41.៤១ អធិប្បាយវិថីចិត្ត​២យ៉ាង ១-កាមវិថីចិត្ត​  ​ សុបិនវិថី  ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤.mp3",
+    "source_md5": "38510a35713737b30cdf7d8349c81890",
+    "key": "audio/38510a35713737b3-a64.mp3",
+    "bytes": 29299190,
+    "duration_s": 3662,
+    "sha256": "f28b0e4dd908fc7d5ab2f011cb024e9aff595fbefd1b3c030a7e19d8d3bac69a",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -4.6,
+        "LRA": 0
+      },
+      "G": 11.599999999999998,
+      "limit": 0.6,
+      "depth": 11.436974992327126,
+      "busy": 8.88159242016738,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
