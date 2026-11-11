@@ -67298,5 +67298,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1NMBHHPoOQ7ytnEywWI935Ym0pRjYNbnQ",
+    "drive_name": "25.២៥ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ មេរៀនថ្ងៃទី២៥ សម្តែងការចែកស្ថាន​ ២៥ ​ដោយន័យនៃវិថីចិត្ត តចប់ ចប់.mp3",
+    "source_md5": "bd85175fd1f1e71fc60d7eadfb2b8a54",
+    "key": "audio/bd85175fd1f1e71f-a64.mp3",
+    "bytes": 29114661,
+    "duration_s": 3639,
+    "sha256": "c06b5182ac5f844bcf23a9b666db26ce5a251ada1f47c1f07e7e19176cfed0dc",
+    "loudness": {
+      "pass1": {
+        "I": -26,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11.2,
+      "limit": 0.6,
+      "depth": 11.836974992327127,
+      "busy": 7.327645426318248,
+      "out": {
+        "I": -18.1,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
