@@ -67791,5 +67791,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1keCke3tGle6fumrax6kIUYAfGZWZ6WpQ",
+    "drive_name": "21.២០ លក្ខណាទិចតុករបស់​ មោហៈ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ២០.mp3",
+    "source_md5": "82e0c6fb6a1cd69848cbfd850a62ee4b",
+    "key": "audio/82e0c6fb6a1cd698-a64.mp3",
+    "bytes": 28395772,
+    "duration_s": 3549,
+    "sha256": "3ab5c35b79544e71234952639be0d86cf782dff5c127f7c4ebbdbbdb448400d3",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 11.63697499232713,
+      "busy": 7.074335460423446,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
