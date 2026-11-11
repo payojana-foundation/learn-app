@@ -62455,5 +62455,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ETq4XfsW9uL9Ul8S7g8LJqkfwhnXpfXg",
+    "drive_name": "១៨៨ 19 July 2024. រាត្រីធម្មទាន.mp3",
+    "source_md5": "1895a5589eda3dd59d461f709a6a3434",
+    "key": "audio/1895a5589eda3dd5-a64.mp3",
+    "bytes": 12949045,
+    "duration_s": 1618,
+    "sha256": "ca894b6e73ef8c2208887280c2c92163576f6b54a24c702de77f087914c92a16",
+    "loudness": {
+      "pass1": {
+        "I": -20.5,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.3000000000000007,
+      "limit": 0.6,
+      "depth": 7.336974992327129,
+      "busy": 2.389410601754603,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
