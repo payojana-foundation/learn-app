@@ -76375,5 +76375,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1bDqyrzxgCg0RQEj_iZgi8D9El46dwjl2",
+    "drive_name": "63.៦៣ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣  ៦-អារម្មណសង្គហៈការចែកចេតិក​ ដែលទទួលអារម្មណ៍ ២១​ដោយឯកន្តៈ​ និង​.mp3",
+    "source_md5": "0d74daa57a93fc61e3dc4444c6bc70c3",
+    "key": "audio/0d74daa57a93fc61-a64.mp3",
+    "bytes": 28960852,
+    "duration_s": 3620,
+    "sha256": "61af17c9617d1907345069469d2925aabc0e3824d91d832b9dcc665379b180cd",
+    "loudness": {
+      "pass1": {
+        "I": -25.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.527851825251032,
+      "out": {
+        "I": -18.3,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
