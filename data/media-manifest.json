@@ -83770,5 +83770,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "10z91iEggl7jiTTMEAW33DuzCD1tENuUx",
+    "drive_name": "បិដកលេខ២០-68 និរោធសច្ចៈ ពន្យល់ព្រះនិព្វានភាគបញ្ចប់.mp3",
+    "source_md5": "ac3b3c79da8ae4ca07bd9ca345c132c0",
+    "key": "audio/ac3b3c79da8ae4ca-a64.mp3",
+    "bytes": 56054012,
+    "duration_s": 7006,
+    "sha256": "1315423105c61f17945079c33fcf66ab553af3576d1c13ad2fdce2f82a1a5457",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.5,
+        "LRA": 0
+      },
+      "G": 10.600000000000001,
+      "limit": 0.6,
+      "depth": 10.536974992327128,
+      "busy": 5.523106455249975,
+      "out": {
+        "I": -18.1,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
