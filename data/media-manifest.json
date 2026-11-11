@@ -64021,5 +64021,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1spvYoCK-CvLKfvVU8yDtQQSzs8uEIXkT",
+    "drive_name": "6.៦ អធិប្បាយវិថីចិត្ត ​២ យ៉ាង មេរៀនថ្ងៃទី ៦ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "df06cf7dd50edb3081f660a2c5a71e97",
+    "key": "audio/df06cf7dd50edb30-a64.mp3",
+    "bytes": 29315491,
+    "duration_s": 3664,
+    "sha256": "41fa09cfec6f5b468ae8ca7437e69526e0d27b469cdb620c99a2ff99843de4a4",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.375859622311975,
+      "out": {
+        "I": -18.5,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
