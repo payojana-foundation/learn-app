@@ -75737,5 +75737,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dEumZnOKmGt4-w9PAj12K4dnS741lU2P",
+    "drive_name": "344-13 May 2025 រាត្រីធម្មទាន.mp3",
+    "source_md5": "13bbef81d5fff3a97dc3877951c55d72",
+    "key": "audio/13bbef81d5fff3a9-a64.mp3",
+    "bytes": 11492039,
+    "duration_s": 1436,
+    "sha256": "c4b9b3f34d4d37052f656a3a5319442a458cfab06c95b489fbd3d8228fa5a334",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.300000000000001,
+      "limit": 0.6,
+      "depth": 11.236974992327127,
+      "busy": 2.7985659090118,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
