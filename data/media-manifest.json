@@ -60976,5 +60976,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "13O5hxEkHFdJT_zXp2kXo7oLeDerld0Vo",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១១២ មហាកុសលចិត្តដួងទិ៥ដល់ទី៨ និងលក្ខណាទិចតុក្កៈកុសល.mp3",
+    "source_md5": "384adc89c7d00908420c5bfff8ad814f",
+    "key": "audio/384adc89c7d00908-a64.mp3",
+    "bytes": 45380379,
+    "duration_s": 5672,
+    "sha256": "d48cd85f36109583b6062e083dfc4059ee1592748ba014680db480146a8ad8a2",
+    "loudness": {
+      "pass1": {
+        "I": -22.1,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 6.5000000000000036,
+      "limit": 0.6,
+      "depth": 10.73697499232713,
+      "busy": 5.416042309387396,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
