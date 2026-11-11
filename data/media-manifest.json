@@ -77042,5 +77042,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SjrtraGqxfVoj6tfI29qr3Ofp7KCJ859",
+    "drive_name": "357-22 June 2025 រាត្រីធម្មទាន.mp3",
+    "source_md5": "e0ae086d0998937de3b7843cf287540d",
+    "key": "audio/e0ae086d0998937d-a64.mp3",
+    "bytes": 13001708,
+    "duration_s": 1625,
+    "sha256": "5dcf1f0e1292a9b1a443cde1b7309e6266796c89108cb40e802d1cbb67afb6b4",
+    "loudness": {
+      "pass1": {
+        "I": -21.7,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 4.599999999999998,
+      "limit": 0.6,
+      "depth": 8.636974992327126,
+      "busy": 2.8065776519812946,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
