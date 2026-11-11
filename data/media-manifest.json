@@ -86061,5 +86061,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1rIbGAAz3CRGAfh-1BpdmCSWo1q4DY5AB",
+    "drive_name": "127.១២៧ រូបវិថីទី៣ មេរៀនថ្ងៃទី ១២៧ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "bc3cd4e60bdd907b36816c133148869d",
+    "key": "audio/bc3cd4e60bdd907b-a64.mp3",
+    "bytes": 30405737,
+    "duration_s": 3800,
+    "sha256": "ba20dd3e27a4ebfdafab0aedd75977b3c259afac5ba06edf564024ba251890b9",
+    "loudness": {
+      "pass1": {
+        "I": -25.3,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 10.400000000000002,
+      "limit": 0.6,
+      "depth": 10.93697499232713,
+      "busy": 7.1096391406733055,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
