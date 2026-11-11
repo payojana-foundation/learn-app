@@ -67211,5 +67211,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WzWF5g4OFpRRiongOu4FCJl0GVoA_-SM",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៥៥(១៥៧ ព្រហ្មវិហារកម្មដ្ឋាន របៀបចម្រើនព្រហ្មវិហារធម៌៤.mp3",
+    "source_md5": "d9bac8ebf9e3c428b58a227613784d4f",
+    "key": "audio/d9bac8ebf9e3c428-a64.mp3",
+    "bytes": 44562433,
+    "duration_s": 5570,
+    "sha256": "c580d9b4830528b2f59e39fcd506693ede321e124f470797cb62c530114cda41",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.331717606929671,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
