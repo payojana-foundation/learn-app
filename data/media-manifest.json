@@ -76520,5 +76520,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Oq20khiA_MdxQvq0lw7vjPKQPrXYlAtL",
+    "drive_name": "64.៦៤ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤  ៦-អារម្មណសង្គហៈការចែកចេតិក​ ដែលទទួលអារម្មណ៍​ ២១​ដោយឯកន្តៈ​ និង.mp3",
+    "source_md5": "9bd28a6194857f13e34723531772ee58",
+    "key": "audio/9bd28a6194857f13-a64.mp3",
+    "bytes": 29741600,
+    "duration_s": 3717,
+    "sha256": "33debb3878c35fafd1ad66e277d9cade16d1fe8c2caf01895fed494a55d1041c",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "G": 11.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 8.626753459846947,
+      "out": {
+        "I": -18.4,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
