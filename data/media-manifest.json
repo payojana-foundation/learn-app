@@ -68922,5 +68922,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1YiqiFDJhVkvu3k7L5eN6IffV0fDgUYNG",
+    "drive_name": "29.២៨ មោហមូលចិត្ត ២ ដួង ចប់ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ២៨.mp3",
+    "source_md5": "180916f6010070fc4782f92d0d4be408",
+    "key": "audio/180916f6010070fc-a64.mp3",
+    "bytes": 28715928,
+    "duration_s": 3589,
+    "sha256": "0358a4798e2354880d78a5a9e2244e3ab0c75be30fdcc400878d6b468d129e01",
+    "loudness": {
+      "pass1": {
+        "I": -27.1,
+        "TP": -6.2,
+        "LRA": 0
+      },
+      "G": 13.100000000000005,
+      "limit": 0.6,
+      "depth": 11.336974992327132,
+      "busy": 7.831979829778936,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
