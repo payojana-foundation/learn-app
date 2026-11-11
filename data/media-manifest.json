@@ -64746,5 +64746,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1baXFtmFOAz9raiWs6cJwXeCQ9_4h-qo5",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៤៥ (១៤៧ មហាវិបាកចិត្ត ៨ ដួង និងផលរបស់ទាន៧.mp3",
+    "source_md5": "9c8a26ec9f54edc136ae0c8e6251f240",
+    "key": "audio/9c8a26ec9f54edc1-a64.mp3",
+    "bytes": 44312493,
+    "duration_s": 5539,
+    "sha256": "a142dc95a4d1a6bca1ab74837a5446fd563b3f7da5c61eac773d27ddde54ae10",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 8.100000000000001,
+      "limit": 0.6,
+      "depth": 11.93697499232713,
+      "busy": 5.701564347676948,
+      "out": {
+        "I": -18.1,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
