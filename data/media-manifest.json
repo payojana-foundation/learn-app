@@ -78840,5 +78840,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Va50glHByr5zPRUlLxEA_mNkuh_DcoPM",
+    "drive_name": "បិដកលេខ២០-១៧ ការលះអាសវរបស់ព្រះអរិយបុគ្គល បិដកភាគ២០.mp3",
+    "source_md5": "8bd1115edb91219308af31ac47e20e13",
+    "key": "audio/8bd1115edb912193-a64.mp3",
+    "bytes": 41339549,
+    "duration_s": 5167,
+    "sha256": "cd58fcbf15faed3c5b50930142b5faaab62edb199231f8f58db546a637d0cf27",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -5.4,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 8.836974992327129,
+      "busy": 4.040716801486241,
+      "out": {
+        "I": -18.1,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
