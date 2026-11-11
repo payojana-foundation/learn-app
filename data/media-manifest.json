@@ -76984,5 +76984,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1N0zHqOWTirsAmUOuCCzhgZ74nv1joEQQ",
+    "drive_name": "76.៧៦ បរិវារវិថី​ ២ប្រភេទ មេរៀនថ្ងៃទី៧៦ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "3acb08bc3b6daf5f254ed98fc5eaab7d",
+    "key": "audio/3acb08bc3b6daf5f-a64.mp3",
+    "bytes": 29505244,
+    "duration_s": 3688,
+    "sha256": "333e4da8c1180738f0de0867e712ae4d795a6015396c0bddeeadf02124714bc6",
+    "loudness": {
+      "pass1": {
+        "I": -26.3,
+        "TP": -4.4,
+        "LRA": 0
+      },
+      "G": 11.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 9.109704183726038,
+      "out": {
+        "I": -18.3,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
