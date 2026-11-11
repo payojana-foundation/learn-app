@@ -69357,5 +69357,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1MaGNcNUNLjK88J7CWUw8Ytwe-XXIxPAh",
+    "drive_name": "32.៣២ អកុសលកម្មបថ​ មុសាវាទ-បិសុ​ណាវាទ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣២.mp3",
+    "source_md5": "d64e483725ac30f15a2a55e1e05782fd",
+    "key": "audio/d64e483725ac30f1-a64.mp3",
+    "bytes": 27824212,
+    "duration_s": 3477,
+    "sha256": "c3474c8872fe3807cdf145974163473a7e0b499ec7b844b3c13c444e31b54f4f",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "G": 10.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.424884991374353,
+      "out": {
+        "I": -18.2,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
