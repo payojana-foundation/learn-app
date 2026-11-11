@@ -77796,5 +77796,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qLGrZ3A_SRpmRKpICU9DfqP5nufYytg8",
+    "drive_name": "79.៧៩ មរណាសន្នវិថី​ ៩ប្រភេទ មេរៀនថ្ងៃទី ៧៩ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "d03be168aacc636beb7cf44d1762c595",
+    "key": "audio/d03be168aacc636b-a64.mp3",
+    "bytes": 26476085,
+    "duration_s": 3309,
+    "sha256": "dbeab14186dfb333b546161943226832d498c1bc056917179758b259e756d872",
+    "loudness": {
+      "pass1": {
+        "I": -25.8,
+        "TP": -5.2,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 10.036974992327128,
+      "busy": 7.899348834398465,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
