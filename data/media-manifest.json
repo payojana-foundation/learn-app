@@ -79797,5 +79797,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1q7yKtAFHRK7C2oRvEDiqWfacBP6YKMRf",
+    "drive_name": "414-01 Nov 2025 រាត្រីធម្មទានកន្លះម៉ោង! សិក្សា ព្រះធម៌ក្នុងគម្ពីរវិសុទ្ធិមគ្គ ភាគពីរ អំពីអាការ៣២! សូម.mp3",
+    "source_md5": "474f1b16760e34fbe565396244984c8f",
+    "key": "audio/474f1b16760e34fb-a64.mp3",
+    "bytes": 14988268,
+    "duration_s": 1873,
+    "sha256": "7815bf4ce19d822b41de900d14ccb304df64cb7b31ca0edaa6c86cdcd203cc00",
+    "loudness": {
+      "pass1": {
+        "I": -20.9,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 3.799999999999997,
+      "limit": 0.6,
+      "depth": 7.836974992327125,
+      "busy": 2.539364825193488,
+      "out": {
+        "I": -18.2,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
