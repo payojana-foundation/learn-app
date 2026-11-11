@@ -67588,5 +67588,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1--r3_TdUSg-b0AbOMC15DzUQuuN08Die",
+    "drive_name": "4.វក្គខ្លីលើកទី៣៩.mp3",
+    "source_md5": "06ab6622e0bd17065cfc4788c9bedfb9",
+    "key": "audio/06ab6622e0bd1706-a64.mp3",
+    "bytes": 25478625,
+    "duration_s": 3184,
+    "sha256": "c84e25f5372ce5c3024b472512f4fd8fe15e31f11ebddc84bbd4bd26b5beac15",
+    "loudness": {
+      "pass1": {
+        "I": -26.6,
+        "TP": -9.4,
+        "LRA": 0
+      },
+      "G": 9.600000000000001,
+      "limit": 0.6,
+      "depth": 4.636974992327128,
+      "busy": 4.52226199447375,
+      "out": {
+        "I": -18.2,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
