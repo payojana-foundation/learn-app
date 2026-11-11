@@ -83161,5 +83161,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1phN9s2wcrsYpF3H1HeXeazkXcmK7-JHj",
+    "drive_name": "បិដកលេខ២០-47 ធម្មានុបស្សនាសតិប្បដ្ឋាន ព្យាបាទនីវរណៈ .mp3",
+    "source_md5": "d9af5ab741787799ee69fe96e60d7ed2",
+    "key": "audio/d9af5ab741787799-a64.mp3",
+    "bytes": 55773143,
+    "duration_s": 6971,
+    "sha256": "c2501179a2a9ce96f684df8c1cae252a93ab75201910daa73b83a678d18d12eb",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -7.9,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 6.836974992327128,
+      "busy": 5.33718945435768,
+      "out": {
+        "I": -18.2,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
