@@ -28,6 +28,7 @@
  */
 import { readFileSync, writeFileSync, readdirSync, existsSync } from 'node:fs';
 import { join, basename, extname } from 'node:path';
+import { loadAliases, canonicalFileId } from './file-aliases.mjs';
 
 // ── text helpers ──────────────────────────────────────────────────────────────
 
@@ -527,6 +528,7 @@ async function main() {
 
   const invPath = join(dir, 'INVENTORY.md');
   const names = existsSync(invPath) ? parseInventoryNames(readFileSync(invPath, 'utf-8')) : new Map();
+  const aliases = loadAliases(process.cwd());
   const files = [];
   for (const f of readdirSync(dir).sort()) {
     if (extname(f).toLowerCase() !== '.xlsx') continue;
@@ -534,7 +536,7 @@ async function main() {
     const wb = XLSX.readFile(join(dir, f));
     files.push({
       file_id: id,
-      file_name: names.get(id) ?? '',
+      file_name: names.get(id) ?? names.get(canonicalFileId(id, aliases)) ?? '',
       tabs: wb.SheetNames.map((n) => ({ name: n, ...sheetToGrid(XLSX, wb.Sheets[n]) })),
     });
   }

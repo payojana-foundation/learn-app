@@ -35,6 +35,7 @@
 import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync } from 'node:fs';
 import { join, basename, extname } from 'node:path';
 import { parseTab, sheetToGrid, parseInventoryNames, outer, norm } from './sheets-map.mjs';
+import { loadAliases, canonicalFileId, canonicalTab } from './file-aliases.mjs';
 
 export const HIDDEN_TABS = ['7-មលិន្ទប្បញ្ហា'];
 // Decision 6 (4 Nov, team-confirmed NOT courses): keyed by "<file_id>\t<tab>".
@@ -147,7 +148,7 @@ export function matchTeacher(fileName, teachers) {
  *   courseIds    = { "<file_id>\t<tab>": "c###" }  (mutated copy returned)
  * Returns { courses[], hidden[], unmappedFiles[], registry, nextFree }.
  */
-export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseIds = {}, approved = new Set(), inManifest = new Set() } = {}) {
+export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseIds = {}, approved = new Set(), inManifest = new Set(), aliases = null } = {}) {
   const registry = { ...courseIds };
   const used = new Set(Object.values(registry));
   let probe = 1;
@@ -166,19 +167,23 @@ export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseI
   // ── Phase 1: parse every course tab into candidate lessons. ─────────────────
   const courses = [];
   for (const f of files) {
-    if (NON_COURSE_FILES.has(f.file_id)) continue; // decision 5: skip non-courses
-    const isPilotFile = f.file_id === PILOT_FILE;
+    // Part A: resolve the file id (new → old) BEFORE any registry lookup.
+    const fid = canonicalFileId(f.file_id, aliases);
+    if (NON_COURSE_FILES.has(fid)) continue; // decision 5: skip non-courses
+    const isPilotFile = fid === PILOT_FILE;
     // decision 6: teacher = the registry entry if present, else a name match.
-    let slug = teacherFiles[f.file_id] || null;
+    let slug = teacherFiles[fid] || null;
     if (!slug) {
       const m = matchTeacher(f.file_name, teachers);
-      if (m) { slug = m.slug; matchedFiles[f.file_id] = m; }
+      if (m) { slug = m.slug; matchedFiles[fid] = m; }
     }
     if (!slug) unmappedFiles.push({ file_id: f.file_id, file_name: f.file_name });
 
     for (const t of f.tabs) {
-      const key = `${f.file_id}\t${t.name}`;
-      const tabHidden = HIDDEN_TABS.includes(t.name);
+      // Part A: then the tab name (new → old), still before any lookup.
+      const tabName = canonicalTab(f.file_id, t.name, aliases);
+      const key = `${fid}\t${tabName}`;
+      const tabHidden = HIDDEN_TABS.includes(tabName);
       const teamSkipped = SKIP_TABS.has(key);
       const parsed = parseTab(t);
       if (parsed.status !== 'ok' || tabHidden || teamSkipped) {
@@ -191,7 +196,7 @@ export function planCatalogue(files, { teacherFiles = {}, teachers = [], courseI
       }
       const cid = registry[key] || nextFreeId();
       registry[key] = cid;
-      const isPilotCourse = isPilotFile && norm(t.name).includes('វេស្សន្តរជាត');
+      const isPilotCourse = isPilotFile && norm(tabName).includes('វេស្សន្តរជាត');
       // decision 2 (fix): a leading section row carries the course title; real
       // lessons are the rows that are NOT section rows.
       const firstLesson = parsed.lessons.find((l) => !isSectionRow(l)) || parsed.lessons[0];
@@ -287,12 +292,14 @@ async function main() {
   catch { console.error('The `xlsx` reader is not installed. Run:  npm install --no-save xlsx@0.18.5'); process.exit(1); }
 
   const names = existsSync(join(dir, 'INVENTORY.md')) ? parseInventoryNames(readFileSync(join(dir, 'INVENTORY.md'), 'utf-8')) : new Map();
+  const fileAliases = loadAliases(root);
   const files = [];
   for (const f of readdirSync(dir).sort()) {
     if (extname(f).toLowerCase() !== '.xlsx') continue;
     const id = basename(f, extname(f));
     const wb = XLSX.readFile(join(dir, f));
-    files.push({ file_id: id, file_name: names.get(id) ?? '', tabs: wb.SheetNames.map((n) => ({ name: n, ...sheetToGrid(XLSX, wb.Sheets[n]) })) });
+    // Part A: INVENTORY name fallback — the new id first, else the old (aliased) id.
+    files.push({ file_id: id, file_name: names.get(id) ?? names.get(canonicalFileId(id, fileAliases)) ?? '', tabs: wb.SheetNames.map((n) => ({ name: n, ...sheetToGrid(XLSX, wb.Sheets[n]) })) });
   }
 
   const tfJson = readJson(join(root, 'data', 'teacher-files.json'), { files: {} });
@@ -301,7 +308,7 @@ async function main() {
   const manifest = readJson(join(root, 'data', 'media-manifest.json'), []);
   const teachers = readJson(join(root, 'data', 'source', 'teachers-2026-11-02', 'teachers-2026-11-02.json'), []);
 
-  const plan = planCatalogue(files, { teacherFiles, teachers, courseIds, approved: approvedIds(manifest), inManifest: manifestIds(manifest) });
+  const plan = planCatalogue(files, { teacherFiles, teachers, courseIds, approved: approvedIds(manifest), inManifest: manifestIds(manifest), aliases: fileAliases });
 
   // Decision 3: a duplicate VISIBLE lesson id is a build failure.
   if (plan.idCollisions.length) {
@@ -327,7 +334,7 @@ async function main() {
     writeFileSync(join(root, 'data', 'id-aliases.json'), JSON.stringify(aliases, null, 2) + '\n', 'utf-8');
     // Decision 6: persist name-matched teacher files (merged; never overwrite a
     // hand-set slug). A slug is only ever an existing teacher's.
-    const mergedFiles = { ...teacherFiles };
+    const mergedFiles = { ...teacherFiles }; // keyed by the OLD (canonical) file id
     for (const [fid, m] of Object.entries(plan.matchedFiles)) if (!mergedFiles[fid]) mergedFiles[fid] = m.slug;
     writeFileSync(join(root, 'data', 'teacher-files.json'), JSON.stringify({ _doc: tfJson._doc || '', files: mergedFiles }, null, 2) + '\n', 'utf-8');
 
