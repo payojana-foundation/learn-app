@@ -80928,5 +80928,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1oowfIuu2wSAJwJ-PXGoLggob8_GGB_ei",
+    "drive_name": "បិដកលេខ២០-29 ដឹងនូវនាមរូប សង្ខារ វិញ្ញាណ អវិជ្ជាចប់ព្រះសូត្រ.mp3",
+    "source_md5": "ad11f3a7b836294c29a47ff33dc5fb7c",
+    "key": "audio/ad11f3a7b836294c-a64.mp3",
+    "bytes": 42388627,
+    "duration_s": 5298,
+    "sha256": "f4eb823c262b49dc7b0bc2330bd8f5f273d5b4bbabf7165aca92518c7da51f18",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "G": 10.2,
+      "limit": 0.6,
+      "depth": 9.936974992327126,
+      "busy": 3.8567155165092335,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
