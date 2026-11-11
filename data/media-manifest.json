@@ -85597,5 +85597,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LK8t-GNauh6cLKqjZl8Zkq_zymO72MV2",
+    "drive_name": "111.១១១​ ចែកវិថីចិត្ត​តាមប្រភេទបុគ្គលអរូបព្រហ្មដែលជា​ សោតា​ សកទាគាមី អនាគាមី​ ក្នុងអរូបភូមិ.mp3",
+    "source_md5": "f4bb4e92ad1b3b3b0449c6f200374f34",
+    "key": "audio/f4bb4e92ad1b3b3b-a64.mp3",
+    "bytes": 29757692,
+    "duration_s": 3719,
+    "sha256": "49187399e29547083de37824cbc7932163596e746a98d96be1bebdbd93366d9a",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -5.3,
+        "LRA": 0
+      },
+      "G": 11.3,
+      "limit": 0.6,
+      "depth": 10.436974992327128,
+      "busy": 9.12069521735624,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
