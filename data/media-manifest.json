@@ -67704,5 +67704,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1iZxEfoZZny0s5Mx0aQk9SueDGwzvl0_Z",
+    "drive_name": "27.២៧ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ​២៧   ៤-ទ្វារសង្គហៈ ”ត.mp3",
+    "source_md5": "16d6a2207701d2ae3b2209bf535ea130",
+    "key": "audio/16d6a2207701d2ae-a64.mp3",
+    "bytes": 28226498,
+    "duration_s": 3528,
+    "sha256": "fb047fccac0c60391e76dda1fe87b45014fce854012b7ac7b13b943d6bf7695d",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 11.099999999999998,
+      "limit": 0.6,
+      "depth": 11.936974992327126,
+      "busy": 7.881274268061106,
+      "out": {
+        "I": -18.2,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
