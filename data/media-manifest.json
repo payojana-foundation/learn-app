@@ -77680,5 +77680,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1eOWdNUlfDlzPXumHauNUJ7GoXIa2D-LX",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ភាគ១៦៨ មគ្គចិត្ត ៤ លះកិលស១០ យ៉ាង(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp3",
+    "source_md5": "2d2886803032d47e66bf08c002ef8549",
+    "key": "audio/2d2886803032d47e-a64.mp3",
+    "bytes": 44285117,
+    "duration_s": 5535,
+    "sha256": "12bbdc3f1f1ae9d87e0c9dc37800dfc0abd6a8711234228a937c05fb08131ab6",
+    "loudness": {
+      "pass1": {
+        "I": -23.7,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 7.699999999999999,
+      "limit": 0.6,
+      "depth": 11.636974992327126,
+      "busy": 5.828184839945083,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
