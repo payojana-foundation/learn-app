@@ -61092,5 +61092,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nQEKmnpIElat6LpEHIQM-Lq4b9RATt2H",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១១៦ ហេតុនាំឱ្យកើតមហាកុសលញាណសម្បយុត្តចិត្ត.mp3",
+    "source_md5": "05c49bc9c6f133462534c7b928aaaca4",
+    "key": "audio/05c49bc9c6f13346-a64.mp3",
+    "bytes": 45068999,
+    "duration_s": 5633,
+    "sha256": "f5031da0886b6eae2521610be7fcb7aa8780968de4366e4f2866c4de0f73064d",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 7.963025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.395501988071571,
+      "out": {
+        "I": -18.5,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
