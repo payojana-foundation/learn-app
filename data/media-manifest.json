@@ -76404,5 +76404,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1269yQeq_0fa6Dieolrb5f7d1lsCsLXjS",
+    "drive_name": "77.៧៧ រូបាវចសោភណចិត្ត​ ១៥ដួង អធិប្យាយអង្គឈាន៥ ដោយបញ្ចកន័យអង្គឈាន៥ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧៧.mp3",
+    "source_md5": "b29a28c8d9d2d15466b5c37a4c57daa3",
+    "key": "audio/b29a28c8d9d2d154-a64.mp3",
+    "bytes": 27515340,
+    "duration_s": 3439,
+    "sha256": "631e9938301d11461c45273f3bba2c1186d23e4a9a427aaca332c681a9e95fca",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 8.399999999999999,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 8.003692558186867,
+      "out": {
+        "I": -18.1,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
