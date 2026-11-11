@@ -75592,5 +75592,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "17Qwil9_R6C9Mgxv3MG1dfG9gS-Qlp-vF",
+    "drive_name": "71.៧១  ចែកមហាវិបាកដួង ដោយន័យ១៤ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧១.mp3",
+    "source_md5": "e34d4d9e6d48ff16dabc5290981a9c43",
+    "key": "audio/e34d4d9e6d48ff16-a64.mp3",
+    "bytes": 28626694,
+    "duration_s": 3578,
+    "sha256": "2fcd5b20fe84810d3f0a8de9114cacfc70e32470cae4d1b4819b4379d92e1e3d",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -2,
+        "LRA": 0
+      },
+      "G": 9.399999999999999,
+      "limit": 0.6,
+      "depth": 11.836974992327125,
+      "busy": 7.33204314898136,
+      "out": {
+        "I": -18.1,
+        "TP": -3.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
