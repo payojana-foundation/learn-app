@@ -60483,5 +60483,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1CVxskjJmq3emjijJ_L73CLTErO8DgLg3",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៩៥ អកុសលវិបាកឃានវិញ្ញាណ ជិវ្ហាវិញ្ញាណ.mp3",
+    "source_md5": "25b8c23138a029fd182b079ea21518aa",
+    "key": "audio/25b8c23138a029fd-a64.mp3",
+    "bytes": 46186831,
+    "duration_s": 5773,
+    "sha256": "89f5528c67ab7266d5b148546a391f073d7477a6bb183923cd835d21a317f630",
+    "loudness": {
+      "pass1": {
+        "I": -20.7,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 4.199999999999999,
+      "limit": 0.6,
+      "depth": 8.536974992327128,
+      "busy": 5.033299845842066,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
