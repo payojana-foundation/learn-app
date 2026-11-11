@@ -71242,5 +71242,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1SIiDDEB1EAtqfN2FvnfZn1pZEvlBekwg",
+    "drive_name": "44.៤៤ អហេតុកកុសលវិបាកចិត្ត៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤៤.mp3",
+    "source_md5": "85350cacfd636b2e5eb41855c3b85f82",
+    "key": "audio/85350cacfd636b2e-a64.mp3",
+    "bytes": 27367383,
+    "duration_s": 3420,
+    "sha256": "b6e4a2d6757fb6038ed571ea40e8835db87ece37a683762dce651a10d12d8c82",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.389400450173931,
+      "out": {
+        "I": -18.7,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
