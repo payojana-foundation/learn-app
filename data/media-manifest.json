@@ -82175,5 +82175,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18dhj1mcY-lshXE7_qBj6-sIAEiWVE5gZ",
+    "drive_name": "បិដកលេខ២០-38 ឥរិយាបថបព្វៈ ចម្រើនក្នុងឥរិយាបថ៤.mp3",
+    "source_md5": "59a23ba5160808e2f8e495cbbd326c8f",
+    "key": "audio/59a23ba5160808e2-a64.mp3",
+    "bytes": 43566227,
+    "duration_s": 5445,
+    "sha256": "46fec51a7459bce64960ee25bfa80c16c1d075a37cead8d3e574d54e6fe0d0fc",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -6.9,
+        "LRA": 0
+      },
+      "G": 8.899999999999999,
+      "limit": 0.6,
+      "depth": 6.4369749923271256,
+      "busy": 0.8380388376256714,
+      "out": {
+        "I": -18.1,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
