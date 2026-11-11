@@ -61005,5 +61005,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1w5jA3cXEngwEA5_8vYBnTwIUyv0rVnq3",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១១៣ លោភមូលចិត្តដួងទី៤​,៥​ ៦.mp3",
+    "source_md5": "5cbfe26ef2b41357d11031cd64cf8d28",
+    "key": "audio/5cbfe26ef2b41357-a64.mp3",
+    "bytes": 43114831,
+    "duration_s": 5389,
+    "sha256": "d7882efc416912232e46c2963c1685e2bc360888386996f1cc29c33d0a919950",
+    "loudness": {
+      "pass1": {
+        "I": -20.8,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 5.300000000000001,
+      "limit": 0.6,
+      "depth": 9.63697499232713,
+      "busy": 4.987428794091997,
+      "out": {
+        "I": -18.2,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
