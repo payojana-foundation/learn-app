@@ -71271,5 +71271,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1em2doo5_1_f6XMOE5yoJ9vqh-HvQztsE",
+    "drive_name": "283-14 Jan 2025 រាត្រីធម្មទាន.mp3",
+    "source_md5": "5ac9ae55a00e5fe00102f9c1376e593c",
+    "key": "audio/5ac9ae55a00e5fe0-a64.mp3",
+    "bytes": 10853398,
+    "duration_s": 1356,
+    "sha256": "4ceeb6e62d5c0814d05759df66e10a44c400f62c3d95945449941a82d9f473c2",
+    "loudness": {
+      "pass1": {
+        "I": -19.9,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 3,
+      "limit": 0.6,
+      "depth": 7.336974992327127,
+      "busy": 3.64422084623323,
+      "out": {
+        "I": -18.2,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
