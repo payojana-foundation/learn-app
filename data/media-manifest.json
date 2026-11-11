@@ -67472,5 +67472,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1su1ekuywJnxSqQ2NTEtdCmQOJsLMjDCI",
+    "drive_name": "26.២៦ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ​២៦   ៤-ទ្វារសង្គហៈ.mp3",
+    "source_md5": "9eceb0ba5e43ba32ea3108bf1f1b3949",
+    "key": "audio/9eceb0ba5e43ba32-a64.mp3",
+    "bytes": 29013724,
+    "duration_s": 3626,
+    "sha256": "5e80bce2163f068014510f6ec5ea3ea9a63662554123e2dde271623996a66bea",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.963025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 7.6027463361504415,
+      "out": {
+        "I": -18.4,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
