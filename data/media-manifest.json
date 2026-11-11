@@ -73185,5 +73185,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Xt5WBoU1gb-8NUdz2A-IDeErBrJofEyz",
+    "drive_name": "56.៥៦ លក្ខណាទិចតុក្កៈ របស់កុសល ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៥៦.mp3",
+    "source_md5": "ad2894e87c698469d406274139fd6818",
+    "key": "audio/ad2894e87c698469-a64.mp3",
+    "bytes": 28772562,
+    "duration_s": 3596,
+    "sha256": "2b942aa370d588dbf5fe258b3043c6f6e5042e3cfb023a22c66ae1b6b073c9ec",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.6241484776866395,
+      "out": {
+        "I": -18.6,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
