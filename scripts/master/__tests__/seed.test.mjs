@@ -2,7 +2,7 @@ import { describe, it, expect } from 'vitest';
 import { LABELS } from '../../catalogue/sheets-map.mjs';
 import { HIDDEN_TABS } from '../../catalogue/catalogue-build.mjs';
 import {
-  buildMaster, acastEmbedUrl, loadColumns, masterCsv, legacyCsv, excludedCsv, rawLink, minicourseDecision, scanMiniCourse,
+  buildMaster, acastEmbedUrl, acastEpisodeId, loadColumns, masterCsv, legacyCsv, excludedCsv, rawLink, minicourseDecision, scanMiniCourse,
   writeToSheet, RefuseError, DETAILS_LABEL, YOUTUBE_EXTRA_LABEL,
 } from '../seed.mjs';
 import { parseCsvObjects } from '../csv.mjs';
@@ -124,14 +124,31 @@ describe('PART 2 seed: columns of the sheet', () => {
     ]);
     expect(rows.map((r) => r.acast_embed)).toEqual(['https://play.acast.com/s/x/1', '', '', 'https://embed.acast.com/4']);
     expect(rows.map((r) => r.acast_status)).toEqual(['posted', 'posted', 'to do', 'posted']);
+    expect(rows.map((r) => r.acast_episode_id)).toEqual(['', '', '6748088e74eb04a4db2ba53c', '']); // PART 5: a bare id is no longer Legacy
     expect(rows.map((r) => r.issues.includes('acast embed missing'))).toEqual([false, true, false, false]); // done + no Acast URL
     expect(legacy.map((l) => [l.row_key, l.label, l.value])).toEqual([
       ['M00002', 'Embed link from Acast', 'https://example.com/e/2'],
-      ['M00003', 'Other Embed link', '6748088e74eb04a4db2ba53c'],
       ['M00004', 'Other Embed link', 'https://play.acast.com/s/y/4'],
     ]);
   });
-  it('acastEmbedUrl: host only, not the path or the text', () => {
+  it('PART 5: a 24-hex value under an embed label -> acast_episode_id (not Legacy); no URL is built; the issue needs neither', () => {
+    const ID = '6748088E74eb04a4db2ba53c';
+    const { rows, legacy } = one([
+      { num: '1', title: 'a', code: 'CODE0001', mp3: url('A'), acast: 'done', embed2: ` ${ID} ` },
+      { num: '2', title: 'b', code: 'CODE0002', mp3: url('B'), acast: 'done', embed: 'https://embed.acast.com/2', embed2: ID.toLowerCase() },
+      { num: '3', title: 'c', code: 'CODE0003', mp3: url('C'), acast: 'done', embed2: '6748088e74eb04a4db2ba53' }, // 23 digits
+      { num: '4', title: 'd', code: 'CODE0004', mp3: url('D'), acast: 'done', embed2: '6748088e74eb04a4db2ba53g' }, // not hex
+      { num: '5', title: 'e', code: 'CODE0005', mp3: url('E'), acast: 'done' },
+    ]);
+    expect(rows.map((r) => r.acast_episode_id)).toEqual([ID, ID.toLowerCase(), '', '', '']);
+    expect(rows.map((r) => r.acast_embed)).toEqual(['', 'https://embed.acast.com/2', '', '', '']);
+    expect(rows.every((r) => !r.acast_embed.includes(ID) && !r.acast_embed.includes(ID.toLowerCase()))).toBe(true); // never a built URL
+    expect(rows.map((r) => r.issues.includes('acast embed missing'))).toEqual([false, false, true, true, true]);
+    // only the two non-ids stay in Legacy
+    expect(legacy.map((l) => [l.row_key, l.value])).toEqual([['M00003', '6748088e74eb04a4db2ba53'], ['M00004', '6748088e74eb04a4db2ba53g']]);
+    expect(acastEpisodeId(ID)).toBe(true);
+    expect(acastEpisodeId('x')).toBe(false);
+  });  it('acastEmbedUrl: host only, not the path or the text', () => {
     expect(acastEmbedUrl('https://embed.acast.com/abc')).toBe(true);
     expect(acastEmbedUrl('<iframe src="https://play.acast.com/x">')).toBe(true);
     expect(acastEmbedUrl('https://example.com/acast')).toBe(false);

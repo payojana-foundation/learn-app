@@ -34,15 +34,16 @@ Owner TEAM = the team edits it. SYSTEM = written by the seed/sync; a protected r
 | 18 | `audio_status` | SYSTEM | yes | not started / converted / needs review / approved | data/media-manifest.json by source drive id: approved; id in data/queues/failed-review.csv = needs review; any other manifest entry = converted; else not started. |
 | 19 | `learn_live` | SYSTEM | yes | yes / no | yes = approved AND visible in the catalogue (planCatalogue visible). Not what the app shows today (app switch: bulk 09). |
 | 20 | `acast_status` | TEAM | no | to do / posted / not needed | Acast column: done -> posted, empty -> to do; an Acast embed link present -> posted. 'not needed' is team-only (never seeded). |
-| 21 | `acast_embed` | SYSTEM | yes |  | Column labelled 'Embed link from Acast'. |
-| 22 | `soundwise_status` | TEAM | no | to do / posted / not needed | Soundwise column: done -> posted, empty -> to do; any other value -> to do and the value goes to Legacy. |
-| 23 | `minicourse_status` | TEAM | no | to do / posted / not needed | Column labelled MiniCourse / minicourse (only when every value is done or empty, else those columns go to Legacy): done -> posted, empty -> to do. 'not needed' is team-only. |
-| 24 | `issues` | SYSTEM | yes |  | Hide reason from the catalogue, plus: hidden tab, no title, no source, no code, acast embed missing. Joined with '; '. |
-| 25 | `ready` | TEAM | no | yes | 'Ready ?' / 'Realy ?' / 'Realy' columns: yes or Yes -> yes; empty -> empty. Not used for visibility or parity. |
-| 26 | `notes` | TEAM | no |  | No source; empty. |
-| 27 | `source_file` | SYSTEM | yes |  | Drive file id (the .xlsx name in data/source/sheets). |
-| 28 | `source_tab` | SYSTEM | yes |  | Tab name, byte-for-byte. |
-| 29 | `source_row` | SYSTEM | yes |  | Sheet row number (1-based). |
+| 21 | `acast_embed` | SYSTEM | yes |  | The first cell, under ANY embed-labelled column ('Embed link from Acast' and the other 'embed link' label), whose URL host contains acast. Other cells stay in Legacy. |
+| 22 | `acast_episode_id` | SYSTEM | yes |  | The first cell under any embed-labelled column whose trimmed value is exactly 24 hex digits (case-insensitive). No URL is ever built from it. |
+| 23 | `soundwise_status` | TEAM | no | to do / posted / not needed | Soundwise column: done -> posted, empty -> to do; any other value -> to do and the value goes to Legacy. |
+| 24 | `minicourse_status` | TEAM | no | to do / posted / not needed | Column labelled MiniCourse / minicourse (only when every value is done or empty, else those columns go to Legacy): done -> posted, empty -> to do. 'not needed' is team-only. |
+| 25 | `issues` | SYSTEM | yes |  | Hide reason from the catalogue, plus: hidden tab, no title, no source, no code, acast embed missing (Acast done, and neither acast_embed nor acast_episode_id). Joined with '; '. |
+| 26 | `ready` | TEAM | no | yes | 'Ready ?' / 'Realy ?' / 'Realy' columns: yes or Yes -> yes; empty -> empty. Not used for visibility or parity. |
+| 27 | `notes` | TEAM | no |  | No source; empty. |
+| 28 | `source_file` | SYSTEM | yes |  | Drive file id (the .xlsx name in data/source/sheets). |
+| 29 | `source_tab` | SYSTEM | yes |  | Tab name, byte-for-byte. |
+| 30 | `source_row` | SYSTEM | yes |  | Sheet row number (1-based). |
 
 ## Rows
 
@@ -50,7 +51,8 @@ Owner TEAM = the team edits it. SYSTEM = written by the seed/sync; a protected r
 - Out: section rows, unnumbered rows (listed in `reports/master-seed-excluded.csv`), tabs named `0_…`, tabs without a header row, files that are not course sheets.
 - `row_key` (M00001…) is assigned once at seed, in the order file name, tab order, sheet row, and never changes: it is the row's identity. `lesson_id` is recomputed on every seed/sync and is empty when there is no source and no code (issue `no source, no code`). Two rows may share a `lesson_id` (a duplicate code); the later one is hidden.
 - `course_id`, `lesson_id`, `learn_live` and the hide reason come from `scripts/catalogue/catalogue-build.mjs` (`planCatalogue`): the same functions, no copy. `learn_live = yes` means approved media AND visible in the catalogue; it is not what the app shows today.
-- Statuses: audio_status `approved` (manifest status approved) > `needs review` (id in `data/queues/failed-review.csv`) > `converted` (any other manifest entry) > `not started`. acast_status / soundwise_status / minicourse_status: `done` -> posted, empty -> to do (an Acast embed link also means posted); `not needed` is only ever set by the team. A value that is neither done nor empty (in Acast, Soundwise, Ready) -> to do / empty and the value goes to Legacy. If an Acast status is posted but there is no embed link: issue `acast embed missing`.
+- Statuses: audio_status `approved` (manifest status approved) > `needs review` (id in `data/queues/failed-review.csv`) > `converted` (any other manifest entry) > `not started`. acast_status / soundwise_status / minicourse_status: `done` -> posted, empty -> to do (an Acast embed link also means posted); `not needed` is only ever set by the team. A value that is neither done nor empty (in Acast, Soundwise, Ready) -> to do / empty and the value goes to Legacy. If an Acast status is done but the row has neither `acast_embed` nor `acast_episode_id`: issue `acast embed missing`.
+- Embed-labelled columns (the "Embed link from Acast" label and the other "embed link" label): per cell, a URL whose host contains `acast` -> `acast_embed`; a value that is exactly 24 hex digits (any case) -> `acast_episode_id`; anything else stays in Legacy. A URL is never built from an episode id.
 - `ready`: yes/Yes in the Ready ?, Realy ? and Realy columns -> `yes`, empty -> empty. Not used for visibility or parity.
 - MiniCourse / minicourse columns: if every value over the rows that go in is done or empty they feed `minicourse_status`; otherwise they go to Legacy. The dry run prints the evidence.
 

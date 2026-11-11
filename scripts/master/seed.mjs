@@ -113,21 +113,30 @@ export function rawLink(text, link) {
   return link ? String(link) : raw;
 }
 
-/** True when the URL host of 	ext contains cast (embed.acast.com, play.acast.com …). */
+/** True when the URL host of `text` contains "acast" (embed.acast.com, play.acast.com …). */
 export function acastEmbedUrl(text) {
   const m = /https?:\/\/([^\/\s?#"'<>]+)/i.exec(String(text ?? ''));
   return !!m && m[1].toLowerCase().includes('acast');
 }
 
-/** acast_embed for one row: the first embed-labelled cell (both labels) whose URL host
- * contains cast; marks that column used. Other embed cells stay for Legacy. */
+/** An Acast episode id: exactly 24 hex digits (any case). */
+export const ACAST_EPISODE_ID_RE = /^[0-9a-f]{24}$/i;
+export const acastEpisodeId = (text) => ACAST_EPISODE_ID_RE.test(outer(text));
+
+/** acast_embed and acast_episode_id for one row, from the embed-labelled cells (both
+ * labels). The first cell whose URL host contains "acast" is acast_embed; the first
+ * cell that is a bare 24-hex id is acast_episode_id (stored trimmed). Both columns are
+ * marked used; every other embed cell stays for Legacy. A URL is never built from an id. */
 function acastEmbed(t, r0, role, used) {
+  let embed = '';
+  let episodeId = '';
   for (const [c, r] of role) {
     if (r !== 'embed') continue;
     const v = rawLink(cellText(t, r0, c), cellLink(t, r0, c));
-    if (v !== '' && acastEmbedUrl(v)) { used.add(c); return v; }
+    if (v === '') continue;
+    if (!embed && acastEmbedUrl(v)) { embed = v; used.add(c); } else if (!episodeId && acastEpisodeId(v)) { episodeId = outer(v); used.add(c); }
   }
-  return '';
+  return { embed, episodeId };
 }
 
 /** Evidence for the MiniCourse decision (C8): done/empty only → a status column,
@@ -243,7 +252,7 @@ export function buildMaster(files, ctx = {}) {
         };
         const youtube = L('youtube') || L('youtube_extra');
         const acastCell = idx('acast') >= 0 ? cellText(t, r0, idx('acast')) : '';
-        const embed = acastEmbed(t, r0, role, used);
+        const { embed, episodeId } = acastEmbed(t, r0, role, used);
         const swCell = idx('soundwise') >= 0 ? cellText(t, r0, idx('soundwise')) : '';
         const readyCell = idx('ready') >= 0 ? cellText(t, r0, idx('ready')) : '';
         const miniCell = idx('minicourse_status') >= 0 ? cellText(t, r0, idx('minicourse_status')) : '';
@@ -258,7 +267,7 @@ export function buildMaster(files, ctx = {}) {
         if (hiddenTab) issues.push('hidden tab');
         if (!outer(l.title)) issues.push('no title');
         if (!lessonId) issues.push('no source, no code');
-        if (acastDone && !embed) issues.push('acast embed missing');
+        if (acastDone && !embed && !episodeId) issues.push('acast embed missing');
 
         const rowKey = `M${String(++n).padStart(5, '0')}`;
         const src = sourceId ? sourceFrom || '' : '';
@@ -286,6 +295,7 @@ export function buildMaster(files, ctx = {}) {
           learn_live: found && found.visible ? 'yes' : 'no',
           acast_status: acastDone || embed ? 'posted' : 'to do',
           acast_embed: embed,
+          acast_episode_id: episodeId,
           soundwise_status: DONE.test(outer(swCell)) ? 'posted' : 'to do',
           minicourse_status: miniStatus ? (DONE.test(outer(miniCell)) ? 'posted' : 'to do') : '',
           issues: issues.join('; '),
