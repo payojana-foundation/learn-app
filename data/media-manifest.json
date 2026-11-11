@@ -82842,5 +82842,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1D1wyvSOyzZv2aNzIQbZmPye0LP6NsH3H",
+    "drive_name": "2.វគ្គខ្លី លើកទី ៦២ 251130_1446.mp3",
+    "source_md5": "6c8c929520e8208746d455964aae694c",
+    "key": "audio/6c8c929520e82087-a64.mp3",
+    "bytes": 24438325,
+    "duration_s": 3054,
+    "sha256": "3797ba037df7e1e147bfd9e344a3267ec222fdf36b30f84a675dfeb55a9caa44",
+    "loudness": {
+      "pass1": {
+        "I": -27.2,
+        "TP": -8.2,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 6.536974992327129,
+      "busy": 5.5454619854325236,
+      "out": {
+        "I": -18.2,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
