@@ -61237,5 +61237,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1nlv2AJJF-HAcje0tdmBc2hJ_N7u20LRE",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១២១.(១២៤ ចែកមហាកុសល ទានវត្ថុ ៤ និងទុកទានភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "e19ac19eb11fefb9927d769af29b1877",
+    "key": "audio/e19ac19eb11fefb9-a64.mp3",
+    "bytes": 48154374,
+    "duration_s": 6019,
+    "sha256": "c6179f1b77dde2567e94f55ac7b30d42120f126f1d4fd060151e1f34365a28f8",
+    "loudness": {
+      "pass1": {
+        "I": -23.3,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 7.400000000000002,
+      "limit": 0.6,
+      "depth": 11.93697499232713,
+      "busy": 5.785189184699091,
+      "out": {
+        "I": -18.1,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
