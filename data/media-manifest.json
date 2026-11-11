@@ -65645,5 +65645,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18ht1PZprCbevTzaIxL9PAaw66lJJgy7g",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៤៨​ (១៥០ សំណួរបញ្ចប់កាមាវចរចិត្ត និងរូបឈាន.mp3",
+    "source_md5": "8db6019ee6c18d79af71e93ee57914db",
+    "key": "audio/8db6019ee6c18d79-a64.mp3",
+    "bytes": 45381424,
+    "duration_s": 5672,
+    "sha256": "d8677eed5f3fc79c7475a96421d518d2ab6edce858bae2d3ff1b7f54121fbb63",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 8.200000000000003,
+      "limit": 0.6,
+      "depth": 11.73697499232713,
+      "busy": 4.796259243915983,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
