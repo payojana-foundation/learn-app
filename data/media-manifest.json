@@ -63267,5 +63267,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1qt5j23yUpCMpZnUWtytdGo5iUmb8l6_0",
+    "drive_name": "1.១ ផ្តើមវិថីសង្គហវិភាគ មេរៀនថ្ងៃទី ៤ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង្គហវិភាគ.mp3",
+    "source_md5": "e01c7f9c19455719b62fdb61cc019623",
+    "key": "audio/e01c7f9c19455719-a64.mp3",
+    "bytes": 14656617,
+    "duration_s": 1832,
+    "sha256": "e0a1bbf14fd94960463b84b9b83c0ebb8e184824e818d66060192c14de02bc71",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -4.7,
+        "LRA": 0
+      },
+      "G": 12.263025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 9.186430501350946,
+      "out": {
+        "I": -18.4,
+        "TP": -3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
