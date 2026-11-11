@@ -75041,5 +75041,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Ld5ECxLhbtoxABzgrcBGhp4WrgFyhzzd",
+    "drive_name": "57.៥៧ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី ​៥៧  ៦-អារម្មណសង្គហៈ​ អារម្មណ៍ពិ.mp3",
+    "source_md5": "f4b0ba01cabd66e7ff79cfac6a2b6d49",
+    "key": "audio/f4b0ba01cabd66e7-a64.mp3",
+    "bytes": 32948392,
+    "duration_s": 4118,
+    "sha256": "0f6baacab58376cca734e6b2459df0b034ccbde077361fb44c3d2881f1ecaf6b",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "G": 11,
+      "limit": 0.6,
+      "depth": 11.636974992327128,
+      "busy": 8.131904819715915,
+      "out": {
+        "I": -18.2,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
