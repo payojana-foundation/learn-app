@@ -83567,5 +83567,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1WI4Ip79DnAReoU0bPEHS5cM5nTciPw4w",
+    "drive_name": "បិដកលេខ២០-61 ទុក្ខសច្ចៈ ជាតិទុក្ខ ពន្យល់អំពីចាប់ចាប់កំណើត.mp3",
+    "source_md5": "b236f43bbb2a63d97d28ed8f14c49e43",
+    "key": "audio/b236f43bbb2a63d9-a64.mp3",
+    "bytes": 59101352,
+    "duration_s": 7387,
+    "sha256": "b1469e0e7236e68dc59342ec68de37342ccfa74ec622a49587dfcba07ddb275c",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -5,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 9.736974992327127,
+      "busy": 4.997022057081751,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
