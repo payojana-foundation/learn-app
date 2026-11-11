@@ -85046,5 +85046,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1podUzeTJmTWYNzcDiKR2H8iI4xi04zvl",
+    "drive_name": "98.៩៨ លោកុត្តរចិត្ត៨ដួង​ ដោយន័យ១៤ និង ព្រះសោតាបន្ន៣ប្រភេទ​ និង​ ២៤ពួក ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៩៨.mp3",
+    "source_md5": "9ad419dd29e0a815d409573aebceab6a",
+    "key": "audio/9ad419dd29e0a815-a64.mp3",
+    "bytes": 26918704,
+    "duration_s": 3364,
+    "sha256": "e14ceeda900f5e32948c8e0d31f5c419adbe43754a2d15667c6aec3e16318092",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -5.5,
+        "LRA": 0
+      },
+      "G": 11.900000000000002,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 6.755973609129814,
+      "out": {
+        "I": -18.1,
+        "TP": -3.8,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
