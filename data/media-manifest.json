@@ -83973,5 +83973,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1vh3uc4cNCdRv6eqUiJqflV996R8j81pr",
+    "drive_name": "បិដកលេខ២០-75 មហាសីហនាទសូត្រ អំពីការឧបមាបដិបទាផ្សេងៗ.mp3",
+    "source_md5": "6115ea3aef1bad1ea89f4b17302c3cf9",
+    "key": "audio/6115ea3aef1bad1e-a64.mp3",
+    "bytes": 57020960,
+    "duration_s": 7127,
+    "sha256": "53be5d289dcb6798ed3b4a2ad070e8abd4c4618453c7582cfc25884bb06c7835",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.8,
+        "LRA": 0
+      },
+      "G": 10.099999999999998,
+      "limit": 0.6,
+      "depth": 11.736974992327125,
+      "busy": 5.452396318536394,
+      "out": {
+        "I": -18.2,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
