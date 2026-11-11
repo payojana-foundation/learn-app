@@ -84698,5 +84698,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "129_si6M2owgCzsxijRJNliaXdlyiAVs1",
+    "drive_name": "91.៩១ អធិប្បាយកាមជវនមនោទ្វារមរណាសន្នវិថី​ ព្រះអរហន្តចុតិតអំពីកាមចិត្ត ព្រះអភិធម្ម​បរិច្ឆេទ​.mp3",
+    "source_md5": "6c84248e6ffa11e8ae6a6cfaa8fcb559",
+    "key": "audio/6c84248e6ffa11e8-a64.mp3",
+    "bytes": 28098394,
+    "duration_s": 3512,
+    "sha256": "0f0f00a74c8bd4b0b91be6a482197ad5ff5f9c027ad63990eda346a7f088cc4c",
+    "loudness": {
+      "pass1": {
+        "I": -25.6,
+        "TP": -5.3,
+        "LRA": 0
+      },
+      "G": 11.100000000000001,
+      "limit": 0.6,
+      "depth": 10.236974992327129,
+      "busy": 8.556480888319454,
+      "out": {
+        "I": -18.2,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 5,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
