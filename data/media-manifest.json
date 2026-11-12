@@ -86496,5 +86496,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1aN3bRdt7T2_59Gp268vU_umyOAhJVuFY",
+    "drive_name": "បិដកលេខ២០-82 ចូឡទុក្ខក្ខន្ធសូត្រ អំពីទោសរបស់កាមនិងការបដិបត្តិ.mp3",
+    "source_md5": "9bef93586907f9eada9273cdf6556375",
+    "key": "audio/9bef93586907f9ea-a64.mp3",
+    "bytes": 50372692,
+    "duration_s": 6296,
+    "sha256": "f4f5b6441b95566a22af4ff3af87ef535f95d92e6af5437dd48122161ce9d9c8",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 10.63697499232713,
+      "busy": 4.5078257140815206,
+      "out": {
+        "I": -18.1,
+        "TP": -4,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
