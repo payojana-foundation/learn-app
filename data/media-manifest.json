@@ -86757,5 +86757,34 @@
       "result": "cap"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1aloDJa_TEllx3902vdKlUW1AXiX7nwuL",
+    "drive_name": "បិដកលេខ២០-91 វិតក្កសណ្ឋានសូត្រ ការឧបមាលះអកុសលវិតក្កៈ.mp3",
+    "source_md5": "4ac9e479699dbfdf37ad5dd77d24c2f4",
+    "key": "audio/4ac9e479699dbfdf-a64.mp3",
+    "bytes": 56866733,
+    "duration_s": 7108,
+    "sha256": "2904fe1f0231de0d3b7cfbfa8bb40f6ddd69e249660fc61d62e46b83b6f3f672",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 10.7,
+      "limit": 0.6,
+      "depth": 11.836974992327127,
+      "busy": 6.185902395790836,
+      "out": {
+        "I": -18.1,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
