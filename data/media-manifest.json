@@ -86554,5 +86554,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1lAfdc9TwMrFqBE5kHNkNjQTV4aTtI8MP",
+    "drive_name": "បិដកលេខ២០-84 អនុមានសូត្រ ពិចារណាធម៌១៦ ប្រការហើយលះអកុសលនោះៗ.mp3",
+    "source_md5": "312f56f3a12d6cf41a2afe893dc24d14",
+    "key": "audio/312f56f3a12d6cf4-a64.mp3",
+    "bytes": 56546158,
+    "duration_s": 7068,
+    "sha256": "011a380de85189b3f767ad28cf7df410857d30b8235286e0dec698dcf8c55dc0",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "G": 10.063025007672874,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.066742121458636,
+      "out": {
+        "I": -18.5,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
