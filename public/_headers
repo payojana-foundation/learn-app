@@ -1,7 +1,7 @@
-# Embeds (P-14): only these hosts may be framed by the lesson player.
-# frame-src alone does not restrict any other resource type.
+# P-14 (bulk 09): Learn plays its own R2 audio only and renders no iframe, so no host
+# may be framed at all. (frame-src alone does not restrict any other resource type.)
 /*
-  Content-Security-Policy: frame-src https://embed.acast.com https://www.youtube.com https://www.youtube-nocookie.com
+  Content-Security-Policy: frame-src 'none'
 
 /data/*
   Cache-Control: no-cache

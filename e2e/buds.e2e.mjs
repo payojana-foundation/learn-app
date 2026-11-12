@@ -1,25 +1,25 @@
 /**
  * e2e/buds.e2e.mjs — buds on the branch + Start here leaf marks (bulk-06 P1).
  *
- * Real course data from the catalog (ids and lesson ids are read, never typed);
- * lessons are marked with the real "mark done" button; embeds are blocked so
- * nothing outside the preview server is fetched. No titles or names are typed.
+ * bulk 09: the real catalog holds only the approved course(s), so the classes are
+ * route-mocked placeholder courses (e2e/mock-data.mjs); lessons are marked with the
+ * real "mark done" button; nothing outside the preview server is fetched. No titles
+ * or names are typed.
  *
  * PART A (320 and 360 px x light and dark x km and en, service worker blocked):
  *   fresh /my bare; open a lesson without finishing: no bud; mark one lesson
  *   done: one bud; finish that class: bud gone, one leaf; reload keeps it;
  *   3 leaves + 2 buds: leaves first, then buds; Start here fixture: leaf mark
  *   on the finished card only; no horizontal scroll; no digits in the panel.
- * PART B (360 light km, service worker ON): 3 leaves + 2 buds survive reload
- *   and an offline reload.
+ * PART B (360 light km, service worker ON, the real course c080): a leaf, then a
+ *   bud, each survive reload and an offline reload.
  */
 
 import { chromium, devices } from 'playwright';
-import { createHash } from 'node:crypto';
+import { installMockData } from './mock-data.mjs';
 
 const PORT = process.env.E2E_PORT || '4321';
 const BASE = `http://localhost:${PORT}`;
-const sha256 = (s) => createHash('sha256').update(s).digest('hex');
 
 let failures = 0;
 const ok = (m) => console.log('  ✓ ' + m);
@@ -64,16 +64,12 @@ async function open(page, path, lang) {
   await page.waitForSelector('#app-main > *');
 }
 
-/** Pick real, small courses: A (to play through), 3 for leaves, 2 for buds. */
-async function pickCourses(page) {
-  return page.evaluate(async () => {
-    const cat = await (await fetch('/data/catalog.json')).json();
-    const cands = cat.courses.filter((c) => c.lesson_count >= 2).sort((a, b) => a.lesson_count - b.lesson_count || a.id.localeCompare(b.id)).slice(0, 8);
-    const lessons = {};
-    for (const c of cands) lessons[c.id] = (await (await fetch(`/data/courses/${c.id}.json`)).json()).lessons.map((l) => l.id);
-    const ids = cands.map((c) => c.id);
-    return { A: ids[0], leaves: ids.slice(1, 4), buds: ids.slice(4, 6), lessons };
-  });
+/** The placeholder courses: A (to play through), 3 for leaves, 2 for buds. */
+function pickCourses(md) {
+  const ids = [...md.ids];
+  const lessons = {};
+  for (const id of ids) lessons[id] = md.course(id).lessons.map((l) => l.id);
+  return { A: ids[0], leaves: ids.slice(1, 4), buds: ids.slice(4, 6), lessons };
 }
 
 /** Replace progress + leaves with: leaves L (at 1..), buds B (one lesson done, updatedAt 10, 20). */
@@ -117,7 +113,7 @@ async function newContext(browser, width, scheme, sw) {
     colorScheme: scheme,
     serviceWorkers: sw ? 'allow' : 'block',
   });
-  // Nothing outside the preview server: block the embed hosts.
+  // Nothing outside the preview server: block the former embed hosts.
   await context.route(/embed\.acast\.com|youtube(-nocookie)?\.com|drive\.google\.com/, (r) => r.abort());
   return context;
 }
@@ -126,10 +122,11 @@ async function partA(browser, width, scheme, lang) {
   console.log(`[${width}px ${scheme} ${lang}]`);
   const context = await newContext(browser, width, scheme, false);
   const page = await context.newPage();
+  const md = await installMockData(page, BASE, { ids: ['c901', 'c902', 'c903', 'c904', 'c905', 'c906'], lessonsPer: 3 });
+  const plan = pickCourses(md);
+  const lessons = plan.lessons[plan.A];
 
   await open(page, '/my', lang);
-  const plan = await pickCourses(page);
-  const lessons = plan.lessons[plan.A];
 
   check(same(await kinds(page), []), 'fresh /my: bare branch, no buds');
   check(await noHScroll(page), 'fresh /my: no horizontal scroll');
@@ -167,13 +164,7 @@ async function partA(browser, width, scheme, lang) {
 
   // Start here fixture: approved path of 2 classes (one with a leaf, one a bud)
   const paths = { version: 1, paths: [{ id: 'start-here', title_km: null, title_en: null, course_ids: [plan.leaves[0], plan.buds[0]], approved: true }] };
-  const body = JSON.stringify(paths, null, 2) + '\n';
-  await page.route('**/data/manifest.json*', async (route) => {
-    const m = await (await route.fetch()).json();
-    m.files.paths.sha256 = sha256(Buffer.from(body, 'utf-8'));
-    await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(m) });
-  });
-  await page.route('**/data/paths.json*', (r) => r.fulfill({ status: 200, contentType: 'application/json', body }));
+  md.serve('paths', 'paths.json', paths);
   await open(page, '/', lang);
   const marks = await page.evaluate(() => {
     const first = document.querySelector('#app-main section');
@@ -195,20 +186,33 @@ async function partA(browser, width, scheme, lang) {
 }
 
 async function partB(browser) {
-  console.log('[offline 360px light km, service worker on]');
+  console.log('[offline 360px light km, service worker on] a leaf and a bud on the real course c080');
   const lang = 'km';
   const context = await newContext(browser, 360, 'light', true);
   const page = await context.newPage();
   await open(page, '/my', lang);
   await page.waitForFunction(() => !!navigator.serviceWorker.controller, null, { timeout: 20000 }).catch(() => {});
-  const plan = await pickCourses(page);
+  const lessons = await page.evaluate(async () => (await (await fetch('/data/courses/c080.json')).json()).lessons.map((l) => l.id));
+  const plan = { A: 'c080', leaves: ['c080'], buds: [], lessons: { c080: lessons } };
+
+  // a leaf
   await seed(page, plan);
   await open(page, '/my', lang);
-  check(same(await kinds(page), ['leaf', 'leaf', 'leaf', 'bud', 'bud']), 'online: 3 leaves + 2 buds');
+  check(same(await kinds(page), ['leaf']), 'online: one leaf');
   await context.setOffline(true);
   await page.reload({ waitUntil: 'domcontentloaded' });
   await page.waitForSelector('.branchp', { timeout: 15000 });
-  check(same(await kinds(page), ['leaf', 'leaf', 'leaf', 'bud', 'bud']), 'offline reload: leaves and buds still there');
+  check(same(await kinds(page), ['leaf']), 'offline reload: the leaf is still there');
+  await context.setOffline(false);
+
+  // a bud (one lesson done, no leaf)
+  await seed(page, { ...plan, leaves: [], buds: ['c080'] });
+  await open(page, '/my', lang);
+  check(same(await kinds(page), ['bud']), 'online: one bud');
+  await context.setOffline(true);
+  await page.reload({ waitUntil: 'domcontentloaded' });
+  await page.waitForSelector('.branchp', { timeout: 15000 });
+  check(same(await kinds(page), ['bud']), 'offline reload: the bud is still there');
   await context.setOffline(false);
   await context.close();
 }

@@ -1,10 +1,12 @@
 /**
  * scripts/build-courses.mjs — build the served course data (P3).
  *
- * Reads the frozen sources:
- *   data/source/website-courses-2026-09-28.json
+ * Reads (bulk 09: the app is built from the MASTER SHEET export):
+ *   data/master/lessons.csv + data/master/courses.csv  (export of the master sheet)
  *   data/source/teachers-2026-11-02/teachers-2026-11-02.json  (+ teacher-photos/)
- *   data/media-manifest.json  (optional; from the media pipeline, P2)
+ *   data/media-manifest.json  (approved entries decide which lessons are shown)
+ * The old website source (data/source/website-courses-2026-09-28.json) is no longer
+ * read; the old `buildCourses` below is kept untouched (used by contract tests).
  * and writes:
  *   public/data/catalog.json
  *   public/data/courses/<id>.json   (one per course)
@@ -14,8 +16,8 @@
  * plus reports/course-issues.csv (untracked).
  *
  * Titles and names are copied byte-for-byte; the build never retypes, trims,
- * normalises, or translates them. IDs are provisional (`c###`, `c###-l###`),
- * flagged `provisional: true`, and carry an aliases hook for the permanent ids.
+ * normalises, or translates them. Ids come from the master sheet (course `c###`
+ * from the registry, lesson id = the master lesson_id).
  *
  * Exit 0 when all hard checks pass; exit 1 on any hard-fail check.
  *
@@ -23,12 +25,14 @@
  * a small fixture (never the real titles).
  */
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, copyFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, copyFileSync, unlinkSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
 import { dirname, join } from 'node:path';
 import { pathsShapeErrors, guideLinesShapeErrors, companionIssues, issuesCsv } from './companion-check.mjs';
+import { driveIds } from './catalogue/sheets-map.mjs';
+import { parseCsvObjects } from './master/csv.mjs';
 
 /**
  * Reproducible build stamp (R3, bulk-03). The served data must rebuild to the
@@ -47,7 +51,8 @@ import { pathsShapeErrors, guideLinesShapeErrors, companionIssues, issuesCsv } f
  * The value is an ISO-8601 string, unchanged in shape from before.
  */
 const SOURCE_INPUTS = [
-  'data/source/website-courses-2026-09-28.json',
+  'data/master/lessons.csv',
+  'data/master/courses.csv',
   'data/source/teachers-2026-11-02/teachers-2026-11-02.json',
   'data/media-manifest.json',
   'data/id-aliases.json',
@@ -402,6 +407,171 @@ export function isHardFail(issue) {
   return issue.kind === 'unknown_teacher' || issue.kind === 'lesson_two_keys';
 }
 
+// ── bulk 09: build from the master sheet export ─────────────────────────────
+
+/** source_type (master column) -> the link column that holds the Drive id of the source. */
+const SOURCE_COL = { mp3: 'mp3_link', mp4: 'mp4_link', minicourse: 'minicourse_link' };
+
+/** Khmer or ASCII digits -> integer; -1 when the text is not a plain number. */
+export function khmerNumber(text) {
+  const t = String(text ?? '').replace(/[\u200B-\u200D\uFEFF]/g, '').trim();
+  if (!/^[0-9\u17E0-\u17E9]+$/.test(t)) return -1;
+  let n = 0;
+  for (const ch of t) {
+    const c = ch.codePointAt(0);
+    n = n * 10 + (c >= 0x17e0 && c <= 0x17e9 ? c - 0x17e0 : c - 48);
+  }
+  return n;
+}
+
+/**
+ * Which master rows are shown. A row is shown when the Drive id of its `source_type`
+ * link has an APPROVED (non-DRAFT) entry in the media manifest. If two rows share one
+ * source id the FIRST row (sheet order) wins. Rows without a course id (hidden tab)
+ * are never shown and do not claim a source. Returns Map(row -> manifest entry) and
+ * the reason for every other row with a course id.
+ */
+export function shownRows(lessonRows, mediaManifest) {
+  const approved = new Map();
+  for (const e of mediaManifest || []) {
+    if (e && e.drive_file_id && e.key && /^approved\b/i.test(e.status || '')) approved.set(e.drive_file_id, e);
+  }
+  const shown = new Map();
+  const hidden = new Map(); // row -> reason
+  const claimed = new Set();
+  for (const r of lessonRows) {
+    if (!r.course_id) continue;
+    const col = SOURCE_COL[r.source_type];
+    const id = col ? driveIds(r[col])[0] : null;
+    if (!id) { hidden.set(r, 'no source'); continue; }
+    if (claimed.has(id)) { hidden.set(r, 'duplicate source (an earlier row has it)'); continue; }
+    claimed.add(id);
+    const entry = approved.get(id);
+    if (entry) shown.set(r, entry);
+    else hidden.set(r, 'no approved media yet');
+  }
+  return { shown, hidden };
+}
+
+/**
+ * Master export -> { catalog, courses, issues }. Pure; used by the build and by the
+ * contract tests (with a small fixture, never the real titles).
+ *   lessonRows / courseRows  parsed data/master/lessons.csv / courses.csv (objects)
+ *   teachers                 the teacher records (name_km -> slug)
+ *   mediaManifest            data/media-manifest.json
+ * Visible lesson = approved R2 audio (shownRows). Visible course = at least one
+ * visible lesson and a mapped teacher. Lesson order = lesson_no as a number (Khmer
+ * digits count), ties and non-numbers by sheet row. Titles are copied byte for byte.
+ */
+export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest) {
+  const issues = [];
+  const slugByName = new Map();
+  const dupNames = new Set();
+  for (const t of teachers) {
+    if (slugByName.has(t.name_km)) dupNames.add(t.name_km);
+    slugByName.set(t.name_km, t.slug);
+  }
+  const courseRowById = new Map((courseRows || []).map((c) => [c.course_id, c]));
+  const { shown, hidden } = shownRows(lessonRows, mediaManifest);
+
+  const byCourse = new Map(); // course_id -> rows in sheet order
+  for (const r of lessonRows) {
+    if (!r.course_id) continue;
+    if (!byCourse.has(r.course_id)) byCourse.set(r.course_id, []);
+    byCourse.get(r.course_id).push(r);
+  }
+  const ids = [...new Set([...byCourse.keys(), ...courseRowById.keys()])].sort();
+
+  const catalogCourses = [];
+  const courseFiles = [];
+  for (const cid of ids) {
+    const rows = byCourse.get(cid) || [];
+    const cr = courseRowById.get(cid) || {};
+    const showRows = rows.filter((r) => shown.has(r));
+    for (const r of rows) {
+      if (!shown.has(r)) issues.push({ course_id: cid, lesson_num: r.lesson_no, kind: 'lesson_hidden', detail: hidden.get(r) || 'no source' });
+    }
+    if (showRows.length === 0) {
+      issues.push({ course_id: cid, lesson_num: '', kind: 'course_hidden', detail: 'no approved lesson' });
+      continue;
+    }
+    const teacherName = cr.teacher || rows[0].teacher || '';
+    if (teacherName === 'pending') {
+      issues.push({ course_id: cid, lesson_num: '', kind: 'course_hidden', detail: 'teacher pending (course has approved lessons)' });
+      continue;
+    }
+    const slug = dupNames.has(teacherName) ? undefined : slugByName.get(teacherName);
+    if (!slug) {
+      // An approved lesson whose teacher cannot be mapped: stop the build (loud), as before.
+      issues.push({ course_id: cid, lesson_num: '', kind: 'unknown_teacher', detail: teacherName || '(none)' });
+      continue;
+    }
+    const titleKm = cr.course_title_km !== undefined && cr.course_title_km !== '' ? cr.course_title_km : rows[0].course_title_km ?? '';
+    if (titleKm === '') issues.push({ course_id: cid, lesson_num: '', kind: 'empty_course_title', detail: 'shown with an empty title' });
+
+    // Order: lesson_no as a number; ties and non-numbers by sheet row (stable sort).
+    const order = showRows
+      .map((r, i) => ({ r, i, n: khmerNumber(r.lesson_no) }))
+      .sort((a, b) => (a.n < 0 ? Infinity : a.n) - (b.n < 0 ? Infinity : b.n) || a.i - b.i);
+    const seenNums = new Map();
+    const seenIds = new Set();
+    const lessons = [];
+    order.forEach(({ r, n }, pos) => {
+      if (seenIds.has(r.lesson_id)) {
+        issues.push({ course_id: cid, lesson_num: r.lesson_no, kind: 'duplicate_lesson_id', detail: r.lesson_id });
+        return;
+      }
+      seenIds.add(r.lesson_id);
+      const entry = shown.get(r);
+      let num = n;
+      if (n < 0) {
+        num = pos + 1;
+        issues.push({ course_id: cid, lesson_num: r.lesson_no, kind: 'lesson_no_not_number', detail: `shown as number ${num}` });
+      }
+      if (seenNums.has(num)) issues.push({ course_id: cid, lesson_num: r.lesson_no, kind: 'duplicate-num', detail: `id ${r.lesson_id} and ${seenNums.get(num)}` });
+      else seenNums.set(num, r.lesson_id);
+      if (r.lesson_title === '') issues.push({ course_id: cid, lesson_num: r.lesson_no, kind: 'empty_title', detail: 'shown with an empty title' });
+      lessons.push({
+        id: r.lesson_id,
+        num,
+        title_km: r.lesson_title,
+        topic: '',
+        media: [{ kind: 'r2', src: entry.key, duration_s: Number(entry.duration_s) || 0 }],
+      });
+    });
+
+    const ongoing = cr.course_status === 'ongoing';
+    const allShown = showRows.length === rows.length;
+    courseFiles.push({
+      id: cid, provisional: false, title_km: titleKm, title_en: null,
+      teacher: teacherName, teacher_slug: slug, topics: [], ongoing, all_shown: allShown, lessons,
+    });
+    catalogCourses.push({
+      id: cid, provisional: false, title_km: titleKm, title_en: null,
+      teacher: teacherName, teacher_slug: slug, topics: [],
+      lesson_count: lessons.length, media_kinds: ['r2'], ongoing, all_shown: allShown,
+    });
+  }
+  return { catalog: { provisional: false, courses: catalogCourses }, courses: courseFiles, issues };
+}
+
+/**
+ * Id guard (bulk 09 gap 8): a lesson id that had approved (r2) media in the previous
+ * served data must still exist in the new data, unless it is a KEY of
+ * data/id-aliases.json. Returns the lesson ids that disappeared; the build fails on any.
+ */
+export function approvedIdGuard(prevCourses, newCourses, aliasMap) {
+  const now = new Set((newCourses || []).flatMap((c) => c.lessons.map((l) => l.id)));
+  const lost = [];
+  for (const c of prevCourses || []) {
+    for (const l of c.lessons || []) {
+      const had = (l.media || []).some((m) => m.kind === 'r2');
+      if (had && !now.has(l.id) && !Object.prototype.hasOwnProperty.call(aliasMap || {}, l.id)) lost.push({ course_id: c.id, lesson_id: l.id });
+    }
+  }
+  return lost;
+}
+
 // ── File runner ──────────────────────────────────────────────────────────────
 
 function sha256File(path) {
@@ -422,29 +592,38 @@ function main() {
   const photosOut = join(outDir, 'teacher-photos');
   const reportsDir = join(root, 'reports');
 
-  const sourceCourses = JSON.parse(readFileSync(join(srcDir, 'website-courses-2026-09-28.json'), 'utf-8')).c;
   const teachers = JSON.parse(readFileSync(join(teacherDir, 'teachers-2026-11-02.json'), 'utf-8'));
   const mediaManifestPath = join(root, 'data', 'media-manifest.json');
   const mediaManifest = existsSync(mediaManifestPath)
     ? JSON.parse(readFileSync(mediaManifestPath, 'utf-8'))
     : [];
-  // B5: keys whose shared-source warning is silenced (coordinator-reviewed).
-  const sharedSourcesPath = join(root, 'data', 'media-shared-sources.json');
-  const sharedSources = existsSync(sharedSourcesPath)
-    ? JSON.parse(readFileSync(sharedSourcesPath, 'utf-8'))
-    : [];
-  // Job B v2 prep: lesson → canonical drive_file_id link (by title_km + num).
-  const overridesPath = join(root, 'data', 'lesson-media-overrides.json');
-  const mediaOverrides = existsSync(overridesPath)
-    ? JSON.parse(readFileSync(overridesPath, 'utf-8'))
-    : null;
+  // bulk 09: the master sheet export (written by master-export.yml).
+  const lessonsCsv = join(root, 'data', 'master', 'lessons.csv');
+  const coursesCsv = join(root, 'data', 'master', 'courses.csv');
+  if (!existsSync(lessonsCsv) || !existsSync(coursesCsv)) {
+    console.error('BUILD FAILED — data/master/lessons.csv and courses.csv are missing (run master-export).');
+    process.exit(1);
+  }
+  const lessonRows = parseCsvObjects(readFileSync(lessonsCsv, 'utf-8'));
+  const courseRows = parseCsvObjects(readFileSync(coursesCsv, 'utf-8'));
 
   // Provisional→permanent id alias SOURCE map (Q5). Merged (copied) verbatim into
   // the served public/data/aliases.json; empty {} until permanent ids arrive.
   const aliasSrcPath = join(root, 'data', 'id-aliases.json');
   const aliasMap = existsSync(aliasSrcPath) ? JSON.parse(readFileSync(aliasSrcPath, 'utf-8')) : {};
 
-  const { catalog, courses, issues } = buildCourses(sourceCourses, teachers, mediaManifest, sharedSources, mediaOverrides);
+  const { catalog, courses, issues } = buildFromMaster(lessonRows, courseRows, teachers, mediaManifest);
+
+  // Id guard (gap 8): nothing is written if a lesson id with approved media would vanish.
+  const prevCourses = existsSync(coursesOut)
+    ? readdirSync(coursesOut).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync(join(coursesOut, f), 'utf-8')))
+    : [];
+  const lostIds = approvedIdGuard(prevCourses, courses, aliasMap);
+  if (lostIds.length) {
+    for (const x of lostIds) console.error(`::error::lesson id ${x.lesson_id} (course ${x.course_id}) had approved media and is gone; add it to data/id-aliases.json if intended`);
+    console.error(`BUILD FAILED — ${lostIds.length} lesson id(s) with approved media disappeared.`);
+    process.exit(1);
+  }
 
   // Study companion (bulk-05): data/paths.json + data/guide-lines.json are
   // edited by people and copied VERBATIM to public/data/. A bad shape stops the
@@ -483,6 +662,11 @@ function main() {
     files[c.id] = { file: rel, updated: generated, sha256: sha256File(join(coursesOut, `${c.id}.json`)) };
   }
 
+  // Stale course files (courses that are no longer shown) are removed, so the folder
+  // always holds exactly the courses in the manifest.
+  const keep = new Set(courses.map((c) => `${c.id}.json`));
+  for (const f of readdirSync(coursesOut)) if (f.endsWith('.json') && !keep.has(f)) unlinkSync(join(coursesOut, f));
+
   writeJson(join(outDir, 'catalog.json'), { generated, ...catalog });
   writeJson(join(outDir, 'teachers.json'), teachersOut);
   writeJson(join(outDir, 'aliases.json'), aliasMap); // merged from data/id-aliases.json (empty until permanent ids)
@@ -519,7 +703,7 @@ function main() {
   console.log(`reports/course-issues.csv written (${issues.length} rows)`);
 
   if (hard.length > 0) {
-    console.error(`BUILD FAILED — ${hard.length} hard-fail issue(s): unknown_teacher. See reports/course-issues.csv.`);
+    console.error(`BUILD FAILED — ${hard.length} hard-fail issue(s): unknown_teacher (an approved lesson whose teacher is not in the teacher file). See reports/course-issues.csv.`);
     process.exit(1);
   }
   console.log('build OK');

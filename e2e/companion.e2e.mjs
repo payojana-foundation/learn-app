@@ -2,7 +2,8 @@
  * e2e/companion.e2e.mjs — study companion (bulk-05 P2): guide leaf + branch.
  *
  * Mock data only (never real R2/embeds). Placeholder guide text, never real
- * wording. Course ids are taken from the real catalog; titles are never typed.
+ * wording. bulk 09: the real catalog holds only the approved course(s), so the
+ * classes used here are route-mocked placeholder courses (e2e/mock-data.mjs).
  *
  * PART A  layout matrix: 320 and 360 px x light and dark x km and en.
  *   - fresh device: /my shows a bare branch, only the empty-branch line (approved in bulk-07),
@@ -13,16 +14,16 @@
  * PART B  flow (360 light km): finish all lessons of a test course by driving
  *   the real <audio> to 90 %, leaf appears, survives reload and a lesson added
  *   to the course in fixture data.
- * PART C  (360 light km, service worker ON): 13 finished courses (first-run
- *   backfill) give a second branch; the leaf survives an offline reload.
+ * PART C  (360 light km): 13 finished mocked courses (first-run backfill) give a
+ *   second branch. PART D (service worker ON, the real course c080): a leaf
+ *   survives an offline reload.
  */
 
 import { chromium, devices } from 'playwright';
-import { createHash } from 'node:crypto';
+import { installMockData } from './mock-data.mjs';
 
 const PORT = process.env.E2E_PORT || '4321';
 const BASE = `http://localhost:${PORT}`;
-const sha256 = (s) => createHash('sha256').update(s).digest('hex');
 
 let failures = 0;
 const ok = (m) => console.log('  ✓ ' + m);
@@ -68,37 +69,6 @@ const seedLeaves = (page, ids) =>
   );
 const getLeaves = (page) =>
   idb(page, (db) => new Promise((res) => (db.transaction('leaves').objectStore('leaves').getAll().onsuccess = (e) => res(e.target.result.map((l) => l.course_id).sort()))));
-
-/** Fixture served in place of data files; the manifest hash follows the body. */
-function makeFixture() {
-  return { guide: null, paths: null, courses: {} };
-}
-async function installData(page, fx) {
-  const bodyOf = {
-    'guide-lines': () => fx.guide && JSON.stringify(fx.guide, null, 2) + '\n',
-    paths: () => fx.paths && JSON.stringify(fx.paths, null, 2) + '\n',
-  };
-  await page.route('**/data/manifest.json*', async (route) => {
-    const res = await route.fetch();
-    const m = await res.json();
-    for (const k of Object.keys(bodyOf)) {
-      const b = bodyOf[k]();
-      if (b && m.files[k]) m.files[k].sha256 = sha256(Buffer.from(b, 'utf-8'));
-    }
-    for (const [id, c] of Object.entries(fx.courses)) {
-      if (m.files[id]) m.files[id].sha256 = sha256(Buffer.from(JSON.stringify(c, null, 2) + '\n', 'utf-8'));
-    }
-    await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(m) });
-  });
-  await page.route('**/data/guide-lines.json*', (r) => (fx.guide ? r.fulfill({ status: 200, contentType: 'application/json', body: bodyOf['guide-lines']() }) : r.continue()));
-  await page.route('**/data/paths.json*', (r) => (fx.paths ? r.fulfill({ status: 200, contentType: 'application/json', body: bodyOf.paths() }) : r.continue()));
-  await page.route('**/data/courses/*.json*', (r) => {
-    const id = /courses\/([^/.?]+)\.json/.exec(r.request().url())?.[1];
-    return id && fx.courses[id]
-      ? r.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(fx.courses[id], null, 2) + '\n' })
-      : r.continue();
-  });
-}
 
 const GUIDE_FIXTURE = (approved) => ({
   version: 1,
@@ -149,6 +119,7 @@ async function partA(browser, width, scheme, lang) {
     serviceWorkers: 'block',
   });
   const page = await context.newPage();
+  const md = await installMockData(page, BASE, { ids: ['c001', 'c002', 'c003', 'c021'], lessonsPer: 2 });
   const warns = [];
   page.on('console', (m) => m.type() === 'warning' && warns.push(m.text()));
 
@@ -168,10 +139,8 @@ async function partA(browser, width, scheme, lang) {
   check(homeGuides.length === 0 && (await page.locator('text=/GL-/').count()) === 0, 'fresh home: no guide, no Start here row text');
 
   // approved fixture + seeded leaves
-  const fx = makeFixture();
-  fx.guide = GUIDE_FIXTURE(true);
-  fx.paths = PATHS_FIXTURE;
-  await installData(page, fx);
+  md.serve('guide-lines', 'guide-lines.json', GUIDE_FIXTURE(true));
+  md.serve('paths', 'paths.json', PATHS_FIXTURE);
   await seedLeaves(page, ['c001', 'c021', 'c002']);
 
   await open(page, '/', lang);
@@ -283,17 +252,13 @@ async function partB(browser) {
     return route.fulfill({ status: 200, contentType: 'audio/wav', headers: { 'Accept-Ranges': 'bytes', 'Content-Length': String(total) }, body: clip });
   });
 
-  // Test course = real c001 cut to 2 lessons, both made r2 mock audio.
-  const real = await (await fetch(`${BASE}/data/courses/c001.json`)).json();
-  const mk = (l, i) => ({ ...l, media: [{ kind: 'r2', src: `audio/e2e-${i}-a64.mp3`, duration_s: 12 }] });
-  const fx = makeFixture();
-  fx.guide = GUIDE_FIXTURE(true);
-  fx.courses.c001 = { ...real, lessons: real.lessons.slice(0, 2).map(mk) };
-  await installData(page, fx);
+  // Test course = a placeholder course with 2 lessons that play r2 mock audio.
+  const md = await installMockData(page, BASE, { ids: ['c001'], lessonsPer: 2 });
+  md.serve('guide-lines', 'guide-lines.json', GUIDE_FIXTURE(true));
 
   await open(page, '/my', lang);
   check((await guides(page)).join() === 'my.branch.empty', 'before: empty-branch line, bare branch');
-  const ids = fx.courses.c001.lessons.map((l) => l.id);
+  const ids = md.course('c001').lessons.map((l) => l.id);
 
   const doneOf = (lessonId) =>
     idb(page, (db, [cid, lid]) => new Promise((res) => (db.transaction('progress').objectStore('progress').get(cid).onsuccess = (e) => res(!!e.target.result?.lessons?.[lid]?.done))), ['c001', lessonId]);
@@ -329,7 +294,7 @@ async function partB(browser) {
   check((await visibleSlots(page)) === 1, 'reload: leaf still there');
 
   // A lesson is added to the course in fixture data: the leaf stays.
-  fx.courses.c001 = { ...real, lessons: real.lessons.slice(0, 3).map(mk) };
+  md.setCourse(md.makeCourse('c001', 3));
   await open(page, '/courses/c001', lang);
   check((await page.locator('.les button').count()) === 3, 'fixture course now has 3 lessons');
   check((await guides(page)).join() === 'course.finished', 'lesson added: finished line stays');
@@ -343,26 +308,16 @@ async function partB(browser) {
 // ── PART C ───────────────────────────────────────────────────────────────────
 
 async function partC(browser) {
-  console.log('[backfill 360px light km, service worker on] 13 finished courses + offline');
+  console.log('[backfill 360px light km] 13 finished mocked courses');
   const lang = 'km';
-  const context = await browser.newContext({ ...devices['Pixel 5'], viewport: { width: 360, height: 780 }, colorScheme: 'light' });
+  const context = await browser.newContext({ ...devices['Pixel 5'], viewport: { width: 360, height: 780 }, colorScheme: 'light', serviceWorkers: 'block' });
   const page = await context.newPage();
+  const ids = Array.from({ length: 13 }, (_, i) => `c9${String(i + 1).padStart(2, '0')}`);
+  const md = await installMockData(page, BASE, { ids, lessonsPer: 1 });
   await open(page, '/', lang);
-  await page.waitForFunction(() => !!navigator.serviceWorker.controller, null, { timeout: 20000 }).catch(() => {});
 
-  // Mark every lesson of 13 real courses done, drop the backfill flag, reload.
-  const picked = await page.evaluate(async () => {
-    const cat = await (await fetch('/data/catalog.json')).json();
-    const out = [];
-    for (const c of cat.courses) {
-      if (out.length === 13) break;
-      if (c.lesson_count < 1) continue;
-      const course = await (await fetch(`/data/courses/${c.id}.json`)).json();
-      out.push({ id: c.id, lessons: course.lessons.map((l) => l.id) });
-    }
-    return out;
-  });
-  check(picked.length === 13, 'found 13 real courses to mark finished');
+  // Mark every lesson of the 13 courses done, drop the backfill flag, reload.
+  const picked = ids.map((id) => ({ id, lessons: md.course(id).lessons.map((l) => l.id) }));
   await idb(
     page,
     (db, list) =>
@@ -386,11 +341,35 @@ async function partC(browser) {
   check((await visibleSlots(page)) === 13, '13 leaves shown (12 on the first branch, 1 on the second)');
   check((await getLeaves(page)).length === 13, 'first-run backfill wrote 13 leaves');
   check(await noHScroll(page), '13 leaves: no horizontal scroll');
+  await context.close();
+}
 
+// ── PART D ───────────────────────────────────────────────────────────────────
+
+async function partD(browser) {
+  console.log('[offline 360px light km, service worker on] a leaf on the real course c080');
+  const lang = 'km';
+  const context = await browser.newContext({ ...devices['Pixel 5'], viewport: { width: 360, height: 780 }, colorScheme: 'light' });
+  const page = await context.newPage();
+  await open(page, '/', lang);
+  await page.waitForFunction(() => !!navigator.serviceWorker.controller, null, { timeout: 20000 }).catch(() => {});
+  await idb(
+    page,
+    (db) =>
+      new Promise((res, rej) => {
+        const tx = db.transaction(['leaves', 'settings'], 'readwrite');
+        tx.objectStore('settings').put(true, 'leavesBackfilled');
+        tx.objectStore('leaves').put({ course_id: 'c080', at: 1000 });
+        tx.oncomplete = () => res(true);
+        tx.onerror = () => rej(tx.error);
+      })
+  );
+  await open(page, '/my', lang);
+  check((await visibleSlots(page)) === 1, 'online: one leaf');
   await context.setOffline(true);
   await page.reload({ waitUntil: 'domcontentloaded' });
   await page.waitForSelector('.branchp', { timeout: 15000 });
-  check((await page.locator('.branch').count()) === 2 && (await visibleSlots(page)) === 13, 'offline reload: leaves still there');
+  check((await visibleSlots(page)) === 1, 'offline reload: the leaf is still there');
   await context.setOffline(false);
   await context.close();
 }
@@ -400,6 +379,7 @@ async function run() {
   for (const width of [360, 320]) for (const scheme of ['light', 'dark']) for (const lang of ['km', 'en']) await partA(browser, width, scheme, lang);
   await partB(browser);
   await partC(browser);
+  await partD(browser);
   await browser.close();
   if (failures) {
     console.error(`\n[companion.e2e] ${failures} check(s) FAILED`);

@@ -43,9 +43,12 @@ const sha256 = (buf) => createHash('sha256').update(buf).digest('hex');
  * and patch BOTH the manifest entry AND the file response to that hash — the
  * same integrity contract the app enforces, just with our test bytes.
  */
+/** A search fragment taken from the data (the first lesson title), never typed. */
+let SEARCH_FRAGMENT = 'x';
 async function installMocks(page, origin) {
   // Fetch the real course once (Node side) to modify it deterministically.
   const realCourse = await (await fetch(`${origin}/data/courses/c080.json`)).json();
+  SEARCH_FRAGMENT = (realCourse.lessons[0].title_km || '').replace(/[\u200B-\u200D]/g, '').trim().slice(0, 8) || 'x';
   realCourse.lessons[0].media = [{ kind: 'r2', src: 'audio/e2e-mock-a64.mp3' }];
   const body = JSON.stringify(realCourse, null, 2) + '\n';
   const bodyHash = sha256(Buffer.from(body, 'utf-8'));
@@ -182,7 +185,7 @@ async function run() {
     (await page.locator('.note').count()) > 0 ? ok('note saved with timestamp') : fail('note not saved');
 
     // 6. Search a Khmer title fragment (substring on the cleaned copy).
-    await page.goto(`${BASE}/search?q=${encodeURIComponent('អភិធម្ម')}`, { waitUntil: 'networkidle' });
+    await page.goto(`${BASE}/search?q=${encodeURIComponent(SEARCH_FRAGMENT)}`, { waitUntil: 'networkidle' });
     await page.waitForSelector('#app-main');
     const results = await page.locator('.res button').count();
     results > 0 ? ok(`Khmer search returned ${results} results`) : fail('Khmer search returned nothing');

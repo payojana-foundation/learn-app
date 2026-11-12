@@ -44,12 +44,11 @@ function teacherName(teacher: Teacher | undefined, lang: Lang): string {
 
 export function courseCard(c: CatalogCourse, teacher: Teacher | undefined, progress: ProgressMap, lang: Lang, mark = ''): string {
   const p = pctOf(progress, c);
-  const hasA = c.media_kinds.includes('acast') || c.media_kinds.includes('r2');
-  const hasV = c.media_kinds.includes('youtube') || c.media_kinds.includes('drive');
+  const hasA = c.media_kinds.includes('r2');
   const isR2 = c.media_kinds.includes('r2');
   return `<button class="card" data-nav="course" data-id="${c.id}"><span class="t">${mark}${esc(courseTitle(c, lang))}</span>
   <span class="muted small">${teacherName(teacher, lang)}</span>
-  <span class="meta"><span>${num(c.lesson_count, lang)} ${t('LESSONS', lang)}</span>${hasA ? '<span>♪ audio</span>' : ''}${hasV ? '<span>▶ video</span>' : ''}${isR2 ? '<span>R2</span>' : ''}</span>
+  <span class="meta"><span>${num(c.lesson_count, lang)} ${t('LESSONS', lang)}</span>${hasA ? '<span>♪ audio</span>' : ''}${isR2 ? '<span>R2</span>' : ''}${c.ongoing ? `<span class="ongoing">${t('ONGOING', lang)}</span>` : ''}</span>
   ${p ? `<span class="pbar"><i style="width:${p}%"></i></span><span class="meta">${num(p, lang)}% ${t('DONE', lang)}</span>` : ''}</button>`;
 }
 
@@ -81,10 +80,13 @@ export function homeView(
     })
     .join('');
 
-  const list = catalog.courses.filter((c) => state.topic === 'all' || c.topics.includes(state.topic));
-  const chips = [{ id: 'all', km: t('ALL', 'km'), en: t('ALL', 'en') }, ...TOPICS]
-    .map((tp) => `<button class="chip" data-topic="${tp.id}" aria-pressed="${state.topic === tp.id}">${lang === 'km' ? tp.km : tp.en}</button>`)
-    .join('');
+  const anyTopics = catalog.courses.some((c) => c.topics.length > 0);
+  const list = catalog.courses.filter((c) => !anyTopics || state.topic === 'all' || c.topics.includes(state.topic));
+  const chips = anyTopics
+    ? [{ id: 'all', km: t('ALL', 'km'), en: t('ALL', 'en') }, ...TOPICS]
+        .map((tp) => `<button class="chip" data-topic="${tp.id}" aria-pressed="${state.topic === tp.id}">${lang === 'km' ? tp.km : tp.en}</button>`)
+        .join('')
+    : '';
 
   const startRow =
     startHere.length > 0
@@ -100,7 +102,7 @@ export function homeView(
   ${cont ? `<section><div class="sechead"><h2>${t('CONT', lang)}</h2><button class="link" data-nav="my">${t('TAB_MY', lang)}</button></div><div class="hrow">${cont}</div></section>` : ''}
   ${startRow}
   <section><div class="sechead"><h2>${t('COURSES', lang)}</h2><span class="muted small">${num(list.length, lang)}</span></div>
-  <div class="row">${chips}</div>
+  ${chips ? `<div class="row">${chips}</div>` : ''}
   <div class="hrow">${list.map((c) => courseCard(c, teacherBySlug.get(c.teacher_slug), progress, lang)).join('')}</div></section>
   <section><div class="sechead"><h2>${t('TEACHERS', lang)}</h2><button class="link" data-nav="teachers">${t('SEE_ALL', lang)}</button></div><div class="hrow t">${teachers.map((tc) => teacherCard(tc)).join('')}</div></section>`;
 }
@@ -131,9 +133,7 @@ export function courseView(
 
   const lessonRow = (l: Lesson): string => {
     const pp = progress[c.id]?.[l.id] ?? { pos: 0, done: false };
-    const hasA = l.media.some((m) => m.kind === 'r2' || m.kind === 'acast');
-    const hasV = l.media.some((m) => m.kind === 'youtube' || m.kind === 'drive');
-    const mic = `${hasA ? '♪' : ''}${hasV ? ' ▶' : ''}`;
+    const mic = l.media.some((m) => m.kind === 'r2') ? '♪' : '';
     const title = l.title_km.trim() ? esc(displayTitle(l.title_km)) : `<span class="ph">${t('NO_TITLE', lang)}</span>`;
     return `<li><button data-nav="lesson" data-id="${c.id}" data-lesson="${esc(l.id)}" class="${l.id === lastLessonId ? 'cur' : ''}">
       <span class="tick ${pp.done ? 'on' : ''}">${pp.done ? '✓' : ''}</span><span class="n">${num(l.num, lang)}</span>
@@ -153,7 +153,7 @@ export function courseView(
   return `<div class="chead"><div class="crumbs">${t('COURSES', lang)} › ${topicCrumb}</div>
   <h1>${esc(courseTitle(c, lang))}</h1>
   <button class="who" data-nav="teacher" data-slug="${esc(c.teacher_slug)}">${teacher?.photo ? `<img src="/data/${esc(teacher.photo)}" alt="">` : ''}<span>${teacherName(teacher, lang)}</span></button>
-  <div class="meta"><span>${num(c.lessons.length, lang)} ${t('LESSONS', lang)}</span></div>
+  <div class="meta"><span>${num(c.lessons.length, lang)} ${t('LESSONS', lang)}</span>${c.ongoing ? `<span class="ongoing">${t('ONGOING', lang)}</span>` : ''}</div>
   <div class="pbar"><i style="width:${pct}%"></i></div><div class="meta">${num(done, lang)}/${num(c.lessons.length, lang)} ${t('DONE', lang)} · ${num(pct, lang)}%</div>
   ${companion?.hasLeaf ? guideLineHtml(companion, 'course.finished', c.id) : ''}
   <div class="row"><button class="btn" data-nav="lesson" data-id="${c.id}" data-lesson="${esc(target)}">${lastLessonId || pct ? `${t('CONT_LESSON', lang)} ${num(c.lessons.find((l) => l.id === target)?.num ?? '', lang)}` : t('START_COURSE', lang)}</button>
@@ -189,11 +189,7 @@ export function lessonView(
       <div class="times"><span data-pos>${time(pp.pos, lang)}</span><span data-dur>${time(durS, lang)}</span></div>
       <div class="pctl"><button data-skip="-15">⟲ ${num(15, lang)}</button><button class="pp" data-pp aria-label="Play/Pause">${playing ? '❚❚' : '▶'}</button><button data-skip="15">${num(15, lang)} ⟳</button></div>
       <div class="popts"><button data-speed>${t('SPEED', lang)} ${speed}×</button><button data-sleep>${t('SLEEP', lang)} ${sleep ? num(sleep, lang) + '′' : '—'}</button><button data-auto>${t('AUTO', lang)}: ${auto ? '✓' : '—'}</button></div></div>`
-    : l.media.some((m) => m.kind === 'acast' || m.kind === 'youtube')
-      ? embedMedia(l, lang)
-      : l.media.some((m) => m.kind === 'drive')
-        ? `<div class="empty">${t('COMING_SOON', lang)}</div>`
-        : `<div class="empty">${t('OFFLINE_MEDIA', lang)}</div>`;
+    : `<div class="empty">${t('OFFLINE_MEDIA', lang)}</div>`;
 
   return `<div class="crumbs"><button class="link" data-nav="course" data-id="${c.id}">${esc(courseTitle(c, lang))}</button> › ${t('LESSON', lang)} ${num(l.num, lang)}/${num(c.lessons.length, lang)}</div>
   <h1 style="margin:6px 0 12px">${l.title_km.trim() ? esc(displayTitle(l.title_km)) : `<span class="ph">${t('NO_TITLE', lang)}</span>`}</h1>${media}
@@ -203,26 +199,6 @@ export function lessonView(
   <section style="margin-top:20px"><div class="sechead"><h2>${t('NOTES', lang)}</h2></div>
   <form data-form="note" class="stack"><textarea name="note" placeholder="${t('NOTE_HINT', lang)}" aria-label="${t('NOTES', lang)}"></textarea><div><button class="btn sm">${t('ADD_NOTE', lang)} ${time(pp.pos, lang)}</button></div></form>
   ${notes.map((n) => `<div class="note"><button class="ts" data-seek="${n.atS}">${time(n.atS, lang)}</button><span>${esc(n.text)}</span></div>`).join('')}</section>`;
-}
-
-/**
- * P-14 (changed): render the real embed for acast/youtube ONLY. Drive never
- * plays in-app (coordinator decision) — see the drive "coming soon" branch in
- * lessonView. The iframe src is the `src` stored in the data (already an embed
- * URL); we never guess a URL. acast is audio-only (short height); youtube is
- * 16:9. A small link below opens the source in a new tab.
- */
-function embedMedia(l: Lesson, lang: Lang): string {
-  const m = l.media.find((x) => x.kind === 'acast' || x.kind === 'youtube');
-  if (!m) return `<div class="empty">${t('OFFLINE_MEDIA', lang)}</div>`;
-  const src = esc(m.src);
-  const name = m.kind === 'youtube' ? 'YouTube' : 'Acast';
-  const isAudio = m.kind === 'acast';
-  const frame = `<iframe src="${src}" loading="lazy" title="${esc(name)}"
-    allow="autoplay; encrypted-media; fullscreen" allowfullscreen
-    style="border:0;width:100%;${isAudio ? 'height:180px' : 'aspect-ratio:16/9'}"></iframe>`;
-  return `<div class="embed" data-embed>${frame}</div>
-  <a class="link small" href="${src}" target="_blank" rel="noopener noreferrer">${t('OPEN_IN', lang)} ${esc(name)}</a>`;
 }
 
 export function teachersView(teachers: Teacher[], lang: Lang): string {

@@ -19,7 +19,8 @@ describe('DB versionchange handling', () => {
         db.createObjectStore('dataHashes');
       },
     });
-    await old.put('progress', { courseId: 'cV', lessons: { 'cV-l001': { pos: 4, done: true } }, updatedAt: 1 });
+    // bulk 09 (P-20 clean cut): only the pilot course c080 survives the v3 upgrade, with its lesson id mapped.
+    await old.put('progress', { courseId: 'c080', lessons: { 'c080-l001': { pos: 4, done: true } }, updatedAt: 1 });
 
     resetDbForTests();
     let settled = false;
@@ -30,7 +31,7 @@ describe('DB versionchange handling', () => {
     old.close(); // tab A goes away
     const db = await opening;
     expect(db.version).toBe(DB_VERSION);
-    expect(await getLessonProgress('cV', 'cV-l001')).toEqual({ pos: 4, done: true });
+    expect(await getLessonProgress('c080', 'AJAD00YYX0101')).toEqual({ pos: 4, done: true });
     expect(await listLeaves()).toEqual([]);
     db.close(); // one tab = one connection: close this test's tab before the next
   });

@@ -1,105 +1,83 @@
+#!/usr/bin/env node
 /**
- * e2e/embed.e2e.mjs — P-14 (changed): acast/youtube/drive lessons render the
- * REAL embed in an iframe whose src is the URL stored in the data.
+ * e2e/embed.e2e.mjs — P-14 (bulk 09): Learn plays its own R2 audio only. No lesson page
+ * renders an iframe, an embed container or an outside link, and the lesson plays from
+ * the R2 address built from the stored key.
  *
- * We patch c080's first lesson to an acast embed and its second to a drive
- * /preview, keep the manifest hash honest (P-01), and BLOCK the external embed
- * hosts so no real network fetch happens (mock media only — never a real
- * R2/embed fetch). We assert the iframe src attribute in the DOM, not a load.
- * 360 px light.
+ * Also (bulk 09): the home page lists exactly the courses of the catalog (the approved
+ * course(s)), and the course page lists exactly the lessons of the course file.
+ *
+ * Real data: every lesson of the real course c080 (the approved lessons). The former
+ * embed hosts are blocked and the R2 audio is answered with an empty stub, so nothing
+ * outside the preview server is fetched (mock media only, never a real R2/embed fetch).
+ * 360 px light and 320 px dark.
  */
-
 import { chromium, devices } from 'playwright';
-import { createHash } from 'node:crypto';
 
 const PORT = process.env.E2E_PORT || '4321';
 const BASE = `http://localhost:${PORT}`;
 
-const ACAST = 'https://embed.acast.com/abc123/def456?subscribe=false';
-const DRIVE = 'https://drive.google.com/file/d/E2E_DRIVE_ID/preview';
-
-const sha256 = (buf) => createHash('sha256').update(buf).digest('hex');
-
-async function installMocks(page, origin) {
-  const course = await (await fetch(`${origin}/data/courses/c080.json`)).json();
-  course.lessons[0].media = [{ kind: 'acast', src: ACAST }];
-  if (course.lessons[1]) course.lessons[1].media = [{ kind: 'drive', src: DRIVE }];
-  const body = JSON.stringify(course, null, 2) + '\n';
-  const bodyHash = sha256(Buffer.from(body, 'utf-8'));
-
-  await page.route('**/data/manifest.json*', async (route) => {
-    const res = await route.fetch();
-    const manifest = await res.json();
-    if (manifest.files?.c080) manifest.files.c080.sha256 = bodyHash;
-    await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(manifest) });
-  });
-  await page.route('**/data/courses/c080.json*', async (route) => {
-    await route.fulfill({ status: 200, contentType: 'application/json', body });
-  });
-  // Never fetch the real embed: answer with an empty stub so the iframe stays
-  // local. We only assert the src attribute, not that it loaded.
-  await page.route('https://embed.acast.com/**', (route) =>
-    route.fulfill({ status: 200, contentType: 'text/html', body: '<!doctype html><title>stub</title>' })
-  );
-  await page.route('https://drive.google.com/**', (route) =>
-    route.fulfill({ status: 200, contentType: 'text/html', body: '<!doctype html><title>stub</title>' })
-  );
-}
-
-async function openLesson(page, index) {
-  await page.goto(`${BASE}/courses/c080`, { waitUntil: 'networkidle' });
-  await page.waitForSelector('.les button');
-  await page.locator('.les button').nth(index).click();
-  await page.waitForSelector('[data-embed] iframe');
-}
+let failures = 0;
+const ok = (m) => console.log('  ✓ ' + m);
+const fail = (m) => {
+  console.error('  ✗ ' + m);
+  failures++;
+};
 
 async function run() {
   const browser = await chromium.launch();
-  let failures = 0;
-  const fail = (m) => {
-    console.error('  ✗ ' + m);
-    failures++;
-  };
-  const ok = (m) => console.log('  ✓ ' + m);
+  for (const { width, scheme } of [{ width: 360, scheme: 'light' }, { width: 320, scheme: 'dark' }]) {
+    const context = await browser.newContext({ ...devices['Pixel 5'], viewport: { width, height: 780 }, colorScheme: scheme, serviceWorkers: 'block' });
+    const requested = [];
+    context.on('request', (r) => requested.push(r.url()));
+    await context.route(/embed\.acast\.com|youtube(-nocookie)?\.com|youtu\.be|drive\.google\.com/, (r) => r.abort());
+    await context.route('**/audio/**', (r) => r.fulfill({ status: 200, contentType: 'audio/wav', body: Buffer.alloc(44) }));
+    const page = await context.newPage();
+    console.log(`[embed ${width}px ${scheme}] P-14 no iframe, plays from R2`);
 
-  const context = await browser.newContext({
-    ...devices['Pixel 5'],
-    viewport: { width: 360, height: 780 },
-    colorScheme: 'light',
-    serviceWorkers: 'block',
-  });
-  const page = await context.newPage();
-  await installMocks(page, BASE);
-  console.log('[embed 360px light] P-14 real-embed checks');
+    const course = await (await fetch(`${BASE}/data/courses/c080.json`)).json();
+    course.lessons.length > 0 ? ok(`the real course has ${course.lessons.length} lessons`) : fail('the real course has no lessons');
+    const kinds = new Set(course.lessons.flatMap((l) => l.media.map((m) => m.kind)));
+    [...kinds].join() === 'r2' ? ok('every media entry in the data is r2') : fail(`media kinds in the data: ${[...kinds].join()}`);
 
-  // ── acast lesson (first) ────────────────────────────────────────────────────
-  await openLesson(page, 0);
-  const acastSrc = await page.locator('[data-embed] iframe').getAttribute('src');
-  acastSrc === ACAST ? ok('acast lesson iframe src is the stored embed URL') : fail(`acast iframe src wrong: ${acastSrc}`);
-  const acastLazy = await page.locator('[data-embed] iframe').getAttribute('loading');
-  acastLazy === 'lazy' ? ok('acast iframe is lazy') : fail(`acast iframe loading=${acastLazy}`);
-  const acastAllow = await page.locator('[data-embed] iframe').getAttribute('allow');
-  /autoplay/.test(acastAllow || '') && /encrypted-media/.test(acastAllow || '') && /fullscreen/.test(acastAllow || '')
-    ? ok('acast iframe allow has autoplay/encrypted-media/fullscreen')
-    : fail(`acast iframe allow=${acastAllow}`);
-  const acastLink = await page.locator('a[target="_blank"]').first().getAttribute('href');
-  acastLink === ACAST ? ok('acast open-in link points to the source') : fail(`acast link href=${acastLink}`);
+    // home lists the approved course(s) only; the course page lists the course file's lessons
+    const catalog = await (await fetch(`${BASE}/data/catalog.json`)).json();
+    await page.goto(`${BASE}/`, { waitUntil: 'networkidle' });
+    await page.waitForSelector('#app-main .card[data-nav="course"]');
+    const cards = await page.locator('#app-main .card[data-nav="course"]').evaluateAll((els) => els.map((e) => e.getAttribute('data-id')));
+    JSON.stringify([...cards].sort()) === JSON.stringify(catalog.courses.map((c) => c.id).sort())
+      ? ok(`home lists exactly the ${cards.length} catalog course(s)`)
+      : fail(`home cards ${cards} differ from the catalog ${catalog.courses.map((c) => c.id)}`);
+    await page.goto(`${BASE}/courses/c080`, { waitUntil: 'networkidle' });
+    await page.waitForSelector('.les button');
+    const rows = await page.locator('.les button').count();
+    rows === course.lessons.length ? ok(`the course page lists the ${rows} lessons of the course file`) : fail(`course page rows ${rows} vs ${course.lessons.length}`);
 
-  // ── drive lesson (second): NEVER embeds ─────────────────────────────────────
-  await page.goto(`${BASE}/courses/c080`, { waitUntil: 'networkidle' });
-  await page.waitForSelector('.les button');
-  await page.locator('.les button').nth(1).click();
-  await page.waitForSelector('h1');
-  const iframes = await page.locator('[data-embed] iframe').count();
-  iframes === 0 ? ok('drive lesson shows no iframe') : fail(`drive lesson rendered ${iframes} iframe(s)`);
-  const notice = (await page.locator('.empty').first().textContent()) || '';
-  /កំពុងរៀបចំ/.test(notice) ? ok('drive lesson shows the coming-soon notice') : fail(`drive coming-soon notice missing (got: ${notice})`);
-  const driveLinks = await page.locator('a[href*="drive.google.com"]').count();
-  driveLinks === 0 ? ok('drive lesson shows no Drive link') : fail(`drive link present (${driveLinks})`);
-
-  await context.close();
+    let frames = 0;
+    let embeds = 0;
+    let outside = 0;
+    let players = 0;
+    let audioSrcOk = 0;
+    for (const l of course.lessons) {
+      await page.goto(`${BASE}/courses/c080/${encodeURIComponent(l.id)}`, { waitUntil: 'networkidle' });
+      await page.waitForSelector('h1');
+      frames += await page.locator('iframe').count();
+      embeds += await page.locator('[data-embed]').count();
+      outside += await page.locator('#app-main a[target="_blank"]').count();
+      players += await page.locator('[data-player]').count();
+      const src = await page.evaluate(() => (window.__learnAudio ? window.__learnAudio.src : ''));
+      if (src.includes('/' + l.media[0].src.split('/').map(encodeURIComponent).join('/'))) audioSrcOk++;
+    }
+    frames === 0 ? ok('no iframe on any lesson page') : fail(`${frames} iframe(s) on lesson pages`);
+    embeds === 0 ? ok('no embed container on any lesson page') : fail(`${embeds} embed container(s)`);
+    outside === 0 ? ok('no outside link on any lesson page') : fail(`${outside} outside link(s)`);
+    players === course.lessons.length ? ok('every lesson page has the own player') : fail(`players: ${players}/${course.lessons.length}`);
+    audioSrcOk === course.lessons.length ? ok('the audio source is the R2 address built from the stored key') : fail(`audio source ok on ${audioSrcOk}/${course.lessons.length} lessons`);
+    const external = requested.filter((u) => /acast|youtube|youtu\.be|drive\.google/.test(u));
+    external.length === 0 ? ok('no request to a former embed host') : fail(`requests to embed hosts: ${external.length}`);
+    await context.close();
+  }
   await browser.close();
-
   if (failures) {
     console.error(`\n[embed.e2e] ${failures} check(s) FAILED`);
     process.exit(1);

@@ -76,9 +76,8 @@ export const STRINGS = {
   LANGUAGE: { km: 'ភាសា', en: 'Language' },
   OFFLINE: { km: 'ស្តាប់ពេលគ្មានអ៊ីនធឺណិត', en: 'Offline listening' },
   LINK_COPIED: { km: 'បានចម្លងតំណ', en: 'Link copied' },
-  EMBED_MSG: { km: 'មេរៀននេះនៅលើ', en: 'This lesson still plays from' },
-  OPEN_IN: { km: 'បើកនៅ', en: 'Open in' },
-  COMING_SOON: { km: 'កំពុងរៀបចំ — មកដល់ឆាប់ៗ', en: 'Being prepared — coming soon' },
+  // bulk 09: the Khmer is copied from docs/kiro-bulk-09.md. DRAFT - needs reviewer approval.
+  ONGOING: { km: 'កំពុងបង្រៀន', en: 'Ongoing' },
   RIGHTS: {
     km: '© ២០២៦ មូលនិធិប្រយោជន៍ និងលោកគ្រូអ្នកបង្រៀន។ សម្រាប់ការសិក្សាផ្ទាល់ខ្លួនប៉ុណ្ណោះ។ សូមកុំយកទៅផ្សាយបន្ត ឬប្រើក្នុងគោលបំណងពាណិជ្ជកម្ម ដោយគ្មានការអនុញ្ញាត។',
     en: '© 2026 Payojana Foundation and the teachers. For personal study only. Please do not re-publish or use commercially without permission.',

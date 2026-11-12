@@ -21,9 +21,10 @@
  * only stable references (course id, lesson number) — never array positions.
  */
 
-import { openDB, type IDBPDatabase, type DBSchema } from 'idb';
+import { openDB, type IDBPDatabase, type IDBPTransaction, type DBSchema, type StoreNames } from 'idb';
 import { DB_NAME, DB_VERSION } from '../config';
 import { devLog } from '../devlog';
+import { cutProgress, cutLessonRef, keepCourse, cutBackup } from './legacy';
 
 export interface LearnDB extends DBSchema {
   progress: {
@@ -106,7 +107,7 @@ export function openLearnDB(): Promise<IDBPDatabase<LearnDB>> {
     terminated() {
       dbPromise = null;
     },
-    upgrade(db, oldVersion) {
+    upgrade(db, oldVersion, _newVersion, transaction) {
       // Switch by oldVersion so future migrations never delete user stores.
       if (oldVersion < 1) {
         db.createObjectStore('progress', { keyPath: 'courseId' });
@@ -121,6 +122,13 @@ export function openLearnDB(): Promise<IDBPDatabase<LearnDB>> {
       if (oldVersion < 2) {
         db.createObjectStore('leaves', { keyPath: 'course_id' });
       }
+      // v3 (bulk 09, P-20 clean cut): the app now reads the master sheet, whose course /
+      // lesson ids differ from the old website ids. Drop everything keyed by an old id
+      // (keep only the pilot course c080 with its lesson map) and the cached data files,
+      // once. Fresh installs (oldVersion 0) have nothing to cut.
+      if (oldVersion >= 1 && oldVersion < 3) {
+        void cleanCutV3(transaction as never).catch((err) => devLog('db: clean cut failed', err));
+      }
     },
   });
   dbPromise = opening;
@@ -132,6 +140,44 @@ export function openLearnDB(): Promise<IDBPDatabase<LearnDB>> {
     if (err && (err as DOMException).name === 'VersionError') versionChangeHandler();
   });
   return opening;
+}
+
+/**
+ * v3 upgrade body, inside the versionchange transaction. Only IndexedDB requests are
+ * awaited, so the transaction stays alive. Stores: progress / saved / history / notes /
+ * leaves keep only the pilot course c080 (lessons through LEGACY_LESSON_MAP); the cached
+ * data files and their hashes are cleared so the loader re-downloads fresh, hash-verified
+ * files (a stale old course file must never be served for a master id). settings stay.
+ */
+async function cleanCutV3(tx: IDBPTransaction<LearnDB, StoreNames<LearnDB>[], 'versionchange'>): Promise<void> {
+  const progress = tx.objectStore('progress');
+  for (const rec of await progress.getAll()) {
+    const next = cutProgress(rec);
+    await progress.delete(rec.courseId);
+    if (next) await progress.put(next);
+  }
+  const saved = tx.objectStore('saved');
+  for (const rec of await saved.getAll()) {
+    if (!keepCourse(rec.courseId)) await saved.delete(rec.courseId);
+  }
+  const history = tx.objectStore('history');
+  for (const rec of await history.getAll()) {
+    await history.delete(`${rec.courseId}:${rec.lessonNum}`);
+    const next = cutLessonRef(rec);
+    if (next) await history.put(next, `${next.courseId}:${next.lessonNum}`);
+  }
+  const notes = tx.objectStore('notes');
+  for (const rec of await notes.getAll()) {
+    const next = cutLessonRef(rec);
+    if (next) await notes.put(next);
+    else await notes.delete(rec.id as number);
+  }
+  const leaves = tx.objectStore('leaves');
+  for (const rec of await leaves.getAll()) {
+    if (!keepCourse(rec.course_id)) await leaves.delete(rec.course_id);
+  }
+  await tx.objectStore('files').clear();
+  await tx.objectStore('dataHashes').clear();
 }
 
 /** TEST-ONLY: drop the cached connection so a fresh DB can be opened. */
@@ -434,6 +480,8 @@ export async function exportBackup(): Promise<Backup> {
 /** Import a backup, replacing the user stores. Rejects a backup from another app. */
 export async function importBackup(backup: Backup): Promise<void> {
   if (!backup || backup.app !== 'learn-app') throw new Error('not a learn-app backup');
+  // A backup written before bulk 09 (schema < 3) holds OLD ids: apply the same clean cut.
+  if (!(typeof backup.schema === 'number' && backup.schema >= 3)) backup = cutBackup(backup);
   const db = await openLearnDB();
   const tx = db.transaction(['progress', 'saved', 'history', 'notes', 'leaves', 'settings'], 'readwrite');
   // Leaves are MERGED (union by course_id), never cleared: an older backup

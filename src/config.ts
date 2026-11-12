@@ -57,4 +57,4 @@ export const OFFLINE_ALLOWED: boolean = false;
 export const DB_NAME = 'learn-app' as const;
 
 /** IndexedDB schema version. Increment when the schema changes. */
-export const DB_VERSION = 2 as const;
+export const DB_VERSION = 3 as const;

@@ -167,6 +167,18 @@ export interface ProgressLike {
  * least one lesson with done === true (opening a lesson does not count).
  * Derived from progress at render time; oldest `updatedAt` first (ties by id).
  */
+/**
+ * P-23 (bulk 09): a course can end in a leaf only when no lesson of it is still hidden
+ * (`all_shown`) and the course is not ongoing. Missing flags mean "cannot finish".
+ */
+export function courseCanFinish(c: { ongoing?: boolean; all_shown?: boolean }): boolean {
+  return c.all_shown === true && c.ongoing !== true;
+}
+
+/**
+ * P-27 (bulk 09): a bud is a course that has been started (>= 1 lesson done) and has no
+ * leaf yet - including an ongoing course, which cannot get a leaf.
+ */
 export function startedCourseIds(
   records: ProgressLike[],
   catalogIds: Set<string>,

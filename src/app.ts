@@ -9,7 +9,7 @@
 
 import { initLang, setLang, type Lang } from './lang';
 import { VACANA_BASE_URL, LIBRARY_BASE_URL } from './config';
-import { pathCourseIds, draftAllowed, startedCourseIds } from './data/companion';
+import { pathCourseIds, draftAllowed, startedCourseIds, courseCanFinish } from './data/companion';
 import type { CompanionCtx } from './ui/companion';
 import { t, STRINGS, displayString } from './strings';
 import { cleanForSearch, esc } from './format';
@@ -27,6 +27,7 @@ import {
   type Teacher,
 } from './data/catalog';
 import { migrateAliases, resolveAlias, type AliasMap } from './db/aliases';
+import { legacyLessonId } from './db/legacy';
 import {
   getLessonProgress,
   setLessonProgress,
@@ -93,7 +94,8 @@ function $(sel: string): HTMLElement | null {
 async function loadBase(): Promise<void> {
   catalog = await getCatalog();
   const tf = await getTeachersFile();
-  teachers = tf?.teachers ?? [];
+  const withCourse = new Set((catalog?.courses ?? []).map((c) => c.teacher_slug));
+  teachers = (tf?.teachers ?? []).filter((tc) => !catalog || withCourse.has(tc.slug));
   teacherBySlug.clear();
   for (const tc of teachers) teacherBySlug.set(tc.slug, tc);
   const known = new Set((catalog?.courses ?? []).map((c) => c.id));
@@ -110,6 +112,7 @@ function companionCtx(extra: Pick<CompanionCtx, 'hasLeaf' | 'leafCount' | 'budCo
 async function checkLeaf(courseId: string): Promise<void> {
   const c = courseCache.get(courseId) ?? (await course(courseId));
   if (!c) return;
+  if (!courseCanFinish(c)) return;
   try {
     await awardLeafIfFinished(courseId, c.lessons.map((l) => l.id));
   } catch (err) {
@@ -125,7 +128,7 @@ async function backfillLeavesOnce(): Promise<void> {
     const candidates = catalog.courses
       .filter((c) => {
         const done = Object.values(prog[c.id] ?? {}).filter((x) => x.done).length;
-        return c.lesson_count > 0 && done >= c.lesson_count;
+        return courseCanFinish(c) && c.lesson_count > 0 && done >= c.lesson_count;
       })
       .map((c) => c.id);
     await backfillLeaves(candidates, async (id) => (await course(id))?.lessons.map((l) => l.id) ?? null);
@@ -190,6 +193,12 @@ function redirectAlias(route: Route): Route {
       return next;
     }
   } else if (route.name === 'lesson') {
+    const moved = legacyLessonId(route.id, route.lessonId);
+    if (moved) {
+      const next: Route = { name: 'lesson', id: route.id, lessonId: moved };
+      history.replaceState(null, '', routePath(next));
+      return next;
+    }
     const perm = resolveAlias(route.id, aliases);
     if (perm !== route.id) {
       const next: Route = { name: 'lesson', id: perm, lessonId: rewriteLessonId(route.lessonId, route.id, perm) };
@@ -624,7 +633,7 @@ export async function startApp(): Promise<void> {
   state.route = redirectAlias(parseRoute(location.pathname, location.search));
   // topic deep link on /courses/?topic=
   const topicParam = new URLSearchParams(location.search).get('topic');
-  if (topicParam) state.topic = topicParam;
+  if (topicParam && catalog?.courses.some((c) => c.topics.length > 0)) state.topic = topicParam;
   await render();
 }
 

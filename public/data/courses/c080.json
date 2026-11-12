@@ -1,252 +1,141 @@
 {
   "id": "c080",
-  "provisional": true,
-  "title_km": "ថ្នាក់កុមារ វេស្សន្តរជាតក",
+  "provisional": false,
+  "title_km": "វេស្សន្តរជាតក",
   "title_en": null,
-  "teacher": "ភិក្ខុអគ្គចិត្តោ យ៉ុន យី",
+  "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
   "teacher_slug": "yon-yi",
-  "topics": [
-    "jataka",
-    "kids"
-  ],
+  "topics": [],
+  "ongoing": false,
+  "all_shown": false,
   "lessons": [
     {
-      "id": "c080-l001",
+      "id": "AJAD00YYX0101",
       "num": 1,
-      "title_km": "1.ថ្នាក់កុមារ និទានជាតក ភាគ០១ សិក្សាទសជាតក",
+      "title_km": "1.ថ្នាក់កុមារ និទានជាតក ភាគ០១ សិក្សាទសជាតក.mp3",
       "topic": "",
       "media": [
         {
-          "kind": "acast",
-          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69816a6c4b12c3dd7310cf84?subscribe=false"
-        },
-        {
-          "kind": "drive",
-          "src": "https://drive.google.com/file/d/1EyF4VvMVm5RquR6dEUd-yn_pdznwxYtu/preview"
+          "kind": "r2",
+          "src": "audio/bbe24403fb36fde6-a64.mp3",
+          "duration_s": 1506
         }
       ]
     },
     {
-      "id": "c080-l002",
+      "id": "AJAD00YYX0102",
       "num": 2,
-      "title_km": "2.ថ្នាក់កុមារ និទានជាតក ភាគ០២ សិក្សាវេស្សន្តរជាតក គាថាទសពរ ចូលហិមវន្តវណ្ណនា",
+      "title_km": "2.ថ្នាក់កុមារ និទានជាតក ភាគ០២ សិក្សាវេស្សន្តរជាតក គាថាទសពរ ចូលហិមវន្តវណ្ណនា.mp3",
       "topic": "",
       "media": [
         {
-          "kind": "acast",
-          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69816b54c8310ac486bc92f7?subscribe=false"
-        },
-        {
-          "kind": "youtube",
-          "src": "https://www.youtube.com/embed/FSVjLMX03tg"
+          "kind": "r2",
+          "src": "audio/8b68bddb984e7720-a64.mp3",
+          "duration_s": 4583
         }
       ]
     },
     {
-      "id": "c080-l003",
-      "num": 3,
-      "title_km": "3.ថ្នាក់កុមារ និទានជាតក ភាគ០៣ សិក្សាវេស្សន្តរជាតក គាថាហិមវន្តវណ្ណា",
-      "topic": "",
-      "media": [
-        {
-          "kind": "acast",
-          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69816c44c8310ac486bce7c8?subscribe=false"
-        },
-        {
-          "kind": "youtube",
-          "src": "https://www.youtube.com/embed/ZUvI-GdPpZM"
-        }
-      ]
-    },
-    {
-      "id": "c080-l004",
+      "id": "AJAD00YYX0104",
       "num": 4,
-      "title_km": "4.ថ្នាក់កុមារ និទានជាតក ភាគ០៤",
+      "title_km": "4.ថ្នាក់កុមារ និទានជាតក ភាគ០៤ .mp3",
       "topic": "",
       "media": [
         {
-          "kind": "acast",
-          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69816ca7c8310ac486bcf81d?subscribe=false"
-        },
-        {
-          "kind": "drive",
-          "src": "https://drive.google.com/file/d/11UtCc2btipfdDjghsUjivEUP9SmPGsG_/preview"
+          "kind": "r2",
+          "src": "audio/69894a100fe6c105-a64.mp3",
+          "duration_s": 4532
         }
       ]
     },
     {
-      "id": "c080-l005",
+      "id": "AJAD00YYX0105",
       "num": 5,
-      "title_km": "5.ថ្នាក់កុមារ និទានជាតក ភាគ០៥ សិក្សាវេស្សន្តរជាតក ទានកណ្ឌ_ព្រះវេស្សន្រលាមាតាបិតា",
+      "title_km": "5.ថ្នាក់កុមារ និទានជាតក ភាគ០៥ សិក្សាវេស្សន្តរជាតក ទានកណ្ឌ_ព្រះវេស្សន្រលាមាតាបិតា.mp3",
       "topic": "",
       "media": [
         {
-          "kind": "acast",
-          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69816d5d19ef991f737a96e8?subscribe=false"
-        },
-        {
-          "kind": "youtube",
-          "src": "https://www.youtube.com/embed/3uO89W0QnAU"
+          "kind": "r2",
+          "src": "audio/5140d89ed474d404-a64.mp3",
+          "duration_s": 4453
         }
       ]
     },
     {
-      "id": "c080-l006",
+      "id": "AJAD00YYX0106",
       "num": 6,
-      "title_km": "6.ថ្នាក់កុមារ និទានជាតក ភាគ០៦ សិក្សាវេស្សន្តរជាតក វនប្បវេសនកណ្ឌចូលទៅព្រៃ",
+      "title_km": "6.ថ្នាក់កុមារ និទានជាតក ភាគ០៦ សិក្សាវេស្សន្តរជាតក វនប្បវេសនកណ្ឌចូលទៅព្រៃ.mp3",
       "topic": "",
       "media": [
         {
-          "kind": "acast",
-          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69816df119ef991f737ae287?subscribe=false"
-        },
-        {
-          "kind": "youtube",
-          "src": "https://www.youtube.com/embed/EMIWWG4DtWY"
+          "kind": "r2",
+          "src": "audio/0b75b23cac8d1bac-a64.mp3",
+          "duration_s": 4546
         }
       ]
     },
     {
-      "id": "c080-l007",
+      "id": "AJAD00YYX0107",
       "num": 7,
-      "title_km": "7.ថ្នាក់កុមារ និទានជាតក ភាគ០៧ សិក្សាវេស្សន្តរជាតក ជជូកកណ្ឌ តាជជូកស្មូមភិក្ខុ",
+      "title_km": "7.ថ្នាក់កុមារ និទានជាតក ភាគ០៧ សិក្សាវេស្សន្តរជាតក ជជូកកណ្ឌ តាជជូកស្មូមភិក្ខុ.mp3",
       "topic": "",
       "media": [
         {
-          "kind": "acast",
-          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69816e7413c1477af2f2de30?subscribe=false"
-        },
-        {
-          "kind": "youtube",
-          "src": "https://www.youtube.com/embed/HkI8niwSZyc"
+          "kind": "r2",
+          "src": "audio/06de0b31c2a820d5-a64.mp3",
+          "duration_s": 4474
         }
       ]
     },
     {
-      "id": "c080-l008",
-      "num": 8,
-      "title_km": "8.ថ្នាក់កុមារ និទានជាតក ភាគ០៨ សិក្សាវេស្សន្តរជាតក ចូឡវនវណ្ណនា មហាវនវណ្ណនា",
-      "topic": "",
-      "media": [
-        {
-          "kind": "acast",
-          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69816f6d7455a33159aba247?subscribe=false"
-        },
-        {
-          "kind": "youtube",
-          "src": "https://www.youtube.com/embed/exKSoJZyyus"
-        }
-      ]
-    },
-    {
-      "id": "c080-l009",
-      "num": 9,
-      "title_km": "9.ថ្នាក់កុមារ និទានជាតក ភាគ០៩ សិក្សាវេស្សន្តរជាតក ទារកបព្វ_លះបង់កូនទៅតាជូជក",
-      "topic": "",
-      "media": [
-        {
-          "kind": "acast",
-          "src": "https://embed.acast.com/670a7d149343c2d47a56cc7a/69816fe54b12c3dd7311d23b?subscribe=false"
-        },
-        {
-          "kind": "youtube",
-          "src": "https://www.youtube.com/embed/b1I4yBV8_Ls"
-        }
-      ]
-    },
-    {
-      "id": "c080-l010",
+      "id": "AJAD00YYX0110",
       "num": 10,
-      "title_km": "10.ថ្នាក់កុមារ និទានជាតក ភាគ ១០ សិក្សាវេស្សន្តរជាតក មន្ទ្រីបព្វៈ នាងមន្រ្ទីចេញមកពីព្រៃ",
+      "title_km": "10.ថ្នាក់កុមារ និទានជាតក ភាគ ១០ សិក្សាវេស្សន្តរជាតក មន្ទ្រីបព្វៈ នាងមន្រ្ទីចេញមកពីព្រៃ.mp4",
       "topic": "",
       "media": [
         {
-          "kind": "drive",
-          "src": "https://drive.google.com/file/d/17Bba2iQTCILsEPIHE83ql4WTbtJPHXtj/preview"
-        },
-        {
-          "kind": "youtube",
-          "src": "https://www.youtube.com/embed/NKuW8Urn0SM"
+          "kind": "r2",
+          "src": "audio/3e2765d87fd4dca4-a64.mp3",
+          "duration_s": 4683
         }
       ]
     },
     {
-      "id": "c080-l011",
-      "num": 11,
-      "title_km": "11.ថ្នាក់កុមារ និទានជាតក ភាគ ១១ សិក្សាវេស្សន្តរជាតក មន្ទ្រីបព្វៈ នាងមន្រ្ទីស្វែងរកកូនមិនឃើញ",
-      "topic": "",
-      "media": [
-        {
-          "kind": "drive",
-          "src": "https://drive.google.com/file/d/1B7QQrbJBUhL2K3O_Suyl5tNvvPPDNqj4/preview"
-        },
-        {
-          "kind": "youtube",
-          "src": "https://www.youtube.com/embed/NplM-IpfB8E"
-        }
-      ]
-    },
-    {
-      "id": "c080-l012",
-      "num": 12,
-      "title_km": "12.ថ្នាក់កុមារ និទានជាតក ភាគ ១២ 65 សិក្សាវេស្សន្តរជាតក សក្កបព្វៈ ព្រះឥន្ទសុំនាងមន្ទ្រីថ្នាក់កុមារ ភាគ",
-      "topic": "",
-      "media": [
-        {
-          "kind": "drive",
-          "src": "https://drive.google.com/file/d/1GRGZP_qCbzzw0KwyzYeznhVGQqdR95Ns/preview"
-        },
-        {
-          "kind": "youtube",
-          "src": "https://www.youtube.com/embed/QEU8RRYkszQ"
-        }
-      ]
-    },
-    {
-      "id": "c080-l013",
+      "id": "AJAD00YYX0113",
       "num": 13,
       "title_km": "13.ថ្នាក់កុមារ និទានជាតក ភាគ ១៣ 66 សិក្សាវេស្សន្តរជាតក មហារាជបព្វៈ កុមារទាំងពីរបានជួបតាយាយ",
       "topic": "",
       "media": [
         {
-          "kind": "drive",
-          "src": "https://drive.google.com/file/d/1sgmAgBcUrb0ZmF8rG6Ea-V_7My7mPzu6/preview"
-        },
-        {
-          "kind": "youtube",
-          "src": "https://www.youtube.com/embed/qkK9NCoYd24"
+          "kind": "r2",
+          "src": "audio/320dec9b664013a9-a64.mp3",
+          "duration_s": 4486
         }
       ]
     },
     {
-      "id": "c080-l014",
+      "id": "AJAD00YYX0114",
       "num": 14,
       "title_km": "14.ថ្នាក់កុមារ និទានជាតក ភាគ ១៤ ៦៧ វេស្សន្តរជាតក ឆក្ខត្តិយបព្វៈ អ្នកទាំង៦ អង្គជួបជុំគ្នា",
       "topic": "",
       "media": [
         {
-          "kind": "drive",
-          "src": "https://drive.google.com/file/d/1gBZh-3JdVab5nN3gcZ2yxN-YvAj-JNyZ/preview"
-        },
-        {
-          "kind": "youtube",
-          "src": "https://www.youtube.com/embed/VNY7PagTrno"
+          "kind": "r2",
+          "src": "audio/2d76591fa1c27856-a64.mp3",
+          "duration_s": 3981
         }
       ]
     },
     {
-      "id": "c080-l015",
+      "id": "AJAD00YYX0115",
       "num": 15,
       "title_km": "15.ថ្នាក់កុមារ និទានជាតក ភាគ ១៥ ៦៨ វេស្សន្តរជាតក នគរកណ្ឌៈ បញ្ចប់វេស្សន្តរជាតក",
       "topic": "",
       "media": [
         {
-          "kind": "drive",
-          "src": "https://drive.google.com/file/d/14maJWzw_PRvnefwiEpTEWn3tS89tIKIK/preview"
-        },
-        {
-          "kind": "youtube",
-          "src": "https://www.youtube.com/embed/HoXqkhbV2xc"
+          "kind": "r2",
+          "src": "audio/975902246180080b-a64.mp3",
+          "duration_s": 3170
         }
       ]
     }

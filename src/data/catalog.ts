@@ -27,6 +27,10 @@ export interface CatalogCourse {
   topics: string[];
   lesson_count: number;
   media_kinds: string[];
+  /** Courses.course_status = ongoing in the master sheet (bulk 09). */
+  ongoing?: boolean;
+  /** Every lesson of the course in the master sheet is shown (none still hidden). */
+  all_shown?: boolean;
 }
 export interface Catalog {
   generated: string;
@@ -34,7 +38,8 @@ export interface Catalog {
   courses: CatalogCourse[];
 }
 
-export type MediaKind = 'r2' | 'acast' | 'youtube' | 'drive';
+/** bulk 09 (P-14): Learn plays our own R2 audio only; the data has no other kind. */
+export type MediaKind = 'r2';
 export interface LessonMedia {
   kind: MediaKind;
   src: string;
@@ -56,6 +61,8 @@ export interface Course {
   teacher: string;
   teacher_slug: string;
   topics: string[];
+  ongoing?: boolean;
+  all_shown?: boolean;
   lessons: Lesson[];
 }
 

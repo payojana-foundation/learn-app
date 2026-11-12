@@ -2,10 +2,6 @@
   "version": 1,
   "default_sign": "leaf-sign-draft.svg",
   "course_signs": {
-    "c021": "moon-hare-draft.svg",
-    "c022": "moon-hare-draft.svg",
-    "c023": "moon-hare-draft.svg",
-    "c024": "moon-hare-draft.svg",
     "c080": "moon-hare-draft.svg"
   },
   "lines": {
