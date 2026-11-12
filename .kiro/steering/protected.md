@@ -55,9 +55,14 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
 - **P-07** Routing is over REAL paths (History API), parsed from
   `location.pathname`: `/`, `/search?q=`, `/my`, `/more`, `/courses/<id>`,
   `/courses/<id>/<lessonId>`, `/teachers`, `/teachers/<slug>`. Legacy website
-  params on `/courses/` still work: `?q=` → search, `?teacher=` → teacher,
-  `?topic=` → home with the chip pre-selected. `parseRoute`, `src/router.ts`.
-  [from part P4]
+  params on `/courses/` still work: `?q=` → search, `?teacher=` → teacher.
+  `?topic=` → home with the chip pre-selected ONLY when at least one course in
+  the catalog has topics; with no topics the topic chips are hidden and
+  `?topic=` is ignored (the master sheet has no topic column). Teacher pages and
+  the teacher list exist only for teachers with at least one shown course.
+  `parseRoute`, `src/router.ts`; `homeView`, `src/ui/views.ts`; `loadBase`,
+  `startApp`, `src/app.ts`. Contract: `src/ui/views.lesson.test.ts` "topic chips".
+  [from part P4; changed in bulk 09, change protected: P-07]
 - **P-08** The lesson URL uses the lesson **id**, not the num:
   `/courses/<id>/<lessonId>` (duplicate nums share a num but have distinct ids,
   P3 "b"). `routePath`, `src/router.ts`; progress/history/notes key on lesson
@@ -91,20 +96,16 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   AND while the audio is playing, so a fresh mount's paused 0-tick never
   clobbers the saved resume point. `createPlayer` (`resumeApplied`, paused
   guard), `src/audio/player.ts`. [from part P4]
-- **P-14** `acast`/`youtube` lessons render the REAL embed in an iframe whose
-  `src` is the embed URL stored in the lesson data (never guessed): acast is
-  audio-only (short height), youtube is 16:9; lazy-loaded, `allow`
-  autoplay/encrypted-media/fullscreen; a small "open in <host>" link below opens
-  the source in a new tab. `drive` lessons NEVER play in-app (coordinator
-  decision — Drive only after R2 conversion): a drive-only lesson shows
-  "កំពុងរៀបចំ — មកដល់ឆាប់ៗ" (no player, no Drive link). `public/_headers` CSP
-  `frame-src` allows ONLY embed.acast.com, www.youtube.com,
-  www.youtube-nocookie.com (NOT drive.google.com). A lesson with no media shows
-  an offline/needs-internet notice. Only one lesson player is mounted at a time.
-  v1 is streaming only — no download button anywhere. `embedMedia`/`lessonView`,
-  `src/ui/views.ts`; `public/_headers`. [from part P4; embed+CSP from team-test
-  fix; drive-off from coordinator decision, change protected: P-14]
-
+- **P-14** Learn plays ONLY its own R2 audio. The served data never contains
+  `acast`, `youtube` or `drive` media (the `MediaKind` type is `'r2'`), no lesson
+  page renders an iframe, an embed container or an outside link, and
+  `public/_headers` sets `frame-src 'none'`. A lesson with no media shows an
+  offline/needs-internet notice. Only one lesson player is mounted at a time. v1
+  is streaming only — no download button anywhere. `lessonView`, `src/ui/views.ts`;
+  `public/_headers`. Contract: `src/ui/views.lesson.test.ts` "P-14 r2 only",
+  `src/contracts/__tests__/master-build.contract.test.mjs` (no non-r2 kind in
+  `public/data`, `_headers`), `e2e/embed.e2e.mjs`. [from part P4; embeds removed in
+  bulk 09, change protected: P-14]
 ## My Learning, search, data (P4)
 
 - **P-15** My Learning tabs: In progress · Saved · History · Notes, all local
@@ -127,33 +128,37 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
 
 ## Manifest → app (Q4, bulk-02)
 
-- **P-19** A course switches to `r2` ONLY when EVERY Drive-backed audio lesson
-  in it has an APPROVED (non-DRAFT) entry in `data/media-manifest.json` — no
-  mixed courses. An r2 lesson's `src` is the BARE R2 key (NOT a full URL — the
-  player prepends `MEDIA_BASE_URL` and URL-encodes it, per P-12) and carries the
-  real `duration_s` from the manifest; the player shows that duration from the
-  data. DRAFT entries never count. `courseAllDriveApproved`/`lessonMedia`,
-  `scripts/build-courses.mjs`; `duration_s` seed in `lessonView`,
-  `src/ui/views.ts`. Contract: `src/contracts/__tests__/course-build.contract.test.mjs`
-  "P-19 course-level all-or-nothing r2". [from part Q4, bulk-02]
-
+- **P-19** PER-LESSON release. A lesson is shown only when its master-sheet row
+  has a Drive source id (the Drive id of the link named by `source_type`) with an
+  APPROVED (non-DRAFT) entry in `data/media-manifest.json`; if two rows share a
+  source the first row (sheet order) wins. A course is shown only when it has at
+  least one shown lesson and a teacher that maps to a teacher record ("pending" or
+  unmapped → hidden and reported). There are no mixed-course rules. An r2 lesson's
+  `src` is the BARE R2 key (NOT a full URL — the player prepends `MEDIA_BASE_URL`
+  and URL-encodes it, per P-12) and carries the real `duration_s` from the
+  manifest. DRAFT entries never count. The build fails if a lesson id that had
+  approved media would disappear, unless the id is a key of `data/id-aliases.json`.
+  `shownRows`/`buildFromMaster`/`approvedIdGuard`, `scripts/build-courses.mjs`.
+  Contract: `src/contracts/__tests__/master-build.contract.test.mjs` "P-19 per-lesson
+  release". (The old website-based `buildCourses` is kept, unused by the build.)
+  [from part Q4, bulk-02; replaced in bulk 09, change protected: P-19]
 ## Provisional → permanent ids (Q5, bulk-02)
 
-- **P-20** `data/id-aliases.json` (empty `{}` now) is the SOURCE alias map
-  (provisional course id → permanent); the build copies it verbatim into the
-  served `public/data/aliases.json`. On app start the app reads the served file
-  and moves IndexedDB user data (progress/saved/history/notes and, since
-  bulk-05 P1, `leaves` keyed by `course_id`; change protected: P-20) from a
-  provisional key to its permanent key ONCE, inside ONE transaction,
-  idempotently — a record is moved only if it still lives under the provisional
-  key, an existing permanent record is never clobbered, and a second run is a
-  no-op. Old `/courses/<provisional>` (and its lesson URL) redirect in-app to
-  the permanent id via `history.replaceState`. No real permanent ids are
-  invented. `migrateAliases`/`resolveAlias`/`rewriteLessonId`, `src/db/aliases.ts`;
-  `redirectAlias`, `src/app.ts`; alias merge in `scripts/build-courses.mjs`.
-  Contract: `src/db/aliases.test.ts`; leaves: `src/db/leaves.test.ts` "alias
-  rewrite of leaves". [from part Q5, bulk-02; leaves added bulk-05 P1]
-
+- **P-20** CLEAN CUT (IndexedDB version 3). Course and lesson ids changed when the
+  app moved to the master sheet (only `c080` is the same course before and after), so
+  anything stored under an old id would point at another course. The v3 upgrade, and
+  the import of a backup with schema < 3, KEEP ONLY the pilot course `c080`, and inside
+  it only the lessons in `LEGACY_LESSON_MAP` (the same map as `data/id-aliases.json`),
+  rewritten to their new lesson ids; saved/history/notes/leaves of other courses and
+  progress of unmapped lessons are dropped once; cached data files and their hashes are
+  cleared; settings are kept. An old `/courses/c080/c080-l0nn` URL redirects to the new
+  lesson id. Nothing is ever pointed at a different course or lesson. The old
+  provisional → permanent course-id alias machinery (`migrateAliases`) stays but has
+  nothing to move. `cleanCutV3`/`importBackup`, `src/db/index.ts`; `src/db/legacy.ts`;
+  `redirectAlias`, `src/app.ts`. Contract: `src/db/legacy.test.ts`,
+  `src/db/migration.test.ts`, `src/db/versionchange.test.ts`.
+  [from part Q5, bulk-02; leaves added bulk-05 P1; replaced in bulk 09, change
+  protected: P-20]
 ## Study companion (bulk-05)
 
 - **P-21** A guide line shows ONLY if its `approved` is `true` in
@@ -174,16 +179,18 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   P1, change protected: P-22). `chooseSign`,
   `src/data/companion.ts`; `signHtml`/`resolveSignFile`, `src/ui/companion.ts`.
   Contract: "P-22". [from part bulk-05 P1/P2]
-- **P-23** A leaf (IndexedDB store `leaves`, key `course_id`, DB version 2) is
-  added once when every visible lesson of a course is done, and is NEVER
-  deleted or updated: not when a lesson is added to the course, not when a lesson
-  is un-marked, not by importing an older backup (Import merges leaves by
-  `course_id`; Export includes them), not by the provisional-id rewrite (the leaf
-  moves to the permanent key). The DB upgrade only adds the store. Writes happen
-  in one transaction, so two tabs cannot make two leaves.
-  `awardLeafIfFinished`/`backfillLeaves`/`importBackup`, `src/db/index.ts`;
-  `migrateAliases`, `src/db/aliases.ts`. Contract: "P-23" and `src/db/leaves.test.ts`,
-  `src/db/migration.test.ts`. [from part bulk-05 P1]
+- **P-23** A leaf (IndexedDB store `leaves`, key `course_id`) is added once when
+  every lesson of a course is shown AND done (`all_shown` in the catalog: no lesson of
+  the course is still hidden) AND the course is not `ongoing` (`courseCanFinish`), and
+  is NEVER deleted or updated: not when a lesson is added to the course, not when a
+  lesson is un-marked, not by importing a backup (Import merges leaves by `course_id`;
+  Export includes them). The one exception is the bulk-09 clean cut (P-20), which
+  drops leaves of old ids once. Writes happen in one transaction, so two tabs cannot
+  make two leaves. `awardLeafIfFinished`/`backfillLeaves`/`importBackup`,
+  `src/db/index.ts`; `courseCanFinish`, `src/data/companion.ts`; `checkLeaf`,
+  `src/app.ts`. Contract: "P-23 leaf rule" in `src/db/legacy.test.ts`,
+  `src/db/leaves.test.ts`, `src/db/migration.test.ts`.
+  [from part bulk-05 P1; changed in bulk 09, change protected: P-23]
 - **P-24** The branch panel on `/my` shows no numbers, levels, percent,
   comparison or empty slots: one leaf per finished course, slots above the count of leaves plus buds
   are `display="none"`, 13+ leaves add a second branch. The device note is always
@@ -205,11 +212,29 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   because of time. Contract: `src/contracts/__tests__/no-guilt.contract.test.ts`
   "P-26" (no Notification/push/badge API in `src/`, no streak/points/rank words
   in interface strings, no time-based fade on the branch). [from part bulk-06 P2]
-- **P-27** Buds: a bud = class started (>=1 lesson done) and not finished;
-  derived from progress; leaves first, then buds. `startedCourseIds`/
-  `orderBranchItems`, `src/data/companion.ts`; `branchesHtml`/`markBuds`,
-  `src/ui/companion.ts`; `myCompanionCtx`, `src/app.ts`. Contract: "P-27".
-  [from part bulk-06 P1]
+- **P-27** Buds: a bud = class started (>=1 lesson done) and without a leaf yet
+  (an ongoing class stays a bud, it cannot get a leaf); derived from progress;
+  leaves first, then buds. `startedCourseIds`/`orderBranchItems`,
+  `src/data/companion.ts`; `branchesHtml`/`markBuds`, `src/ui/companion.ts`;
+  `myCompanionCtx`, `src/app.ts`. Contract: "P-27" and "P-23 leaf rule and P-27
+  buds" in `src/db/legacy.test.ts`. [from part bulk-06 P1; changed in bulk 09,
+  change protected: P-27]
 - **P-28** Start here leaf mark: Start here row only, leaf sign only, no text or
   numbers. `leafMarkHtml`, `src/ui/companion.ts`; `homeView`, `src/ui/views.ts`.
   Contract: "P-28". [from part bulk-06 P1]
+
+## Master sheet source (bulk 09)
+
+- **P-29** The only source of courses and lessons is the master sheet export:
+  `data/master/lessons.csv` + `courses.csv` (written by `master-export.yml`, header
+  checked against `data/master/columns.json`); the website JSON is not read.
+  Course and lesson ids are the master ids (`c###` from the registry, lesson id =
+  `lesson_id`). Titles are displayed exactly as exported. The `ongoing` label
+  (`ONGOING`, `src/strings.ts`) shows only when Courses.course_status = `ongoing`.
+  Course ids in `data/paths.json` and `course_signs` (P-10, P-22, P-25) mean master
+  ids; `course_signs` was re-keyed on 11 Nov (only c080 could be mapped for certain;
+  the others were dropped). `buildFromMaster`, `scripts/build-courses.mjs`;
+  `scripts/master/export.mjs`; `courseCard`/`courseView`, `src/ui/views.ts`.
+  Contract: `src/contracts/__tests__/master-build.contract.test.mjs` ("ongoing label
+  data", "Khmer / title byte equality", "real served data") and "ongoing label" in
+  `src/ui/views.lesson.test.ts`. [from part bulk-09 P2/P3]
