@@ -120,6 +120,25 @@ describe('id guard (gap 8)', () => {
     expect(approvedIdGuard([], now, {})).toEqual([]);
     expect(approvedIdGuard([{ id: 'c1', lessons: [{ id: 'old', media: [] }] }], now, {})).toEqual([]); // no approved media before
   });
+  it('X: a removed lesson is accepted when its id is in the retired list; an unlisted one still fails', () => {
+    expect(approvedIdGuard(prev, now, {}, ['L2'])).toEqual([]);
+    expect(approvedIdGuard(prev, now, {}, ['other'])).toEqual([{ course_id: 'c001', lesson_id: 'L2' }]);
+    expect(approvedIdGuard(prev, now, {}, [])).toEqual([{ course_id: 'c001', lesson_id: 'L2' }]);
+    expect(approvedIdGuard(prev, now, {}, undefined)).toEqual([{ course_id: 'c001', lesson_id: 'L2' }]);
+  });
+  it('X: aliases stay for real id changes, retired is separate (each works alone, neither covers the other)', () => {
+    expect(approvedIdGuard(prev, now, { L2: 'L9' }, [])).toEqual([]);
+    expect(approvedIdGuard(prev, now, {}, ['L2'])).toEqual([]);
+    const both = [{ id: 'c001', lessons: [{ id: 'L2', media: [{ kind: 'r2' }] }, { id: 'L3', media: [{ kind: 'r2' }] }] }];
+    expect(approvedIdGuard(both, [{ id: 'c001', lessons: [] }], { L2: 'L9' }, ['L3'])).toEqual([]);
+    expect(approvedIdGuard(both, [{ id: 'c001', lessons: [] }], { L2: 'L9' }, [])).toEqual([{ course_id: 'c001', lesson_id: 'L3' }]);
+  });
+  it('X: data/retired-lessons.json is a list of strings (empty now)', () => {
+    const r = JSON.parse(readFileSync('data/retired-lessons.json', 'utf-8'));
+    expect(Array.isArray(r)).toBe(true);
+    expect(r.every((x) => typeof x === 'string' && x !== '')).toBe(true);
+    expect(new Set(r).size).toBe(r.length);
+  });
 });
 
 describe('real served data (public/data) vs the master export', () => {

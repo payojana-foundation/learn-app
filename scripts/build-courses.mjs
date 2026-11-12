@@ -558,15 +558,18 @@ export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest)
 /**
  * Id guard (bulk 09 gap 8): a lesson id that had approved (r2) media in the previous
  * served data must still exist in the new data, unless it is a KEY of
- * data/id-aliases.json. Returns the lesson ids that disappeared; the build fails on any.
+ * data/id-aliases.json (a real id change) or is listed in data/retired-lessons.json
+ * (a lesson that was withdrawn on purpose). Returns the lesson ids that disappeared;
+ * the build fails on any.
  */
-export function approvedIdGuard(prevCourses, newCourses, aliasMap) {
+export function approvedIdGuard(prevCourses, newCourses, aliasMap, retired = []) {
+  const gone = new Set(retired || []);
   const now = new Set((newCourses || []).flatMap((c) => c.lessons.map((l) => l.id)));
   const lost = [];
   for (const c of prevCourses || []) {
     for (const l of c.lessons || []) {
       const had = (l.media || []).some((m) => m.kind === 'r2');
-      if (had && !now.has(l.id) && !Object.prototype.hasOwnProperty.call(aliasMap || {}, l.id)) lost.push({ course_id: c.id, lesson_id: l.id });
+      if (had && !now.has(l.id) && !gone.has(l.id) && !Object.prototype.hasOwnProperty.call(aliasMap || {}, l.id)) lost.push({ course_id: c.id, lesson_id: l.id });
     }
   }
   return lost;
@@ -618,9 +621,16 @@ function main() {
   const prevCourses = existsSync(coursesOut)
     ? readdirSync(coursesOut).filter((f) => f.endsWith('.json')).map((f) => JSON.parse(readFileSync(join(coursesOut, f), 'utf-8')))
     : [];
-  const lostIds = approvedIdGuard(prevCourses, courses, aliasMap);
+  // data/retired-lessons.json: a list of lesson ids withdrawn on purpose (empty now).
+  const retiredPath = join(root, 'data', 'retired-lessons.json');
+  const retired = existsSync(retiredPath) ? JSON.parse(readFileSync(retiredPath, 'utf-8')) : [];
+  if (!Array.isArray(retired) || retired.some((x) => typeof x !== 'string' || x === '')) {
+    console.error('BUILD FAILED — data/retired-lessons.json must be a list of lesson id strings.');
+    process.exit(1);
+  }
+  const lostIds = approvedIdGuard(prevCourses, courses, aliasMap, retired);
   if (lostIds.length) {
-    for (const x of lostIds) console.error(`::error::lesson id ${x.lesson_id} (course ${x.course_id}) had approved media and is gone; add it to data/id-aliases.json if intended`);
+    for (const x of lostIds) console.error(`::error::lesson id ${x.lesson_id} (course ${x.course_id}) had approved media and is gone; add it to data/retired-lessons.json (withdrawn on purpose) or, for a real id change, to data/id-aliases.json`);
     console.error(`BUILD FAILED — ${lostIds.length} lesson id(s) with approved media disappeared.`);
     process.exit(1);
   }
