@@ -33,3 +33,24 @@ Rules: git pull first; main only; one commit per part; tests must pass; push wit
 
 ## Done when
 Tests + e2e green; after deploy, learn.84000.digital shows only approved lessons (today: 1 course, 10 lessons); deploy-check passes.
+
+## Decisions 11 Nov
+
+Coordinator answers to the P0 report (reports/kiro-bulk-09-report.md). They override the spec text above where they differ.
+
+- **Q1 clean cut (a).** One IndexedDB version bump drops all data keyed by old ids; the c080 lessons are kept through an explicit lesson-level map. Minimal changes in src/db and src/app.ts are allowed. (P-20 = clean cut.) data/id-aliases.json is therefore NOT filled with the 3408 mapped lessons.
+- **Q2 yes.** master-export.yml also runs build-courses and commits data/master + public/data together. Triggers: workflow_dispatch, daily 03:17 UTC, workflow_run of approve-media. Concurrency group data-rebuild-main.
+- **Q3 yes.** Media = the Drive id of the `source_type` link; if two rows share a source, the first row wins.
+- **Q4.** A leaf only when every lesson of the course is shown and done AND course_status is not ongoing.
+- **Q5.** Topic chips are hidden when no course has topics; `?topic=` is ignored. No topics column now.
+- **Q6 yes.** May also touch public/_headers, src/ui/views.ts, src/data/catalog.ts, src/strings.ts, src/db/*, src/app.ts, data/guide-lines.json and the 4 e2e files (route-mocked catalogs).
+- **Q7.** Teacher pages with no shown course are hidden.
+- **Q8 yes, but HOLD.** Push P1. Build P2 + P3 and run all tests, but do NOT push P2/P3 until the coordinator writes "go live". Report when ready.
+- **Gap 6.** Re-key `course_signs` with the old->new course map; unmapped -> drop + report.
+- **Gap 7.** Lesson order tie or non-number -> sheet row.
+- **Gap 8.** The build fails if a lesson id with approved media disappears or changes, unless it is aliased.
+- **Gap 10.** The report lists the 22 old English course titles with their new course_id (the team pastes them into course_title_en later).
+- **Gap 11.** The Khmer string for the ongoing label is copied from the spec byte for byte.
+- **Gap 12.** As proposed; schedule 03:17 UTC.
+- **Gap 4.** The old `buildCourses` stays untouched; add `buildFromMaster`.
+- **change protected:** P-07, P-14, P-19, P-20, P-23, P-27 as proposed in the P0 report (P-20 = clean cut per Q1). Note P-10 / P-25 / P-22: course ids now mean master ids (course_signs re-keyed). Add P-29.
