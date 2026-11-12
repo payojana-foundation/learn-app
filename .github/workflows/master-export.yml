@@ -1,0 +1,111 @@
+name: master-export
+
+# Bulk 09 P1 — export the master content sheet (tabs Lessons and Courses) to
+# data/master/lessons.csv + courses.csv, rebuild public/data from it, and commit
+# both together.
+#
+# Triggers: manual, daily at 03:17 UTC (10:17 in Cambodia, off-peak), and after
+# approve-media finishes (a GITHUB_TOKEN push does not start data-rebuild.yml, so
+# this job builds by itself; workflow_run does fire).
+#
+# Fails loudly (exit 3) when a header row differs from data/master/columns.json or
+# a tab has no data rows. Commits only when something changed. Read-only access to
+# the sheet (spreadsheets.readonly). Never force-pushes.
+#
+# One writer to main at a time: the same concurrency group as data-rebuild.yml.
+
+on:
+  workflow_dispatch:
+    inputs:
+      sheet_id:
+        description: "Google Sheet id of the master content sheet"
+        required: false
+        default: "12MOXAOHwwtKa6DFVwbfRMj8UtaKmN1758boN1EUKNZs"
+  schedule:
+    - cron: "17 3 * * *"
+  workflow_run:
+    workflows: [approve-media]
+    types: [completed]
+
+permissions:
+  contents: write # commits data/master + public/data to main
+  id-token: write # Workload Identity Federation
+
+concurrency:
+  group: data-rebuild-main
+  cancel-in-progress: false
+
+env:
+  SHEET_ID: ${{ inputs.sheet_id || '12MOXAOHwwtKa6DFVwbfRMj8UtaKmN1758boN1EUKNZs' }}
+
+jobs:
+  export:
+    # After approve-media only when it succeeded.
+    if: ${{ github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: "Check out main (full history: the build stamp reads git log)"
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Install
+        run: npm ci
+
+      - name: Authenticate to Google Cloud (Workload Identity Federation)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/spreadsheets.readonly
+
+      - name: Export the master sheet to data/master
+        id: export
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: node scripts/master/export.mjs --sheet-id "$SHEET_ID"
+
+      - name: Rebuild public/data and commit if anything changed
+        id: commit
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          # A changed export moves the build stamp to now; otherwise the stamp stays
+          # the date of the last source commit, so an unchanged run commits nothing.
+          if [ "${{ steps.export.outputs.changed }}" = "true" ]; then
+            SOURCE_DATE_EPOCH="$(date +%s)"
+            export SOURCE_DATE_EPOCH
+          fi
+          npm run build-courses
+          git add data/master public/data
+          if git diff --cached --quiet; then
+            echo "master-export: no change"
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "master: export and rebuild after ${GITHUB_SHA::7}"
+            echo "committed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push (pull --rebase, retry up to 3x)
+        if: ${{ steps.commit.outputs.committed == 'true' }}
+        run: bash scripts/ci/push-with-retry.sh origin main
+
+      - name: Summary
+        if: ${{ always() }}
+        run: |
+          {
+            echo "### master-export"
+            echo "sheet: \`${SHEET_ID}\`"
+            echo "export changed: ${{ steps.export.outputs.changed || 'n/a' }}"
+            echo "committed: ${{ steps.commit.outputs.committed || 'false' }}"
+          } >> "$GITHUB_STEP_SUMMARY"
