@@ -86699,5 +86699,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EEAKk7Kw9zOtQPsR8NBC_xkq4eCw90kp",
+    "drive_name": "បិដកលេខ២០-89 ទ្វេធាវិតក្កសូត្រ ការឧបមារបស់អវិជ្ជាដូចម្រឹគ.mp3",
+    "source_md5": "020522f6a57e38d0bdd905dc111f0cce",
+    "key": "audio/020522f6a57e38d0-a64.mp3",
+    "bytes": 56440206,
+    "duration_s": 7054,
+    "sha256": "cdb7abe4ebe876057045f2d0b489bf06250b7784b976546e307b2fe3e0116000",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.4,
+        "LRA": 0
+      },
+      "G": 10.3,
+      "limit": 0.6,
+      "depth": 11.336974992327129,
+      "busy": 5.343550673281361,
+      "out": {
+        "I": -18.2,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
