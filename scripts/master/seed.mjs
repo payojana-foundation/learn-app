@@ -375,6 +375,20 @@ export function listsTable(columns) {
 
 export class RefuseError extends Error {}
 
+/** A write failed part way: which tab, and the last row that was written (0 = none). */
+export class SheetWriteError extends Error {
+  constructor(tab, lastRow, cause) {
+    super(`write failed in tab ${tab}: last row written ${lastRow}: ${cause && cause.message ? cause.message : cause}`);
+    this.tab = tab;
+    this.lastRow = lastRow;
+    this.cause = cause;
+  }
+}
+
+export const SPARE_ROWS = 100;
+export const SPARE_COLUMNS = 5;
+export const WRITE_CHUNK = 1000;
+
 const SHEETS_BASE = 'https://sheets.googleapis.com/v4/spreadsheets';
 export const colLetter = (i) => { let s = ''; for (let n = i + 1; n > 0; n = Math.floor((n - 1) / 26)) s = String.fromCharCode(65 + ((n - 1) % 26)) + s; return s; };
 
@@ -431,11 +445,29 @@ export async function writeToSheet({ sheetId, token, saEmail, columns, rows, leg
   const lessonsId = id('Lessons');
   const coursesId = id('Courses');
 
-  const put = async (title, grid) => {
-    await api('POST', `/values/${enc(`${title}!A:ZZ`)}:clear`, {});
-    for (let i = 0; i < grid.length; i += 1000) {
-      const chunk = grid.slice(i, i + 1000);
-      await api('PUT', `/values/${enc(`${title}!A${i + 1}`)}?valueInputOption=RAW`, { range: `${title}!A${i + 1}`, majorDimension: 'ROWS', values: chunk });
+  // Resize the tab's grid first (a new tab is 1000 rows x 26-30 columns): header + all rows +
+  // spare rows, all columns + spare columns. Then clear and write in chunks. Any error stops
+  // the write and names the tab and the last row that was written.
+  const put = async (title, grid, { rowsTotal = grid.length } = {}) => {
+    let last = 0;
+    try {
+      const cols = Math.max(1, ...grid.map((r) => r.length));
+      await api('POST', ':batchUpdate', {
+        requests: [{
+          updateSheetProperties: {
+            properties: { sheetId: id(title), gridProperties: { rowCount: Math.max(rowsTotal, grid.length) + SPARE_ROWS, columnCount: cols + SPARE_COLUMNS } },
+            fields: 'gridProperties.rowCount,gridProperties.columnCount',
+          },
+        }],
+      });
+      await api('POST', `/values/${enc(`${title}!A:ZZ`)}:clear`, {});
+      for (let i = 0; i < grid.length; i += WRITE_CHUNK) {
+        const chunk = grid.slice(i, i + WRITE_CHUNK);
+        await api('PUT', `/values/${enc(`${title}!A${i + 1}`)}?valueInputOption=RAW`, { range: `${title}!A${i + 1}`, majorDimension: 'ROWS', values: chunk });
+        last = i + chunk.length;
+      }
+    } catch (e) {
+      throw new SheetWriteError(title, last, e);
     }
   };
   const keys = columns.columns.map((c) => c.key);
@@ -443,7 +475,7 @@ export async function writeToSheet({ sheetId, token, saEmail, columns, rows, leg
   await put('Lists', listsTable(columns));
   const courseKeys = columns.courses.columns.map((c) => c.key);
   await put('Courses', [courseKeys, ...courses.map((r) => courseKeys.map((k) => r[k] ?? ''))]);
-  await put('Lessons', [keys]); // header only for now
+  await put('Lessons', [keys], { rowsTotal: rows.length + 1 }); // header only for now, grid sized for all rows
   log('tabs written: Legacy, Lists, Courses, Lessons header');
 
   // freeze + dropdowns + protected ranges (service account only), for Lessons and Courses

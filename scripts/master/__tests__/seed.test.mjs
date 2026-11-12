@@ -3,7 +3,7 @@ import { LABELS } from '../../catalogue/sheets-map.mjs';
 import { HIDDEN_TABS } from '../../catalogue/catalogue-build.mjs';
 import {
   buildMaster, buildCourses, coursesCsv, acastEmbedUrl, acastEpisodeId, loadColumns, masterCsv, legacyCsv, excludedCsv, rawLink, minicourseDecision, scanMiniCourse,
-  writeToSheet, RefuseError, DETAILS_LABEL, YOUTUBE_EXTRA_LABEL,
+  writeToSheet, RefuseError, SheetWriteError, DETAILS_LABEL, YOUTUBE_EXTRA_LABEL,
 } from '../seed.mjs';
 import { parseCsvObjects } from '../csv.mjs';
 
@@ -204,24 +204,46 @@ describe('PART 2 seed: dry-run CSV', () => {
 
 // ── write mode, with a fake Sheets API ────────────────────────────────────────
 
-function fakeSheets({ lessonsData = false, existing = ['Lessons'] } = {}) {
+// A fake Sheets API that ENFORCES the grid: a new tab is 1000 rows x 30 columns; a values write
+// outside the grid is a 400 (the real error: "Range (Lessons!A1001) exceeds grid limits.
+// Max rows: 1000, max columns: 30"). `ignoreResize` makes the fake drop resize requests.
+function fakeSheets({ lessonsData = false, existing = ['Lessons'], ignoreResize = false } = {}) {
   const calls = [];
-  let titles = [...existing];
+  const titles = [...existing];
+  const grid = new Map(titles.map((t) => [t, { rows: 1000, cols: 30 }]));
   const sheetsMeta = () => ({ sheets: titles.map((t, i) => ({ properties: { sheetId: 100 + i, title: t }, protectedRanges: t === 'Lessons' ? [{ protectedRangeId: 7 }] : [] })) });
   const fetchFn = async (u, init) => {
     const path = u.replace('https://sheets.googleapis.com/v4/spreadsheets/SHEETID', '');
     const body = init.body ? JSON.parse(init.body) : undefined;
     calls.push({ method: init.method, path: decodeURIComponent(path), body, auth: init.headers.Authorization });
     const ok = (o) => ({ ok: true, status: 200, text: async () => JSON.stringify(o) });
+    const bad = (m) => ({ ok: false, status: 400, text: async () => m });
     if (init.method === 'GET' && path.startsWith('?fields')) return ok(sheetsMeta());
     if (init.method === 'GET' && path.includes('/values/')) return ok(lessonsData ? { values: [['M00001', 'x']] } : {});
     if (path === ':batchUpdate') {
-      for (const r of body.requests) if (r.addSheet) titles.push(r.addSheet.properties.title);
+      for (const r of body.requests) {
+        if (r.addSheet) { titles.push(r.addSheet.properties.title); grid.set(r.addSheet.properties.title, { rows: 1000, cols: 30 }); }
+        const gp = r.updateSheetProperties && r.updateSheetProperties.properties.gridProperties;
+        if (gp && (gp.rowCount || gp.columnCount) && !ignoreResize) {
+          const t = titles[r.updateSheetProperties.properties.sheetId - 100];
+          if (gp.rowCount) grid.get(t).rows = gp.rowCount;
+          if (gp.columnCount) grid.get(t).cols = gp.columnCount;
+        }
+      }
       return ok({});
+    }
+    if (init.method === 'PUT' && path.includes('/values/')) {
+      const m = /\/values\/([^!]+)!A(\d+)/.exec(decodeURIComponent(path));
+      const g = grid.get(m[1]);
+      const lastRow = Number(m[2]) + body.values.length - 1;
+      const width = Math.max(...body.values.map((r) => r.length));
+      if (lastRow > g.rows || width > g.cols) {
+        return bad(`Range (${m[1]}!A${m[2]}) exceeds grid limits. Max rows: ${g.rows}, max columns: ${g.cols}`);
+      }
     }
     return ok({});
   };
-  return { fetchFn, calls };
+  return { fetchFn, calls, grid };
 }
 const smallCourses = () => buildCourses(small().rows);
 const small = () => one([{ num: '1', title: 'A', code: 'CODE0001', mp3: url('A') }, { num: '2', title: 'B', code: 'CODE0002', mp3: url('B') }]);
@@ -276,7 +298,8 @@ describe('PART 2 seed: write mode (fake Sheets API)', () => {
     expect(calls.every((c) => c.auth === 'Bearer tok')).toBe(true);
     const add = calls.find((c) => c.path === ':batchUpdate' && c.body.requests.some((x) => x.addSheet));
     expect(add.body.requests.map((x) => x.addSheet.properties.title)).toEqual(['Legacy', 'Lists', 'Courses']);
-    const fmt = calls.filter((c) => c.path === ':batchUpdate').pop().body.requests;
+    const fmtCall = calls.filter((c) => c.path === ':batchUpdate' && c.body.requests.some((x) => x.addProtectedRange)).pop();
+    const fmt = fmtCall.body.requests;
     expect(fmt.some((x) => x.deleteProtectedRange)).toBe(true); // an earlier attempt's ranges are replaced
     expect(fmt.some((x) => x.updateSheetProperties && x.updateSheetProperties.properties.gridProperties.frozenRowCount === 1)).toBe(true);
     const dd = fmt.filter((x) => x.setDataValidation);
@@ -298,7 +321,7 @@ describe('PART 2 seed: write mode (fake Sheets API)', () => {
     expect(puts[puts.length - 1].body.values.length).toBe(3); // header + 2 rows
     const lessonsHeaderOnly = puts.find((c) => c.path.includes('Lessons!A1') && c.body.values.length === 1);
     expect(lessonsHeaderOnly).toBeTruthy();
-    expect(calls.findIndex((c) => c === lessonsHeaderOnly)).toBeLessThan(calls.findIndex((c) => c === calls.filter((x) => x.path === ':batchUpdate').pop()));
+    expect(calls.findIndex((c) => c === lessonsHeaderOnly)).toBeLessThan(calls.findIndex((c) => c === fmtCall));
     expect(puts.every((c) => c.path.includes('valueInputOption=RAW'))).toBe(true);
   });
   it('needs a sheet id, a token and the service account address', async () => {
@@ -307,6 +330,56 @@ describe('PART 2 seed: write mode (fake Sheets API)', () => {
     await expect(writeToSheet({ sheetId: '', token: 't', saEmail: 'a', columns, rows, legacy, fetchFn })).rejects.toThrow(/sheet id/);
     await expect(writeToSheet({ sheetId: 'S', token: '', saEmail: 'a', columns, rows, legacy, fetchFn })).rejects.toThrow(/ACCESS_TOKEN/);
     await expect(writeToSheet({ sheetId: 'S', token: 't', saEmail: '', columns, rows, legacy, fetchFn })).rejects.toThrow(/SA_EMAIL/);
+  });
+  it('PART 7: the full seed (4852 Lessons rows, 1028 Legacy, 86 Courses) passes on a 1000 x 30 grid', async () => {
+    const base = small().rows[0];
+    const rows = Array.from({ length: 4852 }, (_, i) => ({ ...base, row_key: `M${String(i + 1).padStart(5, '0')}` }));
+    const legacy = Array.from({ length: 1028 }, (_, i) => ({ row_key: 'M00001', source_file: F1, source_tab: 'T1', source_row: String(i), label: 'L', value: 'v' }));
+    const courses = Array.from({ length: 86 }, (_, i) => ({ course_id: `c${i}`, course_title_km: 't', teacher: 'x', lesson_count: '1', course_status: '' }));
+    const { fetchFn, calls, grid } = fakeSheets({ existing: ['Lessons'] });
+    const r = await writeToSheet({ sheetId: 'SHEETID', token: 'tok', saEmail: 'sa@x', columns, rows, legacy, courses, fetchFn });
+    expect(r).toEqual({ rows: 4852, legacy: 1028, courses: 86 });
+    // grid = header + all rows + 100 spare rows, all columns + 5 spare columns
+    expect(grid.get('Lessons')).toEqual({ rows: 4853 + 100, cols: KEYS.length + 5 });
+    expect(grid.get('Legacy')).toEqual({ rows: 1029 + 100, cols: columns.legacy.columns.length + 5 });
+    expect(grid.get('Courses')).toEqual({ rows: 87 + 100, cols: columns.courses.columns.length + 5 });
+    // the resize comes BEFORE the first values write of each tab
+    for (const t of ['Lessons', 'Legacy', 'Courses', 'Lists']) {
+      const resize = calls.findIndex((c) => c.path === ':batchUpdate' && c.body.requests.some((x) => x.updateSheetProperties && x.updateSheetProperties.properties.gridProperties.rowCount));
+      const firstPut = calls.findIndex((c) => c.method === 'PUT' && c.path.includes(`/values/${t}!`));
+      expect(resize).toBeGreaterThanOrEqual(0);
+      expect(firstPut).toBeGreaterThan(resize);
+    }
+    // chunked: the last Lessons write starts at A4001 and carries rows 4001..4853
+    const lessonsPuts = calls.filter((c) => c.method === 'PUT' && c.path.includes('/values/Lessons!'));
+    expect(lessonsPuts.map((c) => c.path.match(/A(\d+)/)[1])).toEqual(['1', '1', '1001', '2001', '3001', '4001']);
+    expect(lessonsPuts.at(-1).body.values.length).toBe(853);
+  });
+  it('PART 7: without the resize the same seed fails, and the error names the tab and the last row written', async () => {
+    const base = small().rows[0];
+    const rows = Array.from({ length: 1500 }, (_, i) => ({ ...base, row_key: `M${i}` }));
+    const legacy = Array.from({ length: 1200 }, (_, i) => ({ row_key: 'M1', source_file: F1, source_tab: 'T1', source_row: String(i), label: 'L', value: 'v' }));
+    const { fetchFn } = fakeSheets({ existing: ['Lessons'], ignoreResize: true });
+    const err = await writeToSheet({ sheetId: 'SHEETID', token: 'tok', saEmail: 'sa@x', columns, rows, legacy, courses: [], fetchFn }).catch((e) => e);
+    expect(err).toBeInstanceOf(SheetWriteError);
+    expect(err.tab).toBe('Legacy');
+    expect(err.lastRow).toBe(1000); // the first chunk went in, the second (A1001) was refused
+    expect(err.message).toContain('tab Legacy');
+    expect(err.message).toContain('last row written 1000');
+    expect(err.message).toContain('exceeds grid limits');
+  });
+  it('PART 7: a failure in a later tab is reported with that tab; the refuse guard still comes first', async () => {
+    const { rows, legacy } = small();
+    const flaky = fakeSheets({ existing: ['Lessons'] });
+    const orig = flaky.fetchFn;
+    const fetchFn = async (u, init) => (init.method === 'PUT' && decodeURIComponent(u).includes('/values/Courses!') ? { ok: false, status: 500, text: async () => 'boom' } : orig(u, init));
+    const err = await writeToSheet({ sheetId: 'SHEETID', token: 'tok', saEmail: 'sa@x', columns, rows, legacy, courses: buildCourses(rows), fetchFn }).catch((e) => e);
+    expect(err).toBeInstanceOf(SheetWriteError);
+    expect([err.tab, err.lastRow]).toEqual(['Courses', 0]);
+    // existing data: still REFUSED before any resize or write
+    const guard = fakeSheets({ lessonsData: true });
+    await expect(writeToSheet({ sheetId: 'SHEETID', token: 'tok', saEmail: 'sa@x', columns, rows, legacy, fetchFn: guard.fetchFn })).rejects.toBeInstanceOf(RefuseError);
+    expect(guard.calls.every((c) => c.method === 'GET')).toBe(true);
   });
   it('dry mode makes no network call (buildMaster/masterCsv are pure)', () => {
     const real = globalThis.fetch;
