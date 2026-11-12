@@ -86583,5 +86583,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11mjbVrBakHqJ93xpOEEG8xlTpxWfnJBN",
+    "drive_name": "បិដកលេខ២០-85 បញ្ចប់ចេតោខីលសូត្រ អង្គ ១៥ នៃការផ្តាច់ចំណងរបស់ចិត្ត.mp3",
+    "source_md5": "98a04230b82aba278038ca39afabdc47",
+    "key": "audio/98a04230b82aba27-a64.mp3",
+    "bytes": 55938446,
+    "duration_s": 6992,
+    "sha256": "7572dce7885a99e53d6dc6c7bcdd123ae063677c42582c38360d5bcdb1b563ce",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -4.3,
+        "LRA": 0
+      },
+      "G": 10.8,
+      "limit": 0.6,
+      "depth": 10.936974992327128,
+      "busy": 6.996674890056848,
+      "out": {
+        "I": -18.2,
+        "TP": -3.5,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
