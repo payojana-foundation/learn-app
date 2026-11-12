@@ -1,7 +1,7 @@
 # c057 approve list, run review 2026-11-11
 # teacher: លោកម្ចាស់គ្រូ មុនីចរិយាវង្ស ហ៊ុន ខេមរា
 # course: 1-បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត
-# queued 51 · converted 51 · approved 0 · failed 0
+# queued 51 · converted 51 · approved 0 · failed 0 · not started 0
 # play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	APSYHK0010001	1yfHeRNiqbnKdycoNz-u1x5w1LvVdFX9A	DRAFT	52.7	-18.1	ok	https://media.84000.digital/audio/5192b03677cc6dba-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ០១
@@ -56,5 +56,5 @@
 52	APSYHK0010052	1oQYmfwjjfucmM6izwIQ4GPu4krNqZKoH	DRAFT	50.5	-18.1	ok	https://media.84000.digital/audio/95462d10129e15e6-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៥២
 53	APSYHK0010053	1aJQgc9NgzWkbylWbKAC1BAXyojP7vMHO	DRAFT	42.9	-18.2	ok	https://media.84000.digital/audio/3656dcf2acb3709d-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ៥៣
 
-# approve-media drive_file_ids (DRAFT lessons only), comma separated:
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
 1yfHeRNiqbnKdycoNz-u1x5w1LvVdFX9A,1nDA-Is5zNBZH3d1DVvShGQ_AVBMiL3-U,1-H4NmzFk5ol53sEV8NyCvgY12ERd-eA6,1JdxK8AAD8o3ZXum-Lo7oJUgO9QY_HoR8,1Tpbeivx1KQkBebWz-eDnigUpYShdtPMM,1MDZstWWMzhPI3TVae_U4QX5a6x1Rszlt,1TjU50X3-PV92NEmbhxp4t5R0xSPdNUUI,1DItIfDjkpu1i43EB3eVrdBgtTHbzRFW7,14KVgyK-5OXjqzzkXEoit8I-EQ-C0B9nU,19WLIhCOKypBzm5ZA9VLMfFU48n2L3OBm,1CjqujHgWRzhwW8jGaGXBDWAsGJ6_Pm-0,1kUs9hT3qU4sRzGFFYJUd0O9csR5QGAhX,1aw1FlSbJ23TBIR1vsSad18JlVWyGOP5K,1-29W9tXriNVJHLTFxBmgqzcFC_9mVGiD,15tQJAHnY3keqNWNkprwYZBi3xkdKk8Pn,15F3b77U9cVPD8Cs-CcY1OEAv6n19UdhT,1jqiK8N95wqY2hbT5TzHdbZUen8CxLInR,1b_5PGIIvBySLh_03MukufTW8AEIsglNf,1d_GR-ADqUW9M9ZkvtDnbrFTmjnxiO8K6,1-ZT2gvH97Gqeg5UaO_AOAyD3DXgpqmvq,1yzrAoRY8GfHfZFL5A_oIX3HfV8oZ9UIj,1CM8b_65B1ooGEeLmrVu6a9vCIO7Dr5im,1iN5R_VyEFoPayR9v6y6k3RdIdtZlqlD_,1U_3kGPdo7SN82hzvE06SyZM8NDvCs6l_,1QrDVEYCQEbK3WxQUneyM1-klvSN4ZIAa,1zcjR829AxabfOHcJq61RK68bdQ-ddmDc,1FECYVAgiccC_PTiG0Q1drvKWmgv6_QLJ,1on-xqxsv_sll6jLDW_WjiSFZtQkIbuqK,1FTjVnhAxZFKfG-nldW8NAqKUVej7IyYH,1DtfjGU5VhonIzL3kW24JVNL-w4RyPoL0,1H7cpzB_q4D88AwAUBIo2dRnIxUZvHpvu,19mhv9C6cB4F-tscw96vrs8m2mQUKotCX,1V-wM9q48iuAQSt2DPUhlq14PqsJRbFJy,1-Zw4ds7tcnnLyZeRHO7qaho2KzG4flA2,1bsPvr64dy8uc672WxIL0JNNjcZOLj_7R,1KUU-k4ipquWGrPTQWrnvnwK62BZBbmpF,17y1dnKzpk-3dt_EZsHXeJifIcWlalIwr,112QhTbpXOTqN1XfyFI0kZy7v9QxXzntc,1EW38NHc3R37v-NQEWMhgwb-CTpPRR8lm,1jhWrgK9h_d6Ngc_KzEPzL9j2xt1grtED,19oUScV7KBsZkzAT0WcD8_fuIAXy_pab0,1MQsb7nGfHiFnj_UOMjmV1WKWtG6aZFp8,14IfB7fsXrZfqBWzKLyxx_-31vBU0wjw4,1wIyWhLtpiZbDvOA_3wkvsCUuOm8SvZE6,1v_2M0imH9-fX6JxMCSsrUPmGEso3LbPb,1XUIC_oAVfT7bMj2kRxbLE8-YgbLwz5_F,1p_wSqEAsENWeKoh7wFlJTAEMDLMVBKG9,1HQuc0T4w1Bo4U00dz761duvyKyKjevFO,1-z3ASb3uYnOKrRyOlB0PAD814zIVP2YV,1oQYmfwjjfucmM6izwIQ4GPu4krNqZKoH,1aJQgc9NgzWkbylWbKAC1BAXyojP7vMHO

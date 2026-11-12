@@ -1,0 +1,41 @@
+# c026 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ ធម្មសេនា ហាក់ សៀងហៃ
+# course: 2-Dhamma in English(វគ្គ ២)
+# queued 33 · converted 32 · approved 0 · failed 0 · not started 1
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	AENGHS0000201	1stfcGKfyEwhkl-3tXmensYyYpQl4TZ78	DRAFT	11.2	-18.6	cap	https://media.84000.digital/audio/c22a3bfc4f958b94-a64.mp3	001.Buddhism in English for Beginners
+2	AENGHS0000202	1hlYRZ_O_Shqro0CcF-1f61ccNXuFHTQk	DRAFT	25.1	-18.7	cap	https://media.84000.digital/audio/29f750df898aeb2a-a64.mp3	002.Buddhism in English for Beginners
+4	AENGHS0000204	1GvzQ-irk_uUk-FH1HYgng8fAVtY_yzRQ	DRAFT	38.6	-18.2	ok	https://media.84000.digital/audio/f7c035cdaf25e3ab-a64.mp3	004.Buddhism in English for Beginners
+5	AENGHS0000205	1Jb0sN_HwhSXmzlNDiY6lD5MwHUfAJvLC	DRAFT	37.4	-18.2	ok	https://media.84000.digital/audio/4104b112d25eef8e-a64.mp3	005.Buddhism in English for Beginners
+6	AENGHS0000206	1BVhGanE846j1XOcZZTAwo_fpS8mItbWv	DRAFT	28.5	-19	cap	https://media.84000.digital/audio/8adbc048dfb14274-a64.mp3	006.Buddhism in English for Beginners
+7	AENGHS0000207	1nYVC4Aia1t0-o2g7CzeIuacBBXIiclnI	DRAFT	39.4	-18.2	ok	https://media.84000.digital/audio/fc142fea43e241c0-a64.mp3	007.Buddhism in English for Beginners
+8	AENGHS0000208	16w8ZYgQQVwsmr0R8cbRaIcy_j4GeCWNK	DRAFT	27.8	-18.1	ok	https://media.84000.digital/audio/a0de477a0cbe6d5a-a64.mp3	008.Buddhism in English for Beginners
+9	AENGHS0000209	1_6BQJ5nGXQn7bnTWmwjjOfdn6nBbvs_Y	DRAFT	31.5	-18.2	ok	https://media.84000.digital/audio/4b0cde98882a777d-a64.mp3	009.Buddhism in English for Beginners
+10	AENGHS0000210	11BN0FG0JIgz_1192IwAvNynYNQJ6Vow5	DRAFT	32.8	-18.1	ok	https://media.84000.digital/audio/0356bdd64ab4c43a-a64.mp3	010.Buddhism in English for Beginners
+11	AENGHS0000211	1uB6zYIttK6TdilWcyYlDKkzVOCOjDtbi	DRAFT	36.6	-18.2	ok	https://media.84000.digital/audio/f3bc3f57f7ac945f-a64.mp3	011.Buddhism in English for Beginners
+12	AENGHS0000212	1vhm6p3DQuJjIJMA7qAdw27OmH_Qjwnnt	DRAFT	27.1	-18.2	ok	https://media.84000.digital/audio/75811ecc14a6a2e6-a64.mp3	012.Buddhism in English for Beginners
+13	AENGHS0000213	1-rM8bSXhZGQyVhPdcfKdv-gqq0xnhdCK	DRAFT	29.1	-18.3	ok	https://media.84000.digital/audio/020980f5cbd6d3b2-a64.mp3	013.Buddhism in English for Beginners
+14	AENGHS0000214	16kzSBePt5SBKjHCqLakDGR5vd2xbA3DI	DRAFT	25.4	-18.2	ok	https://media.84000.digital/audio/362ccfe837524702-a64.mp3	014.Buddhism in English for Beginners
+15	AENGHS0000215	1QltCJfvjXvIq3gC3CUlJvPUHUiaOqg7c	DRAFT	19.5	-18.2	ok	https://media.84000.digital/audio/9e296bdfa3fe5056-a64.mp3	015.Buddhism in English for Beginners
+16	AENGHS0000216	1KyVpuQf9f1_jjXSX--JP1L-TvZBgfk-E	DRAFT	27.1	-18.9	cap	https://media.84000.digital/audio/3b844806297ff6ff-a64.mp3	016.Buddhism in English for Beginners
+17	AENGHS0000217	1rV9P5A5y91ZRPU1kNGo00OCzsM0Y_mvk	DRAFT	24.2	-18.2	ok	https://media.84000.digital/audio/050feea2253cbffa-a64.mp3	017.Buddhism in English for Beginners
+18	AENGHS0000218	1q4NsOnqd-CdwiolEiIMbMF4K8GmncOGN	DRAFT	21.9	-18.2	ok	https://media.84000.digital/audio/2d4c8e51600911b2-a64.mp3	018.Buddhism in English for Beginners
+19	AENGHS0000219	1UL4y6E2f6QU_t-9fDOsBovWSdZkCIZKt	DRAFT	20.2	-18.2	ok	https://media.84000.digital/audio/50e153cc24aad9d1-a64.mp3	019.Buddhism in English for Beginners
+20	AENGHS0000220	1gecwjMWxkKHy9BjsA2iaGc_roALgQMDY	DRAFT	14.4	-18.2	ok	https://media.84000.digital/audio/39b9119d06902c47-a64.mp3	020.Buddhism in English for Beginners
+21	AENGHS0000221	1A_VKiWHOIy2rLg_n2Edn3DyewtaXQLH7	DRAFT	14.7	-18.1	ok	https://media.84000.digital/audio/f2cfc4ed57f5a0ce-a64.mp3	021.Buddhism in English for Beginners
+22	AENGHS0000222	14HNEWIN1QLp4Gb3GhRK8P1TYOf7JtaAq	DRAFT	12.9	-18.2	ok	https://media.84000.digital/audio/19ec373d97637e9a-a64.mp3	022.Buddhism in English for Beginners
+23	AENGHS0000223	10vt7LaI26FfGp5lrCZOgH8GpJibATR3h	DRAFT	19.8	-18.1	ok	https://media.84000.digital/audio/fb964448adb04f7e-a64.mp3	023.Buddhism in English for Beginners
+24	AENGHS0000224	1kdbS8JbIlIfIH7V3qa3htnxh9qnl_O-1	DRAFT	25.1	-18.2	ok	https://media.84000.digital/audio/ec1a02a7002a8253-a64.mp3	024.Buddhism in English for Beginners
+25	AENGHS0000225	1UpuUPLS6xEVcNfLfniyLc7T1V276LjrU	DRAFT	14.5	-18.2	ok	https://media.84000.digital/audio/1ee392e9dc873dd3-a64.mp3	025.Buddhism in English for Beginners
+26	AENGHS0000226	1EbGLXsv-VCVlgjs4c8HHAYdajM-p_tCw	DRAFT	31.5	-18.1	ok	https://media.84000.digital/audio/01a0325b66fc6460-a64.mp3	026.Buddhism in English for Beginners
+27	AENGHS0000227	1ewJcum_qCLnkkXYqW9skCWqe8bSmvS-A	DRAFT	19.3	-18.2	ok	https://media.84000.digital/audio/80e8cb8c9b335025-a64.mp3	027.Buddhism in English for Beginners
+28	AENGHS0000228	1OT4g7qIqK5X36GDem1qEPd2Mc2pBr4zG	DRAFT	17.3	-18.1	ok	https://media.84000.digital/audio/15afa35b5cfba233-a64.mp3	028.Buddhism in English for Beginners
+29	AENGHS0000229	154NCy3jyr7EVdS8BexWgo_gvZ1ncj-ke	DRAFT	17.1	-18.2	ok	https://media.84000.digital/audio/113b165a3be2be98-a64.mp3	029.Buddhism in English for Beginners
+30	AENGHS0000230	1UN-ZfwxC27dYPtAC6VCUC6q80YoRP6mx	DRAFT	15.8	-18.2	ok	https://media.84000.digital/audio/10ba8f24299aa6bf-a64.mp3	030.Buddhism in English for Beginners
+31	AENGHS0000231	1mlSzbx1jgKX7lI-JOFjUvoljKlJ0Q4GK	DRAFT	16.5	-18.2	ok	https://media.84000.digital/audio/4cef55ecc527880e-a64.mp3	031.Buddhism in English for Beginners
+32	AENGHS0000232	1BOkCDO6jGNifWK8DHfU3BmkaPoBvIVao	DRAFT	14.5	-18.2	ok	https://media.84000.digital/audio/77f573ec9fd9934a-a64.mp3	032.Buddhism in English for Beginners
+33	AENGHS0000233	1F_-7R9o-a7BxePpBsdhjL7FDZ-qB1SHP	DRAFT	13.0	-18.2	ok	https://media.84000.digital/audio/f087cc3cb73dbc3b-a64.mp3	033.Buddhism in English for Beginners
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1stfcGKfyEwhkl-3tXmensYyYpQl4TZ78,1hlYRZ_O_Shqro0CcF-1f61ccNXuFHTQk,1GvzQ-irk_uUk-FH1HYgng8fAVtY_yzRQ,1Jb0sN_HwhSXmzlNDiY6lD5MwHUfAJvLC,1BVhGanE846j1XOcZZTAwo_fpS8mItbWv,1nYVC4Aia1t0-o2g7CzeIuacBBXIiclnI,16w8ZYgQQVwsmr0R8cbRaIcy_j4GeCWNK,1_6BQJ5nGXQn7bnTWmwjjOfdn6nBbvs_Y,11BN0FG0JIgz_1192IwAvNynYNQJ6Vow5,1uB6zYIttK6TdilWcyYlDKkzVOCOjDtbi,1vhm6p3DQuJjIJMA7qAdw27OmH_Qjwnnt,1-rM8bSXhZGQyVhPdcfKdv-gqq0xnhdCK,16kzSBePt5SBKjHCqLakDGR5vd2xbA3DI,1QltCJfvjXvIq3gC3CUlJvPUHUiaOqg7c,1KyVpuQf9f1_jjXSX--JP1L-TvZBgfk-E,1rV9P5A5y91ZRPU1kNGo00OCzsM0Y_mvk,1q4NsOnqd-CdwiolEiIMbMF4K8GmncOGN,1UL4y6E2f6QU_t-9fDOsBovWSdZkCIZKt,1gecwjMWxkKHy9BjsA2iaGc_roALgQMDY,1A_VKiWHOIy2rLg_n2Edn3DyewtaXQLH7,14HNEWIN1QLp4Gb3GhRK8P1TYOf7JtaAq,10vt7LaI26FfGp5lrCZOgH8GpJibATR3h,1kdbS8JbIlIfIH7V3qa3htnxh9qnl_O-1,1UpuUPLS6xEVcNfLfniyLc7T1V276LjrU,1EbGLXsv-VCVlgjs4c8HHAYdajM-p_tCw,1ewJcum_qCLnkkXYqW9skCWqe8bSmvS-A,1OT4g7qIqK5X36GDem1qEPd2Mc2pBr4zG,154NCy3jyr7EVdS8BexWgo_gvZ1ncj-ke,1UN-ZfwxC27dYPtAC6VCUC6q80YoRP6mx,1mlSzbx1jgKX7lI-JOFjUvoljKlJ0Q4GK,1BOkCDO6jGNifWK8DHfU3BmkaPoBvIVao,1F_-7R9o-a7BxePpBsdhjL7FDZ-qB1SHP

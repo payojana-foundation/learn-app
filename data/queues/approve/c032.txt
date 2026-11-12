@@ -1,0 +1,28 @@
+# c032 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
+# course: ព្រះត្រៃបិដកបាលីភាគ១៦
+# queued 23 · converted 19 · approved 0 · failed 0 · not started 4
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	ASUT016YY0001	162eEDRK6aKKkKGKWPJuuCCgm9yQvUfL8	DRAFT	93.6	-18.1	ok	https://media.84000.digital/audio/9c71181d1b638796-a64.mp3	បិដកលេខ១៦ 01 មហាបទានសូត្រ របៀបអានព្រះត្រ័យបិដក ប្រវត្តិព្រះអដ្ឋកថា (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+2	ASUT016YY0002	1IViUcmoIOwTRYhTipacaFFUmzp5DzcxM	DRAFT	84.7	-18.1	ok	https://media.84000.digital/audio/08dc7ee3249ad3cf-a64.mp3	បិដកលេខ១៦ 02 បុព្វេនិវាសរបស់ព្រះពុទ្ធ (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+5	ASUT016YY0005	14-hGbWUlO5Ptv1nXPAGx5ItoQUxXz88p	DRAFT	28.2	-18	ok	https://media.84000.digital/audio/6d990d0321f02235-a64.mp3	បិដកលេខ១៦ 05 មហាបទានសូត្រ ធម្មតារបស់ព្រះពោធិសត្វចាប់បដិសន្ធិនិងប្រសូត្រ (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+6	ASUT016YY0006	10woaSVbYNNLNHzOQxou58CAPltJMFdZF	DRAFT	83.0	-18	ok	https://media.84000.digital/audio/c93214bea8376b1e-a64.mp3	បិដកលេខ១៦ 06 ធម្មទំនៀមពេលព្រះពោធិសត្វប្រសូត្រ (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+7	ASUT016YY0007	1KMr4_2EBj8UxDw88M_iVsAcTZQ3OMeoo	DRAFT	85.5	-18	ok	https://media.84000.digital/audio/0fdd65293a5eec61-a64.mp3	បិដកលេខ១៦ 07 មហាបុរិសលក្ខណៈ៣២ ប្រការ (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+8	ASUT016YY0008	1dmnrBIWE8jAupS1iZoLCxsWg7oSy2B1K	DRAFT	82.2	-18	ok	https://media.84000.digital/audio/65e81f78916767db-a64.mp3	បិដកលេខ១៦ 08 ការឃើញទេវទូតរបស់ព្រះពោធិសត្វមុនចេញបួស (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+9	ASUT016YY0009	1XtLpQjMsDMMla85ndUp4_33u1pYnMSmv	DRAFT	87.0	-18	ok	https://media.84000.digital/audio/f071ece3d01b9415-a64.mp3	បិដកលេខ១៦ 09 ព្រះអានន្ទទូលសួរបដិច្ចសមុប្បាទ (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+10	ASUT016YY0010	1_44pqxHXD4lMMSkyT76huZ-QUhEvSn4C	DRAFT	78.9	-18	ok	https://media.84000.digital/audio/f43d678b6f27f4ec-a64.mp3	បិដកលេខ១៦ ១០ ពន្យល់ការសម្តែងឱវាទបាតិមោក្ខ (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+11	ASUT016YY0011	1osPWSGy4rmjcaq8oE-_WTSW_yRlPT1y0	DRAFT	53.9	-18	ok	https://media.84000.digital/audio/d03708339c157cba-a64.mp3	បិដកលេខ១៦ 11 ពន្យល់បដិច្ចសមុប្បាទអាការ ១២​  (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+12	ASUT016YY0012	1mzNOXwbl6f3vo6-mpGOap73VNQep-89D	DRAFT	80.6	-18	ok	https://media.84000.digital/audio/c298412386e02736-a64.mp3	បិដកលេខ១៦ 12 ការបញ្ញត្តថាមានខ្លួន ដោយហេតុអ្វីខ្លះ  (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+13	ASUT016YY0013	1Mp_7HmYAv5H9L3F4zCpqYIsVW3FJyb76	DRAFT	85.2	-18	ok	https://media.84000.digital/audio/0d5c5ba6de0c63a7-a64.mp3	បិដកលេខ១៦ 13 ការមិនបញ្ញត្តិវេទនាថាជាខ្លួន (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+14	ASUT016YY0014	1rU0Np04TI1c-xDb0M25w9RmS1G9uJTSq	DRAFT	85.3	-18	ok	https://media.84000.digital/audio/625b999b675fc25f-a64.mp3	បិដកលេខ១៦ 14 ការព្រមព្រៀងគ្នាអ្នកដែនវជ្ជី មហាបរិនិព្វានសូត្រ  (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+15	ASUT016YY0015	1t73FGofDPxZsbDe_ui5RO6ClAA9tAXUn	DRAFT	84.3	-18	ok	https://media.84000.digital/audio/2acec6db17424c5e-a64.mp3	បិដកលេខ១៦ 15 ព្រះពុទ្ធជិតដាក់ព្រះជន្មាយុសង្ខារ ទៅកាន់ក្រុងវេសាលី  (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+16	ASUT016YY0016	1wJdR5nCUUp7wAPH015th7T7zsH-NS4ix	DRAFT	87.8	-18.6	cap	https://media.84000.digital/audio/ffacd00470448efc-a64.mp3	បិដកលេខ១៦ 16 ព្រះពុទ្ធជិតដាក់ព្រះជន្មាយុសង្ខារទៅកាន់ក្រុងវេសាលី (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+17	ASUT016YY0017	1W2RbeoHbxTiMEYnHrSENNnUeq9EPl6qR	DRAFT	80.7	-18	ok	https://media.84000.digital/audio/6032f725242765e0-a64.mp3	បិដកលេខ១៦ 17 ការកម្រើកផែនដីដោយហេតុ ៨ យ៉ាង (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+18	ASUT016YY0018	1LrSTss9HuVuvRd-cJPZLFlktdZ4Rh6LE	DRAFT	89.5	-18	ok	https://media.84000.digital/audio/1b21f33339a3471d-a64.mp3	បិដកលេខ១៦ 18 សម្តែងពីមហាបទេស ៤ យ៉ាង (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+19	ASUT016YY0019	1NbteDNJTTqiuisJzcEarnGS5sdDLFGAE	DRAFT	87.3	-18	ok	https://media.84000.digital/audio/459b008eb60acff3-a64.mp3	បិដកលេខ១៦ 19 ទទួលចង្ហាន់នាយចុន្ទហើយអាពាធកាន់តែខ្លាំង (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+20	ASUT016YY0020	1t80tBbhAsOyF5hAvTALRysNyzp6WI_5-	DRAFT	87.0	-18	ok	https://media.84000.digital/audio/f4cde4669bff09ad-a64.mp3	បិដកលេខ១៦ 20 ព្រះពុទ្ធសម្តែងបុគ្គលគួរដល់ស្តូប ៤ យ៉ាង (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+22	ASUT016YY0022	1PQY1azm1NNDzoUwISTJ9vEzgreZ7FvE6	DRAFT	89.5	-18.7	cap	https://media.84000.digital/audio/fddef09745419916-a64.mp3	បិដកលេខ១៦ 22 ការបូជាព្រះសពនៃព្រះពុទ្ធ (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+162eEDRK6aKKkKGKWPJuuCCgm9yQvUfL8,1IViUcmoIOwTRYhTipacaFFUmzp5DzcxM,14-hGbWUlO5Ptv1nXPAGx5ItoQUxXz88p,10woaSVbYNNLNHzOQxou58CAPltJMFdZF,1KMr4_2EBj8UxDw88M_iVsAcTZQ3OMeoo,1dmnrBIWE8jAupS1iZoLCxsWg7oSy2B1K,1XtLpQjMsDMMla85ndUp4_33u1pYnMSmv,1_44pqxHXD4lMMSkyT76huZ-QUhEvSn4C,1osPWSGy4rmjcaq8oE-_WTSW_yRlPT1y0,1mzNOXwbl6f3vo6-mpGOap73VNQep-89D,1Mp_7HmYAv5H9L3F4zCpqYIsVW3FJyb76,1rU0Np04TI1c-xDb0M25w9RmS1G9uJTSq,1t73FGofDPxZsbDe_ui5RO6ClAA9tAXUn,1wJdR5nCUUp7wAPH015th7T7zsH-NS4ix,1W2RbeoHbxTiMEYnHrSENNnUeq9EPl6qR,1LrSTss9HuVuvRd-cJPZLFlktdZ4Rh6LE,1NbteDNJTTqiuisJzcEarnGS5sdDLFGAE,1t80tBbhAsOyF5hAvTALRysNyzp6WI_5-,1PQY1azm1NNDzoUwISTJ9vEzgreZ7FvE6

@@ -1,0 +1,77 @@
+# c078 approve list, run review 2026-11-11
+# teacher: អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង
+# course: 8-វចនានុក្រមព្រះពុទ្ធសាសានា
+# queued 72 · converted 68 · approved 0 · failed 0 · not started 4
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	AOTHDICTMS001	1A1a3dGuvuszeCetycjDjS-UPF6_pP7w1	DRAFT	29.8	-18.1	ok	https://media.84000.digital/audio/04906a673e7cb940-a64.mp3	001_វចនានុក្រម
+2	AOTHDICTMS002	1MMLK9cK4iV-AwY0OPRaRyAUdRe05C0b5	DRAFT	31.7	-18.2	ok	https://media.84000.digital/audio/7735be8ccc36e7e8-a64.mp3	002. វចនានុក្រម May 2 2024
+3	AOTHDICTMS003	1PSE-C48r1pDwlVQp8tLSp_psoHjXt7bx	DRAFT	29.8	-18.1	ok	https://media.84000.digital/audio/bfafd06edd38ec5e-a64.mp3	003.វចនានុក្រម May 9 2024
+4	AOTHDICTMS004	1f7FPYxm1_7ckLlB1mb9Ma0dyskqsjn1Y	DRAFT	64.9	-18.2	ok	https://media.84000.digital/audio/4502acc5d81b06f4-a64.mp3	004.វចនានុក្រម 30 May 2024
+5	AOTHDICTMS005	1OJIMSBtLyUog8-qV1znP6ydtb4m4_KyL	DRAFT	29.7	-18.1	ok	https://media.84000.digital/audio/4c610afdd5aff7e2-a64.mp3	005.វចនានុក្រម 06 June 2024
+6	AOTHDICTMS006	1zmqD_i3vISri9atWMiRKfP_4fIoI-3b8	DRAFT	52.7	-18.1	ok	https://media.84000.digital/audio/0b9810529460114b-a64.mp3	006.វចនានុក្រម 13 Jun 2024
+7	AOTHDICTMS007	1fGZUlSlQABzEQ_u63MWt-4xfZq_PBi5A	DRAFT	55.9	-18.1	ok	https://media.84000.digital/audio/59ec3458312e15d7-a64.mp3	007.វចនានុក្រម 2024-6-20
+8	AOTHDICTMS008	1vPVuYmqk5deIpfn5uXGVgeg2rpFXNAMx	DRAFT	53.4	-18.2	ok	https://media.84000.digital/audio/73152f90d3b6d98c-a64.mp3	008.វចនានុក្រម 2024-6-27
+9	AOTHDICTMS009	1Fva5KnDBbYlLaZgXzB-1xoQKHTSSg5fa	DRAFT	43.1	-18.1	ok	https://media.84000.digital/audio/d10c3705ced5071b-a64.mp3	009.វចនានុក្រម 04 July 24
+10	AOTHDICTMS010	1WGGkvdZH19KwvhFF7HCTrmhzkF9zx9yK	DRAFT	28.5	-18.2	ok	https://media.84000.digital/audio/c56503d26c7d2371-a64.mp3	010.វចនានុក្រម July-11-2024
+11	AOTHDICTMS011	1n8YCiMrcVd3UEJd_l7-vMEA22AvIS15v	DRAFT	52.6	-18.1	ok	https://media.84000.digital/audio/fcd4298ac9991356-a64.mp3	011.វចនានុក្រម 18 July 2024
+12	AOTHDICTMS012	1UI-orNkF6IinkvwsUmTBV1gAp1APi5tm	DRAFT	53.5	-18	ok	https://media.84000.digital/audio/9e9fadd54e5c9acd-a64.mp3	012.វចនានុក្រម 07. 25.2024
+13	AOTHDICTMS013	1LAOcwvUYlzGr9HaqBdeq0OZDBQ8_lq3L	DRAFT	45.4	-18.1	ok	https://media.84000.digital/audio/31af9fde85111c29-a64.mp3	013.វចនានុក្រម  01.Aug.2024
+14	AOTHDICTMS014	1KU9e1-jIVOqNCOqt77JhOZoBhar5F_r8	DRAFT	47.5	-18.1	ok	https://media.84000.digital/audio/51975657519a04aa-a64.mp3	014.វចនានុក្រម 08.Aug.2024
+15	AOTHDICTMS015	1AYV6ARW5fBNGQtyGS_uQpWy_fmnl9L9u	DRAFT	52.1	-18.2	ok	https://media.84000.digital/audio/b0d2df41fdd4f276-a64.mp3	015.វចនានុក្រម 15.Aug.2024
+16	AOTHDICTMS016	1LLFnCOAQY2PxJRgQNFpiQDjZ1faEnGt1	DRAFT	48.6	-18.1	ok	https://media.84000.digital/audio/b87bd8b3520270c4-a64.mp3	016.វចនានុក្រម 22 Aug .2024
+17	AOTHDICTMS017	1bmQfon1h3aFpX2GzEgCanYJtcGxbQbge	DRAFT	57.5	-18.2	ok	https://media.84000.digital/audio/312c9cf59ff6c5ac-a64.mp3	017.វចនានុក្រម 29 Aug 2024
+18	AOTHDICTMS018	1UOpU87opOnfo7hUfcVNo7nq2epZvq4MN	DRAFT	54.6	-18.1	ok	https://media.84000.digital/audio/c7bb22f9690556a5-a64.mp3	018.វចនានុក្រម 12 កញ្ញា_ 2024
+19	AOTHDICTMS019	1VPQGhgniBq9ofd2B28UEKx-p_H3p0ikV	DRAFT	45.5	-18.2	ok	https://media.84000.digital/audio/ec9a0f95c77d3525-a64.mp3	019.វចនានុក្រម 19 កញ្ញា 2024
+20	AOTHDICTMS020	1Iaf0OpzXl_DAXQ13BAyi0voRd3vx4uiA	DRAFT	48.5	-18.2	ok	https://media.84000.digital/audio/309796e40089e968-a64.mp3	020. វចនានុក្រម 10.10.2024
+21	AOTHDICTMS021	1O4WWgTMRh-jlUw5fGB_N0YOUiss4ak3b	DRAFT	33.1	-18.1	ok	https://media.84000.digital/audio/db678abd67b9a416-a64.mp3	021.វចនានុក្រម 7 Nov 2024
+22	AOTHDICTMS022	1d9VHwWZtzV5MZCyfSx1s4z4Ex2XQnBPp	DRAFT	55.5	-18.1	ok	https://media.84000.digital/audio/4c68b32580a9b2ca-a64.mp3	022.វចនានុក្រម _28.វិច្ឆិកា 24
+23	AOTHDICTMS023	1YfZe2AcwI-jblr13bgImzbl3KowgOtQp	DRAFT	54.7	-18.1	ok	https://media.84000.digital/audio/9df5d3e947221135-a64.mp3	023.វចនានុក្រម​ 05 Dec 2024
+24	AOTHDICTMS024	1XobuHDzmwJDj_Et6NHwhvS6oizrxB5g_	DRAFT	55.5	-18.2	ok	https://media.84000.digital/audio/29ac41ffb67191f4-a64.mp3	24.វចនានុក្រម 12. 12. 2024
+25	AOTHDICTMS025	1IyMvLBAgZina7rA7HlB_HEh7YyhpVDHR	DRAFT	55.6	-18.1	ok	https://media.84000.digital/audio/eee75050b897a56c-a64.mp3	25.វចនានុក្រម 19.12.2024
+26	AOTHDICTMS026	1k8wkdyR8wIuYj3lXy-F-QZnu3Yv5fx3t	DRAFT	50.2	-18.2	ok	https://media.84000.digital/audio/36abe880ddfcb079-a64.mp3	26.វចនានុក្រម 26.12 .2024
+27	AOTHDICTMS027	19u8EwX4c6KTYo1_LNSTGvED7GJQwIiYU	DRAFT	69.2	-18.2	ok	https://media.84000.digital/audio/84139ba404216550-a64.mp3	27.វចនានុក្រម 2025-1-02
+28	AOTHDICTMS028	1C24uyt4mrHsdAoVn9llhe1eu5tNu-i9d	DRAFT	56.0	-18	ok	https://media.84000.digital/audio/8a7bd68870152021-a64.mp3	28.វចនានុក្រម_ 09-01-2025
+29	AOTHDICTMS029	1lI9ZnlJkYW5fCLaDESTd0yOMMNKrnbql	DRAFT	55.2	-18.1	ok	https://media.84000.digital/audio/a3a69f15677ac9d7-a64.mp3	29.វចនានុក្រម 16-01-2025
+30	AOTHDICTMS030	1yS59XYcdx68zERe8mWSN-DJK098OEAnx	DRAFT	48.4	-18.1	ok	https://media.84000.digital/audio/d8d4fe64a4222892-a64.mp3	30.វចនានុក្រម 23-01-2024
+31	AOTHDICTMS031	1_teNhuIS5RvO6rv2qpoO2wgKT3qUIzbW	DRAFT	55.3	-18.1	ok	https://media.84000.digital/audio/77c68b5a13cff7e2-a64.mp3	31.វចនានុក្រម 06-02-2025
+32	AOTHDICTMS032	1Tk3eN4pZVnSirt1XMr0CZBgWNyQsbmu7	DRAFT	51.9	-18.1	ok	https://media.84000.digital/audio/c88c4d5e1e879338-a64.mp3	32.នាទីវចនានុក្រម_ 13-2-2025
+33	AOTHDICTMS033	1-7zMe2-SUPHqT_DgKadQg6AKihAOX2I2	DRAFT	56.9	-18.2	ok	https://media.84000.digital/audio/64a72d595c216161-a64.mp3	33.នាទីវចនានុក្រម_ 20-2-2025
+34	AOTHDICTMS034	1pbHQf-nwjOB8aiGsOGW-fLoBRZgLd86T	DRAFT	45.0	-18.2	ok	https://media.84000.digital/audio/9ccacc5bcf023df7-a64.mp3	34.នាទីវចនានុក្រម_ 27-2-2025
+35	AOTHDICTMS035	1gUgt5ziV9ozwWj7Mo_DYcBMPD23df5SG	DRAFT	51.7	-18.1	ok	https://media.84000.digital/audio/69ca3984d4010eb5-a64.mp3	35.នាទីវចនានុក្រម_ 06-3-2025
+36	AOTHDICTMS036	1QlBC5JwFOYKby1m2WvB2X-DS3q5FijkK	DRAFT	53.5	-18.1	ok	https://media.84000.digital/audio/4ed375d2d116dd42-a64.mp3	36.វចនានុក្រម​_03_04_25.mp4
+37	AOTHDICTMS037	174XUa9ua2w6jKLDjXeZI7tmN7bTjIgL2	DRAFT	53.9	-18.1	ok	https://media.84000.digital/audio/93c9691ee070b557-a64.mp3	37.វចនានុក្រម_10_04_25.mp5
+៣៨	AOTHDICTMS038	1vbO4D8y1RL4njLJcipzXK9AjfJUpMHoy	DRAFT	40.0	-18.1	ok	https://media.84000.digital/audio/af885b3913a02ee1-a64.mp3	៣៨.វចនានុក្រម 24-04-2025
+៣៩	AOTHDICTMS039	11VTEQ-QgLB9WMg83vOY7zMlBkox2jFu_	DRAFT	46.5	-18.1	ok	https://media.84000.digital/audio/5a85eb5bba5df50c-a64.mp3	៣៩.វចនានុក្រម 01-05-2025
+៤០	AOTHDICTMS040	1z5RihNV-CEmxAjdxcq2Xl-H_TkxAiTYB	DRAFT	47.6	-18.2	ok	https://media.84000.digital/audio/0854c1df237bf965-a64.mp3	៤០.វចនានុក្រម 08-05-2025
+៤១	AOTHDICTMS041	1bgs24cz5l7dhj5CKbjNZckGb-iYXr99e	DRAFT	57.5	-18.1	ok	https://media.84000.digital/audio/e59506c036362475-a64.mp3	៤១.វចនានុក្រម 22-05-2025
+៤២	AOTHDICTMS042	1K847oWPhnrs1dYwl4xFpFmt0X56T-yCR	DRAFT	56.8	-18.1	ok	https://media.84000.digital/audio/27e96c7a3ec2c54c-a64.mp3	៤២​​ វចនានុក្រម​​ 29.05.2025
+43	AOTHDICTMS043	1W3CstBW4iDDEw5ejAvEFiSSUT51Zn4-C	DRAFT	63.1	-18.1	ok	https://media.84000.digital/audio/d085365311c722ee-a64.mp3	43 វចនានុក្រម​​ 5-6-2025
+44	AOTHDICTMS044	1_GLOVXX9Y6yog_m208YYEnEFYytN-EuI	DRAFT	63.0	-18.1	ok	https://media.84000.digital/audio/2c9c947ffffa6bfc-a64.mp3	៤៤​​ វចនានុក្រម​ 6-12-2025
+45	AOTHDICTMS045	171QQAgZ_zHJWWhNX4uPYmsZzEH9eAsBT	DRAFT	65.9	-18.1	ok	https://media.84000.digital/audio/652aa7e10af4d2f5-a64.mp3	45 វចនានុក្រម​ 6-26-2025
+46	AOTHDICTMS046	1fF7rC_VvMEN6OyKz6dQ5i2vnZ2QA-FdH	DRAFT	77.1	-18.2	ok	https://media.84000.digital/audio/c805fbc50231f578-a64.mp3	46 វចនានុក្រម​ 7-17-2025
+47	AOTHDICTMS047	1O6Nwz1xnyBYgYo-WhFlYDauil9CeP5dv	DRAFT	64.0	-18.2	ok	https://media.84000.digital/audio/186f2dfc6acb024a-a64.mp3	47 វចនានុក្រម​ 8-7-2025
+48	AOTHDICTMS048	1s_x7-ZRUetHT_BHGjnl9OYrlkWjYshHV	DRAFT	56.2	-18.1	ok	https://media.84000.digital/audio/2bb994b6bf23656d-a64.mp3	48 វចនានុក្រ​ម 8-28-2025
+49	AOTHDICTMS049	1uEjUe8Az2Sd8O5mq9WJMal-vo2ImOCcg	DRAFT	57.8	-18.2	ok	https://media.84000.digital/audio/1c22d849039ffd4a-a64.mp3	49 វចនានុក្រម​ 9-4-2025
+50	AOTHDICTMS050	1q3JBm0DLLCxb2r08p3uvjkAcAPCO-vQ_	DRAFT	61.1	-18.2	ok	https://media.84000.digital/audio/c6e699e91916d9e3-a64.mp3	50​ វចនានុក្រម 11-16-2025
+51	AOTHDICTMS051	1n08DfvZv6kfPBdIVrgGonnBXsG6DuBDX	DRAFT	59.5	-18.2	ok	https://media.84000.digital/audio/d26035320a95b0e4-a64.mp3	51 វចនានុក្រម 11-13-2025
+52	AOTHDICTMS052	1p-hd3Y1he0OT3xoi6nHl15stSDak13zF	DRAFT	57.3	-18.2	ok	https://media.84000.digital/audio/58327fe7ff38ab38-a64.mp3	52 វចនានុក្រម​ 11-20-2025
+53	AOTHDICTMS053	1EJblAM_US3LjTXZgbKXyCObLveSeLCs2	DRAFT	57.6	-18.1	ok	https://media.84000.digital/audio/1e0273fd26ef3352-a64.mp3	53 វចនានុក្រម 11-27-2025
+54	AOTHDICTMS054	1vdFR-CelWCsRy0NvjTynnm51cS14TMXc	DRAFT	54.2	-18.2	ok	https://media.84000.digital/audio/b6879cc398b529fd-a64.mp3	54 វចនានុក្រម 12-4-2025
+55	AOTHDICTMS055	1UBMrVkM1U1peNqSld36FkNXb4VrQ-7D8	DRAFT	58.6	-18.2	ok	https://media.84000.digital/audio/cb7cfc41640aa358-a64.mp3	55 វចនានុក្រម​ 2-29-2026
+56	AOTHDICTMS056	1K62jAgZVUEbSd-i-fgtJ4xhn4H4PnnnV	DRAFT	52.4	-18.1	ok	https://media.84000.digital/audio/476ea8b737aaf65d-a64.mp3	56 វចនានុក្រម​ 12 កុម្ភៈ​​ 2026
+57	AOTHDICTMS057	1_l6WzrevJipHjEOZkm3fvtogA_PJ-aAu	DRAFT	55.8	-18.2	ok	https://media.84000.digital/audio/740c9d8947ac699b-a64.mp3	57 វចនានុក្រម​​ 26 កុម្ភៈ 2026
+58	AOTHDICTMS058	1I2A0nmKgAHnweccvF9bDP6QyTzaZoPg9	DRAFT	59.6	-18.2	ok	https://media.84000.digital/audio/ff763c91fcc359a1-a64.mp3	58 វចនានុក្រម​​ 111​មីនា​ 2026
+59	AOTHDICTMS059	1rDG47QOvKspt4prjWzT-2-HD1tpf-fZM	DRAFT	61.6	-18.2	ok	https://media.84000.digital/audio/30f12cc40fd2e787-a64.mp3	59 វចនានុក្រម​​ 19 មីនា2026
+60	AOTHDICTMS060	1Td1f5KHSvGY4MCihxfxw9jEH1CT4BSr8	DRAFT	57.1	-18.1	ok	https://media.84000.digital/audio/fb8008ab493f0bb4-a64.mp3	60 វចនានុក្រម​​ 26 មីនា 2026
+61	AOTHDICTMS061	1CMYJNsm8lyypDdOWUisHnqntDCZEh3Rk	DRAFT	45.3	-18.1	ok	https://media.84000.digital/audio/96fabb2de0e5a778-a64.mp3	61​ ​វចនានុក្រម ​23 មេសា 2026
+62	AOTHDICTMS062	13WEYRWxW2H-CC6Kg15kQv-EE21xMhZe0	DRAFT	55.8	-18.2	ok	https://media.84000.digital/audio/76be954d785c42fa-a64.mp3	62 -វចនានុក្រម_១៤ឧសភា២០២៦.mp4
+63	AOTHDICTMS063	1u-hitnfSJpseMcuQt-9hzS7N6KQMb2gB	DRAFT	57.0	-18.1	ok	https://media.84000.digital/audio/5066bce5bc4f108e-a64.mp3	63​- វចនានុក្រម_២១ឧសភា២០២៦.mp4
+64	AOTHDICTMS064	1AkBTiYbovDdfTbyHb-wimx3LxzuWQFAC	DRAFT	26.6	-18	ok	https://media.84000.digital/audio/43beae170f89959f-a64.mp3	64 វចនានុក្រម_២៥មិថុនា២០២៦.mp4
+65	AOTHDICTMS065	1Iqs_rVtAah-YsH234RHxLku7iO9NOrH_	DRAFT	19.6	-18.1	ok	https://media.84000.digital/audio/a6863e4fefdaf860-a64.mp3	65  វចនានុក្រម​  16 កក្កដា​  2026.mp4
+70	AOTHDICTMS070	1mhhd1TPTHql9Oc_3EJBqF6TDwFrLBIt9	DRAFT	22.7	-18.1	ok	https://media.84000.digital/audio/74a78ce77308d17b-a64.mp3	70 វចនានុក្រម​ 1-តុលា-2026
+71	d-1NxUu-W950mczdQh3x3-qAoG1L5WDNORU	1NxUu-W950mczdQh3x3-qAoG1L5WDNORU	DRAFT	25.6	-18.2	ok	https://media.84000.digital/audio/c5429a3b7ae978f0-a64.mp3	71 វចនានុក្រម ​​​15-តុលា-2026
+72	d-18F7k129_bQMejf5XojntWKPC4m2W0x6o	18F7k129_bQMejf5XojntWKPC4m2W0x6o	DRAFT	18.5	-18.1	ok	https://media.84000.digital/audio/430b5808025bc30c-a64.mp3	72 វចនានុក្រម​​ 29-តុលា​-2026
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1A1a3dGuvuszeCetycjDjS-UPF6_pP7w1,1MMLK9cK4iV-AwY0OPRaRyAUdRe05C0b5,1PSE-C48r1pDwlVQp8tLSp_psoHjXt7bx,1f7FPYxm1_7ckLlB1mb9Ma0dyskqsjn1Y,1OJIMSBtLyUog8-qV1znP6ydtb4m4_KyL,1zmqD_i3vISri9atWMiRKfP_4fIoI-3b8,1fGZUlSlQABzEQ_u63MWt-4xfZq_PBi5A,1vPVuYmqk5deIpfn5uXGVgeg2rpFXNAMx,1Fva5KnDBbYlLaZgXzB-1xoQKHTSSg5fa,1WGGkvdZH19KwvhFF7HCTrmhzkF9zx9yK,1n8YCiMrcVd3UEJd_l7-vMEA22AvIS15v,1UI-orNkF6IinkvwsUmTBV1gAp1APi5tm,1LAOcwvUYlzGr9HaqBdeq0OZDBQ8_lq3L,1KU9e1-jIVOqNCOqt77JhOZoBhar5F_r8,1AYV6ARW5fBNGQtyGS_uQpWy_fmnl9L9u,1LLFnCOAQY2PxJRgQNFpiQDjZ1faEnGt1,1bmQfon1h3aFpX2GzEgCanYJtcGxbQbge,1UOpU87opOnfo7hUfcVNo7nq2epZvq4MN,1VPQGhgniBq9ofd2B28UEKx-p_H3p0ikV,1Iaf0OpzXl_DAXQ13BAyi0voRd3vx4uiA,1O4WWgTMRh-jlUw5fGB_N0YOUiss4ak3b,1d9VHwWZtzV5MZCyfSx1s4z4Ex2XQnBPp,1YfZe2AcwI-jblr13bgImzbl3KowgOtQp,1XobuHDzmwJDj_Et6NHwhvS6oizrxB5g_,1IyMvLBAgZina7rA7HlB_HEh7YyhpVDHR,1k8wkdyR8wIuYj3lXy-F-QZnu3Yv5fx3t,19u8EwX4c6KTYo1_LNSTGvED7GJQwIiYU,1C24uyt4mrHsdAoVn9llhe1eu5tNu-i9d,1lI9ZnlJkYW5fCLaDESTd0yOMMNKrnbql,1yS59XYcdx68zERe8mWSN-DJK098OEAnx,1_teNhuIS5RvO6rv2qpoO2wgKT3qUIzbW,1Tk3eN4pZVnSirt1XMr0CZBgWNyQsbmu7,1-7zMe2-SUPHqT_DgKadQg6AKihAOX2I2,1pbHQf-nwjOB8aiGsOGW-fLoBRZgLd86T,1gUgt5ziV9ozwWj7Mo_DYcBMPD23df5SG,1QlBC5JwFOYKby1m2WvB2X-DS3q5FijkK,174XUa9ua2w6jKLDjXeZI7tmN7bTjIgL2,1vbO4D8y1RL4njLJcipzXK9AjfJUpMHoy,11VTEQ-QgLB9WMg83vOY7zMlBkox2jFu_,1z5RihNV-CEmxAjdxcq2Xl-H_TkxAiTYB,1bgs24cz5l7dhj5CKbjNZckGb-iYXr99e,1K847oWPhnrs1dYwl4xFpFmt0X56T-yCR,1W3CstBW4iDDEw5ejAvEFiSSUT51Zn4-C,1_GLOVXX9Y6yog_m208YYEnEFYytN-EuI,171QQAgZ_zHJWWhNX4uPYmsZzEH9eAsBT,1fF7rC_VvMEN6OyKz6dQ5i2vnZ2QA-FdH,1O6Nwz1xnyBYgYo-WhFlYDauil9CeP5dv,1s_x7-ZRUetHT_BHGjnl9OYrlkWjYshHV,1uEjUe8Az2Sd8O5mq9WJMal-vo2ImOCcg,1q3JBm0DLLCxb2r08p3uvjkAcAPCO-vQ_,1n08DfvZv6kfPBdIVrgGonnBXsG6DuBDX,1p-hd3Y1he0OT3xoi6nHl15stSDak13zF,1EJblAM_US3LjTXZgbKXyCObLveSeLCs2,1vdFR-CelWCsRy0NvjTynnm51cS14TMXc,1UBMrVkM1U1peNqSld36FkNXb4VrQ-7D8,1K62jAgZVUEbSd-i-fgtJ4xhn4H4PnnnV,1_l6WzrevJipHjEOZkm3fvtogA_PJ-aAu,1I2A0nmKgAHnweccvF9bDP6QyTzaZoPg9,1rDG47QOvKspt4prjWzT-2-HD1tpf-fZM,1Td1f5KHSvGY4MCihxfxw9jEH1CT4BSr8,1CMYJNsm8lyypDdOWUisHnqntDCZEh3Rk,13WEYRWxW2H-CC6Kg15kQv-EE21xMhZe0,1u-hitnfSJpseMcuQt-9hzS7N6KQMb2gB,1AkBTiYbovDdfTbyHb-wimx3LxzuWQFAC,1Iqs_rVtAah-YsH234RHxLku7iO9NOrH_,1mhhd1TPTHql9Oc_3EJBqF6TDwFrLBIt9,1NxUu-W950mczdQh3x3-qAoG1L5WDNORU,18F7k129_bQMejf5XojntWKPC4m2W0x6o

@@ -1,0 +1,56 @@
+# c054 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ មុនីបុត្តោ សុខ ធាវី
+# course: 1-Buddhism in English for Begin
+# queued 57 · converted 47 · approved 0 · failed 0 · not started 10
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	AENGST0000101	1ESvyy1-2dNZRdFftgUCNBNqOWIWnU3gg	DRAFT	56.4	-18.1	ok	https://media.84000.digital/audio/d464f4abede2a274-a64.mp3	Buddhism in English for Beginners
+2	AENGST0000102	1U48-wVkhqFU8VBGNjRE9HyGqNf_HG7Ol	DRAFT	64.9	-18.2	ok	https://media.84000.digital/audio/23bdebae128441ad-a64.mp3	Buddhism in English for Beginners
+3	AENGST0000103	1eP7-HDaGaRdT0RT_lB5wO-4aKRQ3hkdB	DRAFT	61.7	-18.1	ok	https://media.84000.digital/audio/016241ef02288b83-a64.mp3	Buddhism in English for Beginners
+4	AENGST0000104	1Ct2ThFBYQQhY82q67YpzhT_pgWFeF8u-	DRAFT	52.7	-18.2	ok	https://media.84000.digital/audio/5cf1815ee3daff1d-a64.mp3	Buddhism in English for Beginners
+5	AENGST0000105	1bxkNgdXH-riXk0oC9aPYD8-oxtWDx__k	DRAFT	45.0	-18.2	ok	https://media.84000.digital/audio/f505ae04b0678e6f-a64.mp3	Buddhism in English for Beginners
+6	AENGST0000106	1G8LsQJRB8eqlO8wxx6Q1C-N0xHMhaQHc	DRAFT	49.1	-18.2	ok	https://media.84000.digital/audio/c174dc648d6aeacd-a64.mp3	Buddhism in English for Beginners
+7	AENGST0000107	11xiW_Pa2Cj6IxKOhFUXOwU9nLOcT71t1	DRAFT	45.0	-18.2	ok	https://media.84000.digital/audio/95334105bdf1d757-a64.mp3	Buddhism in English for Beginners
+8	AENGST0000108	1mqebOim-OpFZUJ7tIbZNPlDTRJ7fKsvE	DRAFT	51.3	-18.2	ok	https://media.84000.digital/audio/3bb923a1b157910f-a64.mp3	Buddhism in English for Beginners
+9	AENGST0000109	1xD-yPxYp6JSy15mXG0Bq5pQp7PmE2Knv	DRAFT	44.0	-18.2	ok	https://media.84000.digital/audio/21fc8a6e0cd9aa83-a64.mp3	Buddhism in English for Beginners
+10	AENGST0000110	1k5lNtdPj6HT0R2qJZ0ezh-RLmlX9q_sM	DRAFT	52.3	-18.2	ok	https://media.84000.digital/audio/6e73924813e46457-a64.mp3	Buddhism in English for Beginners
+11	AENGST0000111	1-ejtD2o7UxODywbXuCwYGr_2GVx0eRJ-	DRAFT	54.6	-18.5	ok	https://media.84000.digital/audio/06364f4f765dcb7d-a64.mp3	Buddhism in English for Beginners
+12	AENGST0000112	1u0twFzxZL4tCXD3YbwR6PxU4gWsj8tzu	DRAFT	53.9	-19	cap	https://media.84000.digital/audio/3389af7fd59c7bc9-a64.mp3	Buddhism in English for Beginners
+13	AENGST0000113	10v_KXJhSsd1yVZJpnxjrhABMuJRq2nz9	DRAFT	62.4	-18.6	cap	https://media.84000.digital/audio/8d96f8647d980fc5-a64.mp3	Buddhism in English for Beginners
+14	AENGST0000114	1wPoUq0VtsfYpSon17TOSMR7OMOyABKH4	DRAFT	54.6	-18.2	ok	https://media.84000.digital/audio/f9ab3f68fdc4feff-a64.mp3	Buddhism in English for Beginners
+15	AENGST0000115	1g5jWOT6pAsu5Nm50Svu8imhuwSYli6YZ	DRAFT	50.1	-18.2	ok	https://media.84000.digital/audio/5808045041522d38-a64.mp3	Buddhism in English for Beginners
+16	AENGST0000116	18fiLQpR6ka7m5bOnGgC6Qy-My30x3yjO	DRAFT	51.9	-18.2	ok	https://media.84000.digital/audio/99213ab9f6db5e5d-a64.mp3	Buddhism in English for Beginners
+17	AENGST0000117	1RhCUbMDFXLobrdtmiOJAvf5hdX2d-eYO	DRAFT	56.0	-18.3	ok	https://media.84000.digital/audio/64c076d888a38e24-a64.mp3	Buddhism in English for Beginners
+22	AENGST0000122	1GRqikQGWTUwe2VXYLPt84oSnJRd1e7Tx	DRAFT	75.0	-18.7	cap	https://media.84000.digital/audio/06f769288cd17a7a-a64.mp3	Buddhism in English for Beginners
+24	AENGST0000124	1yd0FD07RMNgr2h3acnTOKp9zON1tSD83	DRAFT	51.8	-18.2	ok	https://media.84000.digital/audio/bf8176c74c434af6-a64.mp3	Buddhism in English for Beginners
+25	AENGST0000125	1GHiq_n4tXz9F2Plm_nqE5QJokqWgRp7w	DRAFT	42.1	-18.6	cap	https://media.84000.digital/audio/4377cb8fa8a0d490-a64.mp3	Buddhism in English for Beginners
+27	AENGST0000127	1ZKBwa03NR2G520qZTlkEA6N1R3hlKkNp	DRAFT	51.6	-19	cap	https://media.84000.digital/audio/4436876786325a0c-a64.mp3	Buddhism in English for Beginners
+28	AENGST0000128	1sLIjstIjxGJMuVHVDuuM5SR0DQiSo4of	DRAFT	57.8	-18.2	ok	https://media.84000.digital/audio/f54a83986a4599a3-a64.mp3	Buddhism in English for Beginners
+30	AENGST0000130	1Xg-P6vtzG3okK6MZyF8H0dXpL1oLM1FD	DRAFT	56.0	-18.7	cap	https://media.84000.digital/audio/3d70723fd642e5bf-a64.mp3	Buddhism in English for Beginners
+31	AENGST0000131	1dpa1qd0WdcQYXmYO143aoFQ1JGj3I6_V	DRAFT	44.8	-18.4	ok	https://media.84000.digital/audio/79432b17cef19ff3-a64.mp3	Buddhism in English for Beginners
+32	AENGST0000132	1OvVNcmj9svOH00SRjw4a3eNuxxoG7BeM	DRAFT	51.4	-18.2	ok	https://media.84000.digital/audio/7463408cea3117dd-a64.mp3	Buddhism in English for Beginners
+33	AENGST0000133	1r8yfDLQDXJyakjEVyX5IC41zftwBM8Qk	DRAFT	0.1	-18.1	ok	https://media.84000.digital/audio/af05ccc54da6722a-a64.mp3	Buddhism in English for Beginners
+34	AENGST0000134	1z1JSrWd3kyAvnmklT9BEgVmDyeVCkdoc	DRAFT	48.0	-18.5	ok	https://media.84000.digital/audio/f088bfe78b98c478-a64.mp3	Buddhism in English for Beginners
+35	AENGST0000135	1OHWH0HFnWW3s1DxIY760IvJZmgQ-qLs6	DRAFT	40.2	-18.1	ok	https://media.84000.digital/audio/d7cabb01bab1cfed-a64.mp3	Buddhism in English for Beginners
+36	AENGST0000136	1WYjUd-Edaf5Vw9zpsvD-hHqFL-ukx6mm	DRAFT	54.4	-18.2	ok	https://media.84000.digital/audio/9b52ce9cbbd72fd1-a64.mp3	Buddhism in English for Beginners
+37	AENGST0000137	1djjPI8qOvki7vNBQo9RfUL1Nm5DW-F41	DRAFT	72.5	-18.1	ok	https://media.84000.digital/audio/12835804fa1cbe57-a64.mp3	Buddhism in English for Beginners
+38	AENGST0000138	1KaMOeKR8yyfdOPww78URQ5_UsnSlFvJR	DRAFT	58.1	-18.7	cap	https://media.84000.digital/audio/c08c2ff078b81ce3-a64.mp3	Buddhism in English for Beginners
+39	AENGST0000139	1y6r_cd4wXtinC1NG_mY_FWWRRwrysB1V	DRAFT	48.8	-18.2	ok	https://media.84000.digital/audio/f1ad9bbda77cb35a-a64.mp3	Buddhism in English for Beginners
+40	AENGST0000140	1K36qUeWV2xuPWYsXZvDduFEiYNgGX-xU	DRAFT	58.7	-18.3	ok	https://media.84000.digital/audio/06e34919a6d9f75e-a64.mp3	Buddhism in English for Beginners
+41	AENGST0000141	1GYTX8PoMkF_cOEuQapbgS_xDaXKsORcP	DRAFT	62.0	-18.2	ok	https://media.84000.digital/audio/c330c68412f4fcef-a64.mp3	Buddhism in English for Beginners
+42	AENGST0000142	13DMfKX1KK1ikpx0D6MXPe6v_W5EzqksH	DRAFT	56.4	-18.1	ok	https://media.84000.digital/audio/549f8ea48a04128c-a64.mp3	Buddhism in English for Beginners
+44	AENGST0000144	1BCd4_E_jZHR6Hy4jcHN1opQiMngizxM0	DRAFT	63.0	-18.2	ok	https://media.84000.digital/audio/988d18b498888a9e-a64.mp3	Buddhism in English for Beginners
+45	AENGST0000145	181_V0HKR6eKiyaadUodH2Uo-smk3PE78	DRAFT	57.3	-18.5	ok	https://media.84000.digital/audio/de1a1da39053f087-a64.mp3	Buddhism in English for Beginners
+46	AENGST0000146	1M5krAMcycUqIMCV7EicYj0EzNeETRAqd	DRAFT	51.6	-18.2	ok	https://media.84000.digital/audio/4819624a4ed26f29-a64.mp3	Buddhism in English for Beginners
+47	AENGST0000147	18f-UNijIUnTzGKgUnI7v2-gt6TTFYLRs	DRAFT	52.7	-18.8	cap	https://media.84000.digital/audio/97c31445e6cbdafe-a64.mp3	Buddhism in English for Beginners
+48	AENGST0000148	1aH2ZcFfzszX25WHgeg6EEl-dKdFtpiWE	DRAFT	58.9	-18.2	ok	https://media.84000.digital/audio/c47a1c1886bf2051-a64.mp3	Buddhism in English for Beginners
+49	AENGST0000149	1DPzCFeYLuHH6SpbhGo1drBoO-dqGSjWV	DRAFT	63.1	-18.2	ok	https://media.84000.digital/audio/bb5abf883e95c82d-a64.mp3	Buddhism in English for Beginners
+50	AENGST0000150	1jTbEXlSlXsjp0lH1TBE-eRcYkoWwCBLS	DRAFT	56.7	-18	ok	https://media.84000.digital/audio/65a5f58ed4575a7b-a64.mp3	Buddhism in English for Beginners
+51	AENGST0000151	19E5DNCDtF8ZTjjVRcJ-CCFIPRfAPPH17	DRAFT	63.5	-18.2	ok	https://media.84000.digital/audio/521658d69ce66918-a64.mp3	Buddhism in English for Beginners
+53	AENGST0000153	1pPSKjzk19Y4UycOPrOWBFhIxodeVDVnk	DRAFT	60.9	-18.1	ok	https://media.84000.digital/audio/5d3ad056a4516032-a64.mp3	Buddhism in English for Beginners
+54	AENGST0000154	1Ui74sf8bH0W67kFZ6_t5IxpVZ5vdUK7g	DRAFT	51.9	-18.1	ok	https://media.84000.digital/audio/9b4f39795b8686b6-a64.mp3	Buddhism in English for Beginners
+55	AENGST0000155	1W97CoVqH3B4Qagekrl3af-WEMcnSRrZl	DRAFT	59.2	-18.2	ok	https://media.84000.digital/audio/6d930d9220186836-a64.mp3	Buddhism in English for Beginners
+57	AENGST0000157	1p3X8cMYaO8sapAqK4o8XUeQ5Cfnh8GfT	DRAFT	77.9	-18.2	ok	https://media.84000.digital/audio/e8767a3bc58ae710-a64.mp3	Buddhism in English for Beginners
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1ESvyy1-2dNZRdFftgUCNBNqOWIWnU3gg,1U48-wVkhqFU8VBGNjRE9HyGqNf_HG7Ol,1eP7-HDaGaRdT0RT_lB5wO-4aKRQ3hkdB,1Ct2ThFBYQQhY82q67YpzhT_pgWFeF8u-,1bxkNgdXH-riXk0oC9aPYD8-oxtWDx__k,1G8LsQJRB8eqlO8wxx6Q1C-N0xHMhaQHc,11xiW_Pa2Cj6IxKOhFUXOwU9nLOcT71t1,1mqebOim-OpFZUJ7tIbZNPlDTRJ7fKsvE,1xD-yPxYp6JSy15mXG0Bq5pQp7PmE2Knv,1k5lNtdPj6HT0R2qJZ0ezh-RLmlX9q_sM,1-ejtD2o7UxODywbXuCwYGr_2GVx0eRJ-,1u0twFzxZL4tCXD3YbwR6PxU4gWsj8tzu,10v_KXJhSsd1yVZJpnxjrhABMuJRq2nz9,1wPoUq0VtsfYpSon17TOSMR7OMOyABKH4,1g5jWOT6pAsu5Nm50Svu8imhuwSYli6YZ,18fiLQpR6ka7m5bOnGgC6Qy-My30x3yjO,1RhCUbMDFXLobrdtmiOJAvf5hdX2d-eYO,1GRqikQGWTUwe2VXYLPt84oSnJRd1e7Tx,1yd0FD07RMNgr2h3acnTOKp9zON1tSD83,1GHiq_n4tXz9F2Plm_nqE5QJokqWgRp7w,1ZKBwa03NR2G520qZTlkEA6N1R3hlKkNp,1sLIjstIjxGJMuVHVDuuM5SR0DQiSo4of,1Xg-P6vtzG3okK6MZyF8H0dXpL1oLM1FD,1dpa1qd0WdcQYXmYO143aoFQ1JGj3I6_V,1OvVNcmj9svOH00SRjw4a3eNuxxoG7BeM,1r8yfDLQDXJyakjEVyX5IC41zftwBM8Qk,1z1JSrWd3kyAvnmklT9BEgVmDyeVCkdoc,1OHWH0HFnWW3s1DxIY760IvJZmgQ-qLs6,1WYjUd-Edaf5Vw9zpsvD-hHqFL-ukx6mm,1djjPI8qOvki7vNBQo9RfUL1Nm5DW-F41,1KaMOeKR8yyfdOPww78URQ5_UsnSlFvJR,1y6r_cd4wXtinC1NG_mY_FWWRRwrysB1V,1K36qUeWV2xuPWYsXZvDduFEiYNgGX-xU,1GYTX8PoMkF_cOEuQapbgS_xDaXKsORcP,13DMfKX1KK1ikpx0D6MXPe6v_W5EzqksH,1BCd4_E_jZHR6Hy4jcHN1opQiMngizxM0,181_V0HKR6eKiyaadUodH2Uo-smk3PE78,1M5krAMcycUqIMCV7EicYj0EzNeETRAqd,18f-UNijIUnTzGKgUnI7v2-gt6TTFYLRs,1aH2ZcFfzszX25WHgeg6EEl-dKdFtpiWE,1DPzCFeYLuHH6SpbhGo1drBoO-dqGSjWV,1jTbEXlSlXsjp0lH1TBE-eRcYkoWwCBLS,19E5DNCDtF8ZTjjVRcJ-CCFIPRfAPPH17,1pPSKjzk19Y4UycOPrOWBFhIxodeVDVnk,1Ui74sf8bH0W67kFZ6_t5IxpVZ5vdUK7g,1W97CoVqH3B4Qagekrl3af-WEMcnSRrZl,1p3X8cMYaO8sapAqK4o8XUeQ5Cfnh8GfT

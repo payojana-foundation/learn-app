@@ -1,0 +1,33 @@
+# c035 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
+# course: ព្រះត្រៃបិដកបាលីភាគ១៩
+# queued 30 · converted 24 · approved 0 · failed 0 · not started 6
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	ASUT019YY0001	1BuZXm1M63XgV0PRzV_GjxMNPsSXjp2Gj	DRAFT	88.3	-18.1	ok	https://media.84000.digital/audio/cb0b82999b576368-a64.mp3	បិដកលេខ១៩ 01 លក្ខណៈសូត្រ និយាយពីមហាបុរិសលក្ខណៈ ៣២ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+2	ASUT019YY0002	1kVe5bDGOFijU65kd2gAbgi5hEsIayoVO	DRAFT	88.7	-18	ok	https://media.84000.digital/audio/1df9c59f821980b9-a64.mp3	បិដកលេខ១៩ 02 បុព្វកម្មដែលនាំឱ្យមានមហាបុរិសលក្ខណៈ ៣២ ប្រការភាគ១ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).webm
+3	ASUT019YY0003	1fAU-9f0kASML5I20kWGe_O1kcozKbkFt	DRAFT	89.0	-18.2	ok	https://media.84000.digital/audio/2811ea7e2b79ff02-a64.mp3	បិដកលេខ១៩ 03 បុព្វកម្មដែលនាំឱ្យមានមហាបុរិសលក្ខណៈ ៣២ ប្រការភាគ២ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).webm
+4	ASUT019YY0004	1NcSdNl_fx1pPrTgIk7CvodwrZBrtpo_u	DRAFT	88.2	-18	ok	https://media.84000.digital/audio/8075d0588472b9dc-a64.mp3	បិដកលេខ១៩ 04 បុព្វកម្មដែលនាំឱ្យមានមហាបុរិសលក្ខណៈ ៣២ ប្រការភាគបញ្ចប់ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).webm
+5	ASUT019YY0005	1chYvu8tCWdmyEgez6cPGHw1j1h2GadWt	DRAFT	91.2	-18	ok	https://media.84000.digital/audio/da7114bed7d91da3-a64.mp3	បិដកលេខ១៩ 05 សិង្គាលកសូត្រ និយាយពីសេចក្តីនិងចម្រើន (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).webm
+6	ASUT019YY0006	19JI1MDl8OZd0CKH4N7a3NhWz_oWDk19L	DRAFT	88.7	-18	ok	https://media.84000.digital/audio/d92c79e6a9eacc85-a64.mp3	បិដកលេខ១៩ 06 សិង្គាលកសូត្រ មិត្តគិតតែប្រយោជន៍ខ្លួន ៤ យ៉ាង (មិត្តប្លម) (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).webm
+7	ASUT019YY0007	1GLDeNKj7Ci0ewQ79n_nidO7tDyC7IE-5	DRAFT	91.8	-18	ok	https://media.84000.digital/audio/af898f8426a84979-a64.mp3	បិដកលេខ១៩ 07 សិង្គាលកសូត្រ តួនាទីរបស់កូនមាន ៥ យ៉ាង (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+8	ASUT019YY0008	1cQOvrS2JnmlrjFA0lIakdtNzoxgbE3Ca	DRAFT	90.7	-18	ok	https://media.84000.digital/audio/96e8e264355922f2-a64.mp3	បិដកលេខ១៩ 08 សិង្គាលកសូត្រ តួនាទីរបស់សមណព្រាហ្មណ៍ ៥ យ៉ាង (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+9	ASUT019YY0009	1O_AGE5enXmHjfIlqiFEXm8cu_xxNyf51	DRAFT	0.8	-18	ok	https://media.84000.digital/audio/43fd499abc19a3f4-a64.mp3	បិដកលេខ១៩ 09 អាដានាដិយសូត្រ សេនារបស់ស្តេចចតុលោកបាល (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+10	ASUT019YY0010	1D_Zw9lJ3DEXHsbUUCVNJYXatEyRqhzQ6	DRAFT	87.1	-18	ok	https://media.84000.digital/audio/9d63bea46acffceb-a64.mp3	បិដកលេខ១៩ 10 ត្រកូលយក្ស២៨ អានាដាដិយសូត្រ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+11	ASUT019YY0011	1vvAvsaOhFSHDBXm7kyb4ycCIJFkHJHwv	DRAFT	89.6	-18	ok	https://media.84000.digital/audio/6adb3e5e5e37eb36-a64.mp3	បិដកលេខ១៩ 11 សង្គីតិសូត្រ ទុកនិទ្ទេស ធម៌ពួក២ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+12	ASUT019YY0012	1sR6LH2kM5Tl1sVSEA5VVasMMsqsBIL57	DRAFT	94.4	-18	ok	https://media.84000.digital/audio/8c0dd07ed6c16245-a64.mp3	បិដកលេខ១៩ 12 សង្គីតិសូត្រ តិកនិទ្ទេស ធម៌ពួក៣ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+13	ASUT019YY0013	1Hr92tHnIU0uxaj8FMn3y9k5iNqAvs7o3	DRAFT	94.1	-18.1	ok	https://media.84000.digital/audio/6bb77e43695a11e7-a64.mp3	បិដកលេខ១៩ 13 សង្គីតិសូត្រ តិកនិទ្ទេស ពុទ្ធធម៌១៨ មានក្នុងព្រះពុទ្ធ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+14	ASUT019YY0014	1X9tUxbZWLyGUN9ywSNN_mm98PcT_zx8w	DRAFT	90.7	-18	ok	https://media.84000.digital/audio/3a3bda48cfc3993c-a64.mp3	បិដកលេខ១៩ 14 សង្គីតិសូត្រ តិកនិទ្ទេស ពួក៣ បន្ត (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+15	ASUT019YY0015	1Sun0OCBm0eqdqf92BNy_NVrfcwve5hE6	DRAFT	90.9	-18	ok	https://media.84000.digital/audio/ed098efe438bdf41-a64.mp3	បិដកលេខ១៩ 15 សង្គីតិសូត្រ ចតុក្កនិទ្ទេស ពួក៤ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+16	ASUT019YY0016	1jrjp2I51blCBr29xddyLbtiv1-_HyN-v	DRAFT	88.1	-18	ok	https://media.84000.digital/audio/76159e7bdf9f9cd6-a64.mp3	បិដកលេខ១៩ 16 សង្គីតិសូត្រ ចតុក្កនិទ្ទេស ពួក៤ ភាគបញ្ចប់ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+17	ASUT019YY0017	1qV5Uk3_-xmKhDlA8hCuzlPo5ybNRHXbA	DRAFT	89.5	-18	ok	https://media.84000.digital/audio/bd260528771994ae-a64.mp3	បិដកលេខ១៩ 17 សង្គីតិសូត្រ បញ្ចកនិទ្ទេស ធម៌ពួក ៥ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+18	ASUT019YY0018	1NkZn9db-vWN8wOwpUTNpvCMcqNc529Yp	DRAFT	87.8	-18	ok	https://media.84000.digital/audio/39cfc2e317c8d86e-a64.mp3	បិដកលេខ១៩ 18 សង្គីតិសូត្រ បញ្ចប់បញ្ចកនិទ្ទេស ធម៌ពួក ៥ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+20	ASUT019YY0020	1oMUg-PaVKJQTAbIO6DslcctEcPWcz3EE	DRAFT	77.7	-18	ok	https://media.84000.digital/audio/673ef6e15986cf6d-a64.mp3	បិដកលេខ១៩ 20 សង្គីតិសូត្រ សត្តកនិទ្ទេស ធម៌ពួក ៧ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+21	ASUT019YY0021	1HYeN5Glvlcs22hPKhRcUtocZAliJUi-m	DRAFT	87.3	-18.1	ok	https://media.84000.digital/audio/fa7cdbb1d56eca2e-a64.mp3	បិដកលេខ១៩ 21 សង្គីតិសូត្រ អដ្ឋកនិទ្ទេស ធម៌ពួក ៨ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+22	ASUT019YY0022	1jK79zzUGfFe3YEk_FdYVMrO5r5HWtWHY	DRAFT	87.0	-18.1	ok	https://media.84000.digital/audio/0cdf2cd5de9d515f-a64.mp3	បិដកលេខ១៩ 22 ធម៌ពួក ៩ អខណអសម័យ ៩ យ៉ាង (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+23	ASUT019YY0023	1ZeZKNDRC99yRcUfCtwIR1h3GCpsHmyuB	DRAFT	91.4	-18.5	ok	https://media.84000.digital/audio/524f839e9a71d73c-a64.mp3	បិដកលេខ១៩ 23 ទសកនិទ្ទេស ធម៌ពួក ១០ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+26	ASUT019YY0026	1IA7EjDkOnnOwLdEemCkejYS7KbB5X8Ru	DRAFT	89.0	-18	ok	https://media.84000.digital/audio/9d29fb2f0a162cda-a64.mp3	បិដកលេខ១៩ 26 ធម៌ពួក ៤ដល់ពួក៥ និងអដ្ឋកថា  (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+28	ASUT019YY0028	1n15cTPHub4AuWv2djk0Rgn5E6ffxD3i4	DRAFT	87.5	-18	ok	https://media.84000.digital/audio/b29b7645c1c91bbc-a64.mp3	បិដកលេខ១៩ 28 ធម៌ពួក ៨ ពន្យល់តាមអដ្ឋកថា (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1BuZXm1M63XgV0PRzV_GjxMNPsSXjp2Gj,1kVe5bDGOFijU65kd2gAbgi5hEsIayoVO,1fAU-9f0kASML5I20kWGe_O1kcozKbkFt,1NcSdNl_fx1pPrTgIk7CvodwrZBrtpo_u,1chYvu8tCWdmyEgez6cPGHw1j1h2GadWt,19JI1MDl8OZd0CKH4N7a3NhWz_oWDk19L,1GLDeNKj7Ci0ewQ79n_nidO7tDyC7IE-5,1cQOvrS2JnmlrjFA0lIakdtNzoxgbE3Ca,1O_AGE5enXmHjfIlqiFEXm8cu_xxNyf51,1D_Zw9lJ3DEXHsbUUCVNJYXatEyRqhzQ6,1vvAvsaOhFSHDBXm7kyb4ycCIJFkHJHwv,1sR6LH2kM5Tl1sVSEA5VVasMMsqsBIL57,1Hr92tHnIU0uxaj8FMn3y9k5iNqAvs7o3,1X9tUxbZWLyGUN9ywSNN_mm98PcT_zx8w,1Sun0OCBm0eqdqf92BNy_NVrfcwve5hE6,1jrjp2I51blCBr29xddyLbtiv1-_HyN-v,1qV5Uk3_-xmKhDlA8hCuzlPo5ybNRHXbA,1NkZn9db-vWN8wOwpUTNpvCMcqNc529Yp,1oMUg-PaVKJQTAbIO6DslcctEcPWcz3EE,1HYeN5Glvlcs22hPKhRcUtocZAliJUi-m,1jK79zzUGfFe3YEk_FdYVMrO5r5HWtWHY,1ZeZKNDRC99yRcUfCtwIR1h3GCpsHmyuB,1IA7EjDkOnnOwLdEemCkejYS7KbB5X8Ru,1n15cTPHub4AuWv2djk0Rgn5E6ffxD3i4

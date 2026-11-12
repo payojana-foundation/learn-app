@@ -1,0 +1,64 @@
+# c077 approve list, run review 2026-11-11
+# teacher: អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង
+# course: 6-បច្ចេកពុទ្ធ
+# queued 57 · converted 55 · approved 0 · failed 0 · not started 2
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	AJAD000MSS001	10PNf5UsZSdqvCoXgS7czUKzrT7OcK8ZF	DRAFT	75.5	-18.2	ok	https://media.84000.digital/audio/fda829f1c8240ce8-a64.mp3	១ បច្ចេកពុទ្ធ (បាត់ភាគដំបូង ១ភាគ).mp4
+2	AJAD000MSS002	1mmxK3TALVv0zQziUbpw7yviYoUrPRrzQ	DRAFT	46.2	-18.1	ok	https://media.84000.digital/audio/77212c3c8ec7b7a1-a64.mp3	២ បច្ចេកពុទ្ធ.mp4
+3	AJAD000MSS003	1yQUkE5ZdH90YuDV8rqa8xsBFLiUI4KE0	DRAFT	47.8	-18.2	ok	https://media.84000.digital/audio/2e1bc2fd5098e03b-a64.mp3	៣ បច្ចេកពុទ្ធ (ដាច់ ១ ភាគបន្ទាប់).mp4
+4	AJAD000MSS004	12oHU0mweGrEF2lImOP1rU3nDDzVsnXKk	DRAFT	57.3	-18.1	ok	https://media.84000.digital/audio/7ea169a19540a8c6-a64.mp3	៤ បច្ចេកពុទ្ធ.mp4
+5	AJAD000MSS005	1T57pAoh1nMEVZT3JN0cfF6DbebREX7Y-	DRAFT	50.6	-18.2	ok	https://media.84000.digital/audio/ebf963b6865e1710-a64.mp3	៥ បច្ចេកពុទ្ធ.mp4
+6	AJAD000MSS006	1YarDQ8HWSe0_IoS8v7JZn8WxyfyXwty6	DRAFT	48.8	-18.2	ok	https://media.84000.digital/audio/67a2c72330b2f265-a64.mp3	៦ បច្ចេកពុទ្ធ.mp4
+7	AJAD000MSS007	1NkJ_sag_SmSEquv9X0mgNuYLtQYoba0e	DRAFT	46.5	-18.2	ok	https://media.84000.digital/audio/39faecaca2359619-a64.mp3	៧ បច្ចេកពុទ្ធ.mp4
+9	AJAD000MSS009	1wScAG-zTfKhw3XNPCTO-990Gut-G3MOY	DRAFT	45.1	-18.2	ok	https://media.84000.digital/audio/0e9fbb317856931f-a64.mp3	៩ បច្ចេកពុទ្ធ.mp4
+10	AJAD000MSS010	1LrC301GWfT8FJVTuZ1Q1A8VYzbpTyM5N	DRAFT	43.3	-18.1	ok	https://media.84000.digital/audio/966bd0ccded94aea-a64.mp3	១០ បច្ចេកពុទ្ធ.mp4
+11	AJAD000MSS011	1i0vC0UF3q309WipZyfGJ2gGJ8Jjb-HQF	DRAFT	53.9	-18.2	ok	https://media.84000.digital/audio/7015e82de0edaaee-a64.mp3	១១ បច្ចេកពុទ្ធ.mp4
+12	AJAD000MSS012	1bj5CZsPtIeXBsdf2mvn-L4pofjeEGjX0	DRAFT	50.5	-18.2	ok	https://media.84000.digital/audio/fa2919b63c2775b8-a64.mp3	១២ បច្ចេកពុទ្ធ.mp4
+13	AJAD000MSS013	1CRGk31Vg0z2d1Pezgj8j6ajAsSc9OBD1	DRAFT	51.6	-18.2	ok	https://media.84000.digital/audio/b37cf8ac8d2c3d7b-a64.mp3	១៣ បច្ចេកពុទ្ធ.mp4
+14	AJAD000MSS014	1eVEKzZ6km8TESzQJ41gEVdm-hemFGcAs	DRAFT	53.0	-18.2	ok	https://media.84000.digital/audio/5d541f41797f44ea-a64.mp3	១៤ បច្ចេកពុទ្ធ.mp4
+15	AJAD000MSS015	1JEOWeN6G-Wg0iJjuO6WO42ypBaDeygiU	DRAFT	21.8	-18.1	ok	https://media.84000.digital/audio/697f82357e8566e2-a64.mp3	១៥​ បច្ចេកពុទ្ធ.mp4
+16	AJAD000MSS016	1gdXtG6rRP2VTdvmfcrdiG1vEkKp6syte	DRAFT	43.3	-18.2	ok	https://media.84000.digital/audio/f6436dec24039b67-a64.mp3	១៦ បច្ចេកពុទ្ធ.mp4
+17	AJAD000MSS017	1qaC-8DlsmuyebzrMxQdHzHCWuOUlPqTg	DRAFT	43.6	-18.2	ok	https://media.84000.digital/audio/000472a8d68eabb3-a64.mp3	១៧ បច្ចេកពុទ្ធ.mp4
+18	AJAD000MSS018	1u60rej0-q6yXP7o4lSseJkoB-tGg8ML7	DRAFT	50.3	-18.1	ok	https://media.84000.digital/audio/c555a015eb069f5d-a64.mp3	១៨ បច្ចេកពុទ្ធ.mp4
+19	AJAD000MSS019	1oa0K8_8Guu3eo8jRBcRNrPZFBjMk5ar9	DRAFT	44.1	-18.1	ok	https://media.84000.digital/audio/b493cb9a3fd25e74-a64.mp3	១៩ បច្ចេកពុទ្ធ.mp4
+20	AJAD000MSS020	1_4oIxWVIToHiLuvPAuETsaChAWnuSe_S	DRAFT	51.6	-18.2	ok	https://media.84000.digital/audio/6878ded25caa88b5-a64.mp3	២០ បច្ចេកពុទ្ធ.mp4
+21	AJAD000MSS021	1X4VgyQK6iizuOFRgVoS9dAgGHQOCR8yN	DRAFT	42.8	-18	ok	https://media.84000.digital/audio/8f6c556fb9c5baf4-a64.mp3	២១ បច្ចេកពុទ្ធ.mp4
+22	AJAD000MSS022	18k5MI5UPqKoHK44kqkhuvO7BX5m2TMfH	DRAFT	45.3	-18.2	ok	https://media.84000.digital/audio/a67af364d5f9202c-a64.mp3	២២ បច្ចេកពុទ្ធ.mp4
+24	AJAD000MSS024	1QxUyHgfQx0Gg-c2b-iEYnzRfaS3-kpkc	DRAFT	30.8	-18.2	ok	https://media.84000.digital/audio/9045cefd53d64014-a64.mp3	២៤ បច្ចេកពុទ្ធ.mp4
+25	AJAD000MSS025	1CMb4b-xudHH1S9PP4UWI8bl2-OImLJ3b	DRAFT	43.0	-18.2	ok	https://media.84000.digital/audio/d0a1320d7c6bc571-a64.mp3	២៥ បច្ចេកពុទ្ធ.mp4
+26	AJAD000MSS026	1DrZUyGIVqj4vgSsU_Kh_Sb4F8ARWZ2Bz	DRAFT	31.7	-18.2	ok	https://media.84000.digital/audio/dea8f73f8349c026-a64.mp3	២៦ បច្ចេកពុទ្ធ.mp4
+27	AJAD000MSS027	1eKKNK2dQMCmBv2UDNszBGJsVz5cYpKrA	DRAFT	41.0	-18.2	ok	https://media.84000.digital/audio/12c358f7f7de85a2-a64.mp3	២៧ បច្ចេកពុទ្ធ.mp4
+28	AJAD000MSS028	1CEq8-fJJHvArKCU-CS80BTwHi9nJTCiB	DRAFT	37.6	-18.2	ok	https://media.84000.digital/audio/627023ec96152441-a64.mp3	២៨ បច្ចេកពុទ្ធ.mp4
+29	AJAD000MSS029	1-D20FSpjV7XZ7c4AF_wrR0o0hy_sapt4	DRAFT	40.6	-18.2	ok	https://media.84000.digital/audio/0b1c6a8a3cddbc76-a64.mp3	២៩ បច្ចេកពុទ្ធ.mp4
+30	AJAD000MSS030	1jrV4nn3oRDhWEDtIXSxePTqarmbf_KuY	DRAFT	29.7	-18.2	ok	https://media.84000.digital/audio/ddab7dddfb0fce37-a64.mp3	៣០ បច្ចេកពុទ្ធ.mp4
+31	AJAD000MSS031	12xNlorWiPD_7x0eEh7f2WeJWo3uJSkt-	DRAFT	34.3	-18	ok	https://media.84000.digital/audio/b31bfb940b38cf94-a64.mp3	៣១ បច្ចេកពុទ្ធ.mp4
+32	AJAD000MSS032	12b88D_vUPle4aSzUsAOEpts0ZjW2hElf	DRAFT	35.7	-18.2	ok	https://media.84000.digital/audio/fab72c25bf39c82e-a64.mp3	៣២ បច្ចេកពុទ្ធ.mp4
+33	AJAD000MSS033	1H7XGuKrtzHAF3LfKoman41xVY95J6GxV	DRAFT	46.8	-18.2	ok	https://media.84000.digital/audio/657995cdf01e7ea7-a64.mp3	៣៣ បច្ចេកពុទ្ធ.mp4
+34	AJAD000MSS034	1NTqDhKB_FvVK-M09psMFqnTOi8Zf13BL	DRAFT	42.3	-18.2	ok	https://media.84000.digital/audio/b7ac88324839d727-a64.mp3	៣៤ បច្ចេកពុទ្ធ.mp4
+35	AJAD000MSS035	1K_cThhQAkHAoPfpPOaoXOIcs8vhJWmrd	DRAFT	32.1	-18.1	ok	https://media.84000.digital/audio/5aa3bb2208ee30ee-a64.mp3	៣៥ បច្ចេកពុទ្ធ.mp4
+36	AJAD000MSS036	1y6t3tG2UrZS2-43AOiaAa-A089gBCQN0	DRAFT	34.6	-18.1	ok	https://media.84000.digital/audio/05758e0cac3b88f5-a64.mp3	៣៦ បច្ចេកពុទ្ធ.mp4
+37	AJAD000MSS037	1AwTVfkShtNeNz5ls6iOd3R7laGeyyOjI	DRAFT	37.0	-18	ok	https://media.84000.digital/audio/627dfd4cbfd1558a-a64.mp3	៣៧ បច្ចេកពុទ្ធ.mp4
+38	AJAD000MSS038	1b5HVtXsXL-PXxHRO-YRhO-CRgH3-ROZe	DRAFT	31.8	-18.1	ok	https://media.84000.digital/audio/480ca8f2eb83df64-a64.mp3	៣៨ បច្ចេកពុទ្ធ.mp4
+39	AJAD000MSS039	1IbMUIod-VG1w8c20vgCVUeEUdZF-0VRp	DRAFT	19.1	-18.1	ok	https://media.84000.digital/audio/f883f7fc2e6f3a27-a64.mp3	៣៩ បច្ចេកពុទ្ធ.mp4
+40	AJAD000MSS040	1UkoczwOq9_PHmIaP56nsXldq7E0OhFTB	DRAFT	40.3	-18.2	ok	https://media.84000.digital/audio/cfa95f8c82a4affb-a64.mp3	៤០ បច្ចេកពុទ្ធ.mp4
+41	AJAD000MSS041	1ETIv3U1Ec16vGsKVYNQyLxSQ7Mw6EYpg	DRAFT	32.5	-18.2	ok	https://media.84000.digital/audio/5cb4266bfb04f302-a64.mp3	៤១ បច្ចេកពុទ្ធ.mp4
+42	AJAD000MSS042	12Qm64BZRqLf9JetFxy9sUdIG1Y0nY82z	DRAFT	38.8	-18.2	ok	https://media.84000.digital/audio/fa0f0f33112f3f20-a64.mp3	៤២ បច្ចេកពុទ្ធ.mp4
+43	AJAD000MSS043	1fUqa5hZUMHkYelaQOsT7CEPCwpkcgowS	DRAFT	37.5	-18.2	ok	https://media.84000.digital/audio/b576324b7dcb2eec-a64.mp3	៤៣ បច្ចេកពុទ្ធ.mp4
+44	AJAD000MSS044	1MEyWqDCLIT3_kKmLRJ9EB1tc6FQYf_Kd	DRAFT	40.8	-18.2	ok	https://media.84000.digital/audio/cde719ed6e8e3e5d-a64.mp3	៤៤ បច្ចេកពុទ្ធ.mp4
+45	AJAD000MSS045	16zipqMBXNL5T6ZZiCxGKdtMJ6i2yiHg6	DRAFT	48.9	-18.1	ok	https://media.84000.digital/audio/90a550bb0ab4f273-a64.mp3	៤៥ បច្ចេកពុទ្ធ.mp4
+46	AJAD000MSS046	1jejuwSsJb00kpZoBuUbvq6h3iAkMSQov	DRAFT	40.5	-18	ok	https://media.84000.digital/audio/949cca52c55af3ed-a64.mp3	៤៦ បច្ចេកពុទ្ធ.mp4
+47	AJAD000MSS047	1fgy4T2md-aP8mafcUXvT-Co0NZKCJZcU	DRAFT	47.0	-18.2	ok	https://media.84000.digital/audio/dbac0677bb4a09e8-a64.mp3	៤៧ បច្ចេកពុទ្ធ.mp4
+48	AJAD000MSS048	1eCWF5r-FERZA_i1XM9QwJzcP13Tmdttx	DRAFT	46.0	-18.1	ok	https://media.84000.digital/audio/06b936ffb118f2ac-a64.mp3	៤៨ បច្ចេកពុទ្ធ.mp4
+49	AJAD000MSS049	12jQ7ccdBU3-dU87L4pPOqY3vvLAyGzL5	DRAFT	41.2	-18.1	ok	https://media.84000.digital/audio/2f5825fa3d785887-a64.mp3	៤៩ បច្ចេកពុទ្ធ.mp4
+50	AJAD000MSS050	1bNGt7K8g9WHy5uh3TidiidciIcYwhzB3	DRAFT	45.2	-18.1	ok	https://media.84000.digital/audio/698a113d5bca32b6-a64.mp3	៥០ បច្ចេកពុទ្ធ.mp4
+51	AJAD000MSS051	1x8xoJFzUDTHMR9CRPVdlpmuG9G_LttKr	DRAFT	52.3	-18.2	ok	https://media.84000.digital/audio/01dc45a8c853c092-a64.mp3	៥១ បច្ចេកពុទ្ធ.mp4
+52	AJAD000MSS052	1KFSljlyPY8CngJkj8HT1TjkbRcQLPQaS	DRAFT	22.3	-18.2	ok	https://media.84000.digital/audio/143d1413d176ce43-a64.mp3	៥២ បច្ចេកពុទ្ធ.mov
+53	AJAD000MSS053	1aa7IHd1lQQTPXJkn_2l1vatFHY-MqWZN	DRAFT	42.3	-18.1	ok	https://media.84000.digital/audio/5b76941b9c9df3e5-a64.mp3	៥៣ បច្ចេកពុទ្ធ.mp4
+54	AJAD000MSS054	18qsA6gIAZvdfTXcv_WoTqcSGSyIk1eGV	DRAFT	54.7	-18.2	ok	https://media.84000.digital/audio/e956dbcc564ea7b6-a64.mp3	៥៤ បច្ចេកពុទ្ធ.mp4
+55	AJAD000MSS055	1tXnJkRFWuP3viiVT_JOraPWuDn_ja6LF	DRAFT	49.3	-18.2	ok	https://media.84000.digital/audio/55e2dfac69dec417-a64.mp3	៥៥ បច្ចេកពុទ្ធ.mp4
+56	AJAD000MSS056	1bKkkofRmdITeBfvesWUZLTLi9ain6et1	DRAFT	48.0	-18.2	ok	https://media.84000.digital/audio/240472a9237b2337-a64.mp3	៥៦ បច្ចេកពុទ្ធ.mp4
+57	AJAD000MSS057	1YqELc0mOs8M64gJP319oXyX984KJt8iJ	DRAFT	50.1	-18.1	ok	https://media.84000.digital/audio/4e5b6a4b381d454a-a64.mp3	៥៧ បច្ចេកពុទ្ធ.mp4
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+10PNf5UsZSdqvCoXgS7czUKzrT7OcK8ZF,1mmxK3TALVv0zQziUbpw7yviYoUrPRrzQ,1yQUkE5ZdH90YuDV8rqa8xsBFLiUI4KE0,12oHU0mweGrEF2lImOP1rU3nDDzVsnXKk,1T57pAoh1nMEVZT3JN0cfF6DbebREX7Y-,1YarDQ8HWSe0_IoS8v7JZn8WxyfyXwty6,1NkJ_sag_SmSEquv9X0mgNuYLtQYoba0e,1wScAG-zTfKhw3XNPCTO-990Gut-G3MOY,1LrC301GWfT8FJVTuZ1Q1A8VYzbpTyM5N,1i0vC0UF3q309WipZyfGJ2gGJ8Jjb-HQF,1bj5CZsPtIeXBsdf2mvn-L4pofjeEGjX0,1CRGk31Vg0z2d1Pezgj8j6ajAsSc9OBD1,1eVEKzZ6km8TESzQJ41gEVdm-hemFGcAs,1JEOWeN6G-Wg0iJjuO6WO42ypBaDeygiU,1gdXtG6rRP2VTdvmfcrdiG1vEkKp6syte,1qaC-8DlsmuyebzrMxQdHzHCWuOUlPqTg,1u60rej0-q6yXP7o4lSseJkoB-tGg8ML7,1oa0K8_8Guu3eo8jRBcRNrPZFBjMk5ar9,1_4oIxWVIToHiLuvPAuETsaChAWnuSe_S,1X4VgyQK6iizuOFRgVoS9dAgGHQOCR8yN,18k5MI5UPqKoHK44kqkhuvO7BX5m2TMfH,1QxUyHgfQx0Gg-c2b-iEYnzRfaS3-kpkc,1CMb4b-xudHH1S9PP4UWI8bl2-OImLJ3b,1DrZUyGIVqj4vgSsU_Kh_Sb4F8ARWZ2Bz,1eKKNK2dQMCmBv2UDNszBGJsVz5cYpKrA,1CEq8-fJJHvArKCU-CS80BTwHi9nJTCiB,1-D20FSpjV7XZ7c4AF_wrR0o0hy_sapt4,1jrV4nn3oRDhWEDtIXSxePTqarmbf_KuY,12xNlorWiPD_7x0eEh7f2WeJWo3uJSkt-,12b88D_vUPle4aSzUsAOEpts0ZjW2hElf,1H7XGuKrtzHAF3LfKoman41xVY95J6GxV,1NTqDhKB_FvVK-M09psMFqnTOi8Zf13BL,1K_cThhQAkHAoPfpPOaoXOIcs8vhJWmrd,1y6t3tG2UrZS2-43AOiaAa-A089gBCQN0,1AwTVfkShtNeNz5ls6iOd3R7laGeyyOjI,1b5HVtXsXL-PXxHRO-YRhO-CRgH3-ROZe,1IbMUIod-VG1w8c20vgCVUeEUdZF-0VRp,1UkoczwOq9_PHmIaP56nsXldq7E0OhFTB,1ETIv3U1Ec16vGsKVYNQyLxSQ7Mw6EYpg,12Qm64BZRqLf9JetFxy9sUdIG1Y0nY82z,1fUqa5hZUMHkYelaQOsT7CEPCwpkcgowS,1MEyWqDCLIT3_kKmLRJ9EB1tc6FQYf_Kd,16zipqMBXNL5T6ZZiCxGKdtMJ6i2yiHg6,1jejuwSsJb00kpZoBuUbvq6h3iAkMSQov,1fgy4T2md-aP8mafcUXvT-Co0NZKCJZcU,1eCWF5r-FERZA_i1XM9QwJzcP13Tmdttx,12jQ7ccdBU3-dU87L4pPOqY3vvLAyGzL5,1bNGt7K8g9WHy5uh3TidiidciIcYwhzB3,1x8xoJFzUDTHMR9CRPVdlpmuG9G_LttKr,1KFSljlyPY8CngJkj8HT1TjkbRcQLPQaS,1aa7IHd1lQQTPXJkn_2l1vatFHY-MqWZN,18qsA6gIAZvdfTXcv_WoTqcSGSyIk1eGV,1tXnJkRFWuP3viiVT_JOraPWuDn_ja6LF,1bKkkofRmdITeBfvesWUZLTLi9ain6et1,1YqELc0mOs8M64gJP319oXyX984KJt8iJ

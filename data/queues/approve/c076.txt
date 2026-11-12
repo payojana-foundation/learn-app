@@ -1,0 +1,40 @@
+# c076 approve list, run review 2026-11-11
+# teacher: អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង
+# course: 5-អដ្ឋកថាជាតក
+# queued 33 · converted 31 · approved 0 · failed 0 · not started 2
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	AJAD000MSA001	1R6Gawtrk3zdivr4K8zhvuhzLZU0IiwiD	DRAFT	18.0	-18.2	ok	https://media.84000.digital/audio/711769ece382c188-a64.mp3	1 អដ្ឋកថាជាតក.mp4
+2	AJAD000MSA002	1VZdTVD_eT2jayRIAEyooS5sHuyWixhk_	DRAFT	47.4	-18.2	ok	https://media.84000.digital/audio/5b34eb4420b1cff5-a64.mp3	2 អដ្ឋកថាជាតក.mp4
+3	AJAD000MSA003	1kPzVU3zXnv41Zzr6QlQNvGPSXn9TH1T1	DRAFT	45.8	-18.1	ok	https://media.84000.digital/audio/3694369d8bebbbb9-a64.mp3	3 អដ្ឋកថាជាតក.mp4
+4	AJAD000MSA004	1QRbBD6V6oW_eNW-iQwPRflY_wmvQbAyP	DRAFT	52.6	-18.2	ok	https://media.84000.digital/audio/d55b934fc7214055-a64.mp3	4 អដ្ឋកថាជាតក.mp4
+5	AJAD000MSA005	1miRS4QfrOmd37cA-fksE8NFhYTDJxN_f	DRAFT	53.9	-18.1	ok	https://media.84000.digital/audio/4a18b8ae7a52a38b-a64.mp3	5 អដ្ឋកថាជាតក.mp4
+6	AJAD000MSA006	1aeY80BJMuPpRwAA0ongvNhRu4r6gAnjK	DRAFT	49.6	-18.1	ok	https://media.84000.digital/audio/8ee329601efecfbc-a64.mp3	6 អដ្ឋកថាជាតក.mp4
+7	AJAD000MSA007	1Pt1hWvmnGOnXFgMcwaAONpkXi3TYQrZT	DRAFT	49.1	-18	ok	https://media.84000.digital/audio/1f354946699ec1b7-a64.mp3	7 អដ្ឋកថាជាតក.mp4
+8	AJAD000MSA008	1rME8l8eLL2h0g2_3tAUeKwaSMt3bFoKK	DRAFT	42.6	-18.1	ok	https://media.84000.digital/audio/7cf7fbda37820e18-a64.mp3	8 អដ្ឋកថាជាតក.mp4
+9	AJAD000MSA009	1jNWQCCEyPWew1eqYRmHywhzMqUsue3HI	DRAFT	48.6	-18.2	ok	https://media.84000.digital/audio/f72cd8abc760f22d-a64.mp3	9 អដ្ឋកថាជាតក.mp4
+10	AJAD000MSA010	14Al1dxk9LP89vPuH3JkhSNpYW2cC0MjC	DRAFT	42.0	-18.1	ok	https://media.84000.digital/audio/05a04abb82743b06-a64.mp3	10 អដ្ឋកថាជាតក.mp4
+11	AJAD000MSA011	1dbOqIO5imPH4SFFXAgIC2K8dL3TTmlKy	DRAFT	46.1	-18	ok	https://media.84000.digital/audio/41ca5e618e93460b-a64.mp3	11 អដ្ឋកថាជាតក.mp4
+12	AJAD000MSA012	1qpa4k2iMgXgEHS_66ClPqSFF3z5viwzF	DRAFT	51.4	-18.2	ok	https://media.84000.digital/audio/d09c8df6193cff62-a64.mp3	12 អដ្ឋកថាជាតក.mp4
+13	AJAD000MSA013	1dAetTnkv5YaQ-SMQO7SUi72Sg97gu2AM	DRAFT	32.7	-18	ok	https://media.84000.digital/audio/23187621a90a4a0e-a64.mp3	13 អដ្ឋកថាជាតក.mp4
+14	AJAD000MSA014	1jbRZGXyvMwCnkpxA3xIFkoLfzc5waoRM	DRAFT	49.0	-18.2	ok	https://media.84000.digital/audio/70b8cb24387149ee-a64.mp3	14 អដ្ឋកថាជាតក.mp4
+15	AJAD000MSA015	135FjtyfCo6w2bPedQoq7Brji-GLlDNkN	DRAFT	50.0	-18.1	ok	https://media.84000.digital/audio/241e9861cfb3ecb0-a64.mp3	15 អដ្ឋកថាជាតក.mp4
+16	AJAD000MSA016	1cZPDUQcHavJ_wBKFTpS6osaaS4oLk0XW	DRAFT	48.0	-18.2	ok	https://media.84000.digital/audio/bc3a787aea3df679-a64.mp3	16 អដ្ឋកថាជាតក.mp4
+17	AJAD000MSA017	1xRQ3pLdYt3RaZ6e6nEe2qKWoaoFcR4BT	DRAFT	43.2	-18.2	ok	https://media.84000.digital/audio/a35b1eada3b89cb5-a64.mp3	17 អដ្ឋកថាជាតក ដាច់ភាគ (ត) ១ភាគ.mp4
+18	AJAD000MSA018	1ls8lJcAbeMNVqblqK-fW3MiSJFcNcxq6	DRAFT	46.1	-18.2	ok	https://media.84000.digital/audio/9b02d9927833f4ce-a64.mp3	18 អដ្ឋកថាជាតក.mp4
+19	AJAD000MSA019	1c1lwoOcMhmmPtmZJOM5rZLbElS1hRFY5	DRAFT	50.5	-18.2	ok	https://media.84000.digital/audio/84edc294635a7ceb-a64.mp3	19 អដ្ឋកថាជាតក.mp4
+20	AJAD000MSA020	1NgtYdGve_HVNIpiDpRlAuYh5VtJHZ29Y	DRAFT	44.4	-18.1	ok	https://media.84000.digital/audio/f7f3920853c70bfa-a64.mp3	20 អដ្ឋកថាជាតក ដាច់ភាគ (ត) ១ភាគ.mp4
+21	AJAD000MSA021	1u_VlEXCnvDmk9y6-H8CocMqjX4Uh0LYL	DRAFT	42.4	-18.2	ok	https://media.84000.digital/audio/0d241831351d5a42-a64.mp3	21 អដ្ឋកថាជាតក.mp4
+22	AJAD000MSA022	1dVm_j61P6WnFbyX-OlQUBrEB6I5G6qvr	DRAFT	36.6	-18.1	ok	https://media.84000.digital/audio/616fcd7b0f225d38-a64.mp3	22 អដ្ឋកថាជាតក.mp4
+24	AJAD000MSA024	1cZfUzZu2eJlolqjZjqdiXXa4x9_KDPip	DRAFT	47.3	-18.1	ok	https://media.84000.digital/audio/35bb7d70fdc103a7-a64.mp3	24 អដ្ឋកថាជាតក.mp4
+26	AJAD000MSA026	1do7HBO22rGEjCtOWp-KfNzi-yv2TXR1K	DRAFT	49.0	-18.2	ok	https://media.84000.digital/audio/4603af2b278ce34a-a64.mp3	26 អដ្ឋកថាជាតក.mp4
+27	AJAD000MSA027	1TU3eEc6YQok9ZpZIIyytmI5HICITpCIf	DRAFT	44.9	-18.2	ok	https://media.84000.digital/audio/c8bfb6f9447a7143-a64.mp3	27 អដ្ឋកថាជាតក.mp4
+28	AJAD000MSA028	1ry9k9C2cOZrARsZYaWIk9_zWe0YNq6WB	DRAFT	44.3	-18.2	ok	https://media.84000.digital/audio/be84b2fcdb67ac5f-a64.mp3	28 អដ្ឋកថាជាតក.mp4
+29	AJAD000MSA029	1NNG7WX47Y8pWDzQrLVT5wxslgT8banCl	DRAFT	50.4	-18.2	ok	https://media.84000.digital/audio/52495bf5333ea3f1-a64.mp3	29 អដ្ឋកថាជាតក.mp4
+30	AJAD000MSA030	1AeXVv4sOeZJCZHPrXNG13owoZcEaIxrD	DRAFT	52.1	-18.2	ok	https://media.84000.digital/audio/442b0387ce7845a6-a64.mp3	30 អដ្ឋកថាជាតក.mp4
+31	AJAD000MSA031	1FyQoS4YR3iQky49vJCmrye6zus8GrdOk	DRAFT	44.1	-18.1	ok	https://media.84000.digital/audio/25ba607dab628c41-a64.mp3	31 អដ្ឋកថាជាតក.mp4
+32	AJAD000MSA032	1AulRC9CZ4Pe30kWfLj3p0OZ41F1_7Gew	DRAFT	40.4	-18.1	ok	https://media.84000.digital/audio/f367a848985af36e-a64.mp3	32 អដ្ឋកថាជាតក.mp4
+33	AJAD000MSA033	12Yf1_Ea2gmmCe59zvXIhjURcoLsNdICS	DRAFT	47.5	-18.2	ok	https://media.84000.digital/audio/a78a8dbaa2861d07-a64.mp3	33 អដ្ឋកថាជាតក.mp4
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1R6Gawtrk3zdivr4K8zhvuhzLZU0IiwiD,1VZdTVD_eT2jayRIAEyooS5sHuyWixhk_,1kPzVU3zXnv41Zzr6QlQNvGPSXn9TH1T1,1QRbBD6V6oW_eNW-iQwPRflY_wmvQbAyP,1miRS4QfrOmd37cA-fksE8NFhYTDJxN_f,1aeY80BJMuPpRwAA0ongvNhRu4r6gAnjK,1Pt1hWvmnGOnXFgMcwaAONpkXi3TYQrZT,1rME8l8eLL2h0g2_3tAUeKwaSMt3bFoKK,1jNWQCCEyPWew1eqYRmHywhzMqUsue3HI,14Al1dxk9LP89vPuH3JkhSNpYW2cC0MjC,1dbOqIO5imPH4SFFXAgIC2K8dL3TTmlKy,1qpa4k2iMgXgEHS_66ClPqSFF3z5viwzF,1dAetTnkv5YaQ-SMQO7SUi72Sg97gu2AM,1jbRZGXyvMwCnkpxA3xIFkoLfzc5waoRM,135FjtyfCo6w2bPedQoq7Brji-GLlDNkN,1cZPDUQcHavJ_wBKFTpS6osaaS4oLk0XW,1xRQ3pLdYt3RaZ6e6nEe2qKWoaoFcR4BT,1ls8lJcAbeMNVqblqK-fW3MiSJFcNcxq6,1c1lwoOcMhmmPtmZJOM5rZLbElS1hRFY5,1NgtYdGve_HVNIpiDpRlAuYh5VtJHZ29Y,1u_VlEXCnvDmk9y6-H8CocMqjX4Uh0LYL,1dVm_j61P6WnFbyX-OlQUBrEB6I5G6qvr,1cZfUzZu2eJlolqjZjqdiXXa4x9_KDPip,1do7HBO22rGEjCtOWp-KfNzi-yv2TXR1K,1TU3eEc6YQok9ZpZIIyytmI5HICITpCIf,1ry9k9C2cOZrARsZYaWIk9_zWe0YNq6WB,1NNG7WX47Y8pWDzQrLVT5wxslgT8banCl,1AeXVv4sOeZJCZHPrXNG13owoZcEaIxrD,1FyQoS4YR3iQky49vJCmrye6zus8GrdOk,1AulRC9CZ4Pe30kWfLj3p0OZ41F1_7Gew,12Yf1_Ea2gmmCe59zvXIhjURcoLsNdICS

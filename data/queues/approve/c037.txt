@@ -1,0 +1,31 @@
+# c037 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
+# course: 6-បិដកលេខ២១
+# queued 24 · converted 22 · approved 0 · failed 0 · not started 2
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	ASUT021YY0001	1CQJEpXDtcEBE6CiEljjvGAULEc58ciJK	DRAFT	117.0	-18.2	ok	https://media.84000.digital/audio/25c082ea7f8425d6-a64.mp3	បិដកលេខ២១-០១ កកចូបមសូត្រ ការនៅច្រឡូកច្រឡំជាមួយភិក្ខុនី និងឆាន់ក្នុងអាសនៈតែមួយ
+3	ASUT021YY0003	1trEIUyXiJT1aktQemKAi5hYuuaS0WvID	DRAFT	115.3	-18.2	ok	https://media.84000.digital/audio/820cade904e9d38f-a64.mp3	បិដកលេខ២១-០៣ អលគទ្ទូបមសូត្រ អរិដ្ឋភិក្ខុមានទិដ្ឋិអាក្រក់
+4	ASUT021YY0004	1Soi29yaXuSuUUo0kfvsu9LrK8WownpXp	DRAFT	118.9	-18.2	ok	https://media.84000.digital/audio/c02bc769ab28e6df-a64.mp3	បិដកលេខ២១-០៤ អលគទ្ទូបមសូត្រ ការសិក្សាពុទ្ធវចនៈដោយល្អ
+5	ASUT021YY0005	1chxy1IByaYrOc1gzO-aHTV9zKNyKUe9c	DRAFT	120.4	-18.2	ok	https://media.84000.digital/audio/b639a23fc90a868f-a64.mp3	បិដកលេខ២១-០៥ អលគទ្ទូបមសូត្រ ការលះបង់តណ្ហា ទិដ្ឋិ មានះ
+6	ASUT021YY0006	1m5DELaziZxgsMAc5gER9mAFHo79fE8-V	DRAFT	118.9	-18.3	ok	https://media.84000.digital/audio/3154baf91451f4a7-a64.mp3	បិដកលេខ២១-០៦ អលគទ្ទូបមសូត្រ ពួកទេវតា ព្រហ្ម រកព្រះខីណាស្រពមិនឃើញ
+7	ASUT021YY0007	1qTVz-5UtvqpsFV1pvOT2fP8feez3dj9_	DRAFT	117.6	-18.2	ok	https://media.84000.digital/audio/160fe38d4e7e2f52-a64.mp3	បិដកលេខ២១-០៧ វម្មិកសូត្រ ទេវតាសួរប្រស្នា១៥ នឹងកុមារកស្សបៈ
+8	ASUT021YY0008	1d9As_1x1VsmcodwzGtm8Yb7ey6QIBcqy	DRAFT	117.8	-18.2	ok	https://media.84000.digital/audio/d989d40392cdb68f-a64.mp3	បិដកលេខ២១-០៨ វម្មិកសូត្រ ចម្លើយប្រស្នាទាំង ១៥ របស់ព្រះពុទ្ធភាគបញ្ចប់
+9	ASUT021YY0009	1IGBeZcPpHs4MaKqjA3e4RFbmItcEyOZn	DRAFT	120.4	-18.1	ok	https://media.84000.digital/audio/c877dea09800345d-a64.mp3	បិដកលេខ២១-០៩ រថវិនីតសូត្រ កថាវត្ថុ និងអ្នកបដិបត្តិ ៤ ប្រភេទ
+10	ASUT021YY0010	1GbwUXdZLDwmhC9oiD9rtpmh_wtkb-Fe6	DRAFT	116.3	-18.6	cap	https://media.84000.digital/audio/17586ed0e6fc1679-a64.mp3	បិដកលេខ២១-១០ រថវិនីតសូត្រ សំសគ្គៈច្រឡូកច្រឡំមាន ៥ យ៉ាង
+11	ASUT021YY0011	1a-ypH6-Ned34KP1Mm75jisWx20x033NW	DRAFT	118.8	-18.5	ok	https://media.84000.digital/audio/49a0d3866ddbcabe-a64.mp3	បិដកលេខ២១-១១ រថវិនីតសូត្រ ការបានលាភ ៥ យ៉ាង ការសរសើរព្រះមន្តាណីបុត្រ
+12	ASUT021YY0012	1okeSGDGnCmYM41TPd_rX5hm2S6LnRwAU	DRAFT	119.5	-18.1	ok	https://media.84000.digital/audio/0f8a09648458cd53-a64.mp3	បិដកលេខ២១-១២ រថវិនីតសូត្រ សំណួរព្រះសារីបុត្រពីវិសុទ្ធិ ៧ ប្រការ
+13	ASUT021YY0013	1thaJ84NQnsa-Um6EWf1qsTyWE08w-Rho	DRAFT	120.5	-18.1	ok	https://media.84000.digital/audio/5d49b7c7d5d118f6-a64.mp3	បិដកលេខ២១-១៣ និវាបសូត្រ ការប្រៀបធៀបម្រឹគនិងការប្រមាទ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បដិកលេខ២១
+14	ASUT021YY0014	1MLSGfL_UpgU0NNTaFwMIXnCli2ddCUhP	DRAFT	119.9	-18.2	ok	https://media.84000.digital/audio/4e01e33a19122a43-a64.mp3	បិដកលេខ២១-១៤ បាសរាសិសូត្រ ការស្វែករកមិនប្រសើរតើដូចម្តេច?/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បដិកលេខ២១
+15	ASUT021YY0015	1lBKS-7moZL_f-YZ6QTDEUHA95hPlQZ4P	DRAFT	120.6	-18.1	ok	https://media.84000.digital/audio/241b68e217b629f6-a64.mp3	បិដកលេខ២១-១៥ បាសរាសិសូត្រ ការស្វែករកប្រសើរតើដូចម្តេច?/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បដិកលេខ២១
+17	ASUT021YY0017	1podoZk4X7XPGrWJfmd9r5O7Nt68N11vX	DRAFT	112.0	-18.2	ok	https://media.84000.digital/audio/063ef188b34e711e-a64.mp3	បិដកលេខ២១-១៧ បាសរាសិសូត្រ ការយាងទៅប្រោសដល់បញ្ចវគ្គីយតាបស/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី
+18	ASUT021YY0018	1QIP9kUyMnyXFRwF1cbXRIH41ouB09NIa	DRAFT	117.4	-18.2	ok	https://media.84000.digital/audio/464531b334a1ab9e-a64.mp3	បិដកលេខ២១-១៨ បាសរាសិសូត្រ ជាប់ចំណងរបស់មារដោយមិនពិចារណាបច្ច័យ៤ /ភិក្ខុអគ្គចិត្តោ យ៉ុន យី
+19	ASUT021YY0019	1x-JGQ3IQYOOEZawOJ0E4JAYkHGSG6PcJ	DRAFT	113.2	-18.2	ok	https://media.84000.digital/audio/8d2d8a1eecc9d060-a64.mp3	បិដកលេខ២១-១៩ ចូឡហត្ថិបទោបមសូត្រ អំពីៈឧបមាអ្នកទៅរកដំរីក្នុងព្រៃ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី
+20	ASUT021YY0020	1xR-NQV8jzxApoZebPYcsu-U7kQBLYvIB	DRAFT	118.7	-18.2	ok	https://media.84000.digital/audio/29f231c26d09f5ee-a64.mp3	បិដកលេខ២១-២០ ចូឡហត្ថិបទោបមសូត្រ ការប្រកាសសម្តែងធម៌មានលម្អ៣បទ /ភិក្ខុអគ្គចិត្តោ យ៉ុន យី
+21	ASUT021YY0021	1e15sdv0NExOXCb8uCj_SGemHE_5cudU2	DRAFT	112.1	-18.2	ok	https://media.84000.digital/audio/b84c8502b5c45d58-a64.mp3	បិដកលេខ២១-២១ ចូឡហត្ថិបទោបមសូត្រ ការសង្រួមក្នុងសីលរបស់ភិក្ខុ
+22	ASUT021YY0022	1utzjC_27h2me8uC1LDAoP-uCbsnjoF_k	DRAFT	111.5	-18.2	ok	https://media.84000.digital/audio/c00648c373ea0171-a64.mp3	បិដកលេខ២១-២២ មហាហត្ថិបទោបមសូត្រ កុសលណាមួយប្រជុំចុះក្នុងសច្ចៈ៤
+23	ASUT021YY0023	1vP36aqzJS-FpO5uLy26MVhs2nYgArEwA	DRAFT	117.5	-18.2	ok	https://media.84000.digital/audio/b1c83615663a06f2-a64.mp3	បិដកលេខ២១-២៣ មហាហត្ថិបទោបមសូត្រ ការលះបង់នូវសេចក្តីប្រកាន់ក្នុងធាតុ
+24	ASUT021YY0024	1wr9O6GhLSijGZYa0AIkZ88I9GXWAx_MY	DRAFT	143.8	-18.2	ok	https://media.84000.digital/audio/ed043dbb6d00a8c5-a64.mp3	បិដកលេខ២១-២៤ មហាសារោបមសូត្រ ការប្រៀបធៀបអ្នករកខ្លឹមឈើ
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1CQJEpXDtcEBE6CiEljjvGAULEc58ciJK,1trEIUyXiJT1aktQemKAi5hYuuaS0WvID,1Soi29yaXuSuUUo0kfvsu9LrK8WownpXp,1chxy1IByaYrOc1gzO-aHTV9zKNyKUe9c,1m5DELaziZxgsMAc5gER9mAFHo79fE8-V,1qTVz-5UtvqpsFV1pvOT2fP8feez3dj9_,1d9As_1x1VsmcodwzGtm8Yb7ey6QIBcqy,1IGBeZcPpHs4MaKqjA3e4RFbmItcEyOZn,1GbwUXdZLDwmhC9oiD9rtpmh_wtkb-Fe6,1a-ypH6-Ned34KP1Mm75jisWx20x033NW,1okeSGDGnCmYM41TPd_rX5hm2S6LnRwAU,1thaJ84NQnsa-Um6EWf1qsTyWE08w-Rho,1MLSGfL_UpgU0NNTaFwMIXnCli2ddCUhP,1lBKS-7moZL_f-YZ6QTDEUHA95hPlQZ4P,1podoZk4X7XPGrWJfmd9r5O7Nt68N11vX,1QIP9kUyMnyXFRwF1cbXRIH41ouB09NIa,1x-JGQ3IQYOOEZawOJ0E4JAYkHGSG6PcJ,1xR-NQV8jzxApoZebPYcsu-U7kQBLYvIB,1e15sdv0NExOXCb8uCj_SGemHE_5cudU2,1utzjC_27h2me8uC1LDAoP-uCbsnjoF_k,1vP36aqzJS-FpO5uLy26MVhs2nYgArEwA,1wr9O6GhLSijGZYa0AIkZ88I9GXWAx_MY

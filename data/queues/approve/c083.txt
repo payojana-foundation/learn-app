@@ -1,7 +1,7 @@
 # c083 approve list, run review 2026-11-11
 # teacher: លោកម្ចាស់គ្រូ ឡេង ស៊ីដែន
 # course: 3-បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី
-# queued 9 · converted 9 · approved 0 · failed 0
+# queued 9 · converted 9 · approved 0 · failed 0 · not started 0
 # play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	d-1jhUWczHA9YV8x_AnOszEVEWTJvs8-PRF	1jhUWczHA9YV8x_AnOszEVEWTJvs8-PRF	DRAFT	12.9	-18.2	ok	https://media.84000.digital/audio/043b2e4253bc39fd-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០១(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)
@@ -14,5 +14,5 @@
 8	d-14RM_KEOdwMMTNbW3D7INUT0k-Py6HHuW	14RM_KEOdwMMTNbW3D7INUT0k-Py6HHuW	DRAFT	12.5	-18.2	ok	https://media.84000.digital/audio/4642a45de9254ba2-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០៨(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)
 9	d-1y8CLrM4H6UDVWwEPwJovrM3Jtfra-5Yh	1y8CLrM4H6UDVWwEPwJovrM3Jtfra-5Yh	DRAFT	14.6	-18.2	ok	https://media.84000.digital/audio/cc0d88973d9b71f2-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០៩(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)
 
-# approve-media drive_file_ids (DRAFT lessons only), comma separated:
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
 1jhUWczHA9YV8x_AnOszEVEWTJvs8-PRF,1XX0L9oFTGajz3LW2rzAmxJZ4LILprgkX,1oziqB77FBVsvqEVJAvJR5zoFkn-4idE2,1qPX-LQHMXINZjsvKLQoT_WdnqcLK9lB0,1ihWMmNfZb9kr38A5ZLgboptsjbf04kJy,1ABBxtbkbxHw1-GrzD7i-40yJ9NsJvfRX,14we7yK03Rql1xqgz0WNJ1fYlP9onUi4D,14RM_KEOdwMMTNbW3D7INUT0k-Py6HHuW,1y8CLrM4H6UDVWwEPwJovrM3Jtfra-5Yh

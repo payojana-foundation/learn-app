@@ -1,7 +1,7 @@
 # c072 approve list, run review 2026-11-11
 # teacher: អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង
 # course: 1-បិដកលេខ ១៤
-# queued 24 · converted 24 · approved 0 · failed 0
+# queued 24 · converted 24 · approved 0 · failed 0 · not started 0
 # play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	ASUT014MS0001	1p_JXs6Nbp6HodaTEaG2z2DTl0Cl7ZMlv	DRAFT	33.5	-18.1	ok	https://media.84000.digital/audio/50f87dd999a2e2fd-a64.mp3	០1-០២ ឧសភា ២០២៥-នាទីធម្មចរិយាការបដិបត្តិដ៍ប្រសើរ! សិក្សារក្នុង សុត្តន្តបិដក ទីឃនិកាយ បឋមភាគ (សីលក្ខន្ធវគ្គ)បិដកលេខ១៤
@@ -29,5 +29,5 @@
 23	ASUT014MS0023	1n8y0H-0x2CSv-ZT1j9qu-C9B8Gb4Lqsl	DRAFT	36.1	-18.1	ok	https://media.84000.digital/audio/278d50064ddbc912-a64.mp3	23-02 Aug 2025  នាទីធម្មចរិយារ សិក្សាបិដកលេខ១៤ទីឃនិកាយក្នុង សុត្តន្តបិដក បឋមភាគសីលក្ខន្ធ
 24	ASUT014MS0024	108NhHI2jMtYnJKcfr4VWPXojD_7VXnkf	DRAFT	40.0	-18	ok	https://media.84000.digital/audio/132202d8d592aa5c-a64.mp3	24-03 Aug 2025  នាទីធម្មចរិយា សិក្សាបិដក សុត្តន្តបិដក ខុទ្ទកនិកាយ ធម្មបទគាថា! សូមអនុមោទន
 
-# approve-media drive_file_ids (DRAFT lessons only), comma separated:
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
 1p_JXs6Nbp6HodaTEaG2z2DTl0Cl7ZMlv,1NxLOOwUj7qKj87-VEjTz5kJKwwJ1WNZ1,1QgpYmbkatsTcAVWF1mIg7U97_MLRuqiJ,1nbN8ZH7PVjqBNo9NPMF6IpRbrvPzDRMS,1c-gIyUTwzIVNqIIjvxzh3bcFSYedlAKa,1Qfb3kEoknXu_GAoaw2FJquLwp2s5ox_j,1rGt7TdL4FGmNBPRWRCBlqR4Y1f6g5Q9f,1LqWneYykqnlWI5vlZMn8Wma00Q8xEUtT,1eeMEseayYEtb8fFV--4JXE282ghdESRD,1wISCGbioqTrqEjq9Qjm0AJwQGik_8i1R,1-3pMcYcglKaQLMfCGZGaqAYuCh7uXgRT,1PQjNgAVUV709ep3J14BPQwb2S-Hs5Pty,1qVSTgpPhSiCMADwFdKEMKZr9P4Jdzm0_,1aMwb2HKp--371VYsbfQcrBhKejrFhS15,1xLXR34lATiA3eZudehBVSCiAOn1gSoNq,1xdm31l57fnoeM9KbxQcue_hCaPxQdWwV,1PpWaPDT8pgYpB2qgthZ_BBxUrjNC-NIs,1WrX0Fiw3XjXcuKAY6BX78fanJkWitpcu,1YXKTJmDciEk2SgybWKuj5xVXyr8MiTF3,1pE0Fg3vxMTITaY3uAcILyYw94tVvHtdV,15rdvLDLUVGU-mlLzCNY1MfZCADzuw_84,1S3QBkKKEeytsRG69kZrxI3cVwNLcC8ev,1n8y0H-0x2CSv-ZT1j9qu-C9B8Gb4Lqsl,108NhHI2jMtYnJKcfr4VWPXojD_7VXnkf

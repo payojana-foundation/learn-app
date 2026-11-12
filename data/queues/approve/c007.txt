@@ -1,0 +1,64 @@
+# c007 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
+# course: 2-A.S.បរិច្ឆេទ ទី២ កាត់ស្អាត(២០
+# queued 58 · converted 55 · approved 0 · failed 0 · not started 3
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	AABH000YY2024.2001	1v45Q6qK-3R-w99kRrYNnyvGdW4Lvu6nu	DRAFT	59.9	-18.2	ok	https://media.84000.digital/audio/d3c22e13ae722e99-a64.mp3	០១ ចេតសិកមានអត្ថ៤យ៉ាង
+2	AABH000YY2024.2002	12cmJ9gbBjDLdBukFDgKMrnJC1NE6B5wd	DRAFT	76.5	-18.1	ok	https://media.84000.digital/audio/eea74c787a4b2ffc-a64.mp3	០២ លក្ខណាទិចតុក្ករបស់ចេតសិក
+3	AABH000YY2024.2003	1ia9icSLq2JUR02QcB9QmJB3PVuBwk7mR	DRAFT	84.0	-18.2	ok	https://media.84000.digital/audio/b776d401be5f812e-a64.mp3	០៣ ផស្សចេតសិក ការប៉ះខ្ទប់ឬពាល់ត្រូវ
+4	AABH000YY2024.2004	1jPTTKZfJhjAX6h1roYvjibaGMP5RrSxH	DRAFT	79.4	-18.2	ok	https://media.84000.digital/audio/5c15963a1ad535c1-a64.mp3	០៤ វេទនចេតសិក ចែកវេទនាជា២ន័យ
+5	AABH000YY2024.2005	1VIE5W89ukNBueScwGTDf_a97pZj2nu6e	DRAFT	70.0	-18.1	ok	https://media.84000.digital/audio/060198d5d35cf481-a64.mp3	០៥ លក្ខណាទិចតុក្គរបស់វេទនា
+6	AABH000YY2024.2006	1lP3Fmc852Kndkrw_26O3ufdKU4F4nfKu	DRAFT	69.0	-18.1	ok	https://media.84000.digital/audio/5a26351d9346fbc8-a64.mp3	០៦ សោមនស្សវេទនា ទោមនស្សវេទនា ឧបេក្ខាវេទនា
+7	AABH000YY2024.2007	1Qqzmq4uTB8xSxQPacxQkw3VKA5_Frgsh	DRAFT	73.8	-18.2	ok	https://media.84000.digital/audio/20fdab611c35a4c1-a64.mp3	០៧ ហេតុនាំឲ្យកើតវេទនាមាន៥យ៉ាង
+8	AABH000YY2024.2008	18tK9H5JAKFNJ9er-bFkh6nZZMzpVz0ek	DRAFT	89.9	-18.2	ok	https://media.84000.digital/audio/90711f7496a63168-a64.mp3	០៨ សញ្ញាចេតសិក ចេតនាចេតសិក
+9	AABH000YY2024.2009	1xfL-U5YfpFa7A33B9kJ6VNskWFuQbOyE	DRAFT	83.8	-18.5	ok	https://media.84000.digital/audio/02f93deefa3819c4-a64.mp3	០៩ ចេតនាចេតសិក ឯកគ្គតចេតសិក
+10	AABH000YY2024.2010	1JftQyKuhmZQQXg14bGI6F9hZp53-4YUW	DRAFT	100.0	-18.1	ok	https://media.84000.digital/audio/c691010ab3445426-a64.mp3	១០ ជីវិតិន្រ្ទិយចេតសិក មនសិការចេតសិក
+11	AABH000YY2024.2011	1Mzzc7E836REubuYQnndmGeYRqMAiTCE2	DRAFT	75.6	-18.2	ok	https://media.84000.digital/audio/e866f85cf717f72b-a64.mp3	១១ មនសិការចេតសិក ចែកជា៣យ៉ាង
+12	AABH000YY2024.2012	1Y8cZte4PGiZuSSdJT2MtVdOzYhNsxPor	DRAFT	79.9	-18.2	ok	https://media.84000.digital/audio/f7522428e66f7718-a64.mp3	១២ ចែកសព្វចិត្តសាធារណចេតសិកដោយន័យផ្សេងៗ
+13	AABH000YY2024.2013	1xEoDHPHHODhnCNBWmUoNRwWn3wdJ_Fji	DRAFT	76.4	-18.7	cap	https://media.84000.digital/audio/9bd82d151a9b84a4-a64.mp3	១៣ វិតក្កចេតសិក ការត្រិះរិះ
+14	AABH000YY2024.2014	1Q48Z0iXCJbE7lahfYisIbpqfYDFqzIu2	DRAFT	69.7	-18.2	ok	https://media.84000.digital/audio/88432c9610c89d1c-a64.mp3	១៤ វិចារចេតសិក ការពិចារណាអារម្មណ៍
+15	AABH000YY2024.2015	1wBQmL3QmpPOxzXdxMDCeqI7v8SY-uW8V	DRAFT	81.9	-18.2	ok	https://media.84000.digital/audio/2d2984512b7ea1d0-a64.mp3	១៥ អធិមោក្ខចេតសិក វីរិយាចេតសិក
+16	AABH000YY2024.2016	1JsTXqJWaGNSYiU1rD7Ibp9NCmeYknb1C	DRAFT	97.9	-18.2	ok	https://media.84000.digital/audio/e243bfd6a0eb9020-a64.mp3	១៦ សង្វេគវត្ថុ៨ បីតិចេតសិក
+17	AABH000YY2024.2017	1yRMgUPZRpvUsXfZGPHRBdXeGL3aWjd9x	DRAFT	68.5	-18.2	ok	https://media.84000.digital/audio/8f744fe198ed2522-a64.mp3	១៧ ឆន្ទចេតសិក សេចក្ដីឆ្អែតចិត្ត ឆន្ទៈមាន៣
+18	AABH000YY2024.2018	1_uUXJx_BJEqWBVkS6K02-IsIfsjVEB-x	DRAFT	74.2	-18.1	ok	https://media.84000.digital/audio/43c864dfb5897597-a64.mp3	១៨ មោហចេតសិក ការវង្វេងមិនដឹងការពិត
+19	AABH000YY2024.2019	1dENHVedsValpRXsAX2AGYzxpQBSrqYEV	DRAFT	58.8	-18.2	ok	https://media.84000.digital/audio/86b102f982799947-a64.mp3	១៩ មោហចេតសិក ការមិនដឹងក្នុងខន្ធ អាយតន ធាតុ
+20	AABH000YY2024.2020	1QuCQjAyGmTvH5kuw-tK6WrlHvxwDaDhA	DRAFT	93.6	-18.1	ok	https://media.84000.digital/audio/8f622bce26e7351d-a64.mp3	២០ អហិរិក អនោត្តប្ប ឧទ្ធច្ចចេតសិក
+21	AABH000YY2024.2021	1HHW7Wkp6K2miXNKF06mUFHlFP4RRJASl	DRAFT	76.6	-18.2	ok	https://media.84000.digital/audio/88a2b3da0c9e618e-a64.mp3	២១ លោភចេតសិក ការជាប់ជំពាក
+22	AABH000YY2024.2022	1tZJ8V-RWx1l9fIIOxViiATMU9jjskU9N	DRAFT	94.7	-18.2	ok	https://media.84000.digital/audio/3cc3357f0b6386b0-a64.mp3	២២ ទិដ្ឋិចេតសិក ការយល់ខុសពីការពិត
+23	AABH000YY2024.2023	1RmaNac4fRaBmzNjzPKMEJRci_rg2qByD	DRAFT	85.8	-18.2	ok	https://media.84000.digital/audio/62ccce83b453aaae-a64.mp3	២៣ ទិដ្ឋិចេតសិក ការួបរឹតដោយទិដ្ឋិ ១៦យ៉ាង
+24	AABH000YY2024.2024	1Bj8ud7F7H02wZXZOOCXrFukp111N_pqA	DRAFT	87.2	-18.2	ok	https://media.84000.digital/audio/9241efa4a3766441-a64.mp3	២៤ ទិដ្ឋិចេតសិក ហេតុនាំឲ្យកើតមិច្ឆាទិដ្ឋិមាន៥
+25	AABH000YY2024.2025	1Ia6o87PgpAcFl3c2gHVlg8StVAkdo53t	DRAFT	82.7	-19	cap	https://media.84000.digital/audio/8a913d724e3d9f9c-a64.mp3	២៥ ទិដ្ឋិចេតសិក និយតមិច្ឆាទិដ្ឋិ ទិដ្ឋិមានទោសធ្ងន់
+26	AABH000YY2024.2026	1CNbl_D8ZCA-2d5HjtsqZhvNFyFszcbqw	DRAFT	88.0	-18.2	ok	https://media.84000.digital/audio/8edf1472c05c1233-a64.mp3	២៦ ទិដ្ឋិចេតសិក អធិប្បាយមិច្ឆាទិដ្ឋិមាន៦២ប្រការ
+27	AABH000YY2024.2027	1dKxi7gFiut6OW7P-2KsIIP3d8QfaYKoR	DRAFT	90.4	-18.2	ok	https://media.84000.digital/audio/e993ce50e1383a42-a64.mp3	២៧ មានចេតសិក ការលើកតម្កើងខ្លួន
+28	AABH000YY2024.2028	199EynIAy0Wz7n9-W6FRqdETowHjyNTEE	DRAFT	90.8	-18.1	ok	https://media.84000.digital/audio/2ff80dbe23307d0e-a64.mp3	២៨ មានចេតសិក ហេតុនាំឲ្យលើកតម្កើងខ្លួន
+30	AABH000YY2024.2030	17E6ayH2lxajAXlizyV8OGRTBOaLFLane	DRAFT	98.3	-18.2	ok	https://media.84000.digital/audio/6ed57af2bce19645-a64.mp3	៣០ ទោសចេតសិក ការខឹងក្រោធ ឥស្សា ច្រណែន
+31	AABH000YY2024.2031	1Da9L1c5j4WBrhHeu9k7QBKC6rq6-Jwgy	DRAFT	101.1	-18.1	ok	https://media.84000.digital/audio/7ee9f6c31151b2f1-a64.mp3	៣១ មច្ឆរិយចេតសិក សេចក្ដីកំណាញ់មាន៥យ៉ាង
+32	AABH000YY2024.2032	1fVkEJpcQuCMwGTezma8HSBT0bAnctMbF	DRAFT	91.5	-18.1	ok	https://media.84000.digital/audio/6c28e3ead19861c3-a64.mp3	៣២ កុក្កុច្ចចេតសិក ការក្ដៅក្រហាយចិត្ត
+33	AABH000YY2024.2033	125YGvho1hJpq8aIdGHGYYqLg42QHmkIN	DRAFT	85.8	-18.2	ok	https://media.84000.digital/audio/fa0ac53da3660c5c-a64.mp3	៣៣ ថីនមិទ្ធចេតសិក ការរួញរា ងងុយងោកងក់
+34	AABH000YY2024.2034	1RFJvseelW6VQ_RWxJVeR6jfv2l7rjXZc	DRAFT	79.1	-18.2	ok	https://media.84000.digital/audio/f97b3d5ddd183cb1-a64.mp3	៣៤ វិចិកិច្ឆាចេតសិក ការសង្ស័យក្នុងព្រះរតនត្រ័យ
+36	AABH000YY2024.2036	1y5HDOZ0KvUlwx73HhpXkaZwZNxKXQDfd	DRAFT	77.5	-19	cap	https://media.84000.digital/audio/8beedcc9713549f2-a64.mp3	៣៦ សទ្ធាចេតសិក លក្ខណៈសំគាល់របស់អ្នកមានសទ្ធា៣យ៉ាង
+37	AABH000YY2024.2037	1OSoUFeabkcCCUoH3rNFMlycALpPR_VRf	DRAFT	84.3	-18.2	ok	https://media.84000.digital/audio/57ec8b207b585144-a64.mp3	៣៧ សតិចេតសិក ការរលឹកដឹង
+38	AABH000YY2024.2038	1JV4VmVTZd3BC-u-7K3e4q6MKlr5ziy1u	DRAFT	76.7	-18.1	ok	https://media.84000.digital/audio/58b1d2e171e2c08c-a64.mp3	៣៨ ហិរិ ការខ្មាសបាប គឺរង្កៀសទុច្ចរិត
+39	AABH000YY2024.2039	1ehIJn0Jc0htRB9UP5uifw04qm5HCcVLU	DRAFT	90.1	-18.2	ok	https://media.84000.digital/audio/7d55264ca22ac828-a64.mp3	៣៩ ឱត្តប្បចេតសិក ការខ្លាចបាប ឬខ្លាចទុច្ចរិត
+40	AABH000YY2024.2040	1GGpzi9_E0ft8LKchWhbSrCMbLmkcwpuf	DRAFT	86.2	-18.2	ok	https://media.84000.digital/audio/b50dfd3474d9e33f-a64.mp3	៤០ អលោភចេតសិក អទោសចេតសិក
+41	AABH000YY2024.2041	19XO5wqVOF5oQJlDI0MnPntO7arBxI4FQ	DRAFT	86.3	-18.8	cap	https://media.84000.digital/audio/20f5dd04c3e59a4c-a64.mp3	៤១ តត្រមជ្ឈត្តតាចេតសិក និងយុគលធម៌៣គូ
+42	AABH000YY2024.2042	1QYztvg8jwqRGWu_hqF4V--n28OTY-x_5	DRAFT	86.7	-18.5	ok	https://media.84000.digital/audio/481bfbc0a197e846-a64.mp3	៤២ យុគលធម៌គូទី៤ ដល់ទី៦ និង ធម៌បដិបក្ខ
+43	AABH000YY2024.2043	1nn3CC9_x3UFMeuWMiEUa1PddWLFgn3FZ	DRAFT	76.1	-18.2	ok	https://media.84000.digital/audio/ea688b3472de35d7-a64.mp3	៤៣ វីរតិ ៣ សម្មាវាចា សម្ដីត្រូវ សម្មាកម្មន្ត ការងារត្រូវ
+44	AABH000YY2024.2044	1ZbfgseySFoLtQEwlCWl0XplrLrDZwa3o	DRAFT	89.0	-18.8	cap	https://media.84000.digital/audio/f7a16a30a4e5190c-a64.mp3	៤៤ វីរតិ ៣ សម្មាអាជីវៈ ការចិញ្ចឹមជីវិតត្រូវ
+45	AABH000YY2024.2045	1mTkIcIrlcaHQg54_InmPRoov0P0J-XPw	DRAFT	88.5	-18.2	ok	https://media.84000.digital/audio/c1bd872dc5a6cb07-a64.mp3	៤៥ អប្បមញ្ញាចេតសិក ២ គឺ ករុណា និងមុទិតា
+46	AABH000YY2024.2046	127Lv8I5vrgdsC9fzcQWgqYsoyWrvLCaj	DRAFT	86.7	-18.2	ok	https://media.84000.digital/audio/1add842e903e7fc6-a64.mp3	៤៦ មេត្តា ឧបេក្ខា និងបញ្ញិន្រ្ទិយចេតសិក
+47	AABH000YY2024.2047	1xZna_pPh3pCSdINQr37qY_riscMNUHSb	DRAFT	88.6	-18.1	ok	https://media.84000.digital/audio/1433ebbcec8e415a-a64.mp3	៤៧ បញ្ញិន្រ្ទិយចេតសិក ការដឹង
+48	AABH000YY2024.2048	1odcUYmLZDWioBQy947nnp--be440xU4z	DRAFT	77.7	-19	cap	https://media.84000.digital/audio/b274e6255f1401fd-a64.mp3	៤៨ សម្បយោគន័យ វិតក្កៈ វិចារៈ អធិមោក្ខចេតសិក
+49	AABH000YY2024.2049	1fuZUJCIDqtz0Y3W8ZPHIqR8j7SttnEIW	DRAFT	89.5	-18.2	ok	https://media.84000.digital/audio/eb487ea4b541f209-a64.mp3	៤៩ សម្បយោគន័យ វិរិយ វីតិ ឆន្ទចេតសិក
+51	AABH000YY2024.2051	1aXs4ndnUkYT2yMe3zhSQ2H2xLICVJ5_l	DRAFT	94.6	-18.2	ok	https://media.84000.digital/audio/af45049752865636-a64.mp3	៥១ សម្បយោគន័យ ចែកចេតសិកជា២ គឺអនិយតយោគី និងនិយតយោគី
+52	AABH000YY2024.2052	1DcgosOI808ZMXKqcnhdAHpUFwj_PkMW7	DRAFT	88.5	-18.1	ok	https://media.84000.digital/audio/964b3a4bbd42e1b2-a64.mp3	៥២ សង្គហន័យ ចែកលោកុត្តរជា ៥ ន័យ
+53	AABH000YY2024.2053	1gxuZbekrgkUy2HzIVBrnLOI7cF82vZg_	DRAFT	82.3	-18.2	ok	https://media.84000.digital/audio/94a6c02088efd331-a64.mp3	៥៣ សង្គហន័យ ចែកមហគ្គតចិត្ត ២៧ និងមហាកុសល៨
+54	AABH000YY2024.2054	1H8FxQm_MYJe48h957McnTKsgZ-j5nf0K	DRAFT	86.3	-18.2	ok	https://media.84000.digital/audio/a245ffb842929edb-a64.mp3	៥៤ សង្គហន័យ ចែកកាមសោភណចិត្ត ២៤ ប្រកបនឹងចេតសិក
+55	AABH000YY2024.2055	19w4d-WGGqZ57LFzYAZ2Wpiskk9hGkHFj	DRAFT	76.5	-18.2	ok	https://media.84000.digital/audio/3328ae4ad2cc9aef-a64.mp3	៥៥ សង្គហន័យ ចែកអកុសលចិត្ត អហេតុកចិត្តនិងចេតសិក
+56	AABH000YY2024.2056	1et3MJcrTN2m7FfaHoOZoxodjJ9oL0X-L	DRAFT	77.5	-18.1	ok	https://media.84000.digital/audio/8f0a23beddd5cb91-a64.mp3	៥៦ តទុភយមិស្សកន័យ ការរួមចេតសិកដែលប្រកបរួមគ្នា
+57	AABH000YY2024.2057	17s9iXYyVBpQvAyZ-__eLPrb0_nXTy7U2	DRAFT	47.6	-18.1	ok	https://media.84000.digital/audio/bf667ff00cadc092-a64.mp3	៥៧ រម្លឹកមេរៀនចេតសិកបរមត្ថភាគ ១ សម្បយោគន័យ
+58	AABH000YY2024.2058	1lT01j_9PRkZYi3JwqCURiZq-inXysilo	DRAFT	55.9	-18.2	ok	https://media.84000.digital/audio/dddc6f561bccf7c9-a64.mp3	៥៨ រម្លឹកមេរៀនចេតសិកបរមត្ថភាគ ២ តទុភយមិស្សកន័យ
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1v45Q6qK-3R-w99kRrYNnyvGdW4Lvu6nu,12cmJ9gbBjDLdBukFDgKMrnJC1NE6B5wd,1ia9icSLq2JUR02QcB9QmJB3PVuBwk7mR,1jPTTKZfJhjAX6h1roYvjibaGMP5RrSxH,1VIE5W89ukNBueScwGTDf_a97pZj2nu6e,1lP3Fmc852Kndkrw_26O3ufdKU4F4nfKu,1Qqzmq4uTB8xSxQPacxQkw3VKA5_Frgsh,18tK9H5JAKFNJ9er-bFkh6nZZMzpVz0ek,1xfL-U5YfpFa7A33B9kJ6VNskWFuQbOyE,1JftQyKuhmZQQXg14bGI6F9hZp53-4YUW,1Mzzc7E836REubuYQnndmGeYRqMAiTCE2,1Y8cZte4PGiZuSSdJT2MtVdOzYhNsxPor,1xEoDHPHHODhnCNBWmUoNRwWn3wdJ_Fji,1Q48Z0iXCJbE7lahfYisIbpqfYDFqzIu2,1wBQmL3QmpPOxzXdxMDCeqI7v8SY-uW8V,1JsTXqJWaGNSYiU1rD7Ibp9NCmeYknb1C,1yRMgUPZRpvUsXfZGPHRBdXeGL3aWjd9x,1_uUXJx_BJEqWBVkS6K02-IsIfsjVEB-x,1dENHVedsValpRXsAX2AGYzxpQBSrqYEV,1QuCQjAyGmTvH5kuw-tK6WrlHvxwDaDhA,1HHW7Wkp6K2miXNKF06mUFHlFP4RRJASl,1tZJ8V-RWx1l9fIIOxViiATMU9jjskU9N,1RmaNac4fRaBmzNjzPKMEJRci_rg2qByD,1Bj8ud7F7H02wZXZOOCXrFukp111N_pqA,1Ia6o87PgpAcFl3c2gHVlg8StVAkdo53t,1CNbl_D8ZCA-2d5HjtsqZhvNFyFszcbqw,1dKxi7gFiut6OW7P-2KsIIP3d8QfaYKoR,199EynIAy0Wz7n9-W6FRqdETowHjyNTEE,17E6ayH2lxajAXlizyV8OGRTBOaLFLane,1Da9L1c5j4WBrhHeu9k7QBKC6rq6-Jwgy,1fVkEJpcQuCMwGTezma8HSBT0bAnctMbF,125YGvho1hJpq8aIdGHGYYqLg42QHmkIN,1RFJvseelW6VQ_RWxJVeR6jfv2l7rjXZc,1y5HDOZ0KvUlwx73HhpXkaZwZNxKXQDfd,1OSoUFeabkcCCUoH3rNFMlycALpPR_VRf,1JV4VmVTZd3BC-u-7K3e4q6MKlr5ziy1u,1ehIJn0Jc0htRB9UP5uifw04qm5HCcVLU,1GGpzi9_E0ft8LKchWhbSrCMbLmkcwpuf,19XO5wqVOF5oQJlDI0MnPntO7arBxI4FQ,1QYztvg8jwqRGWu_hqF4V--n28OTY-x_5,1nn3CC9_x3UFMeuWMiEUa1PddWLFgn3FZ,1ZbfgseySFoLtQEwlCWl0XplrLrDZwa3o,1mTkIcIrlcaHQg54_InmPRoov0P0J-XPw,127Lv8I5vrgdsC9fzcQWgqYsoyWrvLCaj,1xZna_pPh3pCSdINQr37qY_riscMNUHSb,1odcUYmLZDWioBQy947nnp--be440xU4z,1fuZUJCIDqtz0Y3W8ZPHIqR8j7SttnEIW,1aXs4ndnUkYT2yMe3zhSQ2H2xLICVJ5_l,1DcgosOI808ZMXKqcnhdAHpUFwj_PkMW7,1gxuZbekrgkUy2HzIVBrnLOI7cF82vZg_,1H8FxQm_MYJe48h957McnTKsgZ-j5nf0K,19w4d-WGGqZ57LFzYAZ2Wpiskk9hGkHFj,1et3MJcrTN2m7FfaHoOZoxodjJ9oL0X-L,17s9iXYyVBpQvAyZ-__eLPrb0_nXTy7U2,1lT01j_9PRkZYi3JwqCURiZq-inXysilo

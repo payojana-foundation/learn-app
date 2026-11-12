@@ -1,0 +1,11 @@
+# c033 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
+# course: ព្រះត្រៃបិដកបាលីភាគ១៧
+# queued 24 · converted 2 · approved 0 · failed 0 · not started 22
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+17	ASUT017YY0017	1REEYfl4OSkUsuF0YxpdMmms20bF_rjhI	DRAFT	86.8	-19	cap	https://media.84000.digital/audio/669a66044ee2a335-a64.mp3	បិដកលេខ១៧ 17 សតិប្បដ្ឋានសូត្រភាគ២ (បិដកលេខ ១៧ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+18	ASUT017YY0018	1Ey0SkwRGpd-uIIdaWpsEsxUzfRr1cYl9	DRAFT	5.5	-18.3	ok	https://media.84000.digital/audio/17a5fd6ef9e6ed9f-a64.mp3	បិដកលេខ១៧ 18 កាយានុបស្សនាសតិប្បដ្ឋានភាគ១ (បិដកលេខ ១៧ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1REEYfl4OSkUsuF0YxpdMmms20bF_rjhI,1Ey0SkwRGpd-uIIdaWpsEsxUzfRr1cYl9

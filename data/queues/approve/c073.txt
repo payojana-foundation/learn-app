@@ -1,0 +1,28 @@
+# c073 approve list, run review 2026-11-11
+# teacher: អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង
+# course: 2-បិដកលេខ ១៥
+# queued 26 · converted 19 · approved 0 · failed 0 · not started 7
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	ASUT015MS0001	1KBiSTERRYvA0bVutkwEK8c5xlyt7f2BG	DRAFT	52.2	-18	ok	https://media.84000.digital/audio/c06a86cbf0326d64-a64.mp3	01-០៨ សីហា ២០២៥  នាទីធម្មចរិយា សិក្សាបិដក លេខ១៥ក្នុងសុត្តន្តបិដក ទីឃនិកាយទុតិយភាគ (សីលក្ខន.mp4
+2	ASUT015MS0002	1RYL_9_s8ypjtYNIejWflMiYwsPB_jB1z	DRAFT	55.0	-18.1	ok	https://media.84000.digital/audio/a6a9c1d68c538d1f-a64.mp3	02-១០ សីហា ២០២៥ នាទីធម្មចរិយា! សិក្សាបិដកលេខ១៥ សុតន្តបិដក ទីឃនិកាយ ទុតិយភាគ កូដទន្តសូត.mp4
+3	ASUT015MS0003	1DRODpXkuNJ0lwu1_YyJ5JxhQARblK_Cf	DRAFT	28.1	-18.1	ok	https://media.84000.digital/audio/8837ab9986980120-a64.mp3	03-២៩ សីហា ២០២៥ នាទីទីធម្មចរិយា សិក្សាព្រះបិដក លេខ១៥  Mam Sokheng.mp4
+4	ASUT015MS0004	16ZTQsw5oaOoXcQLXc4Lqz_6Z5mZU-7ew	DRAFT	41.2	-18	ok	https://media.84000.digital/audio/186ec5a547b86b81-a64.mp3	04-៣១ សីហា ២០២៥ នាទីធម្មចរិយា សិក្សាបិដក លេខ១៥ សូមអនមោទនា!  Mam Sokheng.mp4
+5	ASUT015MS0005	1Dyn3O-vB8AYGZmGti9QqGeUJPDXA45B-	DRAFT	41.5	-18.1	ok	https://media.84000.digital/audio/d634b652d27873fb-a64.mp3	05-០៥ កញ្ញា ២០២៥ នាទីធម្មចរិយា សិក្សាបិដក លេខ១៥ សូមអនមោទនា!  Mam Sokheng.mp4
+6	ASUT015MS0006	1RCZo3tkLNWJ-mj_iOp4snrGsFXqeqxXq	DRAFT	38.4	-18.2	ok	https://media.84000.digital/audio/1784a371fb2adff7-a64.mp3	06-០៦ កញ្ញា ២០២៥ នាទីធម្មចរិយា សិក្សាបិដក លេខ១៥ សូមអនមោទនា!  Mam Sokheng.mp4
+7	ASUT015MS0007	1kh6u60nmYIclwtStMA_El21TGHywkDa7	DRAFT	53.3	-18.2	ok	https://media.84000.digital/audio/030e3fbe08daef6b-a64.mp3	07-០៧ កញ្ញា ២០២៥ នាទីធម្មចរិយា សិក្សាបិដក លេខ១៥ សូមអនមោទនា!  Mam Sokheng.mp4
+8	ASUT015MS0008	1b23C5zslw5nCiehwDI8IXz9HfmcxGoyy	DRAFT	48.5	-18.2	ok	https://media.84000.digital/audio/1f9da05b57499db5-a64.mp3	08-២០ កញ្ញា ២០២៥  នាទីធម្មចរិយា សិក្សាបិដក សុត្តន្តបិដក ទីឃនិកាយ ទុតិយភាគ សីលក្ចន្ធវ.mp4
+9	ASUT015MS0009	1X8N5KV0WJ9zjw_AhouRBpk373KwqRq4h	DRAFT	53.1	-18.1	ok	https://media.84000.digital/audio/d07e6c89945a07ea-a64.mp3	09-២៦ កញ្ញា ២០២៥  នាទីធម្មចរិយា សិក្សារបិដកលេខ១៥ ក្នុងសុត្តន្តបិដក ទីឃនិកាយ ទុតិយភាគ ស.mp4
+10	ASUT015MS0010	1h3xwE_RE38grSMUCsYfKWy734OgkQMt9	DRAFT	46.1	-18.1	ok	https://media.84000.digital/audio/2a0774064ac503bb-a64.mp3	10-២៧ កញ្ញា ២០២៥  នាទីធម្មចរិយា សិក្សារបិដកទី១៥ ក្នុងសុត្តន្តបិដក ទីឃនិកាយ ទុតិយភាគ.mp4
+11	ASUT015MS0011	1pJNAljDTXNq71vBDeZr4-0SdGyvzvUS6	DRAFT	31.4	-18.1	ok	https://media.84000.digital/audio/5ada245300b42b22-a64.mp3	11-១៧ តុលា ២០២៥ នាទីធម្មចរិយា សិក្សារបិដកលេខ១៥ សូមអនុមោទនា!
+12	ASUT015MS0012	15aB5e8Onf8CVaXx0BqBOG9MAxirUaNhd	DRAFT	44.7	-18.1	ok	https://media.84000.digital/audio/5e62335f2f1566f4-a64.mp3	12-១៨ តុលា ២០២៥ នាទីធម្មចរិយា សិក្សារក្នុងសុត្តន្តបិដកលេខ១៥ ទីឃនិកាយ ទុតិយភាគ សីលក្ខន្ធវគ្គ សូមអនុមោទនា!
+13	ASUT015MS0013	1im37xthUD2powf-IHUkl9JRCLlx7p6N0	DRAFT	51.3	-18.1	ok	https://media.84000.digital/audio/5efcabb83bdb879f-a64.mp3	13-១៩ តុលា ២០២៥ នាទីធម្មចរិយា សិក្សារក្នុងបិដកលេខ១៥ សូមអនុមោទនា!
+15	ASUT015MS0015	1DW3_cHXqzV5KpkY_sqKU-QjKfcUO4q5a	DRAFT	49.2	-18.1	ok	https://media.84000.digital/audio/9a55ea1943a0ad1c-a64.mp3	15-26 Oct 2025 នាទីធម្មចរិយា សិក្សារ សុត្តបិដកលេខ១៥ សីលក្ខន្ធវគ្គ  ធម្ម រស
+17	ASUT015MS0017	1YzcQc9AuwECQbL5v0JA-L4FftRcBJVEA	DRAFT	47.9	-18.1	ok	https://media.84000.digital/audio/a25adfc07db06a99-a64.mp3	17-21 Nov 2025 នាទីធម្មចរិយា សិក្សាព្រះត្រៃបិដកលេខ១៥ ទីឃនិកាយ ទុតិយភាគ សុភសូត្រ ការពោលអំពីបញ្ញា!  Ma.mp4
+19	ASUT015MS0019	1cEu7xtIFNs89squ7xr_coOyAUPJXE0JS	DRAFT	44.3	-18.2	ok	https://media.84000.digital/audio/692972cb922fbd58-a64.mp3	19-23 Nov 2025 នាទីធម្មចរិយា សិក្សារ សុត្តន្ត បិដកទីឃនិកាយលេខ១៥ ទុតិយភាគ សីលក្ខន្ធវគ្គ សូមអនុមោទនា!.mp4
+20	ASUT015MS0020	1W-xyTm8s9srT4hCUc1tnRc7Vcq7hPyzp	DRAFT	41.4	-18.1	ok	https://media.84000.digital/audio/6b45acb845aea194-a64.mp3	20-28 Nov 2025 នាទីធម្មចរិយា សិក្សាសុត្តន្តបិដកលេខ១៥ ទីឃនិកាយ ទុតិយភាគ សូមអនុមោទនា  ធម្ម រស.mp4
+21	ASUT015MS0021	1VHgI-J-G9qOV900dqC7RKhUO5kCe8Aai	DRAFT	23.1	-18.2	ok	https://media.84000.digital/audio/58443ce785d25289-a64.mp3	21-29 Nov 2025 នាទីធម្មចរិយា សិក្សារក្នុងសុត្តន្តបិដក ទីឃនិកាយទុតិយភាគ សីលក្ខន្ធវគ្គ បិដកលេខ១៥ សូមអន.mp4
+22	ASUT015MS0022	12bMukaH-LkIWDDblgbUhG1DNEw6cwfX9	DRAFT	37.3	-18.1	ok	https://media.84000.digital/audio/c4c9fb55a485fc06-a64.mp3	22-07 Dec 2025 នាទីធម្មចរិយា សិក្សារព្រះត្រៃបិដក លេខ១៥ សូមអនុមោទនា!  ធម្ម រស.mp4
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1KBiSTERRYvA0bVutkwEK8c5xlyt7f2BG,1RYL_9_s8ypjtYNIejWflMiYwsPB_jB1z,1DRODpXkuNJ0lwu1_YyJ5JxhQARblK_Cf,16ZTQsw5oaOoXcQLXc4Lqz_6Z5mZU-7ew,1Dyn3O-vB8AYGZmGti9QqGeUJPDXA45B-,1RCZo3tkLNWJ-mj_iOp4snrGsFXqeqxXq,1kh6u60nmYIclwtStMA_El21TGHywkDa7,1b23C5zslw5nCiehwDI8IXz9HfmcxGoyy,1X8N5KV0WJ9zjw_AhouRBpk373KwqRq4h,1h3xwE_RE38grSMUCsYfKWy734OgkQMt9,1pJNAljDTXNq71vBDeZr4-0SdGyvzvUS6,15aB5e8Onf8CVaXx0BqBOG9MAxirUaNhd,1im37xthUD2powf-IHUkl9JRCLlx7p6N0,1DW3_cHXqzV5KpkY_sqKU-QjKfcUO4q5a,1YzcQc9AuwECQbL5v0JA-L4FftRcBJVEA,1cEu7xtIFNs89squ7xr_coOyAUPJXE0JS,1W-xyTm8s9srT4hCUc1tnRc7Vcq7hPyzp,1VHgI-J-G9qOV900dqC7RKhUO5kCe8Aai,12bMukaH-LkIWDDblgbUhG1DNEw6cwfX9

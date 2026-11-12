@@ -1,0 +1,28 @@
+# c068 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា
+# course: 1-Buddhism in English Level 1 b
+# queued 22 · converted 19 · approved 0 · failed 0 · not started 3
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+2	AENGSR0000102	1atVBoXRvNOECVfhjan3R6cXpOlcZSDsE	DRAFT	78.6	-18.1	ok	https://media.84000.digital/audio/c0db569803c7e1c7-a64.mp3	Buddhism in English Level I
+3	AENGSR0000103	1Jkp1MTuDxJiUfcBepiOj4ty_fjKgQkCb	DRAFT	54.0	-18.2	ok	https://media.84000.digital/audio/82261162ecaa5503-a64.mp3	Buddhism in English Level I
+4	AENGSR0000104	1Bpaaxi59jhkRiWZHOtEj-ZckCdVdNLBC	DRAFT	74.9	-18.2	ok	https://media.84000.digital/audio/8d09dc078df40a65-a64.mp3	Buddhism in English Level I
+5	AENGSR0000105	1YYqX92d2Av5OimERYcWUcX709AFRWNSr	DRAFT	81.5	-18.1	ok	https://media.84000.digital/audio/77f3aa89d1fef81c-a64.mp3	Buddhism in English Level I
+6	AENGSR0000106	1b4O0EzVEN9bpdp3W21diudNh4JPlUr4f	DRAFT	68.9	-18.2	ok	https://media.84000.digital/audio/3d26b52056d8cc4a-a64.mp3	Buddhism in English Level I
+7	AENGSR0000107	1ivukNOV-rZ-XIH6gdEIBwqXVEv6l6ull	DRAFT	83.5	-18.2	ok	https://media.84000.digital/audio/70d0d12eaf3b616b-a64.mp3	Buddhism in English Level I
+8	AENGSR0000108	1eP4g_MIShbZ9tJUFtwU7wH7MY8Re513n	DRAFT	84.0	-18.2	ok	https://media.84000.digital/audio/05c261dc8bc0a75a-a64.mp3	Buddhism in English Level I
+9	AENGSR0000109	1gevnZyRsBBsz32aL8aUKn0cEgOf7CgBr	DRAFT	81.6	-18.1	ok	https://media.84000.digital/audio/044c960cce3b874e-a64.mp3	Buddhism in English Level I
+10	AENGSR0000110	1NdXHblQlrdQKPsYaeVy82Cn0dQoZNXgv	DRAFT	77.4	-18.2	ok	https://media.84000.digital/audio/11e2cf5636632f7a-a64.mp3	Buddhism in English Level I
+11	AENGSR0000111	1pykyRW3YrBJd5Z0GqAX3Esbx0_yyXA2x	DRAFT	82.6	-18.2	ok	https://media.84000.digital/audio/ac076bdcfc628a26-a64.mp3	Buddhism in English Level I
+12	AENGSR0000112	1Ld6ksG4KyV2kUronqwi8R4uk7Zs1EoLE	DRAFT	70.0	-18.2	ok	https://media.84000.digital/audio/fbe970f34224b77c-a64.mp3	Buddhism in English Level I
+13	AENGSR0000113	1NhaC3bipdVrdFiiFeJ3Ckn-3yowtY_ft	DRAFT	75.2	-18.2	ok	https://media.84000.digital/audio/f651929efb08b814-a64.mp3	Buddhism in English Level I
+14	AENGSR0000114	1WF8pS3AJHZCy7nCFnEj3ptF5Uj_1rdOn	DRAFT	64.8	-18.2	ok	https://media.84000.digital/audio/4fb986022189bcd5-a64.mp3	Buddhism in English Level I
+15	AENGSR0000115	1eOFLfK51LbskMV526x6fxt4VbgBvFcY5	DRAFT	74.8	-18.8	cap	https://media.84000.digital/audio/4928f7618d4d6f0a-a64.mp3	Buddhism in English Level I
+16	AENGSR0000116	1r-v_qHUjWTLnwpRZv3VHgrTZHkpiSyG1	DRAFT	81.9	-18.5	ok	https://media.84000.digital/audio/75f99e1b9826c563-a64.mp3	Buddhism in English Level I
+17	AENGSR0000117	1NCIBuo6gJ5awaNPxSDTaNC4_sQNY1NGv	DRAFT	70.3	-18.2	ok	https://media.84000.digital/audio/3a4c949c49c9a154-a64.mp3	Buddhism in English Level I
+18	AENGSR0000118	1lRVfvwOznhvrPPoA_BIV_5oONrKFsoKL	DRAFT	75.2	-18.3	ok	https://media.84000.digital/audio/caeb51aabe2b33d3-a64.mp3	Buddhism in English Level I
+19	AENGSR0000119	1NHnbRJu7BF8hM9UD4IkI9pjDlgxlZvYP	DRAFT	82.5	-18.5	ok	https://media.84000.digital/audio/d08c72a8c9bf08a7-a64.mp3	Buddhism in English Level I
+20	AENGSR0000120	17w26Cddt-prHKSNtJhyInzuIx7TxfLro	DRAFT	32.0	-18.2	ok	https://media.84000.digital/audio/ff30dd44b1e59ee4-a64.mp3	Buddhism in English Level I
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1atVBoXRvNOECVfhjan3R6cXpOlcZSDsE,1Jkp1MTuDxJiUfcBepiOj4ty_fjKgQkCb,1Bpaaxi59jhkRiWZHOtEj-ZckCdVdNLBC,1YYqX92d2Av5OimERYcWUcX709AFRWNSr,1b4O0EzVEN9bpdp3W21diudNh4JPlUr4f,1ivukNOV-rZ-XIH6gdEIBwqXVEv6l6ull,1eP4g_MIShbZ9tJUFtwU7wH7MY8Re513n,1gevnZyRsBBsz32aL8aUKn0cEgOf7CgBr,1NdXHblQlrdQKPsYaeVy82Cn0dQoZNXgv,1pykyRW3YrBJd5Z0GqAX3Esbx0_yyXA2x,1Ld6ksG4KyV2kUronqwi8R4uk7Zs1EoLE,1NhaC3bipdVrdFiiFeJ3Ckn-3yowtY_ft,1WF8pS3AJHZCy7nCFnEj3ptF5Uj_1rdOn,1eOFLfK51LbskMV526x6fxt4VbgBvFcY5,1r-v_qHUjWTLnwpRZv3VHgrTZHkpiSyG1,1NCIBuo6gJ5awaNPxSDTaNC4_sQNY1NGv,1lRVfvwOznhvrPPoA_BIV_5oONrKFsoKL,1NHnbRJu7BF8hM9UD4IkI9pjDlgxlZvYP,17w26Cddt-prHKSNtJhyInzuIx7TxfLro

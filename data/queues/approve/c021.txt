@@ -1,0 +1,44 @@
+# c021 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
+# course: 15-A.S.ព្រះធម៌ថ្នាក់កុមារ (២០២៤
+# queued 53 · converted 35 · approved 0 · failed 0 · not started 18
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	AOTHKIDYY0001	1CdXa2ACb-0l505CkyANmQ9jc0VkSg5oi	DRAFT	57.6	-18.3	ok	https://media.84000.digital/audio/201fe22300e3ffc2-a64.mp3	ថ្នាក់កុមារ ភាគ0១ សំនួរអំពីព្រះពុទ្ធសាសនាទូទៅ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី)
+2	AOTHKIDYY0002	1ZxsM8LyY-SLZHDP1UwhNurFWBRM_5UsY	DRAFT	70.8	-18.2	ok	https://media.84000.digital/audio/daf39eca8c4d948d-a64.mp3	ថ្នាក់កុមារ ភាគ០២ សំណួរពីវត្តអារាម និងប្រយោជន៍នៃវត្តអារាម(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី)
+3	AOTHKIDYY0003	1tTvaU6O9V80-9ZwDqUxA1wuMrebJHlsb	DRAFT	68.2	-18.2	ok	https://media.84000.digital/audio/ead79911dc71b33a-a64.mp3	ថ្នាក់កុមារ ភាគ០៣ ទូរេនិទាន ព្រះពុទ្ធទីបង្ករ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី)
+4	AOTHKIDYY0004	1Cw-zIZh9Zf5oTY5vbc8pfsDh4tQ6h3UV	DRAFT	66.6	-18.4	ok	https://media.84000.digital/audio/41026dad85a97257-a64.mp3	ថ្នាក់កុមារ ភាគ០៤ ទូរេនិទាន បុព្វនិមិត្ត ៣២ ប្រការនិងពិចារណាផ្សេងៗ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី)
+5	AOTHKIDYY0005	1HiwfvvwotnaNDMIpA10OdyB6A--TeH5H	DRAFT	62.5	-18.2	ok	https://media.84000.digital/audio/d9d0d6966893b525-a64.mp3	ថ្នាក់កុមារ ភាគ០៥ ទូរេនិទាន សុមេធតាបសពិចារណាទោសនៃបណ្ណសាលា(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី)
+6	AOTHKIDYY0006	1pK8Wu7LLk2hyn9K62XtYAVlwKIWSni5Z	DRAFT	63.7	-18.3	ok	https://media.84000.digital/audio/627f04ed431d8678-a64.mp3	ថ្នាក់កុមារ ភាគ០៦ ទូរេនិទាន ព្រះពុទ្ធទីបង្ករព្យាករពោធិសត្វ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី)
+7	AOTHKIDYY0007	1zqTbRThY2Ki-TlVA798JSNYZz5h0mOuT	DRAFT	66.2	-18.2	ok	https://media.84000.digital/audio/35a28acd207f4710-a64.mp3	ថ្នាក់កុមារ ភាគ០៧ អដ្ឋសមោធាន ការប្រជុំធម៌៨ យ៉ាង(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី)
+8	AOTHKIDYY0008	1SYsnIHMT7KJF0fBUAzr3z7ag93dVitJC	DRAFT	65.1	-18.2	ok	https://media.84000.digital/audio/c0214351b1611796-a64.mp3	ថ្នាក់កុមារ ភាគ០៨ ហេតុ៤ យ៉ាង និងពលៈ៤ យ៉ាង(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី)
+10	AOTHKIDYY0010	1TBoELkg9-xiwQGBw7yQwzggyIlZ9sJuU	DRAFT	73.7	-18.3	ok	https://media.84000.digital/audio/f5c4974114b0a5d0-a64.mp3	ថ្នាក់កុមារ ភាគ១០ ព្រះពោធិសត្វទទួលការព្យាករណ៍ពីព្រះពុទ្ធ ២៨ អង្គ(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី)
+13	AOTHKIDYY0013	1r69pYZqnIht4bNznlkaQPW45mZwKANrk	DRAFT	63.2	-18.6	cap	https://media.84000.digital/audio/65e5a3e2aa06b5d0-a64.mp3	ថ្នាក់កុមារ ភាគ១៣ តារាងពុទ្ធវង្សទី ៤ទី៥អំពីព្រះពុទ្ធ ២៥ អង្គ
+14	AOTHKIDYY0014	1Scegzyc7Bwqle8o-xYwgICofBOwyrcMi	DRAFT	67.1	-18.6	cap	https://media.84000.digital/audio/a828e97f88683a80-a64.mp3	ថ្នាក់កុមារ ភាគ១៤ តារាងពុទ្ធវង្សទី ៦ អំពីការប្រជុំសាវ័ក
+15	AOTHKIDYY0015	11dmuCN01AP8oINWTGqRds8xqDDYU0UqV	DRAFT	63.5	-18.7	cap	https://media.84000.digital/audio/8b62fc01221f09c3-a64.mp3	ថ្នាក់កុមារ ភាគ១៥ តារាងពុទ្ធវង្សទី ៧ អំពីអគ្គសាវ័ក អគ្គសាវិកា
+16	AOTHKIDYY0016	1cM1FvV0tTLCZsHpE9TQnFWtJTo4vK4uG	DRAFT	64.5	-18.2	ok	https://media.84000.digital/audio/9b5f70b4f6995ca6-a64.mp3	ថ្នាក់កុមារ ភាគ១៦
+17	AOTHKIDYY0017	18GjzUAeLkjF7as5Y-bZHf1jpE80c5K4r	DRAFT	61.5	-18.2	ok	https://media.84000.digital/audio/53cb4db0fac8452b-a64.mp3	ថ្នាក់កុមារ ភាគ១៧ តារាងពុទ្ធវង្សទី ៩ ព្រះជន្ម និងកំពស់របស់ព្រះពុទ្ធ
+19	AOTHKIDYY0019	1rAKuAzWnsTls_lZi3xcZq3GYOZ6xpByo	DRAFT	72.5	-18.1	ok	https://media.84000.digital/audio/bf88c087f70f9178-a64.mp3	ថ្នាក់កុមារ ភាគ១៩ តារាងពុទ្ធវង្សទី ១០ ពន្យល់ដលព្រះពុទ្ធអនោមទស្សី
+20	AOTHKIDYY0020	146qej63bjZR7TnKE09dCmVzmsVQx0nKy	DRAFT	64.0	-18.2	ok	https://media.84000.digital/audio/b732a13ab65cd6b2-a64.mp3	ថ្នាក់កុមារ ភាគ២០ តារាងពុទ្ធវង្សទី ១០ ពន្យល់ដល់ព្រះពុទ្ធកស្សប
+22	AOTHKIDYY0022	1ebHBsdR1y6eXI4cJHtjn0hnef_lKY3oY	DRAFT	56.2	-18.2	ok	https://media.84000.digital/audio/2c6fa437cf614953-a64.mp3	ថ្នាក់កុមារ ភាគ២២ បារមី ១០ ទានបារមី ការឱ្យទាន១០ យ៉ាង
+23	AOTHKIDYY0023	1kRw7r3NKbEQgRZK39sYsXeONoI079WU6	DRAFT	72.4	-18.8	cap	https://media.84000.digital/audio/1044494834818b13-a64.mp3	ថ្នាក់កុមារ ភាគ២៣ បារមី ១០ ទានបារមី ការឱ្យទាន១០ យ៉ាង
+24	AOTHKIDYY0024	17eka1zt6iovRvTzmJpAjbS7Q0s6zS-uM	DRAFT	69.7	-18.2	ok	https://media.84000.digital/audio/dd21f3cdb555e6e1-a64.mp3	ថ្នាក់កុមារ ភាគ២៤ បារមី ១០ ទានឧបបារមី ទានបរមត្ថបារមី
+25	AOTHKIDYY0025	1yD4W2S9XRQwKzi29gGZzFA9hWHSBnBoL	DRAFT	43.7	-19	cap	https://media.84000.digital/audio/0ea36657f3ca6d8f-a64.mp3	ថ្នាក់កុមារ ភាគ២៥ បារមី ១០ ពិចារណាទោស និងអានិសង្សរបស់ទាន
+27	AOTHKIDYY0027	1MJxg2g2a_H5CfqUSmvSzwDvX3C4YL7Mr	DRAFT	51.3	-18.2	ok	https://media.84000.digital/audio/c79672221260fd01-a64.mp3	ថ្នាក់កុមារ ភាគ២៧ បារមី ១០ សីលបារមី ការរក្សាសីល៥
+28	AOTHKIDYY0028	1iUYHKDoIkbtsYtkRA2FJvk8iIrV8nTUb	DRAFT	77.8	-18.2	ok	https://media.84000.digital/audio/c66644fab3f52368-a64.mp3	ថ្នាក់កុមារ ភាគ២៨ បារមី ១០ សីលបារមី អទិន្នាទានដល់មុសាវាទ
+30	AOTHKIDYY0030	11bwQeKl4ExagNWTg2_IpfP_6W3r5nHBy	DRAFT	67.9	-19	cap	https://media.84000.digital/audio/5f806998ee2382c5-a64.mp3	ថ្នាក់កុមារ ភាគ៣០ បារមី ១០ ពិចារណាអានិសង្សសីលបារមី
+34	AOTHKIDYY0034	1eEJ_IPyJ36Lq6U9xp-bDcc5y8OZ2FzOR	DRAFT	70.3	-18.4	ok	https://media.84000.digital/audio/201a0a727e54003b-a64.mp3	ថ្នាក់កុមារ ភាគ៣៤ បញ្ញាបារមី និងវីរិយបារមី មាន៣កម្រិត/ភិក្ខុយ៉ុន យី ធម៌សម្រាប់កុមារ និងយុវជន
+36	AOTHKIDYY0036	1WExpJ2oJe0bmIDI4AF4Ergsf2sBpyfes	DRAFT	70.4	-18.2	ok	https://media.84000.digital/audio/1edc2c38ff3eb7cb-a64.mp3	ថ្នាក់កុមារ ភាគ៣៦ វីរិយបារមិ និងខន្តិបារមី ការអន់ធន់/ភិក្ខុយ៉ុន យី ធម៌សម្រាប់កុមារ និងយុវជន
+38	AOTHKIDYY0038	1O9izv_mCuDa26eZ6AdqH2n1aPfEADcC3	DRAFT	71.3	-18.4	ok	https://media.84000.digital/audio/2a695b568c02c4ee-a64.mp3	ថ្នាក់កុមារ ភាគ៣៨ ខន្តិបារមី ការអត់ធន់ប្រៀបនឹងអាសិរពិស ៤/ភិក្ខុយ៉ុន យី ធម៌សម្រាប់កុមារ និងយុវជន
+39	AOTHKIDYY0039	1EjJ4Np0w7ELeAJOisuQVgetHkFqC21_I	DRAFT	74.5	-18.1	ok	https://media.84000.digital/audio/2387eb9898efac2b-a64.mp3	ថ្នាក់កុមារ ភាគ៣៩ ខន្តិបារមី ការអត់ធន់មាន ៤ យ៉ាង/ភិក្ខុយ៉ុន យី ធម៌សម្រាប់កុមារ និងយុវជន
+40	AOTHKIDYY0040	1H0uJuVNEPZb25TpLN17dV-hyguQGxFz6	DRAFT	74.8	-18.3	ok	https://media.84000.digital/audio/1ece6522bd3917de-a64.mp3	ថ្នាក់កុមារ ភាគ៤០ ខន្តិបារមី អន់ធន់មាន៣ កម្រិត/ភិក្ខុយ៉ុន យី ធម៌សម្រាប់កុមារ និងយុវជន
+41	AOTHKIDYY0041	1F8mASxAjFEewRkKOlavrKjmdwyO1JZu3	DRAFT	70.7	-18.3	ok	https://media.84000.digital/audio/e9a5a690320e3d96-a64.mp3	ថ្នាក់កុមារ ភាគ៤១ ខន្តិបារមី និងសច្ចបារមី/ភិក្ខុយ៉ុន យី ធម៌សម្រាប់កុមារ និងយុវជន
+47	AOTHKIDYY0047	1LdDpre9LiFAI7abCTCDfjwAQGJK3-q-Q	DRAFT	66.2	-18.2	ok	https://media.84000.digital/audio/fd49e8cc58f6e733-a64.mp3	ថ្នាក់កុមារ ភាគ47 មេត្តាបារមី អានិសង្សនៃការចម្រើនមេត្តាចិត្ត
+48	AOTHKIDYY0048	1NP3W4SqzVLchPxqLhjcOCJZGsP3S7Bsc	DRAFT	45.3	-18.2	ok	https://media.84000.digital/audio/928efacaf360e2d4-a64.mp3	ថ្នាក់កុមារ ភាគ48 មេត្តាបារមី អប់រំខ្លួនឱ្យមានមេត្តាចិត្ត
+49	AOTHKIDYY0049	1Ax1l6tY9nnZ22s6qOu0tMOuoOpHgib61	DRAFT	68.8	-18.6	cap	https://media.84000.digital/audio/2dec1b124986dd56-a64.mp3	ថ្នាក់កុមារ ភាគ49 មេត្តាបារមី ពិចារណាតាមពុទ្ធោវាទផ្សេងៗ
+50	AOTHKIDYY0050	1mVeiqzclIXDxfKXX65LGoB7ih6Bb6aUL	DRAFT	71.1	-18.6	cap	https://media.84000.digital/audio/50e3e7cbb5bed09f-a64.mp3	ថ្នាក់កុមារ ភាគ50 ឧបេក្ខាបារមី មានចិត្តជាកណ្តាលចំពោះសព្វសត្ត
+52	AOTHKIDYY0052	1kvIYul3CMbp4O2cHJl31gdnajPK8hyCh	DRAFT	68.1	-18.1	ok	https://media.84000.digital/audio/38674c229ddbbc86-a64.mp3	ថ្នាក់កុមារ ភាគ52 ឧបេក្ខាបារមី មានយស ឥតយស សរសើរ និន្ទា/ភិក្ខុយ៉ុន យី ធម៌សម្រាប់កុមារ និងយុវជន
+53	AOTHKIDYY0053	1yaqbWCU72J3rYd8n8OfMPHrsaXy9vOPh	DRAFT	66.4	-19	cap	https://media.84000.digital/audio/c79a9c2f0221dc9d-a64.mp3	ថ្នាក់កុមារ ភាគ53 ឧបេក្ខាបារមី សរសើរ និន្ទា សុខ និងទុក្ខ/ភិក្ខុយ៉ុន យី ធម៌សម្រាប់កុមារ និងយុវជន
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1CdXa2ACb-0l505CkyANmQ9jc0VkSg5oi,1ZxsM8LyY-SLZHDP1UwhNurFWBRM_5UsY,1tTvaU6O9V80-9ZwDqUxA1wuMrebJHlsb,1Cw-zIZh9Zf5oTY5vbc8pfsDh4tQ6h3UV,1HiwfvvwotnaNDMIpA10OdyB6A--TeH5H,1pK8Wu7LLk2hyn9K62XtYAVlwKIWSni5Z,1zqTbRThY2Ki-TlVA798JSNYZz5h0mOuT,1SYsnIHMT7KJF0fBUAzr3z7ag93dVitJC,1TBoELkg9-xiwQGBw7yQwzggyIlZ9sJuU,1r69pYZqnIht4bNznlkaQPW45mZwKANrk,1Scegzyc7Bwqle8o-xYwgICofBOwyrcMi,11dmuCN01AP8oINWTGqRds8xqDDYU0UqV,1cM1FvV0tTLCZsHpE9TQnFWtJTo4vK4uG,18GjzUAeLkjF7as5Y-bZHf1jpE80c5K4r,1rAKuAzWnsTls_lZi3xcZq3GYOZ6xpByo,146qej63bjZR7TnKE09dCmVzmsVQx0nKy,1ebHBsdR1y6eXI4cJHtjn0hnef_lKY3oY,1kRw7r3NKbEQgRZK39sYsXeONoI079WU6,17eka1zt6iovRvTzmJpAjbS7Q0s6zS-uM,1yD4W2S9XRQwKzi29gGZzFA9hWHSBnBoL,1MJxg2g2a_H5CfqUSmvSzwDvX3C4YL7Mr,1iUYHKDoIkbtsYtkRA2FJvk8iIrV8nTUb,11bwQeKl4ExagNWTg2_IpfP_6W3r5nHBy,1eEJ_IPyJ36Lq6U9xp-bDcc5y8OZ2FzOR,1WExpJ2oJe0bmIDI4AF4Ergsf2sBpyfes,1O9izv_mCuDa26eZ6AdqH2n1aPfEADcC3,1EjJ4Np0w7ELeAJOisuQVgetHkFqC21_I,1H0uJuVNEPZb25TpLN17dV-hyguQGxFz6,1F8mASxAjFEewRkKOlavrKjmdwyO1JZu3,1LdDpre9LiFAI7abCTCDfjwAQGJK3-q-Q,1NP3W4SqzVLchPxqLhjcOCJZGsP3S7Bsc,1Ax1l6tY9nnZ22s6qOu0tMOuoOpHgib61,1mVeiqzclIXDxfKXX65LGoB7ih6Bb6aUL,1kvIYul3CMbp4O2cHJl31gdnajPK8hyCh,1yaqbWCU72J3rYd8n8OfMPHrsaXy9vOPh

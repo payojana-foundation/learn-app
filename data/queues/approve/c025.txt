@@ -1,0 +1,58 @@
+# c025 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ ធម្មសេនា ហាក់ សៀងហៃ
+# course: 1-Dhamma in English( វគ្គ ១)
+# queued 58 · converted 49 · approved 0 · failed 0 · not started 9
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	AENGHS0000101	16RY2DZyLNSStqiZUi-xSI99aE0f0aRgf	DRAFT	6.8	-18.2	ok	https://media.84000.digital/audio/a70a88e690aa35c9-a64.mp3	១ Buddhism in English by Ven.Hak Sienghai_ 1.mp4
+2	AENGHS0000102	1m37Q8Hjvr7sGsbb35UlpiDSrOYbcblkD	DRAFT	9.4	-18.5	ok	https://media.84000.digital/audio/4c180ef37b8ce455-a64.mp3	២ Buddhism in English by Ven.Hak Sienghai_ 2.mp4
+6	AENGHS0000106	1Iwtb7WIlz0Y-TW2fttlL_eRoEeIueG3w	DRAFT	9.1	-18.8	cap	https://media.84000.digital/audio/11347d788fab2cb0-a64.mp3	៦ Buddhism in English by Ven.Hak Sienghai 6.mp4
+7	AENGHS0000107	1vM1qDmgJ42OensIoTLzmLXfYps4f8ke5	DRAFT	6.0	-18.4	ok	https://media.84000.digital/audio/65517b855291723e-a64.mp3	៧ Buddhism in English by Ven.Hak Sienghai 7.mp4
+8	AENGHS0000108	14NcbezgKhwKsHYTwQlRoBMHcGjS7wTmI	DRAFT	8.8	-18.4	ok	https://media.84000.digital/audio/92d9a79a4b66a82e-a64.mp3	៨ Buddhism in English by Ven.Hak Sienghai 8.mp4
+12	AENGHS0000112	1nVkzzPzfsG1SYn6LqdOHQyNtFo_O6hLy	DRAFT	10.3	-18.1	ok	https://media.84000.digital/audio/2bd5763a0a6c4e65-a64.mp3	១២ Buddhism in English by Ven.Hak Sienghai 12.mp4
+13	AENGHS0000113	127DjQzg4dbeAaAIegrjyohHIjnF4bYbs	DRAFT	9.4	-18.1	ok	https://media.84000.digital/audio/95998fb4c9e43656-a64.mp3	១៣ Buddhism in English by Ven.Hak Sienghai 13.mp4
+14	AENGHS0000114	18zBnszors05AfxtsRo42udF-oSr03lO3	DRAFT	13.6	-18.2	ok	https://media.84000.digital/audio/2217f33bee5de439-a64.mp3	១៤ Buddhism in English by Ven.Hak Sienghai 14.mp4
+15	AENGHS0000115	1SNNP2ubW1sxQ1tSNnWsgHS_kZs0tpLaz	DRAFT	14.3	-18.1	ok	https://media.84000.digital/audio/8de71c0990d09dd4-a64.mp3	15-១៦ Buddhism in English by Ven.Hak Sienghai 16 (1).mp3
+16	AENGHS0000116	1YXZ4QYWf8FcWNcruG-0gl33AjdbTC-vy	DRAFT	14.4	-18.1	ok	https://media.84000.digital/audio/e7dbaf6f83d84361-a64.mp3	16-១៧ Buddhism in English by Ven.Hak Sienghai 17 (1).mp3
+17	AENGHS0000117	1wpykJQjZ8kGi07CN10cMuasYo_VR44J3	DRAFT	16.8	-18.2	ok	https://media.84000.digital/audio/b65c2d75f45cf401-a64.mp3	17-១៨ Buddhism in English by Ven.Hak Sienghai 18.mp3
+18	AENGHS0000118	1vR6rmlSPf7u2ox6sjsQyeTLewEs29LXk	DRAFT	18.5	-18	ok	https://media.84000.digital/audio/0a8269dbd63186dd-a64.mp3	18-១៩ Buddhism in English by Ven.Hak Sienghai 19.mp3
+19	AENGHS0000119	1xkSmf5GsEcbCzoRwezc_IePr8AyYXacH	DRAFT	9.5	-18.2	ok	https://media.84000.digital/audio/0a42a91a7a6069f8-a64.mp3	19-២០ Buddhism in English by Ven.Hak Sienghai 20.mp3
+20	AENGHS0000120	1nTFcQo6zAI0AlLbN6-7SvhxBy2vT_zNK	DRAFT	11.6	-18.1	ok	https://media.84000.digital/audio/a84dd63b446990db-a64.mp3	20-២១ Buddhism in English by Ven.Hak Sienghai 21.mp3
+21	AENGHS0000121	15Hc7giQPNGzUcqYPuVNLqnoeLrYcIhdP	DRAFT	17.1	-18.1	ok	https://media.84000.digital/audio/96133782ba7a1b66-a64.mp3	21-២២ Buddhism in English by Ven.Hak Sienghai 22.mp3
+22	AENGHS0000122	1O7I3XSZZXflZqeA3FEJVQl1Nj8IS8haO	DRAFT	11.3	-18.1	ok	https://media.84000.digital/audio/df47e0066d0947ff-a64.mp3	22-២៣ Buddhism in English by Ven.Hak Sienghai 23.mp3
+23	AENGHS0000123	12QabgnsKJK1hIHkVsjvHvVYILskQ9oDX	DRAFT	15.1	-18.2	ok	https://media.84000.digital/audio/97a8609e06e914f8-a64.mp3	23-២៤ Buddhism in English by Ven.Hak Sienghai 24.mp3
+24	AENGHS0000124	1BN17eNaG0z5k0SfarTvrk-8dwms6o_FK	DRAFT	10.6	-18.1	ok	https://media.84000.digital/audio/90d521358ead3574-a64.mp3	24-២៥ Buddhism in English by Ven.Hak Sienghai 25.mp3
+25	AENGHS0000125	1lcUZ8a8IicJ03crKhN4iX7QZQGOqzwuj	DRAFT	11.1	-18.1	ok	https://media.84000.digital/audio/6432f8a45b7677bc-a64.mp3	25-២៦ Buddhism in English by Ven.Hak Sienghai 26.mp3
+26	AENGHS0000126	1KOxjJGksNa0wB2NeFbn6nm7AaOL7wKgm	DRAFT	8.4	-18.2	ok	https://media.84000.digital/audio/95ebd8d37f0635cf-a64.mp3	26-២៧ Buddhism in English by Ven.Hak Sienghai 27.mp3
+27	AENGHS0000127	1oFFxUtr90OiIGUwRNBBsvbOUZWcHoqcm	DRAFT	12.6	-18.1	ok	https://media.84000.digital/audio/3799164726764d2f-a64.mp3	27-២៨ Buddhism in English by Ven.Hak Sienghai 28.mp3
+28	AENGHS0000128	1HmdwztoVJ919umwDf1ZF20KieOObeYPq	DRAFT	7.7	-18.2	ok	https://media.84000.digital/audio/3fed4947639c550a-a64.mp3	28-២៩ Buddhism in English by Ven.Hak Sienghai 29.mp3
+29	AENGHS0000129	1oWHYJKWipO-1ewzgegmDG-5wWnmQ1bsx	DRAFT	10.2	-18.1	ok	https://media.84000.digital/audio/6206c16766e9c595-a64.mp3	29-៣១ Buddhism in English by Ven.Hak Sienghai 31.mp3
+30	AENGHS0000130	1HpHKYRP0FvOofZBLlqfYbFXLB49eJcBS	DRAFT	8.2	-18.1	ok	https://media.84000.digital/audio/1a59dfa7a12b49b7-a64.mp3	30-៣២ Buddhism in English by Ven.Hak Sienghai 33.mp3
+31	AENGHS0000131	1zzfk_1jbDEH_mujrFXtsxaU7_hiO-YRK	DRAFT	6.3	-18.1	ok	https://media.84000.digital/audio/520f4f3a842bedb1-a64.mp3	31-៣៣ Buddhism in English by Ven.Hak Sienghai 34.mp3
+32	AENGHS0000132	1i_BhCaTrV2uolOlK1aSmyIbIlAgyvwCn	DRAFT	8.4	-18.1	ok	https://media.84000.digital/audio/b4429fa262482549-a64.mp3	32-៣៤ Buddhism in English by Ven.Hak Sienghai 35.mp3
+33	AENGHS0000133	1bek9b-dQxlEKjV30R3XqCTQnQ03dEvQB	DRAFT	9.3	-18	ok	https://media.84000.digital/audio/6be031ed73a2d24a-a64.mp3	33-៣៥ Buddhism in English by Ven.Hak Sienghai 36.mp3
+34	AENGHS0000134	1BdofS2RNdafTZeZZB4THwkx4UqLPqyl1	DRAFT	10.2	-18	ok	https://media.84000.digital/audio/a953e4c1aad5a51a-a64.mp3	34-៣៦ Buddhism in English by Ven.Hak Sienghai 37.mp3
+35	AENGHS0000135	18TpBi_NMMGe0DY4K7WedsSyxAx7392l-	DRAFT	8.4	-18.1	ok	https://media.84000.digital/audio/f3f9d9d6db2fcc2c-a64.mp3	35-៣៧ Buddhism in English by Ven.Hak Sienghai_ 38.mp3
+36	AENGHS0000136	1-Nq3oysKmPahPQVrMi3Ofs01iWzib0cc	DRAFT	12.6	-18.1	ok	https://media.84000.digital/audio/562f6e0a2701eee1-a64.mp3	36-Buddhism in English by Ven.Hak Sienghai 39.mp3
+37	AENGHS0000137	1MBnMLQ5wQAMzOEVBGUpE2BNi814tGivB	DRAFT	7.9	-18.1	ok	https://media.84000.digital/audio/09bf372693827039-a64.mp3	37-៤០ Buddhism in English by Ven.Hak Sienghai 41.mp3
+39	AENGHS0000139	1KpaV2Q6XD3VHmHgf_tOZMAGdS7xHley4	DRAFT	24.1	-18.2	ok	https://media.84000.digital/audio/729f7d694b70dd20-a64.mp3	39-៤២ Buddhism in English by Ven.Hak Sienghai 43.mp3
+40	AENGHS0000140	1oH1eLpiFSnP-kYHf7f-GXlWvf9mqQ9DE	DRAFT	14.3	-18.2	ok	https://media.84000.digital/audio/ea9f422b43101f11-a64.mp3	40-៤៣ Buddhism in English by Ven.Hak Sienghai 44.mp3
+41	AENGHS0000141	1Fk7Ie1cG3kzeeqinMu6ZqkVY5ioUE1NZ	DRAFT	11.4	-18.1	ok	https://media.84000.digital/audio/9df236c9a9958a7c-a64.mp3	41-៤៤ Buddhism in English by Ven.Hak Sienghai 45-1.mp3
+42	AENGHS0000142	1knYhfxux-NV_-fsDPPpPgU7Vh55dpmuU	DRAFT	8.6	-18	ok	https://media.84000.digital/audio/7f17b6968504ff20-a64.mp3	42-៤៥ Buddhism in English by Ven.Hak Sienghai 46.mp3
+43	AENGHS0000143	1zBCFPyHHSmkWf6CViTa6kPmzU5cszmhn	DRAFT	9.7	-18.1	ok	https://media.84000.digital/audio/2e9c90f54a1a8e14-a64.mp3	43-៤៦ Buddhism in English by Ven.Hak Sienghai 47.mp3
+44	AENGHS0000144	1ZzhPFNsA6xTVnb9G8o1K-cFoWR0G_imD	DRAFT	7.1	-18.2	ok	https://media.84000.digital/audio/bfec1f4adfc3b9ab-a64.mp3	44-៤៧ Buddhism in English by Ven.Hak Sienghai 48.mp3
+45	AENGHS0000145	1uTnSEirZHL5rjyj1ykgp__LjD21S9av6	DRAFT	17.3	-18.2	ok	https://media.84000.digital/audio/25f347368a63181f-a64.mp3	45-៤៨ Buddhism in English by Ven.Hak Sienghai 49.mp3
+46	AENGHS0000146	1JM2455Ig2evgsQX7fcwTwQ8ZCQvVhk0y	DRAFT	3.3	-18.2	ok	https://media.84000.digital/audio/2c114354d1ed6889-a64.mp3	46-៤៩ Buddhism in English by Ven.Hak Sienghai 50.mp3
+47	AENGHS0000147	1gYMp26GX8Q686GGPeDpalaLDxqkPUr3E	DRAFT	17.0	-18.2	ok	https://media.84000.digital/audio/d99fbd05464376e4-a64.mp3	47-៥០ Buddhism in English by Ven.Hak Sienghai 51.52.mp3
+48	AENGHS0000148	1sbu5VgrzVIMZd61HnfNckK0M7Wmq4tYK	DRAFT	7.5	-18.1	ok	https://media.84000.digital/audio/a9e8550a3321a2ba-a64.mp3	48-៥១ Buddhism in English by Ven.Hak Sienghai 52.mp3
+49	AENGHS0000149	1vLAWBgoWSpi7V4HFMFe8bzMI8eDwW2NW	DRAFT	9.0	-18.1	ok	https://media.84000.digital/audio/50370f5424587511-a64.mp3	49-៥២ Buddhism in English by Ven.Hak Sienghai 53.mp3
+50	AENGHS0000150	11fqSivbkyN4rFKXAOam_Coo7pUhP6yyZ	DRAFT	8.8	-18.8	cap	https://media.84000.digital/audio/553520cc9ca65950-a64.mp3	50-៥៣ Buddhism in English by Ven.Hak Sienghai 54.mp3
+51	AENGHS0000151	14B1Mbist6sYzFfergqy2Ev98uHcq1CFj	DRAFT	7.4	-18.2	ok	https://media.84000.digital/audio/0dadd1683462e227-a64.mp3	51-៥៤ Buddhism in English by Ven.Hak Sienghai 55.mp3
+52	AENGHS0000152	1eNuUxZh0z_Vz9JtfxQgq4XoCW7TOjxNW	DRAFT	8.9	-18.1	ok	https://media.84000.digital/audio/a48153fc45c1eef2-a64.mp3	52-ចរិត៦.mp3
+53	AENGHS0000153	1oV-LnPdZlM7UWV4s5Odj6UzR58b3i97k	DRAFT	10.2	-18.5	ok	https://media.84000.digital/audio/42cf425caa4a2a8b-a64.mp3	53-មនុស្ស៥ប្រភេទ.mp3
+54	AENGHS0000154	1el3D_ccbdweFdOOm3DUhIGORfbvywCh-	DRAFT	10.3	-18.2	ok	https://media.84000.digital/audio/b59cf6f7ed520809-a64.mp3	54-កាប់ព្រៃបី រក្សាព្រៃដប់ ផឹកថ្នាំ៥កញ្ចប់ តមត្រណមពីរ59.mp3
+55	AENGHS0000155	12exMtxPpz87aHv-cmdEd_wTJQgwArQhI	DRAFT	7.2	-18.2	ok	https://media.84000.digital/audio/06e41e8182c98e6c-a64.mp3	55-៦០ ព្យាយាមត្រូវ៤យ៉ាង61.mp3
+57	AENGHS0000157	1m8dxha4UBLFybygKCbSNHhRway5m3Z0d	DRAFT	9.9	-18.2	ok	https://media.84000.digital/audio/99244353579a42a6-a64.mp3	57-៦៣ ការមិនសេពគប់បុគ្គលពាល64.mp3
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+16RY2DZyLNSStqiZUi-xSI99aE0f0aRgf,1m37Q8Hjvr7sGsbb35UlpiDSrOYbcblkD,1Iwtb7WIlz0Y-TW2fttlL_eRoEeIueG3w,1vM1qDmgJ42OensIoTLzmLXfYps4f8ke5,14NcbezgKhwKsHYTwQlRoBMHcGjS7wTmI,1nVkzzPzfsG1SYn6LqdOHQyNtFo_O6hLy,127DjQzg4dbeAaAIegrjyohHIjnF4bYbs,18zBnszors05AfxtsRo42udF-oSr03lO3,1SNNP2ubW1sxQ1tSNnWsgHS_kZs0tpLaz,1YXZ4QYWf8FcWNcruG-0gl33AjdbTC-vy,1wpykJQjZ8kGi07CN10cMuasYo_VR44J3,1vR6rmlSPf7u2ox6sjsQyeTLewEs29LXk,1xkSmf5GsEcbCzoRwezc_IePr8AyYXacH,1nTFcQo6zAI0AlLbN6-7SvhxBy2vT_zNK,15Hc7giQPNGzUcqYPuVNLqnoeLrYcIhdP,1O7I3XSZZXflZqeA3FEJVQl1Nj8IS8haO,12QabgnsKJK1hIHkVsjvHvVYILskQ9oDX,1BN17eNaG0z5k0SfarTvrk-8dwms6o_FK,1lcUZ8a8IicJ03crKhN4iX7QZQGOqzwuj,1KOxjJGksNa0wB2NeFbn6nm7AaOL7wKgm,1oFFxUtr90OiIGUwRNBBsvbOUZWcHoqcm,1HmdwztoVJ919umwDf1ZF20KieOObeYPq,1oWHYJKWipO-1ewzgegmDG-5wWnmQ1bsx,1HpHKYRP0FvOofZBLlqfYbFXLB49eJcBS,1zzfk_1jbDEH_mujrFXtsxaU7_hiO-YRK,1i_BhCaTrV2uolOlK1aSmyIbIlAgyvwCn,1bek9b-dQxlEKjV30R3XqCTQnQ03dEvQB,1BdofS2RNdafTZeZZB4THwkx4UqLPqyl1,18TpBi_NMMGe0DY4K7WedsSyxAx7392l-,1-Nq3oysKmPahPQVrMi3Ofs01iWzib0cc,1MBnMLQ5wQAMzOEVBGUpE2BNi814tGivB,1KpaV2Q6XD3VHmHgf_tOZMAGdS7xHley4,1oH1eLpiFSnP-kYHf7f-GXlWvf9mqQ9DE,1Fk7Ie1cG3kzeeqinMu6ZqkVY5ioUE1NZ,1knYhfxux-NV_-fsDPPpPgU7Vh55dpmuU,1zBCFPyHHSmkWf6CViTa6kPmzU5cszmhn,1ZzhPFNsA6xTVnb9G8o1K-cFoWR0G_imD,1uTnSEirZHL5rjyj1ykgp__LjD21S9av6,1JM2455Ig2evgsQX7fcwTwQ8ZCQvVhk0y,1gYMp26GX8Q686GGPeDpalaLDxqkPUr3E,1sbu5VgrzVIMZd61HnfNckK0M7Wmq4tYK,1vLAWBgoWSpi7V4HFMFe8bzMI8eDwW2NW,11fqSivbkyN4rFKXAOam_Coo7pUhP6yyZ,14B1Mbist6sYzFfergqy2Ev98uHcq1CFj,1eNuUxZh0z_Vz9JtfxQgq4XoCW7TOjxNW,1oV-LnPdZlM7UWV4s5Odj6UzR58b3i97k,1el3D_ccbdweFdOOm3DUhIGORfbvywCh-,12exMtxPpz87aHv-cmdEd_wTJQgwArQhI,1m8dxha4UBLFybygKCbSNHhRway5m3Z0d

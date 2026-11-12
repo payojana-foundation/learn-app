@@ -1,0 +1,55 @@
+# c020 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
+# course: 14-A.S.បរិច្ឆេទ ទី៩ (២០២០)
+# queued 41 · converted 39 · approved 0 · failed 0 · not started 2
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+2	AABH000YY2020.9002	1cuUhmNg_a4OB7ZSUkgunY-B2uBy3dny5	DRAFT	86.2	-18.3	ok	https://media.84000.digital/audio/eced7d266ca3c9fe-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 02 ចរិតលាយគ្នា ៦៣ ចរិត.mp3
+3	AABH000YY2020.9003	1ztQus5EBNqpeB_OCh63_CyjeZ-O6CFXM	DRAFT	85.0	-18	ok	https://media.84000.digital/audio/e4c9b1d804673ee7-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 03 បលិពោធ គ្រឿងកង្វល់របស់សមាធិ១០.mp3
+4	AABH000YY2020.9004	1DOsLwwJdVGPNnb8kOWrNp0Y2LIN0MUWV	DRAFT	85.6	-18	ok	https://media.84000.digital/audio/48ca5fe00a4a7423-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 04 និមិត្ត ៣ យ៉ាងរបស់សមាធិ.mp3
+5	AABH000YY2020.9005	1Gxg9_loAwdxbn3l1WVWAP_LPZEeWl4t3	DRAFT	73.3	-18	ok	https://media.84000.digital/audio/b43747b865501319-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 05 អធិប្បយកសិណ ១០ យ៉ាង.mp3
+6	AABH000YY2020.9006	1UQga4Fu8DG3OurwUTwmznN1l04e985p7	DRAFT	87.4	-18	ok	https://media.84000.digital/audio/65da00b8acf72ec3-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 06 សិក្សាពីអសុភ (សាកសពមិនស្អាត) ១០.mp3
+7	AABH000YY2020.9007	1X2UMNI8MLVfhTFX4Bc7GgGxdy4TRtBk-	DRAFT	80.1	-18	ok	https://media.84000.digital/audio/3734be17774642de-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 07 វីធីសាស្រ្តចម្រើនអនុស្សតិ ៤ ខាងដើម.mp3
+8	AABH000YY2020.9008	1fRHtdG_YdvzD1J_BfI52FWB2IlGrwiDo	DRAFT	85.9	-18	ok	https://media.84000.digital/audio/fdd3f9fbce5a30e8-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 08 ចាគានុស្សតិ ទេវតានុស្សតិ ឧបសមានុស្សតិ.mp3
+9	AABH000YY2020.9009	1ukutK8wyxMg9--WHqUd5jr03Ycws_23r	DRAFT	84.4	-18	ok	https://media.84000.digital/audio/6e96fae9badc77b6-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 09 មរណានុស្សតិភាគ ១.mp3
+10	AABH000YY2020.9010	1xQQe1DjyO0gCduydk_Ub_gHBrks09itO	DRAFT	76.3	-18	ok	https://media.84000.digital/audio/2d6863fd7cfd1c56-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 10 វិធីសាស្រ្តចម្រើនមរណានុស្សតិ ៨ ប្រភេទ.mp3
+11	AABH000YY2020.9011	1Z-JQlJaoH11hVnHNFvbIrpZuf2lcXw_x	DRAFT	85.4	-18	ok	https://media.84000.digital/audio/7f1305fa08d25c8c-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 11 កាយគតាសតិ រលឹកដល់អាការៈ ៣២ ប្រការ.mp3
+12	AABH000YY2020.9012	1_L60zEgTIXJSopQJMmUExbeAhAGKc2RY	DRAFT	83.2	-18	ok	https://media.84000.digital/audio/4844187c7f609d48-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 12 កាយគតាសតិ​ ត្រូវឈ្លាស ២ យ៉ាង
+១.ឧគ្គហកោសល្ល ២.មនសិការកោសល្ល.mp3
+13	AABH000YY2020.9013	11vb-mV0Fh8wKsVQdMB6XulZNh1z4Tsc-	DRAFT	87.4	-18	ok	https://media.84000.digital/audio/14baa2ca181c1287-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 13 កាយគតាសតិ រលឹកកាយ ភាគ ៣.mp3
+15	AABH000YY2020.9015	1JMx8Ih4bDtjWNVFcEiYVz3ss6p7VAt_Z	DRAFT	85.6	-18	ok	https://media.84000.digital/audio/cc47f9828cba164a-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 15 កាយគតាសតិ ភាគ៥ បញ្ចាប់អាការៈ២០.mp3
+16	AABH000YY2020.9016	1GTLCgMkOmk2y3YK1Ci69KtLJVn8Q2ceg	DRAFT	83.9	-18	ok	https://media.84000.digital/audio/8afeb746123adb23-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 16 អានាបានស្សតិភាគ១.mp3
+17	AABH000YY2020.9017	1UGpYU0mtNR6u3i6r1rkBqQdp_A8ilvGu	DRAFT	85.8	-18	ok	https://media.84000.digital/audio/cf26c220ce834aa4-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 17 អានាបានស្សតិភាគ ២.mp3
+18	AABH000YY2020.9018	1AiRltg0G_buj7oYfS265RBRUW1gX_IAh	DRAFT	77.5	-18	ok	https://media.84000.digital/audio/cd322a9e9f0a4e3a-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 18 របៀបចម្រើនមេត្តាចិត្តភាគ ១
+ភិក្ខុអគ្គចិត្តោ យ៉ុន​ យី.mp3
+19	AABH000YY2020.9019	1d-6vMYsv-33zX6e4Js_JyLR-wCVsU8-o	DRAFT	83.1	-18	ok	https://media.84000.digital/audio/275756e6de4fcce0-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 19 របៀបចម្រើនមេត្តាចិត្តភាគ ២.mp3
+20	AABH000YY2020.9020	16-6TzH3mdcujc7C5tI2Nkma-Df5u_0iR	DRAFT	84.7	-18	ok	https://media.84000.digital/audio/bb60c50474d7463b-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 20 អធិប្បាយករុណា មុទិតា ឧបេក្ខា.mp3
+21	AABH000YY2020.9021	1Tv8fCnw6QaAW9ijb3nFXVJDQMrHiBe3I	DRAFT	84.3	-18	ok	https://media.84000.digital/audio/0514af1afa5553ac-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 21 អភិញ្ញាភាគ ២ ត្រចៀកទិព្វ ភ្នែកទិព្វ.mp3
+22	AABH000YY2020.9022	1LRZ7V8QO-9cLusWC6YpCL76icPyrwop2	DRAFT	53.4	-18	ok	https://media.84000.digital/audio/9334a4e2df747c3c-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 22 សីលវិសុទ្ធិ សេចក្តីបរិសុទ្ធនៃសីល.mp3
+23	AABH000YY2020.9023	1XKsqFeCAYFf4wzNGguLJLLttDV733DAO	DRAFT	42.2	-18	ok	https://media.84000.digital/audio/8d8a74b55ccaa6bf-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 23 ចិត្តវិសុទ្ធិ សេចក្តីបរិសុទ្ធិនៃចិត្ត.mp3
+24	AABH000YY2020.9024	1K23VzbmB18hjPsYoImNgd_bdhCOT_eAN	DRAFT	84.9	-18	ok	https://media.84000.digital/audio/c25a391c74e6ed90-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 24 មេរៀន វិបស្សនា ទិដ្ឋិវិសុទ្ធិ
+បរិសុទ្ធិនៃទិដ្ឋិ.mp3
+25	AABH000YY2020.9025	1z7SrLIPOAIW2fKyD3BwR_ts1AdlzsCIO	DRAFT	83.9	-18	ok	https://media.84000.digital/audio/4cfbaaf031804ba7-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 25 កង្ខាវិតរណវិសុទ្ធិ
+បរិសុទ្ធផុតចាកសេចក្តីសង្ស័យ.mp3
+26	AABH000YY2020.9026	1VyQhHTYVoFnTGO4L2OwwU9u9VCgIjAFd	DRAFT	60.3	-18	ok	https://media.84000.digital/audio/39573f688abdd989-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 26 សម្មសនញាណភាគ១ (ពិចារណាត្រៃលក្ខណ៍ធម៌)
+ភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3
+27	AABH000YY2020.9027	1Qei4NCFmfHTI5u6HN7GEij-C4w0YnSKz	DRAFT	85.7	-18.1	ok	https://media.84000.digital/audio/58ae57a21c15dbd9-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 27 វិបស្សនា សម្មសនញាណភាគ ២.mp3
+28	AABH000YY2020.9028	1tvnfqmu8ftJbNT_8Ow1AkfkAudnYGgJI	DRAFT	85.6	-18	ok	https://media.84000.digital/audio/17858342f3eecd2d-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 28 សម្មសនញាណភាគ ៣ ពិចារណាសង្ខារធម៌.mp3
+29	AABH000YY2020.9029	1SR_fQ10W2EEZG6urpYmricA7nbXLZZwK	DRAFT	73.9	-18	ok	https://media.84000.digital/audio/38f3444754f10414-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 29 សម្មសនញាណភាគ៤ វិបស្សនូបក្កិលេស១០.mp3
+30	AABH000YY2020.9030	1cYIBTK-kc5PHmlJg-ACNUY3khAxhsLSx	DRAFT	85.1	-18	ok	https://media.84000.digital/audio/d70f1e2dfb39ea47-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 30 ឧទយព្វយញ្ញាណ ឃើញការកើតនិងរលត់.mp3
+31	AABH000YY2020.9031	1lV2YsE_bKoYvC9KMyW7CTOcSlPIlp078	DRAFT	69.7	-18	ok	https://media.84000.digital/audio/5bbcbfe2edaa819f-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 31 ភង្គញ្ញាណ ឃើញការរលត់របស់ខន្ធ ៥.mp3
+32	AABH000YY2020.9032	1dAvjnTAS54XTA6cllkFdpGB83mhQ0vq0	DRAFT	86.2	-18	ok	https://media.84000.digital/audio/3a19588ae6bf474d-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 32 ភយញ្ញាណ ឃើញភ័យ អាទីនវញ្ញាណ ឃើញទោស
+ភិក្ខុអគ្គចិត្តោ យ៉ុន យី.mp3
+33	AABH000YY2020.9033	1Lz5evDSysMAG102ChSh9e2hp0RXwcjCC	DRAFT	82.8	-18.1	ok	https://media.84000.digital/audio/f56a169375758044-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 33 និព្វិទាញាណ មុញ្ចិតកម្យតាញាណ.mp3
+34	AABH000YY2020.9034	1i9Thdt4oLDmP7d48si5OQBXJTT_wGV_c	DRAFT	84.6	-18	ok	https://media.84000.digital/audio/e5c1158d84cb3ffe-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 34 សងា្ខរុបេក្ខាញាណ = ព្រងើយចំពោះសង្ខារ.mp3
+35	AABH000YY2020.9035	1ze_AKqoVljASFWIQdUaY6lZw2W7ZaKer	DRAFT	88.2	-18	ok	https://media.84000.digital/audio/442b74cb695e0668-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 35 អនុលោមញាណ.mp3
+36	AABH000YY2020.9036	1CAdGbyy0Kh2eBsJiB0v66cGLrd5R-eSc	DRAFT	78.8	-18	ok	https://media.84000.digital/audio/4a80d1bbf590a18c-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 36 គោត្រភូនិងមគ្គញ្ញាណ ផលញ្ញាណ.mp3
+37	AABH000YY2020.9037	1EWeEiLcyPXrBg6wDt9kbi_bYUpLQSBij	DRAFT	84.5	-18	ok	https://media.84000.digital/audio/b51ccabdf6ae6d3a-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 37 បច្ចវេក្ខណញ្ញាណ ១៩.mp3
+38	AABH000YY2020.9038	1x7177Wslm5m1EAWu9Xh0l2v9_NaGPXLh	DRAFT	88.5	-18	ok	https://media.84000.digital/audio/1632b072e65e9505-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 38 ឈ្មោះរបស់មហាវិបស្សនា ១៨.mp3
+39	AABH000YY2020.9039	1SCfSne_lsiUzokA4bgynPnFmToEbW0mT	DRAFT	86.5	-18	ok	https://media.84000.digital/audio/8a59b7878638f32a-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 39 អនិច្ចានុបស្សនា ទុក្ខានុបស្សនា.mp3
+40	AABH000YY2020.9040	1Tz2KhY3quVzT1W7uwB0qKQV9jMiaKLhJ	DRAFT	86.8	-18	ok	https://media.84000.digital/audio/153a519d415b5fd6-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 40 អនត្តានុបស្សនា និព្វិទានុបស្សនា
+វិរាគានុបស្សនា.mp3
+41	AABH000YY2020.9041	17vhRRO2g-Q5D7VlTdsn8pBymtdhP00zh	DRAFT	89.8	-18	ok	https://media.84000.digital/audio/3c1482a3510032a4-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 41 បញ្ចប់មហាវិបស្សនា​១៨​.mp3
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1cuUhmNg_a4OB7ZSUkgunY-B2uBy3dny5,1ztQus5EBNqpeB_OCh63_CyjeZ-O6CFXM,1DOsLwwJdVGPNnb8kOWrNp0Y2LIN0MUWV,1Gxg9_loAwdxbn3l1WVWAP_LPZEeWl4t3,1UQga4Fu8DG3OurwUTwmznN1l04e985p7,1X2UMNI8MLVfhTFX4Bc7GgGxdy4TRtBk-,1fRHtdG_YdvzD1J_BfI52FWB2IlGrwiDo,1ukutK8wyxMg9--WHqUd5jr03Ycws_23r,1xQQe1DjyO0gCduydk_Ub_gHBrks09itO,1Z-JQlJaoH11hVnHNFvbIrpZuf2lcXw_x,1_L60zEgTIXJSopQJMmUExbeAhAGKc2RY,11vb-mV0Fh8wKsVQdMB6XulZNh1z4Tsc-,1JMx8Ih4bDtjWNVFcEiYVz3ss6p7VAt_Z,1GTLCgMkOmk2y3YK1Ci69KtLJVn8Q2ceg,1UGpYU0mtNR6u3i6r1rkBqQdp_A8ilvGu,1AiRltg0G_buj7oYfS265RBRUW1gX_IAh,1d-6vMYsv-33zX6e4Js_JyLR-wCVsU8-o,16-6TzH3mdcujc7C5tI2Nkma-Df5u_0iR,1Tv8fCnw6QaAW9ijb3nFXVJDQMrHiBe3I,1LRZ7V8QO-9cLusWC6YpCL76icPyrwop2,1XKsqFeCAYFf4wzNGguLJLLttDV733DAO,1K23VzbmB18hjPsYoImNgd_bdhCOT_eAN,1z7SrLIPOAIW2fKyD3BwR_ts1AdlzsCIO,1VyQhHTYVoFnTGO4L2OwwU9u9VCgIjAFd,1Qei4NCFmfHTI5u6HN7GEij-C4w0YnSKz,1tvnfqmu8ftJbNT_8Ow1AkfkAudnYGgJI,1SR_fQ10W2EEZG6urpYmricA7nbXLZZwK,1cYIBTK-kc5PHmlJg-ACNUY3khAxhsLSx,1lV2YsE_bKoYvC9KMyW7CTOcSlPIlp078,1dAvjnTAS54XTA6cllkFdpGB83mhQ0vq0,1Lz5evDSysMAG102ChSh9e2hp0RXwcjCC,1i9Thdt4oLDmP7d48si5OQBXJTT_wGV_c,1ze_AKqoVljASFWIQdUaY6lZw2W7ZaKer,1CAdGbyy0Kh2eBsJiB0v66cGLrd5R-eSc,1EWeEiLcyPXrBg6wDt9kbi_bYUpLQSBij,1x7177Wslm5m1EAWu9Xh0l2v9_NaGPXLh,1SCfSne_lsiUzokA4bgynPnFmToEbW0mT,1Tz2KhY3quVzT1W7uwB0qKQV9jMiaKLhJ,17vhRRO2g-Q5D7VlTdsn8pBymtdhP00zh

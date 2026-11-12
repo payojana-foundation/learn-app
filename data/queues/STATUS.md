@@ -4,9 +4,10 @@ Run review of 2026-11-11 (the team finished all course-audio runs on 10-11 Nov),
 
 - queued = data rows of data/queues/c###.csv (ids already in the manifest when the queue was built are not in it).
 - converted = the drive_file_id has an entry in data/media-manifest.json (any status). approved = that entry has status approved.
-- failed = id listed in data/queues/failed-review.csv (8 Nov) that still has NO manifest entry. The reason is not recorded in the repo.
+- failed = id listed in data/queues/failed-review.csv (8 Nov) that still has NO manifest entry. The reason and the measured loudness are not recorded in the repo.
 - not started = no manifest entry and not in failed-review.csv (never converted, or failed without a record: unknown).
 - DONE = every queued lesson is converted or failed. Queues with 0 data rows are EMPTY and not counted.
+- data/queues/approve/<course>.txt exists for every course with at least one converted lesson that is not approved yet.
 
 Totals over 66 non-empty queues: queued 3810 · converted 2982 · approved 0 · failed 10 · not started 818.
 

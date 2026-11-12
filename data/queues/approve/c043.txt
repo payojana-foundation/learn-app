@@ -1,0 +1,157 @@
+# c043 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន
+# course: 5-សមាធិ វគ្គខ្លី
+# queued 166 · converted 148 · approved 0 · failed 0 · not started 18
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+2	ASVIVDBHB3402	1XYbGEDaYn3cq1VRhCk-XRSLLVgIPC1Xy	DRAFT	48.9	-18.2	ok	https://media.84000.digital/audio/2e4dbc92b9bcdd36-a64.mp3	2.វក្គខ្លីលើកទី៣៤
+3	ASVIVDBHB3501	10xqg_7VvRCLrDpIvWjN9QZwDR2yfeeXh	DRAFT	43.4	-18.2	ok	https://media.84000.digital/audio/23f0d4f7f1079870-a64.mp3	1.វក្គខ្លីលើកទី៣៥.mp3
+4	ASVIVDBHB3502	18ZlRAE0R2D4rDY5TCVifYF9iX74qWptg	DRAFT	48.4	-18.4	ok	https://media.84000.digital/audio/7813ecabc2fb49a2-a64.mp3	2.វក្គខ្លីលើកទី៣៥.mp3
+5	ASVIVDBHB3503	1WGqupZ1V4TynU8QJPOKfofNAOj75187M	DRAFT	53.1	-18.1	ok	https://media.84000.digital/audio/8f706aba6486af74-a64.mp3	3.វក្គខ្លីលើកទី៣៥.mp3
+6	ASVIVDBHB3504	1lGmFd-CMGeKiS7bc6yPQZZKuMhVsQ3l3	DRAFT	43.7	-18.3	ok	https://media.84000.digital/audio/829152acb6ff4ea0-a64.mp3	4.វក្គខ្លីលើកទី៣៥.mp3
+7	ASVIVDBHB3505	1w068zohSAbUlnExhyu-NcaSnFVaBqoQ1	DRAFT	65.1	-18.1	ok	https://media.84000.digital/audio/c6fce6a16baf2bca-a64.mp3	5.វក្គខ្លីលើកទី៣៥.mp3
+8	ASVIVDBHB3601	1j8KXenvtzGJuNUIcPx3LXfEGvRu4nVQJ	DRAFT	50.4	-18.2	ok	https://media.84000.digital/audio/69ed91f6981fa211-a64.mp3	1.វក្គខ្លីលើកទី៣៦.mp4
+9	ASVIVDBHB3602	12V1UK0bZ4rkdbfP5FdHaW7ZiTFKtTudY	DRAFT	33.2	-18.1	ok	https://media.84000.digital/audio/c320879f5967e496-a64.mp3	2.វក្គខ្លីលើកទី៣៦.mp5
+10	ASVIVDBHB3603	1yuahDQqv-PHjYlVRGQaBW7n0OEptJhdM	DRAFT	39.9	-18.5	ok	https://media.84000.digital/audio/d70e067cb0258908-a64.mp3	3.វក្គខ្លីលើកទី៣៦.mp6
+11	ASVIVDBHB3604	1a0ih16FUTaT3co0fAWhVRkVCjIXVCucV	DRAFT	43.3	-18.1	ok	https://media.84000.digital/audio/68eb6619d45d9c8d-a64.mp3	4.វក្គខ្លីលើកទី៣៦.mp7
+12	ASVIVDBHB3605	1k8JZNWuE8mbgrOjiFwF2OG3uuT9LOEsz	DRAFT	46.4	-18.1	ok	https://media.84000.digital/audio/f6262eefdb134ed4-a64.mp3	5.វក្គខ្លីលើកទី៣៦.mp8
+13	ASVIVDBHB3606	1iXyk9X6GnqPYXN04MVjbEFNusG-85YTp	DRAFT	53.1	-18.2	ok	https://media.84000.digital/audio/2fb1fda2cbc77db2-a64.mp3	6.វក្គខ្លីលើកទី៣៦.mp9
+14	ASVIVDBHB3607	1CuERPY2PoHlH9hX5acw2IK6EbwwOU7l3	DRAFT	15.8	-18.2	ok	https://media.84000.digital/audio/14532f2d276c0f78-a64.mp3	7.វក្គខ្លីលើកទី៣៦.mp10
+15	ASVIVDBHB3701	13Fkydiy2GF7gn7YouTGgjVSgxVgD-uJ3	DRAFT	68.6	-18.1	ok	https://media.84000.digital/audio/4e70d741ca1a4699-a64.mp3	1.វក្គខ្លីលើកទី៣៧.mp3
+17	ASVIVDBHB3703	13i0ZJ0BR0lBFwH8T9fGgqNi4irvSTtDc	DRAFT	55.2	-18.3	ok	https://media.84000.digital/audio/dc44b88531fb70c2-a64.mp3	3.វក្គខ្លីលើកទី៣៧.mp3
+18	ASVIVDBHB3704	1Q7Q5fEguyUnfoRS6gALmirYgTZWdJj2B	DRAFT	49.4	-18.3	ok	https://media.84000.digital/audio/6734fcc91c2a4b0f-a64.mp3	4.វក្គខ្លីលើកទី៣៧.mp3
+19	ASVIVDBHB3705	1up6otkCX8hW28tzE3otCT2cGxXOqJqJH	DRAFT	52.4	-18.2	ok	https://media.84000.digital/audio/bafb5734f8fc79c3-a64.mp3	5.វក្គខ្លីលើកទី៣៧.mp3
+20	ASVIVDBHB3706	1QhCpVwPkJIw8Y6VDYjtTapaPaErvOSVI	DRAFT	49.7	-18.4	ok	https://media.84000.digital/audio/908c724febd9e388-a64.mp3	6.វក្គខ្លីលើកទី៣៧.mp3
+22	ASVIVDBHB3802	1T1MhPIcUfbg4Te-LFSyUXjdvTnk5-XrL	DRAFT	58.6	-18.2	ok	https://media.84000.digital/audio/204c7a70cb7eeefe-a64.mp3	2.វក្គខ្លីលើកទី៣៨.mp3
+23	ASVIVDBHB3803	1jLxe0ZjjTqnuUEnTxOd4a_3b_tdBx5z5	DRAFT	33.0	-18.2	ok	https://media.84000.digital/audio/5778ca863af1d753-a64.mp3	3.វក្គខ្លីលើកទី៣៨.mp3
+24	ASVIVDBHB3804	1CdnWu_7BTeyicueYP2Nsqqn5DxsWbYBH	DRAFT	48.1	-18.1	ok	https://media.84000.digital/audio/ae2926649782b569-a64.mp3	4.វក្គខ្លីលើកទី៣៨.mp3
+25	ASVIVDBHB3805	1wEytM-U95G0BWYQvSwcNqnOG9zsWB4lo	DRAFT	38.1	-18.1	ok	https://media.84000.digital/audio/c58f57698915320f-a64.mp3	5.វក្គខ្លីលើកទី៣៨.mp3
+26	ASVIVDBHB3806	1YkVZ7iGX5yQOaZdm8Yy1JBfJ_3xfHe2T	DRAFT	57.5	-18.2	ok	https://media.84000.digital/audio/3f9dc2dfcf4fdfe7-a64.mp3	6.វក្គខ្លីលើកទី៣៨.mp3
+27	ASVIVDBHB3807	1qSNgccbbWfbTNw60tRvbvLSMRGqDu6SZ	DRAFT	53.3	-18.4	ok	https://media.84000.digital/audio/a4c5987568af3a9c-a64.mp3	7.វក្គខ្លីលើកទី៣៨.mp3
+28	ASVIVDBHB3808	1rUwsGWAmUP6NW5pA62q99tVZvcA0CGOy	DRAFT	45.1	-18.1	ok	https://media.84000.digital/audio/f3f8f9eff8fe1758-a64.mp3	8.វក្គខ្លីលើកទី៣៨.mp3
+29	ASVIVDBHB3901	15Hfy0l1tM_WyRmnVbopdpmmJwUu7gTLU	DRAFT	70.9	-18.1	ok	https://media.84000.digital/audio/6a35669db221bb57-a64.mp3	1.វក្គខ្លីលើកទី៣៩.mp3
+30	ASVIVDBHB3902	1H0rbOSF4H2FuQ-WxEf829ro7ul8tRQtU	DRAFT	46.4	-18.2	ok	https://media.84000.digital/audio/2a56a05b65cc351d-a64.mp3	2.វក្គខ្លីលើកទី៣៩.mp3
+31	ASVIVDBHB3903	1zLG79l-Wp0It61jBEyt199vS82ZkwuBs	DRAFT	32.2	-18.2	ok	https://media.84000.digital/audio/45c1451701504762-a64.mp3	3.វក្គខ្លីលើកទី៣៩.mp3
+32	ASVIVDBHB3904	1--r3_TdUSg-b0AbOMC15DzUQuuN08Die	DRAFT	53.1	-18.2	ok	https://media.84000.digital/audio/06ab6622e0bd1706-a64.mp3	4.វក្គខ្លីលើកទី៣៩.mp3
+33	ASVIVDBHB3905	19nMpMWc1JQa8eRsibQ0GwT4EZt0P7Y96	DRAFT	48.8	-18.3	ok	https://media.84000.digital/audio/2c3f243d99f074b6-a64.mp3	5.វក្គខ្លីលើកទី៣៩.mp3
+34	ASVIVDBHB4001	1vvPtqckV9hziUm2cy9Pk9fVclIyqB4FM	DRAFT	59.6	-18.1	ok	https://media.84000.digital/audio/5b81dbdf877b4b02-a64.mp3	1.វគ្គខ្លី លើកទី ៤០.mp3
+35	ASVIVDBHB4002	1Gw7JtMs4TJIAKWuTXoBjz4l4LosOMOQq	DRAFT	41.3	-18.1	ok	https://media.84000.digital/audio/a11239688555c7ed-a64.mp3	2.វគ្គខ្លី លើកទី ៤០.mp3
+36	ASVIVDBHB4003	1F_0HtCQtEkuzz39YssAXrjLxVe0hUXyi	DRAFT	55.7	-18.1	ok	https://media.84000.digital/audio/828f484486dfd498-a64.mp3	3.វគ្គខ្លី លើកទី ៤០.mp3
+37	ASVIVDBHB4004	1Pma2YzNygq0_zqVb7uaruEFj6XcRBgsH	DRAFT	56.3	-18.2	ok	https://media.84000.digital/audio/3e1a97859da80712-a64.mp3	4.វគ្គខ្លី លើកទី ៤០.mp3
+38	ASVIVDBHB4101	1XT0141sN3LvkGUCB9RV_Y_Q1SvG1FH8c	DRAFT	62.9	-18.2	ok	https://media.84000.digital/audio/6081b8e585565a72-a64.mp3	1.វគ្គខ្លី លើកទី ៤១.mp3
+39	ASVIVDBHB4102	1fjNqfuAV7dnqaZrNMaAvZr2GDhiZ5TpZ	DRAFT	41.3	-18.4	ok	https://media.84000.digital/audio/428bf4e0e21ec308-a64.mp3	2.វគ្គខ្លី លើកទី ៤១.mp3
+40	ASVIVDBHB4103	1V5t0DnjmL2xA2CdpwTWaC4uHkxG8h2l6	DRAFT	38.9	-18.4	ok	https://media.84000.digital/audio/863fd9ddc1770076-a64.mp3	3.វគ្គខ្លី លើកទី ៤១.mp3
+41	ASVIVDBHB4104	1j5cK6pWFZpOZo7aDiuZKDRPzw47qWw_y	DRAFT	52.7	-18.1	ok	https://media.84000.digital/audio/6f6b5ab2537cdf69-a64.mp3	4.វគ្គខ្លី លើកទី ៤១.mp3
+42	ASVIVDBHB4105	1ulj-Myxqb63DiEXXPgFR5b6yqqqnZ_tY	DRAFT	53.6	-18.2	ok	https://media.84000.digital/audio/7898049cba908e63-a64.mp3	5.វគ្គខ្លី លើកទី ៤១.mp3
+43	ASVIVDBHB4201	1wkWUP1oC7Vge7N-bjfu2_XA8DpkWsK3B	DRAFT	56.5	-18.3	ok	https://media.84000.digital/audio/826778fd8ea11a0a-a64.mp3	1.វគ្គខ្លី លើកទី ៤២.mp3
+44	ASVIVDBHB4202	1QA8mheEkIOmkJEQZUq9q8Dn7W2v31PdN	DRAFT	50.8	-18.2	ok	https://media.84000.digital/audio/179e56cf8d58d278-a64.mp3	2.វគ្គខ្លី លើកទី ៤២.mp3
+45	ASVIVDBHB4203	1iPKQgBFRZFQOnMoFAt-IURyYF2z3Yhmn	DRAFT	43.1	-18.2	ok	https://media.84000.digital/audio/a795c653827704e9-a64.mp3	3.វគ្គខ្លី លើកទី ៤២.mp3
+46	ASVIVDBHB4301	1V0lKZbvGZga99CIXJ8mEXosKEhH2yhZe	DRAFT	58.4	-18.8	cap	https://media.84000.digital/audio/f34310fe1fc646b1-a64.mp3	1.វគ្គខ្លី លើកទី ៤៣.mp3
+47	ASVIVDBHB4302	1RXFlUjIU9vA-KH9TR5Y8FeVo_Rpj33QW	DRAFT	41.7	-18.4	ok	https://media.84000.digital/audio/decd8545efc69561-a64.mp3	2.វគ្គខ្លី លើកទី ៤៣.mp3
+50	ASVIVDBHB4305	1DfrJtCxkRIdGB_KjeBqxU1F0_nqQqh29	DRAFT	48.0	-18.5	ok	https://media.84000.digital/audio/fdc09c31c4a08323-a64.mp3	5.វគ្គខ្លី លើកទី ៤៣.mp3
+51	ASVIVDBHB4306	1H06-mJW-yeKJ4fCPjZR0t9J6s56LkZCx	DRAFT	59.6	-19	cap	https://media.84000.digital/audio/c97a90c0bb3547b7-a64.mp3	6.វគ្គខ្លី លើកទី ៤៣.mp3
+52	ASVIVDBHB4307	1CDbw1_oeplRwTK5gT0nAQKEEgJIuWbXN	DRAFT	63.9	-18.3	ok	https://media.84000.digital/audio/812e702462e2ab27-a64.mp3	7.វគ្គខ្លី លើកទី ៤៣.mp3
+53	ASVIVDBHB4401	1-U4bFfOFwbCBXrJ1UqorjyK8bBqV77IM	DRAFT	48.1	-18.2	ok	https://media.84000.digital/audio/7749b3caddc5f595-a64.mp3	1.វគ្គខ្លី លើកទី ៤៤.mp3
+54	ASVIVDBHB4402	1CMH5hTs17dwsmYUAnPQJe3Ouy50HCo2l	DRAFT	51.5	-18.4	ok	https://media.84000.digital/audio/326bd891dbbf527b-a64.mp3	2.វគ្គខ្លី លើកទី ៤៤.mp3
+56	ASVIVDBHB4404	1q_kKwMPGfCyCkct78iWFi3_eo7-x9eZ9	DRAFT	47.8	-18.6	cap	https://media.84000.digital/audio/08eacea21efdfb9e-a64.mp3	4.វគ្គខ្លី លើកទី ៤៤.mp3
+57	ASVIVDBHB4405	1bh_vPWZ-j_YRnnWVHJNjEKercI5SVyk8	DRAFT	58.1	-18.1	ok	https://media.84000.digital/audio/6e7aa70fb38d9d02-a64.mp3	5.វគ្គខ្លី លើកទី ៤៤.mp3
+58	ASVIVDBHB4501	1Cwe75gKaquSqjkZBGzuNpXnuEnKXvdvw	DRAFT	64.9	-18.2	ok	https://media.84000.digital/audio/ba7c703ad0a7ab1f-a64.mp3	1.វគ្គខ្លី លើកទី ៤៥.mp3
+59	ASVIVDBHB4502	1LLL1usjhvpe4tnknIRlyKKj-coLBQxUx	DRAFT	46.1	-18.2	ok	https://media.84000.digital/audio/677a7b5d1d2aef56-a64.mp3	2.វគ្គខ្លី លើកទី ៤៥.mp3
+60	ASVIVDBHB4503	1LGDhBxho_WggEtUr8cFtPFa8BHOgEnOy	DRAFT	54.2	-18.4	ok	https://media.84000.digital/audio/f38bfc31f26924be-a64.mp3	3.វគ្គខ្លី លើកទី ៤៥.mp3
+61	ASVIVDBHB4504	1-U-ECZtZfejvU6-LTwSogoYXzMwPkbHS	DRAFT	58.1	-18.4	ok	https://media.84000.digital/audio/3798223358b4152e-a64.mp3	4.វគ្គខ្លី លើកទី ៤៥.mp3
+62	ASVIVDBHB4505	13de0WXZRMJ_xe9iVa-WUPQFifbtNKr2Y	DRAFT	62.3	-18.5	ok	https://media.84000.digital/audio/72d60007013b8815-a64.mp3	5.វគ្គខ្លី លើកទី ៤៥.mp3
+63	ASVIVDBHB4701	1tcLMJAMrCK5CzNIQj_XnJ_aGSAMh23Dv	DRAFT	52.3	-18.9	cap	https://media.84000.digital/audio/7cb8f90d703e72ea-a64.mp3	1.វគ្គខ្លី លើកទី ៤៧.mp3
+64	ASVIVDBHB4702	1ovBQVikTU7NY-YXPh_LyIfhYcmuP48T8	DRAFT	48.8	-18.1	ok	https://media.84000.digital/audio/a9622401d3959c1e-a64.mp3	2.វគ្គខ្លី លើកទី ៤៧.mp3
+65	ASVIVDBHB4801	1EQJj2Lgy7xcgWb-dlVfu8e-qyTsqmHSR	DRAFT	51.8	-18.2	ok	https://media.84000.digital/audio/16eed6667321b520-a64.mp3	1.វគ្គខ្លី លើកទី ៤៨.mp3
+66	ASVIVDBHB4802	1Se2nob9U1ms050LwP0_fCe2JXstppzxo	DRAFT	47.1	-18.8	cap	https://media.84000.digital/audio/84b17c041fb40eb8-a64.mp3	2.វគ្គខ្លី លើកទី ៤៨.mp3
+67	ASVIVDBHB4803	1bmoNIrKfIoLk_nkERujeXqiug3vWNy1f	DRAFT	49.1	-18.4	ok	https://media.84000.digital/audio/5639a08d18de6eb0-a64.mp3	3.វគ្គខ្លី លើកទី ៤៨.mp3
+68	ASVIVDBHB4804	1F-5OvCWojUZr9DROUvM97jfh7N4ndiTs	DRAFT	53.2	-18.1	ok	https://media.84000.digital/audio/cdc4451d23f272fc-a64.mp3	4.វគ្គខ្លី លើកទី ៤៨.mp3
+69	ASVIVDBHB4901	1MhGYtMKxWeGv7osnifWlVugVMygttG47	DRAFT	48.1	-18.4	ok	https://media.84000.digital/audio/f6ff7918fbc1d94e-a64.mp3	1.វគ្គខ្លី លើកទី ៤៩.mp3
+71	ASVIVDBHB4903	1CRTrt7UXtZ8pQ6JjbRfwt1rJNymLPbKH	DRAFT	59.9	-18.4	ok	https://media.84000.digital/audio/5d3a23a47c257b1a-a64.mp3	3.វគ្គខ្លី លើកទី ៤៩.mp3
+72	ASVIVDBHB4904	1ynp7kVtTrKyslJwQNnxSVsI9eOHghcWf	DRAFT	26.9	-18.1	ok	https://media.84000.digital/audio/513ec59ba798d4ef-a64.mp3	4.វគ្គខ្លី លើកទី ៤៩.mp3
+73	ASVIVDBHB5001	1B0WL568_vyzYErT_furzhTYwRaMpfVh9	DRAFT	56.4	-18.2	ok	https://media.84000.digital/audio/1c91c30ae0dfa79e-a64.mp3	1.វគ្គខ្លី លើកទី ៥០.mp3
+74	ASVIVDBHB5002	1rB-FilNSL6aWIakRiYTn3KHENRqOpTZi	DRAFT	37.9	-19	cap	https://media.84000.digital/audio/d1bdbf5495dc7b2b-a64.mp3	2.វគ្គខ្លី លើកទី ៥០.mp3
+75	ASVIVDBHB5003	1oJWLyB7lt2uQMmUwx_MTRIe8Nvq0ZcIi	DRAFT	42.4	-18.2	ok	https://media.84000.digital/audio/4d4482e98a938a61-a64.mp3	3.វគ្គខ្លី លើកទី ៥០.mp3
+76	ASVIVDBHB5004	1HzGVqamhtTF6L4Q6So11i2pZSePY7vpg	DRAFT	45.4	-18.2	ok	https://media.84000.digital/audio/d7d6720998ab6126-a64.mp3	4.វគ្គខ្លី លើកទី ៥០.mp3
+77	ASVIVDBHB5005	1NWCnZalely6hR0MnHzqMo-ibM6U_JA2l	DRAFT	50.6	-18.2	ok	https://media.84000.digital/audio/9c18b590d142e7b6-a64.mp3	5.វគ្គខ្លី លើកទី ៥០.mp3
+78	ASVIVDBHB5006	1b194x_DpQ3RItu7OylJEAlqspF71064V	DRAFT	32.9	-18.5	ok	https://media.84000.digital/audio/a61a20adf6c6c1a2-a64.mp3	6.វគ្គខ្លី លើកទី ៥០.mp3
+79	ASVIVDBHB5007	1HkrzH6fhUJun5nG600aM1BV9-3hzKPiL	DRAFT	44.5	-18.2	ok	https://media.84000.digital/audio/05581a329a5e0d83-a64.mp3	7.វគ្គខ្លី លើកទី ៥០.mp3
+80	ASVIVDBHB5008	19MNynnzJFL3eNblXYMT62QnfsqFexsi1	DRAFT	62.6	-18.1	ok	https://media.84000.digital/audio/4cd2899f173a39e2-a64.mp3	8.វគ្គខ្លី លើកទី ៥០.mp3
+81	ASVIVDBHB5101	1I0cVOOxZ7CDPoM9BX2HtAYUAod0pp33h	DRAFT	54.8	-18.1	ok	https://media.84000.digital/audio/1e1a47f9b94e308f-a64.mp3	1.វគ្គខ្លី លើកទី ៥១.mp3
+82	ASVIVDBHB5102	1b_htH6PCMyiMrudTQwgBq-pVOshZiAD9	DRAFT	53.3	-18.5	ok	https://media.84000.digital/audio/1dd93e63cc94eacc-a64.mp3	2.វគ្គខ្លី លើកទី ៥១.mp3
+83	ASVIVDBHB5103	18rN4uIANiF5MB5u2XzLFsepz1HRYPWKT	DRAFT	46.0	-18.4	ok	https://media.84000.digital/audio/464ef5bfa51172eb-a64.mp3	3.វគ្គខ្លី លើកទី ៥១.mp3
+84	ASVIVDBHB5104	1NQ7njKOov5wF1niV3qE2BcEq7YtQE7kp	DRAFT	48.0	-18.2	ok	https://media.84000.digital/audio/6839153cc4f63858-a64.mp3	4.វគ្គខ្លី លើកទី ៥១.mp3
+85	ASVIVDBHB5105	1c7lCaCC6YntGwW8LKWQdNqB__NbDGihz	DRAFT	44.3	-18	ok	https://media.84000.digital/audio/861bca777fbdc0f6-a64.mp3	5.វគ្គខ្លី លើកទី ៥១.mp3
+86	ASVIVDBHB5106	1L922LwHow4WW4GtfkH_81u9b5NpA7CgA	DRAFT	43.7	-18.2	ok	https://media.84000.digital/audio/73a769027663dddd-a64.mp3	6.វគ្គខ្លី លើកទី ៥១.mp3
+87	ASVIVDBHB5107	1og1TIH_cu3Vy6bX1VPcsVkVBuxSvt0bu	DRAFT	58.0	-18	ok	https://media.84000.digital/audio/6f31fd9986585c9e-a64.mp3	7.វគ្គខ្លី លើកទី ៥១.mp3
+88	ASVIVDBHB5201	1EQoTmelSe4sxe7zR3eSFOKJO2fKC8E4q	DRAFT	50.1	-18	ok	https://media.84000.digital/audio/3949a039b8996ba5-a64.mp3	1.គ្គខ្លី លើកទី ​៥២.mp3
+89	ASVIVDBHB5202	17NIXP7Ws9TOYnOmVxzp0BLWtRaEUIKLr	DRAFT	37.4	-18	ok	https://media.84000.digital/audio/825ab575fa7b9c36-a64.mp3	2.គ្គខ្លី លើកទី ​៥២.mp3
+90	ASVIVDBHB5203	1wu_cSXJCmRa7Bp-tNC9Ugtwctc_ou46P	DRAFT	37.3	-18	ok	https://media.84000.digital/audio/bb70f27e9c791053-a64.mp3	3.គ្គខ្លី លើកទី ​៥២.mp3
+91	ASVIVDBHB5204	1gdVF5JsQx-D13-4NuKd-MwyYl-McdIEq	DRAFT	49.1	-18.2	ok	https://media.84000.digital/audio/086e6023f71eb4fb-a64.mp3	4.គ្គខ្លី លើកទី ​៥២.mp3
+92	ASVIVDBHB5205	13XE75Yp2-fWLASICU_6rfA6Cbc-KOLUm	DRAFT	42.9	-18	ok	https://media.84000.digital/audio/1059ef4d69554c8e-a64.mp3	5.គ្គខ្លី លើកទី ​៥២.mp3
+93	ASVIVDBHB5206	1OAqNoZcE_HhIjcV7kexqRCTCDJkK7WTS	DRAFT	31.5	-18	ok	https://media.84000.digital/audio/c6524b9fd0464db7-a64.mp3	6.គ្គខ្លី លើកទី ​៥២.mp3
+94	ASVIVDBHB5207	11s9WBVuuUq678yzLD_61ObNepcmIy3xw	DRAFT	41.5	-18	ok	https://media.84000.digital/audio/589a26ae666d4454-a64.mp3	7.គ្គខ្លី លើកទី ​៥២.mp3
+95	ASVIVDBHB5208	1NeAQTBafoM5WL322g7wFcFkdpOl9PK_Z	DRAFT	50.0	-18	ok	https://media.84000.digital/audio/c560c40eaf436e5f-a64.mp3	8.គ្គខ្លី លើកទី ​៥២.mp3
+96	ASVIVDBHB5301	1iHkWHh2trb5cU8nJE-_FFwKez3DilJfe	DRAFT	36.7	-18.2	ok	https://media.84000.digital/audio/647f30849430cc87-a64.mp3	1.វគ្គខ្លី លើកទី ​៥៣.mp3
+97	ASVIVDBHB5302	1Iw497gTJ6dNcB1WjbBej6lkxUyVv7QkS	DRAFT	50.6	-18.3	ok	https://media.84000.digital/audio/e9f0469f250d7ab4-a64.mp3	2.វគ្គខ្លី លើកទី ​៥៣.mp3
+98	ASVIVDBHB5303	10phJo1UlmBMRcjDeXnYwWMqW88pRJp-0	DRAFT	49.2	-18.3	ok	https://media.84000.digital/audio/d829ec4fbe5e1205-a64.mp3	3.វគ្គខ្លី លើកទី ​៥៣.mp3
+99	ASVIVDBHB5304	1b8B-BoM6qz1F51x-UI7Pvyh4FCIkBV19	DRAFT	44.6	-18.1	ok	https://media.84000.digital/audio/60727a2eb408b3f0-a64.mp3	4.វគ្គខ្លី លើកទី ​៥៣.mp3
+100	ASVIVDBHB5305	1o53k_q8pqtiOQif2UV61B4Xul_nVu_CT	DRAFT	60.1	-18.1	ok	https://media.84000.digital/audio/9edce5f8caacc730-a64.mp3	5.វគ្គខ្លី លើកទី ​៥៣.mp3
+101	ASVIVDBHB5306	1MwSngnenpjHSnmTmKBScHZk5-Cvy6ig5	DRAFT	40.8	-18.5	ok	https://media.84000.digital/audio/12910568874dd4e7-a64.mp3	6.វគ្គខ្លី លើកទី ​៥៣.mp3
+102	ASVIVDBHB5307	17z_-8Kz4N2J1vuzt5s1RBiBo4s8RuNCr	DRAFT	48.9	-18.2	ok	https://media.84000.digital/audio/610dc544c6498339-a64.mp3	7.វគ្គខ្លី លើកទី ​៥៣.mp3
+103	ASVIVDBHB5308	10_6IFk3Dguqc8qhVEqA2l4ryJr12-Xzj	DRAFT	36.1	-18.3	ok	https://media.84000.digital/audio/9e43c85083e1aacc-a64.mp3	8.វគ្គខ្លី លើកទី ​៥៣.mp3
+104	ASVIVDBHB5309	1YZVdsKD8f0W87IstnSe7N6_YM8XM2HOl	DRAFT	51.6	-18.2	ok	https://media.84000.digital/audio/2c2c2214a0a76431-a64.mp3	9.វគ្គខ្លី លើកទី ​៥៣.mp3
+105	ASVIVDBHB5310	1Hr4ga2k9dysGFMhhrHHkd-TqmI3dKEsd	DRAFT	63.5	-18.1	ok	https://media.84000.digital/audio/16a4fbd6f8ee0a43-a64.mp3	10.វគ្គខ្លី លើកទី ​៥៣.mp3
+106	ASVIVDBHB5401	1ygdkTzgswqPvyYMyplrRriIzaQiJUKfo	DRAFT	60.9	-18.2	ok	https://media.84000.digital/audio/d48b7d980e3fbc83-a64.mp3	1.វគ្គខ្លី លើកទី ​៥៤.mp3
+108	ASVIVDBHB5403	11gdZ8xVI5lbAch2IOexaUMRcK68gmRIv	DRAFT	49.7	-18.1	ok	https://media.84000.digital/audio/99c4730bda3d1e2c-a64.mp3	3.វគ្គខ្លី លើកទី ​៥៤.mp3
+112	ASVIVDBHB5407	1At-Far47pIngW5Qln4HOC5Gdh5ZZ9Hpk	DRAFT	40.4	-18.2	ok	https://media.84000.digital/audio/9ebe641daca6131d-a64.mp3	7.វគ្គខ្លី លើកទី ​៥៤.mp3
+114	ASVIVDBHB5409	1gEzbbGTHVUSC_-523ttucIzZdvRxtEDL	DRAFT	44.3	-18.3	ok	https://media.84000.digital/audio/e14833f6da8f4bb8-a64.mp3	9.វគ្គខ្លី លើកទី ​៥៤.mp3
+115	ASVIVDBHB5410	1C9W6OPZ0Byo-8pN2bqr83iALgTEeYDxe	DRAFT	53.1	-18.2	ok	https://media.84000.digital/audio/e2388ca0b23cef4f-a64.mp3	10.វគ្គខ្លី លើកទី ​៥៤.mp3
+116	ASVIVDBHB5411	1s2Qzm1aRr7FsdLqyNST9cqWlNiIfOxk4	DRAFT	52.0	-18.2	ok	https://media.84000.digital/audio/2fbc16fd3430fa15-a64.mp3	11.វគ្គខ្លី លើកទី ​៥៤.mp3
+117	ASVIVDBHB5501	1Z5gk34Ll46Q1wTX3BHcn1aIkmNzZyzjS	DRAFT	50.3	-18.2	ok	https://media.84000.digital/audio/8b1de4ba475c8000-a64.mp3	1.វគ្គខ្លី លើកទី ​៥៥.mp3
+118	ASVIVDBHB5502	1DLwDWe2Yn8rnhAmzBYSyd6p-3uduW6QK	DRAFT	46.8	-18.3	ok	https://media.84000.digital/audio/c70084537fe3af7a-a64.mp3	2.វគ្គខ្លី លើកទី ​៥៥.mp3
+119	ASVIVDBHB5503	1SKU_y_3Us2qD8JLcWbGb0wbhgqNpugvl	DRAFT	41.8	-18.1	ok	https://media.84000.digital/audio/6d8704cecb4b3011-a64.mp3	3.វគ្គខ្លី លើកទី ​៥៥.mp3
+122	ASVIVDBHB5506	1NEwO4b_oPgA93De7s3DY01zp4m40wEYK	DRAFT	39.2	-18.4	ok	https://media.84000.digital/audio/a8ff2ea460939ba9-a64.mp3	6.វគ្គខ្លី លើកទី ​៥៥.mp3
+123	ASVIVDBHB5507	1A4w0npiP90DD4mjnNz8guV30jN2WpP03	DRAFT	38.6	-18.3	ok	https://media.84000.digital/audio/8c5785002bc6c04b-a64.mp3	7.វគ្គខ្លី លើកទី ​៥៥.mp3
+124	ASVIVDBHB5508	1K_NHnYOIGuodvZ90djFoI0dj8T1hLaRq	DRAFT	69.0	-18.1	ok	https://media.84000.digital/audio/68985399e518eb34-a64.mp3	8.វគ្គខ្លី លើកទី ​៥៥.mp3
+125	ASVIVDBHB5601	1T8TnxDIfyspm54orTrlj1T-VRZElXR9G	DRAFT	57.5	-18.2	ok	https://media.84000.digital/audio/9e37c138df90bde8-a64.mp3	1.វគ្គខ្លី លើកទី ​៥៦.mp3
+126	ASVIVDBHB5602	1Q9u7AFa4TDHCnhzZmOrVGPNvp_NJbDeD	DRAFT	38.8	-18.3	ok	https://media.84000.digital/audio/5077127cdf6369fb-a64.mp3	2.វគ្គខ្លី លើកទី ​៥៦.mp3
+127	ASVIVDBHB5603	1CSWEaO868O8zZbFc-F8ttlbDRC2IYoQe	DRAFT	60.0	-18.4	ok	https://media.84000.digital/audio/c763ae6c362fd9c3-a64.mp3	3.វគ្គខ្លី លើកទី ​៥៦.mp3
+128	ASVIVDBHB5604	1-DvpusymYjzSnLtwSBKUh4C-M14ObQjj	DRAFT	43.7	-18.2	ok	https://media.84000.digital/audio/e438618809eda94b-a64.mp3	4.វគ្គខ្លី លើកទី ​៥៦.mp3
+129	ASVIVDBHB5605	18tHJEYulpot0wjupZFCTXiAyzvSZX-Sn	DRAFT	49.4	-18.1	ok	https://media.84000.digital/audio/87b63697116d3f3f-a64.mp3	5.វគ្គខ្លី លើកទី ​៥៦.mp3
+130	ASVIVDBHB5606	1Mhlvi-uWixGxhZPFMvWPNSC2AN3dhLV0	DRAFT	65.1	-18.1	ok	https://media.84000.digital/audio/d22c8176928543d4-a64.mp3	6.វគ្គខ្លី លើកទី ​៥៦.mp3
+131	ASVIVDBHB5701	1md97VQV_LuvjzftSyFtqIkEALNns5cMI	DRAFT	63.4	-18.2	ok	https://media.84000.digital/audio/a5c8c26f6e4665ff-a64.mp3	1.វគ្គខ្លី លើកទី ​៥៧.mp3
+132	ASVIVDBHB5702	1Rnvx3boLqgo2rNhPN36dcK0f0wMZmHwB	DRAFT	42.5	-18.2	ok	https://media.84000.digital/audio/5d926347c3b56b18-a64.mp3	2.វគ្គខ្លី លើកទី ​៥៧.mp3
+133	ASVIVDBHB5703	1E4rVRE801EZnScPuPmtBC_qye-VPS970	DRAFT	42.1	-18.2	ok	https://media.84000.digital/audio/965ff08aa85dbf1e-a64.mp3	3.វគ្គខ្លី លើកទី ​៥៧.mp3
+134	ASVIVDBHB5704	1NoKroaBqB3Cf57WTJGWT3a0ECDJYcRBe	DRAFT	36.2	-18.1	ok	https://media.84000.digital/audio/618b5071f14615b2-a64.mp3	4.វគ្គខ្លី លើកទី ​៥៧.mp3
+135	ASVIVDBHB5705	1HCXgIH3nPtWsAbBM04zlVJqz7dGok_Q4	DRAFT	41.3	-18.2	ok	https://media.84000.digital/audio/a000cfb3bcb2b219-a64.mp3	5.វគ្គខ្លី លើកទី ​៥៧.mp3
+136	ASVIVDBHB5706	1bHm7rYUMCgL2tZZLGDsrrrfL7NTq3gd7	DRAFT	44.7	-18.1	ok	https://media.84000.digital/audio/09bb7b6d5cb35808-a64.mp3	6.វគ្គខ្លី លើកទី ​៥៧.mp3
+137	ASVIVDBHB5707	1sE6xhC_1kO-LmIIoOEe2TRjC-yk6qlsW	DRAFT	51.6	-18.1	ok	https://media.84000.digital/audio/a593c3f19ecbc659-a64.mp3	7.វគ្គខ្លី លើកទី ​៥៧.mp3
+138	ASVIVDBHB5708	1lzHT1ULt2wYBKRrDtgQNtgychrO1LWs7	DRAFT	58.8	-18.2	ok	https://media.84000.digital/audio/1ce49a1585294b58-a64.mp3	8.វគ្គខ្លី លើកទី ​៥៧.mp3
+139	ASVIVDBHB5709	1w0GKUIpZlZeKTcLtwC1CgHcFeS0oSz6W	DRAFT	57.0	-18.1	ok	https://media.84000.digital/audio/e035410b3db760ad-a64.mp3	9.វគ្គខ្លី លើកទី ​៥៧.mp3
+140	ASVIVDBHB5801	13XfTpOEjALQCshvjmFutoXE17D2wa5OQ	DRAFT	54.6	-18.2	ok	https://media.84000.digital/audio/7b13cc1a62fed72b-a64.mp3	1.វគ្គខ្លី លើកទី ​៥៨.mp3
+141	ASVIVDBHB5802	1Ph1j1DfngOuJdOwehU9ZELKDy-GhtCBl	DRAFT	43.7	-18.2	ok	https://media.84000.digital/audio/5160e946c30ce34f-a64.mp3	2.វគ្គខ្លី លើកទី ​៥៨.mp3
+142	ASVIVDBHB5803	1Ni0klI11qTzf9dS2M63TioA82yrWpILT	DRAFT	53.3	-18.4	ok	https://media.84000.digital/audio/7f0c1d883e96b404-a64.mp3	3.វគ្គខ្លី លើកទី ​៥៨.mp3
+143	ASVIVDBHB5804	1X3jr2HLw3UY9_1-BQ8uORdTTWf63jJdE	DRAFT	65.0	-18.2	ok	https://media.84000.digital/audio/3999bf4afb0fc340-a64.mp3	4.វគ្គខ្លី លើកទី ​៥៨.mp3
+147	ASVIVDBHB6001	1X7RRF_asmsrgTFfRtEEO4YXAeIgf5Q60	DRAFT	61.7	-18.2	ok	https://media.84000.digital/audio/0123cc54700c8cf0-a64.mp3	1.វគ្គខ្លី លើកទី ៦០.mp3
+148	ASVIVDBHB6002	1xWytRDFCqZLVkWdbLaKWbmJt-1yvZVZZ	DRAFT	41.9	-18.2	ok	https://media.84000.digital/audio/502d2b8608873f95-a64.mp3	2.វគ្គខ្លី លើកទី ៦០.mp3
+149	ASVIVDBHB6003	1Hzyr-9Pi3fl6I_gvsY4QRWFvl_fe6Cal	DRAFT	39.6	-18.2	ok	https://media.84000.digital/audio/5f4bca56627ced97-a64.mp3	3.វគ្គខ្លី លើកទី ៦០.mp3
+150	ASVIVDBHB6004	1qZqHXv8Pm0lMJfv-rZiJzK0nn1ftRvUJ	DRAFT	69.7	-18.2	ok	https://media.84000.digital/audio/7730c458c9d62677-a64.mp3	4.វគ្គខ្លី លើកទី ៦០.mp3
+151	ASVIVDBHB6101	1BgDJNi3TBO-tyw9ixFhWfiZRZhKpaFXz	DRAFT	60.3	-18.1	ok	https://media.84000.digital/audio/e62c5c3d328c4b55-a64.mp3	1.វគ្គខ្លី លើកទី ៦១.mp3
+152	ASVIVDBHB6102	1cUD55WqNYneg_jVM41TA6dTjwtuRoqhX	DRAFT	40.4	-18.1	ok	https://media.84000.digital/audio/19f8206cad3319ed-a64.mp3	2.វគ្គខ្លី លើកទី ៦១.mp3
+153	ASVIVDBHB6103	1i_tE5BSaYD9bdNf4YrM4XI4YLXledEF8	DRAFT	41.8	-18.1	ok	https://media.84000.digital/audio/4538a49d91901fa9-a64.mp3	3.វគ្គខ្លី លើកទី ៦១.mp3
+154	ASVIVDBHB6104	1ixUDwwX0MFOpKOBxbKLYjl-dKR-wiaMd	DRAFT	41.2	-18.2	ok	https://media.84000.digital/audio/234e879a4f50f1a5-a64.mp3	4.វគ្គខ្លី លើកទី ៦១.mp3
+155	ASVIVDBHB6105	1YiQk7IvtiaGoOe0s4Wl0ueq9aXyPllEU	DRAFT	55.0	-18.2	ok	https://media.84000.digital/audio/0b179902f089bda6-a64.mp3	5.វគ្គខ្លី លើកទី ៦១.mp3
+156	ASVIVDBHB6201	1bAoKtYRahmx1sWiQcZfXj9xGG05D2dSN	DRAFT	41.5	-18.2	ok	https://media.84000.digital/audio/55980fd9a4745515-a64.mp3	1.វគ្គខ្លី លើកទី ៦២.mp3
+157	ASVIVDBHB6202	1D1wyvSOyzZv2aNzIQbZmPye0LP6NsH3H	DRAFT	50.9	-18.2	ok	https://media.84000.digital/audio/6c8c929520e82087-a64.mp3	2.វគ្គខ្លី លើកទី ៦២.mp4
+158	ASVIVDBHB6203	1gdPKgPSfdImcxQxLkV5RV6ylsnFAU6jE	DRAFT	37.6	-18.2	ok	https://media.84000.digital/audio/f79d9bc6c899983d-a64.mp3	3.វគ្គខ្លី លើកទី ៦២.mp5
+159	ASVIVDBHB6204	1HKwgPD-GDzLYFTjyfhAd4VfExU_MimHx	DRAFT	37.8	-18.2	ok	https://media.84000.digital/audio/bcac89ae466015d1-a64.mp3	4.វគ្គខ្លី លើកទី ៦២.mp6
+160	ASVIVDBHB6205	1-zkEnZAPKUauU2DetLk4WTCh-OIG77uS	DRAFT	44.4	-18.2	ok	https://media.84000.digital/audio/9543a8175c859ef0-a64.mp3	5.វគ្គខ្លី លើកទី ៦២.mp7
+161	ASVIVDBHB6206	1PQyWz9IakZ7cy4_d3KCgeEA-I9tVJl5H	DRAFT	38.9	-18.6	cap	https://media.84000.digital/audio/0951e46082b1ca33-a64.mp3	6.វគ្គខ្លី លើកទី ៦២.mp8
+162	ASVIVDBHB6207	1myAaDWtUAEvOBtNqHZsDxx_6BfTc9IIh	DRAFT	38.7	-18.1	ok	https://media.84000.digital/audio/b3f954fbcccff6a1-a64.mp3	7.វគ្គខ្លី លើកទី ៦២.mp9
+163	ASVIVDBHB6208	1gaQwYHgGi2KQ5Jy0fq70i4RKzHQCRf5o	DRAFT	30.7	-18.2	ok	https://media.84000.digital/audio/97da6e9de4a4e4a1-a64.mp3	8.វគ្គខ្លី លើកទី ៦២.mp10
+165	ASVIVDBHB6302	1Yd1vNehYCR1Aj75-I4vpza7GB4lOZ2gL	DRAFT	25.0	-18.1	ok	https://media.84000.digital/audio/160fc839b1c3d855-a64.mp3	2.វគ្គខ្លី លើកទី ៦៣.mp4
+166	ASVIVDBHB6303	17un-a0UYV1L4SDDpL5WIyvK9Dq1qf0j6	DRAFT	44.7	-18.2	ok	https://media.84000.digital/audio/2e3d69e5dc907500-a64.mp3	3.វគ្គខ្លី លើកទី ៦៣.mp5
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1XYbGEDaYn3cq1VRhCk-XRSLLVgIPC1Xy,10xqg_7VvRCLrDpIvWjN9QZwDR2yfeeXh,18ZlRAE0R2D4rDY5TCVifYF9iX74qWptg,1WGqupZ1V4TynU8QJPOKfofNAOj75187M,1lGmFd-CMGeKiS7bc6yPQZZKuMhVsQ3l3,1w068zohSAbUlnExhyu-NcaSnFVaBqoQ1,1j8KXenvtzGJuNUIcPx3LXfEGvRu4nVQJ,12V1UK0bZ4rkdbfP5FdHaW7ZiTFKtTudY,1yuahDQqv-PHjYlVRGQaBW7n0OEptJhdM,1a0ih16FUTaT3co0fAWhVRkVCjIXVCucV,1k8JZNWuE8mbgrOjiFwF2OG3uuT9LOEsz,1iXyk9X6GnqPYXN04MVjbEFNusG-85YTp,1CuERPY2PoHlH9hX5acw2IK6EbwwOU7l3,13Fkydiy2GF7gn7YouTGgjVSgxVgD-uJ3,13i0ZJ0BR0lBFwH8T9fGgqNi4irvSTtDc,1Q7Q5fEguyUnfoRS6gALmirYgTZWdJj2B,1up6otkCX8hW28tzE3otCT2cGxXOqJqJH,1QhCpVwPkJIw8Y6VDYjtTapaPaErvOSVI,1T1MhPIcUfbg4Te-LFSyUXjdvTnk5-XrL,1jLxe0ZjjTqnuUEnTxOd4a_3b_tdBx5z5,1CdnWu_7BTeyicueYP2Nsqqn5DxsWbYBH,1wEytM-U95G0BWYQvSwcNqnOG9zsWB4lo,1YkVZ7iGX5yQOaZdm8Yy1JBfJ_3xfHe2T,1qSNgccbbWfbTNw60tRvbvLSMRGqDu6SZ,1rUwsGWAmUP6NW5pA62q99tVZvcA0CGOy,15Hfy0l1tM_WyRmnVbopdpmmJwUu7gTLU,1H0rbOSF4H2FuQ-WxEf829ro7ul8tRQtU,1zLG79l-Wp0It61jBEyt199vS82ZkwuBs,1--r3_TdUSg-b0AbOMC15DzUQuuN08Die,19nMpMWc1JQa8eRsibQ0GwT4EZt0P7Y96,1vvPtqckV9hziUm2cy9Pk9fVclIyqB4FM,1Gw7JtMs4TJIAKWuTXoBjz4l4LosOMOQq,1F_0HtCQtEkuzz39YssAXrjLxVe0hUXyi,1Pma2YzNygq0_zqVb7uaruEFj6XcRBgsH,1XT0141sN3LvkGUCB9RV_Y_Q1SvG1FH8c,1fjNqfuAV7dnqaZrNMaAvZr2GDhiZ5TpZ,1V5t0DnjmL2xA2CdpwTWaC4uHkxG8h2l6,1j5cK6pWFZpOZo7aDiuZKDRPzw47qWw_y,1ulj-Myxqb63DiEXXPgFR5b6yqqqnZ_tY,1wkWUP1oC7Vge7N-bjfu2_XA8DpkWsK3B,1QA8mheEkIOmkJEQZUq9q8Dn7W2v31PdN,1iPKQgBFRZFQOnMoFAt-IURyYF2z3Yhmn,1V0lKZbvGZga99CIXJ8mEXosKEhH2yhZe,1RXFlUjIU9vA-KH9TR5Y8FeVo_Rpj33QW,1DfrJtCxkRIdGB_KjeBqxU1F0_nqQqh29,1H06-mJW-yeKJ4fCPjZR0t9J6s56LkZCx,1CDbw1_oeplRwTK5gT0nAQKEEgJIuWbXN,1-U4bFfOFwbCBXrJ1UqorjyK8bBqV77IM,1CMH5hTs17dwsmYUAnPQJe3Ouy50HCo2l,1q_kKwMPGfCyCkct78iWFi3_eo7-x9eZ9,1bh_vPWZ-j_YRnnWVHJNjEKercI5SVyk8,1Cwe75gKaquSqjkZBGzuNpXnuEnKXvdvw,1LLL1usjhvpe4tnknIRlyKKj-coLBQxUx,1LGDhBxho_WggEtUr8cFtPFa8BHOgEnOy,1-U-ECZtZfejvU6-LTwSogoYXzMwPkbHS,13de0WXZRMJ_xe9iVa-WUPQFifbtNKr2Y,1tcLMJAMrCK5CzNIQj_XnJ_aGSAMh23Dv,1ovBQVikTU7NY-YXPh_LyIfhYcmuP48T8,1EQJj2Lgy7xcgWb-dlVfu8e-qyTsqmHSR,1Se2nob9U1ms050LwP0_fCe2JXstppzxo,1bmoNIrKfIoLk_nkERujeXqiug3vWNy1f,1F-5OvCWojUZr9DROUvM97jfh7N4ndiTs,1MhGYtMKxWeGv7osnifWlVugVMygttG47,1CRTrt7UXtZ8pQ6JjbRfwt1rJNymLPbKH,1ynp7kVtTrKyslJwQNnxSVsI9eOHghcWf,1B0WL568_vyzYErT_furzhTYwRaMpfVh9,1rB-FilNSL6aWIakRiYTn3KHENRqOpTZi,1oJWLyB7lt2uQMmUwx_MTRIe8Nvq0ZcIi,1HzGVqamhtTF6L4Q6So11i2pZSePY7vpg,1NWCnZalely6hR0MnHzqMo-ibM6U_JA2l,1b194x_DpQ3RItu7OylJEAlqspF71064V,1HkrzH6fhUJun5nG600aM1BV9-3hzKPiL,19MNynnzJFL3eNblXYMT62QnfsqFexsi1,1I0cVOOxZ7CDPoM9BX2HtAYUAod0pp33h,1b_htH6PCMyiMrudTQwgBq-pVOshZiAD9,18rN4uIANiF5MB5u2XzLFsepz1HRYPWKT,1NQ7njKOov5wF1niV3qE2BcEq7YtQE7kp,1c7lCaCC6YntGwW8LKWQdNqB__NbDGihz,1L922LwHow4WW4GtfkH_81u9b5NpA7CgA,1og1TIH_cu3Vy6bX1VPcsVkVBuxSvt0bu,1EQoTmelSe4sxe7zR3eSFOKJO2fKC8E4q,17NIXP7Ws9TOYnOmVxzp0BLWtRaEUIKLr,1wu_cSXJCmRa7Bp-tNC9Ugtwctc_ou46P,1gdVF5JsQx-D13-4NuKd-MwyYl-McdIEq,13XE75Yp2-fWLASICU_6rfA6Cbc-KOLUm,1OAqNoZcE_HhIjcV7kexqRCTCDJkK7WTS,11s9WBVuuUq678yzLD_61ObNepcmIy3xw,1NeAQTBafoM5WL322g7wFcFkdpOl9PK_Z,1iHkWHh2trb5cU8nJE-_FFwKez3DilJfe,1Iw497gTJ6dNcB1WjbBej6lkxUyVv7QkS,10phJo1UlmBMRcjDeXnYwWMqW88pRJp-0,1b8B-BoM6qz1F51x-UI7Pvyh4FCIkBV19,1o53k_q8pqtiOQif2UV61B4Xul_nVu_CT,1MwSngnenpjHSnmTmKBScHZk5-Cvy6ig5,17z_-8Kz4N2J1vuzt5s1RBiBo4s8RuNCr,10_6IFk3Dguqc8qhVEqA2l4ryJr12-Xzj,1YZVdsKD8f0W87IstnSe7N6_YM8XM2HOl,1Hr4ga2k9dysGFMhhrHHkd-TqmI3dKEsd,1ygdkTzgswqPvyYMyplrRriIzaQiJUKfo,11gdZ8xVI5lbAch2IOexaUMRcK68gmRIv,1At-Far47pIngW5Qln4HOC5Gdh5ZZ9Hpk,1gEzbbGTHVUSC_-523ttucIzZdvRxtEDL,1C9W6OPZ0Byo-8pN2bqr83iALgTEeYDxe,1s2Qzm1aRr7FsdLqyNST9cqWlNiIfOxk4,1Z5gk34Ll46Q1wTX3BHcn1aIkmNzZyzjS,1DLwDWe2Yn8rnhAmzBYSyd6p-3uduW6QK,1SKU_y_3Us2qD8JLcWbGb0wbhgqNpugvl,1NEwO4b_oPgA93De7s3DY01zp4m40wEYK,1A4w0npiP90DD4mjnNz8guV30jN2WpP03,1K_NHnYOIGuodvZ90djFoI0dj8T1hLaRq,1T8TnxDIfyspm54orTrlj1T-VRZElXR9G,1Q9u7AFa4TDHCnhzZmOrVGPNvp_NJbDeD,1CSWEaO868O8zZbFc-F8ttlbDRC2IYoQe,1-DvpusymYjzSnLtwSBKUh4C-M14ObQjj,18tHJEYulpot0wjupZFCTXiAyzvSZX-Sn,1Mhlvi-uWixGxhZPFMvWPNSC2AN3dhLV0,1md97VQV_LuvjzftSyFtqIkEALNns5cMI,1Rnvx3boLqgo2rNhPN36dcK0f0wMZmHwB,1E4rVRE801EZnScPuPmtBC_qye-VPS970,1NoKroaBqB3Cf57WTJGWT3a0ECDJYcRBe,1HCXgIH3nPtWsAbBM04zlVJqz7dGok_Q4,1bHm7rYUMCgL2tZZLGDsrrrfL7NTq3gd7,1sE6xhC_1kO-LmIIoOEe2TRjC-yk6qlsW,1lzHT1ULt2wYBKRrDtgQNtgychrO1LWs7,1w0GKUIpZlZeKTcLtwC1CgHcFeS0oSz6W,13XfTpOEjALQCshvjmFutoXE17D2wa5OQ,1Ph1j1DfngOuJdOwehU9ZELKDy-GhtCBl,1Ni0klI11qTzf9dS2M63TioA82yrWpILT,1X3jr2HLw3UY9_1-BQ8uORdTTWf63jJdE,1X7RRF_asmsrgTFfRtEEO4YXAeIgf5Q60,1xWytRDFCqZLVkWdbLaKWbmJt-1yvZVZZ,1Hzyr-9Pi3fl6I_gvsY4QRWFvl_fe6Cal,1qZqHXv8Pm0lMJfv-rZiJzK0nn1ftRvUJ,1BgDJNi3TBO-tyw9ixFhWfiZRZhKpaFXz,1cUD55WqNYneg_jVM41TA6dTjwtuRoqhX,1i_tE5BSaYD9bdNf4YrM4XI4YLXledEF8,1ixUDwwX0MFOpKOBxbKLYjl-dKR-wiaMd,1YiQk7IvtiaGoOe0s4Wl0ueq9aXyPllEU,1bAoKtYRahmx1sWiQcZfXj9xGG05D2dSN,1D1wyvSOyzZv2aNzIQbZmPye0LP6NsH3H,1gdPKgPSfdImcxQxLkV5RV6ylsnFAU6jE,1HKwgPD-GDzLYFTjyfhAd4VfExU_MimHx,1-zkEnZAPKUauU2DetLk4WTCh-OIG77uS,1PQyWz9IakZ7cy4_d3KCgeEA-I9tVJl5H,1myAaDWtUAEvOBtNqHZsDxx_6BfTc9IIh,1gaQwYHgGi2KQ5Jy0fq70i4RKzHQCRf5o,1Yd1vNehYCR1Aj75-I4vpza7GB4lOZ2gL,17un-a0UYV1L4SDDpL5WIyvK9Dq1qf0j6

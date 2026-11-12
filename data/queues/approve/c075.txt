@@ -1,0 +1,81 @@
+# c075 approve list, run review 2026-11-11
+# teacher: អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង
+# course: 4-នាទីធម្មចរិយា
+# queued 76 · converted 72 · approved 0 · failed 0 · not started 4
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	AJAD000MSC001	1lcuGor0mxamp-FVcBv-0rqNKKxSnf-Ih	DRAFT	51.4	-18.1	ok	https://media.84000.digital/audio/27fdab8a911821c3-a64.mp3	1 នាទីធម្មចរិយា
+2	AJAD000MSC002	1iWlK4xGd6Afs8EOrOWekSFUgbUG2nLyw	DRAFT	52.9	-18	ok	https://media.84000.digital/audio/a7c099b34039cdc4-a64.mp3	2 នាទីធម្មចរិយា
+3	AJAD000MSC003	11WyaohPcV2Br4P4-BVgG2-j98eHebRxb	DRAFT	53.6	-18.2	ok	https://media.84000.digital/audio/95e4cb37fd1fc793-a64.mp3	3 នាទីធម្មចរិយា
+4	AJAD000MSC004	1V8Q5iFpm4ZT4DbYMnr2CK8YmNYYhotpP	DRAFT	44.5	-18.2	ok	https://media.84000.digital/audio/7cb5e106e721aebd-a64.mp3	4 នាទីធម្មចរិយា
+5	AJAD000MSC005	1Bzc5bVHSDp8wlm2oXKVfFFu7ljjV6Ltl	DRAFT	48.9	-18.2	ok	https://media.84000.digital/audio/8d1b9a9a5a7e3ff1-a64.mp3	5 នាទីធម្មចរិយា
+6	AJAD000MSC006	1SDOXR1hdZZiyaMfj6tLdnyHMPUosg-tY	DRAFT	55.6	-18.2	ok	https://media.84000.digital/audio/a14d65b719fa55b6-a64.mp3	6 នាទីធម្មចរិយា
+7	AJAD000MSC007	1gYntsUOQWl194WJLXqYKZP3iG--7TWju	DRAFT	54.8	-18.2	ok	https://media.84000.digital/audio/da5424954453b891-a64.mp3	7 នាទីធម្មចរិយា
+8	AJAD000MSC008	1w7rFF3hACzAN8ocj8JePuFTVCFMeOZ1e	DRAFT	49.6	-18.1	ok	https://media.84000.digital/audio/a7607b315d8a83b7-a64.mp3	8 នាទីធម្មចរិយា
+9	AJAD000MSC009	1JZU13SIC2oxKulwvyfPtAUA_6-S7vouD	DRAFT	46.8	-18.1	ok	https://media.84000.digital/audio/cb58407d45abfe1a-a64.mp3	9 នាទីធម្មចរិយា
+10	AJAD000MSC010	1zj7k2_cWae3lhFLUJzOcF3S-kG2Hq0eA	DRAFT	17.6	-18.1	ok	https://media.84000.digital/audio/9f042791b067b6d5-a64.mp3	10 នាទីធម្មចរិយា
+11	AJAD000MSC011	1H3ystjXEZh-Hxqy-q3-KWmE0CuaGGsNf	DRAFT	45.3	-18.2	ok	https://media.84000.digital/audio/56b7719b8103f84f-a64.mp3	11 នាទីធម្មចរិយា
+12	AJAD000MSC012	1LhZ87i1PdKXYQpH-heBtd_BnQvfiKLzv	DRAFT	47.4	-18.2	ok	https://media.84000.digital/audio/4c9cc2fe5656cb29-a64.mp3	12 នាទីធម្មចរិយា
+13	AJAD000MSC013	1MDkJchKU83FBm9_fYBdWwbjNftkwp21T	DRAFT	50.0	-18.1	ok	https://media.84000.digital/audio/bb55a8cdbf6c7dd8-a64.mp3	13 នាទីធម្មចរិយា
+14	AJAD000MSC014	1Dpax1m_bLEmui5NqBBY7FlLWmk8ENOoB	DRAFT	53.6	-18.2	ok	https://media.84000.digital/audio/d708cd9adfd982c8-a64.mp3	14 នាទីធម្មចរិយា
+15	AJAD000MSC015	1x6zTWUhPTYjgboqeRDRSdkSoTfBzwx7n	DRAFT	51.7	-18.1	ok	https://media.84000.digital/audio/583ea604fd906230-a64.mp3	15 នាទីធម្មចរិយា
+16	AJAD000MSC016	1lMTraYoMcY0uBmGMjCNllZogCDt6vGRf	DRAFT	50.7	-18.1	ok	https://media.84000.digital/audio/be69a8be8c2bbf86-a64.mp3	16 នាទីធម្មចរិយា
+17	AJAD000MSC017	1Oot_7y6ZcLVj0RVchvoPfQAfouLuq-k0	DRAFT	52.0	-18.2	ok	https://media.84000.digital/audio/0d9663e0dff13bd3-a64.mp3	17 នាទីធម្មចរិយា
+18	AJAD000MSC018	1HjmlxZWbckxw4gmG4TDbSOSfgJkN-_z7	DRAFT	64.4	-18.1	ok	https://media.84000.digital/audio/64eb8936380aafb9-a64.mp3	18 នាទីធម្មចរិយា
+19	AJAD000MSC019	1GNivymEf9U6g8Y0T7L5oJ8NELIgI09RF	DRAFT	49.5	-18.2	ok	https://media.84000.digital/audio/8f6a4592a3bcb5e6-a64.mp3	19 នាទីធម្មចរិយា
+20	AJAD000MSC020	1Gdq-Og9g3ZmP1X3cKIg5X-nW-DwdoN4K	DRAFT	48.3	-18.1	ok	https://media.84000.digital/audio/15b63eac31f290b3-a64.mp3	20 នាទីធម្មចរិយា
+22	AJAD000MSC022	1adVdUInsNMrCKZ5kMfWoVWW8UcsMms57	DRAFT	42.0	-18.2	ok	https://media.84000.digital/audio/b26e952112000279-a64.mp3	22 នាទីធម្មចរិយា
+23	AJAD000MSC023	1wYx3LJWrshA7cDdfmwyXyzN6sooD9-uA	DRAFT	46.7	-18.2	ok	https://media.84000.digital/audio/0b20d5f64b1668a3-a64.mp3	23 នាទីធម្មចរិយា
+24	AJAD000MSC024	141Yv8wtcj3dqfkksxm5dK3RnHaUus5w0	DRAFT	49.5	-18.2	ok	https://media.84000.digital/audio/a7db3797a128b74f-a64.mp3	24 នាទីធម្មចរិយា
+25	AJAD000MSC025	16qUzkg7HebF5f3ZeKU3EE0HcKLgZjUFi	DRAFT	49.4	-18	ok	https://media.84000.digital/audio/3c075f4e5980e534-a64.mp3	25 នាទីធម្មចរិយា
+26	AJAD000MSC026	12rMYvNi6yquQUOWwXo-hU3V11Til3YFl	DRAFT	51.4	-18.1	ok	https://media.84000.digital/audio/65d52af7f27f761e-a64.mp3	26 នាទីធម្មចរិយា
+27	AJAD000MSC027	1pTL2qbvtB-SE1cUHcgnGTur2kdgjtAMt	DRAFT	43.5	-18.1	ok	https://media.84000.digital/audio/0782bfb4306176da-a64.mp3	27 នាទីធម្មចរិយា
+28	AJAD000MSC028	1edM44iOn7zPT9obz3QyVg0WEFAo_waak	DRAFT	51.4	-18.2	ok	https://media.84000.digital/audio/7f458a708939827e-a64.mp3	28 នាទីធម្មចរិយា
+29	AJAD000MSC029	1z8Bk36VL8HXhPxOjPQduib0kDQnhSzKj	DRAFT	47.8	-18.1	ok	https://media.84000.digital/audio/281d123c35678e8e-a64.mp3	29 នាទីធម្មចរិយា
+30	AJAD000MSC030	18OkkMfpmmF611JoQywq9iK5KUg3zqeQH	DRAFT	37.1	-18.2	ok	https://media.84000.digital/audio/025a572067b99445-a64.mp3	30 នាទីធម្មចរិយា
+31	AJAD000MSC031	1Wq_BvxTIdvGu2ly3uPICuO6Rk5oUt966	DRAFT	42.4	-18.2	ok	https://media.84000.digital/audio/1e3bf5d6884229d5-a64.mp3	31 នាទីធម្មចរិយា
+32	AJAD000MSC032	1mRLRh3vS3ROQ3gpKLZ8qAu5_fomytH0p	DRAFT	49.6	-18.2	ok	https://media.84000.digital/audio/7b9bd6d8549397e7-a64.mp3	32 នាទីធម្មចរិយា
+33	AJAD000MSC033	1x082ji2CUW7HWUVSPXOzj8K4xz2VbNEb	DRAFT	45.0	-18.2	ok	https://media.84000.digital/audio/c9fb77381e7f7bbd-a64.mp3	33 នាទីធម្មចរិយា
+34	AJAD000MSC034	1E64oolyFgpcnl7VB1nXzNnRijG06bjxu	DRAFT	38.9	-18.2	ok	https://media.84000.digital/audio/02411f7df03f7c1c-a64.mp3	34 នាទីធម្មចរិយា
+35	AJAD000MSC035	1TU_zROv4YMihGDb5geO7ZJR_tjFWzeAG	DRAFT	50.6	-18.2	ok	https://media.84000.digital/audio/4fed04670860b2d2-a64.mp3	35 នាទីធម្មចរិយា
+36	AJAD000MSC036	1-zoePUBSypIlJklTAY0b5yDXRkiwFJHQ	DRAFT	47.3	-18.2	ok	https://media.84000.digital/audio/7e2db217f82c752a-a64.mp3	36 នាទីធម្មចរិយា
+37	AJAD000MSC037	11GTc2zEwlqLRuXyHVkWOMYH_N6Iz-N_H	DRAFT	41.9	-18.2	ok	https://media.84000.digital/audio/b0cbb22446364dee-a64.mp3	37 នាទីធម្មចរិយា
+38	AJAD000MSC038	1MbhTIWNFBpuK7HtNPJ-pBQA9SuK1nv8g	DRAFT	47.9	-18.2	ok	https://media.84000.digital/audio/ff328c29f7461e23-a64.mp3	38 នាទីធម្មចរិយា
+39	AJAD000MSC039	177vzaty_TNib5YVlGFTiBBaRngQ9DTjy	DRAFT	47.3	-18.2	ok	https://media.84000.digital/audio/2e10bdf30e7107e7-a64.mp3	39 នាទីធម្មចរិយា
+40	AJAD000MSC040	1_cFGFE1GAxDBq8JRPKAtG1UWQva857CE	DRAFT	49.1	-18.1	ok	https://media.84000.digital/audio/72c68a729eaa8e22-a64.mp3	40 នាទីធម្មចរិយា
+41	AJAD000MSC041	18L8m86886MdTPMxstAjKkQvLObDzhFpL	DRAFT	47.2	-18.2	ok	https://media.84000.digital/audio/9382ded5ad7c11e8-a64.mp3	41 នាទីធម្មចរិយា
+42	AJAD000MSC042	1Nq60YHz2xixNWg2RStKhFQ1BGk4Ip6fT	DRAFT	43.3	-18.1	ok	https://media.84000.digital/audio/1238f132af8d7cb8-a64.mp3	42 នាទីធម្មចរិយា
+43	AJAD000MSC043	1TdRE-pE_LUkrkxUy4-G4OcMvGKrJVyTx	DRAFT	50.5	-18.2	ok	https://media.84000.digital/audio/074c4374155b9916-a64.mp3	43 នាទីធម្មចរិយា
+44	AJAD000MSC044	11xckxbYUuIk0uLX7MjgkTw56g3fHEj6D	DRAFT	45.5	-18.2	ok	https://media.84000.digital/audio/be9b1b158b9732f6-a64.mp3	44 នាទីធម្មចរិយា
+45	AJAD000MSC045	1hvMYEyfd4NKx4nYTrtAwbh48I1FfNZ2u	DRAFT	51.0	-18.1	ok	https://media.84000.digital/audio/312f6eba56736ba6-a64.mp3	45 នាទីធម្មចរិយា
+46	AJAD000MSC046	1ugYT3DAyjaHgMNyKkcCX4FlS0t9D3HnB	DRAFT	48.6	-18.2	ok	https://media.84000.digital/audio/d53c1b8a87390b74-a64.mp3	46 នាទីធម្មចរិយា
+47	AJAD000MSC047	1sAIUcR2Q_DhP6xHAHIu4c_CwFHuWwm-o	DRAFT	47.5	-18.2	ok	https://media.84000.digital/audio/e907c40823b8a8fb-a64.mp3	47 នាទីធម្មចរិយា
+48	AJAD000MSC048	1qxbK7sITqTHqID3KWk_anu5vOq3PhY_j	DRAFT	41.7	-18.1	ok	https://media.84000.digital/audio/ea7bb2a61b4cd7b8-a64.mp3	48 នាទីធម្មចរិយា
+49	AJAD000MSC049	1mJwgoF_-mcPrwe-bCJKm1sDruUCmCxyD	DRAFT	49.6	-18.1	ok	https://media.84000.digital/audio/13d7232046cdc67b-a64.mp3	49 នាទីធម្មចរិយា
+50	AJAD000MSC050	1SmaxCox4cRTqNbb7WvwciInyhbDZOyj9	DRAFT	49.0	-18.1	ok	https://media.84000.digital/audio/3f712c758f0e073b-a64.mp3	50 នាទីធម្មចរិយា
+51	AJAD000MSC051	1R-6VgM4BrzEzzVJlLZ2pQsKjUM-nEove	DRAFT	48.2	-18.1	ok	https://media.84000.digital/audio/53e92aeac50bab6f-a64.mp3	51 នាទីធម្មចរិយា
+52	AJAD000MSC052	1ipGvBFT91vTfgNkL0wI407qvVp9uoINL	DRAFT	44.9	-18.1	ok	https://media.84000.digital/audio/9d770a92a315c634-a64.mp3	52 នាទីធម្មចរិយា
+53	AJAD000MSC053	1QSoCSO4SX3xrbfStZF5SMZN5AURTRO4-	DRAFT	44.3	-18.1	ok	https://media.84000.digital/audio/5ebe0de3fb33d5ed-a64.mp3	53 នាទីធម្មចរិយា
+54	AJAD000MSC054	17fKPIoRmVEKL08PjbTkAd-cCcFROED7W	DRAFT	39.0	-18.2	ok	https://media.84000.digital/audio/dd47ebd08320994a-a64.mp3	54 នាទីធម្មចរិយា
+55	AJAD000MSC055	1K81OmtkTIzVj0YYQHDWB343bdeFo9kcw	DRAFT	43.4	-18.1	ok	https://media.84000.digital/audio/a0aa53ffae86312c-a64.mp3	55 នាទីធម្មចរិយា
+56	AJAD000MSC056	17Ad-qK7rxR5029a0hO3--VBdjdA5fQvl	DRAFT	44.0	-18.1	ok	https://media.84000.digital/audio/a6f66aab131b6241-a64.mp3	56 នាទីធម្មចរិយា
+57	AJAD000MSC057	1tiHqgDg-zDIotWsRkIGSq3xZbosfKGox	DRAFT	25.3	-18.1	ok	https://media.84000.digital/audio/89fe0ba83312de94-a64.mp3	57 នាទីធម្មចរិយា
+58	AJAD000MSC058	1FBBzCFhnA2nK00G8mddPeJ6yjchJXZU0	DRAFT	37.4	-18.2	ok	https://media.84000.digital/audio/e2da78cab392d25a-a64.mp3	58 នាទីធម្មចរិយា
+59	AJAD000MSC059	1pHPdlaiDeWSY7gxM9kFSyJWklrLLAY2c	DRAFT	41.5	-18.2	ok	https://media.84000.digital/audio/ddc4988f319c1a30-a64.mp3	59 នាទីធម្មចរិយា
+60	AJAD000MSC060	19dR_jwNYIUeLbVNHZkBCGh5WfIuafsmL	DRAFT	46.4	-18.2	ok	https://media.84000.digital/audio/1baad074dd27e68b-a64.mp3	60 នាទីធម្មចរិយា
+61	AJAD000MSC061	1WqGwaEZYrAZiJcqMtin4Xe3OO6iHt54x	DRAFT	50.6	-18.1	ok	https://media.84000.digital/audio/fce5d8468b4c71af-a64.mp3	61 នាទីធម្មចរិយា
+63	AJAD000MSC063	1309aVA16_Om6E2x9bSv7TuS2-ECha6i_	DRAFT	50.1	-18.2	ok	https://media.84000.digital/audio/924ae9927f360278-a64.mp3	63 នាទីធម្មចរិយា
+64	AJAD000MSC064	1d2Os_ZyHU95hZrHhS_bo3sR0s-InaG1G	DRAFT	53.7	-18.2	ok	https://media.84000.digital/audio/8710e50da9205bb9-a64.mp3	64 នាទីធម្មចរិយា
+65	AJAD000MSC065	1OFOA0PSGEZpYIyL6dPEzKZbNSMWkpRhR	DRAFT	54.0	-18.2	ok	https://media.84000.digital/audio/5e918301543e5aa1-a64.mp3	65 នាទីធម្មចរិយា
+66	AJAD000MSC066	1etG9w7v-EWJkUn456rDDidDvQmG4DPsS	DRAFT	52.7	-18.2	ok	https://media.84000.digital/audio/569cca704051d925-a64.mp3	66 នាទីធម្មចរិយា
+67	AJAD000MSC067	1rQ83n1Q9P1BmKVWxsQzHrct3VjgSGziQ	DRAFT	50.8	-18.2	ok	https://media.84000.digital/audio/97b3b5b0ebd91b09-a64.mp3	67 នាទីធម្មចរិយា
+68	AJAD000MSC068	1zhKGwfmHjOpErLTwitFW00rkAdVvGV2w	DRAFT	46.6	-18.2	ok	https://media.84000.digital/audio/a2f15df9a1865562-a64.mp3	68 នាទីធម្មចរិយា
+70	AJAD000MSC070	1QUxULQiZBwJ0TguA78fpFHXZS04Hl2ll	DRAFT	46.8	-18.2	ok	https://media.84000.digital/audio/85d2ef93a05bda66-a64.mp3	70 នាទីធម្មចរិយា
+71	AJAD000MSC071	1a1OwNDIYD4JUd6DFaswxMXz8w0pmeULJ	DRAFT	48.8	-18.2	ok	https://media.84000.digital/audio/147ac0b97c22a406-a64.mp3	71 នាទីធម្មចរិយា
+73	AJAD000MSC073	1ULMCLJ2o8WCASEdRUgWz86rIKBiIvJJo	DRAFT	49.5	-18.1	ok	https://media.84000.digital/audio/168a5ce9c98fc9cd-a64.mp3	73 នាទីធម្មចរិយា
+74	AJAD000MSC074	1XHPsMNzNXU43PVfuTeYmDWaOpwVtR5pb	DRAFT	47.0	-18.2	ok	https://media.84000.digital/audio/10567206bfa21748-a64.mp3	74 នាទីធម្មចរិយា
+75	AJAD000MSC075	1UXpoRAsMOIiiibFtFfwGGFCLIoHLtcVb	DRAFT	46.3	-18.1	ok	https://media.84000.digital/audio/502c0654e199de21-a64.mp3	75 នាទីធម្មចរិយា
+76	AJAD000MSC076	1Ml5kkemwl671-Cl_Bf502jk7HTqtmMxp	DRAFT	48.3	-18.1	ok	https://media.84000.digital/audio/bd0c065cf4145ef7-a64.mp3	76 នាទីធម្មចរិយា
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1lcuGor0mxamp-FVcBv-0rqNKKxSnf-Ih,1iWlK4xGd6Afs8EOrOWekSFUgbUG2nLyw,11WyaohPcV2Br4P4-BVgG2-j98eHebRxb,1V8Q5iFpm4ZT4DbYMnr2CK8YmNYYhotpP,1Bzc5bVHSDp8wlm2oXKVfFFu7ljjV6Ltl,1SDOXR1hdZZiyaMfj6tLdnyHMPUosg-tY,1gYntsUOQWl194WJLXqYKZP3iG--7TWju,1w7rFF3hACzAN8ocj8JePuFTVCFMeOZ1e,1JZU13SIC2oxKulwvyfPtAUA_6-S7vouD,1zj7k2_cWae3lhFLUJzOcF3S-kG2Hq0eA,1H3ystjXEZh-Hxqy-q3-KWmE0CuaGGsNf,1LhZ87i1PdKXYQpH-heBtd_BnQvfiKLzv,1MDkJchKU83FBm9_fYBdWwbjNftkwp21T,1Dpax1m_bLEmui5NqBBY7FlLWmk8ENOoB,1x6zTWUhPTYjgboqeRDRSdkSoTfBzwx7n,1lMTraYoMcY0uBmGMjCNllZogCDt6vGRf,1Oot_7y6ZcLVj0RVchvoPfQAfouLuq-k0,1HjmlxZWbckxw4gmG4TDbSOSfgJkN-_z7,1GNivymEf9U6g8Y0T7L5oJ8NELIgI09RF,1Gdq-Og9g3ZmP1X3cKIg5X-nW-DwdoN4K,1adVdUInsNMrCKZ5kMfWoVWW8UcsMms57,1wYx3LJWrshA7cDdfmwyXyzN6sooD9-uA,141Yv8wtcj3dqfkksxm5dK3RnHaUus5w0,16qUzkg7HebF5f3ZeKU3EE0HcKLgZjUFi,12rMYvNi6yquQUOWwXo-hU3V11Til3YFl,1pTL2qbvtB-SE1cUHcgnGTur2kdgjtAMt,1edM44iOn7zPT9obz3QyVg0WEFAo_waak,1z8Bk36VL8HXhPxOjPQduib0kDQnhSzKj,18OkkMfpmmF611JoQywq9iK5KUg3zqeQH,1Wq_BvxTIdvGu2ly3uPICuO6Rk5oUt966,1mRLRh3vS3ROQ3gpKLZ8qAu5_fomytH0p,1x082ji2CUW7HWUVSPXOzj8K4xz2VbNEb,1E64oolyFgpcnl7VB1nXzNnRijG06bjxu,1TU_zROv4YMihGDb5geO7ZJR_tjFWzeAG,1-zoePUBSypIlJklTAY0b5yDXRkiwFJHQ,11GTc2zEwlqLRuXyHVkWOMYH_N6Iz-N_H,1MbhTIWNFBpuK7HtNPJ-pBQA9SuK1nv8g,177vzaty_TNib5YVlGFTiBBaRngQ9DTjy,1_cFGFE1GAxDBq8JRPKAtG1UWQva857CE,18L8m86886MdTPMxstAjKkQvLObDzhFpL,1Nq60YHz2xixNWg2RStKhFQ1BGk4Ip6fT,1TdRE-pE_LUkrkxUy4-G4OcMvGKrJVyTx,11xckxbYUuIk0uLX7MjgkTw56g3fHEj6D,1hvMYEyfd4NKx4nYTrtAwbh48I1FfNZ2u,1ugYT3DAyjaHgMNyKkcCX4FlS0t9D3HnB,1sAIUcR2Q_DhP6xHAHIu4c_CwFHuWwm-o,1qxbK7sITqTHqID3KWk_anu5vOq3PhY_j,1mJwgoF_-mcPrwe-bCJKm1sDruUCmCxyD,1SmaxCox4cRTqNbb7WvwciInyhbDZOyj9,1R-6VgM4BrzEzzVJlLZ2pQsKjUM-nEove,1ipGvBFT91vTfgNkL0wI407qvVp9uoINL,1QSoCSO4SX3xrbfStZF5SMZN5AURTRO4-,17fKPIoRmVEKL08PjbTkAd-cCcFROED7W,1K81OmtkTIzVj0YYQHDWB343bdeFo9kcw,17Ad-qK7rxR5029a0hO3--VBdjdA5fQvl,1tiHqgDg-zDIotWsRkIGSq3xZbosfKGox,1FBBzCFhnA2nK00G8mddPeJ6yjchJXZU0,1pHPdlaiDeWSY7gxM9kFSyJWklrLLAY2c,19dR_jwNYIUeLbVNHZkBCGh5WfIuafsmL,1WqGwaEZYrAZiJcqMtin4Xe3OO6iHt54x,1309aVA16_Om6E2x9bSv7TuS2-ECha6i_,1d2Os_ZyHU95hZrHhS_bo3sR0s-InaG1G,1OFOA0PSGEZpYIyL6dPEzKZbNSMWkpRhR,1etG9w7v-EWJkUn456rDDidDvQmG4DPsS,1rQ83n1Q9P1BmKVWxsQzHrct3VjgSGziQ,1zhKGwfmHjOpErLTwitFW00rkAdVvGV2w,1QUxULQiZBwJ0TguA78fpFHXZS04Hl2ll,1a1OwNDIYD4JUd6DFaswxMXz8w0pmeULJ,1ULMCLJ2o8WCASEdRUgWz86rIKBiIvJJo,1XHPsMNzNXU43PVfuTeYmDWaOpwVtR5pb,1UXpoRAsMOIiiibFtFfwGGFCLIoHLtcVb,1Ml5kkemwl671-Cl_Bf502jk7HTqtmMxp

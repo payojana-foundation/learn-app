@@ -1,0 +1,44 @@
+# c031 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
+# course: 7-បិដកលេខ២២
+# queued 40 · converted 35 · approved 0 · failed 0 · not started 5
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	ASUT022YY0001	1zdg3gcO-LBCXwoD8_TIuIDkQg8Vf6HJD	DRAFT	92.9	-18.2	ok	https://media.84000.digital/audio/50185500999601a4-a64.mp3	០១ ចូឡគោសិង្គសាលសូត្រ អំពីការសាមគ្គីរបស់ភិក្ខុក្នុងព្រៃ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+2	ASUT022YY0002	1_qwhC_l7vB7L5kz_BmTCdV-MEWYkHaJZ	DRAFT	113.3	-18.2	ok	https://media.84000.digital/audio/cd5576152d785212-a64.mp3	០២ ចូឡគោសិង្គសាលសូត្រ អំពីការមានមេត្តាចិត្តរបស់ភិក្ខុ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+4	ASUT022YY0004	19pz1L1iUZ8_mJmIVkwyF0T7cs8Pgyy2z	DRAFT	94.8	-18.1	ok	https://media.84000.digital/audio/658f4b6c2e8d7e6e-a64.mp3	០៤ ចូឡគោសិង្គសាលសូត្រ ព្រៃរុងរឿងដោយភិក្ខទ្រទ្រង់នូវគុណ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+5	ASUT022YY0005	1TCfAT8nLaQRVk3y47FSSFgktR79UgEJN	DRAFT	116.3	-18.2	ok	https://media.84000.digital/audio/52d1c1590e29829f-a64.mp3	០៥ មហាគោសិង្គសាលសូត្រ ព្រះសារីបុត្រសួរព្រះអង្គពីព្រៃគោសិង្គ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+6	ASUT022YY0006	1PynFjditD4vFlN4B6OWOa3GOkyUYooUQ	DRAFT	0.0	-18.2	ok	https://media.84000.digital/audio/2586dcf98a1518e3-a64.mp3	០៦ មហាគោបាលសូត្រទី៣ នាយគោបាលមិនស្គាល់លក្ខណគោ១១/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២
+9	ASUT022YY0009	1mLebFpp2_QH68Bi2LsDxUPYX9yiOsEYh	DRAFT	116.1	-18.1	ok	https://media.84000.digital/audio/d22f93e3bc6227d0-a64.mp3	០៩ ចូឡសច្ចកសូត្រទី៥ សច្ចនិគ្រន្ថទៅតតាំងវាទៈនឹងព្រះ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+10	ASUT022YY0010	1ygsj48ECXvlzFKSzEKqFkgbPTbVckMUQ	DRAFT	119.2	-18.6	cap	https://media.84000.digital/audio/bb614ef2460adffe-a64.mp3	១០ ចូឡសច្ចកសូត្រទី៥ សច្ចនិគ្រន្ថព្រមទទួលកំហុស/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+11	ASUT022YY0011	1Sbw_5CLvzS23PRN-gUyHNdWrtDUP8R5R	DRAFT	113.3	-18.1	ok	https://media.84000.digital/audio/4be5213204260e74-a64.mp3	១១ ចូឡសច្ចកសូត្រទី៥ សច្ចនិគ្រយាងព្រះអង្គទទួលចង្ហាន់/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+12	ASUT022YY0012	1Trvyab5wI8nQ1BKrrEw2j6rpqGuslxV-	DRAFT	117.9	-18.1	ok	https://media.84000.digital/audio/fe4d6f89a85c9b48-a64.mp3	១២ មហាសច្ចកសូត្រទី៦ កាយភាវនា ចិត្តភាវនា/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី
+13	ASUT022YY0013	1A1HbpQfNnQld0NlUnn0-kRcaZRKGLeF8	DRAFT	114.0	-18.1	ok	https://media.84000.digital/audio/833a9725b2b79da3-a64.mp3	១៣ មហាសច្ចកសូត្រទី៦ ព្រះអង្គសម្តែងពីទុក្ករកិរិយា/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+14	ASUT022YY0014	1UtkFWy7WIosJ-_rPp3DmVanEGBALbZQL	DRAFT	115.7	-18.1	ok	https://media.84000.digital/audio/144bf93cae072193-a64.mp3	១៤ ចូឡតណ្ហាសង្ខយសូត្រទី៧ ការបង្អោនចិត្តទៅកាន់និព្វាន/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+15	ASUT022YY0015	1H40wJdDqqcprFvyDrAVTVNK4oZOsFVRk	DRAFT	113.6	-18.1	ok	https://media.84000.digital/audio/8006cf0fe93b6cd2-a64.mp3	១៥ ចូឡតណ្ហាសង្ខយសូត្រទី៧ ព្រះមហាមោគ្គល្លានធ្វើឱ្យព្រះឥន្ទតក់ស្លុត/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+16	ASUT022YY0016	1SrIYgiKPBEg_992HH4odgfgwJc-fxmFh	DRAFT	117.4	-18.2	ok	https://media.84000.digital/audio/eae34050a96a0c09-a64.mp3	១៦ មហាតណ្ហាសង្ខយសូត្រទី៨ សាតិភិក្ខុមានទិដ្ឋិអាក្រក់
+17	ASUT022YY0017	1RU9st_ZGQNIQ_pkSiT9qtS0FW0sK0ttm	DRAFT	115.1	-18.1	ok	https://media.84000.digital/audio/ddb04aecec393209-a64.mp3	១៧ មហាតណ្ហាសង្ខយសូត្រទី៨ សម្តែងពីបដិច្ចសមុប្បាទធម៌
+18	ASUT022YY0018	1lR03RrbPhR_UQc3Cdx8sQwlCf2HKGk6x	DRAFT	116.9	-18.1	ok	https://media.84000.digital/audio/103a0be54c1ba849-a64.mp3	១៨ មហាតណ្ហាសង្ខយសូត្រទី៨ ទឹកដោះម៉ែដូចទឹកឈាមជាដើម
+19	ASUT022YY0019	1dUffbOPjr_RstMBoC-_lYC9CMnK-BLk7	DRAFT	114.4	-18.1	ok	https://media.84000.digital/audio/b3deea0f806e1e36-a64.mp3	១៩ មហាអស្សបុរសូត្រទី៩ កាយ វាចា ចិត្តបរិសុទ្ធ និងមិនបរិសុទ្ធ
+20	ASUT022YY0020	146i0k-jbu27Dueg46M1C4YgKHNnr0VEG	DRAFT	114.6	-18.1	ok	https://media.84000.digital/audio/5a4c42537666caf3-a64.mp3	២០ មហាអស្សបុរសូត្រទី៩ សេចក្តីសុខក្នុងឈាននិងអស់អាសវ
+21	ASUT022YY0021	16ooWA5_uvOrxKI3YcP-RT92nnBiLCNpT	DRAFT	112.5	-18.2	ok	https://media.84000.digital/audio/f4a0f39eb62f27dc-a64.mp3	២១ ចូឡអស្សបុរសូត្រទី១០ ការបដិបត្តិខុសនិងត្រូវរបស់សមណ
+22	ASUT022YY0022	12vJIOWxOceOKZhP1YdQ19DAIh4s5EZ-Z	DRAFT	113.7	-18.2	ok	https://media.84000.digital/audio/67943a75df3af7c5-a64.mp3	២២ សាលេយ្យកសូត្រទី១ ផលនៃការប្រព្រឹត្តស្មើនិងមិនស្មើ
+23	ASUT022YY0023	1Uxvrk3Ob_Z3xZCdWnOQOsS6kzBSkBc13	DRAFT	118.5	-18.2	ok	https://media.84000.digital/audio/5dbc5ca376145c30-a64.mp3	២៣ វេរញ្ជកសូត្រទី២ និងមហាវេទល្លសូត្រទី៣ពីការសួរ៥ យ៉ាង/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+24	ASUT022YY0024	1FrQ5ChFDQfcBNdTTPBt2rPJPmEiMRy_1	DRAFT	117.2	-18.2	ok	https://media.84000.digital/audio/c284af8abffd7c51-a64.mp3	២៤ មហាវេទល្លសូត្រទី៣ សួរអំពីប្រាជ្ញានិងវិញ្ញាណខុសគ្នាឬទេ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+25	ASUT022YY0025	1J-P5hzzHUQzun3kQwGe5Ujyp6fZNWQX5	DRAFT	117.3	-18.2	ok	https://media.84000.digital/audio/edf541f7f0ae9b69-a64.mp3	២៥ មហាវេទល្លសូត្រទី៣ សួរអំពីវេទនា សញ្ញា វិញ្ញាផ្សេងគ្នាឬទេ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+26	ASUT022YY0026	1L1tCdP8r0V2sxbe6QzWesrvjHm2xyg2R	DRAFT	117.7	-18.2	ok	https://media.84000.digital/audio/2fc146ccc9d9cb36-a64.mp3	២៦ មហាវេទល្លសូត្រទី៣ សួរអំពីឥន្រ្ទិយ៥ ជាដើម/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+27	ASUT022YY0027	15PzU9kaAO4MVPDL3jgIZoqtc_jMwDMUh	DRAFT	115.3	-18.2	ok	https://media.84000.digital/audio/251786fb325c18bc-a64.mp3	២៧ មហាវេទល្លសូត្រទី៣ សួរអំពីៈអាយុ ភ្លើងធាតុជាដើម/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+28	ASUT022YY0028	1nMMycBFBXJbM8oFgHJY6SZ0-0eBR4o-7	DRAFT	116.8	-18.1	ok	https://media.84000.digital/audio/05376ca28b3821af-a64.mp3	២៨ ចូឡវេទល្លសូត្រទី៤ វិសាខឧបាសកសួរពីសក្កាយទិដ្ឋិជាដើម/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+29	ASUT022YY0029	1-jjNU4ZII7dppEt7059TOhQopdSp7GxL	DRAFT	117.2	-18.2	ok	https://media.84000.digital/audio/490b7ebcbb25dcb0-a64.mp3	២៩ ចូឡវេទល្លសូត្រទី៤ វិសាខឧបាសកសួរការចូលនិរោធជាដើម/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+30	ASUT022YY0030	1SvUGuPOftQkE-uPfP72rdHTe0JjWdjdt	DRAFT	114.3	-18.2	ok	https://media.84000.digital/audio/1a69763ffdcffc59-a64.mp3	៣០ ចូឡវេទល្លសូត្រទី៤ វិសាខសួរពីការអនុស័យដេកត្រាំក្នុងវេទនា/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+31	ASUT022YY0031	1r0byKNQ5zi5h-dvoAzZ9mkSe2xJtPcxj	DRAFT	117.7	-18.2	ok	https://media.84000.digital/audio/e671f0bef00037cc-a64.mp3	៣១ ចូឡធម្មសមាទានសូត្រទី៥ ការសមាទានមាន៤យ៉ាង/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+33	ASUT022YY0033	1rWbH0ufdRW0oUuitfdpwZ4ZEHY1uzmSk	DRAFT	115.5	-18.2	ok	https://media.84000.digital/audio/e3edee23ea1b198c-a64.mp3	៣៣ មហាធម្មសមាទានសូត្រទី៦ ឧបមាមហាធម្មសមាទាន/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២២
+35	ASUT022YY0035	1FU66VXocGh2aItOKQuiteOg-KnNJqLCh	DRAFT	112.0	-18.2	ok	https://media.84000.digital/audio/15f4b16377846a55-a64.mp3	៣៥ វីមំសកសូត្រទី ៧ សោតាបត្តិបន្នមានសទ្ធាមិនកម្រើកជាដើម
+36	ASUT022YY0036	1LaDytv9L78DwywB6qYldQAoR7l0Rwq6N	DRAFT	119.4	-18.2	ok	https://media.84000.digital/audio/7d996acf6b74de57-a64.mp3	៣៦ កោសម្ពិយសូត្រទី៧ សារាណីយធម៌ ៦ប្រការ
+37	ASUT022YY0037	1tObUWAyLGP2eOvKV_8obe8dD5C1E-2Uj	DRAFT	117.3	-18.1	ok	https://media.84000.digital/audio/8195f239e08a2e02-a64.mp3	៣៧ កោសម្ពិយសូត្រទី៧ ពន្យល់សាធារណភោគី សីលសាមញ្ញតា ទិដ្ឋិសាមញ្ញតា
+38	ASUT022YY0038	1gndDZ0scUlYpKExJo-K2AMai_LNFlTPz	DRAFT	120.6	-18.2	ok	https://media.84000.digital/audio/6cd90770f47442d6-a64.mp3	៣៨ ព្រហ្មនិមន្តនិកសូត្រទី៩ ទ្រង់យ៉ាងទៅដោះទិដ្ឋីរបស់ព្រហ្ម
+39	ASUT022YY0039	1B2H5IvzZDGQ9HQxlGTjuIs3oOSGatUqY	DRAFT	103.8	-18.2	ok	https://media.84000.digital/audio/669966db25f6b2c5-a64.mp3	៣៩ មារតជ្ជនីយសូត្រទី៩ មារចូលក្នុងពោះព្រះមោគ្គល្លាន
+40	ASUT022YY0040	1f1tmTS1CyscKLsJJw0UYqIJ7SMZ6vkH_	DRAFT	111.0	-18.1	ok	https://media.84000.digital/audio/89fbb4e750294132-a64.mp3	៤០ មារតជ្ជនីយសូត្រទី១០ មារធ្លាក់នរកព្រោះបៀតបៀនអគ្គសាវ័កចប់
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1zdg3gcO-LBCXwoD8_TIuIDkQg8Vf6HJD,1_qwhC_l7vB7L5kz_BmTCdV-MEWYkHaJZ,19pz1L1iUZ8_mJmIVkwyF0T7cs8Pgyy2z,1TCfAT8nLaQRVk3y47FSSFgktR79UgEJN,1PynFjditD4vFlN4B6OWOa3GOkyUYooUQ,1mLebFpp2_QH68Bi2LsDxUPYX9yiOsEYh,1ygsj48ECXvlzFKSzEKqFkgbPTbVckMUQ,1Sbw_5CLvzS23PRN-gUyHNdWrtDUP8R5R,1Trvyab5wI8nQ1BKrrEw2j6rpqGuslxV-,1A1HbpQfNnQld0NlUnn0-kRcaZRKGLeF8,1UtkFWy7WIosJ-_rPp3DmVanEGBALbZQL,1H40wJdDqqcprFvyDrAVTVNK4oZOsFVRk,1SrIYgiKPBEg_992HH4odgfgwJc-fxmFh,1RU9st_ZGQNIQ_pkSiT9qtS0FW0sK0ttm,1lR03RrbPhR_UQc3Cdx8sQwlCf2HKGk6x,1dUffbOPjr_RstMBoC-_lYC9CMnK-BLk7,146i0k-jbu27Dueg46M1C4YgKHNnr0VEG,16ooWA5_uvOrxKI3YcP-RT92nnBiLCNpT,12vJIOWxOceOKZhP1YdQ19DAIh4s5EZ-Z,1Uxvrk3Ob_Z3xZCdWnOQOsS6kzBSkBc13,1FrQ5ChFDQfcBNdTTPBt2rPJPmEiMRy_1,1J-P5hzzHUQzun3kQwGe5Ujyp6fZNWQX5,1L1tCdP8r0V2sxbe6QzWesrvjHm2xyg2R,15PzU9kaAO4MVPDL3jgIZoqtc_jMwDMUh,1nMMycBFBXJbM8oFgHJY6SZ0-0eBR4o-7,1-jjNU4ZII7dppEt7059TOhQopdSp7GxL,1SvUGuPOftQkE-uPfP72rdHTe0JjWdjdt,1r0byKNQ5zi5h-dvoAzZ9mkSe2xJtPcxj,1rWbH0ufdRW0oUuitfdpwZ4ZEHY1uzmSk,1FU66VXocGh2aItOKQuiteOg-KnNJqLCh,1LaDytv9L78DwywB6qYldQAoR7l0Rwq6N,1tObUWAyLGP2eOvKV_8obe8dD5C1E-2Uj,1gndDZ0scUlYpKExJo-K2AMai_LNFlTPz,1B2H5IvzZDGQ9HQxlGTjuIs3oOSGatUqY,1f1tmTS1CyscKLsJJw0UYqIJ7SMZ6vkH_

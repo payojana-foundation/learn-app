@@ -1,0 +1,31 @@
+# c070 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា
+# course: 3-Buddhism in English Level 3 b
+# queued 30 · converted 22 · approved 0 · failed 0 · not started 8
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	AENGSR0000301	1d2zNCdycaO1A-cqK5nXPIWP-w_Op83dx	DRAFT	49.3	-18.1	ok	https://media.84000.digital/audio/a08e0ef9a0f0a43f-a64.mp3	1-30Jul2025.mp3
+2	AENGSR0000302	1JIh_8RNFfw71J1AsnaVwiIIHEwvwgFcZ	DRAFT	80.7	-18.2	ok	https://media.84000.digital/audio/8ac63f42469c1dce-a64.mp3	2-31Jul2025.mp3
+3	AENGSR0000303	1tqehLnqzPh7UsgdQndTAh6FFhlu84ZNy	DRAFT	89.1	-18.2	ok	https://media.84000.digital/audio/3ce424a5c8e414a9-a64.mp3	3-06Aug2025.mp3
+4	AENGSR0000304	1fEoE1463fTfWp5r1c8vLa1H_dXa4vRRX	DRAFT	99.5	-18.2	ok	https://media.84000.digital/audio/77ca985e28e0f7f4-a64.mp3	4-07Aug2025.mp3
+5	AENGSR0000305	196UrzwDz1giEv9nosNFvoWSyTu1O3apM	DRAFT	50.2	-18.5	ok	https://media.84000.digital/audio/c71a1435826ed66e-a64.mp3	5-13Aug2025 (part1).mp3
+6	AENGSR0000306	1gqWJqtNcqliKwAjJqstRLrKBR3u-wrxk	DRAFT	50.9	-18.2	ok	https://media.84000.digital/audio/42e5edbcfd90be39-a64.mp3	5-13Aug2025 (part2).mp3
+7	AENGSR0000307	1_RjlrKq9Zg93mA-fdV0UHktdpXq9dmR4	DRAFT	98.7	-18.1	ok	https://media.84000.digital/audio/cf7410cfe548b3f9-a64.mp3	6-14Aug2025.mp3
+8	AENGSR0000308	1WcumIJVUhiiA-Yb4MzZTg5rDmjBgpwd9	DRAFT	79.8	-18.9	cap	https://media.84000.digital/audio/37b28e527b90c179-a64.mp3	7-20Aug2025.mp3
+9	AENGSR0000309	1ZJJYRucWc3MkQwDBXk8R0YdG3-5h43DK	DRAFT	54.3	-18.2	ok	https://media.84000.digital/audio/137f54484dc926bb-a64.mp3	8-27Aug2025 (part1).mp3
+10	AENGSR0000310	1LScgUKe3sDAVJmk9VrmXZ_p_pq0YDPBR	DRAFT	55.8	-18.2	ok	https://media.84000.digital/audio/0803a80b500883a7-a64.mp3	8-27Aug2025 (part2).mp3
+11	AENGSR0000311	1sYaQfOOslldMXXOHpSQbcmyaohGtwkWP	DRAFT	65.8	-18.2	ok	https://media.84000.digital/audio/4730e292c7e031e7-a64.mp3	9-28Aug2025 (part1).mp3
+12	AENGSR0000312	1NqUAiCT-Rd66LtmfD9fqFm_dbV47lH3W	DRAFT	53.9	-18.2	ok	https://media.84000.digital/audio/e4ed5a85b5fc5247-a64.mp3	9-28Aug2025 (part2).mp3
+19	AENGSR0000319	10i7Oxvd4was9TvWyc2HiQKrF01z39oX-	DRAFT	89.9	-18.2	ok	https://media.84000.digital/audio/63e6e6fcf8bfec2b-a64.mp3	14-01Oct2025.mp3
+20	AENGSR0000320	16YqYSmWNwiZfa5iOimzzmSXxUxvPi3Xk	DRAFT	61.0	-18.2	ok	https://media.84000.digital/audio/5457ff14f1af9add-a64.mp3	15-08Oct2025_1.mp3
+21	AENGSR0000321	1QKFo_8qvM3Q1F_VdePru4vhbrPDorOO8	DRAFT	55.3	-18.2	ok	https://media.84000.digital/audio/3def47012d4f9149-a64.mp3	15-08Oct2025_2.mp3
+23	AENGSR0000323	1hiBVBC5L-6VJCEWHqFKDyimIERGL-vOv	DRAFT	95.3	-18.2	ok	https://media.84000.digital/audio/b17f7847f26be6a2-a64.mp3	17-16Oct2025-2026-10-10 08 38 27(copy).mp3
+24	AENGSR0000324	1TbieikQPclbtym5qNiidvgRyHaHyuxF0	DRAFT	47.5	-18.2	ok	https://media.84000.digital/audio/900feb15125d47ce-a64.mp3	18-22Oct2025.mp3
+26	AENGSR0000326	1IcbEAKE7Zt_yqEOWJY0vFxFZjYj1wrkd	DRAFT	72.8	-18.2	ok	https://media.84000.digital/audio/2f871f4d324d8245-a64.mp3	20-30Oct2025.mp3
+27	AENGSR0000327	10G22XmqmSNWk_avhX3lxC4I8cqoHQ6l_	DRAFT	71.7	-18.2	ok	https://media.84000.digital/audio/921dc49697eca029-a64.mp3	21-06Nov2025.mp3
+28	AENGSR0000328	1VTO3cM6DyUatjzqWnFvyWpM4-w9HXKd-	DRAFT	79.7	-18.2	ok	https://media.84000.digital/audio/1b3440d2e8ddad4d-a64.mp3	22-12Nov2025.mp3
+29	AENGSR0000329	1alRrszsfjmNNCZLuijN8rE6OpIt2ihMO	DRAFT	91.9	-19	cap	https://media.84000.digital/audio/382953deef97e011-a64.mp3	23-13Nov2025_1+2.mp3
+30	AENGSR0000330	1wV-LIkqNVQjrc_lW-s5jp27aqrkuEPZS	DRAFT	89.7	-18.2	ok	https://media.84000.digital/audio/590b17d64358147f-a64.mp3	24-19Nov2025.mp3
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1d2zNCdycaO1A-cqK5nXPIWP-w_Op83dx,1JIh_8RNFfw71J1AsnaVwiIIHEwvwgFcZ,1tqehLnqzPh7UsgdQndTAh6FFhlu84ZNy,1fEoE1463fTfWp5r1c8vLa1H_dXa4vRRX,196UrzwDz1giEv9nosNFvoWSyTu1O3apM,1gqWJqtNcqliKwAjJqstRLrKBR3u-wrxk,1_RjlrKq9Zg93mA-fdV0UHktdpXq9dmR4,1WcumIJVUhiiA-Yb4MzZTg5rDmjBgpwd9,1ZJJYRucWc3MkQwDBXk8R0YdG3-5h43DK,1LScgUKe3sDAVJmk9VrmXZ_p_pq0YDPBR,1sYaQfOOslldMXXOHpSQbcmyaohGtwkWP,1NqUAiCT-Rd66LtmfD9fqFm_dbV47lH3W,10i7Oxvd4was9TvWyc2HiQKrF01z39oX-,16YqYSmWNwiZfa5iOimzzmSXxUxvPi3Xk,1QKFo_8qvM3Q1F_VdePru4vhbrPDorOO8,1hiBVBC5L-6VJCEWHqFKDyimIERGL-vOv,1TbieikQPclbtym5qNiidvgRyHaHyuxF0,1IcbEAKE7Zt_yqEOWJY0vFxFZjYj1wrkd,10G22XmqmSNWk_avhX3lxC4I8cqoHQ6l_,1VTO3cM6DyUatjzqWnFvyWpM4-w9HXKd-,1alRrszsfjmNNCZLuijN8rE6OpIt2ihMO,1wV-LIkqNVQjrc_lW-s5jp27aqrkuEPZS

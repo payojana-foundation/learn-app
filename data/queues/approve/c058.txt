@@ -1,0 +1,39 @@
+# c058 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ មុនីចរិយាវង្ស ហ៊ុន ខេមរា
+# course: 2-ញាណទស្សនៈ (២០២៦)
+# queued 37 · converted 30 · approved 0 · failed 0 · not started 7
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+2	AMEDHK0010002	1CopRZqFoZoLnxqZhN24lJZoY7B20_fdu	DRAFT	77.4	-18.2	ok	https://media.84000.digital/audio/965e583bb48cd35e-a64.mp3	2-Ñāṇa-12Apr2026.mp4
+4	AMEDHK0010004	1EfJuc1OOK-TBwfi8yc-Dljk74wrHujJq	DRAFT	91.4	-18.6	cap	https://media.84000.digital/audio/7992b7c2631dad8b-a64.mp3	4-Ñāṇa-26Apr2026.mp4
+5	AMEDHK0010005	18h-SZcqthKJmYXQdVfPRLhcQeLg_yu4z	DRAFT	89.1	-18.2	ok	https://media.84000.digital/audio/f436f37907dcde32-a64.mp3	5-Ñāṇa-03May2026.mp4
+6	AMEDHK0010006	1mGSgsoRrl_p48mSDVk78YE92an1-Zm83	DRAFT	76.1	-18.6	cap	https://media.84000.digital/audio/d0d0119c5223211d-a64.mp3	6-Ñāṇa-13May2026.mp4
+7	AMEDHK0010007	193exE7yzGjImWf5vlUasWSJi1-UTVdcZ	DRAFT	87.3	-18.5	ok	https://media.84000.digital/audio/933235d272fc2c96-a64.mp3	7-Ñāṇa-16May2026.mp4
+8	AMEDHK0010008	1KpPEGGy0hyU5KW9G-CaxbE0Szf8mC2Ps	DRAFT	100.5	-19	cap	https://media.84000.digital/audio/28ad9f0101cd5884-a64.mp3	8-Ñāṇa-21May2026.mp4
+11	AMEDHK0010011	1E6F1Rq5B9V1bCNKO9-mSurxDLnqG6y5g	DRAFT	72.5	-18.2	ok	https://media.84000.digital/audio/75c2cae938b48523-a64.mp3	11-Ñāṇa-31May2026.mp4
+14	AMEDHK0010014	1x-6TfxK27J8EmY3d5qDGXnLzhL9svD-F	DRAFT	80.8	-18.7	cap	https://media.84000.digital/audio/9541890ea3c65c4d-a64.mp3	14-Ñāṇa-14Jun2026.mp4
+15	AMEDHK0010015	1xA_O5Q8ZYyILGAlUBhPng6KR4QOTMosr	DRAFT	80.0	-18.8	cap	https://media.84000.digital/audio/e8a13295570ce226-a64.mp3	15-Ñāṇa-17Jun2026.mp4
+17	AMEDHK0010017	1VJygFcaj2cLvM76uAWnB4O4m1eJLHtS_	DRAFT	79.8	-18.1	ok	https://media.84000.digital/audio/c29af0e5110e1972-a64.mp3	17-Ñāṇa-24Jun2026.mp4
+18	AMEDHK0010018	1-KrTvyYuf3MrYjY1YFZxMYeNUi2tfvmQ	DRAFT	90.8	-18.2	ok	https://media.84000.digital/audio/1938a026f1e1e52e-a64.mp3	18-Ñāṇa-27Jun2026-វិធីចម្រើនអានាបានស្សតិ(ឥរិយាបថ និង ការកំណត់ខ្យល់)
+19	AMEDHK0010019	15PkvtNc-FHonPUl7xYec7ESb_SGwT1uC	DRAFT	77.0	-18.2	ok	https://media.84000.digital/audio/ea88b8025e8773ad-a64.mp3	19-Ñāṇa-1Jul2026-វិធីចម្រើនអានាបានស្សតិ(ការកំណត់ខ្យល់ដង្ហើម)
+20	AMEDHK0010020	1XF8zMFDOoNEm5LPIn-xLHxe-q7hIl7UH	DRAFT	101.7	-18.2	ok	https://media.84000.digital/audio/9f940bad9fc2770f-a64.mp3	20-Ñāṇa-5Jul2026-អំពីនិមិត្ត(ពន្លឺ)
+21	AMEDHK0010021	1dyUm4OfLvFdOP_SdtZ9EVweF7RgIIKPC	DRAFT	67.0	-18.1	ok	https://media.84000.digital/audio/3f63a9464f751f0a-a64.mp3	21-Ñāṇa-8Jul2026-ប្រភេទនិមិត្ត.mp4
+22	AMEDHK0010022	1VY55xrlzmkOT7KAfd7mIB7iJjW2jrLmI	DRAFT	57.3	-18.2	ok	https://media.84000.digital/audio/e36336d51f35a7d3-a64.mp3	22-Ñāṇa-12Jul2026-វិធីធ្វើឥន្រ្ទិយទាំង៥ឲ្យស្មើគ្នា.mp4
+23	AMEDHK0010023	1vP4lHLU0O99YgyXn10BFURTMstCd3dj-	DRAFT	66.3	-18.2	ok	https://media.84000.digital/audio/288cf751834d82f6-a64.mp3	23-Ñāṇa-18Jul2026-សេចក្ដីណែនាំបន្ថែមក្នុងការបដិបត្តិអានាបានស្សតិ.mp4
+24	AMEDHK0010024	1QP07hRgZbMnRuDH9PQ2qHDALm3sRCRfP	DRAFT	50.5	-18.1	ok	https://media.84000.digital/audio/201d23db3ae6a14f-a64.mp3	24-Ñāṇa-23Jul2026-សេចក្ដីណែនាំបន្ថែមក្នុងការបដិបត្តិអានាបានស្សតិ.mp4
+25	AMEDHK0010025	1R0dWvB2fO73ba-qbZRSJv5IVl0l-I7Bm	DRAFT	61.8	-18.2	ok	https://media.84000.digital/audio/a79f102e43f39ce8-a64.mp3	25-Ñāṇa-25Jul2026-វិធីធ្វើសត្តពោជ្ឈង្គឲ្យស្មើ
+26	AMEDHK0010026	1f6oXRgu8UO2lii1tAFXmrEUhDom7nFZm	DRAFT	57.3	-18.1	ok	https://media.84000.digital/audio/a529b513f22eec8b-a64.mp3	26-Ñāṇa-អង្គឈាន៥និងវសីភាវៈ៥
+27	AMEDHK0010027	1YgJWtjiHwj5rhmY-XkJa4cfmFWvX50n5	DRAFT	58.4	-18.2	ok	https://media.84000.digital/audio/32e14537b5a40af2-a64.mp3	27-Ñāṇa-12Aug2026-វិធីចូលឈាន និងចេញចាកឈាន
+28	AMEDHK0010028	1GAkhY9-0pwWkD10YSjtv2v3ygER06PaI	DRAFT	59.9	-18.5	ok	https://media.84000.digital/audio/942bd80d99538642-a64.mp3	28-Ñāṇa-15Aug2026-រម្លឹកឡើងវិញអំពីការចូលឈាន និងវិថីចិត្តរបស់ឈាន.mp4
+29	AMEDHK0010029	1xo2o36dG4l7efkhgMRXrvWTZzqUU3t-F	DRAFT	71.9	-18.1	ok	https://media.84000.digital/audio/5706ea7ffc02d059-a64.mp3	29-Ñāṇa-22Aug_2026.mp4
+30	AMEDHK0010030	1hL_wEt2GA2l0stqkKKnqahTyQTSDtbUk	DRAFT	79.3	-18.2	ok	https://media.84000.digital/audio/e92290788fcac974-a64.mp3	30-Ñāṇa-26Aug2026.mp3
+31	AMEDHK0010031	15HuxRpCKniIAQmtoIfRFMoBa2ETYAQ6_	DRAFT	75.6	-18.2	ok	https://media.84000.digital/audio/28ac8cdb320b502f-a64.mp3	31_Ñāṇa_02Sep2026_វិធីចម្រើនអដ្ឋិកកម្មដ្ឋាន.mp3
+32	AMEDHK0010032	1o5PeXWaj3gLJsRdZTDySDVMMWN2BP782	DRAFT	51.8	-18.2	ok	https://media.84000.digital/audio/0c5b43241e7f92f1-a64.mp3	32_Ñāṇa_06Sep2026_វិធីចម្រើនក្រុមវណ្ណៈកសិណ.mp3
+33	AMEDHK0010033	1m6yKFqKS90ABbGGcFReOMe9lSmDHLV1D	DRAFT	62.1	-18.2	ok	https://media.84000.digital/audio/2c87f4655b1d2bd2-a64.mp3	33_Ñāṇa_09Sep2026_វិធីចម្រើនឱទាតកសិណ.mp3
+34	AMEDHK0010034	12aaQPBqKxGc-l57TyfsY3HUfZD2WDywS	DRAFT	64.7	-18.2	ok	https://media.84000.digital/audio/7495c463ee726166-a64.mp3	34_Ñāṇa_12Sep2026_វិធីចម្រើនបឋវីកសិណ.mp3
+35	AMEDHK0010035	1K4quFQVFu82XcQIzmJJQVU0AcpTdfh-r	DRAFT	66.0	-18.2	ok	https://media.84000.digital/audio/2b3871d5bfb9db46-a64.mp3	35_Ñāṇa_23Sep2026_វិធីចម្រើនកសិណដែលជាបាតនៃអរូបជ្ឈាន.mp3
+36	AMEDHK0010036	1vZuTI884hUcRHdXbZNoZDavVnQyt1DcG	DRAFT	78.1	-18.2	ok	https://media.84000.digital/audio/d8b1088d0d20ed07-a64.mp3	36_Ñāṇa_26Sep2026_វិធីចម្រើនអរូបជ្ឈាន៤.mp3
+37	AMEDHK0010037	1h5sAR9zNG6PVrhiz-rFJ5MXEclifn0lW	DRAFT	62.8	-18.1	ok	https://media.84000.digital/audio/da313a3465ffbedd-a64.mp3	37_Ñāṇa_30Sep2026_វិធីចម្រើនអរូបជ្ឈាន៤_ចប់.mp3
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1CopRZqFoZoLnxqZhN24lJZoY7B20_fdu,1EfJuc1OOK-TBwfi8yc-Dljk74wrHujJq,18h-SZcqthKJmYXQdVfPRLhcQeLg_yu4z,1mGSgsoRrl_p48mSDVk78YE92an1-Zm83,193exE7yzGjImWf5vlUasWSJi1-UTVdcZ,1KpPEGGy0hyU5KW9G-CaxbE0Szf8mC2Ps,1E6F1Rq5B9V1bCNKO9-mSurxDLnqG6y5g,1x-6TfxK27J8EmY3d5qDGXnLzhL9svD-F,1xA_O5Q8ZYyILGAlUBhPng6KR4QOTMosr,1VJygFcaj2cLvM76uAWnB4O4m1eJLHtS_,1-KrTvyYuf3MrYjY1YFZxMYeNUi2tfvmQ,15PkvtNc-FHonPUl7xYec7ESb_SGwT1uC,1XF8zMFDOoNEm5LPIn-xLHxe-q7hIl7UH,1dyUm4OfLvFdOP_SdtZ9EVweF7RgIIKPC,1VY55xrlzmkOT7KAfd7mIB7iJjW2jrLmI,1vP4lHLU0O99YgyXn10BFURTMstCd3dj-,1QP07hRgZbMnRuDH9PQ2qHDALm3sRCRfP,1R0dWvB2fO73ba-qbZRSJv5IVl0l-I7Bm,1f6oXRgu8UO2lii1tAFXmrEUhDom7nFZm,1YgJWtjiHwj5rhmY-XkJa4cfmFWvX50n5,1GAkhY9-0pwWkD10YSjtv2v3ygER06PaI,1xo2o36dG4l7efkhgMRXrvWTZzqUU3t-F,1hL_wEt2GA2l0stqkKKnqahTyQTSDtbUk,15HuxRpCKniIAQmtoIfRFMoBa2ETYAQ6_,1o5PeXWaj3gLJsRdZTDySDVMMWN2BP782,1m6yKFqKS90ABbGGcFReOMe9lSmDHLV1D,12aaQPBqKxGc-l57TyfsY3HUfZD2WDywS,1K4quFQVFu82XcQIzmJJQVU0AcpTdfh-r,1vZuTI884hUcRHdXbZNoZDavVnQyt1DcG,1h5sAR9zNG6PVrhiz-rFJ5MXEclifn0lW

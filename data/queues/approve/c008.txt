@@ -1,0 +1,63 @@
+# c008 approve list, run review 2026-11-11
+# teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
+# course: 3-បរិច្ឆេទ ទី៣ កាត់ស្អាត(២០២៥)
+# queued 55 · converted 54 · approved 0 · failed 0 · not started 1
+# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
+1	AABH000YY2025.3001	1_Bd61UVWgR-x-m9UV3bnPkQrnT85AaBI	DRAFT	53.0	-18.2	ok	https://media.84000.digital/audio/54d63a3ea3395290-a64.mp3	០១ រម្លឹកបរមត្ថធម៌៤.mp4
+2	AABH000YY2025.3002	1wHcb_CO5d_brdT7g2CSbOPggTLe9jtLB	DRAFT	95.7	-18.7	cap	https://media.84000.digital/audio/4e1d288c0d4d85e5-a64.mp3	០២ និយមន័យវេទនា.mp4
+3	AABH000YY2025.3003	1YuX-54iAqduPcwBfpsrldkf2sH_BfvJC	DRAFT	84.8	-18.4	ok	https://media.84000.digital/audio/346263da2d7fb18f-a64.mp3	០៣ ចែកវេទនាជា ៣ ប្រភេទ.mp4
+4	AABH000YY2025.3004	1KrFHfVEJ-2s8KW_HB7HnL30tM8qX3YqA	DRAFT	75.9	-18.2	ok	https://media.84000.digital/audio/6d123b06e67e72a1-a64.mp3	០៤ វេទនា ២ និងវេទនា៣.mp4
+5	AABH000YY2025.3005	1jb20wCCXf1WNLOAftveRmYBWEB2p-e1V	DRAFT	68.0	-18.2	ok	https://media.84000.digital/audio/179ff96dbf19ed02-a64.mp3	០៥ ពន្យល់វេទនា៣តាមបិដកនិងដីកា.mp4
+6	AABH000YY2025.3006	1Ev7v42mtoOX7W397qUdpNU4Cyf-Y28gF	DRAFT	78.9	-18.2	ok	https://media.84000.digital/audio/eca8b859d7a2ab5f-a64.mp3	០៦ វេទនាសង្គហៈ ចែកវេទនា៣.mp4
+7	AABH000YY2025.3007	102LjGS4R83Mnu_IQrR-wB-KRwSV_Hn4R	DRAFT	80.9	-18.1	ok	https://media.84000.digital/audio/eb62fc018cf12a25-a64.mp3	០៧ វេទនាសង្គហៈ ចែកវេទនា៦ យ៉ាងបន្ត.mp4
+8	AABH000YY2025.3008	1vm7lXCzWR8Fsj-gAYYgiK70epwuHLD7z	DRAFT	90.5	-18.2	ok	https://media.84000.digital/audio/2d39e36235e5d71e-a64.mp3	០៨ វេទនាសង្គហៈ ចែកវេទនា១៨ និង១២យ៉ាង.mp4
+9	AABH000YY2025.3009	1g3pyvmggW1aLhDXfVBxBlHO2ajEG0rn5	DRAFT	88.2	-18.1	ok	https://media.84000.digital/audio/c76009852d05e72c-a64.mp3	០៩ វេទនាសង្គហៈ ចែក៩ តាមព្រះសូត្រ.mp4
+10	AABH000YY2025.3010	11wlyWnSZ0xqg3V3ZwTJPmUedI49EbkGL	DRAFT	83.9	-18.2	ok	https://media.84000.digital/audio/4fbb6ba3f2f3afc6-a64.mp3	១០ វេទនាសង្គហៈ ចែកវេទនាដោយអារម្មណានុភវលក្ខណន័យ.mp4
+11	AABH000YY2025.3011	1XOA-vCwYVzy0Xxu9scwY3Inau5YFxyU1	DRAFT	89.5	-18.2	ok	https://media.84000.digital/audio/602e96c6df61b0fb-a64.mp3	១១ វេទនាសង្គហៈ ចែកវេទនាដោយឥន្រ្ទិយនិងអារម្មណ៍៣.mp4
+12	AABH000YY2025.3012	1gO_D09ygBdOMNjIps1DFsfy89ktzqWyp	DRAFT	69.9	-18.2	ok	https://media.84000.digital/audio/c11f5ae92bece4e9-a64.mp3	១២ វេទនាសង្គហៈ ចែកវេទនាដោយឥន្រ្ទិយមាន៥.mp4
+13	AABH000YY2025.3013	1Kf2uk-TvDFwDRquFngCZ0LOFQEfuEPEb	DRAFT	82.3	-18.2	ok	https://media.84000.digital/audio/6fb4d096a805d9f4-a64.mp3	១៣ វេទនាសង្គហៈ ចែកវេទនាដោយឥន្រ្ទិយ៥​ ជាបន្ត.mp4
+14	AABH000YY2025.3014	1yzzTAeFeTkLJ0rpMHULWOuNUfD6m1Ewj	DRAFT	75.4	-18.2	ok	https://media.84000.digital/audio/bd99138196dd3edc-a64.mp3	១៤ ចែកវេទនាកើតរួមនឹងចេតសិក.mp4
+15	AABH000YY2025.3015	1Ps2QKRgf5V1aJD7q4oGuMFLnMht646nQ	DRAFT	84.2	-18.2	ok	https://media.84000.digital/audio/1ed96e454c4186a7-a64.mp3	១៥ ហេតុសង្គហៈ ផលធម៌កើតពីហេតុដូចម្តេច​.mp4
+16	AABH000YY2025.3016	1toNsTfSe5SjWbD8M-icNTdr7BW7k0-Xr	DRAFT	88.8	-18.2	ok	https://media.84000.digital/audio/52907da32272e587-a64.mp3	១៦ ហេតុសង្គហៈ ហេតុមាន ៤ យ៉ាង​.mp4
+17	AABH000YY2025.3017	1akaPd_rIPfj1x7ur_k0KDGgdLX3YsJat	DRAFT	90.2	-18.2	ok	https://media.84000.digital/audio/daf3c2ddb1a7028a-a64.mp3	១៧ ហេតុសង្គហៈ ចែកសហេតុកចិត្តជា ៣.mp4
+18	AABH000YY2025.3018	1af19Pz8IivskczRH_b0eABHxvx1pd4TE	DRAFT	87.0	-18.2	ok	https://media.84000.digital/audio/774faddaf9f3c078-a64.mp3	១៨ ហេតុសង្គហៈ ចែកហេតុ៦ដោយន័យផ្សេងៗ​.mp4
+19	AABH000YY2025.3019	1IYUWW2aUBtgjFD9CLfCIovz1BlAx_LAB	DRAFT	76.3	-18.2	ok	https://media.84000.digital/audio/edddcfd49d3e3a0d-a64.mp3	១៩ ហេតុសង្គហៈ ចែកហេតុ៦ ជាគហិតគហនន័យ.mp4
+20	AABH000YY2025.3020	1NELj22NEh5CNd6I3kmloX_MKXtxH6Sve	DRAFT	82.2	-18.2	ok	https://media.84000.digital/audio/b880e76d8a6e7507-a64.mp3	២០ ហេតុសង្គហៈ ចែកហេតុ៦ ជាគហិតគហនន័យ​ភាគបញ្ចប់.mp4
+21	AABH000YY2025.3021	1kQwTy-sBI15RI65up8gSjTqSg88BE6Qu	DRAFT	54.3	-18.2	ok	https://media.84000.digital/audio/33add35ae1c141b9-a64.mp3	២១ កិច្ចសង្គហ និយមន័យកិច្ច១៤ យ៉ាង.mp4
+22	AABH000YY2025.3022	1hVEBb9uknB4CnFhIrw-zxgLrCnQsBCI5	DRAFT	85.9	-18.2	ok	https://media.84000.digital/audio/c1acd81d90ae854c-a64.mp3	២២ កិច្ចសង្គហ ពន្យល់ឃាយតនកិច្ចដល់ជវនកិច្ច.mp4
+23	AABH000YY2025.3023	1LmOTwbORA8K3Vrbvad0B9P5xHMvXZBdG	DRAFT	87.6	-18.2	ok	https://media.84000.digital/audio/67f61c86b1cc3319-a64.mp3	២៣ កិច្ចសង្គហ ពន្យល់ចិត្ត និងចេតសិកធ្វើកិច្ចតាមទ្វារ៣.mp4
+24	AABH000YY2025.3024	1c6vzcR10chfbEJPhcaCkHf1x0AR8tccR	DRAFT	90.0	-18.5	ok	https://media.84000.digital/audio/419444bd4d186178-a64.mp3	២៤ កិច្ចសង្គហ បដិសន្ធិកិច្ចដល់ជវនកិច្ច.mp4
+25	AABH000YY2025.3025	1YewhkIIbPUCfxmqqIHg35Q-tfyXPkSV6	DRAFT	87.6	-18.2	ok	https://media.84000.digital/audio/3b4ee77ce4ff29f7-a64.mp3	២៥ កិច្ចសង្គហ ជវនកិច្ច និងតទាលម្ពណកិច្ច.mp4
+26	AABH000YY2025.3026	1c1ClOjIBd2OURq2IyqJrIs3KlbDOsYif	DRAFT	58.4	-18.2	ok	https://media.84000.digital/audio/4e7823d067e53ff4-a64.mp3	២៦ កិច្ចសង្គហ ចេតសិកធ្វើកិច្ច១៤.mp4
+27	AABH000YY2025.3027	1nWQfaBR7LPZcP1uS33om6yP1dwXCszK2	DRAFT	56.4	-18.2	ok	https://media.84000.digital/audio/f6eed95107f78888-a64.mp3	២៧ កិច្ចសង្គហ ឋានរបស់ចិត្តបដិសន្ធិស្ថាន/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+28	AABH000YY2025.3028	1k3ilfLejh4bAa1rqWMxQ95054dm_gLjD	DRAFT	86.4	-18.2	ok	https://media.84000.digital/audio/4150f3986a38462d-a64.mp3	២៨ ឋាន១០ ភវង្គស្ថានដល់សន្តីរណស្ថាន/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+29	AABH000YY2025.3029	1AyDfFgaPLZ9XfXKVguXgAToAdV_zv7yA	DRAFT	62.4	-18.2	ok	https://media.84000.digital/audio/74ac750dac61c102-a64.mp3	២៩ ឋាន១០ ជវនស្ថាន ដល់ចុតិស្ថានបញ្ចប់/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+30	AABH000YY2025.3030	1EG9urnBwAQ101SADSnSgP9UWkUlUtl54	DRAFT	81.2	-18.2	ok	https://media.84000.digital/audio/5cb6232f2b48ad94-a64.mp3	២៩ ទ្វារសង្គហ អង្គធម៌ទ្វារ៦ ចិត្តក្នុងទ្វារនិងក្រៅទ្វារ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+31	AABH000YY2025.3031	1hmJIbH4KkHzlndJUI9Qh4og4qj080qmX	DRAFT	80.0	-18.3	ok	https://media.84000.digital/audio/fd62dafb7a942fad-a64.mp3	៣១ ទ្វារសង្គហ ចែកចិត្តកើតតាមទ្វារទាំង៦/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+32	AABH000YY2025.3032	1oZmUfXcRm1Jrh5GbG_6ZbT17QM4UGVkM	DRAFT	68.4	-18.5	ok	https://media.84000.digital/audio/dab909700e7e7b38-a64.mp3	៣២ ទ្វារសង្គហ ចែកចេតសិកកើតតាមទ្វារ៦/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+33	AABH000YY2025.3033	1wC3QiMSPhAuUCJqcvxjyftwdSXhjSNZ_	DRAFT	64.9	-18.1	ok	https://media.84000.digital/audio/d6c08042f1e46712-a64.mp3	៣៣ ទ្វារសង្គហ ចែកចេតសិកកើតតាមទ្វារ៦បញ្ចប់/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+34	AABH000YY2025.3034	1IuWYJYVagxtqHJ1sumLSa8NWv-R_VjMb	DRAFT	86.0	-18	ok	https://media.84000.digital/audio/b039e7456a279b22-a64.mp3	៣៤ អារម្មណសង្គហ ចែកអង្គធម៌របស់អារម្មណ៍៦/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+35	AABH000YY2025.3035	1aOfH7SC9UvChpE5M3eVpq-Bw5ZwfT_nt	DRAFT	85.0	-18.1	ok	https://media.84000.digital/audio/223d903069bd88d4-a64.mp3	៣៥ អារម្មណសង្គហ សាមញ្ញអារម្មណ៍ អធិបតីអារម្មណ៍/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+36	AABH000YY2025.3036	1MAnL23qhoye4AQWfp9hAeIIZmOeXqFX5	DRAFT	84.3	-18.2	ok	https://media.84000.digital/audio/03addaf1d40b2e67-a64.mp3	៣៦ អារម្មណសង្គហ ចែកទ្វារិកចិត្តនឹងអារម្មណ៍៦/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+37	AABH000YY2025.3037	1hXEZhxg8_IPGY8QHLlCEUC8cbVUHMx20	DRAFT	50.1	-18.2	ok	https://media.84000.digital/audio/b5487e9cd5a53ca4-a64.mp3	៣៧ អារម្មណសង្គហ ពន្យល់កម្មារម្មណ៍របស់ទ្វារវិមុត្តិ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+38	AABH000YY2025.3038	1cUVLVkYeEISQYlQwGZPz_Rn0_hfrRcUk	DRAFT	94.8	-18.2	ok	https://media.84000.digital/audio/7be8c6e7319e7efe-a64.mp3	៣៨ អារម្មណសង្គហ កម្មារម្មណ៍ កម្មនិមិត្តារម្មណ៍ គតិនិមិត្ត/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+39	AABH000YY2025.3039	1dI97ZEEBqzkZZsRi3iTUtlTofohinoOz	DRAFT	84.9	-18.6	cap	https://media.84000.digital/audio/caa5f57002347e4d-a64.mp3	៣៩ អារម្មណសង្គហ សង្ខេបអារម្មណ៍ជា៤ប្រភេទ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+40	AABH000YY2025.3040	16fjewgjA-4DT_gtKt9Ra6e5g2Rb9Dn3Y	DRAFT	89.7	-18.2	ok	https://media.84000.digital/audio/64271dd2b3cba6e1-a64.mp3	៤០ អារម្មណសង្គហ ចិត្តដឹងមហគ្គតារម្មណ៍ប្រាកដ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី៣
+41	AABH000YY2025.3041	1DBZiaXsU7ScuDHPGvbOE5n9x5ZnzvTUa	DRAFT	90.1	-18.2	ok	https://media.84000.digital/audio/607123acc19783ab-a64.mp3	៤១ អារម្មណសង្គហ ចិត្តដឹងនូវកាមារម្មណ៍
+42	AABH000YY2025.3042	1PP0_aA8iUhFYYUL0LPpt3YzJG8I75tkL	DRAFT	90.6	-18.2	ok	https://media.84000.digital/audio/7eb860cc9a683a8f-a64.mp3	៤២ អារម្មណសង្គហ មហគ្គតារម្មណ៍ និព្វានារម្មណ៍
+43	AABH000YY2025.3043	1mFm98N5ylDbJBugu9qPOEgKpXr805vVd	DRAFT	76.5	-18.5	ok	https://media.84000.digital/audio/388459023a4d2d71-a64.mp3	៤៣ អារម្មណសង្គហ នាមារម្មណ៍ អតីតារម្មណ៍
+44	AABH000YY2025.3044	1lMfUCHzbdioaXDhW2aR-Ml_MG0RbsRLp	DRAFT	82.8	-19	cap	https://media.84000.digital/audio/7229130a2c1e8d07-a64.mp3	៤៤ អារម្មណសង្គហ បច្ចុប្បន្ន អនាគត កាលវិមុត្តារម្មណ៍/ ភិក្ខុអគ្គចិត្តោ យ៉ុន បរិច្ឆេទទី៣
+45	AABH000YY2025.3045	1ProiqqePvH7L_KQq61weNyFGeMLsEz66	DRAFT	73.7	-18.1	ok	https://media.84000.digital/audio/e7e4199075be3bb2-a64.mp3	៤៥ អារម្មណសង្គហ បញ្ញត្យារម្មណ៍ បរមត្ថារម្មណ៍/ ភិក្ខុអគ្គចិត្តោ យ៉ុន បរិច្ឆេទទី៣
+46	AABH000YY2025.3046	1A2ou7X62msqZAa4dgSYhxUSRjyYYMpwH	DRAFT	89.7	-18.1	ok	https://media.84000.digital/audio/c4ebbbd7a6460a22-a64.mp3	៤៦ អារម្មណសង្គហ អជ្ឈត្ត ពហិទ្ធ អជ្ឈត្តពិហទ្ធ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន បរិច្ឆេទទី៣
+47	AABH000YY2025.3047	1kP68-jMox0HsYOxeBzhKPErHrlebrwiS	DRAFT	87.0	-18.2	ok	https://media.84000.digital/audio/2416cbbbe60538f1-a64.mp3	៤៧ អារម្មណសង្គហ រូប សទ្ទារម្មណ៍ គន្ធារម្មណ៍/ ភិក្ខុអគ្គចិត្តោ យ៉ុន បរិច្ឆេទទី៣
+48	AABH000YY2025.3048	1UNi9obrmAIe98r1RRBwqieaPyaJ7cH4o	DRAFT	88.7	-18.1	ok	https://media.84000.digital/audio/34eb1f1e559505a6-a64.mp3	៤៨ អារម្មណសង្គហ រសារម្មណ៍ ផោដ្ឋព្វ ធម្មារម្មណ៍/ ភិក្ខុអគ្គចិត្តោ យ៉ុន បរិច្ឆេទទី៣
+49	AABH000YY2025.3049	1RMSx6lBTlAzQ_DmWcNjybVzsiLosQvg-	DRAFT	79.4	-18.1	ok	https://media.84000.digital/audio/7709e6edff4faa16-a64.mp3	៤៩ អារម្មណសង្គហ ចិត្តទទួលអារម្មណ៍តិចនិងច្រើន/ ភិក្ខុអគ្គចិត្តោ យ៉ុន បរិច្ឆេទទី៣
+50	AABH000YY2025.3050	11Jmy3axEO8E2IqeoSqfg-l_GEGVda82k	DRAFT	74.2	-18.1	ok	https://media.84000.digital/audio/51b68bd3916ffd06-a64.mp3	៥០ អារម្មណសង្គហ ចេតសិក៥២ដឹងអារម្មណ៍២១/ ភិក្ខុអគ្គចិត្តោ យ៉ុន បរិច្ឆេទទី៣
+51	AABH000YY2025.3051	1ywuPWWHi1w04flFAs3CETjXs8D9Z7GbQ	DRAFT	82.3	-18.1	ok	https://media.84000.digital/audio/97b6b2c293c0bf2f-a64.mp3	៥១ អារម្មណសង្គហ ចេតសិក៥២ដឹងកាលវិមុត្ត និងដល់បរមត្ថ
+52	AABH000YY2025.3052	1u6r_PFbMRxX71KV5LEqEfra9ntppb_xr	DRAFT	80.7	-18.9	cap	https://media.84000.digital/audio/95642981e2df83c2-a64.mp3	៥២ អារម្មណសង្គហ ចេតសិក៥២ដឹងអជ្ឈត្តដល់ធម្មារម្មណ៍
+53	AABH000YY2025.3053	1ZAuldfN_xYhAxQwi_WzKBbaXCBtNwzTI	DRAFT	61.5	-18.2	ok	https://media.84000.digital/audio/d0124762899d3d5e-a64.mp3	៥៣ វត្ថុសង្គហ ចែកវិញ្ញាណ ៧ ក្នុងភូមិនីមួយៗ
+55	AABH000YY2025.3055	1RMjVe2ahqkeJq8r8C1HFCBk2RxdwI_w1	DRAFT	58.4	-18.1	ok	https://media.84000.digital/audio/d500be5499fa749b-a64.mp3	៥៥ រម្លឹកមេរៀនបរិច្ឆេទទី៥ និងបញ្ចប់បរិច្ឆេទទី៣
+
+# approve-media drive_file_ids (converted, not approved yet), comma separated:
+1_Bd61UVWgR-x-m9UV3bnPkQrnT85AaBI,1wHcb_CO5d_brdT7g2CSbOPggTLe9jtLB,1YuX-54iAqduPcwBfpsrldkf2sH_BfvJC,1KrFHfVEJ-2s8KW_HB7HnL30tM8qX3YqA,1jb20wCCXf1WNLOAftveRmYBWEB2p-e1V,1Ev7v42mtoOX7W397qUdpNU4Cyf-Y28gF,102LjGS4R83Mnu_IQrR-wB-KRwSV_Hn4R,1vm7lXCzWR8Fsj-gAYYgiK70epwuHLD7z,1g3pyvmggW1aLhDXfVBxBlHO2ajEG0rn5,11wlyWnSZ0xqg3V3ZwTJPmUedI49EbkGL,1XOA-vCwYVzy0Xxu9scwY3Inau5YFxyU1,1gO_D09ygBdOMNjIps1DFsfy89ktzqWyp,1Kf2uk-TvDFwDRquFngCZ0LOFQEfuEPEb,1yzzTAeFeTkLJ0rpMHULWOuNUfD6m1Ewj,1Ps2QKRgf5V1aJD7q4oGuMFLnMht646nQ,1toNsTfSe5SjWbD8M-icNTdr7BW7k0-Xr,1akaPd_rIPfj1x7ur_k0KDGgdLX3YsJat,1af19Pz8IivskczRH_b0eABHxvx1pd4TE,1IYUWW2aUBtgjFD9CLfCIovz1BlAx_LAB,1NELj22NEh5CNd6I3kmloX_MKXtxH6Sve,1kQwTy-sBI15RI65up8gSjTqSg88BE6Qu,1hVEBb9uknB4CnFhIrw-zxgLrCnQsBCI5,1LmOTwbORA8K3Vrbvad0B9P5xHMvXZBdG,1c6vzcR10chfbEJPhcaCkHf1x0AR8tccR,1YewhkIIbPUCfxmqqIHg35Q-tfyXPkSV6,1c1ClOjIBd2OURq2IyqJrIs3KlbDOsYif,1nWQfaBR7LPZcP1uS33om6yP1dwXCszK2,1k3ilfLejh4bAa1rqWMxQ95054dm_gLjD,1AyDfFgaPLZ9XfXKVguXgAToAdV_zv7yA,1EG9urnBwAQ101SADSnSgP9UWkUlUtl54,1hmJIbH4KkHzlndJUI9Qh4og4qj080qmX,1oZmUfXcRm1Jrh5GbG_6ZbT17QM4UGVkM,1wC3QiMSPhAuUCJqcvxjyftwdSXhjSNZ_,1IuWYJYVagxtqHJ1sumLSa8NWv-R_VjMb,1aOfH7SC9UvChpE5M3eVpq-Bw5ZwfT_nt,1MAnL23qhoye4AQWfp9hAeIIZmOeXqFX5,1hXEZhxg8_IPGY8QHLlCEUC8cbVUHMx20,1cUVLVkYeEISQYlQwGZPz_Rn0_hfrRcUk,1dI97ZEEBqzkZZsRi3iTUtlTofohinoOz,16fjewgjA-4DT_gtKt9Ra6e5g2Rb9Dn3Y,1DBZiaXsU7ScuDHPGvbOE5n9x5ZnzvTUa,1PP0_aA8iUhFYYUL0LPpt3YzJG8I75tkL,1mFm98N5ylDbJBugu9qPOEgKpXr805vVd,1lMfUCHzbdioaXDhW2aR-Ml_MG0RbsRLp,1ProiqqePvH7L_KQq61weNyFGeMLsEz66,1A2ou7X62msqZAa4dgSYhxUSRjyYYMpwH,1kP68-jMox0HsYOxeBzhKPErHrlebrwiS,1UNi9obrmAIe98r1RRBwqieaPyaJ7cH4o,1RMSx6lBTlAzQ_DmWcNjybVzsiLosQvg-,11Jmy3axEO8E2IqeoSqfg-l_GEGVda82k,1ywuPWWHi1w04flFAs3CETjXs8D9Z7GbQ,1u6r_PFbMRxX71KV5LEqEfra9ntppb_xr,1ZAuldfN_xYhAxQwi_WzKBbaXCBtNwzTI,1RMjVe2ahqkeJq8r8C1HFCBk2RxdwI_w1
