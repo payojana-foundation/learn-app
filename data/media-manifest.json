@@ -86670,5 +86670,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1ZmXixqfQnlptjrfUUORtyzAUk8d1pKj7",
+    "drive_name": "បិដកលេខ២០-88 ទ្វេធាវិតក្កសូត្រ ចែកវិតក្កៈជាចំណែក២ គឺអកុសល និងកុសល.mp3",
+    "source_md5": "ff613da8f65902a3d7a62515903bde87",
+    "key": "audio/ff613da8f65902a3-a64.mp3",
+    "bytes": 54635458,
+    "duration_s": 6829,
+    "sha256": "83aa770d1e2c429e8ead20495d7e923b04afe9722b74d19ce2d8ce4524c680b8",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "G": 10,
+      "limit": 0.6,
+      "depth": 10.836974992327129,
+      "busy": 4.909106217237239,
+      "out": {
+        "I": -18.1,
+        "TP": -3.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
