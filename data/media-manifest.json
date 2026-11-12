@@ -86525,5 +86525,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1yBWEZKWIY8Wb1Z12530_lUQF26RtLKTW",
+    "drive_name": "បិដកលេខ២០-83 អនុមានសូត្រ ទោវចស្សតា ហេតុនៃការប្រដៅក្រ ១៦.mp3",
+    "source_md5": "de410df2fe8e533a32e54030f527ddfe",
+    "key": "audio/de410df2fe8e533a-a64.mp3",
+    "bytes": 54859693,
+    "duration_s": 6857,
+    "sha256": "43b4506c4faa2a08c4fe37a4ca8de8b17e7d78789d7e8b185036b242006b7aff",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.2,
+        "LRA": 0
+      },
+      "G": 10.763025007672873,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 6.204201270151441,
+      "out": {
+        "I": -18.1,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
