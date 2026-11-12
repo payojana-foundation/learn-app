@@ -86641,5 +86641,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1H0oz5-_igqHRYCCWc3LOIHQvJGfkp31h",
+    "drive_name": "បិដកលេខ២០-87 មធុបិណ្ឌិកសូត្រ បបញ្ចសញ្ញា កើតព្រោះហេតុណា.mp3",
+    "source_md5": "4ad79f77191d3eb7b648ecf318767aa1",
+    "key": "audio/4ad79f77191d3eb7-a64.mp3",
+    "bytes": 57306844,
+    "duration_s": 7163,
+    "sha256": "8e9d982ac1fbe373a6b739786e2d32349ef7018b7c5dd7a24c6b29f70afe310e",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "G": 9.8,
+      "limit": 0.6,
+      "depth": 10.936974992327128,
+      "busy": 4.7240796839445505,
+      "out": {
+        "I": -18.1,
+        "TP": -3.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
