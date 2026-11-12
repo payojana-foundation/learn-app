@@ -1,6 +1,6 @@
 # Queue status
 
-Run review of 2026-11-10 (the team finished all course-audio runs on 10-11 Nov), manifest of 2982 entries. Generated from data/queues/c###.csv, data/media-manifest.json and data/queues/failed-review.csv; no run logs were available (no gh CLI).
+Run review of 2026-11-11 (the team finished all course-audio runs on 10-11 Nov), manifest of 2992 entries. Generated from data/queues/c###.csv, data/media-manifest.json and data/queues/failed-review.csv; no run logs were available (no gh CLI).
 
 - queued = data rows of data/queues/c###.csv (ids already in the manifest when the queue was built are not in it).
 - converted = the drive_file_id has an entry in data/media-manifest.json (any status). approved = that entry has status approved.
@@ -8,7 +8,7 @@ Run review of 2026-11-10 (the team finished all course-audio runs on 10-11 Nov),
 - not started = no manifest entry and not in failed-review.csv (never converted, or failed without a record: unknown).
 - DONE = every queued lesson is converted or failed. Queues with 0 data rows are EMPTY and not counted.
 
-Totals over 66 non-empty queues: queued 3810 · converted 2972 · approved 0 · failed 10 · not started 828.
+Totals over 66 non-empty queues: queued 3810 · converted 2982 · approved 0 · failed 10 · not started 818.
 
 ## (a) DONE (7)
 
@@ -47,7 +47,7 @@ Totals over 66 non-empty queues: queued 3810 · converted 2972 · approved 0 · 
 | c032 | លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី | ព្រះត្រៃបិដកបាលីភាគ១៦ | 23 | 19 | 0 | 0 | 4 |
 | c033 | លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី | ព្រះត្រៃបិដកបាលីភាគ១៧ | 24 | 2 | 0 | 0 | 22 |
 | c035 | លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី | ព្រះត្រៃបិដកបាលីភាគ១៩ | 30 | 24 | 0 | 0 | 6 |
-| c036 | លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី | ព្រះត្រៃបិដកបាលីភាគ២០ | 91 | 75 | 0 | 0 | 16 |
+| c036 | លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី | ព្រះត្រៃបិដកបាលីភាគ២០ | 91 | 85 | 0 | 0 | 6 |
 | c037 | លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី | 6-បិដកលេខ២១ | 24 | 22 | 0 | 0 | 2 |
 | c039 | លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន | 1-ថ្នាក់សមថៈ វិបស្សនា​២០២២ | 39 | 36 | 0 | 0 | 3 |
 | c042 | លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន | 4-វគ្គខ្លីលើកទី ១ នៅកែប | 18 | 4 | 0 | 0 | 14 |
@@ -89,7 +89,7 @@ Totals over 66 non-empty queues: queued 3810 · converted 2972 · approved 0 · 
 - c032 not started: 1hqLtX2Jq8AbxPAbvEaWJT87rZWgaZt-U, 1ZFNvSnjIgydi8fvkJL3Y0I8X-jLGMXFq, 1UGidCwE7CHgGGACN33spRW93OmTQwP5Y, 1vFULjpLvUNraRpkWcsjXYqG27CBYQW4B
 - c033 not started: 1mc-LvdBzVlSI1n1F5EhCQZxs0u5l97PE, 1Kmy52Un-JwoCyBNO68mZVf6MzSALAK1z, 1tGyz6QlA5EELcxtbkdFhA-Mbwl7_eoEs, 1Y8iQxUyPfJTuVrVj8Mkuyr4Eg5humUGf, 1rM5C53_K-Brt1-hurZhRy25_yFbrvdzi, 1-SlltbRRXGIG_nKDl0Fi9aaOEF8k0izL, 1jHwpvqk_OjqJHoWIcpkS20pUk9f0KoaS, 1NO8IpeKeoATuaSEJltQ-OFGvrTz4latG, 1Q6M0f2842v3Wt8COQnuUXwbpkdRbI4Yp, 1FVFYo5QOJ9Ab7dYK8jq8yz17k7DZQ9FQ, 1IRIa3oZ9Iq_9Wq4Nrmpn-K6pR3f48rbH, 1wTSVppPHKM8lbxi2imuBE4VwhzQK8mNf, 1xIbCVACqTdS5gEjbvfrgmlmMdHqiKylA, 1UhMmEgNDd574-_IY5jUK85wOlu1uBf-j, 1w15PJjsV8OXjf-Pex0_AoWAkR0Vyr82Y, 10ewHWK25C97wzcYQpxbDJPzVykxRvmGN, 1QhvJDHf-5z2g2L4N12aS621_BNjN1LjB, 1P-8IZmGFjhYMeDj5DyfH3MVYvKcU-1io, 1iY2D_VUaLH4aSooWvYmVVChblhwikGRz, 13WaiNOwximi60wHOJIg7xlVJaxKF1VhI, 18zoNkSFiHvB5vgAfrDO2WAYJdsK8l82v, 1XpZjBJR7Njc6FrdvZt199Xdy94o_3TWM
 - c035 not started: 1WFv9HzBRs0kiah80g6odL1ZC9qKT-T_d, 19cGcxo7BQN31FR8e43ValKlLc2Edc8G-, 1kXDjUcYDk6YFPSc5XVKBfOphOFGxDOJR, 15PAkJa_9SgEaIYnq24MgJ32hMVuZbXcG, 1gt4-aEV6pZ4ZXaCOClXmpP8L5G0fOQ8m, 1aW4Xp3llwF-x3IgLSbgxTm8MySi-sBYZ
-- c036 not started: 1HbukuvBWbR-jF4sTwS7OKHuV6azaf2NL, 1v0ta4trfZXxYXbFswZYT3mM6bmMzTAG6, 1k4ilvbRc76oGkQkU6K5PEtG6GQJd-Q9j, 1VM6d5P-xp_76KWE2my71wCorGK9PMo-M, 1TdfjDs_eGPDo4lFEVE_unsNvymTkFiZr, 1V8n_V5pCkHpW5HDhRIUsG6OcHp8goG6X, 1aN3bRdt7T2_59Gp268vU_umyOAhJVuFY, 1yBWEZKWIY8Wb1Z12530_lUQF26RtLKTW, 1lAfdc9TwMrFqBE5kHNkNjQTV4aTtI8MP, 11mjbVrBakHqJ93xpOEEG8xlTpxWfnJBN, 1z4TirzxYseaZlUHX0YnFUdnf5_KhFRv9, 1H0oz5-_igqHRYCCWc3LOIHQvJGfkp31h, 1ZmXixqfQnlptjrfUUORtyzAUk8d1pKj7, 1EEAKk7Kw9zOtQPsR8NBC_xkq4eCw90kp, 12-MI7_sM1t4eEgnF2TZX7II_rTfjZzUF, 1aloDJa_TEllx3902vdKlUW1AXiX7nwuL
+- c036 not started: 1HbukuvBWbR-jF4sTwS7OKHuV6azaf2NL, 1v0ta4trfZXxYXbFswZYT3mM6bmMzTAG6, 1k4ilvbRc76oGkQkU6K5PEtG6GQJd-Q9j, 1VM6d5P-xp_76KWE2my71wCorGK9PMo-M, 1TdfjDs_eGPDo4lFEVE_unsNvymTkFiZr, 1V8n_V5pCkHpW5HDhRIUsG6OcHp8goG6X
 - c037 not started: 1SsjJ4t2ITYE3vAgZN_-hCR1_VvburBS9, 1RW-T6gsg7YlU55STf6TZZxiQ4UCKcf5_
 - c039 not started: 11fiopl24cNJDCOt24ZEURaWmLo2P5l01, 1GLbAujkhxObfAc7fsAfhw_16S7wdlrhb, 1BvBO2ymUW2c5DL9K4wydTMZ3vbbifr06
 - c042 not started: 1KyUdiMpnISKX1WKbMucOwvyyitBQlKs_, 19unDiUDy-CEiq60ad6Eb1TH0I87FkPia, 106vUsOgp4ggibGTHZqyl-mrK68HVtuo1, 1pCJAuSMjV5jtOpJI4MFf0_iz4yORtaFg, 1bHDFnkjgXBXtQc8TtU582VKReTp99kD9, 1TvvTQ0mqVYvLmMnp2pJQ6nV90KSRuDv0, 1yPpeicD7k8d70YVaoefkO22LWRnVeHrQ, 1OUhAgTrJqieZCU6L9R4znMiVCQ9c53FL, 1PA6i7tx_BKiHlKJv4-Rz5NUQn3ShXt5g, 1RWvto_s3I5SBk8VAqt-micO7CedWoXmI, 1QFA5YF5xpx4hWNup_mNPmTc9jOpUnHMH, 1dg1AGwYnIk0hqoAmhB3aLIErW1AMIKbO, 1juKcNLT6UV9eYXhHr6IUXYYZcYPzGAtM, 1JRjZgVejubzG0buFj1g5dDb6w7c4z0Xt
