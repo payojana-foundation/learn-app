@@ -14,10 +14,23 @@ function trimBase(v: string | undefined): string {
 }
 
 /**
- * R2 media host for course audio/video (`VITE_MEDIA_BASE_URL`), e.g.
- * https://media.84000.digital. The only place this env var is read.
+ * The production R2 media host (docs/DEPLOY.md, tech.md). Committed here so a build
+ * with the Cloudflare variable missing can never produce an empty base: an empty base
+ * made every audio address relative to the app itself, which answers with the site's
+ * fallback page, so the player could not play (11 Nov 2026).
  */
-export const MEDIA_BASE_URL: string = trimBase(import.meta.env.VITE_MEDIA_BASE_URL);
+export const DEFAULT_MEDIA_BASE_URL = 'https://media.84000.digital' as const;
+
+/** PURE: the media base - the build variable when set, else the committed default. */
+export function resolveMediaBase(v: string | undefined): string {
+  return trimBase(v) || DEFAULT_MEDIA_BASE_URL;
+}
+
+/**
+ * R2 media host for course audio/video (`VITE_MEDIA_BASE_URL` overrides the committed
+ * default), e.g. https://media.84000.digital. The only place this env var is read.
+ */
+export const MEDIA_BASE_URL: string = resolveMediaBase(import.meta.env.VITE_MEDIA_BASE_URL);
 
 /**
  * The Vacanā app (`VITE_VACANA_BASE_URL`), e.g. https://vacana.84000.digital —

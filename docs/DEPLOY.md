@@ -41,7 +41,7 @@ Worker `learn-app` → Settings → Build → Variables and secrets → Add. Vit
 these in at build time; after changing one, re-run the build.
 | Name | Value |
 |---|---|
-| `VITE_MEDIA_BASE_URL` | `https://media.84000.digital` |
+| `VITE_MEDIA_BASE_URL` | `https://media.84000.digital` (optional: `src/config.ts` has the same value as its committed default, so a missing variable can no longer break playback) |
 | `VITE_VACANA_BASE_URL` | `https://vacana.84000.digital` |
 | `VITE_LIBRARY_BASE_URL` | `https://library.84000.digital` |
 
