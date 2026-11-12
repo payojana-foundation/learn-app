@@ -86612,5 +86612,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1z4TirzxYseaZlUHX0YnFUdnf5_KhFRv9",
+    "drive_name": "បិដកលេខ២០-86 មធុបណ្ឌិកសូត្រ ការមិនមានជម្លោះព្រោះលះបង់អនុស័យ.mp3",
+    "source_md5": "b6893e8bece899e1b972117c89f0e193",
+    "key": "audio/b6893e8bece899e1-a64.mp3",
+    "bytes": 55930087,
+    "duration_s": 6991,
+    "sha256": "a2f29bd3ba856ce1e8a8c3b165a9fb2dae9be4145563260bb045089ee9b0d8cb",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -3.1,
+        "LRA": 0
+      },
+      "G": 10.600000000000001,
+      "limit": 0.6,
+      "depth": 11.93697499232713,
+      "busy": 5.685499731807616,
+      "out": {
+        "I": -18.1,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
