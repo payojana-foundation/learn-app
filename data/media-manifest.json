@@ -86728,5 +86728,34 @@
       "result": "ok"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "12-MI7_sM1t4eEgnF2TZX7II_rTfjZzUF",
+    "drive_name": "បិដកលេខ២០-90 វិតក្កសណ្ឋានសូត្រ ឧបាយលះបង់អកុសលវិតក្កៈ.mp3",
+    "source_md5": "1a44ca568b775219824399c77fa971ea",
+    "key": "audio/1a44ca568b775219-a64.mp3",
+    "bytes": 55146831,
+    "duration_s": 6893,
+    "sha256": "b8f9cb38be3ca6dad0c1a91c7fb675a77c50d926558ca925e2faf20e7cc02892",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "G": 9.463025007672872,
+      "limit": 0.6,
+      "depth": 12,
+      "busy": 4.294024632614278,
+      "out": {
+        "I": -18.7,
+        "TP": -3.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "cap"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
