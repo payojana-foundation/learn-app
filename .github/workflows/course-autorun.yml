@@ -1,0 +1,169 @@
+name: course-autorun
+
+# PART V4 — autopilot. Every 2 h (minute :41) and on dispatch: pick the next
+# queue with unconverted lessons (audio first, then video when VIDEO_ENABLED),
+# run ONE course-audio / course-video job on it (limit 40, dry_run false), stop.
+#
+# - On/off: repo variable AUTORUN_ENABLED ("true" = on; unset = off).
+# - Skips when any course-audio / course-audio-batch / course-video run is in
+#   progress or queued. One autorun at a time (group course-autorun).
+# - Stops by itself when nothing is left (the run is a no-op).
+# - Every run writes a one-line summary (queue, done, failed, left) to the run
+#   page; batch runs also append it to data/ops/autorun.log.
+# - A red run turns autorun off by itself: data/ops/autorun-state.json
+#   disabled=true + an error notice (and AUTORUN_ENABLED=false when the optional
+#   secret AUTORUN_ADMIN_TOKEN exists). Dispatch with reset=true to switch back on.
+# The pick logic is scripts/media/autorun-plan.mjs (unit-tested).
+
+on:
+  schedule:
+    - cron: "41 */2 * * *"
+  workflow_dispatch:
+    inputs:
+      reset:
+        description: "Clear an automatic stop after a red run"
+        required: true
+        type: choice
+        options:
+          - "false"
+          - "true"
+        default: "false"
+
+permissions:
+  contents: write # state/log commit; the called workflows commit their manifest
+  id-token: write # Workload Identity Federation in the called workflows
+  actions: read # the busy check lists workflow runs
+
+concurrency:
+  group: course-autorun
+  cancel-in-progress: false
+
+jobs:
+  plan:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      action: ${{ steps.plan.outputs.action }}
+      kind: ${{ steps.plan.outputs.kind }}
+      queue: ${{ steps.plan.outputs.queue }}
+      plan_json: ${{ steps.json.outputs.plan_json }}
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Count course-audio / course-video runs in progress
+        id: busy
+        if: ${{ vars.AUTORUN_ENABLED == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          : > busy.ndjson
+          for wf in course-audio.yml course-audio-batch.yml course-video.yml; do
+            for st in in_progress queued; do
+              gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/${wf}/runs?status=${st}&per_page=100" >> busy.ndjson 2>/dev/null || echo '{"workflow_runs":[]}' >> busy.ndjson
+              echo >> busy.ndjson
+            done
+          done
+          n=$(node -e 'import("./scripts/media/autorun-plan.mjs").then(m=>{const p=require("fs").readFileSync("busy.ndjson","utf8").split(/\n/).filter(Boolean).map(JSON.parse);console.log(m.countBusy(p))})')
+          echo "busy=$n" >> "$GITHUB_OUTPUT"
+
+      - name: Pick the next queue
+        id: plan
+        env:
+          AUTORUN_ENABLED: ${{ vars.AUTORUN_ENABLED }}
+          VIDEO_ENABLED: ${{ vars.VIDEO_ENABLED }}
+          VIDEO_RENDITION: ${{ vars.VIDEO_RENDITION }}
+          BUSY: ${{ steps.busy.outputs.busy || '0' }}
+          RESET: ${{ inputs.reset || 'false' }}
+        run: node scripts/media/autorun-plan.mjs plan
+
+      - name: Hand the plan to the report job
+        id: json
+        run: echo "plan_json=$(cat autorun-plan.json)" >> "$GITHUB_OUTPUT"
+
+  audio:
+    needs: plan
+    if: ${{ needs.plan.outputs.action == 'run' && needs.plan.outputs.kind == 'audio' }}
+    uses: ./.github/workflows/course-audio.yml
+    with:
+      list: ${{ needs.plan.outputs.queue }}
+      limit: "40"
+      max_minutes: "300"
+      concurrency: "2"
+      force_ids: ""
+      dry_run: ${{ 'false' }}
+    secrets: inherit
+
+  video:
+    needs: plan
+    if: ${{ needs.plan.outputs.action == 'run' && needs.plan.outputs.kind == 'video' }}
+    uses: ./.github/workflows/course-video.yml
+    with:
+      list: ${{ needs.plan.outputs.queue }}
+      limit: "40"
+      max_minutes: "300"
+      dry_run: ${{ 'false' }}
+    secrets: inherit
+
+  report:
+    needs: [plan, audio, video]
+    if: ${{ always() && needs.plan.outputs.action != 'off' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the latest main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Write the one-line summary and the state
+        id: report
+        env:
+          PLAN_JSON: ${{ needs.plan.outputs.plan_json }}
+          PLAN_RESULT: ${{ needs.plan.result }}
+          RESULT: ${{ needs.plan.outputs.kind == 'video' && needs.video.result || needs.audio.result }}
+          RESET: ${{ inputs.reset || 'false' }}
+          VIDEO_RENDITION: ${{ vars.VIDEO_RENDITION }}
+        run: node scripts/media/autorun-plan.mjs report
+
+      - name: Also set AUTORUN_ENABLED=false (only with the optional admin token)
+        if: ${{ steps.report.outputs.red == 'true' }}
+        env:
+          GH_TOKEN: ${{ secrets.AUTORUN_ADMIN_TOKEN }}
+        run: |
+          if [ -z "$GH_TOKEN" ]; then
+            echo "no AUTORUN_ADMIN_TOKEN secret — autorun is off through data/ops/autorun-state.json"
+            exit 0
+          fi
+          gh variable set AUTORUN_ENABLED --body false --repo "$GITHUB_REPOSITORY" || echo "::warning::could not change AUTORUN_ENABLED"
+
+      - name: Commit the state and log
+        if: ${{ steps.report.outputs.changed == 'true' }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ops/autorun-state.json
+          if [ -f data/ops/autorun.log ]; then git add data/ops/autorun.log; fi
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git commit -m "ops: course-autorun summary"
+          bash scripts/ci/push-with-retry.sh origin main
+
+      - name: End red when the batch was red
+        if: ${{ steps.report.outputs.red == 'true' }}
+        run: |
+          echo "::error title=Autorun turned off::the batch run was red; autorun is off until a run with reset=true."
+          exit 1
