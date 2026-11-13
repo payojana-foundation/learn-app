@@ -21,7 +21,8 @@
  *   acast_episode_id source_file + source_tab + source_row; no match = the current value stays.
  *   issues           why the row is not shown today (build-courses shownRows), plus: hidden tab,
  *                    teacher pending, no title, no source, no code, acast embed missing,
- *                    source_type not set. Joined with '; '.
+ *                    source_type not set, and one 'CHECK: <reason>' per flag of the automatic
+ *                    pre-approval check (data/queues/approve/precheck.json). Joined with '; '.
  *   lesson_count     Lessons rows with that course_id.
  *
  * Modes:
@@ -76,7 +77,7 @@ export function audioStatus(sourceId, approved, failedReview, inManifest) {
  * Returns { lessons: Map(row_key -> {col: value}), courses: Map(course_id -> {lesson_count}) }.
  */
 export function computeSystem(lessonRows, courseRows, ctx) {
-  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map() } = ctx;
+  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map(), checkFlags = new Map() } = ctx;
   const approved = new Set(manifest.filter((e) => e && e.drive_file_id && /^approved\b/i.test(e.status || '')).map((e) => e.drive_file_id));
   const inManifest = new Set(manifest.filter((e) => e && e.drive_file_id).map((e) => e.drive_file_id));
   const { hidden } = shownRows(lessonRows, manifest);
@@ -99,6 +100,7 @@ export function computeSystem(lessonRows, courseRows, ctx) {
     if (!lessonId) issues.push('no source, no code');
     if (r.acast_status === 'posted' && !embed && !episode) issues.push('acast embed missing');
     if (!r.source_type && src) issues.push('source_type not set');
+    for (const reason of (src && checkFlags.get(src)) || []) issues.push(`CHECK: ${reason}`);
     lessons.set(r.row_key, {
       lesson_id: lessonId,
       audio_status: audioStatus(src, approved, failedReview, inManifest),
@@ -272,6 +274,18 @@ async function acastFromTeacherSheets(root) {
   }
 }
 
+/** drive id -> flag reasons, from the pre-approval check (empty when it has not run). */
+export function checkFlagsFrom(precheck) {
+  const m = new Map();
+  for (const f of (precheck && precheck.results && precheck.results.flagged) || []) if (f && f.id) m.set(f.id, f.reasons || []);
+  return m;
+}
+
+function checkFlagsFile(root) {
+  const p = join(root, 'data', 'queues', 'approve', 'precheck.json');
+  return checkFlagsFrom(existsSync(p) ? JSON.parse(readFileSync(p, 'utf-8')) : null);
+}
+
 function asOfDate(root) {
   try {
     const iso = execFileSync('git', ['log', '-1', '--format=%cI', '--', 'data/master/lessons.csv', 'data/media-manifest.json', 'public/data'], { cwd: root, stdio: ['ignore', 'pipe', 'ignore'] }).toString().trim();
@@ -317,6 +331,7 @@ async function main() {
   const manifest = JSON.parse(readFileSync(join(root, 'data', 'media-manifest.json'), 'utf-8'));
   const wanted = computeSystem(lessonRows, courseRows, {
     manifest, failedReview: failedReviewSet(root), shownLessonIds: shownFromPublicData(root), acastBySource: await acastFromTeacherSheets(root),
+    checkFlags: checkFlagsFile(root),
   });
   const L = diffTab(lessonsTab, 'row_key', wanted.lessons, LESSON_SYNC_COLUMNS);
   const C = diffTab(coursesTab, 'course_id', wanted.courses, COURSE_SYNC_COLUMNS);

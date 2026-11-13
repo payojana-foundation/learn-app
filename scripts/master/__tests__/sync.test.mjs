@@ -1,7 +1,7 @@
 import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
 import {
-  computeSystem, diffTab, toRanges, statusJson, readTab, writeRanges, checkHeader, sourceIdOf, audioStatus,
+  computeSystem, diffTab, toRanges, statusJson, readTab, writeRanges, checkHeader, sourceIdOf, audioStatus, checkFlagsFrom,
   LESSON_SYNC_COLUMNS, COURSE_SYNC_COLUMNS, HeaderMismatchError, BATCH_RANGES,
 } from '../sync.mjs';
 
@@ -46,6 +46,15 @@ describe('values', () => {
     expect(w.lessons.get('M4').issues).toContain('no source, no code');
     expect(w.courses.get('c001')).toEqual({ lesson_count: '3' });
     expect(w.courses.get('c002')).toEqual({ lesson_count: '0' });
+  });
+  it('PART C: each pre-approval flag is written into issues as "CHECK: <reason>", only for that source', () => {
+    const rows = [lrow({ row_key: 'M1', mp3_link: url('A') }), lrow({ row_key: 'M2', mp3_link: url('B') })];
+    const checkFlags = checkFlagsFrom({ results: { flagged: [{ id: DID('A'), reasons: ['duration 1:00 is under 5 min', 'silence 70 s in the last 2 min'] }], pass: [{ id: DID('B') }], pending: [] } });
+    const w = computeSystem(rows, [], { manifest: [man('A', 'DRAFT'), man('B', 'DRAFT')], checkFlags });
+    expect(w.lessons.get('M1').issues).toBe('no approved media yet; CHECK: duration 1:00 is under 5 min; CHECK: silence 70 s in the last 2 min');
+    expect(w.lessons.get('M2').issues).toBe('no approved media yet');
+    expect(checkFlagsFrom(null).size).toBe(0);
+    expect(checkFlagsFrom({}).size).toBe(0);
   });
   it('acast embed missing when posted with neither embed nor episode id', () => {
     const w = computeSystem([lrow({ row_key: 'M1', mp3_link: url('A'), acast_status: 'posted' })], [], { manifest: [] });

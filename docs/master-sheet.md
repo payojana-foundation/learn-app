@@ -94,5 +94,6 @@ One row per distinct non-empty `course_id` of the Lessons rows, in order of firs
 - `acast_embed` / `acast_episode_id`: from the frozen teacher-sheet exports by `source_file` + `source_tab` + `source_row`; no match = unchanged.
 - `issues`: why the row is not shown today (`no source`, `duplicate source (an earlier row has it)`, `no approved media yet`), plus `hidden tab`, `teacher pending`, `no title`, `no source, no code`, `acast embed missing`, `source_type not set`. The first sync replaces the seed's catalogue wording with this wording.
 - `lesson_count`: Lessons rows with that `course_id`.
+- Each flag of the automatic pre-approval check (data/queues/approve/precheck.json, workflow approve-check) adds `CHECK: <reason>` to `issues` (for example `CHECK: silence 70 s in the last 2 min`), so the team sees it in the sheet. A lesson with a CHECK is never approved by approve-media `all-passing`.
 
 It also writes `public/ops/status.json` (counts per course: lessons, live, audio status; and totals) for the future dashboard; the app does not read it. Dry mode writes `reports/master-sync-preview.csv` (tab, key, column, row, from, to) and `reports/master-sync-report.md`; write mode commits `public/ops/status.json` when it changed.
