@@ -85,8 +85,12 @@ async function main() {
   const teacherName = (slug) => (ctx.teachers.find((t) => t.slug === slug) || {}).name_km || '';
   const readIds = (p) => fs.readFileSync(p, 'utf8').split(/\r?\n/).slice(1).map((l) => l.split(',')[0].trim()).filter(Boolean);
 
-  fs.rmSync('data/queues/approve', { recursive: true, force: true });
+  // Remove only the files this script owns (c###.txt, INDEX.md); FLAGGED.md and
+  // precheck.json belong to scripts/media/precheck.mjs and are kept.
   fs.mkdirSync('data/queues/approve', { recursive: true });
+  for (const f of fs.readdirSync('data/queues/approve')) {
+    if (/^c\d+\.txt$/.test(f) || f === 'INDEX.md') fs.rmSync(`data/queues/approve/${f}`);
+  }
   const entries = [];
   for (const c of plan.courses) {
     const qf = `data/queues/${c.course_id}.csv`;

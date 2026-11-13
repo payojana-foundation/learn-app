@@ -1,0 +1,94 @@
+name: approve-check
+
+# Automatic pre-approval check of every converted lesson that is not approved yet
+# (scripts/media/precheck.mjs). READ-ONLY on R2 and Drive: it reads the first and last
+# 2 minutes of each R2 file (HTTP Range) and the Drive source duration (metadata or header
+# bytes). It writes data/queues/approve/precheck.json + FLAGGED.md and commits them.
+#
+# One run stops starting new files after `budget_minutes`; the measurements are kept, so
+# the next run continues. The hourly schedule finishes the backlog by itself and checks new
+# conversions after course-audio runs; with nothing to measure a run takes about a minute.
+
+on:
+  workflow_dispatch:
+    inputs:
+      budget_minutes:
+        description: "Stop starting new files after this many minutes (the rest continues next run)"
+        required: false
+        default: "50"
+      concurrency:
+        description: "Files checked in parallel"
+        required: false
+        default: "8"
+  schedule:
+    - cron: "23 * * * *"
+
+permissions:
+  contents: write # commits precheck.json + FLAGGED.md
+  id-token: write # Workload Identity Federation (Drive read-only)
+
+concurrency:
+  group: data-rebuild-main
+  cancel-in-progress: false
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 75
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Install ffmpeg (ffprobe + silencedetect)
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Authenticate to Google Cloud (Workload Identity Federation, Drive read-only)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/drive.readonly
+
+      - name: Run the checks
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          BUDGET: ${{ inputs.budget_minutes || '50' }}
+          CONC: ${{ inputs.concurrency || '8' }}
+        run: node scripts/media/precheck.mjs --drive --silence --budget-min "$BUDGET" --concurrency "$CONC"
+
+      - name: Commit the results
+        id: commit
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/queues/approve/precheck.json data/queues/approve/FLAGGED.md
+          if git diff --cached --quiet; then
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "queues: pre-approval check results"
+            echo "committed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push (pull --rebase, retry up to 3x)
+        if: ${{ steps.commit.outputs.committed == 'true' }}
+        run: bash scripts/ci/push-with-retry.sh origin main
+
+      - name: Summary
+        if: ${{ always() }}
+        run: |
+          {
+            echo "### approve-check"
+            head -n 4 data/queues/approve/FLAGGED.md 2>/dev/null || echo "no report"
+          } >> "$GITHUB_STEP_SUMMARY"
