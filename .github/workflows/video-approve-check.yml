@@ -1,0 +1,54 @@
+name: video-approve-check
+
+# PART V3 — pre-approval check of the converted, unapproved VIDEOS
+# (scripts/media/video-precheck.mjs: duration, drift from the source, duplicates).
+# Writes data/queues/approve-video/precheck.json + FLAGGED.md and commits them;
+# approve-media (media = video, mode all-passing) reads precheck.json.
+# Behind VIDEO_ENABLED (unset = off: the job is skipped). The audio approve-check
+# is not changed. No network access is needed: every input is in the manifest.
+
+on:
+  schedule:
+    - cron: "53 * * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+concurrency:
+  group: video-approve-check
+  cancel-in-progress: false
+
+jobs:
+  check:
+    if: ${{ vars.VIDEO_ENABLED == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v5
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Run the video pre-check
+        run: |
+          set -euo pipefail
+          node scripts/media/video-precheck.mjs | tee -a "$GITHUB_STEP_SUMMARY"
+
+      - name: Commit the results
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/queues/approve-video/precheck.json data/queues/approve-video/FLAGGED.md
+          # Only the date line changed? Then nothing to commit.
+          if git diff --cached --quiet -I '"generated"' -I '^Generated '; then
+            git reset -q
+            echo "no change"
+            exit 0
+          fi
+          git commit -m "queues: video pre-approval check results"
+          bash scripts/ci/push-with-retry.sh origin main

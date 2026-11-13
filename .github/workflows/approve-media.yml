@@ -17,6 +17,11 @@ name: approve-media
 # waiting for a check. The ids field is ignored; the decision must be "approved".
 # "Dry run" lists what would be approved or decided and changes nothing (any mode).
 #
+# Media "video" (PART V3, needs repo variable VIDEO_ENABLED=true): the same decisions on
+# data/video-manifest.json; all-passing reads data/queues/approve-video/precheck.json
+# (video-approve-check.yml). Default "audio" = unchanged behaviour on
+# data/media-manifest.json.
+#
 # No external auth: this job only edits a repo file and pushes.
 
 on:
@@ -53,6 +58,14 @@ on:
           - "false"
           - "true"
         default: "false"
+      media:
+        description: "audio = data/media-manifest.json (default); video = data/video-manifest.json"
+        required: true
+        type: choice
+        options:
+          - audio
+          - video
+        default: audio
 
 permissions:
   contents: write # commits the manifest decision to main
@@ -85,8 +98,18 @@ jobs:
           IDS: ${{ github.event.inputs.drive_file_ids }}
           MODE: ${{ github.event.inputs.mode }}
           DRY_RUN: ${{ github.event.inputs.dry_run }}
+          MEDIA: ${{ github.event.inputs.media || 'audio' }}
+          VIDEO_ENABLED: ${{ vars.VIDEO_ENABLED }}
         run: |
           set -euo pipefail
+          if [ "$MEDIA" = "video" ]; then
+            if [ "$VIDEO_ENABLED" != "true" ]; then
+              echo "::error::media video needs the repo variable VIDEO_ENABLED=true"
+              exit 1
+            fi
+            MANIFEST=data/video-manifest.json
+            echo "MANIFEST=$MANIFEST" >> "$GITHUB_ENV"
+          fi
           DRY=""
           if [ "$DRY_RUN" = "true" ]; then DRY="--dry-run"; fi
           if [ "$MODE" = "all-passing" ]; then
@@ -94,7 +117,11 @@ jobs:
               echo "::error::mode all-passing only approves; set decision to approved"
               exit 1
             fi
-            node scripts/media/approve-manifest.mjs "$MANIFEST" all-passing "$REVIEWER" data/queues/approve/precheck.json $DRY | tee apply.log
+            if [ "$MEDIA" = "video" ]; then
+              node scripts/media/approve-manifest.mjs "$MANIFEST" all-passing "$REVIEWER" data/queues/approve-video/precheck.json $DRY | tee apply.log
+            else
+              node scripts/media/approve-manifest.mjs "$MANIFEST" all-passing "$REVIEWER" data/queues/approve/precheck.json $DRY | tee apply.log
+            fi
           else
             if [ -z "$(printf '%s' "$IDS" | tr -d ' ,\n')" ]; then
               echo "::error::mode per-ids needs the Drive file ids"

@@ -1,0 +1,208 @@
+name: course-video
+run-name: course-video · ${{ inputs.list }} · ${{ inputs.dry_run == 'true' && 'DRY RUN' || 'REAL' }}
+
+# PART V3 — BATCH video transcode, behind the repo variable VIDEO_ENABLED
+# (unset or not "true" = OFF: the run does nothing and says so). Same pattern as
+# course-audio.yml (which is not changed): a queue CSV of Drive file ids
+# (data/queues/video/c###.csv), `limit`, `dry_run`, the manifest saved after
+# EACH file (scripts/ci/save-video-manifest.sh), and a red run when an R2
+# object has no manifest entry (orphan guard).
+#
+# Rendition = repo variable VIDEO_RENDITION (480p or 720p, from the video-test
+# report); a missing value stops the run. Keys (immutable):
+#   video/<first 16 hex of Drive md5>-<rendition>.mp4  + .webp poster next to it.
+# Entries go to data/video-manifest.json as kind "video", DRAFT until approved
+# (approve-media, media = video). The app does not play video yet.
+#
+# Auth: Workload Identity Federation (Drive) + the course-media R2 token.
+
+on:
+  workflow_call:
+    inputs:
+      list:
+        type: string
+        required: true
+      limit:
+        type: string
+        default: "5"
+      max_minutes:
+        type: string
+        default: "300"
+      dry_run:
+        type: string
+        default: "false"
+  workflow_dispatch:
+    inputs:
+      list:
+        description: "Path to the video queue CSV, INCLUDING the folder (e.g. data/queues/video/c080.csv)"
+        required: true
+      limit:
+        description: "Max files to process this run"
+        required: true
+        default: "5"
+      max_minutes:
+        description: "Wall-clock budget: stop starting new files after this many minutes"
+        required: true
+        default: "300"
+      dry_run:
+        description: "Plan + key check only: no download, no upload, no manifest write"
+        required: false
+        default: "false"
+
+permissions:
+  contents: write # commits the DRAFT video manifest entries to main
+  id-token: write # Workload Identity Federation
+
+concurrency:
+  group: course-video-${{ inputs.list }}
+  cancel-in-progress: false
+
+jobs:
+  off:
+    if: ${{ vars.VIDEO_ENABLED != 'true' }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Video is switched off
+        run: |
+          echo "VIDEO_ENABLED is not \"true\" — course-video did nothing."
+          echo "course-video: VIDEO_ENABLED is off — nothing done." >> "$GITHUB_STEP_SUMMARY"
+
+  transcode:
+    if: ${{ vars.VIDEO_ENABLED == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 340
+    env:
+      QUEUE: ${{ inputs.list }}
+      LIMIT: ${{ inputs.limit }}
+      MAX_MINUTES: ${{ inputs.max_minutes }}
+      RENDITION: ${{ vars.VIDEO_RENDITION }}
+      VIDEO_CRF: ${{ vars.VIDEO_CRF || '23' }}
+      VIDEO_AUDIO_BITRATE: ${{ vars.VIDEO_AUDIO_BITRATE || '96k' }}
+      MANIFEST: data/video-manifest.json
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v5
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Plan the run (skip ids already in the video manifest, cap at limit)
+        id: plan
+        run: |
+          set -euo pipefail
+          node scripts/media/video-plan.mjs "$QUEUE" "$MANIFEST" "$LIMIT" "$RENDITION" > plan.json
+          node -e 'const p=require("./plan.json");require("fs").writeFileSync("to-process.txt",p.toProcess.join("\n"))'
+          node -e 'const p=require("./plan.json");const fs=require("fs");fs.writeFileSync("results.ndjson",p.skipped.map(id=>JSON.stringify({id,status:"skipped",reason:"already in video manifest"})).join("\n")+(p.skipped.length?"\n":""))'
+          N=$(node -e 'console.log(require("./plan.json").toProcess.length)')
+          printf 'to_process=%s\n' "$N" >> "$GITHUB_OUTPUT"
+          if [ "$N" -eq 0 ]; then echo "nothing to transcode this run."; fi
+
+      - name: Install ffmpeg
+        if: ${{ steps.plan.outputs.to_process != '0' }}
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Authenticate to Google Cloud (Workload Identity Federation)
+        if: ${{ steps.plan.outputs.to_process != '0' }}
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/drive
+
+      - name: Set up rclone
+        if: ${{ steps.plan.outputs.to_process != '0' }}
+        uses: AnimMouse/setup-rclone@v1
+
+      - name: Configure rclone R2 remote (course-media token)
+        if: ${{ steps.plan.outputs.to_process != '0' }}
+        env:
+          R2_ACCESS_KEY_ID: ${{ secrets.R2_ACCESS_KEY_ID }}
+          R2_SECRET_ACCESS_KEY: ${{ secrets.R2_SECRET_ACCESS_KEY }}
+          R2_ACCOUNT_ID: ${{ secrets.R2_ACCOUNT_ID }}
+        run: |
+          if [ -z "${R2_ACCOUNT_ID}" ]; then
+            echo "::error title=R2_ACCOUNT_ID missing::Set the repository secret R2_ACCOUNT_ID."
+            exit 1
+          fi
+          mkdir -p "$HOME/.config/rclone"
+          cat > "$HOME/.config/rclone/rclone.conf" <<EOF
+          [r2]
+          type = s3
+          provider = Cloudflare
+          access_key_id = ${R2_ACCESS_KEY_ID}
+          secret_access_key = ${R2_SECRET_ACCESS_KEY}
+          endpoint = https://${R2_ACCOUNT_ID}.r2.cloudflarestorage.com
+          no_check_bucket = true
+          EOF
+          if rclone lsd "r2:course-media" >/dev/null 2>&1; then
+            echo "rclone: course-media bucket reachable"
+          else
+            echo "::error title=R2 bucket unreachable::rclone could not list r2:course-media."
+            exit 1
+          fi
+
+      - name: Transcode the batch (sequential, time budget, immutable R2)
+        if: ${{ steps.plan.outputs.to_process != '0' }}
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          DRY_RUN: ${{ inputs.dry_run == 'true' && '1' || '0' }}
+          SAVE_CMD: ${{ inputs.dry_run == 'true' && '' || 'bash scripts/ci/save-video-manifest.sh' }}
+          TRANSCODE_ONE: scripts/media/transcode-video.sh
+          REFRESH_TOKEN_CMD: "gcloud auth print-access-token --scopes=https://www.googleapis.com/auth/drive"
+        run: |
+          set -uo pipefail
+          chmod +x scripts/media/transcode-video.sh scripts/media/batch-run.sh
+          scripts/media/batch-run.sh to-process.txt
+
+      - name: Append DRAFT video entries for everything that finished
+        if: ${{ always() }}
+        run: |
+          set -uo pipefail
+          shopt -s nullglob
+          for e in entry-*.json; do
+            node scripts/media/append-video-manifest.mjs "$MANIFEST" "$e" || true
+          done
+
+      - name: Fail on R2 objects without a manifest entry
+        if: ${{ always() }}
+        run: |
+          set -uo pipefail
+          if [ -s results.orphan.ndjson ]; then
+            ids=$(node -e 'console.log(require("fs").readFileSync("results.orphan.ndjson","utf8").split(/\r?\n/).filter(Boolean).map(l=>JSON.parse(l).id).join(", "))')
+            echo "::error title=R2 object without manifest entry::R2 object without manifest entry - needs coordinator: ${ids}"
+            exit 1
+          fi
+
+      - name: Fail if work was planned but nothing finished
+        if: ${{ always() }}
+        run: |
+          set -uo pipefail
+          planned='${{ steps.plan.outputs.to_process }}'
+          [ -n "$planned" ] || planned=0
+          if [ "$planned" = "0" ]; then echo "nothing was planned — ok"; exit 0; fi
+          done=$( [ -f results.done.ndjson ] && grep -c . results.done.ndjson || echo 0 )
+          failed=$( [ -f results.failed.ndjson ] && grep -c . results.failed.ndjson || echo 0 )
+          echo "planned ${planned}, done ${done}, failed ${failed}"
+          if [ "$done" -eq 0 ] && [ "$failed" -eq 0 ]; then
+            echo "::error title=Nothing processed::${planned} file(s) were planned but none finished."
+            exit 1
+          fi
+
+      - name: Write the run summary table
+        if: ${{ always() }}
+        run: |
+          set -uo pipefail
+          node -e 'const fs=require("fs");const lines=(fs.existsSync("results.ndjson")?fs.readFileSync("results.ndjson","utf8"):"").split(/\r?\n/).filter(Boolean).map(JSON.parse);import("./scripts/media/queue-plan.mjs").then(m=>{const md=m.summaryTable(lines);fs.writeFileSync("run-summary.md",md);process.stdout.write(md)})'
+          cat run-summary.md >> "$GITHUB_STEP_SUMMARY" || true
+
+      - name: Commit the video manifest (also on cancellation)
+        if: ${{ always() && inputs.dry_run != 'true' }}
+        env:
+          SAVE_MSG: "course-video: DRAFT video manifest entries (batch)"
+        run: bash scripts/ci/save-video-manifest.sh
