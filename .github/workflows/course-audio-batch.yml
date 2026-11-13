@@ -40,5 +40,5 @@ jobs:
     with:
       list: ${{ matrix.queue }}
       limit: ${{ inputs.limit }}
-      dry_run: "false"
+      dry_run: ${{ 'false' }}
     secrets: inherit

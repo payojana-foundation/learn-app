@@ -52,7 +52,9 @@ describe('course-audio-batch.yml', () => {
   it('defaults limit to 45 and runs REAL via course-audio.yml', () => {
     expect(batch).toMatch(/limit:[\s\S]*?default: "45"/);
     expect(batch).toMatch(/uses: \.\/\.github\/workflows\/course-audio\.yml/);
-    expect(batch).toMatch(/dry_run: "false"/);
+    // the string 'false' as an expression: course-audio.yml types dry_run as a string, and
+    // actionlint rejects a bare YAML "false" there (PART L, 11 Nov). Same value: a REAL run.
+    expect(batch).toMatch(/dry_run: \$\{\{ 'false' \}\}/);
   });
   it('copies no audio code', () => {
     expect(batch).not.toMatch(/rclone|ffmpeg|transcode-one/);
