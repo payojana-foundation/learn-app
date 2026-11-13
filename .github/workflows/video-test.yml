@@ -1,0 +1,139 @@
+name: video-test
+
+# PART V2 — test encode. Picks `count` lessons of mixed Drive size (from the
+# lessons' cut MP4 / MiniCourse video), downloads each source to the runner
+# (read-only Drive), encodes 480p and 720p (H.264 veryfast + AAC, faststart,
+# never upscaled), measures MB per hour, encode minutes per hour of video and
+# SSIM. Writes reports/video-test.md (step summary + artifact "video-test").
+# UPLOADS NOTHING TO R2: this workflow has no R2 credential and no upload step.
+
+on:
+  workflow_dispatch:
+    inputs:
+      count:
+        description: How many lessons (mixed size)
+        required: false
+        default: '10'
+      crf:
+        description: libx264 CRF (lower = bigger, sharper)
+        required: false
+        default: '23'
+      audio_bitrate:
+        description: AAC bitrate of the video's sound track
+        required: false
+        default: 96k
+      ssim_seconds:
+        description: Seconds of each file compared for SSIM
+        required: false
+        default: '300'
+
+permissions:
+  contents: read
+  id-token: write # Workload Identity Federation
+
+concurrency:
+  group: video-test
+  cancel-in-progress: false
+
+jobs:
+  encode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 350
+    env:
+      COUNT: ${{ inputs.count }}
+      CRF: ${{ inputs.crf }}
+      AUDIO_BITRATE: ${{ inputs.audio_bitrate }}
+      SSIM_SECONDS: ${{ inputs.ssim_seconds }}
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v5
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Check the inputs
+        run: |
+          set -euo pipefail
+          [[ "$COUNT" =~ ^[0-9]{1,2}$ ]] || { echo "count must be 1–99"; exit 1; }
+          [[ "$CRF" =~ ^[0-9]{1,2}$ ]] || { echo "crf must be a number"; exit 1; }
+          [[ "$AUDIO_BITRATE" =~ ^[0-9]{2,3}k$ ]] || { echo "audio_bitrate like 96k"; exit 1; }
+          [[ "$SSIM_SECONDS" =~ ^[0-9]{1,5}$ ]] || { echo "ssim_seconds must be a number"; exit 1; }
+
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          ffmpeg -version | head -n 1
+
+      - name: Authenticate to Google Cloud (Workload Identity Federation)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/drive.readonly
+
+      - name: Pick lessons of mixed size
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: |
+          set -euo pipefail
+          node scripts/media/video-inventory.mjs ids data/master/lessons.csv video-ids.txt
+          node scripts/media/video-inventory.mjs fetch video-ids.txt video-meta.json
+          node scripts/media/video-test.mjs pick data/master/lessons.csv video-meta.json "$COUNT" picks.tsv
+          cat picks.tsv
+
+      - name: Encode 480p and 720p (local files only)
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: |
+          set -euo pipefail
+          : > results.ndjson
+          while IFS=$'\t' read -r id size _h; do
+            [ -n "$id" ] || continue
+            echo "── $id ($size bytes)"
+            curl -fsSL -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+              "https://www.googleapis.com/drive/v3/files/${id}?alt=media&supportsAllDrives=true" -o src.bin
+            dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 src.bin || echo 0)
+            sh=$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 src.bin || echo 0)
+            for r in 480 720; do
+              t0=$(date +%s.%N)
+              ffmpeg -nostdin -hide_banner -loglevel error -y -i src.bin \
+                -vf "scale=-2:'min(${r},ih)'" -c:v libx264 -preset veryfast -crf "$CRF" -pix_fmt yuv420p \
+                -c:a aac -b:a "$AUDIO_BITRATE" -movflags +faststart "out_${r}.mp4"
+              t1=$(date +%s.%N)
+              enc=$(awk -v a="$t0" -v b="$t1" 'BEGIN{printf "%.1f", b-a}')
+              ob=$(stat -c %s "out_${r}.mp4")
+              oh=$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 "out_${r}.mp4" || echo 0)
+              ffmpeg -nostdin -hide_banner -nostats -t "$SSIM_SECONDS" -i "out_${r}.mp4" -t "$SSIM_SECONDS" -i src.bin -an \
+                -lavfi "[1:v][0:v]scale2ref=flags=bicubic[ref][main];[main][ref]ssim" -f null - 2> ssim.log || true
+              ssim=$(node scripts/media/video-test.mjs ssim ssim.log)
+              node -e 'const [id,sb,sh,d,r,ob,oh,e,s]=process.argv.slice(1);process.stdout.write(JSON.stringify({id,rendition:r+"p",src_bytes:+sb,src_height:+sh||0,duration_s:+d||0,out_bytes:+ob,out_height:+oh||0,encode_s:+e,ssim:Number(s)})+"\n")' \
+                "$id" "$size" "$sh" "$dur" "$r" "$ob" "$oh" "$enc" "$ssim" >> results.ndjson
+              echo "   ${r}p: $((ob/1000000)) MB, ${enc}s, SSIM ${ssim}"
+              rm -f "out_${r}.mp4"
+            done
+            rm -f src.bin
+          done < picks.tsv
+
+      - name: Write reports/video-test.md
+        if: ${{ always() }}
+        run: |
+          set -euo pipefail
+          mkdir -p reports
+          [ -f results.ndjson ] || : > results.ndjson
+          node scripts/media/video-test.mjs report results.ndjson reports/video-test.md
+          cat reports/video-test.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload the report
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-test
+          path: |
+            reports/video-test.md
+            results.ndjson
+            picks.tsv
