@@ -1,0 +1,69 @@
+name: video-inventory
+
+# PART V1 — READ-ONLY video inventory. For every lesson in
+# data/master/lessons.csv with a cut MP4 (mp4_link) or MiniCourse video
+# (minicourse_link), reads Drive METADATA only (size, duration, resolution).
+# Nothing is downloaded, moved, renamed or deleted; nothing is committed.
+# Result: the run's step summary + artifact "video-inventory"
+# (reports/video-inventory.md + reports/video-inventory.csv).
+#
+# Auth: Workload Identity Federation (Drive read-only). Manual only.
+
+on:
+  workflow_dispatch: {}
+
+permissions:
+  contents: read
+  id-token: write # Workload Identity Federation
+
+concurrency:
+  group: video-inventory
+  cancel-in-progress: false
+
+jobs:
+  inventory:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v5
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: List the video Drive ids
+        run: |
+          set -euo pipefail
+          mkdir -p reports
+          node scripts/media/video-inventory.mjs ids data/master/lessons.csv video-ids.txt
+
+      - name: Authenticate to Google Cloud (Workload Identity Federation)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/drive.readonly
+
+      - name: Read Drive metadata (no download)
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: node scripts/media/video-inventory.mjs fetch video-ids.txt video-meta.json
+
+      - name: Write the report
+        run: |
+          set -euo pipefail
+          node scripts/media/video-inventory.mjs report data/master/lessons.csv video-meta.json reports/video-inventory.md reports/video-inventory.csv
+          cat reports/video-inventory.md >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Upload the report
+        uses: actions/upload-artifact@v4
+        with:
+          name: video-inventory
+          path: |
+            reports/video-inventory.md
+            reports/video-inventory.csv
+            video-meta.json
