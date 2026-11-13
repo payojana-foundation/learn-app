@@ -1,0 +1,119 @@
+name: master-sync
+
+# Master-sheet status sync. Writes ONLY the SYSTEM columns lesson_id, audio_status,
+# learn_live, acast_embed, acast_episode_id, issues (Lessons) and lesson_count (Courses),
+# matched by row_key, and only the cells that changed. Never touches a TEAM column, never
+# adds or deletes a row. Also commits public/ops/status.json (counts for the dashboard)
+# in write mode. Details: scripts/master/sync.mjs, docs/master-sheet.md "Sync".
+#
+#   mode = dry   (default) reads the sheet, writes the preview + report as an artifact;
+#                changes nothing.
+#   mode = write writes the changed cells and commits public/ops/status.json if it changed.
+#
+# The daily run uses the repo variable MASTER_SYNC_MODE (Settings -> Secrets and variables
+# -> Actions -> Variables), default "dry". Set it to "write" once the first manual write
+# looks right.
+
+on:
+  workflow_dispatch:
+    inputs:
+      sheet_id:
+        description: "Google Sheet id of the master content sheet"
+        required: false
+        default: "12MOXAOHwwtKa6DFVwbfRMj8UtaKmN1758boN1EUKNZs"
+      mode:
+        description: "dry = report only; write = update the SYSTEM cells and commit status.json"
+        required: true
+        type: choice
+        default: dry
+        options:
+          - dry
+          - write
+  schedule:
+    - cron: "47 3 * * *"
+
+permissions:
+  contents: write # commits public/ops/status.json in write mode
+  id-token: write # Workload Identity Federation
+
+concurrency:
+  group: data-rebuild-main
+  cancel-in-progress: false
+
+env:
+  SHEET_ID: ${{ inputs.sheet_id || '12MOXAOHwwtKa6DFVwbfRMj8UtaKmN1758boN1EUKNZs' }}
+  MODE: ${{ inputs.mode || vars.MASTER_SYNC_MODE || 'dry' }}
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - name: "Check out main (full history: the status date reads git log)"
+        uses: actions/checkout@v5
+        with:
+          ref: main
+          fetch-depth: 0
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Install (plus the xlsx reader for the frozen teacher sheets)
+        run: |
+          npm ci
+          npm install --no-save xlsx@0.18.5
+
+      - name: Authenticate to Google Cloud (Workload Identity Federation)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/spreadsheets
+
+      - name: Sync the SYSTEM columns
+        id: sync
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: node scripts/master/sync.mjs --mode "$MODE" --sheet-id "$SHEET_ID"
+
+      - name: Commit public/ops/status.json (write mode only)
+        id: commit
+        if: ${{ env.MODE == 'write' }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add public/ops/status.json
+          if git diff --cached --quiet; then
+            echo "committed=false" >> "$GITHUB_OUTPUT"
+          else
+            git commit -m "ops: status after master sync"
+            echo "committed=true" >> "$GITHUB_OUTPUT"
+          fi
+
+      - name: Push (pull --rebase, retry up to 3x)
+        if: ${{ steps.commit.outputs.committed == 'true' }}
+        run: bash scripts/ci/push-with-retry.sh origin main
+
+      - name: Upload the preview and the report
+        if: ${{ always() }}
+        uses: actions/upload-artifact@v4
+        with:
+          name: master-sync
+          path: |
+            reports/master-sync-preview.csv
+            reports/master-sync-report.md
+            public/ops/status.json
+          if-no-files-found: ignore
+
+      - name: Summary
+        if: ${{ always() }}
+        run: |
+          {
+            echo "### master-sync (${MODE})"
+            cat reports/master-sync-report.md 2>/dev/null || echo "no report"
+          } >> "$GITHUB_STEP_SUMMARY"

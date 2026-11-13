@@ -83,3 +83,16 @@ One row per distinct non-empty `course_id` of the Lessons rows, in order of firs
 ## Write mode
 
 `.github/workflows/master-seed.yml` (workflow_dispatch, inputs `sheet_id`, `mode` = dry | write). Only the write mode authenticates, with the `https://www.googleapis.com/auth/spreadsheets` scope. It REFUSES (exit 3) if the Lessons tab already has data rows. Order: Legacy, Lists and Courses first, then freeze, dropdowns and protected ranges (Lessons and Courses), and the Lessons rows last, so a failure half way leaves Lessons empty and a re-run is allowed. Values are written RAW (no formula parsing). The sheet owner can always edit a protected range; the protection keeps every other editor out.
+
+## Sync (master-sync.yml)
+
+`scripts/master/sync.mjs`, run by `.github/workflows/master-sync.yml` (manual, and daily at 03:47 UTC in the mode of the repo variable `MASTER_SYNC_MODE`, default `dry`). It writes ONLY these SYSTEM columns, matched by `row_key`, and only cells whose value changed: Lessons `lesson_id`, `audio_status`, `learn_live`, `acast_embed`, `acast_episode_id`, `issues`; Courses `lesson_count`. It never writes a TEAM column, never adds, deletes or resizes anything. A row without `row_key` (added by the team) or with a duplicate `row_key` is left alone and reported.
+
+- `lesson_id`: `lessonIdOf` (code, else `d-<source id>`); source id = the Drive id of the `source_type` link, else mp3 > mp4 > minicourse.
+- `audio_status`: from data/media-manifest.json, as at seed (approved > needs review > converted > not started).
+- `learn_live`: `yes` when the lesson is in the served public/data.
+- `acast_embed` / `acast_episode_id`: from the frozen teacher-sheet exports by `source_file` + `source_tab` + `source_row`; no match = unchanged.
+- `issues`: why the row is not shown today (`no source`, `duplicate source (an earlier row has it)`, `no approved media yet`), plus `hidden tab`, `teacher pending`, `no title`, `no source, no code`, `acast embed missing`, `source_type not set`. The first sync replaces the seed's catalogue wording with this wording.
+- `lesson_count`: Lessons rows with that `course_id`.
+
+It also writes `public/ops/status.json` (counts per course: lessons, live, audio status; and totals) for the future dashboard; the app does not read it. Dry mode writes `reports/master-sync-preview.csv` (tab, key, column, row, from, to) and `reports/master-sync-report.md`; write mode commits `public/ops/status.json` when it changed.
