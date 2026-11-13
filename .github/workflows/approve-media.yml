@@ -11,6 +11,12 @@ name: approve-media
 #   only an `approved` status (P-19). A correction is re-uploaded under a new key
 #   (`-v2`) by the pipeline, never by overwriting here.
 #
+# Mode "all-passing" (12 Nov, default off): approve every converted lesson that passed
+# the automatic pre-approval check (data/queues/approve/precheck.json, written by
+# approve-check.yml), i.e. every converted, unapproved lesson NOT in FLAGGED.md and not
+# waiting for a check. The ids field is ignored; the decision must be "approved".
+# "Dry run" lists what would be approved or decided and changes nothing (any mode).
+#
 # No external auth: this job only edits a repo file and pushes.
 
 on:
@@ -25,11 +31,28 @@ on:
           - rejected
         default: approved
       drive_file_ids:
-        description: "Comma-separated Drive file ids to decide on"
-        required: true
+        description: "Comma-separated Drive file ids to decide on (ignored in mode all-passing)"
+        required: false
+        default: ""
       reviewer:
         description: "Reviewer name (recorded in the manifest)"
         required: true
+      mode:
+        description: "per-ids = the ids above; all-passing = every lesson that passed the pre-approval check"
+        required: true
+        type: choice
+        options:
+          - per-ids
+          - all-passing
+        default: per-ids
+      dry_run:
+        description: "Dry run: only list what would change, change nothing"
+        required: true
+        type: choice
+        options:
+          - "false"
+          - "true"
+        default: "false"
 
 permissions:
   contents: write # commits the manifest decision to main
@@ -60,14 +83,35 @@ jobs:
           DECISION: ${{ github.event.inputs.decision }}
           REVIEWER: ${{ github.event.inputs.reviewer }}
           IDS: ${{ github.event.inputs.drive_file_ids }}
+          MODE: ${{ github.event.inputs.mode }}
+          DRY_RUN: ${{ github.event.inputs.dry_run }}
         run: |
           set -euo pipefail
-          node scripts/media/approve-manifest.mjs "$MANIFEST" "$DECISION" "$REVIEWER" "$IDS" | tee apply.log
+          DRY=""
+          if [ "$DRY_RUN" = "true" ]; then DRY="--dry-run"; fi
+          if [ "$MODE" = "all-passing" ]; then
+            if [ "$DECISION" != "approved" ]; then
+              echo "::error::mode all-passing only approves; set decision to approved"
+              exit 1
+            fi
+            node scripts/media/approve-manifest.mjs "$MANIFEST" all-passing "$REVIEWER" data/queues/approve/precheck.json $DRY | tee apply.log
+          else
+            if [ -z "$(printf '%s' "$IDS" | tr -d ' ,\n')" ]; then
+              echo "::error::mode per-ids needs the Drive file ids"
+              exit 1
+            fi
+            node scripts/media/approve-manifest.mjs "$MANIFEST" "$DECISION" "$REVIEWER" "$IDS" $DRY | tee apply.log
+          fi
           # Pull the applied count the script prints as APPLIED_COUNT=<n>.
-          COUNT="$(grep -oE 'APPLIED_COUNT=[0-9]+' apply.log | tail -n1 | cut -d= -f2 || echo 0)"
+          COUNT="$(grep -oE 'APPLIED_COUNT=[0-9]+' apply.log | tail -n1 | cut -d= -f2 || true)"
           echo "count=${COUNT:-0}" >> "$GITHUB_OUTPUT"
+          {
+            echo "### approve-media (${MODE}${DRY:+, dry run})"
+            grep -E '^(would approve|approved|applied|not approved|not found|decision|all-passing)' apply.log | cut -c1-2000
+          } >> "$GITHUB_STEP_SUMMARY"
 
       - name: Commit the decision to main
+        if: ${{ github.event.inputs.dry_run != 'true' }}
         env:
           DECISION: ${{ github.event.inputs.decision }}
           REVIEWER: ${{ github.event.inputs.reviewer }}

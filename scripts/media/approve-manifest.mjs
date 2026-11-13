@@ -104,12 +104,68 @@ export function approveCourse(manifest, driveIds, reviewer, reviewedAt) {
   return { manifest: next, approved, skipped };
 }
 
+/**
+ * "all-passing" mode (12 Nov): the ids of every converted lesson that PASSED the automatic
+ * pre-approval check (data/queues/approve/precheck.json, scripts/media/precheck.mjs), i.e.
+ * every converted, unapproved lesson NOT in FLAGGED.md and not waiting for a check. A pass
+ * only counts when the manifest entry still has the sha256 that was checked (a re-converted
+ * file must be checked again). Pure: returns
+ *   { ids, skipped: { flagged, pending, changed, approved, notFound } }
+ */
+export function allPassingIds(manifest, precheck) {
+  const list = Array.isArray(manifest) ? manifest : [];
+  const byId = new Map(list.filter((e) => e && e.drive_file_id).map((e) => [e.drive_file_id, e]));
+  const res = (precheck && precheck.results) || {};
+  const flaggedIds = new Set((res.flagged || []).map((f) => f.id));
+  const ids = [];
+  const skipped = {
+    flagged: (res.flagged || []).map((f) => f.id),
+    pending: (res.pending || []).map((p) => p.id),
+    changed: [],
+    approved: [],
+    notFound: [],
+  };
+  for (const p of res.pass || []) {
+    if (flaggedIds.has(p.id)) continue;
+    const e = byId.get(p.id);
+    if (!e) { skipped.notFound.push(p.id); continue; }
+    if (/^approved\b/i.test(e.status || '')) { skipped.approved.push(p.id); continue; }
+    if ((e.sha256 || '') !== (p.sha256 || '')) { skipped.changed.push(p.id); continue; }
+    ids.push(p.id);
+  }
+  return { ids, skipped };
+}
+
 function utcDate(d = new Date()) {
   return d.toISOString().slice(0, 10); // YYYY-MM-DD, UTC
 }
 
 function main() {
-  const [, , manifestPath, decision, reviewer, idsRaw] = process.argv;
+  // --dry-run (any position): list what would change, write nothing.
+  const dryRun = process.argv.includes('--dry-run');
+  const argv = process.argv.filter((a) => a !== '--dry-run');
+  const [, , manifestPath, decision, reviewer, idsRaw] = argv;
+  const write = (path, data) => {
+    if (dryRun) console.log('DRY RUN: the manifest was NOT changed.');
+    else writeFileSync(path, JSON.stringify(data, null, 2) + '\n', 'utf-8');
+  };
+  // "all-passing": approve every lesson that passed the pre-approval check. The 4th
+  // argument is the precheck.json path (default data/queues/approve/precheck.json).
+  if (decision === 'all-passing') {
+    if (!manifestPath || !reviewer) { console.error('all-passing needs <manifest.json> all-passing <reviewer> [precheck.json]'); process.exit(1); }
+    const precheckPath = idsRaw || 'data/queues/approve/precheck.json';
+    if (!existsSync(precheckPath)) { console.error(`${precheckPath} not found - run approve-check first`); process.exit(1); }
+    if (!existsSync(manifestPath)) { console.log(`manifest ${manifestPath} does not exist - nothing to approve.`); console.log('APPLIED_COUNT=0'); process.exit(0); }
+    const current = JSON.parse(readFileSync(manifestPath, 'utf-8'));
+    const { ids, skipped } = allPassingIds(current, JSON.parse(readFileSync(precheckPath, 'utf-8')));
+    const { manifest, applied } = applyDecision(current, ids, reviewer, 'approved', utcDate());
+    console.log(`all-passing by ${reviewer}${dryRun ? ' (DRY RUN)' : ''}`);
+    console.log(`${dryRun ? 'would approve' : 'approved'} (${applied.length}): ${applied.join(', ') || '(none)'}`);
+    console.log(`not approved - flagged ${skipped.flagged.length}, not checked yet ${skipped.pending.length}, re-converted since the check ${skipped.changed.length}, already approved ${skipped.approved.length}, not in the manifest ${skipped.notFound.length}`);
+    write(manifestPath, manifest);
+    console.log(`APPLIED_COUNT=${dryRun ? 0 : applied.length}`);
+    process.exit(0);
+  }
   if (!manifestPath || !decision || !reviewer || !idsRaw) {
     console.error(
       'Usage: node scripts/media/approve-manifest.mjs <manifest.json> <decision> <reviewer> <id[,id...]>\n' +
@@ -126,7 +182,7 @@ function main() {
     if (!existsSync(manifestPath)) { console.log(`manifest ${manifestPath} does not exist — nothing to approve.`); process.exit(0); }
     const current = JSON.parse(readFileSync(manifestPath, 'utf-8'));
     const { manifest, approved, skipped } = approveCourse(current, ids, reviewer, utcDate());
-    writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n', 'utf-8');
+    write(manifestPath, manifest);
     console.log(`course approve by ${reviewer}`);
     console.log(`approved ok (${approved.length}): ${approved.join(', ') || '(none)'}`);
     console.log(`needs coordinator — cap: ${skipped.cap.join(', ') || '(none)'}`);
@@ -134,7 +190,7 @@ function main() {
     console.log(`needs coordinator — failed: ${skipped.failed.join(', ') || '(none)'}`);
     if (skipped.other.length) console.log(`other/no-result: ${skipped.other.join(', ')}`);
     if (skipped.notFound.length) console.log(`not found: ${skipped.notFound.join(', ')}`);
-    console.log(`APPLIED_COUNT=${approved.length}`);
+    console.log(`APPLIED_COUNT=${dryRun ? 0 : approved.length}`);
     process.exit(0);
   }
   if (!DECISIONS.includes(decision)) {
@@ -157,13 +213,13 @@ function main() {
 
   const current = JSON.parse(readFileSync(manifestPath, 'utf-8'));
   const { manifest, applied, notFound } = applyDecision(current, ids, reviewer, decision, utcDate());
-  writeFileSync(manifestPath, JSON.stringify(manifest, null, 2) + '\n', 'utf-8');
+  write(manifestPath, manifest);
 
   console.log(`decision: ${decision} by ${reviewer}`);
   console.log(`applied (${applied.length}): ${applied.join(', ') || '(none)'}`);
   if (notFound.length) console.log(`not found (${notFound.length}): ${notFound.join(', ')}`);
   // Emit a count for the workflow commit message.
-  console.log(`APPLIED_COUNT=${applied.length}`);
+  console.log(`APPLIED_COUNT=${dryRun ? 0 : applied.length}`);
   process.exit(0);
 }
 
