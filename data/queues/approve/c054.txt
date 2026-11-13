@@ -1,8 +1,8 @@
-# c054 approve list, run review 2026-11-11
+# c054 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ មុនីបុត្តោ សុខ ធាវី
 # course: 1-Buddhism in English for Begin
 # queued 57 · converted 47 · approved 0 · failed 0 · not started 10
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AENGST0000101	1ESvyy1-2dNZRdFftgUCNBNqOWIWnU3gg	DRAFT	56.4	-18.1	ok	https://media.84000.digital/audio/d464f4abede2a274-a64.mp3	Buddhism in English for Beginners
 2	AENGST0000102	1U48-wVkhqFU8VBGNjRE9HyGqNf_HG7Ol	DRAFT	64.9	-18.2	ok	https://media.84000.digital/audio/23bdebae128441ad-a64.mp3	Buddhism in English for Beginners

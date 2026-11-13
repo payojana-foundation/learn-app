@@ -1,8 +1,8 @@
-# c048 approve list, run review 2026-11-11
+# c048 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង
 # course: 3-បរិច្ឆេទទី​៣ (ឆ្នាំ ២០២៤)
 # queued 70 · converted 70 · approved 0 · failed 0 · not started 0
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AABH000VS2024.3001	1s5E1sAh-7x-BUFxrKDdMFBUUCa9YQkuM	DRAFT	61.9	-18.3	ok	https://media.84000.digital/audio/e8f8796ea687987e-a64.mp3	១ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី​ ១
 2	AABH000VS2024.3002	1kt9iCBsdM8g8lc2d-zCfRpUfbvDyhP0-	DRAFT	65.2	-18.2	ok	https://media.84000.digital/audio/05acd7503ee5db78-a64.mp3	២ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី៣ បកិណ្ណកសង្គហវិភាគ មេរៀនថ្ងៃទី​ ២

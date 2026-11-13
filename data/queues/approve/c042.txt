@@ -1,8 +1,8 @@
-# c042 approve list, run review 2026-11-11
+# c042 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន
 # course: 4-វគ្គខ្លីលើកទី ១ នៅកែប
 # queued 18 · converted 4 · approved 0 · failed 0 · not started 14
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	ASVIKEPHB0101	13RVJqJds_MOgyBcXT8o8elkRtnDzwyqi	DRAFT	58.9	-18.2	ok	https://media.84000.digital/audio/4a12207dee416690-a64.mp3	វគ្គខ្លីលើកទី ១ នៅកែប ម៉ោងទី 1
 2	ASVIKEPHB0102	1V1HqzUv0Rp4CEQMJANeME20EKt1PCYXU	DRAFT	35.4	-18.1	ok	https://media.84000.digital/audio/573540039d01c7e1-a64.mp3	វគ្គខ្លីលើកទី ១ នៅកែប ម៉ោងទី 2

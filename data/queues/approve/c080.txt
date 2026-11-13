@@ -1,8 +1,8 @@
-# c080 approve list, run review 2026-11-11
+# c080 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: វេស្សន្តរជាតក
 # queued 5 · converted 3 · approved 0 · failed 0 · not started 2
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 3	AJAD00YYX0103	1pGnc9xSWLt7LYxtLYMsavws1HZQ5MkAC	DRAFT	71.1	-18.4	ok	https://media.84000.digital/audio/caeb061789c8c52b-a64.mp3	3.ថ្នាក់កុមារ និទានជាតក ភាគ០៣ សិក្សាវេស្សន្តរជាតក គាថាហិមវន្តវណ្ណា .mp3
 9	AJAD00YYX0109	190sjSBP5WKSW9L-8vS8-Wj2T8V1Bi9d8	DRAFT	73.0	-18.6	cap	https://media.84000.digital/audio/8585fe6c13d146b8-a64.mp3	9.ថ្នាក់កុមារ និទានជាតក ភាគ០៩ សិក្សាវេស្សន្តរជាតក ទារកបព្វ_លះបង់កូនទៅតាជូជក.mp3

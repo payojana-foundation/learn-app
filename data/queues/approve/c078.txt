@@ -1,8 +1,8 @@
-# c078 approve list, run review 2026-11-11
+# c078 approve list, 2026-11-13
 # teacher: អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង
 # course: 8-វចនានុក្រមព្រះពុទ្ធសាសានា
 # queued 72 · converted 68 · approved 0 · failed 0 · not started 4
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AOTHDICTMS001	1A1a3dGuvuszeCetycjDjS-UPF6_pP7w1	DRAFT	29.8	-18.1	ok	https://media.84000.digital/audio/04906a673e7cb940-a64.mp3	001_វចនានុក្រម
 2	AOTHDICTMS002	1MMLK9cK4iV-AwY0OPRaRyAUdRe05C0b5	DRAFT	31.7	-18.2	ok	https://media.84000.digital/audio/7735be8ccc36e7e8-a64.mp3	002. វចនានុក្រម May 2 2024

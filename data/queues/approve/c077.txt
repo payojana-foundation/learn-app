@@ -1,8 +1,8 @@
-# c077 approve list, run review 2026-11-11
+# c077 approve list, 2026-11-13
 # teacher: អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង
 # course: 6-បច្ចេកពុទ្ធ
 # queued 57 · converted 55 · approved 0 · failed 0 · not started 2
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AJAD000MSS001	10PNf5UsZSdqvCoXgS7czUKzrT7OcK8ZF	DRAFT	75.5	-18.2	ok	https://media.84000.digital/audio/fda829f1c8240ce8-a64.mp3	១ បច្ចេកពុទ្ធ (បាត់ភាគដំបូង ១ភាគ).mp4
 2	AJAD000MSS002	1mmxK3TALVv0zQziUbpw7yviYoUrPRrzQ	DRAFT	46.2	-18.1	ok	https://media.84000.digital/audio/77212c3c8ec7b7a1-a64.mp3	២ បច្ចេកពុទ្ធ.mp4

@@ -1,8 +1,8 @@
-# c047 approve list, run review 2026-11-11
+# c047 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង
 # course: ០០​​​​​​​​​ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃបើកថ្នាក់ដំបូង
 # queued 100 · converted 97 · approved 0 · failed 0 · not started 3
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AABH000VS2022.1001	1vYNVFRr9BjiiwtaGHiMgEvA2Az7nof1b	DRAFT	35.5	-18.2	ok	https://media.84000.digital/audio/db152206d9331aec-a64.mp3	០១ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី១
 2	AABH000VS2022.1002	1QXaz4z91jl3qRu_iaCACI2804cZI0l44	DRAFT	53.6	-18.2	ok	https://media.84000.digital/audio/54b480911b1823e4-a64.mp3	០២ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃទី២

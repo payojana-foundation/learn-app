@@ -1,8 +1,8 @@
-# c037 approve list, run review 2026-11-11
+# c037 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: 6-បិដកលេខ២១
 # queued 24 · converted 22 · approved 0 · failed 0 · not started 2
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	ASUT021YY0001	1CQJEpXDtcEBE6CiEljjvGAULEc58ciJK	DRAFT	117.0	-18.2	ok	https://media.84000.digital/audio/25c082ea7f8425d6-a64.mp3	បិដកលេខ២១-០១ កកចូបមសូត្រ ការនៅច្រឡូកច្រឡំជាមួយភិក្ខុនី និងឆាន់ក្នុងអាសនៈតែមួយ
 3	ASUT021YY0003	1trEIUyXiJT1aktQemKAi5hYuuaS0WvID	DRAFT	115.3	-18.2	ok	https://media.84000.digital/audio/820cade904e9d38f-a64.mp3	បិដកលេខ២១-០៣ អលគទ្ទូបមសូត្រ អរិដ្ឋភិក្ខុមានទិដ្ឋិអាក្រក់

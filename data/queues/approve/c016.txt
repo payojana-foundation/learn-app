@@ -1,8 +1,8 @@
-# c016 approve list, run review 2026-11-11
+# c016 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: 11-A.S.បរិច្ឆេទ ទី៥(២០២២)
 # queued 82 · converted 78 · approved 0 · failed 0 · not started 4
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AABH000YY2022.5001	1M5gfMfEwZujPCqX7uDyqJGpryp_pPYkW	DRAFT	96.2	-18.2	ok	https://media.84000.digital/audio/dfcd43c3fa9ff5f4-a64.mp3	បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ 01 ថ្ងៃបើកវិគ្គបរិច្ឆេទទី ៥ ដំបូង.mp3
 2	AABH000YY2022.5002	1jgeIN5VK8L7XpWoIjvynN8WKxEDnPbxm	DRAFT	98.9	-18.2	ok	https://media.84000.digital/audio/1899e2a367d506b5-a64.mp3	បរិច្ឆេទទី៥ វិថីមុត្តសង្គហវិភាគ 02 និយមន័យនរក ឬនិរយ.mp3

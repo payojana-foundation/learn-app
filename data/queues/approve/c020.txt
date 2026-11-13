@@ -1,8 +1,8 @@
-# c020 approve list, run review 2026-11-11
+# c020 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: 14-A.S.បរិច្ឆេទ ទី៩ (២០២០)
 # queued 41 · converted 39 · approved 0 · failed 0 · not started 2
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 2	AABH000YY2020.9002	1cuUhmNg_a4OB7ZSUkgunY-B2uBy3dny5	DRAFT	86.2	-18.3	ok	https://media.84000.digital/audio/eced7d266ca3c9fe-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 02 ចរិតលាយគ្នា ៦៣ ចរិត.mp3
 3	AABH000YY2020.9003	1ztQus5EBNqpeB_OCh63_CyjeZ-O6CFXM	DRAFT	85.0	-18	ok	https://media.84000.digital/audio/e4c9b1d804673ee7-a64.mp3	បរិច្ឆេទ ទី៩ កម្មដ្ឋាន 03 បលិពោធ គ្រឿងកង្វល់របស់សមាធិ១០.mp3

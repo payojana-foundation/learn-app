@@ -1,8 +1,8 @@
-# c065 approve list, run review 2026-11-11
+# c065 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញោ ថូ ចន្ថា
 # course: 1-សតិបដ្ឋាន
 # queued 54 · converted 54 · approved 0 · failed 0 · not started 0
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	ASUT000TC0001	1RzHj2KHaXCBtWV_sBo8DoQAbwoZC6UiT	DRAFT	30.1	-18.2	ok	https://media.84000.digital/audio/0024433caf8fb2cb-a64.mp3	សិក្សារសតិប្បដ្ឋាន ភាគ០១ (លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញ ថូ ចន្ថា).mp3
 2	ASUT000TC0002	1k_P0lkN54gvb3erX6Xz-wpbo1LpIhOQ_	DRAFT	58.7	-18.2	ok	https://media.84000.digital/audio/b59bcef08836414f-a64.mp3	សិក្សារសតិប្បដ្ឋាន ភាគ០២ (លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញ ថូ ចន្ថា).mp3

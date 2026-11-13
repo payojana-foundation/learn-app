@@ -1,8 +1,8 @@
-# c012 approve list, run review 2026-11-11
+# c012 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: 7-A.S.បរិច្ឆេទ ទី១ (២០២៣)
 # queued 168 · converted 158 · approved 0 · failed 10 · not started 0
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AABH000YY2023.1001	1uIj70CnF2ccTlRcHIHrcifYz9bPvQYCt	DRAFT	83.4	-18.1	ok	https://media.84000.digital/audio/854e36fe73d57bf8-a64.mp3	០២  ប្រយោជន៍នៃការសិក្សាព្រះអភិធម្ម
 2	AABH000YY2023.1002	1_D86jneFS0wHrtGAyXoY9fLLVpvjj9jp	DRAFT	67.6	-18.2	ok	https://media.84000.digital/audio/a2dec45448a2924c-a64.mp3	០៣ និយមន័យ ពាក្យថា អភិធម្ម

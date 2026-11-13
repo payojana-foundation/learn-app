@@ -1,8 +1,8 @@
-# c009 approve list, run review 2026-11-11
+# c009 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: 4-បរិច្ឆេទ ទី៤ កាត់ស្អាត(២០២៥)
 # queued 63 · converted 39 · approved 0 · failed 0 · not started 24
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AABH000YY2025.4001	1az2JbEY4BCjinZNEO-zAvIOzM_dAS2GL	DRAFT	67.2	-18.7	cap	https://media.84000.digital/audio/563fed3b349d22c9-a64.mp3	០១ ចែកឆក្កៈចែក ៦ យ៉ាង ថ្ងៃបើកវគ្គថ្មី/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤
 4	AABH000YY2025.4004	1FcIt8MpERQrDB6KSoY5SKpFf2ysk4h4e	DRAFT	65.7	-18.8	cap	https://media.84000.digital/audio/2a944bed56a99f6a-a64.mp3	០៤ ចែកចិត្តនិងបុគ្គល និងភូមិទាំង ៣១/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤

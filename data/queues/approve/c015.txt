@@ -1,8 +1,8 @@
-# c015 approve list, run review 2026-11-11
+# c015 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: 10-A.S.បរិច្ឆេទ ទី៤(២០២៤)
 # queued 71 · converted 62 · approved 0 · failed 0 · not started 9
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AABH000YY2024.4001	1TwbOCq6XKZcPNKAmSo7w4f8UGdHMWyZf	DRAFT	94.6	-18.2	ok	https://media.84000.digital/audio/6ef1886eee558c5c-a64.mp3	បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ០១ ពណ៌នាអំពីឆក្កធម៌មាន ៦ យ៉ាង(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី)
 2	AABH000YY2024.4002	10BmaitgrGXtI6BbUmF46-ctFr83xjFSu	DRAFT	90.3	-18.9	cap	https://media.84000.digital/audio/7b3308952a249743-a64.mp3	បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ ភាគ០២ ចែកវិថីចិត្តក្នុងបុគ្គល ១២​ ពួក(ភិក្ខុអគ្គចិត្តោ យ៉ុន យី)

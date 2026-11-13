@@ -1,8 +1,8 @@
-# c083 approve list, run review 2026-11-11
+# c083 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ ឡេង ស៊ីដែន
 # course: 3-បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី
 # queued 9 · converted 9 · approved 0 · failed 0 · not started 0
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	d-1jhUWczHA9YV8x_AnOszEVEWTJvs8-PRF	1jhUWczHA9YV8x_AnOszEVEWTJvs8-PRF	DRAFT	12.9	-18.2	ok	https://media.84000.digital/audio/043b2e4253bc39fd-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០១(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)
 2	d-1XX0L9oFTGajz3LW2rzAmxJZ4LILprgkX	1XX0L9oFTGajz3LW2rzAmxJZ4LILprgkX	DRAFT	11.3	-18.3	ok	https://media.84000.digital/audio/d35cc5c07c0f2c7a-a64.mp3	បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី៥ ភាគ ០២(ដោយព្រះភិក្ខុពុទ្ធង្កុរឡេង ស៊ីដែន)

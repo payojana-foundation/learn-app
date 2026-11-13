@@ -1,8 +1,8 @@
-# c057 approve list, run review 2026-11-11
+# c057 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ មុនីចរិយាវង្ស ហ៊ុន ខេមរា
 # course: 1-បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត
 # queued 51 · converted 51 · approved 0 · failed 0 · not started 0
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	APSYHK0010001	1yfHeRNiqbnKdycoNz-u1x5w1LvVdFX9A	DRAFT	52.7	-18.1	ok	https://media.84000.digital/audio/5192b03677cc6dba-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ០១
 2	APSYHK0010002	1nDA-Is5zNBZH3d1DVvShGQ_AVBMiL3-U	DRAFT	26.5	-18.1	ok	https://media.84000.digital/audio/a332d04819af79f5-a64.mp3	ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព ម៉ោងទី ០២

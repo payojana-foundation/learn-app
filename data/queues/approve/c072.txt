@@ -1,8 +1,8 @@
-# c072 approve list, run review 2026-11-11
+# c072 approve list, 2026-11-13
 # teacher: អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង
 # course: 1-បិដកលេខ ១៤
 # queued 24 · converted 24 · approved 0 · failed 0 · not started 0
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	ASUT014MS0001	1p_JXs6Nbp6HodaTEaG2z2DTl0Cl7ZMlv	DRAFT	33.5	-18.1	ok	https://media.84000.digital/audio/50f87dd999a2e2fd-a64.mp3	០1-០២ ឧសភា ២០២៥-នាទីធម្មចរិយាការបដិបត្តិដ៍ប្រសើរ! សិក្សារក្នុង សុត្តន្តបិដក ទីឃនិកាយ បឋមភាគ (សីលក្ខន្ធវគ្គ)បិដកលេខ១៤
 2	ASUT014MS0002	1NxLOOwUj7qKj87-VEjTz5kJKwwJ1WNZ1	DRAFT	29.7	-18.2	ok	https://media.84000.digital/audio/d25a6b4d38a7365a-a64.mp3	02-០៩ ឧសភា ២៥ នាទីធម្មចរិយា សិក្សារក្នុងបីដកលេខ១៤ ព្រហ្មជាលសូត្រ ទីឃនិកាយ បឋមភាគ(សីលកន្ធវគ្គ) សូមអនុមោទ

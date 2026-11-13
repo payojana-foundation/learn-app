@@ -1,8 +1,8 @@
-# c001 approve list, run review 2026-11-11
+# c001 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ ពុទ្ធិកាលង្ការ ផេង ឌីណា
 # course: 1-បរិច្ឆេទ ទី ៨
 # queued 57 · converted 26 · approved 0 · failed 0 · not started 31
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 10	d-10AaBuEl6O1HtUYDQkeDznuGrBaAA5fjt	10AaBuEl6O1HtUYDQkeDznuGrBaAA5fjt	DRAFT	69.3	-18.2	ok	https://media.84000.digital/audio/0312a64b8e5d13c4-a64.mp3	10.July 17 2024 2034p.m.អភិធម្មបរិច្ឆេទទី ៨ បច្ចយបរិច្ឆេទ  ម៉ោងទី ១៣.mp4
 11	d-1qyIRbWaDdtFyVP3CEZE2xhAXonhWB67x	1qyIRbWaDdtFyVP3CEZE2xhAXonhWB67x	DRAFT	62.0	-18.1	ok	https://media.84000.digital/audio/e82e701dccf8c81e-a64.mp3	11.July 18 2024 2039p.m.អភិធម្មបរិច្ឆេទទី ៨ បច្ចយបរិច្ឆេទ  ម៉ោងទី ១៤.mp4

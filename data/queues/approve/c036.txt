@@ -1,8 +1,8 @@
-# c036 approve list, run review 2026-11-11
+# c036 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: ព្រះត្រៃបិដកបាលីភាគ២០
 # queued 91 · converted 85 · approved 0 · failed 0 · not started 6
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 2	ASUT020YY0002	1uRQ3IU6nTxPgufAapDi2NeDI6gBmioDi	DRAFT	93.7	-19	cap	https://media.84000.digital/audio/004d8da3bf8bcb3e-a64.mp3	បិដកលេខ២០-០២ មូលបរិយាយសូត្រ មានះរបស់បុថុជ្ជនរៀនធម៌ (បិដកលេខ ២០ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
 3	ASUT020YY0003	1zKFJ5FBHDOwSz_8QxGeSfU36h-JIkAg6	DRAFT	85.9	-18.1	ok	https://media.84000.digital/audio/04914d6a9cfb0848-a64.mp3	បិដកលេខ២០-០៣ បុថុជ្ជនសំគាល់ដីថាជារបស់ខ្លួន (បិដកលេខ ២០ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4

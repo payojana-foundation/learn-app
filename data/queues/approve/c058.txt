@@ -1,8 +1,8 @@
-# c058 approve list, run review 2026-11-11
+# c058 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ មុនីចរិយាវង្ស ហ៊ុន ខេមរា
 # course: 2-ញាណទស្សនៈ (២០២៦)
 # queued 37 · converted 30 · approved 0 · failed 0 · not started 7
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 2	AMEDHK0010002	1CopRZqFoZoLnxqZhN24lJZoY7B20_fdu	DRAFT	77.4	-18.2	ok	https://media.84000.digital/audio/965e583bb48cd35e-a64.mp3	2-Ñāṇa-12Apr2026.mp4
 4	AMEDHK0010004	1EfJuc1OOK-TBwfi8yc-Dljk74wrHujJq	DRAFT	91.4	-18.6	cap	https://media.84000.digital/audio/7992b7c2631dad8b-a64.mp3	4-Ñāṇa-26Apr2026.mp4

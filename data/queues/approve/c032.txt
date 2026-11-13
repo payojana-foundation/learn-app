@@ -1,8 +1,8 @@
-# c032 approve list, run review 2026-11-11
+# c032 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: ព្រះត្រៃបិដកបាលីភាគ១៦
 # queued 23 · converted 19 · approved 0 · failed 0 · not started 4
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	ASUT016YY0001	162eEDRK6aKKkKGKWPJuuCCgm9yQvUfL8	DRAFT	93.6	-18.1	ok	https://media.84000.digital/audio/9c71181d1b638796-a64.mp3	បិដកលេខ១៦ 01 មហាបទានសូត្រ របៀបអានព្រះត្រ័យបិដក ប្រវត្តិព្រះអដ្ឋកថា (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
 2	ASUT016YY0002	1IViUcmoIOwTRYhTipacaFFUmzp5DzcxM	DRAFT	84.7	-18.1	ok	https://media.84000.digital/audio/08dc7ee3249ad3cf-a64.mp3	បិដកលេខ១៦ 02 បុព្វេនិវាសរបស់ព្រះពុទ្ធ (បិដកលេខ ១៦ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4

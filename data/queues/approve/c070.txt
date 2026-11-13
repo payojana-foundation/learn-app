@@ -1,8 +1,8 @@
-# c070 approve list, run review 2026-11-11
+# c070 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា
 # course: 3-Buddhism in English Level 3 b
 # queued 30 · converted 22 · approved 0 · failed 0 · not started 8
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AENGSR0000301	1d2zNCdycaO1A-cqK5nXPIWP-w_Op83dx	DRAFT	49.3	-18.1	ok	https://media.84000.digital/audio/a08e0ef9a0f0a43f-a64.mp3	1-30Jul2025.mp3
 2	AENGSR0000302	1JIh_8RNFfw71J1AsnaVwiIIHEwvwgFcZ	DRAFT	80.7	-18.2	ok	https://media.84000.digital/audio/8ac63f42469c1dce-a64.mp3	2-31Jul2025.mp3

@@ -1,8 +1,8 @@
-# c006 approve list, run review 2026-11-11
+# c006 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: 1-បរិច្ឆេទ ទី១ កាត់ស្អាត (២០២២)
 # queued 174 · converted 171 · approved 0 · failed 0 · not started 3
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AABH000YY2022.1001	1Cs75pysScA9GsJHA4RtDcUUo75mN1u-w	DRAFT	61.3	-18.2	ok	https://media.84000.digital/audio/ec91fab5e519d024-a64.mp3	០១ និយមន័យអភិធម្ម
 2	AABH000YY2022.1002	16DLFnLjQ3ICsven24gi_rbL_lCxCCqeD	DRAFT	72.0	-18.8	cap	https://media.84000.digital/audio/bc99e2362f1fb921-a64.mp3	០២ សច្ច:២យ៉ាង

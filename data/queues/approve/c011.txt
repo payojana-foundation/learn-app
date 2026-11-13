@@ -1,8 +1,8 @@
-# c011 approve list, run review 2026-11-11
+# c011 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: 6-បរិច្ឆេទ ទី៦ កាត់ស្អាត(២០២៤)
 # queued 55 · converted 53 · approved 0 · failed 0 · not started 2
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AABH000YY2024.6001	1nJuAh9bP0fuOtHc8IPzHHg6lz357djVH	DRAFT	45.1	-18.2	ok	https://media.84000.digital/audio/9b556d4ee18d7140-a64.mp3	០១ និយមន័យរូប ពាក្យថា រូបក្ខន្ធ/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី រូបបរមត្ថ
 2	AABH000YY2024.6002	18K1V-1FaWgNu35wPpqogDE-bsDhqjWTY	DRAFT	79.5	-18.4	ok	https://media.84000.digital/audio/dbd999417180c9ea-a64.mp3	០២ និយមន័យរូប ៧ ន័យ និងវចនត្ថៈរបស់រូប/ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី រូបបរមត្ថ បរិច្ឆេទទី៦

@@ -1,8 +1,8 @@
-# c023 approve list, run review 2026-11-11
+# c023 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: តេមិយជាតក
 # queued 4 · converted 3 · approved 0 · failed 0 · not started 1
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AJAD00YYX0301	1GKfbPyAW1EqKcVaIWBlhHK6GfSNOS8Mw	DRAFT	48.0	-18.4	ok	https://media.84000.digital/audio/0a29fed96b959b4a-a64.mp3	១-៧៦ បញ្ចប់ភូរិទត្តជាតក  ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​-1.mp4
 2	AJAD00YYX0302	1KGRtOUxT7h76x5ySNGk8FpeAeQLBMySz	DRAFT	71.8	-18.9	cap	https://media.84000.digital/audio/036616f1415d2b07-a64.mp3	២-៧៧ តេមិយជាតក ទ្រង់បំពេញនេក្ខម្មបារមី ពោធិសត្វទ្រាំអស់១៦ឆ្នាំ

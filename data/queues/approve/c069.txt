@@ -1,8 +1,8 @@
-# c069 approve list, run review 2026-11-11
+# c069 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា
 # course: 2-Buddhism in English Level 2 b
 # queued 27 · converted 1 · approved 0 · failed 0 · not started 26
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 14	AENGSR0000214	1Z2QLUlBs9hfok382M5pDm0KV1aPJvxTG	DRAFT	78.4	-18.8	cap	https://media.84000.digital/audio/6953dca50a2d28a1-a64.mp3	14.) 1Apr2025 Tuesday.mp4
 

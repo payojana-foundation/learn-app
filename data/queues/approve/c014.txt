@@ -1,8 +1,8 @@
-# c014 approve list, run review 2026-11-11
+# c014 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: 9-A.S.បរិច្ឆេទ ទី៤(២០២២)
 # queued 64 · converted 50 · approved 0 · failed 0 · not started 14
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 8	AABH000YY2022.4008	1F_VnyEfvPO2u3nm5CGe9iJH_x42CKHIO	DRAFT	90.0	-18.7	cap	https://media.84000.digital/audio/436276034477711a-a64.mp3	បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 08  អតិមន្តារម្មណ៍ប្រភេទទី១.mp3
 9	AABH000YY2022.4009	1bBx95Hn0JQxSBmSzuWaU8hEHWYylrXaF	DRAFT	86.2	-18.1	ok	https://media.84000.digital/audio/25f93be8d2d31885-a64.mp3	បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ 09  អតិមន្តារម្មណ៍ប្រភេទទី២.mp3

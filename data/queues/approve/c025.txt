@@ -1,8 +1,8 @@
-# c025 approve list, run review 2026-11-11
+# c025 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ ធម្មសេនា ហាក់ សៀងហៃ
 # course: 1-Dhamma in English( វគ្គ ១)
 # queued 58 · converted 49 · approved 0 · failed 0 · not started 9
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AENGHS0000101	16RY2DZyLNSStqiZUi-xSI99aE0f0aRgf	DRAFT	6.8	-18.2	ok	https://media.84000.digital/audio/a70a88e690aa35c9-a64.mp3	១ Buddhism in English by Ven.Hak Sienghai_ 1.mp4
 2	AENGHS0000102	1m37Q8Hjvr7sGsbb35UlpiDSrOYbcblkD	DRAFT	9.4	-18.5	ok	https://media.84000.digital/audio/4c180ef37b8ce455-a64.mp3	២ Buddhism in English by Ven.Hak Sienghai_ 2.mp4

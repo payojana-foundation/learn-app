@@ -1,8 +1,8 @@
-# c049 approve list, run review 2026-11-11
+# c049 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង
 # course: 4-បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ (ឆ
 # queued 142 · converted 141 · approved 0 · failed 0 · not started 1
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AABH000VS2024.4001	1qt5j23yUpCMpZnUWtytdGo5iUmb8l6_0	DRAFT	30.5	-18.4	ok	https://media.84000.digital/audio/e01c7f9c19455719-a64.mp3	១ ផ្តើមវិថីសង្គហវិភាគ មេរៀនថ្ងៃទី ៤ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង្គហវិភាគ
 2	AABH000VS2024.4002	1JzdhPymgkazGa9MUdxpn_VFxUoRSqwqG	DRAFT	61.4	-18.3	ok	https://media.84000.digital/audio/4110fc583a9ec581-a64.mp3	២ សង្គហគាថា មេរៀនថ្ងៃទី ២ ព្រះអភិធម្ម​បរិច្ឆេទ​ទី ៤ វិថីសង្គហវិភាគ

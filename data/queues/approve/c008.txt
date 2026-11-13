@@ -1,8 +1,8 @@
-# c008 approve list, run review 2026-11-11
+# c008 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: 3-បរិច្ឆេទ ទី៣ កាត់ស្អាត(២០២៥)
 # queued 55 · converted 54 · approved 0 · failed 0 · not started 1
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AABH000YY2025.3001	1_Bd61UVWgR-x-m9UV3bnPkQrnT85AaBI	DRAFT	53.0	-18.2	ok	https://media.84000.digital/audio/54d63a3ea3395290-a64.mp3	០១ រម្លឹកបរមត្ថធម៌៤.mp4
 2	AABH000YY2025.3002	1wHcb_CO5d_brdT7g2CSbOPggTLe9jtLB	DRAFT	95.7	-18.7	cap	https://media.84000.digital/audio/4e1d288c0d4d85e5-a64.mp3	០២ និយមន័យវេទនា.mp4

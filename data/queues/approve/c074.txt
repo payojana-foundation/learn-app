@@ -1,8 +1,8 @@
-# c074 approve list, run review 2026-11-11
+# c074 approve list, 2026-11-13
 # teacher: អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង
 # course: 3-រាត្រីធម្មទាន
 # queued 463 · converted 453 · approved 0 · failed 0 · not started 10
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	AABH000MSN001	1xb0kLA3aqkPKfbe3-ArU3nhIPh229Prb	DRAFT	49.8	-18.2	ok	https://media.84000.digital/audio/b805db819b5b7b00-a64.mp3	2 3 រាត្រីធម្មទាន
 2	AABH000MSN002	1xVw-q2RYMCc0sIwzNpUSdNRiQQ_mq_LR	DRAFT	50.4	-18.2	ok	https://media.84000.digital/audio/3862b26b0d27a9c3-a64.mp3	4 5 រាត្រីធម្មទាន

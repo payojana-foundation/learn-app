@@ -1,8 +1,8 @@
-# c039 approve list, run review 2026-11-11
+# c039 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន
 # course: 1-ថ្នាក់សមថៈ វិបស្សនា​២០២២
 # queued 39 · converted 36 · approved 0 · failed 0 · not started 3
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	ASVIWKN202201	1R6k26ZytcSIiCS-WdhUmCzGp8b3z2WYB	DRAFT	62.6	-18.6	cap	https://media.84000.digital/audio/bd58c5a9a37d9b14-a64.mp3	00-ថ្នាក់សមថៈ វិបស្សនា បង្រៀនដោយ ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន (សេចក្តីផ្តើម)
 2	ASVIWKN202202	1h4r7ZEofFbLA6cPHVCkUoVu8LHjEKXOj	DRAFT	36.0	-18.4	ok	https://media.84000.digital/audio/1d830005a500798f-a64.mp3	01-ថ្នាក់សមថៈ វិបស្សនា បង្រៀនដោយ ព្រះ មហាមុនី​ ហុឹម ប៊ុនធឿន-2022-02-26 (សប្តាហ៍ទី១)

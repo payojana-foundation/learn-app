@@ -1,8 +1,8 @@
-# c073 approve list, run review 2026-11-11
+# c073 approve list, 2026-11-13
 # teacher: អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង
 # course: 2-បិដកលេខ ១៥
 # queued 26 · converted 19 · approved 0 · failed 0 · not started 7
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	ASUT015MS0001	1KBiSTERRYvA0bVutkwEK8c5xlyt7f2BG	DRAFT	52.2	-18	ok	https://media.84000.digital/audio/c06a86cbf0326d64-a64.mp3	01-០៨ សីហា ២០២៥  នាទីធម្មចរិយា សិក្សាបិដក លេខ១៥ក្នុងសុត្តន្តបិដក ទីឃនិកាយទុតិយភាគ (សីលក្ខន.mp4
 2	ASUT015MS0002	1RYL_9_s8ypjtYNIejWflMiYwsPB_jB1z	DRAFT	55.0	-18.1	ok	https://media.84000.digital/audio/a6a9c1d68c538d1f-a64.mp3	02-១០ សីហា ២០២៥ នាទីធម្មចរិយា! សិក្សាបិដកលេខ១៥ សុតន្តបិដក ទីឃនិកាយ ទុតិយភាគ កូដទន្តសូត.mp4

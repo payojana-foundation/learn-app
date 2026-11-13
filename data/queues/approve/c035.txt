@@ -1,8 +1,8 @@
-# c035 approve list, run review 2026-11-11
+# c035 approve list, 2026-11-13
 # teacher: លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី
 # course: ព្រះត្រៃបិដកបាលីភាគ១៩
 # queued 30 · converted 24 · approved 0 · failed 0 · not started 6
-# play links = https://media.84000.digital + "/" + the manifest key (docs/DEPLOY.md VITE_MEDIA_BASE_URL)
+# play links = https://media.84000.digital + "/" + the manifest key (src/config.ts, docs/DEPLOY.md VITE_MEDIA_BASE_URL)
 # columns (tab separated): lesson no · lesson id · drive_file_id · status · minutes · integrated loudness (I) · result · play link · title
 1	ASUT019YY0001	1BuZXm1M63XgV0PRzV_GjxMNPsSXjp2Gj	DRAFT	88.3	-18.1	ok	https://media.84000.digital/audio/cb0b82999b576368-a64.mp3	បិដកលេខ១៩ 01 លក្ខណៈសូត្រ និយាយពីមហាបុរិសលក្ខណៈ ៣២ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4
 2	ASUT019YY0002	1kVe5bDGOFijU65kd2gAbgi5hEsIayoVO	DRAFT	88.7	-18	ok	https://media.84000.digital/audio/1df9c59f821980b9-a64.mp3	បិដកលេខ១៩ 02 បុព្វកម្មដែលនាំឱ្យមានមហាបុរិសលក្ខណៈ ៣២ ប្រការភាគ១ (បិដកលេខ ១៩ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).webm
