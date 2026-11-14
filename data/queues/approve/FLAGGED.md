@@ -1,6 +1,6 @@
 # Pre-approval check
 
-Generated 2026-11-13 by scripts/media/precheck.mjs (workflow approve-check). 2982 converted lessons not approved yet: **2974 pass**, **8 flagged**, **0 not checked yet**.
+Generated 2026-11-14 by scripts/media/precheck.mjs (workflow approve-check). 2982 converted lessons not approved yet: **2974 pass**, **8 flagged**, **0 not checked yet**.
 
 A lesson is flagged when its duration is under 5 min or over 4 h, differs more than 2 % from the Drive source, has the same audio as another lesson, or has more than 60 s of silence in its first or last 2 minutes. Flagged lessons are never approved by approve-media "all-passing"; listen and decide per id.
 
