@@ -942,5 +942,21 @@
     "height": 480,
     "sha256": "701c0a79cce416dc04937e2a1d5a3358e4706d4540b6d65d4792ee2c502f1852",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "12vRhZUDlE8qY_5kOrTYQFBdjnPX-PGL4",
+    "drive_name": "១១_អតិមហន្តារម្មណប្រភេទទី៥_និងមានវិថីមានអាគន្តុក (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "ade41efede8531cc8e10576eb526f469",
+    "key": "video/ade41efede8531cc-480p.mp4",
+    "poster_key": "video/ade41efede8531cc-480p.webp",
+    "rendition": "480p",
+    "bytes": 98794615,
+    "duration_s": 4986,
+    "src_duration_s": 4986,
+    "width": 854,
+    "height": 480,
+    "sha256": "80ac5b484df5bc8c7a9c7ad60b8817c6867482ce2bc3f18f41a98994afb1ba6b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
