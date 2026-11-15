@@ -958,5 +958,21 @@
     "height": 480,
     "sha256": "80ac5b484df5bc8c7a9c7ad60b8817c6867482ce2bc3f18f41a98994afb1ba6b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1AaMnw18hbhQ_XfA21Nh8SUmgxCk2t8qn",
+    "drive_name": "០៨ បឋវីធាតុ បឋវីធាតុចែកជា ៤ យ៉ាង (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "bb5f860d84360c262bc5d037515e70d3",
+    "key": "video/bb5f860d84360c26-480p.mp4",
+    "poster_key": "video/bb5f860d84360c26-480p.webp",
+    "rendition": "480p",
+    "bytes": 111297217,
+    "duration_s": 5575,
+    "src_duration_s": 5575,
+    "width": 854,
+    "height": 480,
+    "sha256": "e4a16cfe2879bc6be393d5991a0e38f40ffed91f373556c06fc88710c809c684",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
