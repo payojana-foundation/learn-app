@@ -30,5 +30,21 @@
     "height": 480,
     "sha256": "225378c9b6bea9f62528db4fefb8cc1630cf7ef6f7a84e59d0440fa60765073d",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Juerfhbh3t5wWx9wodKhJ3jtQIqOye8L",
+    "drive_name": "3-ពាក្យថា(សាសន ឬ សាសនា) video_2026-05-22_08-51-22.mp4",
+    "source_md5": "ded55c670936181eedce190456f120db",
+    "key": "video/ded55c670936181e-480p.mp4",
+    "poster_key": "video/ded55c670936181e-480p.webp",
+    "rendition": "480p",
+    "bytes": 3815946,
+    "duration_s": 222,
+    "src_duration_s": 222,
+    "width": 388,
+    "height": 480,
+    "sha256": "617515691088dd50dbe81f4f518d687e086c07cea33c8ec882e94d7324861438",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
