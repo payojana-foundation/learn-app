@@ -3390,5 +3390,21 @@
     "height": 480,
     "sha256": "96a8d8cf550d8bea2fb148902ed69b9b1f230de3dc894288239a8064669d2921",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "13WAAgi_KBLX6IwAAYGYt48XxBhNQDff5",
+    "drive_name": "២២ កិច្ចសង្គហ ពន្យល់ឃាយតនកិច្ចដល់ជវនកិច្ច (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "fc67cf1022e19ad75e7305fdc59304f7",
+    "key": "video/fc67cf1022e19ad7-480p.mp4",
+    "poster_key": "video/fc67cf1022e19ad7-480p.webp",
+    "rendition": "480p",
+    "bytes": 104339803,
+    "duration_s": 5167,
+    "src_duration_s": 5167,
+    "width": 854,
+    "height": 480,
+    "sha256": "f47b809712457b8400d4ba5550ba6269bce1e3937e148f3ed0e48fd6ecc85400",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
