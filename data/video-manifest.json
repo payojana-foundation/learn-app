@@ -750,5 +750,21 @@
     "height": 480,
     "sha256": "94bcff8ad83680f0c5c9446289275117096f89f3c7ae158ba7207027231e0e3b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1MDlG5Bf-vp3-_hpy_HHKCnnKiqWPaOMS",
+    "drive_name": "០៥ ពន្យល់វេទនា៣តាមបិដកនិងដីកា (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "9e3755925a36ec09953eabccc171dd58",
+    "key": "video/9e3755925a36ec09-480p.mp4",
+    "poster_key": "video/9e3755925a36ec09-480p.webp",
+    "rendition": "480p",
+    "bytes": 83194716,
+    "duration_s": 4099,
+    "src_duration_s": 4099,
+    "width": 854,
+    "height": 480,
+    "sha256": "58aa58c60280fce04066c1653c1d04e804dba78da694210f915bb961a7421582",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
