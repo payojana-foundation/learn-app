@@ -14,5 +14,21 @@
     "height": 480,
     "sha256": "ff8785606fe688819aa8f36a274f67ec64d87c859d7e69119befee11e059a1df",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1-fgB28gA0dha04dBG6ag-aNPL6EubWhv",
+    "drive_name": "2-ពាក្យថា(បុរិស = បុរស) video_2026-05-22_08-51-16.mp4",
+    "source_md5": "348423e86c39d5877d22ff812348352a",
+    "key": "video/348423e86c39d587-480p.mp4",
+    "poster_key": "video/348423e86c39d587-480p.webp",
+    "rendition": "480p",
+    "bytes": 8525985,
+    "duration_s": 519,
+    "src_duration_s": 519,
+    "width": 388,
+    "height": 480,
+    "sha256": "225378c9b6bea9f62528db4fefb8cc1630cf7ef6f7a84e59d0440fa60765073d",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
