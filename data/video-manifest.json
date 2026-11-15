@@ -3582,5 +3582,21 @@
     "height": 480,
     "sha256": "575bd23a3c7ecbc0a64fbf3356df57f7650b67e73f86f5f0f520e7d7b36c2c15",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1XLXHqCF8iPhCZ-uwwh70SIOoPbYdBvq0",
+    "drive_name": "២៣ កិច្ចសង្គហ ពន្យល់ចិត្ត និងចេតសិកធ្វើកិច្ចតាមទ្វារ៣ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "bab16f9efe7e826767b03739fed0b8f5",
+    "key": "video/bab16f9efe7e8267-480p.mp4",
+    "poster_key": "video/bab16f9efe7e8267-480p.webp",
+    "rendition": "480p",
+    "bytes": 113988601,
+    "duration_s": 5274,
+    "src_duration_s": 5274,
+    "width": 854,
+    "height": 480,
+    "sha256": "8aae5ed05f52939e4a7f3cc7b06dae11e03c75db1ab0c755652edde9603ab1ec",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
