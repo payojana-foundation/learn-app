@@ -414,5 +414,21 @@
     "height": 480,
     "sha256": "2aaa2fc5ba77c82987612a78ff64fc6fcbb868bd848ea1dab1e7fb8de72afc1c",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1_qHZItYBdvvqFtMqxjJ5wPAWu2JQu9FT",
+    "drive_name": "០៤_ភូមិចតុក្កៈ_បាបកម្មនាំឱ្យកើតអវីចិនរកជាដើមភិក្ខុអគ្គចិត្តោ_យ៉ុន.mp4",
+    "source_md5": "499d96aebbcaac23b5f1b981892a07ba",
+    "key": "video/499d96aebbcaac23-480p.mp4",
+    "poster_key": "video/499d96aebbcaac23-480p.webp",
+    "rendition": "480p",
+    "bytes": 82997532,
+    "duration_s": 3890,
+    "src_duration_s": 3890,
+    "width": 854,
+    "height": 480,
+    "sha256": "f6f2b74f59813074a92176c161e5c3b9b16d47d9b3e33ec791d7c0a5daa93c69",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
