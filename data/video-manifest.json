@@ -2670,5 +2670,21 @@
     "height": 480,
     "sha256": "65accfc9d07b9a6639363d6dcdbbdeaf60ee4cdc6dee156182499db6e05babd0",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "15ZsLvzVlXz96TNH0K4-Gc9EBfHz0l0Ou",
+    "drive_name": "២៦ វិញ្ញត្តិរូប ២ វចីវិញ្ញត្តិរូប ការកម្រើកវាចា (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "22cbeabb483f04a0c77f150f65e5e2b1",
+    "key": "video/22cbeabb483f04a0-480p.mp4",
+    "poster_key": "video/22cbeabb483f04a0-480p.webp",
+    "rendition": "480p",
+    "bytes": 101129801,
+    "duration_s": 4675,
+    "src_duration_s": 4675,
+    "width": 854,
+    "height": 480,
+    "sha256": "409f269a7ae9b9c9427b481b809877872fbb86c53d1cf8ee4ac36ccda53afb7e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
