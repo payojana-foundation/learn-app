@@ -1038,5 +1038,21 @@
     "height": 480,
     "sha256": "d4853907d89e616f41ae4419ad3293b6774f842fd27584670e734c5b408b13fa",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1_85Hh43MWD105B2ySG3hdEgThYeutUNG",
+    "drive_name": "១០ ជីវិតិន្រ្ទិយចេតសិក មនសិការចេតសិក(បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "8aa55957dadec063148a5e1b65298e64",
+    "key": "video/8aa55957dadec063-480p.mp4",
+    "poster_key": "video/8aa55957dadec063-480p.webp",
+    "rendition": "480p",
+    "bytes": 126034286,
+    "duration_s": 6014,
+    "src_duration_s": 6014,
+    "width": 854,
+    "height": 480,
+    "sha256": "81f75dbc5edd9d5e0710a9398c40ce61c79da245298412f915cf8d6a8e9586cd",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
