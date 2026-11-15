@@ -1,0 +1,299 @@
+{
+  "id": "c070",
+  "provisional": false,
+  "title_km": "3-Buddhism in English Level 3 b",
+  "title_en": null,
+  "teacher": "លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា",
+  "teacher_slug": "sor-ratha",
+  "topics": [],
+  "ongoing": false,
+  "all_shown": false,
+  "lessons": [
+    {
+      "id": "AENGSR0000301",
+      "num": 1,
+      "title_km": "1-30Jul2025.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a08e0ef9a0f0a43f-a64.mp3",
+          "duration_s": 2960
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000302",
+      "num": 2,
+      "title_km": "2-31Jul2025.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8ac63f42469c1dce-a64.mp3",
+          "duration_s": 4839
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000303",
+      "num": 3,
+      "title_km": "3-06Aug2025.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/3ce424a5c8e414a9-a64.mp3",
+          "duration_s": 5345
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000304",
+      "num": 4,
+      "title_km": "4-07Aug2025.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/77ca985e28e0f7f4-a64.mp3",
+          "duration_s": 5970
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000305",
+      "num": 5,
+      "title_km": "5-13Aug2025 (part1).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c71a1435826ed66e-a64.mp3",
+          "duration_s": 3010
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000306",
+      "num": 6,
+      "title_km": "5-13Aug2025 (part2).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/42e5edbcfd90be39-a64.mp3",
+          "duration_s": 3053
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000307",
+      "num": 7,
+      "title_km": "6-14Aug2025.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/cf7410cfe548b3f9-a64.mp3",
+          "duration_s": 5924
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000308",
+      "num": 8,
+      "title_km": "7-20Aug2025.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/37b28e527b90c179-a64.mp3",
+          "duration_s": 4787
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000309",
+      "num": 9,
+      "title_km": "8-27Aug2025 (part1).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/137f54484dc926bb-a64.mp3",
+          "duration_s": 3259
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000310",
+      "num": 10,
+      "title_km": "8-27Aug2025 (part2).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/0803a80b500883a7-a64.mp3",
+          "duration_s": 3348
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000311",
+      "num": 11,
+      "title_km": "9-28Aug2025 (part1).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4730e292c7e031e7-a64.mp3",
+          "duration_s": 3946
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000312",
+      "num": 12,
+      "title_km": "9-28Aug2025 (part2).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e4ed5a85b5fc5247-a64.mp3",
+          "duration_s": 3232
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000319",
+      "num": 19,
+      "title_km": "14-01Oct2025.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/63e6e6fcf8bfec2b-a64.mp3",
+          "duration_s": 5395
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000320",
+      "num": 20,
+      "title_km": "15-08Oct2025_1.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5457ff14f1af9add-a64.mp3",
+          "duration_s": 3659
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000321",
+      "num": 21,
+      "title_km": "15-08Oct2025_2.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/3def47012d4f9149-a64.mp3",
+          "duration_s": 3316
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000323",
+      "num": 23,
+      "title_km": "17-16Oct2025-2026-10-10 08 38 27(copy).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b17f7847f26be6a2-a64.mp3",
+          "duration_s": 5717
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000324",
+      "num": 24,
+      "title_km": "18-22Oct2025.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/900feb15125d47ce-a64.mp3",
+          "duration_s": 2849
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000326",
+      "num": 26,
+      "title_km": "20-30Oct2025.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2f871f4d324d8245-a64.mp3",
+          "duration_s": 4368
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000327",
+      "num": 27,
+      "title_km": "21-06Nov2025.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/921dc49697eca029-a64.mp3",
+          "duration_s": 4302
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000328",
+      "num": 28,
+      "title_km": "22-12Nov2025.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/1b3440d2e8ddad4d-a64.mp3",
+          "duration_s": 4782
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000329",
+      "num": 29,
+      "title_km": "23-13Nov2025_1+2.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/382953deef97e011-a64.mp3",
+          "duration_s": 5515
+        }
+      ]
+    },
+    {
+      "id": "AENGSR0000330",
+      "num": 30,
+      "title_km": "24-19Nov2025.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/590b17d64358147f-a64.mp3",
+          "duration_s": 5381
+        }
+      ]
+    }
+  ]
+}

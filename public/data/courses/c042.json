@@ -1,0 +1,65 @@
+{
+  "id": "c042",
+  "provisional": false,
+  "title_km": "4-វគ្គខ្លីលើកទី ១ នៅកែប",
+  "title_en": null,
+  "teacher": "លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន",
+  "teacher_slug": "him-bunthoeun",
+  "topics": [],
+  "ongoing": false,
+  "all_shown": false,
+  "lessons": [
+    {
+      "id": "ASVIKEPHB0101",
+      "num": 1,
+      "title_km": "វគ្គខ្លីលើកទី ១ នៅកែប ម៉ោងទី 1",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4a12207dee416690-a64.mp3",
+          "duration_s": 3535
+        }
+      ]
+    },
+    {
+      "id": "ASVIKEPHB0102",
+      "num": 2,
+      "title_km": "វគ្គខ្លីលើកទី ១ នៅកែប ម៉ោងទី 2",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/573540039d01c7e1-a64.mp3",
+          "duration_s": 2122
+        }
+      ]
+    },
+    {
+      "id": "ASVIKEPHB0103",
+      "num": 3,
+      "title_km": "វគ្គខ្លីលើកទី ១ នៅកែប ម៉ោងទី 3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e23bc6afb2180c04-a64.mp3",
+          "duration_s": 2818
+        }
+      ]
+    },
+    {
+      "id": "ASVIKEPHB0104",
+      "num": 4,
+      "title_km": "វគ្គខ្លីលើកទី ១ នៅកែប ម៉ោងទី 4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e55bbab6f85ddfff-a64.mp3",
+          "duration_s": 3011
+        }
+      ]
+    }
+  ]
+}

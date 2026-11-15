@@ -1,0 +1,858 @@
+{
+  "id": "c078",
+  "provisional": false,
+  "title_km": "8-វចនានុក្រមព្រះពុទ្ធសាសានា",
+  "title_en": null,
+  "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+  "teacher_slug": "sok-heng",
+  "topics": [],
+  "ongoing": true,
+  "all_shown": false,
+  "lessons": [
+    {
+      "id": "AOTHDICTMS001",
+      "num": 1,
+      "title_km": "001_វចនានុក្រម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/04906a673e7cb940-a64.mp3",
+          "duration_s": 1785
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS002",
+      "num": 2,
+      "title_km": "002. វចនានុក្រម May 2 2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7735be8ccc36e7e8-a64.mp3",
+          "duration_s": 1900
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS003",
+      "num": 3,
+      "title_km": "003.វចនានុក្រម May 9 2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/bfafd06edd38ec5e-a64.mp3",
+          "duration_s": 1789
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS004",
+      "num": 4,
+      "title_km": "004.វចនានុក្រម 30 May 2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4502acc5d81b06f4-a64.mp3",
+          "duration_s": 3893
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS005",
+      "num": 5,
+      "title_km": "005.វចនានុក្រម 06 June 2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4c610afdd5aff7e2-a64.mp3",
+          "duration_s": 1782
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS006",
+      "num": 6,
+      "title_km": "006.វចនានុក្រម 13 Jun 2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/0b9810529460114b-a64.mp3",
+          "duration_s": 3161
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS007",
+      "num": 7,
+      "title_km": "007.វចនានុក្រម 2024-6-20",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/59ec3458312e15d7-a64.mp3",
+          "duration_s": 3355
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS008",
+      "num": 8,
+      "title_km": "008.វចនានុក្រម 2024-6-27",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/73152f90d3b6d98c-a64.mp3",
+          "duration_s": 3203
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS009",
+      "num": 9,
+      "title_km": "009.វចនានុក្រម 04 July 24",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/d10c3705ced5071b-a64.mp3",
+          "duration_s": 2584
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS010",
+      "num": 10,
+      "title_km": "010.វចនានុក្រម July-11-2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c56503d26c7d2371-a64.mp3",
+          "duration_s": 1711
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS011",
+      "num": 11,
+      "title_km": "011.វចនានុក្រម 18 July 2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/fcd4298ac9991356-a64.mp3",
+          "duration_s": 3156
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS012",
+      "num": 12,
+      "title_km": "012.វចនានុក្រម 07. 25.2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9e9fadd54e5c9acd-a64.mp3",
+          "duration_s": 3211
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS013",
+      "num": 13,
+      "title_km": "013.វចនានុក្រម  01.Aug.2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/31af9fde85111c29-a64.mp3",
+          "duration_s": 2723
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS014",
+      "num": 14,
+      "title_km": "014.វចនានុក្រម 08.Aug.2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/51975657519a04aa-a64.mp3",
+          "duration_s": 2852
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS015",
+      "num": 15,
+      "title_km": "015.វចនានុក្រម 15.Aug.2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b0d2df41fdd4f276-a64.mp3",
+          "duration_s": 3125
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS016",
+      "num": 16,
+      "title_km": "016.វចនានុក្រម 22 Aug .2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b87bd8b3520270c4-a64.mp3",
+          "duration_s": 2919
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS017",
+      "num": 17,
+      "title_km": "017.វចនានុក្រម 29 Aug 2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/312c9cf59ff6c5ac-a64.mp3",
+          "duration_s": 3453
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS018",
+      "num": 18,
+      "title_km": "018.វចនានុក្រម 12 កញ្ញា_ 2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c7bb22f9690556a5-a64.mp3",
+          "duration_s": 3277
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS019",
+      "num": 19,
+      "title_km": "019.វចនានុក្រម 19 កញ្ញា 2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ec9a0f95c77d3525-a64.mp3",
+          "duration_s": 2727
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS020",
+      "num": 20,
+      "title_km": "020. វចនានុក្រម 10.10.2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/309796e40089e968-a64.mp3",
+          "duration_s": 2908
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS021",
+      "num": 21,
+      "title_km": "021.វចនានុក្រម 7 Nov 2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/db678abd67b9a416-a64.mp3",
+          "duration_s": 1989
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS022",
+      "num": 22,
+      "title_km": "022.វចនានុក្រម _28.វិច្ឆិកា 24",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4c68b32580a9b2ca-a64.mp3",
+          "duration_s": 3329
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS023",
+      "num": 23,
+      "title_km": "023.វចនានុក្រម​ 05 Dec 2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9df5d3e947221135-a64.mp3",
+          "duration_s": 3282
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS024",
+      "num": 24,
+      "title_km": "24.វចនានុក្រម 12. 12. 2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/29ac41ffb67191f4-a64.mp3",
+          "duration_s": 3330
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS025",
+      "num": 25,
+      "title_km": "25.វចនានុក្រម 19.12.2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/eee75050b897a56c-a64.mp3",
+          "duration_s": 3337
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS026",
+      "num": 26,
+      "title_km": "26.វចនានុក្រម 26.12 .2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/36abe880ddfcb079-a64.mp3",
+          "duration_s": 3014
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS027",
+      "num": 27,
+      "title_km": "27.វចនានុក្រម 2025-1-02",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/84139ba404216550-a64.mp3",
+          "duration_s": 4153
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS028",
+      "num": 28,
+      "title_km": "28.វចនានុក្រម_ 09-01-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8a7bd68870152021-a64.mp3",
+          "duration_s": 3360
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS029",
+      "num": 29,
+      "title_km": "29.វចនានុក្រម 16-01-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a3a69f15677ac9d7-a64.mp3",
+          "duration_s": 3311
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS030",
+      "num": 30,
+      "title_km": "30.វចនានុក្រម 23-01-2024",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/d8d4fe64a4222892-a64.mp3",
+          "duration_s": 2901
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS031",
+      "num": 31,
+      "title_km": "31.វចនានុក្រម 06-02-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/77c68b5a13cff7e2-a64.mp3",
+          "duration_s": 3318
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS032",
+      "num": 32,
+      "title_km": "32.នាទីវចនានុក្រម_ 13-2-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c88c4d5e1e879338-a64.mp3",
+          "duration_s": 3115
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS033",
+      "num": 33,
+      "title_km": "33.នាទីវចនានុក្រម_ 20-2-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/64a72d595c216161-a64.mp3",
+          "duration_s": 3414
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS034",
+      "num": 34,
+      "title_km": "34.នាទីវចនានុក្រម_ 27-2-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9ccacc5bcf023df7-a64.mp3",
+          "duration_s": 2697
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS035",
+      "num": 35,
+      "title_km": "35.នាទីវចនានុក្រម_ 06-3-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/69ca3984d4010eb5-a64.mp3",
+          "duration_s": 3104
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS036",
+      "num": 36,
+      "title_km": "36.វចនានុក្រម​_03_04_25.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4ed375d2d116dd42-a64.mp3",
+          "duration_s": 3207
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS037",
+      "num": 37,
+      "title_km": "37.វចនានុក្រម_10_04_25.mp5",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/93c9691ee070b557-a64.mp3",
+          "duration_s": 3231
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS038",
+      "num": 38,
+      "title_km": "៣៨.វចនានុក្រម 24-04-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/af885b3913a02ee1-a64.mp3",
+          "duration_s": 2399
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS039",
+      "num": 39,
+      "title_km": "៣៩.វចនានុក្រម 01-05-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5a85eb5bba5df50c-a64.mp3",
+          "duration_s": 2791
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS040",
+      "num": 40,
+      "title_km": "៤០.វចនានុក្រម 08-05-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/0854c1df237bf965-a64.mp3",
+          "duration_s": 2859
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS041",
+      "num": 41,
+      "title_km": "៤១.វចនានុក្រម 22-05-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e59506c036362475-a64.mp3",
+          "duration_s": 3452
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS042",
+      "num": 42,
+      "title_km": "៤២​​ វចនានុក្រម​​ 29.05.2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/27e96c7a3ec2c54c-a64.mp3",
+          "duration_s": 3410
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS043",
+      "num": 43,
+      "title_km": "43 វចនានុក្រម​​ 5-6-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/d085365311c722ee-a64.mp3",
+          "duration_s": 3784
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS044",
+      "num": 44,
+      "title_km": "៤៤​​ វចនានុក្រម​ 6-12-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2c9c947ffffa6bfc-a64.mp3",
+          "duration_s": 3778
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS045",
+      "num": 45,
+      "title_km": "45 វចនានុក្រម​ 6-26-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/652aa7e10af4d2f5-a64.mp3",
+          "duration_s": 3954
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS046",
+      "num": 46,
+      "title_km": "46 វចនានុក្រម​ 7-17-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c805fbc50231f578-a64.mp3",
+          "duration_s": 4628
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS047",
+      "num": 47,
+      "title_km": "47 វចនានុក្រម​ 8-7-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/186f2dfc6acb024a-a64.mp3",
+          "duration_s": 3838
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS048",
+      "num": 48,
+      "title_km": "48 វចនានុក្រ​ម 8-28-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2bb994b6bf23656d-a64.mp3",
+          "duration_s": 3370
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS049",
+      "num": 49,
+      "title_km": "49 វចនានុក្រម​ 9-4-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/1c22d849039ffd4a-a64.mp3",
+          "duration_s": 3467
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS050",
+      "num": 50,
+      "title_km": "50​ វចនានុក្រម 11-16-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c6e699e91916d9e3-a64.mp3",
+          "duration_s": 3665
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS051",
+      "num": 51,
+      "title_km": "51 វចនានុក្រម 11-13-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/d26035320a95b0e4-a64.mp3",
+          "duration_s": 3573
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS052",
+      "num": 52,
+      "title_km": "52 វចនានុក្រម​ 11-20-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/58327fe7ff38ab38-a64.mp3",
+          "duration_s": 3436
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS053",
+      "num": 53,
+      "title_km": "53 វចនានុក្រម 11-27-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/1e0273fd26ef3352-a64.mp3",
+          "duration_s": 3459
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS054",
+      "num": 54,
+      "title_km": "54 វចនានុក្រម 12-4-2025",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b6879cc398b529fd-a64.mp3",
+          "duration_s": 3254
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS055",
+      "num": 55,
+      "title_km": "55 វចនានុក្រម​ 2-29-2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/cb7cfc41640aa358-a64.mp3",
+          "duration_s": 3519
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS056",
+      "num": 56,
+      "title_km": "56 វចនានុក្រម​ 12 កុម្ភៈ​​ 2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/476ea8b737aaf65d-a64.mp3",
+          "duration_s": 3144
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS057",
+      "num": 57,
+      "title_km": "57 វចនានុក្រម​​ 26 កុម្ភៈ 2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/740c9d8947ac699b-a64.mp3",
+          "duration_s": 3345
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS058",
+      "num": 58,
+      "title_km": "58 វចនានុក្រម​​ 111​មីនា​ 2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ff763c91fcc359a1-a64.mp3",
+          "duration_s": 3575
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS059",
+      "num": 59,
+      "title_km": "59 វចនានុក្រម​​ 19 មីនា2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/30f12cc40fd2e787-a64.mp3",
+          "duration_s": 3694
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS060",
+      "num": 60,
+      "title_km": "60 វចនានុក្រម​​ 26 មីនា 2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/fb8008ab493f0bb4-a64.mp3",
+          "duration_s": 3424
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS061",
+      "num": 61,
+      "title_km": "61​ ​វចនានុក្រម ​23 មេសា 2026",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/96fabb2de0e5a778-a64.mp3",
+          "duration_s": 2719
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS062",
+      "num": 62,
+      "title_km": "62 -វចនានុក្រម_១៤ឧសភា២០២៦.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/76be954d785c42fa-a64.mp3",
+          "duration_s": 3349
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS063",
+      "num": 63,
+      "title_km": "63​- វចនានុក្រម_២១ឧសភា២០២៦.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5066bce5bc4f108e-a64.mp3",
+          "duration_s": 3417
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS064",
+      "num": 64,
+      "title_km": "64 វចនានុក្រម_២៥មិថុនា២០២៦.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/43beae170f89959f-a64.mp3",
+          "duration_s": 1597
+        }
+      ]
+    },
+    {
+      "id": "AOTHDICTMS065",
+      "num": 65,
+      "title_km": "65  វចនានុក្រម​  16 កក្កដា​  2026.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a6863e4fefdaf860-a64.mp3",
+          "duration_s": 1174
+        }
+      ]
+    }
+  ]
+}

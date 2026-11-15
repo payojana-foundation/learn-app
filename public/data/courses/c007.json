@@ -1,0 +1,728 @@
+{
+  "id": "c007",
+  "provisional": false,
+  "title_km": "2-A.S.បរិច្ឆេទ ទី២ កាត់ស្អាត(២០",
+  "title_en": null,
+  "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+  "teacher_slug": "yon-yi",
+  "topics": [],
+  "ongoing": false,
+  "all_shown": false,
+  "lessons": [
+    {
+      "id": "AABH000YY2024.2001",
+      "num": 1,
+      "title_km": "០១ ចេតសិកមានអត្ថ៤យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/d3c22e13ae722e99-a64.mp3",
+          "duration_s": 3591
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2002",
+      "num": 2,
+      "title_km": "០២ លក្ខណាទិចតុក្ករបស់ចេតសិក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/eea74c787a4b2ffc-a64.mp3",
+          "duration_s": 4587
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2003",
+      "num": 3,
+      "title_km": "០៣ ផស្សចេតសិក ការប៉ះខ្ទប់ឬពាល់ត្រូវ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b776d401be5f812e-a64.mp3",
+          "duration_s": 5043
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2004",
+      "num": 4,
+      "title_km": "០៤ វេទនចេតសិក ចែកវេទនាជា២ន័យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5c15963a1ad535c1-a64.mp3",
+          "duration_s": 4765
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2005",
+      "num": 5,
+      "title_km": "០៥ លក្ខណាទិចតុក្គរបស់វេទនា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/060198d5d35cf481-a64.mp3",
+          "duration_s": 4201
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2006",
+      "num": 6,
+      "title_km": "០៦ សោមនស្សវេទនា ទោមនស្សវេទនា ឧបេក្ខាវេទនា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5a26351d9346fbc8-a64.mp3",
+          "duration_s": 4137
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2007",
+      "num": 7,
+      "title_km": "០៧ ហេតុនាំឲ្យកើតវេទនាមាន៥យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/20fdab611c35a4c1-a64.mp3",
+          "duration_s": 4425
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2008",
+      "num": 8,
+      "title_km": "០៨ សញ្ញាចេតសិក ចេតនាចេតសិក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/90711f7496a63168-a64.mp3",
+          "duration_s": 5392
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2009",
+      "num": 9,
+      "title_km": "០៩ ចេតនាចេតសិក ឯកគ្គតចេតសិក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/02f93deefa3819c4-a64.mp3",
+          "duration_s": 5030
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2010",
+      "num": 10,
+      "title_km": "១០ ជីវិតិន្រ្ទិយចេតសិក មនសិការចេតសិក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c691010ab3445426-a64.mp3",
+          "duration_s": 5998
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2011",
+      "num": 11,
+      "title_km": "១១ មនសិការចេតសិក ចែកជា៣យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e866f85cf717f72b-a64.mp3",
+          "duration_s": 4536
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2012",
+      "num": 12,
+      "title_km": "១២ ចែកសព្វចិត្តសាធារណចេតសិកដោយន័យផ្សេងៗ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f7522428e66f7718-a64.mp3",
+          "duration_s": 4795
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2013",
+      "num": 13,
+      "title_km": "១៣ វិតក្កចេតសិក ការត្រិះរិះ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9bd82d151a9b84a4-a64.mp3",
+          "duration_s": 4584
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2014",
+      "num": 14,
+      "title_km": "១៤ វិចារចេតសិក ការពិចារណាអារម្មណ៍",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/88432c9610c89d1c-a64.mp3",
+          "duration_s": 4181
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2015",
+      "num": 15,
+      "title_km": "១៥ អធិមោក្ខចេតសិក វីរិយាចេតសិក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2d2984512b7ea1d0-a64.mp3",
+          "duration_s": 4913
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2016",
+      "num": 16,
+      "title_km": "១៦ សង្វេគវត្ថុ៨ បីតិចេតសិក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e243bfd6a0eb9020-a64.mp3",
+          "duration_s": 5876
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2017",
+      "num": 17,
+      "title_km": "១៧ ឆន្ទចេតសិក សេចក្ដីឆ្អែតចិត្ត ឆន្ទៈមាន៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8f744fe198ed2522-a64.mp3",
+          "duration_s": 4108
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2018",
+      "num": 18,
+      "title_km": "១៨ មោហចេតសិក ការវង្វេងមិនដឹងការពិត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/43c864dfb5897597-a64.mp3",
+          "duration_s": 4451
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2019",
+      "num": 19,
+      "title_km": "១៩ មោហចេតសិក ការមិនដឹងក្នុងខន្ធ អាយតន ធាតុ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/86b102f982799947-a64.mp3",
+          "duration_s": 3529
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2020",
+      "num": 20,
+      "title_km": "២០ អហិរិក អនោត្តប្ប ឧទ្ធច្ចចេតសិក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8f622bce26e7351d-a64.mp3",
+          "duration_s": 5615
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2021",
+      "num": 21,
+      "title_km": "២១ លោភចេតសិក ការជាប់ជំពាក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/88a2b3da0c9e618e-a64.mp3",
+          "duration_s": 4598
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2022",
+      "num": 22,
+      "title_km": "២២ ទិដ្ឋិចេតសិក ការយល់ខុសពីការពិត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/3cc3357f0b6386b0-a64.mp3",
+          "duration_s": 5683
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2023",
+      "num": 23,
+      "title_km": "២៣ ទិដ្ឋិចេតសិក ការួបរឹតដោយទិដ្ឋិ ១៦យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/62ccce83b453aaae-a64.mp3",
+          "duration_s": 5150
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2024",
+      "num": 24,
+      "title_km": "២៤ ទិដ្ឋិចេតសិក ហេតុនាំឲ្យកើតមិច្ឆាទិដ្ឋិមាន៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9241efa4a3766441-a64.mp3",
+          "duration_s": 5234
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2025",
+      "num": 25,
+      "title_km": "២៥ ទិដ្ឋិចេតសិក និយតមិច្ឆាទិដ្ឋិ ទិដ្ឋិមានទោសធ្ងន់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8a913d724e3d9f9c-a64.mp3",
+          "duration_s": 4962
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2026",
+      "num": 26,
+      "title_km": "២៦ ទិដ្ឋិចេតសិក អធិប្បាយមិច្ឆាទិដ្ឋិមាន៦២ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8edf1472c05c1233-a64.mp3",
+          "duration_s": 5280
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2027",
+      "num": 27,
+      "title_km": "២៧ មានចេតសិក ការលើកតម្កើងខ្លួន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e993ce50e1383a42-a64.mp3",
+          "duration_s": 5425
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2028",
+      "num": 28,
+      "title_km": "២៨ មានចេតសិក ហេតុនាំឲ្យលើកតម្កើងខ្លួន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2ff80dbe23307d0e-a64.mp3",
+          "duration_s": 5445
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2030",
+      "num": 30,
+      "title_km": "៣០ ទោសចេតសិក ការខឹងក្រោធ ឥស្សា ច្រណែន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/6ed57af2bce19645-a64.mp3",
+          "duration_s": 5899
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2031",
+      "num": 31,
+      "title_km": "៣១ មច្ឆរិយចេតសិក សេចក្ដីកំណាញ់មាន៥យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7ee9f6c31151b2f1-a64.mp3",
+          "duration_s": 6065
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2032",
+      "num": 32,
+      "title_km": "៣២ កុក្កុច្ចចេតសិក ការក្ដៅក្រហាយចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/6c28e3ead19861c3-a64.mp3",
+          "duration_s": 5490
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2033",
+      "num": 33,
+      "title_km": "៣៣ ថីនមិទ្ធចេតសិក ការរួញរា ងងុយងោកងក់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/fa0ac53da3660c5c-a64.mp3",
+          "duration_s": 5151
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2034",
+      "num": 34,
+      "title_km": "៣៤ វិចិកិច្ឆាចេតសិក ការសង្ស័យក្នុងព្រះរតនត្រ័យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f97b3d5ddd183cb1-a64.mp3",
+          "duration_s": 4744
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2036",
+      "num": 36,
+      "title_km": "៣៦ សទ្ធាចេតសិក លក្ខណៈសំគាល់របស់អ្នកមានសទ្ធា៣យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8beedcc9713549f2-a64.mp3",
+          "duration_s": 4649
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2037",
+      "num": 37,
+      "title_km": "៣៧ សតិចេតសិក ការរលឹកដឹង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/57ec8b207b585144-a64.mp3",
+          "duration_s": 5057
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2038",
+      "num": 38,
+      "title_km": "៣៨ ហិរិ ការខ្មាសបាប គឺរង្កៀសទុច្ចរិត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/58b1d2e171e2c08c-a64.mp3",
+          "duration_s": 4601
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2039",
+      "num": 39,
+      "title_km": "៣៩ ឱត្តប្បចេតសិក ការខ្លាចបាប ឬខ្លាចទុច្ចរិត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7d55264ca22ac828-a64.mp3",
+          "duration_s": 5408
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2040",
+      "num": 40,
+      "title_km": "៤០ អលោភចេតសិក អទោសចេតសិក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b50dfd3474d9e33f-a64.mp3",
+          "duration_s": 5173
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2041",
+      "num": 41,
+      "title_km": "៤១ តត្រមជ្ឈត្តតាចេតសិក និងយុគលធម៌៣គូ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/20f5dd04c3e59a4c-a64.mp3",
+          "duration_s": 5177
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2042",
+      "num": 42,
+      "title_km": "៤២ យុគលធម៌គូទី៤ ដល់ទី៦ និង ធម៌បដិបក្ខ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/481bfbc0a197e846-a64.mp3",
+          "duration_s": 5200
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2043",
+      "num": 43,
+      "title_km": "៤៣ វីរតិ ៣ សម្មាវាចា សម្ដីត្រូវ សម្មាកម្មន្ត ការងារត្រូវ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ea688b3472de35d7-a64.mp3",
+          "duration_s": 4566
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2044",
+      "num": 44,
+      "title_km": "៤៤ វីរតិ ៣ សម្មាអាជីវៈ ការចិញ្ចឹមជីវិតត្រូវ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f7a16a30a4e5190c-a64.mp3",
+          "duration_s": 5341
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2045",
+      "num": 45,
+      "title_km": "៤៥ អប្បមញ្ញាចេតសិក ២ គឺ ករុណា និងមុទិតា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c1bd872dc5a6cb07-a64.mp3",
+          "duration_s": 5310
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2046",
+      "num": 46,
+      "title_km": "៤៦ មេត្តា ឧបេក្ខា និងបញ្ញិន្រ្ទិយចេតសិក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/1add842e903e7fc6-a64.mp3",
+          "duration_s": 5201
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2047",
+      "num": 47,
+      "title_km": "៤៧ បញ្ញិន្រ្ទិយចេតសិក ការដឹង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/1433ebbcec8e415a-a64.mp3",
+          "duration_s": 5314
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2048",
+      "num": 48,
+      "title_km": "៤៨ សម្បយោគន័យ វិតក្កៈ វិចារៈ អធិមោក្ខចេតសិក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b274e6255f1401fd-a64.mp3",
+          "duration_s": 4662
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2049",
+      "num": 49,
+      "title_km": "៤៩ សម្បយោគន័យ វិរិយ វីតិ ឆន្ទចេតសិក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/eb487ea4b541f209-a64.mp3",
+          "duration_s": 5372
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2051",
+      "num": 51,
+      "title_km": "៥១ សម្បយោគន័យ ចែកចេតសិកជា២ គឺអនិយតយោគី និងនិយតយោគី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/af45049752865636-a64.mp3",
+          "duration_s": 5674
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2052",
+      "num": 52,
+      "title_km": "៥២ សង្គហន័យ ចែកលោកុត្តរជា ៥ ន័យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/964b3a4bbd42e1b2-a64.mp3",
+          "duration_s": 5309
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2053",
+      "num": 53,
+      "title_km": "៥៣ សង្គហន័យ ចែកមហគ្គតចិត្ត ២៧ និងមហាកុសល៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/94a6c02088efd331-a64.mp3",
+          "duration_s": 4940
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2054",
+      "num": 54,
+      "title_km": "៥៤ សង្គហន័យ ចែកកាមសោភណចិត្ត ២៤ ប្រកបនឹងចេតសិក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a245ffb842929edb-a64.mp3",
+          "duration_s": 5181
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2055",
+      "num": 55,
+      "title_km": "៥៥ សង្គហន័យ ចែកអកុសលចិត្ត អហេតុកចិត្តនិងចេតសិក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/3328ae4ad2cc9aef-a64.mp3",
+          "duration_s": 4590
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2056",
+      "num": 56,
+      "title_km": "៥៦ តទុភយមិស្សកន័យ ការរួមចេតសិកដែលប្រកបរួមគ្នា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8f0a23beddd5cb91-a64.mp3",
+          "duration_s": 4647
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2057",
+      "num": 57,
+      "title_km": "៥៧ រម្លឹកមេរៀនចេតសិកបរមត្ថភាគ ១ សម្បយោគន័យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/bf667ff00cadc092-a64.mp3",
+          "duration_s": 2855
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2024.2058",
+      "num": 58,
+      "title_km": "៥៨ រម្លឹកមេរៀនចេតសិកបរមត្ថភាគ ២ តទុភយមិស្សកន័យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/dddc6f561bccf7c9-a64.mp3",
+          "duration_s": 3355
+        }
+      ]
+    }
+  ]
+}

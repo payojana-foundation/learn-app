@@ -1,0 +1,52 @@
+{
+  "id": "c023",
+  "provisional": false,
+  "title_km": "តេមិយជាតក",
+  "title_en": null,
+  "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+  "teacher_slug": "yon-yi",
+  "topics": [],
+  "ongoing": false,
+  "all_shown": false,
+  "lessons": [
+    {
+      "id": "AJAD00YYX0301",
+      "num": 1,
+      "title_km": "១-៧៦ បញ្ចប់ភូរិទត្តជាតក  ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​-1.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/0a29fed96b959b4a-a64.mp3",
+          "duration_s": 2877
+        }
+      ]
+    },
+    {
+      "id": "AJAD00YYX0302",
+      "num": 2,
+      "title_km": "២-៧៧ តេមិយជាតក ទ្រង់បំពេញនេក្ខម្មបារមី ពោធិសត្វទ្រាំអស់១៦ឆ្នាំ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/036616f1415d2b07-a64.mp3",
+          "duration_s": 4309
+        }
+      ]
+    },
+    {
+      "id": "AJAD00YYX0303",
+      "num": 3,
+      "title_km": "៣-៧៨ តេមិយជាតក ព្រះពោធិសត្វបានចេញបួសសម្រេចអភិញ្ញា៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2031b2bec9fd69de-a64.mp3",
+          "duration_s": 4023
+        }
+      ]
+    }
+  ]
+}

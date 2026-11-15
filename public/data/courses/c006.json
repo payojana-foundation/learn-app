@@ -1,0 +1,2236 @@
+{
+  "id": "c006",
+  "provisional": false,
+  "title_km": "1-បរិច្ឆេទ ទី១ កាត់ស្អាត (២០២២)",
+  "title_en": null,
+  "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+  "teacher_slug": "yon-yi",
+  "topics": [],
+  "ongoing": false,
+  "all_shown": false,
+  "lessons": [
+    {
+      "id": "AABH000YY2022.1001",
+      "num": 1,
+      "title_km": "០១ និយមន័យអភិធម្ម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ec91fab5e519d024-a64.mp3",
+          "duration_s": 3677
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1002",
+      "num": 2,
+      "title_km": "០២ សច្ច:២យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/bc99e2362f1fb921-a64.mp3",
+          "duration_s": 4321
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1003",
+      "num": 3,
+      "title_km": "០៣ សម្មតិសច្ចៈដោយហេតុ ៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/69f14f83c9e47267-a64.mp3",
+          "duration_s": 3821
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1004",
+      "num": 4,
+      "title_km": "០៤ ពន្យល់ពាក្យថា ចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2853e9e541015347-a64.mp3",
+          "duration_s": 3980
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1005",
+      "num": 5,
+      "title_km": "០៥ ការប្រៀបធៀបចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2ce111d87d9cd4cf-a64.mp3",
+          "duration_s": 3045
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1006",
+      "num": 6,
+      "title_km": "០៦ សមុដ្ឋាននាំឱ្យរូបបែកធ្លាយ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/74aedce83990ced0-a64.mp3",
+          "duration_s": 3778
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1007",
+      "num": 7,
+      "title_km": "០៧ ពាក្យថានិព្វាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/cc3a580ccfc7356f-a64.mp3",
+          "duration_s": 3697
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1008",
+      "num": 8,
+      "title_km": "០៨ វេវចនរបស់ចិត្ត១០ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ca1becca1e8e6eac-a64.mp3",
+          "duration_s": 4114
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1009",
+      "num": 9,
+      "title_km": "០៩ ពាក្យថាវិញ្ញាណ វិញ្ញាណក្ខន្ធ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/32449fbe58cfbcd3-a64.mp3",
+          "duration_s": 4200
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1010",
+      "num": 10,
+      "title_km": "១០ លក្ខណាទិចតុក្ករបស់ចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/1dfe17cd7b6f810f-a64.mp3",
+          "duration_s": 4253
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1012",
+      "num": 12,
+      "title_km": "១២ ធម្មជាតិរបស់ចិត្ត ៣ ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f015fffca8399b57-a64.mp3",
+          "duration_s": 4297
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1013",
+      "num": 13,
+      "title_km": "១៣ គាថាសម្តែងពីសភាពរបស់ចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8efcf6eff8e7a043-a64.mp3",
+          "duration_s": 3722
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1014",
+      "num": 14,
+      "title_km": "១៤ ពាក្យថាអកុសលចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/926ac76365830d6e-a64.mp3",
+          "duration_s": 4293
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1016",
+      "num": 16,
+      "title_km": "១៦ និយតនមិច្ឆាទិដ្ឋិ ៣ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5ca77f029a6a1e87-a64.mp3",
+          "duration_s": 4470
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1017",
+      "num": 17,
+      "title_km": "១៧ ពន្យល់លោភមូលចិត្តដួងទី១ទី២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/22a5dee144cc03fe-a64.mp3",
+          "duration_s": 4205
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1018",
+      "num": 18,
+      "title_km": "១៨ ពន្យល់លោភមូលចិត្តដួងទី៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/64347533fbe4328c-a64.mp3",
+          "duration_s": 3902
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1019",
+      "num": 19,
+      "title_km": "១៩ មានះ ៩ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/49358ce8bf558623-a64.mp3",
+          "duration_s": 4757
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1020",
+      "num": 20,
+      "title_km": "២០ ចិត្តបរមត្ថ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c63db6bc5bcf07a6-a64.mp3",
+          "duration_s": 4406
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1021",
+      "num": 21,
+      "title_km": "២១ លោភមូលចិត្តដួងទី៥ ទី៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5f8161b12baaf5f8-a64.mp3",
+          "duration_s": 4010
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1022",
+      "num": 22,
+      "title_km": "២២ លោភមូលចិត្តដួងទី៧ ទី៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7761cff4a4853ee6-a64.mp3",
+          "duration_s": 3784
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1023",
+      "num": 23,
+      "title_km": "២៣ លក្ខណាទិចតុក្ករបស់លោភមូលចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7eeeef50e58ea14b-a64.mp3",
+          "duration_s": 3272
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1024",
+      "num": 24,
+      "title_km": "២៤ សំយោជនជាហេតុនាំឱ្យលោភកើត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/19bf1d44242b2baf-a64.mp3",
+          "duration_s": 4374
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1025",
+      "num": 25,
+      "title_km": "២៥ ហេតុនាំឱ្យលោភកើតមាន ៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/3f38c9ae05de3660-a64.mp3",
+          "duration_s": 3957
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1026",
+      "num": 26,
+      "title_km": "២៦ ហេតុឱ្យកើតទិដ្ឋិសម្បយុត្តចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a71d677bba7b7425-a64.mp3",
+          "duration_s": 4718
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1027",
+      "num": 27,
+      "title_km": "២៧ ហេតុឱ្យកើតទិដ្ឋិវិប្បយុត្តចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/97c7b01fa6d7dd89-a64.mp3",
+          "duration_s": 3733
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1028",
+      "num": 28,
+      "title_km": "២៨ ហេតុនាំឱ្យកើតសោមនស្ស និងឧបេក្ខាលោភ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e63f06daf5fbef99-a64.mp3",
+          "duration_s": 3968
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1029",
+      "num": 29,
+      "title_km": "២៩ ហេតុនាំឱ្យកើតអសង្ខារិកនិងសសង្ខារ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/75af721ae3d3bb2e-a64.mp3",
+          "duration_s": 3844
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1031",
+      "num": 31,
+      "title_km": "៣១ ចែកលោភចិត្តដោយន័យផ្សេងៗ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/eec28b1039f076d8-a64.mp3",
+          "duration_s": 4893
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1032",
+      "num": 32,
+      "title_km": "៣២ ចែកលោភចិត្តដោយសម្បយុត្តដល់កិច្ច",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/cdfd8ec709374155-a64.mp3",
+          "duration_s": 4050
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1033",
+      "num": 33,
+      "title_km": "៣៣ ចែកលោភចិត្តដោយអារម្មណ៍ដល់វិញ្ញាណធាតុ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/779ddf5c26b2caf2-a64.mp3",
+          "duration_s": 4358
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1034",
+      "num": 34,
+      "title_km": "៣៤ ផលរបស់លោភមូលចិត្តបច្ចុប្បន្ននិងអនាគត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7dfaedb3852793d7-a64.mp3",
+          "duration_s": 3577
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1035",
+      "num": 35,
+      "title_km": "៣៥ ពន្យល់ទោសមូលចិត្ត ២ ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/eda6d9dc62f017c4-a64.mp3",
+          "duration_s": 4309
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1036",
+      "num": 36,
+      "title_km": "៣៦ អាឃាតអ្នកដទៃដោយវត្ថុ ១០ ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/596090f914296176-a64.mp3",
+          "duration_s": 4233
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1037",
+      "num": 37,
+      "title_km": "៣៧ ហេតុនាំឱ្យកើតទោសមូលចិត្តមាន ៤ ប្រការ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b2762d62f3a51d46-a64.mp3",
+          "duration_s": 5181
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1038",
+      "num": 38,
+      "title_km": "៣៨ បុគ្គលជាទោសដល់ការផ្សាយមេត្តាចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4976060595dccb12-a64.mp3",
+          "duration_s": 4399
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1039",
+      "num": 39,
+      "title_km": "៣៩ ផ្សាយមេត្តាចិត្តចំពោះខ្លួនឯងនិងអ្នកដទៃ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/36e1c8efa2cf30ad-a64.mp3",
+          "duration_s": 3870
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1040",
+      "num": 40,
+      "title_km": "៤០ ផ្សាយមេត្តាទៅកាន់ទិសផ្សេងៗ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f653e151c12d0ee7-a64.mp3",
+          "duration_s": 4755
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1041",
+      "num": 41,
+      "title_km": "៤១ ការពិចារណាដើម្បីលះបង់ទោសមូលចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a779e35650d25350-a64.mp3",
+          "duration_s": 4603
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1042",
+      "num": 42,
+      "title_km": "៤២ ពិចារណាធម៌ដូចម្តេចដើម្បីលះទោសៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/da09fa5f7448121f-a64.mp3",
+          "duration_s": 4295
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1043",
+      "num": 43,
+      "title_km": "៤៣ វិធីយកឈ្នះមនុស្សមាន ៤ ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/487d17789088e7ac-a64.mp3",
+          "duration_s": 4381
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1044",
+      "num": 44,
+      "title_km": "៤៤ និយមន័យមោហមូលចិត្ត ២ ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/558a21a3d915e040-a64.mp3",
+          "duration_s": 4660
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1045",
+      "num": 45,
+      "title_km": "៤៥ អវិជ្ជាមិនដឹងធម៌ ៨ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/28de7022d01e7c25-a64.mp3",
+          "duration_s": 4834
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1046",
+      "num": 46,
+      "title_km": "៤៦ ឧទាហរណ៍ក្នុងមោហមូលចិត្ត ២ ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f9379ec89db605e2-a64.mp3",
+          "duration_s": 4844
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1047",
+      "num": 47,
+      "title_km": "៤៧ ហេតុនាំឱ្យកើតមោហមូលចិត្ត ២ ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9fbab2e67c7c24f8-a64.mp3",
+          "duration_s": 4396
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1048",
+      "num": 48,
+      "title_km": "៤៨ បកស្រាយរឿងប្រេត និងកាន់បិណ្ឌ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9dee7dda3d1ff80d-a64.mp3",
+          "duration_s": 3748
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1049",
+      "num": 49,
+      "title_km": "៤៩ ព្រះនាមថាអរហំ សម្មាសម្ពុទ្ធោ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/bcba6ffa5971d0c9-a64.mp3",
+          "duration_s": 5443
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1050",
+      "num": 50,
+      "title_km": "៥០ ព្រះនាមថាវិជ្ជាចរណសម្បន្នោ សុគតោ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/852fd29f28e19c4c-a64.mp3",
+          "duration_s": 3956
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1051",
+      "num": 51,
+      "title_km": "៥១ ព្រះនាមថាលោកវិទូ ជ្រាបច្បាស់នូវត្រៃលោក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/53c02d6d5913db02-a64.mp3",
+          "duration_s": 4788
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1052",
+      "num": 52,
+      "title_km": "៥២ ទ្រង់ជ្រាបច្បាស់នូវសត្វលោក ឱកាសលោក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c6f302191c925696-a64.mp3",
+          "duration_s": 4514
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1053",
+      "num": 53,
+      "title_km": "៥៣ ទ្រង់ព្រះនាមថា បុរិសទម្មសារថិ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7e8cf9224ea04d5e-a64.mp3",
+          "duration_s": 4747
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1054",
+      "num": 54,
+      "title_km": "៥៤ ទ្រង់ព្រះនាមថា ពុទ្ធោ ភគវា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/3253d612585d1890-a64.mp3",
+          "duration_s": 4708
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1055",
+      "num": 55,
+      "title_km": "៥៥ ធម្មគុណ ស្វាក្ខតោ ភគវតា ធម្មោ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e508ac8d878283ff-a64.mp3",
+          "duration_s": 4775
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1056",
+      "num": 56,
+      "title_km": "៥៦ និយមន័យព្រះត្រៃបិដក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/918039f957cc31c9-a64.mp3",
+          "duration_s": 4717
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1057",
+      "num": 57,
+      "title_km": "៥៧ ទេសនា ៣ យ៉ាងក្នុងព្រះត្រៃបិដក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/277f1aa72c1c8e1f-a64.mp3",
+          "duration_s": 4850
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1058",
+      "num": 58,
+      "title_km": "៥៨ បញ្ចប់ធម្មគុណ គុណរបស់ព្រះធម៌",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/70b4617bc7d56843-a64.mp3",
+          "duration_s": 4530
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1059",
+      "num": 59,
+      "title_km": "៥៩ បញ្ចប់សង្ឃគុណ គុណរបស់ព្រះសង្ឃ 1152x648",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/accdaacfdf5de723-a64.mp3",
+          "duration_s": 3829
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1060",
+      "num": 60,
+      "title_km": "៦០ ផលនៃការធ្វើទានចំពោះសង្ឃនិងបុគ្គល",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c942be0bead1d940-a64.mp3",
+          "duration_s": 5368
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1061",
+      "num": 61,
+      "title_km": "៦១ សម្បត្តិនៃឧបាសក ឧបាសិកាមាន ៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a44682b4fd931731-a64.mp3",
+          "duration_s": 4527
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1062",
+      "num": 62,
+      "title_km": "៦២ ត្រៃដល់ត្រៃសរណគមន៍មាន៤ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e28aa37980e20d60-a64.mp3",
+          "duration_s": 4407
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1063",
+      "num": 63,
+      "title_km": "៦៣ ការសៅហ្នងព្រះត្រៃសរណគមន៍",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7d7ef11a31032a8f-a64.mp3",
+          "duration_s": 3175
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1064",
+      "num": 64,
+      "title_km": "៦៤ សង្ស័យខន្ធ អាយតន ធាតុ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ff511e3dc8ae764d-a64.mp3",
+          "duration_s": 4450
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1065",
+      "num": 65,
+      "title_km": "៦៥ សង្ស័យ១៦ យ៉ាងតាមព្រះសូត្រ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/803c05379f846f9e-a64.mp3",
+          "duration_s": 4077
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1066",
+      "num": 66,
+      "title_km": "៦៦ ធម៌លះបង់វិចិកិច្ឆាមាន ៦ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/98ee0df6e3328ccf-a64.mp3",
+          "duration_s": 4632
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1067",
+      "num": 67,
+      "title_km": "៦៧ ធម៌លះបង់ឧទ្ធច្ចសម្បយុត្តឆាមាន ៦ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8d02703aa369fb8b-a64.mp3",
+          "duration_s": 4040
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1068",
+      "num": 68,
+      "title_km": "៦៨ បញ្ចប់មោហមូលចិត្ត ២ ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/1e393c7e06c6ba9b-a64.mp3",
+          "duration_s": 5062
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1069",
+      "num": 69,
+      "title_km": "៦៩ រម្លឹកមេរៀនអកុសលចិត្ត១២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/6222ef94f08a2422-a64.mp3",
+          "duration_s": 4448
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1070",
+      "num": 70,
+      "title_km": "៧០ បាណាតិបាត សម្លាប់សត្វភាគ១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a35095de1a04fa13-a64.mp3",
+          "duration_s": 4723
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1071",
+      "num": 71,
+      "title_km": "៧១ អង្គរបស់បាណាតិបាតមាន ៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/727dd9187873cab4-a64.mp3",
+          "duration_s": 3642
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1072",
+      "num": 72,
+      "title_km": "៧២ ប្រយោគរបស់បាណាតិបាតមាន៥ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c6900ccdfe5b5ba4-a64.mp3",
+          "duration_s": 4212
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1073",
+      "num": 73,
+      "title_km": "៧៣ បាណាតិបាតតាមវេជ្ជសាស្រ្ត វិទ្យាសាស្រ្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/dd7d6764d59faa13-a64.mp3",
+          "duration_s": 4297
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1074",
+      "num": 74,
+      "title_km": "៧៤ បាណាតិបាត ការប្រើសម្លាប់៦ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5aa47ed2f2aa3cac-a64.mp3",
+          "duration_s": 4694
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1075",
+      "num": 75,
+      "title_km": "៧៥ សេទមោចនគាថា គាថាជាហេតុនៃការចេញញើស",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/0ae7464e9e480c1e-a64.mp3",
+          "duration_s": 3415
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1076",
+      "num": 76,
+      "title_km": "៧៦ អាការវិនិច្ឆ័យ៥របស់បាណាតិបាត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5274f8cbe160eab7-a64.mp3",
+          "duration_s": 3733
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1077",
+      "num": 77,
+      "title_km": "៧៧ ទោសរបស់បាណាតិបាត៤យ៉ាងរមែងធ្លាក់នរក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/881a1d2b35d195de-a64.mp3",
+          "duration_s": 4207
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1078",
+      "num": 78,
+      "title_km": "៧៨ អទិន្នាទានមានអង្គ៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c595dec9706bc3d6-a64.mp3",
+          "duration_s": 4740
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1079",
+      "num": 79,
+      "title_km": "៧៩ អទិន្នាទាននានាភណ្ឌបញ្ចកៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/01efe714cb7bdbb1-a64.mp3",
+          "duration_s": 2109
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1080",
+      "num": 80,
+      "title_km": "៨០ បញ្ចប់អវហារ ការលួច២៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/07afa7a6fe1ae909-a64.mp3",
+          "duration_s": 2246
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1081",
+      "num": 81,
+      "title_km": "៨១ អាការវិនិច្ឆ័យ ៥ របស់អទិន្នាទាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/efc825f40491c2eb-a64.mp3",
+          "duration_s": 6371
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1082",
+      "num": 82,
+      "title_km": "៨២ កាមេសុមិច្ឆាចារៈស្រ្តី ២០ ជំពូក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/68cbfbb50f18fc32-a64.mp3",
+          "duration_s": 5283
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1083",
+      "num": 83,
+      "title_km": "៨៣ បញ្ចប់កាមេសុមិច្ឆាចារនិងសុរាមេរ័យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f270bb925823dc65-a64.mp3",
+          "duration_s": 6063
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1084",
+      "num": 84,
+      "title_km": "៨៤ មុសាវាទភាគ១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/88b555627755d675-a64.mp3",
+          "duration_s": 5005
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1085",
+      "num": 85,
+      "title_km": "៨៥ មុសាវាទ ការកុហក ភាគបញ្ចប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/682cf371317be9cb-a64.mp3",
+          "duration_s": 4995
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1086",
+      "num": 86,
+      "title_km": "៨៦ បិសុណាវាទ ការនិយាយញុះញង់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a3afce4c6c25fa3d-a64.mp3",
+          "duration_s": 3910
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1087",
+      "num": 87,
+      "title_km": "៨៧ ផរុសវាចា ការជេរប្រទេច ភាក១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f56d99b9631badaa-a64.mp3",
+          "duration_s": 5230
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1088",
+      "num": 88,
+      "title_km": "៨៨ ផរុសវាចា ការជេរប្រទេច (ភាគ២)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/bf0416a93535939d-a64.mp3",
+          "duration_s": 5529
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1089",
+      "num": 89,
+      "title_km": "៨៩ សម្ផប្បលាបា និយាយពាក្យឥតប្រយោជន៍",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/d740252c2ccb3c47-a64.mp3",
+          "duration_s": 5311
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1090",
+      "num": 90,
+      "title_km": "៩០ អភិជ្ឃា សម្លឹងរំពៃចង់បានរបស់អ្នកដទៃ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/210792ee0711b5e2-a64.mp3",
+          "duration_s": 5367
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1091",
+      "num": 91,
+      "title_km": "៩១ ព្យាបាទ មិច្ឆាទិដ្ឋិ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5fa0c9e8369ff15f-a64.mp3",
+          "duration_s": 5468
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1092",
+      "num": 92,
+      "title_km": "៩២ សរុបបញ្ចប់អកុសលកម្មបថ១០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/69fb542ba6646ddb-a64.mp3",
+          "duration_s": 4792
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1093",
+      "num": 93,
+      "title_km": "៩៣ និយមន័យអហេតុកចិត្ត អកុសលវិបាក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e732240c7a0bd387-a64.mp3",
+          "duration_s": 6597
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1094",
+      "num": 94,
+      "title_km": "៩៤ ចក្ខុវិញ្ញាណជាអកុសលវិបាក១ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7d9cd3b605cf252a-a64.mp3",
+          "duration_s": 6297
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1095",
+      "num": 95,
+      "title_km": "៩៥ អកុសលវិបាក បរិកប្ប២យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/90c398ade0f81491-a64.mp3",
+          "duration_s": 2404
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1096",
+      "num": 96,
+      "title_km": "៩៦ អកុសលវិបាកសោតវិញ្ញាណ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ec7600e0406a1e05-a64.mp3",
+          "duration_s": 5760
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1097",
+      "num": 97,
+      "title_km": "៩៧ អកុសលវិបាក ឃានវិញ្ញាណ ជីវ្ហាវិញ្ញាណ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/50daa58384b12071-a64.mp3",
+          "duration_s": 5596
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1098",
+      "num": 98,
+      "title_km": "៩៨ អកុសលវិបាកទុក្ខសហគតកាយវិញ្ញាណ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/57e42e7e2e42ea41-a64.mp3",
+          "duration_s": 5096
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1099",
+      "num": 99,
+      "title_km": "៩៩ អកុសលវិបាកទុក្ខសហគតកាយវិញ្ញាណ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2f04b26953f6bfb5-a64.mp3",
+          "duration_s": 6099
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1100",
+      "num": 100,
+      "title_km": "១០០ ប្រៀបធៀបវិថីចិត្ត១៧ខណៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/73e77e0f49c26b97-a64.mp3",
+          "duration_s": 6162
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1101",
+      "num": 101,
+      "title_km": "១០១ កុសលវិបាក ចក្ខុវិញ្ញាណ សោតវិញ្ញាណ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8a5ec963c457397d-a64.mp3",
+          "duration_s": 6106
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1102",
+      "num": 102,
+      "title_km": "១០២ បញ្ចប់កុសលវិបាកចិត្ត៨ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/df3d058168c4a0ef-a64.mp3",
+          "duration_s": 5959
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1103",
+      "num": 103,
+      "title_km": "១០៣ អហេតុកកិរិយាចិត្ត​៣ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9b3519e8ff99bc56-a64.mp3",
+          "duration_s": 5791
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1104",
+      "num": 104,
+      "title_km": "១០៤ រម្លឹកមេរៀនក្នុងអហេតុកចិត្ត១៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e0a31b461ad8fc3e-a64.mp3",
+          "duration_s": 4705
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1105",
+      "num": 105,
+      "title_km": "១០៥ ចែកអហេតុកចិត្ត១៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/0071c9c2bf09f63f-a64.mp3",
+          "duration_s": 5481
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1106",
+      "num": 106,
+      "title_km": "១០៦ ចែកអហេតុកដោយន័យផ្សេងៗ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/34b368a3f465ff8d-a64.mp3",
+          "duration_s": 5319
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1107",
+      "num": 107,
+      "title_km": "១០៧ ចែកអហេតុកដោយន័យផ្សេងៗ បញ្ចប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/daad57fbddb42745-a64.mp3",
+          "duration_s": 4332
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1108",
+      "num": 108,
+      "title_km": "១០៨ និយមន័យកុសល ឬបុញ្ញ បុណ្យ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/230b399ae83c8d71-a64.mp3",
+          "duration_s": 5451
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1109",
+      "num": 109,
+      "title_km": "១០៩ អត្ថរបស់កុសលមាន៥យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/191749d5690b3bb9-a64.mp3",
+          "duration_s": 5604
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1110",
+      "num": 110,
+      "title_km": "១១០ មហាកុសលដួងទី១ដល់ទី៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a81da5eb95bda85a-a64.mp3",
+          "duration_s": 1847
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1111",
+      "num": 111,
+      "title_km": "១១១ មហាកុសលដួងទី៥ដល់ទី៨",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/38713ae8774524d9-a64.mp3",
+          "duration_s": 5847
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1112",
+      "num": 112,
+      "title_km": "១១២ ចក្កធម៌៥យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/353abf949a236e6a-a64.mp3",
+          "duration_s": 6255
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1113",
+      "num": 113,
+      "title_km": "១១៣ ហេតុនាំឲ្យកើតសោមនស្សមហាកុសល",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c79efdcfcc9aa00f-a64.mp3",
+          "duration_s": 6252
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1114",
+      "num": 114,
+      "title_km": "១១៤ ហេតុនាំឲ្យកើតកុសលញាណសម្បយុត្តចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5a2ed5403a1baa73-a64.mp3",
+          "duration_s": 4377
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1115",
+      "num": 115,
+      "title_km": "១១៥ ហេតុនាំឱ្យកើតកុសលញាណវិប្បយុត្តចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/970cbc9c8350bf3c-a64.mp3",
+          "duration_s": 5528
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1116",
+      "num": 116,
+      "title_km": "១១៦ ហេតុនាំឱ្យកើតអសង្ខារ សសង្ខារ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a454427b763c62c8-a64.mp3",
+          "duration_s": 6346
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1117",
+      "num": 117,
+      "title_km": "១១៧ មហាកុសលក្នុងកុសលកម្មបថ១០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7c33724469e9c52c-a64.mp3",
+          "duration_s": 5294
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1118",
+      "num": 118,
+      "title_km": "១១៨ មហាកុសលក្នុងទានមយបុណ្យ (ភាគ១)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ded32569cb53e390-a64.mp3",
+          "duration_s": 4242
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1119",
+      "num": 119,
+      "title_km": "១១៩ មហាកុសលក្នុងទានមយបុណ្យ (ភាគ២)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/0c174682c5a29b5a-a64.mp3",
+          "duration_s": 5652
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1120",
+      "num": 120,
+      "title_km": "១២០ មហាកុសលក្នុងទានមយបុណ្យ ភាគ៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/cc830d0693a36926-a64.mp3",
+          "duration_s": 6519
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1121",
+      "num": 121,
+      "title_km": "១២១ មហាកុសលក្នុងទានមយបុណ្យ ភាគ៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ec1e798b71096e1f-a64.mp3",
+          "duration_s": 5982
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1122",
+      "num": 122,
+      "title_km": "១២២ មហាកុសលក្នុងទានមយបុណ្យ ភាគ៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ebbe55af497fb55d-a64.mp3",
+          "duration_s": 5949
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1123",
+      "num": 123,
+      "title_km": "១២៣ អានិស្សនៃការធ្វើទានផ្សេងៗ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ab7b90c73049eb8d-a64.mp3",
+          "duration_s": 6796
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1124",
+      "num": 124,
+      "title_km": "១២៤ សីលមយបុណ្យ ភាគ១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5c1aa155bf5e794a-a64.mp3",
+          "duration_s": 2122
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1125",
+      "num": 125,
+      "title_km": "១២៥ សីលមយបុណ្យ ភាគ២",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e3052dbd224acfbd-a64.mp3",
+          "duration_s": 5262
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1126",
+      "num": 126,
+      "title_km": "១២៦ សីលមយបុណ្យ ភាគ៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b06235de0ab538b3-a64.mp3",
+          "duration_s": 5595
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1127",
+      "num": 127,
+      "title_km": "១២៧ បដិហារិយឧបោសថសីល",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/432cb6c5dcd969cf-a64.mp3",
+          "duration_s": 5810
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1128",
+      "num": 128,
+      "title_km": "១២៨ ឧបោសថសីល វិកាលសិក្ខាបទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/860fb11b22516c7c-a64.mp3",
+          "duration_s": 6046
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1129",
+      "num": 129,
+      "title_km": "១២៩ វិកាលសិក្ខាបទ រឿងភេសជ្ជៈ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9be2e734621d9ea1-a64.mp3",
+          "duration_s": 4997
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1130",
+      "num": 130,
+      "title_km": "១៣០ វិកាលសិក្ខាបទ ភាគបញ្ចប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8e66643e01117676-a64.mp3",
+          "duration_s": 5710
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1131",
+      "num": 131,
+      "title_km": "១៣១ នច្ចគីតវាទិតវិសូកទស្សនា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/116759e72ae541ec-a64.mp3",
+          "duration_s": 5118
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1132",
+      "num": 132,
+      "title_km": "១៣២ មាលាគន្ធវិលេបនធារណមណ្ឌនវិភូសន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c3b82ac67360765d-a64.mp3",
+          "duration_s": 5638
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1133",
+      "num": 133,
+      "title_km": "១៣៣ ឧច្ចាសយនមហាសយនសិក្ខាបទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e4ed98c17748a811-a64.mp3",
+          "duration_s": 5242
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1134",
+      "num": 134,
+      "title_km": "១៣៤ ជាតរូបបរជិតប្បដិគ្គហណសិក្ខាបទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/96b9f272e93a2934-a64.mp3",
+          "duration_s": 5602
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1135",
+      "num": 135,
+      "title_km": "១៣៥ អានិសង្សវៀរចាកបាណាបាតិបាតជាដើម",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e9ca3e6b14841b87-a64.mp3",
+          "duration_s": 5971
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1136",
+      "num": 136,
+      "title_km": "១៣៦ ឧបមារបស់សីលផ្សេងៗ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8eec7f11293aa085-a64.mp3",
+          "duration_s": 5310
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1137",
+      "num": 137,
+      "title_km": "១៣៧ ភាវនា អបចាយន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/38b4cf2261310554-a64.mp3",
+          "duration_s": 6522
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1138",
+      "num": 138,
+      "title_km": "១៣៨ វេយ្យាវច្ច អបចាយន បត្តិទាន បត្តានុមោទនា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f87821dddae79084-a64.mp3",
+          "duration_s": 6149
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1139",
+      "num": 139,
+      "title_km": "១៣៩ ធម្មស្សវន ធម្មទេសនា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/515b4a2e7042e977-a64.mp3",
+          "duration_s": 5289
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1140",
+      "num": 140,
+      "title_km": "១៤០ ចែកមហាកុសល ឧកដ្ឋ និងឱមក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/25a29d1758ef5a7d-a64.mp3",
+          "duration_s": 5705
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1141",
+      "num": 141,
+      "title_km": "១៤១ ចែកអានិសង្សរបស់មហាកុសលចិត្ត៨ ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f81d506359dfd7bb-a64.mp3",
+          "duration_s": 5226
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1142",
+      "num": 142,
+      "title_km": "១៤២ ចែកមហាកុសលចិត្តដោយន័យផ្សេងៗ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/19c955a1d3e19add-a64.mp3",
+          "duration_s": 5508
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1143",
+      "num": 143,
+      "title_km": "១៤៣ មហាវិបាកចិត្ត៨ដួង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/cac912878d9f6de2-a64.mp3",
+          "duration_s": 3813
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1144",
+      "num": 144,
+      "title_km": "១៤៤ ផលរបស់កម្ម ៧ យ៉ាង ចូឡកម្មវិភាគសូត្រ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b4075b260a697b64-a64.mp3",
+          "duration_s": 6062
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1145",
+      "num": 145,
+      "title_km": "១៤៥ បុព្វហេតុនាំឱ្យផលរបស់កម្មផ្សេងគ្នា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/51b309e874fd7ac4-a64.mp3",
+          "duration_s": 4902
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1146",
+      "num": 146,
+      "title_km": "១៤៦ ចែកមហាវិបាកចិត្តដោយន័យផ្សេងៗ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b101b75a27f4cf93-a64.mp3",
+          "duration_s": 5645
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1147",
+      "num": 147,
+      "title_km": "១៤៧ ចែកមហាកិរិយាចិត្តដោយន័យផ្សេងៗ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ada6e93c6c5e170c-a64.mp3",
+          "duration_s": 4819
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1148",
+      "num": 148,
+      "title_km": "១៤៨ ពាក្យថា ឈានចិត្តរូបាវចរឈាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7e94f3e0d0ae150b-a64.mp3",
+          "duration_s": 6018
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1149",
+      "num": 149,
+      "title_km": "១៤៩ បុព្វកិច្ចរបស់អ្នកបដិបត្តិកម្មដ្ឋាន៧",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/aa404dc11106df00-a64.mp3",
+          "duration_s": 6568
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1150",
+      "num": 150,
+      "title_km": "១៥០ បុព្វកិច្ចរបស់អ្នកបដិបត្តិកម្មដ្ឋានបន្តចប់",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/44c97d340d47fe9e-a64.mp3",
+          "duration_s": 4935
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1151",
+      "num": 151,
+      "title_km": "១៥១ អង្គឈាន វិតក្ក វិចារ បីតិ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ccf66462ff37765f-a64.mp3",
+          "duration_s": 6165
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1152",
+      "num": 152,
+      "title_km": "១៥២ អង្គឈានលះនីវរណៈ ៥ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/60d44db53b051ac2-a64.mp3",
+          "duration_s": 4686
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1153",
+      "num": 153,
+      "title_km": "១៥៣ ពាក្យសមថភាវនា",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/54f3d27e781ef5a5-a64.mp3",
+          "duration_s": 6386
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1154",
+      "num": 154,
+      "title_km": "១៥៤ កិសណ ១០ អសុភ ១០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/78afe62f1705e31a-a64.mp3",
+          "duration_s": 7013
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1155",
+      "num": 155,
+      "title_km": "១៥៥ អធិប្បាយអនុស្សតិ ១០",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ad6b1b65e7f381c8-a64.mp3",
+          "duration_s": 5736
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1156",
+      "num": 156,
+      "title_km": "១៥៦ ឧបសមានុស្សតិ មរណានុស្សតិ កាយគាតសតិ អានាបានស្សតិ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/372cc629a6389981-a64.mp3",
+          "duration_s": 5772
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1157",
+      "num": 157,
+      "title_km": "១៥៧ ចម្រើនមេត្តា និងករុណាចិត្តចំពោះសព្វសត្វ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/46fd94bf677a2b53-a64.mp3",
+          "duration_s": 5631
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1158",
+      "num": 158,
+      "title_km": "១៥៨ អាហារេបដិកូលសញ្ញា ចតុធាតុវវត្ថាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4b79d4eef91fe92b-a64.mp3",
+          "duration_s": 5389
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1159",
+      "num": 159,
+      "title_km": "១៥៩ ចែកកម្មដ្ឋាន៤០ ដោយអាការៈ១០យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/98225b9f5ee15f48-a64.mp3",
+          "duration_s": 5715
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1160",
+      "num": 160,
+      "title_km": "១៦០ កម្មដ្ឋានសមគួរដល់ចរិត ៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/759a747922192e9c-a64.mp3",
+          "duration_s": 5494
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1161",
+      "num": 161,
+      "title_km": "១៦១ ការប្រព្រឹត្តិធម៌របស់ចរិតទាំង ៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/79b777d6e7276d05-a64.mp3",
+          "duration_s": 4606
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1162",
+      "num": 162,
+      "title_km": "១៦២ ចែកន័យផ្សេងៗក្នុងរូបកុសល ៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/19b49fd4254c8ab1-a64.mp3",
+          "duration_s": 4765
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1163",
+      "num": 163,
+      "title_km": "១៦៣ រូបាវចរចិត្ត ៥ រូបព្រហ្ម ១៦",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4347dce4e6400157-a64.mp3",
+          "duration_s": 1455
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1164",
+      "num": 164,
+      "title_km": "១៦៤ អរូបឈានទី ១ អាកាសានញ្ចាយតន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/baf0f860aa3eaf2e-a64.mp3",
+          "duration_s": 5843
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1165",
+      "num": 165,
+      "title_km": "១៦៥ សំណួរចម្លើយក្នុងលោកិយចិត្ត ៨១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/fffbff38d9cd732b-a64.mp3",
+          "duration_s": 4779
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1166",
+      "num": 166,
+      "title_km": "១៦៦ និយមន័យលោកុត្តរចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/58caeb8081b3d798-a64.mp3",
+          "duration_s": 5997
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1167",
+      "num": 167,
+      "title_km": "១៦៧ សោតាបត្តិមគ្គចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/d63b03ae54b2b8c8-a64.mp3",
+          "duration_s": 6202
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1168",
+      "num": 168,
+      "title_km": "១៦៨ សោតាបន្នបុគ្គលចែកជា ៣ ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4952098e0592678c-a64.mp3",
+          "duration_s": 4043
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1169",
+      "num": 169,
+      "title_km": "១៦៩ អនាគាមី ចែកចេញជា ៥ ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/626d51de5890615c-a64.mp3",
+          "duration_s": 5270
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1170",
+      "num": 170,
+      "title_km": "១៧០ ព្រះអរហន្ត ចែកជា ២ ប្រភេទ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/52cf18c367662723-a64.mp3",
+          "duration_s": 5513
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1171",
+      "num": 171,
+      "title_km": "១៧១ តើព្រះអរិយបុគ្គលត្រាស់ដឹងនូវធម៌អ្វី",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/76949e2bd2f06ba0-a64.mp3",
+          "duration_s": 4616
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1172",
+      "num": 172,
+      "title_km": "១៧២ ចែកលោកុត្តរចិត្តលះបង់កិលេសដូចម្តេចខ្លះ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f7bbfec911803245-a64.mp3",
+          "duration_s": 4987
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1173",
+      "num": 173,
+      "title_km": "១៧៣ សរុបចិត្ត ៨៩ ដួងដោយន័យផ្សេងៗ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/3b21abdeab6a1474-a64.mp3",
+          "duration_s": 3779
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2022.1174",
+      "num": 174,
+      "title_km": "១៧៤ បញ្ចប់ថ្នាក់ចិត្តបរមត្ថរយៈពេល២ ឆ្នាំ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b94ffd92e0941a50-a64.mp3",
+          "duration_s": 6194
+        }
+      ]
+    }
+  ]
+}

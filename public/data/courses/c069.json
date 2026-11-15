@@ -1,0 +1,26 @@
+{
+  "id": "c069",
+  "provisional": false,
+  "title_km": "2-Buddhism in English Level 2 b",
+  "title_en": null,
+  "teacher": "លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា",
+  "teacher_slug": "sor-ratha",
+  "topics": [],
+  "ongoing": false,
+  "all_shown": false,
+  "lessons": [
+    {
+      "id": "AENGSR0000214",
+      "num": 14,
+      "title_km": "14.) 1Apr2025 Tuesday.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/6953dca50a2d28a1-a64.mp3",
+          "duration_s": 4704
+        }
+      ]
+    }
+  ]
+}

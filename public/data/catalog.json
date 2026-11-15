@@ -1,7 +1,697 @@
 {
-  "generated": "2026-11-12T14:32:13.000Z",
+  "generated": "2026-11-15T19:18:08.000Z",
   "provisional": false,
   "courses": [
+    {
+      "id": "c001",
+      "provisional": false,
+      "title_km": "1-បរិច្ឆេទ ទី ៨",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ ពុទ្ធិកាលង្ការ ផេង ឌីណា",
+      "teacher_slug": "peng-dina",
+      "topics": [],
+      "lesson_count": 26,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c006",
+      "provisional": false,
+      "title_km": "1-បរិច្ឆេទ ទី១ កាត់ស្អាត (២០២២)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 171,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c007",
+      "provisional": false,
+      "title_km": "2-A.S.បរិច្ឆេទ ទី២ កាត់ស្អាត(២០",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 55,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c008",
+      "provisional": false,
+      "title_km": "3-បរិច្ឆេទ ទី៣ កាត់ស្អាត(២០២៥)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 54,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c009",
+      "provisional": false,
+      "title_km": "4-បរិច្ឆេទ ទី៤ កាត់ស្អាត(២០២៥)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 39,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c011",
+      "provisional": false,
+      "title_km": "6-បរិច្ឆេទ ទី៦ កាត់ស្អាត(២០២៤)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 53,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c012",
+      "provisional": false,
+      "title_km": "7-A.S.បរិច្ឆេទ ទី១ (២០២៣)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 158,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c013",
+      "provisional": false,
+      "title_km": "8-A.S.បរិច្ឆេទ ទី៣ (២០២៤)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 64,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": true
+    },
+    {
+      "id": "c014",
+      "provisional": false,
+      "title_km": "9-A.S.បរិច្ឆេទ ទី៤(២០២២)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 50,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c015",
+      "provisional": false,
+      "title_km": "10-A.S.បរិច្ឆេទ ទី៤(២០២៤)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 62,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c016",
+      "provisional": false,
+      "title_km": "11-A.S.បរិច្ឆេទ ទី៥(២០២២)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 78,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c017",
+      "provisional": false,
+      "title_km": "12-A.S.បរិច្ឆេទ ទី៦​(២០២៣)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 65,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c018",
+      "provisional": false,
+      "title_km": "A.S.បរិច្ឆេទ ទី៧ (២០២៣)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 115,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c019",
+      "provisional": false,
+      "title_km": "13-A.S.បរិច្ឆេទ ទី៨ (២០២៥)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 132,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c020",
+      "provisional": false,
+      "title_km": "14-A.S.បរិច្ឆេទ ទី៩ (២០២០)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 39,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c021",
+      "provisional": false,
+      "title_km": "15-A.S.ព្រះធម៌ថ្នាក់កុមារ (២០២៤",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 35,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c023",
+      "provisional": false,
+      "title_km": "តេមិយជាតក",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 3,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c025",
+      "provisional": false,
+      "title_km": "1-Dhamma in English( វគ្គ ១)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ ធម្មសេនា ហាក់ សៀងហៃ",
+      "teacher_slug": "hak-sienghai",
+      "topics": [],
+      "lesson_count": 48,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c026",
+      "provisional": false,
+      "title_km": "2-Dhamma in English(វគ្គ ២)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ ធម្មសេនា ហាក់ សៀងហៃ",
+      "teacher_slug": "hak-sienghai",
+      "topics": [],
+      "lesson_count": 32,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c031",
+      "provisional": false,
+      "title_km": "7-បិដកលេខ២២",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 34,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c032",
+      "provisional": false,
+      "title_km": "ព្រះត្រៃបិដកបាលីភាគ១៦",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 19,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c033",
+      "provisional": false,
+      "title_km": "ព្រះត្រៃបិដកបាលីភាគ១៧",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 2,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c035",
+      "provisional": false,
+      "title_km": "ព្រះត្រៃបិដកបាលីភាគ១៩",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 23,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c036",
+      "provisional": false,
+      "title_km": "ព្រះត្រៃបិដកបាលីភាគ២០",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 85,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c037",
+      "provisional": false,
+      "title_km": "6-បិដកលេខ២១",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 22,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c039",
+      "provisional": false,
+      "title_km": "1-ថ្នាក់សមថៈ វិបស្សនា​២០២២",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [],
+      "lesson_count": 36,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c042",
+      "provisional": false,
+      "title_km": "4-វគ្គខ្លីលើកទី ១ នៅកែប",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [],
+      "lesson_count": 4,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c043",
+      "provisional": false,
+      "title_km": "5-សមាធិ វគ្គខ្លី",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន",
+      "teacher_slug": "him-bunthoeun",
+      "topics": [],
+      "lesson_count": 148,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c044",
+      "provisional": false,
+      "title_km": "1-វិនយបិដកេ មហាវគ្គបាឡិ ",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ ពុទ្ធង្កុរ ភុល ណារិន",
+      "teacher_slug": "phul-narin",
+      "topics": [],
+      "lesson_count": 61,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c047",
+      "provisional": false,
+      "title_km": "០០​​​​​​​​​ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃបើកថ្នាក់ដំបូង",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង",
+      "teacher_slug": "vinh-sovoeurng",
+      "topics": [],
+      "lesson_count": 97,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c048",
+      "provisional": false,
+      "title_km": "3-បរិច្ឆេទទី​៣ (ឆ្នាំ ២០២៤)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង",
+      "teacher_slug": "vinh-sovoeurng",
+      "topics": [],
+      "lesson_count": 70,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": true
+    },
+    {
+      "id": "c049",
+      "provisional": false,
+      "title_km": "4-បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ (ឆ",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង",
+      "teacher_slug": "vinh-sovoeurng",
+      "topics": [],
+      "lesson_count": 141,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c054",
+      "provisional": false,
+      "title_km": "1-Buddhism in English for Begin",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ មុនីបុត្តោ សុខ ធាវី",
+      "teacher_slug": "sok-theavy",
+      "topics": [],
+      "lesson_count": 46,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c057",
+      "provisional": false,
+      "title_km": "1-បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ មុនីចរិយាវង្ស ហ៊ុន ខេមរា",
+      "teacher_slug": "hun-khemara",
+      "topics": [],
+      "lesson_count": 51,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c058",
+      "provisional": false,
+      "title_km": "2-ញាណទស្សនៈ (២០២៦)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ មុនីចរិយាវង្ស ហ៊ុន ខេមរា",
+      "teacher_slug": "hun-khemara",
+      "topics": [],
+      "lesson_count": 30,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": true,
+      "all_shown": false
+    },
+    {
+      "id": "c065",
+      "provisional": false,
+      "title_km": "1-សតិបដ្ឋាន",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញោ ថូ ចន្ថា",
+      "teacher_slug": "tho-chantha",
+      "topics": [],
+      "lesson_count": 54,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": true
+    },
+    {
+      "id": "c068",
+      "provisional": false,
+      "title_km": "1-Buddhism in English Level 1 b",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា",
+      "teacher_slug": "sor-ratha",
+      "topics": [],
+      "lesson_count": 19,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c069",
+      "provisional": false,
+      "title_km": "2-Buddhism in English Level 2 b",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា",
+      "teacher_slug": "sor-ratha",
+      "topics": [],
+      "lesson_count": 1,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c070",
+      "provisional": false,
+      "title_km": "3-Buddhism in English Level 3 b",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា",
+      "teacher_slug": "sor-ratha",
+      "topics": [],
+      "lesson_count": 22,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c072",
+      "provisional": false,
+      "title_km": "1-បិដកលេខ ១៤",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [],
+      "lesson_count": 24,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": true
+    },
+    {
+      "id": "c073",
+      "provisional": false,
+      "title_km": "2-បិដកលេខ ១៥",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [],
+      "lesson_count": 19,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c074",
+      "provisional": false,
+      "title_km": "3-រាត្រីធម្មទាន",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [],
+      "lesson_count": 452,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c075",
+      "provisional": false,
+      "title_km": "4-នាទីធម្មចរិយា",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [],
+      "lesson_count": 72,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c076",
+      "provisional": false,
+      "title_km": "5-អដ្ឋកថាជាតក",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [],
+      "lesson_count": 31,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c077",
+      "provisional": false,
+      "title_km": "6-បច្ចេកពុទ្ធ",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [],
+      "lesson_count": 55,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": false
+    },
+    {
+      "id": "c078",
+      "provisional": false,
+      "title_km": "8-វចនានុក្រមព្រះពុទ្ធសាសានា",
+      "title_en": null,
+      "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+      "teacher_slug": "sok-heng",
+      "topics": [],
+      "lesson_count": 65,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": true,
+      "all_shown": false
+    },
     {
       "id": "c080",
       "provisional": false,
@@ -10,12 +700,27 @@
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
       "topics": [],
-      "lesson_count": 10,
+      "lesson_count": 13,
       "media_kinds": [
         "r2"
       ],
       "ongoing": false,
       "all_shown": false
+    },
+    {
+      "id": "c083",
+      "provisional": false,
+      "title_km": "3-បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ ឡេង ស៊ីដែន",
+      "teacher_slug": "leng-sideoun",
+      "topics": [],
+      "lesson_count": 9,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": false,
+      "all_shown": true
     }
   ]
 }

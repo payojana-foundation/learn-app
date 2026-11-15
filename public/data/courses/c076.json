@@ -1,0 +1,416 @@
+{
+  "id": "c076",
+  "provisional": false,
+  "title_km": "5-អដ្ឋកថាជាតក",
+  "title_en": null,
+  "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
+  "teacher_slug": "sok-heng",
+  "topics": [],
+  "ongoing": false,
+  "all_shown": false,
+  "lessons": [
+    {
+      "id": "AJAD000MSA001",
+      "num": 1,
+      "title_km": "1 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/711769ece382c188-a64.mp3",
+          "duration_s": 1082
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA002",
+      "num": 2,
+      "title_km": "2 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5b34eb4420b1cff5-a64.mp3",
+          "duration_s": 2843
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA003",
+      "num": 3,
+      "title_km": "3 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/3694369d8bebbbb9-a64.mp3",
+          "duration_s": 2747
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA004",
+      "num": 4,
+      "title_km": "4 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/d55b934fc7214055-a64.mp3",
+          "duration_s": 3155
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA005",
+      "num": 5,
+      "title_km": "5 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4a18b8ae7a52a38b-a64.mp3",
+          "duration_s": 3231
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA006",
+      "num": 6,
+      "title_km": "6 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8ee329601efecfbc-a64.mp3",
+          "duration_s": 2974
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA007",
+      "num": 7,
+      "title_km": "7 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/1f354946699ec1b7-a64.mp3",
+          "duration_s": 2945
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA008",
+      "num": 8,
+      "title_km": "8 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7cf7fbda37820e18-a64.mp3",
+          "duration_s": 2558
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA009",
+      "num": 9,
+      "title_km": "9 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f72cd8abc760f22d-a64.mp3",
+          "duration_s": 2918
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA010",
+      "num": 10,
+      "title_km": "10 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/05a04abb82743b06-a64.mp3",
+          "duration_s": 2518
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA011",
+      "num": 11,
+      "title_km": "11 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/41ca5e618e93460b-a64.mp3",
+          "duration_s": 2767
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA012",
+      "num": 12,
+      "title_km": "12 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/d09c8df6193cff62-a64.mp3",
+          "duration_s": 3081
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA013",
+      "num": 13,
+      "title_km": "13 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/23187621a90a4a0e-a64.mp3",
+          "duration_s": 1962
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA014",
+      "num": 14,
+      "title_km": "14 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/70b8cb24387149ee-a64.mp3",
+          "duration_s": 2943
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA015",
+      "num": 15,
+      "title_km": "15 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/241e9861cfb3ecb0-a64.mp3",
+          "duration_s": 2997
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA016",
+      "num": 16,
+      "title_km": "16 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/bc3a787aea3df679-a64.mp3",
+          "duration_s": 2880
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA017",
+      "num": 17,
+      "title_km": "17 អដ្ឋកថាជាតក ដាច់ភាគ (ត) ១ភាគ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a35b1eada3b89cb5-a64.mp3",
+          "duration_s": 2591
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA018",
+      "num": 18,
+      "title_km": "18 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9b02d9927833f4ce-a64.mp3",
+          "duration_s": 2767
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA019",
+      "num": 19,
+      "title_km": "19 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/84edc294635a7ceb-a64.mp3",
+          "duration_s": 3030
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA020",
+      "num": 20,
+      "title_km": "20 អដ្ឋកថាជាតក ដាច់ភាគ (ត) ១ភាគ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f7f3920853c70bfa-a64.mp3",
+          "duration_s": 2661
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA021",
+      "num": 21,
+      "title_km": "21 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/0d241831351d5a42-a64.mp3",
+          "duration_s": 2541
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA022",
+      "num": 22,
+      "title_km": "22 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/616fcd7b0f225d38-a64.mp3",
+          "duration_s": 2195
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA024",
+      "num": 24,
+      "title_km": "24 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/35bb7d70fdc103a7-a64.mp3",
+          "duration_s": 2836
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA026",
+      "num": 26,
+      "title_km": "26 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4603af2b278ce34a-a64.mp3",
+          "duration_s": 2941
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA027",
+      "num": 27,
+      "title_km": "27 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c8bfb6f9447a7143-a64.mp3",
+          "duration_s": 2691
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA028",
+      "num": 28,
+      "title_km": "28 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/be84b2fcdb67ac5f-a64.mp3",
+          "duration_s": 2659
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA029",
+      "num": 29,
+      "title_km": "29 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/52495bf5333ea3f1-a64.mp3",
+          "duration_s": 3023
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA030",
+      "num": 30,
+      "title_km": "30 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/442b0387ce7845a6-a64.mp3",
+          "duration_s": 3124
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA031",
+      "num": 31,
+      "title_km": "31 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/25ba607dab628c41-a64.mp3",
+          "duration_s": 2649
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA032",
+      "num": 32,
+      "title_km": "32 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f367a848985af36e-a64.mp3",
+          "duration_s": 2421
+        }
+      ]
+    },
+    {
+      "id": "AJAD000MSA033",
+      "num": 33,
+      "title_km": "33 អដ្ឋកថាជាតក.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a78a8dbaa2861d07-a64.mp3",
+          "duration_s": 2852
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,39 @@
+{
+  "id": "c033",
+  "provisional": false,
+  "title_km": "ព្រះត្រៃបិដកបាលីភាគ១៧",
+  "title_en": null,
+  "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+  "teacher_slug": "yon-yi",
+  "topics": [],
+  "ongoing": false,
+  "all_shown": false,
+  "lessons": [
+    {
+      "id": "ASUT017YY0017",
+      "num": 17,
+      "title_km": "បិដកលេខ១៧ 17 សតិប្បដ្ឋានសូត្រភាគ២ (បិដកលេខ ១៧ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/669a66044ee2a335-a64.mp3",
+          "duration_s": 5211
+        }
+      ]
+    },
+    {
+      "id": "ASUT017YY0018",
+      "num": 18,
+      "title_km": "បិដកលេខ១៧ 18 កាយានុបស្សនាសតិប្បដ្ឋានភាគ១ (បិដកលេខ ១៧ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី).mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/17a5fd6ef9e6ed9f-a64.mp3",
+          "duration_s": 328
+        }
+      ]
+    }
+  ]
+}

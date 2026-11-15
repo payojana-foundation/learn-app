@@ -1,0 +1,637 @@
+{
+  "id": "c025",
+  "provisional": false,
+  "title_km": "1-Dhamma in English( វគ្គ ១)",
+  "title_en": null,
+  "teacher": "លោកម្ចាស់គ្រូ ធម្មសេនា ហាក់ សៀងហៃ",
+  "teacher_slug": "hak-sienghai",
+  "topics": [],
+  "ongoing": false,
+  "all_shown": false,
+  "lessons": [
+    {
+      "id": "AENGHS0000101",
+      "num": 1,
+      "title_km": "១ Buddhism in English by Ven.Hak Sienghai_ 1.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a70a88e690aa35c9-a64.mp3",
+          "duration_s": 410
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000102",
+      "num": 2,
+      "title_km": "២ Buddhism in English by Ven.Hak Sienghai_ 2.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4c180ef37b8ce455-a64.mp3",
+          "duration_s": 562
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000106",
+      "num": 6,
+      "title_km": "៦ Buddhism in English by Ven.Hak Sienghai 6.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/11347d788fab2cb0-a64.mp3",
+          "duration_s": 544
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000107",
+      "num": 7,
+      "title_km": "៧ Buddhism in English by Ven.Hak Sienghai 7.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/65517b855291723e-a64.mp3",
+          "duration_s": 359
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000108",
+      "num": 8,
+      "title_km": "៨ Buddhism in English by Ven.Hak Sienghai 8.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/92d9a79a4b66a82e-a64.mp3",
+          "duration_s": 530
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000112",
+      "num": 12,
+      "title_km": "១២ Buddhism in English by Ven.Hak Sienghai 12.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2bd5763a0a6c4e65-a64.mp3",
+          "duration_s": 618
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000113",
+      "num": 13,
+      "title_km": "១៣ Buddhism in English by Ven.Hak Sienghai 13.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/95998fb4c9e43656-a64.mp3",
+          "duration_s": 562
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000114",
+      "num": 14,
+      "title_km": "១៤ Buddhism in English by Ven.Hak Sienghai 14.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2217f33bee5de439-a64.mp3",
+          "duration_s": 817
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000115",
+      "num": 15,
+      "title_km": "15-១៦ Buddhism in English by Ven.Hak Sienghai 16 (1).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8de71c0990d09dd4-a64.mp3",
+          "duration_s": 856
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000116",
+      "num": 16,
+      "title_km": "16-១៧ Buddhism in English by Ven.Hak Sienghai 17 (1).mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e7dbaf6f83d84361-a64.mp3",
+          "duration_s": 863
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000117",
+      "num": 17,
+      "title_km": "17-១៨ Buddhism in English by Ven.Hak Sienghai 18.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b65c2d75f45cf401-a64.mp3",
+          "duration_s": 1006
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000118",
+      "num": 18,
+      "title_km": "18-១៩ Buddhism in English by Ven.Hak Sienghai 19.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/0a8269dbd63186dd-a64.mp3",
+          "duration_s": 1111
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000119",
+      "num": 19,
+      "title_km": "19-២០ Buddhism in English by Ven.Hak Sienghai 20.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/0a42a91a7a6069f8-a64.mp3",
+          "duration_s": 571
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000120",
+      "num": 20,
+      "title_km": "20-២១ Buddhism in English by Ven.Hak Sienghai 21.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a84dd63b446990db-a64.mp3",
+          "duration_s": 695
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000121",
+      "num": 21,
+      "title_km": "21-២២ Buddhism in English by Ven.Hak Sienghai 22.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/96133782ba7a1b66-a64.mp3",
+          "duration_s": 1026
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000122",
+      "num": 22,
+      "title_km": "22-២៣ Buddhism in English by Ven.Hak Sienghai 23.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/df47e0066d0947ff-a64.mp3",
+          "duration_s": 680
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000123",
+      "num": 23,
+      "title_km": "23-២៤ Buddhism in English by Ven.Hak Sienghai 24.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/97a8609e06e914f8-a64.mp3",
+          "duration_s": 904
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000124",
+      "num": 24,
+      "title_km": "24-២៥ Buddhism in English by Ven.Hak Sienghai 25.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/90d521358ead3574-a64.mp3",
+          "duration_s": 638
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000125",
+      "num": 25,
+      "title_km": "25-២៦ Buddhism in English by Ven.Hak Sienghai 26.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/6432f8a45b7677bc-a64.mp3",
+          "duration_s": 667
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000126",
+      "num": 26,
+      "title_km": "26-២៧ Buddhism in English by Ven.Hak Sienghai 27.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/95ebd8d37f0635cf-a64.mp3",
+          "duration_s": 506
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000127",
+      "num": 27,
+      "title_km": "27-២៨ Buddhism in English by Ven.Hak Sienghai 28.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/3799164726764d2f-a64.mp3",
+          "duration_s": 755
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000128",
+      "num": 28,
+      "title_km": "28-២៩ Buddhism in English by Ven.Hak Sienghai 29.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/3fed4947639c550a-a64.mp3",
+          "duration_s": 461
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000129",
+      "num": 29,
+      "title_km": "29-៣១ Buddhism in English by Ven.Hak Sienghai 31.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/6206c16766e9c595-a64.mp3",
+          "duration_s": 611
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000130",
+      "num": 30,
+      "title_km": "30-៣២ Buddhism in English by Ven.Hak Sienghai 33.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/1a59dfa7a12b49b7-a64.mp3",
+          "duration_s": 494
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000131",
+      "num": 31,
+      "title_km": "31-៣៣ Buddhism in English by Ven.Hak Sienghai 34.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/520f4f3a842bedb1-a64.mp3",
+          "duration_s": 380
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000132",
+      "num": 32,
+      "title_km": "32-៣៤ Buddhism in English by Ven.Hak Sienghai 35.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b4429fa262482549-a64.mp3",
+          "duration_s": 507
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000133",
+      "num": 33,
+      "title_km": "33-៣៥ Buddhism in English by Ven.Hak Sienghai 36.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/6be031ed73a2d24a-a64.mp3",
+          "duration_s": 561
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000134",
+      "num": 34,
+      "title_km": "34-៣៦ Buddhism in English by Ven.Hak Sienghai 37.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a953e4c1aad5a51a-a64.mp3",
+          "duration_s": 612
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000135",
+      "num": 35,
+      "title_km": "35-៣៧ Buddhism in English by Ven.Hak Sienghai_ 38.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f3f9d9d6db2fcc2c-a64.mp3",
+          "duration_s": 506
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000136",
+      "num": 36,
+      "title_km": "36-Buddhism in English by Ven.Hak Sienghai 39.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/562f6e0a2701eee1-a64.mp3",
+          "duration_s": 753
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000137",
+      "num": 37,
+      "title_km": "37-៤០ Buddhism in English by Ven.Hak Sienghai 41.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/09bf372693827039-a64.mp3",
+          "duration_s": 474
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000139",
+      "num": 39,
+      "title_km": "39-៤២ Buddhism in English by Ven.Hak Sienghai 43.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/729f7d694b70dd20-a64.mp3",
+          "duration_s": 1443
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000140",
+      "num": 40,
+      "title_km": "40-៤៣ Buddhism in English by Ven.Hak Sienghai 44.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ea9f422b43101f11-a64.mp3",
+          "duration_s": 855
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000141",
+      "num": 41,
+      "title_km": "41-៤៤ Buddhism in English by Ven.Hak Sienghai 45-1.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9df236c9a9958a7c-a64.mp3",
+          "duration_s": 682
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000142",
+      "num": 42,
+      "title_km": "42-៤៥ Buddhism in English by Ven.Hak Sienghai 46.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7f17b6968504ff20-a64.mp3",
+          "duration_s": 516
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000143",
+      "num": 43,
+      "title_km": "43-៤៦ Buddhism in English by Ven.Hak Sienghai 47.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2e9c90f54a1a8e14-a64.mp3",
+          "duration_s": 584
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000144",
+      "num": 44,
+      "title_km": "44-៤៧ Buddhism in English by Ven.Hak Sienghai 48.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/bfec1f4adfc3b9ab-a64.mp3",
+          "duration_s": 427
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000145",
+      "num": 45,
+      "title_km": "45-៤៨ Buddhism in English by Ven.Hak Sienghai 49.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/25f347368a63181f-a64.mp3",
+          "duration_s": 1040
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000147",
+      "num": 47,
+      "title_km": "47-៥០ Buddhism in English by Ven.Hak Sienghai 51.52.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/d99fbd05464376e4-a64.mp3",
+          "duration_s": 1018
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000148",
+      "num": 48,
+      "title_km": "48-៥១ Buddhism in English by Ven.Hak Sienghai 52.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a9e8550a3321a2ba-a64.mp3",
+          "duration_s": 450
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000149",
+      "num": 49,
+      "title_km": "49-៥២ Buddhism in English by Ven.Hak Sienghai 53.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/50370f5424587511-a64.mp3",
+          "duration_s": 542
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000150",
+      "num": 50,
+      "title_km": "50-៥៣ Buddhism in English by Ven.Hak Sienghai 54.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/553520cc9ca65950-a64.mp3",
+          "duration_s": 530
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000151",
+      "num": 51,
+      "title_km": "51-៥៤ Buddhism in English by Ven.Hak Sienghai 55.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/0dadd1683462e227-a64.mp3",
+          "duration_s": 445
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000152",
+      "num": 52,
+      "title_km": "52-ចរិត៦.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a48153fc45c1eef2-a64.mp3",
+          "duration_s": 537
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000153",
+      "num": 53,
+      "title_km": "53-មនុស្ស៥ប្រភេទ.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/42cf425caa4a2a8b-a64.mp3",
+          "duration_s": 609
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000154",
+      "num": 54,
+      "title_km": "54-កាប់ព្រៃបី រក្សាព្រៃដប់ ផឹកថ្នាំ៥កញ្ចប់ តមត្រណមពីរ59.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/b59cf6f7ed520809-a64.mp3",
+          "duration_s": 615
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000155",
+      "num": 55,
+      "title_km": "55-៦០ ព្យាយាមត្រូវ៤យ៉ាង61.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/06e41e8182c98e6c-a64.mp3",
+          "duration_s": 434
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000157",
+      "num": 57,
+      "title_km": "57-៦៣ ការមិនសេពគប់បុគ្គលពាល64.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/99244353579a42a6-a64.mp3",
+          "duration_s": 597
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,429 @@
+{
+  "id": "c026",
+  "provisional": false,
+  "title_km": "2-Dhamma in English(វគ្គ ២)",
+  "title_en": null,
+  "teacher": "លោកម្ចាស់គ្រូ ធម្មសេនា ហាក់ សៀងហៃ",
+  "teacher_slug": "hak-sienghai",
+  "topics": [],
+  "ongoing": false,
+  "all_shown": false,
+  "lessons": [
+    {
+      "id": "AENGHS0000201",
+      "num": 1,
+      "title_km": "001.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c22a3bfc4f958b94-a64.mp3",
+          "duration_s": 671
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000202",
+      "num": 2,
+      "title_km": "002.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/29f750df898aeb2a-a64.mp3",
+          "duration_s": 1504
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000204",
+      "num": 4,
+      "title_km": "004.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f7c035cdaf25e3ab-a64.mp3",
+          "duration_s": 2316
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000205",
+      "num": 5,
+      "title_km": "005.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4104b112d25eef8e-a64.mp3",
+          "duration_s": 2246
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000206",
+      "num": 6,
+      "title_km": "006.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/8adbc048dfb14274-a64.mp3",
+          "duration_s": 1708
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000207",
+      "num": 7,
+      "title_km": "007.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/fc142fea43e241c0-a64.mp3",
+          "duration_s": 2366
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000208",
+      "num": 8,
+      "title_km": "008.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a0de477a0cbe6d5a-a64.mp3",
+          "duration_s": 1669
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000209",
+      "num": 9,
+      "title_km": "009.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4b0cde98882a777d-a64.mp3",
+          "duration_s": 1888
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000210",
+      "num": 10,
+      "title_km": "010.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/0356bdd64ab4c43a-a64.mp3",
+          "duration_s": 1965
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000211",
+      "num": 11,
+      "title_km": "011.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f3bc3f57f7ac945f-a64.mp3",
+          "duration_s": 2198
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000212",
+      "num": 12,
+      "title_km": "012.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/75811ecc14a6a2e6-a64.mp3",
+          "duration_s": 1624
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000213",
+      "num": 13,
+      "title_km": "013.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/020980f5cbd6d3b2-a64.mp3",
+          "duration_s": 1745
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000214",
+      "num": 14,
+      "title_km": "014.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/362ccfe837524702-a64.mp3",
+          "duration_s": 1526
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000215",
+      "num": 15,
+      "title_km": "015.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9e296bdfa3fe5056-a64.mp3",
+          "duration_s": 1172
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000216",
+      "num": 16,
+      "title_km": "016.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/3b844806297ff6ff-a64.mp3",
+          "duration_s": 1628
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000217",
+      "num": 17,
+      "title_km": "017.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/050feea2253cbffa-a64.mp3",
+          "duration_s": 1452
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000218",
+      "num": 18,
+      "title_km": "018.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2d4c8e51600911b2-a64.mp3",
+          "duration_s": 1315
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000219",
+      "num": 19,
+      "title_km": "019.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/50e153cc24aad9d1-a64.mp3",
+          "duration_s": 1211
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000220",
+      "num": 20,
+      "title_km": "020.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/39b9119d06902c47-a64.mp3",
+          "duration_s": 865
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000221",
+      "num": 21,
+      "title_km": "021.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f2cfc4ed57f5a0ce-a64.mp3",
+          "duration_s": 880
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000222",
+      "num": 22,
+      "title_km": "022.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/19ec373d97637e9a-a64.mp3",
+          "duration_s": 776
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000223",
+      "num": 23,
+      "title_km": "023.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/fb964448adb04f7e-a64.mp3",
+          "duration_s": 1188
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000224",
+      "num": 24,
+      "title_km": "024.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ec1a02a7002a8253-a64.mp3",
+          "duration_s": 1506
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000225",
+      "num": 25,
+      "title_km": "025.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/1ee392e9dc873dd3-a64.mp3",
+          "duration_s": 868
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000226",
+      "num": 26,
+      "title_km": "026.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/01a0325b66fc6460-a64.mp3",
+          "duration_s": 1889
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000227",
+      "num": 27,
+      "title_km": "027.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/80e8cb8c9b335025-a64.mp3",
+          "duration_s": 1158
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000228",
+      "num": 28,
+      "title_km": "028.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/15afa35b5cfba233-a64.mp3",
+          "duration_s": 1036
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000229",
+      "num": 29,
+      "title_km": "029.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/113b165a3be2be98-a64.mp3",
+          "duration_s": 1026
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000230",
+      "num": 30,
+      "title_km": "030.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/10ba8f24299aa6bf-a64.mp3",
+          "duration_s": 946
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000231",
+      "num": 31,
+      "title_km": "031.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4cef55ecc527880e-a64.mp3",
+          "duration_s": 990
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000232",
+      "num": 32,
+      "title_km": "032.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/77f573ec9fd9934a-a64.mp3",
+          "duration_s": 872
+        }
+      ]
+    },
+    {
+      "id": "AENGHS0000233",
+      "num": 33,
+      "title_km": "033.Buddhism in English for Beginners",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f087cc3cb73dbc3b-a64.mp3",
+          "duration_s": 782
+        }
+      ]
+    }
+  ]
+}

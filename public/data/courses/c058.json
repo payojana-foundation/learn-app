@@ -1,0 +1,403 @@
+{
+  "id": "c058",
+  "provisional": false,
+  "title_km": "2-ញាណទស្សនៈ (២០២៦)",
+  "title_en": null,
+  "teacher": "លោកម្ចាស់គ្រូ មុនីចរិយាវង្ស ហ៊ុន ខេមរា",
+  "teacher_slug": "hun-khemara",
+  "topics": [],
+  "ongoing": true,
+  "all_shown": false,
+  "lessons": [
+    {
+      "id": "AMEDHK0010002",
+      "num": 2,
+      "title_km": "2-Ñāṇa-12Apr2026.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/965e583bb48cd35e-a64.mp3",
+          "duration_s": 4645
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010004",
+      "num": 4,
+      "title_km": "4-Ñāṇa-26Apr2026.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7992b7c2631dad8b-a64.mp3",
+          "duration_s": 5483
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010005",
+      "num": 5,
+      "title_km": "5-Ñāṇa-03May2026.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f436f37907dcde32-a64.mp3",
+          "duration_s": 5346
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010006",
+      "num": 6,
+      "title_km": "6-Ñāṇa-13May2026.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/d0d0119c5223211d-a64.mp3",
+          "duration_s": 4568
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010007",
+      "num": 7,
+      "title_km": "7-Ñāṇa-16May2026.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/933235d272fc2c96-a64.mp3",
+          "duration_s": 5240
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010008",
+      "num": 8,
+      "title_km": "8-Ñāṇa-21May2026.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/28ad9f0101cd5884-a64.mp3",
+          "duration_s": 6030
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010011",
+      "num": 11,
+      "title_km": "11-Ñāṇa-31May2026.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/75c2cae938b48523-a64.mp3",
+          "duration_s": 4349
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010014",
+      "num": 14,
+      "title_km": "14-Ñāṇa-14Jun2026.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9541890ea3c65c4d-a64.mp3",
+          "duration_s": 4848
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010015",
+      "num": 15,
+      "title_km": "15-Ñāṇa-17Jun2026.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e8a13295570ce226-a64.mp3",
+          "duration_s": 4798
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010017",
+      "num": 17,
+      "title_km": "17-Ñāṇa-24Jun2026.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/c29af0e5110e1972-a64.mp3",
+          "duration_s": 4789
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010018",
+      "num": 18,
+      "title_km": "18-Ñāṇa-27Jun2026-វិធីចម្រើនអានាបានស្សតិ(ឥរិយាបថ និង ការកំណត់ខ្យល់)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/1938a026f1e1e52e-a64.mp3",
+          "duration_s": 5451
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010019",
+      "num": 19,
+      "title_km": "19-Ñāṇa-1Jul2026-វិធីចម្រើនអានាបានស្សតិ(ការកំណត់ខ្យល់ដង្ហើម)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/ea88b8025e8773ad-a64.mp3",
+          "duration_s": 4618
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010020",
+      "num": 20,
+      "title_km": "20-Ñāṇa-5Jul2026-អំពីនិមិត្ត(ពន្លឺ)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/9f940bad9fc2770f-a64.mp3",
+          "duration_s": 6102
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010021",
+      "num": 21,
+      "title_km": "21-Ñāṇa-8Jul2026-ប្រភេទនិមិត្ត.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/3f63a9464f751f0a-a64.mp3",
+          "duration_s": 4018
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010022",
+      "num": 22,
+      "title_km": "22-Ñāṇa-12Jul2026-វិធីធ្វើឥន្រ្ទិយទាំង៥ឲ្យស្មើគ្នា.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e36336d51f35a7d3-a64.mp3",
+          "duration_s": 3440
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010023",
+      "num": 23,
+      "title_km": "23-Ñāṇa-18Jul2026-សេចក្ដីណែនាំបន្ថែមក្នុងការបដិបត្តិអានាបានស្សតិ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/288cf751834d82f6-a64.mp3",
+          "duration_s": 3980
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010024",
+      "num": 24,
+      "title_km": "24-Ñāṇa-23Jul2026-សេចក្ដីណែនាំបន្ថែមក្នុងការបដិបត្តិអានាបានស្សតិ.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/201d23db3ae6a14f-a64.mp3",
+          "duration_s": 3030
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010025",
+      "num": 25,
+      "title_km": "25-Ñāṇa-25Jul2026-វិធីធ្វើសត្តពោជ្ឈង្គឲ្យស្មើ",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a79f102e43f39ce8-a64.mp3",
+          "duration_s": 3710
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010026",
+      "num": 26,
+      "title_km": "26-Ñāṇa-អង្គឈាន៥និងវសីភាវៈ៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a529b513f22eec8b-a64.mp3",
+          "duration_s": 3438
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010027",
+      "num": 27,
+      "title_km": "27-Ñāṇa-12Aug2026-វិធីចូលឈាន និងចេញចាកឈាន",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/32e14537b5a40af2-a64.mp3",
+          "duration_s": 3501
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010028",
+      "num": 28,
+      "title_km": "28-Ñāṇa-15Aug2026-រម្លឹកឡើងវិញអំពីការចូលឈាន និងវិថីចិត្តរបស់ឈាន.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/942bd80d99538642-a64.mp3",
+          "duration_s": 3591
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010029",
+      "num": 29,
+      "title_km": "29-Ñāṇa-22Aug_2026.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5706ea7ffc02d059-a64.mp3",
+          "duration_s": 4314
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010030",
+      "num": 30,
+      "title_km": "30-Ñāṇa-26Aug2026.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/e92290788fcac974-a64.mp3",
+          "duration_s": 4761
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010031",
+      "num": 31,
+      "title_km": "31_Ñāṇa_02Sep2026_វិធីចម្រើនអដ្ឋិកកម្មដ្ឋាន.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/28ac8cdb320b502f-a64.mp3",
+          "duration_s": 4534
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010032",
+      "num": 32,
+      "title_km": "32_Ñāṇa_06Sep2026_វិធីចម្រើនក្រុមវណ្ណៈកសិណ.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/0c5b43241e7f92f1-a64.mp3",
+          "duration_s": 3107
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010033",
+      "num": 33,
+      "title_km": "33_Ñāṇa_09Sep2026_វិធីចម្រើនឱទាតកសិណ.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2c87f4655b1d2bd2-a64.mp3",
+          "duration_s": 3729
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010034",
+      "num": 34,
+      "title_km": "34_Ñāṇa_12Sep2026_វិធីចម្រើនបឋវីកសិណ.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/7495c463ee726166-a64.mp3",
+          "duration_s": 3881
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010035",
+      "num": 35,
+      "title_km": "35_Ñāṇa_23Sep2026_វិធីចម្រើនកសិណដែលជាបាតនៃអរូបជ្ឈាន.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/2b3871d5bfb9db46-a64.mp3",
+          "duration_s": 3960
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010036",
+      "num": 36,
+      "title_km": "36_Ñāṇa_26Sep2026_វិធីចម្រើនអរូបជ្ឈាន៤.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/d8b1088d0d20ed07-a64.mp3",
+          "duration_s": 4688
+        }
+      ]
+    },
+    {
+      "id": "AMEDHK0010037",
+      "num": 37,
+      "title_km": "37_Ñāṇa_30Sep2026_វិធីចម្រើនអរូបជ្ឈាន៤_ចប់.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/da313a3465ffbedd-a64.mp3",
+          "duration_s": 3765
+        }
+      ]
+    }
+  ]
+}
