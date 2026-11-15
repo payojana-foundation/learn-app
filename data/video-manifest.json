@@ -1182,5 +1182,21 @@
     "height": 480,
     "sha256": "640e458378d3777adbf4a9e60185aa32f96640b124baefad19f84b63579589a9",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1E98ZyBPwSkfXRefvU4MIyTS7y2B6_4GL",
+    "drive_name": "០៧-ភូរិទត្តជាតក ពោធិសត្វពន្យល់ពីព្រហ្មមិនមែនអ្នកសាងលោក ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​.mp4",
+    "source_md5": "5b2fc17e856ec8c5e8009499a217c592",
+    "key": "video/5b2fc17e856ec8c5-480p.mp4",
+    "poster_key": "video/5b2fc17e856ec8c5-480p.webp",
+    "rendition": "480p",
+    "bytes": 99469601,
+    "duration_s": 4395,
+    "src_duration_s": 4395,
+    "width": 854,
+    "height": 480,
+    "sha256": "ac16d41fd90173bedefefb27083de18dfa6609cdced3a08c9c01b3b172f24584",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
