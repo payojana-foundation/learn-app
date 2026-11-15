@@ -1390,5 +1390,21 @@
     "height": 480,
     "sha256": "37b9f857f486abf5028a30ec28f3bec1c55d770f1c9b9b91753e3cc1e480872a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1OPMsyk4Y88HcppjtqmnOrRE4tmBXFVdp",
+    "drive_name": "១៦ បរិត្តារម្មណ៍មាន ៦ ប្រភេទបញ្ចប់ (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "ec8cdec9e23b0b50503ed874691ed104",
+    "key": "video/ec8cdec9e23b0b50-480p.mp4",
+    "poster_key": "video/ec8cdec9e23b0b50-480p.webp",
+    "rendition": "480p",
+    "bytes": 100860004,
+    "duration_s": 5158,
+    "src_duration_s": 5158,
+    "width": 854,
+    "height": 480,
+    "sha256": "2e111df49c93a83d8819a16e4e386fe9ecece9144bdef24ea72a53995fc5246e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
