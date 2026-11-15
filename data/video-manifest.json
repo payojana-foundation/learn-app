@@ -2750,5 +2750,21 @@
     "height": 480,
     "sha256": "87d0153f41e6ef75f15b1350d499bb1359099d21f25d4508b9cffe48b69ac544",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1OpQg8LyyQVrjdO5O4KR74LsZ4qKVfmiI",
+    "drive_name": "១៨ ហេតុសង្គហៈ ចែកហេតុ៦ដោយន័យផ្សេងៗ​ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "7a1789b1b5365cf3033aa46bc2105f6e",
+    "key": "video/7a1789b1b5365cf3-480p.mp4",
+    "poster_key": "video/7a1789b1b5365cf3-480p.webp",
+    "rendition": "480p",
+    "bytes": 106210856,
+    "duration_s": 5238,
+    "src_duration_s": 5238,
+    "width": 854,
+    "height": 480,
+    "sha256": "f24fe31dc0f159ade8e26236f2d35343eb06021f9305b112d1edce5127f32900",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
