@@ -2974,5 +2974,21 @@
     "height": 480,
     "sha256": "c297e1642ba4c35d75821b9c649ecd94195e7a7474ba35a01baeca44f31a479d",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1jKbG-g0gdLn6Ofuu1kstLFelsdOYIoR_",
+    "drive_name": "២៩ លក្ខណរូប ឧបចយរូប សន្តតិរូប (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "d43717d98822c01d584f8d0b4bb0d7ba",
+    "key": "video/d43717d98822c01d-480p.mp4",
+    "poster_key": "video/d43717d98822c01d-480p.webp",
+    "rendition": "480p",
+    "bytes": 109363722,
+    "duration_s": 4906,
+    "src_duration_s": 4906,
+    "width": 854,
+    "height": 480,
+    "sha256": "f8afbc72873a44d915649fd83e11252f8f53ca51141564f238f95431826d1295",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
