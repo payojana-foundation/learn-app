@@ -814,5 +814,21 @@
     "height": 480,
     "sha256": "e0999dfb6a7dc1395e0b9110c4b557a0a645c89128fcb423900f5187ae1dc519",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1e2NvKPeMB_TYNXuL1BXVxaNFeOEYTeP3",
+    "drive_name": "០៨ វេវចនរបស់ចិត្ត១០ យ៉ាង (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "f8a27b7e72f79e395f5ed21d4f479787",
+    "key": "video/f8a27b7e72f79e39-480p.mp4",
+    "poster_key": "video/f8a27b7e72f79e39-480p.webp",
+    "rendition": "480p",
+    "bytes": 80650607,
+    "duration_s": 4130,
+    "src_duration_s": 4130,
+    "width": 854,
+    "height": 480,
+    "sha256": "4b300d93fbe22f774eab2be918f81226a0ab32232ae7f84d65b0fbaf4b1a19ba",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
