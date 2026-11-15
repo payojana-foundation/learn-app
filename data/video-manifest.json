@@ -3006,5 +3006,21 @@
     "height": 480,
     "sha256": "fb6d07eb9535ac49ff62ae5fd59cf234ebbe13bee181ea56e997dbdf499bb31a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1dvxpPbViPsMcCk8DcBaypOPnyT9fc8vH",
+    "drive_name": "15-៩៦_មហោសថ_រៀបបញ្ចូនសាលិកាឈ្មោះសើបដំណឹងសត្រូវការពារភិក្ខុអគ្គចិត្តោ.mp4",
+    "source_md5": "abbe5345b9c89b30e5ef4b92b9ab8b6d",
+    "key": "video/abbe5345b9c89b30-480p.mp4",
+    "poster_key": "video/abbe5345b9c89b30-480p.webp",
+    "rendition": "480p",
+    "bytes": 120136022,
+    "duration_s": 4820,
+    "src_duration_s": 4820,
+    "width": 854,
+    "height": 480,
+    "sha256": "c6c1ea7b4f9a8069cc891f2480ed963ab434a8fcf7449f12ba4ff8b4f13655bb",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
