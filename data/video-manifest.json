@@ -1054,5 +1054,21 @@
     "height": 480,
     "sha256": "81f75dbc5edd9d5e0710a9398c40ce61c79da245298412f915cf8d6a8e9586cd",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "158A2C8DakkdPid4cjsK6Z-xvVjlXwF9Y",
+    "drive_name": "០៩ អាបោធាតុ ធាតុដី តេជោធាតុ ធាតភ្លើង (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "7ac4da569c42bef9d7abe9f101362415",
+    "key": "video/7ac4da569c42bef9-480p.mp4",
+    "poster_key": "video/7ac4da569c42bef9-480p.webp",
+    "rendition": "480p",
+    "bytes": 107605598,
+    "duration_s": 5246,
+    "src_duration_s": 5246,
+    "width": 854,
+    "height": 480,
+    "sha256": "cf35787a39df105e9099ee2055586b389983bcb1a73e7c13a7731744532160ef",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
