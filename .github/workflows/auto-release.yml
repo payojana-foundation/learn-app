@@ -1,0 +1,75 @@
+name: auto-release
+
+# PART 5 (coordinator decision 15 Nov) — after each approve-check / video-approve-check run,
+# release every converted lesson that passed the pre-check: audio, and video (a video only
+# when its lesson's audio is approved). Flagged, not-checked, re-converted and failed lessons
+# stay held. Repo variable AUTO_APPROVE_PASSING: "true" = on; anything else = nothing
+# automatic (the job is skipped). Video only when VIDEO_ENABLED is "true".
+# Reviewer recorded: auto-release. Writes one summary line per run (step summary +
+# data/ops/auto-release.log). After a release it starts master-export, which rebuilds the app data.
+
+on:
+  workflow_run:
+    workflows: [approve-check, video-approve-check]
+    types: [completed]
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+  actions: write # starts master-export (a GITHUB_TOKEN push does not trigger workflows)
+
+concurrency:
+  group: data-rebuild-main
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: ${{ vars.AUTO_APPROVE_PASSING == 'true' && (github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Approve every passing lesson (audio, then video)
+        id: rel
+        env:
+          VIDEO_ENABLED: ${{ vars.VIDEO_ENABLED }}
+        run: |
+          set -euo pipefail
+          V=""
+          if [ "${VIDEO_ENABLED:-}" = "true" ]; then V="--video"; fi
+          node scripts/media/auto-release.mjs $V | tee release.log
+
+      - name: Commit and push
+        id: push
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          mkdir -p data/ops
+          head -n 1 release.log >> data/ops/auto-release.log
+          a=$(grep -oE 'AUDIO_APPROVED=[0-9]+' release.log | cut -d= -f2)
+          v=$(grep -oE 'VIDEO_APPROVED=[0-9]+' release.log | cut -d= -f2)
+          if [ "$a" = "0" ] && [ "$v" = "0" ]; then
+            echo "nothing new to release"
+            exit 0
+          fi
+          git add data/media-manifest.json data/ops/auto-release.log
+          if [ -f data/video-manifest.json ]; then git add data/video-manifest.json; fi
+          git commit -m "media: auto-release ${a} audio, ${v} video (passed the pre-check)"
+          bash scripts/ci/push-with-retry.sh origin main
+          echo "released=true" >> "$GITHUB_OUTPUT"
+
+      - name: Rebuild the app data (master-export)
+        if: ${{ steps.push.outputs.released == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run master-export.yml --ref main -R "$GITHUB_REPOSITORY"
