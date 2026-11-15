@@ -125,7 +125,9 @@
     "width": 854,
     "height": 480,
     "sha256": "bb110103568cc88f68adbc1f2b325679e678f29e78006cd7a7b4b5f60adf7723",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -157,7 +159,9 @@
     "width": 854,
     "height": 480,
     "sha256": "a8e86a272ee96bb02d2f24bbc2937e98430c1836da919117bd4696d039fccf48",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -173,7 +177,9 @@
     "width": 854,
     "height": 480,
     "sha256": "5cbbec34663a7746c74df1e65319a92c8a201ac79f231daa66d9f2fff9b0c4ec",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -189,7 +195,9 @@
     "width": 854,
     "height": 480,
     "sha256": "85ebea7692021096cbb6a0e313d67c57ce325d70ab4f96ba8e836fb6d74f8748",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -269,7 +277,9 @@
     "width": 854,
     "height": 480,
     "sha256": "af47466ade472c3493294e2824fb2c07f417ba32b7626b6237202ea368d9df67",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -285,7 +295,9 @@
     "width": 854,
     "height": 480,
     "sha256": "199434970a065545d6fee5ffcdb6a381c36b99e9d89651bd9632b2a7f8a02215",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -301,7 +313,9 @@
     "width": 854,
     "height": 480,
     "sha256": "e797e7cb341ac6177be6a568101dccdfe7b2217bfaed9297367ccedce99d5c13",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -349,7 +363,9 @@
     "width": 854,
     "height": 480,
     "sha256": "4970fddb5c9e3ea00d98dcb503cf370fe3b4e170bce3db4046c6acf23a1adcd1",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -365,7 +381,9 @@
     "width": 854,
     "height": 480,
     "sha256": "095b0754a0b1beff77887a2775288437db8861ed231a73675b3feb13a4905f8f",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -381,7 +399,9 @@
     "width": 854,
     "height": 480,
     "sha256": "72b422165c681ac6c772cf9a7cbd8661dc2000bf38cf9b1f9647d2fb4b00d71a",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -397,7 +417,9 @@
     "width": 854,
     "height": 480,
     "sha256": "eb19584b467da1a60dec59434a6646c4f3300735dc02e6caaa7e4b3079379471",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -413,7 +435,9 @@
     "width": 854,
     "height": 480,
     "sha256": "2aaa2fc5ba77c82987612a78ff64fc6fcbb868bd848ea1dab1e7fb8de72afc1c",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -445,7 +469,9 @@
     "width": 854,
     "height": 480,
     "sha256": "195d5d30377943c67f1cbccc4d4f4f0846cef442fede0c3798fbba91d51fd335",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -461,7 +487,9 @@
     "width": 854,
     "height": 480,
     "sha256": "5a0ebddf82eae640707f103270bce30abfed94dff178fbe0d14edc921e66220f",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -477,7 +505,9 @@
     "width": 854,
     "height": 480,
     "sha256": "6a9d651fb1e99a847af19eded9857056a8224f01444100cfc3abc4aba9445bbb",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -509,7 +539,9 @@
     "width": 854,
     "height": 480,
     "sha256": "59a7cad40ad7b8f48530f65efc5af5f2b9d01d1944543354cf8b20aee89f8d20",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -541,7 +573,9 @@
     "width": 854,
     "height": 480,
     "sha256": "7ca02cd798c50f7af9f2663737558cbbc529fea1d76f924a9d9ab4cc3386c299",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -557,7 +591,9 @@
     "width": 854,
     "height": 480,
     "sha256": "f12cd74341cc20457f97e99af4532b385c8da95a08452b574437ee95b4213dfb",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -573,7 +609,9 @@
     "width": 854,
     "height": 480,
     "sha256": "bb744aa350d427460220ca6c578d0851c9069193ee218d4e1e0bcb527827d0fa",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -589,7 +627,9 @@
     "width": 854,
     "height": 480,
     "sha256": "e1d9e6535793e929b9f98ed2c73389e8bbff218139637a6adedfbb590377282f",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -605,7 +645,9 @@
     "width": 854,
     "height": 480,
     "sha256": "9f90d32e51c0f1899fbab58eb9a3fe95530b255e5922295bbdc9c9798b94c507",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -637,7 +679,9 @@
     "width": 854,
     "height": 480,
     "sha256": "4208a9aa81582d245bbf2f327287feb9ce0e41f76f0d265b0a89221e67b9aa37",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -653,7 +697,9 @@
     "width": 854,
     "height": 480,
     "sha256": "565587dd33bfd8adc8290ac58bb13f00b709f94efaf67a6263b3d599931390eb",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -685,7 +731,9 @@
     "width": 854,
     "height": 480,
     "sha256": "eb65d88e80270fa1c367fc4f4c1f0eede4a4def4ec16c5d7ddc33d192b25c8fc",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -701,7 +749,9 @@
     "width": 854,
     "height": 480,
     "sha256": "d2a1d668cefdf57701cba09dc2bbed2d33dc82d69d36ff093d343f2def850368",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -717,7 +767,9 @@
     "width": 854,
     "height": 480,
     "sha256": "ff4f7038425d287e3478f2e87b5c63c710b86805daa94be37bde0fd302823244",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -749,7 +801,9 @@
     "width": 854,
     "height": 480,
     "sha256": "94bcff8ad83680f0c5c9446289275117096f89f3c7ae158ba7207027231e0e3b",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -765,7 +819,9 @@
     "width": 854,
     "height": 480,
     "sha256": "58aa58c60280fce04066c1653c1d04e804dba78da694210f915bb961a7421582",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -781,7 +837,9 @@
     "width": 854,
     "height": 480,
     "sha256": "7335e20b1fb4ef98e5479546f3e1ce173acc43cff82080c51082ec24b6587d81",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -797,7 +855,9 @@
     "width": 854,
     "height": 480,
     "sha256": "c908dcecc90418c6c0c0f357c5e64a1bcc947ed6ac4a470334fc946ab422a084",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -829,7 +889,9 @@
     "width": 854,
     "height": 480,
     "sha256": "4b300d93fbe22f774eab2be918f81226a0ab32232ae7f84d65b0fbaf4b1a19ba",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -845,7 +907,9 @@
     "width": 854,
     "height": 480,
     "sha256": "6e9042492a70dce98c744c061abcd617091260ba8384cc914e6b60aa0d4137f9",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -877,7 +941,9 @@
     "width": 854,
     "height": 480,
     "sha256": "c7487814d4f950c82d7e292dd3ecec6469ac4a5e42b1203575074c2f4ebdbd77",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -893,7 +959,9 @@
     "width": 854,
     "height": 480,
     "sha256": "0a490762d3021a20da63fa881dbd34b20036fda0eb14cf377394e9281d590bde",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -925,7 +993,9 @@
     "width": 854,
     "height": 480,
     "sha256": "6abc48502391356f107bb1203422d949fef4653913b5762a339c97851e5c68b5",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -941,7 +1011,9 @@
     "width": 854,
     "height": 480,
     "sha256": "701c0a79cce416dc04937e2a1d5a3358e4706d4540b6d65d4792ee2c502f1852",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -957,7 +1029,9 @@
     "width": 854,
     "height": 480,
     "sha256": "80ac5b484df5bc8c7a9c7ad60b8817c6867482ce2bc3f18f41a98994afb1ba6b",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -973,7 +1047,9 @@
     "width": 854,
     "height": 480,
     "sha256": "e4a16cfe2879bc6be393d5991a0e38f40ffed91f373556c06fc88710c809c684",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1005,7 +1081,9 @@
     "width": 854,
     "height": 480,
     "sha256": "59c431ef5b702d869c2105fc88a8144ba48b1920a8b0ac5c719f7c1cb55d97a8",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1021,7 +1099,9 @@
     "width": 854,
     "height": 480,
     "sha256": "927b0b407b25d5922329e3a9ddc8c1820a521f9093cc8ad1356bade148b560fa",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1037,7 +1117,9 @@
     "width": 854,
     "height": 480,
     "sha256": "d4853907d89e616f41ae4419ad3293b6774f842fd27584670e734c5b408b13fa",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1053,7 +1135,9 @@
     "width": 854,
     "height": 480,
     "sha256": "81f75dbc5edd9d5e0710a9398c40ce61c79da245298412f915cf8d6a8e9586cd",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1069,7 +1153,9 @@
     "width": 854,
     "height": 480,
     "sha256": "cf35787a39df105e9099ee2055586b389983bcb1a73e7c13a7731744532160ef",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1117,7 +1203,9 @@
     "width": 854,
     "height": 480,
     "sha256": "1bcae84d6ced3ed731cb4f2eeb6053dc8e39a43d9b1cd39f2e726e113dca7d93",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1133,7 +1221,9 @@
     "width": 854,
     "height": 480,
     "sha256": "3aad8c894610825e5dd204493ec15d8e9bd7f067ebddb74a4113eeb1ddbb3e87",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1165,7 +1255,9 @@
     "width": 854,
     "height": 480,
     "sha256": "87e88f6d69a7cbad6d0a7bd54f289735e89f59cca6c3d75ec2b0abfe130d79eb",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1181,7 +1273,9 @@
     "width": 854,
     "height": 480,
     "sha256": "640e458378d3777adbf4a9e60185aa32f96640b124baefad19f84b63579589a9",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1245,7 +1339,9 @@
     "width": 854,
     "height": 480,
     "sha256": "3af6358e6fbb61763b790b5a79f65addc2713a56214cb5c6543e60c82ca33826",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1261,7 +1357,9 @@
     "width": 854,
     "height": 480,
     "sha256": "c4678b46b9ed59b31454c77d68e8862435b1e07b05e638169692f82ceddbfe3e",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1277,7 +1375,9 @@
     "width": 854,
     "height": 480,
     "sha256": "3ecbfe3b6d5f4ce2d6ef657221805ec36358d6eb77a43fa85f2cbfa7cb715d23",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1293,7 +1393,9 @@
     "width": 854,
     "height": 480,
     "sha256": "aea0351cd9fa7d0569e9d04d748edffd3354f59ec17ab30db318ef2a21239123",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1309,7 +1411,9 @@
     "width": 854,
     "height": 480,
     "sha256": "7f93653f2fffeb518d19c624f41e5dd563519bab4db369eeaf463fa7e4d77580",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1325,7 +1429,9 @@
     "width": 854,
     "height": 480,
     "sha256": "5e8db4cb943b1acaf2ae924f2752065df6093d598b35d98689bcbc3b2c94b2c7",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1341,7 +1447,9 @@
     "width": 854,
     "height": 480,
     "sha256": "9508464a54fa6d3d5eea171a4d2bc714a151bbc90c708bb38b264f9d95f73b86",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1357,7 +1465,9 @@
     "width": 854,
     "height": 480,
     "sha256": "d1820ea94e52ab97ccc16a3e0e0085f5b632350741ec4d774f7d6ed407662c30",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1373,7 +1483,9 @@
     "width": 854,
     "height": 480,
     "sha256": "dabfc963ff55e9914c2a7da7b07d7691db45d4c1f40bd8492df03400e877b82a",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1389,7 +1501,9 @@
     "width": 854,
     "height": 480,
     "sha256": "37b9f857f486abf5028a30ec28f3bec1c55d770f1c9b9b91753e3cc1e480872a",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1405,7 +1519,9 @@
     "width": 854,
     "height": 480,
     "sha256": "2e111df49c93a83d8819a16e4e386fe9ecece9144bdef24ea72a53995fc5246e",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1421,7 +1537,9 @@
     "width": 854,
     "height": 480,
     "sha256": "73fc87998988f81978d80acda9c891717a5ff95a6e851c268a34271135946969",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1437,7 +1555,9 @@
     "width": 854,
     "height": 480,
     "sha256": "56bde19d973520c4bb35c98be3ad27b9a5a091ff1c9d8a579725e18aba8845bf",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1453,7 +1573,9 @@
     "width": 854,
     "height": 480,
     "sha256": "6bfae7f0a8a1de5f7be20b982727f99c59e80e0d23d67f472a53225d9de52b70",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1469,7 +1591,9 @@
     "width": 854,
     "height": 480,
     "sha256": "69e49a98ff50dad1e51bf08860419ae1713b41485e3c9adc786fe2e034037fd4",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1501,7 +1625,9 @@
     "width": 854,
     "height": 480,
     "sha256": "c9df5b05418396b7991b9ee269ae96616009f74312456fd0e6eed5174bb3f273",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1533,7 +1659,9 @@
     "width": 854,
     "height": 480,
     "sha256": "e1f23781c83842fe1e2ae68053c7bc8821b7c37a867fde395a7157ca9b07f535",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1549,7 +1677,9 @@
     "width": 854,
     "height": 480,
     "sha256": "77bc98986534d9b657f7eaebd9221298923622cd02e5aa8754a7925a345637c4",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1565,7 +1695,9 @@
     "width": 854,
     "height": 480,
     "sha256": "a3c1fc87ee8fd9a87543fa7f83ff9e1c9d96419bf9f8d4fa28c2218e7ab50d33",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1597,7 +1729,9 @@
     "width": 854,
     "height": 480,
     "sha256": "44c65eccccbbb150c30728c045906c9a50123e4f05efd4f277360f54a0ca3231",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1629,7 +1763,9 @@
     "width": 854,
     "height": 480,
     "sha256": "3fd33da1f7903f6b9cc8e7410c7aa4ff1e920cebdc8cbb8493307186039a45d7",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1661,7 +1797,9 @@
     "width": 854,
     "height": 480,
     "sha256": "91050938213cec038968bbd09f7f6dd91ea79169a9209c32e7fdefacecd2fa5b",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1677,7 +1815,9 @@
     "width": 854,
     "height": 480,
     "sha256": "9a719967dc050de89e221e0366ff0d7844a5df748aa8fc0173e806711ce86ed2",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1693,7 +1833,9 @@
     "width": 854,
     "height": 480,
     "sha256": "ce462277229ddbbf9519d7b870fe54adbefb543263485342ef8bbba7e3d58cab",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
@@ -1741,7 +1883,9 @@
     "width": 854,
     "height": 480,
     "sha256": "1d38f06cd1660a83e6563e29ae76d90f79339ebb0b902d9e3e9d5136c51f2b37",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-15"
   },
   {
     "kind": "video",
