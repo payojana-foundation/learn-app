@@ -638,5 +638,21 @@
     "height": 480,
     "sha256": "4208a9aa81582d245bbf2f327287feb9ce0e41f76f0d265b0a89221e67b9aa37",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Jo3pgG73K67e5TPOAYWhOikCSozInBr5",
+    "drive_name": "០៦ សមុដ្ឋាននាំឱ្យរូបបែកធ្លាយ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "aa47205998519ca3cc55df5c43124f35",
+    "key": "video/aa47205998519ca3-480p.mp4",
+    "poster_key": "video/aa47205998519ca3-480p.webp",
+    "rendition": "480p",
+    "bytes": 75142856,
+    "duration_s": 3794,
+    "src_duration_s": 3794,
+    "width": 854,
+    "height": 480,
+    "sha256": "565587dd33bfd8adc8290ac58bb13f00b709f94efaf67a6263b3d599931390eb",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
