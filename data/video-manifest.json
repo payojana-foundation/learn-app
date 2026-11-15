@@ -1262,5 +1262,21 @@
     "height": 480,
     "sha256": "c4678b46b9ed59b31454c77d68e8862435b1e07b05e638169692f82ceddbfe3e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1nuc90H3cn0_ov13-cgwdlT_0ZAmAWE8k",
+    "drive_name": "១១ ឧបមាធាតុ ៤ ដូចជាអាសិរពិស ៤ និងពេជ្ឈឃាត (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "9d5bcd727a8521efc3353fc08039df44",
+    "key": "video/9d5bcd727a8521ef-480p.mp4",
+    "poster_key": "video/9d5bcd727a8521ef-480p.webp",
+    "rendition": "480p",
+    "bytes": 104405484,
+    "duration_s": 4851,
+    "src_duration_s": 4851,
+    "width": 854,
+    "height": 480,
+    "sha256": "3ecbfe3b6d5f4ce2d6ef657221805ec36358d6eb77a43fa85f2cbfa7cb715d23",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
