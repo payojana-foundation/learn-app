@@ -894,5 +894,21 @@
     "height": 480,
     "sha256": "0a490762d3021a20da63fa881dbd34b20036fda0eb14cf377394e9281d590bde",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1qtCjCpI7O0iCcrBv3foluhbCQk8gJI2n",
+    "drive_name": "០៣_ភូរិទត្តជាតក_គរុឡកណ្ឌ_សីលកណ្ឌ_ពីការរក្សាសីលរបស់ពោធិសត្វភិក្ខុអគ្គចិត្តោ.mp4",
+    "source_md5": "529f8ea6cde10bce8a63b1c00005fd9a",
+    "key": "video/529f8ea6cde10bce-480p.mp4",
+    "poster_key": "video/529f8ea6cde10bce-480p.webp",
+    "rendition": "480p",
+    "bytes": 104049998,
+    "duration_s": 4685,
+    "src_duration_s": 4685,
+    "width": 854,
+    "height": 480,
+    "sha256": "56912e862749f1d5a2f1b2cd0a86455b46b7396c5d1603c391757a3b047d54c4",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
