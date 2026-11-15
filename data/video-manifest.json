@@ -2702,5 +2702,21 @@
     "height": 480,
     "sha256": "13605235b31503574972070ff2311b2c1de0270cac8636a0f445bae3304a839f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "16aS3_oOVTacfdpVoqHzXkjko2N77pbXs",
+    "drive_name": "២៥ ហេតុនាំឱ្យលោភកើតមាន ៤ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "389badddb03300f93a618cfa5e8158cf",
+    "key": "video/389badddb03300f9-480p.mp4",
+    "poster_key": "video/389badddb03300f9-480p.webp",
+    "rendition": "480p",
+    "bytes": 81389655,
+    "duration_s": 3973,
+    "src_duration_s": 3973,
+    "width": 854,
+    "height": 480,
+    "sha256": "54be7537fb3ae1a292c6e712ca8b960b4c94e048a1ca6e353ff407f27c8f4690",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
