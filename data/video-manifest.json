@@ -2414,5 +2414,21 @@
     "height": 480,
     "sha256": "14dbcd3301775d7d97fecb0b412b7ca99bb83cca33917c133445e1699cfac38e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1lBXGJaNHDf7mQ2GCJI4fKYuP72Esx70z",
+    "drive_name": "9-៨៩_គ្រហស្ថខ្ជិល_សមណមិនសង្រួម_ព្រះរាជាធ្វើការមិនពិចារណា_បិណ្ឌិតក.mp4",
+    "source_md5": "4f482e62fe2ee14bfbe96ee0fef220c5",
+    "key": "video/4f482e62fe2ee14b-480p.mp4",
+    "poster_key": "video/4f482e62fe2ee14b-480p.webp",
+    "rendition": "480p",
+    "bytes": 89244913,
+    "duration_s": 4046,
+    "src_duration_s": 4046,
+    "width": 854,
+    "height": 480,
+    "sha256": "cdf2721994190d79159de75121156c06ee4866aafc78f6d9930c94e50a91708f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
