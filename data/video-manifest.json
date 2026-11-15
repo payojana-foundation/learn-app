@@ -606,5 +606,21 @@
     "height": 480,
     "sha256": "9f90d32e51c0f1899fbab58eb9a3fe95530b255e5922295bbdc9c9798b94c507",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1tCwGJApy1N6M2VH2FUyLloW-0cumUJR7",
+    "drive_name": "០៦_ភូមិចតុក្កៈ_នេមិរាជជាតក_វេតរណីនរកជាដើមភិក្ខុអគ្គចិត្តោ_យ៉ុន_យី.mp4",
+    "source_md5": "677730da987a7280ff2d3379dec4a880",
+    "key": "video/677730da987a7280-480p.mp4",
+    "poster_key": "video/677730da987a7280-480p.webp",
+    "rendition": "480p",
+    "bytes": 94586716,
+    "duration_s": 4435,
+    "src_duration_s": 4435,
+    "width": 854,
+    "height": 480,
+    "sha256": "323bf9d7cc6d2eabb72ff25cd7f8b420a23b672e71649b39d8ab4af9b5e85620",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
