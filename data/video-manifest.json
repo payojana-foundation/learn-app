@@ -62,5 +62,21 @@
     "height": 480,
     "sha256": "fa3629f85f029717876740f6ab59f2c8200cb8a388f617ce79ffa266092d9c88",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1WaTqtzNgfnyPr4rFRtPgkX9qfjXtiQjk",
+    "drive_name": "5-ពាក្យថា (អរិយសច្ចៈ ឬ អរិយសច្ច) video_2026-05-22_08-51-30.mp4",
+    "source_md5": "396104ef76a40a7aeba1c7b0751c8da8",
+    "key": "video/396104ef76a40a7a-480p.mp4",
+    "poster_key": "video/396104ef76a40a7a-480p.webp",
+    "rendition": "480p",
+    "bytes": 4272858,
+    "duration_s": 257,
+    "src_duration_s": 257,
+    "width": 388,
+    "height": 480,
+    "sha256": "42b896302ef8bda8184a059fa4def698a1724d71bf616e9ed88ae3027845c0da",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
