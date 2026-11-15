@@ -1230,5 +1230,21 @@
     "height": 480,
     "sha256": "4f98516d06268c9b0eb043822baf2a483886c68bda3e5e7300ede9d8476799f1",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1HAYp6vfHpOJJjy16dMuwOG9cO4_ctmX4",
+    "drive_name": "១២ ចែកសព្វចិត្តសាធារណចេតសិកដោយន័យផ្សេងៗ (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "a3a18082b57ca2ebc33720a5d4a9256c",
+    "key": "video/a3a18082b57ca2eb-480p.mp4",
+    "poster_key": "video/a3a18082b57ca2eb-480p.webp",
+    "rendition": "480p",
+    "bytes": 104353206,
+    "duration_s": 4811,
+    "src_duration_s": 4811,
+    "width": 854,
+    "height": 480,
+    "sha256": "3af6358e6fbb61763b790b5a79f65addc2713a56214cb5c6543e60c82ca33826",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
