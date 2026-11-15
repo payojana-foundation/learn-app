@@ -1294,5 +1294,21 @@
     "height": 480,
     "sha256": "aea0351cd9fa7d0569e9d04d748edffd3354f59ec17ab30db318ef2a21239123",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1OyZbZFD5NRIYBUUNMIxNpRsUcspQCamv",
+    "drive_name": "១៥ មហន្តារម្មណ៍ប្រេភេទទី៤ ដល់ទី៦ចប់ (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "663816a7a96ec0eb6f5c906e3acd86e5",
+    "key": "video/663816a7a96ec0eb-480p.mp4",
+    "poster_key": "video/663816a7a96ec0eb-480p.webp",
+    "rendition": "480p",
+    "bytes": 95178802,
+    "duration_s": 5002,
+    "src_duration_s": 5002,
+    "width": 854,
+    "height": 480,
+    "sha256": "7f93653f2fffeb518d19c624f41e5dd563519bab4db369eeaf463fa7e4d77580",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
