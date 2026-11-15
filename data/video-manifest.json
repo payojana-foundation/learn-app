@@ -558,5 +558,21 @@
     "height": 480,
     "sha256": "f12cd74341cc20457f97e99af4532b385c8da95a08452b574437ee95b4213dfb",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1swVgFCeGv3-Ihg4E2Y-6cKXcqLnNmkJe",
+    "drive_name": "០៥ ការប្រៀបធៀបចិត្ត (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "406ddeac5f17d55b143ff5110f13d015",
+    "key": "video/406ddeac5f17d55b-480p.mp4",
+    "poster_key": "video/406ddeac5f17d55b-480p.webp",
+    "rendition": "480p",
+    "bytes": 63900392,
+    "duration_s": 3062,
+    "src_duration_s": 3062,
+    "width": 854,
+    "height": 480,
+    "sha256": "bb744aa350d427460220ca6c578d0851c9069193ee218d4e1e0bcb527827d0fa",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
