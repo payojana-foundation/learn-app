@@ -3246,5 +3246,21 @@
     "height": 480,
     "sha256": "0c17c4735c516a09e2fe37a65305f5271ccaf02ea9eccc88960b4c52ff994c81",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1tU0w37lWC1PNgZIBQertLIHPdUBQLWaI",
+    "drive_name": "៣១ លក្ខណរូប ៤ ជរាមាន ២យ៉ាង និងអនិច្ចតារូប (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "69f6d76e89f89c99036ab08b0702a9ec",
+    "key": "video/69f6d76e89f89c99-480p.mp4",
+    "poster_key": "video/69f6d76e89f89c99-480p.webp",
+    "rendition": "480p",
+    "bytes": 102755100,
+    "duration_s": 4551,
+    "src_duration_s": 4551,
+    "width": 854,
+    "height": 480,
+    "sha256": "c41f8f2b4fd8210ccf385fac9bf42b6093e41cbda1eb314b9ec3e1e5421dd822",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
