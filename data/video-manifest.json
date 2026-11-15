@@ -2718,5 +2718,21 @@
     "height": 480,
     "sha256": "54be7537fb3ae1a292c6e712ca8b960b4c94e048a1ca6e353ff407f27c8f4690",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1k3Hjf3AHsi25zQQA31-P3PayKTERTX9N",
+    "drive_name": "11-៩១_ព្រះមហោសថរៀបចំយុទ្ធសាស្រ្តដើម្បីការពារប្រទេសជាតិភិក្ខុអគ្គចិត្តោ.mp4",
+    "source_md5": "e3cc09b4a370c800c0285d706acc3694",
+    "key": "video/e3cc09b4a370c800-480p.mp4",
+    "poster_key": "video/e3cc09b4a370c800-480p.webp",
+    "rendition": "480p",
+    "bytes": 99368830,
+    "duration_s": 4455,
+    "src_duration_s": 4455,
+    "width": 854,
+    "height": 480,
+    "sha256": "5feabd733715ecc5fb84b3f64a3d3822f97eafd749c86289bd8c1eafa20d7956",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
