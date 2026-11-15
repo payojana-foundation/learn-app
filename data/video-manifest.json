@@ -990,5 +990,21 @@
     "height": 480,
     "sha256": "ec47d4cad9418bf379d7238ef64c94de237ff764fa2f0601ca98a49cbf404329",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1U_P7CrZronj8zj5FrsyIuwSZreXdpxGU",
+    "drive_name": "០៧ វេទនាសង្គហៈ ចែកវេទនា៦ យ៉ាងបន្ត (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "8a1dad9910084c1e36625e0b590f3ff3",
+    "key": "video/8a1dad9910084c1e-480p.mp4",
+    "poster_key": "video/8a1dad9910084c1e-480p.webp",
+    "rendition": "480p",
+    "bytes": 97211970,
+    "duration_s": 4871,
+    "src_duration_s": 4871,
+    "width": 854,
+    "height": 480,
+    "sha256": "59c431ef5b702d869c2105fc88a8144ba48b1920a8b0ac5c719f7c1cb55d97a8",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
