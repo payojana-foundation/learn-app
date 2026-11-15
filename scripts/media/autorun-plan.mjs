@@ -66,6 +66,9 @@ export function decide(ctx) {
       return { action: 'run', kind: 'audio', queue: q.path, toProcess, left: left.length, reason: 'next audio queue' };
     }
   }
+  // A running course-video-matrix converts the video queues itself: autorun keeps doing
+  // audio and leaves video alone until the matrix is done (no double video work).
+  if (ctx.videoBusy > 0) return { action: 'empty', reason: 'audio done; video queues are being converted by course-video-matrix' };
   if (ctx.videoEnabled === true && /^(480p|720p)$/.test(ctx.rendition || '')) {
     const videoHave = videoManifestIds(ctx.videoManifest, ctx.rendition);
     for (const q of ctx.videoQueues || []) {
@@ -142,6 +145,7 @@ function main() {
       videoEnabled: process.env.VIDEO_ENABLED === 'true',
       rendition: process.env.VIDEO_RENDITION || '',
       busy: Number(process.env.BUSY || 0),
+      videoBusy: Number(process.env.VIDEO_BUSY || 0),
       reset,
       state: readJson(STATE, {}),
       audioQueues: queues('data/queues'),

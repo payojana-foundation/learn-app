@@ -117,3 +117,31 @@ describe('V4 workflow', () => {
     expect(y).toContain('for wf in course-audio.yml course-audio-batch.yml course-video.yml');
   });
 });
+
+describe('PART 4: course-video-matrix', () => {
+  const m = readFileSync('.github/workflows/course-video-matrix.yml', 'utf-8');
+  const cv = readFileSync('.github/workflows/course-video.yml', 'utf-8');
+  const save = readFileSync('scripts/ci/save-video-manifest.sh', 'utf-8');
+  it('dispatch over all video queues, max-parallel 6, calls course-video, behind VIDEO_ENABLED', () => {
+    expect(m).toMatch(/workflow_dispatch:/);
+    expect(m).toContain('max-parallel: 6');
+    expect(m).toContain('fail-fast: false');
+    expect(m).toContain('uses: ./.github/workflows/course-video.yml');
+    expect(m).toContain('data/queues/video');
+    expect(m).toMatch(/if: \$\{\{ vars\.VIDEO_ENABLED == 'true' \}\}/);
+  });
+  it('each job stops cleanly before 5.5 h: budget 280 min, timeout 330 min', () => {
+    expect(m).toMatch(/max_minutes:[\s\S]*?default: "280"/);
+    expect(cv).toContain('timeout-minutes: 330');
+  });
+  it('manifest saved after each file with push retry (8 tries, jitter)', () => {
+    expect(cv).toContain("SAVE_CMD: ${{ inputs.dry_run == 'true' && '' || 'bash scripts/ci/save-video-manifest.sh' }}");
+    expect(save).toContain('TRIES="${PUSH_RETRIES:-8}"');
+    expect(save).toContain('RANDOM % 7');
+  });
+  it('a running matrix blocks autorun video picks only; audio continues', () => {
+    const done = [audioEntry('a1', 1), audioEntry('a2', 2), audioEntry('b1', 3), audioEntry('b2', 4)];
+    expect(decide(base({ audioManifest: done, videoEnabled: true, rendition: '480p', videoBusy: 1 })).action).toBe('empty');
+    expect(decide(base({ videoEnabled: true, rendition: '480p', videoBusy: 1 })).kind).toBe('audio');
+  });
+});

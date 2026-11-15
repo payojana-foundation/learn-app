@@ -1,0 +1,68 @@
+name: course-video-matrix
+
+# PART 4 (15 Nov) — convert every video queue in parallel. One course-video job per
+# queue (data/queues/video/c###.csv), at most 6 at a time. Each job stops starting new
+# files after `max_minutes` (default 280) so its last file finishes and the job ends
+# cleanly before 5.5 h (course-video timeout 330 min). The manifest is saved after each
+# file with push retry (scripts/ci/save-video-manifest.sh). Behind VIDEO_ENABLED.
+# A queue that is already done is a no-op job. Re-run to continue where it stopped.
+
+on:
+  workflow_dispatch:
+    inputs:
+      queues:
+        description: "Comma-separated course ids (e.g. c048,c075); empty = every video queue"
+        required: false
+        default: ""
+      limit:
+        description: "Max files per queue job (the time budget stops it sooner)"
+        required: true
+        default: "500"
+      max_minutes:
+        description: "Per job: stop starting new files after this many minutes"
+        required: true
+        default: "280"
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: course-video-matrix
+  cancel-in-progress: false
+
+jobs:
+  list:
+    if: ${{ vars.VIDEO_ENABLED == 'true' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    outputs:
+      queues: ${{ steps.q.outputs.queues }}
+    steps:
+      - name: Check out the repo
+        uses: actions/checkout@v5
+
+      - name: List the video queues
+        id: q
+        env:
+          ONLY: ${{ inputs.queues }}
+        run: |
+          set -euo pipefail
+          q=$(node -e 'const fs=require("fs");const only=(process.env.ONLY||"").split(/[\s,]+/).filter(Boolean);const all=fs.readdirSync("data/queues/video").filter(f=>/^c\d{3}\.csv$/.test(f)).sort().map(f=>"data/queues/video/"+f);const pick=only.length?all.filter(p=>only.includes(p.slice(-8,-4))):all;if(!pick.length){console.error("no matching video queue");process.exit(1)}process.stdout.write(JSON.stringify(pick))')
+          echo "queues=$q" >> "$GITHUB_OUTPUT"
+          echo "video queues: $(node -e 'console.log(JSON.parse(process.argv[1]).length)' "$q")" >> "$GITHUB_STEP_SUMMARY"
+
+  convert:
+    needs: list
+    strategy:
+      fail-fast: false
+      max-parallel: 6
+      matrix:
+        list: ${{ fromJSON(needs.list.outputs.queues) }}
+    uses: ./.github/workflows/course-video.yml
+    with:
+      list: ${{ matrix.list }}
+      limit: ${{ inputs.limit }}
+      max_minutes: ${{ inputs.max_minutes }}
+      dry_run: ${{ 'false' }}
+    secrets: inherit

@@ -70,7 +70,8 @@ jobs:
   transcode:
     if: ${{ vars.VIDEO_ENABLED == 'true' }}
     runs-on: ubuntu-latest
-    timeout-minutes: 340
+    # Ends before 5.5 h: max_minutes stops new files first, so the last one finishes.
+    timeout-minutes: 330
     env:
       QUEUE: ${{ inputs.list }}
       LIMIT: ${{ inputs.limit }}

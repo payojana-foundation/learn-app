@@ -8,12 +8,14 @@ set -uo pipefail
 MANIFEST="${MANIFEST:-data/video-manifest.json}"
 MSG="${SAVE_MSG:-course-video: DRAFT video manifest entries (batch)}"
 SLEEP="${PUSH_RETRY_SLEEP:-3}"
+# Up to 6 parallel queue jobs (course-video-matrix) push this file: retry more, with jitter.
+TRIES="${PUSH_RETRIES:-8}"
 shopt -s nullglob
 entries=(entry-*.json)
 if [ "${#entries[@]}" -eq 0 ]; then echo "save-video-manifest: no entry files"; exit 0; fi
 git config user.name "github-actions[bot]"
 git config user.email "github-actions[bot]@users.noreply.github.com"
-for attempt in 1 2 3; do
+for attempt in $(seq 1 "$TRIES"); do
   git fetch origin main || { sleep "$SLEEP"; continue; }
   git reset -q origin/main 2>/dev/null || true
   git checkout origin/main -- "$MANIFEST" 2>/dev/null || true
@@ -27,7 +29,7 @@ for attempt in 1 2 3; do
   git commit -m "$MSG" -- "$MANIFEST" || exit 1
   if git push origin HEAD:main; then echo "save-video-manifest: pushed (attempt $attempt)"; exit 0; fi
   echo "save-video-manifest: push rejected (attempt $attempt)" >&2
-  sleep "$SLEEP"
+  sleep "$(( SLEEP + RANDOM % 7 ))"
 done
-echo "::error title=Manifest save failed::could not push the video manifest after 3 attempts" >&2
+echo "::error title=Manifest save failed::could not push the video manifest after ${TRIES} attempts" >&2
 exit 1

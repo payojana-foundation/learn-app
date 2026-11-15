@@ -74,6 +74,14 @@ jobs:
           done
           n=$(node -e 'import("./scripts/media/autorun-plan.mjs").then(m=>{const p=require("fs").readFileSync("busy.ndjson","utf8").split(/\n/).filter(Boolean).map(JSON.parse);console.log(m.countBusy(p))})')
           echo "busy=$n" >> "$GITHUB_OUTPUT"
+          # course-video-matrix blocks only autorun's VIDEO picks (audio continues).
+          : > vbusy.ndjson
+          for st in in_progress queued; do
+            gh api "repos/${GITHUB_REPOSITORY}/actions/workflows/course-video-matrix.yml/runs?status=${st}&per_page=100" >> vbusy.ndjson 2>/dev/null || echo '{"workflow_runs":[]}' >> vbusy.ndjson
+            echo >> vbusy.ndjson
+          done
+          v=$(node -e 'import("./scripts/media/autorun-plan.mjs").then(m=>{const p=require("fs").readFileSync("vbusy.ndjson","utf8").split(/\n/).filter(Boolean).map(JSON.parse);console.log(m.countBusy(p))})')
+          echo "video_busy=$v" >> "$GITHUB_OUTPUT"
 
       - name: Pick the next queue
         id: plan
@@ -82,6 +90,7 @@ jobs:
           VIDEO_ENABLED: ${{ vars.VIDEO_ENABLED }}
           VIDEO_RENDITION: ${{ vars.VIDEO_RENDITION }}
           BUSY: ${{ steps.busy.outputs.busy || '0' }}
+          VIDEO_BUSY: ${{ steps.busy.outputs.video_busy || '0' }}
           RESET: ${{ inputs.reset || 'false' }}
         run: node scripts/media/autorun-plan.mjs plan
 
