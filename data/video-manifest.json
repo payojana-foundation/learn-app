@@ -3326,5 +3326,21 @@
     "height": 480,
     "sha256": "e8d07c69981558775b07de13c030e88b0cdbf92d7c964e57bc65b60f96f56dfb",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1MyQ_EsrgzkHDZvfnc5Av-AQHbmQImv2M",
+    "drive_name": "៣៧ អប្បនាជវនវារៈ អាទិកម្មិកឈានវិថី ឈានសមាបត្តិវិថី (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "8867569e426391868544a81b6dda0d22",
+    "key": "video/8867569e42639186-480p.mp4",
+    "poster_key": "video/8867569e42639186-480p.webp",
+    "rendition": "480p",
+    "bytes": 82514340,
+    "duration_s": 4501,
+    "src_duration_s": 4501,
+    "width": 854,
+    "height": 480,
+    "sha256": "387173e9b686d48fde7347e5261fae07e3c8a717dd49e48f92932015b5c05971",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
