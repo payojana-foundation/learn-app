@@ -1310,5 +1310,21 @@
     "height": 480,
     "sha256": "7f93653f2fffeb518d19c624f41e5dd563519bab4db369eeaf463fa7e4d77580",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "18gaKOxnTuVi33XKuLAEezrTVRMOIJKtX",
+    "drive_name": "០៩ វេទនាសង្គហៈ ចែក៩ តាមព្រះសូត្រ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "88f619636f4aa162507089e4a16d59e3",
+    "key": "video/88f619636f4aa162-480p.mp4",
+    "poster_key": "video/88f619636f4aa162-480p.webp",
+    "rendition": "480p",
+    "bytes": 111468370,
+    "duration_s": 5288,
+    "src_duration_s": 5288,
+    "width": 854,
+    "height": 480,
+    "sha256": "5e8db4cb943b1acaf2ae924f2752065df6093d598b35d98689bcbc3b2c94b2c7",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
