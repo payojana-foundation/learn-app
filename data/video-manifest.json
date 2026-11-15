@@ -1758,5 +1758,21 @@
     "height": 480,
     "sha256": "17b1df5a785b95fcf1edb5d47dcebb541670587f3945eb9c4ca68646c502721a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "14eJJT5UBG5aJYHaag-IX0pdAAtM2cSdK",
+    "drive_name": "១៧ ពន្យល់លោភមូលចិត្តដួងទី១ទី២ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "f3c367345dcfd760003edc2885f838c5",
+    "key": "video/f3c367345dcfd760-480p.mp4",
+    "poster_key": "video/f3c367345dcfd760-480p.webp",
+    "rendition": "480p",
+    "bytes": 73158093,
+    "duration_s": 4221,
+    "src_duration_s": 4221,
+    "width": 854,
+    "height": 480,
+    "sha256": "7b865d4629318c7aea076a6729086ce0effa539e85e247ea356d04213e4e55a3",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
