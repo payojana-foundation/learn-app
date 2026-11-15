@@ -2654,5 +2654,21 @@
     "height": 480,
     "sha256": "3ff7f2021e6e7c26359de6e2e4f43decbb06604a095c254d2b1902876f17fbc0",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1UeehdXTv8vdd0jm9oPZOb_q9JOClgtKb",
+    "drive_name": "២៥ ទិដ្ឋិចេតសិក និយតមិច្ឆាទិដ្ឋិ ទិដ្ឋិមានទោសធ្ងន់ (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "c6abe68248631eeb329c7424654f32e5",
+    "key": "video/c6abe68248631eeb-480p.mp4",
+    "poster_key": "video/c6abe68248631eeb-480p.webp",
+    "rendition": "480p",
+    "bytes": 79062249,
+    "duration_s": 4979,
+    "src_duration_s": 4979,
+    "width": 854,
+    "height": 480,
+    "sha256": "65accfc9d07b9a6639363d6dcdbbdeaf60ee4cdc6dee156182499db6e05babd0",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
