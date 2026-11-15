@@ -1694,5 +1694,21 @@
     "height": 480,
     "sha256": "ce462277229ddbbf9519d7b870fe54adbefb543263485342ef8bbba7e3d58cab",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "18ujDFFy39ZyA-Q2SSVcxSaqevs5btNz8",
+    "drive_name": "2-មហោសថជាតក.mp4",
+    "source_md5": "62be79853038710ebb0b19d84db1568c",
+    "key": "video/62be79853038710e-480p.mp4",
+    "poster_key": "video/62be79853038710e-480p.webp",
+    "rendition": "480p",
+    "bytes": 68752871,
+    "duration_s": 3342,
+    "src_duration_s": 3342,
+    "width": 854,
+    "height": 480,
+    "sha256": "f13b6ff8b6185a2c91c38cd6e8625542ed1660d59d3d7268fd8d047b854bb5b2",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
