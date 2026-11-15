@@ -1598,5 +1598,21 @@
     "height": 480,
     "sha256": "44c65eccccbbb150c30728c045906c9a50123e4f05efd4f277360f54a0ca3231",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "11Wr6oUKllyDCJ79lq5hMSNanD56hqdCU",
+    "drive_name": "១៩ មិស្សកមនោទ្វារវិថី ចែកវិថីចិត្តនិងចិត្តក្នុងបរិច្ឆេទទី៣ (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "69ae5a1c7ee3d6068ecd15cfc1e5b41c",
+    "key": "video/69ae5a1c7ee3d606-480p.mp4",
+    "poster_key": "video/69ae5a1c7ee3d606-480p.webp",
+    "rendition": "480p",
+    "bytes": 84639454,
+    "duration_s": 4396,
+    "src_duration_s": 4396,
+    "width": 854,
+    "height": 480,
+    "sha256": "17bef74e5b19b3ca6891fd74c11493d28b42fa7816acb3ec8b72be2d76463618",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
