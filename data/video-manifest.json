@@ -830,5 +830,21 @@
     "height": 480,
     "sha256": "4b300d93fbe22f774eab2be918f81226a0ab32232ae7f84d65b0fbaf4b1a19ba",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1wsVJ2B1QzpeuWtrNE5FRFmkEc6XP7Wd-",
+    "drive_name": "០៨ សញ្ញាចេតសិក ចេតនាចេតសិក (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "ec47e1c4fadd0ebcdc824e0a4e06957e",
+    "key": "video/ec47e1c4fadd0ebc-480p.mp4",
+    "poster_key": "video/ec47e1c4fadd0ebc-480p.webp",
+    "rendition": "480p",
+    "bytes": 119751176,
+    "duration_s": 5408,
+    "src_duration_s": 5408,
+    "width": 854,
+    "height": 480,
+    "sha256": "6e9042492a70dce98c744c061abcd617091260ba8384cc914e6b60aa0d4137f9",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
