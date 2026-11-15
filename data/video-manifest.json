@@ -2574,5 +2574,21 @@
     "height": 480,
     "sha256": "3d3e8d5f4b3b247848e2720272e7edeafa08ec859026a712c8815cb9accf02f2",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1RF3z-OUxiE78yEufCvK_BDPt4mykdEqu",
+    "drive_name": "២៥ វិញ្ញត្តិរូប ២ កាយវិញ្ញត្តិ ការកម្រើកកាយ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "526069a58260895a7aaa12d6c7576a77",
+    "key": "video/526069a58260895a-480p.mp4",
+    "poster_key": "video/526069a58260895a-480p.webp",
+    "rendition": "480p",
+    "bytes": 128466539,
+    "duration_s": 5656,
+    "src_duration_s": 5656,
+    "width": 854,
+    "height": 480,
+    "sha256": "b811eb12636167bb6dfc73e9e6c6e462009e7f1c48367939d77a085f25c1f015",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
