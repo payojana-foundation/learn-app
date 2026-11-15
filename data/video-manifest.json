@@ -1246,5 +1246,21 @@
     "height": 480,
     "sha256": "3af6358e6fbb61763b790b5a79f65addc2713a56214cb5c6543e60c82ca33826",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1m64bR1welfd6xFTnazZqH-G5mt84V1de",
+    "drive_name": "១២ ធម្មជាតិរបស់ចិត្ត ៣ ប្រការ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "c072150dcc5083927e3333eabb778670",
+    "key": "video/c072150dcc508392-480p.mp4",
+    "poster_key": "video/c072150dcc508392-480p.webp",
+    "rendition": "480p",
+    "bytes": 76367838,
+    "duration_s": 4314,
+    "src_duration_s": 4314,
+    "width": 854,
+    "height": 480,
+    "sha256": "c4678b46b9ed59b31454c77d68e8862435b1e07b05e638169692f82ceddbfe3e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
