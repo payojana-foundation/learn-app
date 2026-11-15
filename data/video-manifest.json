@@ -2606,5 +2606,21 @@
     "height": 480,
     "sha256": "c4a2e76b3cdcffbe5ddc90a0990c37135bdbad25bb2022690c9c4b1fb9e0be1c",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1aBnJ01-OWpAe0Q_Qz2-gc5VR2-T5Ez3f",
+    "drive_name": "២៤ សំយោជនជាហេតុនាំឱ្យលោភកើត (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "e151b669a18a3e7f50807e5d0e901936",
+    "key": "video/e151b669a18a3e7f-480p.mp4",
+    "poster_key": "video/e151b669a18a3e7f-480p.webp",
+    "rendition": "480p",
+    "bytes": 86389872,
+    "duration_s": 4390,
+    "src_duration_s": 4390,
+    "width": 854,
+    "height": 480,
+    "sha256": "7d4df5b533993177009b198c4ffb091d076491fc7d42045fe104e3c8d823ba10",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
