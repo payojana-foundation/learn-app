@@ -574,5 +574,21 @@
     "height": 480,
     "sha256": "bb744aa350d427460220ca6c578d0851c9069193ee218d4e1e0bcb527827d0fa",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1vBIafg3m6anGV9mcq_0JPq_h1WSwPeH8",
+    "drive_name": "០៦ ឧបមាវិថីចិត្តរបស់បញ្ចទ្វារមាន ១៧_ ខណៈ (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "1648dc1dd82f57536f010f679bd083b7",
+    "key": "video/1648dc1dd82f5753-480p.mp4",
+    "poster_key": "video/1648dc1dd82f5753-480p.webp",
+    "rendition": "480p",
+    "bytes": 93305043,
+    "duration_s": 4958,
+    "src_duration_s": 4958,
+    "width": 854,
+    "height": 480,
+    "sha256": "e1d9e6535793e929b9f98ed2c73389e8bbff218139637a6adedfbb590377282f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
