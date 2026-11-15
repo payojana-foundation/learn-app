@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "as_of": "2026-11-12T14:32:13.000Z",
+  "as_of": "2026-11-15T22:51:53.000Z",
   "totals": {
     "lessons": 4814,
-    "live": 10,
+    "live": 2984,
     "audio": {
       "not started": 1812,
-      "converted": 2910,
-      "needs review": 82,
-      "approved": 10
+      "converted": 8,
+      "needs review": 10,
+      "approved": 2984
     }
   },
   "courses": [
     {
       "course_id": "c001",
       "lessons": 57,
-      "live": 0,
+      "live": 26,
       "audio": {
         "not started": 31,
-        "converted": 26,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 26
       }
     },
     {
@@ -70,45 +70,45 @@
     {
       "course_id": "c006",
       "lessons": 174,
-      "live": 0,
+      "live": 171,
       "audio": {
         "not started": 3,
-        "converted": 171,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 171
       }
     },
     {
       "course_id": "c007",
       "lessons": 58,
-      "live": 0,
+      "live": 55,
       "audio": {
         "not started": 3,
-        "converted": 55,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 55
       }
     },
     {
       "course_id": "c008",
       "lessons": 55,
-      "live": 0,
+      "live": 54,
       "audio": {
         "not started": 1,
-        "converted": 54,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 54
       }
     },
     {
       "course_id": "c009",
       "lessons": 63,
-      "live": 0,
+      "live": 39,
       "audio": {
         "not started": 24,
-        "converted": 39,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 39
       }
     },
     {
@@ -125,122 +125,122 @@
     {
       "course_id": "c011",
       "lessons": 55,
-      "live": 0,
+      "live": 53,
       "audio": {
         "not started": 2,
-        "converted": 53,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 53
       }
     },
     {
       "course_id": "c012",
       "lessons": 168,
-      "live": 0,
+      "live": 158,
       "audio": {
         "not started": 0,
-        "converted": 86,
-        "needs review": 82,
-        "approved": 0
+        "converted": 0,
+        "needs review": 10,
+        "approved": 158
       }
     },
     {
       "course_id": "c013",
       "lessons": 64,
-      "live": 0,
+      "live": 64,
       "audio": {
         "not started": 0,
-        "converted": 64,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 64
       }
     },
     {
       "course_id": "c014",
       "lessons": 64,
-      "live": 0,
+      "live": 50,
       "audio": {
         "not started": 14,
-        "converted": 50,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 50
       }
     },
     {
       "course_id": "c015",
       "lessons": 71,
-      "live": 0,
+      "live": 62,
       "audio": {
         "not started": 9,
-        "converted": 62,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 62
       }
     },
     {
       "course_id": "c016",
       "lessons": 82,
-      "live": 0,
+      "live": 78,
       "audio": {
         "not started": 4,
-        "converted": 78,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 78
       }
     },
     {
       "course_id": "c017",
       "lessons": 66,
-      "live": 0,
+      "live": 65,
       "audio": {
         "not started": 1,
-        "converted": 65,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 65
       }
     },
     {
       "course_id": "c018",
       "lessons": 119,
-      "live": 0,
+      "live": 115,
       "audio": {
         "not started": 4,
-        "converted": 115,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 115
       }
     },
     {
       "course_id": "c019",
       "lessons": 139,
-      "live": 0,
+      "live": 132,
       "audio": {
         "not started": 7,
-        "converted": 132,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 132
       }
     },
     {
       "course_id": "c020",
       "lessons": 41,
-      "live": 0,
+      "live": 39,
       "audio": {
         "not started": 2,
-        "converted": 39,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 39
       }
     },
     {
       "course_id": "c021",
       "lessons": 54,
-      "live": 0,
+      "live": 35,
       "audio": {
         "not started": 19,
-        "converted": 35,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 35
       }
     },
     {
@@ -257,12 +257,12 @@
     {
       "course_id": "c023",
       "lessons": 4,
-      "live": 0,
+      "live": 3,
       "audio": {
         "not started": 1,
-        "converted": 3,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 3
       }
     },
     {
@@ -279,23 +279,23 @@
     {
       "course_id": "c025",
       "lessons": 58,
-      "live": 0,
+      "live": 48,
       "audio": {
         "not started": 9,
-        "converted": 49,
+        "converted": 1,
         "needs review": 0,
-        "approved": 0
+        "approved": 48
       }
     },
     {
       "course_id": "c026",
       "lessons": 33,
-      "live": 0,
+      "live": 32,
       "audio": {
         "not started": 1,
-        "converted": 32,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 32
       }
     },
     {
@@ -345,34 +345,34 @@
     {
       "course_id": "c031",
       "lessons": 40,
-      "live": 0,
+      "live": 34,
       "audio": {
         "not started": 5,
-        "converted": 35,
+        "converted": 1,
         "needs review": 0,
-        "approved": 0
+        "approved": 34
       }
     },
     {
       "course_id": "c032",
       "lessons": 23,
-      "live": 0,
+      "live": 19,
       "audio": {
         "not started": 4,
-        "converted": 19,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 19
       }
     },
     {
       "course_id": "c033",
       "lessons": 24,
-      "live": 0,
+      "live": 2,
       "audio": {
         "not started": 22,
-        "converted": 2,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 2
       }
     },
     {
@@ -389,34 +389,34 @@
     {
       "course_id": "c035",
       "lessons": 30,
-      "live": 0,
+      "live": 23,
       "audio": {
         "not started": 6,
-        "converted": 24,
+        "converted": 1,
         "needs review": 0,
-        "approved": 0
+        "approved": 23
       }
     },
     {
       "course_id": "c036",
       "lessons": 91,
-      "live": 0,
+      "live": 85,
       "audio": {
         "not started": 6,
-        "converted": 85,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 85
       }
     },
     {
       "course_id": "c037",
       "lessons": 24,
-      "live": 0,
+      "live": 22,
       "audio": {
         "not started": 2,
-        "converted": 22,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 22
       }
     },
     {
@@ -433,12 +433,12 @@
     {
       "course_id": "c039",
       "lessons": 39,
-      "live": 0,
+      "live": 36,
       "audio": {
         "not started": 3,
-        "converted": 36,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 36
       }
     },
     {
@@ -466,34 +466,34 @@
     {
       "course_id": "c042",
       "lessons": 18,
-      "live": 0,
+      "live": 4,
       "audio": {
         "not started": 14,
-        "converted": 4,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 4
       }
     },
     {
       "course_id": "c043",
       "lessons": 176,
-      "live": 0,
+      "live": 148,
       "audio": {
         "not started": 28,
-        "converted": 148,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 148
       }
     },
     {
       "course_id": "c044",
       "lessons": 67,
-      "live": 0,
+      "live": 61,
       "audio": {
         "not started": 6,
-        "converted": 61,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 61
       }
     },
     {
@@ -521,34 +521,34 @@
     {
       "course_id": "c047",
       "lessons": 102,
-      "live": 0,
+      "live": 97,
       "audio": {
         "not started": 5,
-        "converted": 97,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 97
       }
     },
     {
       "course_id": "c048",
       "lessons": 70,
-      "live": 0,
+      "live": 70,
       "audio": {
         "not started": 0,
-        "converted": 70,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 70
       }
     },
     {
       "course_id": "c049",
       "lessons": 142,
-      "live": 0,
+      "live": 141,
       "audio": {
         "not started": 1,
-        "converted": 141,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 141
       }
     },
     {
@@ -598,12 +598,12 @@
     {
       "course_id": "c054",
       "lessons": 57,
-      "live": 0,
+      "live": 46,
       "audio": {
         "not started": 10,
-        "converted": 47,
+        "converted": 1,
         "needs review": 0,
-        "approved": 0
+        "approved": 46
       }
     },
     {
@@ -631,23 +631,23 @@
     {
       "course_id": "c057",
       "lessons": 53,
-      "live": 0,
+      "live": 51,
       "audio": {
         "not started": 2,
-        "converted": 51,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 51
       }
     },
     {
       "course_id": "c058",
       "lessons": 46,
-      "live": 0,
+      "live": 30,
       "audio": {
         "not started": 16,
-        "converted": 30,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 30
       }
     },
     {
@@ -719,12 +719,12 @@
     {
       "course_id": "c065",
       "lessons": 54,
-      "live": 0,
+      "live": 54,
       "audio": {
         "not started": 0,
-        "converted": 54,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 54
       }
     },
     {
@@ -752,34 +752,34 @@
     {
       "course_id": "c068",
       "lessons": 22,
-      "live": 0,
+      "live": 19,
       "audio": {
         "not started": 3,
-        "converted": 19,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 19
       }
     },
     {
       "course_id": "c069",
       "lessons": 27,
-      "live": 0,
+      "live": 1,
       "audio": {
         "not started": 26,
-        "converted": 1,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 1
       }
     },
     {
       "course_id": "c070",
       "lessons": 30,
-      "live": 0,
+      "live": 22,
       "audio": {
         "not started": 8,
-        "converted": 22,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 22
       }
     },
     {
@@ -796,78 +796,78 @@
     {
       "course_id": "c072",
       "lessons": 24,
-      "live": 0,
+      "live": 24,
       "audio": {
         "not started": 0,
-        "converted": 24,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 24
       }
     },
     {
       "course_id": "c073",
       "lessons": 26,
-      "live": 0,
+      "live": 19,
       "audio": {
         "not started": 7,
-        "converted": 19,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 19
       }
     },
     {
       "course_id": "c074",
       "lessons": 463,
-      "live": 0,
+      "live": 452,
       "audio": {
         "not started": 10,
-        "converted": 453,
+        "converted": 1,
         "needs review": 0,
-        "approved": 0
+        "approved": 452
       }
     },
     {
       "course_id": "c075",
       "lessons": 76,
-      "live": 0,
+      "live": 72,
       "audio": {
         "not started": 4,
-        "converted": 72,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 72
       }
     },
     {
       "course_id": "c076",
       "lessons": 33,
-      "live": 0,
+      "live": 31,
       "audio": {
         "not started": 2,
-        "converted": 31,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 31
       }
     },
     {
       "course_id": "c077",
       "lessons": 57,
-      "live": 0,
+      "live": 55,
       "audio": {
         "not started": 2,
-        "converted": 55,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 55
       }
     },
     {
       "course_id": "c078",
       "lessons": 74,
-      "live": 0,
+      "live": 65,
       "audio": {
         "not started": 6,
-        "converted": 68,
+        "converted": 3,
         "needs review": 0,
-        "approved": 0
+        "approved": 65
       }
     },
     {
@@ -884,12 +884,12 @@
     {
       "course_id": "c080",
       "lessons": 15,
-      "live": 10,
+      "live": 13,
       "audio": {
         "not started": 2,
-        "converted": 3,
+        "converted": 0,
         "needs review": 0,
-        "approved": 10
+        "approved": 13
       }
     },
     {
@@ -917,12 +917,12 @@
     {
       "course_id": "c083",
       "lessons": 9,
-      "live": 0,
+      "live": 9,
       "audio": {
         "not started": 0,
-        "converted": 9,
+        "converted": 0,
         "needs review": 0,
-        "approved": 0
+        "approved": 9
       }
     },
     {
