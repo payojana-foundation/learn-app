@@ -2590,5 +2590,21 @@
     "height": 480,
     "sha256": "b811eb12636167bb6dfc73e9e6c6e462009e7f1c48367939d77a085f25c1f015",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1sxHBB4UTGkRn-P1mzO9iQSwR6-MAF9dp",
+    "drive_name": "១៧ ហេតុសង្គហៈ ចែកសហេតុកចិត្តជា ៣ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "04b433f1848a00f19fcfd656a7653c83",
+    "key": "video/04b433f1848a00f1-480p.mp4",
+    "poster_key": "video/04b433f1848a00f1-480p.webp",
+    "rendition": "480p",
+    "bytes": 107017913,
+    "duration_s": 5430,
+    "src_duration_s": 5430,
+    "width": 854,
+    "height": 480,
+    "sha256": "c4a2e76b3cdcffbe5ddc90a0990c37135bdbad25bb2022690c9c4b1fb9e0be1c",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
