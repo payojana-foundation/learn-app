@@ -3822,5 +3822,21 @@
     "height": 480,
     "sha256": "22b43a4a52f2df0ffdb4ca468ec3d720ed01056d7e95ce84238c6ac223f4a63e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1of5K7i20TmlGEYHN2oWjcxEedKufL6ET",
+    "drive_name": "៤១ មគ្គវិថី សោតាបត្តិមគ្គដល់អរហត្តមគ្គ  (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "90958bb1da627b184ff9ee1d1feed620",
+    "key": "video/90958bb1da627b18-480p.mp4",
+    "poster_key": "video/90958bb1da627b18-480p.webp",
+    "rendition": "480p",
+    "bytes": 75259925,
+    "duration_s": 4281,
+    "src_duration_s": 4281,
+    "width": 854,
+    "height": 480,
+    "sha256": "88da0e09c939291313ca7d822534a074c57e7d14650b7b6cc40099aec8cf02c5",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
