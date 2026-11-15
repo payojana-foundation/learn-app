@@ -3694,5 +3694,21 @@
     "height": 480,
     "sha256": "f85f5424af573b7617e7f31add0cdf6c10cc956e1ee2d18d49dec7c42dbe924f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1C-8xWtAsoHPfyEXd18X3qjOvMQExAzuR",
+    "drive_name": "៤០ អប្បនាជវនវារៈ អភិញ្ញា លោកិយអភិញ្ញាមានទិព្វចក្ខុជាដើម (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "e067892674ab95a53d74460d51e0b6b0",
+    "key": "video/e067892674ab95a5-480p.mp4",
+    "poster_key": "video/e067892674ab95a5-480p.webp",
+    "rendition": "480p",
+    "bytes": 96812567,
+    "duration_s": 5170,
+    "src_duration_s": 5170,
+    "width": 854,
+    "height": 480,
+    "sha256": "dfde6f394acb8b2ccd354c4d2844305fa99d9ca1147280d447b6a828f1297a1b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
