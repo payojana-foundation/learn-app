@@ -366,5 +366,21 @@
     "height": 480,
     "sha256": "095b0754a0b1beff77887a2775288437db8861ed231a73675b3feb13a4905f8f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Jip3nrbB7U7EgPnFg5BT_ssAN1Eid9Rf",
+    "drive_name": "០៣ សម្មតិសច្ចៈដោយហេតុ ៨ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "8ba5034a6eae045b388234a18e60bacd",
+    "key": "video/8ba5034a6eae045b-480p.mp4",
+    "poster_key": "video/8ba5034a6eae045b-480p.webp",
+    "rendition": "480p",
+    "bytes": 77966142,
+    "duration_s": 3838,
+    "src_duration_s": 3838,
+    "width": 854,
+    "height": 480,
+    "sha256": "72b422165c681ac6c772cf9a7cbd8661dc2000bf38cf9b1f9647d2fb4b00d71a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
