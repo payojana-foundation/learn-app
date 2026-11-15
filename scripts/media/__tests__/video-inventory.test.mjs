@@ -95,3 +95,54 @@ describe('V1 workflow is read-only', () => {
     expect(y).not.toMatch(/rclone|R2_ACCESS_KEY_ID|git push|contents: write/);
   });
 });
+
+// ── PART 2 (15 Nov): long runs never 401 ────────────────────────────────────
+import { likelyCause, failureRows } from '../video-inventory.mjs';
+
+describe('Drive token refresh in fetchMeta', () => {
+  it('a 401 re-mints the token once and retries the same file', async () => {
+    const auth = [];
+    const fake = async (url, opt) => {
+      auth.push(opt.headers.Authorization);
+      return opt.headers.Authorization === 'Bearer NEW' ? { ok: true, status: 200, json: async () => ({ size: '1' }) } : { ok: false, status: 401 };
+    };
+    const out = await fetchMeta(['f1'], 'OLD', { fetchImpl: fake, concurrency: 1, refresh: async () => 'NEW' });
+    expect(out[0].ok).toBe(true);
+    expect(auth).toEqual(['Bearer OLD', 'Bearer NEW']);
+  });
+  it('re-mints after refreshMs even without a 401 (runs over 1 h)', async () => {
+    let t = 0;
+    const auth = [];
+    const fake = async (url, opt) => { auth.push(opt.headers.Authorization); t += 30 * 60000; return { ok: true, status: 200, json: async () => ({}) }; };
+    let n = 0;
+    await fetchMeta(['a', 'b', 'c'], 'T0', { fetchImpl: fake, concurrency: 1, refresh: async () => `T${++n}`, refreshMs: 40 * 60000, now: () => t });
+    expect(auth).toEqual(['Bearer T0', 'Bearer T0', 'Bearer T1']);
+  });
+});
+
+describe('inventory failures CSV', () => {
+  it('likely cause by HTTP status', () => {
+    expect(likelyCause({ ok: false, error: 'HTTP 404' })).toMatch(/not shared/);
+    expect(likelyCause({ ok: false, error: 'HTTP 403' })).toMatch(/permission/);
+    expect(likelyCause({ ok: false, error: 'HTTP 401' })).toMatch(/expired/);
+    expect(likelyCause({ ok: true, duration_s: 0 })).toMatch(/no video metadata/);
+    expect(likelyCause({ ok: true, duration_s: 9 })).toBe('');
+  });
+  it('one row per lesson with an unusable chosen video', () => {
+    const lessons = videoLessons(rows);
+    const meta = [toMeta(ID(1), { videoMediaMetadata: { durationMillis: '1000' } }), toMeta(ID(3), null, 'HTTP 404'), toMeta(ID(4), {})];
+    const f = failureRows(lessons, meta);
+    expect(f.map((r) => [r.lesson_id, r.http_status])).toEqual([['c900-l002', '404'], ['c901-l002', '200'], ['c901-l003', '200']]);
+  });
+});
+
+describe('video workflows refresh the Drive token', () => {
+  const wfp = (n) => readFileSync(join(here, '..', '..', '..', '.github', 'workflows', n), 'utf8');
+  it('video-inventory, video-test and course-video set REFRESH_TOKEN_CMD', () => {
+    for (const n of ['video-inventory.yml', 'video-test.yml', 'course-video.yml']) expect(wfp(n)).toMatch(/REFRESH_TOKEN_CMD: "gcloud auth print-access-token --scopes=/);
+  });
+  it('video-test re-mints before each file and retries a failed download once', () => {
+    const y = wfp('video-test.yml');
+    expect(y).toMatch(/refresh_token\n\s+fetch_src "\$id" \|\| \{ refresh_token; fetch_src "\$id"; \}/);
+  });
+});

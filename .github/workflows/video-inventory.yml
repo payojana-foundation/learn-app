@@ -51,12 +51,14 @@ jobs:
       - name: Read Drive metadata (no download)
         env:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          # Drive tokens expire after ~60 min: re-mint every 40 min and on a 401.
+          REFRESH_TOKEN_CMD: "gcloud auth print-access-token --scopes=https://www.googleapis.com/auth/drive.readonly"
         run: node scripts/media/video-inventory.mjs fetch video-ids.txt video-meta.json
 
       - name: Write the report
         run: |
           set -euo pipefail
-          node scripts/media/video-inventory.mjs report data/master/lessons.csv video-meta.json reports/video-inventory.md reports/video-inventory.csv
+          node scripts/media/video-inventory.mjs report data/master/lessons.csv video-meta.json reports/video-inventory.md reports/video-inventory.csv reports/video-inventory-failures.csv
           cat reports/video-inventory.md >> "$GITHUB_STEP_SUMMARY"
 
       - name: Upload the report
@@ -66,4 +68,5 @@ jobs:
           path: |
             reports/video-inventory.md
             reports/video-inventory.csv
+            reports/video-inventory-failures.csv
             video-meta.json

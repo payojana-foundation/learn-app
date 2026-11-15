@@ -176,4 +176,20 @@ describe('V3 transcode-video.sh', () => {
   run('key on R2 without a manifest entry = orphan (4)', () => {
     expect(go({ size: 5 }).status).toBe(4);
   });
+  run('re-mints the Drive token per file through REFRESH_TOKEN_CMD (long runs never 401)', () => {
+    const rclone = join(dir, 'rclone');
+    const curl = join(dir, 'curl');
+    writeFileSync(rclone, `#!/usr/bin/env bash\nif [ "$1" = lsjson ]; then echo '[{"Size":0}]'; fi\nexit 0\n`);
+    writeFileSync(curl, `#!/usr/bin/env bash\nprintf '%s\\n' "$*" >> curl-args.txt\nprintf '%s\\n%s' '{"name":"n","md5Checksum":"${MD5}"}' 200\n`);
+    chmodSync(rclone, 0o755); chmodSync(curl, 0o755);
+    writeFileSync(join(dir, 'vm.json'), '[]');
+    const r = spawnSync(BASH, [script, 'vid1'], {
+      cwd: dir, encoding: 'utf-8',
+      env: { ...process.env, ACCESS_TOKEN: 'OLD', RCLONE: rclone.replace(/\\/g, '/'), CURL: curl.replace(/\\/g, '/'), RENDITION: '480p', MANIFEST: 'vm.json', DRY_RUN: '1', REFRESH_TOKEN_CMD: 'echo NEWTOKEN' },
+    });
+    expect(r.status).toBe(0);
+    const args = readFileSync(join(dir, 'curl-args.txt'), 'utf-8');
+    expect(args).toContain('Bearer NEWTOKEN');
+    expect(args).not.toContain('Bearer OLD');
+  });
 });

@@ -66,17 +66,35 @@ export function toMeta(id, json, error) {
 }
 
 /** Fetch metadata for ids with a bounded pool. fetchImpl is injectable for tests. */
-export async function fetchMeta(ids, token, { fetchImpl = fetch, concurrency = 8 } = {}) {
+/**
+ * Fetch metadata for ids. Long runs: Drive tokens expire after ~60 min, so the
+ * token is re-minted through `refresh` (async → new token) every `refreshMs`
+ * and once on a 401 for that file (same idea as course-audio REFRESH_TOKEN_CMD).
+ */
+export async function fetchMeta(ids, token, { fetchImpl = fetch, concurrency = 8, refresh = null, refreshMs = 40 * 60000, now = Date.now } = {}) {
   const fields = 'id,name,mimeType,size,md5Checksum,videoMediaMetadata';
   const out = new Array(ids.length);
   let next = 0;
+  let cur = token;
+  let mintedAt = now();
+  let pending = null;
+  const renew = async () => {
+    if (!refresh) return;
+    if (!pending) pending = Promise.resolve(refresh()).then((t) => { if (t) cur = t; mintedAt = now(); }).catch(() => {}).finally(() => { pending = null; });
+    await pending;
+  };
   async function worker() {
     while (next < ids.length) {
       const i = next++;
       const id = ids[i];
       const url = `https://www.googleapis.com/drive/v3/files/${encodeURIComponent(id)}?fields=${fields}&supportsAllDrives=true`;
       try {
-        const res = await fetchImpl(url, { headers: { Authorization: `Bearer ${token}` } });
+        if (refresh && now() - mintedAt > refreshMs) await renew();
+        let res = await fetchImpl(url, { headers: { Authorization: `Bearer ${cur}` } });
+        if (res.status === 401 && refresh) {
+          await renew();
+          res = await fetchImpl(url, { headers: { Authorization: `Bearer ${cur}` } });
+        }
         if (!res.ok) out[i] = toMeta(id, null, `HTTP ${res.status}`);
         else out[i] = toMeta(id, await res.json(), null);
       } catch (e) {
@@ -186,8 +204,45 @@ export function buildCsvRows(lessons, metaList) {
   });
 }
 
+/** Likely cause of a metadata failure. Pure. */
+export function likelyCause(m) {
+  if (!m) return 'not fetched';
+  if (m.ok) return m.duration_s ? '' : 'Drive has no video metadata (not a video, or Drive is still processing it)';
+  const s = /HTTP (\d+)/.exec(m.error || '');
+  const code = s ? Number(s[1]) : 0;
+  if (code === 404) return 'not shared with the service account, deleted, or in the trash';
+  if (code === 403) return 'no permission (sharing or domain policy)';
+  if (code === 401) return 'access token expired';
+  if (code === 429 || code >= 500) return 'Drive was busy; run again';
+  return 'unknown';
+}
+
+export const FAILURE_COLUMNS = ['drive_file_id', 'course_id', 'lesson_id', 'lesson_no', 'http_status', 'likely_cause'];
+
+/** One row per lesson whose chosen video could not be used. Pure. */
+export function failureRows(lessons, metaList) {
+  const meta = new Map((metaList || []).map((m) => [m.id, m]));
+  const out = [];
+  for (const l of lessons) {
+    const m = meta.get(l.video_id);
+    const cause = likelyCause(m);
+    if (!cause) continue;
+    const s = m && /HTTP (\d+)/.exec(m.error || '');
+    out.push({ drive_file_id: l.video_id, course_id: l.course_id, lesson_id: l.lesson_id, lesson_no: l.lesson_no, http_status: m ? (m.ok ? '200' : s ? s[1] : m.error || '') : '', likely_cause: cause });
+  }
+  return out;
+}
+
+/** Re-mint a Drive token through REFRESH_TOKEN_CMD (empty = no refresh). */
+async function cmdRefresh() {
+  const cmd = process.env.REFRESH_TOKEN_CMD;
+  if (!cmd) return null;
+  const { execSync } = await import('node:child_process');
+  try { return execSync(cmd, { encoding: 'utf8', stdio: ['ignore', 'pipe', 'ignore'] }).trim() || null; } catch { return null; }
+}
+
 async function main() {
-  const [, , cmd, a, b, c, d] = process.argv;
+  const [, , cmd, a, b, c, d, e] = process.argv;
   if (cmd === 'ids') {
     const ids = uniqueVideoIds(videoLessons(parseCsvObjects(readFileSync(a, 'utf8'))));
     writeFileSync(b, ids.join('\n') + '\n');
@@ -196,7 +251,7 @@ async function main() {
     const token = process.env.ACCESS_TOKEN;
     if (!token) { console.error('ACCESS_TOKEN is not set'); process.exit(1); }
     const ids = readFileSync(a, 'utf8').split(/\r?\n/).filter(Boolean);
-    const meta = await fetchMeta(ids, token);
+    const meta = await fetchMeta(ids, token, { refresh: process.env.REFRESH_TOKEN_CMD ? cmdRefresh : null });
     writeFileSync(b, JSON.stringify(meta, null, 2));
     console.log(`video-inventory: fetched ${meta.length}, failed ${meta.filter((m) => !m.ok).length}`);
   } else if (cmd === 'report') {
@@ -205,6 +260,13 @@ async function main() {
     const s = summarize(lessons, meta);
     writeFileSync(c, buildReportMd(s));
     writeFileSync(d, toCsv(CSV_COLUMNS, buildCsvRows(lessons, meta)));
+    if (e) {
+      const f = failureRows(lessons, meta);
+      writeFileSync(e, toCsv(FAILURE_COLUMNS, f));
+      const by = {};
+      for (const r of f) by[r.likely_cause] = (by[r.likely_cause] || 0) + 1;
+      console.log(`video-inventory: ${f.length} lesson(s) with an unusable video: ${JSON.stringify(by)}`);
+    }
     console.log(`video-inventory: ${s.lessons} lessons, ${s.files} files, ${f1(s.gb)} GB, ${f1(s.hours)} h`);
   } else {
     console.error('Usage: video-inventory.mjs ids|fetch|report …');

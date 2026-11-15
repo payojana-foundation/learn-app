@@ -89,14 +89,26 @@ jobs:
       - name: Encode 480p and 720p (local files only)
         env:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          # Drive tokens expire after ~60 min: re-mint before EACH file and once on
+          # a failed download (same pattern as course-audio REFRESH_TOKEN_CMD).
+          REFRESH_TOKEN_CMD: "gcloud auth print-access-token --scopes=https://www.googleapis.com/auth/drive.readonly"
         run: |
           set -euo pipefail
           : > results.ndjson
+          refresh_token() {
+            local t
+            t="$(eval "$REFRESH_TOKEN_CMD" 2>/dev/null | tr -d '[:space:]' || true)"
+            if [ -n "$t" ]; then ACCESS_TOKEN="$t"; fi
+          }
+          fetch_src() {
+            curl -fsSL -H "Authorization: Bearer ${ACCESS_TOKEN}" \
+              "https://www.googleapis.com/drive/v3/files/${1}?alt=media&supportsAllDrives=true" -o src.bin
+          }
           while IFS=$'\t' read -r id size _h; do
             [ -n "$id" ] || continue
             echo "── $id ($size bytes)"
-            curl -fsSL -H "Authorization: Bearer ${ACCESS_TOKEN}" \
-              "https://www.googleapis.com/drive/v3/files/${id}?alt=media&supportsAllDrives=true" -o src.bin
+            refresh_token
+            fetch_src "$id" || { refresh_token; fetch_src "$id"; }
             dur=$(ffprobe -v error -show_entries format=duration -of csv=p=0 src.bin || echo 0)
             sh=$(ffprobe -v error -select_streams v:0 -show_entries stream=height -of csv=p=0 src.bin || echo 0)
             for r in 480 720; do
