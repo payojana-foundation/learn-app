@@ -1086,5 +1086,21 @@
     "height": 480,
     "sha256": "ccd24d91e9cfd01be9df6cc07e399487224a312c8a75906f09834db3ace6aca9",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1uOUPOSn4nbTcznb50TQGBXXk2So68eea",
+    "drive_name": "០៦-ភូរិទត្តជាតក អំពីបុគ្គលទៅកាន់ស្ថានសួគ៌ដោយអ្វី ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​.mp4",
+    "source_md5": "871d879c9480bd2009fede1967dd9256",
+    "key": "video/871d879c9480bd20-480p.mp4",
+    "poster_key": "video/871d879c9480bd20-480p.webp",
+    "rendition": "480p",
+    "bytes": 48830382,
+    "duration_s": 2162,
+    "src_duration_s": 2162,
+    "width": 854,
+    "height": 480,
+    "sha256": "98c6b4a0826c07d075bbe7abdc8b67343f02f744f193bb02c6edec4da74a5b21",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
