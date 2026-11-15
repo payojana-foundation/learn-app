@@ -3310,5 +3310,21 @@
     "height": 480,
     "sha256": "4a7e012af98084917e56b53578e5cd05414b0549b0adb90031d7ff3a29cf50a8",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1s5HtI9a_2llJ5y93w1neN223b7F164Gg",
+    "drive_name": "៣០ របៀសង្កេតលោភមូលចិត្ត (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "6cbe344b2fd7a8a4d088add6722fc0a3",
+    "key": "video/6cbe344b2fd7a8a4-480p.mp4",
+    "poster_key": "video/6cbe344b2fd7a8a4-480p.webp",
+    "rendition": "480p",
+    "bytes": 69185585,
+    "duration_s": 3610,
+    "src_duration_s": 3610,
+    "width": 854,
+    "height": 480,
+    "sha256": "e8d07c69981558775b07de13c030e88b0cdbf92d7c964e57bc65b60f96f56dfb",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
