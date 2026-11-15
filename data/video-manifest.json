@@ -2014,5 +2014,21 @@
     "height": 480,
     "sha256": "bfb3a1633663cab8b8507f702a6930f7640a50428994c4cfd82beac0d989b3d1",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1okAkfE8siJ94stU-1o0bC-D4earGIgii",
+    "drive_name": "6-_៨៦ មហោសថជាតក សិរីមេណ្ឌកប្បញ្ហា ពីរឿងសីរិនិងបញ្ញាបញ្ចប់ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី_.mp4",
+    "source_md5": "8d9cc2419d93acc58f7f77ecbad0cfd3",
+    "key": "video/8d9cc2419d93acc5-480p.mp4",
+    "poster_key": "video/8d9cc2419d93acc5-480p.webp",
+    "rendition": "480p",
+    "bytes": 61838542,
+    "duration_s": 2904,
+    "src_duration_s": 2904,
+    "width": 854,
+    "height": 480,
+    "sha256": "956874439b3c2946fa99dc815ab4a69fc26e0ea70e01c410c39c2449b94a188b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
