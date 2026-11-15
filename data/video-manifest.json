@@ -2734,5 +2734,21 @@
     "height": 480,
     "sha256": "5feabd733715ecc5fb84b3f64a3d3822f97eafd749c86289bd8c1eafa20d7956",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ntFPm8nAgxE7M9JxerqXwo0V5YD_YIeY",
+    "drive_name": "២៦ ទិដ្ឋិចេតសិក អធិប្បាយមិច្ឆាទិដ្ឋិមាន៦២ប្រការ (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "a2b2f92a0abf5be8f49567d8a30bfef1",
+    "key": "video/a2b2f92a0abf5be8-480p.mp4",
+    "poster_key": "video/a2b2f92a0abf5be8-480p.webp",
+    "rendition": "480p",
+    "bytes": 117705806,
+    "duration_s": 5296,
+    "src_duration_s": 5296,
+    "width": 854,
+    "height": 480,
+    "sha256": "87d0153f41e6ef75f15b1350d499bb1359099d21f25d4508b9cffe48b69ac544",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
