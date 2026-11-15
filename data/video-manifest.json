@@ -1118,5 +1118,21 @@
     "height": 480,
     "sha256": "1bcae84d6ced3ed731cb4f2eeb6053dc8e39a43d9b1cd39f2e726e113dca7d93",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1fCGTutlNsbxOGf18ZGSLt2uV5CuyrZj_",
+    "drive_name": "១១ មនសិការចេតសិក ចែកជា៣យ៉ាង (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "f6bb9fdb5f5213f5eea5b4b46dc75369",
+    "key": "video/f6bb9fdb5f5213f5-480p.mp4",
+    "poster_key": "video/f6bb9fdb5f5213f5-480p.webp",
+    "rendition": "480p",
+    "bytes": 93372559,
+    "duration_s": 4523,
+    "src_duration_s": 4523,
+    "width": 854,
+    "height": 480,
+    "sha256": "3aad8c894610825e5dd204493ec15d8e9bd7f067ebddb74a4113eeb1ddbb3e87",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
