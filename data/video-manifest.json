@@ -1166,5 +1166,21 @@
     "height": 480,
     "sha256": "87e88f6d69a7cbad6d0a7bd54f289735e89f59cca6c3d75ec2b0abfe130d79eb",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1-86BxlRA1Vgo-D8xef9gC2Nm1AimULg8",
+    "drive_name": "១០ តេជោធាតុ ៤ យ៉ាង និងវាយធាតុ ៦ យ៉ាង (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "22b22eb10e38d3b5357647de2feba774",
+    "key": "video/22b22eb10e38d3b5-480p.mp4",
+    "poster_key": "video/22b22eb10e38d3b5-480p.webp",
+    "rendition": "480p",
+    "bytes": 116044756,
+    "duration_s": 5906,
+    "src_duration_s": 5906,
+    "width": 854,
+    "height": 480,
+    "sha256": "640e458378d3777adbf4a9e60185aa32f96640b124baefad19f84b63579589a9",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
