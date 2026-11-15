@@ -2942,5 +2942,21 @@
     "height": 480,
     "sha256": "0a5ecc1e507034038bd659d33e315677d1589f9b5222795cb0ba11cd892b5868",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1s7RCFf6RCNW9Ik3QQU5qUi2gx_0VmdHo",
+    "drive_name": "២៨ មានចេតសិក ហេតុនាំឲ្យលើកតម្កើងខ្លួន (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "b7b94220c003d900870b1cee803d1c98",
+    "key": "video/b7b94220c003d900-480p.mp4",
+    "poster_key": "video/b7b94220c003d900-480p.webp",
+    "rendition": "480p",
+    "bytes": 124423963,
+    "duration_s": 5461,
+    "src_duration_s": 5461,
+    "width": 854,
+    "height": 480,
+    "sha256": "515da12e49dbb49bc1288482090b12241b05525dd1e1988755fb9eea5fbf7ffc",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
