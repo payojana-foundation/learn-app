@@ -1374,5 +1374,21 @@
     "height": 480,
     "sha256": "dabfc963ff55e9914c2a7da7b07d7691db45d4c1f40bd8492df03400e877b82a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Ndveg8C2ksBnod4c48UzziZ0X7SZgHRw",
+    "drive_name": "2-តេមិយជាតក.mp4",
+    "source_md5": "caf756f2cf949528c8fd0c1e92080b4b",
+    "key": "video/caf756f2cf949528-480p.mp4",
+    "poster_key": "video/caf756f2cf949528-480p.webp",
+    "rendition": "480p",
+    "bytes": 103452308,
+    "duration_s": 4325,
+    "src_duration_s": 4325,
+    "width": 854,
+    "height": 480,
+    "sha256": "37b9f857f486abf5028a30ec28f3bec1c55d770f1c9b9b91753e3cc1e480872a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
