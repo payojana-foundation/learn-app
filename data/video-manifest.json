@@ -3742,5 +3742,21 @@
     "height": 480,
     "sha256": "fd16962fe65e623eebe77449b48abed72587ffb4a4b500481c0e9e675c213bf0",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1-shQ67LkrBm0PTeC519W8Lfl8oB-mQmv",
+    "drive_name": "៣៥ ទុកន័យ សប្បដិឃរូប សនិទស្សនរូប គោរចរគាហិក (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "429af4a5033b920ad5deba6813424b92",
+    "key": "video/429af4a5033b920a-480p.mp4",
+    "poster_key": "video/429af4a5033b920a-480p.webp",
+    "rendition": "480p",
+    "bytes": 99365265,
+    "duration_s": 4699,
+    "src_duration_s": 4699,
+    "width": 854,
+    "height": 480,
+    "sha256": "14a68e2dbfee7f336e074580d8515722f14d9f76c2337dae8cdd0f3c8747ff87",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
