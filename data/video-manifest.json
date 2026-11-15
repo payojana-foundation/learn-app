@@ -1406,5 +1406,21 @@
     "height": 480,
     "sha256": "2e111df49c93a83d8819a16e4e386fe9ecece9144bdef24ea72a53995fc5246e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "16LW8UThOdOAWmZZ8TtHBmFvEPTslzOkC",
+    "drive_name": "១៤ វិចារចេតសិក ការពិចារណាអារម្មណ៍ (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "9c366a0ebf1105a1ac54708bc3f25a81",
+    "key": "video/9c366a0ebf1105a1-480p.mp4",
+    "poster_key": "video/9c366a0ebf1105a1-480p.webp",
+    "rendition": "480p",
+    "bytes": 90281535,
+    "duration_s": 4197,
+    "src_duration_s": 4197,
+    "width": 854,
+    "height": 480,
+    "sha256": "73fc87998988f81978d80acda9c891717a5ff95a6e851c268a34271135946969",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
