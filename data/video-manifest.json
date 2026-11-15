@@ -494,5 +494,21 @@
     "height": 480,
     "sha256": "dd188ca48b916c2831fbe6b184c131067cf385db27df9d363b36ff77fe00915b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1rxdHo-tT3qG3o4hEJthuzNKU_ym7MhTq",
+    "drive_name": "០៣ ចែកវេទនាជា ៣ ប្រភេទ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "7aecdb4cc84ba9fd3cd12803853a05b8",
+    "key": "video/7aecdb4cc84ba9fd-480p.mp4",
+    "poster_key": "video/7aecdb4cc84ba9fd-480p.webp",
+    "rendition": "480p",
+    "bytes": 102639212,
+    "duration_s": 5101,
+    "src_duration_s": 5101,
+    "width": 854,
+    "height": 480,
+    "sha256": "59a7cad40ad7b8f48530f65efc5af5f2b9d01d1944543354cf8b20aee89f8d20",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
