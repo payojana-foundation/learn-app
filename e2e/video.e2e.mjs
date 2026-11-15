@@ -65,6 +65,29 @@ async function installVideoOn(context, clipS) {
   await context.route('**/data/catalog.json*', (r) => r.fulfill({ status: 200, contentType: 'application/json', body: catBody }));
 }
 
+/**
+ * OFF state: the served data as the build makes it with the video switch off — the real
+ * catalog and c080 with every `has_video` / `lesson.video` removed (the live data has videos
+ * since video was switched on, 15 Nov). Manifest hashes kept honest (P-01).
+ */
+async function installVideoOff(context) {
+  const realCourse = await (await fetch(`${BASE}/data/courses/c080.json`)).json();
+  const realCatalog = await (await fetch(`${BASE}/data/catalog.json`)).json();
+  for (const l of realCourse.lessons) delete l.video;
+  for (const c of realCatalog.courses) delete c.has_video;
+  const courseBody = JSON.stringify(realCourse, null, 2) + '\n';
+  const catBody = JSON.stringify(realCatalog, null, 2) + '\n';
+  await context.route('**/data/manifest.json*', async (route) => {
+    const res = await route.fetch();
+    const m = await res.json();
+    if (m.files?.c080) m.files.c080.sha256 = sha256(Buffer.from(courseBody, 'utf-8'));
+    if (m.files?.catalog) m.files.catalog.sha256 = sha256(Buffer.from(catBody, 'utf-8'));
+    await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(m) });
+  });
+  await context.route('**/data/courses/c080.json*', (r) => r.fulfill({ status: 200, contentType: 'application/json', body: courseBody }));
+  await context.route('**/data/catalog.json*', (r) => r.fulfill({ status: 200, contentType: 'application/json', body: catBody }));
+}
+
 async function run() {
   const browser = await chromium.launch({ args: ['--autoplay-policy=no-user-gesture-required', '--mute-audio'] });
   let failures = 0;
@@ -84,6 +107,7 @@ async function run() {
       await context.route(/\/(audio|video)\/[^?]*\.(mp3|mp4)(\?.*)?$/, (r) => serveClip(r, clip));
       await context.route(/\/video\/[^?]*\.webp(\?.*)?$/, (r) => r.fulfill({ status: 200, contentType: 'image/webp', body: Buffer.alloc(16) }));
       if (on) await installVideoOn(context, clipS);
+      else await installVideoOff(context);
       const page = await context.newPage();
       const noScroll = async (where) => check(await page.evaluate(() => document.documentElement.scrollWidth <= window.innerWidth), `no horizontal scroll (${where})`);
 
@@ -122,8 +146,23 @@ async function run() {
       await page.click('[data-pp]');
       await page.waitForFunction(() => (window.__learnAudio?.currentTime ?? 0) >= 4, null, { timeout: 10000 });
       const atSwitch = await page.evaluate(() => window.__learnAudio.currentTime);
+      // iOS Safari only lets a video start from inside the tap itself (bug 15 Nov: the video's
+      // play() ran after an IndexedDB read, outside the tap, so a phone showed only the poster).
+      await page.evaluate(() => {
+        window.__clicking = false;
+        window.__videoPlays = [];
+        document.addEventListener('click', () => { window.__clicking = true; }, true);
+        window.addEventListener('click', () => { window.__clicking = false; });
+        const orig = HTMLMediaElement.prototype.play;
+        HTMLMediaElement.prototype.play = function (...a) {
+          if (this instanceof HTMLVideoElement) window.__videoPlays.push(window.__clicking);
+          return orig.apply(this, a);
+        };
+      });
       await page.click('[data-mode="watch"]');
       await page.waitForFunction(() => !!window.__learnVideo && document.querySelector('.vbox video') === window.__learnVideo && window.__learnAudio === window.__learnVideo, null, { timeout: 5000 }).catch(() => {});
+      const plays = await page.evaluate(() => window.__videoPlays);
+      check(plays.includes(true), `Watch tap starts the video inside the tap (play calls in tap: ${JSON.stringify(plays)})`);
       const v = await page.evaluate(() => ({ inBox: !!document.querySelector('.vbox video'), src: window.__learnVideo?.src || '', poster: window.__learnVideo?.poster || '', same: window.__learnAudio === window.__learnVideo }));
       check(v.inBox, 'Watch: the <video> is in the lesson box');
       check(v.src.includes(VIDEO_KEY), 'Watch: plays the R2 video key from the data');
@@ -134,6 +173,14 @@ async function run() {
         ok(`position carried Listen → Watch (${atSwitch.toFixed(1)} s)`);
       } catch { fail(`position not carried to the video (${await page.evaluate(() => window.__learnVideo.currentTime)} vs ${atSwitch})`); }
       await noScroll('lesson watch');
+
+      // Tapping the picture itself pauses and plays (bug 15 Nov: a tap on the video did nothing).
+      await page.click('.vbox video');
+      const tapPaused = await page.evaluate(() => window.__learnVideo.paused);
+      await page.click('.vbox video');
+      await page.waitForFunction(() => !window.__learnVideo.paused, null, { timeout: 4000 }).catch(() => {});
+      const tapPlaying = await page.evaluate(() => !window.__learnVideo.paused);
+      check(tapPaused && tapPlaying, `tap on the picture pauses then plays (paused ${tapPaused}, playing ${tapPlaying})`);
 
       // Speed change re-renders; the same video element keeps playing.
       await page.click('[data-speed]');

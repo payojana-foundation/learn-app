@@ -416,6 +416,30 @@ function ensureVideo(l: Lesson): HTMLVideoElement {
   return videoEl;
 }
 
+/**
+ * iOS Safari starts a video only from inside the user's tap. The Watch switch reads the
+ * saved position first (async), so the real start would come too late: start the video
+ * element HERE, in the tap, muted (allowed everywhere), and pause it at once. That unlocks
+ * the element; the player then sets the position and plays it normally.
+ */
+function startVideoInTap(): void {
+  if (!cur || state.mediaMode === 'watch' || !player || player.audio.paused) return;
+  const l = courseCache.get(cur.courseId)?.lessons.find((x) => x.id === cur!.lessonId);
+  if (!l?.video) return;
+  const v = ensureVideo(l);
+  const url = mediaUrl(l.video.src);
+  if (v.src !== url) v.src = url;
+  v.muted = true;
+  const p = v.play();
+  const unmute = () => {
+    // Still the unlock play (the player has not taken the element yet): stop it here.
+    if (player?.audio !== v) v.pause();
+    v.muted = false;
+  };
+  if (p && typeof p.then === 'function') p.then(unmute, unmute);
+  else unmute();
+}
+
 /** Put the <video> into the lesson's slot right after each render (same task: it keeps playing). */
 function attachVideo(): void {
   const slot = document.querySelector('[data-video-slot]');
@@ -501,6 +525,11 @@ function handoffUrl(which: string): string {
 
 function wireEvents(): void {
   document.addEventListener('click', (e) => {
+    // Watch: a tap on the picture pauses / plays (the <video> has no native controls).
+    if (videoEl && (e.target as HTMLElement).closest('.vbox video') === videoEl) {
+      player?.toggle();
+      return;
+    }
     const el = (e.target as HTMLElement).closest<HTMLElement>('button,a,label');
     if (!el) return;
     const d = el.dataset;
@@ -579,6 +608,7 @@ function wireEvents(): void {
       return;
     }
     if (d.mode === 'listen' || d.mode === 'watch') {
+      if (d.mode === 'watch') startVideoInTap();
       void switchMode(d.mode);
       return;
     }
