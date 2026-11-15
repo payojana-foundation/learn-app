@@ -3278,5 +3278,21 @@
     "height": 480,
     "sha256": "c4e76ff35bd3e4d190d41083badca2cbdb4e5af246b9cc94acc8bbe396771e24",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Ae3YkuRSZV08-8MFyEi3yxq5O8WIzWVe",
+    "drive_name": "៣០ ទោសចេតសិក ការខឹងក្រោធ ឥស្សា ច្រណែន (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "12a76e29216874d3309bed0307e0b3f5",
+    "key": "video/12a76e29216874d3-480p.mp4",
+    "poster_key": "video/12a76e29216874d3-480p.webp",
+    "rendition": "480p",
+    "bytes": 154329190,
+    "duration_s": 5913,
+    "src_duration_s": 5913,
+    "width": 854,
+    "height": 480,
+    "sha256": "8deff71c4a5b0344479007ccbe3b61e4370707051375e104e19ddb7e52b0fac7",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
