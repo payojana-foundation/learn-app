@@ -1982,5 +1982,21 @@
     "height": 480,
     "sha256": "363fa9789aab81b666b73ceba5f649f9e262e44aa13d5af34a496ec0a823141b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1vgk82-BsXYSxw2yRy2nz_3OQBYFtXOF9",
+    "drive_name": "១៩ មានះ ៩ យ៉ាង (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "36a0d799aa5376ccb54acf5f86b331c3",
+    "key": "video/36a0d799aa5376cc-480p.mp4",
+    "poster_key": "video/36a0d799aa5376cc-480p.webp",
+    "rendition": "480p",
+    "bytes": 88038386,
+    "duration_s": 4773,
+    "src_duration_s": 4773,
+    "width": 854,
+    "height": 480,
+    "sha256": "0f225681d7bba97f9e067d27a8d53e677aef161da2a34a05b91c763d3f530efa",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
