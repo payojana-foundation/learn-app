@@ -1134,5 +1134,21 @@
     "height": 480,
     "sha256": "3aad8c894610825e5dd204493ec15d8e9bd7f067ebddb74a4113eeb1ddbb3e87",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "12dE5Ps7lYtVMX28mc52rPZb8xN5OOa-q",
+    "drive_name": "១១ អំណាចរបស់ចិត្ត (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "d0a5d58b8a2b93066cc450f2103f932a",
+    "key": "video/d0a5d58b8a2b9306-480p.mp4",
+    "poster_key": "video/d0a5d58b8a2b9306-480p.webp",
+    "rendition": "480p",
+    "bytes": 77508168,
+    "duration_s": 3970,
+    "src_duration_s": 3970,
+    "width": 854,
+    "height": 480,
+    "sha256": "63545d1df04165af3713666cefa75e8c875ce3f41875e4cf2f8a84e777c17ff7",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
