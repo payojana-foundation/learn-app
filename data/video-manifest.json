@@ -318,5 +318,21 @@
     "height": 480,
     "sha256": "1a2f294917b5a6ea93cb3b1ccab5fd8cc5bd9173146cc87789ad21bac6902269",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Lj7U5OeAum4oS_iKqRr1Nj_ViJs0oInU",
+    "drive_name": "០៣_ភូមិចតុក្កៈ_រោរុវនរក_ដល់អវីចិនរកភិក្ខុអគ្គចិត្តោ_យ៉ុន_យី_បរិច្ឆេទទី៥.mp4",
+    "source_md5": "1e83ef17e3a68120c9cac64acaaec986",
+    "key": "video/1e83ef17e3a68120-480p.mp4",
+    "poster_key": "video/1e83ef17e3a68120-480p.webp",
+    "rendition": "480p",
+    "bytes": 77201769,
+    "duration_s": 3771,
+    "src_duration_s": 3771,
+    "width": 854,
+    "height": 480,
+    "sha256": "532c49d35d6671a5749748199813be4f9da13fc12f53fcedc9f0f7352476b515",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
