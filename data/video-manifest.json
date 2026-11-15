@@ -3566,5 +3566,21 @@
     "height": 480,
     "sha256": "b0f111b20734c9663ef19ce62e3dd4847cc3e250862ffc62ee218a9c325e8d55",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1hA4pBF26KZ7VhiCBFM1kxDgyuQqB1tI0",
+    "drive_name": "៣៩ អប្បនាជវនវារៈ លោកិយអភិញ្ញា ឥទ្ធិ១០យ៉ាង (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "4bb4dd58d5d5ec74c56fb75ba475c508",
+    "key": "video/4bb4dd58d5d5ec74-480p.mp4",
+    "poster_key": "video/4bb4dd58d5d5ec74-480p.webp",
+    "rendition": "480p",
+    "bytes": 87676818,
+    "duration_s": 4858,
+    "src_duration_s": 4858,
+    "width": 854,
+    "height": 480,
+    "sha256": "575bd23a3c7ecbc0a64fbf3356df57f7650b67e73f86f5f0f520e7d7b36c2c15",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
