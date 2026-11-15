@@ -9,27 +9,27 @@
     "c006": {
       "file": "courses/c006.json",
       "updated": "2026-11-15T19:18:08.000Z",
-      "sha256": "ceb1aeb4cf241f02579ab32e0270f06d1d50d25ef931995db10c0b33d6981649"
+      "sha256": "a33a4dbc07afca585eda3f3841fe77d8edaf732f8c45317ad71f33f993f3208c"
     },
     "c007": {
       "file": "courses/c007.json",
       "updated": "2026-11-15T19:18:08.000Z",
-      "sha256": "4f0c86675ce0c20e675205a47ca449ed90c243bf5555c66c85f0f2a67388e761"
+      "sha256": "eb0f89060a686604eb53e63249d70978e5bcde8e66ee9491be4dcf35254542cf"
     },
     "c008": {
       "file": "courses/c008.json",
       "updated": "2026-11-15T19:18:08.000Z",
-      "sha256": "4cb7df956590c9ef34e0a1334130fa4c40c10c942d767e4fa3073fb07cc1f3c8"
+      "sha256": "f3923226f1b1d749192dcc5c3f6fd47ab463a82134af7939e911d7ee10645e73"
     },
     "c009": {
       "file": "courses/c009.json",
       "updated": "2026-11-15T19:18:08.000Z",
-      "sha256": "01c4d1b3fdae1a50e128754b7ada9de444b86ec3e81c6acca33dc238dd84b4c9"
+      "sha256": "0aab64d33362b39ba220539294f5d5ed60ce66e3878c8a52fc674b61e7dda436"
     },
     "c011": {
       "file": "courses/c011.json",
       "updated": "2026-11-15T19:18:08.000Z",
-      "sha256": "a88cf048f2608eb69f5f7fe5180add16f29b8044d68e47ea0853e15facfb4743"
+      "sha256": "0f6230ba9940beb2863c7f14375832065c55ebdf927dd9de76e44b24a11d56fd"
     },
     "c012": {
       "file": "courses/c012.json",
@@ -84,7 +84,7 @@
     "c023": {
       "file": "courses/c023.json",
       "updated": "2026-11-15T19:18:08.000Z",
-      "sha256": "a4e792edee522740dde927cde97cb086dfe3a5066418f8c528c3cfd3950c529a"
+      "sha256": "27c424d946d061847de750f159acac493ee70cea3e06f47af97955e72feeb71e"
     },
     "c025": {
       "file": "courses/c025.json",
@@ -254,7 +254,7 @@
     "catalog": {
       "file": "catalog.json",
       "updated": "2026-11-15T19:18:08.000Z",
-      "sha256": "7f21db67616f96c89528b740c5feef0216f2604a9e134248dbb971b130e29e72"
+      "sha256": "213dc7aee4817b3efd217fcf7999d301a367ecda35dcc87cea7e050514f87871"
     },
     "teachers": {
       "file": "teachers.json",
