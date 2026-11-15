@@ -3614,5 +3614,21 @@
     "height": 480,
     "sha256": "44be95846e235e34ef3ae49a37aea6cdecd68affb6865d2010817e5e27247213",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1T-FYaFslRN3fEPg1eyDfbac3V7jbMIeP",
+    "drive_name": "៣៤ ទុកន័យ វត្ថុរូប ទ្វាររូប ឥន្រ្ទិយរូបឱឡារិករូប (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "8f5af48a0f87c19ff8df03f4d1a84949",
+    "key": "video/8f5af48a0f87c19f-480p.mp4",
+    "poster_key": "video/8f5af48a0f87c19f-480p.webp",
+    "rendition": "480p",
+    "bytes": 125060974,
+    "duration_s": 4643,
+    "src_duration_s": 4643,
+    "width": 854,
+    "height": 480,
+    "sha256": "1c2af82af116f0b383c00e7e496422030a050f54856a505b7d9a0f7b95ffe344",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
