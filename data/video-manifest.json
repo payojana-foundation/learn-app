@@ -2878,5 +2878,21 @@
     "height": 480,
     "sha256": "8f1df1912b22f2ddd6fc66ff3c7a7629fb66790c914fc6de754b0f5fd6ed4476",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1_iu9TtRx8aWdnxdMt9p33t-adrIBy1Eb",
+    "drive_name": "២៨ វិការរូប ៣ រូបលហុតា រូបមុទុតា រូបកម្មញ្ញតា (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "c9066c9a90c244ccda6e4c8af8f5fad7",
+    "key": "video/c9066c9a90c244cc-480p.mp4",
+    "poster_key": "video/c9066c9a90c244cc-480p.webp",
+    "rendition": "480p",
+    "bytes": 115742679,
+    "duration_s": 5501,
+    "src_duration_s": 5501,
+    "width": 854,
+    "height": 480,
+    "sha256": "18c7dd4c21f2c7de048f1e23230ce2fa536df3ecca5bd4ac3ea83249e33c3ebe",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
