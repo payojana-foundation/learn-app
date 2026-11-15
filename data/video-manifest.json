@@ -3438,5 +3438,21 @@
     "height": 480,
     "sha256": "d91ddf45b5ccb9e63ea5644ad3bf8dcb51d77eb4f472ea77847415ba59b5abce",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1n0wn5vc2Ivg_xbTbmC3nmheJyO34qE35",
+    "drive_name": "៣៨ អប្បនាជវនវារៈ ឈានសមាបត្តិ បាទកឈាន អភិញ្ញាវិថី  (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "c30b2189abc455edca539fb86c8c3c0f",
+    "key": "video/c30b2189abc455ed-480p.mp4",
+    "poster_key": "video/c30b2189abc455ed-480p.webp",
+    "rendition": "480p",
+    "bytes": 88712304,
+    "duration_s": 4644,
+    "src_duration_s": 4644,
+    "width": 854,
+    "height": 480,
+    "sha256": "0f2b64bcb36573b8d601e8fdd7fb00f8e670caa18e4ffbeb73d1344ec0902ef8",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
