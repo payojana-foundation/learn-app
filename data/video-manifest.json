@@ -1934,5 +1934,21 @@
     "height": 480,
     "sha256": "22af6ececf4463326c6cbc19aa23f570096b7d4b92b9863fb9cb7d3d625af2b8",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1CeTOThjwKaITe0E11Xzk4a_BtpEjBEe8",
+    "drive_name": "១៩ គន្ធារម្មណ៍ រសារម្មណ៍ ផោដ្ឋព្វារម្មណ៍ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "f68712a30432de3eb7d2046bb314c0ae",
+    "key": "video/f68712a30432de3e-480p.mp4",
+    "poster_key": "video/f68712a30432de3e-480p.webp",
+    "rendition": "480p",
+    "bytes": 57357673,
+    "duration_s": 2508,
+    "src_duration_s": 2508,
+    "width": 854,
+    "height": 480,
+    "sha256": "cac7a126205e7ee6d9f1f187ff1c250bd174648c04a2264a5c354f5a73d03e52",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
