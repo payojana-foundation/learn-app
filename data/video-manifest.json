@@ -430,5 +430,21 @@
     "height": 480,
     "sha256": "f6f2b74f59813074a92176c161e5c3b9b16d47d9b3e33ec791d7c0a5daa93c69",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1tKIB520w-fFKkrguaQdvwI_bY0v30oQ2",
+    "drive_name": "០៤ បរិច្ជេទទី២ ចេកសិក 03 24 24 (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "6ffedd738033986efc87d00c2e10dc64",
+    "key": "video/6ffedd738033986e-480p.mp4",
+    "poster_key": "video/6ffedd738033986e-480p.webp",
+    "rendition": "480p",
+    "bytes": 98477133,
+    "duration_s": 4781,
+    "src_duration_s": 4781,
+    "width": 854,
+    "height": 480,
+    "sha256": "195d5d30377943c67f1cbccc4d4f4f0846cef442fede0c3798fbba91d51fd335",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
