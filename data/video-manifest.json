@@ -654,5 +654,21 @@
     "height": 480,
     "sha256": "565587dd33bfd8adc8290ac58bb13f00b709f94efaf67a6263b3d599931390eb",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1s7g3fsvLlCSm-4LkX8N1CAjeFhG9rvRd",
+    "drive_name": "០៧ សិក្សាឧបមាវិថីចិត្ត និងចក្ខុបសាទ៣ (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "59f05c8bf7c8b3d2941911c7c117f59a",
+    "key": "video/59f05c8bf7c8b3d2-480p.mp4",
+    "poster_key": "video/59f05c8bf7c8b3d2-480p.webp",
+    "rendition": "480p",
+    "bytes": 107182417,
+    "duration_s": 5284,
+    "src_duration_s": 5284,
+    "width": 854,
+    "height": 480,
+    "sha256": "2c71fde313447adca52b603da2a9bdb62bcabb040d09041b7c97cc5c64f553fe",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
