@@ -1582,5 +1582,21 @@
     "height": 480,
     "sha256": "706321fdff15160471bb25bff197ada265c1aa6814d5622bf59e96c5c122b2cf",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1y7z04Uvtz1fSpwQn6Kx3XdCIJRn6vbiU",
+    "drive_name": "១៥ សោតបសាទរូប ឃានបសាទរូប (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "57005a5970979aeb47346972caab4278",
+    "key": "video/57005a5970979aeb-480p.mp4",
+    "poster_key": "video/57005a5970979aeb-480p.webp",
+    "rendition": "480p",
+    "bytes": 109511275,
+    "duration_s": 5315,
+    "src_duration_s": 5315,
+    "width": 854,
+    "height": 480,
+    "sha256": "44c65eccccbbb150c30728c045906c9a50123e4f05efd4f277360f54a0ca3231",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
