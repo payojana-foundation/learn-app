@@ -2366,5 +2366,21 @@
     "height": 480,
     "sha256": "defd19ea8ba92ff8e238ead10061c68122a5e142e2aae6b1b89b408ace60f56b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1gZL3aJHH4t2rchFI95tjTJpBcUnvxfSb",
+    "drive_name": "២២ ទិដ្ឋិចេតសិក ការយល់ខុសពីការពិត (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "7af93e53f77abffe6521a8211c10b64e",
+    "key": "video/7af93e53f77abffe-480p.mp4",
+    "poster_key": "video/7af93e53f77abffe-480p.webp",
+    "rendition": "480p",
+    "bytes": 120193569,
+    "duration_s": 5699,
+    "src_duration_s": 5699,
+    "width": 854,
+    "height": 480,
+    "sha256": "22a347f5896efb589b89b1117c933ca223ac38e7bc4bd9acbf4681c2f8b79017",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
