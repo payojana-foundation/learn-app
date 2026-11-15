@@ -3166,5 +3166,21 @@
     "height": 480,
     "sha256": "64f9c31b55fcc7dd3c6487d473b5ed17276bf6c4776904da911f982656ba5532",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1-lvFIIf4_n5c19LEQp6hj0LxVyBzqozr",
+    "drive_name": "២១ កិច្ចសង្គហ និយមន័យកិច្ច១៤ យ៉ាង (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "0826713fd6c1d9c41564073ae379cc92",
+    "key": "video/0826713fd6c1d9c4-480p.mp4",
+    "poster_key": "video/0826713fd6c1d9c4-480p.webp",
+    "rendition": "480p",
+    "bytes": 65924471,
+    "duration_s": 3262,
+    "src_duration_s": 3262,
+    "width": 854,
+    "height": 480,
+    "sha256": "c2c9b27d861207abf6d6f52f501bdecabe08ca12f19917e3be5aca1d0f0afd4b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
