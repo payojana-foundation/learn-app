@@ -2110,5 +2110,21 @@
     "height": 480,
     "sha256": "deaf5b8d4cf343f69d6b8aa09e9edb1ea0c98d12a845d2ef61a9ccb484e1314b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1fpuov2Cdw0R_u5b7r3LZpMWcLd3KnkCH",
+    "drive_name": "២១ លោភចេតសិក ការជាប់ជំពាក (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "a6ed1cba5c6d39fa8b843f7b4e6e227c",
+    "key": "video/a6ed1cba5c6d39fa-480p.mp4",
+    "poster_key": "video/a6ed1cba5c6d39fa-480p.webp",
+    "rendition": "480p",
+    "bytes": 101048246,
+    "duration_s": 4615,
+    "src_duration_s": 4615,
+    "width": 854,
+    "height": 480,
+    "sha256": "e3a9997964811ac88eea0292e7245e09a7c8750430c95c8af7d9fb34937e5b37",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
