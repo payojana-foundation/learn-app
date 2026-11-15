@@ -2382,5 +2382,21 @@
     "height": 480,
     "sha256": "22a347f5896efb589b89b1117c933ca223ac38e7bc4bd9acbf4681c2f8b79017",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1q04LpUv9ksSJdT2Nlw6FN1ZmPD3LrC00",
+    "drive_name": "២៦ អតិវិភូតារម្មណ៍មានអតីតភវង្គ១ដល់៥  (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "ca4a1ed7b402b2abcea580f991acc52f",
+    "key": "video/ca4a1ed7b402b2ab-480p.mp4",
+    "poster_key": "video/ca4a1ed7b402b2ab-480p.webp",
+    "rendition": "480p",
+    "bytes": 88677237,
+    "duration_s": 4412,
+    "src_duration_s": 4412,
+    "width": 854,
+    "height": 480,
+    "sha256": "c5ceaf44ee4c5d39efbf8745ac73cb8af59e49c4c85e85d010e40a5325407f7c",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
