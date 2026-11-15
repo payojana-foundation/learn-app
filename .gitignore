@@ -11,3 +11,4 @@ dist-e2e/
 reports/
 *-report.md
 course-issues.csv
+learn-app.code-workspace
