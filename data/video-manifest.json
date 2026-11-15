@@ -2782,5 +2782,21 @@
     "height": 480,
     "sha256": "a945b877bd0d354e66e9c4d797d6c11b3b26319c9f280e0176b33bd18412a7bb",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1n9Ig_i8RuLmaSrRc0ztALrIiNxlUkG6L",
+    "drive_name": "២៧ វិញ្ញត្តិរូប ២ ចិត្តដែលញុំាងវិញ្ញត្តិរូបឱ្យកើត (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "9ffa1a29c77d9e45568bf61e21f6683e",
+    "key": "video/9ffa1a29c77d9e45-480p.mp4",
+    "poster_key": "video/9ffa1a29c77d9e45-480p.webp",
+    "rendition": "480p",
+    "bytes": 119534336,
+    "duration_s": 4661,
+    "src_duration_s": 4661,
+    "width": 854,
+    "height": 480,
+    "sha256": "2f4da0eb5dbd8b7ec9917215d0e71138d3766df7d8b1cb8b09d4b93aa58ca105",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
