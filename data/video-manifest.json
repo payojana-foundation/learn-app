@@ -286,5 +286,21 @@
     "height": 480,
     "sha256": "199434970a065545d6fee5ffcdb6a381c36b99e9d89651bd9632b2a7f8a02215",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "10TOPku_SjKJMZPDVJYrFNd_VmTeFjWIC",
+    "drive_name": "០២.សច្ច ២ យ៉ាង (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "2d51cfaa245a88a188da301a19007c12",
+    "key": "video/2d51cfaa245a88a1-480p.mp4",
+    "poster_key": "video/2d51cfaa245a88a1-480p.webp",
+    "rendition": "480p",
+    "bytes": 84173448,
+    "duration_s": 4337,
+    "src_duration_s": 4337,
+    "width": 854,
+    "height": 480,
+    "sha256": "e797e7cb341ac6177be6a568101dccdfe7b2217bfaed9297367ccedce99d5c13",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
