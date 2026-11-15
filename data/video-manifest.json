@@ -1806,5 +1806,21 @@
     "height": 480,
     "sha256": "fd26c73c2ce54c4d5ad5c1216fb73270b93f91407c6955e8c2b0b61fb2fbdee3",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1H_PoiwFAr2et48_k7xeEjS9XhJVa-58L",
+    "drive_name": "១៧ កាយបសាទ និងរូបារម្មណ៍ គឺវណ្ណៈ ពណ៌ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "c7ba2af6e8c6332cd5ed66db1473d321",
+    "key": "video/c7ba2af6e8c6332c-480p.mp4",
+    "poster_key": "video/c7ba2af6e8c6332c-480p.webp",
+    "rendition": "480p",
+    "bytes": 97052649,
+    "duration_s": 4687,
+    "src_duration_s": 4687,
+    "width": 854,
+    "height": 480,
+    "sha256": "412112457bcf78b9af22ef42c5ff86e55691ca62d869324a42e367b1db451b95",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
