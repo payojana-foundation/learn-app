@@ -622,5 +622,21 @@
     "height": 480,
     "sha256": "323bf9d7cc6d2eabb72ff25cd7f8b420a23b672e71649b39d8ab4af9b5e85620",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1C-r4Spnv78azK5wqlqQpMQpGXvnVMghW",
+    "drive_name": "០៦ សោមនស្សវេទនា ទោមនស្សវេទនា ឧបេក្ខាវេទនា (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "d1bfd2d1bef59e9e59fcd5c6e564654a",
+    "key": "video/d1bfd2d1bef59e9e-480p.mp4",
+    "poster_key": "video/d1bfd2d1bef59e9e-480p.webp",
+    "rendition": "480p",
+    "bytes": 93767659,
+    "duration_s": 4153,
+    "src_duration_s": 4153,
+    "width": 854,
+    "height": 480,
+    "sha256": "4208a9aa81582d245bbf2f327287feb9ce0e41f76f0d265b0a89221e67b9aa37",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
