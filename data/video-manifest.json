@@ -1326,5 +1326,21 @@
     "height": 480,
     "sha256": "5e8db4cb943b1acaf2ae924f2752065df6093d598b35d98689bcbc3b2c94b2c7",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1rdZdffOmkrs5EZJbhBTwzFProE0SMDjT",
+    "drive_name": "១៣ គាថាសម្តែងពីសភាពរបស់ចិត្ត (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "3b577ff24babb34008f4c5d9e448860a",
+    "key": "video/3b577ff24babb340-480p.mp4",
+    "poster_key": "video/3b577ff24babb340-480p.webp",
+    "rendition": "480p",
+    "bytes": 71226259,
+    "duration_s": 3737,
+    "src_duration_s": 3737,
+    "width": 854,
+    "height": 480,
+    "sha256": "9508464a54fa6d3d5eea171a4d2bc714a151bbc90c708bb38b264f9d95f73b86",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
