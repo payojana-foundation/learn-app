@@ -1918,5 +1918,21 @@
     "height": 480,
     "sha256": "dce5cf4b23849d53a0f1e19a5ecaf917c75647267ca9fc2bd488a08f8830ea76",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1CNC0P_D8Kj9cmpW_WwC15Vq9819mWf70",
+    "drive_name": "១៩ មោហចេតសិក ការមិនដឹងក្នុងខន្ធ អាយតន ធាតុ (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "b74dd2469d1a2b21a454b75906d0e560",
+    "key": "video/b74dd2469d1a2b21-480p.mp4",
+    "poster_key": "video/b74dd2469d1a2b21-480p.webp",
+    "rendition": "480p",
+    "bytes": 87972151,
+    "duration_s": 3546,
+    "src_duration_s": 3546,
+    "width": 854,
+    "height": 480,
+    "sha256": "22af6ececf4463326c6cbc19aa23f570096b7d4b92b9863fb9cb7d3d625af2b8",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
