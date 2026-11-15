@@ -2862,5 +2862,21 @@
     "height": 480,
     "sha256": "ce724e7ffeffc3f1217769fa31caa016ca993840ddb3214de1fe633a36c19ceb",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "10n55hKkkWJNIzMA4q_SYD-6IVCUqtl72",
+    "drive_name": "១៩ ហេតុសង្គហៈ ចែកហេតុ៦ ជាគហិតគហនន័យ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "701efe0402b2a042d68e52fe661ad8a4",
+    "key": "video/701efe0402b2a042-480p.mp4",
+    "poster_key": "video/701efe0402b2a042-480p.webp",
+    "rendition": "480p",
+    "bytes": 89300643,
+    "duration_s": 4589,
+    "src_duration_s": 4589,
+    "width": 854,
+    "height": 480,
+    "sha256": "8f1df1912b22f2ddd6fc66ff3c7a7629fb66790c914fc6de754b0f5fd6ed4476",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
