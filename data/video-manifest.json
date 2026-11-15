@@ -2846,5 +2846,21 @@
     "height": 480,
     "sha256": "d22ca94e78ee024725cca123213e135a35bb4b0dc1a1c7e2601a8b6abb6d37a1",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "14_fZI5NXwUtArVNAxqJIwKLtYMXU3QJa",
+    "drive_name": "២៧ មានចេតសិក ការលើកតម្កើងខ្លួន (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "3e3348d99ce7997a87d6d9574778483c",
+    "key": "video/3e3348d99ce7997a-480p.mp4",
+    "poster_key": "video/3e3348d99ce7997a-480p.webp",
+    "rendition": "480p",
+    "bytes": 116980028,
+    "duration_s": 5442,
+    "src_duration_s": 5442,
+    "width": 854,
+    "height": 480,
+    "sha256": "ce724e7ffeffc3f1217769fa31caa016ca993840ddb3214de1fe633a36c19ceb",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
