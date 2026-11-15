@@ -1662,5 +1662,21 @@
     "height": 480,
     "sha256": "91050938213cec038968bbd09f7f6dd91ea79169a9209c32e7fdefacecd2fa5b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1S6RyRMIjvz-mO2meXInrI7KA1-pp4bpK",
+    "drive_name": "១៦ និយតនមិច្ឆាទិដ្ឋិ ៣ យ៉ាង (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "93de5c61069d9b975d540b64830b0b9c",
+    "key": "video/93de5c61069d9b97-480p.mp4",
+    "poster_key": "video/93de5c61069d9b97-480p.webp",
+    "rendition": "480p",
+    "bytes": 90614544,
+    "duration_s": 4487,
+    "src_duration_s": 4487,
+    "width": 854,
+    "height": 480,
+    "sha256": "9a719967dc050de89e221e0366ff0d7844a5df748aa8fc0173e806711ce86ed2",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
