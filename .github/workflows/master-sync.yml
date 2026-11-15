@@ -80,18 +80,20 @@ jobs:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
         run: node scripts/master/sync.mjs --mode "$MODE" --sheet-id "$SHEET_ID"
 
-      - name: Commit public/ops/status.json (write mode only)
+      # The ops files only reflect what was read (sheet + repo), so they are committed in
+      # BOTH modes; only write mode changes the sheet.
+      - name: Commit public/ops/status.json and checks.json
         id: commit
-        if: ${{ env.MODE == 'write' }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
           git add public/ops/status.json
+          git add public/ops/checks.json
           if git diff --cached --quiet; then
             echo "committed=false" >> "$GITHUB_OUTPUT"
           else
-            git commit -m "ops: status after master sync"
+            git commit -m "ops: status and checks after master sync"
             echo "committed=true" >> "$GITHUB_OUTPUT"
           fi
 
@@ -108,6 +110,7 @@ jobs:
             reports/master-sync-preview.csv
             reports/master-sync-report.md
             public/ops/status.json
+            public/ops/checks.json
           if-no-files-found: ignore
 
       - name: Summary

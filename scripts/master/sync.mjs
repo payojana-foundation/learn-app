@@ -44,6 +44,7 @@ import { pickSource, lessonIdOf } from '../catalogue/catalogue-build.mjs';
 import { shownRows } from '../build-courses.mjs';
 import { parseCsvObjects, toCsv } from './csv.mjs';
 import { colLetter } from './seed.mjs';
+import { checksJson, failedMap } from './checks.mjs';
 
 const SHEETS_BASE = 'https://sheets.googleapis.com/v4/spreadsheets';
 export const LESSON_SYNC_COLUMNS = ['lesson_id', 'audio_status', 'learn_live', 'acast_embed', 'acast_episode_id', 'issues'];
@@ -214,6 +215,17 @@ export async function readTab({ sheetId, token, tab, fetchFn = fetch }) {
   return { header: header.map(String), rows: rows.map((r) => r.map((c) => (c === null || c === undefined ? '' : String(c)))) };
 }
 
+/** Numeric gid of a tab (for a row link on the dashboard), or null. Never throws. */
+export async function tabGid({ sheetId, token, tab, fetchFn = fetch }) {
+  try {
+    const m = await api(fetchFn, sheetId, token, 'GET', '?fields=sheets(properties(sheetId,title))');
+    const s = (m.sheets || []).find((x) => x.properties && x.properties.title === tab);
+    return s ? s.properties.sheetId : null;
+  } catch {
+    return null;
+  }
+}
+
 export function checkHeader(tab, header, keys) {
   if (header.length !== keys.length || header.some((h, i) => h !== keys[i])) {
     throw new HeaderMismatchError(`tab ${tab}: header differs from data/master/columns.json (expected ${keys.join(',')})`);
@@ -358,6 +370,25 @@ async function main() {
   const statusPath = join(root, 'public', 'ops', 'status.json');
   mkdirSync(dirname(statusPath), { recursive: true });
   writeFileSync(statusPath, JSON.stringify(status, null, 2) + '\n', 'utf-8');
+
+  // public/ops/checks.json (Operations dashboard): flagged / failed lessons, no sheet id.
+  const readJson = (p, d) => (existsSync(p) ? JSON.parse(readFileSync(p, 'utf-8')) : d);
+  const checksPath = join(root, 'public', 'ops', 'checks.json');
+  const sheetRows = live ? new Map(lessonsTab.rows.map((r, i) => [r[lessonsTab.header.indexOf('row_key')], i + 2]).filter(([k]) => k)) : null;
+  const frPath = join(root, 'data', 'queues', 'failed-review.csv');
+  const checks = checksJson({
+    lessonRows, sheetRows, gid: live ? await tabGid({ sheetId, token, tab: 'Lessons' }) : null, courseRows, wanted: wanted.lessons, manifest,
+    videoManifest: readJson(join(root, 'data', 'video-manifest.json'), []),
+    precheck: readJson(join(root, 'data', 'queues', 'approve', 'precheck.json'), null),
+    videoPrecheck: readJson(join(root, 'data', 'queues', 'approve-video', 'precheck.json'), null),
+    failed: failedMap(existsSync(frPath) ? readFileSync(frPath, 'utf-8') : '', readJson(join(root, 'data', 'ops', 'autorun-state.json'), {})),
+    prev: readJson(checksPath, null),
+    now: new Date().toISOString(),
+  });
+  writeFileSync(checksPath, JSON.stringify(checks, null, 2) + '\n', 'utf-8');
+  const byReason = {};
+  for (const i of checks.items) byReason[`${i.media_type}: ${i.reason}`] = (byReason[`${i.media_type}: ${i.reason}`] || 0) + 1;
+  console.log(`checks.json: ${checks.items.length} items ${JSON.stringify(byReason)}`);
   console.log(md);
 
   if (mode === 'write' && ranges.length) {
