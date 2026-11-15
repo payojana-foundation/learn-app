@@ -766,5 +766,21 @@
     "height": 480,
     "sha256": "58aa58c60280fce04066c1653c1d04e804dba78da694210f915bb961a7421582",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1lhrF3W4jooo6FS7UumZnHnpGjF8IfcBP",
+    "drive_name": "០៦ មហាភូតរូបន័យទី ៤ និងន័យទី ៥ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "1153b076acd3c084683a7c2f7ea4c0cc",
+    "key": "video/1153b076acd3c084-480p.mp4",
+    "poster_key": "video/1153b076acd3c084-480p.webp",
+    "rendition": "480p",
+    "bytes": 108921655,
+    "duration_s": 5262,
+    "src_duration_s": 5262,
+    "width": 854,
+    "height": 480,
+    "sha256": "7335e20b1fb4ef98e5479546f3e1ce173acc43cff82080c51082ec24b6587d81",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
