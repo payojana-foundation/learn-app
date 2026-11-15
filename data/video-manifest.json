@@ -2814,5 +2814,21 @@
     "height": 480,
     "sha256": "bbbe7332508718ed10e72269a88179ac94dff45be572f7d0d6452c019e4e5420",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "12VFrJSNdmySwbBjS8zDUMon3dRyV8yqJ",
+    "drive_name": "13-៩៣_មហោសថ_រៀបចំធម្មយុទ្ធឈ្នះសង្រ្គាមបានភិក្ខុអគ្គចិត្តោ_យ៉ុន_យី​.mp4",
+    "source_md5": "06cdf3b9bf0e23fcb4b91e854d9b7d56",
+    "key": "video/06cdf3b9bf0e23fc-480p.mp4",
+    "poster_key": "video/06cdf3b9bf0e23fc-480p.webp",
+    "rendition": "480p",
+    "bytes": 102198602,
+    "duration_s": 4694,
+    "src_duration_s": 4694,
+    "width": 854,
+    "height": 480,
+    "sha256": "528fd474f0bc6f6a427268f372300c3a6f5fad378e59d3537fe201f43337a34f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
