@@ -158,5 +158,21 @@
     "height": 480,
     "sha256": "a8e86a272ee96bb02d2f24bbc2937e98430c1836da919117bd4696d039fccf48",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1NvPJ9i1hekCHnq0ON7qkvo0y9IrGAdke",
+    "drive_name": "០១ រម្លឹកបរមត្ថធម៌៤ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "60d5f50c9e05b4535935ed5b0d404e33",
+    "key": "video/60d5f50c9e05b453-480p.mp4",
+    "poster_key": "video/60d5f50c9e05b453-480p.webp",
+    "rendition": "480p",
+    "bytes": 62826740,
+    "duration_s": 3196,
+    "src_duration_s": 3196,
+    "width": 854,
+    "height": 480,
+    "sha256": "5cbbec34663a7746c74df1e65319a92c8a201ac79f231daa66d9f2fff9b0c4ec",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
