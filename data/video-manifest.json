@@ -1854,5 +1854,21 @@
     "height": 480,
     "sha256": "f24de669a529a33ed97fb32d3b7b9471d756410dbb2c1d99f9a72e8c0b64c6da",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "172Wuzh-KGeU5hi6R7mh4Pu08kpAH58dK",
+    "drive_name": "4-៨៣ បញ្ញាបារមី រឿងបុរសកាឡកិណីខ្វះបុណ្យមិនសំនឹងប្រពន្ធស្អាត ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​.mp4",
+    "source_md5": "1f2c2b06071ee357bdfe3eaf8cbd9316",
+    "key": "video/1f2c2b06071ee357-480p.mp4",
+    "poster_key": "video/1f2c2b06071ee357-480p.webp",
+    "rendition": "480p",
+    "bytes": 57533111,
+    "duration_s": 2907,
+    "src_duration_s": 2907,
+    "width": 854,
+    "height": 480,
+    "sha256": "35a2d283f69b8f970e8ab9d2b0ca0a488255367c80f46a86a721ae8a2bb113f6",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
