@@ -1838,5 +1838,21 @@
     "height": 480,
     "sha256": "302b45bf030a2d0e1016d9f0a4bd97fd2e5aa09c6feb5d5e0df6bcaa89c5c786",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1F7Tj84Wbg40UyeWxRZUWk-aBoVt1luAI",
+    "drive_name": "១៨ សទ្ទារម្មណ៍​ សំឡេង គន្ធារម្មណ៍ ក្លិន (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "9feeb235530a6bde7e51f635c2d0abd2",
+    "key": "video/9feeb235530a6bde-480p.mp4",
+    "poster_key": "video/9feeb235530a6bde-480p.webp",
+    "rendition": "480p",
+    "bytes": 47972886,
+    "duration_s": 2291,
+    "src_duration_s": 2291,
+    "width": 854,
+    "height": 480,
+    "sha256": "f24de669a529a33ed97fb32d3b7b9471d756410dbb2c1d99f9a72e8c0b64c6da",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
