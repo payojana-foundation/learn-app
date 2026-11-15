@@ -2142,5 +2142,21 @@
     "height": 480,
     "sha256": "08fe1829f191c095b9b939811c1fa5a08bd1ccbd7aa2a6ad7ca3704190c0818e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1tD-__qSVbRPIZJ41agStigx1fGxPuXig",
+    "drive_name": "២៥ បញ្ចប់មិស្សកមនោទ្វារ អត្ថគ្គហណវិថី នាមគ្គហណវិថិ (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "b56ae309b5f7283142c7de35e8ac7fce",
+    "key": "video/b56ae309b5f72831-480p.mp4",
+    "poster_key": "video/b56ae309b5f72831-480p.webp",
+    "rendition": "480p",
+    "bytes": 87698446,
+    "duration_s": 4370,
+    "src_duration_s": 4370,
+    "width": 854,
+    "height": 480,
+    "sha256": "886e2d22ac420c4029bf9138bf38297f206df8e3ac06f1541df3e8de07b29a7b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
