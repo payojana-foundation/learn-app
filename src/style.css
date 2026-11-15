@@ -199,6 +199,13 @@ section + section { margin-top: 28px; }
 .pctl { display: flex; justify-content: center; align-items: center; gap: 18px; }
 .pctl button { background: none; border: 0; color: var(--chrome-ink); font-size: 0.85rem; }
 .pctl .pp { width: 56px; height: 56px; border-radius: 50%; background: var(--chrome-ink); color: var(--chrome); font-size: 1.3rem; }
+/* P-14 (15 Nov): Listen / Watch toggle and the R2 video box. */
+.mtoggle { display: flex; gap: 0; margin: 0 0 10px; border: 1px solid var(--line); border-radius: 999px; overflow: hidden; width: max-content; max-width: 100%; }
+.mtoggle button { background: var(--panel); color: var(--ink); border: 0; padding: 6px 14px; font: 0.85rem var(--f-ui); min-height: 36px; }
+.mtoggle button[aria-pressed="true"] { background: var(--chrome); color: var(--chrome-ink); }
+.mtoggle button:focus-visible { outline: 2px solid var(--leaf); outline-offset: -2px; }
+.vbox { width: 100%; aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden; background: #000; }
+.vbox video { display: block; width: 100%; height: 100%; object-fit: contain; }
 .popts { display: flex; flex-wrap: wrap; gap: 8px; justify-content: center; }
 .popts button { background: none; border: 1px solid var(--chrome-muted); color: var(--chrome-ink); border-radius: 999px; padding: 2px 10px; font-size: 0.8rem; }
 .embed { background: var(--chrome); color: var(--chrome-muted); border-radius: 10px; padding: 22px 16px; text-align: center; font: 0.9rem/1.6 var(--f-ui); display: grid; place-items: center; }

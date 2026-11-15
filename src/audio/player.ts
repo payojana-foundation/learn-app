@@ -54,7 +54,8 @@ export interface PlayerCallbacks {
 }
 
 export interface PlayerHandle {
-  readonly audio: HTMLAudioElement;
+  /** The media element (an <audio> for Listen, the lesson <video> for Watch). */
+  readonly audio: HTMLMediaElement;
   play(): Promise<void>;
   pause(): void;
   toggle(): void;
@@ -76,7 +77,7 @@ export function createPlayer(
   key: string,
   startAtS: number,
   cb: PlayerCallbacks = {},
-  audioEl?: HTMLAudioElement
+  audioEl?: HTMLMediaElement
 ): PlayerHandle {
   if (current) current.destroy();
 
@@ -185,7 +186,7 @@ export function createPlayer(
   // detached `new Audio()` via the DOM). Harmless in production; it is just a
   // reference to the element the player already owns.
   try {
-    (globalThis as unknown as { __learnAudio?: HTMLAudioElement }).__learnAudio = audio;
+    (globalThis as unknown as { __learnAudio?: HTMLMediaElement }).__learnAudio = audio;
   } catch {
     /* ignore */
   }
@@ -197,7 +198,7 @@ export function currentPlayer(): PlayerHandle | null {
   return current;
 }
 
-function setupMediaSession(audio: HTMLAudioElement, cb: PlayerCallbacks): void {
+function setupMediaSession(audio: HTMLMediaElement, cb: PlayerCallbacks): void {
   if (typeof navigator === 'undefined' || !('mediaSession' in navigator)) return;
   try {
     const ms = navigator.mediaSession;

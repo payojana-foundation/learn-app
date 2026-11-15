@@ -96,16 +96,28 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   AND while the audio is playing, so a fresh mount's paused 0-tick never
   clobbers the saved resume point. `createPlayer` (`resumeApplied`, paused
   guard), `src/audio/player.ts`. [from part P4]
-- **P-14** Learn plays ONLY its own R2 audio. The served data never contains
-  `acast`, `youtube` or `drive` media (the `MediaKind` type is `'r2'`), no lesson
-  page renders an iframe, an embed container or an outside link, and
-  `public/_headers` sets `frame-src 'none'`. A lesson with no media shows an
-  offline/needs-internet notice. Only one lesson player is mounted at a time. v1
-  is streaming only — no download button anywhere. `lessonView`, `src/ui/views.ts`;
-  `public/_headers`. Contract: `src/ui/views.lesson.test.ts` "P-14 r2 only",
-  `src/contracts/__tests__/master-build.contract.test.mjs` (no non-r2 kind in
-  `public/data`, `_headers`), `e2e/embed.e2e.mjs`. [from part P4; embeds removed in
-  bulk 09, change protected: P-14]
+- **P-14** Learn plays only its own R2 media: audio, and video when an approved
+  entry exists in `video-manifest.json`. No embeds, no iframe, no frame-src. v1
+  streaming only. In code: lesson `media` stays the R2 audio only (`MediaKind` =
+  `'r2'`); a lesson gets `video {src, poster, duration_s}` (bare `video/` R2 key)
+  only when `data/video-switch.json` is `{"enabled": true}` (master-export writes
+  it from the repo variable `VIDEO_ENABLED`) AND its video (mp4_link, else
+  minicourse_link) has an APPROVED `kind:"video"` entry; switch off = served data
+  unchanged and nothing visible. The lesson page shows a Watch / Listen toggle only
+  then; Listen is the default; Watch plays the R2 `<video>` with its WebP poster
+  (an R2-key `thumbnail_link` overrides); the position carries over; leaving the
+  lesson in Watch returns to Listen so the mini player and lock screen keep the
+  audio. No lesson page renders an iframe, embed container or outside link;
+  `public/_headers` keeps `frame-src 'none'` (frames nothing). A lesson with no
+  media shows an offline/needs-internet notice. Only one player at a time. No
+  download button. `videoLookup`/`buildFromMaster`, `scripts/build-courses.mjs`;
+  `lessonView`, `src/ui/views.ts`; `mountPlayerIfR2`/`switchMode`/
+  `leaveWatchIfNeeded`, `src/app.ts`; `public/_headers`. Contract:
+  `src/ui/views.lesson.test.ts` "P-14 r2 only", `src/ui/views.video.test.ts`,
+  `src/contracts/__tests__/video-build.contract.test.mjs`,
+  `src/contracts/__tests__/master-build.contract.test.mjs`, `e2e/embed.e2e.mjs`,
+  `e2e/video.e2e.mjs` (on and off). [from part P4; embeds removed in bulk 09;
+  R2 video added 15 Nov, change protected: P-14]
 ## My Learning, search, data (P4)
 
 - **P-15** My Learning tabs: In progress · Saved · History · Notes, all local

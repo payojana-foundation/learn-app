@@ -31,6 +31,8 @@ export interface CatalogCourse {
   ongoing?: boolean;
   /** Every lesson of the course in the master sheet is shown (none still hidden). */
   all_shown?: boolean;
+  /** P-14 (15 Nov): at least one lesson has an approved R2 video (only when video is on). */
+  has_video?: boolean;
 }
 export interface Catalog {
   generated: string;
@@ -38,7 +40,11 @@ export interface Catalog {
   courses: CatalogCourse[];
 }
 
-/** bulk 09 (P-14): Learn plays our own R2 audio only; the data has no other kind. */
+/**
+ * P-14 (15 Nov): Learn plays only its own R2 media: the audio below, and a video
+ * (`Lesson.video`) when an approved entry exists in data/video-manifest.json and
+ * video is switched on. No embeds.
+ */
 export type MediaKind = 'r2';
 export interface LessonMedia {
   kind: MediaKind;
@@ -52,6 +58,13 @@ export interface Lesson {
   title_km: string;
   topic: string;
   media: LessonMedia[];
+  /** Approved R2 video (bare key `video/<md5>-<rendition>.mp4`) and its WebP poster key. */
+  video?: LessonVideo;
+}
+export interface LessonVideo {
+  src: string;
+  poster: string | null;
+  duration_s?: number;
 }
 export interface Course {
   id: string;

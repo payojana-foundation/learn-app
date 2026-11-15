@@ -83,6 +83,10 @@ export const STRINGS = {
     en: '© 2026 Payojana Foundation and the teachers. For personal study only. Please do not re-publish or use commercially without permission.',
   },
   OUR_PLAYER: { km: 'ចាក់ពី media.84000.digital', en: 'Plays from media.84000.digital' },
+  LISTEN: { km: '[VERIFY] ស្ដាប់', en: 'Listen' },
+  WATCH: { km: '[VERIFY] មើល', en: 'Watch' },
+  VIDEO: { km: '[VERIFY] វីដេអូ', en: 'video' },
+  MEDIA_MODE: { km: '[VERIFY] ស្ដាប់ ឬ មើល', en: 'Listen or watch' },
   RESULTS: { km: 'លទ្ធផល', en: 'results' },
   NO_TITLE: { km: 'គ្មានចំណងជើង', en: 'no title' },
   OFFLINE_MEDIA: {

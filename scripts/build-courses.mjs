@@ -453,6 +453,35 @@ export function shownRows(lessonRows, mediaManifest) {
   return { shown, hidden };
 }
 
+/** A team poster override that is already an R2 key (thumbnail_link column, future). */
+const R2_IMAGE_KEY = /^video\/[^/]+\.(webp|jpg|jpeg|png)$/;
+
+/**
+ * P-14 (15 Nov) video lookup. `video` = { enabled, manifest } (data/video-switch.json +
+ * data/video-manifest.json) or null. Returns (row, issues, cid) -> lesson.video | null.
+ * A lesson's video = first Drive id of mp4_link, else of minicourse_link (as in the video
+ * queues); it counts only with an APPROVED kind:"video" entry. Poster = thumbnail_link when
+ * it is an R2 image key, else the grabbed frame (poster_key); a Drive thumbnail link is not
+ * played from Drive (R2 only): it is reported and the frame is used.
+ */
+export function videoLookup(video) {
+  if (!video || video.enabled !== true) return () => null;
+  const approved = new Map();
+  for (const e of Array.isArray(video.manifest) ? video.manifest : []) {
+    if (e && e.kind === 'video' && e.drive_file_id && /^approved\b/i.test(e.status || '') && /^video\/[0-9a-f]{16}-(480p|720p)(-v\d+)?\.mp4$/.test(e.key || '')) approved.set(e.drive_file_id, e);
+  }
+  return (r, issues, cid) => {
+    const id = driveIds(r.mp4_link)[0] || driveIds(r.minicourse_link)[0];
+    const e = id && approved.get(id);
+    if (!e) return null;
+    const thumb = String(r.thumbnail_link || '').trim();
+    let poster = e.poster_key || null;
+    if (thumb && R2_IMAGE_KEY.test(thumb)) poster = thumb;
+    else if (thumb) issues.push({ course_id: cid, lesson_num: r.lesson_no, kind: 'thumbnail_not_on_r2', detail: 'thumbnail_link is not an R2 key; the grabbed frame is shown' });
+    return { src: e.key, poster, duration_s: Number(e.duration_s) || 0 };
+  };
+}
+
 /**
  * Master export -> { catalog, courses, issues }. Pure; used by the build and by the
  * contract tests (with a small fixture, never the real titles).
@@ -463,8 +492,9 @@ export function shownRows(lessonRows, mediaManifest) {
  * visible lesson and a mapped teacher. Lesson order = lesson_no as a number (Khmer
  * digits count), ties and non-numbers by sheet row. Titles are copied byte for byte.
  */
-export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest) {
+export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest, video = null) {
   const issues = [];
+  const videoFor = videoLookup(video);
   const slugByName = new Map();
   const dupNames = new Set();
   for (const t of teachers) {
@@ -531,13 +561,18 @@ export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest)
       if (seenNums.has(num)) issues.push({ course_id: cid, lesson_num: r.lesson_no, kind: 'duplicate-num', detail: `id ${r.lesson_id} and ${seenNums.get(num)}` });
       else seenNums.set(num, r.lesson_id);
       if (r.lesson_title === '') issues.push({ course_id: cid, lesson_num: r.lesson_no, kind: 'empty_title', detail: 'shown with an empty title' });
-      lessons.push({
+      const lesson = {
         id: r.lesson_id,
         num,
         title_km: r.lesson_title,
         topic: '',
         media: [{ kind: 'r2', src: entry.key, duration_s: Number(entry.duration_s) || 0 }],
-      });
+      };
+      // P-14 (15 Nov): an approved R2 video, only when the video switch is on.
+      // The lesson is shown by its AUDIO (P-19); video never makes a lesson visible.
+      const v = videoFor(r, issues, cid);
+      if (v) lesson.video = v;
+      lessons.push(lesson);
     });
 
     const ongoing = cr.course_status === 'ongoing';
@@ -546,11 +581,13 @@ export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest)
       id: cid, provisional: false, title_km: titleKm, title_en: null,
       teacher: teacherName, teacher_slug: slug, topics: [], ongoing, all_shown: allShown, lessons,
     });
-    catalogCourses.push({
+    const cat = {
       id: cid, provisional: false, title_km: titleKm, title_en: null,
       teacher: teacherName, teacher_slug: slug, topics: [],
       lesson_count: lessons.length, media_kinds: ['r2'], ongoing, all_shown: allShown,
-    });
+    };
+    if (lessons.some((x) => x.video)) cat.has_video = true;
+    catalogCourses.push(cat);
   }
   return { catalog: { provisional: false, courses: catalogCourses }, courses: courseFiles, issues };
 }
@@ -615,7 +652,18 @@ function main() {
   const aliasSrcPath = join(root, 'data', 'id-aliases.json');
   const aliasMap = existsSync(aliasSrcPath) ? JSON.parse(readFileSync(aliasSrcPath, 'utf-8')) : {};
 
-  const { catalog, courses, issues } = buildFromMaster(lessonRows, courseRows, teachers, mediaManifest);
+  // P-14 (15 Nov): R2 video only when data/video-switch.json says enabled (master-export
+  // writes it from the repo variable VIDEO_ENABLED; Cloudflare builds see only committed files).
+  const switchPath = join(root, 'data', 'video-switch.json');
+  const videoSwitch = existsSync(switchPath) ? JSON.parse(readFileSync(switchPath, 'utf-8')) : { enabled: false };
+  if (typeof videoSwitch.enabled !== 'boolean') {
+    console.error('BUILD FAILED — data/video-switch.json must be {"enabled": true|false}.');
+    process.exit(1);
+  }
+  const videoManifestPath = join(root, 'data', 'video-manifest.json');
+  const video = { enabled: videoSwitch.enabled, manifest: existsSync(videoManifestPath) ? JSON.parse(readFileSync(videoManifestPath, 'utf-8')) : [] };
+
+  const { catalog, courses, issues } = buildFromMaster(lessonRows, courseRows, teachers, mediaManifest, video);
 
   // Id guard (gap 8): nothing is written if a lesson id with approved media would vanish.
   const prevCourses = existsSync(coursesOut)

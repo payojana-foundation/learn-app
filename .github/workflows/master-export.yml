@@ -76,6 +76,11 @@ jobs:
 
       - name: Rebuild public/data and commit if anything changed
         id: commit
+        env:
+          # P-14 (15 Nov): the app shows R2 video only when this repo variable is "true".
+          # Cloudflare builds see only committed files, so it is written to
+          # data/video-switch.json here and committed with the rebuilt data.
+          VIDEO_ENABLED: ${{ vars.VIDEO_ENABLED }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -86,8 +91,10 @@ jobs:
             SOURCE_DATE_EPOCH="$(date +%s)"
             export SOURCE_DATE_EPOCH
           fi
+          if [ "${VIDEO_ENABLED:-}" = "true" ]; then sw=true; else sw=false; fi
+          printf '{\n  "enabled": %s\n}\n' "$sw" > data/video-switch.json
           npm run build-courses
-          git add data/master public/data
+          git add data/master public/data data/video-switch.json
           if git diff --cached --quiet; then
             echo "master-export: no change"
             echo "committed=false" >> "$GITHUB_OUTPUT"

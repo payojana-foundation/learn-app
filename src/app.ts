@@ -24,6 +24,7 @@ import {
   getGuideLinesFile,
   type Catalog,
   type Course,
+  type Lesson,
   type Teacher,
 } from './data/catalog';
 import { migrateAliases, resolveAlias, type AliasMap } from './db/aliases';
@@ -46,8 +47,9 @@ import {
   listProgress,
 } from './db';
 import { renderVersionLabel } from './version-label';
-import { createPlayer, setMediaMetadata, SPEEDS, SLEEP_OPTIONS, type PlayerHandle } from './audio/player';
+import { createPlayer, setMediaMetadata, mediaUrl, SPEEDS, SLEEP_OPTIONS, type PlayerHandle } from './audio/player';
 import * as V from './ui/views';
+import { carryPosition } from './audio/carry';
 import { devLog } from './devlog';
 
 interface AppState {
@@ -60,6 +62,8 @@ interface AppState {
   speed: number;
   sleep: number;
   auto: boolean;
+  /** P-14 (15 Nov): Listen (default) or Watch an approved R2 video. */
+  mediaMode: V.MediaMode;
 }
 
 const state: AppState = {
@@ -72,6 +76,7 @@ const state: AppState = {
   speed: 1,
   sleep: 0,
   auto: true,
+  mediaMode: 'listen',
 };
 
 let catalog: Catalog | null = null;
@@ -86,6 +91,12 @@ const teacherBySlug = new Map<string, Teacher>();
 const courseCache = new Map<string, Course>();
 let cur: { courseId: string; lessonId: string } | null = null;
 let player: PlayerHandle | null = null;
+/** The one lesson <video> (Watch). Kept outside main.innerHTML so re-renders re-attach it. */
+let videoEl: HTMLVideoElement | null = null;
+/** Key of the media the current player is bound to. */
+let mountedKey = '';
+/** Position + playing state handed to the next mount when switching Listen/Watch. */
+let carry: { pos: number; play: boolean } | null = null;
 
 function $(sel: string): HTMLElement | null {
   return document.querySelector(sel);
@@ -220,6 +231,7 @@ async function render(): Promise<void> {
   if (!main || !catalog) return;
   const route = state.route;
   const savedIds = new Set(await listSaved());
+  await leaveWatchIfNeeded(route);
 
   let html = '';
   if (route.name === 'home') {
@@ -244,7 +256,7 @@ async function render(): Promise<void> {
       await pushHistory(c.id, l.id, l.num);
       const prog = await progressMap([c.id]);
       const notes = (await listNotesFor(c.id, l.id)).map((n) => ({ atS: n.atS, text: n.text }));
-      html = V.lessonView(c, l, prog, viewState(savedIds), notes, state.playing, state.speed, state.sleep, state.auto);
+      html = V.lessonView(c, l, prog, viewState(savedIds), notes, state.playing, state.speed, state.sleep, state.auto, state.mediaMode);
     }
   } else if (route.name === 'teachers') {
     html = V.teachersView(teachers, state.lang);
@@ -267,6 +279,7 @@ async function render(): Promise<void> {
   }
 
   main.innerHTML = html;
+  attachVideo();
   renderTabbar();
   if (route.name === 'more') {
     const host = document.getElementById('shell-version');
@@ -348,8 +361,16 @@ async function mountPlayerIfR2(): Promise<void> {
     }
     return;
   }
+  const useVideo = state.mediaMode === 'watch' && !!l.video;
+  const key = useVideo ? l.video!.src : r2.src;
+  // Watch: a re-render (speed, sleep, notes) keeps the playing video as it is.
+  if (useVideo && player && player.audio === videoEl && mountedKey === key && !carry) return;
   const pp = await getLessonProgress(c.id, l.id);
-  player = createPlayer(r2.src, pp.pos, {
+  const start = carry ? carry.pos : pp.pos;
+  const autoplay = carry?.play ?? false;
+  carry = null;
+  mountedKey = key;
+  player = createPlayer(key, start, {
     onTime: (pos, dur) => {
       void setLessonProgress(c.id, l.id, { pos });
       const bar = document.querySelector<HTMLElement>('[data-bar]');
@@ -370,9 +391,66 @@ async function mountPlayerIfR2(): Promise<void> {
       document.querySelectorAll('[data-pp]').forEach((b) => (b.textContent = playing ? '❚❚' : '▶'));
       renderMini();
     },
-  });
+  }, useVideo ? ensureVideo(l) : undefined);
   player.setSpeed(state.speed);
+  if (state.sleep) player.setSleep(state.sleep);
   setMediaMetadata(l.title_km, c.title_km);
+  if (autoplay) void player.play();
+}
+
+/** The lesson <video> for Watch, poster from the data (bare R2 key), never guessed. */
+function ensureVideo(l: Lesson): HTMLVideoElement {
+  if (!videoEl) {
+    videoEl = document.createElement('video');
+    videoEl.setAttribute('playsinline', '');
+    videoEl.preload = 'metadata';
+    videoEl.dataset.video = '';
+    try {
+      (globalThis as unknown as { __learnVideo?: HTMLVideoElement }).__learnVideo = videoEl;
+    } catch {
+      /* ignore */
+    }
+  }
+  if (l.video?.poster) videoEl.poster = mediaUrl(l.video.poster);
+  else videoEl.removeAttribute('poster');
+  return videoEl;
+}
+
+/** Put the <video> into the lesson's slot right after each render (same task: it keeps playing). */
+function attachVideo(): void {
+  const slot = document.querySelector('[data-video-slot]');
+  if (!slot || state.mediaMode !== 'watch' || !cur) return;
+  const l = courseCache.get(cur.courseId)?.lessons.find((x) => x.id === cur!.lessonId);
+  if (l?.video) slot.appendChild(ensureVideo(l));
+}
+
+
+/** Switch Listen <-> Watch on the open lesson; the position and play state carry over. */
+async function switchMode(mode: V.MediaMode): Promise<void> {
+  if (!cur || mode === state.mediaMode) return;
+  const pp = await getLessonProgress(cur.courseId, cur.lessonId);
+  carry = { pos: carryPosition(player?.audio.currentTime ?? 0, pp.pos), play: !!player && !player.audio.paused };
+  state.mediaMode = mode;
+  await render();
+}
+
+/**
+ * Leaving the lesson (or opening another one) while watching: go back to Listen.
+ * On a non-lesson screen the audio continues from the same second, so the mini player
+ * and the lock-screen controls keep working; a new lesson starts in Listen (the default).
+ */
+async function leaveWatchIfNeeded(route: Route): Promise<void> {
+  if (state.mediaMode !== 'watch') return;
+  const sameLesson = route.name === 'lesson' && cur && route.id === cur.courseId && route.lessonId === cur.lessonId;
+  if (sameLesson) return;
+  const pos = player?.audio.currentTime ?? 0;
+  const play = !!player && !player.audio.paused;
+  state.mediaMode = 'listen';
+  if (route.name !== 'lesson' && cur) {
+    const pp = await getLessonProgress(cur.courseId, cur.lessonId);
+    carry = { pos: carryPosition(pos, pp.pos), play };
+    await mountPlayerIfR2();
+  }
 }
 
 function fmt(s: number): string {
@@ -498,6 +576,10 @@ function wireEvents(): void {
       state.sleep = SLEEP_OPTIONS[i];
       player?.setSleep(state.sleep);
       void render();
+      return;
+    }
+    if (d.mode === 'listen' || d.mode === 'watch') {
+      void switchMode(d.mode);
       return;
     }
     if (d.auto != null) {

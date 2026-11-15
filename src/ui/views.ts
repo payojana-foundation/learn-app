@@ -14,6 +14,9 @@ import type { Catalog, CatalogCourse, Course, Lesson, Teacher } from '../data/ca
 import type { LessonProgress } from '../db';
 import { guideLineHtml, branchPanelHtml, leafMarkHtml, type CompanionCtx } from './companion';
 
+/** Lesson page media mode (P-14, 15 Nov): Listen (default) or Watch (R2 video). */
+export type MediaMode = 'listen' | 'watch';
+
 export interface ProgressMap {
   // courseId → { lessonId → progress }
   [courseId: string]: Record<string, LessonProgress>;
@@ -48,7 +51,7 @@ export function courseCard(c: CatalogCourse, teacher: Teacher | undefined, progr
   const isR2 = c.media_kinds.includes('r2');
   return `<button class="card" data-nav="course" data-id="${c.id}"><span class="t">${mark}${esc(courseTitle(c, lang))}</span>
   <span class="muted small">${teacherName(teacher, lang)}</span>
-  <span class="meta"><span>${num(c.lesson_count, lang)} ${t('LESSONS', lang)}</span>${hasA ? '<span>♪ audio</span>' : ''}${isR2 ? '<span>R2</span>' : ''}${c.ongoing ? `<span class="ongoing">${t('ONGOING', lang)}</span>` : ''}</span>
+  <span class="meta"><span>${num(c.lesson_count, lang)} ${t('LESSONS', lang)}</span>${hasA ? '<span>♪ audio</span>' : ''}${isR2 ? '<span>R2</span>' : ''}${c.has_video ? `<span class="vmark">▶ ${t('VIDEO', lang)}</span>` : ''}${c.ongoing ? `<span class="ongoing">${t('ONGOING', lang)}</span>` : ''}</span>
   ${p ? `<span class="pbar"><i style="width:${p}%"></i></span><span class="meta">${num(p, lang)}% ${t('DONE', lang)}</span>` : ''}</button>`;
 }
 
@@ -133,7 +136,7 @@ export function courseView(
 
   const lessonRow = (l: Lesson): string => {
     const pp = progress[c.id]?.[l.id] ?? { pos: 0, done: false };
-    const mic = l.media.some((m) => m.kind === 'r2') ? '♪' : '';
+    const mic = (l.media.some((m) => m.kind === 'r2') ? '♪' : '') + (l.video ? ' ▶' : '');
     const title = l.title_km.trim() ? esc(displayTitle(l.title_km)) : `<span class="ph">${t('NO_TITLE', lang)}</span>`;
     return `<li><button data-nav="lesson" data-id="${c.id}" data-lesson="${esc(l.id)}" class="${l.id === lastLessonId ? 'cur' : ''}">
       <span class="tick ${pp.done ? 'on' : ''}">${pp.done ? '✓' : ''}</span><span class="n">${num(l.num, lang)}</span>
@@ -171,7 +174,8 @@ export function lessonView(
   playing: boolean,
   speed: number,
   sleep: number,
-  auto: boolean
+  auto: boolean,
+  mode: MediaMode = 'listen'
 ): string {
   const { lang } = state;
   const pp = progress[c.id]?.[l.id] ?? { pos: 0, done: false };
@@ -183,8 +187,15 @@ export function lessonView(
   // Real duration comes from the data (manifest) so it shows before the audio
   // element loads (Q4). 0 → the "0:00" placeholder until the audio reports it.
   const durS = r2 && r2.duration_s ? r2.duration_s : 0;
+  // P-14 (15 Nov): Watch only when the lesson has an approved R2 video (the build adds
+  // l.video only when video is switched on). Listen is the default.
+  const watch = !!(r2 && l.video) && mode === 'watch';
+  const toggle = r2 && l.video
+    ? `<div class="mtoggle" role="group" aria-label="${t('MEDIA_MODE', lang)}"><button data-mode="listen" aria-pressed="${!watch}">♪ ${t('LISTEN', lang)}</button><button data-mode="watch" aria-pressed="${watch}">▶ ${t('WATCH', lang)}</button></div>`
+    : '';
+  const slot = watch ? '<div class="vbox" data-video-slot></div>' : '';
   const media = r2
-    ? `<div class="player" data-player><div class="times"><span>${t('OUR_PLAYER', lang)}</span><span>♪ MP3</span></div>
+    ? `<div class="player" data-player>${slot}<div class="times"><span>${t('OUR_PLAYER', lang)}</span><span>${watch ? '▶ MP4' : '♪ MP3'}</span></div>
       <div class="scrub" data-scrub><i data-bar style="width:${pp.pos ? '0' : '0'}%"></i></div>
       <div class="times"><span data-pos>${time(pp.pos, lang)}</span><span data-dur>${time(durS, lang)}</span></div>
       <div class="pctl"><button data-skip="-15">⟲ ${num(15, lang)}</button><button class="pp" data-pp aria-label="Play/Pause">${playing ? '❚❚' : '▶'}</button><button data-skip="15">${num(15, lang)} ⟳</button></div>
@@ -192,7 +203,7 @@ export function lessonView(
     : `<div class="empty">${t('OFFLINE_MEDIA', lang)}</div>`;
 
   return `<div class="crumbs"><button class="link" data-nav="course" data-id="${c.id}">${esc(courseTitle(c, lang))}</button> › ${t('LESSON', lang)} ${num(l.num, lang)}/${num(c.lessons.length, lang)}</div>
-  <h1 style="margin:6px 0 12px">${l.title_km.trim() ? esc(displayTitle(l.title_km)) : `<span class="ph">${t('NO_TITLE', lang)}</span>`}</h1>${media}
+  <h1 style="margin:6px 0 12px">${l.title_km.trim() ? esc(displayTitle(l.title_km)) : `<span class="ph">${t('NO_TITLE', lang)}</span>`}</h1>${toggle}${media}
   <div class="row" style="margin-top:12px"><button class="btn ${pp.done ? 'ghost' : ''} sm" data-done>${pp.done ? t('UNDONE', lang) : t('MARK_DONE', lang)}</button>
   <button class="btn ghost sm" data-share>${t('SHARE', lang)}</button></div>
   <div class="row" style="justify-content:space-between;margin-top:14px">${pv ? `<button class="btn ghost sm" data-nav="lesson" data-id="${c.id}" data-lesson="${esc(pv.id)}">‹ ${t('PREV', lang)}</button>` : '<span></span>'}${nx ? `<button class="btn sm" data-nav="lesson" data-id="${c.id}" data-lesson="${esc(nx.id)}">${t('NEXT', lang)} ›</button>` : ''}</div>
