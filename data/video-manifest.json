@@ -94,5 +94,21 @@
     "height": 480,
     "sha256": "6e60cd4767ff45d89ac27f32ab7aaca84bf1dacc8765bd6660bc791433c5b4ad",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1gaYlMyawWmqRsd7rXktSVE3GsZ8A5dgy",
+    "drive_name": "០១_និយមន័យ_អបាយភូមិភិក្ខុអគ្គចិត្តោ_យ៉ុន_យី_បរិច្ឆេទទី៥.mp4",
+    "source_md5": "cc4068482bd3c0d7574cdd4a1082b936",
+    "key": "video/cc4068482bd3c0d7-480p.mp4",
+    "poster_key": "video/cc4068482bd3c0d7-480p.webp",
+    "rendition": "480p",
+    "bytes": 65058235,
+    "duration_s": 3556,
+    "src_duration_s": 3556,
+    "width": 854,
+    "height": 480,
+    "sha256": "dd7b541aa5354dae35bbe3693fda35f3581da579a5551d1de34b66200da36bc2",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
