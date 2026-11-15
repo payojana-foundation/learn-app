@@ -478,5 +478,21 @@
     "height": 480,
     "sha256": "6a9d651fb1e99a847af19eded9857056a8224f01444100cfc3abc4aba9445bbb",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "13TUtjec79QhY96hsbYw_2KC0gnknCpnr",
+    "drive_name": "០៥ ចែកវិថីចិត្តជា ២ គឺកាមវិថី និងអប្បនាមវិថី (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "f3e0582e4aca7a0861cc08f850dd9b4d",
+    "key": "video/f3e0582e4aca7a08-480p.mp4",
+    "poster_key": "video/f3e0582e4aca7a08-480p.webp",
+    "rendition": "480p",
+    "bytes": 92308677,
+    "duration_s": 5088,
+    "src_duration_s": 5088,
+    "width": 854,
+    "height": 480,
+    "sha256": "dd188ca48b916c2831fbe6b184c131067cf385db27df9d363b36ff77fe00915b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
