@@ -1022,5 +1022,21 @@
     "height": 480,
     "sha256": "927b0b407b25d5922329e3a9ddc8c1820a521f9093cc8ad1356bade148b560fa",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1gcQpkMFeGX6FbskfwL795cQ7uVqu0omr",
+    "drive_name": "១២_ពន្យល់បរិកប្ប_២_ទាក់ទងនឹង៥_ចំណុច (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "47e091ac692f13884967d2226e2fe3d5",
+    "key": "video/47e091ac692f1388-480p.mp4",
+    "poster_key": "video/47e091ac692f1388-480p.webp",
+    "rendition": "480p",
+    "bytes": 85610300,
+    "duration_s": 5058,
+    "src_duration_s": 5058,
+    "width": 854,
+    "height": 480,
+    "sha256": "d4853907d89e616f41ae4419ad3293b6774f842fd27584670e734c5b408b13fa",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
