@@ -1534,5 +1534,21 @@
     "height": 480,
     "sha256": "e1f23781c83842fe1e2ae68053c7bc8821b7c37a867fde395a7157ca9b07f535",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1CdIPexYi1rkbRDi20--qjp4h8eBwCkRP",
+    "drive_name": "១៥ អធិមោក្ខចេតសិក វីរិយាចេតសិក (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "a7dabc31a6abb06d9ac66dc57d916794",
+    "key": "video/a7dabc31a6abb06d-480p.mp4",
+    "poster_key": "video/a7dabc31a6abb06d-480p.webp",
+    "rendition": "480p",
+    "bytes": 110383252,
+    "duration_s": 4930,
+    "src_duration_s": 4930,
+    "width": 854,
+    "height": 480,
+    "sha256": "77bc98986534d9b657f7eaebd9221298923622cd02e5aa8754a7925a345637c4",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
