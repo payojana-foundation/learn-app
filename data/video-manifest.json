@@ -3102,5 +3102,21 @@
     "height": 480,
     "sha256": "9cf27310156421d3cd05cab7a8c66298bb710998be49dbb15b85a57c407702ba",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1yGn6-I6sgudGrCHET63UndvKw99uzIVc",
+    "drive_name": "៣០ លក្ខណរូប ៤ ជរតារូប រូបចាស់គ្រាំគ្រា (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "8f670211d5fa59e84e02d21d3cafef72",
+    "key": "video/8f670211d5fa59e8-480p.mp4",
+    "poster_key": "video/8f670211d5fa59e8-480p.webp",
+    "rendition": "480p",
+    "bytes": 99977076,
+    "duration_s": 4646,
+    "src_duration_s": 4646,
+    "width": 854,
+    "height": 480,
+    "sha256": "39e2fbc40b914dbf37f044ec43915925c578002d7142c062ebd4cc3e39eeb843",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
