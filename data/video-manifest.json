@@ -1998,5 +1998,21 @@
     "height": 480,
     "sha256": "0f225681d7bba97f9e067d27a8d53e677aef161da2a34a05b91c763d3f530efa",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ZgR7T_CMbV36vYp68s3zy5m057BXND2x",
+    "drive_name": "២០ ភាវរូប ២ និងហទយវត្ថុ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "f3dfb79c3b22bb04a7c180cb6aad17fe",
+    "key": "video/f3dfb79c3b22bb04-480p.mp4",
+    "poster_key": "video/f3dfb79c3b22bb04-480p.webp",
+    "rendition": "480p",
+    "bytes": 105880925,
+    "duration_s": 5009,
+    "src_duration_s": 5009,
+    "width": 854,
+    "height": 480,
+    "sha256": "bfb3a1633663cab8b8507f702a6930f7640a50428994c4cfd82beac0d989b3d1",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
