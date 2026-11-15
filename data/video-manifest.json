@@ -3470,5 +3470,21 @@
     "height": 480,
     "sha256": "bb0e6ea38a62c6f4825b7e545a4d27ee002fe8c3973777642ab505d3238c3406",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Z7QR6x7MBr8tcLJ7iuK8Ohb7FMtavq9d",
+    "drive_name": "៣១ មច្ឆរិយចេតសិក សេចក្ដីកំណាញ់មាន៥យ៉ាង (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "327f8ef40f7324e09f3f30e1126b3ad2",
+    "key": "video/327f8ef40f7324e0-480p.mp4",
+    "poster_key": "video/327f8ef40f7324e0-480p.webp",
+    "rendition": "480p",
+    "bytes": 159679265,
+    "duration_s": 6081,
+    "src_duration_s": 6081,
+    "width": 854,
+    "height": 480,
+    "sha256": "dff9d7e8abaea06bc272bedf42506dc52cde7c814f30b210c960178f94c904fd",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
