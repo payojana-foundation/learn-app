@@ -590,5 +590,21 @@
     "height": 480,
     "sha256": "e1d9e6535793e929b9f98ed2c73389e8bbff218139637a6adedfbb590377282f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1TpmnScEcExyQwHEh18L4PJefu8dV69io",
+    "drive_name": "០៤ វេទនា ២ និងវេទនា៣ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "06154697b3560f389870867e4f2e752e",
+    "key": "video/06154697b3560f38-480p.mp4",
+    "poster_key": "video/06154697b3560f38-480p.webp",
+    "rendition": "480p",
+    "bytes": 92224993,
+    "duration_s": 4555,
+    "src_duration_s": 4555,
+    "width": 854,
+    "height": 480,
+    "sha256": "9f90d32e51c0f1899fbab58eb9a3fe95530b255e5922295bbdc9c9798b94c507",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
