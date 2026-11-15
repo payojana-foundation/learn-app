@@ -78,5 +78,21 @@
     "height": 480,
     "sha256": "42b896302ef8bda8184a059fa4def698a1724d71bf616e9ed88ae3027845c0da",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ARqyEt9ijRZRKgr6h6IlWNFlNR1Zcn8S",
+    "drive_name": "6-តើពេលណា(បរិយត្តិ ប្រែថា ព្រះត្រៃបិដក) ពេលណា (ប្រែថា ការរៀន សិក្សា ស្វាធ្យាយ) video_2026-05-22_08-51-34.mp4",
+    "source_md5": "567f0a67ea21d9a9a1031e82b1abdaa7",
+    "key": "video/567f0a67ea21d9a9-480p.mp4",
+    "poster_key": "video/567f0a67ea21d9a9-480p.webp",
+    "rendition": "480p",
+    "bytes": 12262023,
+    "duration_s": 669,
+    "src_duration_s": 669,
+    "width": 412,
+    "height": 480,
+    "sha256": "6e60cd4767ff45d89ac27f32ab7aaca84bf1dacc8765bd6660bc791433c5b4ad",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
