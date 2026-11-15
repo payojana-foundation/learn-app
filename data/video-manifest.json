@@ -926,5 +926,21 @@
     "height": 480,
     "sha256": "6abc48502391356f107bb1203422d949fef4653913b5762a339c97851e5c68b5",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1V9Jb4Qnb3us2UIxvCKhY8ZAGy7j94zHm",
+    "drive_name": "០៩ ចេតនាចេតសិក ឯកគ្គតចេតសិក (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "574336980c12b20dbafa688946920ebd",
+    "key": "video/574336980c12b20d-480p.mp4",
+    "poster_key": "video/574336980c12b20d-480p.webp",
+    "rendition": "480p",
+    "bytes": 110380945,
+    "duration_s": 5046,
+    "src_duration_s": 5046,
+    "width": 854,
+    "height": 480,
+    "sha256": "701c0a79cce416dc04937e2a1d5a3358e4706d4540b6d65d4792ee2c502f1852",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
