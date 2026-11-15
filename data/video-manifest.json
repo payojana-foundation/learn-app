@@ -1454,5 +1454,21 @@
     "height": 480,
     "sha256": "6bfae7f0a8a1de5f7be20b982727f99c59e80e0d23d67f472a53225d9de52b70",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1oP60eMiyASV0_0JbSgyYt2ksaYUCjWGf",
+    "drive_name": "១៣ ចក្ខុបសាទរូប ចែកជា ២ មំសំចក្ខុ បញ្ញាចក្ខុ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "bbe822472ade2eb9359c819ad22a915d",
+    "key": "video/bbe822472ade2eb9-480p.mp4",
+    "poster_key": "video/bbe822472ade2eb9-480p.webp",
+    "rendition": "480p",
+    "bytes": 103105573,
+    "duration_s": 4747,
+    "src_duration_s": 4747,
+    "width": 854,
+    "height": 480,
+    "sha256": "69e49a98ff50dad1e51bf08860419ae1713b41485e3c9adc786fe2e034037fd4",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
