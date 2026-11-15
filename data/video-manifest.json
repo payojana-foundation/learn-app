@@ -510,5 +510,21 @@
     "height": 480,
     "sha256": "59a7cad40ad7b8f48530f65efc5af5f2b9d01d1944543354cf8b20aee89f8d20",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "14W8uRFC8u-A-6YzJ5ix5cxIbr0wyrW-S",
+    "drive_name": "០៥_ភូមិចតុក្កៈ_នេមិរាជជាតក_ផលនៃទាននិងព្រហ្មចរិយភិក្ខុអគ្គចិត្តោ.mp4",
+    "source_md5": "956224ebe2d1d89c7225452deed9546b",
+    "key": "video/956224ebe2d1d89c-480p.mp4",
+    "poster_key": "video/956224ebe2d1d89c-480p.webp",
+    "rendition": "480p",
+    "bytes": 91660925,
+    "duration_s": 4377,
+    "src_duration_s": 4377,
+    "width": 854,
+    "height": 480,
+    "sha256": "03bf01893621626b08e217c3f24ed6c6429f03e09b4bc4374066826acbdb6d2b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
