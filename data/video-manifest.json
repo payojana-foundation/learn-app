@@ -798,5 +798,21 @@
     "height": 480,
     "sha256": "c908dcecc90418c6c0c0f357c5e64a1bcc947ed6ac4a470334fc946ab422a084",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1S1lBfNO02rnl2f0xIasFIyirtCb5Rs-d",
+    "drive_name": "០២_ភូរទត្តជាតក_នគរកណ្ឌ_នាគទៅក្រុងពារាណសី_ភិក្ខុអគ្គចិត្តោ.mp4",
+    "source_md5": "6dc9cdcecebdd6758572cfeb25a3d179",
+    "key": "video/6dc9cdcecebdd675-480p.mp4",
+    "poster_key": "video/6dc9cdcecebdd675-480p.webp",
+    "rendition": "480p",
+    "bytes": 102664875,
+    "duration_s": 4540,
+    "src_duration_s": 4540,
+    "width": 854,
+    "height": 480,
+    "sha256": "e0999dfb6a7dc1395e0b9110c4b557a0a645c89128fcb423900f5187ae1dc519",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
