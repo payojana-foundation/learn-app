@@ -2078,5 +2078,21 @@
     "height": 480,
     "sha256": "425e392cbc9033d1d426d994a289df52066a702622f6a489eb3fb206baeede19",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1NozYx-sno3XQOb2FK5DE_i-TVXS-Q-Pp",
+    "drive_name": "២១ ហទយវត្ថុរូប បេះដូង ទឹកឈាមមានពណ៌ ៦ យ៉ាង (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "b82d9f8869e3899a95845149b4b8deea",
+    "key": "video/b82d9f8869e3899a-480p.mp4",
+    "poster_key": "video/b82d9f8869e3899a-480p.webp",
+    "rendition": "480p",
+    "bytes": 100749549,
+    "duration_s": 5104,
+    "src_duration_s": 5104,
+    "width": 854,
+    "height": 480,
+    "sha256": "d26d6ae6d894124423084cb490d647a0bc138a192abafe55e5bcacb8c87bec58",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
