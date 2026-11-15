@@ -2798,5 +2798,21 @@
     "height": 480,
     "sha256": "2f4da0eb5dbd8b7ec9917215d0e71138d3766df7d8b1cb8b09d4b93aa58ca105",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1lLGP-TvoOhmkQgyDVTWdvTXPHcs5BpeU",
+    "drive_name": "២៦ ហេតុឱ្យកើតទិដ្ឋិសម្បយុត្តចិត្ត (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "16d66b5beb4cd9c21f289a8098136b6e",
+    "key": "video/16d66b5beb4cd9c2-480p.mp4",
+    "poster_key": "video/16d66b5beb4cd9c2-480p.webp",
+    "rendition": "480p",
+    "bytes": 95087729,
+    "duration_s": 4735,
+    "src_duration_s": 4735,
+    "width": 854,
+    "height": 480,
+    "sha256": "bbbe7332508718ed10e72269a88179ac94dff45be572f7d0d6452c019e4e5420",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
