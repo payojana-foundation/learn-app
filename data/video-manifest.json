@@ -462,5 +462,21 @@
     "height": 480,
     "sha256": "5a0ebddf82eae640707f103270bce30abfed94dff178fbe0d14edc921e66220f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1jpnR3RGNYKSeV8QtP5z7qM8dkHTn9T0b",
+    "drive_name": "០៤ ពន្យល់ពាក្យថា ចិត្ត (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "65b306c01d51e88ed5863a7ca5c661ce",
+    "key": "video/65b306c01d51e88e-480p.mp4",
+    "poster_key": "video/65b306c01d51e88e-480p.webp",
+    "rendition": "480p",
+    "bytes": 86786647,
+    "duration_s": 3996,
+    "src_duration_s": 3996,
+    "width": 854,
+    "height": 480,
+    "sha256": "6a9d651fb1e99a847af19eded9857056a8224f01444100cfc3abc4aba9445bbb",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
