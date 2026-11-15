@@ -1342,5 +1342,21 @@
     "height": 480,
     "sha256": "9508464a54fa6d3d5eea171a4d2bc714a151bbc90c708bb38b264f9d95f73b86",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1MEgGn06W83msZZrFFnYhpAz4el8BcrHX",
+    "drive_name": "១៣ វិតក្កចេតសិក ការត្រិះរិះ (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "6ad67d0b4f6ab889861319c2cac2b865",
+    "key": "video/6ad67d0b4f6ab889-480p.mp4",
+    "poster_key": "video/6ad67d0b4f6ab889-480p.webp",
+    "rendition": "480p",
+    "bytes": 106619472,
+    "duration_s": 4601,
+    "src_duration_s": 4601,
+    "width": 854,
+    "height": 480,
+    "sha256": "d1820ea94e52ab97ccc16a3e0e0085f5b632350741ec4d774f7d6ed407662c30",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
