@@ -3630,5 +3630,21 @@
     "height": 480,
     "sha256": "1c2af82af116f0b383c00e7e496422030a050f54856a505b7d9a0f7b95ffe344",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ixnUhF5mwmUVOAYsO8cSJRG9wA_n9efZ",
+    "drive_name": "៣២ ចែកលោភចិត្តដោយសម្បយុត្តដល់កិច្ច (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "1fa7224c29f5cb20c82a81893bd91399",
+    "key": "video/1fa7224c29f5cb20-480p.mp4",
+    "poster_key": "video/1fa7224c29f5cb20-480p.webp",
+    "rendition": "480p",
+    "bytes": 83125180,
+    "duration_s": 4066,
+    "src_duration_s": 4066,
+    "width": 854,
+    "height": 480,
+    "sha256": "d5fe3d93949fd825e30515de51da62f1e148d490f236b987f75085245d9b02ac",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
