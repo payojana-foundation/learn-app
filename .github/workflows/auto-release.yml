@@ -38,36 +38,43 @@ jobs:
         with:
           node-version-file: .node-version
 
-      - name: Approve every passing lesson (audio, then video)
-        id: rel
+      - name: Approve every passing lesson (audio, then video) and push
+        id: push
         env:
           VIDEO_ENABLED: ${{ vars.VIDEO_ENABLED }}
         run: |
           set -euo pipefail
-          V=""
-          if [ "${VIDEO_ENABLED:-}" = "true" ]; then V="--video"; fi
-          node scripts/media/auto-release.mjs $V | tee release.log
-
-      - name: Commit and push
-        id: push
-        run: |
-          set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          mkdir -p data/ops
-          head -n 1 release.log >> data/ops/auto-release.log
-          a=$(grep -oE 'AUDIO_APPROVED=[0-9]+' release.log | cut -d= -f2)
-          v=$(grep -oE 'VIDEO_APPROVED=[0-9]+' release.log | cut -d= -f2)
-          if [ "$a" = "0" ] && [ "$v" = "0" ]; then
-            echo "nothing new to release"
-            exit 0
-          fi
-          git add data/media-manifest.json data/ops/auto-release.log
-          if [ -f data/video-manifest.json ]; then git add data/video-manifest.json; fi
-          git commit -m "media: auto-release ${a} audio, ${v} video (passed the pre-check)"
-          bash scripts/ci/push-with-retry.sh origin main
-          echo "released=true" >> "$GITHUB_OUTPUT"
-
+          V=""
+          if [ "${VIDEO_ENABLED:-}" = "true" ]; then V="--video"; fi
+          FILES="data/media-manifest.json data/video-manifest.json data/ops/auto-release.log"
+          # Rebase-proof (course-video-matrix appends to video-manifest.json all the time):
+          # every attempt starts from origin/main's files and applies the release again.
+          for attempt in 1 2 3 4 5 6 7 8; do
+            git fetch -q origin main
+            git reset -q origin/main
+            for p in $FILES; do git checkout origin/main -- "$p" 2>/dev/null || true; done
+            node scripts/media/auto-release.mjs $V | tee release.log
+            a=$(grep -oE 'AUDIO_APPROVED=[0-9]+' release.log | cut -d= -f2)
+            v=$(grep -oE 'VIDEO_APPROVED=[0-9]+' release.log | cut -d= -f2)
+            if [ "$a" = "0" ] && [ "$v" = "0" ]; then
+              echo "nothing new to release"
+              exit 0
+            fi
+            mkdir -p data/ops
+            head -n 1 release.log >> data/ops/auto-release.log
+            for p in $FILES; do if [ -f "$p" ]; then git add "$p"; fi; done
+            git commit -q -m "media: auto-release ${a} audio, ${v} video (passed the pre-check)"
+            if git push origin HEAD:main; then
+              echo "released=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt), starting again from origin/main"
+            sleep $(( 3 + RANDOM % 7 ))
+          done
+          echo "::error title=Auto-release not saved::could not push after 8 attempts"
+          exit 1
       - name: Rebuild the app data (master-export)
         if: ${{ steps.push.outputs.released == 'true' }}
         env:

@@ -60,6 +60,12 @@ describe('auto-release workflow', () => {
     expect(y).toContain("vars.AUTO_APPROVE_PASSING == 'true'");
     expect(y).toContain("github.event.workflow_run.conclusion == 'success'");
   });
+  it('rebase-proof: each push attempt restarts from origin/main and re-applies the release', () => {
+    expect(y).toContain('for attempt in 1 2 3 4 5 6 7 8; do');
+    expect(y).toMatch(/git reset -q origin\/main\n\s+for p in \$FILES; do git checkout origin\/main -- "\$p"/);
+    expect(y).toMatch(/git checkout origin\/main[\s\S]*?node scripts\/media\/auto-release\.mjs \$V[\s\S]*?git push origin HEAD:main/);
+    expect(y).not.toContain('push-with-retry.sh');
+  });
   it('video only when VIDEO_ENABLED; it starts master-export after a release', () => {
     expect(y).toMatch(/VIDEO_ENABLED:-\}" = "true" \]; then V="--video"/);
     expect(y).toContain('gh workflow run master-export.yml --ref main');
