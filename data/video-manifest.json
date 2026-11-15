@@ -142,5 +142,21 @@
     "height": 480,
     "sha256": "646095d9b9a5a2ae6c14f700956e03105a533e5c1b3a2f8339e1b51f9ef6fa7f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1gd2zCZp5iiYklu9bMYsy7xdQIu2IEC-r",
+    "drive_name": "០២ អារម្មណ៍៤ តាមបញ្ចទ្វារ និងមនោទ្វារ (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "9ccadf50859ffb6098955eba65dd7c53",
+    "key": "video/9ccadf50859ffb60-480p.mp4",
+    "poster_key": "video/9ccadf50859ffb60-480p.webp",
+    "rendition": "480p",
+    "bytes": 81160779,
+    "duration_s": 4144,
+    "src_duration_s": 4144,
+    "width": 854,
+    "height": 480,
+    "sha256": "a8e86a272ee96bb02d2f24bbc2937e98430c1836da919117bd4696d039fccf48",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
