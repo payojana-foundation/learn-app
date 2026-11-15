@@ -2094,5 +2094,21 @@
     "height": 480,
     "sha256": "d26d6ae6d894124423084cb490d647a0bc138a192abafe55e5bcacb8c87bec58",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "18LJDU0QOaC0FPIP4CcMaxjXc5cbfx5v8",
+    "drive_name": "២០ លោភមូលចិត្តដួងទី៤ ទី៥ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "9bd743242dfa8ded1c3a8fe12408aefe",
+    "key": "video/9bd743242dfa8ded-480p.mp4",
+    "poster_key": "video/9bd743242dfa8ded-480p.webp",
+    "rendition": "480p",
+    "bytes": 79786360,
+    "duration_s": 4421,
+    "src_duration_s": 4421,
+    "width": 854,
+    "height": 480,
+    "sha256": "deaf5b8d4cf343f69d6b8aa09e9edb1ea0c98d12a845d2ef61a9ccb484e1314b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
