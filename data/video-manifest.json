@@ -110,5 +110,21 @@
     "height": 480,
     "sha256": "dd7b541aa5354dae35bbe3693fda35f3581da579a5551d1de34b66200da36bc2",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1FhpqOYs0L8SgCjoOBI_AtIYvssyYKF99",
+    "drive_name": "០១ ចេតសិកមានអត្ថ៤យ៉ាង(បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "3646f5ad5f0614708d4859364763a0df",
+    "key": "video/3646f5ad5f061470-480p.mp4",
+    "poster_key": "video/3646f5ad5f061470-480p.webp",
+    "rendition": "480p",
+    "bytes": 74070639,
+    "duration_s": 3607,
+    "src_duration_s": 3607,
+    "width": 854,
+    "height": 480,
+    "sha256": "bb110103568cc88f68adbc1f2b325679e678f29e78006cd7a7b4b5f60adf7723",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
