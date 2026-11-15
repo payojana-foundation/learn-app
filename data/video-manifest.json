@@ -3054,5 +3054,21 @@
     "height": 480,
     "sha256": "919eccf90e20af3d3d5ff2282866dd817bcc4586e76ed9ad5a5e7abf8b97371c",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "15tM9EROok71QFkzvpIg37J2Q_Q9pBA1Y",
+    "drive_name": "៣៥ សុបិនមនោទ្វារវិថីមាន ១២ ប្រភេទ (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "c3c45f8f934dfd35890b3324a8041780",
+    "key": "video/c3c45f8f934dfd35-480p.mp4",
+    "poster_key": "video/c3c45f8f934dfd35-480p.webp",
+    "rendition": "480p",
+    "bytes": 95865452,
+    "duration_s": 4851,
+    "src_duration_s": 4851,
+    "width": 854,
+    "height": 480,
+    "sha256": "70d4f10eafc89af1f8b09a06571ef17fc2e6fb4d81ecef3e4085dbb75e786058",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
