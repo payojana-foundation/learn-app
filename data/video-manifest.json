@@ -2638,5 +2638,21 @@
     "height": 480,
     "sha256": "526c9e3e6d7a01ebf5b0916632a13367495ba25ad54977f09e1a16e9bce5d780",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1GNqC9ta2EBIfOXZRHBtjDCsDjM6_x9PU",
+    "drive_name": "២៩ អតិវិភូតារម្មណ៍មិនមានអតីតភវង្គប្រភេទទី២ទី៣ (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "169d3419247952a6d5305b263544f4fc",
+    "key": "video/169d3419247952a6-480p.mp4",
+    "poster_key": "video/169d3419247952a6-480p.webp",
+    "rendition": "480p",
+    "bytes": 88326416,
+    "duration_s": 4563,
+    "src_duration_s": 4563,
+    "width": 854,
+    "height": 480,
+    "sha256": "3ff7f2021e6e7c26359de6e2e4f43decbb06604a095c254d2b1902876f17fbc0",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
