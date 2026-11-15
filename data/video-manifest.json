@@ -718,5 +718,21 @@
     "height": 480,
     "sha256": "ff4f7038425d287e3478f2e87b5c63c710b86805daa94be37bde0fd302823244",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1vJfYntOsj6OmlXb6qJihU9OlK8XZacun",
+    "drive_name": "០១.ភូរិទត្តជាតក.mp4",
+    "source_md5": "c73f4f2622e921d1fb6106767f47ecaf",
+    "key": "video/c73f4f2622e921d1-480p.mp4",
+    "poster_key": "video/c73f4f2622e921d1-480p.webp",
+    "rendition": "480p",
+    "bytes": 65289128,
+    "duration_s": 3027,
+    "src_duration_s": 3027,
+    "width": 854,
+    "height": 480,
+    "sha256": "05b62908852c8952d17450d30d8f6bf35a4067fc12cee18e8b65188eb59e7101",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
