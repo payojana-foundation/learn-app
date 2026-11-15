@@ -254,5 +254,21 @@
     "height": 480,
     "sha256": "5fb271e6456ed6f1b3761a6ccfc0948210121196f9989a154a86e48398ec0c3c",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "19E8DyIkxQHdMXak0Zn5xOWOruiAGfWld",
+    "drive_name": "០២ លក្ខណាទិចតុក្ករបស់ចេតសិក (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "ced122a3a0d1f3f5aaccd4d59cd102ee",
+    "key": "video/ced122a3a0d1f3f5-480p.mp4",
+    "poster_key": "video/ced122a3a0d1f3f5-480p.webp",
+    "rendition": "480p",
+    "bytes": 96732812,
+    "duration_s": 4603,
+    "src_duration_s": 4603,
+    "width": 854,
+    "height": 480,
+    "sha256": "af47466ade472c3493294e2824fb2c07f417ba32b7626b6237202ea368d9df67",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
