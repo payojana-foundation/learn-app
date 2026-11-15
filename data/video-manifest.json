@@ -1614,5 +1614,21 @@
     "height": 480,
     "sha256": "17bef74e5b19b3ca6891fd74c11493d28b42fa7816acb3ec8b72be2d76463618",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1osZwbvkk88CnLAF4uSWVSn_TGjXf_xUo",
+    "drive_name": "១១ វេទនាសង្គហៈ ចែកវេទនាដោយឥន្រ្ទិយនិងអារម្មណ៍៣ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "97a1e3d2b2568d29bdb3d8f9e160eff8",
+    "key": "video/97a1e3d2b2568d29-480p.mp4",
+    "poster_key": "video/97a1e3d2b2568d29-480p.webp",
+    "rendition": "480p",
+    "bytes": 111813027,
+    "duration_s": 5388,
+    "src_duration_s": 5388,
+    "width": 854,
+    "height": 480,
+    "sha256": "3fd33da1f7903f6b9cc8e7410c7aa4ff1e920cebdc8cbb8493307186039a45d7",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
