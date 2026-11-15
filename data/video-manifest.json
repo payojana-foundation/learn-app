@@ -1422,5 +1422,21 @@
     "height": 480,
     "sha256": "73fc87998988f81978d80acda9c891717a5ff95a6e851c268a34271135946969",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1dw1zjr4x7P7lmDxAQjHaQYTg-DGOX4kC",
+    "drive_name": "១៤ ពាក្យថាអកុសលចិត្ត (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "45108cb2bc7a41e2c6a363b0113f2e55",
+    "key": "video/45108cb2bc7a41e2-480p.mp4",
+    "poster_key": "video/45108cb2bc7a41e2-480p.webp",
+    "rendition": "480p",
+    "bytes": 79394367,
+    "duration_s": 4308,
+    "src_duration_s": 4308,
+    "width": 854,
+    "height": 480,
+    "sha256": "56bde19d973520c4bb35c98be3ad27b9a5a091ff1c9d8a579725e18aba8845bf",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
