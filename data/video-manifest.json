@@ -382,5 +382,21 @@
     "height": 480,
     "sha256": "72b422165c681ac6c772cf9a7cbd8661dc2000bf38cf9b1f9647d2fb4b00d71a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1UlcBFlp1F2AGsdmeEf15WLCNNDMzGIfn",
+    "drive_name": "២ និយមន័យរូប ៧ន័យ និងវចនត្ថៈរបស់រូប (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "2f4399cc42c0bb5cdb34ea2dac566cc8",
+    "key": "video/2f4399cc42c0bb5c-480p.mp4",
+    "poster_key": "video/2f4399cc42c0bb5c-480p.webp",
+    "rendition": "480p",
+    "bytes": 100225663,
+    "duration_s": 4785,
+    "src_duration_s": 4785,
+    "width": 854,
+    "height": 480,
+    "sha256": "eb19584b467da1a60dec59434a6646c4f3300735dc02e6caaa7e4b3079379471",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
