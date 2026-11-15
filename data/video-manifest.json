@@ -1790,5 +1790,21 @@
     "height": 480,
     "sha256": "1e80f2ca89dd0acd8b917df4b0fc9bca5e15937d3d9ef997b0490e534c75f34d",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1C5FGErv82l_uopC-BQDAaM_xhseV46xF",
+    "drive_name": "២១ មិស្សកមនោទ្វារវិថី អតីតគណហណៈប្រភេទី៣ទី៥ (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "7a9bd09378a55aee839f7fc782524547",
+    "key": "video/7a9bd09378a55aee-480p.mp4",
+    "poster_key": "video/7a9bd09378a55aee-480p.webp",
+    "rendition": "480p",
+    "bytes": 97611945,
+    "duration_s": 4793,
+    "src_duration_s": 4793,
+    "width": 854,
+    "height": 480,
+    "sha256": "fd26c73c2ce54c4d5ad5c1216fb73270b93f91407c6955e8c2b0b61fb2fbdee3",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
