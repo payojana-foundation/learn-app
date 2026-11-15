@@ -2622,5 +2622,21 @@
     "height": 480,
     "sha256": "7d4df5b533993177009b198c4ffb091d076491fc7d42045fe104e3c8d823ba10",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "12qBH_V7Al2KAzVqmpapEwNTtGyV75aOi",
+    "drive_name": "12-៩២_មហោសថ_រៀបចំយុទ្ធសាស្រ្តការពារទឹកដីភិក្ខុអគ្គចិត្តោ_យ៉ុន_យី​.mp4",
+    "source_md5": "47b55d4e396faeb1e21e52617e7360f7",
+    "key": "video/47b55d4e396faeb1-480p.mp4",
+    "poster_key": "video/47b55d4e396faeb1-480p.webp",
+    "rendition": "480p",
+    "bytes": 121205549,
+    "duration_s": 4513,
+    "src_duration_s": 4513,
+    "width": 854,
+    "height": 480,
+    "sha256": "526c9e3e6d7a01ebf5b0916632a13367495ba25ad54977f09e1a16e9bce5d780",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
