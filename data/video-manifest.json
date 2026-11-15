@@ -3486,5 +3486,21 @@
     "height": 480,
     "sha256": "dff9d7e8abaea06bc272bedf42506dc52cde7c814f30b210c960178f94c904fd",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1XphUWOL0XW6M3SqxPGdLx-XujqJqkDCp",
+    "drive_name": "៣១ ចែកលោភចិត្តដោយន័យផ្សេងៗ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "1cde7c500922611a1fded3cd1e8f029f",
+    "key": "video/1cde7c500922611a-480p.mp4",
+    "poster_key": "video/1cde7c500922611a-480p.webp",
+    "rendition": "480p",
+    "bytes": 94355782,
+    "duration_s": 4909,
+    "src_duration_s": 4909,
+    "width": 854,
+    "height": 480,
+    "sha256": "c863f2190db4488b3ca844c792de9330b2b2ada9c7d8b467ba1b14b2e8101fcd",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
