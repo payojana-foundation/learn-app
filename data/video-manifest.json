@@ -862,5 +862,21 @@
     "height": 480,
     "sha256": "eb1c403254ad3870717599da378a5d5dde78fe913b25a85d6acd875ffc8fc00c",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1tg2Ls49NEIgajqylfuMKYr7B2mWkT8ji",
+    "drive_name": "០៧ ភូតមាន ៧ ន័យ មានភូតបានដល់ព្រះអហរន្តជាដើម (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "fa55568ace4ea6b736eb06e463b94d41",
+    "key": "video/fa55568ace4ea6b7-480p.mp4",
+    "poster_key": "video/fa55568ace4ea6b7-480p.webp",
+    "rendition": "480p",
+    "bytes": 104409238,
+    "duration_s": 5033,
+    "src_duration_s": 5033,
+    "width": 854,
+    "height": 480,
+    "sha256": "c7487814d4f950c82d7e292dd3ecec6469ac4a5e42b1203575074c2f4ebdbd77",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
