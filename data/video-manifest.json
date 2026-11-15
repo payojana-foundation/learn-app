@@ -1550,5 +1550,21 @@
     "height": 480,
     "sha256": "77bc98986534d9b657f7eaebd9221298923622cd02e5aa8754a7925a345637c4",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1B2U17sN743z3QwHrooIjZMgwzMQvcCfs",
+    "drive_name": "១៨ មិស្សកមនោទ្វារវិថី និយមមនោទ្វារមាន៤ យ៉ាង  (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "9f69a1aff106f22bce556b02ab88189b",
+    "key": "video/9f69a1aff106f22b-480p.mp4",
+    "poster_key": "video/9f69a1aff106f22b-480p.webp",
+    "rendition": "480p",
+    "bytes": 101432004,
+    "duration_s": 4869,
+    "src_duration_s": 4869,
+    "width": 854,
+    "height": 480,
+    "sha256": "a3c1fc87ee8fd9a87543fa7f83ff9e1c9d96419bf9f8d4fa28c2218e7ab50d33",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
