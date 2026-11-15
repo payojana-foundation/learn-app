@@ -2462,5 +2462,21 @@
     "height": 480,
     "sha256": "34a83cd3460b22a7497e9904b891510e6972ae42f523d4196895a11ae8710844",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1N8LS8_y5zsE_5lUl6s6mA_3QfghfEbmP",
+    "drive_name": "២៧ អតិវិភូតារម្មណ៍មាន៣៦ ប្រភេទបញ្ចប់ (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "865eccd30bef4ada2e70854f700b2470",
+    "key": "video/865eccd30bef4ada-480p.mp4",
+    "poster_key": "video/865eccd30bef4ada-480p.webp",
+    "rendition": "480p",
+    "bytes": 93951336,
+    "duration_s": 4490,
+    "src_duration_s": 4490,
+    "width": 854,
+    "height": 480,
+    "sha256": "f548b6731572beddfcf5e7b42343f1bcc43773f6876c88df836abc245f80326b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
