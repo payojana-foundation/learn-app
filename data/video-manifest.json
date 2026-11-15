@@ -542,5 +542,21 @@
     "height": 480,
     "sha256": "7ca02cd798c50f7af9f2663737558cbbc529fea1d76f924a9d9ab4cc3386c299",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1hqcGUiuharrxvqygx7ap_LqDcAhlW1f9",
+    "drive_name": "០៤ មហាភូត ដោយហេតុ ៥ យ៉ាង (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "cc8f6f7ddeebfbf5c043d2a133c14bc5",
+    "key": "video/cc8f6f7ddeebfbf5-480p.mp4",
+    "poster_key": "video/cc8f6f7ddeebfbf5-480p.webp",
+    "rendition": "480p",
+    "bytes": 103803214,
+    "duration_s": 5078,
+    "src_duration_s": 5078,
+    "width": 854,
+    "height": 480,
+    "sha256": "f12cd74341cc20457f97e99af4532b385c8da95a08452b574437ee95b4213dfb",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
