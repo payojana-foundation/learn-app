@@ -3358,5 +3358,21 @@
     "height": 480,
     "sha256": "c2b35cdbfba523ea61efba2719fc13732775de5933bb5ef49cf8e7425d529065",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1lsI0drLb2UbKdiiEdxIXZiGuSvUbWwe5",
+    "drive_name": "៣២ ចែករូបជាសាសវៈ សង្ខតៈ លោកិយ និងកាមាវចរ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "67383c99a52b4480c01a7c2ee82893cd",
+    "key": "video/67383c99a52b4480-480p.mp4",
+    "poster_key": "video/67383c99a52b4480-480p.webp",
+    "rendition": "480p",
+    "bytes": 93765945,
+    "duration_s": 4173,
+    "src_duration_s": 4173,
+    "width": 854,
+    "height": 480,
+    "sha256": "f64bed8024dd5dc0e0ecb6c24d61a271722d0753462968f8cb2a10aa9c21b121",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
