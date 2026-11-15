@@ -2958,5 +2958,21 @@
     "height": 480,
     "sha256": "515da12e49dbb49bc1288482090b12241b05525dd1e1988755fb9eea5fbf7ffc",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1L7ZJI0RuPDbDhpJ_Iozow22P5Q6E0h7u",
+    "drive_name": "៣៤ អវិភូតារម្មណ៍ និងអតិអវិភូតារម្មណ៍ (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "e9116a6f4cc6aa144b897718650122e9",
+    "key": "video/e9116a6f4cc6aa14-480p.mp4",
+    "poster_key": "video/e9116a6f4cc6aa14-480p.webp",
+    "rendition": "480p",
+    "bytes": 70910706,
+    "duration_s": 3826,
+    "src_duration_s": 3826,
+    "width": 854,
+    "height": 480,
+    "sha256": "c297e1642ba4c35d75821b9c649ecd94195e7a7474ba35a01baeca44f31a479d",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
