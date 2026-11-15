@@ -302,5 +302,21 @@
     "height": 480,
     "sha256": "e797e7cb341ac6177be6a568101dccdfe7b2217bfaed9297367ccedce99d5c13",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1EXDuFP27GT6aoJAespfFjWC4DKB-nrOm",
+    "drive_name": "០៣ ហេតុនាំឱ្យកើតមនោទ្វារមាន ១៤ យ៉ាង (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "a960ef9879660257e8b788b73ee3f797",
+    "key": "video/a960ef9879660257-480p.mp4",
+    "poster_key": "video/a960ef9879660257-480p.webp",
+    "rendition": "480p",
+    "bytes": 93196256,
+    "duration_s": 4515,
+    "src_duration_s": 4515,
+    "width": 854,
+    "height": 480,
+    "sha256": "1a2f294917b5a6ea93cb3b1ccab5fd8cc5bd9173146cc87789ad21bac6902269",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
