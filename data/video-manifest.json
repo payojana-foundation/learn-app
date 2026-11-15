@@ -2494,5 +2494,21 @@
     "height": 480,
     "sha256": "d20cc5ea71f7b5d41b70fff389e8c9635d5514ab80f86a5e6fc57125253d074e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1fwl4wBqcPPSiY-hepaXz94V0AhJrrHXL",
+    "drive_name": "២៤ អាហាររូប និងបរិច្ឆេទរូប (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "08e4b367c0f90480bfcaf2357fe0cd26",
+    "key": "video/08e4b367c0f90480-480p.mp4",
+    "poster_key": "video/08e4b367c0f90480-480p.webp",
+    "rendition": "480p",
+    "bytes": 108349786,
+    "duration_s": 5174,
+    "src_duration_s": 5174,
+    "width": 854,
+    "height": 480,
+    "sha256": "f07958f8e6505765649d65330149d622de02f949541897b6fda5da51ce50df90",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
