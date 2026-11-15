@@ -2446,5 +2446,21 @@
     "height": 480,
     "sha256": "09d1e6e750b656544d1618c7c31b3eb3f569b4a8676c047c3dbe0b3a7bc1686b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1lDLArHeITFfoa0uAQkOj-gOLbT9Uo0CD",
+    "drive_name": "២៣ ទិដ្ឋិចេតសិក ការួបរឹតដោយទិដ្ឋិ ១៦យ៉ាង (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "e9657b65d026e108c97569e7a13ffb47",
+    "key": "video/e9657b65d026e108-480p.mp4",
+    "poster_key": "video/e9657b65d026e108-480p.webp",
+    "rendition": "480p",
+    "bytes": 116590736,
+    "duration_s": 5167,
+    "src_duration_s": 5167,
+    "width": 854,
+    "height": 480,
+    "sha256": "34a83cd3460b22a7497e9904b891510e6972ae42f523d4196895a11ae8710844",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
