@@ -3502,5 +3502,21 @@
     "height": 480,
     "sha256": "c863f2190db4488b3ca844c792de9330b2b2ada9c7d8b467ba1b14b2e8101fcd",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1J3epNW7nWfUvVZCoZz7FlN6OSN31Gq_n",
+    "drive_name": "៣៣ ចែករូបជាឯកវិធន័យចប់ចូលអជ្ឈត្តិក និងពហិទ្ធរូប (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "ab919e925f8e201f76ba2987b3c8dc8a",
+    "key": "video/ab919e925f8e201f-480p.mp4",
+    "poster_key": "video/ab919e925f8e201f-480p.webp",
+    "rendition": "480p",
+    "bytes": 113053561,
+    "duration_s": 4622,
+    "src_duration_s": 4622,
+    "width": 854,
+    "height": 480,
+    "sha256": "d236dd44cbe9b34cf1756a0341bfb4925f06032970e80c05c588b05fc80b1c63",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
