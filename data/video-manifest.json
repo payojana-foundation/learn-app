@@ -1950,5 +1950,21 @@
     "height": 480,
     "sha256": "cac7a126205e7ee6d9f1f187ff1c250bd174648c04a2264a5c354f5a73d03e52",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1nvROq8kMlA6EGutT_d_Y3Csru25jvvVN",
+    "drive_name": "5-៨៤ បញ្ញាបារមី មហោសថ បុគ្គលមានប្រាជ្ញានិងអ្នកមានយស ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​.mp4",
+    "source_md5": "f545d64ae2004171401921df018ecedc",
+    "key": "video/f545d64ae2004171-480p.mp4",
+    "poster_key": "video/f545d64ae2004171-480p.webp",
+    "rendition": "480p",
+    "bytes": 82572699,
+    "duration_s": 4332,
+    "src_duration_s": 4332,
+    "width": 854,
+    "height": 480,
+    "sha256": "ed4baa7b3f079f44367e2d534492c20fc3f85747d628d0ad94b10aa3c4fa8e7e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
