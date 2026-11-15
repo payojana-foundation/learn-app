@@ -1566,5 +1566,21 @@
     "height": 480,
     "sha256": "a3c1fc87ee8fd9a87543fa7f83ff9e1c9d96419bf9f8d4fa28c2218e7ab50d33",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1La5A29klaPj54BJLuNIR3eO4Ij85tvkD",
+    "drive_name": "១៥ លោភមូលចិត្តដួងទី១ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "747b114ca31f9af6926ad2f767998e27",
+    "key": "video/747b114ca31f9af6-480p.mp4",
+    "poster_key": "video/747b114ca31f9af6-480p.webp",
+    "rendition": "480p",
+    "bytes": 82267621,
+    "duration_s": 4436,
+    "src_duration_s": 4436,
+    "width": 854,
+    "height": 480,
+    "sha256": "706321fdff15160471bb25bff197ada265c1aa6814d5622bf59e96c5c122b2cf",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
