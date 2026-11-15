@@ -1710,5 +1710,21 @@
     "height": 480,
     "sha256": "f13b6ff8b6185a2c91c38cd6e8625542ed1660d59d3d7268fd8d047b854bb5b2",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1z1jeB5x3E6dAPQZoa6d0lVN4tUFVssDC",
+    "drive_name": "២០ មិស្សកមនោទ្វារវិថី អតីតគណហណៈប្រភេទី១ទី២ (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "c821a7a287a4472d3e4161c3f338d234",
+    "key": "video/c821a7a287a4472d-480p.mp4",
+    "poster_key": "video/c821a7a287a4472d-480p.webp",
+    "rendition": "480p",
+    "bytes": 95074022,
+    "duration_s": 4795,
+    "src_duration_s": 4795,
+    "width": 854,
+    "height": 480,
+    "sha256": "00fbd797158d3a475e82ffc8f996e3c34cdd34b8592a867099879accd7d6b66b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
