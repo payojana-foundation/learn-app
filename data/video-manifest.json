@@ -1886,5 +1886,21 @@
     "height": 480,
     "sha256": "129973dc3e094f29b2a6322cfaf903bc0ac0209f6c3eab428bf13b99e8d83918",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Nu4qP8lDVC45GW6Whib8hoFKLxQrGzPA",
+    "drive_name": "១៣ វេទនាសង្គហៈ ចែកវេទនាដោយឥន្រ្ទិយ៥​ ជាបន្ត (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "62fce89adab32ba915771b35b195252e",
+    "key": "video/62fce89adab32ba9-480p.mp4",
+    "poster_key": "video/62fce89adab32ba9-480p.webp",
+    "rendition": "480p",
+    "bytes": 97013487,
+    "duration_s": 4943,
+    "src_duration_s": 4943,
+    "width": 854,
+    "height": 480,
+    "sha256": "8f2957f757b378113f8e73f11cf3069ed83fb2e4f9ad9e6e28de33f1e1f27b7e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
