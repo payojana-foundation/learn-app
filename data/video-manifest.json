@@ -1518,5 +1518,21 @@
     "height": 480,
     "sha256": "a463af34c6e03aed131f77cd41fa496233bb4932b88452c4a3cfb2ab0d9a1ac7",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1J2wbOVPVArSS95DIpM5miCuQdcUUFNRR",
+    "drive_name": "១៤ ចក្ខុបសាទរូប បញ្ញាចក្ខុ ៥ យ៉ាង និងចក្ខុចែកជា១៣ យ៉ាង (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "e4f0cce2117ac0777bf728fc8259352b",
+    "key": "video/e4f0cce2117ac077-480p.mp4",
+    "poster_key": "video/e4f0cce2117ac077-480p.webp",
+    "rendition": "480p",
+    "bytes": 54728867,
+    "duration_s": 2661,
+    "src_duration_s": 2661,
+    "width": 854,
+    "height": 480,
+    "sha256": "e1f23781c83842fe1e2ae68053c7bc8821b7c37a867fde395a7157ca9b07f535",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
