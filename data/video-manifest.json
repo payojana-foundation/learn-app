@@ -2334,5 +2334,21 @@
     "height": 480,
     "sha256": "429f42f309819e38090da221ea1e52f3169d8943acede2f71125f4e219e7bbf5",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1H11Pxqp5Rmt08DU3bO9NnExDoDetPubc",
+    "drive_name": "8-៨៨ មហោសថជាតក ពោធិសត្វត្រូវព្រះរាជាចោទរត់ចោលផ្ទះ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​.mp4",
+    "source_md5": "91d9ac97024b457e862f6b26b6220529",
+    "key": "video/91d9ac97024b457e-480p.mp4",
+    "poster_key": "video/91d9ac97024b457e-480p.webp",
+    "rendition": "480p",
+    "bytes": 91829663,
+    "duration_s": 4383,
+    "src_duration_s": 4383,
+    "width": 854,
+    "height": 480,
+    "sha256": "a4552cd7fb6122bff34c4947f3b2fd334268eb8e495a49b61c74b17cb152e38a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
