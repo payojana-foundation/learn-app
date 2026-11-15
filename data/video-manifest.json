@@ -702,5 +702,21 @@
     "height": 480,
     "sha256": "d2a1d668cefdf57701cba09dc2bbed2d33dc82d69d36ff093d343f2def850368",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1PBXADGiNoG6zzhM1y_B0pjs2uIyzOGhk",
+    "drive_name": "០៧ ហេតុនាំឲ្យកើតវេទនាមាន៥យ៉ាង (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "a4efa5d3bed684308d9e41665457068f",
+    "key": "video/a4efa5d3bed68430-480p.mp4",
+    "poster_key": "video/a4efa5d3bed68430-480p.webp",
+    "rendition": "480p",
+    "bytes": 94292333,
+    "duration_s": 4442,
+    "src_duration_s": 4442,
+    "width": 854,
+    "height": 480,
+    "sha256": "ff4f7038425d287e3478f2e87b5c63c710b86805daa94be37bde0fd302823244",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
