@@ -3646,5 +3646,21 @@
     "height": 480,
     "sha256": "d5fe3d93949fd825e30515de51da62f1e148d490f236b987f75085245d9b02ac",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1tuMmRUeuo5BxREIfywOvdWP-LeIBO9HP",
+    "drive_name": "32.ភាគ៣២ កុក្កុច្ចចេតសិក ការក្ដៅក្រហាយចិត្ត (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "056bebf380a2ddef389036253257d2de",
+    "key": "video/056bebf380a2ddef-480p.mp4",
+    "poster_key": "video/056bebf380a2ddef-480p.webp",
+    "rendition": "480p",
+    "bytes": 148935588,
+    "duration_s": 5507,
+    "src_duration_s": 5507,
+    "width": 854,
+    "height": 480,
+    "sha256": "385c8275ca6f6780540419a1ac475396a50e237b6e01bab83a4949acd8ef179f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
