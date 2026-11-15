@@ -1470,5 +1470,21 @@
     "height": 480,
     "sha256": "69e49a98ff50dad1e51bf08860419ae1713b41485e3c9adc786fe2e034037fd4",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1iajWZM53n1HDtU23q84cJsaZ68TRrIY-",
+    "drive_name": "១៧ អតិបរិត្តារម្មណ៍ អារម្មណ៍តូចបំផុតមាន៦ឬ៧យ៉ាង (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "cc1d8e40faa3af99bdf546067a6dc8a3",
+    "key": "video/cc1d8e40faa3af99-480p.mp4",
+    "poster_key": "video/cc1d8e40faa3af99-480p.webp",
+    "rendition": "480p",
+    "bytes": 91888302,
+    "duration_s": 4720,
+    "src_duration_s": 4720,
+    "width": 854,
+    "height": 480,
+    "sha256": "b6806e2378bc12691d822a6c051f2e0211f6bc6c1506c2d81f57bb01460c2190",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
