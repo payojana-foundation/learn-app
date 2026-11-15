@@ -1,0 +1,18 @@
+[
+  {
+    "kind": "video",
+    "drive_file_id": "1YEC2znFI5PhDgHRRdKAUPky4AZhA9v-u",
+    "drive_name": "1-ពាក្យថា (មារ) video_2026-05-22_08-50-40.mp4",
+    "source_md5": "703d02b3f934685b1111ee479c27eb2f",
+    "key": "video/703d02b3f934685b-480p.mp4",
+    "poster_key": "video/703d02b3f934685b-480p.webp",
+    "rendition": "480p",
+    "bytes": 18063424,
+    "duration_s": 964,
+    "src_duration_s": 964,
+    "width": 388,
+    "height": 480,
+    "sha256": "ff8785606fe688819aa8f36a274f67ec64d87c859d7e69119befee11e059a1df",
+    "status": "DRAFT – needs reviewer approval"
+  }
+]
