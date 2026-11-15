@@ -3214,5 +3214,21 @@
     "height": 480,
     "sha256": "0446349d1c649c4ce1c03d0f6bf0d810c75affcbed0d37a988cfecbdf245849e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1oCGm5hqDwbDPfWuFSa_iWKSDPzh3G4tw",
+    "drive_name": "៣៦ អប្បនាជវនវារៈ វិថីចិត្តមុនសម្រេចអប្បនាឈាន (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "3c2621020e8ae1b389a9cc3d0d5905e6",
+    "key": "video/3c2621020e8ae1b3-480p.mp4",
+    "poster_key": "video/3c2621020e8ae1b3-480p.webp",
+    "rendition": "480p",
+    "bytes": 91548864,
+    "duration_s": 4715,
+    "src_duration_s": 4715,
+    "width": 854,
+    "height": 480,
+    "sha256": "acc03b0eac6b15a5f0f5cea8fdc83c54ea83642637e4b8df4ad531cabd2e42f9",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
