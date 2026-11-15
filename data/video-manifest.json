@@ -1774,5 +1774,21 @@
     "height": 480,
     "sha256": "7b865d4629318c7aea076a6729086ce0effa539e85e247ea356d04213e4e55a3",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ckiWd7stCNQI45LIJ0dvHxIqwnwlcM5f",
+    "drive_name": "3-មហោសថជាតក.mp4",
+    "source_md5": "4973538f407de767b38562d5987cc688",
+    "key": "video/4973538f407de767-480p.mp4",
+    "poster_key": "video/4973538f407de767-480p.webp",
+    "rendition": "480p",
+    "bytes": 68564170,
+    "duration_s": 3168,
+    "src_duration_s": 3168,
+    "width": 854,
+    "height": 480,
+    "sha256": "1e80f2ca89dd0acd8b917df4b0fc9bca5e15937d3d9ef997b0490e534c75f34d",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
