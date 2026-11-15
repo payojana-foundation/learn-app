@@ -2430,5 +2430,21 @@
     "height": 480,
     "sha256": "cdf2721994190d79159de75121156c06ee4866aafc78f6d9930c94e50a91708f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1zO-a6TGMmNpZC__bUvTjtD7MfjWRBRV-",
+    "drive_name": "២២ លោភមូលចិត្តដួងទី៧ ទី៨ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "d07d40a8bec27cfde62979021cab2061",
+    "key": "video/d07d40a8bec27cfd-480p.mp4",
+    "poster_key": "video/d07d40a8bec27cfd-480p.webp",
+    "rendition": "480p",
+    "bytes": 73136916,
+    "duration_s": 3800,
+    "src_duration_s": 3800,
+    "width": 854,
+    "height": 480,
+    "sha256": "09d1e6e750b656544d1618c7c31b3eb3f569b4a8676c047c3dbe0b3a7bc1686b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
