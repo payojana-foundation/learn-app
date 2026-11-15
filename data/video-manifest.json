@@ -398,5 +398,21 @@
     "height": 480,
     "sha256": "eb19584b467da1a60dec59434a6646c4f3300735dc02e6caaa7e4b3079379471",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1DveeqLCr84IBZAXFdojjsz27kVPHNhdl",
+    "drive_name": "០៤ ចែកចិត្តនិងបុគ្គល និងភូមិទាំង ៣១ (បរិច្ឆេទ ទី៤ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "40261b97499c8bf9e961ff09b0168ec8",
+    "key": "video/40261b97499c8bf9-480p.mp4",
+    "poster_key": "video/40261b97499c8bf9-480p.webp",
+    "rendition": "480p",
+    "bytes": 82188243,
+    "duration_s": 3957,
+    "src_duration_s": 3957,
+    "width": 854,
+    "height": 480,
+    "sha256": "2aaa2fc5ba77c82987612a78ff64fc6fcbb868bd848ea1dab1e7fb8de72afc1c",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
