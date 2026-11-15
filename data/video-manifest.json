@@ -734,5 +734,21 @@
     "height": 480,
     "sha256": "05b62908852c8952d17450d30d8f6bf35a4067fc12cee18e8b65188eb59e7101",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1c5O1BxnkT0UISSggU5Xo5MISuIkPhPDp",
+    "drive_name": "០៧ ពាក្យថានិព្វាន (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "b4ad004ee02b8293b9c66f4dd4f80b87",
+    "key": "video/b4ad004ee02b8293-480p.mp4",
+    "poster_key": "video/b4ad004ee02b8293-480p.webp",
+    "rendition": "480p",
+    "bytes": 74692330,
+    "duration_s": 3713,
+    "src_duration_s": 3713,
+    "width": 854,
+    "height": 480,
+    "sha256": "94bcff8ad83680f0c5c9446289275117096f89f3c7ae158ba7207027231e0e3b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
