@@ -2510,5 +2510,21 @@
     "height": 480,
     "sha256": "f07958f8e6505765649d65330149d622de02f949541897b6fda5da51ce50df90",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1L3Y0gR-vVh0OZZhA9_XhXHqMvHN_fJak",
+    "drive_name": "២៣ លក្ខណាទិចតុក្ករបស់លោភមូលចិត្ត (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "4737d6264c186d98f5dd0125b524e9c3",
+    "key": "video/4737d6264c186d98-480p.mp4",
+    "poster_key": "video/4737d6264c186d98-480p.webp",
+    "rendition": "480p",
+    "bytes": 62776837,
+    "duration_s": 3289,
+    "src_duration_s": 3289,
+    "width": 854,
+    "height": 480,
+    "sha256": "aa1d604b74ac45924f8820fdc831faa2aaa8b20aa331be7ae440a38cde62726f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
