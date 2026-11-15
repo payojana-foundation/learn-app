@@ -1678,5 +1678,21 @@
     "height": 480,
     "sha256": "9a719967dc050de89e221e0366ff0d7844a5df748aa8fc0173e806711ce86ed2",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1pZchfbtHMJzpxEMxzbqbBPww9UjW9dcr",
+    "drive_name": "១៦ ជិវ្ហាបសាទ​ កាយបសាទរូប (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "8a8f9f48087392ca70b60153d9d46058",
+    "key": "video/8a8f9f48087392ca-480p.mp4",
+    "poster_key": "video/8a8f9f48087392ca-480p.webp",
+    "rendition": "480p",
+    "bytes": 108261661,
+    "duration_s": 5095,
+    "src_duration_s": 5095,
+    "width": 854,
+    "height": 480,
+    "sha256": "ce462277229ddbbf9519d7b870fe54adbefb543263485342ef8bbba7e3d58cab",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
