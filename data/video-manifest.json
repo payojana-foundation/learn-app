@@ -3070,5 +3070,21 @@
     "height": 480,
     "sha256": "70d4f10eafc89af1f8b09a06571ef17fc2e6fb4d81ecef3e4085dbb75e786058",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1OF6Im1EIcRFCoRQhSp1vEupPM1uaqN15",
+    "drive_name": "២៩ មានចេតសិក សេចក្តីស្រវឹងមាន ២៧ យ៉ាង (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "6686c06a2642885a3d42fb608a6dafde",
+    "key": "video/6686c06a2642885a-480p.mp4",
+    "poster_key": "video/6686c06a2642885a-480p.webp",
+    "rendition": "480p",
+    "bytes": 129617671,
+    "duration_s": 5488,
+    "src_duration_s": 5488,
+    "width": 854,
+    "height": 480,
+    "sha256": "a42c0a72307014c9fb2949a98392a65ea685486c42da045e1e57d8309b8fda47",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
