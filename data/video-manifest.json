@@ -190,5 +190,21 @@
     "height": 480,
     "sha256": "85ebea7692021096cbb6a0e313d67c57ce325d70ab4f96ba8e836fb6d74f8748",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1fTYC44yR_RzO6YnD60I-mv_rJZObr9lc",
+    "drive_name": "8-តើពាក្យ បរិយត្តិ បរិយត្តិធម្ម បរិយត្តិសទ្ធម្ម បរិយត្តិសាសនា ធម្មបរិយត្តិ ដូចគ្នា ឬយ៉ាងណា video_2026-05-22_08-51-44.mp4",
+    "source_md5": "c9cefe3166261393eb39fa03ec442825",
+    "key": "video/c9cefe3166261393-480p.mp4",
+    "poster_key": "video/c9cefe3166261393-480p.webp",
+    "rendition": "480p",
+    "bytes": 24088089,
+    "duration_s": 1303,
+    "src_duration_s": 1302,
+    "width": 404,
+    "height": 480,
+    "sha256": "ca685286bee52c5e374d11ac20092ffdf06a19f8a340a62db774ffddd8e8cd3b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
