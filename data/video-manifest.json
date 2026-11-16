@@ -16542,5 +16542,21 @@
     "height": 480,
     "sha256": "1b06d6ad43b8d2941f8b2212b3b170ca5de984adf45e48c2e861f9fa4822500d",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1iBGGomMaYAj-E1y0NgKzuDAyE8Ij0_da",
+    "drive_name": "៨៩ អរូបាវចរកុសលចិត្ត ៤ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៨៩ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "cd1845dca43d1fa0800a035e75833cbd",
+    "key": "video/cd1845dca43d1fa0-480p.mp4",
+    "poster_key": "video/cd1845dca43d1fa0-480p.webp",
+    "rendition": "480p",
+    "bytes": 72912016,
+    "duration_s": 3603,
+    "src_duration_s": 3603,
+    "width": 854,
+    "height": 480,
+    "sha256": "a491f24fc9da5b6056d4e4e4ec990a5202334ad1ad0cd92d487ee5e5a0ea2732",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
