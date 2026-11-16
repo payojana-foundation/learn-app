@@ -5178,5 +5178,21 @@
     "height": 480,
     "sha256": "7884935cefe0032b56f45d2843a69cd1a6ced11d0874b2f439f0c3afba98b083",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1FYw_ugZLtsxTX8Qm6tAYHQgdFbC2bXVa",
+    "drive_name": "៤០ អលោភចេតសិក អទោសចេតសិក (បរិច្ឆេទ​ ទី២ ឆ្នាំ ២០២៤).mp4",
+    "source_md5": "61276dc3c7eeee18d7122fd342450bd3",
+    "key": "video/61276dc3c7eeee18-480p.mp4",
+    "poster_key": "video/61276dc3c7eeee18-480p.webp",
+    "rendition": "480p",
+    "bytes": 107694659,
+    "duration_s": 5189,
+    "src_duration_s": 5189,
+    "width": 854,
+    "height": 480,
+    "sha256": "3b23e717731a8a913fc530e8a44296298af2d35b7292e853d1fc6ee171972c52",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
