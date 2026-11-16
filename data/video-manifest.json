@@ -13730,5 +13730,21 @@
     "height": 480,
     "sha256": "267c93499dd771f7b4e23a7ba5c97f5c9334d30975fc55f3f61bd59a26d1f185",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1RIFq9f1tGvQhG-FYo_l59OLkTRkl46Lj",
+    "drive_name": "18-ញាណទស្សនៈ.mp4",
+    "source_md5": "ccf99475ce85afb5b09be5c2ff480020",
+    "key": "video/ccf99475ce85afb5-480p.mp4",
+    "poster_key": "video/ccf99475ce85afb5-480p.webp",
+    "rendition": "480p",
+    "bytes": 109116278,
+    "duration_s": 5467,
+    "src_duration_s": 5467,
+    "width": 854,
+    "height": 480,
+    "sha256": "7cd9b96ed0e93fc91c668ad654edb5969af730e8609602647d6c7aed0fb1ea13",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
