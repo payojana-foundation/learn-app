@@ -8362,5 +8362,21 @@
     "height": 480,
     "sha256": "42bb68b470069b67b690ab6f380c594e819fc41443b5df7b6143891101bf580a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1trS_VnMKsoB99d_8beiccrXZLssU2Sr_",
+    "drive_name": "18 សម្តែងពីមហាបទេស ៤ យ៉ាង (បិដកលេខ ១៦).mp4",
+    "source_md5": "3cfeeef20bf60c3fa37676cc6b552795",
+    "key": "video/3cfeeef20bf60c3f-480p.mp4",
+    "poster_key": "video/3cfeeef20bf60c3f-480p.webp",
+    "rendition": "480p",
+    "bytes": 161221455,
+    "duration_s": 5386,
+    "src_duration_s": 5386,
+    "width": 854,
+    "height": 480,
+    "sha256": "b6e5aea8bd59f49a9ea4792c2cb103057300a08ca79652e791bc155603113158",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
