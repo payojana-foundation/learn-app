@@ -7866,5 +7866,21 @@
     "height": 480,
     "sha256": "234e08e7f17a706486f92527f8b016949c8a8cecf64f6b9731c45b0f3d8071e9",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1VeInfsh3kEtqlpSATS2l7Oy0TOtAIED0",
+    "drive_name": "12 សង្គីតិសូត្រ តិកនិទ្ទេស ធម៌ពួក៣ (បិដកលេខ ១៩).mp4",
+    "source_md5": "1ac7d8e985c7532b95ae81747986d09a",
+    "key": "video/1ac7d8e985c7532b-480p.mp4",
+    "poster_key": "video/1ac7d8e985c7532b-480p.webp",
+    "rendition": "480p",
+    "bytes": 152682755,
+    "duration_s": 5688,
+    "src_duration_s": 5688,
+    "width": 854,
+    "height": 480,
+    "sha256": "439f190bc07a2fe51cbbabaddbdbc9cf6da5ee8e0031ed2b54605e58f4b48482",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
