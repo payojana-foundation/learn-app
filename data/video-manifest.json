@@ -6826,5 +6826,21 @@
     "height": 480,
     "sha256": "7dd8b935aec356c4b56f795f0da27bf1241f1e63ee2b246061223fa0486ab152",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1idGHVizbkS5wiUtECz2naMXGECk8FpzC",
+    "drive_name": "០១  លក្ខណសូត្រ និយាយពីមហាបុរិសលក្ខណ៣២ (បិដកលេខ ១៩).mp4",
+    "source_md5": "a05a5a976c6632b3968dc8c15388fb38",
+    "key": "video/a05a5a976c6632b3-480p.mp4",
+    "poster_key": "video/a05a5a976c6632b3-480p.webp",
+    "rendition": "480p",
+    "bytes": 118322370,
+    "duration_s": 5312,
+    "src_duration_s": 5312,
+    "width": 854,
+    "height": 480,
+    "sha256": "90cdb855a73c7a919b1c795f8fc702092b4a1ac07e8e7b915a4f12de8085ef50",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
