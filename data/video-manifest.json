@@ -7130,5 +7130,21 @@
     "height": 480,
     "sha256": "e919be684098f756bf19a3475b6a4159cbc7f37183743de4f7f0bec6db8a9f2b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1yPoL1D06_BqzzSh1xYEnOOAyOBYCSXFH",
+    "drive_name": "០៥ សេក្ខបុគ្គលនិងព្រះអរហន្តលះការប្រកាន់ (បិដកលេខ ២០).mp4",
+    "source_md5": "76e9ebae3fb40b9fe7f632616e24e125",
+    "key": "video/76e9ebae3fb40b9f-480p.mp4",
+    "poster_key": "video/76e9ebae3fb40b9f-480p.webp",
+    "rendition": "480p",
+    "bytes": 123536736,
+    "duration_s": 5272,
+    "src_duration_s": 5272,
+    "width": 854,
+    "height": 480,
+    "sha256": "a9a4f1de76fdee7e2f7c8c7fc3ade2c06288eb9d713451c54a0c53f808c31b14",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
