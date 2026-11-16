@@ -8266,5 +8266,21 @@
     "height": 480,
     "sha256": "cdc4fc6cb5f2d3d8cdb713b28a6b44b022889beb05014847001d9105b73ab064",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1VwkzoCyA3s6vcsYTTJAVo1z7WTzpKjdz",
+    "drive_name": "២២ សាលេយ្យកសូត្រទី១ ផលនៃការប្រព្រឹត្តស្មើនិងមិនស្មើ (បិដកលេខ ២២).mp4",
+    "source_md5": "db49c252ca125c2b0da6464c66ce9624",
+    "key": "video/db49c252ca125c2b-480p.mp4",
+    "poster_key": "video/db49c252ca125c2b-480p.webp",
+    "rendition": "480p",
+    "bytes": 143673175,
+    "duration_s": 6835,
+    "src_duration_s": 6835,
+    "width": 854,
+    "height": 480,
+    "sha256": "3029ba04ea5df995f25913eeff8a9a2c4c999413e47700f62a74625b0675fc8a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
