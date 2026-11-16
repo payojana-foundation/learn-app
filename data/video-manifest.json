@@ -5098,5 +5098,21 @@
     "height": 480,
     "sha256": "4acab4ed8be3dbf2c4d2dc2071429ba1b675a7c9751bbc4d1329bd608ae8cb42",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "14WHu1IFXSBjJn3WO1leB9_zCVkakkk_X",
+    "drive_name": "៣៩ ផ្សាយមេត្តាចិត្តចំពោះខ្លួនឯងនិងអ្នកដទៃ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "8cfd1cc487979a22ff8f379b1c17c434",
+    "key": "video/8cfd1cc487979a22-480p.mp4",
+    "poster_key": "video/8cfd1cc487979a22-480p.webp",
+    "rendition": "480p",
+    "bytes": 71418080,
+    "duration_s": 3885,
+    "src_duration_s": 3885,
+    "width": 854,
+    "height": 480,
+    "sha256": "b107e7529db568e9d3355fee6352c2f023062dec510f91e2923a4268254b2258",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
