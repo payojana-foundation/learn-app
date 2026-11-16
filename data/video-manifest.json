@@ -8474,5 +8474,21 @@
     "height": 480,
     "sha256": "8330823cec20de56b57c7a6b40bd4c49165effac1c428e0ef25279c0fdcb4cb2",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "12EWN-Z6KzWHMZZ-hAj2su_nMqrIz89cg",
+    "drive_name": "19 ទទួលចង្ហាន់នាយចុន្ទហើយអាពាធកាន់តែខ្លាំង(បិដកលេខ ១៦).mp4",
+    "source_md5": "3e7aa2ba5e300e5ce708084d47c080e1",
+    "key": "video/3e7aa2ba5e300e5c-480p.mp4",
+    "poster_key": "video/3e7aa2ba5e300e5c-480p.webp",
+    "rendition": "480p",
+    "bytes": 246974534,
+    "duration_s": 5330,
+    "src_duration_s": 5330,
+    "width": 854,
+    "height": 480,
+    "sha256": "c78896f287288334983e6287b621b8fb439810fe0d359cf2c637ad58902206a4",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
