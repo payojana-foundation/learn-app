@@ -14702,5 +14702,21 @@
     "height": 480,
     "sha256": "ee2190acf64a85043a15158be90e1e89a8d54b9c171e3f43adeec8b399092c28",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Z9xJ9VaAu_SXALImisSmGStH7WQVd_Kb",
+    "drive_name": "៦០ ហេតុឱ្យកេីតកុសលញាណសម្បយុត្ត​ និងវិប្បយុត្ត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៦០ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "520e90732b2542a2fa896b26538b9409",
+    "key": "video/520e90732b2542a2-480p.mp4",
+    "poster_key": "video/520e90732b2542a2-480p.webp",
+    "rendition": "480p",
+    "bytes": 67514161,
+    "duration_s": 3186,
+    "src_duration_s": 3186,
+    "width": 854,
+    "height": 480,
+    "sha256": "18b104a79a846516b53033f741700608ce936188464d42f17994da189843b5d3",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
