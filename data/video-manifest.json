@@ -3918,5 +3918,21 @@
     "height": 480,
     "sha256": "70859631066149f3f548d6d6e60658e11160a5480966e873a6092be64d83e02d",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1J5gxiirOVXF8cw-SUaQw6MYgo9Lj6NKs",
+    "drive_name": "៣៤ ផលរបស់លោភមូលចិត្តបច្ចុប្បន្ននិងអនាគត (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "39ba669b788ed159cc8f16edc1cf10ca",
+    "key": "video/39ba669b788ed159-480p.mp4",
+    "poster_key": "video/39ba669b788ed159-480p.webp",
+    "rendition": "480p",
+    "bytes": 68368785,
+    "duration_s": 3593,
+    "src_duration_s": 3593,
+    "width": 854,
+    "height": 480,
+    "sha256": "9d37817edcbc145d867747ea0685e281ff3a2ed187250176d24e54da7e7d6fe5",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
