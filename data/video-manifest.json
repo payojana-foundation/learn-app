@@ -7386,5 +7386,21 @@
     "height": 480,
     "sha256": "c5836e30e9fdcfca1a620dd4baf888195b7458b38313f989f1acadae9972ed55",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Dt1k2_YB-54pxXVwDIpaTJz7dqcNj-In",
+    "drive_name": "០7 ព្រះសារីបុត្តសរសើរគុណព្រះពុទ្ធផ្សេងៗ(បិដកលេខ ១៨).mp4",
+    "source_md5": "1606c237292d20d41113310596c30ddf",
+    "key": "video/1606c237292d20d4-480p.mp4",
+    "poster_key": "video/1606c237292d20d4-480p.webp",
+    "rendition": "480p",
+    "bytes": 141978795,
+    "duration_s": 5343,
+    "src_duration_s": 5343,
+    "width": 854,
+    "height": 480,
+    "sha256": "4c6597730a0291c3fd7f0c73cb45b7c8fff5f521c06c95c483a006d5d18b2024",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
