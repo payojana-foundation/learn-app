@@ -8170,5 +8170,21 @@
     "height": 480,
     "sha256": "bfce20a61cfa16d2a4bdb3445b2334644f7af34b45995a308e1fa014faf7c7d4",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1kVVU5UOfo9rneuJgYTAbbL3PAtTrODpL",
+    "drive_name": "18 អនង្គណសូត្រ ការមិនត្រេកអរ របស់ភិក្ខុ (បិដកលេខ ២០ ).mp4",
+    "source_md5": "8f8abdffff52fbe6dc84fa2a05917c5f",
+    "key": "video/8f8abdffff52fbe6-480p.mp4",
+    "poster_key": "video/8f8abdffff52fbe6-480p.webp",
+    "rendition": "480p",
+    "bytes": 129318457,
+    "duration_s": 4815,
+    "src_duration_s": 4815,
+    "width": 854,
+    "height": 480,
+    "sha256": "55d06cc678e734430e915862e37c28205b07b8523c06cfb95403e686045a247e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
