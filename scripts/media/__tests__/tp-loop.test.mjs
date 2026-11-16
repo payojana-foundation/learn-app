@@ -80,8 +80,8 @@ const BASH = findBash();
 const HAS_FFMPEG = BASH && spawnSync(BASH, ['-c', 'ffmpeg -version >/dev/null 2>&1']).status === 0;
 const run = HAS_FFMPEG ? it : it.skip;
 
-/** 24 s mono 44.1 kHz: syllable-modulated noise at a low level (≈ −30 LUFS) + a 4 ms thump near 0 dBFS every 6 s. */
-function quietPeakyWav(seconds = 24, rate = 44100) {
+/** 16 s mono 44.1 kHz: syllable-modulated noise at a low level (≈ −30 LUFS) + a 4 ms thump near 0 dBFS every 4 s. */
+function quietPeakyWav(seconds = 16, rate = 44100) {
   const n = seconds * rate;
   const buf = Buffer.alloc(44 + n * 2);
   buf.write('RIFF', 0); buf.writeUInt32LE(36 + n * 2, 4); buf.write('WAVE', 8); buf.write('fmt ', 12);
@@ -95,7 +95,7 @@ function quietPeakyWav(seconds = 24, rate = 44100) {
     const env = Math.max(0, Math.sin(2 * Math.PI * 3.1 * t)) ** 2 * (0.6 + 0.4 * Math.sin(2 * Math.PI * 0.21 * t));
     lp = 0.85 * lp + 0.15 * rnd(); // soft low-pass: speech-like spectrum
     let v = lp * env * 0.6;
-    const tc = t % 6; // a 4 ms mic thump (windowed 800 Hz burst) near 0 dBFS every 6 s
+    const tc = t % 4; // a 4 ms mic thump (windowed 800 Hz burst) near 0 dBFS every 6 s
     if (tc < 0.004) v += 0.88 * Math.sin(Math.PI * tc / 0.004) ** 2 * Math.sin(2 * Math.PI * 800 * tc);
     buf.writeInt16LE(Math.max(-32767, Math.min(32767, Math.round(v * 32767))), 44 + i * 2);
   }
