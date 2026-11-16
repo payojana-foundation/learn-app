@@ -10906,5 +10906,21 @@
     "height": 480,
     "sha256": "0fc0483c07843ef73a51d98c540b4e534d1e04188ff457b08e2e8c9bb5053d4b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ALS9Is4FIjfGz3oXzbCYMAcEk83n64TB",
+    "drive_name": "47 សតិប្បដ្ឋានសូត្រ ធម្មានុបស្សនាសតិប្បដ្ឋាន ព្យាបាទនីវរណៈ (បិដកលេខ ២០).mp4",
+    "source_md5": "81874bb06ddf22266e4faabb874b973b",
+    "key": "video/81874bb06ddf2226-480p.mp4",
+    "poster_key": "video/81874bb06ddf2226-480p.webp",
+    "rendition": "480p",
+    "bytes": 152929365,
+    "duration_s": 6988,
+    "src_duration_s": 6988,
+    "width": 854,
+    "height": 480,
+    "sha256": "8369cf132df6f276a6350f6a70540929c8e3b9d2f216b19f360a0ef350aa39c6",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
