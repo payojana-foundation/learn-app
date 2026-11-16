@@ -6858,5 +6858,21 @@
     "height": 480,
     "sha256": "4804f834b5640274f949754765d40d554636b7b68b74978469567fd13967942e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1VUJV_nHVCskJJxsYExNKtxcbLZ9l4lkn",
+    "drive_name": "០២ មូលបរិយាយសូត្រ មានះរបស់បុថុជ្ជនរៀនធម៌ (បិដកលេខ ២០).mp4",
+    "source_md5": "ebfea4389ccc8d3d24e6ffb393c78806",
+    "key": "video/ebfea4389ccc8d3d-480p.mp4",
+    "poster_key": "video/ebfea4389ccc8d3d-480p.webp",
+    "rendition": "480p",
+    "bytes": 138861044,
+    "duration_s": 5644,
+    "src_duration_s": 5644,
+    "width": 854,
+    "height": 480,
+    "sha256": "1699451ecee86a2c0bb3d9c3a3f1e4c34fcd87bad256890fb90d3775fbfdf1c9",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
