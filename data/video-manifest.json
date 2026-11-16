@@ -9914,5 +9914,21 @@
     "height": 360,
     "sha256": "b93f8a39d0350fb1597f20b43c202da5dcb0111f44c936766b940f00e1236de3",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1gACN4szVhfSPWAxqtY8n9hTJFkrlCHH0",
+    "drive_name": "២០ ចូឡហត្ថិបទោបមសូត្រ ការប្រកាសសម្តែងធម៌មានលម្អ៣បទ (បិដកលេខ ២១).mp4",
+    "source_md5": "5b57550630340d9b2fef64d3905a841a",
+    "key": "video/5b57550630340d9b-480p.mp4",
+    "poster_key": "video/5b57550630340d9b-480p.webp",
+    "rendition": "480p",
+    "bytes": 144515998,
+    "duration_s": 7138,
+    "src_duration_s": 7138,
+    "width": 854,
+    "height": 480,
+    "sha256": "3fd0c10eeca5c8f212748ca90d145aeb8a13db916bcd268e73b7071281684c86",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
