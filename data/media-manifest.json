@@ -92764,5 +92764,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1PVs3hMhT6F7LDBKcQFvJnsv4O7HSguqV",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៤៤ ព្រះពុទ្ធគុណ​ អរហំ សម្មាសម្ពុទ្ធោ.mp3",
+    "source_md5": "fe9c9dc1b4199cf58392e63a488879ca",
+    "key": "audio/fe9c9dc1b4199cf5-a64.mp3",
+    "bytes": 45453313,
+    "duration_s": 5681,
+    "sha256": "bda5b866d06e67d7dec67e697e1e69a9ea427693b0998c89bc52392954095a46",
+    "loudness": {
+      "pass1": {
+        "I": -25.7,
+        "TP": -0.8,
+        "LRA": 0
+      },
+      "G": 9.1,
+      "limit": 0.708,
+      "depth": 11.3,
+      "busy": 5.139132118310702,
+      "out": {
+        "I": -18,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
