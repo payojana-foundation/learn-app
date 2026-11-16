@@ -8906,5 +8906,21 @@
     "height": 480,
     "sha256": "4aa7cfbc6f9647f99fbbec90cac56e89888131572f6b672768ff9bc0c00a1dcc",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Kj7f1slQVbzJSsxulfIA9iaCkTg-YWGd",
+    "drive_name": "៣០ ចូឡវេទល្លសូត្រទី៤ វិសាខសួរពីការអនុស័យដេកត្រាំក្នុងវេទនា (បិដកលេខ ២២).mp4",
+    "source_md5": "ba9c0b9097febbbaddf3c004a6181037",
+    "key": "video/ba9c0b9097febbba-480p.mp4",
+    "poster_key": "video/ba9c0b9097febbba-480p.webp",
+    "rendition": "480p",
+    "bytes": 142039876,
+    "duration_s": 6873,
+    "src_duration_s": 6873,
+    "width": 854,
+    "height": 480,
+    "sha256": "9dcb8a76aaa60ee5253b4c2400eb64e79d7f81d2634a949097ec1116cc9b226c",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
