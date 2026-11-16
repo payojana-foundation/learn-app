@@ -92854,5 +92854,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Or9GIGvpb0QDxupnUnT4YltyNPG-olQS",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៤០.(១៤២ អាបចាយនៈ និងវេយ្យាវច្ចមយបុណ្យភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "8447415f03651a179f4f09e8a46a4991",
+    "key": "audio/8447415f03651a17-a64.mp3",
+    "bytes": 44882589,
+    "duration_s": 5610,
+    "sha256": "38563beb6493d366b821435515f5d76bab3bc40489fe6bcc5d64f01745273740",
+    "loudness": {
+      "pass1": {
+        "I": -23.1,
+        "TP": 0.3,
+        "LRA": 0
+      },
+      "G": 6.66,
+      "limit": 0.631,
+      "depth": 10.96,
+      "busy": 4.656836532805732,
+      "out": {
+        "I": -18,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
