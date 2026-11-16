@@ -9130,5 +9130,21 @@
     "height": 480,
     "sha256": "65c82efa08e4dcd3c793fec81486ec51362e868e1cd2430d0e570e48751f41cf",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ZV88rNH-0VVS8tJ9pRKlwubkAP0m77YN",
+    "drive_name": "26 ធម៌ពួក ៤ដល់ពួក៥ និងអដ្ឋកថា (បិដកលេខ ១៩).mp4",
+    "source_md5": "e0b48489c078b8574c3ce1d792ea0d93",
+    "key": "video/e0b48489c078b857-480p.mp4",
+    "poster_key": "video/e0b48489c078b857-480p.webp",
+    "rendition": "480p",
+    "bytes": 138003228,
+    "duration_s": 5249,
+    "src_duration_s": 5249,
+    "width": 854,
+    "height": 480,
+    "sha256": "94cdf2753008dce1177a0809b89fc22adc9f4fa4376330b4f136c980a556ac74",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
