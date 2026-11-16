@@ -14626,5 +14626,21 @@
     "height": 480,
     "sha256": "1559f4d73cd68fcd91122a98877f8cfde9f358339a4af7a55cd9e5931721017f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "17FD0yxOFVOqKWY2zaQRHZGcXb3F4fqJd",
+    "drive_name": "៥៩ ហេតុដែលនំាឲ្យកើតមហាកុសលសោមនស្សវេទនា ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៥៩ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "5882436d6c1006bcb7641e7fbc4aa389",
+    "key": "video/5882436d6c1006bc-480p.mp4",
+    "poster_key": "video/5882436d6c1006bc-480p.webp",
+    "rendition": "480p",
+    "bytes": 59410823,
+    "duration_s": 2890,
+    "src_duration_s": 2890,
+    "width": 854,
+    "height": 480,
+    "sha256": "5a887a28bdb200dfdb028cd723bc1fb26ac92a73b7934d0f921704c0e0a7f1ab",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
