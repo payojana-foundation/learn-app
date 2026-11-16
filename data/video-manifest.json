@@ -8330,5 +8330,21 @@
     "height": 480,
     "sha256": "cd7a71170e910cc4b1d2379cc6d03b6817341767714f4a32854af39b942c6111",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ScNOcY7SiOH0uvO_FzfDlEiC_SEaIogl",
+    "drive_name": "២៣ វេរញ្ជកសូត្រទី២ និងមហាវេទល្លសូត្រទី៣ពីការសួរ៥ យ៉ាងភិក្ខុអគ្គចិត្តោ(បិដកលេខ ២២).mp4",
+    "source_md5": "8da7f5626d2fd7b89035d56ab279eb17",
+    "key": "video/8da7f5626d2fd7b8-480p.mp4",
+    "poster_key": "video/8da7f5626d2fd7b8-480p.webp",
+    "rendition": "480p",
+    "bytes": 147850087,
+    "duration_s": 7129,
+    "src_duration_s": 7129,
+    "width": 854,
+    "height": 480,
+    "sha256": "5d76722f21a51f1251cc4a1f5f5b68d6b7dbea49064a66395749d48401dae07e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
