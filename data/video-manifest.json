@@ -9546,5 +9546,21 @@
     "height": 480,
     "sha256": "d8dd34237344f055c768eee9e783a8203917b2cc9c25d96f75085a45cb9ee82e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1aJCiSQTJl59xmt8wo_5RREVTdw5vnEDJ",
+    "drive_name": "៣៧ កោសម្ពិយសូត្រទី៧ ពន្យល់សាធារណភោគី សីលសាមញ្ញតា ទិដ្ឋិសាមញ្ញតា ភិក្ខុអគ្គចិត្តោ យ៉ុន យី (បិដកលេខ២២).mp4",
+    "source_md5": "0ef6fb04174aa061c3c41286ada64063",
+    "key": "video/0ef6fb04174aa061-480p.mp4",
+    "poster_key": "video/0ef6fb04174aa061-480p.webp",
+    "rendition": "480p",
+    "bytes": 134788312,
+    "duration_s": 7057,
+    "src_duration_s": 7057,
+    "width": 854,
+    "height": 480,
+    "sha256": "eb208eb2b48fa4fb3f79dba62d7d3589b975986cde25beefa2d2b02c62a3787b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
