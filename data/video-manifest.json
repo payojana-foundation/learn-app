@@ -9290,5 +9290,21 @@
     "height": 480,
     "sha256": "18f849f4f8b31ac3bf395704136d3056d2156eb86fb288160b765dc81296faba",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1fgfNZXnaw04tcyxyBVLY2oIaFAaS_cij",
+    "drive_name": "០៤ អដ្ឋកនាគរសូត្រទី២ ធម៌ឯកដើម្បីទៅកាន់ព្រះនិព្វាន ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២៣.mp4",
+    "source_md5": "285501dd298eac3bff20edbee6eb3c5e",
+    "key": "video/285501dd298eac3b-480p.mp4",
+    "poster_key": "video/285501dd298eac3b-480p.webp",
+    "rendition": "480p",
+    "bytes": 145560052,
+    "duration_s": 7026,
+    "src_duration_s": 7026,
+    "width": 854,
+    "height": 480,
+    "sha256": "89a915131dafa87124d1fa1264fd58119106fc706ccac612992e3cec66baccf0",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
