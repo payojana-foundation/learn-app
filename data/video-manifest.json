@@ -4030,5 +4030,21 @@
     "height": 480,
     "sha256": "23c4e246de0f5d1e6dcf027bdc3d636c1364485a93e7a634fb503c2be60e2a78",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1VtOL4P3LjVj41G6xoH4gspEvYAw_oIav",
+    "drive_name": "៣៧ រូបន័យទី ៣ កម្មជ្ជរូប រូបកើតកម្ម១៨ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "9ab8fe79c1fe390c959e8f34b26268a6",
+    "key": "video/9ab8fe79c1fe390c-480p.mp4",
+    "poster_key": "video/9ab8fe79c1fe390c-480p.webp",
+    "rendition": "480p",
+    "bytes": 102142658,
+    "duration_s": 4704,
+    "src_duration_s": 4704,
+    "width": 854,
+    "height": 480,
+    "sha256": "cf07c704a1f1930ed6021e905331f0188b7d7b6d490a615cd026dcc88065b523",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
