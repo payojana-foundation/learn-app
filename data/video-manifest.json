@@ -5402,5 +5402,21 @@
     "height": 480,
     "sha256": "ff9f3e5cb96005c664602442c6ae25b3525331f08054f41cd8dd52d4149d6959",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "17s0-8Rrb6ggzKnLXIMrtsGg3a4bEAqBX",
+    "drive_name": "៤១ ការពិចារណាដើម្បីលះបង់ទោសមូលចិត្ត (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "f7db0865b00fb497faac8fd54d63c4a9",
+    "key": "video/f7db0865b00fb497-480p.mp4",
+    "poster_key": "video/f7db0865b00fb497-480p.webp",
+    "rendition": "480p",
+    "bytes": 82459482,
+    "duration_s": 4616,
+    "src_duration_s": 4616,
+    "width": 854,
+    "height": 480,
+    "sha256": "880c88c0b5cee04b1fe1e6faac998c8763ccdd2a24b466825fefe20227c43caa",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
