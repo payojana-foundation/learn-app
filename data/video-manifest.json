@@ -7914,5 +7914,21 @@
     "height": 480,
     "sha256": "b152d333f13068469d8ff0c2007d958adb075bd5b3a2948833d6669d892e54d1",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1cjYvcwNTWAlMFVl1jVjxmE_bz57zzuG3",
+    "drive_name": "14 ការព្រមព្រៀងគ្នាអ្នកដែនវជ្ជី _ មហាបរិនិព្វានសូត្រ (បិដកលេខ ១៦).mp4",
+    "source_md5": "6a501635cb724e58e2f472b6bec897fb",
+    "key": "video/6a501635cb724e58-480p.mp4",
+    "poster_key": "video/6a501635cb724e58-480p.webp",
+    "rendition": "480p",
+    "bytes": 175441711,
+    "duration_s": 5136,
+    "src_duration_s": 5136,
+    "width": 854,
+    "height": 480,
+    "sha256": "ff78f97e9f330931ed2f08d8f61dbdbb8d35dc7e064d9594fd069ee2598228e2",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
