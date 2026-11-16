@@ -56,7 +56,8 @@ export function reasonsFromLogs(texts) {
     for (const line of String(t).split(/\r?\n/)) {
       const x = /\[([A-Za-z0-9_-]{25,})\] FAILED stage=([a-z-]+): (.*)$/.exec(line);
       if (!x) continue;
-      const [, id, stage, rest] = x;
+      const [, id, stage, raw] = x;
+      const rest = raw.replace(/\s*\|\s*$/, '').trim(); // the run summary table adds a trailing ' |'
       const tp = /tp-result final measure I (\S+) TP (\S+)/.exec(rest);
       let reason;
       if (stage === 'accept') {
@@ -67,7 +68,10 @@ export function reasonsFromLogs(texts) {
         else if (q) reason = `too quiet: I ${q[1]} LUFS after the true-peak path (< -18.5)`;
         else if (hot) reason = `true peak too hot: TP ${hot[1]} dBTP (> -1.5)`;
         else reason = `loudness: ${rest.replace(/ — 5 loudest peaks.*$/, '').slice(0, 160)}`;
-      } else if (stage === 'download' || stage === 'drive-meta') reason = `file not readable from Drive (${stage}): ${rest.slice(0, 120)}`;
+      } else if (stage === 'download' || stage === 'drive-meta') {
+        const code = /HTTP (\d+)/.exec(rest);
+        reason = `file not readable from Drive (${stage}): HTTP ${code ? code[1] : '?'}: not shared with the service account, deleted or in the trash`;
+      }
       else if (stage === 'ffprobe') reason = 'no audio stream in the file';
       else reason = `${stage}: ${rest.slice(0, 160)}`;
       if (tp) reason = `final measure outside the standard: I ${tp[1]}, TP ${tp[2]}`;
