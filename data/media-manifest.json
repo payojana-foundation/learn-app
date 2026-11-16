@@ -94174,5 +94174,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "14oHKYGKlHd9vH3rBLOA46ge1P5KBhnG7",
+    "drive_name": "៥២ ជវននិយម និងចែកបុគ្គល១២ ពួក ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "071944e868a2f0f85d897ba564eda516",
+    "key": "audio/071944e868a2f0f8-a64.mp3",
+    "bytes": 37621176,
+    "duration_s": 4702,
+    "sha256": "8d16d2cd40230dfeb174d39f18c8f2f4c086c5c0a07a6ef53f6b4d94136d8a14",
+    "loudness": {
+      "pass1": {
+        "I": -22.5,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 6,
+      "limit": 0.562,
+      "depth": 10.9,
+      "busy": 7.58436822183473,
+      "out": {
+        "I": -18.4,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
