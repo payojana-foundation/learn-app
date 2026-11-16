@@ -94204,5 +94204,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1gt3fST0_Q3K1kn6k0EFtRuV9-6VsXoLw",
+    "drive_name": "15.១៥ លោភមូលចិត្តដួងទី១.mp3",
+    "source_md5": "258b24a79db12df460bfd8f66218f043",
+    "key": "audio/258b24a79db12df4-a64.mp3",
+    "bytes": 35371092,
+    "duration_s": 4421,
+    "sha256": "9996d5f1ee2d1d8a7df99b7087aea945f27892b9902012a565b819b15a5b9bde",
+    "loudness": {
+      "pass1": {
+        "I": -25.4,
+        "TP": -0.5,
+        "LRA": 0
+      },
+      "G": 9.49,
+      "limit": 0.708,
+      "depth": 11.99,
+      "busy": 4.129960306241307,
+      "out": {
+        "I": -18,
+        "TP": -2.6,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
