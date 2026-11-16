@@ -9210,5 +9210,21 @@
     "height": 480,
     "sha256": "92ad5d3a151c816c7f9417e14286930aea0da431f650864fbeb28eb3b516c24c",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1LPILOxb827oT0FzbbUXYGqHbn6sKqkGx",
+    "drive_name": "០៣ បញ្ចប់កន្ទរកសូត្រអធិប្បាយបុគ្គ៤ពួកចូលអដ្ឋកនាគរសូត្រទី២ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២៣.mp4",
+    "source_md5": "b3aa7492cae69d30deab47d5c0ecb298",
+    "key": "video/b3aa7492cae69d30-480p.mp4",
+    "poster_key": "video/b3aa7492cae69d30-480p.webp",
+    "rendition": "480p",
+    "bytes": 151697150,
+    "duration_s": 7320,
+    "src_duration_s": 7320,
+    "width": 854,
+    "height": 480,
+    "sha256": "dc744f5df029e5ac4f1f5baa7ea2b8ed560d3a34231f071313d53abb0f349278",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
