@@ -7802,5 +7802,21 @@
     "height": 480,
     "sha256": "7b98e9d66bd8647290c18ce044ca8d1e4c1625afcb5acd52da1ffe05f26b8f37",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1IkXQjsdYvee6f91ofJfug27dlQf9lVen",
+    "drive_name": "១៣ ធម្មទាយាទសូត្របញ្ចប់ ពោលអំពីការលះកិលេស (បិដកលេខ ២០).mp4",
+    "source_md5": "bfe5fc5a01c3a716a21838dde4d1c1a2",
+    "key": "video/bfe5fc5a01c3a716-480p.mp4",
+    "poster_key": "video/bfe5fc5a01c3a716-480p.webp",
+    "rendition": "480p",
+    "bytes": 150518734,
+    "duration_s": 5709,
+    "src_duration_s": 5709,
+    "width": 854,
+    "height": 480,
+    "sha256": "879eebba88b46677e378bbadf9d479c1ed8392bb8bf99447ee3b7fa40e002e28",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
