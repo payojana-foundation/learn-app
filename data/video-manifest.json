@@ -5626,5 +5626,21 @@
     "height": 480,
     "sha256": "78bfdae0f0110906140f1f421a55c4c65e8acdb98179d38046eb1fa5bf048565",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1MZbSVyPxx3lCfxizyvOndADaagz_n4CZ",
+    "drive_name": "៥៤_រូបវិថីចិត្តជ្ជកលាបកើតឡើងមាន១៥៣_កលាប_ភិក្ខុអគ្គចិត្តោ_យ៉ុន_យី​.mp4",
+    "source_md5": "c9abd3f75a056360a382537f5e6249f0",
+    "key": "video/c9abd3f75a056360-480p.mp4",
+    "poster_key": "video/c9abd3f75a056360-480p.webp",
+    "rendition": "480p",
+    "bytes": 76648988,
+    "duration_s": 4170,
+    "src_duration_s": 4170,
+    "width": 854,
+    "height": 480,
+    "sha256": "f92dc089a5b2b2d01612f522cc0ee3090b7ed673223d8b859b2b8ae988e800da",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
