@@ -16110,5 +16110,21 @@
     "height": 480,
     "sha256": "e2fabf7927a600f5625f57d5bf3dc0f0adeb1fdc6054102484fee6f7f541027e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1WRfmjWIZWWx8ySeyXmPM2FleM1QWS6HD",
+    "drive_name": "25.) 02Jun2025 Monday.mp4",
+    "source_md5": "e9710b378430032f2067e8aacdd44cf2",
+    "key": "video/e9710b378430032f-480p.mp4",
+    "poster_key": "video/e9710b378430032f-480p.webp",
+    "rendition": "480p",
+    "bytes": 68352866,
+    "duration_s": 3484,
+    "src_duration_s": 3484,
+    "width": 854,
+    "height": 480,
+    "sha256": "f7a0e3b45ac4c82ff995d17f07cf7ad5653c014b5781f27293027af30302fe1f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
