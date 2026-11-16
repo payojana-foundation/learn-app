@@ -94234,5 +94234,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1LBCXj-CuT1FFwNCnQkoznfnh_-d2qmER",
+    "drive_name": "០៧ សិក្សាឧបមាវិថីចិត្ត និងចក្ខុបសាទ៣ភិក្ខុអគ្គចិត្តោ យ៉ុន យី_ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "f9280eddfbd6f37b749f775cca8c9ad6",
+    "key": "audio/f9280eddfbd6f37b-a64.mp3",
+    "bytes": 42173587,
+    "duration_s": 5271,
+    "sha256": "f219cdcc29237f8a276d2a07b59cb6a589f72aaeb05b7f6952cace603f43cfbf",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 10.04,
+      "limit": 0.631,
+      "depth": 13.04,
+      "busy": 3.553441522104085,
+      "out": {
+        "I": -18,
+        "TP": -2.7,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
