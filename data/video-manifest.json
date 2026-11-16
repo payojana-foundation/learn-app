@@ -11530,5 +11530,21 @@
     "height": 480,
     "sha256": "d881de9deca957c1ca01b6bbf3bdd24601b6983a7ebbbec0b2bfb907e5ae8578",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1_PDAGFd7aop4W46CSDPTAQdqjr93cwYf",
+    "drive_name": "52 សតិប្បដ្ឋានសូត្រ ធម្មានុបស្សនាពោជ្ឈង្គបព្វៈ ធម្មវិចយសម្ពោជ្ឈង្គ (បិដកលេខ ២០).mp4",
+    "source_md5": "b694c43f181d00b01d6d02f235595e1e",
+    "key": "video/b694c43f181d00b0-480p.mp4",
+    "poster_key": "video/b694c43f181d00b0-480p.webp",
+    "rendition": "480p",
+    "bytes": 158695277,
+    "duration_s": 7599,
+    "src_duration_s": 7599,
+    "width": 854,
+    "height": 480,
+    "sha256": "cfdeb2051a44827ba37af271b4841635ac1eaa17980722cfcfd7ca945972073f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
