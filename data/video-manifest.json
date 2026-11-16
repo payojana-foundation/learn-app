@@ -6394,5 +6394,21 @@
     "height": 480,
     "sha256": "327c88e88a6a66b490b7006707b8474b84a5cbb047190007bb10546625f22781",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1yXdl1t-FGncN8T_5yg3uq9qPTvhykgN-",
+    "drive_name": "៥៤ និព្វានបរមត្ថ ព្រះនិព្វានមាន ១៤៣ ពាក្យបញ្ចប់បរិច្ឆេទទី៦ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "033ec6caed134bce921cdb40cf77ed12",
+    "key": "video/033ec6caed134bce-480p.mp4",
+    "poster_key": "video/033ec6caed134bce-480p.webp",
+    "rendition": "480p",
+    "bytes": 79271300,
+    "duration_s": 3593,
+    "src_duration_s": 3593,
+    "width": 854,
+    "height": 480,
+    "sha256": "fef2b25c13ca236ea11237a61349a0f020fb5549e6f901f0281d0a697ed0ca65",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
