@@ -6906,5 +6906,21 @@
     "height": 480,
     "sha256": "13e93ec6810102c70da398bf0f1c89071be655c2ea84ab9e1403cd486055d01b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1hG7fIUeMiShCTtlHIw3NniB2g97PH-kL",
+    "drive_name": "០៥ មហាគោសិង្គសាលសូត្រ ព្រះសារីបុត្រសួរព្រះអង្គពីព្រៃគោសិង្គ (បិដកលេខ ២២).mp4",
+    "source_md5": "1787a8fbbcfa55cbe9e1e91bd20a94ff",
+    "key": "video/1787a8fbbcfa55cb-480p.mp4",
+    "poster_key": "video/1787a8fbbcfa55cb-480p.webp",
+    "rendition": "480p",
+    "bytes": 156477272,
+    "duration_s": 6993,
+    "src_duration_s": 6993,
+    "width": 854,
+    "height": 480,
+    "sha256": "5d2f856a6b675ca2efaf1c0c50699e60e51186825c90ba14ceeb52725c56b123",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
