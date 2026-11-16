@@ -92734,5 +92734,35 @@
     "status": "approved",
     "reviewer": "coordinator",
     "reviewed_at": "2026-11-15"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1USPCTtya-R_q8NFbNUR5VSs2gAClUNQH",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៥២ សបទានចារិកង្គធុតង្គ និងឯកាសនិកង្គធុតង្គ.mp3",
+    "source_md5": "2647a092a7862986b826d6a579c95a2f",
+    "key": "audio/2647a092a7862986-a64.mp3",
+    "bytes": 43078678,
+    "duration_s": 5384,
+    "sha256": "bf858303fa3f9a618d0c77be7d1a0f63e3b93a2bfd264f54ee4c152fb787cd82",
+    "loudness": {
+      "pass1": {
+        "I": -29,
+        "TP": -4,
+        "LRA": 0
+      },
+      "G": 12.5,
+      "limit": 0.708,
+      "depth": 11.5,
+      "busy": 3.561877878472738,
+      "out": {
+        "I": -18,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
