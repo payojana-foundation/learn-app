@@ -14974,5 +14974,21 @@
     "height": 480,
     "sha256": "1cd982ad31a4acfb29670cebf2e3888a67eb184e8c0e2a583cb498bfbbe045f7",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1djzQXYRI3LkuYPmUf3_v7dgpyGtv11Wf",
+    "drive_name": "៦៤​ ចំណែកកុសលដោយភាពជាឧក្រិដ្ឋនិងឱមក ៤និង៨ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៦៤ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "746c2a9b76c605c5595c2601deb95430",
+    "key": "video/746c2a9b76c605c5-480p.mp4",
+    "poster_key": "video/746c2a9b76c605c5-480p.webp",
+    "rendition": "480p",
+    "bytes": 74526888,
+    "duration_s": 3381,
+    "src_duration_s": 3381,
+    "width": 854,
+    "height": 480,
+    "sha256": "0bfd4c0ab37b213a398557024b81f13ffc65c72cfa2c2a9c0b298ee7cb535e96",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
