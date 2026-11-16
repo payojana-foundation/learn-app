@@ -18,6 +18,24 @@
     "182P_ouVV3nRacNOi8zwJEgNtUo7o0iXH": 2,
     "1O3Et3YSNyOW4UgMVqQPx1RFERfkW8MrU": 2,
     "1lIgZxC8ji64Vp-e3TEKEJD_xm58pgIm8": 2,
-    "1wt4Fjq27mN3ud7JpOBYscVBmthMleP34": 2
-  }
+    "1wt4Fjq27mN3ud7JpOBYscVBmthMleP34": 2,
+    "1IpIeWy8fQave1jFckoBBBXuF9BKi2J1N": 1,
+    "1gioLNOAPL4Zdjxhk-H4gQLIPDE--6DUg": 1,
+    "1eWocGkFnvpKyRIFmCmgxBc0Bc73BlsCm": 1,
+    "1OwW8FDh1JDfm3H430CPT8kMqFTSEhr17": 1,
+    "1b-gefVD9cSjzkgYexjWFPDIoaM0-YqS7": 1,
+    "1TEcCIz0-LzZkprxH-TrsFiYdaIt_HRmv": 1,
+    "1rn-rngmHjbGi5M2Xwyt58ofrR61e-QB8": 1,
+    "1z8Lb0_ZizG1mfC02Ox-7ZFM-RcIJt74J": 1,
+    "1_ZjFCSqbPRNU_plh77KANsRLujLRVDxx": 1,
+    "1GSCZxd-QnlXN5aN7kdXnyS3oKbs3v4Ru": 1,
+    "1zdLoWPcD7fCGZJXfrwANxAWm0rDV3D3b": 1,
+    "1lfp8dqBBOJXrUN0Knsda_cst3q77DWSX": 1,
+    "1W2xZ9ifmbezTfbD8HoOAGnQsCE5A_abH": 1,
+    "14f9MncOUTVkoZzm9GmUUzeMoAx0SMP0v": 1,
+    "1KqXXQ0qBTOgimPn1UO0Zqt5Tz7MpJma5": 1
+  },
+  "disabled": true,
+  "reason": "audio run on data/queues/c010.csv was red",
+  "at": "2026-11-16T10:14Z"
 }
