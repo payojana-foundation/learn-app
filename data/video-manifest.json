@@ -5354,5 +5354,21 @@
     "height": 480,
     "sha256": "36cc1195f7ee8e35ce9b624817d7a4fdaea531c6ac7a0cfd56d3a60fd51440ed",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1-19u_72g_GfHYVQ80YzCIeNhSmqZdwoq",
+    "drive_name": "៥១ បញ្ចប់តទាលម្ពននិយមចូលជវននិយម (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "d8db28398e2062f9835e1c5624db1bb9",
+    "key": "video/d8db28398e2062f9-480p.mp4",
+    "poster_key": "video/d8db28398e2062f9-480p.webp",
+    "rendition": "480p",
+    "bytes": 78013737,
+    "duration_s": 4260,
+    "src_duration_s": 4260,
+    "width": 854,
+    "height": 480,
+    "sha256": "5f2aea101371a8927c9059262eeb88ed511e5e7e34a22c0e9562adf15c2c97ac",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
