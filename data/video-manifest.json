@@ -4478,5 +4478,21 @@
     "height": 480,
     "sha256": "c653a54094793bde929a1d3c0aff0bb6ed3dd59d841eb7d9ca0e2d5d86cb665f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1PvvybqqhNto-HNtaYCYG0G_ooOewEP30",
+    "drive_name": "៣៧ ហេតុនាំឱ្យកើតទោសមូលចិត្តមាន ៤ ប្រការ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "e2b857af23f9753445bd599c6058c787",
+    "key": "video/e2b857af23f97534-480p.mp4",
+    "poster_key": "video/e2b857af23f97534-480p.webp",
+    "rendition": "480p",
+    "bytes": 96146745,
+    "duration_s": 5198,
+    "src_duration_s": 5198,
+    "width": 854,
+    "height": 480,
+    "sha256": "af38cc20271be19526767fae6c3909d2b04dc96d142d2c450beb692fbc9cf0e2",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
