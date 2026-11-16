@@ -7530,5 +7530,21 @@
     "height": 480,
     "sha256": "730a09519aab2688f0750790cd1e11b961c22b09cb32182fc3d986d3978530af",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1t2swzGnqjWhoAtAUAMICOApzax2_DzCy",
+    "drive_name": "១៣ មហាសច្ចកសូត្រទី៦ ព្រះអង្គសម្តែងពីទុក្ករកិរិយា (បិដកលេខ ២២).mp4",
+    "source_md5": "0405668caa98f112e438b4465a5250a6",
+    "key": "video/0405668caa98f112-480p.mp4",
+    "poster_key": "video/0405668caa98f112-480p.webp",
+    "rendition": "480p",
+    "bytes": 148358817,
+    "duration_s": 6858,
+    "src_duration_s": 6858,
+    "width": 854,
+    "height": 480,
+    "sha256": "7f230d407baf8c68fcd998e909e8079d6cda9bc738e27f8c752bf89932e30d47",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
