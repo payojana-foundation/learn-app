@@ -5514,5 +5514,21 @@
     "height": 480,
     "sha256": "f79e52f5848b79a08635460599acd2499b826b14a7eacd2a4b6b7158f085edd3",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Y-JS3kS-4FkVza5Ua6FgyWU1H1o_H_1K",
+    "drive_name": "៤២ ពិចារណាធម៌ដូចម្តេចដើម្បីលះទោសៈ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "72d4fe59e012d3b0d94220517e5f91d2",
+    "key": "video/72d4fe59e012d3b0-480p.mp4",
+    "poster_key": "video/72d4fe59e012d3b0-480p.webp",
+    "rendition": "480p",
+    "bytes": 85043839,
+    "duration_s": 4311,
+    "src_duration_s": 4311,
+    "width": 854,
+    "height": 480,
+    "sha256": "10b4ffc93de8b7d8385a86aa5e6d33f6090f546954f6631935b29de4837e7775",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
