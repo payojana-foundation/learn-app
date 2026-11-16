@@ -6842,5 +6842,21 @@
     "height": 480,
     "sha256": "90cdb855a73c7a919b1c795f8fc702092b4a1ac07e8e7b915a4f12de8085ef50",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Slw9KlqJb8smumQU8bcIK1cytAEls4SI",
+    "drive_name": "០៤ ចូឡគោសិង្គសាលសូត្រ ព្រៃរុងរឿងដោយភិក្ខទ្រទ្រង់នូវគុណភិក្ខុ (បិដកលេខ ២១).mp4",
+    "source_md5": "a904b83adcd6efb315453c709c5cde0e",
+    "key": "video/a904b83adcd6efb3-480p.mp4",
+    "poster_key": "video/a904b83adcd6efb3-480p.webp",
+    "rendition": "480p",
+    "bytes": 115844927,
+    "duration_s": 5705,
+    "src_duration_s": 5705,
+    "width": 854,
+    "height": 480,
+    "sha256": "4804f834b5640274f949754765d40d554636b7b68b74978469567fd13967942e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
