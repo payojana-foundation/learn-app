@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-15T19:18:08.000Z",
+  "generated": "2026-11-16T00:26:37.000Z",
   "provisional": false,
   "courses": [
     {
@@ -276,7 +276,8 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "has_video": true
     },
     {
       "id": "c026",
