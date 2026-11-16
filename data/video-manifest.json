@@ -7898,5 +7898,21 @@
     "height": 480,
     "sha256": "357a7db9cedce94173a155a37b284a0dfcd39d594478976ee58e70c0b9dfadb9",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1V_sXrPM86NQ374csJ1g_hZ1not1vpC6z",
+    "drive_name": "០១ កកចូបមសូត្រ ការនៅច្រឡូកច្រឡំជាមួយភិក្ខុនី និងឆាន់អាសនៈតែមួយ (បិដកលេខ ២១).mp4",
+    "source_md5": "80b1026719d4860aeda26b8dc66c0053",
+    "key": "video/80b1026719d4860a-480p.mp4",
+    "poster_key": "video/80b1026719d4860a-480p.webp",
+    "rendition": "480p",
+    "bytes": 156620283,
+    "duration_s": 7055,
+    "src_duration_s": 7055,
+    "width": 854,
+    "height": 480,
+    "sha256": "b152d333f13068469d8ff0c2007d958adb075bd5b3a2948833d6669d892e54d1",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
