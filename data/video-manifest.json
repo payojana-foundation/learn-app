@@ -3934,5 +3934,21 @@
     "height": 480,
     "sha256": "9d37817edcbc145d867747ea0685e281ff3a2ed187250176d24e54da7e7d6fe5",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1xiv2GUWIirwguePIWXP15fxTzgb7fhMu",
+    "drive_name": "28-Buddhism in English by Ven.Hak Sienghai.mp4",
+    "source_md5": "23d57724530f59427650e5c8d82ff400",
+    "key": "video/23d57724530f5942-480p.mp4",
+    "poster_key": "video/23d57724530f5942-480p.webp",
+    "rendition": "480p",
+    "bytes": 28309280,
+    "duration_s": 478,
+    "src_duration_s": 478,
+    "width": 854,
+    "height": 480,
+    "sha256": "a1359437e944c3f7e9fa2265f521b239f81af73aec9718ba5aec3f48726c6aca",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
