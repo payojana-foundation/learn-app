@@ -16334,5 +16334,21 @@
     "height": 480,
     "sha256": "d37bb33ed48a3de2fd0b07d54d82b586f8f95af9aa44390fd0082a369e2b9309",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ghP4pLmVu02IiqrOuFivnyrsqnK3Bfrp",
+    "drive_name": "៨៤ សេចក្តីអធិប្បាយរូបាវចរឈានកុសល៥ដួង ចែករូបាវចរសោភណចិត្តដោយន័យ១៤ន័យ ព្រះអភិធម្មថ្នាក់ដំបូង​ថ្ងៃទី៨៤ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "e8cc42a5937d482fd6f070f8190007c8",
+    "key": "video/e8cc42a5937d482f-480p.mp4",
+    "poster_key": "video/e8cc42a5937d482f-480p.webp",
+    "rendition": "480p",
+    "bytes": 67252092,
+    "duration_s": 3414,
+    "src_duration_s": 3414,
+    "width": 854,
+    "height": 480,
+    "sha256": "2737278cddfc2f04c9b91d8945bac6899c4e297e65e3d2005e7885c25e27ab65",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
