@@ -11898,5 +11898,21 @@
     "height": 480,
     "sha256": "161b4a31fc5a32b494b9a0912221d1579b9d4649fe79e28c35b5b0ccd71b64cb",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1esi53bO1l7aHZlxWz5xjoFH-s297rXdx",
+    "drive_name": "៣១ អកុសលកម្មបថអទិន្នាទាន ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣១ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "6b66200eea7cb1e8b9558d414482992c",
+    "key": "video/6b66200eea7cb1e8-480p.mp4",
+    "poster_key": "video/6b66200eea7cb1e8-480p.webp",
+    "rendition": "480p",
+    "bytes": 69878932,
+    "duration_s": 3391,
+    "src_duration_s": 3391,
+    "width": 854,
+    "height": 480,
+    "sha256": "27875268a6cebb3eef7f5b2bec328cc72e02900f3b69fa009dde1d8b4b86567e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
