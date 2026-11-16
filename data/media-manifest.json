@@ -92884,5 +92884,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1f4CNyXzFIRlLXMqpNUSizkP93GYHBDuB",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៣០.(១៣៣ សីលមយបុណ្យ ពន្យល់ វិកាលភោជនសិក្ខាបទភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១.m4a",
+    "source_md5": "0612fe8400dd8ac5f857a1eef88fb1ca",
+    "key": "audio/0612fe8400dd8ac5-a64.mp3",
+    "bytes": 44488872,
+    "duration_s": 5561,
+    "sha256": "aef3eca770a7055a8c8584998a6a228ae09bcfb683c0e655ed9f3dd820d2ba5d",
+    "loudness": {
+      "pass1": {
+        "I": -22.7,
+        "TP": 0.7,
+        "LRA": 0
+      },
+      "G": 6.59,
+      "limit": 0.562,
+      "depth": 12.29,
+      "busy": 5.197759415937638,
+      "out": {
+        "I": -18.4,
+        "TP": -1.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
