@@ -9610,5 +9610,21 @@
     "height": 480,
     "sha256": "da2cab4aa525d2ee6f9370b89ce00f1c141c904f65d95a97dbc97f58619ddf2a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "10ZaKBzzxtnfzgoEMw2A0VyP85tgdc0l_",
+    "drive_name": "36 សតិប្បដ្ឋានសូត្រ ហេតុអ្វីសម្តែងសម្តែងសតិប្បដ្ឋានមានតែ៤ (បិដកលេខ ២០).mp4",
+    "source_md5": "8cdf963d608715700018b68790841ab1",
+    "key": "video/8cdf963d60871570-480p.mp4",
+    "poster_key": "video/8cdf963d60871570-480p.webp",
+    "rendition": "480p",
+    "bytes": 132058770,
+    "duration_s": 5565,
+    "src_duration_s": 5565,
+    "width": 854,
+    "height": 480,
+    "sha256": "ac1a72a73d2f2454ff8fe9f3d1bb21442981e91ab05bb6d0ee11dc81ba7d13df",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
