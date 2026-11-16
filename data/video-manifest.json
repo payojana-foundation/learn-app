@@ -9658,5 +9658,21 @@
     "height": 480,
     "sha256": "34e97bbc94de261aba718da84ad30d12dec7cbfe0e214f65bdffe3e9bd60ac49",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1e_r_UAmDaPOn38uEQ19jNcJLwvHc8Xgp",
+    "drive_name": "២ របៀបចម្រើនពុទ្ធានុស្សតិ.mp4",
+    "source_md5": "a0f684b2e382268711af78ba5ab93aab",
+    "key": "video/a0f684b2e3822687-480p.mp4",
+    "poster_key": "video/a0f684b2e3822687-480p.webp",
+    "rendition": "480p",
+    "bytes": 58984911,
+    "duration_s": 2681,
+    "src_duration_s": 2681,
+    "width": 854,
+    "height": 480,
+    "sha256": "b1734bb902cf709a7a7129336a9cc1322ed2701ef38c14fa276c600508b4d933",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
