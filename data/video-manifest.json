@@ -9562,5 +9562,21 @@
     "height": 480,
     "sha256": "eb208eb2b48fa4fb3f79dba62d7d3589b975986cde25beefa2d2b02c62a3787b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "12H6673yKF1cDXnl1jG_hdNSLZRuXitSi",
+    "drive_name": "21 ធម្មានុបស្សនាសតិប្បដ្ឋាន ពោជ្ឈង្គបព្វ (បិដកលេខ ១៧).mp4",
+    "source_md5": "02e65565ace14889cf0965bef4db3420",
+    "key": "video/02e65565ace14889-480p.mp4",
+    "poster_key": "video/02e65565ace14889-480p.webp",
+    "rendition": "480p",
+    "bytes": 140546528,
+    "duration_s": 5497,
+    "src_duration_s": 5497,
+    "width": 854,
+    "height": 480,
+    "sha256": "42e099e663610926b28fe46c377f23195fb9e540bba9104458c9b36de6faefed",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
