@@ -8730,5 +8730,21 @@
     "height": 480,
     "sha256": "a660084e0ecde28c757d841907db2e65a0cff479c3351c18777005ebd1006154",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1gEEQjNsI1N_t68mRVgOMITuIdx2vvajb",
+    "drive_name": "14 ការសម្រួបព្រះបាតិមោក្ខដូចម្តេច  ភិក្ខុអគ្គចិត្តោ (បិដកលេខ ១៧).mp4",
+    "source_md5": "ec04e22c583b40671cc176de8a9bf532",
+    "key": "video/ec04e22c583b4067-480p.mp4",
+    "poster_key": "video/ec04e22c583b4067-480p.webp",
+    "rendition": "480p",
+    "bytes": 74359914,
+    "duration_s": 2814,
+    "src_duration_s": 2814,
+    "width": 854,
+    "height": 480,
+    "sha256": "c6af644adea7e04379f7635964f0780ea70612e612e4277f82749c6a05733e2b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
