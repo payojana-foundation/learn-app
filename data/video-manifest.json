@@ -4398,5 +4398,21 @@
     "height": 480,
     "sha256": "38b7a1a57756c7c7438b059d9b4fdbe56e687f898b1dea4f5815904bbeeacc63",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1cIVLxmKC0KztF27txNswddoTZW5aEKeY",
+    "drive_name": "៣៧ សតិចេតសិក ការរលឹកដឹង (បរិច្ឆេទ​ ទី២ ឆ្នាំ ២០២៤).mp4",
+    "source_md5": "e31a07c17d171e0ee15676c11a3532dd",
+    "key": "video/e31a07c17d171e0e-480p.mp4",
+    "poster_key": "video/e31a07c17d171e0e-480p.webp",
+    "rendition": "480p",
+    "bytes": 131804437,
+    "duration_s": 5073,
+    "src_duration_s": 5073,
+    "width": 854,
+    "height": 480,
+    "sha256": "1999a9ec0fa629d86289de3af58908108019f6845634734d9c9b67cf1738fa0f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
