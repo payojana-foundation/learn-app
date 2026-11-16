@@ -94430,5 +94430,35 @@
     "status": "approved",
     "reviewer": "auto-release",
     "reviewed_at": "2026-11-16"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1OPqkpurB6GVItJiv2dAy0mHTEeSVvGwR",
+    "drive_name": "០៤_ភូមិចតុក្កៈ_បាបកម្មនាំឱ្យកើតអវីចិនរកជាដើមភិក្ខុអគ្គចិត្តោ_យ៉ុន.mp3",
+    "source_md5": "356a1375dab1b861f0db35355f6ae258",
+    "key": "audio/356a1375dab1b861-a64.mp3",
+    "bytes": 30962459,
+    "duration_s": 3870,
+    "sha256": "96c9646372ca86541f34128abc310dbd3aac25fe95aa16036c710e308632c8b5",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": 1.4,
+        "LRA": 0
+      },
+      "G": 9.53,
+      "limit": 0.708,
+      "depth": 13.93,
+      "busy": 1.547380660164072,
+      "out": {
+        "I": -18,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
