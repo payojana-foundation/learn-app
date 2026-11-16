@@ -6090,5 +6090,21 @@
     "height": 480,
     "sha256": "703390d4491729f1bbb86516ffa4c2bd9fcd1308cbb239cc1dbb08a8723120de",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ToLzOC8sVzQV_Vg6Xy22sxPqQNKlnoFL",
+    "drive_name": "៥៩ រូបវិថី តារាងទី៣ អាហារជ្ជរូប តារាងទី៤ ចក្ខ្វាទិចតុក្ក ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ .mp4",
+    "source_md5": "60fab3fe02d7d03b93d387915b4b2095",
+    "key": "video/60fab3fe02d7d03b-480p.mp4",
+    "poster_key": "video/60fab3fe02d7d03b-480p.webp",
+    "rendition": "480p",
+    "bytes": 77028613,
+    "duration_s": 3947,
+    "src_duration_s": 3947,
+    "width": 854,
+    "height": 480,
+    "sha256": "42392b82d8b9e294b0cdb876a56315f050ef89d01949a9beedd91c4df9eaa1cc",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
