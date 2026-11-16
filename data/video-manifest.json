@@ -9690,5 +9690,21 @@
     "height": 480,
     "sha256": "debd537916d3d60b014999ce9004278a8e8fe21e0be3a0038cde6f5b9ec7506f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "11KrRlbI3UdkT5YkyZb56Er8CYzGBxfBX",
+    "drive_name": "០៨ បោតលិយសូត្រទី៤ កម្ចាត់ជំនួញក្នុងវិន័យអរិយ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២៣.mp4",
+    "source_md5": "6daf8644802b05114c2bf131592f1e3f",
+    "key": "video/6daf8644802b0511-480p.mp4",
+    "poster_key": "video/6daf8644802b0511-480p.webp",
+    "rendition": "480p",
+    "bytes": 143991349,
+    "duration_s": 7150,
+    "src_duration_s": 7150,
+    "width": 854,
+    "height": 480,
+    "sha256": "66c8a132ea17c25524e1a9b696243a63aafcbabac049186868956134da6f9ba7",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
