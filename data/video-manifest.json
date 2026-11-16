@@ -9850,5 +9850,21 @@
     "height": 360,
     "sha256": "353146d8abc263daf9b2b25f72245f373834a1b9896e2e800eb1b916fe390a33",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ygXfqaGqISJQlLp8kuA1ORbSJN3a-OTh",
+    "drive_name": "23 សច្ចបព្វ បញ្ចប់ធម្មានុបស្សនាសតិប្បដ្ឋានវ (បិដកលេខ ១៧).mp4",
+    "source_md5": "a0b7e51c93c687bb5377424de0bcf84a",
+    "key": "video/a0b7e51c93c687bb-480p.mp4",
+    "poster_key": "video/a0b7e51c93c687bb-480p.webp",
+    "rendition": "480p",
+    "bytes": 140805824,
+    "duration_s": 5634,
+    "src_duration_s": 5634,
+    "width": 854,
+    "height": 480,
+    "sha256": "1117a4cfdc9d9f8e97851689d00febe21ae26ac93af2b036f8867e638ddb8c41",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
