@@ -8442,5 +8442,21 @@
     "height": 480,
     "sha256": "1c160c1692d64977a7d70252c7d33e4d82f15f293d31fec2b736890f649efa4e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1CCURDYh3rb4ogn0tXI_H2zfVlcNRBe0k",
+    "drive_name": "22 វត្ថូបមសូត្រ ឧបក្កិលេសមាន ១៦ (បិដកលេខ ២០).mp4",
+    "source_md5": "e3b2a68ff42a119c70de7ca03da57c8a",
+    "key": "video/e3b2a68ff42a119c-480p.mp4",
+    "poster_key": "video/e3b2a68ff42a119c-480p.webp",
+    "rendition": "480p",
+    "bytes": 148510121,
+    "duration_s": 5345,
+    "src_duration_s": 5345,
+    "width": 854,
+    "height": 480,
+    "sha256": "2c29a1972dea5a2099c0b92524baed356a81aae52307013dd4e49d9673128343",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
