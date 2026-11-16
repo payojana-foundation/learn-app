@@ -5034,5 +5034,21 @@
     "height": 480,
     "sha256": "e1cfaa8d0059cd56c7a31981084c03ff8e98841da628db5522dffce7ec718207",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Zi9FbEaYzex7bquZeKFJn4fiDeAWNVUx",
+    "drive_name": "៤៨ បរិនិព្វានវិថីពិសេស បច្ចវេក្ខណសមន្តរ អភិញ្ញា ជីវិតសមសីសី (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "e8a0faec964738181e4ae6c11046e862",
+    "key": "video/e8a0faec96473818-480p.mp4",
+    "poster_key": "video/e8a0faec96473818-480p.webp",
+    "rendition": "480p",
+    "bytes": 97053301,
+    "duration_s": 5110,
+    "src_duration_s": 5110,
+    "width": 854,
+    "height": 480,
+    "sha256": "c1793aafc1fa1e3ff9a7af327b120fa41471ca98ace9db7a8fa36490866075fa",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
