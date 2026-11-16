@@ -8122,5 +8122,21 @@
     "height": 480,
     "sha256": "0e1e980a5a87b5fa957b9ae0a189c42dc8d888f154266fdfae4795d238f1c5b3",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1g3xgmJLEeN0OImliSNfycnYSuOMSLBmD",
+    "drive_name": "16 ដាក់អាយុសង្ខារបរិនិព្វានចំពោះមុខមារ (បិដកលេខ ១៦).mp4",
+    "source_md5": "96956f46bfba5d702f64bad1facb2397",
+    "key": "video/96956f46bfba5d70-480p.mp4",
+    "poster_key": "video/96956f46bfba5d70-480p.webp",
+    "rendition": "480p",
+    "bytes": 176373322,
+    "duration_s": 5346,
+    "src_duration_s": 5346,
+    "width": 854,
+    "height": 480,
+    "sha256": "3abd3402c7485273690d3ae955093d67244b8a658e73d13d32f614fdce764013",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
