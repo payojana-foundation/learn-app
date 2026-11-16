@@ -5530,5 +5530,21 @@
     "height": 480,
     "sha256": "10b4ffc93de8b7d8385a86aa5e6d33f6090f546954f6631935b29de4837e7775",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1twjDDR2yxElGuLV3AE9zyPdmvOlFuPrT",
+    "drive_name": "៥៣ ចែកបុគ្គលជា១២ ពួកនិងភូមិ៣ (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "e2902a70674547f92c6202649c27c12b",
+    "key": "video/e2902a70674547f9-480p.mp4",
+    "poster_key": "video/e2902a70674547f9-480p.webp",
+    "rendition": "480p",
+    "bytes": 85831317,
+    "duration_s": 4538,
+    "src_duration_s": 4538,
+    "width": 854,
+    "height": 480,
+    "sha256": "dbd23d8dc6ba2a60f57e75111d6df3ed067d50c70c0bf090edbbaa49fb124baf",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
