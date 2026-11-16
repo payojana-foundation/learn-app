@@ -15038,5 +15038,21 @@
     "height": 480,
     "sha256": "102a6402d2c3310a67674beb503a7a6f6af5307f3a8ffc0e71771f4215873d64",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1SqOXPRkxdCZZ_x8ahyibKKNJcoT5Ff-J",
+    "drive_name": "៦៥ អានិសង្ឃរបស់តិហេតុកនិងទុហេតុក ៤ន័យ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៦៥ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "b9551594633505a3a7515327cec58ef9",
+    "key": "video/b9551594633505a3-480p.mp4",
+    "poster_key": "video/b9551594633505a3-480p.webp",
+    "rendition": "480p",
+    "bytes": 76144264,
+    "duration_s": 3482,
+    "src_duration_s": 3482,
+    "width": 854,
+    "height": 480,
+    "sha256": "163b2a8a38caac2acb26294b3957ced015c0537f5f6838aa40f8c9c575f1bad3",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
