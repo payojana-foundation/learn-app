@@ -8874,5 +8874,21 @@
     "height": 480,
     "sha256": "2ff68ec3e1bb6b905b9cfba0400f41a427fdd1355d08e9cd225ad22eee224a20",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1VVtWXSlPmBDqVA1b1g1nqzVutgfEeW2A",
+    "drive_name": "15 បញ្ចប់សក្កបញ្ហាសូត្រមាន ១៤ បញ្ហា (បិដកលេខ ១៧).mp4",
+    "source_md5": "02364105415c46a2e887da1d2d6b5377",
+    "key": "video/02364105415c46a2-480p.mp4",
+    "poster_key": "video/02364105415c46a2-480p.webp",
+    "rendition": "480p",
+    "bytes": 160115579,
+    "duration_s": 5522,
+    "src_duration_s": 5522,
+    "width": 854,
+    "height": 480,
+    "sha256": "9c23fa1141a6b7926fa4faca5b64293f3fdee984cd21922bda3ff22fa5512e87",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
