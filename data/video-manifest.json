@@ -10026,5 +10026,21 @@
     "height": 360,
     "sha256": "48008743ab51104717948209400e0931d42e44e5cdcc58faba199b13672ae9ec",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "13edbevlxKcS1Fg_Vh713CeJcXulgo2y4",
+    "drive_name": "១១ ឧបាលិវាទសូត្រទី៦ បាបកម្មរបស់និគ្រន្ថនិងព្រះពុទ្ធភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២៣.mp4",
+    "source_md5": "1a6663e575900cb019a085c43c132786",
+    "key": "video/1a6663e575900cb0-480p.mp4",
+    "poster_key": "video/1a6663e575900cb0-480p.webp",
+    "rendition": "480p",
+    "bytes": 161246800,
+    "duration_s": 7030,
+    "src_duration_s": 7030,
+    "width": 854,
+    "height": 480,
+    "sha256": "89a20cacd5a381c0058b4df9e5821c2a875e4afeb3bfd7248ad93adba83ea15f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
