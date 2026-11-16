@@ -7594,5 +7594,21 @@
     "height": 480,
     "sha256": "03086141de247e24ff028b8db00b7c8ce173e449c0e6b93e4a691bc8308d44b2",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1K7LEuvS7UNEeYwq5_v4m3RFQJVoLEbj1",
+    "drive_name": "១០ ពន្យល់ការសម្តែងឱវាទបាតិមោក្ខ (បិដកលេខ ១៦).mp4",
+    "source_md5": "d596b18eb2ed0a31e73b3e72f764043f",
+    "key": "video/d596b18eb2ed0a31-480p.mp4",
+    "poster_key": "video/d596b18eb2ed0a31-480p.webp",
+    "rendition": "480p",
+    "bytes": 171009570,
+    "duration_s": 4752,
+    "src_duration_s": 4752,
+    "width": 854,
+    "height": 480,
+    "sha256": "12c4031447087562641d92182287f1365f4c59f15cd980fe33dd4a48ba49fa97",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
