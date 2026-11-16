@@ -8762,5 +8762,21 @@
     "height": 480,
     "sha256": "944bfff75df030f4434e4bd0927c970654236b69a3491dfb954953b2c2e6851c",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1yR-cjsFtUvTzVomLMCKzIrSSIMfJHVk2",
+    "drive_name": "22 ធម៌ពួក ៩ អខណអសម័យ ៩ យ៉ាង (បិដកលេខ ១៩).mp4",
+    "source_md5": "e788b5336c2f6ff2bf1f1f8c0ecf22fa",
+    "key": "video/e788b5336c2f6ff2-480p.mp4",
+    "poster_key": "video/e788b5336c2f6ff2-480p.webp",
+    "rendition": "480p",
+    "bytes": 130052013,
+    "duration_s": 5235,
+    "src_duration_s": 5235,
+    "width": 854,
+    "height": 480,
+    "sha256": "c23b860618cf7f4ea9b3b379f796e9fce4b88cf4a849e4a7e09b92c00f638126",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
