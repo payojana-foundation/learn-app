@@ -94054,5 +94054,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1Vb_v4bmc_d7IEAPqbjOdcmKPshNJFIyV",
+    "drive_name": "០៣ ហេតុនាំឱ្យកើតមនោទ្វារមាន ១៤ យ៉ាងភិក្ខុអគ្គចិត្តោ យ៉ុន យី_ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "fb43c42175c623bf40cb84c7be10b5a8",
+    "key": "audio/fb43c42175c623bf-a64.mp3",
+    "bytes": 36036692,
+    "duration_s": 4504,
+    "sha256": "d9a186d276e2e9fda6847f11d3ef97af47d1aa86002ddd668789d63bdd8de363",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -1,
+        "LRA": 0
+      },
+      "G": 9.6,
+      "limit": 0.708,
+      "depth": 11.6,
+      "busy": 3.6593555405090408,
+      "out": {
+        "I": -18,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
