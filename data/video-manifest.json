@@ -8106,5 +8106,21 @@
     "height": 480,
     "sha256": "267d698f664d89ee68c06e1abd88d0b3b5b45184dc55b3a9ae414d1c8f6b4e33",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ynyqIW7gfo0k29FiIlG8rb6JxaEHLOsh",
+    "drive_name": "១៧ ភយភេរវសូត្រ ការលះអាសវរបស់ព្រះអរិយបុគ្គល (បិដកលេខ ២០).mp4",
+    "source_md5": "d22192023af9a721fbcf175638d82358",
+    "key": "video/d22192023af9a721-480p.mp4",
+    "poster_key": "video/d22192023af9a721-480p.webp",
+    "rendition": "480p",
+    "bytes": 137809598,
+    "duration_s": 5211,
+    "src_duration_s": 5211,
+    "width": 854,
+    "height": 480,
+    "sha256": "0e1e980a5a87b5fa957b9ae0a189c42dc8d888f154266fdfae4795d238f1c5b3",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
