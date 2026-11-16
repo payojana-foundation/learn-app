@@ -7482,5 +7482,21 @@
     "height": 480,
     "sha256": "f3a2482354ebf7ab96d043bf5c15e74bd4330ba8e431cbfeb3385fb9b05cc4f1",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1kj63CI3fl85n9A1uizQsY7xpOT7WVP8z",
+    "drive_name": "09 ព្រះអានន្ទទូលសួរបដិច្ចសមុប្បាទ(បិដកលេខ ១៦).mp4",
+    "source_md5": "8d377fab917d5d710a5af4eeaab99303",
+    "key": "video/8d377fab917d5d71-480p.mp4",
+    "poster_key": "video/8d377fab917d5d71-480p.webp",
+    "rendition": "480p",
+    "bytes": 182366879,
+    "duration_s": 5235,
+    "src_duration_s": 5235,
+    "width": 854,
+    "height": 480,
+    "sha256": "f98f2b741fed880ea173cee5eb6d05fd89aef489190df5680d9c36419d4db35c",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
