@@ -8554,5 +8554,21 @@
     "height": 480,
     "sha256": "5d4de19c5d43dcd567ae26b0ee45b5afaf68867fb6fa2f17b3797daef194ae1f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1raH54XLe1CXh0U9nEYhFp1I0tJqsMjfz",
+    "drive_name": "០៨ វម្មិកសូត្រ ចម្លើយប្រស្នាទាំង ១៥ របស់ព្រះពុទ្ធភាគបញ្ចប់ (បិដកលេខ ២១).mp4",
+    "source_md5": "32d65c92b3020abdf69af0d1cd547107",
+    "key": "video/32d65c92b3020abd-480p.mp4",
+    "poster_key": "video/32d65c92b3020abd-480p.webp",
+    "rendition": "480p",
+    "bytes": 139323428,
+    "duration_s": 7100,
+    "src_duration_s": 7100,
+    "width": 854,
+    "height": 480,
+    "sha256": "fbcc1127b3460347ed74ad609b2c52a74f051ca83b95ef5a16382063ea152775",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
