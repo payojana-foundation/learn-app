@@ -5914,5 +5914,21 @@
     "height": 480,
     "sha256": "b83e09c28e03d5332a92535e4c4a6917b153490188bfb660a2a40b9b4e53d3bb",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1zwp5awkS0GQoBEjLzb2hWf7QODLP28OJ",
+    "drive_name": "៥៧ រូបវិថី ឧតុបច្ចយឧតុជ្ជរូប ជារូបកើតពីកម្មនិងចិត្ត ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ .mp4",
+    "source_md5": "8dcefc1602be3f40273a62476e0dcf6a",
+    "key": "video/8dcefc1602be3f40-480p.mp4",
+    "poster_key": "video/8dcefc1602be3f40-480p.webp",
+    "rendition": "480p",
+    "bytes": 70519457,
+    "duration_s": 3972,
+    "src_duration_s": 3972,
+    "width": 854,
+    "height": 480,
+    "sha256": "44fe411575bbf1e0421fbf771dddffb8e953bd123ba8b82de8d1c1e7a6a498d2",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
