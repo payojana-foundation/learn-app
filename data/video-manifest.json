@@ -5194,5 +5194,21 @@
     "height": 480,
     "sha256": "3b23e717731a8a913fc530e8a44296298af2d35b7292e853d1fc6ee171972c52",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Yq3T6sxa8l2jUBg2IFHUnPeUJL6VSMOY",
+    "drive_name": "៤៩ តទាលម្ពណនិយម អារម្មណ៍ ៣ យ៉ាងរបស់តទា (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "7d2859504665b6cd82e9267b007e4fc7",
+    "key": "video/7d2859504665b6cd-480p.mp4",
+    "poster_key": "video/7d2859504665b6cd-480p.webp",
+    "rendition": "480p",
+    "bytes": 84971200,
+    "duration_s": 4472,
+    "src_duration_s": 4472,
+    "width": 854,
+    "height": 480,
+    "sha256": "77d52d3abb3c8542e9f37629b845f532271f7e5961ff8473565f78220c430fce",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
