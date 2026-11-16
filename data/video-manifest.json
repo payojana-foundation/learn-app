@@ -16190,5 +16190,21 @@
     "height": 480,
     "sha256": "a1a40f1369110322651f665a603cdcb4c2401caa940c2ed4bb130338ceff098c",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1zK5nIgGIlDSBSBr3f5M55PKD7ieN1Vdc",
+    "drive_name": "26.) 03Jun2025 Tuesday.mp4",
+    "source_md5": "4fe2546806a36bcafacb7e48006d692b",
+    "key": "video/4fe2546806a36bca-480p.mp4",
+    "poster_key": "video/4fe2546806a36bca-480p.webp",
+    "rendition": "480p",
+    "bytes": 62263910,
+    "duration_s": 3324,
+    "src_duration_s": 3324,
+    "width": 854,
+    "height": 480,
+    "sha256": "35e485c6470deab0a0f2716e478be71ad61cae230aef7486f413bb21f84b220f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
