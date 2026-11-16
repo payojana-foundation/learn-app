@@ -5898,5 +5898,21 @@
     "height": 480,
     "sha256": "d0e8cb4d581c72a6ab1c25f2cebcf2d8301aa499e05fada521a03a7402d18753",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1uR7rj3mDIOHPHe_zUxF5LMDnUf8be5-p",
+    "drive_name": "៣៤ អារម្មណសង្គហ ចែកអង្គធម៌របស់អារម្មណ៍៦ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "c3278a955cdd779e11fa8581d817ebff",
+    "key": "video/c3278a955cdd779e-480p.mp4",
+    "poster_key": "video/c3278a955cdd779e-480p.webp",
+    "rendition": "480p",
+    "bytes": 118809935,
+    "duration_s": 5174,
+    "src_duration_s": 5174,
+    "width": 854,
+    "height": 480,
+    "sha256": "b83e09c28e03d5332a92535e4c4a6917b153490188bfb660a2a40b9b4e53d3bb",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
