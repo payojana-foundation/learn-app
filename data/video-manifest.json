@@ -11930,5 +11930,21 @@
     "height": 480,
     "sha256": "1ccf533a41b9d310fd8da016a8da07ff150eb2cfe6a1b06c5f9133809e32b8b5",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ZebPIe4KzZ5y9h2fQ4x0w4UVCUysuQ-H",
+    "drive_name": "28.ចិត្តវិទ្យាព្រះពុទ្ធសាសនាដើម្បីសុខុមាលភាព.mp4",
+    "source_md5": "3e609daef0856d93b2aa449f0f65742e",
+    "key": "video/3e609daef0856d93-480p.mp4",
+    "poster_key": "video/3e609daef0856d93-480p.webp",
+    "rendition": "480p",
+    "bytes": 69472140,
+    "duration_s": 3094,
+    "src_duration_s": 3094,
+    "width": 854,
+    "height": 480,
+    "sha256": "9a64072d94b1d408182e995146522f883f59d11241a0671d0b116d67e61847c0",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
