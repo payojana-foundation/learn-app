@@ -7082,5 +7082,21 @@
     "height": 480,
     "sha256": "42e233827f9ef492d2273b8da3fc31efd8e999ae0958f4639905ba20ebabfb16",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1VujHFyXHP9Z473zG0jDnPtB_U-wqO2bw",
+    "drive_name": "០4 អន្តរធាន ៣ យ៉ាង (បិដកលេខ ១៨).mp4",
+    "source_md5": "02a7cc584ce176cdc007a1f41bf79017",
+    "key": "video/02a7cc584ce176cd-480p.mp4",
+    "poster_key": "video/02a7cc584ce176cd-480p.webp",
+    "rendition": "480p",
+    "bytes": 114282792,
+    "duration_s": 5263,
+    "src_duration_s": 5263,
+    "width": 854,
+    "height": 480,
+    "sha256": "fd4cfc97109a80a3e5846620a814a5f7e5c89dfd63a5009055d5797b8d6665b2",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
