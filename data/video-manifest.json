@@ -11962,5 +11962,21 @@
     "height": 480,
     "sha256": "95870e8e7d4e3d794ce07dc1fb7469d2c28efe80f301555bddc8215106ca1779",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1yoOZZUvi5TrouKCHyOCRGxtMRO7vWgg7",
+    "drive_name": "៣២ អកុសលកម្មបថ​ មុសាវាទ-បិសុ​ណាវាទ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣២ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "a42e2e68715394c8c661524d35dc7bfc",
+    "key": "video/a42e2e68715394c8-480p.mp4",
+    "poster_key": "video/a42e2e68715394c8-480p.webp",
+    "rendition": "480p",
+    "bytes": 71765587,
+    "duration_s": 3442,
+    "src_duration_s": 3442,
+    "width": 854,
+    "height": 480,
+    "sha256": "c45ce10118cdcad9cbd2879e93cc18947775788941522162d79288be52d3c8f0",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
