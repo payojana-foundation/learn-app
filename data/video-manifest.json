@@ -13826,5 +13826,21 @@
     "height": 480,
     "sha256": "2cf048481494077b1dd63cf75c4078e2e3f73fea3ca5235d8bf1ca36117b1a6d",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "13xpxflH6aedS98cdOIbNNXWYMKeufYBH",
+    "drive_name": "៤៨ អធិប្បាយអហេតុកកិរិយាចិត្ត៣ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤៨ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "c4c14ba9f39b830d7c70bfb21c64e118",
+    "key": "video/c4c14ba9f39b830d-480p.mp4",
+    "poster_key": "video/c4c14ba9f39b830d-480p.webp",
+    "rendition": "480p",
+    "bytes": 71529841,
+    "duration_s": 3468,
+    "src_duration_s": 3468,
+    "width": 854,
+    "height": 480,
+    "sha256": "4b21bdf80abced4b7f52a14849a4bc313101f128d530e8c414220d29fc2aa002",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
