@@ -7306,5 +7306,21 @@
     "height": 480,
     "sha256": "71e5633de6658d5dd2c7c7e377d6d294ffbd4de94054eeb7bf054b094bb9b776",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1UraK3QCbzKHdrjVn95wlrPYqi6miyg1d",
+    "drive_name": "១០ ចូឡសច្ចកសូត្រទី៥ សច្ចនិគ្រន្ថព្រមទទួលកំហុស (បិដកលេខ ២២).mp4",
+    "source_md5": "59b1cbd4a7e947e5b9e70515282db17b",
+    "key": "video/59b1cbd4a7e947e5-480p.mp4",
+    "poster_key": "video/59b1cbd4a7e947e5-480p.webp",
+    "rendition": "480p",
+    "bytes": 156083144,
+    "duration_s": 7165,
+    "src_duration_s": 7165,
+    "width": 854,
+    "height": 480,
+    "sha256": "52699a2b8a11cb893a453cf373d59aab3bd99b10fce696f7ab0f343c48b766ab",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
