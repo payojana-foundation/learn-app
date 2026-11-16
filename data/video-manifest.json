@@ -11482,5 +11482,21 @@
     "height": 480,
     "sha256": "589d171d535ba1a5a0347893beda68116c53de9d75e0d221de3f5551955ba77b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Z8Gk95fAR14fp8NvIFyEuYwgdhLmAJax",
+    "drive_name": "២៤ ហេតុដែលលះវិចិកិច្ឆា​ និង​ ឧទ្ធច្ចៈ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ២៤ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "796037bb0af844609ff6057e1aaf7ba3",
+    "key": "video/796037bb0af84460-480p.mp4",
+    "poster_key": "video/796037bb0af84460-480p.webp",
+    "rendition": "480p",
+    "bytes": 72945236,
+    "duration_s": 3615,
+    "src_duration_s": 3615,
+    "width": 854,
+    "height": 480,
+    "sha256": "1048582a0bad8ff76349e5f68a4203c28f3346dcfbcd95f883c8da8ba4e4fcf0",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
