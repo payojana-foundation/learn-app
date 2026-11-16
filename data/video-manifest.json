@@ -7034,5 +7034,21 @@
     "height": 480,
     "sha256": "233e9709e5389e3e870036d772fc1410e835bb349e92ce3696f31c6638690741",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1NDIOJeVkZfKmNU--kOtx8J5g1VtrPDV8",
+    "drive_name": "05 មហាបទានសូត្រភាគ ១៦ ធម្មតារបស់ព្រះពោធិសត្វចាប់បដិសន្ធិនិងប្រសូត្រ.mp4",
+    "source_md5": "92e840621d83535e3775e20ccb265fa2",
+    "key": "video/92e840621d83535e-480p.mp4",
+    "poster_key": "video/92e840621d83535e-480p.webp",
+    "rendition": "480p",
+    "bytes": 87035060,
+    "duration_s": 1708,
+    "src_duration_s": 1708,
+    "width": 854,
+    "height": 480,
+    "sha256": "feb17f1c3d411543bf15a3438af15ba01b5cb6a3a5255a53cc49fa0391eb61eb",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
