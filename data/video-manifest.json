@@ -9226,5 +9226,21 @@
     "height": 480,
     "sha256": "dc744f5df029e5ac4f1f5baa7ea2b8ed560d3a34231f071313d53abb0f349278",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1sF5fdfjFuH7moNfNMABwcCRV7Mr_wf9J",
+    "drive_name": "១៤ បាសរាសិសូត្រ ការស្វែករកមិនប្រសើរតើដូចម្តេច (បិដកលេខ ២១).mp4",
+    "source_md5": "d07b7af7308dbe3120966e6dd2886a73",
+    "key": "video/d07b7af7308dbe31-480p.mp4",
+    "poster_key": "video/d07b7af7308dbe31-480p.webp",
+    "rendition": "480p",
+    "bytes": 140036370,
+    "duration_s": 7208,
+    "src_duration_s": 7208,
+    "width": 854,
+    "height": 480,
+    "sha256": "a520033c5bc26b3fceea47b1d45fbeb35d1a87feab220c63ede615c6c97d265f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
