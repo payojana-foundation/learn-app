@@ -9882,5 +9882,21 @@
     "height": 480,
     "sha256": "4288e7bd5d9c48f8d46014a2fa8ec2c1429c2d428dd1cf38bb61ac1fea2232d5",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1dW6LSStdpg-EpSdZYMFHeVYNK1x3boS5",
+    "drive_name": "39 សតិប្បដ្ឋានសូត្រ សម្បជញ្ញបព្វ ការដឹងខ្លួនមាន ៤ យ៉ាង (បិដកលេខ ២០).mp4",
+    "source_md5": "a7f6562465b2836e2fcf768568f3c64a",
+    "key": "video/a7f6562465b2836e-480p.mp4",
+    "poster_key": "video/a7f6562465b2836e-480p.webp",
+    "rendition": "480p",
+    "bytes": 127978879,
+    "duration_s": 4883,
+    "src_duration_s": 4883,
+    "width": 854,
+    "height": 480,
+    "sha256": "47b2ac64900b3f6f1197cacc60ab922eb0f7bae53a7610cf0c66898155e5be19",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
