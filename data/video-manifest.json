@@ -15598,5 +15598,21 @@
     "height": 480,
     "sha256": "72ec05b69e1386d7816fcd6cd3fba97d59934b9464f163e8f6ee514b61922ef0",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1PhXzYbfb47BpeFofAAZIT4_zygavEhBp",
+    "drive_name": "39-វិនយបិដកេ មហាវគ្គបាឡិ .mp4",
+    "source_md5": "2ac7b19474d22ab6735a2082ba9b8195",
+    "key": "video/2ac7b19474d22ab6-480p.mp4",
+    "poster_key": "video/2ac7b19474d22ab6-480p.webp",
+    "rendition": "480p",
+    "bytes": 117813409,
+    "duration_s": 5995,
+    "src_duration_s": 5995,
+    "width": 854,
+    "height": 480,
+    "sha256": "ed4c1593d7527a40b2fd24be380f77278d5b8ff2d98110b5d3d6f1985ab5c4b7",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
