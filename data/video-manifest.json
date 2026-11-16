@@ -4922,5 +4922,21 @@
     "height": 480,
     "sha256": "17ef4623cf55873a0ac02cc9e92833529c050ff828117f760bd9c9225b9a2aac",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1mRjr7Hnq6lN1aZ4p8cHKWu6GQhesJrX8",
+    "drive_name": "២៨ ឋាន១០ ភវង្គស្ថានដល់សន្តីរណស្ថាន(១) (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "ecccb292a59dbb7bd5633e702990e6cb",
+    "key": "video/ecccb292a59dbb7b-480p.mp4",
+    "poster_key": "video/ecccb292a59dbb7b-480p.webp",
+    "rendition": "480p",
+    "bytes": 115823332,
+    "duration_s": 5202,
+    "src_duration_s": 5202,
+    "width": 854,
+    "height": 480,
+    "sha256": "514bd186cc32eef344d7f77c496e6c796b0d0ba2737b5b04ddc849d88738d780",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
