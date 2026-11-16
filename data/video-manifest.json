@@ -6714,5 +6714,21 @@
     "height": 480,
     "sha256": "7217e7198b587a16d2b63df7a98641d3882e978794fbaa6979e0aeb3a434be90",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1gB1UndeusD9ZsLz7KTq4SA12Uik0iL0X",
+    "drive_name": "៥១ ព្រះនាមថាលោកវិទូ ជ្រាបច្បាស់នូវត្រៃលោក (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "dca33537d6274b1bc863a8e78e583fbf",
+    "key": "video/dca33537d6274b1b-480p.mp4",
+    "poster_key": "video/dca33537d6274b1b-480p.webp",
+    "rendition": "480p",
+    "bytes": 91370748,
+    "duration_s": 4799,
+    "src_duration_s": 4799,
+    "width": 854,
+    "height": 480,
+    "sha256": "7629b002525ffac395348b39590ec8124dd66d7e869cbf000f0bce0188dd695b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
