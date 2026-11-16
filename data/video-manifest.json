@@ -8250,5 +8250,21 @@
     "height": 480,
     "sha256": "f5138bb20c4d51f091add8a9e618da909f89e9b12fd1362e5a96235c488fbf00",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1fDcJx8Kq7q-rDdxV1odrpcQhSfzy1It-",
+    "drive_name": "17 ការកម្រើកផែនដីដោយហេតុ ៨ យ៉ាង (បិដកលេខ ១៦).mp4",
+    "source_md5": "b71835ef7ddf90e1bc053c33e76ae422",
+    "key": "video/b71835ef7ddf90e1-480p.mp4",
+    "poster_key": "video/b71835ef7ddf90e1-480p.webp",
+    "rendition": "480p",
+    "bytes": 143414742,
+    "duration_s": 4871,
+    "src_duration_s": 4871,
+    "width": 854,
+    "height": 480,
+    "sha256": "cdc4fc6cb5f2d3d8cdb713b28a6b44b022889beb05014847001d9105b73ab064",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
