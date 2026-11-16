@@ -7658,5 +7658,21 @@
     "height": 480,
     "sha256": "d5015013fe6ec48dd8e28984e707b1acf32cce18e34ae16d0d40ec47c00d95c1",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1fl-7AEI06KQ0w3eEsOQnpAxTqinzd77m",
+    "drive_name": "10 ត្រកូលយក្ស២៨ អានាដាដិយសូត្រ (បិដកលេខ ១៩).mp4",
+    "source_md5": "41975557e622db33f82b7cdd5f959c00",
+    "key": "video/41975557e622db33-480p.mp4",
+    "poster_key": "video/41975557e622db33-480p.webp",
+    "rendition": "480p",
+    "bytes": 132097633,
+    "duration_s": 5241,
+    "src_duration_s": 5241,
+    "width": 854,
+    "height": 480,
+    "sha256": "fcdd97e9c01598b5c093ebee78b2aa1e119e3445f2137d1acddfaece4962f5a7",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
