@@ -8346,5 +8346,21 @@
     "height": 480,
     "sha256": "5d76722f21a51f1251cc4a1f5f5b68d6b7dbea49064a66395749d48401dae07e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1VxGZGU96ZYRZ9ZkvLl3ZET2mwdpiU68X",
+    "drive_name": "11 សក្កបញ្ហាសូត្រ សក្កទេវរាជឱ្យកូនមកជួបព្រះពុទ្ធ (បិដកលេខ ១៧).mp4",
+    "source_md5": "ba86f5a617f37d68582a1aafd3ab948f",
+    "key": "video/ba86f5a617f37d68-480p.mp4",
+    "poster_key": "video/ba86f5a617f37d68-480p.webp",
+    "rendition": "480p",
+    "bytes": 161052358,
+    "duration_s": 5281,
+    "src_duration_s": 5281,
+    "width": 854,
+    "height": 480,
+    "sha256": "42bb68b470069b67b690ab6f380c594e819fc41443b5df7b6143891101bf580a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
