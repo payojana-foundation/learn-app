@@ -9322,5 +9322,21 @@
     "height": 480,
     "sha256": "48e28f42b7a01e7468872f95808ef1a3ac374ab4c526bb79e7bc68932ef32824",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1DHqbLo1YIrZpKZQA3Xy38wAbnPNoio1Z",
+    "drive_name": "28 ធម៌ពួក ៨ ពន្យល់តាមអដ្ឋកថា(បិដកលេខ ១៩).mp4",
+    "source_md5": "3b55ecf39b8aef7c87101559bf0b972f",
+    "key": "video/3b55ecf39b8aef7c-480p.mp4",
+    "poster_key": "video/3b55ecf39b8aef7c-480p.webp",
+    "rendition": "480p",
+    "bytes": 144788393,
+    "duration_s": 5264,
+    "src_duration_s": 5264,
+    "width": 854,
+    "height": 480,
+    "sha256": "a55414bb9e376ee60822af02ccf84089b5710c9b76a6941cc973ae328e3a3b52",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
