@@ -13890,5 +13890,21 @@
     "height": 480,
     "sha256": "be0870b54f054f246a98a4378761d7e075a43282523de9d82085dba8a64cd8f7",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1wN1rTigOHhNqq-hU3PgR59GE9lB6SOEr",
+    "drive_name": "30-Buddhism in English for Beginners (Ven Sok Theavy).mp4",
+    "source_md5": "813d5ea1b82ec3cd4f4838367842c715",
+    "key": "video/813d5ea1b82ec3cd-480p.mp4",
+    "poster_key": "video/813d5ea1b82ec3cd-480p.webp",
+    "rendition": "480p",
+    "bytes": 151522150,
+    "duration_s": 3374,
+    "src_duration_s": 3374,
+    "width": 854,
+    "height": 480,
+    "sha256": "9b85a7bc87a5daced8b807f9b70ff5d1d63a4cfeca97b044c551cccf57a9ec96",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
