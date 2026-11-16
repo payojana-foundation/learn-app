@@ -15454,5 +15454,21 @@
     "height": 480,
     "sha256": "ecde357d9e5e9a55e267df4cd8a54529679cde50308d1a78a8bc7efcf122efdf",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1b_dzbUJJ3vaRFZg-Ic6D0AhDnuIQ7f6R",
+    "drive_name": "៧១  ចែកមហាវិបាកដួង ដោយន័យ១៤ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧១ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "bf99013bd9a32c51aa1dfc260382f219",
+    "key": "video/bf99013bd9a32c51-480p.mp4",
+    "poster_key": "video/bf99013bd9a32c51-480p.webp",
+    "rendition": "480p",
+    "bytes": 68032489,
+    "duration_s": 3535,
+    "src_duration_s": 3535,
+    "width": 854,
+    "height": 480,
+    "sha256": "267d29a2e017a5c24bb17ab14d25d10f00cd75e6fb153fa2fa69a34db319f105",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
