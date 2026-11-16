@@ -15774,5 +15774,21 @@
     "height": 480,
     "sha256": "a1fd7695c9c1dccf3713c412a474694c97b34313b76a82ae95aefae5cb6948dd",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1dEPHWjO2mA8jH9MSM5WjNGgk-iAyeJMX",
+    "drive_name": "35_Ñāṇa_23Sep2026_វិធីចម្រើនកសិណដែលជាបាតនៃអរូបជ្ឈាន.mp4",
+    "source_md5": "5fabec1fea97f7c0da06b7b84de0d973",
+    "key": "video/5fabec1fea97f7c0-480p.mp4",
+    "poster_key": "video/5fabec1fea97f7c0-480p.webp",
+    "rendition": "480p",
+    "bytes": 97066559,
+    "duration_s": 3973,
+    "src_duration_s": 3973,
+    "width": 854,
+    "height": 480,
+    "sha256": "a2814ee58686461f269d49e3a39e14400988bb98e2fc500417503815eaa1e420",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
