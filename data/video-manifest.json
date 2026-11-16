@@ -9306,5 +9306,21 @@
     "height": 480,
     "sha256": "89a915131dafa87124d1fa1264fd58119106fc706ccac612992e3cec66baccf0",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "11No3irBJGP1hpeW0AxkHMptiA5OdwRGa",
+    "drive_name": "19 កាយានុបស្សនាសតិប្បដ្ឋានភាគបញ្ចប់  (បិដកលេខ ១៧).mp4",
+    "source_md5": "a7e91e5754c04cb05da2eedf93d5ed12",
+    "key": "video/a7e91e5754c04cb0-480p.mp4",
+    "poster_key": "video/a7e91e5754c04cb0-480p.webp",
+    "rendition": "480p",
+    "bytes": 104797255,
+    "duration_s": 3839,
+    "src_duration_s": 3839,
+    "width": 854,
+    "height": 480,
+    "sha256": "48e28f42b7a01e7468872f95808ef1a3ac374ab4c526bb79e7bc68932ef32824",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
