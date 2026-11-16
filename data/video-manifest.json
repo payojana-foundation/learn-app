@@ -8218,5 +8218,21 @@
     "height": 480,
     "sha256": "a4f68d859112e73b41d3aca6c529655c9f10864d626d5c0b3331dccbd0a7a0b6",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1jAf38W4q0AF42EFaCeEQxejOjIo2ci8l",
+    "drive_name": "19 អនង្គណសូត្រ សេចក្តីក្រោធរបស់ភិក្ខុដោយប្រការផ្សេងៗ (បិដកលេខ ២០).mp4",
+    "source_md5": "45d6ca9cd0dd37570392a0a1c5a86267",
+    "key": "video/45d6ca9cd0dd3757-480p.mp4",
+    "poster_key": "video/45d6ca9cd0dd3757-480p.webp",
+    "rendition": "480p",
+    "bytes": 115682731,
+    "duration_s": 4473,
+    "src_duration_s": 4473,
+    "width": 854,
+    "height": 480,
+    "sha256": "82bb750091bdbda4a32668ac5a42d308704e3dfb474a86eae5826b4f5a3a6409",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
