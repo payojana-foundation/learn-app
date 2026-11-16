@@ -6970,5 +6970,21 @@
     "height": 480,
     "sha256": "9d5283a03446e88de0f3b2a891d8e68922840ffd08da00bfedcebe61b5395741",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1KhpQ3s1NxmA2fM9GQLaWON8GwsKUuX4v",
+    "drive_name": "០៦ មហាគោបាលសូត្រទី៣ នាយគោបាលមិនស្គាល់លក្ខណគោ១១ (បិដកលេខ ២១).mp4",
+    "source_md5": "21b7071c0f8ea4c8ce02c81ca9d32720",
+    "key": "video/21b7071c0f8ea4c8-480p.mp4",
+    "poster_key": "video/21b7071c0f8ea4c8-480p.webp",
+    "rendition": "480p",
+    "bytes": 91480136,
+    "duration_s": 4098,
+    "src_duration_s": 4098,
+    "width": 854,
+    "height": 480,
+    "sha256": "e6858f8b50dd71b2b5d4b5d8c903f399ccdd39308fb5914f2f6523a1ac30fcc4",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
