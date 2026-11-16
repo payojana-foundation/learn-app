@@ -9242,5 +9242,21 @@
     "height": 480,
     "sha256": "a520033c5bc26b3fceea47b1d45fbeb35d1a87feab220c63ede615c6c97d265f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1WPbhGy2vpy5Ayr1IozMXeFgST7GE9y_G",
+    "drive_name": "27 ធម៌ពួក ៦ ពន្យល់តាមអដ្ឋកថា(បិដកលេខ ១៩).mp4",
+    "source_md5": "59bf7940bce0ef147e652eee01a32c61",
+    "key": "video/59bf7940bce0ef14-480p.mp4",
+    "poster_key": "video/59bf7940bce0ef14-480p.webp",
+    "rendition": "480p",
+    "bytes": 140118451,
+    "duration_s": 5400,
+    "src_duration_s": 5400,
+    "width": 854,
+    "height": 480,
+    "sha256": "f8933b6fa48c59a40a4103f7232066753e472eb227a30f75285ebd64fbcdbe1e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
