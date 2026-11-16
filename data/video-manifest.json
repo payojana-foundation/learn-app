@@ -6410,5 +6410,21 @@
     "height": 480,
     "sha256": "fef2b25c13ca236ea11237a61349a0f020fb5549e6f901f0281d0a697ed0ca65",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1aGGjfUoxDig8PML3pHhbkXtcetCOTZkL",
+    "drive_name": "៦២ រូបវិថី តារាងទី៨ បញ្ចទ្វារមរណាសន្នវិថី ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤-2026-08-23 08 00 11(copy).mp4",
+    "source_md5": "f1728edd2df8009cff0245cebd086481",
+    "key": "video/f1728edd2df8009c-480p.mp4",
+    "poster_key": "video/f1728edd2df8009c-480p.webp",
+    "rendition": "480p",
+    "bytes": 90871142,
+    "duration_s": 4263,
+    "src_duration_s": 4263,
+    "width": 854,
+    "height": 480,
+    "sha256": "bc2a8c08b12451f02e09bcdf3cc62398ea209695c02bac7a333e8e39c9301ae6",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
