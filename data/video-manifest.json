@@ -11402,5 +11402,21 @@
     "height": 480,
     "sha256": "d0043d7cf475468ead98f53bf4a71cf35b63e999b724b82fd7463eb3fc77e456",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1QuVawMqGvba_UJasN2MAHAU-SVhdSTln",
+    "drive_name": "51 សតិប្បដ្ឋានសូត្រ ធម្មានុបស្សនាពោជ្ឈង្គបព្វៈ សតិសម្ពោជ្ឈង្គ (បិដកលេខ ២០).mp4",
+    "source_md5": "9f035082d7a95a397d20a011c7e1f7a9",
+    "key": "video/9f035082d7a95a39-480p.mp4",
+    "poster_key": "video/9f035082d7a95a39-480p.webp",
+    "rendition": "480p",
+    "bytes": 161829975,
+    "duration_s": 7044,
+    "src_duration_s": 7044,
+    "width": 854,
+    "height": 480,
+    "sha256": "0bbf6a14b8d2af343a830c6c476eb609489cb8eeea38d78d02df8a9cb1f61a90",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
