@@ -7322,5 +7322,21 @@
     "height": 480,
     "sha256": "52699a2b8a11cb893a453cf373d59aab3bd99b10fce696f7ab0f343c48b766ab",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1d5tjPOgnc0fqtc6CwSK5DEqKgBWjPeHb",
+    "drive_name": "០៧ មានះរបស់ភិក្ខ ៥០០ អង្គស្តាប់ធម៌មិនយល់ (បិដកលេខ ២០).mp4",
+    "source_md5": "a1e8782af1d10afeae9a83c099a41d4c",
+    "key": "video/a1e8782af1d10afe-480p.mp4",
+    "poster_key": "video/a1e8782af1d10afe-480p.webp",
+    "rendition": "480p",
+    "bytes": 182526866,
+    "duration_s": 6719,
+    "src_duration_s": 6719,
+    "width": 854,
+    "height": 480,
+    "sha256": "f68a2a4ccddc0d0ddd8c017f7149b70b06dbab8973031eef7238b3410f2793b1",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
