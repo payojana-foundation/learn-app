@@ -1,0 +1,121 @@
+name: check-decisions
+
+# PART 2 (16 Nov) — act on the TEAM column check_decision of the master sheet's Lessons tab
+# (scripts/master/decisions.mjs), hourly after approve-check:
+#   approve anyway -> approve the lesson (audio, and video if any), as approve-media per-ids;
+#   fixed          -> re-run the pre-check for that lesson, release it if it now passes;
+#   hold           -> nothing.
+# Each decision is acted on once (again only when the decision or the converted file changes),
+# logged in data/ops/check-decisions.json and in the row's issues (DECISION: ...). Writes only
+# those issues cells (and, once, the check_decision header + dropdown); no other column.
+# After an approval it starts master-export (the app data rebuild).
+
+on:
+  workflow_run:
+    workflows: [approve-check]
+    types: [completed]
+  workflow_dispatch:
+    inputs:
+      sheet_id:
+        description: "Google Sheet id of the master content sheet"
+        required: false
+        default: "12MOXAOHwwtKa6DFVwbfRMj8UtaKmN1758boN1EUKNZs"
+
+permissions:
+  contents: write
+  id-token: write
+  actions: write # starts master-export after an approval
+
+concurrency:
+  group: data-rebuild-main
+  cancel-in-progress: false
+
+env:
+  SHEET_ID: ${{ inputs.sheet_id || '12MOXAOHwwtKa6DFVwbfRMj8UtaKmN1758boN1EUKNZs' }}
+
+jobs:
+  decide:
+    if: ${{ github.event_name == 'workflow_dispatch' || github.event.workflow_run.conclusion == 'success' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Authenticate to Google Cloud (Sheets + Drive read-only)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/spreadsheets,https://www.googleapis.com/auth/drive.readonly
+
+      - name: Read the decisions (adds the check_decision column once)
+        id: prep
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: node scripts/master/decisions.mjs prepare --sheet-id "$SHEET_ID"
+
+      - name: Install ffmpeg (re-check)
+        if: ${{ steps.prep.outputs.recheck != '0' }}
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+
+      - name: Re-check the "fixed" lessons (approve-check rules)
+        if: ${{ steps.prep.outputs.recheck != '0' }}
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: node scripts/media/precheck.mjs --drive --silence --budget-min 20
+
+      - name: Apply the decisions and push (rebase-proof)
+        id: push
+        if: ${{ steps.prep.outputs.acts != '0' }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          cp data/queues/approve/precheck.json /tmp/precheck.json
+          # Files other jobs also write (course-video-matrix, course-autorun, video-approve-check):
+          # every attempt starts from origin/main's copy and applies the decisions again.
+          SHARED="data/media-manifest.json data/video-manifest.json data/ops/autorun-state.json data/ops/check-decisions.json data/queues/approve-video/precheck.json data/queues/approve-video/FLAGGED.md"
+          for attempt in 1 2 3 4 5 6 7 8; do
+            git fetch -q origin main
+            git reset -q origin/main
+            for p in $SHARED; do git checkout origin/main -- "$p" 2>/dev/null || true; done
+            git checkout origin/main -- data/queues/approve/FLAGGED.md 2>/dev/null || true
+            cp /tmp/precheck.json data/queues/approve/precheck.json
+            node scripts/media/video-precheck.mjs
+            node scripts/master/decisions.mjs apply --sheet-id "$SHEET_ID" | tee apply.log
+            for p in $SHARED data/queues/approve/precheck.json; do if [ -f "$p" ]; then git add "$p"; fi; done
+            if git diff --cached --quiet; then echo "nothing to commit"; exit 0; fi
+            git commit -q -m "media: team check decisions (check_decision column)"
+            if git push origin HEAD:main; then
+              echo "pushed=true" >> "$GITHUB_OUTPUT"
+              exit 0
+            fi
+            echo "push rejected (attempt $attempt), starting again from origin/main"
+            sleep $(( 3 + RANDOM % 7 ))
+          done
+          echo "::error title=check-decisions not saved::could not push after 8 attempts"
+          exit 1
+
+      - name: Log the decisions in issues (only those cells)
+        if: ${{ steps.push.outputs.pushed == 'true' }}
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: node scripts/master/decisions.mjs write-issues --sheet-id "$SHEET_ID"
+
+      - name: Rebuild the app data (master-export)
+        if: ${{ steps.push.outputs.pushed == 'true' && steps.push.outputs.approved != '0' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run master-export.yml --ref main -R "$GITHUB_REPOSITORY"

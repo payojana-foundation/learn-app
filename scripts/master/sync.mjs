@@ -45,6 +45,8 @@ import { shownRows } from '../build-courses.mjs';
 import { parseCsvObjects, toCsv } from './csv.mjs';
 import { colLetter } from './seed.mjs';
 import { checksJson, failedMap } from './checks.mjs';
+import { presentKeys } from './export.mjs';
+export { presentKeys };
 
 const SHEETS_BASE = 'https://sheets.googleapis.com/v4/spreadsheets';
 export const LESSON_SYNC_COLUMNS = ['lesson_id', 'audio_status', 'learn_live', 'acast_embed', 'acast_episode_id', 'issues'];
@@ -78,7 +80,7 @@ export function audioStatus(sourceId, approved, failedReview, inManifest) {
  * Returns { lessons: Map(row_key -> {col: value}), courses: Map(course_id -> {lesson_count}) }.
  */
 export function computeSystem(lessonRows, courseRows, ctx) {
-  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map(), checkFlags = new Map() } = ctx;
+  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map(), checkFlags = new Map(), decisions = {} } = ctx;
   const approved = new Set(manifest.filter((e) => e && e.drive_file_id && /^approved\b/i.test(e.status || '')).map((e) => e.drive_file_id));
   const inManifest = new Set(manifest.filter((e) => e && e.drive_file_id).map((e) => e.drive_file_id));
   const { hidden } = shownRows(lessonRows, manifest);
@@ -102,6 +104,8 @@ export function computeSystem(lessonRows, courseRows, ctx) {
     if (r.acast_status === 'posted' && !embed && !episode) issues.push('acast embed missing');
     if (!r.source_type && src) issues.push('source_type not set');
     for (const reason of (src && checkFlags.get(src)) || []) issues.push(`CHECK: ${reason}`);
+    const dec = decisions[r.row_key];
+    if (dec && dec.decision) issues.push(`DECISION: ${dec.decision} (${dec.at}): ${dec.result}`);
     lessons.set(r.row_key, {
       lesson_id: lessonId,
       audio_status: audioStatus(src, approved, failedReview, inManifest),
@@ -226,8 +230,9 @@ export async function tabGid({ sheetId, token, tab, fetchFn = fetch }) {
   }
 }
 
-export function checkHeader(tab, header, keys) {
-  if (header.length !== keys.length || header.some((h, i) => h !== keys[i])) {
+
+export function checkHeader(tab, header, keys, optionalTail = []) {
+  if (!presentKeys(header, keys, optionalTail)) {
     throw new HeaderMismatchError(`tab ${tab}: header differs from data/master/columns.json (expected ${keys.join(',')})`);
   }
 }
@@ -321,6 +326,7 @@ async function main() {
   if (mode === 'write' && (!token || !/^[A-Za-z0-9_-]+$/.test(sheetId))) { console.error('write needs --sheet-id and ACCESS_TOKEN'); process.exit(2); }
   const columns = JSON.parse(readFileSync(join(root, 'data', 'master', 'columns.json'), 'utf-8'));
   const lessonKeys = columns.columns.map((c) => c.key);
+  const lessonOptional = columns.columns.filter((c) => c.added_after_seed).map((c) => c.key);
   const courseKeys = columns.courses.columns.map((c) => c.key);
   // never write a TEAM column, even if columns.json changed under us
   const sys = new Set([...columns.columns, ...columns.courses.columns].filter((c) => c.owner === 'SYSTEM').map((c) => c.key));
@@ -332,7 +338,7 @@ async function main() {
   try {
     lessonsTab = live ? await readTab({ sheetId, token, tab: 'Lessons' }) : fromCsv(join(root, 'data', 'master', 'lessons.csv'));
     coursesTab = live ? await readTab({ sheetId, token, tab: 'Courses' }) : fromCsv(join(root, 'data', 'master', 'courses.csv'));
-    checkHeader('Lessons', lessonsTab.header, lessonKeys);
+    checkHeader('Lessons', lessonsTab.header, lessonKeys, lessonOptional);
     checkHeader('Courses', coursesTab.header, courseKeys);
   } catch (e) {
     console.error(`::error title=master sync::${e.message}`);
@@ -344,6 +350,7 @@ async function main() {
   const wanted = computeSystem(lessonRows, courseRows, {
     manifest, failedReview: failedReviewSet(root), shownLessonIds: shownFromPublicData(root), acastBySource: await acastFromTeacherSheets(root),
     checkFlags: checkFlagsFile(root),
+    decisions: existsSync(join(root, 'data', 'ops', 'check-decisions.json')) ? JSON.parse(readFileSync(join(root, 'data', 'ops', 'check-decisions.json'), 'utf-8')) : {},
   });
   const L = diffTab(lessonsTab, 'row_key', wanted.lessons, LESSON_SYNC_COLUMNS);
   const C = diffTab(coursesTab, 'course_id', wanted.courses, COURSE_SYNC_COLUMNS);

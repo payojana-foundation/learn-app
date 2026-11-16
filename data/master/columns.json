@@ -31,7 +31,8 @@
     { "key": "notes", "owner": "TEAM", "protected": false, "dropdown": null, "source": "No source; empty." },
     { "key": "source_file", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Drive file id (the .xlsx name in data/source/sheets)." },
     { "key": "source_tab", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Tab name, byte-for-byte." },
-    { "key": "source_row", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Sheet row number (1-based)." }
+    { "key": "source_row", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Sheet row number (1-based)." },
+    { "key": "check_decision", "owner": "TEAM", "protected": false, "dropdown": ["fixed", "approve anyway", "hold"], "added_after_seed": true, "source": "Team decision on a flagged or failed lesson (16 Nov). Empty = no decision. Read hourly by check-decisions.yml after approve-check: approve anyway -> approve the lesson (audio, and video if any); fixed -> re-run the pre-check for that lesson, release if it passes; hold -> nothing. Each decision is logged in issues (DECISION: ...). Added at the end of the Lessons tab by check-decisions.yml; until then the exports read it as empty." }
   ],
   "courses": {
     "tab": "Courses",

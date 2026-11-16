@@ -45,6 +45,7 @@ Owner TEAM = the team edits it. SYSTEM = written by the seed/sync; a protected r
 | 28 | `source_file` | SYSTEM | yes |  | Drive file id (the .xlsx name in data/source/sheets). |
 | 29 | `source_tab` | SYSTEM | yes |  | Tab name, byte-for-byte. |
 | 30 | `source_row` | SYSTEM | yes |  | Sheet row number (1-based). |
+| 31 | `check_decision` | TEAM | no | fixed, approve anyway, hold (empty = no decision) | Team decision on a flagged or failed lesson (16 Nov). Added at the END of the Lessons tab by check-decisions.yml (`added_after_seed`); until it exists, the export and the sync read it as empty. See **Team decisions** below. |
 
 ## Courses tab
 
@@ -80,8 +81,26 @@ One row per distinct non-empty `course_id` of the Lessons rows, in order of firs
 
 `scripts/master/parity.mjs` reads `master-seed-preview.csv` and writes `reports/master-parity.md`.
 
-## Write mode
+## Team decisions (check_decision, check-decisions.yml)
 
+Every hour, after approve-check, `.github/workflows/check-decisions.yml` reads the Lessons tab
+and acts on `check_decision` (`scripts/master/decisions.mjs`):
+
+- `approve anyway`: approves the lesson's converted audio, and its converted video if there is one
+  (the same change as approve-media per-ids; reviewer `team: approve anyway`). Nothing converted
+  yet = nothing approved, logged.
+- `fixed`: forgets the lesson's pre-check measurements and measures it again (approve-check
+  rules); if it now passes it is released (audio, and video when the video passes too). A lesson
+  that was never converted gets its course-autorun tries reset, so autorun converts it again.
+  A fix of the recording itself (a new file in Drive) is a new conversion, not a re-check.
+- `hold`: nothing happens; the lesson stays held.
+
+A decision is acted on once; it is acted on again only when the decision or the converted file
+changes. Each one is logged in `data/ops/check-decisions.json` and in the row's `issues` as
+`DECISION: <decision> (<date>): <result>`. The job writes only the `issues` cells of the rows it
+acted on (and, once, the `check_decision` header and its dropdown); it never writes another column.
+
+## Write mode
 `.github/workflows/master-seed.yml` (workflow_dispatch, inputs `sheet_id`, `mode` = dry | write). Only the write mode authenticates, with the `https://www.googleapis.com/auth/spreadsheets` scope. It REFUSES (exit 3) if the Lessons tab already has data rows. Order: Legacy, Lists and Courses first, then freeze, dropdowns and protected ranges (Lessons and Courses), and the Lessons rows last, so a failure half way leaves Lessons empty and a re-run is allowed. Values are written RAW (no formula parsing). The sheet owner can always edit a protected range; the protection keeps every other editor out.
 
 ## Sync (master-sync.yml)

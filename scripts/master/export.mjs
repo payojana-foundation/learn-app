@@ -47,10 +47,23 @@ export function loadColumns(root = process.cwd()) {
  * values = the Sheets API `values` array (header row first). Returns row objects keyed
  * by the header. Short rows are padded with ''; completely empty rows are dropped.
  */
-export function rowsFromValues(tab, values, keys) {
+/**
+ * The header must equal `keys`, except that columns listed in `optionalTail` (columns.json
+ * `added_after_seed`, always at the END) may still be missing from the sheet: the reader then
+ * fills them with ''. Returns the keys actually present.
+ */
+export function presentKeys(header, keys, optionalTail = []) {
+  for (let n = 0; n <= optionalTail.length; n++) {
+    const want = keys.slice(0, keys.length - n);
+    if (n && !keys.slice(keys.length - n).every((k) => optionalTail.includes(k))) break;
+    if (header.length === want.length && header.every((h, i) => h === want[i])) return want;
+  }
+  return null;
+}
+export function rowsFromValues(tab, values, keys, optionalTail = []) {
   const [head = [], ...body] = values || [];
   const header = head.map((h) => String(h));
-  if (header.length !== keys.length || header.some((h, i) => h !== keys[i])) throw new HeaderMismatchError(tab, keys, header);
+  if (!presentKeys(header, keys, optionalTail)) throw new HeaderMismatchError(tab, keys, header);
   const rows = [];
   for (const r of body) {
     const cells = keys.map((_, i) => (r[i] === undefined || r[i] === null ? '' : String(r[i])));
@@ -68,7 +81,7 @@ export function csvFor(keys, rows) {
 /** The two exports: [{ tab, file, keys }] from columns.json. */
 export function plan(columns) {
   return [
-    { tab: 'Lessons', file: 'lessons.csv', keys: columns.columns.map((c) => c.key) },
+    { tab: 'Lessons', file: 'lessons.csv', keys: columns.columns.map((c) => c.key), optional: columns.columns.filter((c) => c.added_after_seed).map((c) => c.key) },
     { tab: 'Courses', file: 'courses.csv', keys: columns.courses.columns.map((c) => c.key) },
   ];
 }
@@ -91,7 +104,7 @@ export async function exportMaster({ sheetId, token, columns, outDir, fetchFn = 
   const results = [];
   for (const p of plan(columns)) {
     const values = await fetchTab({ sheetId, tab: p.tab, token, fetchFn });
-    const rows = rowsFromValues(p.tab, values, p.keys);
+    const rows = rowsFromValues(p.tab, values, p.keys, p.optional || []);
     results.push({ ...p, rows, csv: csvFor(p.keys, rows) });
   }
   mkdirSync(outDir, { recursive: true });

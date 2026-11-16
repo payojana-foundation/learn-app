@@ -304,6 +304,7 @@ export function buildMaster(files, ctx = {}) {
           source_file: f.file_id,
           source_tab: t.name,
           source_row: String(l.row),
+          check_decision: '',
         });
 
         // Legacy: every other labelled column that holds data, byte-exact.
