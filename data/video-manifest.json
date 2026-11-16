@@ -10042,5 +10042,21 @@
     "height": 480,
     "sha256": "89a20cacd5a381c0058b4df9e5821c2a875e4afeb3bfd7248ad93adba83ea15f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1oFw0kpsFAE7K-KITSXDADqIVe2Qd8JiR",
+    "drive_name": "24 បញ្ហាព្រះបាយាសិរាជញ្ញនឹងកុមារកស្សបៈ (បិដកលេខ ១៧).mp4",
+    "source_md5": "9f36c86923b49a67c20c43e31ecbcfa9",
+    "key": "video/9f36c86923b49a67-480p.mp4",
+    "poster_key": "video/9f36c86923b49a67-480p.webp",
+    "rendition": "480p",
+    "bytes": 127483715,
+    "duration_s": 4779,
+    "src_duration_s": 4779,
+    "width": 854,
+    "height": 480,
+    "sha256": "f5dea87d7f950309e05973061414a75ef6509bb14f548e108fb0d9a72ef64e24",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
