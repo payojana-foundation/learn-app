@@ -7338,5 +7338,21 @@
     "height": 480,
     "sha256": "f68a2a4ccddc0d0ddd8c017f7149b70b06dbab8973031eef7238b3410f2793b1",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "19uYQYeT1rWc3UZVojIQjKJk3vLghRMou",
+    "drive_name": "08 ការឃើញទេវទូតរបស់ព្រះពោធិសត្វមុនចេញបួស (បិដកលេខ ១៦).mp4",
+    "source_md5": "7770b3a7fdcb1a1c81d59b876b299298",
+    "key": "video/7770b3a7fdcb1a1c-480p.mp4",
+    "poster_key": "video/7770b3a7fdcb1a1c-480p.webp",
+    "rendition": "480p",
+    "bytes": 150529060,
+    "duration_s": 4947,
+    "src_duration_s": 4947,
+    "width": 854,
+    "height": 480,
+    "sha256": "d8dbc7c81743cbe5a4a2c9f40ba6f70d30d000ee6d740453a9b34123ac3255fd",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
