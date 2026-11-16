@@ -94294,5 +94294,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1L5_gHrSW1Aw7EWGkg0DJ9nHl2ublbvyi",
+    "drive_name": "១៧ អតិបរិត្តារម្មណ៍ អារម្មណ៍តូចបំផុតមាន៦ឬ៧យ៉ាង ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "10cd383215176e0c098eab9c40011683",
+    "key": "audio/10cd383215176e0c-a64.mp3",
+    "bytes": 37691811,
+    "duration_s": 4711,
+    "sha256": "18b155d5ba71f23cdbd0804d013311fbfa84bdb633157fe1a50621c1b2b578f6",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -0.3,
+        "LRA": 0
+      },
+      "G": 9.59,
+      "limit": 0.708,
+      "depth": 12.29,
+      "busy": 2.8568699657218053,
+      "out": {
+        "I": -18,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
