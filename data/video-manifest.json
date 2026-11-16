@@ -14894,5 +14894,21 @@
     "height": 480,
     "sha256": "6c111f33b4d48621acb5aa6f420447eee91f15b5069d099a40f88c6f6a697001",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1wzTtkPgJD3KkHISPYQnRzZ6dCDfilXKW",
+    "drive_name": "៦៣ មហាកុសលចិត្តប្រព្រឹត្តក្នុងបុញ្ញកិរិយាវត្ថុ១០និងមហាកុសល២ប្រភេទ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៦៣ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "098a56b976b15caa842f1762332452c1",
+    "key": "video/098a56b976b15caa-480p.mp4",
+    "poster_key": "video/098a56b976b15caa-480p.webp",
+    "rendition": "480p",
+    "bytes": 67971970,
+    "duration_s": 3455,
+    "src_duration_s": 3455,
+    "width": 854,
+    "height": 480,
+    "sha256": "488a07cec50dec00445db7011e9b69c90fa2ec44ffcc6913229ed68e01836b5c",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
