@@ -1,0 +1,31 @@
+{
+  "id": "c010",
+  "provisional": false,
+  "title_km": "5-បរិច្ឆេទ ទី៥​ កាត់ស្អាត(២០២៦)",
+  "title_en": null,
+  "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+  "teacher_slug": "yon-yi",
+  "topics": [],
+  "ongoing": true,
+  "all_shown": false,
+  "lessons": [
+    {
+      "id": "AABH000YY2026.5004",
+      "num": 4,
+      "title_km": "០៤_ភូមិចតុក្កៈ_បាបកម្មនាំឱ្យកើតអវីចិនរកជាដើមភិក្ខុអគ្គចិត្តោ_យ៉ុន.mp3",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/356a1375dab1b861-a64.mp3",
+          "duration_s": 3870
+        }
+      ],
+      "video": {
+        "src": "video/499d96aebbcaac23-480p.mp4",
+        "poster": "video/499d96aebbcaac23-480p.webp",
+        "duration_s": 3890
+      }
+    }
+  ]
+}

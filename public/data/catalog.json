@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-16T10:13:55.000Z",
+  "generated": "2026-11-16T18:41:49.000Z",
   "provisional": false,
   "courses": [
     {
@@ -78,6 +78,22 @@
         "r2"
       ],
       "ongoing": false,
+      "all_shown": false,
+      "has_video": true
+    },
+    {
+      "id": "c010",
+      "provisional": false,
+      "title_km": "5-បរិច្ឆេទ ទី៥​ កាត់ស្អាត(២០២៦)",
+      "title_en": null,
+      "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
+      "teacher_slug": "yon-yi",
+      "topics": [],
+      "lesson_count": 1,
+      "media_kinds": [
+        "r2"
+      ],
+      "ongoing": true,
       "all_shown": false,
       "has_video": true
     },
