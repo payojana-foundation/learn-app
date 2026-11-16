@@ -6106,5 +6106,21 @@
     "height": 480,
     "sha256": "42392b82d8b9e294b0cdb876a56315f050ef89d01949a9beedd91c4df9eaa1cc",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1cifQ1rTFx07-e3VE0WlHnfkIyU1tAW7h",
+    "drive_name": "៣៥ អារម្មណសង្គហ សាមញ្ញអារម្មណ៍ អធិបតីអារម្មណ៍ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "4df6cef6d69dc399cc677a809f420afd",
+    "key": "video/4df6cef6d69dc399-480p.mp4",
+    "poster_key": "video/4df6cef6d69dc399-480p.webp",
+    "rendition": "480p",
+    "bytes": 110339032,
+    "duration_s": 5115,
+    "src_duration_s": 5115,
+    "width": 854,
+    "height": 480,
+    "sha256": "218b8da353c02573245dc1e7f93a36f7a399c7b1d4b4645e9d8effba9625c638",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
