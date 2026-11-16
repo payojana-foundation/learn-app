@@ -6186,5 +6186,21 @@
     "height": 480,
     "sha256": "55e3a80a6dc84c435b40c4db052a1579d3831c6364396d53687dc15c389ee2a5",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1KMJeYF8fuP-OFQWTHtxgKbf09cT26lOP",
+    "drive_name": "៦០ រូបវិថី តារាងទី៥ និងទី៦ បញ្ចទ្វារវិថីនិងនិរោធសមាបត្តិ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤-2026-08-14 11 30 48(copy).mp4",
+    "source_md5": "5c55b4590f16c9fc473e0164011ee797",
+    "key": "video/5c55b4590f16c9fc-480p.mp4",
+    "poster_key": "video/5c55b4590f16c9fc-480p.webp",
+    "rendition": "480p",
+    "bytes": 85368671,
+    "duration_s": 4408,
+    "src_duration_s": 4408,
+    "width": 854,
+    "height": 480,
+    "sha256": "b2561ac6ef1ff4bad674c8a5832ba4a774dad62e00db53d6eef1590c84cab586",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
