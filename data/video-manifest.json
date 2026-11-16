@@ -4318,5 +4318,21 @@
     "height": 480,
     "sha256": "fbae23ce1eef490b22f7d025b23cb479cfbb4244a8c177c67fae23b109a32a81",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Iwc0WVY4jXnoXSAH_OLwzaaEXKIc0wEp",
+    "drive_name": "៤៥ មរណាសន្នវិថី ការស្លាប់តាមបញ្ចទ្វារ (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "a265d18f92b807208176c7ca8be3a99c",
+    "key": "video/a265d18f92b80720-480p.mp4",
+    "poster_key": "video/a265d18f92b80720-480p.webp",
+    "rendition": "480p",
+    "bytes": 77672407,
+    "duration_s": 4215,
+    "src_duration_s": 4215,
+    "width": 854,
+    "height": 480,
+    "sha256": "b9b2f55de487c870a8bd3643854161ac5606eeb67fdda4099d0f0ac6d75d3f80",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
