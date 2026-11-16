@@ -7418,5 +7418,21 @@
     "height": 480,
     "sha256": "7bfb0e1b794a7e6a3eeb9615e9d5a7b82ed501b8051bc128dd474f3ded855fa3",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "115te7hhMRpqLe7k2qFEXZsnAB6PHDWft",
+    "drive_name": "05 មហាគោវិន្ទ ជាអ្នកប្រឹក្សាដ៏ប្រសើរនៃស្តេច៦ អង្គ (បិដកលេខ ១៧).mp4",
+    "source_md5": "9d5351e2720b3cec653dafa90c6da289",
+    "key": "video/9d5351e2720b3cec-480p.mp4",
+    "poster_key": "video/9d5351e2720b3cec-480p.webp",
+    "rendition": "480p",
+    "bytes": 167288503,
+    "duration_s": 5252,
+    "src_duration_s": 5252,
+    "width": 854,
+    "height": 480,
+    "sha256": "23be157384f5b28919cd14fd10e975ea5b4ea1e806265acae9d48d5cd729af47",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
