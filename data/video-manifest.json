@@ -5642,5 +5642,21 @@
     "height": 480,
     "sha256": "f92dc089a5b2b2d01612f522cc0ee3090b7ed673223d8b859b2b8ae988e800da",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "13RpyDjdmHt9TvWD9Ibi53MNzMn4jwuJB",
+    "drive_name": "៤៣ វិធីយកឈ្នះមនុស្សមាន ៤ ប្រភេទ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "567c9578106b6556c050f8500a7235a2",
+    "key": "video/567c9578106b6556-480p.mp4",
+    "poster_key": "video/567c9578106b6556-480p.webp",
+    "rendition": "480p",
+    "bytes": 90944982,
+    "duration_s": 4395,
+    "src_duration_s": 4395,
+    "width": 854,
+    "height": 480,
+    "sha256": "e7ac59096dce93804b6dd37223a4487354a4f849e0c88f7d19e30bf29609a982",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
