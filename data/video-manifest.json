@@ -6122,5 +6122,21 @@
     "height": 480,
     "sha256": "218b8da353c02573245dc1e7f93a36f7a399c7b1d4b4645e9d8effba9625c638",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1bVU5zHM1z_PxpBiesOFLx0pxEUC29_MQ",
+    "drive_name": "18.Buddhism in English for Beginners (Ven Hak Sienghai).mp4",
+    "source_md5": "9a537b97c6cb069686b7ed00c5555346",
+    "key": "video/9a537b97c6cb0696-480p.mp4",
+    "poster_key": "video/9a537b97c6cb0696-480p.webp",
+    "rendition": "480p",
+    "bytes": 59979527,
+    "duration_s": 1097,
+    "src_duration_s": 1097,
+    "width": 854,
+    "height": 480,
+    "sha256": "1b88d27a78494234c5cef71f32891856d37ddf6729a4dd8bc80c08459aad2092",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
