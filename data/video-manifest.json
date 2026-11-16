@@ -8394,5 +8394,21 @@
     "height": 480,
     "sha256": "5503d40cefbf70358eafce6347dbdc103c3322ad9dfd60e1c7c14b24f9307c6e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1s-ZrxcMg6WlOI2SAtNYRUrEwRoacpK6h",
+    "drive_name": "០៦ អលគទ្ទូបមសូត្រ ពួកទេវតា ព្រហ្ម រកព្រះខីណាស្រពមិនឃើញ (បិដកលេខ ២១).mp4",
+    "source_md5": "e0013f7f7a0a775eccc61b543e42797a",
+    "key": "video/e0013f7f7a0a775e-480p.mp4",
+    "poster_key": "video/e0013f7f7a0a775e-480p.webp",
+    "rendition": "480p",
+    "bytes": 151411540,
+    "duration_s": 7152,
+    "src_duration_s": 7152,
+    "width": 854,
+    "height": 480,
+    "sha256": "a4834e75ba3dbfd4f931cf5fd907d501509c70a7765238e5bb87c3ad11fb2afb",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
