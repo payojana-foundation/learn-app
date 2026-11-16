@@ -4494,5 +4494,21 @@
     "height": 480,
     "sha256": "af38cc20271be19526767fae6c3909d2b04dc96d142d2c450beb692fbc9cf0e2",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "19GTDjVWFn6uDppsczo1o90M26K-g3ZAF",
+    "drive_name": "៤០ ឧតុជ្ជរូប រូបកើតពីឧតុ និងអាហារជ្ជរូប រូបកើតពីអាហារ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "aab1ad44acce0955fcbd87800e6d63be",
+    "key": "video/aab1ad44acce0955-480p.mp4",
+    "poster_key": "video/aab1ad44acce0955-480p.webp",
+    "rendition": "480p",
+    "bytes": 112870401,
+    "duration_s": 4971,
+    "src_duration_s": 4971,
+    "width": 854,
+    "height": 480,
+    "sha256": "5c8de212268441b938eec440bd2ea1e811708db70a53528f31d81f2396900d66",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
