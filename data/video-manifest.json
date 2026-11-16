@@ -7434,5 +7434,21 @@
     "height": 480,
     "sha256": "23be157384f5b28919cd14fd10e975ea5b4ea1e806265acae9d48d5cd729af47",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "16v_x07q22QJr5nc1ryf6Rb9fJD7Y7TYN",
+    "drive_name": "១២ មហាសច្ចកសូត្រទី៦ កាយភាវនា ចិត្តភាវនា (បិដកលេខ ២២).mp4",
+    "source_md5": "e58f80cb7c2adda7008f74b5c61b2272",
+    "key": "video/e58f80cb7c2adda7-480p.mp4",
+    "poster_key": "video/e58f80cb7c2adda7-480p.webp",
+    "rendition": "480p",
+    "bytes": 150241272,
+    "duration_s": 7090,
+    "src_duration_s": 7090,
+    "width": 854,
+    "height": 480,
+    "sha256": "c9c20640ac5a4d60b6aa3954c148a0a3ab2f6f842097489a885f3c444c409db2",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
