@@ -9514,5 +9514,21 @@
     "height": 480,
     "sha256": "d039de04f6fd01878b3c42ec42c7d9448111c5a6db7c6d7b8ae53fc0980a2637",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1dR2WRdNGkQSLROp2VRiGA3mAXmxuPIu1",
+    "drive_name": "១៧ បាសរាសិសូត្រ ការយាងទៅប្រោសដល់បញ្ចវគ្គីយតាបស (បិដកលេខ ២១).mp4",
+    "source_md5": "f0b45fa14c81319652e6a58e63c8c8af",
+    "key": "video/f0b45fa14c813196-480p.mp4",
+    "poster_key": "video/f0b45fa14c813196-480p.webp",
+    "rendition": "480p",
+    "bytes": 136634656,
+    "duration_s": 6883,
+    "src_duration_s": 6883,
+    "width": 854,
+    "height": 480,
+    "sha256": "eba5226295df9d31929a57c8222cfdf8b632b61a08831dd993ede1308ab29d52",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
