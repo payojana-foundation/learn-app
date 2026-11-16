@@ -12394,5 +12394,21 @@
     "height": 480,
     "sha256": "df9d34647fde099793f2d353b86fad5f0281c2bc0e59839bdb5eb2a38af50875",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1g7XtOHjtA4kHKMTWnjzOsOKgiTfbUOyG",
+    "drive_name": "៣៩ អហេតុកអកុសលវិបាកចិត្ត៧ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣៩ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "ae995cd402c34c3d307a496838fb1c42",
+    "key": "video/ae995cd402c34c3d-480p.mp4",
+    "poster_key": "video/ae995cd402c34c3d-480p.webp",
+    "rendition": "480p",
+    "bytes": 70663595,
+    "duration_s": 3532,
+    "src_duration_s": 3532,
+    "width": 854,
+    "height": 480,
+    "sha256": "d9779493950d64028e77722ae556f6f5d8f654d63cf521b3c97a004bd801a2da",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
