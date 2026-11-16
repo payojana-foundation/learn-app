@@ -9818,5 +9818,21 @@
     "height": 360,
     "sha256": "e6b77eea844003abb00b66e5665ea8637c1825b379770d5deb440307417ed63b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1rmCYwFfaaWsRUdpyOeMde9HCFGoRYWRA",
+    "drive_name": "០៩ បោតលិយសូត្រទី៤ ទោសរបស់កាមទាំងឡាយភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២៣.mp4",
+    "source_md5": "0f9533c6afb276c7726ea74a8ed47d16",
+    "key": "video/0f9533c6afb276c7-480p.mp4",
+    "poster_key": "video/0f9533c6afb276c7-480p.webp",
+    "rendition": "480p",
+    "bytes": 151565163,
+    "duration_s": 7109,
+    "src_duration_s": 7109,
+    "width": 854,
+    "height": 480,
+    "sha256": "11dae1b8d8b9e935488fc3fe959a913e55722dfbfb486d1a85e5832288da064a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
