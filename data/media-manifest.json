@@ -93694,5 +93694,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1DxorTGkzawOOSgV4NR7K-GNMBTWFvEug",
+    "drive_name": "11.១១ អំណាចរបស់ចិត្ត.mp3",
+    "source_md5": "cfd35de1763fdc2309038e7dc453c8f5",
+    "key": "audio/cfd35de1763fdc23-a64.mp3",
+    "bytes": 31633283,
+    "duration_s": 3954,
+    "sha256": "d5901cc4892e0ed5fa264a0034cb14b7eced7a5c71e710eb7a8d3c5c23d80fa4",
+    "loudness": {
+      "pass1": {
+        "I": -26.2,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 9.22,
+      "limit": 0.668,
+      "depth": 12.12,
+      "busy": 2.8849801471889935,
+      "out": {
+        "I": -18,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
