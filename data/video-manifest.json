@@ -5850,5 +5850,21 @@
     "height": 480,
     "sha256": "533a91c5aa43d3d3a9befa10ba25be9593b54549887fb676d6c587be19b50a12",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1iy3_y2wzsGZgE6Gfk7fFKlCDf5_A0pUh",
+    "drive_name": "៤៩ រូបបវត្តិក្កមន័យទី៤ ចែករូបដោយសមុដ្ឋានតាមភូមិ៣ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "8a7a8fd8ab29e88e11cc89744dfa38cb",
+    "key": "video/8a7a8fd8ab29e88e-480p.mp4",
+    "poster_key": "video/8a7a8fd8ab29e88e-480p.webp",
+    "rendition": "480p",
+    "bytes": 107326032,
+    "duration_s": 5053,
+    "src_duration_s": 5053,
+    "width": 854,
+    "height": 480,
+    "sha256": "8d78faabbf86b618b7e5e4b5cd26bc5bc3be52868faeb70c724a81ecfa57ddd6",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
