@@ -7754,5 +7754,21 @@
     "height": 480,
     "sha256": "9df3d58b85964cc4026ac1cee33a30ef8450ac11eda41c20da8ac7eee68f902e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1D9A5CliYnFfJJlNDVpqWXlkCIJFs1pQ1",
+    "drive_name": "11 សង្គីតិសូត្រ ទុកនិទ្ទេស ធម៌ពួក២ (បិដកលេខ ១៩).mp4",
+    "source_md5": "a1ea5c39d008a6b69b1cae1f249cbe80",
+    "key": "video/a1ea5c39d008a6b6-480p.mp4",
+    "poster_key": "video/a1ea5c39d008a6b6-480p.webp",
+    "rendition": "480p",
+    "bytes": 120383100,
+    "duration_s": 5388,
+    "src_duration_s": 5388,
+    "width": 854,
+    "height": 480,
+    "sha256": "4400ec23de0b0448430389db7bc1d0f8304fd68dbe94a56c0b889cef67a81e05",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
