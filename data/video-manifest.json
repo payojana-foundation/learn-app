@@ -5386,5 +5386,21 @@
     "height": 480,
     "sha256": "17f45ad680f10913ca7d7684e4fa1cf8f5663d719a4993857ef6453bed80c963",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1NJJuC3dOW5AcOeEMkvEJbgIAnN1iKMxY",
+    "drive_name": "៤២ យុគលធម៌គូទី៤ ដល់ទី៦ និង ធម៌បដិបក្ខ (បរិច្ឆេទ​ ទី២ ឆ្នាំ ២០២៤).mp4",
+    "source_md5": "8f5812097c6d328d0f7bb7dd84b5abe9",
+    "key": "video/8f5812097c6d328d-480p.mp4",
+    "poster_key": "video/8f5812097c6d328d-480p.webp",
+    "rendition": "480p",
+    "bytes": 107263321,
+    "duration_s": 5217,
+    "src_duration_s": 5217,
+    "width": 854,
+    "height": 480,
+    "sha256": "ff9f3e5cb96005c664602442c6ae25b3525331f08054f41cd8dd52d4149d6959",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
