@@ -11098,5 +11098,21 @@
     "height": 480,
     "sha256": "70b90270c97a5e316f4bfa27a0854a348604ef716819eb55025ddf4bf402372d",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1e2kNBQKB6P1-znKKXI1PM6Bixk5ttmpE",
+    "drive_name": "១៨ ទោសមូលចិត្ត​ ២ដួង​ ចប់ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី១៨ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "7dec8b2dc54a5271cebf26ab06e156c2",
+    "key": "video/7dec8b2dc54a5271-480p.mp4",
+    "poster_key": "video/7dec8b2dc54a5271-480p.webp",
+    "rendition": "480p",
+    "bytes": 74283239,
+    "duration_s": 3640,
+    "src_duration_s": 3640,
+    "width": 854,
+    "height": 480,
+    "sha256": "a480e504db5f9c90c0e7f0a7e872bb44de75affe1227192dcc9028763606d540",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
