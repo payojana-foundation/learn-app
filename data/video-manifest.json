@@ -7946,5 +7946,21 @@
     "height": 480,
     "sha256": "5b79e1a72e576714f71d87516b1acaf3218096a773b5da56c9711f7e1eae2175",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1s93O5gmLX59O7eEfXCSu09V7g6_saTGa",
+    "drive_name": "១៥ ភយភេរវសូត្រ ភ័យរបស់សមណអ្នកនៅក្នុងព្រៃ (បិដកលេខ ២០).mp4",
+    "source_md5": "3a7da0d9551a99d8fd9e66976f743a50",
+    "key": "video/3a7da0d9551a99d8-480p.mp4",
+    "poster_key": "video/3a7da0d9551a99d8-480p.webp",
+    "rendition": "480p",
+    "bytes": 147941765,
+    "duration_s": 5841,
+    "src_duration_s": 5841,
+    "width": 854,
+    "height": 480,
+    "sha256": "666041d3e48950f95c6d0469aebabd65c68e2f00514666ca58abbaaef62196e6",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
