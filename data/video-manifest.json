@@ -15438,5 +15438,21 @@
     "height": 480,
     "sha256": "2fbaae6e483d6b03fa5ad5b1674d3238c589103e219311ad0c2f055bfd5e5add",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1J_IiYWYmqGdkXYnripOHcCaIbHSPqMK7",
+    "drive_name": "32_Ñāṇa_06Sep2026_វិធីចម្រើនក្រុមវណ្ណៈកសិណ.mp4",
+    "source_md5": "9b9a4ed8f04c2465b3cc9d636b46bbdf",
+    "key": "video/9b9a4ed8f04c2465-480p.mp4",
+    "poster_key": "video/9b9a4ed8f04c2465-480p.webp",
+    "rendition": "480p",
+    "bytes": 77092493,
+    "duration_s": 3123,
+    "src_duration_s": 3123,
+    "width": 854,
+    "height": 480,
+    "sha256": "ecde357d9e5e9a55e267df4cd8a54529679cde50308d1a78a8bc7efcf122efdf",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
