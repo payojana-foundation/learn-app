@@ -7962,5 +7962,21 @@
     "height": 480,
     "sha256": "666041d3e48950f95c6d0469aebabd65c68e2f00514666ca58abbaaef62196e6",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "11PFnepr5HgleNKoa5DhQlShwh2lPTgSG",
+    "drive_name": "13 សង្គីតិសូត្រ តិកនិទ្ទេស ពុទ្ធធម៌១៨ មានក្នុងព្រះពុទ្ធ (បិដកលេខ ១៩).mp4",
+    "source_md5": "f2cc8b9a888557d14dc37133b0d8f6f0",
+    "key": "video/f2cc8b9a888557d1-480p.mp4",
+    "poster_key": "video/f2cc8b9a888557d1-480p.webp",
+    "rendition": "480p",
+    "bytes": 140544577,
+    "duration_s": 5698,
+    "src_duration_s": 5698,
+    "width": 854,
+    "height": 480,
+    "sha256": "43d455ea31d51c355c91d9f57e0c67d1e3342df06b683742bd2b638d03087aed",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
