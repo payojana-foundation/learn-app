@@ -14910,5 +14910,21 @@
     "height": 480,
     "sha256": "488a07cec50dec00445db7011e9b69c90fa2ec44ffcc6913229ed68e01836b5c",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1H59UI8F-E18gej8bxfHj-1BEWcdRGLJl",
+    "drive_name": "9.) 10Mar2025-Monday.mp4",
+    "source_md5": "3e4bbe779ecdd8faf8978488ca0d63a1",
+    "key": "video/3e4bbe779ecdd8fa-480p.mp4",
+    "poster_key": "video/3e4bbe779ecdd8fa-480p.webp",
+    "rendition": "480p",
+    "bytes": 33285685,
+    "duration_s": 1618,
+    "src_duration_s": 1618,
+    "width": 854,
+    "height": 480,
+    "sha256": "16486a0abe2890603168672c0d979c8faac46337a19c277307e0966b7d64220f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
