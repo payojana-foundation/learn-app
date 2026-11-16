@@ -10762,5 +10762,21 @@
     "height": 480,
     "sha256": "7557fc6ccc57d4afab8ae619490c5396c0346418d12c83b72b9c63bef894a4a5",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1gnT7Zji5fpfobCqX37lrYiDV0AP9THRa",
+    "drive_name": "១២ លោភមូលចិត្ត៨ដួងដោយន័យ  ១៤ន័យ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ១២ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "eac2c55aa53d10e8820a38f1558c9ea6",
+    "key": "video/eac2c55aa53d10e8-480p.mp4",
+    "poster_key": "video/eac2c55aa53d10e8-480p.webp",
+    "rendition": "480p",
+    "bytes": 54933861,
+    "duration_s": 2767,
+    "src_duration_s": 2767,
+    "width": 854,
+    "height": 480,
+    "sha256": "8fbd05e71bfb373b6308089ac702fa31c031e0c297805684da0d7b2715286b18",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
