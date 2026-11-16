@@ -7402,5 +7402,21 @@
     "height": 480,
     "sha256": "4c6597730a0291c3fd7f0c73cb45b7c8fff5f521c06c95c483a006d5d18b2024",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1McqsESz8zq-Xbiq39pIKzdp5JAruNARd",
+    "drive_name": "០៨ ធម៌ជាហេតុលះបង់អាសវៈទាំងពួង (បិដកលេខ ២០).mp4",
+    "source_md5": "188c0eada68fbdec450a1a6e76b47fa8",
+    "key": "video/188c0eada68fbdec-480p.mp4",
+    "poster_key": "video/188c0eada68fbdec-480p.webp",
+    "rendition": "480p",
+    "bytes": 148355246,
+    "duration_s": 5532,
+    "src_duration_s": 5532,
+    "width": 854,
+    "height": 480,
+    "sha256": "7bfb0e1b794a7e6a3eeb9615e9d5a7b82ed501b8051bc128dd474f3ded855fa3",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
