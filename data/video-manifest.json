@@ -14418,5 +14418,21 @@
     "height": 480,
     "sha256": "e8acb0de04b9941e32098e0f1e209fd9d807d054bb47c4f3948a2cc40f756c24",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1FXZhgc4qH13sc35Cd1niF_nuWJXD0knm",
+    "drive_name": "៥៦ លក្ខណាទិចតុក្កៈ របស់កុសល ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៥៦ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "8d92bfeba54c4f63ec75602025e29738",
+    "key": "video/8d92bfeba54c4f63-480p.mp4",
+    "poster_key": "video/8d92bfeba54c4f63-480p.webp",
+    "rendition": "480p",
+    "bytes": 69440375,
+    "duration_s": 3609,
+    "src_duration_s": 3609,
+    "width": 854,
+    "height": 480,
+    "sha256": "7dee5241a6ef24f204dc73d20809ff0a49c06802f37329087adbe2fabe6050cb",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
