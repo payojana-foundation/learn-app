@@ -5418,5 +5418,21 @@
     "height": 480,
     "sha256": "880c88c0b5cee04b1fe1e6faac998c8763ccdd2a24b466825fefe20227c43caa",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1mHF_zCClakB_uRnXRDQKMbEUGxziTXZG",
+    "drive_name": "៤៥ រូបកលាបន័យទី៣ ឧតុជ្ជកលាបមាន ៦ កលាប (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "9823bf7bcea55fe36602ec4541af99fb",
+    "key": "video/9823bf7bcea55fe3-480p.mp4",
+    "poster_key": "video/9823bf7bcea55fe3-480p.webp",
+    "rendition": "480p",
+    "bytes": 78837562,
+    "duration_s": 3821,
+    "src_duration_s": 3821,
+    "width": 854,
+    "height": 480,
+    "sha256": "379a69bf6278b3a5b04220791c6695f0b61167238476ee86618dadaf7be6b4aa",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
