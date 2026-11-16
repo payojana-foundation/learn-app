@@ -15518,5 +15518,21 @@
     "height": 480,
     "sha256": "e56ecd8b2d74bc99653acaafd493211191c008b706a69081ff0899a8d02e4016",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1AFIg9nohayy4zAE9J9Le0F2NSrRg9y3E",
+    "drive_name": "៧២ មហាកិរិយាចិត្ត៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧២ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "c8362b981762fcdeeb4fc465372b32ca",
+    "key": "video/c8362b981762fcde-480p.mp4",
+    "poster_key": "video/c8362b981762fcde-480p.webp",
+    "rendition": "480p",
+    "bytes": 76909015,
+    "duration_s": 3568,
+    "src_duration_s": 3568,
+    "width": 854,
+    "height": 480,
+    "sha256": "f7d4a818814676c87a2634180500c5b7ac319f75cb48c7033daf5cd5c5a90a62",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
