@@ -6058,5 +6058,21 @@
     "height": 480,
     "sha256": "20d2831d05add6b0b1b527127c711993a7127e1ca326aa1b54013186af073ab8",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1w2VR-LSyBuZRO_dNYiyK04YH4QWJ1ghJ",
+    "drive_name": "៤៨ សម្បយោគន័យ វិតក្កៈ វិចារៈ អធិមោក្ខចេតសិក (បរិច្ឆេទ​ ទី២ ឆ្នាំ ២០២៤).mp4",
+    "source_md5": "f0c82387e044c0e152154c06c87a13e3",
+    "key": "video/f0c82387e044c0e1-480p.mp4",
+    "poster_key": "video/f0c82387e044c0e1-480p.webp",
+    "rendition": "480p",
+    "bytes": 104491715,
+    "duration_s": 4678,
+    "src_duration_s": 4678,
+    "width": 854,
+    "height": 480,
+    "sha256": "f039e6c557df75c1aca228c984b692ce779f36044b8e3a5e01de8352da8e5979",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
