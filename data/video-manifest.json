@@ -8666,5 +8666,21 @@
     "height": 480,
     "sha256": "9bfcaf263afc74ad505594ecba8a516a7f8c7c239b22481dba4d4e812a3db2f5",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ELey1oMYrJmK_BRJ50ATqnK97dl_IYTx",
+    "drive_name": "21 សង្គីតិសូត្រ អដ្ឋកនិទ្ទេស ធម៌ពួក ៨ (បិដកលេខ ១៩).mp4",
+    "source_md5": "5787bd5058fb34ec30a7ba04547a2803",
+    "key": "video/5787bd5058fb34ec-480p.mp4",
+    "poster_key": "video/5787bd5058fb34ec-480p.webp",
+    "rendition": "480p",
+    "bytes": 140346766,
+    "duration_s": 5341,
+    "src_duration_s": 5341,
+    "width": 854,
+    "height": 480,
+    "sha256": "6d19cc5520c642ef095263fe651a4154af5f6bf06f6a8bbc145b0688eaba9187",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
