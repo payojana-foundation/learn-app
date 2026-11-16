@@ -6554,5 +6554,21 @@
     "height": 480,
     "sha256": "4f71403a063677c9ae6bae1801a68765737a5e0d7ee783cfaf4925e876fcad55",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ouDQO1Ri0o0IZpFu7C9nc30tWRCGLW94",
+    "drive_name": "០១ ចូឡគោសិង្គសាលសូត្រ អំពីការសាមគ្គីរបស់ភិក្ខុក្នុងព្រៃ (បិដកលេខ ២២).mp4",
+    "source_md5": "7f00fb5ea25cb352fe8dba1f70e1b47b",
+    "key": "video/7f00fb5ea25cb352-480p.mp4",
+    "poster_key": "video/7f00fb5ea25cb352-480p.webp",
+    "rendition": "480p",
+    "bytes": 118698864,
+    "duration_s": 5589,
+    "src_duration_s": 5589,
+    "width": 854,
+    "height": 480,
+    "sha256": "81d6cbafabc6b84a4fb8c9c9c297087ee1ba471347efa5b9f397a2ffd7fcc61f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
