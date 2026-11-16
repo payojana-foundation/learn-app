@@ -14274,5 +14274,21 @@
     "height": 480,
     "sha256": "f3d73f62169dba53b22cb324c70abe49ee617fa1fa72d7c11dffbaf10d2b76c1",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1tpVT6SzVGAfH4yWTlTulI2cUVOa6PKP2",
+    "drive_name": "៥៤ អហេតុកចិត្ត១៨​ ដោយន័យ១៤ ចប់ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៥៤ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "60fe0252b00501cb8b9df7b9207677cd",
+    "key": "video/60fe0252b00501cb-480p.mp4",
+    "poster_key": "video/60fe0252b00501cb-480p.webp",
+    "rendition": "480p",
+    "bytes": 64985140,
+    "duration_s": 3271,
+    "src_duration_s": 3271,
+    "width": 854,
+    "height": 480,
+    "sha256": "4d3cf4909c7bb3d6f762dfa0b20c59595a624260803da8f428c5acd285509dc3",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
