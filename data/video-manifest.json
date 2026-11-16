@@ -14830,5 +14830,21 @@
     "height": 480,
     "sha256": "628cef50ad06e888ae74713f3bd8c75bd71fed01182c668f079f2346089f2e1c",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "16XZIgprGIB-aSeu_ttv_EbqZPzSgdayC",
+    "drive_name": "27-Ñāṇa-12Aug2026-វិធីចូលឈាន និងចេញចាកឈាន.mp4",
+    "source_md5": "ecfc2e3cb2e68dd8fe19cc202bfd892a",
+    "key": "video/ecfc2e3cb2e68dd8-480p.mp4",
+    "poster_key": "video/ecfc2e3cb2e68dd8-480p.webp",
+    "rendition": "480p",
+    "bytes": 79041452,
+    "duration_s": 3517,
+    "src_duration_s": 3517,
+    "width": 854,
+    "height": 480,
+    "sha256": "06cdaf8cad243e54e202422ce96ef9e144c6990204e053df13c56610e86b9e47",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
