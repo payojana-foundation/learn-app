@@ -7674,5 +7674,21 @@
     "height": 480,
     "sha256": "fcdd97e9c01598b5c093ebee78b2aa1e119e3445f2137d1acddfaece4962f5a7",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1gv1_kUmQDUiLgKPFhpKBf1fxtXzZNZs2",
+    "drive_name": "10 លុខល្លិកានុយោគ ផ្លូវខុស ៤ យ៉ាង (បិដកលេខ ១៨).mp4",
+    "source_md5": "70a6cd58f3417746e0e555742d1993b0",
+    "key": "video/70a6cd58f3417746-480p.mp4",
+    "poster_key": "video/70a6cd58f3417746-480p.webp",
+    "rendition": "480p",
+    "bytes": 114769087,
+    "duration_s": 5356,
+    "src_duration_s": 5356,
+    "width": 854,
+    "height": 480,
+    "sha256": "1aeae51ce02b212b7f6339ba7314207d994c3b85f0923b8acff07b49f667a3c4",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
