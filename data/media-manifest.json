@@ -93094,5 +93094,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1HrbrHFKD1Vo9330iDFj0GpP3yaz5u_7i",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៤៤.(១៤៦ ចែកមហាកុសលដោយន័យផ្សេងៗ ១៤ ន័យ.mp3",
+    "source_md5": "95274f42e3e325d9e62a065bc5b40cff",
+    "key": "audio/95274f42e3e325d9-a64.mp3",
+    "bytes": 45565953,
+    "duration_s": 5695,
+    "sha256": "558e493d451f4a45a939fdbf50aaa38d0c7f213481e398d2db7fb2bd1fe9912d",
+    "loudness": {
+      "pass1": {
+        "I": -24.1,
+        "TP": 0.9,
+        "LRA": 0
+      },
+      "G": 8.66,
+      "limit": 0.562,
+      "depth": 14.56,
+      "busy": 3.293493337078849,
+      "out": {
+        "I": -18,
+        "TP": -2,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
