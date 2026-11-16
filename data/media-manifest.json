@@ -93034,5 +93034,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "18b23h3sw02DF3ri0LI7eQRuV-dy_LUUy",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៥៤ (១៥៦ មរណានុស្សតិ អានាបានស្សតិ និងមេត្តា ករុណា.mp3",
+    "source_md5": "c6798b59c069e5c4f9e408dc5cb033fc",
+    "key": "audio/c6798b59c069e5c4-a64.mp3",
+    "bytes": 43363726,
+    "duration_s": 5420,
+    "sha256": "5ba97f15378c4d9c1cafadbee20824746247cf26bc2730f20d9a2ec5689e1beb",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": -0.1,
+        "LRA": 0
+      },
+      "G": 7.5,
+      "limit": 0.631,
+      "depth": 11.4,
+      "busy": 4.538137977474195,
+      "out": {
+        "I": -18,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
