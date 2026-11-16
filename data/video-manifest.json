@@ -12218,5 +12218,21 @@
     "height": 480,
     "sha256": "8b760debad4ba563183353f43ec68c00cb5aef92f93f03335b791e78e36721f1",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1sJ3e8vjBe0r0qBN4y4URMee0c76UpjM_",
+    "drive_name": "៣៦ អកុសលមនោកម្ម​ មិច្ឆាទិដ្ឋិចប់ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣៦ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "5f6a5c2fec9b12df4af103087dcb3d31",
+    "key": "video/5f6a5c2fec9b12df-480p.mp4",
+    "poster_key": "video/5f6a5c2fec9b12df-480p.webp",
+    "rendition": "480p",
+    "bytes": 59127109,
+    "duration_s": 3095,
+    "src_duration_s": 3095,
+    "width": 854,
+    "height": 480,
+    "sha256": "c91009a0315bcd5f036c910d0af55c283367fccf57238ab80a5b05eb3eb77960",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
