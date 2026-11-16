@@ -6426,5 +6426,21 @@
     "height": 480,
     "sha256": "bc2a8c08b12451f02e09bcdf3cc62398ea209695c02bac7a333e8e39c9301ae6",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "139mJpsBhhsO40DU2isDMxXtW-Dj1vy-y",
+    "drive_name": "៥៥ ថ្ងៃប្រឡងបិទវគ្គបញ្ចប់បរិច្ឆេទទី៦ រូបនិងនិព្វាន (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "83dbc42192ead6c90b9ea3cfd507dbcb",
+    "key": "video/83dbc42192ead6c9-480p.mp4",
+    "poster_key": "video/83dbc42192ead6c9-480p.webp",
+    "rendition": "480p",
+    "bytes": 29562530,
+    "duration_s": 1647,
+    "src_duration_s": 1647,
+    "width": 854,
+    "height": 480,
+    "sha256": "3b42ffbe70f2171da84af58872413187a5a285e23b41310d9dc1dde3616f761a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
