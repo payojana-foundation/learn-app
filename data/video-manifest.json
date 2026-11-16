@@ -5706,5 +5706,21 @@
     "height": 480,
     "sha256": "b0588fa66cb9918c85ca5820b97040706818710e1e5b9b0736135d02a9db6469",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1QWCOKGjwctUFdVgqxYXppk5n6wd5zmFI",
+    "drive_name": "៣៣ ទ្វារសង្គហ ចែកចេតសិកកើតតាមទ្វារ៦បញ្ចប់ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "632ba78c880eb92b658a01685c3175c1",
+    "key": "video/632ba78c880eb92b-480p.mp4",
+    "poster_key": "video/632ba78c880eb92b-480p.webp",
+    "rendition": "480p",
+    "bytes": 79101969,
+    "duration_s": 3903,
+    "src_duration_s": 3903,
+    "width": 854,
+    "height": 480,
+    "sha256": "4f71b9866de7708662d826ef46a2d520af033b13cd21e7889c5534d8cfc79dd7",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
