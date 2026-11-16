@@ -15870,5 +15870,21 @@
     "height": 480,
     "sha256": "986e6548b85b9d6b01f3350b474caa740d70eaad315c5d2c585c40d3672d720d",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1HcpAcfO93hAUsdgzNjLwSQ9QySw6-S8O",
+    "drive_name": "៧៧ រូបាវចសោភណចិត្ត​ ១៥ដួង អធិប្យាយអង្គឈាន៥ ដោយបញ្ចកន័យអង្គឈាន៥ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧៧ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "77f8c6f32189a92503ab4ed0843fdc4e",
+    "key": "video/77f8c6f32189a925-480p.mp4",
+    "poster_key": "video/77f8c6f32189a925-480p.webp",
+    "rendition": "480p",
+    "bytes": 73986341,
+    "duration_s": 3387,
+    "src_duration_s": 3387,
+    "width": 854,
+    "height": 480,
+    "sha256": "c7b2539c94a5ba942ef7e94be72ba466be9deceb20225ef67baed26b76441081",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
