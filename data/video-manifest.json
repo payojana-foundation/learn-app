@@ -10250,5 +10250,21 @@
     "height": 480,
     "sha256": "e447a802fde1e5de6c8c6e8237d279136e6bedfb214b74219cddf2b179f39073",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1zMwetTkST5UeQyvsxN-lAu62nBUWJkTn",
+    "drive_name": "42 សតិប្បដ្ឋានសូត្រ វេទនានុបស្សនាសតិប្បដ្ឋាន ការកំណត់ដឹងសុខ (បិដកលេខ ២០).mp4",
+    "source_md5": "17d39e9756c2848014749934df8a0a14",
+    "key": "video/17d39e9756c28480-480p.mp4",
+    "poster_key": "video/17d39e9756c28480-480p.webp",
+    "rendition": "480p",
+    "bytes": 144911494,
+    "duration_s": 7166,
+    "src_duration_s": 7166,
+    "width": 854,
+    "height": 480,
+    "sha256": "a76ab4f6cafe123ffcbdcbff883950f1cff3ee450827e5ce8a9196fc156c178d",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
