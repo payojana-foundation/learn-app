@@ -11658,5 +11658,21 @@
     "height": 480,
     "sha256": "847bf676c6d39d206f654b043ce4ecbf0e58b15f395bc6a753deea71a8db66ff",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1cjLSsUPlzo2bHxDPZ2DjSsgJyKWQmxZV",
+    "drive_name": "53 សតិប្បដ្ឋានសូត្រ ធម្មានុបស្សនាពោជ្ឈង្គបព្វៈ វីរិយសម្ពោជ្ឈង្គ (បិដកលេខ ២០).mp4",
+    "source_md5": "e206eda3c0316ea4315bea2353c6a713",
+    "key": "video/e206eda3c0316ea4-480p.mp4",
+    "poster_key": "video/e206eda3c0316ea4-480p.webp",
+    "rendition": "480p",
+    "bytes": 135003172,
+    "duration_s": 6557,
+    "src_duration_s": 6557,
+    "width": 854,
+    "height": 480,
+    "sha256": "8a23b7212932d014460a88f9e6bc465bfdc6485f628b3508f121b3bc72c56e36",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
