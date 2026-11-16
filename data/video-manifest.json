@@ -8922,5 +8922,21 @@
     "height": 480,
     "sha256": "9dcb8a76aaa60ee5253b4c2400eb64e79d7f81d2634a949097ec1116cc9b226c",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1vRXofo4Tr1XRndETdtCEynYryO7gRn-L",
+    "drive_name": "23 ទោណព្រាហ្មណ៍បែងចែកព្រះធាតុ (បិដកលេខ ១៦).mp4",
+    "source_md5": "55ea5c8ce48977c67f5fb3b3ee8ab885",
+    "key": "video/55ea5c8ce48977c6-480p.mp4",
+    "poster_key": "video/55ea5c8ce48977c6-480p.webp",
+    "rendition": "480p",
+    "bytes": 129663480,
+    "duration_s": 5352,
+    "src_duration_s": 5352,
+    "width": 854,
+    "height": 480,
+    "sha256": "13ea5cd3a1c9be92ecb9bfc3b491fd769fb4b7a0b3370d69ca9254ac50b231f8",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
