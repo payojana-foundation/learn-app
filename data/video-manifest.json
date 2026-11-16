@@ -6314,5 +6314,21 @@
     "height": 480,
     "sha256": "2042c31100f1b5afe5bc7a842a2fd5598906c51e6cbd965fff39c8a2d71e3749",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1EJYBqQDlnJ_9OHZXVAyuPAec7XbVMEkn",
+    "drive_name": "៥៣ និព្វានបរមត្ថ និយមន័យនិព្វាន និព្វាននៅឯណា (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "7a0b2a36a7d8c73a1bb5a56b5cd3bfef",
+    "key": "video/7a0b2a36a7d8c73a-480p.mp4",
+    "poster_key": "video/7a0b2a36a7d8c73a-480p.webp",
+    "rendition": "480p",
+    "bytes": 113321819,
+    "duration_s": 5319,
+    "src_duration_s": 5319,
+    "width": 854,
+    "height": 480,
+    "sha256": "c90badd41988f2d66db59ef41c131443e1582e092a34563973b50bc3963b202d",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
