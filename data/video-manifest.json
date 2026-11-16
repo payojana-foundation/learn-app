@@ -5290,5 +5290,21 @@
     "height": 480,
     "sha256": "a7ddba7725e523eb12060906d405b0e19aa5ddbf31c4ae773efd092aea563e6f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "11aVjEVtjTN6m8o9V_1BEvIE9EHBlgb-t",
+    "drive_name": "៤១ តត្រមជ្ឈត្តតាចេតសិក និងយុគលធម៌៣គូ (បរិច្ឆេទ​ ទី២ ឆ្នាំ ២០២៤).mp4",
+    "source_md5": "a4ce0bd188449c6f22ff490e9f05777b",
+    "key": "video/a4ce0bd188449c6f-480p.mp4",
+    "poster_key": "video/a4ce0bd188449c6f-480p.webp",
+    "rendition": "480p",
+    "bytes": 104842220,
+    "duration_s": 5193,
+    "src_duration_s": 5193,
+    "width": 854,
+    "height": 480,
+    "sha256": "1bd99460105d6852f7120b875a67563e576b9655c07e879b79e88ec3e8f24485",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
