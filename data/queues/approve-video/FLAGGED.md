@@ -1,6 +1,6 @@
 # Video pre-approval check
 
-Generated 2026-11-16 by scripts/media/video-precheck.mjs: **561 pass**, **3 flagged**.
+Generated 2026-11-16 by scripts/media/video-precheck.mjs: **347 pass**, **3 flagged**.
 
 Flagged videos are never approved by approve-media "all-passing" (media = video); watch and decide per id.
 
