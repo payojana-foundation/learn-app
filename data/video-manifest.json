@@ -6282,5 +6282,21 @@
     "height": 480,
     "sha256": "1ff9a01e3f54ea7dd9abdc66ec164664e87a40e3c220872901eb09159e04f03b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1fWpZoWXDFC4XmmvJB7605OSymLILeF52",
+    "drive_name": "៤៨ បកស្រាយរឿងប្រេត និងកាន់បិណ្ឌ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "687995b77da7fe950cc12476582a4b3b",
+    "key": "video/687995b77da7fe95-480p.mp4",
+    "poster_key": "video/687995b77da7fe95-480p.webp",
+    "rendition": "480p",
+    "bytes": 76425912,
+    "duration_s": 3764,
+    "src_duration_s": 3764,
+    "width": 854,
+    "height": 480,
+    "sha256": "5ec28f80753fbef77e0e51176d11544098652f5692771d08237b7a2c65b9c7c0",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
