@@ -3966,5 +3966,21 @@
     "height": 480,
     "sha256": "be9297146a8dbb8c4efb6697e4bc05ef71b7f64807b1eb8ccaca42d0c51805f2",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1vsFVdJzAMe49_50BETjol0gdZ_bxlM1T",
+    "drive_name": "៤២ ផលសមាបត្តិវិថី និងនិរោធសមាបត្តិវិថី (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "ae36b6838cbc34c8c33b4ee1842ef0c2",
+    "key": "video/ae36b6838cbc34c8-480p.mp4",
+    "poster_key": "video/ae36b6838cbc34c8-480p.webp",
+    "rendition": "480p",
+    "bytes": 88195989,
+    "duration_s": 4622,
+    "src_duration_s": 4622,
+    "width": 854,
+    "height": 480,
+    "sha256": "d6d2789f25b044e8ffa16309b92d4fc0d15bcf01d2d8664689cb5a06e88c9984",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
