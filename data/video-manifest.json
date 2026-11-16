@@ -7018,5 +7018,21 @@
     "height": 480,
     "sha256": "dba2aaa10cf90ff2804c4312fc107403b1094e2588e64048a239a1aec4146ce5",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "115EQ710IgotivvLbnoZjWIs2bDnDFRUK",
+    "drive_name": "3 បុព្វកម្មដែលនាំឱ្យមានមហាបុរិសលក្ខណៈ ៣២ ប្រការភាគ២ (បិដកលេខ ១៩).mp4",
+    "source_md5": "692c6bd122af99ccffbcf138e2b69cd7",
+    "key": "video/692c6bd122af99cc-480p.mp4",
+    "poster_key": "video/692c6bd122af99cc-480p.webp",
+    "rendition": "480p",
+    "bytes": 106156427,
+    "duration_s": 5450,
+    "src_duration_s": 5450,
+    "width": 854,
+    "height": 480,
+    "sha256": "233e9709e5389e3e870036d772fc1410e835bb349e92ce3696f31c6638690741",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
