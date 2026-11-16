@@ -14034,5 +14034,21 @@
     "height": 480,
     "sha256": "22d1be160d7351428a9fbd4fba44eed94f6a8beaad23287c61f7748360790e74",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "10E-8u2Z8p1Gk-JyWmQ90yLA_uL1eDCFa",
+    "drive_name": "៥១ កិច្ច១៤យ៉ាង​របស់អហេតុកចិត្ត ចប់ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៥១ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "323e3e88a4149bd00e4191653b49e580",
+    "key": "video/323e3e88a4149bd0-480p.mp4",
+    "poster_key": "video/323e3e88a4149bd0-480p.webp",
+    "rendition": "480p",
+    "bytes": 66159179,
+    "duration_s": 3490,
+    "src_duration_s": 3490,
+    "width": 854,
+    "height": 480,
+    "sha256": "0ad845c63b6876c4b28f3b4f99f3b44b034072b064d61e9e3a0396ede1576f34",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
