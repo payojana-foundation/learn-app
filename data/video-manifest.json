@@ -4938,5 +4938,21 @@
     "height": 480,
     "sha256": "514bd186cc32eef344d7f77c496e6c796b0d0ba2737b5b04ddc849d88738d780",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "12Xp_UvEZhDYpJW4dn5VQXFJCZWlOYvTz",
+    "drive_name": "៣៨ បុគ្គលជាទោសដល់ការផ្សាយមេត្តាចិត្ត (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "27ea0411e4f958aa71cefa67cb03488e",
+    "key": "video/27ea0411e4f958aa-480p.mp4",
+    "poster_key": "video/27ea0411e4f958aa-480p.webp",
+    "rendition": "480p",
+    "bytes": 83298272,
+    "duration_s": 4415,
+    "src_duration_s": 4415,
+    "width": 854,
+    "height": 480,
+    "sha256": "d73543b73378f93d95f0f017b59c67431d66cf14d758f6e98ac776e4336be36a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
