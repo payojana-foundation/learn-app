@@ -6570,5 +6570,21 @@
     "height": 480,
     "sha256": "81d6cbafabc6b84a4fb8c9c9c297087ee1ba471347efa5b9f397a2ffd7fcc61f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Q5V1wPWiqLRp-ywNLdnLGDnu5_onTbN2",
+    "drive_name": "៥០ ព្រះនាមថាវិជ្ជាចរណសម្បន្នោ សុគតោ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "d860acdd4e1803ebab940d0b3b7ff5bc",
+    "key": "video/d860acdd4e1803eb-480p.mp4",
+    "poster_key": "video/d860acdd4e1803eb-480p.webp",
+    "rendition": "480p",
+    "bytes": 76791609,
+    "duration_s": 3973,
+    "src_duration_s": 3973,
+    "width": 854,
+    "height": 480,
+    "sha256": "70ed875f6a33f05c86342cf4e55738e275b99ebed34f62bb3b58d60f0687a614",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
