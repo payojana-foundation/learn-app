@@ -12170,5 +12170,21 @@
     "height": 480,
     "sha256": "f8c93ce4f87661a5b7b5f4a49c0d9c2bcbb0d99711d9fb09b66c1bee37ae637c",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1cMEOqpfDT_QlnvAJoSvw1zBCuQqFVJOj",
+    "drive_name": "៣៥ អកុសល​មនោកម្ម​មិច្ឆាទិដ្ឋិ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣៥ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "b09c8494b4f5fe2b62aa996c145ad1d3",
+    "key": "video/b09c8494b4f5fe2b-480p.mp4",
+    "poster_key": "video/b09c8494b4f5fe2b-480p.webp",
+    "rendition": "480p",
+    "bytes": 67085686,
+    "duration_s": 3395,
+    "src_duration_s": 3395,
+    "width": 854,
+    "height": 480,
+    "sha256": "4f719eb1daa5b2ffff3cbf91ded5ed7fc0a07fef16f0e91495151012a6971427",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
