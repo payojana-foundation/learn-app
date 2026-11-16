@@ -20,7 +20,12 @@
           "src": "audio/c0db569803c7e1c7-a64.mp3",
           "duration_s": 4718
         }
-      ]
+      ],
+      "video": {
+        "src": "video/97f11fdd1ac3b19d-480p.mp4",
+        "poster": "video/97f11fdd1ac3b19d-480p.webp",
+        "duration_s": 4735
+      }
     },
     {
       "id": "AENGSR0000103",
@@ -33,7 +38,12 @@
           "src": "audio/82261162ecaa5503-a64.mp3",
           "duration_s": 3242
         }
-      ]
+      ],
+      "video": {
+        "src": "video/af7d48f17d123fc9-480p.mp4",
+        "poster": "video/af7d48f17d123fc9-480p.webp",
+        "duration_s": 3258
+      }
     },
     {
       "id": "AENGSR0000104",
@@ -46,7 +56,12 @@
           "src": "audio/8d09dc078df40a65-a64.mp3",
           "duration_s": 4493
         }
-      ]
+      ],
+      "video": {
+        "src": "video/b18b89e8ac479af6-480p.mp4",
+        "poster": "video/b18b89e8ac479af6-480p.webp",
+        "duration_s": 4509
+      }
     },
     {
       "id": "AENGSR0000105",
@@ -59,7 +74,12 @@
           "src": "audio/77f3aa89d1fef81c-a64.mp3",
           "duration_s": 4888
         }
-      ]
+      ],
+      "video": {
+        "src": "video/1a4484c3e191adec-480p.mp4",
+        "poster": "video/1a4484c3e191adec-480p.webp",
+        "duration_s": 4905
+      }
     },
     {
       "id": "AENGSR0000106",
@@ -72,7 +92,12 @@
           "src": "audio/3d26b52056d8cc4a-a64.mp3",
           "duration_s": 4132
         }
-      ]
+      ],
+      "video": {
+        "src": "video/66b3c9070fbfa85f-480p.mp4",
+        "poster": "video/66b3c9070fbfa85f-480p.webp",
+        "duration_s": 4148
+      }
     },
     {
       "id": "AENGSR0000107",
@@ -85,7 +110,12 @@
           "src": "audio/70d0d12eaf3b616b-a64.mp3",
           "duration_s": 5012
         }
-      ]
+      ],
+      "video": {
+        "src": "video/ff1385a72eaa4080-480p.mp4",
+        "poster": "video/ff1385a72eaa4080-480p.webp",
+        "duration_s": 5028
+      }
     },
     {
       "id": "AENGSR0000108",
@@ -98,7 +128,12 @@
           "src": "audio/05c261dc8bc0a75a-a64.mp3",
           "duration_s": 5037
         }
-      ]
+      ],
+      "video": {
+        "src": "video/21982bf83727ed8b-480p.mp4",
+        "poster": "video/21982bf83727ed8b-480p.webp",
+        "duration_s": 5054
+      }
     },
     {
       "id": "AENGSR0000109",

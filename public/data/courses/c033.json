@@ -20,7 +20,12 @@
           "src": "audio/669a66044ee2a335-a64.mp3",
           "duration_s": 5211
         }
-      ]
+      ],
+      "video": {
+        "src": "video/fe1933de0d0fba89-480p.mp4",
+        "poster": "video/fe1933de0d0fba89-480p.webp",
+        "duration_s": 5288
+      }
     },
     {
       "id": "ASUT017YY0018",
@@ -33,7 +38,12 @@
           "src": "audio/17a5fd6ef9e6ed9f-a64.mp3",
           "duration_s": 328
         }
-      ]
+      ],
+      "video": {
+        "src": "video/dcb1e3a078d90bab-480p.mp4",
+        "poster": "video/dcb1e3a078d90bab-480p.webp",
+        "duration_s": 346
+      }
     }
   ]
 }

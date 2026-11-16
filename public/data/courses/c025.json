@@ -758,7 +758,12 @@
           "src": "audio/553520cc9ca65950-a64.mp3",
           "duration_s": 530
         }
-      ]
+      ],
+      "video": {
+        "src": "video/ac40c021036e8f73-480p.mp4",
+        "poster": "video/ac40c021036e8f73-480p.webp",
+        "duration_s": 546
+      }
     },
     {
       "id": "AENGHS0000151",
@@ -771,7 +776,12 @@
           "src": "audio/0dadd1683462e227-a64.mp3",
           "duration_s": 445
         }
-      ]
+      ],
+      "video": {
+        "src": "video/9cd0ffc2522ca990-480p.mp4",
+        "poster": "video/9cd0ffc2522ca990-480p.webp",
+        "duration_s": 460
+      }
     },
     {
       "id": "AENGHS0000152",
@@ -784,7 +794,12 @@
           "src": "audio/a48153fc45c1eef2-a64.mp3",
           "duration_s": 537
         }
-      ]
+      ],
+      "video": {
+        "src": "video/6c23b9855b80220d-480p.mp4",
+        "poster": "video/6c23b9855b80220d-480p.webp",
+        "duration_s": 553
+      }
     },
     {
       "id": "AENGHS0000153",
@@ -797,7 +812,12 @@
           "src": "audio/42cf425caa4a2a8b-a64.mp3",
           "duration_s": 609
         }
-      ]
+      ],
+      "video": {
+        "src": "video/47e81a95c732e47d-480p.mp4",
+        "poster": "video/47e81a95c732e47d-480p.webp",
+        "duration_s": 626
+      }
     },
     {
       "id": "AENGHS0000154",
@@ -810,7 +830,12 @@
           "src": "audio/b59cf6f7ed520809-a64.mp3",
           "duration_s": 615
         }
-      ]
+      ],
+      "video": {
+        "src": "video/5ab205d5e49f23d9-480p.mp4",
+        "poster": "video/5ab205d5e49f23d9-480p.webp",
+        "duration_s": 631
+      }
     },
     {
       "id": "AENGHS0000155",
@@ -823,7 +848,12 @@
           "src": "audio/06e41e8182c98e6c-a64.mp3",
           "duration_s": 434
         }
-      ]
+      ],
+      "video": {
+        "src": "video/039fecbf9fe92389-480p.mp4",
+        "poster": "video/039fecbf9fe92389-480p.webp",
+        "duration_s": 449
+      }
     },
     {
       "id": "AENGHS0000157",
@@ -836,7 +866,12 @@
           "src": "audio/99244353579a42a6-a64.mp3",
           "duration_s": 597
         }
-      ]
+      ],
+      "video": {
+        "src": "video/673683485991dcb7-480p.mp4",
+        "poster": "video/673683485991dcb7-480p.webp",
+        "duration_s": 613
+      }
     }
   ]
 }

@@ -9,27 +9,27 @@
     "c006": {
       "file": "courses/c006.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "c19ec39dd0ab753a9f373fafc8bd8365963378248d061d518a14dc543b832802"
+      "sha256": "ed9f77e795f5b1aabb27f8e11c91255e8f730ed23636c487bdd774869a136cf0"
     },
     "c007": {
       "file": "courses/c007.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "ee10e51f0f61c8e986fb682abf6b956d0b28f44ca878b209d5d73c7f3d162d01"
+      "sha256": "8ed118257484427172b018af56a911cc075c0a6776fe8faa69adce4bd7033489"
     },
     "c008": {
       "file": "courses/c008.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "edb40b45b740a49cc72d07d1da62ffa4ccd7fe81835f74794188c7cc6e3e9717"
+      "sha256": "2743446a23fea3219b23a76adb27f73b615b6d4c0594248081ecb0f821f0f6fd"
     },
     "c009": {
       "file": "courses/c009.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "5979415f71269eefcf84c884840cc8e06deae4903ee30dd725349f176ce8ce0d"
+      "sha256": "fb9d9c047e451eb42f39b83d246b1506b5bc5dd78d616e0a354f53c30ecdb56a"
     },
     "c011": {
       "file": "courses/c011.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "3fe0f89407a1cb67c964902cbc81f401095dc0b945828942df86bf75f27e7ed3"
+      "sha256": "2d75e951843c99f8b58c6882ff0d7ca72e71a1f18c14fa9e7e6c6f45bf04a6eb"
     },
     "c012": {
       "file": "courses/c012.json",
@@ -89,42 +89,42 @@
     "c025": {
       "file": "courses/c025.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "087ed6066aecb016318c6f59aff0f1058470038cfc57ad960fb319c230cac75d"
+      "sha256": "b0eb19aacaa4f4a426926cec3a4459642a66c536a9705e55dcf68d0e76e3e35c"
     },
     "c026": {
       "file": "courses/c026.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "dabf4d0afc6fd415b3099fceb7ef9b910313f79300d0ce934023849527e39609"
+      "sha256": "3951682b3b3a35f74a3bf835c7b3d8f0ebd71d1c132ec42083d0d65c81b91838"
     },
     "c031": {
       "file": "courses/c031.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "aac4755a6a958066f19c9a0d68e48ce8abb2f3a738f7d7c428ad2943ab370462"
+      "sha256": "ddcc16d4e792a5af14a44b9c75c9a31c12561e23ef36251ef5d3b484a12b1d44"
     },
     "c032": {
       "file": "courses/c032.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "3eb4a37480dc8004f9f0b3e3f835b687ef746fef23fdd1d9b77e64f451b5fff7"
+      "sha256": "cd878b753fe223eb25f35f83d07d925796e07f0186ee31d4c8db61cd8b07e9dc"
     },
     "c033": {
       "file": "courses/c033.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "e9b856b611f473353bc0e1b0cdc1cb35ae68d39127af78090e96f037dafa9ec2"
+      "sha256": "545b17b537a74b92421492d6625aa48d20d38a5d73a7af72fd264a6f835f2be9"
     },
     "c035": {
       "file": "courses/c035.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "44d9521058bf1e47c8cb9f05700a4b8ba8c10534e2989c82081662f43bf7d458"
+      "sha256": "99621ded798d3d8a1d71b1174c0dd686d7c9e5a6af43798875ddfb8731b619cc"
     },
     "c036": {
       "file": "courses/c036.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "3ef0198b8ed562fc766854bc63cab3540c50721218d4b2d6b12e888118143268"
+      "sha256": "a432d330e2ff89e07734e9eda828cf206777129a6a2e15e9523054e0e181c43a"
     },
     "c037": {
       "file": "courses/c037.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "2b331942fefb8cb47e6015af1b357498e68918b11e914d94d13a1d590a859915"
+      "sha256": "e55af9eb7e6a3b982641ffbab52f10b6869c82e3f8ecb6f73a1021ebb835a5e2"
     },
     "c039": {
       "file": "courses/c039.json",
@@ -144,12 +144,12 @@
     "c044": {
       "file": "courses/c044.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "d9c98615c3399e7a45fea78c5fda9c5847bf17ea51042a432b13a62885753f1a"
+      "sha256": "04c8b264bc921c4e41ba68bb2c9f02a6449f81ddad9d009c1e5905ab8ebf819b"
     },
     "c047": {
       "file": "courses/c047.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "b17111b0c34449852569c307beb8ed95a1aa1f0784a19fd4b09066efd28c9ac4"
+      "sha256": "41ee05776f5e65f9c9639edbb5904819e568a586aeb8104959a7ed8b0b05ddf5"
     },
     "c048": {
       "file": "courses/c048.json",
@@ -164,17 +164,17 @@
     "c054": {
       "file": "courses/c054.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "de5fce03be741628aa24d87ae2fb33c9df8675006eb256829dbfa1a6200dc450"
+      "sha256": "1f3272d25d1768849f4b1365fc9df2452a49ce295aeb25f08a0c5f7c344797fe"
     },
     "c057": {
       "file": "courses/c057.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "302e1c04219ed5ca5e68673832b1c915a0f9739c7684f10588b1bafa69ad4ae7"
+      "sha256": "778cd43e73c68d689342f5bf7051272bd3b693d43fe59f79b8c65582e16b5184"
     },
     "c058": {
       "file": "courses/c058.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "a451265a543984f4ded3e41df4bf3be4dc80dd9bd1653613902acf9e5624bdda"
+      "sha256": "d8897abbf120950ae695f263a82421de5c8384961d242253f078d22e774654a8"
     },
     "c065": {
       "file": "courses/c065.json",
@@ -184,7 +184,7 @@
     "c068": {
       "file": "courses/c068.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "c3b16601146e67d5f5438d9f69fd445fdd7232b83e0db1d0b7492c2a14ea8e3d"
+      "sha256": "1e0b52554764c76f9bc7b623ca484a67a0254341399f9a38929a1f96ecd94b26"
     },
     "c069": {
       "file": "courses/c069.json",
@@ -254,7 +254,7 @@
     "catalog": {
       "file": "catalog.json",
       "updated": "2026-11-16T06:20:34.000Z",
-      "sha256": "bd78bfadf9dda7ea67ee8e2982b1f563080a9ac70e4b6dfdff2843e8379e4418"
+      "sha256": "9da6517194927e6f0b67907ba7387879d7bc77df9c38ca3b65a6f4da1f338b48"
     },
     "teachers": {
       "file": "teachers.json",
