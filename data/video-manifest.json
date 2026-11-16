@@ -16078,5 +16078,21 @@
     "height": 480,
     "sha256": "692d7ce4ac125cd86c460dc26a2c36ba691c61d73b75fd722c555ff7ccb86a93",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1pgvmf9VBD8_2DmqtEMd1qkZ-2jnnMZZ-",
+    "drive_name": "៨០ អារម្មណ៍កម្មដ្ឋាន៤០ អនុស្សតិ១០ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៨០ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "d1212e073d67d92e27bd9cd1f75600f1",
+    "key": "video/d1212e073d67d92e-480p.mp4",
+    "poster_key": "video/d1212e073d67d92e-480p.webp",
+    "rendition": "480p",
+    "bytes": 65316250,
+    "duration_s": 3436,
+    "src_duration_s": 3436,
+    "width": 854,
+    "height": 480,
+    "sha256": "2f88c262aaab5e48e90429044122d89a14f64c04709b47c94dee0114784a4958",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
