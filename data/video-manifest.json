@@ -5802,5 +5802,21 @@
     "height": 480,
     "sha256": "b1b0a44b828252f06fd9adbb04d894f991c086932a3d1bb9fb897efff3142968",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "11ACkLiG4b7ukfWn2UBHhkdPeqkpheDzb",
+    "drive_name": "៤៦ មេត្តា ឧបេក្ខា និងបញ្ញិន្រ្ទិយចេតសិក (បរិច្ឆេទ​ ទី២ ឆ្នាំ ២០២៤).mp4",
+    "source_md5": "1a539347d38fa6e37ebde941490845e1",
+    "key": "video/1a539347d38fa6e3-480p.mp4",
+    "poster_key": "video/1a539347d38fa6e3-480p.webp",
+    "rendition": "480p",
+    "bytes": 97598456,
+    "duration_s": 5214,
+    "src_duration_s": 5214,
+    "width": 854,
+    "height": 480,
+    "sha256": "96c43ed41f67f217d791d0762948af1fcf3b8d1fd22539d5adeeb132526fbaa2",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
