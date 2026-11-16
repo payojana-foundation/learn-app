@@ -6762,5 +6762,21 @@
     "height": 480,
     "sha256": "69dd2004bcd02263ba33877a38a34d249e5fa4d62c7033676f41b16f4e1fc75d",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1y7NeCUf8KWjuCMvP9JoPrgI5d9rpyjED",
+    "drive_name": "០១ មូលបរិយាយសូត្រ ហេតុនាំឱ្យកើតព្រះសូត្រ (បិដកលេខ២០).mp4",
+    "source_md5": "7e3129c59ae65d6d303112dfc4bbe6ef",
+    "key": "video/7e3129c59ae65d6d-480p.mp4",
+    "poster_key": "video/7e3129c59ae65d6d-480p.webp",
+    "rendition": "480p",
+    "bytes": 152953628,
+    "duration_s": 5421,
+    "src_duration_s": 5421,
+    "width": 854,
+    "height": 480,
+    "sha256": "fdc44f51f5ab4ee464d58f9aa09c41cbfa27ba060d804ec8f659aea0af08f5c5",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
