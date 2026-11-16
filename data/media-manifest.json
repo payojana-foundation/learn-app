@@ -93814,5 +93814,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1oW4psmZh7WQ7de-_5WMtt9TKL9chhNlL",
+    "drive_name": "៥៤ វត្ថុសង្គហ ចែកចិត្តនិងចេតសិកវត្ថុនិងទ្វារភិក្ខុអគ្គចិត្តោ យ៉ុន យី_ បរិច្ឆេទទី៣.mp3",
+    "source_md5": "857504b677dcd14f3ee46406b5f286dd",
+    "key": "audio/857504b677dcd14f-a64.mp3",
+    "bytes": 33638860,
+    "duration_s": 4204,
+    "sha256": "5e93625d274fc4ab524a2fb7b28c4ae0372c8845b6523dd7373ab6985b0f3610",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": 0,
+        "LRA": 0
+      },
+      "G": 8.9,
+      "limit": 0.708,
+      "depth": 11.9,
+      "busy": 2.791749904870624,
+      "out": {
+        "I": -18,
+        "TP": -1.8,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
