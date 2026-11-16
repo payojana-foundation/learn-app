@@ -94024,5 +94024,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1R7fZ4c8W3ogzmjxl61bum9GZ647HdHeh",
+    "drive_name": "៥០ សម្បយោគន័យ អកុសលចេតសិក១៤ សោភណសាធារណ១៩.m4a",
+    "source_md5": "eb8e67af20ff02e83ccd50e298b59f9e",
+    "key": "audio/eb8e67af20ff02e8-a64.mp3",
+    "bytes": 30870299,
+    "duration_s": 3858,
+    "sha256": "e75cfbe47c71f1ca18e748dbe511003ce0bf476a20395042df11c72469e1499b",
+    "loudness": {
+      "pass1": {
+        "I": -24.7,
+        "TP": 0.1,
+        "LRA": 0
+      },
+      "G": 8.14,
+      "limit": 0.708,
+      "depth": 11.24,
+      "busy": 3.8461289277615807,
+      "out": {
+        "I": -18,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
