@@ -7514,5 +7514,21 @@
     "height": 480,
     "sha256": "62b7e13d7375c0ddda99c219b4f6bce87be0da4ee60f6c9d133fe84c523f4a89",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "17ImtwbCg4CVohVl_Qe-QSQ-vWhsoqkCU",
+    "drive_name": "១០ ការលះអាសវៈដោយការសេព និងការអត់ធន់ (បិដកលេខ ២០).mp4",
+    "source_md5": "3efd5f12a954f0d3dd793065f6ce4222",
+    "key": "video/3efd5f12a954f0d3-480p.mp4",
+    "poster_key": "video/3efd5f12a954f0d3-480p.webp",
+    "rendition": "480p",
+    "bytes": 132511536,
+    "duration_s": 5205,
+    "src_duration_s": 5205,
+    "width": 854,
+    "height": 480,
+    "sha256": "730a09519aab2688f0750790cd1e11b961c22b09cb32182fc3d986d3978530af",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
