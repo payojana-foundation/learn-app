@@ -16590,5 +16590,21 @@
     "height": 480,
     "sha256": "16e53a811dd6cc47e8f32676d2252695b2ee02bc634126a94f11e378bc785469",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1N3myuYYzaZbkFzQNBYo7aRv3BdzpyJ_u",
+    "drive_name": "៩០ អរូបាវចរកុសលចិត្ត ៤ដួង ត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៩០ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "2bf6106c1db7dc6a439cb37be9e28614",
+    "key": "video/2bf6106c1db7dc6a-480p.mp4",
+    "poster_key": "video/2bf6106c1db7dc6a-480p.webp",
+    "rendition": "480p",
+    "bytes": 60542254,
+    "duration_s": 3146,
+    "src_duration_s": 3146,
+    "width": 854,
+    "height": 480,
+    "sha256": "e5e2aab025973af27186572e1000ae0b93804f19ed3ddd0515a382cc2124287c",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
