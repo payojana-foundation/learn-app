@@ -9770,5 +9770,21 @@
     "height": 480,
     "sha256": "569e1dea2391f0ac039fe551ce27a015f50b0f9f06e27e75a82e3eb706b70009",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1hm61aMLjYRFB2IgfcClZTvbN1DqZDBRj",
+    "drive_name": "១៩ ចូឡហត្ថិបទោបមសូត្រ អំពីៈឧបមាអ្នកទៅរកដំរីក្នុងព្រៃ (បិដកលេខ ២១).mp4",
+    "source_md5": "5a2c59dd36062775f049e97606acb326",
+    "key": "video/5a2c59dd36062775-480p.mp4",
+    "poster_key": "video/5a2c59dd36062775-480p.webp",
+    "rendition": "480p",
+    "bytes": 162381573,
+    "duration_s": 6834,
+    "src_duration_s": 6834,
+    "width": 854,
+    "height": 480,
+    "sha256": "fb0ded6f89f0ba35047fdc1ddfca7a9b78810eb8451e40b299398b6b3c28e3d3",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
