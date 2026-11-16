@@ -12458,5 +12458,21 @@
     "height": 480,
     "sha256": "616d79440ddde0aea12908157787bcb0bb95ba9bcdc57016d50fff10973ce0a3",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1DkcpoPtzmBuBTa1rKnqnq_hUdlSeXIMk",
+    "drive_name": "៤០ ទ្វារវិថីចិត្ត​ ដែលទទួលអារម្មណ៏បរមត្ថ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤០ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "ca1536ff4b4ef8cd70f30f9e56939714",
+    "key": "video/ca1536ff4b4ef8cd-480p.mp4",
+    "poster_key": "video/ca1536ff4b4ef8cd-480p.webp",
+    "rendition": "480p",
+    "bytes": 67863022,
+    "duration_s": 3350,
+    "src_duration_s": 3350,
+    "width": 854,
+    "height": 480,
+    "sha256": "d44de734d71bd03cb62e86176d3f8984e606aac248e819dbd8a9e21476f8f618",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
