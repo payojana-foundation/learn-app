@@ -6458,5 +6458,21 @@
     "height": 480,
     "sha256": "da9b9c59a089c8a881c7da150a385d7a6d725dfe258b3cc8093663c83e80e98b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1yA7pfGrcxtT1OCSRcrdppQQs4GMxGQHG",
+    "drive_name": "៤៩ ព្រះនាមថាអរហំ សម្មាសម្ពុទ្ធោ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "5955e7b13921b06908912ee54d98a77a",
+    "key": "video/5955e7b13921b069-480p.mp4",
+    "poster_key": "video/5955e7b13921b069-480p.webp",
+    "rendition": "480p",
+    "bytes": 97760502,
+    "duration_s": 5458,
+    "src_duration_s": 5458,
+    "width": 854,
+    "height": 480,
+    "sha256": "a13e06911521aac7f52b12665f6e3c04df0fcd31a6a01256768749aca0186c20",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
