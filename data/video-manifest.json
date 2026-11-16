@@ -9706,5 +9706,21 @@
     "height": 480,
     "sha256": "66c8a132ea17c25524e1a9b696243a63aafcbabac049186868956134da6f9ba7",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1_-Bd1537QoeYGlJmCZgHpAOQm69YgZy7",
+    "drive_name": "37 សតិប្បដ្ឋានសូត្រ អានបានបព្វៈក្នុងឥរិយាបថ៤ (បិដកលេខ ២០ ).mp4",
+    "source_md5": "14e0a0b4117bafc6c91a6da9e2ba34da",
+    "key": "video/14e0a0b4117bafc6-480p.mp4",
+    "poster_key": "video/14e0a0b4117bafc6-480p.webp",
+    "rendition": "480p",
+    "bytes": 94081261,
+    "duration_s": 5143,
+    "src_duration_s": 5143,
+    "width": 854,
+    "height": 480,
+    "sha256": "dc1fc8ca0f82f8d591e1bafa50e2fc869ec6400205b9c867728704295c45e9d7",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
