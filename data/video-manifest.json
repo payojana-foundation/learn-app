@@ -9482,5 +9482,21 @@
     "height": 480,
     "sha256": "1d7da8fea000e9326cbecf10f1a43a695a56fe780501582f1f7935211415e6fb",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "18LUJ-_UY9whRJhd1gur74290Dc3FFxrS",
+    "drive_name": "០៦ សេក្ខប្បដិបទាសូត្រទី៣ ស្គាល់ប្រមាណក្នុងភោជន សប្បុរិសធម៌៧ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២៣.mp4",
+    "source_md5": "da454e67d9d27d3f0abaae84ab63d98b",
+    "key": "video/da454e67d9d27d3f-480p.mp4",
+    "poster_key": "video/da454e67d9d27d3f-480p.webp",
+    "rendition": "480p",
+    "bytes": 157640866,
+    "duration_s": 7052,
+    "src_duration_s": 7052,
+    "width": 854,
+    "height": 480,
+    "sha256": "342149e9a779ec4169e560db52928fb8bc5372d6d755980ac3d577a3821e991e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
