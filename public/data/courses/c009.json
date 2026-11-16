@@ -28,6 +28,42 @@
       }
     },
     {
+      "id": "AABH000YY2025.4002",
+      "num": 2,
+      "title_km": "០២ អារម្មណ៍៤ តាមបញ្ចទ្វារ និងមនោទ្វារ/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/38f91f17d35fa301-a64.mp3",
+          "duration_s": 4127
+        }
+      ],
+      "video": {
+        "src": "video/56c44b0fed1a288a-480p.mp4",
+        "poster": "video/56c44b0fed1a288a-480p.webp",
+        "duration_s": 4046
+      }
+    },
+    {
+      "id": "AABH000YY2025.4003",
+      "num": 3,
+      "title_km": "០៣ ហេតុនាំឱ្យកើតមនោទ្វារមាន ១៤ យ៉ាង/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/fb43c42175c623bf-a64.mp3",
+          "duration_s": 4504
+        }
+      ],
+      "video": {
+        "src": "video/a960ef9879660257-480p.mp4",
+        "poster": "video/a960ef9879660257-480p.webp",
+        "duration_s": 4515
+      }
+    },
+    {
       "id": "AABH000YY2025.4004",
       "num": 4,
       "title_km": "០៤ ចែកចិត្តនិងបុគ្គល និងភូមិទាំង ៣១/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤",
@@ -46,6 +82,24 @@
       }
     },
     {
+      "id": "AABH000YY2025.4005",
+      "num": 5,
+      "title_km": "០៥ ចែកវិថីចិត្តជា ២ គឺកាមវិថី និងអប្បនាមវិថី/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/a7e4d41f99590733-a64.mp3",
+          "duration_s": 5083
+        }
+      ],
+      "video": {
+        "src": "video/f3e0582e4aca7a08-480p.mp4",
+        "poster": "video/f3e0582e4aca7a08-480p.webp",
+        "duration_s": 5088
+      }
+    },
+    {
       "id": "AABH000YY2025.4006",
       "num": 6,
       "title_km": "០៦ ឧបមាវិថីចិត្តរបស់បញ្ចទ្វារមាន ១៧​ ខណៈ",
@@ -61,6 +115,24 @@
         "src": "video/1648dc1dd82f5753-480p.mp4",
         "poster": "video/1648dc1dd82f5753-480p.webp",
         "duration_s": 4958
+      }
+    },
+    {
+      "id": "AABH000YY2025.4007",
+      "num": 7,
+      "title_km": "០៧ សិក្សាឧបមាវិថីចិត្ត និងចក្ខុបសាទ៣",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/f9280eddfbd6f37b-a64.mp3",
+          "duration_s": 5271
+        }
+      ],
+      "video": {
+        "src": "video/59f05c8bf7c8b3d2-480p.mp4",
+        "poster": "video/59f05c8bf7c8b3d2-480p.webp",
+        "duration_s": 5284
       }
     },
     {
@@ -97,6 +169,24 @@
         "src": "video/b2f17b59e83770bc-480p.mp4",
         "poster": "video/b2f17b59e83770bc-480p.webp",
         "duration_s": 4446
+      }
+    },
+    {
+      "id": "AABH000YY2025.4010",
+      "num": 10,
+      "title_km": "១០ អតិមហន្តារម្មណប្រភេទទី២ ដល់ទី៥",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/4b47e10d8a3b15b1-a64.mp3",
+          "duration_s": 5172
+        }
+      ],
+      "video": {
+        "src": "video/9b4b7d84570f0141-480p.mp4",
+        "poster": "video/9b4b7d84570f0141-480p.webp",
+        "duration_s": 5189
       }
     },
     {
@@ -154,6 +244,24 @@
       }
     },
     {
+      "id": "AABH000YY2025.4014",
+      "num": 14,
+      "title_km": "១៤ មហន្តារម្មណ៍ប្រភេទទី១ដល់ទី៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/5682eda1f93f95a2-a64.mp3",
+          "duration_s": 4268
+        }
+      ],
+      "video": {
+        "src": "video/ab4a837bf31b8851-480p.mp4",
+        "poster": "video/ab4a837bf31b8851-480p.webp",
+        "duration_s": 4284
+      }
+    },
+    {
       "id": "AABH000YY2025.4015",
       "num": 15,
       "title_km": "១៥ មហន្តារម្មណ៍ប្រេភេទទី៤ ដល់ទី៦ចប់/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤",
@@ -187,6 +295,24 @@
         "src": "video/ec8cdec9e23b0b50-480p.mp4",
         "poster": "video/ec8cdec9e23b0b50-480p.webp",
         "duration_s": 5158
+      }
+    },
+    {
+      "id": "AABH000YY2025.4017",
+      "num": 17,
+      "title_km": "១៧ អតិបរិត្តារម្មណ៍ អារម្មណ៍តូចបំផុតមាន៦ឬ៧យ៉ាង/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/10cd383215176e0c-a64.mp3",
+          "duration_s": 4711
+        }
+      ],
+      "video": {
+        "src": "video/cc1d8e40faa3af99-480p.mp4",
+        "poster": "video/cc1d8e40faa3af99-480p.webp",
+        "duration_s": 4720
       }
     },
     {
@@ -691,6 +817,24 @@
         "src": "video/d8db28398e2062f9-480p.mp4",
         "poster": "video/d8db28398e2062f9-480p.webp",
         "duration_s": 4260
+      }
+    },
+    {
+      "id": "AABH000YY2025.4052",
+      "num": 52,
+      "title_km": "៥២ ជវននិយម និងចែកបុគ្គល១២ ពួក",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/071944e868a2f0f8-a64.mp3",
+          "duration_s": 4702
+        }
+      ],
+      "video": {
+        "src": "video/6152a891886bdcfc-480p.mp4",
+        "poster": "video/6152a891886bdcfc-480p.webp",
+        "duration_s": 4719
       }
     },
     {

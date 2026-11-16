@@ -7,7 +7,7 @@
   "teacher_slug": "yon-yi",
   "topics": [],
   "ongoing": false,
-  "all_shown": false,
+  "all_shown": true,
   "lessons": [
     {
       "id": "AABH000YY2025.3001",
@@ -885,6 +885,19 @@
           "kind": "r2",
           "src": "audio/d0124762899d3d5e-a64.mp3",
           "duration_s": 3691
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2025.3054",
+      "num": 54,
+      "title_km": "៥៤ វត្ថុសង្គហ ចែកចិត្តនិងចេតសិកវត្ថុនិងទ្វារ (ក្នុងដាក់លេខ ៥៦)",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/857504b677dcd14f-a64.mp3",
+          "duration_s": 4204
         }
       ]
     },

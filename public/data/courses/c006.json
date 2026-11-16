@@ -7,7 +7,7 @@
   "teacher_slug": "yon-yi",
   "topics": [],
   "ongoing": false,
-  "all_shown": false,
+  "all_shown": true,
   "lessons": [
     {
       "id": "AABH000YY2022.1001",
@@ -190,6 +190,24 @@
       }
     },
     {
+      "id": "AABH000YY2022.1011",
+      "num": 11,
+      "title_km": "១១ អំណាចរបស់ចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/cfd35de1763fdc23-a64.mp3",
+          "duration_s": 3954
+        }
+      ],
+      "video": {
+        "src": "video/d0a5d58b8a2b9306-480p.mp4",
+        "poster": "video/d0a5d58b8a2b9306-480p.webp",
+        "duration_s": 3970
+      }
+    },
+    {
       "id": "AABH000YY2022.1012",
       "num": 12,
       "title_km": "១២ ធម្មជាតិរបស់ចិត្ត ៣ ប្រការ",
@@ -241,6 +259,24 @@
         "src": "video/45108cb2bc7a41e2-480p.mp4",
         "poster": "video/45108cb2bc7a41e2-480p.webp",
         "duration_s": 4308
+      }
+    },
+    {
+      "id": "AABH000YY2022.1015",
+      "num": 15,
+      "title_km": "១៥ លោភមូលចិត្តដួងទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/258b24a79db12df4-a64.mp3",
+          "duration_s": 4421
+        }
+      ],
+      "video": {
+        "src": "video/747b114ca31f9af6-480p.mp4",
+        "poster": "video/747b114ca31f9af6-480p.webp",
+        "duration_s": 4436
       }
     },
     {
@@ -493,6 +529,24 @@
         "src": "video/75f6db5cb805a623-480p.mp4",
         "poster": "video/75f6db5cb805a623-480p.webp",
         "duration_s": 3861
+      }
+    },
+    {
+      "id": "AABH000YY2022.1030",
+      "num": 30,
+      "title_km": "៣០ របៀសង្កេតលោភមូលចិត្ត",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/42e18f9b12dbfa0e-a64.mp3",
+          "duration_s": 3593
+        }
+      ],
+      "video": {
+        "src": "video/6cbe344b2fd7a8a4-480p.mp4",
+        "poster": "video/6cbe344b2fd7a8a4-480p.webp",
+        "duration_s": 3610
       }
     },
     {

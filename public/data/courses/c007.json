@@ -7,7 +7,7 @@
   "teacher_slug": "yon-yi",
   "topics": [],
   "ongoing": false,
-  "all_shown": false,
+  "all_shown": true,
   "lessons": [
     {
       "id": "AABH000YY2024.2001",
@@ -514,6 +514,24 @@
       }
     },
     {
+      "id": "AABH000YY2024.2029",
+      "num": 29,
+      "title_km": "២៩ មានចេតសិក សេចក្តីស្រវឹងមាន ២៧ យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/02c1802359825434-a64.mp3",
+          "duration_s": 5472
+        }
+      ],
+      "video": {
+        "src": "video/6686c06a2642885a-480p.mp4",
+        "poster": "video/6686c06a2642885a-480p.webp",
+        "duration_s": 5488
+      }
+    },
+    {
       "id": "AABH000YY2024.2030",
       "num": 30,
       "title_km": "៣០ ទោសចេតសិក ការខឹងក្រោធ ឥស្សា ច្រណែន",
@@ -601,6 +619,24 @@
         "src": "video/d64f796f5fd2c0ba-480p.mp4",
         "poster": "video/d64f796f5fd2c0ba-480p.webp",
         "duration_s": 4760
+      }
+    },
+    {
+      "id": "AABH000YY2024.2035",
+      "num": 35,
+      "title_km": "៣៥ សទ្ធាចេតសិក ការជ្រះថ្លា សទ្ធាមាន៤យ៉ាង",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/675b1c145ea04966-a64.mp3",
+          "duration_s": 5430
+        }
+      ],
+      "video": {
+        "src": "video/d5b7075e82b03c49-480p.mp4",
+        "poster": "video/d5b7075e82b03c49-480p.webp",
+        "duration_s": 5446
       }
     },
     {
@@ -853,6 +889,24 @@
         "src": "video/a696fbf3c8dbc36c-480p.mp4",
         "poster": "video/a696fbf3c8dbc36c-480p.webp",
         "duration_s": 5388
+      }
+    },
+    {
+      "id": "AABH000YY2024.2050",
+      "num": 50,
+      "title_km": "៥០ សម្បយោគន័យ អកុសលចេតសិក១៤ សោភណសាធារណ១៩",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/eb8e67af20ff02e8-a64.mp3",
+          "duration_s": 3858
+        }
+      ],
+      "video": {
+        "src": "video/95a5cdee38bac751-480p.mp4",
+        "poster": "video/95a5cdee38bac751-480p.webp",
+        "duration_s": 3875
       }
     },
     {
