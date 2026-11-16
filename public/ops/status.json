@@ -1,13 +1,13 @@
 {
   "version": 1,
-  "as_of": "2026-11-16T02:25:38.000Z",
+  "as_of": "2026-11-16T06:34:58.000Z",
   "totals": {
     "lessons": 4814,
     "live": 2984,
     "audio": {
-      "not started": 1812,
-      "converted": 8,
-      "needs review": 10,
+      "not started": 1750,
+      "converted": 61,
+      "needs review": 19,
       "approved": 2984
     }
   },
@@ -17,9 +17,9 @@
       "lessons": 57,
       "live": 26,
       "audio": {
-        "not started": 31,
-        "converted": 0,
-        "needs review": 0,
+        "not started": 0,
+        "converted": 29,
+        "needs review": 2,
         "approved": 26
       }
     },
@@ -72,8 +72,8 @@
       "lessons": 174,
       "live": 171,
       "audio": {
-        "not started": 3,
-        "converted": 0,
+        "not started": 0,
+        "converted": 3,
         "needs review": 0,
         "approved": 171
       }
@@ -83,8 +83,8 @@
       "lessons": 58,
       "live": 55,
       "audio": {
-        "not started": 3,
-        "converted": 0,
+        "not started": 0,
+        "converted": 3,
         "needs review": 0,
         "approved": 55
       }
@@ -94,8 +94,8 @@
       "lessons": 55,
       "live": 54,
       "audio": {
-        "not started": 1,
-        "converted": 0,
+        "not started": 0,
+        "converted": 1,
         "needs review": 0,
         "approved": 54
       }
@@ -105,9 +105,9 @@
       "lessons": 63,
       "live": 39,
       "audio": {
-        "not started": 24,
-        "converted": 0,
-        "needs review": 0,
+        "not started": 0,
+        "converted": 8,
+        "needs review": 16,
         "approved": 39
       }
     },
@@ -139,8 +139,8 @@
       "live": 158,
       "audio": {
         "not started": 0,
-        "converted": 0,
-        "needs review": 10,
+        "converted": 9,
+        "needs review": 1,
         "approved": 158
       }
     },
