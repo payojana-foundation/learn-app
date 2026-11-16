@@ -6266,5 +6266,21 @@
     "height": 480,
     "sha256": "811aef8a4f88ebfd5b7d2d78bc602dc32462be9c7b10c00216abfe7a81a257e1",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "12HvD6_HdGB9iFOi_RxNZLEradXbriVwp",
+    "drive_name": "៦១ រូបវិថី តារាងទី៦និងទី៧ ចូលនិរោធ ចេញពីនិរោធ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp4",
+    "source_md5": "d5ae6bc0e9ee7822d847c462569fea21",
+    "key": "video/d5ae6bc0e9ee7822-480p.mp4",
+    "poster_key": "video/d5ae6bc0e9ee7822-480p.webp",
+    "rendition": "480p",
+    "bytes": 78506920,
+    "duration_s": 4193,
+    "src_duration_s": 4193,
+    "width": 854,
+    "height": 480,
+    "sha256": "1ff9a01e3f54ea7dd9abdc66ec164664e87a40e3c220872901eb09159e04f03b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
