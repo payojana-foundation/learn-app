@@ -94144,5 +94144,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1o3YlBzv3H4-k6-v54vukRUG1utyPPnTH",
+    "drive_name": "១០_អតិមហន្តារម្មណប្រភេទទី២_ដល់ទី៥ភិក្ខុអគ្គចិត្តោ_យ៉ុន_យី​_បរិច្ឆេទទី៤.mp3",
+    "source_md5": "4b47e10d8a3b15b124670eea42a846c9",
+    "key": "audio/4b47e10d8a3b15b1-a64.mp3",
+    "bytes": 41381345,
+    "duration_s": 5172,
+    "sha256": "60db4870312a7d33d5b3a4325f224f52a5bfab7e4e820d40460599adb6e9181c",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 9.6,
+      "limit": 0.708,
+      "depth": 11.7,
+      "busy": 3.3887369143475783,
+      "out": {
+        "I": -18,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
