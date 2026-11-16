@@ -7818,5 +7818,21 @@
     "height": 480,
     "sha256": "879eebba88b46677e378bbadf9d479c1ed8392bb8bf99447ee3b7fa40e002e28",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1lZfFT1TvZ_llnZLyv5W2eXk_awx5DGVc",
+    "drive_name": "13 ការមិនបញ្ញត្តិវេទនាថាជាខ្លួន (បិដកលេខ ១៦).mp4",
+    "source_md5": "d1ae742926a1e232298ae4e829623073",
+    "key": "video/d1ae742926a1e232-480p.mp4",
+    "poster_key": "video/d1ae742926a1e232-480p.webp",
+    "rendition": "480p",
+    "bytes": 71225620,
+    "duration_s": 5129,
+    "src_duration_s": 5129,
+    "width": 854,
+    "height": 480,
+    "sha256": "0a63f1a4044b7d6245d17d3aaae591a2fd7b4e14b195af83c4c32a57c906afc3",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
