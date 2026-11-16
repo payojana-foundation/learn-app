@@ -7274,5 +7274,21 @@
     "height": 480,
     "sha256": "9ceacbcf3bd2b7b75942cf3556d8c990632da72fd27e5b12e8f1ef5a415ba2b2",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1fR5rWjayEJ9Yo-k0MWqg_NZIxhAu3gs9",
+    "drive_name": "០6 សាមណេរវាសេដ្ឋ និងភារទ្វាជទូលសួរព្រះធម៌នឹងព្រះពុទ្ធ (បិដកលេខ ១៨).mp4",
+    "source_md5": "90c26cf67128e162564bee966f4a2929",
+    "key": "video/90c26cf67128e162-480p.mp4",
+    "poster_key": "video/90c26cf67128e162-480p.webp",
+    "rendition": "480p",
+    "bytes": 100290828,
+    "duration_s": 4823,
+    "src_duration_s": 4823,
+    "width": 854,
+    "height": 480,
+    "sha256": "899ce871a565f585202062400da5205d9c6537a9d1cdd4887757d112ce56b352",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
