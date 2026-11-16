@@ -7290,5 +7290,21 @@
     "height": 480,
     "sha256": "899ce871a565f585202062400da5205d9c6537a9d1cdd4887757d112ce56b352",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "14GB5dpAwpbdD4_JXwYdOImFgZjrU_-9D",
+    "drive_name": "6_ សង្គាលកសូត្រ មិត្តគិតតែប្រយោជន៍ខ្លួន (មិត្តប្លម) ៤ យ៉ាង (បិដកលេខ ១៩).mp4",
+    "source_md5": "57f34859f6d4431d42c20dfb34e5f048",
+    "key": "video/57f34859f6d4431d-480p.mp4",
+    "poster_key": "video/57f34859f6d4431d-480p.webp",
+    "rendition": "480p",
+    "bytes": 114291172,
+    "duration_s": 5339,
+    "src_duration_s": 5339,
+    "width": 854,
+    "height": 480,
+    "sha256": "71e5633de6658d5dd2c7c7e377d6d294ffbd4de94054eeb7bf054b094bb9b776",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
