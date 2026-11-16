@@ -6218,5 +6218,21 @@
     "height": 480,
     "sha256": "72ba229f9caa92b107a4854aac4debe9be42c422b2d7445e1f1da903f52b5673",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "12KyqARi905_z4EXalUDcDLEpQD6XHHi8",
+    "drive_name": "៤៩ សម្បយោគន័យ វិរិយ វីតិ ឆន្ទចេតសិក (បរិច្ឆេទ​ ទី២ ឆ្នាំ ២០២៤).mp4",
+    "source_md5": "a696fbf3c8dbc36cea5688facd2aa58c",
+    "key": "video/a696fbf3c8dbc36c-480p.mp4",
+    "poster_key": "video/a696fbf3c8dbc36c-480p.webp",
+    "rendition": "480p",
+    "bytes": 110908421,
+    "duration_s": 5388,
+    "src_duration_s": 5388,
+    "width": 854,
+    "height": 480,
+    "sha256": "a177b388561c8b1592560234021012c409462a044f686ddcaab215c6e0315042",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
