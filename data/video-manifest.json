@@ -7770,5 +7770,21 @@
     "height": 480,
     "sha256": "4400ec23de0b0448430389db7bc1d0f8304fd68dbe94a56c0b889cef67a81e05",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Jzf9aNv8ADWkGiTdEQfzPAH0sM8FIo3w",
+    "drive_name": "11 ព្រះសម្មាសម្ពុទ្ធឈ្លាសបញ្ញត្តិធម៌ក្នុងលោក (បិដកលេខ ១៨).mp4",
+    "source_md5": "83f4eb933d23aca7240aca8cf16bc1fd",
+    "key": "video/83f4eb933d23aca7-480p.mp4",
+    "poster_key": "video/83f4eb933d23aca7-480p.webp",
+    "rendition": "480p",
+    "bytes": 124438886,
+    "duration_s": 5089,
+    "src_duration_s": 5089,
+    "width": 854,
+    "height": 480,
+    "sha256": "4535f9360eb5d7b1e445dd7ad8537b48e6890cfa2d1b1a0bea507a74aa3d548d",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
