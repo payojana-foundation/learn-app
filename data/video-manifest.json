@@ -6954,5 +6954,21 @@
     "height": 480,
     "sha256": "cf5dfde50a3238d3e20b0ff2335b689ce1b91b8afa2f626fce6b683d93a267ac",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "17f3BrPfl6lw069usUC5N4NcO8kcAmc6n",
+    "drive_name": "០៣ បុថុជ្ជនសំគាល់ដីថាជារបស់ខ្លួន (បិដកលេខ ២០).mp4",
+    "source_md5": "b2afc9d12c571f027db45e457f0a42f8",
+    "key": "video/b2afc9d12c571f02-480p.mp4",
+    "poster_key": "video/b2afc9d12c571f02-480p.webp",
+    "rendition": "480p",
+    "bytes": 138519438,
+    "duration_s": 5169,
+    "src_duration_s": 5169,
+    "width": 854,
+    "height": 480,
+    "sha256": "9d5283a03446e88de0f3b2a891d8e68922840ffd08da00bfedcebe61b5395741",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
