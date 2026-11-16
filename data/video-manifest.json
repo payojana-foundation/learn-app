@@ -7850,5 +7850,21 @@
     "height": 480,
     "sha256": "54a5b77776b4cb84c0eb25523c09f9fcc8c309078a50ccdc1d611ae6ac312d7e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1n9K6vthIBwovvAYH1OSRn6zf2hEDUq3y",
+    "drive_name": "08 មហាសមយសូត្រ វិធីដោះស្រយជម្លោះដល់ព្រះញាតិរបស់ព្រះពុទ្ធ (បិដកលេខ ១៧).mp4",
+    "source_md5": "933a5f91c9d0f493dab7aebff383d980",
+    "key": "video/933a5f91c9d0f493-480p.mp4",
+    "poster_key": "video/933a5f91c9d0f493-480p.webp",
+    "rendition": "480p",
+    "bytes": 172746832,
+    "duration_s": 5363,
+    "src_duration_s": 5363,
+    "width": 854,
+    "height": 480,
+    "sha256": "234e08e7f17a706486f92527f8b016949c8a8cecf64f6b9731c45b0f3d8071e9",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
