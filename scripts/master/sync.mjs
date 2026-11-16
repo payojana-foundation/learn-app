@@ -46,6 +46,7 @@ import { parseCsvObjects, toCsv } from './csv.mjs';
 import { colLetter } from './seed.mjs';
 import { checksJson, failedMap } from './checks.mjs';
 import { presentKeys } from './export.mjs';
+import { intakePlan, applyToTab, intakeRanges, noFileLink, ISSUE_NO_FILE } from './intake.mjs';
 export { presentKeys };
 
 const SHEETS_BASE = 'https://sheets.googleapis.com/v4/spreadsheets';
@@ -80,7 +81,7 @@ export function audioStatus(sourceId, approved, failedReview, inManifest) {
  * Returns { lessons: Map(row_key -> {col: value}), courses: Map(course_id -> {lesson_count}) }.
  */
 export function computeSystem(lessonRows, courseRows, ctx) {
-  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map(), checkFlags = new Map(), decisions = {} } = ctx;
+  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map(), checkFlags = new Map(), decisions = {}, intakeIssues = new Map() } = ctx;
   const approved = new Set(manifest.filter((e) => e && e.drive_file_id && /^approved\b/i.test(e.status || '')).map((e) => e.drive_file_id));
   const inManifest = new Set(manifest.filter((e) => e && e.drive_file_id).map((e) => e.drive_file_id));
   const { hidden } = shownRows(lessonRows, manifest);
@@ -103,6 +104,8 @@ export function computeSystem(lessonRows, courseRows, ctx) {
     if (!lessonId) issues.push('no source, no code');
     if (r.acast_status === 'posted' && !embed && !episode) issues.push('acast embed missing');
     if (!r.source_type && src) issues.push('source_type not set');
+    if ((r.course_id || !r.source_file) && noFileLink(r)) issues.push(ISSUE_NO_FILE);
+    for (const x of intakeIssues.get(r.row_key) || []) issues.push(x);
     for (const reason of (src && checkFlags.get(src)) || []) issues.push(`CHECK: ${reason}`);
     const dec = decisions[r.row_key];
     if (dec && dec.decision) issues.push(`DECISION: ${dec.decision} (${dec.at}): ${dec.result}`);
@@ -344,20 +347,32 @@ async function main() {
     console.error(`::error title=master sync::${e.message}`);
     process.exit(e instanceof HeaderMismatchError ? 3 : 1);
   }
+  // PART 3 intake: rows the team added get row_key / course_id / teacher / source_type, a new
+  // course a Courses row and a registry id. Everything below sees the tab as the plan leaves it.
+  const registryPath = join(root, 'data', 'course-ids.json');
+  const registryFile = JSON.parse(readFileSync(registryPath, 'utf-8'));
+  const teacherNames = new Set(JSON.parse(readFileSync(join(root, 'data', 'source', 'teachers-2026-11-02', 'teachers-2026-11-02.json'), 'utf-8')).map((x) => x.name_km));
+  const intake = intakePlan({ lessonsTab, coursesTab, registry: registryFile.courses || {}, teacherNames });
+  lessonsTab = applyToTab(lessonsTab, intake.cells);
   const lessonRows = objects(lessonsTab);
-  const courseRows = objects(coursesTab);
+  const courseRows = [...objects(coursesTab), ...intake.newCourses];
   const manifest = JSON.parse(readFileSync(join(root, 'data', 'media-manifest.json'), 'utf-8'));
   const wanted = computeSystem(lessonRows, courseRows, {
     manifest, failedReview: failedReviewSet(root), shownLessonIds: shownFromPublicData(root), acastBySource: await acastFromTeacherSheets(root),
     checkFlags: checkFlagsFile(root),
+    intakeIssues: intake.issues,
     decisions: existsSync(join(root, 'data', 'ops', 'check-decisions.json')) ? JSON.parse(readFileSync(join(root, 'data', 'ops', 'check-decisions.json'), 'utf-8')) : {},
   });
   const L = diffTab(lessonsTab, 'row_key', wanted.lessons, LESSON_SYNC_COLUMNS);
   const C = diffTab(coursesTab, 'course_id', wanted.courses, COURSE_SYNC_COLUMNS);
-  const ranges = [...toRanges('Lessons', L.changes), ...toRanges('Courses', C.changes)];
+  for (const c of intake.newCourses) c.lesson_count = wanted.courses.get(c.course_id)?.lesson_count ?? '0';
+  const intakeR = intakeRanges(lessonsTab, coursesTab, intake, colLetter, courseKeys);
+  const ranges = [...intakeR, ...toRanges('Lessons', L.changes), ...toRanges('Courses', C.changes)];
 
   mkdirSync(join(root, 'reports'), { recursive: true });
   writeFileSync(join(root, 'reports', 'master-sync-preview.csv'), toCsv(['tab', 'key', 'column', 'row', 'from', 'to'], [
+    ...intake.cells.map((c) => ({ tab: 'Lessons', key: intake.assigned.find((a) => a.row === c.row)?.row_key ?? '', column: c.column, row: c.row, from: '', to: c.to })),
+    ...intake.newCourses.map((c) => ({ tab: 'Courses', key: c.course_id, column: '(new row)', row: '', from: '', to: ` / ` })),
     ...L.changes.map((c) => ({ tab: 'Lessons', ...c })), ...C.changes.map((c) => ({ tab: 'Courses', ...c })),
   ]), 'utf-8');
   const byCol = {};
@@ -368,7 +383,8 @@ async function main() {
     `Source: ${live ? 'live sheet' : 'data/master export (no token: dry run on the last export)'}; mode ${mode}.`, '',
     `- Lessons rows: ${lessonRows.length}; Courses rows: ${courseRows.length}`,
     `- cells to change: ${L.changes.length + C.changes.length} in ${ranges.length} ranges; by column: ${JSON.stringify(byCol)}`,
-    `- rows without row_key (added by the team, left alone): ${L.unkeyed.length}${L.unkeyed.length ? ' (sheet rows ' + L.unkeyed.slice(0, 50).join(', ') + ')' : ''}`,
+    `- new rows from the team: ${intake.assigned.filter((a) => a.new_key).length} get a row_key; intake cells ${intake.cells.length}; new courses ${intake.newCourses.map((c) => c.course_id).join(', ') || 'none'}; rows still without a course: ${[...intake.issues.keys()].length}`,
+    `- rows without row_key left alone (seeded rows): ${L.unkeyed.length}${L.unkeyed.length ? ' (sheet rows ' + L.unkeyed.slice(0, 50).join(', ') + ')' : ''}`,
     `- duplicate row_key (left alone): ${L.duplicate.length}${L.duplicate.length ? ' (' + L.duplicate.join(', ') + ')' : ''}`,
     `- Courses rows without course_id: ${C.unkeyed.length}; duplicate course_id: ${C.duplicate.length}`,
     `- status: ${JSON.stringify(status.totals)}`, '',
@@ -401,7 +417,13 @@ async function main() {
   if (mode === 'write' && ranges.length) {
     try {
       const n = await writeRanges({ sheetId, token, ranges });
-      console.log(`written: ${n} ranges, ${L.changes.length + C.changes.length} cells`);
+      console.log(`written: ${n} ranges, ${L.changes.length + C.changes.length + intake.cells.length} cells`);
+      if (Object.keys(intake.registryAdds).length) {
+        // The sheet has the new course ids now: record them so they are never given again.
+        registryFile.courses = intake.registry;
+        writeFileSync(registryPath, JSON.stringify(registryFile, null, 2) + '\n', 'utf-8');
+        console.log(`course-ids.json: added ${Object.entries(intake.registryAdds).map(([, v]) => v).join(', ')}`);
+      }
     } catch (e) {
       console.error(`::error title=master sync::${e.message}`);
       process.exit(1);
@@ -409,7 +431,7 @@ async function main() {
   }
   if (process.env.GITHUB_OUTPUT) {
     const { appendFileSync } = await import('node:fs');
-    appendFileSync(process.env.GITHUB_OUTPUT, `cells=${L.changes.length + C.changes.length}\n`);
+    appendFileSync(process.env.GITHUB_OUTPUT, `cells=${L.changes.length + C.changes.length}\nintake=${mode === 'write' ? intake.cells.length + intake.newCourses.length : 0}\n`);
   }
 }
 

@@ -93,8 +93,12 @@ jobs:
           fi
           if [ "${VIDEO_ENABLED:-}" = "true" ]; then sw=true; else sw=false; fi
           printf '{\n  "enabled": %s\n}\n' "$sw" > data/video-switch.json
+          # PART 3 intake: lessons the team added go into the conversion queues (append only).
+          node scripts/queues/intake-queues.mjs
+          node scripts/queues/video-queues.mjs
           npm run build-courses
           git add data/master public/data data/video-switch.json
+          git add data/queues
           if git diff --cached --quiet; then
             echo "master-export: no change"
             echo "committed=false" >> "$GITHUB_OUTPUT"
