@@ -7610,5 +7610,21 @@
     "height": 480,
     "sha256": "12c4031447087562641d92182287f1365f4c59f15cd980fe33dd4a48ba49fa97",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1tPVAXJH0D8OG2g6pIyeNk61H-I2D7XNr",
+    "drive_name": "១៤ ចូឡតណ្ហាសង្ខយសូត្រទី៧ ការបង្អោនចិត្តទៅកាន់និព្វាន (បិដកលេខ ២២).mp4",
+    "source_md5": "817356fd587a8d7b8267dffd43ed2cd0",
+    "key": "video/817356fd587a8d7b-480p.mp4",
+    "poster_key": "video/817356fd587a8d7b-480p.webp",
+    "rendition": "480p",
+    "bytes": 149299088,
+    "duration_s": 6960,
+    "src_duration_s": 6960,
+    "width": 854,
+    "height": 480,
+    "sha256": "24c8ea4fb294b250dc35cf9d81ca58789a103b4aea2299473efe42166db6ad3d",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
