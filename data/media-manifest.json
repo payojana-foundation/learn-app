@@ -94264,5 +94264,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1btuhpTxTneOu9QJe2kXcC7zmjrnG4b5I",
+    "drive_name": "០២ អារម្មណ៍៤ តាមបញ្ចទ្វារ និងមនោទ្វារភិក្ខុអគ្គចិត្តោ យ៉ុន យី_ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "38f91f17d35fa3013f1776ea9a41890d",
+    "key": "audio/38f91f17d35fa301-a64.mp3",
+    "bytes": 33024252,
+    "duration_s": 4127,
+    "sha256": "cc93b4ba00b51ae10079162afa6bed4d31652834c7bebd7e142029b8fceb4fca",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -0.4,
+        "LRA": 0
+      },
+      "G": 9.68,
+      "limit": 0.708,
+      "depth": 12.28,
+      "busy": 3.171027131782946,
+      "out": {
+        "I": -18,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
