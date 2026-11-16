@@ -8378,5 +8378,21 @@
     "height": 480,
     "sha256": "b6e5aea8bd59f49a9ea4792c2cb103057300a08ca79652e791bc155603113158",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1IRHmVZphL_7JethT8eD41NuHHQupac1G",
+    "drive_name": "21 អាកង្ខេយ្យសូត្រ ចប់ការលះបង់សេចក្តីប្រាថ្នា (បិដកលេខ ២០).mp4",
+    "source_md5": "d58a7194e22e86743de15a4befa168a1",
+    "key": "video/d58a7194e22e8674-480p.mp4",
+    "poster_key": "video/d58a7194e22e8674-480p.webp",
+    "rendition": "480p",
+    "bytes": 123102575,
+    "duration_s": 5247,
+    "src_duration_s": 5247,
+    "width": 854,
+    "height": 480,
+    "sha256": "5503d40cefbf70358eafce6347dbdc103c3322ad9dfd60e1c7c14b24f9307c6e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
