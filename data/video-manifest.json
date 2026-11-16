@@ -9418,5 +9418,21 @@
     "height": 480,
     "sha256": "da081d4b987a016980b8c6b745a968ec2e4e287eb58a1ad3d513fec151e5dade",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1qKZn8kjNNyH2dUk8iLtK4rmtQPLbE6ZG",
+    "drive_name": "១៦ បាសរាសិសូត្រ ព្រះអង្គទទួលសម្តែងធម៌ពីព្រហ្ម (បិដកលេខ ២១).mp4",
+    "source_md5": "7f9eabd95f1f0963fc47ed3665aee24c",
+    "key": "video/7f9eabd95f1f0963-480p.mp4",
+    "poster_key": "video/7f9eabd95f1f0963-480p.webp",
+    "rendition": "480p",
+    "bytes": 131572180,
+    "duration_s": 6369,
+    "src_duration_s": 6369,
+    "width": 854,
+    "height": 480,
+    "sha256": "c6fd48cdd0f33acb2e5728e1cbeae32e4a09fb966ec803241676b05cb7ee8b9f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
