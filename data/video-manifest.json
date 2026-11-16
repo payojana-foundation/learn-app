@@ -7930,5 +7930,21 @@
     "height": 480,
     "sha256": "ff78f97e9f330931ed2f08d8f61dbdbb8d35dc7e064d9594fd069ee2598228e2",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1kdM4hAYqnBU1Dr7zHkqeNBqvILenwm0i",
+    "drive_name": "១៨ មហាតណ្ហាសង្ខយសូត្រទី៨ ទឹកដោះម៉ែដូចទឹកឈាមជាដើម (បិដកលេខ ២២).mp4",
+    "source_md5": "5734d98d3b9b0c7a56dbd6184df522c6",
+    "key": "video/5734d98d3b9b0c7a-480p.mp4",
+    "poster_key": "video/5734d98d3b9b0c7a-480p.webp",
+    "rendition": "480p",
+    "bytes": 141509168,
+    "duration_s": 7028,
+    "src_duration_s": 7028,
+    "width": 854,
+    "height": 480,
+    "sha256": "5b79e1a72e576714f71d87516b1acaf3218096a773b5da56c9711f7e1eae2175",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
