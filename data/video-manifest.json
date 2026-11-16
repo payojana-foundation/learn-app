@@ -9082,5 +9082,21 @@
     "height": 480,
     "sha256": "6abb5236fcbaaab26404e22852bd3fbf0aeb07b14e0a7bd29cf96379205f52eb",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1iapJ-el8Yqycizu5Dg4coSgTcSe3WBay",
+    "drive_name": "30 សម្មាទិដ្ឋិសូត្រ ដឹងច្បាស់នូវ អាយតន ផស្សៈ វេទនា (បិដកលេខ ២០).mp4",
+    "source_md5": "2d03e2055de4aad1686fbece2d1b9a14",
+    "key": "video/2d03e2055de4aad1-480p.mp4",
+    "poster_key": "video/2d03e2055de4aad1-480p.webp",
+    "rendition": "480p",
+    "bytes": 127280000,
+    "duration_s": 5468,
+    "src_duration_s": 5468,
+    "width": 854,
+    "height": 480,
+    "sha256": "4e5a4bebbdda173690d3f699a96ec1afdc9bb79443ed29b8f5dc7d2d6ce49f55",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
