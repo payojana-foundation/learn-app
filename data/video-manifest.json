@@ -5738,5 +5738,21 @@
     "height": 480,
     "sha256": "64127539979d84f590ff0c6c93e819ab1149698901dda41baa690c93b2705eee",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1FL2JYRDSyA5-bN4Lyrlibia53AV_UHWI",
+    "drive_name": "៥៥ រូបវិថីកម្មបច្ចយឧតុជ្ជកលាប ឧតុកើតពីកម្ម ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp4",
+    "source_md5": "a4010db9f83f3e610fe7065ab7caccf7",
+    "key": "video/a4010db9f83f3e61-480p.mp4",
+    "poster_key": "video/a4010db9f83f3e61-480p.webp",
+    "rendition": "480p",
+    "bytes": 93149561,
+    "duration_s": 4606,
+    "src_duration_s": 4606,
+    "width": 854,
+    "height": 480,
+    "sha256": "f14e5410764eeb9f630f55dd0d7a66128d5fcd85fa0ecd6a305313685f817404",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
