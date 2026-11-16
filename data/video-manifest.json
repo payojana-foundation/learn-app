@@ -4954,5 +4954,21 @@
     "height": 480,
     "sha256": "d73543b73378f93d95f0f017b59c67431d66cf14d758f6e98ac776e4336be36a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "10Bo1sgmdgApVJXKHzO77MJrOcRTC0oiw",
+    "drive_name": "៤១ សិក្សាសមុដ្ឋានិករូប រូបកើតពីសមុដ្ឋានទាំង ៤ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "4d50a83a332694ad65a4e3a1c0a3eb39",
+    "key": "video/4d50a83a332694ad-480p.mp4",
+    "poster_key": "video/4d50a83a332694ad-480p.webp",
+    "rendition": "480p",
+    "bytes": 112449417,
+    "duration_s": 5081,
+    "src_duration_s": 5081,
+    "width": 854,
+    "height": 480,
+    "sha256": "608501b0682f81bae5359638ba9c206b4dbc1882c43174a6473ed6ecf180a1dc",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
