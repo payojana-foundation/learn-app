@@ -92763,7 +92763,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -92793,7 +92795,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -92823,7 +92827,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -92853,7 +92859,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -92883,7 +92891,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -92913,7 +92923,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -92943,7 +92955,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -92973,7 +92987,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93003,7 +93019,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93033,7 +93051,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93063,7 +93083,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93093,7 +93115,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93123,7 +93147,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93153,7 +93179,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93183,7 +93211,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93213,7 +93243,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93243,7 +93275,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93273,7 +93307,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93303,7 +93339,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93333,7 +93371,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93363,7 +93403,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93393,7 +93435,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93423,7 +93467,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93453,7 +93499,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93483,7 +93531,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93513,7 +93563,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93543,7 +93595,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93573,7 +93627,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93603,7 +93659,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93633,7 +93691,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93663,7 +93723,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93693,7 +93755,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93723,7 +93787,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93753,7 +93819,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93783,7 +93851,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93813,7 +93883,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93843,7 +93915,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93873,7 +93947,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93903,7 +93979,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93933,7 +94011,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93963,7 +94043,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -93993,7 +94075,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -94023,7 +94107,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -94053,7 +94139,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -94083,7 +94171,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -94113,7 +94203,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -94143,7 +94235,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -94173,7 +94267,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -94203,7 +94299,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -94233,7 +94331,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -94263,7 +94363,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -94293,7 +94395,9 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "lesson_code": null,
@@ -94323,6 +94427,8 @@
       "result": "ok",
       "method": "tp-limit+loudnorm"
     },
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   }
 ]
