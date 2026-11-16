@@ -16062,5 +16062,21 @@
     "height": 480,
     "sha256": "30e5da0e8eb991c90b2bf05e363d1ba6c43b9b040b9967d77ab8157f79eef914",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1r2eX8OH9duHYhA1lWZqpmX7FS8A9tNyL",
+    "drive_name": "37_Ñāṇa_30Sep2026_វិធីចម្រើនអរូបជ្ឈាន៤_ចប់.mp4",
+    "source_md5": "0d64b686c6fa3046f24d10ddda040f7c",
+    "key": "video/0d64b686c6fa3046-480p.mp4",
+    "poster_key": "video/0d64b686c6fa3046-480p.webp",
+    "rendition": "480p",
+    "bytes": 95146336,
+    "duration_s": 3774,
+    "src_duration_s": 3774,
+    "width": 854,
+    "height": 480,
+    "sha256": "692d7ce4ac125cd86c460dc26a2c36ba691c61d73b75fd722c555ff7ccb86a93",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
