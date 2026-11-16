@@ -9370,5 +9370,21 @@
     "height": 480,
     "sha256": "d52d6f8b4927adbafe34ec90b9b824656f313fd8fc96b48757f0d8d0513c94d3",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1xowFmXRkn7ljrdikIBIc8J-aCdeiDLQg",
+    "drive_name": "៣៥ វីមំសកសូត្រទី ៧ សោតាបត្តិបន្នមានសទ្ធាមិនកម្រើកជាដើមភិក្ខុអគ្គចិត្តោ យ៉ុន យី (បិដកលេខ២២).mp4",
+    "source_md5": "60fe7a866112717047efb264b9f08efd",
+    "key": "video/60fe7a8661127170-480p.mp4",
+    "poster_key": "video/60fe7a8661127170-480p.webp",
+    "rendition": "480p",
+    "bytes": 141206692,
+    "duration_s": 6736,
+    "src_duration_s": 6736,
+    "width": 854,
+    "height": 480,
+    "sha256": "23d23ec15b7e64f034c8eb446f5bc2777259f8fa7c6c0b9fab9e929d972f2557",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
