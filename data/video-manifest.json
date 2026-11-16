@@ -8938,5 +8938,21 @@
     "height": 480,
     "sha256": "13ea5cd3a1c9be92ecb9bfc3b491fd769fb4b7a0b3370d69ca9254ac50b231f8",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1rXhLoLNHvbBorsn7lWjRYBqeL-9vuHDZ",
+    "drive_name": "28 សម្មាទិដ្ឋិសូត្រ ការយល់ត្រូវអំពីការអាហារ ៤ យ៉ាង (បិដកលេខ ២០).mp4",
+    "source_md5": "8b6b6edd12db79dd633e0f793f1188c7",
+    "key": "video/8b6b6edd12db79dd-480p.mp4",
+    "poster_key": "video/8b6b6edd12db79dd-480p.webp",
+    "rendition": "480p",
+    "bytes": 131030647,
+    "duration_s": 5207,
+    "src_duration_s": 5207,
+    "width": 854,
+    "height": 480,
+    "sha256": "6ec676f78d6eb912a3a3ed24aa2b880a6e174468b87521314cb83b4d10ba36ce",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
