@@ -8778,5 +8778,21 @@
     "height": 480,
     "sha256": "c23b860618cf7f4ea9b3b379f796e9fce4b88cf4a849e4a7e09b92c00f638126",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1sJUSIwVasBnDGTrF_ucJ3ZA7xxtVN2bB",
+    "drive_name": "១០ រថវិនីតសូត្រ សំសគ្គៈច្រឡូកច្រឡំមាន ៥ យ៉ាង (បិដកលេខ ២១).mp4",
+    "source_md5": "efb13b4e166bd2ccd8c919c1e90096a0",
+    "key": "video/efb13b4e166bd2cc-480p.mp4",
+    "poster_key": "video/efb13b4e166bd2cc-480p.webp",
+    "rendition": "480p",
+    "bytes": 135968508,
+    "duration_s": 7015,
+    "src_duration_s": 7015,
+    "width": 854,
+    "height": 480,
+    "sha256": "f06542cd30a2d1d71198cee04b085c5127bf23b278e3f07d5d659b4c1a98ee03",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
