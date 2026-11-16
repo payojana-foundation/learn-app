@@ -6682,5 +6682,21 @@
     "height": 480,
     "sha256": "150bead6b2bb50f7968c702a751962bd3d943131d6e6d3f73137378a4253fdbf",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Yi5ZjUwAv2HbeT3grgsmFfqVXDWnb56s",
+    "drive_name": "01 មហាបទានសូត្រ របៀបអានព្រះត្រ័យបិដក ប្រវត្តិព្រះអដ្ឋកថា (បិដកលេខ ១៦).mp4",
+    "source_md5": "dec1c04a07dddbee1aebda3564619f80",
+    "key": "video/dec1c04a07dddbee-480p.mp4",
+    "poster_key": "video/dec1c04a07dddbee-480p.webp",
+    "rendition": "480p",
+    "bytes": 122151522,
+    "duration_s": 5632,
+    "src_duration_s": 5632,
+    "width": 854,
+    "height": 480,
+    "sha256": "60a7eeccb8a5b6b036ca101980e34657df23d899b1ea03ce11a90e53261495cd",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
