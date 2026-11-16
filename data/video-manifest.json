@@ -9274,5 +9274,21 @@
     "height": 480,
     "sha256": "a5069741a65ce19a09eec2eba0d36084aca717076a3c0afbdf346d363aecc56a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1XhrVNcSDnMh3DFoihUzvoAr_OrZXyLX4",
+    "drive_name": "៣៤ វីមំសកសូត្រទី ៧ ការដឹងព្រះពុទ្ធដោយហេតុ២ (បិដកលេខ ២២).mp4",
+    "source_md5": "baa127bcbae1799f6e23134d18310564",
+    "key": "video/baa127bcbae1799f-480p.mp4",
+    "poster_key": "video/baa127bcbae1799f-480p.webp",
+    "rendition": "480p",
+    "bytes": 144723247,
+    "duration_s": 7243,
+    "src_duration_s": 7243,
+    "width": 854,
+    "height": 480,
+    "sha256": "18f849f4f8b31ac3bf395704136d3056d2156eb86fb288160b765dc81296faba",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
