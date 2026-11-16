@@ -14194,5 +14194,21 @@
     "height": 480,
     "sha256": "962c3d3c4c9f93b37abfc9bbb4ad148d54ff5fdda32c851ab6bc39b121592035",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1a0VD9lzGhQEHP5hvjtf7OeDf1HDcgoYm",
+    "drive_name": "៥៣ អហេតុកចិត្ត១៨​ ដោយន័យ១៤ ត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៥៣ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "4106f6c622b3de9ae277eb8235c17a88",
+    "key": "video/4106f6c622b3de9a-480p.mp4",
+    "poster_key": "video/4106f6c622b3de9a-480p.webp",
+    "rendition": "480p",
+    "bytes": 65560120,
+    "duration_s": 3338,
+    "src_duration_s": 3338,
+    "width": 854,
+    "height": 480,
+    "sha256": "3894ce98e091fb3f4bfcec95257d5d9561013488140ccb74925dd079362d1934",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
