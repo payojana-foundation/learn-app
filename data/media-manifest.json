@@ -93934,5 +93934,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1EWcE1I5ZJAj0UReogdI5s_WgaCRWDpKR",
+    "drive_name": "54.បរិច្ឆេទទី៨ បច្ចយបរិច្ឆេទ ម៉ោងទី៥៥ (ព្រះអង្គគ្រូ ពុទ្ធិកាលង្ការ ផេង ឌីណា).mp3",
+    "source_md5": "22e99842ab87b4354380732b1d2d9808",
+    "key": "audio/22e99842ab87b435-a64.mp3",
+    "bytes": 27292777,
+    "duration_s": 3411,
+    "sha256": "ed4cff78dc5740579e8f2ca6cbb89934b017273d850a9dd48b9b6e29563c79f1",
+    "loudness": {
+      "pass1": {
+        "I": -26.8,
+        "TP": -1.3,
+        "LRA": 0
+      },
+      "G": 9.99,
+      "limit": 0.708,
+      "depth": 11.69,
+      "busy": 2.6685084492386157,
+      "out": {
+        "I": -18,
+        "TP": -1.7,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
