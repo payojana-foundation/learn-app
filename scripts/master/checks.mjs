@@ -11,11 +11,28 @@
  * Titles are copied byte for byte. The file carries NO sheet id and NO sheet URL: only the
  * tab gid and the row number, so the dashboard (which knows the sheet) builds its own link.
  * first_flagged_at is kept from the previous checks.json for the same row/media/reason.
+ *
+ * PART 6 (16 Nov) — every piece of work a person must do:
+ *   audio  "no file link": a course lesson row with no Drive FILE link (mp3/mp4/minicourse), or
+ *          only a folder link — the team adds the link in the sheet;
+ *   audio  "file not shared": the conversion could not read the file (Drive HTTP 403/404: not
+ *          shared with the service account, deleted or in the trash) — from failed-review.csv;
+ *   video  "file not shared": the lesson's video could not be read (Drive HTTP 403/404) — from
+ *          reports/video-inventory-failures.csv (video-inventory.yml), unless converted since;
+ *   course "no approved lesson": a course with no approved lesson where nothing is waiting for
+ *          the pipeline (every row is blocked by one of the reasons above, a failed conversion or
+ *          a pre-check flag) — only then does a person have to act. Reported on the course's
+ *          first lesson row (same fields; media_type "audio").
+ * After the team fixes one of these in the sheet, check_decision "fixed" queues the row again.
  */
 import { sourceIdOf } from './sync.mjs';
 import { reasonKind } from '../media/precheck.mjs';
 import { videoLessons } from '../media/video-inventory.mjs';
 import { mediaUrl } from '../queues/approve-lists.mjs';
+import { noFileLink } from './intake.mjs';
+
+/** A conversion-failure reason that means Drive refused the file. Pure. */
+export const isNotShared = (reason) => /HTTP 40[34]\b|not readable from Drive|not shared/i.test(String(reason || ''));
 
 export const SCHEMA_VERSION = 1;
 export const CHECK_DECISIONS = ['', 'fixed', 'approve anyway', 'hold'];
@@ -74,7 +91,7 @@ const itemKey = (i) => `${i.row_key}|${i.media_type}|${i.reason}`;
  *   precheck, videoPrecheck, failed: Map(drive id -> detail), prev (previous checks.json), now }
  */
 export function checksJson(ctx) {
-  const { lessonRows = [], sheetRows = null, gid = null, courseRows = [], wanted = new Map(), manifest = [], videoManifest = [], precheck = null, videoPrecheck = null, failed = new Map(), prev = null, now } = ctx;
+  const { lessonRows = [], sheetRows = null, gid = null, courseRows = [], wanted = new Map(), manifest = [], videoManifest = [], precheck = null, videoPrecheck = null, failed = new Map(), videoFailures = new Map(), prev = null, now } = ctx;
   const courseTitle = new Map(courseRows.map((c) => [c.course_id, c.course_title_km]));
   const firstSeen = new Map(((prev && prev.items) || []).map((i) => [itemKey(i), i.first_flagged_at]));
   const byAudio = new Map(); // source id -> first row
@@ -132,7 +149,41 @@ export function checksJson(ctx) {
   for (const [id, detail] of failed) {
     if (audioEntry.has(id)) continue; // converted since: not a failed conversion any more
     const r = byAudio.get(id);
-    if (r) push(r, 'audio', 'conversion failed', detail, null);
+    if (r) push(r, 'audio', isNotShared(detail) ? 'file not shared' : 'conversion failed', detail, null);
+  }
+  for (const [id, v] of videoFailures) {
+    if (videoEntry.has(id)) continue;
+    const r = byVideo.get(id);
+    if (r && /^40[34]$/.test(String(v.http_status))) push(r, 'video', 'file not shared', `Drive HTTP ${v.http_status}: ${v.likely_cause || 'not shared with the service account, deleted or in the trash'}`, null);
+  }
+  for (const r of lessonRows) {
+    if (r.course_id && r.row_key && noFileLink(r)) push(r, 'audio', 'no file link', /\/folders\//.test(`${r.mp3_link} ${r.mp4_link} ${r.minicourse_link}`) ? 'a folder link, not a file link' : 'no Drive file link in mp3_link, mp4_link or minicourse_link', null);
+  }
+  // courses where nothing can move without a person
+  const approved = new Set(manifest.filter((e) => e && /^approved\b/i.test(e.status || '')).map((e) => e.drive_file_id));
+  const flagged = new Set(((precheck && precheck.results && precheck.results.flagged) || []).map((f) => f.id));
+  const byCourse = new Map();
+  for (const r of lessonRows) {
+    if (!r.course_id || !r.row_key) continue;
+    if (!byCourse.has(r.course_id)) byCourse.set(r.course_id, []);
+    byCourse.get(r.course_id).push(r);
+  }
+  for (const [cid, rows] of byCourse) {
+    const tally = { 'no file link': 0, 'file not shared': 0, 'conversion failed': 0, flagged: 0 };
+    let approvedN = 0;
+    let waiting = 0;
+    for (const r of rows) {
+      const id = noFileLink(r) ? null : sourceIdOf(r);
+      if (id && approved.has(id)) { approvedN++; continue; }
+      if (!id) tally['no file link']++;
+      else if (flagged.has(id)) tally.flagged++;
+      else if (!audioEntry.has(id) && failed.has(id)) tally[isNotShared(failed.get(id)) ? 'file not shared' : 'conversion failed']++;
+      else waiting++; // not converted yet (autorun will) or converted and waiting for release
+    }
+    if (approvedN === 0 && waiting === 0) {
+      const parts = Object.entries(tally).filter(([, n]) => n).map(([k, n]) => `${n} ${k}`);
+      push(rows[0], 'audio', 'no approved lesson', `0 of ${rows.length} lessons approved and none waiting: ${parts.join(', ')}`, null);
+    }
   }
   for (const f of (videoPrecheck && videoPrecheck.results && videoPrecheck.results.flagged) || []) {
     const r = byVideo.get(f.id);
@@ -142,6 +193,13 @@ export function checksJson(ctx) {
   }
   items.sort((a, b) => a.course_id.localeCompare(b.course_id) || a.row_key.localeCompare(b.row_key) || a.media_type.localeCompare(b.media_type) || a.reason.localeCompare(b.reason));
   return { schema_version: SCHEMA_VERSION, generated_at: now, items };
+}
+
+/** reports/video-inventory-failures.csv rows -> Map(video drive id -> {http_status, likely_cause}). Pure. */
+export function videoFailuresFrom(rows) {
+  const m = new Map();
+  for (const r of rows || []) if (r.drive_file_id && !m.has(r.drive_file_id)) m.set(r.drive_file_id, { http_status: r.http_status, likely_cause: r.likely_cause });
+  return m;
 }
 
 /** failed-review.csv (drive_file_id,course_id[,reason]) + autorun attempts -> Map(id -> detail). */

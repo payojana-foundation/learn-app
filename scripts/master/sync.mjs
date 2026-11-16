@@ -44,7 +44,7 @@ import { pickSource, lessonIdOf } from '../catalogue/catalogue-build.mjs';
 import { shownRows } from '../build-courses.mjs';
 import { parseCsvObjects, toCsv } from './csv.mjs';
 import { colLetter } from './seed.mjs';
-import { checksJson, failedMap } from './checks.mjs';
+import { checksJson, failedMap, videoFailuresFrom } from './checks.mjs';
 import { presentKeys } from './export.mjs';
 import { intakePlan, applyToTab, intakeRanges, noFileLink, ISSUE_NO_FILE } from './intake.mjs';
 export { presentKeys };
@@ -422,6 +422,7 @@ async function main() {
     precheck: readJson(join(root, 'data', 'queues', 'approve', 'precheck.json'), null),
     videoPrecheck: readJson(join(root, 'data', 'queues', 'approve-video', 'precheck.json'), null),
     failed: failedMap(existsSync(frPath) ? readFileSync(frPath, 'utf-8') : '', readJson(join(root, 'data', 'ops', 'autorun-state.json'), {})),
+    videoFailures: videoFailuresFrom(existsSync(join(root, 'reports', 'video-inventory-failures.csv')) ? parseCsvObjects(readFileSync(join(root, 'reports', 'video-inventory-failures.csv'), 'utf-8')) : []),
     prev: readJson(checksPath, null),
     now: new Date().toISOString(),
   });

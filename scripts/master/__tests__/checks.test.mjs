@@ -45,13 +45,15 @@ describe('checks.json', () => {
     expect(out.generated_at).toBe(base.now);
     expect(out.items.map((i) => [i.row_key, i.media_type, i.reason])).toEqual([
       ['M00001', 'audio', 'duration differs > 2 % from the Drive source'],
+      // PART 6 (16 Nov): every row of c900 is blocked (flagged / failed), none approved or waiting
+      ['M00001', 'audio', 'no approved lesson'],
       ['M00001', 'video', 'duration under 5 min'],
       ['M00002', 'audio', 'silence > 60 s in the last 2 min'],
       ['M00003', 'audio', 'conversion failed'],
     ]);
   });
   it('fields: titles byte-exact, detail measured vs expected, sheet row + gid, play url, decision', () => {
-    const [a, v, s, f] = out.items;
+    const [a, , v, s, f] = out.items;
     expect(a).toEqual({
       row_key: 'M00001', lesson_id: 'CODE-1', course_id: 'c900', course_title_km: 'course tab title', lesson_title: 'placeholder one',
       media_type: 'audio', reason: 'duration differs > 2 % from the Drive source', detail: 'duration 12:03 vs 45:10',

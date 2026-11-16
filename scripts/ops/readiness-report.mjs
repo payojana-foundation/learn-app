@@ -76,6 +76,13 @@ async function main() {
   L.push('## Held (public/ops/checks.json)', '');
   L.push(`${checks.items.length} items (generated ${checks.generated_at || 'unknown'}).`, '');
   L.push('| media: reason | items |', '|---|---:|', ...heldByReason(checks).map(([k, n]) => `| ${k} | ${n} |`), '');
+  L.push('### Work for a person (fixed in the sheet or in Drive, then check_decision "fixed")', '');
+  L.push('- **no file link**: add the Drive file link of the lesson (mp3_link, mp4_link or minicourse_link).');
+  L.push('- **file not shared**: share the Drive file with the service account (or restore it from the trash).');
+  L.push('- **conversion failed** / pre-check reasons: listen, then fixed (new file) or approve anyway or hold.', '');
+  const courseItems = ((checks && checks.items) || []).filter((i) => i.reason === 'no approved lesson');
+  L.push(`Courses with no approved lesson where nothing is waiting for the pipeline: **${courseItems.length}**`, '');
+  if (courseItems.length) L.push('| course | title | detail |', '|---|---|---|', ...courseItems.map((i) => `| ${i.course_id} | ${String(i.course_title_km).replace(/\|/g, '\\|')} | ${i.detail} |`), '');
   L.push('## Automation', '');
   L.push(`- AUTORUN_ENABLED=${vars.AUTORUN_ENABLED ?? 'unset'}; autorun stopped after a red run: ${autorun.disabled ? `yes (${autorun.reason})` : 'no'}; lessons tried ${Object.keys(autorun.attempts || {}).length} (at the limit: ${Object.values(autorun.attempts || {}).filter((n) => n >= 2).length})`);
   for (const l of autorunLog) L.push(`  - ${l}`);

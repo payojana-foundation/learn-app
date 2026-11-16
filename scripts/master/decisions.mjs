@@ -6,8 +6,9 @@
  *                     (applyDecision, as approve-media per-ids; reviewer "team: approve anyway").
  *   fixed          -> forget its pre-check measurements, measure again (the workflow runs
  *                     precheck.mjs between `prepare` and `apply`), release if it passes (audio,
- *                     and video when the video passes too). Never converted -> its
- *                     course-autorun tries are reset so autorun converts it again.
+ *                     and video when the video passes too). Never converted (no file link,
+ *                     file not shared, conversion failed: the team fixed it in the sheet / Drive)
+ *                     -> off failed-review.csv, course-autorun tries reset, back in its course queue.
  *   hold           -> nothing.
  * Acted on once per (decision, converted audio sha256, converted video sha256); logged in
  * data/ops/check-decisions.json and in the row's issues ("DECISION: ..."). Writes only the
@@ -18,12 +19,14 @@
  *   apply        -> manifests, data/ops/check-decisions.json, autorun-state, decisions-cells.json
  *   write-issues -> writes decisions-cells.json to the sheet (after the commit landed)
  */
-import { readFileSync, writeFileSync, existsSync, mkdirSync, appendFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, appendFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { readTab, writeRanges, sourceIdOf } from './sync.mjs';
 import { colLetter } from './seed.mjs';
 import { videoLessons } from '../media/video-inventory.mjs';
 import { applyDecision } from '../media/approve-manifest.mjs';
+import { appendText } from '../queues/intake-queues.mjs';
+import { parseQueue } from '../media/queue-plan.mjs';
 
 export const COLUMN = 'check_decision';
 export const DECISIONS = ['fixed', 'approve anyway', 'hold'];
@@ -65,7 +68,7 @@ export function planDecisions(rows, manifest, videoManifest, log = {}) {
     const audio_sha = (audio_id && audio.get(audio_id)?.sha256) || '';
     const video_sha = (video_id && video.get(video_id)?.sha256) || '';
     if (prev && prev.decision === decision && prev.audio_sha === audio_sha && prev.video_sha === video_sha) continue;
-    out.push({ row_key: r.row_key, decision, audio_id, video_id, audio_sha, video_sha });
+    out.push({ row_key: r.row_key, course_id: r.course_id || '', decision, audio_id, video_id, audio_sha, video_sha });
   }
   return out;
 }
@@ -83,7 +86,9 @@ const flagsOf = (precheck, id) => (((precheck && precheck.results && precheck.re
  * Apply the plan. Pure (dates passed in).
  * -> { manifest, videoManifest, autorun, log, done: [{row_key, decision, result}] }
  */
-export function applyDecisions(plan, { manifest, videoManifest, precheck, videoPrecheck, autorun = {}, log = {}, date }) {
+export function applyDecisions(plan, { manifest, videoManifest, precheck, videoPrecheck, autorun = {}, log = {}, date, queued = new Set(), failedIds = new Set() }) {
+  const queueAdds = [];
+  const failedRemove = new Set();
   let am = manifest;
   let vm = videoManifest || [];
   const ar = { ...autorun, attempts: { ...((autorun && autorun.attempts) || {}) } };
@@ -111,11 +116,21 @@ export function applyDecisions(plan, { manifest, videoManifest, precheck, videoP
       }
     } else if (p.decision === 'fixed') {
       if (!a) {
-        if (p.audio_id && ar.attempts[p.audio_id]) delete ar.attempts[p.audio_id];
-        res.push('not converted yet: conversion queued again');
+        // PART 6: the team fixed a link / sharing / the file itself: convert it again.
+        if (!p.audio_id) res.push('still no Drive file link: add it in the sheet, then set fixed again');
+        else {
+          delete ar.attempts[p.audio_id];
+          if (failedIds.has(p.audio_id)) failedRemove.add(p.audio_id);
+          if (!queued.has(p.audio_id) && /^c\d{3}$/.test(p.course_id || '')) { queueAdds.push({ course_id: p.course_id, id: p.audio_id }); queued.add(p.audio_id); }
+          res.push('not converted yet: conversion queued again');
+        }
       } else if (isApproved(a)) res.push('audio already approved');
       else if (passed(precheck, p.audio_id)) { am = applyDecision(am, [p.audio_id], REVIEWER_FIXED, 'approved', date).manifest; res.push('audio passed the re-check and is approved'); }
       else res.push(`audio still flagged: ${flagsOf(precheck, p.audio_id).join(', ') || 'not checked yet'}`);
+      if (!v && p.video_id) {
+        delete ar.attempts[p.video_id];
+        res.push('video queued for conversion again');
+      }
       if (v) {
         const audioOk = isApproved(audioE().get(p.audio_id));
         if (isApproved(v)) res.push('video already approved');
@@ -128,7 +143,7 @@ export function applyDecisions(plan, { manifest, videoManifest, precheck, videoP
     nextLog[p.row_key] = entry;
     done.push({ row_key: p.row_key, ...entry });
   }
-  return { manifest: am, videoManifest: vm, autorun: ar, log: nextLog, done };
+  return { manifest: am, videoManifest: vm, autorun: ar, log: nextLog, done, queueAdds, failedRemove: [...failedRemove] };
 }
 
 /** issues cells for the rows acted on: [{range, values}] (only the issues column). Pure. */
@@ -224,10 +239,24 @@ async function main() {
     out('recheck', re.length);
   } else if (cmd === 'apply') {
     const { plan, sheet } = readJson('decisions-plan.json', { plan: [], sheet: { header: [], rows: [] } });
+    const qdir = join(root, 'data', 'queues');
+    const queued = new Set();
+    for (const f of readdirSync(qdir).filter((x) => /^c\d{3}\.csv$/.test(x))) for (const id of parseQueue(readFileSync(join(qdir, f), 'utf-8'))) queued.add(id);
+    const frPath = join(qdir, 'failed-review.csv');
+    const frLines = existsSync(frPath) ? readFileSync(frPath, 'utf-8').split(/\r?\n/) : [];
     const r = applyDecisions(plan, {
       manifest: readJson(P.am, []), videoManifest: readJson(P.vm, []), precheck: readJson(P.pc, null), videoPrecheck: readJson(P.vpc, null),
       autorun: readJson(P.ar, {}), log: readJson(P.log, {}), date: new Date().toISOString().slice(0, 10),
+      queued, failedIds: new Set(frLines.slice(1).map((l) => l.split(',')[0]).filter(Boolean)),
     });
+    for (const { course_id, id } of r.queueAdds) {
+      const p = join(qdir, `${course_id}.csv`);
+      writeFileSync(p, appendText(existsSync(p) ? readFileSync(p, 'utf-8') : '', [id]), 'utf-8');
+    }
+    if (r.failedRemove.length) {
+      const drop = new Set(r.failedRemove);
+      writeFileSync(frPath, frLines.filter((l, i) => i === 0 || !drop.has(l.split(',')[0])).join('\n'), 'utf-8');
+    }
     mkdirSync(join(root, 'data', 'ops'), { recursive: true });
     writeJson(P.am, r.manifest);
     if (existsSync(P.vm) || r.videoManifest.length) writeJson(P.vm, r.videoManifest);
