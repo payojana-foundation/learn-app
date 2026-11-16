@@ -9642,5 +9642,21 @@
     "height": 480,
     "sha256": "484a75f415664925c7fd411397fe5cc726c5c0dde69f1d143096d910e743ba26",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1uo74wDGQOpwoKC94frstdK-uPDAFMwdq",
+    "drive_name": "៣៨ ព្រហ្មនិមន្តនិកសូត្រទី៩ ទ្រង់យ៉ាងទៅដោះទិដ្ឋីរបស់ព្រហ្ម ភិក្ខុអគ្គចិត្តោ យ៉ុន យី (បិដកលេខ២២).mp4",
+    "source_md5": "c0ec1b344df9474fa31fdb815d998512",
+    "key": "video/c0ec1b344df9474f-480p.mp4",
+    "poster_key": "video/c0ec1b344df9474f-480p.webp",
+    "rendition": "480p",
+    "bytes": 157566829,
+    "duration_s": 7254,
+    "src_duration_s": 7254,
+    "width": 854,
+    "height": 480,
+    "sha256": "34e97bbc94de261aba718da84ad30d12dec7cbfe0e214f65bdffe3e9bd60ac49",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
