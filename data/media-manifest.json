@@ -93964,5 +93964,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IWAuDjOVbVtIFT70MiM0k3rtpk5B00yN",
+    "drive_name": "១៤_មហន្តារម្មណ៍ប្រភេទទី១ដល់ទី៤ភិក្ខុអគ្គចិត្តោ_យ៉ុន_យី​_បរិច្ឆេទទី៤.mp3",
+    "source_md5": "5682eda1f93f95a2c64336a829b57cf2",
+    "key": "audio/5682eda1f93f95a2-a64.mp3",
+    "bytes": 34148144,
+    "duration_s": 4268,
+    "sha256": "de7ebab234979d0b69156b04ce014c21093bc8cb11378a7817ad584c5c5ba455",
+    "loudness": {
+      "pass1": {
+        "I": -26.4,
+        "TP": -1.4,
+        "LRA": 0
+      },
+      "G": 9.58,
+      "limit": 0.708,
+      "depth": 11.18,
+      "busy": 3.7504392643785875,
+      "out": {
+        "I": -18,
+        "TP": -2.1,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
