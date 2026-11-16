@@ -9930,5 +9930,21 @@
     "height": 480,
     "sha256": "3fd0c10eeca5c8f212748ca90d145aeb8a13db916bcd268e73b7071281684c86",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1YpVhIPYU3z8Vix-hJ0RCWdOhTTNoWkXr",
+    "drive_name": "១០ ជីវិកសូត្រទី៥ សាច់ដែលគួរបរិភោគ៣ យ៉ាង ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២៣.mp4",
+    "source_md5": "07a6494ea4d748c39b23c22386462d60",
+    "key": "video/07a6494ea4d748c3-480p.mp4",
+    "poster_key": "video/07a6494ea4d748c3-480p.webp",
+    "rendition": "480p",
+    "bytes": 148961275,
+    "duration_s": 7136,
+    "src_duration_s": 7136,
+    "width": 854,
+    "height": 480,
+    "sha256": "632c30ab770db55b4d01f4b2ce8855517864b073924209982835fc3d3e6befd9",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
