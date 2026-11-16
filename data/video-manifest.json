@@ -9450,5 +9450,21 @@
     "height": 480,
     "sha256": "61c8ea28bbc78746cf0c82cee7165edf60dd4bcdc4f5f66d8a1b543fbfb5181d",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1TjyU0vdHyhdc7DdP0jVPcibBR5QBNaIZ",
+    "drive_name": "34 សតិប្បដ្ឋានសូត្រ កាយានុបស្សនា ដើម្បីលះអភិជ្ឈានិងទោមនស្ស (បិដកលេខ ២០).mp4",
+    "source_md5": "bb90b55f689db2224dcb59a4422c86a5",
+    "key": "video/bb90b55f689db222-480p.mp4",
+    "poster_key": "video/bb90b55f689db222-480p.webp",
+    "rendition": "480p",
+    "bytes": 127277368,
+    "duration_s": 5955,
+    "src_duration_s": 5955,
+    "width": 854,
+    "height": 480,
+    "sha256": "d1e335732b0c7cb0fb6467bd83ad28050a2551dcae9126fd0bd57906082564b9",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
