@@ -1,6 +1,6 @@
 # Pre-approval check
 
-Generated 2026-11-16 by scripts/media/precheck.mjs (workflow approve-check). 61 converted lessons not approved yet: **53 pass**, **8 flagged**, **0 not checked yet**.
+Generated 2026-11-16 by scripts/media/precheck.mjs (workflow approve-check). 9 converted lessons not approved yet: **1 pass**, **8 flagged**, **0 not checked yet**.
 
 A lesson is flagged when its duration is under 5 min or over 4 h, differs more than 2 % from the Drive source, has the same audio as another lesson, or has more than 60 s of silence in its first or last 2 minutes. Flagged lessons are never approved by approve-media "all-passing"; listen and decide per id.
 
@@ -30,12 +30,7 @@ A lesson is flagged when its duration is under 5 min or over 4 h, differs more t
 
 | course | title | pass | flagged | not checked yet |
 | --- | --- | --- | --- | --- |
-| c001 | 1-បរិច្ឆេទ ទី ៨ | 29 | 0 | 0 |
-| c006 | 1-បរិច្ឆេទ ទី១ កាត់ស្អាត (២០២២) | 3 | 0 | 0 |
-| c007 | 2-A.S.បរិច្ឆេទ ទី២ កាត់ស្អាត(២០ | 3 | 0 | 0 |
-| c008 | 3-បរិច្ឆេទ ទី៣ កាត់ស្អាត(២០២៥) | 1 | 0 | 0 |
-| c009 | 4-បរិច្ឆេទ ទី៤ កាត់ស្អាត(២០២៥) | 8 | 0 | 0 |
-| c012 | 7-A.S.បរិច្ឆេទ ទី១ (២០២៣) | 9 | 0 | 0 |
+| c010 | 5-បរិច្ឆេទ ទី៥​ កាត់ស្អាត(២០២៦) | 1 | 0 | 0 |
 | c025 | 1-Dhamma in English( វគ្គ ១) | 0 | 1 | 0 |
 | c031 | 7-បិដកលេខ២២ | 0 | 1 | 0 |
 | c035 | ព្រះត្រៃបិដកបាលីភាគ១៩ | 0 | 1 | 0 |
