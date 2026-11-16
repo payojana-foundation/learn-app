@@ -5594,5 +5594,21 @@
     "height": 480,
     "sha256": "6cd53f01c97d33e6958701800f331f507d1470828ad580e603d756496c0c4546",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1tRtzHxH057A2A8w0GFStps9NqBTzf31L",
+    "drive_name": "៤៤ វីរតិ ៣ សម្មាអាជីវៈ ការចិញ្ចឹមជីវិតត្រូវ (បរិច្ឆេទ​ ទី២ ឆ្នាំ ២០២៤).mp4",
+    "source_md5": "70247db3e4ba0b4f7bb1715fe78c0b58",
+    "key": "video/70247db3e4ba0b4f-480p.mp4",
+    "poster_key": "video/70247db3e4ba0b4f-480p.webp",
+    "rendition": "480p",
+    "bytes": 106440464,
+    "duration_s": 5358,
+    "src_duration_s": 5358,
+    "width": 854,
+    "height": 480,
+    "sha256": "6cb5fb7eca574c131cce68c29849ea702d4847aaabda1a91dc496b6a98cf25b6",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
