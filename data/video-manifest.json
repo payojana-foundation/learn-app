@@ -9034,5 +9034,21 @@
     "height": 480,
     "sha256": "220272db80eb0043d8beb8481c3a81a47000ba9f68682df6ac31500dfccf5138",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1w0SJpzx1-jm0e9sbu-GXEXylYji_vdtu",
+    "drive_name": "០១ កន្ទរកសូត្រទី១ ព្រះពុទ្ធទូន្មានភិក្ខុសង្ឃដោយសតិប្បដ្ឋាន៤ ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២៣.mp4",
+    "source_md5": "67835b795bcf8d283471b729e7cbc2c5",
+    "key": "video/67835b795bcf8d28-480p.mp4",
+    "poster_key": "video/67835b795bcf8d28-480p.webp",
+    "rendition": "480p",
+    "bytes": 137209790,
+    "duration_s": 7187,
+    "src_duration_s": 7187,
+    "width": 854,
+    "height": 480,
+    "sha256": "b1936972c9fc072aed82ba2f599106af7ce7ce28d20ad01129bb9b4c62b627fd",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
