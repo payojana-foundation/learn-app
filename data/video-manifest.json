@@ -7466,5 +7466,21 @@
     "height": 480,
     "sha256": "c5be6d5feaa1826cb11cc14cedf53e9775e690f9cd117344f7cca506ccce5f05",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1a6Tq9xF_SwMvWvOUcgawdqxmBnJerSs4",
+    "drive_name": "8 សិង្គាលិកសូត្រ តួនាទីរបស់សមណព្រាហ្មណ៍ ៥ យ៉ាង (បិដកលេខ ១៩).mp4",
+    "source_md5": "dfd2c604d7ae022fdca282bf5f7a2a5c",
+    "key": "video/dfd2c604d7ae022f-480p.mp4",
+    "poster_key": "video/dfd2c604d7ae022f-480p.webp",
+    "rendition": "480p",
+    "bytes": 136838188,
+    "duration_s": 5459,
+    "src_duration_s": 5459,
+    "width": 854,
+    "height": 480,
+    "sha256": "f3a2482354ebf7ab96d043bf5c15e74bd4330ba8e431cbfeb3385fb9b05cc4f1",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
