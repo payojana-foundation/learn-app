@@ -10794,5 +10794,21 @@
     "height": 480,
     "sha256": "ac7e937cf4fdedb011735df3acecef7a84b63fd1a8883e95ec854e6f96469e4f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1dK1CLuM9MDImSO7o7ULuIBfrG6bsDmg1",
+    "drive_name": "46 សតិប្បដ្ឋានសូត្រ ធម្មានុបស្សនាសតិប្បដ្ឋាន នីវរណបព្វៈ (បិដកលេខ ២០).mp4",
+    "source_md5": "3731e377eeb047fdd5c244e9b7c918a7",
+    "key": "video/3731e377eeb047fd-480p.mp4",
+    "poster_key": "video/3731e377eeb047fd-480p.webp",
+    "rendition": "480p",
+    "bytes": 152773748,
+    "duration_s": 7052,
+    "src_duration_s": 7052,
+    "width": 854,
+    "height": 480,
+    "sha256": "6e07be27c9d90ef735bd8b5faeba76d60b41cd502f497c5e06580bb0d378d2e8",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
