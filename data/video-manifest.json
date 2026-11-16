@@ -14670,5 +14670,21 @@
     "height": 480,
     "sha256": "5a887a28bdb200dfdb028cd723bc1fb26ac92a73b7934d0f921704c0e0a7f1ab",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "18eOvXLRDeP7bykNtmPaoU079w7EwBAs3",
+    "drive_name": "16.Buddhism in English Level 1(Ven.Sor Ratha).mp4",
+    "source_md5": "8e49441abfb14a199669ea44acdc6e01",
+    "key": "video/8e49441abfb14a19-480p.mp4",
+    "poster_key": "video/8e49441abfb14a19-480p.webp",
+    "rendition": "480p",
+    "bytes": 112676310,
+    "duration_s": 4930,
+    "src_duration_s": 4930,
+    "width": 854,
+    "height": 480,
+    "sha256": "d71c8fc060d3fc37d89f46eb6d926ad343b235a886cb742cc7765b1e9d44beb6",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
