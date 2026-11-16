@@ -12842,5 +12842,21 @@
     "height": 480,
     "sha256": "e7811c58defffd15036a053073c029975d93275ac49156590d745f4bca8ccc2f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1rTs5edFtd_iTtfAEEYtDQq227Q2a57ti",
+    "drive_name": "៤៥ អហេតុកកុសលវិបាកចិត្តត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤៥ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "c70b42f3d6f94346ba932fa3aacff9cb",
+    "key": "video/c70b42f3d6f94346-480p.mp4",
+    "poster_key": "video/c70b42f3d6f94346-480p.webp",
+    "rendition": "480p",
+    "bytes": 73364143,
+    "duration_s": 3491,
+    "src_duration_s": 3491,
+    "width": 854,
+    "height": 480,
+    "sha256": "6c31c8f11ca94b8047b167d10691822a6428d936e56be1977c8168f8e904bbd0",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
