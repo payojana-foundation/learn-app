@@ -6346,5 +6346,21 @@
     "height": 480,
     "sha256": "0f75767a119d75d42fbd75409c21d2b703466bb2fba0a6cc0491997bba2bb527",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1c8YEA67eYmiebNQQkMBNZ5-v3RVF6rkc",
+    "drive_name": "៥០ សម្បយោគន័យ អកុសលចេតសិក១៤ សោភណសាធារណ១៩ (បរិច្ឆេទ ទី២ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "95a5cdee38bac751c730db3366f1a011",
+    "key": "video/95a5cdee38bac751-480p.mp4",
+    "poster_key": "video/95a5cdee38bac751-480p.webp",
+    "rendition": "480p",
+    "bytes": 86294101,
+    "duration_s": 3875,
+    "src_duration_s": 3875,
+    "width": 854,
+    "height": 480,
+    "sha256": "3652a0ea9cb5b2b3a51f0be581d656e35c8cd00423b20d6d5c83bfae6885f47e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
