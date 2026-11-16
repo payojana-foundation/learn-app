@@ -4094,5 +4094,21 @@
     "height": 480,
     "sha256": "97ed276c20a398af6a6b9606105fcea64dee9e660a64d3b79de0ca285c5fc2be",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Fp-MqIDcrcoL4un2bgVLs3BfS1bIGxB0",
+    "drive_name": "២៥ កិច្ចសង្គហ ជវនកិច្ច និងតទាលម្ពណកិច្ច (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "6dd94017cb219be637f3c6830875adaa",
+    "key": "video/6dd94017cb219be6-480p.mp4",
+    "poster_key": "video/6dd94017cb219be6-480p.webp",
+    "rendition": "480p",
+    "bytes": 106966763,
+    "duration_s": 5253,
+    "src_duration_s": 5253,
+    "width": 854,
+    "height": 480,
+    "sha256": "8525758378ac84f27fc54417309a64ac99faa0f13ecf3a13b3cd0f8b015882d9",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
