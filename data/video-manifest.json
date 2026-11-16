@@ -7706,5 +7706,21 @@
     "height": 480,
     "sha256": "d5816485a993088491220ce2842349033fcd4ccfd0e4e6f20d7024a184781749",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1xVnAED7hzRFj3iLT9y2RzGE-KKl9-v8I",
+    "drive_name": "07 មហាគោវិន្ទពោធិសត្វ ចង់ចេញបួសព្រោះយល់ធម៌ (បិដកលេខ ១៧).mp4",
+    "source_md5": "cfdb7e461d7097e88b34a48acfdaa308",
+    "key": "video/cfdb7e461d7097e8-480p.mp4",
+    "poster_key": "video/cfdb7e461d7097e8-480p.webp",
+    "rendition": "480p",
+    "bytes": 146418841,
+    "duration_s": 5081,
+    "src_duration_s": 5081,
+    "width": 854,
+    "height": 480,
+    "sha256": "3e4efe03328309732dc76a00fe44c71910fac801079013b4b030a59423187060",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
