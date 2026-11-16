@@ -15182,5 +15182,21 @@
     "height": 480,
     "sha256": "ddb775e54f8a576f21ce13f3a3fdd41dcd3abea9191f8abca5e2498e3e3fcb46",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1g4_QBboERoaeWWIpedeIAyb4vHJgYCz2",
+    "drive_name": "៦៧ ផ្តេីមមហាវិបាកចិត្ត៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៦៧ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "29edf4ac64ef1bd78c27ba897415b31a",
+    "key": "video/29edf4ac64ef1bd7-480p.mp4",
+    "poster_key": "video/29edf4ac64ef1bd7-480p.webp",
+    "rendition": "480p",
+    "bytes": 68892144,
+    "duration_s": 3629,
+    "src_duration_s": 3629,
+    "width": 854,
+    "height": 480,
+    "sha256": "636ac88f5db8e8dd6d44cc04ad0f5521de821c98827d70aafeece753cb58969a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
