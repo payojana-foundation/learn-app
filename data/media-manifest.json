@@ -92914,5 +92914,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "19wNh_lgr5Aln0BgOwwMZc4aKhNCvSJ9O",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៥២(១៥៤ រូបាវចរកុសល អសុភ១០ និងអនុស្សតិ ១០.mp3",
+    "source_md5": "4f60d0cec8c34cc42451e3fe4f380321",
+    "key": "audio/4f60d0cec8c34cc4-a64.mp3",
+    "bytes": 43714394,
+    "duration_s": 5464,
+    "sha256": "6791d877e0d8c56e2f3c238c2f671899b8252db2a33a29c6e9f0f98793ef70c0",
+    "loudness": {
+      "pass1": {
+        "I": -24.3,
+        "TP": -0.6,
+        "LRA": 0
+      },
+      "G": 8.45,
+      "limit": 0.562,
+      "depth": 12.85,
+      "busy": 4.845815985725397,
+      "out": {
+        "I": -18,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 4,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
