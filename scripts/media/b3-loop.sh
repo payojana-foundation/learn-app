@@ -101,6 +101,63 @@ b3_mp3loop() {
   printf '%s' "$state"
 }
 
+# ── PART 5 (16 Nov): true-peak limiter + two-pass loudnorm (scripts/media/tp-decide.mjs) ──
+# Used by transcode-one.sh ONLY after b3_mp3loop failed "too quiet" with G pinned at G_max.
+# b3_tp_pre <file> <pan_af> <Gp> <ceil_dB> <out.flac> — gain, 4× oversampled limiter, back to
+# 44.1 kHz, lossless local file (never uploaded).
+B3_LN_REST="TP=-2:LRA=50"
+b3_tp_pre() {
+  local f="$1" pan="$2" gp="$3" cdb="$4" o="$5" lin
+  lin="$(node -e 'process.stdout.write(String(Math.pow(10,parseFloat(process.argv[1])/20)))' -- "$cdb")"
+  "$FFMPEG" -nostdin -y -v error -i "$f" -vn \
+    -af "${pan}${pan:+,}volume=${gp}dB,aresample=176400,alimiter=limit=${lin}:attack=1:release=50:level=${B3_ALIMITER_LEVEL},aresample=44100" \
+    -ac 1 -c:a flac "$o"
+}
+
+# b3_tploop <file> <pan_af> <target> <out.mp3> → final tp state JSON (logs to stderr).
+# Measures EVERY mp3 it writes (ebur128 true peak); the caller uploads only result ok.
+b3_tploop() {
+  local f="$1" pan="$2" target="$3" outf="$4" p1 i1 tp1 state lim ln1 mi mtp mlra mth moff norm im tpm used
+  lim="${outf}.lim.flac"; ln1="${outf}.ln1.txt"
+  p1="$(b3_ebur "$f" "$pan")"
+  i1="${p1%% *}"; tp1="$(printf '%s' "$p1" | cut -d' ' -f2)"
+  state="$(node "$B3_DIR/tp-decide.mjs" init "{\"target\":\"${target}\",\"I1\":\"${i1}\",\"TP1\":\"${tp1}\"}")"
+  echo "[${B3_LOG}] stage=tp-start I1=${i1} TP1=${tp1} Gp=$(b3_field "$state" Gp) ceiling=$(b3_field "$state" ceilDb) $(b3_field "$state" reason)" >&2
+  while [ "$(b3_field "$state" done)" != "true" ]; do
+    if [ "$(b3_field "$state" phase)" = "pre" ]; then
+      if ! b3_tp_pre "$f" "$pan" "$(b3_field "$state" Gp)" "$(b3_field "$state" ceilDb)" "$lim"; then
+        state="$(printf '%s' "$state" | node "$B3_DIR/tp-decide.mjs" step-pre NaN)"; break
+      fi
+      "$FFMPEG" -hide_banner -nostdin -i "$lim" -af "loudnorm=I=$(b3_field "$state" lnI):${B3_LN_REST}:print_format=json" -f null - 2>"$ln1" || true
+      mi="$(node "$B3_DIR/tp-decide.mjs" loudnorm-field input_i <"$ln1")"
+      state="$(printf '%s' "$state" | node "$B3_DIR/tp-decide.mjs" step-pre "${mi:-NaN}")"
+      echo "[${B3_LOG}] stage=tp-pre render=$(b3_field "$state" renders) input_i=${mi} → $(b3_field "$state" reason)" >&2
+    else
+      mi="$(node "$B3_DIR/tp-decide.mjs" loudnorm-field input_i <"$ln1")"
+      mtp="$(node "$B3_DIR/tp-decide.mjs" loudnorm-field input_tp <"$ln1")"
+      mlra="$(node "$B3_DIR/tp-decide.mjs" loudnorm-field input_lra <"$ln1")"
+      mth="$(node "$B3_DIR/tp-decide.mjs" loudnorm-field input_thresh <"$ln1")"
+      moff="$(node "$B3_DIR/tp-decide.mjs" loudnorm-field target_offset <"$ln1")"
+      if ! "$FFMPEG" -hide_banner -nostdin -y -i "$lim" \
+          -af "loudnorm=I=$(b3_field "$state" lnI):${B3_LN_REST}:measured_I=${mi}:measured_TP=${mtp}:measured_LRA=${mlra}:measured_thresh=${mth}:offset=${moff}:linear=true:print_format=json,aresample=44100" \
+          -c:a libmp3lame -b:a 64k -ar 44100 -ac 1 -map_metadata -1 "$outf" 2>"${outf}.ln2.txt"; then
+        state="$(printf '%s' "$state" | node "$B3_DIR/tp-decide.mjs" step-mp3 NaN NaN)"; break
+      fi
+      norm="$(node "$B3_DIR/tp-decide.mjs" loudnorm-field normalization_type <"${outf}.ln2.txt")"
+      used="Gp=$(b3_field "$state" Gp) lnI=$(b3_field "$state" lnI) ceiling=$(b3_field "$state" ceilDb)"
+      read -r im tpm _ <<<"$(b3_ebur "$outf" "")"
+      state="$(printf '%s' "$state" | node "$B3_DIR/tp-decide.mjs" step-mp3 "$im" "$tpm" "$norm")"
+      # keep a copy of every passing mp3 that is the best so far (the loop may try to centre it)
+      if [ "$(b3_field "$(b3_field "$state" best)" encode)" = "$(b3_field "$state" encodes)" ]; then cp -f "$outf" "${outf}.best"; fi
+      echo "[${B3_LOG}] stage=tp-encode n=$(b3_field "$state" encodes) ${used} loudnorm=${norm} I_mp3=${im} TP_mp3=${tpm} → $(b3_field "$state" reason)" >&2
+    fi
+  done
+  # the uploaded file is the best passing mp3 (measured again below by the caller)
+  if [ "$(b3_field "$state" result)" = "ok" ] && [ -f "${outf}.best" ]; then mv -f "${outf}.best" "$outf"; fi
+  rm -f "$lim" "$ln1" "${outf}.ln2.txt" "${outf}.best"
+  printf '%s' "$state"
+}
+
 # b3_busy <file> <pan_af> <G> [limit] → busy % on steps 1-3 (NO limiter): share
 # of 50 ms frames whose Peak_level is above the limiter ceiling. LOGGED ONLY.
 b3_busy() {

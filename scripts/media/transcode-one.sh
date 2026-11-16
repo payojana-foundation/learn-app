@@ -206,6 +206,35 @@ p1_tp="$(b3_field "$state" TP1)"
 busy="$(b3_busy "$aud" "$pan_af" "$G" "$limit")"
 echo "[$DRIVE_FILE_ID] stage=loop-result result=${result} loops=${loops} G=${G} limit=${limit} I_mp3=${out_i} TP_mp3=${out_tp} depth=${depth} busy=${busy} (busy logged only) $(b3_field "$state" reason)"
 
+# PART 5 (16 Nov): a loudness-only failure (too quiet, G pinned at G_max by the 12 dB depth
+# cap) gets the true-peak limiter + two-pass loudnorm path (scripts/media/tp-decide.mjs). Same
+# standard: the mp3 must measure I −18 ±0.5 and TP ≤ −1.5; anything else stays failed.
+method="b3"
+if [ "$result" = "failed" ] && [ -z "$exc_i" ] && printf '%s' "$state" | node "$(dirname "${BASH_SOURCE[0]}")/tp-decide.mjs" is-quiet-capped; then
+  echo "[$DRIVE_FILE_ID] stage=tp-path B3 capped and too quiet → true-peak limiter + loudnorm"
+  tps="$(b3_tploop "$aud" "$pan_af" "$TARGET_I" "$out")"
+  echo "[$DRIVE_FILE_ID] stage=tp-result result=$(b3_field "$tps" result) encodes=$(b3_field "$tps" encodes) Gp=$(b3_field "$tps" Gp) ceiling=$(b3_field "$tps" ceilDb) depth=$(b3_field "$tps" depth) I_mp3=$(b3_field "$tps" I_mp3) TP_mp3=$(b3_field "$tps" TP_mp3) loudnorm=$(b3_field "$tps" norm) $(b3_field "$tps" reason)"
+  if [ "$(b3_field "$tps" result)" = "ok" ] && [ -f "$out" ]; then
+    # measure the file that would be uploaded, independently of the loop
+    read -r fin_i fin_tp _ <<<"$(b3_ebur "$out" "")"
+    if nn 'const i=Number(process.argv[1]),t=Number(process.argv[2]);process.exit(Math.abs(i+18)<=0.5&&t<=-1.5?0:1)' "$fin_i" "$fin_tp"; then
+      method="tp-limit+loudnorm"
+      result="ok"
+      G="$(b3_field "$tps" Gp)"
+      limit="$(node -e 'process.stdout.write(String(Math.round(Math.pow(10,parseFloat(process.argv[1])/20)*1000)/1000))' -- "$(b3_field "$tps" ceilDb)")"
+      loops="$(b3_field "$tps" encodes)"
+      depth="$(b3_field "$tps" depth)"
+      out_i="$fin_i"; out_tp="$fin_tp"
+      state="$tps"
+    else
+      echo "[$DRIVE_FILE_ID] stage=tp-result final measure I ${fin_i} TP ${fin_tp} is outside the standard → failed" >&2
+      state="$(printf '%s' "$tps" | node -e 'let s="";process.stdin.on("data",d=>s+=d).on("end",()=>{const o=JSON.parse(s);o.result="failed";o.reason="final measure outside the standard: I "+process.argv[1]+", TP "+process.argv[2];process.stdout.write(JSON.stringify(o))})' -- "$fin_i" "$fin_tp")"
+    fi
+  else
+    state="$tps"
+  fi
+fi
+
 # Duration guard applies to any non-failed result (the mp3 exists at $out).
 out_dur="$([ -f "$out" ] && "$FFPROBE" -v error -show_entries format=duration -of csv=p=0 "$out" | cut -d. -f1 || echo 0)"
 if [ "$result" != "failed" ] && ! nn 'process.exit(Math.abs((parseInt(process.argv[1],10)||0)-(parseInt(process.argv[2],10)||0))<=1?0:1)' "${out_dur:-0}" "${src_dur:-0}"; then
@@ -248,10 +277,10 @@ fi
 # a later check fails or the job is cancelled (else it becomes an orphan). The
 # entry is DRAFT; a failed check still ends the id red.
 LESSON_CODE="${LESSON_CODE:-}"
-nn 'const fs=require("fs");const a=process.argv;const o={lesson_code:a[11]||null,drive_file_id:a[1],drive_name:a[2],source_md5:a[3],key:a[4],bytes:Number(a[5])||0,duration_s:Number(a[6])||0,sha256:a[7],loudness:{pass1:{I:Number(a[8].split(",")[0]),TP:Number(a[8].split(",")[1]),LRA:Number(a[8].split(",")[2])},G:Number(a[9].split(",")[0]),limit:Number(a[9].split(",")[1]),depth:Number(a[12].split(",")[0]),busy:Number(a[12].split(",")[1]),out:{I:Number(a[10].split(",")[0]),TP:Number(a[10].split(",")[1]),LRA:Number(a[10].split(",")[2])},loops:Number(a[9].split(",")[2]),result:a[13]||null}};if(!/^[0-9a-f]{64}$/.test(o.sha256)){console.error("bad sha");process.exit(1)}fs.writeFileSync("entry-"+a[1]+".json",JSON.stringify(o))' \
+nn 'const fs=require("fs");const a=process.argv;const o={lesson_code:a[11]||null,drive_file_id:a[1],drive_name:a[2],source_md5:a[3],key:a[4],bytes:Number(a[5])||0,duration_s:Number(a[6])||0,sha256:a[7],loudness:{pass1:{I:Number(a[8].split(",")[0]),TP:Number(a[8].split(",")[1]),LRA:Number(a[8].split(",")[2])},G:Number(a[9].split(",")[0]),limit:Number(a[9].split(",")[1]),depth:Number(a[12].split(",")[0]),busy:Number(a[12].split(",")[1]),out:{I:Number(a[10].split(",")[0]),TP:Number(a[10].split(",")[1]),LRA:Number(a[10].split(",")[2])},loops:Number(a[9].split(",")[2]),result:a[13]||null,method:a[14]||"b3"}};if(!/^[0-9a-f]{64}$/.test(o.sha256)){console.error("bad sha");process.exit(1)}fs.writeFileSync("entry-"+a[1]+".json",JSON.stringify(o))' \
   "$DRIVE_FILE_ID" "$drive_name" "$md5" "$key" "${bytes:-0}" "${dur:-0}" "${sha:-}" \
   "${p1_i},${p1_tp}," "${G},${limit},${loops}" "${out_i},${out_tp}," "$LESSON_CODE" \
-  "${depth},${busy}" "$result" || {
+  "${depth},${busy}" "$result" "$method" || {
     echo "[$DRIVE_FILE_ID] could not build a valid manifest entry" >&2; exit 1; }
 
 remote_size="$(object_size "$key")"
