@@ -4110,5 +4110,21 @@
     "height": 480,
     "sha256": "8525758378ac84f27fc54417309a64ac99faa0f13ecf3a13b3cd0f8b015882d9",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1EYxl0Fm-V4Z9qMKOhou7i6HxdPZtKk8I",
+    "drive_name": "៤៣ បញ្ចប់និរោធសមាបត្តិ និងចូលមរណាសន្នវិថី (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "528b6fab77f4e87fc8ada1b12af4b0c8",
+    "key": "video/528b6fab77f4e87f-480p.mp4",
+    "poster_key": "video/528b6fab77f4e87f-480p.webp",
+    "rendition": "480p",
+    "bytes": 90828705,
+    "duration_s": 4851,
+    "src_duration_s": 4851,
+    "width": 854,
+    "height": 480,
+    "sha256": "4ce1d8b247c275812ac936eef8f7d09a3429e0e52541ee46d7736fd9bf740a9e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
