@@ -6794,5 +6794,21 @@
     "height": 480,
     "sha256": "972f8e9ecb10823283b24729c7ce67c26956b36514f3dd7907f07e405331db1f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1eUzWzMD9D3Af81ZHgGjaGHDyQ4jVRu0o",
+    "drive_name": "០១ ការដាច់អកុសលកម្មបថ១០ (បិដកលេខ ១៨).mp4",
+    "source_md5": "b290adfc543c463b239113dc361cf528",
+    "key": "video/b290adfc543c463b-480p.mp4",
+    "poster_key": "video/b290adfc543c463b-480p.webp",
+    "rendition": "480p",
+    "bytes": 146078824,
+    "duration_s": 5603,
+    "src_duration_s": 5603,
+    "width": 854,
+    "height": 480,
+    "sha256": "a9c1bfd989e14e6cb6e4369166ffa37c5f67809415252eccd6bf026305e1c1a1",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
