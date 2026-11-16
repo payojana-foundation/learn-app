@@ -93544,5 +93544,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1dUSge-0rKOL6LUYXA6Vv02OZaj_z887q",
+    "drive_name": "០៥ ចែកវិថីចិត្តជា ២ គឺកាមវិថី និងអប្បនាមវិថីភិក្ខុអគ្គចិត្តោ យ៉ុន យី_ បរិច្ឆេទទី៤.mp3",
+    "source_md5": "a7e4d41f99590733bbcda6951b750728",
+    "key": "audio/a7e4d41f99590733-a64.mp3",
+    "bytes": 40665172,
+    "duration_s": 5083,
+    "sha256": "b97299738e337112aa6f8499d9a576727123857d1f0e418547f661bc3405f452",
+    "loudness": {
+      "pass1": {
+        "I": -26.5,
+        "TP": -1.2,
+        "LRA": 0
+      },
+      "G": 9.57,
+      "limit": 0.708,
+      "depth": 11.37,
+      "busy": 4.256506856052409,
+      "out": {
+        "I": -18,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
