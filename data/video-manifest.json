@@ -13698,5 +13698,21 @@
     "height": 480,
     "sha256": "56faa3cea3c255e018251efe3d9c5c9ecbb725600af8c307ce7c7cc85871489a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1U2DJVd4EFGvwvnu74DN6v1fzWTA9Jj47",
+    "drive_name": "៤៦ អហេតុកកិរិយាចិត្ត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤៦ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "1617c425660f12aa13b4097803660891",
+    "key": "video/1617c425660f12aa-480p.mp4",
+    "poster_key": "video/1617c425660f12aa-480p.webp",
+    "rendition": "480p",
+    "bytes": 72965800,
+    "duration_s": 3472,
+    "src_duration_s": 3472,
+    "width": 854,
+    "height": 480,
+    "sha256": "b68afb9155d7e05ef591b90a2f15c446b790f08c8492a16c2846fe1509669074",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
