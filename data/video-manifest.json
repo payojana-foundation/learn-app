@@ -7562,5 +7562,21 @@
     "height": 480,
     "sha256": "9793292082f15488d2fb975255310cb3a60bad351561fa4d8ff85d75bc909b4e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1f0Thml_H35B0iL4QMv2kbbJm8kRZ-K1R",
+    "drive_name": "9 អដានាដិយសូត្រ ស្តេចសេនារបស់ស្តេចចតុលោកបាល (បិដកលេខ ១៩).mp4",
+    "source_md5": "8ae71b49dca99deb505b759e1b78da8d",
+    "key": "video/8ae71b49dca99deb-480p.mp4",
+    "poster_key": "video/8ae71b49dca99deb-480p.webp",
+    "rendition": "480p",
+    "bytes": 129737739,
+    "duration_s": 5378,
+    "src_duration_s": 5378,
+    "width": 854,
+    "height": 480,
+    "sha256": "c9244ce6d760933313b68339163edef6f703605fb57d79f6259ec09330a32fe9",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
