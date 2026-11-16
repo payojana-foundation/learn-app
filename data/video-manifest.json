@@ -6154,5 +6154,21 @@
     "height": 480,
     "sha256": "d7bce4bc1a068f42f53381351c2021e5da1946da2a8855d9ed24496938b800db",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1HIIogUut6vjSzQF1kA8nl6cTQciFP_Jb",
+    "drive_name": "៥២ រូបបវត្តិក្កមន័យទី៤ ចែករូបដោយកំណើត៣ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "f33d878818cc046ba844ad9c4c6ce96c",
+    "key": "video/f33d878818cc046b-480p.mp4",
+    "poster_key": "video/f33d878818cc046b-480p.webp",
+    "rendition": "480p",
+    "bytes": 107522518,
+    "duration_s": 5440,
+    "src_duration_s": 5440,
+    "width": 854,
+    "height": 480,
+    "sha256": "7c2b1f8f2c090eb6f49272f434f2edc105b91835abda4cba20d82afc3771dfe9",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
