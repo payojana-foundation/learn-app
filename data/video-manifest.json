@@ -16622,5 +16622,21 @@
     "height": 480,
     "sha256": "4165f1b5a299759950665e74925d51d224b10f920c6ec9ea0aa10b2c800b74b8",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1accjz6JvxKAJviK8_mSwORSQBCoqDAYC",
+    "drive_name": "៩១ អំពីការចម្រើននេវសញ្ញានាសញ្ញាយតនៈ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៩១ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "165dfc8e883dcdf757a3a22c6d65278d",
+    "key": "video/165dfc8e883dcdf7-480p.mp4",
+    "poster_key": "video/165dfc8e883dcdf7-480p.webp",
+    "rendition": "480p",
+    "bytes": 67809858,
+    "duration_s": 3135,
+    "src_duration_s": 3135,
+    "width": 854,
+    "height": 480,
+    "sha256": "de78ec6f2b2af570cd61604fcd19f48850be0fe6888cae82de78e8f07514b00a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
