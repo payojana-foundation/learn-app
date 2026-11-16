@@ -7194,5 +7194,21 @@
     "height": 480,
     "sha256": "b942671554405ad7a079674a743c39139416aaca878a9bad819665d671210f75",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1e5W-CyCVvWo-n6-vSjtsIdUd8LkznEqO",
+    "drive_name": "5 សង្គាលកសូត្រ និយាយពីសេចក្តីនិងចម្រើន (បិដកលេខ ១៩).mp4",
+    "source_md5": "2e508cdd31abe3a3c73ebc9f9cd39474",
+    "key": "video/2e508cdd31abe3a3-480p.mp4",
+    "poster_key": "video/2e508cdd31abe3a3-480p.webp",
+    "rendition": "480p",
+    "bytes": 105539922,
+    "duration_s": 5486,
+    "src_duration_s": 5486,
+    "width": 854,
+    "height": 480,
+    "sha256": "b88295246434572ae0ccbde82c9a839c4480b098228ea00ac697beb3d692662a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
