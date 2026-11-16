@@ -8186,5 +8186,21 @@
     "height": 480,
     "sha256": "55d06cc678e734430e915862e37c28205b07b8523c06cfb95403e686045a247e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ml6h__KgjJ___a0Phisur4JSToRp0L8H",
+    "drive_name": "២១ ចូឡអស្សបុរសូត្រទី១០ ការបដិបត្តិខុសនិងត្រូវរបស់សមណ (បិដកលេខ ២២).mp4",
+    "source_md5": "e1bbea10138875402ead95d7ffcfb90f",
+    "key": "video/e1bbea1013887540-480p.mp4",
+    "poster_key": "video/e1bbea1013887540-480p.webp",
+    "rendition": "480p",
+    "bytes": 151892707,
+    "duration_s": 6763,
+    "src_duration_s": 6763,
+    "width": 854,
+    "height": 480,
+    "sha256": "b538268657651473458e2a90c93d80e4bdeae9bbd40134e7d503ad76d9a49ae6",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
