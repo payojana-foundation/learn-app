@@ -8298,5 +8298,21 @@
     "height": 480,
     "sha256": "62037f2e6a2c1f923e3e2a58b845a7a89fede25b5bc19f88805a1ea963d4855f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1kdVJK4f0JiQA8oN3UpU5bmaVPTV5-GBh",
+    "drive_name": "20 អនង្គណសូត្រ ចប់ ការមិនមានមានះរបស់ភិក្ខុ (បិដកលេខ ២០).mp4",
+    "source_md5": "8b9e2152c8133eb9ff13f4fd4eb35399",
+    "key": "video/8b9e2152c8133eb9-480p.mp4",
+    "poster_key": "video/8b9e2152c8133eb9-480p.webp",
+    "rendition": "480p",
+    "bytes": 133020370,
+    "duration_s": 5401,
+    "src_duration_s": 5401,
+    "width": 854,
+    "height": 480,
+    "sha256": "7303a21e6974d969f232a38a291daeb46cfd6048d8ba0e3e362eafd776607db7",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
