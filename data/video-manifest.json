@@ -8282,5 +8282,21 @@
     "height": 480,
     "sha256": "3029ba04ea5df995f25913eeff8a9a2c4c999413e47700f62a74625b0675fc8a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1SBil98MhMzh_u0KSZXg2bh2waCgRunR-",
+    "drive_name": "០៥ អលគទ្ទូបមសូត្រ ការលះបងតណ្ហា ទិដ្ឋិ មានះ (បិដកលេខ ២១).mp4",
+    "source_md5": "4d48977c3e18f740dcc582965c34d708",
+    "key": "video/4d48977c3e18f740-480p.mp4",
+    "poster_key": "video/4d48977c3e18f740-480p.webp",
+    "rendition": "480p",
+    "bytes": 150186890,
+    "duration_s": 7258,
+    "src_duration_s": 7258,
+    "width": 854,
+    "height": 480,
+    "sha256": "62037f2e6a2c1f923e3e2a58b845a7a89fede25b5bc19f88805a1ea963d4855f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
