@@ -8570,5 +8570,21 @@
     "height": 480,
     "sha256": "fbcc1127b3460347ed74ad609b2c52a74f051ca83b95ef5a16382063ea152775",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1jJeE6Rmsy9ZS8cqrMsOUXm7bxonb4RRT",
+    "drive_name": "២៦ មហាវេទល្លសូត្រទី៣ សួរអំពីឥន្រ្ទិយ៥ ជាដើម (បិដកលេខ ២២).mp4",
+    "source_md5": "44f166ec31d2ee492b9dea7a5c82e6a2",
+    "key": "video/44f166ec31d2ee49-480p.mp4",
+    "poster_key": "video/44f166ec31d2ee49-480p.webp",
+    "rendition": "480p",
+    "bytes": 139383361,
+    "duration_s": 7081,
+    "src_duration_s": 7081,
+    "width": 854,
+    "height": 480,
+    "sha256": "06c7b29ea4698b6d4ebc4e34af49c1050a58f9f47b09be4fa2a0d060fc3059e8",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
