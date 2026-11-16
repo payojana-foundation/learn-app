@@ -7786,5 +7786,21 @@
     "height": 480,
     "sha256": "4535f9360eb5d7b1e445dd7ad8537b48e6890cfa2d1b1a0bea507a74aa3d548d",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1xz0AxpfBpNZk9vKRN6XgchvGEwYTUs8V",
+    "drive_name": "១៦ មហាតណ្ហាសង្ខយសូត្រទី៨ សាតិភិក្ខុមានទិដ្ឋិអាក្រក់ (បិដកលេខ ២២).mp4",
+    "source_md5": "553aa323017984beea7118618a6b00f7",
+    "key": "video/553aa323017984be-480p.mp4",
+    "poster_key": "video/553aa323017984be-480p.webp",
+    "rendition": "480p",
+    "bytes": 151360368,
+    "duration_s": 7060,
+    "src_duration_s": 7060,
+    "width": 854,
+    "height": 480,
+    "sha256": "7b98e9d66bd8647290c18ce044ca8d1e4c1625afcb5acd52da1ffe05f26b8f37",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
