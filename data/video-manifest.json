@@ -9786,5 +9786,21 @@
     "height": 480,
     "sha256": "fb0ded6f89f0ba35047fdc1ddfca7a9b78810eb8451e40b299398b6b3c28e3d3",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1co__pcK0muUZBySyqEj0EEjLrWxlY3hn",
+    "drive_name": "38 សតិប្បដ្ឋានសូត្រ ឥរិយាបថបព្វៈ ចម្រើនក្នុងឥរិយាបថ៤ (បិដកលេខ ២០).mp4",
+    "source_md5": "214a8c985fd4399d68900aba41ea86ee",
+    "key": "video/214a8c985fd4399d-480p.mp4",
+    "poster_key": "video/214a8c985fd4399d-480p.webp",
+    "rendition": "480p",
+    "bytes": 114205359,
+    "duration_s": 5476,
+    "src_duration_s": 5476,
+    "width": 854,
+    "height": 480,
+    "sha256": "845164eef1864364e314085e81ca91a5a95216c09da3137a79383e4fb045f843",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
