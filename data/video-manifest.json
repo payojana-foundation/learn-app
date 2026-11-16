@@ -16206,5 +16206,21 @@
     "height": 480,
     "sha256": "35e485c6470deab0a0f2716e478be71ad61cae230aef7486f413bb21f84b220f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "10Z_fUdfSpAmQ0i05d7975CbAAR4GDGH5",
+    "drive_name": "៨២ អារម្មណ៍កម្មដ្ឋាន៤០ ដោយអាការៈ១០ និងសេចក្តីអធិប្បាយ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៨២ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "5d004a5ab708c2e061cc58edcbc24514",
+    "key": "video/5d004a5ab708c2e0-480p.mp4",
+    "poster_key": "video/5d004a5ab708c2e0-480p.webp",
+    "rendition": "480p",
+    "bytes": 78173542,
+    "duration_s": 3485,
+    "src_duration_s": 3485,
+    "width": 854,
+    "height": 480,
+    "sha256": "b0ef1f725be11f5444d8d1a62baed3e5e03b16345b1a5b82473c83991d83156a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
