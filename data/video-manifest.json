@@ -7642,5 +7642,21 @@
     "height": 480,
     "sha256": "2b9a53cb705e868c1a4e771b6fe918b6480e75e9fa72db76952536764f6b006a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "12Asa41JoGE3YsBNTJS_OqFoKebvwJMo4",
+    "drive_name": "11 ពន្យល់បដិច្ចសមុប្បាទអាការ ១២ (បិដកលេខ ១៦).mp4",
+    "source_md5": "65e059c69b99bb7922ebd3fac22c8e19",
+    "key": "video/65e059c69b99bb79-480p.mp4",
+    "poster_key": "video/65e059c69b99bb79-480p.webp",
+    "rendition": "480p",
+    "bytes": 112119481,
+    "duration_s": 3248,
+    "src_duration_s": 3248,
+    "width": 854,
+    "height": 480,
+    "sha256": "d5015013fe6ec48dd8e28984e707b1acf32cce18e34ae16d0d40ec47c00d95c1",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
