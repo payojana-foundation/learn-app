@@ -9594,5 +9594,21 @@
     "height": 464,
     "sha256": "3dddb64772ed80fbf4bf75d56483e02f624dcbb7fc357aa419a49ee8d81e2de0",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1eAySwLssEKhy7r37WNgEyxzhjLkVcNLe",
+    "drive_name": "០៧ ចប់សេក្ខប្បដិបទាសូត្រទី៣ចូលបោតលិយសូត្រទី៤ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២៣.mp4",
+    "source_md5": "e8f14c5c3e00729bfbe564dade447780",
+    "key": "video/e8f14c5c3e00729b-480p.mp4",
+    "poster_key": "video/e8f14c5c3e00729b-480p.webp",
+    "rendition": "480p",
+    "bytes": 160896369,
+    "duration_s": 7145,
+    "src_duration_s": 7145,
+    "width": 854,
+    "height": 480,
+    "sha256": "da2cab4aa525d2ee6f9370b89ce00f1c141c904f65d95a97dbc97f58619ddf2a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
