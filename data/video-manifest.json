@@ -7210,5 +7210,21 @@
     "height": 480,
     "sha256": "b88295246434572ae0ccbde82c9a839c4480b098228ea00ac697beb3d692662a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1_F4LVd9V-YavrtYeMkU6_DKpnqxIzh4H",
+    "drive_name": "០៦ ពាក្យថា តគថាតមានន័យ ៨ ប្រការ (បិដកលេខ ២០).mp4",
+    "source_md5": "f1f0e2eb5b999dc032dd1f9bc44c7c89",
+    "key": "video/f1f0e2eb5b999dc0-480p.mp4",
+    "poster_key": "video/f1f0e2eb5b999dc0-480p.webp",
+    "rendition": "480p",
+    "bytes": 161441011,
+    "duration_s": 5546,
+    "src_duration_s": 5546,
+    "width": 854,
+    "height": 480,
+    "sha256": "b66053d93ca8a888026d2a259b2713d3d7eeaf5f903c5d0864ae4a9a6db83346",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
