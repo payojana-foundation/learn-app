@@ -8602,5 +8602,21 @@
     "height": 480,
     "sha256": "c0faaf19d58ccf12edb656326c580fdb7e16b676b8cc7451ea13d730298c1756",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1kk_ifSA-cCfSi8aGSMgWF0HuIA9S1LS6",
+    "drive_name": "20 ព្រះពុទ្ធសម្តែងបុគ្គលគួរដល់ស្តូប ៤ យ៉ាង (បិដកលេខ ១៦).mp4",
+    "source_md5": "b0f6c1e96f19e1cdcd0e242a8988a5b6",
+    "key": "video/b0f6c1e96f19e1cd-480p.mp4",
+    "poster_key": "video/b0f6c1e96f19e1cd-480p.webp",
+    "rendition": "480p",
+    "bytes": 275491009,
+    "duration_s": 5354,
+    "src_duration_s": 5354,
+    "width": 854,
+    "height": 480,
+    "sha256": "48056fa0982f7772c3ed0e03c6cfc029c261bb4d58f65caaa195840960e553fd",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
