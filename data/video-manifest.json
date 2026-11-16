@@ -12282,5 +12282,21 @@
     "height": 480,
     "sha256": "37a417707f33af1a7cb3ece73e1001effe310090fdc3a1774cc647a5f6573cc7",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "19ukn8BK2eP7GY-e1F7cgiDHmNQZmYi3D",
+    "drive_name": "៣៧ វិនិច្ឆ័យអកុសលកម្មបថដោយ អាការ៥ប្រការផ្សេងទៀត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៣៧ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "7c81cf1ce785b8dccaead331bd5b40ef",
+    "key": "video/7c81cf1ce785b8dc-480p.mp4",
+    "poster_key": "video/7c81cf1ce785b8dc-480p.webp",
+    "rendition": "480p",
+    "bytes": 62472125,
+    "duration_s": 3352,
+    "src_duration_s": 3352,
+    "width": 854,
+    "height": 480,
+    "sha256": "55e11ce9adfca392313d7ddd7d9e13b1ff0f23010ac166b7419193f011785d46",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
