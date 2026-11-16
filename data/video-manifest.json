@@ -5658,5 +5658,21 @@
     "height": 480,
     "sha256": "e7ac59096dce93804b6dd37223a4487354a4f849e0c88f7d19e30bf29609a982",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1OhWXuyo0wGVfRFCr_2ygb1R8QaYganK4",
+    "drive_name": "៤៧ រូបកលាបន័យទី៣ ចែកសសម្ភា៤២ ជារូបកលាប (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "e18e04323391ef4713bbdbd2936829d2",
+    "key": "video/e18e04323391ef47-480p.mp4",
+    "poster_key": "video/e18e04323391ef47-480p.webp",
+    "rendition": "480p",
+    "bytes": 110579852,
+    "duration_s": 5214,
+    "src_duration_s": 5214,
+    "width": 854,
+    "height": 480,
+    "sha256": "d3da54bd49dedae446c9e54ebb749b77a3354a31ea0afe04e005bd7de2235d65",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
