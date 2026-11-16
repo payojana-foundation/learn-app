@@ -9386,5 +9386,21 @@
     "height": 480,
     "sha256": "23d23ec15b7e64f034c8eb446f5bc2777259f8fa7c6c0b9fab9e929d972f2557",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "14qfE0nd_BRn0pJpCFFTPj4wE28X-HCIu",
+    "drive_name": "០៥ សេក្ខប្បដិបទាសូត្រទី៣ ការសង្រួមឥន្រ្ទិយជាដើម ភិក្ខុអគ្គចិត្តោ យ៉ុន យី បិដកលេខ២៣.mp4",
+    "source_md5": "3cff42f88194e78c892cc20fd8bc3398",
+    "key": "video/3cff42f88194e78c-480p.mp4",
+    "poster_key": "video/3cff42f88194e78c-480p.webp",
+    "rendition": "480p",
+    "bytes": 141374388,
+    "duration_s": 7096,
+    "src_duration_s": 7096,
+    "width": 854,
+    "height": 480,
+    "sha256": "c4880b11193fa528e8db11911ced42f84cb324570b64d75cb48fdc8c5afc6b6e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
