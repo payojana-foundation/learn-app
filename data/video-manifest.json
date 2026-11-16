@@ -13762,5 +13762,21 @@
     "height": 480,
     "sha256": "0733041660ead071f18a190d8ec5058f0c60b6c3713212a8ccc10b1a13074e97",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "19T04U4Jmn-C9CHJ9bZzdITuQrVQAii11",
+    "drive_name": "៤៧ អហេតុកកិរិយាចិត្តត ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៤៧ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "3cfecc1a53cc46c7ba4b9011b2605a69",
+    "key": "video/3cfecc1a53cc46c7-480p.mp4",
+    "poster_key": "video/3cfecc1a53cc46c7-480p.webp",
+    "rendition": "480p",
+    "bytes": 68261991,
+    "duration_s": 3611,
+    "src_duration_s": 3611,
+    "width": 854,
+    "height": 480,
+    "sha256": "a5e584d421a11ae493415c9dd798934de9dfd31253fe9bca65eb032d39d641d5",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
