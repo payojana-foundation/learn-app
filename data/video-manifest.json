@@ -4270,5 +4270,21 @@
     "height": 480,
     "sha256": "4630dc08f7b3f2dc646ad08159066ad8cf71b39b30fa81b3363d1215eb53ab39",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1VUvL5zwdvUR7kQ-tYNRcsoMxThrTWIJX",
+    "drive_name": "២៦ កិច្ចសង្គហ ចេតសិកធ្វើកិច្ច១៤ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "508364bb37ad165884aeb0043b1dfd28",
+    "key": "video/508364bb37ad1658-480p.mp4",
+    "poster_key": "video/508364bb37ad1658-480p.webp",
+    "rendition": "480p",
+    "bytes": 76014173,
+    "duration_s": 3516,
+    "src_duration_s": 3516,
+    "width": 854,
+    "height": 480,
+    "sha256": "9d7f86e89edf613ea34eac98a28eaba18395f428c707268174746819db90c0eb",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
