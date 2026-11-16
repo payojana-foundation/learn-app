@@ -10330,5 +10330,21 @@
     "height": 480,
     "sha256": "245fb5784d809d448bf02398b05bb261927e4fe090a70d4e96c88255e8cf59e1",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1MRamZ-zJmXMgMDy76o-UVt21HK6F6BhH",
+    "drive_name": "០៥ ចិត្តចែកចេញជាបួនភូមិ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៥(បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "76859ba41b84e948f1e842dfd4fc26c0",
+    "key": "video/76859ba41b84e948-480p.mp4",
+    "poster_key": "video/76859ba41b84e948-480p.webp",
+    "rendition": "480p",
+    "bytes": 66115348,
+    "duration_s": 3251,
+    "src_duration_s": 3251,
+    "width": 854,
+    "height": 480,
+    "sha256": "17a08c83174eec98fc7e452c1544bcf3c2401af552d6688a494760b959635855",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
