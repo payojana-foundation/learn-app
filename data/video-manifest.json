@@ -10490,5 +10490,21 @@
     "height": 480,
     "sha256": "5b2ab081ce0e190064e4c283b7f625f1b0d4924a212cb10a94ec34c1cf35dc27",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ll6d3KO09gavQcZm-48mfauN4QydG8x9",
+    "drive_name": "44 សតិប្បដ្ឋានសូត្រ វេទនានុបស្សនាសតិប្បដ្ឋានកំណត់៩ យ៉ាង ភាគបញ្ចប់ (បិដកលេខ ២០).mp4",
+    "source_md5": "531fb50f1b7651b1643daef8fca7fff4",
+    "key": "video/531fb50f1b7651b1-480p.mp4",
+    "poster_key": "video/531fb50f1b7651b1-480p.webp",
+    "rendition": "480p",
+    "bytes": 98401122,
+    "duration_s": 5094,
+    "src_duration_s": 5094,
+    "width": 854,
+    "height": 480,
+    "sha256": "0a436e5501f2831724bba19374f97d999cde7302f01d20bd924e101c4c36c510",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
