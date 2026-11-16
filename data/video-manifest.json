@@ -16174,5 +16174,21 @@
     "height": 480,
     "sha256": "0d0d18e255f4df1fe562629acbc5e94d10a70867b997ef4155af2599c6c23398",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1_lYVB5eFkp8MOc3wAyRzc-nk47z92nVK",
+    "drive_name": "៧.វេស្សន្តរជាតក.mp4",
+    "source_md5": "06de0b31c2a820d532aab8c755c22de1",
+    "key": "video/06de0b31c2a820d5-480p.mp4",
+    "poster_key": "video/06de0b31c2a820d5-480p.webp",
+    "rendition": "480p",
+    "bytes": 100081717,
+    "duration_s": 4474,
+    "src_duration_s": 4474,
+    "width": 854,
+    "height": 480,
+    "sha256": "a1a40f1369110322651f665a603cdcb4c2401caa940c2ed4bb130338ceff098c",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
