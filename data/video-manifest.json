@@ -10058,5 +10058,21 @@
     "height": 480,
     "sha256": "f5dea87d7f950309e05973061414a75ef6509bb14f548e108fb0d9a72ef64e24",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1UbiSaiI-dn7ue5yNrww-WXv1GAgO9ZyV",
+    "drive_name": "២១ ចូឡហត្ថិបទោបមសូត្រ ការសង្រួមក្នុងសីលរបស់ (បិដកលេខ ២១).mp4",
+    "source_md5": "bbc56d500cc8b2c29d8988a7bec8aa3f",
+    "key": "video/bbc56d500cc8b2c2-480p.mp4",
+    "poster_key": "video/bbc56d500cc8b2c2-480p.webp",
+    "rendition": "480p",
+    "bytes": 149249084,
+    "duration_s": 6752,
+    "src_duration_s": 6752,
+    "width": 854,
+    "height": 480,
+    "sha256": "aa3b9fe6638a423a2214a54730aa472473e22ff001bbf32d24b71ba9a4ad8a6e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
