@@ -7978,5 +7978,21 @@
     "height": 480,
     "sha256": "43d455ea31d51c355c91d9f57e0c67d1e3342df06b683742bd2b638d03087aed",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ZH5xkJkvKTIwHjqdazAzqocGzK6FCXd3",
+    "drive_name": "០២ កកចូបមសូត្រ ការអប់រំចិត្តមិនឱ្យមានទោសៈកើត (បិដកលេខ ២១).mp4",
+    "source_md5": "dbf3bd17f62132016bc9ca5bd0757ef9",
+    "key": "video/dbf3bd17f6213201-480p.mp4",
+    "poster_key": "video/dbf3bd17f6213201-480p.webp",
+    "rendition": "480p",
+    "bytes": 145557523,
+    "duration_s": 7118,
+    "src_duration_s": 7118,
+    "width": 854,
+    "height": 480,
+    "sha256": "b724427e64d04fe4b2d457780c2a254b9b685d151eaa3999ade158f0d178b7cf",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
