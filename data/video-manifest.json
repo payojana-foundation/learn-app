@@ -4590,5 +4590,21 @@
     "height": 480,
     "sha256": "1f53e787176d32e5f2cea703e5523b1ee2945c4000410332e99ef5ce2a81b0d0",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Xbv4BwcwYCvIZkVewV62Zkk6Xf2T7hEl",
+    "drive_name": "៤៧ មរណាសន្នវិថី បរិនិព្វានធម្មតា និងឈានសមនន្តរវិថី (បរិច្ឆេទ ទី៤ ឆ្នាំ ២០២៥).mp4",
+    "source_md5": "8fb15a60ddc2819cf2b3c57a91fa8ea9",
+    "key": "video/8fb15a60ddc2819c-480p.mp4",
+    "poster_key": "video/8fb15a60ddc2819c-480p.webp",
+    "rendition": "480p",
+    "bytes": 86147973,
+    "duration_s": 4619,
+    "src_duration_s": 4619,
+    "width": 854,
+    "height": 480,
+    "sha256": "c4e55883aa50137f6e4cd60c4a411d87f270698df53d9a486d3caaa2d8e42339",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
