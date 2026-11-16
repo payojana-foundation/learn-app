@@ -92794,5 +92794,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1IUBibL1Y6VtM7hJMG6O2O8voPukzaQez",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ៤៥ ព្រះពុទ្ធគុណ​ វិជ្ជាចរណសម្បន្នោ សុគតោ.mp3",
+    "source_md5": "e487765bb173fb2317cf5c524509950f",
+    "key": "audio/e487765bb173fb23-a64.mp3",
+    "bytes": 45856225,
+    "duration_s": 5731,
+    "sha256": "10d4b7fa54664d1a5bf0b95265d79cf6e45e86c6786ecdd7875c15591ed05ec5",
+    "loudness": {
+      "pass1": {
+        "I": -28.9,
+        "TP": -2.9,
+        "LRA": 0
+      },
+      "G": 12.33,
+      "limit": 0.708,
+      "depth": 12.43,
+      "busy": 3.049982554082345,
+      "out": {
+        "I": -18,
+        "TP": -1.6,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
