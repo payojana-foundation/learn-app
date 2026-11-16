@@ -5322,5 +5322,21 @@
     "height": 480,
     "sha256": "46a8268c298589d1db643a402aaf501da65b632d5be2c3e00e7d08cf73dc0bde",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1RKoc1DJDfi72CnNXcaZxlo17Gt0thRQE",
+    "drive_name": "៣០ ទ្វារសង្គហ អង្គធម៌ទ្វារ៦ ចិត្តក្នុងទ្វារនិងក្រៅទ្វារ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "6a6eafdcc17387e842eceadfb4eb7056",
+    "key": "video/6a6eafdcc17387e8-480p.mp4",
+    "poster_key": "video/6a6eafdcc17387e8-480p.webp",
+    "rendition": "480p",
+    "bytes": 114087803,
+    "duration_s": 4884,
+    "src_duration_s": 4884,
+    "width": 854,
+    "height": 480,
+    "sha256": "a53b4a7965b27b2a440b873fac8a760688034aff2ac49871d79c550dc4153753",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
