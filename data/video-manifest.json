@@ -7002,5 +7002,21 @@
     "height": 480,
     "sha256": "120535aad25a88f66f0e769944113e3ffac6650c32bd139eef4a151dad01680d",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1U0sFVukv9P1rQvu8524SxVKECecnpwGv",
+    "drive_name": "០3 សម្បសាទនីយសូត្រ ព្រះសារីបុត្រពិចារណាគុណធម៌ (បិដកលេខ ១៨).mp4",
+    "source_md5": "bcadf6f1d0779a43116b78b8bd0b747f",
+    "key": "video/bcadf6f1d0779a43-480p.mp4",
+    "poster_key": "video/bcadf6f1d0779a43-480p.webp",
+    "rendition": "480p",
+    "bytes": 134630936,
+    "duration_s": 5261,
+    "src_duration_s": 5261,
+    "width": 854,
+    "height": 480,
+    "sha256": "dba2aaa10cf90ff2804c4312fc107403b1094e2588e64048a239a1aec4146ce5",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
