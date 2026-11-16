@@ -6170,5 +6170,21 @@
     "height": 480,
     "sha256": "7c2b1f8f2c090eb6f49272f434f2edc105b91835abda4cba20d82afc3771dfe9",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1o979E9eVyx1DkyWvU7ySpgxvDKM43iKm",
+    "drive_name": "៤៧ ហេតុនាំឱ្យកើតមោហមូលចិត្ត ២ ដួង (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "138a2d60cd4fa343410077b1a7d62fcd",
+    "key": "video/138a2d60cd4fa343-480p.mp4",
+    "poster_key": "video/138a2d60cd4fa343-480p.webp",
+    "rendition": "480p",
+    "bytes": 80940972,
+    "duration_s": 4412,
+    "src_duration_s": 4412,
+    "width": 854,
+    "height": 480,
+    "sha256": "55e3a80a6dc84c435b40c4db052a1579d3831c6364396d53687dc15c389ee2a5",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
