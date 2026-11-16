@@ -5690,5 +5690,21 @@
     "height": 480,
     "sha256": "c80472f229af8e97ac0b193128889e1418bf66b463dd5e91d7c45a26613429d0",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "18EbfUB7D7fXsRLf1z4iPUxRmnabO6L81",
+    "drive_name": "៤៥ អប្បមញ្ញាចេតសិក ២ គឺ ករុណា និងមុទិតា (បរិច្ឆេទ​ ទី២ ឆ្នាំ ២០២៤).mp4",
+    "source_md5": "2dd823e64c788217cfc4f1c29d75bcb2",
+    "key": "video/2dd823e64c788217-480p.mp4",
+    "poster_key": "video/2dd823e64c788217-480p.webp",
+    "rendition": "480p",
+    "bytes": 101812908,
+    "duration_s": 5327,
+    "src_duration_s": 5327,
+    "width": 854,
+    "height": 480,
+    "sha256": "b0588fa66cb9918c85ca5820b97040706818710e1e5b9b0736135d02a9db6469",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
