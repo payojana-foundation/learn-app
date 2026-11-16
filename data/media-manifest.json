@@ -94114,5 +94114,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1JKfx2ug5qBRUGx_EZYREaOeHYv06YTn5",
+    "drive_name": "៣៥ សទ្ធាចេតសិក ការជ្រះថ្លា សទ្ធាមាន៤យ៉ាង.m4a",
+    "source_md5": "675b1c145ea04966c984d5f990f00b30",
+    "key": "audio/675b1c145ea04966-a64.mp3",
+    "bytes": 43444183,
+    "duration_s": 5430,
+    "sha256": "1cbea401ce3b78940d8d3d6d7cb99d6c5eafcd060b4df40f83b3cafe77d5c984",
+    "loudness": {
+      "pass1": {
+        "I": -27,
+        "TP": -0.9,
+        "LRA": 0
+      },
+      "G": 10.51,
+      "limit": 0.668,
+      "depth": 13.11,
+      "busy": 3.3153024583371695,
+      "out": {
+        "I": -18,
+        "TP": -1.9,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
