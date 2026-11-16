@@ -93394,5 +93394,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "1iO1LTtIZyeRPSqgYoyL0PnYvAHmbblGC",
+    "drive_name": "២៩ មានចេតសិក សេចក្តីស្រវឹងមាន ២៧ យ៉ាង.m4a",
+    "source_md5": "02c18023598254346d1d2366ef974edf",
+    "key": "audio/02c1802359825434-a64.mp3",
+    "bytes": 43780431,
+    "duration_s": 5472,
+    "sha256": "4f617f493d074e549a651f2169252cd34e2adbb072ca986d9f5b1063f44c173f",
+    "loudness": {
+      "pass1": {
+        "I": -31.3,
+        "TP": -5.4,
+        "LRA": 0
+      },
+      "G": 14.49,
+      "limit": 0.708,
+      "depth": 12.09,
+      "busy": 2.816126084970306,
+      "out": {
+        "I": -18,
+        "TP": -2.3,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
