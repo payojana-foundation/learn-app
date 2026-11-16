@@ -8810,5 +8810,21 @@
     "height": 480,
     "sha256": "e53bea890ab83b8fef3011ebd5b660a50e3fe344a3d2d1e330c53f3c8eeae8db",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1guo7noGNafToZVjYKhJRY6gmBuqIwtkl",
+    "drive_name": "២៩ ចូឡវេទល្លសូត្រទី៤ វិសាខឧបាសកសួរការចូលនិរោធជាដើមភិក្ខុ (បិដកលេខ ២២).mp4",
+    "source_md5": "6a0adfd52ed13e20105b8ccf715bec0a",
+    "key": "video/6a0adfd52ed13e20-480p.mp4",
+    "poster_key": "video/6a0adfd52ed13e20-480p.webp",
+    "rendition": "480p",
+    "bytes": 141016931,
+    "duration_s": 7051,
+    "src_duration_s": 7051,
+    "width": 854,
+    "height": 480,
+    "sha256": "5bc685ea005a0557dbc90f46e67a8990507c8728dd785d9435e19c83255ce028",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
