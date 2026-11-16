@@ -6778,5 +6778,21 @@
     "height": 480,
     "sha256": "fdc44f51f5ab4ee464d58f9aa09c41cbfa27ba060d804ec8f659aea0af08f5c5",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "17EPMLRq9AbF1dhFxxluS3TM711w2NyNB",
+    "drive_name": "01 មហាសុទស្សនសូត្រ និង ហេតុផលព្រះពុទ្ធទៅបរិនិព្វាននៅនគរកុសិនារា (បិដកលេខ ១៧).mp4",
+    "source_md5": "a93eebb352337657348162eb7d0f022c",
+    "key": "video/a93eebb352337657-480p.mp4",
+    "poster_key": "video/a93eebb352337657-480p.webp",
+    "rendition": "480p",
+    "bytes": 117572566,
+    "duration_s": 5349,
+    "src_duration_s": 5349,
+    "width": 854,
+    "height": 480,
+    "sha256": "972f8e9ecb10823283b24729c7ce67c26956b36514f3dd7907f07e405331db1f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
