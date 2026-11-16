@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "as_of": "2026-11-16T06:34:58.000Z",
+  "as_of": "2026-11-16T11:14:32.000Z",
   "totals": {
     "lessons": 4814,
-    "live": 2984,
+    "live": 3037,
     "audio": {
-      "not started": 1750,
-      "converted": 61,
+      "not started": 1749,
+      "converted": 9,
       "needs review": 19,
-      "approved": 2984
+      "approved": 3037
     }
   },
   "courses": [
     {
       "course_id": "c001",
       "lessons": 57,
-      "live": 26,
+      "live": 55,
       "audio": {
         "not started": 0,
-        "converted": 29,
+        "converted": 0,
         "needs review": 2,
-        "approved": 26
+        "approved": 55
       }
     },
     {
@@ -70,45 +70,45 @@
     {
       "course_id": "c006",
       "lessons": 174,
-      "live": 171,
+      "live": 174,
       "audio": {
         "not started": 0,
-        "converted": 3,
+        "converted": 0,
         "needs review": 0,
-        "approved": 171
+        "approved": 174
       }
     },
     {
       "course_id": "c007",
       "lessons": 58,
-      "live": 55,
+      "live": 58,
       "audio": {
         "not started": 0,
-        "converted": 3,
+        "converted": 0,
         "needs review": 0,
-        "approved": 55
+        "approved": 58
       }
     },
     {
       "course_id": "c008",
       "lessons": 55,
-      "live": 54,
+      "live": 55,
       "audio": {
         "not started": 0,
-        "converted": 1,
+        "converted": 0,
         "needs review": 0,
-        "approved": 54
+        "approved": 55
       }
     },
     {
       "course_id": "c009",
       "lessons": 63,
-      "live": 39,
+      "live": 47,
       "audio": {
         "not started": 0,
-        "converted": 8,
+        "converted": 0,
         "needs review": 16,
-        "approved": 39
+        "approved": 47
       }
     },
     {
@@ -116,8 +116,8 @@
       "lessons": 20,
       "live": 0,
       "audio": {
-        "not started": 20,
-        "converted": 0,
+        "not started": 19,
+        "converted": 1,
         "needs review": 0,
         "approved": 0
       }
@@ -136,12 +136,12 @@
     {
       "course_id": "c012",
       "lessons": 168,
-      "live": 158,
+      "live": 167,
       "audio": {
         "not started": 0,
-        "converted": 9,
+        "converted": 0,
         "needs review": 1,
-        "approved": 158
+        "approved": 167
       }
     },
     {
