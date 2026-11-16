@@ -10106,5 +10106,21 @@
     "height": 480,
     "sha256": "e50a231da2433f3e8284efbf4d9a4c7e99e0cbcc17f08a9c0f5fdf0e2264e074",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ynu_Zg_mRUjtoq_ZEk9yTlIvfB-mJ4rP",
+    "drive_name": "41 សតិប្បដ្ឋានសូត្រ បដិកូលមនសិការ ធាតុ នវសីវថិការបព្វ(បិដកលេខ ២០).mp4",
+    "source_md5": "9ef511225183c6db2bef7e17a495cedf",
+    "key": "video/9ef511225183c6db-480p.mp4",
+    "poster_key": "video/9ef511225183c6db-480p.webp",
+    "rendition": "480p",
+    "bytes": 158074315,
+    "duration_s": 6384,
+    "src_duration_s": 6384,
+    "width": 854,
+    "height": 480,
+    "sha256": "4058ab7333780a6968905fa0600824122f2bfbfbbd1274484089b34057dd1fba",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
