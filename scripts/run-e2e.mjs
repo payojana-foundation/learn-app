@@ -39,12 +39,33 @@ function run(cmd, args, opts = {}) {
   });
 }
 
-/** Kill a process (and its children on Windows) as reliably as possible. */
-function killTree(child) {
-  if (!child || child.killed || child.pid == null) return;
+/** True while something still answers on the preview port. */
+async function portInUse() {
+  try {
+    await fetch(BASE);
+    return true;
+  } catch {
+    return false;
+  }
+}
+
+/**
+ * Stop the preview process tree and WAIT until it is gone (from library-app 6b249bc). On
+ * Windows the taskkill must finish (and the port must stop answering) before this runner
+ * exits, otherwise `process.exit` can leave npm + vite running.
+ */
+async function killTree(child) {
+  if (!child || child.pid == null) return;
   try {
     if (isWindows) {
-      spawn('taskkill', ['/pid', String(child.pid), '/T', '/F'], { stdio: 'ignore', shell: true });
+      await new Promise((resolve) => {
+        const k = spawn('taskkill', ['/pid', String(child.pid), '/T', '/F'], {
+          stdio: 'ignore',
+          shell: true,
+        });
+        k.on('close', () => resolve());
+        k.on('error', () => resolve());
+      });
     } else {
       try {
         process.kill(-child.pid, 'SIGTERM');
@@ -52,6 +73,11 @@ function killTree(child) {
         child.kill('SIGTERM');
       }
     }
+    for (let i = 0; i < 40; i++) {
+      if (!(await portInUse())) return;
+      await sleep(250);
+    }
+    console.error(`[e2e] preview still answers on port ${PORT} after stop`);
   } catch (err) {
     console.error(`[e2e] could not stop preview: ${err?.message ?? err}`);
   }
@@ -103,8 +129,8 @@ async function main() {
   let exitCode = 0;
   const results = [];
   const cleanup = () => killTree(preview);
-  process.on('SIGINT', () => {
-    cleanup();
+  process.on('SIGINT', async () => {
+    await cleanup();
     process.exit(130);
   });
 
@@ -112,7 +138,7 @@ async function main() {
     const up = await waitForServer();
     if (!up) {
       console.error(`[e2e] preview did not become reachable at ${BASE}`);
-      cleanup();
+      await cleanup();
       process.exit(1);
     }
     console.log('[e2e] preview is up');
@@ -126,7 +152,7 @@ async function main() {
       if (code !== 0) exitCode = 1;
     }
   } finally {
-    cleanup();
+    await cleanup();
   }
 
   console.log('\n[e2e] ── summary ──');

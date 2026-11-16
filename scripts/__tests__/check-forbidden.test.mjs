@@ -61,6 +61,12 @@ describe('inScope', () => {
     expect(inScope('scripts/__tests__/check-forbidden.test.mjs')).toBe(false);
   });
 
+  it('excludes the guard, its test and the coordinator name register', () => {
+    expect(inScope('scripts/check-forbidden.mjs')).toBe(false);
+    expect(inScope('scripts/__tests__/check-forbidden.test.mjs')).toBe(false);
+    expect(inScope('docs/name-register.md')).toBe(false);
+  });
+
   it('includes ordinary source and docs files', () => {
     expect(inScope('src/app.ts')).toBe(true);
     expect(inScope('docs/SETUP-coordinator.md')).toBe(true);

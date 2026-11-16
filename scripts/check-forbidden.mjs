@@ -43,6 +43,18 @@ const FORBIDDEN = [
 const EXCLUDE_PREFIXES = ['docs/archive/', 'reports/', 'node_modules/', 'data/source/'];
 
 /**
+ * Exact files that legitimately contain the retired strings (documented
+ * exclusions; the FORBIDDEN list itself is unchanged; from library-app 043316d):
+ *   - this guard and its test (they must spell the terms to detect them);
+ *   - docs/name-register.md (coordinator-owned name history, never edited here).
+ */
+const EXCLUDE_FILES = [
+  'scripts/check-forbidden.mjs',
+  'scripts/__tests__/check-forbidden.test.mjs',
+  'docs/name-register.md',
+];
+
+/**
  * This guard and its test legitimately list the retired strings as the terms
  * to catch, so they must be excluded by name — otherwise the guard flags
  * itself and `npm run check` can never be clean.
@@ -66,6 +78,7 @@ function trackedFiles() {
 function isExcluded(path) {
   if (EXCLUDE_EXACT.has(path)) return true;
   if (EXCLUDE_PREFIXES.some((pre) => path.startsWith(pre))) return true;
+  if (EXCLUDE_FILES.includes(path)) return true;
   if (isTaskFile(path)) return true;
   return false;
 }

@@ -81,7 +81,7 @@ export function audioStatus(sourceId, approved, failedReview, inManifest) {
  * Returns { lessons: Map(row_key -> {col: value}), courses: Map(course_id -> {lesson_count}) }.
  */
 export function computeSystem(lessonRows, courseRows, ctx) {
-  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map(), checkFlags = new Map(), decisions = {}, intakeIssues = new Map() } = ctx;
+  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map(), checkFlags = new Map(), decisions = {}, intakeIssues = new Map(), failedReasons = new Map() } = ctx;
   const approved = new Set(manifest.filter((e) => e && e.drive_file_id && /^approved\b/i.test(e.status || '')).map((e) => e.drive_file_id));
   const inManifest = new Set(manifest.filter((e) => e && e.drive_file_id).map((e) => e.drive_file_id));
   const { hidden } = shownRows(lessonRows, manifest);
@@ -106,6 +106,7 @@ export function computeSystem(lessonRows, courseRows, ctx) {
     if (!r.source_type && src) issues.push('source_type not set');
     if ((r.course_id || !r.source_file) && noFileLink(r)) issues.push(ISSUE_NO_FILE);
     for (const x of intakeIssues.get(r.row_key) || []) issues.push(x);
+    if (src && failedReasons.get(src) && !inManifest.has(src)) issues.push(`CONVERSION FAILED: ${failedReasons.get(src)}`);
     for (const reason of (src && checkFlags.get(src)) || []) issues.push(`CHECK: ${reason}`);
     const dec = decisions[r.row_key];
     if (dec && dec.decision) issues.push(`DECISION: ${dec.decision} (${dec.at}): ${dec.result}`);
@@ -275,6 +276,21 @@ export function shownFromPublicData(root = process.cwd()) {
   return set;
 }
 
+/** failed-review.csv reasons (column `reason`, when recorded): Map(id -> reason). */
+export function failedReasonsFrom(text) {
+  const lines = String(text || '').split(/\r?\n/).filter(Boolean);
+  const head = (lines.shift() || '').split(',');
+  const ri = head.indexOf('reason');
+  const m = new Map();
+  if (ri < 0) return m;
+  for (const l of lines) {
+    const c = l.split(',');
+    const reason = c.slice(ri).join(',').trim();
+    if (c[0] && reason) m.set(c[0].trim(), reason);
+  }
+  return m;
+}
+
 function failedReviewSet(root) {
   const p = join(root, 'data', 'queues', 'failed-review.csv');
   return new Set(existsSync(p) ? readFileSync(p, 'utf-8').split(/\r?\n/).map((l) => l.split(',')[0].trim()).filter((v) => v && v !== 'drive_file_id') : []);
@@ -361,6 +377,7 @@ async function main() {
     manifest, failedReview: failedReviewSet(root), shownLessonIds: shownFromPublicData(root), acastBySource: await acastFromTeacherSheets(root),
     checkFlags: checkFlagsFile(root),
     intakeIssues: intake.issues,
+    failedReasons: failedReasonsFrom(existsSync(join(root, 'data', 'queues', 'failed-review.csv')) ? readFileSync(join(root, 'data', 'queues', 'failed-review.csv'), 'utf-8') : ''),
     decisions: existsSync(join(root, 'data', 'ops', 'check-decisions.json')) ? JSON.parse(readFileSync(join(root, 'data', 'ops', 'check-decisions.json'), 'utf-8')) : {},
   });
   const L = diffTab(lessonsTab, 'row_key', wanted.lessons, LESSON_SYNC_COLUMNS);
