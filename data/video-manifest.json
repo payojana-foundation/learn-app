@@ -5114,5 +5114,21 @@
     "height": 480,
     "sha256": "b107e7529db568e9d3355fee6352c2f023062dec510f91e2923a4268254b2258",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "17Y0BijSdamP7gSGmsSuZ2e6N50csKaFH",
+    "drive_name": "៤២ ចែកកោដ្ឋាស ៤២ ដោយសមុដ្ឋាន ៤(បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "95263a4673d85df80fda4700f313cc5c",
+    "key": "video/95263a4673d85df8-480p.mp4",
+    "poster_key": "video/95263a4673d85df8-480p.webp",
+    "rendition": "480p",
+    "bytes": 115863842,
+    "duration_s": 5253,
+    "src_duration_s": 5253,
+    "width": 854,
+    "height": 480,
+    "sha256": "e77cc83910bd812f62ee684ae365780e61db5b61d5967bdee7700cc703cf7f3e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
