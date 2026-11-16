@@ -6442,5 +6442,21 @@
     "height": 480,
     "sha256": "3b42ffbe70f2171da84af58872413187a5a285e23b41310d9dc1dde3616f761a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1uiVKnj5IzmzjBUl83UOiE8dYYDmvX-1j",
+    "drive_name": "៣៧ អារម្មណសង្គហ ពន្យល់កម្មារម្មណ៍របស់ទ្វារវិមុត្តិ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "831e1671213af733f4e7e2d4e4d50b5e",
+    "key": "video/831e1671213af733-480p.mp4",
+    "poster_key": "video/831e1671213af733-480p.webp",
+    "rendition": "480p",
+    "bytes": 71309038,
+    "duration_s": 3015,
+    "src_duration_s": 3015,
+    "width": 854,
+    "height": 480,
+    "sha256": "da9b9c59a089c8a881c7da150a385d7a6d725dfe258b3cc8093663c83e80e98b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
