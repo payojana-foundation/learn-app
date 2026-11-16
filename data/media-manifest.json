@@ -93904,5 +93904,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "11iiE7-9uFhppeDSTFTEQsEQlc4gWbxoc",
+    "drive_name": "30.៣០ របៀសង្កេតលោភមូលចិត្ត.mp3",
+    "source_md5": "42e18f9b12dbfa0ec297595589e22d65",
+    "key": "audio/42e18f9b12dbfa0e-a64.mp3",
+    "bytes": 28749992,
+    "duration_s": 3593,
+    "sha256": "f1200f9be83bab1a0f43b79ea8bdbcc8b11d0275c3b2f60661edbe35c327eaff",
+    "loudness": {
+      "pass1": {
+        "I": -24.2,
+        "TP": -0.2,
+        "LRA": 0
+      },
+      "G": 8.49,
+      "limit": 0.708,
+      "depth": 11.29,
+      "busy": 4.923198931463395,
+      "out": {
+        "I": -18,
+        "TP": -2.4,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
