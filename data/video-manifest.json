@@ -9050,5 +9050,21 @@
     "height": 480,
     "sha256": "b1936972c9fc072aed82ba2f599106af7ce7ce28d20ad01129bb9b4c62b627fd",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "11wrfeetkSeYkFji_qjoSxf9Orbo4PEYJ",
+    "drive_name": "25 ធម៌ពួក ២ដល់ពួក៣ និងអដ្ឋកថា បិដកភាគ១៩ (បិដកលេខ ១៩).mp4",
+    "source_md5": "f192c26a2b69759aa4eccbd683f65176",
+    "key": "video/f192c26a2b69759a-480p.mp4",
+    "poster_key": "video/f192c26a2b69759a-480p.webp",
+    "rendition": "480p",
+    "bytes": 144697608,
+    "duration_s": 5357,
+    "src_duration_s": 5357,
+    "width": 854,
+    "height": 480,
+    "sha256": "dc9b389932101db6676bcad7e3e821eb49ca8be305f4ea30b9e761259b3ada4b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
