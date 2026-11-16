@@ -7834,5 +7834,21 @@
     "height": 480,
     "sha256": "0a63f1a4044b7d6245d17d3aaae591a2fd7b4e14b195af83c4c32a57c906afc3",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ucIlZC35N06BKNihUxt98DBx3GMX87XM",
+    "drive_name": "១៧ មហាតណ្ហាសង្ខយសូត្រទី៨ សម្តែងពីបដិច្ចសមុប្បាទធម៌ (បិដកលេខ ២២).mp4",
+    "source_md5": "ecc3f9ad5da0f543c8c5d866418e2b3d",
+    "key": "video/ecc3f9ad5da0f543-480p.mp4",
+    "poster_key": "video/ecc3f9ad5da0f543-480p.webp",
+    "rendition": "480p",
+    "bytes": 153298273,
+    "duration_s": 6923,
+    "src_duration_s": 6923,
+    "width": 854,
+    "height": 480,
+    "sha256": "54a5b77776b4cb84c0eb25523c09f9fcc8c309078a50ccdc1d611ae6ac312d7e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
