@@ -15070,5 +15070,21 @@
     "height": 480,
     "sha256": "d48f743987eb8b2e9fbec95b8f85cf040cc30c301c0dc09976b9a49bccf8f5a5",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1VLBhvddEkSFiJ2EckWQsCzGv9CAOG-Bf",
+    "drive_name": "29-Ñāṇa-22Aug_2026.mp4",
+    "source_md5": "ed1c1148d3c4a80548eabe9dd8373694",
+    "key": "video/ed1c1148d3c4a805-480p.mp4",
+    "poster_key": "video/ed1c1148d3c4a805-480p.webp",
+    "rendition": "480p",
+    "bytes": 109730646,
+    "duration_s": 4331,
+    "src_duration_s": 4331,
+    "width": 854,
+    "height": 480,
+    "sha256": "9f61d6808ab2876697032ca515aca2d452c1af9c09f778c474fd2980223692b1",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
