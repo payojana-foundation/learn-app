@@ -8074,5 +8074,21 @@
     "height": 480,
     "sha256": "662677ce1529c75f25894366b12f8d683bcb1909f1b0125dfa835d373781f2d2",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1lLm3bF-nNGaI04mZ71MEHvxOeuAFCGPj",
+    "drive_name": "០៣ អលគទ្ទូបមសូត្រ អរិដ្ឋភិក្ខុមានទិដ្ឋិអាក្រក់ (បិដកលេខ ២១).mp4",
+    "source_md5": "a730859ec55177cffd14d8eded1cbe81",
+    "key": "video/a730859ec55177cf-480p.mp4",
+    "poster_key": "video/a730859ec55177cf-480p.webp",
+    "rendition": "480p",
+    "bytes": 151632416,
+    "duration_s": 6962,
+    "src_duration_s": 6962,
+    "width": 854,
+    "height": 480,
+    "sha256": "837ed87e4c8083cc2c5ac45b3aa69d769aeb7f0dc328ac028e722d4834e29cf9",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
