@@ -10682,5 +10682,21 @@
     "height": 480,
     "sha256": "02e84c3e4a1c79472802b2f6f1eebd013847bc79d251a7832c1e5a26cfa3750c",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1A3wKDHoCiU7G9igxC2DaDOiZMr5Q36ZU",
+    "drive_name": "១១ ហេតុ៦ប្រការ​ឱ្យកេីតអសង្ខារិកៈ និង​សសង្ខារិកៈ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ១១ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "76c700a8043423992129e3eef17e2fdb",
+    "key": "video/76c700a804342399-480p.mp4",
+    "poster_key": "video/76c700a804342399-480p.webp",
+    "rendition": "480p",
+    "bytes": 74103755,
+    "duration_s": 3698,
+    "src_duration_s": 3698,
+    "width": 854,
+    "height": 480,
+    "sha256": "7977ed51bde00f86bc51dbd044b92ac52b86e925e5c60a3322bb3df476dfd639",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
