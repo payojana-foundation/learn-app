@@ -9802,5 +9802,21 @@
     "height": 480,
     "sha256": "845164eef1864364e314085e81ca91a5a95216c09da3137a79383e4fb045f843",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1F2pHtEhrcvPSy3_88U1tqlZ9y7GugN5I",
+    "drive_name": "5.mp4",
+    "source_md5": "262b9d9ebc2f619d2ead151dbb45a89a",
+    "key": "video/262b9d9ebc2f619d-480p.mp4",
+    "poster_key": "video/262b9d9ebc2f619d-480p.webp",
+    "rendition": "480p",
+    "bytes": 66107845,
+    "duration_s": 1977,
+    "src_duration_s": 1977,
+    "width": 640,
+    "height": 360,
+    "sha256": "e6b77eea844003abb00b66e5665ea8637c1825b379770d5deb440307417ed63b",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
