@@ -5994,5 +5994,21 @@
     "height": 480,
     "sha256": "26d478c26d8a145600029e7ab1330ab2d20ae8763aa774b1a9b8b7c4a21884c5",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1OADArN-9E7RQMsG0yyGAOAiGcCRxB4Wv",
+    "drive_name": "៥៨ រូបវិថី តារាងទី២ ជីវិតនកកលាប ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី៤.mp4",
+    "source_md5": "2caebf89bd34357c03fa36b15657e1c7",
+    "key": "video/2caebf89bd34357c-480p.mp4",
+    "poster_key": "video/2caebf89bd34357c-480p.webp",
+    "rendition": "480p",
+    "bytes": 74636090,
+    "duration_s": 3980,
+    "src_duration_s": 3980,
+    "width": 854,
+    "height": 480,
+    "sha256": "8458b09e9c740d36ba24a1b4b2a4b22a921bc5b80095b8023b45221cd56c0435",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
