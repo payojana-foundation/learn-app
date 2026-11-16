@@ -16286,5 +16286,21 @@
     "height": 480,
     "sha256": "216431fae8e980e1dab7fa594821575dfd25182ecd603c4c0ebeedadedec6d52",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Sy9NiV5nN4wwhErwf8qJAheOQlEy6xPT",
+    "drive_name": "៨៣ អារម្មណ៍កម្មដ្ឋាន៤០ ដោយអាការៈ១០ និងសេចក្តីអធិប្បាយ លំដាប់នៃសមាធិ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៨៣ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "ede79327ede15fb68ffcd71862e4f5a7",
+    "key": "video/ede79327ede15fb6-480p.mp4",
+    "poster_key": "video/ede79327ede15fb6-480p.webp",
+    "rendition": "480p",
+    "bytes": 76554556,
+    "duration_s": 3444,
+    "src_duration_s": 3444,
+    "width": 854,
+    "height": 480,
+    "sha256": "791956cf18b8f2b6975591fb32fe0bec28e8add7d8d2ca0261c6e86f301bcf17",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
