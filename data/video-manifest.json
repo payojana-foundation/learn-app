@@ -8202,5 +8202,21 @@
     "height": 480,
     "sha256": "b538268657651473458e2a90c93d80e4bdeae9bbd40134e7d503ad76d9a49ae6",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1ptThKtf4uR1Cb_D6f1XkzhVkm8M6W2Lr",
+    "drive_name": "10 សរុបសេចក្តីបញ្ចប់ក្នុងមហាសមយសូត្រ (បិដកលេខ ១៧).mp4",
+    "source_md5": "5d639e9d8d95decdb0adb44013844af8",
+    "key": "video/5d639e9d8d95decd-480p.mp4",
+    "poster_key": "video/5d639e9d8d95decd-480p.webp",
+    "rendition": "480p",
+    "bytes": 166281248,
+    "duration_s": 5440,
+    "src_duration_s": 5440,
+    "width": 854,
+    "height": 480,
+    "sha256": "a4f68d859112e73b41d3aca6c529655c9f10864d626d5c0b3331dccbd0a7a0b6",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
