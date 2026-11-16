@@ -6522,5 +6522,21 @@
     "height": 480,
     "sha256": "0f1572ddc93eefe87d4ff94df00ba09542d9552822ed8978350c175344886533",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "11bsGwAakbmdXtCpOD6S_5E_0a7ChovRb",
+    "drive_name": "៦៣_រូបវិថី_តារាងទី៩_ស្លាប់តាមមនោទ្វារ_តារាងទី១០ភិក្ខុអគ្គចិត្តោ.mp4",
+    "source_md5": "18b97dadfaaed03d5a3cab9adff813ea",
+    "key": "video/18b97dadfaaed03d-480p.mp4",
+    "poster_key": "video/18b97dadfaaed03d-480p.webp",
+    "rendition": "480p",
+    "bytes": 86548097,
+    "duration_s": 4472,
+    "src_duration_s": 4472,
+    "width": 854,
+    "height": 480,
+    "sha256": "da5d37f7244e30f4cf6c3cad9104b9a761bc43a36196f9ab219bf93b3ef6cb3d",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
