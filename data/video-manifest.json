@@ -5770,5 +5770,21 @@
     "height": 480,
     "sha256": "9aae215a954088f090c24113421836300499e23776e561b8c5e1a9054ef5368a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1dHaEffdGmL1GhZT5iZS_WEg4jixhZNJf",
+    "drive_name": "៤៤ និយមន័យមោហមូលចិត្ត ២ ដួង (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "acd065719dd52f43e3629836479ff092",
+    "key": "video/acd065719dd52f43-480p.mp4",
+    "poster_key": "video/acd065719dd52f43-480p.webp",
+    "rendition": "480p",
+    "bytes": 83490104,
+    "duration_s": 4677,
+    "src_duration_s": 4677,
+    "width": 854,
+    "height": 480,
+    "sha256": "994727eeb8a9442d00788917808b07a96c252e0fdc85a5a7b24681818cf7cd11",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
