@@ -10314,5 +10314,21 @@
     "height": 480,
     "sha256": "fac74fa4be3eecd7ce5321087bd936c5d3870f982a2b6e8f5d4e03469165ff9e",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1tYAKpIt0Y-jU_02WTwXptXoKgbz-xe-X",
+    "drive_name": "២៣ មហាហត្ថិបទោបមសូត្រ ការលះបង់នូវសេចក្តីប្រកាន់ក្នុងធាតុ (បិដកលេខ ២១).mp4",
+    "source_md5": "1f4fa9053c5e278076693ddb07da5ae5",
+    "key": "video/1f4fa9053c5e2780-480p.mp4",
+    "poster_key": "video/1f4fa9053c5e2780-480p.webp",
+    "rendition": "480p",
+    "bytes": 169872771,
+    "duration_s": 7177,
+    "src_duration_s": 7177,
+    "width": 854,
+    "height": 480,
+    "sha256": "245fb5784d809d448bf02398b05bb261927e4fe090a70d4e96c88255e8cf59e1",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
