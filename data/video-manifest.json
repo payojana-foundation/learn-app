@@ -15102,5 +15102,21 @@
     "height": 480,
     "sha256": "aa87c57b24e437fe488ead5356eed6cbe77a2f73482ebf6214c6f66182a18345",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1wX2Or5hWJsvmz4roa3aSPyGBLiJPq5CM",
+    "drive_name": "៦៦ ចែកមហាកុសល៨ ដោយន័យ១៤ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៦៦ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "4f194efee2dac50acbeb11988a8c7786",
+    "key": "video/4f194efee2dac50a-480p.mp4",
+    "poster_key": "video/4f194efee2dac50a-480p.webp",
+    "rendition": "480p",
+    "bytes": 68050956,
+    "duration_s": 3636,
+    "src_duration_s": 3636,
+    "width": 854,
+    "height": 480,
+    "sha256": "4cb8226cb31de6e90b41d5beb4ec375d6c8f2de81a5110d2c3385cd158dbf409",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
