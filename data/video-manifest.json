@@ -10506,5 +10506,21 @@
     "height": 480,
     "sha256": "0a436e5501f2831724bba19374f97d999cde7302f01d20bd924e101c4c36c510",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1Mlrpw7a09Qx42Pe3Tz0BhLSjNwu0nlRD",
+    "drive_name": "០៨ អធិប្បាយលោភមូលចិត្ត​ ៨ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី៨ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "97f17f1f42579f5bfb73373fd3c27ed3",
+    "key": "video/97f17f1f42579f5b-480p.mp4",
+    "poster_key": "video/97f17f1f42579f5b-480p.webp",
+    "rendition": "480p",
+    "bytes": 59369807,
+    "duration_s": 2993,
+    "src_duration_s": 2993,
+    "width": 854,
+    "height": 480,
+    "sha256": "1e5de9e83cbfb5968ba32a0652393e850caacd554d5b5469c357bdc699bd5960",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
