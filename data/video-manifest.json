@@ -8538,5 +8538,21 @@
     "height": 480,
     "sha256": "b9ffbb08af8af00a0999b08d65bf20ce7c46fbcbbd565c298ce994a025856d5f",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "19-gl6PL7G_4zKcNFzb0xK4QVhd_k_d0P",
+    "drive_name": "23 ការរួចចាកកិលេសបញ្ចប់វត្ថូបមសូត្រ (បិដកលេខ ២០).mp4",
+    "source_md5": "017ca5c253f5be603984af40c3c4874e",
+    "key": "video/017ca5c253f5be60-480p.mp4",
+    "poster_key": "video/017ca5c253f5be60-480p.webp",
+    "rendition": "480p",
+    "bytes": 135432595,
+    "duration_s": 5112,
+    "src_duration_s": 5112,
+    "width": 854,
+    "height": 480,
+    "sha256": "5d4de19c5d43dcd567ae26b0ee45b5afaf68867fb6fa2f17b3797daef194ae1f",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
