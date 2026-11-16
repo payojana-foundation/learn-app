@@ -15582,5 +15582,21 @@
     "height": 480,
     "sha256": "8dba060f02ec7fa38cc0891bf3c961f721f8111b393faf00513dfbbbe0bb9a4a",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1I9vAlg2Phgbqe9RAEd1SQEG-2OrtilkH",
+    "drive_name": "៧៣ ចែកមហាកិរិយាចិត្ត៨ដួង ដោយន័យ១៤ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧៣ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "c73d0db443eea5081ef532db80851951",
+    "key": "video/c73d0db443eea508-480p.mp4",
+    "poster_key": "video/c73d0db443eea508-480p.webp",
+    "rendition": "480p",
+    "bytes": 77429336,
+    "duration_s": 3624,
+    "src_duration_s": 3624,
+    "width": 854,
+    "height": 480,
+    "sha256": "72ec05b69e1386d7816fcd6cd3fba97d59934b9464f163e8f6ee514b61922ef0",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
