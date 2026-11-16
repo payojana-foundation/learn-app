@@ -146,7 +146,12 @@
           "src": "audio/044c960cce3b874e-a64.mp3",
           "duration_s": 4895
         }
-      ]
+      ],
+      "video": {
+        "src": "video/e8ebf4d169512b26-480p.mp4",
+        "poster": "video/e8ebf4d169512b26-480p.webp",
+        "duration_s": 4912
+      }
     },
     {
       "id": "AENGSR0000110",
@@ -159,7 +164,12 @@
           "src": "audio/11e2cf5636632f7a-a64.mp3",
           "duration_s": 4642
         }
-      ]
+      ],
+      "video": {
+        "src": "video/fc4954d429a3a59d-480p.mp4",
+        "poster": "video/fc4954d429a3a59d-480p.webp",
+        "duration_s": 4659
+      }
     },
     {
       "id": "AENGSR0000111",
@@ -172,7 +182,12 @@
           "src": "audio/ac076bdcfc628a26-a64.mp3",
           "duration_s": 4956
         }
-      ]
+      ],
+      "video": {
+        "src": "video/6b6496d3887c3fd9-480p.mp4",
+        "poster": "video/6b6496d3887c3fd9-480p.webp",
+        "duration_s": 4972
+      }
     },
     {
       "id": "AENGSR0000112",
@@ -185,7 +200,12 @@
           "src": "audio/fbe970f34224b77c-a64.mp3",
           "duration_s": 4201
         }
-      ]
+      ],
+      "video": {
+        "src": "video/1a5a50bd12881dfb-480p.mp4",
+        "poster": "video/1a5a50bd12881dfb-480p.webp",
+        "duration_s": 4218
+      }
     },
     {
       "id": "AENGSR0000113",
@@ -198,7 +218,12 @@
           "src": "audio/f651929efb08b814-a64.mp3",
           "duration_s": 4510
         }
-      ]
+      ],
+      "video": {
+        "src": "video/a61a1ce29d1afc11-480p.mp4",
+        "poster": "video/a61a1ce29d1afc11-480p.webp",
+        "duration_s": 4527
+      }
     },
     {
       "id": "AENGSR0000114",
@@ -211,7 +236,12 @@
           "src": "audio/4fb986022189bcd5-a64.mp3",
           "duration_s": 3886
         }
-      ]
+      ],
+      "video": {
+        "src": "video/4da12cf026fbc6bf-480p.mp4",
+        "poster": "video/4da12cf026fbc6bf-480p.webp",
+        "duration_s": 3902
+      }
     },
     {
       "id": "AENGSR0000115",
@@ -224,7 +254,12 @@
           "src": "audio/4928f7618d4d6f0a-a64.mp3",
           "duration_s": 4485
         }
-      ]
+      ],
+      "video": {
+        "src": "video/c8ce5cd3b4711b91-480p.mp4",
+        "poster": "video/c8ce5cd3b4711b91-480p.webp",
+        "duration_s": 4501
+      }
     },
     {
       "id": "AENGSR0000116",
@@ -237,7 +272,12 @@
           "src": "audio/75f99e1b9826c563-a64.mp3",
           "duration_s": 4913
         }
-      ]
+      ],
+      "video": {
+        "src": "video/8e49441abfb14a19-480p.mp4",
+        "poster": "video/8e49441abfb14a19-480p.webp",
+        "duration_s": 4930
+      }
     },
     {
       "id": "AENGSR0000117",
@@ -250,7 +290,12 @@
           "src": "audio/3a4c949c49c9a154-a64.mp3",
           "duration_s": 4220
         }
-      ]
+      ],
+      "video": {
+        "src": "video/6f50cbecdc2b3ec0-480p.mp4",
+        "poster": "video/6f50cbecdc2b3ec0-480p.webp",
+        "duration_s": 4236
+      }
     },
     {
       "id": "AENGSR0000118",
@@ -263,7 +308,12 @@
           "src": "audio/caeb51aabe2b33d3-a64.mp3",
           "duration_s": 4514
         }
-      ]
+      ],
+      "video": {
+        "src": "video/627dbb2c3847d79f-480p.mp4",
+        "poster": "video/627dbb2c3847d79f-480p.webp",
+        "duration_s": 4531
+      }
     },
     {
       "id": "AENGSR0000119",
@@ -276,7 +326,12 @@
           "src": "audio/d08c72a8c9bf08a7-a64.mp3",
           "duration_s": 4952
         }
-      ]
+      ],
+      "video": {
+        "src": "video/23ae49a10da0cb28-480p.mp4",
+        "poster": "video/23ae49a10da0cb28-480p.webp",
+        "duration_s": 4968
+      }
     },
     {
       "id": "AENGSR0000120",
@@ -289,7 +344,12 @@
           "src": "audio/ff30dd44b1e59ee4-a64.mp3",
           "duration_s": 1919
         }
-      ]
+      ],
+      "video": {
+        "src": "video/b23a17580ecb9bc3-480p.mp4",
+        "poster": "video/b23a17580ecb9bc3-480p.webp",
+        "duration_s": 1936
+      }
     }
   ]
 }

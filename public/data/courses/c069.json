@@ -20,7 +20,12 @@
           "src": "audio/6953dca50a2d28a1-a64.mp3",
           "duration_s": 4704
         }
-      ]
+      ],
+      "video": {
+        "src": "video/cd8e79200d9025eb-480p.mp4",
+        "poster": "video/cd8e79200d9025eb-480p.webp",
+        "duration_s": 4720
+      }
     }
   ]
 }

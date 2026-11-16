@@ -590,7 +590,8 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "has_video": true
     },
     {
       "id": "c070",
@@ -725,7 +726,8 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "has_video": true
     },
     {
       "id": "c083",

@@ -434,7 +434,12 @@
           "src": "audio/f428b7c78e15eef4-a64.mp3",
           "duration_s": 6589
         }
-      ]
+      ],
+      "video": {
+        "src": "video/41cd4319a98707ad-480p.mp4",
+        "poster": "video/41cd4319a98707ad-480p.webp",
+        "duration_s": 5873
+      }
     },
     {
       "id": "AVIN000PN0625",
@@ -447,7 +452,12 @@
           "src": "audio/5defcabbcb521e41-a64.mp3",
           "duration_s": 4942
         }
-      ]
+      ],
+      "video": {
+        "src": "video/2371aaa45efab0d0-480p.mp4",
+        "poster": "video/2371aaa45efab0d0-480p.webp",
+        "duration_s": 4907
+      }
     },
     {
       "id": "AVIN000PN0626",
@@ -460,7 +470,12 @@
           "src": "audio/a963234e84d09c63-a64.mp3",
           "duration_s": 5255
         }
-      ]
+      ],
+      "video": {
+        "src": "video/b31065d71ba2e516-480p.mp4",
+        "poster": "video/b31065d71ba2e516-480p.webp",
+        "duration_s": 5174
+      }
     },
     {
       "id": "AVIN000PN0627",
@@ -473,7 +488,12 @@
           "src": "audio/96dc8108cd46bb0d-a64.mp3",
           "duration_s": 6479
         }
-      ]
+      ],
+      "video": {
+        "src": "video/05b8518893dcec73-480p.mp4",
+        "poster": "video/05b8518893dcec73-480p.webp",
+        "duration_s": 6410
+      }
     },
     {
       "id": "AVIN000PN0628",
@@ -486,7 +506,12 @@
           "src": "audio/2344f8e3f79fb090-a64.mp3",
           "duration_s": 3683
         }
-      ]
+      ],
+      "video": {
+        "src": "video/8289f8cc4bb52a46-480p.mp4",
+        "poster": "video/8289f8cc4bb52a46-480p.webp",
+        "duration_s": 3556
+      }
     },
     {
       "id": "AVIN000PN0629",
@@ -499,7 +524,12 @@
           "src": "audio/5c8943e733efeb40-a64.mp3",
           "duration_s": 6797
         }
-      ]
+      ],
+      "video": {
+        "src": "video/363d432c9c67c90c-480p.mp4",
+        "poster": "video/363d432c9c67c90c-480p.webp",
+        "duration_s": 6250
+      }
     },
     {
       "id": "AVIN000PN0630",
@@ -512,7 +542,12 @@
           "src": "audio/4798278d39bcb2f1-a64.mp3",
           "duration_s": 6787
         }
-      ]
+      ],
+      "video": {
+        "src": "video/432e46f5c5d92dc5-480p.mp4",
+        "poster": "video/432e46f5c5d92dc5-480p.webp",
+        "duration_s": 6588
+      }
     },
     {
       "id": "AVIN000PN0631",
@@ -525,7 +560,12 @@
           "src": "audio/2ee86d6273cfa3d1-a64.mp3",
           "duration_s": 4994
         }
-      ]
+      ],
+      "video": {
+        "src": "video/d1fb98a3a1a32ec4-480p.mp4",
+        "poster": "video/d1fb98a3a1a32ec4-480p.webp",
+        "duration_s": 4958
+      }
     },
     {
       "id": "AVIN000PN0632",
@@ -538,7 +578,12 @@
           "src": "audio/a9d672e83a5009c1-a64.mp3",
           "duration_s": 7097
         }
-      ]
+      ],
+      "video": {
+        "src": "video/1d921cbdeaad5d8a-480p.mp4",
+        "poster": "video/1d921cbdeaad5d8a-480p.webp",
+        "duration_s": 7067
+      }
     },
     {
       "id": "AVIN000PN0633",
@@ -551,7 +596,12 @@
           "src": "audio/0e417fa069e15059-a64.mp3",
           "duration_s": 2992
         }
-      ]
+      ],
+      "video": {
+        "src": "video/ac68c323a76d4df4-480p.mp4",
+        "poster": "video/ac68c323a76d4df4-480p.webp",
+        "duration_s": 2940
+      }
     },
     {
       "id": "AVIN000PN0634",
@@ -564,7 +614,12 @@
           "src": "audio/0aafa824aafdc161-a64.mp3",
           "duration_s": 6968
         }
-      ]
+      ],
+      "video": {
+        "src": "video/467a7f1dd8ae30e3-480p.mp4",
+        "poster": "video/467a7f1dd8ae30e3-480p.webp",
+        "duration_s": 6915
+      }
     },
     {
       "id": "AVIN000PN0635",
@@ -577,7 +632,12 @@
           "src": "audio/7bda85aeba909d59-a64.mp3",
           "duration_s": 6049
         }
-      ]
+      ],
+      "video": {
+        "src": "video/694f2dde692e6477-480p.mp4",
+        "poster": "video/694f2dde692e6477-480p.webp",
+        "duration_s": 6023
+      }
     },
     {
       "id": "AVIN000PN0636",
@@ -590,7 +650,12 @@
           "src": "audio/708b67abfc179780-a64.mp3",
           "duration_s": 6239
         }
-      ]
+      ],
+      "video": {
+        "src": "video/eb98b967056c1814-480p.mp4",
+        "poster": "video/eb98b967056c1814-480p.webp",
+        "duration_s": 5934
+      }
     },
     {
       "id": "AVIN000PN0637",
@@ -603,7 +668,12 @@
           "src": "audio/11e7423186744906-a64.mp3",
           "duration_s": 6309
         }
-      ]
+      ],
+      "video": {
+        "src": "video/2bdd72bc54fee262-480p.mp4",
+        "poster": "video/2bdd72bc54fee262-480p.webp",
+        "duration_s": 6014
+      }
     },
     {
       "id": "AVIN000PN0638",
@@ -616,7 +686,12 @@
           "src": "audio/a987efdcabb52402-a64.mp3",
           "duration_s": 6097
         }
-      ]
+      ],
+      "video": {
+        "src": "video/a995bb31c3846fd4-480p.mp4",
+        "poster": "video/a995bb31c3846fd4-480p.webp",
+        "duration_s": 5557
+      }
     },
     {
       "id": "AVIN000PN0639",
@@ -629,7 +704,12 @@
           "src": "audio/d4232449de8fb4f1-a64.mp3",
           "duration_s": 6175
         }
-      ]
+      ],
+      "video": {
+        "src": "video/2ac7b19474d22ab6-480p.mp4",
+        "poster": "video/2ac7b19474d22ab6-480p.webp",
+        "duration_s": 5995
+      }
     },
     {
       "id": "AVIN000PN0640",
@@ -642,7 +722,12 @@
           "src": "audio/14c5b246e88c9b8d-a64.mp3",
           "duration_s": 6325
         }
-      ]
+      ],
+      "video": {
+        "src": "video/a3759f0aeab24b8c-480p.mp4",
+        "poster": "video/a3759f0aeab24b8c-480p.webp",
+        "duration_s": 5989
+      }
     },
     {
       "id": "AVIN000PN0641",
@@ -655,7 +740,12 @@
           "src": "audio/8b95967cf5cfb2ba-a64.mp3",
           "duration_s": 6502
         }
-      ]
+      ],
+      "video": {
+        "src": "video/f6e09823ba7a4dbe-480p.mp4",
+        "poster": "video/f6e09823ba7a4dbe-480p.webp",
+        "duration_s": 6414
+      }
     },
     {
       "id": "AVIN000PN0642",
@@ -668,7 +758,12 @@
           "src": "audio/9a8afa300a864ef2-a64.mp3",
           "duration_s": 6548
         }
-      ]
+      ],
+      "video": {
+        "src": "video/bd304684938df57b-480p.mp4",
+        "poster": "video/bd304684938df57b-480p.webp",
+        "duration_s": 4865
+      }
     },
     {
       "id": "AVIN000PN0644",
@@ -681,7 +776,12 @@
           "src": "audio/0d34eb64e38d7e15-a64.mp3",
           "duration_s": 6286
         }
-      ]
+      ],
+      "video": {
+        "src": "video/e14f09bcd62466a0-480p.mp4",
+        "poster": "video/e14f09bcd62466a0-480p.webp",
+        "duration_s": 5153
+      }
     },
     {
       "id": "AVIN000PN0648",
@@ -694,7 +794,12 @@
           "src": "audio/fc8d68b9dbc8020e-a64.mp3",
           "duration_s": 6719
         }
-      ]
+      ],
+      "video": {
+        "src": "video/9dbd3fe96eeb9463-480p.mp4",
+        "poster": "video/9dbd3fe96eeb9463-480p.webp",
+        "duration_s": 6683
+      }
     },
     {
       "id": "AVIN000PN0649",
