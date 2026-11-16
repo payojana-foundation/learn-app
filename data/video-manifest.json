@@ -4382,5 +4382,21 @@
     "height": 480,
     "sha256": "4c197156081d406c5b884e67cff2b2c1f320a7cf5af6a58a8881967e8e04cd59",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1OLCjP_paw17JrpdTSR1syF_P9ehHUCYL",
+    "drive_name": "២៧_កិច្ចសង្គហ_ឋានរបស់ចិត្តបដិសន្ធិស្ថាន (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "6bcdcb66deef4da8bb3b47ac26a451f5",
+    "key": "video/6bcdcb66deef4da8-480p.mp4",
+    "poster_key": "video/6bcdcb66deef4da8-480p.webp",
+    "rendition": "480p",
+    "bytes": 68641154,
+    "duration_s": 3392,
+    "src_duration_s": 3392,
+    "width": 854,
+    "height": 480,
+    "sha256": "38b7a1a57756c7c7438b059d9b4fdbe56e687f898b1dea4f5815904bbeeacc63",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
