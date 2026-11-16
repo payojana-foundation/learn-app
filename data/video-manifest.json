@@ -14878,5 +14878,21 @@
     "height": 480,
     "sha256": "beac320e4f971ea3aad6509c251256b2dd8b9dfe5063f30cab03bacce391cd81",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1-iY4-WPMVTFFPlJgZuHHzIBhaapoCaWb",
+    "drive_name": "8-Buddhism in English Level 2.mp4",
+    "source_md5": "cf38c8e318c1c6efb16968762f22860c",
+    "key": "video/cf38c8e318c1c6ef-480p.mp4",
+    "poster_key": "video/cf38c8e318c1c6ef-480p.webp",
+    "rendition": "480p",
+    "bytes": 90172577,
+    "duration_s": 4185,
+    "src_duration_s": 4185,
+    "width": 854,
+    "height": 480,
+    "sha256": "6c111f33b4d48621acb5aa6f420447eee91f15b5069d099a40f88c6f6a697001",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
