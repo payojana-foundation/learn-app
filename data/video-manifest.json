@@ -8314,5 +8314,21 @@
     "height": 480,
     "sha256": "7303a21e6974d969f232a38a291daeb46cfd6048d8ba0e3e362eafd776607db7",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1cGohUTUFmfEq75SybJBxNxbHbxqwepwu",
+    "drive_name": "17 សង្គីតិសូត្រ បញ្ចកនិទ្ទេស ធម៌ពួក ៥ (បិដកលេខ ១៩).mp4",
+    "source_md5": "4280a535a39f093d514346f677e6b3bf",
+    "key": "video/4280a535a39f093d-480p.mp4",
+    "poster_key": "video/4280a535a39f093d-480p.webp",
+    "rendition": "480p",
+    "bytes": 136773983,
+    "duration_s": 5388,
+    "src_duration_s": 5388,
+    "width": 854,
+    "height": 480,
+    "sha256": "cd7a71170e910cc4b1d2379cc6d03b6817341767714f4a32854af39b942c6111",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
