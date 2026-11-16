@@ -16014,5 +16014,21 @@
     "height": 480,
     "sha256": "40291d4e95f11925f78d4565fd322f9c990bc6c33c507de7e0d13a1ec24849b9",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1cKraP8kygsR9sqpRFL8iaQdPqN7xZCWy",
+    "drive_name": "៧៩ អារម្មណ៍កម្មដ្ឋាន៤០ កសិណ១០ អសុភ១០ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧៩ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "bbbd8019ac7ced96787c49e7545eee9c",
+    "key": "video/bbbd8019ac7ced96-480p.mp4",
+    "poster_key": "video/bbbd8019ac7ced96-480p.webp",
+    "rendition": "480p",
+    "bytes": 64750675,
+    "duration_s": 3460,
+    "src_duration_s": 3460,
+    "width": 854,
+    "height": 480,
+    "sha256": "f84776cbddd5b0f96d344e0aeaf1c6b8d2096b0eafc538390de1fd1db32c00c9",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
