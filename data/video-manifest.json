@@ -9018,5 +9018,21 @@
     "height": 480,
     "sha256": "6151ce0ce8c1765c32ae58ec7d43d079a35a94bdba170c378641c4fdeee4bade",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1LDDt5PTBkDQoolW_AVdJ9V-pLMdAtOU9",
+    "drive_name": "16 សតិប្បដ្ឋានសូត្រភាគ ១ (បិដកលេខ ១៧).mp4",
+    "source_md5": "bf173530c98723a18ff888e42e456e11",
+    "key": "video/bf173530c98723a1-480p.mp4",
+    "poster_key": "video/bf173530c98723a1-480p.webp",
+    "rendition": "480p",
+    "bytes": 139738328,
+    "duration_s": 5245,
+    "src_duration_s": 5245,
+    "width": 854,
+    "height": 480,
+    "sha256": "220272db80eb0043d8beb8481c3a81a47000ba9f68682df6ac31500dfccf5138",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
