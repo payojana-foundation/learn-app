@@ -8506,5 +8506,21 @@
     "height": 480,
     "sha256": "b73ffc04ad2c1c37b664697d57e795f61f6cd040cae5fe5b055f7303c1b610b3",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1PKFBmxqV5SpXgSNGqlXRi7OLGrK5SS1U",
+    "drive_name": "២៥ មហាវេទល្លសូត្រទី៣ សួរអំពីវេទនា សញ្ញា វិញ្ញាផ្សេងគ្នាឬទេ (បិដកលេខ ២២).mp4",
+    "source_md5": "be751bc3829077c90a4a0536acebe917",
+    "key": "video/be751bc3829077c9-480p.mp4",
+    "poster_key": "video/be751bc3829077c9-480p.webp",
+    "rendition": "480p",
+    "bytes": 150880478,
+    "duration_s": 7052,
+    "src_duration_s": 7052,
+    "width": 854,
+    "height": 480,
+    "sha256": "47571dda178630781cb875e2a490a0a432c510a762b797021e269ddfe647a71e",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
