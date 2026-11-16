@@ -8954,5 +8954,21 @@
     "height": 480,
     "sha256": "6ec676f78d6eb912a3a3ed24aa2b880a6e174468b87521314cb83b4d10ba36ce",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1wcHeIo3JzLhr7Ri7y3lYlymFxtHTabSb",
+    "drive_name": "24 បញ្ចប់សង្គីតិសូត្របិដកភាគ១៩ (បិដកលេខ ១៩).mp4",
+    "source_md5": "05317568357a8ee865b355de8df07609",
+    "key": "video/05317568357a8ee8-480p.mp4",
+    "poster_key": "video/05317568357a8ee8-480p.webp",
+    "rendition": "480p",
+    "bytes": 145832924,
+    "duration_s": 5285,
+    "src_duration_s": 5285,
+    "width": 854,
+    "height": 480,
+    "sha256": "27c113ebfa029588cdd774215bac1b09c0275961dc741c5f1195d28b34e82b67",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
