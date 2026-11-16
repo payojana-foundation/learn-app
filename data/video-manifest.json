@@ -16030,5 +16030,21 @@
     "height": 480,
     "sha256": "f84776cbddd5b0f96d344e0aeaf1c6b8d2096b0eafc538390de1fd1db32c00c9",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1wsUR8AdD5nATTcxwEVaRvQTgQ-9Bg6M4",
+    "drive_name": "24.) ,27May2025 Tuesday.mp4",
+    "source_md5": "ea8c1d1ef5697abc2e1702f0d7ba9558",
+    "key": "video/ea8c1d1ef5697abc-480p.mp4",
+    "poster_key": "video/ea8c1d1ef5697abc-480p.webp",
+    "rendition": "480p",
+    "bytes": 67240851,
+    "duration_s": 3535,
+    "src_duration_s": 3535,
+    "width": 854,
+    "height": 480,
+    "sha256": "4fd7de2e35c39702c0f40b3f02654fb5f6a4656e3c8034485fed1aab5c579427",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
