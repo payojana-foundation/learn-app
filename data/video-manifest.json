@@ -5466,5 +5466,21 @@
     "height": 480,
     "sha256": "ab450c48506b771885fd5ff667981439c2d021e9fcbe123ffd8edbbf6f7674c8",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "16EgIkzXPQkv3tVKmgjvmSQw-MfF9wtPz",
+    "drive_name": "៣១ ទ្វារសង្គហ ចែកចិត្តកើតតាមទ្វារទាំង៦ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "49d5eb42e234448fd408472ae8f9a1f9",
+    "key": "video/49d5eb42e234448f-480p.mp4",
+    "poster_key": "video/49d5eb42e234448f-480p.webp",
+    "rendition": "480p",
+    "bytes": 92490798,
+    "duration_s": 4815,
+    "src_duration_s": 4815,
+    "width": 854,
+    "height": 480,
+    "sha256": "e02905667259a532b78a6615cf7498fc0bb11bb278a017fcfbb0afddc142f81a",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
