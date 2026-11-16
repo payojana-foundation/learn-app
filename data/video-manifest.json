@@ -4238,5 +4238,21 @@
     "height": 480,
     "sha256": "251291c3e53c1c91050533c0fc3500bdb345fe3054c594e692897fd7d94b674b",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1yeQIhioZEFp82MfpB4kuPbERleiEhl8S",
+    "drive_name": "៣៦ សទ្ធាចេតសិក លក្ខណៈសំគាល់របស់អ្នកមានសទ្ធា៣យ៉ាង (បរិច្ឆេទ​ ទី២ ឆ្នាំ ២០២៤).mp4",
+    "source_md5": "0cfad990e3dc6cad253fd89594c6b450",
+    "key": "video/0cfad990e3dc6cad-480p.mp4",
+    "poster_key": "video/0cfad990e3dc6cad-480p.webp",
+    "rendition": "480p",
+    "bytes": 87491640,
+    "duration_s": 4666,
+    "src_duration_s": 4666,
+    "width": 854,
+    "height": 480,
+    "sha256": "04854f253b750a79e0c3e486b81ba87fc1add8d18c2e9d53e3722dd73c254dec",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
