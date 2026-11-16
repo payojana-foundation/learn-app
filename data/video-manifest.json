@@ -11770,5 +11770,21 @@
     "height": 480,
     "sha256": "1d4d2dbb17e4d50c4411d5a17fca233f80da4f26a6344091ede4f533e5abb695",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1lkuwEoNIGEu7ghtWgxhwX48f5ksqD98a",
+    "drive_name": "២៨ មោហមូលចិត្ត ២ ដួង ចប់ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ២៨ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "5fe4a9fa8d341acebf21fca34a21bed1",
+    "key": "video/5fe4a9fa8d341ace-480p.mp4",
+    "poster_key": "video/5fe4a9fa8d341ace-480p.webp",
+    "rendition": "480p",
+    "bytes": 69790284,
+    "duration_s": 3531,
+    "src_duration_s": 3531,
+    "width": 854,
+    "height": 480,
+    "sha256": "d5d56e96d770b12720a223a6a38f015e06b0241808e04dfdd3e6fa9a835783a3",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
