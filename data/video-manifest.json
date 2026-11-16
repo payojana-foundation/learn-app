@@ -6042,5 +6042,21 @@
     "height": 480,
     "sha256": "f0990faf5104303a2e6cf7c6370c515d3da9082f729d15540af2d6e1b4736bf7",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1s2oAaA5vP5guwmf6AH4rQExHBHeMv12S",
+    "drive_name": "៥១ រូបបវត្តិក្កមន័យទី៤ ចែករូបតាមកាល៣ មានបដិសន្ធិកាលជាដើម (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "a923d46052a5a7a7aab302c7c6a9175a",
+    "key": "video/a923d46052a5a7a7-480p.mp4",
+    "poster_key": "video/a923d46052a5a7a7-480p.webp",
+    "rendition": "480p",
+    "bytes": 100603651,
+    "duration_s": 5306,
+    "src_duration_s": 5306,
+    "width": 854,
+    "height": 480,
+    "sha256": "20d2831d05add6b0b1b527127c711993a7127e1ca326aa1b54013186af073ab8",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
