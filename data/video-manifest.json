@@ -8682,5 +8682,21 @@
     "height": 480,
     "sha256": "6d19cc5520c642ef095263fe651a4154af5f6bf06f6a8bbc145b0688eaba9187",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1VKuiCIrazpjiwYWaLsUsN7yE0lwQAeOJ",
+    "drive_name": "០៩ រថវិនីតសូត្រ កថាវត្ថុ និងអ្នកបដិបត្តិ ៤ ប្រភេទ (បិដកលេខ ២១).mp4",
+    "source_md5": "5e41ff83b857232a458c20c3c36a61fb",
+    "key": "video/5e41ff83b857232a-480p.mp4",
+    "poster_key": "video/5e41ff83b857232a-480p.webp",
+    "rendition": "480p",
+    "bytes": 151408101,
+    "duration_s": 7249,
+    "src_duration_s": 7249,
+    "width": 854,
+    "height": 480,
+    "sha256": "4db495e7e73ab93eb8af2a200676cf60f2a7e09e47dd4dd8b3b4562f850f4003",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
