@@ -6298,5 +6298,21 @@
     "height": 480,
     "sha256": "5ec28f80753fbef77e0e51176d11544098652f5692771d08237b7a2c65b9c7c0",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1nOMvGllTysq5Og20C8QDx9_iJbvrMy8e",
+    "drive_name": "៣៦ អារម្មណសង្គហ ចែកទ្វារិកចិត្តនឹងអារម្មណ៍៦ (បរិច្ឆេទ ទី៣ ឆ្នាំ២០២៥).mp4",
+    "source_md5": "d7ef3c4e7a36c0252c5301efee9199dc",
+    "key": "video/d7ef3c4e7a36c025-480p.mp4",
+    "poster_key": "video/d7ef3c4e7a36c025-480p.webp",
+    "rendition": "480p",
+    "bytes": 112198252,
+    "duration_s": 5076,
+    "src_duration_s": 5076,
+    "width": 854,
+    "height": 480,
+    "sha256": "2042c31100f1b5afe5bc7a842a2fd5598906c51e6cbd965fff39c8a2d71e3749",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
