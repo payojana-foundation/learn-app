@@ -15934,5 +15934,21 @@
     "height": 480,
     "sha256": "739aefb1c3d2789648b35f2b3ce20cb16725ba2e2b3ce2ae4b0662017dd3c8d1",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1RrtpqSVjoSFY-y8zrxxCt2SeBh0CqMbf",
+    "drive_name": "៧៨  រូបាវចសោភណចិត្ត​ ១៥ដួង ការលះនីវរណធម៌៥យ៉ាង ឈានមាន២យ៉ាង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧៨ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "14b14193aaf993d41f2ab549e2fdfda5",
+    "key": "video/14b14193aaf993d4-480p.mp4",
+    "poster_key": "video/14b14193aaf993d4-480p.webp",
+    "rendition": "480p",
+    "bytes": 57343217,
+    "duration_s": 2815,
+    "src_duration_s": 2815,
+    "width": 854,
+    "height": 480,
+    "sha256": "2d0461faf39723418e753ed72ac0e251de4a7f70b6f6852f8e0439d418e45de0",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
