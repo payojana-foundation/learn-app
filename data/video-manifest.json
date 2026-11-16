@@ -6986,5 +6986,21 @@
     "height": 480,
     "sha256": "e6858f8b50dd71b2b5d4b5d8c903f399ccdd39308fb5914f2f6523a1ac30fcc4",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1vJCNHwG2SWVzzUlbOoPLP1w8Hf4WgY9r",
+    "drive_name": "04 ភាពផ្សេងគ្នារបស់ព្រះពុទ្ធគ្រប់អង្គ (បិដកលេខ ១៦).mp4",
+    "source_md5": "18fcc5ab3457ac4a27b46338f11ee15f",
+    "key": "video/18fcc5ab3457ac4a-480p.mp4",
+    "poster_key": "video/18fcc5ab3457ac4a-480p.webp",
+    "rendition": "480p",
+    "bytes": 156021715,
+    "duration_s": 4302,
+    "src_duration_s": 4302,
+    "width": 854,
+    "height": 480,
+    "sha256": "120535aad25a88f66f0e769944113e3ffac6650c32bd139eef4a151dad01680d",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
