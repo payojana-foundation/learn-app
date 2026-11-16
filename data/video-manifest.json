@@ -10954,5 +10954,21 @@
     "height": 480,
     "sha256": "989d9076fde7cabd07525325e55bd7ec94dc291212f4f882e9d05c45b1e3f8e2",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "12FJojHBRVWXDPfXxQS39o4mDbD24dKnG",
+    "drive_name": "១៦ ទោសមូលចិត្ត​ ២ដួង ត ហេតុឱ្យកើតទោសមូលចិត្ត ៤ ប្រការ ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ១៦ (បរិច្ឆេទ ទី១ ឆ្នាំ២០២២).mp4",
+    "source_md5": "29975b8a89398e054fc249fad3d73f64",
+    "key": "video/29975b8a89398e05-480p.mp4",
+    "poster_key": "video/29975b8a89398e05-480p.webp",
+    "rendition": "480p",
+    "bytes": 66426630,
+    "duration_s": 3412,
+    "src_duration_s": 3412,
+    "width": 854,
+    "height": 480,
+    "sha256": "01694dd8a8fac3e4d9160658c596194605139a2215292849ad7e8caf21ba84eb",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
