@@ -4206,5 +4206,21 @@
     "height": 480,
     "sha256": "9078894cfe2e9d4316e84e7e29410472c4ac4411a76ef7de980fa047e1e95c52",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1_y2yDR0pQe1PatJM21rXfXyUusKYnAn5",
+    "drive_name": "៣៨ រូបន័យទី ៣ ពន្យល់កម្មជ្ជរូប និងចិត្តជ្ជរូបសាមញ្ញ (បរិច្ឆេទ ទី៦ ឆ្នាំ២០២៤).mp4",
+    "source_md5": "83e12cf2e6e1b8ae1fc719bc5322b066",
+    "key": "video/83e12cf2e6e1b8ae-480p.mp4",
+    "poster_key": "video/83e12cf2e6e1b8ae-480p.webp",
+    "rendition": "480p",
+    "bytes": 112197109,
+    "duration_s": 5097,
+    "src_duration_s": 5097,
+    "width": 854,
+    "height": 480,
+    "sha256": "73b6eebb62a841c2f2c3fb0bd10a159086b30fee4b8cfedc0f161acc3f197bbd",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
