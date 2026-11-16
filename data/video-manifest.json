@@ -14958,5 +14958,21 @@
     "height": 480,
     "sha256": "c74c0827794c8df0131c432d1331911b72fd0acc3b127bd3704c97b9c9b960af",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1VqR8Dd3QiPag3POEpmalUGjUU-16PTad",
+    "drive_name": "28-Ñāṇa-15Aug2026-រម្លឹកឡើងវិញអំពីការចូលឈាន និងវិថីចិត្តរបស់ឈាន.mp4",
+    "source_md5": "c17bbb89c2f34bba2e78ee929781ec08",
+    "key": "video/c17bbb89c2f34bba-480p.mp4",
+    "poster_key": "video/c17bbb89c2f34bba-480p.webp",
+    "rendition": "480p",
+    "bytes": 82730970,
+    "duration_s": 3607,
+    "src_duration_s": 3607,
+    "width": 854,
+    "height": 480,
+    "sha256": "1cd982ad31a4acfb29670cebf2e3888a67eb184e8c0e2a583cb498bfbbe045f7",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
