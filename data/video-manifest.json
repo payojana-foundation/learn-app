@@ -15726,5 +15726,21 @@
     "height": 480,
     "sha256": "cfe71eaa2d3ee525c4f1abb8baa6b8d7300bc6484071bee9397440fc4656cbe6",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1jWPth0zS2HENG4lotnPInuDPOaLPoq68",
+    "drive_name": "៧៥  រូបាវចសោភណចិត្ត​ ១៥ដួង រូបាវចរកុសល​ ៥ដួង ព្រះអភិធម្មថ្នាក់ដំបូង​ ថ្ងៃទី ៧៥ (បរិច្ឆេទ ទី១ ឆ្នាំ ២០២២).mp4",
+    "source_md5": "4b5909caba6224bd0afcd194ae6b4d61",
+    "key": "video/4b5909caba6224bd-480p.mp4",
+    "poster_key": "video/4b5909caba6224bd-480p.webp",
+    "rendition": "480p",
+    "bytes": 69877194,
+    "duration_s": 3494,
+    "src_duration_s": 3494,
+    "width": 854,
+    "height": 480,
+    "sha256": "8e1d596dec780722ff9816b9e76999f054f5a56fb0e6ae64c8c5c8a7519fb0bb",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
