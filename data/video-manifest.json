@@ -9114,5 +9114,21 @@
     "height": 480,
     "sha256": "6acbb59a596d59536e627f23f6f0123f061d45690c49b4a74fb6c52421adfbdf",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1yXu0Q5SSliA48zNOxaP8iJpi5URTlS0C",
+    "drive_name": "០២_កន្ទរកសូត្រទី១_ចែកបុគ្គលជា៤_ពួក_ភិក្ខុអគ្គចិត្តោ_យ៉ុន_យី_បិដកលេខ២៣.mp4",
+    "source_md5": "21c01332dd0c27b9badbfdf8014cc15f",
+    "key": "video/21c01332dd0c27b9-480p.mp4",
+    "poster_key": "video/21c01332dd0c27b9-480p.webp",
+    "rendition": "480p",
+    "bytes": 139675368,
+    "duration_s": 7102,
+    "src_duration_s": 7102,
+    "width": 854,
+    "height": 480,
+    "sha256": "65c82efa08e4dcd3c793fec81486ec51362e868e1cd2430d0e570e48751f41cf",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
