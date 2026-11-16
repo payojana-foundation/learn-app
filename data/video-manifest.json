@@ -7994,5 +7994,21 @@
     "height": 480,
     "sha256": "b724427e64d04fe4b2d457780c2a254b9b685d151eaa3999ade158f0d178b7cf",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "15paJgzy2Cm-dX0oHzt2QjmQMV4nWHbS1",
+    "drive_name": "១៩ មហាអស្សបុរសូត្រទី៩ កាយ វាចា ចិត្តបរិសុទ្ធ និងមិនបរិសុទ្ធ (បិដកលេខ ២២).mp4",
+    "source_md5": "bdf938aa1f4870d8063ede0a16e29c5d",
+    "key": "video/bdf938aa1f4870d8-480p.mp4",
+    "poster_key": "video/bdf938aa1f4870d8-480p.webp",
+    "rendition": "480p",
+    "bytes": 158394877,
+    "duration_s": 6880,
+    "src_duration_s": 6880,
+    "width": 854,
+    "height": 480,
+    "sha256": "0fadbb041f6879d2707c7787d06f157546bc7adcb7d62d845cf1dc0519ac1887",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
