@@ -457,7 +457,9 @@
     "width": 854,
     "height": 480,
     "sha256": "f6f2b74f59813074a92176c161e5c3b9b16d47d9b3e33ec791d7c0a5daa93c69",
-    "status": "DRAFT – needs reviewer approval"
+    "status": "approved",
+    "reviewer": "auto-release",
+    "reviewed_at": "2026-11-16"
   },
   {
     "kind": "video",
