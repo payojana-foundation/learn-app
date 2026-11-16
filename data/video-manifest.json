@@ -10394,5 +10394,21 @@
     "height": 480,
     "sha256": "588f6fc67c5ca34eb20005bc6547269d135f7f4faa6b0757d9687c605af2a7bb",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1wRYJBjKKt9JEAKTz56wnyYST5gz92u3S",
+    "drive_name": "43 សតិប្បដ្ឋានសូត្រ វេទនានុបស្សនាសតិប្បដ្ឋានកំណត់វេទនា៣ (បិដកលេខ ២០).mp4",
+    "source_md5": "613502d9bf718c8d06bb061d92dac1c7",
+    "key": "video/613502d9bf718c8d-480p.mp4",
+    "poster_key": "video/613502d9bf718c8d-480p.webp",
+    "rendition": "480p",
+    "bytes": 199322881,
+    "duration_s": 7002,
+    "src_duration_s": 7002,
+    "width": 854,
+    "height": 480,
+    "sha256": "5f52b75d77f2087c31e10ce572ef7248b35fe26af7c3fbf223550a9a38b29062",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
