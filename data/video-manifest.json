@@ -7066,5 +7066,21 @@
     "height": 480,
     "sha256": "34660490a615d0ae8e30e97a2f1e5f0b9c7cd07cf9b7ec65ccae794a7c5a5415",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "17D-yd5JAzDFQVWek5g3-f5BIJbrFD78q",
+    "drive_name": "០៤ បុថុជ្ជនសំគាល់កាយថាជារបស់ខ្លួន (បិដកលេខ ២០).mp4",
+    "source_md5": "e567c89ad931d8ec038eb4d166d4274b",
+    "key": "video/e567c89ad931d8ec-480p.mp4",
+    "poster_key": "video/e567c89ad931d8ec-480p.webp",
+    "rendition": "480p",
+    "bytes": 157034098,
+    "duration_s": 5823,
+    "src_duration_s": 5823,
+    "width": 854,
+    "height": 480,
+    "sha256": "42e233827f9ef492d2273b8da3fc31efd8e999ae0958f4639905ba20ebabfb16",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
