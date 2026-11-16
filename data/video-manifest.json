@@ -7242,5 +7242,21 @@
     "height": 480,
     "sha256": "c1e2af149d3022e1da4a640b912284cd36c83dc6a8f6fae3c8865d3b249f0935",
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "kind": "video",
+    "drive_file_id": "1tPPVM2NCAne-AOmkqPSmxN7VSuFTmxkg",
+    "drive_name": "04 មហាគោវិន្ទសូត្រ មហារាជទាំង ៤ ចុះមើលមនុស្សរាល់ថ្ងៃសីល (បិដកលេខ ១៧).mp4",
+    "source_md5": "e391feb0192089a8762a209157a53f85",
+    "key": "video/e391feb0192089a8-480p.mp4",
+    "poster_key": "video/e391feb0192089a8-480p.webp",
+    "rendition": "480p",
+    "bytes": 171987980,
+    "duration_s": 5345,
+    "src_duration_s": 5345,
+    "width": 854,
+    "height": 480,
+    "sha256": "9ea9369dc27e6fac3e817d677be50fc217c1c6655698de74d494f9e356d9115d",
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
