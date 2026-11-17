@@ -17,7 +17,9 @@
  *      check <shard> [concurrency]    → playcheck-<shard>.json
  *      merge <file...>                → data/ops/playcheck.json
  */
-import { readFileSync, writeFileSync, existsSync, mkdirSync, appendFileSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, appendFileSync, statSync, rmSync, openSync, readSync, closeSync } from 'node:fs';
+import { tmpdir } from 'node:os';
+import { join } from 'node:path';
 import { execFile } from 'node:child_process';
 import { mediaUrl } from '../queues/approve-lists.mjs';
 
@@ -67,6 +69,7 @@ export function judge(e, m) {
   const causes = [];
   const why = [];
   if (m.status !== 200) { causes.push('http'); why.push(`HTTP ${m.status}`); }
+  else if (m.downloadError) { causes.push('http'); why.push(`download failed after retries: ${String(m.downloadError).slice(0, 120)}`); }
   else {
     const want = e.kind === 'video' ? 'video/mp4' : 'audio/mpeg';
     if (!String(m.type || '').toLowerCase().startsWith(want)) { causes.push('content-type'); why.push(`content-type ${m.type || 'none'} (want ${want})`); }
@@ -113,31 +116,44 @@ async function head(url) {
   return { status: 0 };
 }
 
+/**
+ * Measure one file. The file is DOWNLOADED first (curl, 5 retries; a dropped HTTPS stream is a
+ * network fault, not a decode error), then size, full decode, duration and box order are read from
+ * the local copy, which is deleted afterwards.
+ */
 async function measure(e) {
   const url = mediaUrl(e.key);
   const m = await head(url);
   if (m.status !== 200) return m;
-  const dec = await run('ffmpeg', ['-hide_banner', '-nostdin', '-v', 'error', '-threads', '0', '-i', url, '-map', '0', '-f', 'null', '-'], 3 * 3600 * 1000);
-  m.decodeErrors = (dec.stderr.trim() || (dec.err ? String(dec.err.message || dec.err) : '')).slice(0, 2000);
-  const p = await run('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', url], 120000);
-  m.duration = Number(String(p.stdout).trim());
-  if (e.kind === 'video') {
-    m.order = await boxOrder(async (off) => {
+  const tmp = join(tmpdir(), `pc-${process.pid}-${Math.random().toString(36).slice(2)}${e.kind === 'video' ? '.mp4' : '.mp3'}`);
+  try {
+    const dl = await run('curl', ['-fsSL', '--retry', '5', '--retry-all-errors', '--retry-delay', '3', '-o', tmp, url], 3600 * 1000);
+    if (dl.err || !existsSync(tmp)) { m.downloadError = (dl.stderr || String(dl.err && dl.err.message) || 'no file').trim(); return m; }
+    m.length = String(statSync(tmp).size);
+    const dec = await run('ffmpeg', ['-hide_banner', '-nostdin', '-v', 'error', '-threads', '0', '-i', tmp, '-map', '0', '-f', 'null', '-'], 3 * 3600 * 1000);
+    m.decodeErrors = (dec.stderr.trim() || (dec.err ? String(dec.err.message || dec.err) : '')).slice(0, 2000);
+    const p = await run('ffprobe', ['-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', tmp], 120000);
+    m.duration = Number(String(p.stdout).trim());
+    if (e.kind === 'video') {
+      const fd = openSync(tmp, 'r');
       try {
-        const r = await fetch(url, { headers: { Range: `bytes=${off}-${off + 15}` } });
-        if (r.status !== 206 && r.status !== 200) return null;
-        return parseBoxHeader(Buffer.from(await r.arrayBuffer()));
-      } catch { return null; }
-    });
-    if (e.poster_key) {
-      const ph = await head(mediaUrl(e.poster_key));
-      m.posterStatus = ph.status;
-      m.posterType = ph.type;
+        m.order = await boxOrder(async (off) => {
+          const buf = Buffer.alloc(16);
+          const n = readSync(fd, buf, 0, 16, off);
+          return n >= 8 ? parseBoxHeader(buf.subarray(0, n)) : null;
+        });
+      } finally { closeSync(fd); }
+      if (e.poster_key) {
+        const ph = await head(mediaUrl(e.poster_key));
+        m.posterStatus = ph.status;
+        m.posterType = ph.type;
+      }
     }
+    return m;
+  } finally {
+    rmSync(tmp, { force: true });
   }
-  return m;
 }
-
 async function pool(items, n, fn) {
   let i = 0;
   await Promise.all(Array.from({ length: Math.min(n, items.length) }, async () => { while (i < items.length) { const it = items[i++]; await fn(it); } }));

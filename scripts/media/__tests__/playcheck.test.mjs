@@ -29,6 +29,8 @@ describe('judge', () => {
   });
   it('each cause on its own', () => {
     expect(judge(A, { status: 404 }).causes).toEqual(['http']);
+    // a dropped download (after retries) is a network fault, never a decode error
+    expect(judge(A, { ...good, downloadError: 'curl: (56) Recv failure' })).toMatchObject({ causes: ['http'], detail: 'download failed after retries: curl: (56) Recv failure' });
     expect(judge(A, { ...good, type: 'text/html' }).causes).toEqual(['content-type']);
     expect(judge(A, { ...good, length: '999' }).causes).toEqual(['size']);
     expect(judge(A, { ...good, decodeErrors: '[mp3 @ 0x1] Header missing' }).causes).toEqual(['decode']);
