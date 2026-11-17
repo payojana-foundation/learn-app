@@ -426,6 +426,7 @@ async function main() {
     precheck: readJson(join(root, 'data', 'queues', 'approve', 'precheck.json'), null),
     videoPrecheck: readJson(join(root, 'data', 'queues', 'approve-video', 'precheck.json'), null),
     failed: failedMap(existsSync(frPath) ? readFileSync(frPath, 'utf-8') : '', readJson(join(root, 'data', 'ops', 'autorun-state.json'), {})),
+    playcheck: existsSync(join(root, 'data', 'ops', 'playcheck.json')) ? JSON.parse(readFileSync(join(root, 'data', 'ops', 'playcheck.json'), 'utf-8')) : null,
     videoFailures: videoFailuresFrom(existsSync(join(root, 'reports', 'video-inventory-failures.csv')) ? parseCsvObjects(readFileSync(join(root, 'reports', 'video-inventory-failures.csv'), 'utf-8')) : []),
     prev: readJson(checksPath, null),
     now: new Date().toISOString(),

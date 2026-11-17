@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "doc": "Every reason public/ops/checks.json can carry (scripts/master/checks.mjs REASONS), what it means and who fixes it. Read by the Operations dashboard. No sheet id or sheet URL.",
+  "changes": [
+    { "date": "2026-11-17", "reason": "media: does not play", "change": "CHANGE for Operations: new reason. The weekly media-playcheck (and a manual run) found a LIVE file (approved, on media.84000.digital) that does not play: not HTTP 200, wrong content type, size not the manifest size, decode errors, duration off by more than 2 %, or for video moov box after mdat (not faststart) or no poster. detail names the cause. The lesson is still shown in the app; it needs a person: re-convert it (check_decision fixed after the file is replaced) or hold it." }
+  ],
+  "reasons": [
+    { "reason": "duration under 5 min", "media_type": "audio|video", "meaning": "the converted file is shorter than 5 minutes", "fix": "listen; approve anyway, hold, or replace the file and set fixed" },
+    { "reason": "duration over 4 h", "media_type": "audio|video", "meaning": "the converted file is longer than 4 hours", "fix": "listen; approve anyway, hold, or replace the file and set fixed" },
+    { "reason": "duration differs > 2 % from the Drive source", "media_type": "audio", "meaning": "the conversion is not as long as the Drive file", "fix": "listen; replace the file and set fixed, or approve anyway" },
+    { "reason": "source duration unknown", "media_type": "audio", "meaning": "the Drive file's duration could not be read", "fix": "listen; approve anyway or hold" },
+    { "reason": "same audio (sha256) as another lesson", "media_type": "audio", "meaning": "two lessons have the very same recording", "fix": "fix the link of the wrong lesson and set fixed" },
+    { "reason": "silence > 60 s in the first 2 min", "media_type": "audio", "meaning": "long silence at the start", "fix": "listen; approve anyway or replace the file" },
+    { "reason": "silence > 60 s in the last 2 min", "media_type": "audio", "meaning": "long silence at the end", "fix": "listen; approve anyway or replace the file" },
+    { "reason": "duration differs > 2 % from the source", "media_type": "video", "meaning": "the converted video is not as long as its source", "fix": "watch; replace the file and set fixed, or approve anyway" },
+    { "reason": "same video (sha256) as another lesson", "media_type": "video", "meaning": "two lessons have the very same video", "fix": "fix the link of the wrong lesson and set fixed" },
+    { "reason": "same source file as another Drive id", "media_type": "video", "meaning": "two Drive ids point at the same file", "fix": "fix the link of the wrong lesson and set fixed" },
+    { "reason": "conversion failed", "media_type": "audio", "meaning": "the file could not reach the audio standard (detail: the measured reason)", "fix": "replace the recording and set fixed, or hold" },
+    { "reason": "file not shared", "media_type": "audio|video", "meaning": "Drive refused the file (HTTP 403/404): not shared with the service account, deleted or in the trash", "fix": "share the file with the service account (or restore it), then set fixed" },
+    { "reason": "no file link", "media_type": "audio", "meaning": "the lesson row has no Drive file link (or only a folder link)", "fix": "add the file link in mp3_link, mp4_link or minicourse_link, then set fixed" },
+    { "reason": "no approved lesson", "media_type": "audio", "meaning": "the course has no approved lesson and nothing is waiting for the pipeline", "fix": "fix the lessons listed in detail" },
+    { "reason": "media: does not play", "media_type": "audio|video", "meaning": "a live file failed the playback check (detail: http, content-type, size, decode, duration, not faststart or poster)", "fix": "replace or re-convert the file and set fixed, or hold", "since": "2026-11-17" }
+  ]
+}

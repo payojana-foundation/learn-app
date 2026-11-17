@@ -1,0 +1,121 @@
+name: media-playcheck
+
+# PART 10 (17 Nov) — does every live media file play? For every APPROVED audio and video entry
+# (scripts/media/playcheck.mjs): HTTP 200 from media.84000.digital with the right content-type and
+# size, a full ffmpeg decode without errors, duration within 2 % of the manifest, and for video the
+# moov box before mdat (faststart) and a poster. Read-only (GET/HEAD). Manual + weekly (Monday).
+# Results: data/ops/playcheck.json; then a read-only master-sync (mode dry) turns every failure
+# into a checks.json item "media: does not play" (public/ops/check-reasons.json).
+
+on:
+  schedule:
+    - cron: "37 2 * * 1"
+  workflow_dispatch:
+    inputs:
+      shards:
+        description: "Parallel jobs"
+        required: false
+        default: "20"
+
+permissions:
+  contents: write
+  actions: write # starts the read-only master-sync that refreshes checks.json
+
+concurrency:
+  group: media-playcheck
+  cancel-in-progress: false
+
+jobs:
+  list:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    outputs:
+      shards: ${{ steps.l.outputs.shards }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - name: List the approved files
+        id: l
+        env:
+          SHARDS: ${{ inputs.shards || '20' }}
+        run: |
+          set -euo pipefail
+          [[ "$SHARDS" =~ ^[0-9]{1,2}$ ]] || { echo "shards must be 1-99"; exit 1; }
+          node scripts/media/playcheck.mjs list "$SHARDS"
+      - uses: actions/upload-artifact@v4
+        with:
+          name: playcheck-list
+          path: playcheck-list.json
+
+  check:
+    needs: list
+    runs-on: ubuntu-latest
+    timeout-minutes: 330
+    strategy:
+      fail-fast: false
+      max-parallel: 20
+      matrix:
+        shard: ${{ fromJSON(needs.list.outputs.shards) }}
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - uses: actions/download-artifact@v4
+        with:
+          name: playcheck-list
+      - name: Check shard ${{ matrix.shard }}
+        run: node scripts/media/playcheck.mjs check "${{ matrix.shard }}" 4
+      - uses: actions/upload-artifact@v4
+        with:
+          name: playcheck-${{ matrix.shard }}
+          path: playcheck-${{ matrix.shard }}.json
+
+  merge:
+    needs: check
+    if: ${{ always() && needs.check.result != 'cancelled' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: playcheck-*
+          merge-multiple: true
+      - name: Merge the shards
+        run: |
+          set -euo pipefail
+          shopt -s nullglob
+          files=(playcheck-[0-9]*.json)
+          node scripts/media/playcheck.mjs merge "${files[@]}"
+      - name: Commit data/ops/playcheck.json
+        id: commit
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ops/playcheck.json
+          if git diff --cached --quiet; then echo "pushed=false" >> "$GITHUB_OUTPUT"; exit 0; fi
+          git commit -m "ops: media playback check"
+          bash scripts/ci/push-with-retry.sh origin main
+          echo "pushed=true" >> "$GITHUB_OUTPUT"
+      - name: Refresh checks.json (read-only master-sync)
+        if: ${{ steps.commit.outputs.pushed == 'true' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run master-sync.yml --ref main -R "$GITHUB_REPOSITORY" -f mode=dry

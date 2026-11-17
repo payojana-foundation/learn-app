@@ -35,6 +35,13 @@ import { noFileLink } from './intake.mjs';
 export const isNotShared = (reason) => /HTTP 40[34]\b|not readable from Drive|not shared/i.test(String(reason || ''));
 
 export const SCHEMA_VERSION = 1;
+/** Every reason checks.json can carry; public/ops/check-reasons.json describes each one. */
+export const REASONS = [
+  'duration under 5 min', 'duration over 4 h', 'duration differs > 2 % from the Drive source', 'source duration unknown',
+  'same audio (sha256) as another lesson', 'silence > 60 s in the first 2 min', 'silence > 60 s in the last 2 min',
+  'duration differs > 2 % from the source', 'same video (sha256) as another lesson', 'same source file as another Drive id',
+  'conversion failed', 'file not shared', 'no file link', 'no approved lesson', 'media: does not play',
+];
 export const CHECK_DECISIONS = ['', 'fixed', 'approve anyway', 'hold'];
 
 /** m:ss or h:mm:ss (the pre-check's format). */
@@ -91,7 +98,7 @@ const itemKey = (i) => `${i.row_key}|${i.media_type}|${i.reason}`;
  *   precheck, videoPrecheck, failed: Map(drive id -> detail), prev (previous checks.json), now }
  */
 export function checksJson(ctx) {
-  const { lessonRows = [], sheetRows = null, gid = null, courseRows = [], wanted = new Map(), manifest = [], videoManifest = [], precheck = null, videoPrecheck = null, failed = new Map(), videoFailures = new Map(), prev = null, now } = ctx;
+  const { lessonRows = [], sheetRows = null, gid = null, courseRows = [], wanted = new Map(), manifest = [], videoManifest = [], precheck = null, videoPrecheck = null, failed = new Map(), videoFailures = new Map(), playcheck = null, prev = null, now } = ctx;
   const courseTitle = new Map(courseRows.map((c) => [c.course_id, c.course_title_km]));
   const firstSeen = new Map(((prev && prev.items) || []).map((i) => [itemKey(i), i.first_flagged_at]));
   const byAudio = new Map(); // source id -> first row
@@ -158,6 +165,11 @@ export function checksJson(ctx) {
   }
   for (const r of lessonRows) {
     if (r.course_id && r.row_key && noFileLink(r)) push(r, 'audio', 'no file link', /\/folders\//.test(`${r.mp3_link} ${r.mp4_link} ${r.minicourse_link}`) ? 'a folder link, not a file link' : 'no Drive file link in mp3_link, mp4_link or minicourse_link', null);
+  }
+  // PART 10: live files that do not play (data/ops/playcheck.json, media-playcheck.yml)
+  for (const f of (playcheck && playcheck.failures) || []) {
+    const r = f.kind === 'video' ? byVideo.get(f.id) : byAudio.get(f.id);
+    if (r) push(r, f.kind === 'video' ? 'video' : 'audio', 'media: does not play', `${f.causes.join(', ')}: ${f.detail}`, f.key);
   }
   // courses where nothing can move without a person
   const approved = new Set(manifest.filter((e) => e && /^approved\b/i.test(e.status || '')).map((e) => e.drive_file_id));
