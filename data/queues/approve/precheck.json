@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-16",
+  "generated": "2026-11-17",
   "rules": {
     "min_s": 300,
     "max_s": 14400,
@@ -10,13 +10,6 @@
     "noise_db": -50
   },
   "measured": {
-    "1OPqkpurB6GVItJiv2dAy0mHTEeSVvGwR": {
-      "sha256": "96c9646372ca86541f34128abc310dbd3aac25fe95aa16036c710e308632c8b5",
-      "drive_s": 3870.24975,
-      "via": "ffprobe header",
-      "head_s": 0,
-      "tail_s": 0
-    },
     "1JM2455Ig2evgsQX7fcwTwQ8ZCQvVhk0y": {
       "sha256": "764f1d2457b769f27cbba558fd26090117ba19d63e75f1cc24ebddc9102f9663",
       "drive_s": 200.003628,
@@ -75,13 +68,7 @@
     }
   },
   "results": {
-    "pass": [
-      {
-        "id": "1OPqkpurB6GVItJiv2dAy0mHTEeSVvGwR",
-        "course_id": "c010",
-        "sha256": "96c9646372ca86541f34128abc310dbd3aac25fe95aa16036c710e308632c8b5"
-      }
-    ],
+    "pass": [],
     "flagged": [
       {
         "id": "1JM2455Ig2evgsQX7fcwTwQ8ZCQvVhk0y",

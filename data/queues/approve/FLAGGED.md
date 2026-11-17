@@ -1,6 +1,6 @@
 # Pre-approval check
 
-Generated 2026-11-16 by scripts/media/precheck.mjs (workflow approve-check). 9 converted lessons not approved yet: **1 pass**, **8 flagged**, **0 not checked yet**.
+Generated 2026-11-17 by scripts/media/precheck.mjs (workflow approve-check). 8 converted lessons not approved yet: **0 pass**, **8 flagged**, **0 not checked yet**.
 
 A lesson is flagged when its duration is under 5 min or over 4 h, differs more than 2 % from the Drive source, has the same audio as another lesson, or has more than 60 s of silence in its first or last 2 minutes. Flagged lessons are never approved by approve-media "all-passing"; listen and decide per id.
 
@@ -30,7 +30,6 @@ A lesson is flagged when its duration is under 5 min or over 4 h, differs more t
 
 | course | title | pass | flagged | not checked yet |
 | --- | --- | --- | --- | --- |
-| c010 | 5-បរិច្ឆេទ ទី៥​ កាត់ស្អាត(២០២៦) | 1 | 0 | 0 |
 | c025 | 1-Dhamma in English( វគ្គ ១) | 0 | 1 | 0 |
 | c031 | 7-បិដកលេខ២២ | 0 | 1 | 0 |
 | c035 | ព្រះត្រៃបិដកបាលីភាគ១៩ | 0 | 1 | 0 |
