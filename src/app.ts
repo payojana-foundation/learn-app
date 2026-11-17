@@ -12,7 +12,7 @@ import { VACANA_BASE_URL, LIBRARY_BASE_URL } from './config';
 import { pathCourseIds, draftAllowed, startedCourseIds, courseCanFinish } from './data/companion';
 import type { CompanionCtx } from './ui/companion';
 import { t, STRINGS, displayString } from './strings';
-import { cleanForSearch, esc } from './format';
+import { cleanForSearch, esc, searchable } from './format';
 import { parseRoute, routePath, tabForRoute, type Route } from './router';
 import { rewriteLessonId } from './db/aliases';
 import {
@@ -297,14 +297,15 @@ async function renderSearch(q: string): Promise<string> {
   let teacherHits: Teacher[] = [];
   const lessonHits: { course: (typeof catalog.courses)[number]; lessonId: string; num: number; title: string }[] = [];
   if (cq) {
-    courseBundles = catalog.courses.filter((c) => cleanForSearch(`${c.title_km} ${c.title_en ?? ''}`).includes(cq)).map((course) => ({ course }));
+    // PART 9: old titles after a rename are searched too (shown: the current title only).
+    courseBundles = catalog.courses.filter((c) => searchable([c.title_km, c.title_en], c.title_aliases).includes(cq)).map((course) => ({ course }));
     teacherHits = teachers.filter((tc) => cleanForSearch(`${tc.name_km} ${tc.name_en ?? ''}`).includes(cq));
     // Lesson hits: load course files lazily, cap at 40.
     for (const c of catalog.courses) {
       const cf = await course(c.id);
       if (!cf) continue;
       for (const l of cf.lessons) {
-        if (cleanForSearch(l.title_km).includes(cq)) {
+        if (searchable([l.title_km], l.title_aliases).includes(cq)) {
           lessonHits.push({ course: c, lessonId: l.id, num: l.num, title: l.title_km });
           if (lessonHits.length >= 40) break;
         }

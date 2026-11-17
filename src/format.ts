@@ -36,6 +36,14 @@ export function cleanForSearch(s: string): string {
   return String(s).replace(/\u200B/g, '').toLowerCase();
 }
 
+/**
+ * PART 9 (17 Nov): the cleaned text a title is searched by: the title(s) shown plus the old titles
+ * kept after a rename (title_aliases). Only searched; the shown title is the current one.
+ */
+export function searchable(titles: (string | null | undefined)[], aliases?: string[]): string {
+  return cleanForSearch([...titles, ...(aliases ?? [])].filter((x): x is string => !!x).join(' '));
+}
+
 /** Escape text for safe insertion into innerHTML. */
 export function esc(s: unknown): string {
   return String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' })[c] as string);

@@ -44,7 +44,7 @@ export function nextFreeCourseId(used) {
  * -> { cells: [{row, column, to}], newCourses: [{course_id, course_title_km, teacher, lesson_count, course_status}],
  *      registry (new object), registryAdds: {key: id}, issues: Map(row_key -> [text]), assigned: [{row, row_key, course_id}] }
  */
-export function intakePlan({ lessonsTab, coursesTab, registry = {}, teacherNames = new Set() }) {
+export function intakePlan({ lessonsTab, coursesTab, registry = {}, teacherNames = new Set(), courseAliases = {} }) {
   const rows = objects(lessonsTab);
   const courses = objects(coursesTab).filter((c) => c.course_id);
   let maxN = 0;
@@ -60,7 +60,9 @@ export function intakePlan({ lessonsTab, coursesTab, registry = {}, teacherNames
   const issues = new Map();
   const assigned = [];
   const byTitle = (title, teacher) => {
-    const all = [...courses, ...newCourses].filter((c) => c.course_title_km === title);
+    // PART 9: an OLD title of a renamed course (data/master/title-aliases.json) still matches it,
+    // so a row typed with the old title never makes a new course id.
+    const all = [...courses, ...newCourses].filter((c) => c.course_title_km === title || (courseAliases[c.course_id] || []).includes(title));
     return teacher ? all.filter((c) => c.teacher === teacher) : all;
   };
   rows.forEach((r, i) => {

@@ -45,7 +45,7 @@ import { shownRows } from '../build-courses.mjs';
 import { parseCsvObjects, toCsv } from './csv.mjs';
 import { colLetter } from './seed.mjs';
 import { checksJson, failedMap, videoFailuresFrom } from './checks.mjs';
-import { presentKeys } from './export.mjs';
+import { presentKeys, allLessonColumns, allCourseColumns } from './export.mjs';
 import { intakePlan, applyToTab, intakeRanges, noFileLink, ISSUE_NO_FILE } from './intake.mjs';
 export { presentKeys };
 
@@ -81,7 +81,7 @@ export function audioStatus(sourceId, approved, failedReview, inManifest) {
  * Returns { lessons: Map(row_key -> {col: value}), courses: Map(course_id -> {lesson_count}) }.
  */
 export function computeSystem(lessonRows, courseRows, ctx) {
-  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map(), checkFlags = new Map(), decisions = {}, intakeIssues = new Map(), failedReasons = new Map() } = ctx;
+  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map(), checkFlags = new Map(), decisions = {}, intakeIssues = new Map(), failedReasons = new Map(), renameLog = { courses: {}, lessons: {} } } = ctx;
   const approved = new Set(manifest.filter((e) => e && e.drive_file_id && /^approved\b/i.test(e.status || '')).map((e) => e.drive_file_id));
   const inManifest = new Set(manifest.filter((e) => e && e.drive_file_id).map((e) => e.drive_file_id));
   const { hidden } = shownRows(lessonRows, manifest);
@@ -108,6 +108,8 @@ export function computeSystem(lessonRows, courseRows, ctx) {
     for (const x of intakeIssues.get(r.row_key) || []) issues.push(x);
     if (src && failedReasons.get(src) && !inManifest.has(src)) issues.push(`CONVERSION FAILED: ${failedReasons.get(src)}`);
     for (const reason of (src && checkFlags.get(src)) || []) issues.push(`CHECK: ${reason}`);
+    if (r.course_id && renameLog.courses && renameLog.courses[r.course_id]) issues.push(renameLog.courses[r.course_id]);
+    if (renameLog.lessons && renameLog.lessons[r.row_key]) issues.push(renameLog.lessons[r.row_key]);
     const dec = decisions[r.row_key];
     if (dec && dec.decision) issues.push(`DECISION: ${dec.decision} (${dec.at}): ${dec.result}`);
     lessons.set(r.row_key, {
@@ -344,11 +346,11 @@ async function main() {
   if (!['dry', 'write'].includes(mode)) { console.error(`--mode must be dry or write (got ${mode})`); process.exit(2); }
   if (mode === 'write' && (!token || !/^[A-Za-z0-9_-]+$/.test(sheetId))) { console.error('write needs --sheet-id and ACCESS_TOKEN'); process.exit(2); }
   const columns = JSON.parse(readFileSync(join(root, 'data', 'master', 'columns.json'), 'utf-8'));
-  const lessonKeys = columns.columns.map((c) => c.key);
-  const lessonOptional = columns.columns.filter((c) => c.added_after_seed).map((c) => c.key);
-  const courseKeys = columns.courses.columns.map((c) => c.key);
+  const lessonKeys = allLessonColumns(columns).map((c) => c.key);
+  const lessonOptional = allLessonColumns(columns).filter((c) => c.added_after_seed).map((c) => c.key);
+  const courseKeys = allCourseColumns(columns).map((c) => c.key);
   // never write a TEAM column, even if columns.json changed under us
-  const sys = new Set([...columns.columns, ...columns.courses.columns].filter((c) => c.owner === 'SYSTEM').map((c) => c.key));
+  const sys = new Set([...allLessonColumns(columns), ...allCourseColumns(columns)].filter((c) => c.owner === 'SYSTEM').map((c) => c.key));
   for (const k of [...LESSON_SYNC_COLUMNS, ...COURSE_SYNC_COLUMNS]) if (!sys.has(k)) { console.error(`::error::${k} is not a SYSTEM column in columns.json`); process.exit(3); }
 
   const live = Boolean(token && sheetId);
@@ -358,7 +360,7 @@ async function main() {
     lessonsTab = live ? await readTab({ sheetId, token, tab: 'Lessons' }) : fromCsv(join(root, 'data', 'master', 'lessons.csv'));
     coursesTab = live ? await readTab({ sheetId, token, tab: 'Courses' }) : fromCsv(join(root, 'data', 'master', 'courses.csv'));
     checkHeader('Lessons', lessonsTab.header, lessonKeys, lessonOptional);
-    checkHeader('Courses', coursesTab.header, courseKeys);
+    checkHeader('Courses', coursesTab.header, courseKeys, allCourseColumns(columns).filter((c) => c.added_after_seed).map((c) => c.key));
   } catch (e) {
     console.error(`::error title=master sync::${e.message}`);
     process.exit(e instanceof HeaderMismatchError ? 3 : 1);
@@ -368,7 +370,8 @@ async function main() {
   const registryPath = join(root, 'data', 'course-ids.json');
   const registryFile = JSON.parse(readFileSync(registryPath, 'utf-8'));
   const teacherNames = new Set(JSON.parse(readFileSync(join(root, 'data', 'source', 'teachers-2026-11-02', 'teachers-2026-11-02.json'), 'utf-8')).map((x) => x.name_km));
-  const intake = intakePlan({ lessonsTab, coursesTab, registry: registryFile.courses || {}, teacherNames });
+  const titleAliases = existsSync(join(root, 'data', 'master', 'title-aliases.json')) ? JSON.parse(readFileSync(join(root, 'data', 'master', 'title-aliases.json'), 'utf-8')) : {};
+  const intake = intakePlan({ lessonsTab, coursesTab, registry: registryFile.courses || {}, teacherNames, courseAliases: titleAliases.courses || {} });
   lessonsTab = applyToTab(lessonsTab, intake.cells);
   const lessonRows = objects(lessonsTab);
   const courseRows = [...objects(coursesTab), ...intake.newCourses];
@@ -377,6 +380,7 @@ async function main() {
     manifest, failedReview: failedReviewSet(root), shownLessonIds: shownFromPublicData(root), acastBySource: await acastFromTeacherSheets(root),
     checkFlags: checkFlagsFile(root),
     intakeIssues: intake.issues,
+    renameLog: existsSync(join(root, 'data', 'ops', 'renames.json')) ? JSON.parse(readFileSync(join(root, 'data', 'ops', 'renames.json'), 'utf-8')) : { courses: {}, lessons: {} },
     failedReasons: failedReasonsFrom(existsSync(join(root, 'data', 'queues', 'failed-review.csv')) ? readFileSync(join(root, 'data', 'queues', 'failed-review.csv'), 'utf-8') : ''),
     decisions: existsSync(join(root, 'data', 'ops', 'check-decisions.json')) ? JSON.parse(readFileSync(join(root, 'data', 'ops', 'check-decisions.json'), 'utf-8')) : {},
   });

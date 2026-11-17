@@ -33,6 +33,8 @@ export interface CatalogCourse {
   all_shown?: boolean;
   /** P-14 (15 Nov): at least one lesson has an approved R2 video (only when video is on). */
   has_video?: boolean;
+  /** PART 9: old titles after a rename; searched, never shown. */
+  title_aliases?: string[];
 }
 export interface Catalog {
   generated: string;
@@ -60,6 +62,8 @@ export interface Lesson {
   media: LessonMedia[];
   /** Approved R2 video (bare key `video/<md5>-<rendition>.mp4`) and its WebP poster key. */
   video?: LessonVideo;
+  /** PART 9: old titles after a rename; searched, never shown. */
+  title_aliases?: string[];
 }
 export interface LessonVideo {
   src: string;

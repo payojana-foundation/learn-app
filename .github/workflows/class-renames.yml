@@ -1,0 +1,104 @@
+name: class-renames
+
+# PART 9 (17 Nov) — course and lesson renames typed by the team in the master sheet
+# (Courses.title_km_new, Lessons.lesson_title_new; scripts/master/renames.mjs). Hourly + manual.
+#   1. plan: add the new columns once (end of each tab), validate every filled cell, compute the
+#      cell writes; the old titles (search aliases) and the rename log are committed FIRST, so an
+#      interrupted run never loses an old title.
+#   2. write the cells (new title, cleared _new cell, issues log).
+#   3. export the sheet and rebuild the app data in the same run (as master-export does).
+# course_id, row_key and lesson_id never change. Text is written exactly as typed.
+
+on:
+  schedule:
+    - cron: "29 * * * *"
+  workflow_dispatch:
+    inputs:
+      sheet_id:
+        description: "Google Sheet id of the master content sheet"
+        required: false
+        default: "12MOXAOHwwtKa6DFVwbfRMj8UtaKmN1758boN1EUKNZs"
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: data-rebuild-main
+  cancel-in-progress: false
+
+env:
+  SHEET_ID: ${{ inputs.sheet_id || '12MOXAOHwwtKa6DFVwbfRMj8UtaKmN1758boN1EUKNZs' }}
+
+jobs:
+  rename:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Install
+        run: npm ci
+
+      - name: Authenticate to Google Cloud (Sheets)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/spreadsheets
+
+      - name: Plan the renames (adds the columns once)
+        id: plan
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: node scripts/master/renames.mjs plan --sheet-id "$SHEET_ID"
+
+      - name: Commit the old titles and the log first
+        if: ${{ steps.plan.outputs.changed == 'true' }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/master/title-aliases.json data/ops/renames.json
+          git commit -m "master sheet: rename aliases and log"
+          bash scripts/ci/push-with-retry.sh origin main
+
+      - name: Write the cells
+        if: ${{ steps.plan.outputs.cells != '0' }}
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: node scripts/master/renames.mjs write --sheet-id "$SHEET_ID"
+
+      - name: Export to the app in the same run (export, queues, build)
+        if: ${{ steps.plan.outputs.applied != '0' }}
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          VIDEO_ENABLED: ${{ vars.VIDEO_ENABLED }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git pull --rebase -q origin main
+          node scripts/master/export.mjs --sheet-id "$SHEET_ID"
+          SOURCE_DATE_EPOCH="$(date +%s)"
+          export SOURCE_DATE_EPOCH
+          if [ "${VIDEO_ENABLED:-}" = "true" ]; then sw=true; else sw=false; fi
+          printf '{\n  "enabled": %s\n}\n' "$sw" > data/video-switch.json
+          node scripts/queues/intake-queues.mjs
+          node scripts/queues/video-queues.mjs
+          npm run build-courses
+          git add data/master public/data data/video-switch.json
+          git add data/queues
+          if git diff --cached --quiet; then echo "no change"; exit 0; fi
+          git commit -m "master: export and rebuild after a rename"
+          bash scripts/ci/push-with-retry.sh origin main

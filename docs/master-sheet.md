@@ -1,5 +1,8 @@
 # Master content sheet (bulk 08)
 
+| 32 | `lesson_title_new` | TEAM | no |  | PART 9 (17 Nov): a new lesson title. Hourly class-renames.yml writes it to `lesson_title` exactly as typed when valid (not blank, no leading/trailing space), keeps the old title as a search alias, clears this cell and logs `renamed <date>: old → new` in `issues`; invalid: the cell stays, `CHECK: rename: <reason>`. Added at the END of Lessons by class-renames.yml. See **Renames** below. |
+# Master content sheet (bulk 08)
+
 One Google Sheet that lists every lesson row of the teacher sheets, so the team edits one place. Decisions: `docs/kiro-bulk-08.md`. Schema (single source for the seed, the reader and the dashboard): `data/master/columns.json`. Bulk 08 only SEEDS the sheet and REPORTS parity; the app and `build-courses` keep reading what they read today (the switch is bulk 09).
 
 ## Tabs
@@ -58,6 +61,7 @@ One row per distinct non-empty `course_id` of the Lessons rows, in order of firs
 | 3 | `teacher` | SYSTEM | yes |  | Copied from the teacher of the first Lessons row of the course (Khmer display name, or: pending). |
 | 4 | `lesson_count` | SYSTEM | yes |  | Number of Lessons rows with this course_id (hidden rows included). |
 | 5 | `course_status` | TEAM | no | ongoing / complete | Empty at seed; the team sets it. |
+| 6 | `title_km_new` | TEAM | no |  | PART 9 (17 Nov): a new course title. Hourly class-renames.yml writes it to `course_title_km` here and on every Lessons row of the course exactly as typed when valid (not blank, no leading/trailing space, not the title or an old title of another course), keeps the old title as a search alias, clears this cell; the log goes in the `issues` of the course's Lessons rows. Added at the END of Courses by class-renames.yml. |
 
 ## Rows
 
@@ -80,6 +84,27 @@ One row per distinct non-empty `course_id` of the Lessons rows, in order of firs
 - `master-seed-excluded.csv`: `file_id, tab, row, kind, text` for the rows that are out (section rows, unnumbered rows).
 
 `scripts/master/parity.mjs` reads `master-seed-preview.csv` and writes `reports/master-parity.md`.
+
+## Renames (title_km_new, lesson_title_new, class-renames.yml)
+
+Every hour `.github/workflows/class-renames.yml` (`scripts/master/renames.mjs`) reads both tabs.
+For each filled `title_km_new` (Courses) or `lesson_title_new` (Lessons) it checks: not blank, no
+leading or trailing space, not the same as now, and for a course: not the title (or an old title)
+of another course. The text is used exactly as typed; spelling is never changed.
+
+- Valid course rename: `course_title_km` changes on the Courses row and on every Lessons row of
+  the course; `course_id`, `row_key` and `lesson_id` stay; the old title is kept as a search alias
+  (`data/master/title-aliases.json`) and intake still matches it, so a row typed with the old title
+  joins the same course; `title_km_new` is cleared; every Lessons row of the course gets
+  `renamed <date>: old → new` in `issues`.
+- Valid lesson rename: `lesson_title` changes; the old title is a search alias; `lesson_title_new`
+  is cleared; the row gets `renamed <date>: old → new`.
+- Invalid: the cell stays and `issues` gets `CHECK: rename: <reason>` (blank, leading or trailing
+  space, same as the current title, duplicate course title). Clearing the cell removes the CHECK.
+
+The same run exports the sheet and rebuilds the app data, so the app shows the new title within
+the hour; search finds the old title too. The old titles are committed before the sheet is
+written, so an interrupted run never loses one.
 
 ## Team decisions (check_decision, check-decisions.yml)
 

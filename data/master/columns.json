@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "doc": "Single source for the master content sheet: column order, owner, dropdown values, source mapping. Read by scripts/master/seed.mjs (Lessons tab + CSV), scripts/master/parity.mjs and the future dashboard. Owner: TEAM = the team edits it; SYSTEM = written by the seed/sync, protected (editor: the service account only). protected = a protected range in the sheet (every SYSTEM column and lesson_code). Described in docs/master-sheet.md. Decisions: docs/kiro-bulk-08.md.",
+  "doc": "Single source for the master content sheet: column order, owner, dropdown values, source mapping. Read by scripts/master/seed.mjs (Lessons tab + CSV), scripts/master/parity.mjs and the future dashboard. Owner: TEAM = the team edits it; SYSTEM = written by the seed/sync, protected (editor: the service account only). protected = a protected range in the sheet (every SYSTEM column and lesson_code). Described in docs/master-sheet.md. Decisions: docs/kiro-bulk-08.md. added_columns (PART 9, 17 Nov): columns added after the seed, at the END of their tab, in this order, after the columns above; readers use columns + added_columns (scripts/master/export.mjs allLessonColumns / allCourseColumns).",
   "columns": [
     { "key": "row_key", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Assigned once at seed (M00001...), never changes; the row's identity. Order: file name, tab order, sheet row." },
     { "key": "lesson_id", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "catalogue-build lessonIdOf via planCatalogue (code, else d-<source drive id>); recomputed on every seed/sync. Empty when no source and no code." },
@@ -34,6 +34,9 @@
     { "key": "source_row", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Sheet row number (1-based)." },
     { "key": "check_decision", "owner": "TEAM", "protected": false, "dropdown": ["fixed", "approve anyway", "hold"], "added_after_seed": true, "source": "Team decision on a flagged or failed lesson (16 Nov). Empty = no decision. Read hourly by check-decisions.yml after approve-check: approve anyway -> approve the lesson (audio, and video if any); fixed -> re-run the pre-check for that lesson, release if it passes; hold -> nothing. Each decision is logged in issues (DECISION: ...). Added at the end of the Lessons tab by check-decisions.yml; until then the exports read it as empty." }
   ],
+  "added_columns": [
+    { "key": "lesson_title_new", "owner": "TEAM", "protected": false, "dropdown": null, "added_after_seed": true, "source": "PART 9 (17 Nov): a new lesson title typed by the team. Hourly class-renames.yml validates it (not blank, no leading/trailing space) and, when valid, writes it to lesson_title exactly as typed, keeps the old title as a search alias, clears this cell and logs \"renamed <date>: old → new\" in issues; invalid: the cell stays and issues gets \"CHECK: rename: <reason>\". Added at the end of Lessons by class-renames.yml." }
+  ],
   "courses": {
     "tab": "Courses",
     "columns": [
@@ -42,6 +45,9 @@
       { "key": "teacher", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Copied from the teacher of the first Lessons row of the course (Khmer display name, or: pending)." },
       { "key": "lesson_count", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Number of Lessons rows with this course_id (hidden rows included)." },
       { "key": "course_status", "owner": "TEAM", "protected": false, "dropdown": ["ongoing", "complete"], "source": "Empty at seed; the team sets it." }
+    ],
+    "added_columns": [
+      { "key": "title_km_new", "owner": "TEAM", "protected": false, "dropdown": null, "added_after_seed": true, "source": "PART 9 (17 Nov): a new course title typed by the team. Hourly class-renames.yml validates it (not blank, no leading/trailing space, not the title or an old title of another course) and, when valid, writes it to course_title_km here and on every Lessons row of the course exactly as typed, keeps the old title as a search alias (intake still matches it, so no new course id), clears this cell and logs \"renamed <date>: old → new\" in the issues of every Lessons row of the course (invalid: \"CHECK: rename: <reason>\" there, the cell stays); course_id never changes." }
     ]
   },  "legacy": {
     "tab": "Legacy",

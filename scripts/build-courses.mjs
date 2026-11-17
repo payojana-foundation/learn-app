@@ -56,6 +56,7 @@ const SOURCE_INPUTS = [
   'data/source/teachers-2026-11-02/teachers-2026-11-02.json',
   'data/media-manifest.json',
   'data/id-aliases.json',
+  'data/master/title-aliases.json',
 ];
 
 function buildStamp(root) {
@@ -492,7 +493,11 @@ export function videoLookup(video) {
  * visible lesson and a mapped teacher. Lesson order = lesson_no as a number (Khmer
  * digits count), ties and non-numbers by sheet row. Titles are copied byte for byte.
  */
-export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest, video = null) {
+export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest, video = null, titleAliases = null) {
+  // PART 9 (17 Nov): old titles after a rename (data/master/title-aliases.json), served as search
+  // aliases only; the shown title is always the current one.
+  const courseAlias = (titleAliases && titleAliases.courses) || {};
+  const lessonAlias = (titleAliases && titleAliases.lessons) || {};
   const issues = [];
   const videoFor = videoLookup(video);
   const slugByName = new Map();
@@ -572,6 +577,7 @@ export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest,
       // The lesson is shown by its AUDIO (P-19); video never makes a lesson visible.
       const v = videoFor(r, issues, cid);
       if (v) lesson.video = v;
+      if (Array.isArray(lessonAlias[r.row_key]) && lessonAlias[r.row_key].length) lesson.title_aliases = [...lessonAlias[r.row_key]];
       lessons.push(lesson);
     });
 
@@ -580,6 +586,7 @@ export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest,
     courseFiles.push({
       id: cid, provisional: false, title_km: titleKm, title_en: null,
       teacher: teacherName, teacher_slug: slug, topics: [], ongoing, all_shown: allShown, lessons,
+      ...(Array.isArray(courseAlias[cid]) && courseAlias[cid].length ? { title_aliases: [...courseAlias[cid]] } : {}),
     });
     const cat = {
       id: cid, provisional: false, title_km: titleKm, title_en: null,
@@ -587,6 +594,7 @@ export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest,
       lesson_count: lessons.length, media_kinds: ['r2'], ongoing, all_shown: allShown,
     };
     if (lessons.some((x) => x.video)) cat.has_video = true;
+    if (Array.isArray(courseAlias[cid]) && courseAlias[cid].length) cat.title_aliases = [...courseAlias[cid]];
     catalogCourses.push(cat);
   }
   return { catalog: { provisional: false, courses: catalogCourses }, courses: courseFiles, issues };
@@ -663,7 +671,9 @@ function main() {
   const videoManifestPath = join(root, 'data', 'video-manifest.json');
   const video = { enabled: videoSwitch.enabled, manifest: existsSync(videoManifestPath) ? JSON.parse(readFileSync(videoManifestPath, 'utf-8')) : [] };
 
-  const { catalog, courses, issues } = buildFromMaster(lessonRows, courseRows, teachers, mediaManifest, video);
+  const aliasTitlesPath = join(root, 'data', 'master', 'title-aliases.json');
+  const titleAliases = existsSync(aliasTitlesPath) ? JSON.parse(readFileSync(aliasTitlesPath, 'utf-8')) : null;
+  const { catalog, courses, issues } = buildFromMaster(lessonRows, courseRows, teachers, mediaManifest, video, titleAliases);
 
   // Id guard (gap 8): nothing is written if a lesson id with approved media would vanish.
   const prevCourses = existsSync(coursesOut)

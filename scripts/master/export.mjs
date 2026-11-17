@@ -78,11 +78,18 @@ export function csvFor(keys, rows) {
   return toCsv(keys, rows);
 }
 
+/** PART 9: every Lessons column in sheet order: the seeded ones, then added_columns. */
+export const allLessonColumns = (columns) => [...columns.columns, ...(columns.added_columns || [])];
+/** Every Courses column in sheet order. */
+export const allCourseColumns = (columns) => [...columns.courses.columns, ...(columns.courses.added_columns || [])];
+
 /** The two exports: [{ tab, file, keys }] from columns.json. */
 export function plan(columns) {
   return [
-    { tab: 'Lessons', file: 'lessons.csv', keys: columns.columns.map((c) => c.key), optional: columns.columns.filter((c) => c.added_after_seed).map((c) => c.key) },
-    { tab: 'Courses', file: 'courses.csv', keys: columns.courses.columns.map((c) => c.key) },
+    // keys = what the CSV holds (the seeded columns, as before); readKeys = what the sheet may have
+    // (added columns at the end are accepted, not exported: the app does not need them).
+    { tab: 'Lessons', file: 'lessons.csv', keys: columns.columns.map((c) => c.key), readKeys: allLessonColumns(columns).map((c) => c.key), optional: allLessonColumns(columns).filter((c) => c.added_after_seed).map((c) => c.key) },
+    { tab: 'Courses', file: 'courses.csv', keys: columns.courses.columns.map((c) => c.key), readKeys: allCourseColumns(columns).map((c) => c.key), optional: allCourseColumns(columns).filter((c) => c.added_after_seed).map((c) => c.key) },
   ];
 }
 
@@ -104,7 +111,7 @@ export async function exportMaster({ sheetId, token, columns, outDir, fetchFn = 
   const results = [];
   for (const p of plan(columns)) {
     const values = await fetchTab({ sheetId, tab: p.tab, token, fetchFn });
-    const rows = rowsFromValues(p.tab, values, p.keys, p.optional || []);
+    const rows = rowsFromValues(p.tab, values, p.readKeys || p.keys, p.optional || []);
     results.push({ ...p, rows, csv: csvFor(p.keys, rows) });
   }
   mkdirSync(outDir, { recursive: true });
