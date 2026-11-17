@@ -210,8 +210,16 @@ echo "[$DRIVE_FILE_ID] stage=loop-result result=${result} loops=${loops} G=${G} 
 # cap) gets the true-peak limiter + two-pass loudnorm path (scripts/media/tp-decide.mjs). Same
 # standard: the mp3 must measure I −18 ±0.5 and TP ≤ −1.5; anything else stays failed.
 method="b3"
-if [ "$result" = "failed" ] && [ -z "$exc_i" ] && printf '%s' "$state" | node "$(dirname "${BASH_SOURCE[0]}")/tp-decide.mjs" is-quiet-capped; then
-  echo "[$DRIVE_FILE_ID] stage=tp-path B3 capped and too quiet → true-peak limiter + loudnorm"
+if [ "$result" = "failed" ] && [ -z "$exc_i" ] && printf '%s' "$state" | node "$(dirname "${BASH_SOURCE[0]}")/tp-decide.mjs" takes-tp-path; then
+  # PART 8: also true-peak failures; per-lesson limiter-depth cap from
+  # data/audio/limit-exceptions.json (ids only, at most 21 dB; default 20 dB).
+  LIMIT_EXCEPTIONS="${LIMIT_EXCEPTIONS:-data/audio/limit-exceptions.json}"
+  if ! B3_TP_MAX_DEPTH="$(node "$(dirname "${BASH_SOURCE[0]}")/tp-decide.mjs" cap-for "$LIMIT_EXCEPTIONS" "$DRIVE_FILE_ID")"; then
+    echo "[$DRIVE_FILE_ID] FAILED stage=limit-exceptions: ${LIMIT_EXCEPTIONS} is not valid" >&2
+    exit 1
+  fi
+  export B3_TP_MAX_DEPTH
+  echo "[$DRIVE_FILE_ID] stage=tp-path B3 failed on loudness → true-peak limiter + loudnorm (depth cap ${B3_TP_MAX_DEPTH} dB)"
   tps="$(b3_tploop "$aud" "$pan_af" "$TARGET_I" "$out")"
   echo "[$DRIVE_FILE_ID] stage=tp-result result=$(b3_field "$tps" result) encodes=$(b3_field "$tps" encodes) Gp=$(b3_field "$tps" Gp) ceiling=$(b3_field "$tps" ceilDb) depth=$(b3_field "$tps" depth) I_mp3=$(b3_field "$tps" I_mp3) TP_mp3=$(b3_field "$tps" TP_mp3) loudnorm=$(b3_field "$tps" norm) $(b3_field "$tps" reason)"
   if [ "$(b3_field "$tps" result)" = "ok" ] && [ -f "$out" ]; then

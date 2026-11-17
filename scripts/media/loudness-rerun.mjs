@@ -22,7 +22,9 @@ const json = (p, d) => (existsSync(p) ? JSON.parse(readFileSync(p, 'utf-8')) : d
 const FR = 'data/queues/failed-review.csv';
 const ST = 'data/ops/autorun-state.json';
 export const PARTS = 6;
-const partFiles = () => (existsSync('data/queues/rerun') ? readdirSync('data/queues/rerun').filter((f) => /^loudness-\d+\.csv$/.test(f)).sort().map((f) => join('data/queues/rerun', f)) : []);
+// RERUN_PREFIX: which re-run queues to read (default loudness-; PART 8 used exceptions-).
+const PREFIX = process.env.RERUN_PREFIX || 'loudness-';
+const partFiles = () => (existsSync('data/queues/rerun') ? readdirSync('data/queues/rerun').filter((f) => f.startsWith(PREFIX) && /-\d+\.csv$/.test(f)).sort().map((f) => join('data/queues/rerun', f)) : []);
 
 /** Round-robin split into n parts (each a mix of courses). Pure. */
 export function splitParts(ids, n = PARTS) {

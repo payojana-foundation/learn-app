@@ -102,7 +102,8 @@ b3_mp3loop() {
 }
 
 # ── PART 5 (16 Nov): true-peak limiter + two-pass loudnorm (scripts/media/tp-decide.mjs) ──
-# Used by transcode-one.sh ONLY after b3_mp3loop failed "too quiet" with G pinned at G_max.
+# Used by transcode-one.sh ONLY after b3_mp3loop failed "too quiet" with G pinned at G_max, or
+# (PART 8) on true peak.
 # b3_tp_pre <file> <pan_af> <Gp> <ceil_dB> <out.flac> — gain, 4× oversampled limiter, back to
 # 44.1 kHz, lossless local file (never uploaded).
 B3_LN_REST="TP=-2:LRA=50"
@@ -121,7 +122,8 @@ b3_tploop() {
   lim="${outf}.lim.flac"; ln1="${outf}.ln1.txt"
   p1="$(b3_ebur "$f" "$pan")"
   i1="${p1%% *}"; tp1="$(printf '%s' "$p1" | cut -d' ' -f2)"
-  state="$(node "$B3_DIR/tp-decide.mjs" init "{\"target\":\"${target}\",\"I1\":\"${i1}\",\"TP1\":\"${tp1}\"}")"
+  # B3_TP_MAX_DEPTH: per-lesson cap from data/audio/limit-exceptions.json (transcode-one sets it)
+  state="$(node "$B3_DIR/tp-decide.mjs" init "{\"target\":\"${target}\",\"I1\":\"${i1}\",\"TP1\":\"${tp1}\",\"maxDepth\":\"${B3_TP_MAX_DEPTH:-20}\"}")"
   echo "[${B3_LOG}] stage=tp-start I1=${i1} TP1=${tp1} Gp=$(b3_field "$state" Gp) ceiling=$(b3_field "$state" ceilDb) $(b3_field "$state" reason)" >&2
   while [ "$(b3_field "$state" done)" != "true" ]; do
     if [ "$(b3_field "$state" phase)" = "pre" ]; then
