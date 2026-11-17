@@ -94492,5 +94492,35 @@
       "method": "tp-limit+loudnorm"
     },
     "status": "DRAFT – needs reviewer approval"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "16bV2jfYWiB4rTi3i0W0JyrCW4aiiRd6t",
+    "drive_name": "បរិច្ឆេទ ទី១ ចិត្តបរមត្ថ ១៤៧ (១៤៩ មហាកិរិយាចិត្ត ៨ ដួង ការដឹងអារម្មណ៍តាមទ្វារ ៦.mp3",
+    "source_md5": "787ebb6d3bfd29ef7b60fe0eea6ce6d6",
+    "key": "audio/787ebb6d3bfd29ef-a64.mp3",
+    "bytes": 43841871,
+    "duration_s": 5480,
+    "sha256": "fda8e91677d643c6c9b749d6f937769230b6434d9c9404152c433aaf1452d358",
+    "loudness": {
+      "pass1": {
+        "I": -23.8,
+        "TP": 0.2,
+        "LRA": 0
+      },
+      "G": 10.62,
+      "limit": 0.447,
+      "depth": 17.82,
+      "busy": 4.71447209955841,
+      "out": {
+        "I": -18.4,
+        "TP": -2.5,
+        "LRA": 0
+      },
+      "loops": 3,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
