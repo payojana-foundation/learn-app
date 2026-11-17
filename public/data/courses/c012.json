@@ -7,7 +7,7 @@
   "teacher_slug": "yon-yi",
   "topics": [],
   "ongoing": false,
-  "all_shown": false,
+  "all_shown": true,
   "lessons": [
     {
       "id": "AABH000YY2023.1001",
@@ -1904,6 +1904,19 @@
           "kind": "r2",
           "src": "audio/fa26dbc947095bc4-a64.mp3",
           "duration_s": 5461
+        }
+      ]
+    },
+    {
+      "id": "AABH000YY2023.1147",
+      "num": 147,
+      "title_km": "១៤៩ មហាកិរិយាចិត្ត ៨ ដួង ការដឹងអារម្មណ៍តាមទ្វារ ៦/ភិក្ខុអគ្គចិត្តោ យ៉ុន យី​ បរិច្ឆេទទី១",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/787ebb6d3bfd29ef-a64.mp3",
+          "duration_s": 5480
         }
       ]
     },
