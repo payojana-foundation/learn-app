@@ -10,20 +10,6 @@
     "noise_db": -50
   },
   "measured": {
-    "1_DPBO3-9_7ZZ9rwlzeqwqokERHF7NIwR": {
-      "sha256": "e11caa4f0083823fd6507080a37ac416d7f333f7eb0b5df53cf34c8198eb2a03",
-      "drive_s": 3436.094694,
-      "via": "ffprobe header",
-      "head_s": 0,
-      "tail_s": 0
-    },
-    "16bV2jfYWiB4rTi3i0W0JyrCW4aiiRd6t": {
-      "sha256": "fda8e91677d643c6c9b749d6f937769230b6434d9c9404152c433aaf1452d358",
-      "drive_s": 5480.150204,
-      "via": "ffprobe header",
-      "head_s": 0,
-      "tail_s": 0
-    },
     "1JM2455Ig2evgsQX7fcwTwQ8ZCQvVhk0y": {
       "sha256": "764f1d2457b769f27cbba558fd26090117ba19d63e75f1cc24ebddc9102f9663",
       "drive_s": 200.003628,
@@ -82,18 +68,7 @@
     }
   },
   "results": {
-    "pass": [
-      {
-        "id": "1_DPBO3-9_7ZZ9rwlzeqwqokERHF7NIwR",
-        "course_id": "c001",
-        "sha256": "e11caa4f0083823fd6507080a37ac416d7f333f7eb0b5df53cf34c8198eb2a03"
-      },
-      {
-        "id": "16bV2jfYWiB4rTi3i0W0JyrCW4aiiRd6t",
-        "course_id": "c012",
-        "sha256": "fda8e91677d643c6c9b749d6f937769230b6434d9c9404152c433aaf1452d358"
-      }
-    ],
+    "pass": [],
     "flagged": [
       {
         "id": "1JM2455Ig2evgsQX7fcwTwQ8ZCQvVhk0y",
