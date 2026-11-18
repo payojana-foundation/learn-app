@@ -57,6 +57,7 @@ const SOURCE_INPUTS = [
   'data/media-manifest.json',
   'data/id-aliases.json',
   'data/master/title-aliases.json',
+  'data/master/lesson-sources.json',
 ];
 
 function buildStamp(root) {
@@ -431,15 +432,23 @@ export function khmerNumber(text) {
  * source id the FIRST row (sheet order) wins. Rows without a course id (hidden tab)
  * are never shown and do not claim a source. Returns Map(row -> manifest entry) and
  * the reason for every other row with a course id.
+ *
+ * P-19 (18 Nov, change protected: P-19): `sources` = data/master/lesson-sources.json (row_key ->
+ * {drive_file_id, key}, the media a row was last released with). A row whose CURRENT link has no
+ * approved entry but whose remembered source is still approved stays shown with that old media
+ * (a link change converting, or a new file that failed). Rows never released stay hidden.
+ * Returns also `kept`: Map(row -> {old, new}) for those rows.
  */
-export function shownRows(lessonRows, mediaManifest) {
+export function shownRows(lessonRows, mediaManifest, sources = null) {
   const approved = new Map();
   for (const e of mediaManifest || []) {
     if (e && e.drive_file_id && e.key && /^approved\b/i.test(e.status || '')) approved.set(e.drive_file_id, e);
   }
   const shown = new Map();
   const hidden = new Map(); // row -> reason
+  const kept = new Map(); // row -> { old, new } (link change, old media kept live)
   const claimed = new Set();
+  const remembered = (sources && sources.sources) || sources || {};
   for (const r of lessonRows) {
     if (!r.course_id) continue;
     const col = SOURCE_COL[r.source_type];
@@ -448,10 +457,13 @@ export function shownRows(lessonRows, mediaManifest) {
     if (claimed.has(id)) { hidden.set(r, 'duplicate source (an earlier row has it)'); continue; }
     claimed.add(id);
     const entry = approved.get(id);
-    if (entry) shown.set(r, entry);
-    else hidden.set(r, 'no approved media yet');
+    if (entry) { shown.set(r, entry); continue; }
+    const old = r.row_key && remembered[r.row_key];
+    const oldEntry = old && old.drive_file_id !== id ? approved.get(old.drive_file_id) : null;
+    if (oldEntry && oldEntry.key === old.key) { shown.set(r, oldEntry); kept.set(r, { old: old.drive_file_id, new: id }); continue; }
+    hidden.set(r, 'no approved media yet');
   }
-  return { shown, hidden };
+  return { shown, hidden, kept };
 }
 
 /** A team poster override that is already an R2 key (thumbnail_link column, future). */
@@ -493,7 +505,7 @@ export function videoLookup(video) {
  * visible lesson and a mapped teacher. Lesson order = lesson_no as a number (Khmer
  * digits count), ties and non-numbers by sheet row. Titles are copied byte for byte.
  */
-export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest, video = null, titleAliases = null) {
+export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest, video = null, titleAliases = null, sources = null) {
   // PART 9 (17 Nov): old titles after a rename (data/master/title-aliases.json), served as search
   // aliases only; the shown title is always the current one.
   const courseAlias = (titleAliases && titleAliases.courses) || {};
@@ -507,7 +519,8 @@ export function buildFromMaster(lessonRows, courseRows, teachers, mediaManifest,
     slugByName.set(t.name_km, t.slug);
   }
   const courseRowById = new Map((courseRows || []).map((c) => [c.course_id, c]));
-  const { shown, hidden } = shownRows(lessonRows, mediaManifest);
+  const { shown, hidden, kept } = shownRows(lessonRows, mediaManifest, sources);
+  for (const [r, k] of kept) issues.push({ course_id: r.course_id, lesson_num: r.lesson_no, kind: 'link_change_kept', detail: `new file ${k.new} not approved yet; the released media stays live` });
 
   const byCourse = new Map(); // course_id -> rows in sheet order
   for (const r of lessonRows) {
@@ -673,7 +686,9 @@ function main() {
 
   const aliasTitlesPath = join(root, 'data', 'master', 'title-aliases.json');
   const titleAliases = existsSync(aliasTitlesPath) ? JSON.parse(readFileSync(aliasTitlesPath, 'utf-8')) : null;
-  const { catalog, courses, issues } = buildFromMaster(lessonRows, courseRows, teachers, mediaManifest, video, titleAliases);
+  const sourcesPath = join(root, 'data', 'master', 'lesson-sources.json');
+  const lessonSources = existsSync(sourcesPath) ? JSON.parse(readFileSync(sourcesPath, 'utf-8')) : null;
+  const { catalog, courses, issues } = buildFromMaster(lessonRows, courseRows, teachers, mediaManifest, video, titleAliases, lessonSources);
 
   // Id guard (gap 8): nothing is written if a lesson id with approved media would vanish.
   const prevCourses = existsSync(coursesOut)

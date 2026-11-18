@@ -81,10 +81,11 @@ export function audioStatus(sourceId, approved, failedReview, inManifest) {
  * Returns { lessons: Map(row_key -> {col: value}), courses: Map(course_id -> {lesson_count}) }.
  */
 export function computeSystem(lessonRows, courseRows, ctx) {
-  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map(), checkFlags = new Map(), decisions = {}, intakeIssues = new Map(), failedReasons = new Map(), renameLog = { courses: {}, lessons: {} } } = ctx;
+  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map(), checkFlags = new Map(), decisions = {}, intakeIssues = new Map(), failedReasons = new Map(), renameLog = { courses: {}, lessons: {} }, sources = null } = ctx;
   const approved = new Set(manifest.filter((e) => e && e.drive_file_id && /^approved\b/i.test(e.status || '')).map((e) => e.drive_file_id));
   const inManifest = new Set(manifest.filter((e) => e && e.drive_file_id).map((e) => e.drive_file_id));
-  const { hidden } = shownRows(lessonRows, manifest);
+  const { hidden, kept } = shownRows(lessonRows, manifest, sources);
+  const keptRows = new Set(kept.keys());
   const pendingCourse = new Set(courseRows.filter((c) => c.teacher === 'pending').map((c) => c.course_id));
   const lessons = new Map();
   const counts = new Map();
@@ -108,6 +109,8 @@ export function computeSystem(lessonRows, courseRows, ctx) {
     for (const x of intakeIssues.get(r.row_key) || []) issues.push(x);
     if (src && failedReasons.get(src) && !inManifest.has(src)) issues.push(`CONVERSION FAILED: ${failedReasons.get(src)}`);
     for (const reason of (src && checkFlags.get(src)) || []) issues.push(`CHECK: ${reason}`);
+    // P-19 (18 Nov): the old media stays live while a new link converts; a failed new file says why.
+    if (keptRows.has(r) && src && failedReview.has(src)) issues.push(`CHECK: new file failed: ${failedReasons.get(src) || 'conversion failed'}`);
     if (r.course_id && renameLog.courses && renameLog.courses[r.course_id]) issues.push(renameLog.courses[r.course_id]);
     if (renameLog.lessons && renameLog.lessons[r.row_key]) issues.push(renameLog.lessons[r.row_key]);
     const dec = decisions[r.row_key];
@@ -380,6 +383,7 @@ async function main() {
     manifest, failedReview: failedReviewSet(root), shownLessonIds: shownFromPublicData(root), acastBySource: await acastFromTeacherSheets(root),
     checkFlags: checkFlagsFile(root),
     intakeIssues: intake.issues,
+    sources: existsSync(join(root, 'data', 'master', 'lesson-sources.json')) ? JSON.parse(readFileSync(join(root, 'data', 'master', 'lesson-sources.json'), 'utf-8')) : null,
     renameLog: existsSync(join(root, 'data', 'ops', 'renames.json')) ? JSON.parse(readFileSync(join(root, 'data', 'ops', 'renames.json'), 'utf-8')) : { courses: {}, lessons: {} },
     failedReasons: failedReasonsFrom(existsSync(join(root, 'data', 'queues', 'failed-review.csv')) ? readFileSync(join(root, 'data', 'queues', 'failed-review.csv'), 'utf-8') : ''),
     decisions: existsSync(join(root, 'data', 'ops', 'check-decisions.json')) ? JSON.parse(readFileSync(join(root, 'data', 'ops', 'check-decisions.json'), 'utf-8')) : {},

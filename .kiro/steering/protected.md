@@ -150,10 +150,20 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   and URL-encodes it, per P-12) and carries the real `duration_s` from the
   manifest. DRAFT entries never count. The build fails if a lesson id that had
   approved media would disappear, unless the id is a key of `data/id-aliases.json`.
-  `shownRows`/`buildFromMaster`/`approvedIdGuard`, `scripts/build-courses.mjs`.
+  LINK CHANGE (18 Nov): a lesson that already has approved media (its row in
+  `data/master/lesson-sources.json`, the file id + key it was released with, still approved with
+  that key) stays visible and keeps playing that media while a new link converts; the new media
+  replaces it only once it passes and is approved, then the old R2 key goes to
+  `data/queues/orphans-pending.txt` (never deleted). A failed new file leaves the old media live and
+  `issues` says `CHECK: new file failed: <reason>`. Lessons never approved stay hidden; the id
+  guard therefore never fails on a link change.
+  `shownRows`/`buildFromMaster`/`approvedIdGuard`, `scripts/build-courses.mjs`; `linkChanges`,
+  `scripts/queues/link-changes.mjs`.
   Contract: `src/contracts/__tests__/master-build.contract.test.mjs` "P-19 per-lesson
-  release". (The old website-based `buildCourses` is kept, unused by the build.)
-  [from part Q4, bulk-02; replaced in bulk 09, change protected: P-19]
+  release", `src/contracts/__tests__/link-change.contract.test.mjs`. (The old website-based
+  `buildCourses` is kept, unused by the build.)
+  [from part Q4, bulk-02; replaced in bulk 09, change protected: P-19; link change kept live 18 Nov,
+  change protected: P-19]
 ## Provisional → permanent ids (Q5, bulk-02)
 
 - **P-20** CLEAN CUT (IndexedDB version 3). Course and lesson ids changed when the
