@@ -7,7 +7,7 @@
   "teacher_slug": "peng-dina",
   "topics": [],
   "ongoing": false,
-  "all_shown": false,
+  "all_shown": true,
   "lessons": [
     {
       "id": "d-1sSkn0-c_Tn86LqhPSuv-yiSnTNGrQZxz",
@@ -19,6 +19,19 @@
           "kind": "r2",
           "src": "audio/ca022d82292926a6-a64.mp3",
           "duration_s": 3519
+        }
+      ]
+    },
+    {
+      "id": "d-182P_ouVV3nRacNOi8zwJEgNtUo7o0iXH",
+      "num": 2,
+      "title_km": "2.July 1 2024 2033p.m.អភិធម្មបរិច្ឆេទទី ៨ បច្ចយបរិច្ឆេទ  ម៉ោងទី ២.mp4",
+      "topic": "",
+      "media": [
+        {
+          "kind": "r2",
+          "src": "audio/64725f3c919ca0aa-a64.mp3",
+          "duration_s": 3296
         }
       ]
     },
