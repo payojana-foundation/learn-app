@@ -49,7 +49,9 @@ jobs:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
           DRIVE_NAME: ${{ inputs.drive_name }}
           FILE_ID: ${{ inputs.file_id }}
-        run: node scripts/media/shared-drive-check.mjs "$DRIVE_NAME" "$FILE_ID" | tee -a "$GITHUB_STEP_SUMMARY"
+        run: |
+          set -euo pipefail
+          node scripts/media/shared-drive-check.mjs "$DRIVE_NAME" "$FILE_ID" | tee -a "$GITHUB_STEP_SUMMARY"
       - name: Pipeline read (transcode-one.sh DRY_RUN - download + measure, no upload)
         env:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}

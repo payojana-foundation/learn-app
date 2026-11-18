@@ -51,3 +51,10 @@ describe('Shared Drive: every Drive API call', () => {
     expect(lists.filter((c) => !c.url.includes('includeItemsFromAllDrives=true'))).toEqual([]);
   });
 });
+
+describe('shared-drive-check workflow', () => {
+  it('a failed find stops the run (pipefail), so the pipeline step never runs with an empty id', () => {
+    const y = readFileSync('.github/workflows/shared-drive-check.yml', 'utf-8');
+    expect(y).toMatch(/set -euo pipefail\n\s+node scripts\/media\/shared-drive-check\.mjs/);
+  });
+});
