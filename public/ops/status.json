@@ -1,26 +1,26 @@
 {
   "version": 1,
-  "as_of": "2026-11-18T06:39:27.000Z",
+  "as_of": "2026-11-18T18:27:32.000Z",
   "totals": {
     "lessons": 4814,
-    "live": 3040,
+    "live": 3041,
     "audio": {
       "not started": 1749,
-      "converted": 9,
+      "converted": 8,
       "needs review": 16,
-      "approved": 3040
+      "approved": 3041
     }
   },
   "courses": [
     {
       "course_id": "c001",
       "lessons": 57,
-      "live": 56,
+      "live": 57,
       "audio": {
         "not started": 0,
-        "converted": 1,
+        "converted": 0,
         "needs review": 0,
-        "approved": 56
+        "approved": 57
       }
     },
     {
