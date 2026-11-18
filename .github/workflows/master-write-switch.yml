@@ -1,0 +1,70 @@
+name: master-write-switch
+
+# PART 12 (18 Nov) — the checks around switching master-sync to write, one step per run
+# (scripts/master/write-switch.mjs). Manual only. A failed check ends the run red.
+#   backup       copy the master sheet into the Shared Drive (files.copy, supportsAllDrives)
+#   protections  every SYSTEM column of Lessons/Courses is in a protected range
+#   verify       TEAM columns of Lessons/Courses byte-identical to the backup (input backup_id)
+#   restore      write the backup's SYSTEM columns back (only after a failed switch)
+# The backup id appears only in this run's log/summary; nothing is committed.
+
+on:
+  workflow_dispatch:
+    inputs:
+      step:
+        description: "backup | protections | verify | restore"
+        required: true
+        type: choice
+        options: [backup, protections, verify, restore]
+      backup_id:
+        description: "Backup sheet id (verify / restore)"
+        required: false
+        default: ""
+      sheet_id:
+        description: "Google Sheet id of the master content sheet"
+        required: false
+        default: "12MOXAOHwwtKa6DFVwbfRMj8UtaKmN1758boN1EUKNZs"
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: data-rebuild-main
+  cancel-in-progress: false
+
+jobs:
+  step:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - name: Authenticate to Google Cloud (Sheets + Drive)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/spreadsheets,https://www.googleapis.com/auth/drive
+      - name: Run the step
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          STEP: ${{ inputs.step }}
+          SHEET_ID: ${{ inputs.sheet_id }}
+          BACKUP_ID: ${{ inputs.backup_id }}
+        run: |
+          set -euo pipefail
+          [[ "$SHEET_ID" =~ ^[A-Za-z0-9_-]+$ ]] || { echo "bad sheet id"; exit 1; }
+          if [ "$STEP" = "verify" ] || [ "$STEP" = "restore" ]; then [[ "$BACKUP_ID" =~ ^[A-Za-z0-9_-]+$ ]] || { echo "backup_id needed"; exit 1; }; fi
+          case "$STEP" in
+            backup) node scripts/master/write-switch.mjs backup "$SHEET_ID" "Payojana-Classes" | tee -a "$GITHUB_STEP_SUMMARY" ;;
+            protections) node scripts/master/write-switch.mjs protections "$SHEET_ID" | tee -a "$GITHUB_STEP_SUMMARY" ;;
+            verify) node scripts/master/write-switch.mjs verify "$SHEET_ID" "$BACKUP_ID" | tee -a "$GITHUB_STEP_SUMMARY" ;;
+            restore) node scripts/master/write-switch.mjs restore "$SHEET_ID" "$BACKUP_ID" | tee -a "$GITHUB_STEP_SUMMARY" ;;
+          esac
