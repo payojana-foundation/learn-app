@@ -155,9 +155,11 @@ describe('fake Sheets API: refused, re-run', () => {
 
 describe('columns, intake, export, build, sync', () => {
   it('the new columns are added once at the end of each tab (fake API), never in the middle', async () => {
-    const api = fakeSheets({ Lessons: [LK.slice(0, -1)], Courses: [CK.slice(0, -1)] });
+    // the sheet as seeded (no added columns yet): every added column is appended, in order
+    const seededL = columns.columns.map((c) => c.key);
+    const api = fakeSheets({ Lessons: [seededL], Courses: [CK.slice(0, -1)] });
     expect(await ensureTrailingColumns({ sheetId: 'SHEET', token: 't', tab: 'Courses', columns: allCourseColumns(columns), fetchFn: api.fetchFn })).toEqual(['title_km_new']);
-    expect(await ensureTrailingColumns({ sheetId: 'SHEET', token: 't', tab: 'Lessons', columns: allLessonColumns(columns), fetchFn: api.fetchFn })).toEqual(['lesson_title_new']);
+    expect(await ensureTrailingColumns({ sheetId: 'SHEET', token: 't', tab: 'Lessons', columns: allLessonColumns(columns), fetchFn: api.fetchFn })).toEqual(columns.added_columns.map((c) => c.key));
     expect(api.grid.Courses[0]).toEqual(CK);
     expect(api.grid.Lessons[0]).toEqual(LK);
     expect(await ensureTrailingColumns({ sheetId: 'SHEET', token: 't', tab: 'Lessons', columns: allLessonColumns(columns), fetchFn: api.fetchFn })).toEqual([]);

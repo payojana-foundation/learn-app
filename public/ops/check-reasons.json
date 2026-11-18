@@ -2,6 +2,7 @@
   "schema_version": 1,
   "doc": "Every reason public/ops/checks.json can carry (scripts/master/checks.mjs REASONS), what it means and who fixes it. Read by the Operations dashboard. No sheet id or sheet URL.",
   "changes": [
+    { "date": "2026-11-17", "reason": "editing: lessons waiting to be cut", "change": "CHANGE for Operations: new reason, and fewer \"no file link\" items. A lesson row the team marks editing_status = \"in editing\" while it has no file link is no longer a \"no file link\" item; instead each course gets ONE summary item \"editing: lessons waiting to be cut\" with the count in detail. When the file link is added the status is ignored and the lesson goes the normal way (conversion, pre-check, release)." },
     { "date": "2026-11-17", "reason": "media: does not play", "change": "CHANGE for Operations: new reason. The weekly media-playcheck (and a manual run) found a LIVE file (approved, on media.84000.digital) that does not play: not HTTP 200, wrong content type, size not the manifest size, decode errors, duration off by more than 2 %, or for video moov box after mdat (not faststart) or no poster. detail names the cause. The lesson is still shown in the app; it needs a person: re-convert it (check_decision fixed after the file is replaced) or hold it." }
   ],
   "reasons": [
@@ -19,6 +20,7 @@
     { "reason": "file not shared", "media_type": "audio|video", "meaning": "Drive refused the file (HTTP 403/404): not shared with the service account, deleted or in the trash", "fix": "share the file with the service account (or restore it), then set fixed" },
     { "reason": "no file link", "media_type": "audio", "meaning": "the lesson row has no Drive file link (or only a folder link)", "fix": "add the file link in mp3_link, mp4_link or minicourse_link, then set fixed" },
     { "reason": "no approved lesson", "media_type": "audio", "meaning": "the course has no approved lesson and nothing is waiting for the pipeline", "fix": "fix the lessons listed in detail" },
+    { "reason": "editing: lessons waiting to be cut", "media_type": "audio", "meaning": "lessons of this course marked \"in editing\" with no file link yet (count in detail); a summary, one per course", "fix": "nothing until the cut file exists; then add its link in the sheet", "since": "2026-11-17" },
     { "reason": "media: does not play", "media_type": "audio|video", "meaning": "a live file failed the playback check (detail: http, content-type, size, decode, duration, not faststart or poster)", "fix": "replace or re-convert the file and set fixed, or hold", "since": "2026-11-17" }
   ]
 }

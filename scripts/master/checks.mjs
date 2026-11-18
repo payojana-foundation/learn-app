@@ -31,6 +31,9 @@ import { videoLessons } from '../media/video-inventory.mjs';
 import { mediaUrl } from '../queues/approve-lists.mjs';
 import { noFileLink } from './intake.mjs';
 
+/** PART 11: the row is marked `in editing` (only meaningful while it has no file link). Pure. */
+export const inEditing = (r) => String((r && r.editing_status) || '').trim() === 'in editing';
+
 /** A conversion-failure reason that means Drive refused the file. Pure. */
 export const isNotShared = (reason) => /HTTP 40[34]\b|not readable from Drive|not shared/i.test(String(reason || ''));
 
@@ -41,6 +44,7 @@ export const REASONS = [
   'same audio (sha256) as another lesson', 'silence > 60 s in the first 2 min', 'silence > 60 s in the last 2 min',
   'duration differs > 2 % from the source', 'same video (sha256) as another lesson', 'same source file as another Drive id',
   'conversion failed', 'file not shared', 'no file link', 'no approved lesson', 'media: does not play',
+  'editing: lessons waiting to be cut',
 ];
 export const CHECK_DECISIONS = ['', 'fixed', 'approve anyway', 'hold'];
 
@@ -163,9 +167,14 @@ export function checksJson(ctx) {
     const r = byVideo.get(id);
     if (r && /^40[34]$/.test(String(v.http_status))) push(r, 'video', 'file not shared', `Drive HTTP ${v.http_status}: ${v.likely_cause || 'not shared with the service account, deleted or in the trash'}`, null);
   }
+  const editing = new Map(); // course_id -> rows in editing without a file link
   for (const r of lessonRows) {
-    if (r.course_id && r.row_key && noFileLink(r)) push(r, 'audio', 'no file link', /\/folders\//.test(`${r.mp3_link} ${r.mp4_link} ${r.minicourse_link}`) ? 'a folder link, not a file link' : 'no Drive file link in mp3_link, mp4_link or minicourse_link', null);
+    if (!r.course_id || !r.row_key || !noFileLink(r)) continue;
+    if (inEditing(r)) { if (!editing.has(r.course_id)) editing.set(r.course_id, []); editing.get(r.course_id).push(r); continue; }
+    push(r, 'audio', 'no file link', /\/folders\//.test(`${r.mp3_link} ${r.mp4_link} ${r.minicourse_link}`) ? 'a folder link, not a file link' : 'no Drive file link in mp3_link, mp4_link or minicourse_link', null);
   }
+  // PART 11: one summary item per course for the lessons the editors are still cutting
+  for (const [, rows] of editing) push(rows[0], 'audio', 'editing: lessons waiting to be cut', `${rows.length} lesson${rows.length === 1 ? '' : 's'} marked "in editing" with no file link yet`, null);
   // PART 10: live files that do not play (data/ops/playcheck.json, media-playcheck.yml)
   for (const f of (playcheck && playcheck.failures) || []) {
     const r = f.kind === 'video' ? byVideo.get(f.id) : byAudio.get(f.id);
@@ -187,6 +196,7 @@ export function checksJson(ctx) {
     for (const r of rows) {
       const id = noFileLink(r) ? null : sourceIdOf(r);
       if (id && approved.has(id)) { approvedN++; continue; }
+      if (!id && inEditing(r)) { waiting++; continue; } // being cut: a person is already on it
       if (!id) tally['no file link']++;
       else if (flagged.has(id)) tally.flagged++;
       else if (!audioEntry.has(id) && failed.has(id)) tally[isNotShared(failed.get(id)) ? 'file not shared' : 'conversion failed']++;

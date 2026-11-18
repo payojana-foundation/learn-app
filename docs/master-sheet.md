@@ -1,8 +1,5 @@
 # Master content sheet (bulk 08)
 
-| 32 | `lesson_title_new` | TEAM | no |  | PART 9 (17 Nov): a new lesson title. Hourly class-renames.yml writes it to `lesson_title` exactly as typed when valid (not blank, no leading/trailing space), keeps the old title as a search alias, clears this cell and logs `renamed <date>: old → new` in `issues`; invalid: the cell stays, `CHECK: rename: <reason>`. Added at the END of Lessons by class-renames.yml. See **Renames** below. |
-# Master content sheet (bulk 08)
-
 One Google Sheet that lists every lesson row of the teacher sheets, so the team edits one place. Decisions: `docs/kiro-bulk-08.md`. Schema (single source for the seed, the reader and the dashboard): `data/master/columns.json`. Bulk 08 only SEEDS the sheet and REPORTS parity; the app and `build-courses` keep reading what they read today (the switch is bulk 09).
 
 ## Tabs
@@ -49,6 +46,8 @@ Owner TEAM = the team edits it. SYSTEM = written by the seed/sync; a protected r
 | 29 | `source_tab` | SYSTEM | yes |  | Tab name, byte-for-byte. |
 | 30 | `source_row` | SYSTEM | yes |  | Sheet row number (1-based). |
 | 31 | `check_decision` | TEAM | no | fixed, approve anyway, hold (empty = no decision) | Team decision on a flagged or failed lesson (16 Nov). Added at the END of the Lessons tab by check-decisions.yml (`added_after_seed`); until it exists, the export and the sync read it as empty. See **Team decisions** below. |
+| 32 | `lesson_title_new` | TEAM | no |  | PART 9 (17 Nov): a new lesson title. Hourly class-renames.yml writes it to `lesson_title` exactly as typed when valid (not blank, no leading/trailing space), keeps the old title as a search alias, clears this cell and logs `renamed <date>: old → new` in `issues`; invalid: the cell stays, `CHECK: rename: <reason>`. Added at the END of Lessons by class-renames.yml. See **Renames** below. |
+| 33 | `editing_status` | TEAM | no | in editing (empty = not set) | PART 11 (17 Nov): the editors are still cutting this lesson. Only while the row has no Drive file link: no `no file link` check (issues says `in editing: no file link yet`), and checks.json gets one item per course, `editing: lessons waiting to be cut`, with the count. Once a file link is in the row the status is ignored. Added at the END of Lessons by class-renames.yml. |
 
 ## Courses tab
 

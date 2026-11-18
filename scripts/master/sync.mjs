@@ -104,7 +104,7 @@ export function computeSystem(lessonRows, courseRows, ctx) {
     if (!lessonId) issues.push('no source, no code');
     if (r.acast_status === 'posted' && !embed && !episode) issues.push('acast embed missing');
     if (!r.source_type && src) issues.push('source_type not set');
-    if ((r.course_id || !r.source_file) && noFileLink(r)) issues.push(ISSUE_NO_FILE);
+    if ((r.course_id || !r.source_file) && noFileLink(r)) issues.push(String(r.editing_status || '').trim() === 'in editing' ? 'in editing: no file link yet' : ISSUE_NO_FILE);
     for (const x of intakeIssues.get(r.row_key) || []) issues.push(x);
     if (src && failedReasons.get(src) && !inManifest.has(src)) issues.push(`CONVERSION FAILED: ${failedReasons.get(src)}`);
     for (const reason of (src && checkFlags.get(src)) || []) issues.push(`CHECK: ${reason}`);
