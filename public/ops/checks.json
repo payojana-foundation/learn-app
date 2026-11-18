@@ -1,22 +1,7 @@
 {
   "schema_version": 1,
-  "generated_at": "2026-11-17T16:22:24.136Z",
+  "generated_at": "2026-11-18T11:58:38.704Z",
   "items": [
-    {
-      "row_key": "M00002",
-      "lesson_id": "d-182P_ouVV3nRacNOi8zwJEgNtUo7o0iXH",
-      "course_id": "c001",
-      "course_title_km": "1-បរិច្ឆេទ ទី ៨",
-      "lesson_title": "2.July 1 2024 2033p.m.អភិធម្មបរិច្ឆេទទី ៨ បច្ចយបរិច្ឆេទ  ម៉ោងទី ២.mp4",
-      "media_type": "audio",
-      "reason": "conversion failed",
-      "detail": "too quiet: needs limiter depth 21.38 dB (> 21 dB cap of the true-peak path)",
-      "first_flagged_at": "2026-11-15T23:49:02.777Z",
-      "sheet_row": 3,
-      "sheet_gid": 1092300621,
-      "play_url": null,
-      "check_decision": ""
-    },
     {
       "row_key": "M00058",
       "lesson_id": "",
