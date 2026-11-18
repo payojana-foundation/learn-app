@@ -39,6 +39,8 @@ export const CEIL_STEP_DB = 1.0;
 export const MAX_DEPTH = 20;
 /** data/audio/limit-exceptions.json may raise the cap for listed ids, never above this. */
 export const MAX_DEPTH_EXCEPTION = 21;
+/** PART 11c (18 Nov): a single listed id (per_id) may go to at most this. */
+export const MAX_DEPTH_PER_ID = 21.5;
 export const MAX_ENCODES = 5;
 export const MAX_RENDERS = 5;
 export const PRE_GAIN_STEP = 1.25; // limiting eats some loudness: step a little past the gap
@@ -59,6 +61,11 @@ const capOf = (s) => (Number.isFinite(Number(s.maxDepth)) ? Number(s.maxDepth) :
  * number in (MAX_DEPTH, MAX_DEPTH_EXCEPTION] — anything else is an error (never silently wider).
  */
 export function capFor(id, exceptions) {
+  const per = exceptions && exceptions.per_id && Object.prototype.hasOwnProperty.call(exceptions.per_id, id) ? Number(exceptions.per_id[id]) : null;
+  if (per !== null) {
+    if (!Number.isFinite(per) || per <= MAX_DEPTH || per > MAX_DEPTH_PER_ID) throw new Error(`limit-exceptions.json per_id ${id} must be > ${MAX_DEPTH} and <= ${MAX_DEPTH_PER_ID} (got ${exceptions.per_id[id]})`);
+    return per;
+  }
   if (!exceptions || !Array.isArray(exceptions.ids) || !exceptions.ids.includes(id)) return MAX_DEPTH;
   const c = Number(exceptions.cap_db);
   if (!Number.isFinite(c) || c <= MAX_DEPTH || c > MAX_DEPTH_EXCEPTION) throw new Error(`limit-exceptions.json cap_db must be > ${MAX_DEPTH} and <= ${MAX_DEPTH_EXCEPTION} (got ${exceptions.cap_db})`);
@@ -100,7 +107,7 @@ export function init({ I1, TP1, target = TARGET_I, maxDepth = MAX_DEPTH }) {
     done: false, result: null, reason: '', I_mp3: null, TP_mp3: null, norm: null, history: [],
     maxDepth: Number(maxDepth),
   };
-  if (!(s.maxDepth > 0) || s.maxDepth > MAX_DEPTH_EXCEPTION) return finish(s, 'failed', `limiter depth cap ${maxDepth} is not allowed (max ${MAX_DEPTH_EXCEPTION})`);
+  if (!(s.maxDepth > 0) || s.maxDepth > MAX_DEPTH_PER_ID) return finish(s, 'failed', `limiter depth cap ${maxDepth} is not allowed (max ${MAX_DEPTH_PER_ID})`);
   if (!Number.isFinite(s.I1) || !Number.isFinite(s.TP1)) return finish(s, 'failed', 'source not measurable');
   if (depthOf(s) > capOf(s)) return finish(s, 'failed', `limiter depth ${depthOf(s)} dB > ${capOf(s)}`);
   return s;

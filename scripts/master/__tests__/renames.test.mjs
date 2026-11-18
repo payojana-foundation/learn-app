@@ -208,3 +208,21 @@ describe('workflow', () => {
     expect(y).toContain('npm run build-courses');
   });
 });
+
+describe('PART 11d: renames apply whatever MASTER_SYNC_MODE is', () => {
+  const y = readFileSync('.github/workflows/class-renames.yml', 'utf-8');
+  it('class-renames writes its own cells; it never reads MASTER_SYNC_MODE or a mode input', () => {
+    expect(y).not.toMatch(/MASTER_SYNC_MODE|inputs\.mode|--mode/);
+    expect(y).toMatch(/- name: Write the cells\n\s+if: \$\{\{ steps\.plan\.outputs\.cells != '0' \}\}\n/);
+  });
+  it('it writes only title columns, _new cells and issues', () => {
+    const allowed = new Set(['course_title_km', 'title_km_new', 'lesson_title', 'lesson_title_new', 'issues']);
+    const L = lessons();
+    const C = courses();
+    C[1][CK.indexOf('title_km_new')] = 'n1';
+    L[3][LK.indexOf('lesson_title_new')] = 'n2';
+    const p = planRenames({ lessonsTab: { header: LK, rows: L.slice(1) }, coursesTab: { header: CK, rows: C.slice(1) }, date: D });
+    expect(p.cells.length).toBeGreaterThan(0);
+    expect(p.cells.every((c) => allowed.has(c.column))).toBe(true);
+  });
+});

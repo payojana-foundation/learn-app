@@ -1,6 +1,9 @@
 {
-  "_doc": "PART 8 (16 Nov): per-lesson override of the 20 dB limiter-depth cap of the true-peak loudness path (scripts/media/tp-decide.mjs). Drive file ids only. cap_db must be > 20 and <= 21. The measured standard is unchanged (I -18 +-0.5 LUFS, TP <= -1.5 dBTP); a file that misses it never uploads. Listed: the 2 c001 lessons of failed-review.csv that needed 20.15 and 20.82 dB.",
+  "_doc": "PART 8 (16 Nov): per-lesson override of the 20 dB limiter-depth cap of the true-peak loudness path (scripts/media/tp-decide.mjs). Drive file ids only. cap_db must be > 20 and <= 21. The measured standard is unchanged (I -18 +-0.5 LUFS, TP <= -1.5 dBTP); a file that misses it never uploads. Listed: the 2 c001 lessons of failed-review.csv that needed 20.15 and 20.82 dB. per_id (PART 11c, 18 Nov): one id with its own cap, > 20 and <= 21.5 dB (182P… c001 needed 21.38 dB at 21).",
   "cap_db": 21,
+  "per_id": {
+    "182P_ouVV3nRacNOi8zwJEgNtUo7o0iXH": 21.5
+  },
   "ids": [
     "1_DPBO3-9_7ZZ9rwlzeqwqokERHF7NIwR",
     "182P_ouVV3nRacNOi8zwJEgNtUo7o0iXH"

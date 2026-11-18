@@ -11,7 +11,7 @@ import { mkdtempSync, writeFileSync, rmSync, existsSync, readFileSync } from 'no
 import { tmpdir } from 'node:os';
 import { join, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
-import { init, onPre, onMp3, capFor, isQuietCapped, isTruePeakFailure, takesTpPath, depthOf, MAX_DEPTH, MAX_DEPTH_EXCEPTION, MIN_CEIL_DB } from '../tp-decide.mjs';
+import { init, onPre, onMp3, capFor, isQuietCapped, isTruePeakFailure, takesTpPath, depthOf, MAX_DEPTH, MAX_DEPTH_EXCEPTION, MAX_DEPTH_PER_ID, MIN_CEIL_DB } from '../tp-decide.mjs';
 
 const here = resolve(fileURLToPath(import.meta.url), '..');
 const lib = resolve(here, '..', 'b3-loop.sh').replace(/\\/g, '/');
@@ -44,12 +44,30 @@ describe('a) limit exceptions', () => {
     expect(s).toMatchObject({ done: true, result: 'failed' });
     expect(s.reason).toBe('limiter depth 20.2 dB > 20');
   });
-  it('the committed file lists ids only, cap 21', () => {
+  it('the committed file lists ids only, cap 21 (+ PART 11c per_id)', () => {
     const f = JSON.parse(readFileSync('data/audio/limit-exceptions.json', 'utf-8'));
-    expect(Object.keys(f).sort()).toEqual(['_doc', 'cap_db', 'ids']);
+    expect(Object.keys(f).sort()).toEqual(['_doc', 'cap_db', 'ids', 'per_id']);
+    expect(Object.keys(f.per_id).every((x) => /^[A-Za-z0-9_-]{25,}$/.test(x))).toBe(true);
     expect(f.cap_db).toBe(21);
     expect(f.ids.every((x) => /^[A-Za-z0-9_-]{25,}$/.test(x))).toBe(true);
     expect(f.ids.length).toBe(2);
+  });
+});
+
+describe('PART 11c per-id cap', () => {
+  const ex2 = { cap_db: 21, ids: [LISTED], per_id: { [OTHER]: 21.5 } };
+  it('a per_id cap wins for that id (21.5 dB); the group cap and the default are unchanged', () => {
+    expect(capFor(OTHER, ex2)).toBe(21.5);
+    expect(capFor(LISTED, ex2)).toBe(21);
+    expect(capFor('N'.repeat(33), ex2)).toBe(MAX_DEPTH);
+    expect(MAX_DEPTH_PER_ID).toBe(21.5);
+  });
+  it('the per-id id passes at 21.38 dB; above 21.5 is refused', () => {
+    const s = init({ I1: -36.38, TP1: 0, maxDepth: capFor(OTHER, ex2) });
+    expect(depthOf(s)).toBe(21.38);
+    expect(s.done).toBe(false);
+    expect(() => capFor(OTHER, { per_id: { [OTHER]: 21.6 } })).toThrow(/<= 21.5/);
+    expect(init({ I1: -30, TP1: 0, maxDepth: 21.6 })).toMatchObject({ done: true, result: 'failed' });
   });
 });
 

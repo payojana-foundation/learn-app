@@ -94,6 +94,8 @@ jobs:
           if [ "${VIDEO_ENABLED:-}" = "true" ]; then sw=true; else sw=false; fi
           printf '{\n  "enabled": %s\n}\n' "$sw" > data/video-switch.json
           # PART 3 intake: lessons the team added go into the conversion queues (append only).
+          # PART 11e: a changed file link on a released lesson is re-queued; old key -> orphans-pending
+          node scripts/queues/link-changes.mjs
           node scripts/queues/intake-queues.mjs
           node scripts/queues/video-queues.mjs
           npm run build-courses
