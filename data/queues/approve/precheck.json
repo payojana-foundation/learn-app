@@ -10,13 +10,6 @@
     "noise_db": -50
   },
   "measured": {
-    "182P_ouVV3nRacNOi8zwJEgNtUo7o0iXH": {
-      "sha256": "ed5fdb89f93b97d639da24dbfe88f074363e76f41ccec5561b7f7d917b127b88",
-      "drive_s": 3296.470204,
-      "via": "ffprobe header",
-      "head_s": 0,
-      "tail_s": 0
-    },
     "1JM2455Ig2evgsQX7fcwTwQ8ZCQvVhk0y": {
       "sha256": "764f1d2457b769f27cbba558fd26090117ba19d63e75f1cc24ebddc9102f9663",
       "drive_s": 200.003628,
@@ -75,13 +68,7 @@
     }
   },
   "results": {
-    "pass": [
-      {
-        "id": "182P_ouVV3nRacNOi8zwJEgNtUo7o0iXH",
-        "course_id": "c001",
-        "sha256": "ed5fdb89f93b97d639da24dbfe88f074363e76f41ccec5561b7f7d917b127b88"
-      }
-    ],
+    "pass": [],
     "flagged": [
       {
         "id": "1JM2455Ig2evgsQX7fcwTwQ8ZCQvVhk0y",
