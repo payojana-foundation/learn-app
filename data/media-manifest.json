@@ -94526,5 +94526,35 @@
     "status": "approved",
     "reviewer": "auto-release",
     "reviewed_at": "2026-11-17"
+  },
+  {
+    "lesson_code": null,
+    "drive_file_id": "182P_ouVV3nRacNOi8zwJEgNtUo7o0iXH",
+    "drive_name": "2.បរិច្ឆេទទី៨ បច្ចយបរិច្ឆេទ ម៉ោងទី២ (ព្រះអង្គគ្រូ ពុទ្ធិកាលង្ការ ផេង ឌីណា).mp3",
+    "source_md5": "64725f3c919ca0aa9fc61605e5eefd16",
+    "key": "audio/64725f3c919ca0aa-a64.mp3",
+    "bytes": 26372431,
+    "duration_s": 3296,
+    "sha256": "ed5fdb89f93b97d639da24dbfe88f074363e76f41ccec5561b7f7d917b127b88",
+    "loudness": {
+      "pass1": {
+        "I": -31.2,
+        "TP": 1.9,
+        "LRA": 0
+      },
+      "G": 15.48,
+      "limit": 0.631,
+      "depth": 21.38,
+      "busy": 0.19376611557712725,
+      "out": {
+        "I": -18.4,
+        "TP": -2.2,
+        "LRA": 0
+      },
+      "loops": 2,
+      "result": "ok",
+      "method": "tp-limit+loudnorm"
+    },
+    "status": "DRAFT – needs reviewer approval"
   }
 ]
