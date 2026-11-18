@@ -92,7 +92,7 @@ TARGET_I="${TARGET_I:--18}"
 # (fixes "node: bad option").
 nn() { local code="$1"; shift; node -e "$code" -- "$@"; }
 
-meta="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?fields=name,mimeType,size,md5Checksum"
+meta="https://www.googleapis.com/drive/v3/files/${DRIVE_FILE_ID}?fields=name,mimeType,size,md5Checksum&supportsAllDrives=true"
 
 # Drive tokens expire after ~60 min. If REFRESH_TOKEN_CMD is set (the workflow
 # supplies a gcloud command that prints a fresh access token), re-mint the token

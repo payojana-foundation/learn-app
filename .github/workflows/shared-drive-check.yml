@@ -1,0 +1,68 @@
+name: shared-drive-check
+
+# PART 7b (18 Nov) — read one lesson file from the Shared Drive "Payojana-Classes" with the real
+# pipeline paths: files.get (supportsAllDrives), the duration lookup, and transcode-one.sh in
+# DRY_RUN (Drive metadata + download + loudness measure; no upload, no manifest). Read-only, manual.
+
+on:
+  workflow_dispatch:
+    inputs:
+      drive_name:
+        description: "Shared Drive name"
+        required: false
+        default: "Payojana-Classes"
+      file_id:
+        description: "Optional: one Drive file id in that Shared Drive (else one is picked)"
+        required: false
+        default: ""
+
+permissions:
+  contents: read
+  id-token: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    steps:
+      - uses: actions/checkout@v5
+        with:
+          ref: main
+      - uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+      - name: Install ffmpeg
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+      - name: Authenticate to Google Cloud (Drive read-only)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/drive.readonly
+      - name: Find the file and read its metadata
+        id: find
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          DRIVE_NAME: ${{ inputs.drive_name }}
+          FILE_ID: ${{ inputs.file_id }}
+        run: node scripts/media/shared-drive-check.mjs "$DRIVE_NAME" "$FILE_ID" | tee -a "$GITHUB_STEP_SUMMARY"
+      - name: Pipeline read (transcode-one.sh DRY_RUN - download + measure, no upload)
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          DRY_RUN: "1"
+          RCLONE: "true"
+          MANIFEST: data/media-manifest.json
+          FILE_ID: ${{ steps.find.outputs.file_id }}
+        run: |
+          set -uo pipefail
+          chmod +x scripts/media/transcode-one.sh
+          scripts/media/transcode-one.sh "$FILE_ID" 2>&1 | tee run.log
+          if grep -q 'stage=drive-meta http=200' run.log && grep -q 'stage=extract' run.log && grep -q 'DRY-RUN expected_result=' run.log; then
+            echo "pipeline read OK for $FILE_ID (metadata 200, downloaded and measured)" | tee -a "$GITHUB_STEP_SUMMARY"
+          else
+            echo "::error::pipeline could not read $FILE_ID"; exit 1
+          fi

@@ -33,7 +33,7 @@ export function planCleanup(ids, manifest, keyOf, sizeOf) {
 }
 
 async function driveKey(id, token) {
-  const r = await fetch(`https://www.googleapis.com/drive/v3/files/${encodeURIComponent(id)}?fields=md5Checksum`, {
+  const r = await fetch(`https://www.googleapis.com/drive/v3/files/${encodeURIComponent(id)}?fields=md5Checksum&supportsAllDrives=true`, {
     headers: { Authorization: `Bearer ${token}` },
   });
   if (!r.ok) return null;

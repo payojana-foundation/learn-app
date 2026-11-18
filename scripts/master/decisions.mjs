@@ -17,7 +17,9 @@
  * CLI (env ACCESS_TOKEN, --sheet-id):
  *   prepare      -> decisions-plan.json; clears precheck measurements of `fixed` audio
  *   apply        -> manifests, data/ops/check-decisions.json, autorun-state, decisions-cells.json
- *   write-issues -> writes decisions-cells.json to the sheet (after the commit landed)
+ *   write-back   -> writes decisions-cells.json to the sheet: ONLY check_decision cells, "done YYYY-MM-DD"
+ *                   or "still failing: <reason>" (after the commit landed). The dropdown keeps the team's
+ *                   3 values; its rule is set to warn (not reject) so the job's values can be written.
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync, appendFileSync, readdirSync } from 'node:fs';
 import { join } from 'node:path';
@@ -67,7 +69,10 @@ export function planDecisions(rows, manifest, videoManifest, log = {}) {
     const video_id = videoOf.get(r.row_key) || null;
     const audio_sha = (audio_id && audio.get(audio_id)?.sha256) || '';
     const video_sha = (video_id && video.get(video_id)?.sha256) || '';
-    if (prev && prev.decision === decision && prev.audio_sha === audio_sha && prev.video_sha === video_sha) continue;
+    // Acted on once: the same decision on the same files is skipped — unless the job wrote its result
+    // back into the cell since (PART 7c): then a decision in the cell is a NEW pick by the team.
+    if (prev && !prev.written && prev.decision === decision && prev.audio_sha === audio_sha && prev.video_sha === video_sha) continue;
+    if (prev && prev.written && !decision) continue; // the cell was cleared after a write-back: nothing to log
     out.push({ row_key: r.row_key, course_id: r.course_id || '', decision, audio_id, video_id, audio_sha, video_sha });
   }
   return out;
@@ -84,83 +89,118 @@ const flagsOf = (precheck, id) => (((precheck && precheck.results && precheck.re
 
 /**
  * Apply the plan. Pure (dates passed in).
- * -> { manifest, videoManifest, autorun, log, done: [{row_key, decision, result}] }
+ * PART 7c (18 Nov): approvals are BATCHED — every audio (and every video) a run approves for one
+ * course and one reviewer goes through ONE call of approve-media's applyDecision (\`approveFn\`,
+ * injectable for the test), not one per row. Each acted row gets the value written back to its
+ * check_decision cell: "done YYYY-MM-DD" or "still failing: <reason>" (hold / cleared: nothing).
+ * -> { manifest, videoManifest, autorun, log, done: [{row_key, decision, result, writeBack}], calls }
  */
-export function applyDecisions(plan, { manifest, videoManifest, precheck, videoPrecheck, autorun = {}, log = {}, date, queued = new Set(), failedIds = new Set() }) {
+export function applyDecisions(plan, { manifest, videoManifest, precheck, videoPrecheck, autorun = {}, log = {}, date, queued = new Set(), failedIds = new Set(), approveFn = applyDecision }) {
   const queueAdds = [];
   const failedRemove = new Set();
-  let am = manifest;
-  let vm = videoManifest || [];
   const ar = { ...autorun, attempts: { ...((autorun && autorun.attempts) || {}) } };
-  const nextLog = { ...log };
-  const done = [];
-  const audioE = () => new Map(am.filter((e) => e && e.drive_file_id).map((e) => [e.drive_file_id, e]));
-  const videoE = () => new Map(vm.filter((e) => e && e.drive_file_id).map((e) => [e.drive_file_id, e]));
+  const audioE = new Map((manifest || []).filter((e) => e && e.drive_file_id).map((e) => [e.drive_file_id, e]));
+  const videoE = new Map((videoManifest || []).filter((e) => e && e.drive_file_id).map((e) => [e.drive_file_id, e]));
+  const batches = new Map(); // "media|course|reviewer" -> Set(ids)
+  const want = (media, course, reviewer, id) => {
+    const k = `${media}|${course}|${reviewer}`;
+    if (!batches.has(k)) batches.set(k, new Set());
+    batches.get(k).add(id);
+  };
+  const rows = [];
   for (const p of plan) {
-    const a = p.audio_id && audioE().get(p.audio_id);
-    const v = p.video_id && videoE().get(p.video_id);
+    const a = p.audio_id && audioE.get(p.audio_id);
+    const v = p.video_id && videoE.get(p.video_id);
     const res = [];
-    if (p.decision === '') {
-      res.push('decision cleared');
-    } else if (p.decision === 'hold') {
-      res.push('held');
-    } else if (p.decision === 'approve anyway') {
-      if (!a) res.push('audio not converted yet');
+    let ok = true; // false = still failing
+    let why = '';
+    const fail = (msg) => { res.push(msg); if (ok) { ok = false; why = msg; } };
+    if (p.decision === '') res.push('decision cleared');
+    else if (p.decision === 'hold') res.push('held');
+    else if (p.decision === 'approve anyway') {
+      if (!a) fail('audio not converted yet');
       else if (isApproved(a)) res.push('audio already approved');
-      else if (isRejected(a)) res.push('audio was rejected: decide in approve-media');
-      else { am = applyDecision(am, [p.audio_id], REVIEWER, 'approved', date).manifest; res.push('audio approved'); }
+      else if (isRejected(a)) fail('audio was rejected: decide in approve-media');
+      else { want('audio', p.course_id, REVIEWER, p.audio_id); res.push('audio approved'); }
       if (v) {
         if (isApproved(v)) res.push('video already approved');
-        else if (isRejected(v)) res.push('video was rejected: decide in approve-media');
-        else { vm = applyDecision(vm, [p.video_id], REVIEWER, 'approved', date).manifest; res.push('video approved'); }
+        else if (isRejected(v)) fail('video was rejected: decide in approve-media');
+        else { want('video', p.course_id, REVIEWER, p.video_id); res.push('video approved'); }
       }
     } else if (p.decision === 'fixed') {
+      let audioOk = false;
       if (!a) {
-        // PART 6: the team fixed a link / sharing / the file itself: convert it again.
-        if (!p.audio_id) res.push('still no Drive file link: add it in the sheet, then set fixed again');
+        if (!p.audio_id) fail('still no Drive file link: add it in the sheet, then set fixed again');
         else {
           delete ar.attempts[p.audio_id];
           if (failedIds.has(p.audio_id)) failedRemove.add(p.audio_id);
           if (!queued.has(p.audio_id) && /^c\d{3}$/.test(p.course_id || '')) { queueAdds.push({ course_id: p.course_id, id: p.audio_id }); queued.add(p.audio_id); }
-          res.push('not converted yet: conversion queued again');
+          fail('not converted yet: conversion queued again');
         }
-      } else if (isApproved(a)) res.push('audio already approved');
-      else if (passed(precheck, p.audio_id)) { am = applyDecision(am, [p.audio_id], REVIEWER_FIXED, 'approved', date).manifest; res.push('audio passed the re-check and is approved'); }
-      else res.push(`audio still flagged: ${flagsOf(precheck, p.audio_id).join(', ') || 'not checked yet'}`);
-      if (!v && p.video_id) {
-        delete ar.attempts[p.video_id];
-        res.push('video queued for conversion again');
-      }
+      } else if (isApproved(a)) { audioOk = true; res.push('audio already approved'); }
+      else if (passed(precheck, p.audio_id)) { audioOk = true; want('audio', p.course_id, REVIEWER_FIXED, p.audio_id); res.push('audio passed the re-check and is approved'); }
+      else fail(`audio still flagged: ${flagsOf(precheck, p.audio_id).join(', ') || 'not checked yet'}`);
+      if (!v && p.video_id) { delete ar.attempts[p.video_id]; res.push('video queued for conversion again'); }
       if (v) {
-        const audioOk = isApproved(audioE().get(p.audio_id));
         if (isApproved(v)) res.push('video already approved');
-        else if (audioOk && passed(videoPrecheck, p.video_id)) { vm = applyDecision(vm, [p.video_id], REVIEWER_FIXED, 'approved', date).manifest; res.push('video approved'); }
+        else if (audioOk && passed(videoPrecheck, p.video_id)) { want('video', p.course_id, REVIEWER_FIXED, p.video_id); res.push('video approved'); }
         else if (!audioOk) res.push('video waits for the audio');
-        else res.push(`video still flagged: ${flagsOf(videoPrecheck, p.video_id).join(', ') || 'not checked yet'}`);
+        else fail(`video still flagged: ${flagsOf(videoPrecheck, p.video_id).join(', ') || 'not checked yet'}`);
       }
     }
-    const entry = { decision: p.decision, at: date, result: res.join(', '), audio_sha: p.audio_sha, video_sha: p.video_sha };
-    nextLog[p.row_key] = entry;
-    done.push({ row_key: p.row_key, ...entry });
+    const acts = p.decision === 'approve anyway' || p.decision === 'fixed';
+    rows.push({ p, result: res.join(', '), writeBack: acts ? (ok ? `done ${date}` : `still failing: ${why}`) : null });
   }
-  return { manifest: am, videoManifest: vm, autorun: ar, log: nextLog, done, queueAdds, failedRemove: [...failedRemove] };
+  // one approve-media call per course (and media, reviewer)
+  let am = manifest;
+  let vm = videoManifest || [];
+  const calls = [];
+  for (const [k, ids] of batches) {
+    const [media, course, reviewer] = k.split('|');
+    if (media === 'audio') am = approveFn(am, [...ids], reviewer, 'approved', date).manifest;
+    else vm = approveFn(vm, [...ids], reviewer, 'approved', date).manifest;
+    calls.push({ media, course, reviewer, ids: ids.size });
+  }
+  const nextLog = { ...log };
+  const done = [];
+  for (const { p, result, writeBack } of rows) {
+    const entry = { decision: p.decision, at: date, result, audio_sha: p.audio_sha, video_sha: p.video_sha, ...(writeBack ? { written: writeBack } : {}) };
+    nextLog[p.row_key] = entry;
+    done.push({ row_key: p.row_key, ...entry, writeBack });
+  }
+  return { manifest: am, videoManifest: vm, autorun: ar, log: nextLog, done, queueAdds, failedRemove: [...failedRemove], calls };
 }
 
-/** issues cells for the rows acted on: [{range, values}] (only the issues column). Pure. */
-export function issueCells(sheet, done, log) {
+/**
+ * The check_decision dropdown: the team's 3 values, rule set to warn instead of reject, so the
+ * job-written "done YYYY-MM-DD" / "still failing: <reason>" are accepted. Idempotent.
+ */
+export async function relaxValidation({ sheetId, token, fetchFn = fetch }) {
+  const sheet = await readTab({ sheetId, token, tab: 'Lessons', fetchFn });
+  const i = sheet.header.indexOf(COLUMN);
+  if (i < 0) return false;
+  const meta = await api(fetchFn, sheetId, token, 'GET', '?fields=sheets(properties(sheetId,title,gridProperties))');
+  const tab = (meta.sheets || []).find((s) => s.properties.title === 'Lessons');
+  await api(fetchFn, sheetId, token, 'POST', ':batchUpdate', { requests: [{ setDataValidation: { range: { sheetId: tab.properties.sheetId, startRowIndex: 1, endRowIndex: (tab.properties.gridProperties || {}).rowCount || 1000, startColumnIndex: i, endColumnIndex: i + 1 }, rule: { condition: { type: 'ONE_OF_LIST', values: DECISIONS.map((v) => ({ userEnteredValue: v })) }, strict: false, showCustomUi: true } } }] });
+  return true;
+}
+
+/** check_decision cells to write back for the rows acted on: [{range, values}] (that column only). Pure. */
+export function decisionCells(sheet, done) {
   const ki = sheet.header.indexOf('row_key');
-  const ii = sheet.header.indexOf('issues');
-  if (ki < 0 || ii < 0) return [];
+  const ci = sheet.header.indexOf(COLUMN);
+  if (ki < 0 || ci < 0) return [];
   const rowOf = new Map(sheet.rows.map((r, i) => [r[ki], i]));
   const out = [];
   for (const d of done) {
+    if (!d.writeBack) continue;
     const i = rowOf.get(d.row_key);
-    if (i === undefined) continue;
-    const want = withDecision(sheet.rows[i][ii], log[d.row_key]);
-    if (want !== String(sheet.rows[i][ii] ?? '')) out.push({ range: `Lessons!${colLetter(ii)}${i + 2}:${colLetter(ii)}${i + 2}`, values: [[want]] });
+    if (i === undefined || String(sheet.rows[i][ci] ?? '') === d.writeBack) continue;
+    out.push({ range: `Lessons!${colLetter(ci)}${i + 2}:${colLetter(ci)}${i + 2}`, values: [[d.writeBack]] });
   }
   return out;
 }
+
 
 const api = async (fetchFn, sheetId, token, method, path, body) => {
   const res = await fetchFn(`${SHEETS_BASE}/${sheetId}${path}`, {
@@ -262,18 +302,19 @@ async function main() {
     if (existsSync(P.vm) || r.videoManifest.length) writeJson(P.vm, r.videoManifest);
     if (existsSync(P.ar)) writeJson(P.ar, r.autorun);
     writeJson(P.log, r.log);
-    writeJson('decisions-cells.json', issueCells(sheet, r.done, r.log));
+    writeJson('decisions-cells.json', decisionCells(sheet, r.done));
     const approved = r.done.filter((d) => /\b(audio|video) (passed the re-check and is )?approved\b/.test(d.result)).length;
     const line = `${new Date().toISOString().slice(0, 16)}Z · check-decisions · ${r.done.length} acted: ${r.done.map((d) => `${d.row_key} ${d.decision || 'cleared'} -> ${d.result}`).join(' | ') || 'none'}`;
     console.log(line);
     if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, line + '\n');
     out('approved', approved);
-  } else if (cmd === 'write-issues') {
+  } else if (cmd === 'write-back') {
     const ranges = readJson('decisions-cells.json', []);
+    if (ranges.length) await relaxValidation({ sheetId, token });
     const n = ranges.length ? await writeRanges({ sheetId, token, ranges }) : 0;
     console.log(`issues cells written: ${n}`);
   } else {
-    console.error('Usage: decisions.mjs prepare|apply|write-issues --sheet-id <id>');
+    console.error('Usage: decisions.mjs prepare|apply|write-back --sheet-id <id>');
     process.exit(1);
   }
 }

@@ -1,7 +1,7 @@
 /** PART 2 — check_decision (placeholders only). */
 import { describe, it, expect } from 'vitest';
 import { readFileSync } from 'node:fs';
-import { planDecisions, recheckIds, applyDecisions, issueCells, withDecision, ensureColumn, DECISIONS, COLUMN } from '../decisions.mjs';
+import { planDecisions, recheckIds, applyDecisions, decisionCells, withDecision, ensureColumn, DECISIONS, COLUMN } from '../decisions.mjs';
 import { computeSystem, presentKeys, checkHeader, HeaderMismatchError } from '../sync.mjs';
 import { rowsFromValues, plan as exportPlan } from '../export.mjs';
 import { colLetter } from '../seed.mjs';
@@ -133,15 +133,17 @@ describe('sheet writes (fake Sheets API)', () => {
     const f = fake(['row_key', 'something'], []);
     await expect(ensureColumn({ sheetId: 'SHEET', token: 't', keys: LK, fetchFn: f.fetchFn })).rejects.toThrow(/not adding it/);
   });
-  it('writes only the issues cells of the rows acted on (never a TEAM column)', () => {
+  // PART 7c (18 Nov) replaces the issues log: the result goes back into check_decision only.
+  it('writes back only the check_decision cells of the rows acted on (hold: nothing)', () => {
     const sheet = { header: LK, rows: rows.map((o) => LK.map((k) => o[k])) };
     const plan = planDecisions(rows, manifest, videoManifest, {});
-    const r = applyDecisions(plan, { manifest, videoManifest, precheck: null, log: {}, date: 'D' });
-    const cells = issueCells(sheet, r.done, r.log);
-    const L = colLetter(LK.indexOf('issues'));
-    expect(cells.length).toBe(4);
+    const r = applyDecisions(plan, { manifest, videoManifest, precheck: null, log: {}, date: '2026-01-01' });
+    const cells = decisionCells(sheet, r.done);
+    const L = colLetter(LK.indexOf('check_decision'));
+    expect(cells.length).toBe(3); // M1 approve anyway, M2 fixed, M4 fixed; M3 hold untouched
     expect(cells.every((c) => new RegExp(`^Lessons!${L}\\d+:${L}\\d+$`).test(c.range))).toBe(true);
-    expect(cells[0]).toEqual({ range: `Lessons!${L}2:${L}2`, values: [['DECISION: approve anyway (D): audio approved, video approved']] });
+    expect(cells[0]).toEqual({ range: `Lessons!${L}2:${L}2`, values: [['done 2026-01-01']] });
+    expect(cells.find((c) => c.range === `Lessons!${L}3:${L}3`).values[0][0]).toMatch(/^still failing: audio still flagged/);
   });
 });
 
@@ -152,9 +154,9 @@ describe('workflow', () => {
     expect(y).toContain('https://www.googleapis.com/auth/spreadsheets,https://www.googleapis.com/auth/drive.readonly');
     expect(y).toMatch(/if: \$\{\{ steps\.prep\.outputs\.recheck != '0' \}\}\n\s+env:[\s\S]*?precheck\.mjs --drive --silence/);
   });
-  it('rebase-proof push, issues written only after the push, master-export after an approval', () => {
+  it('rebase-proof push, check_decision written back only after the push, master-export after an approval', () => {
     expect(y).toContain('for attempt in 1 2 3 4 5 6 7 8; do');
-    expect(y).toMatch(/if: \$\{\{ steps\.push\.outputs\.pushed == 'true' \}\}[\s\S]*?decisions\.mjs write-issues/);
+    expect(y).toMatch(/if: \$\{\{ steps\.push\.outputs\.pushed == 'true' \}\}[\s\S]*?decisions\.mjs write-back/);
     expect(y).toContain('gh workflow run master-export.yml --ref main');
   });
 });

@@ -1,0 +1,22 @@
+{
+  "_doc": "PART 7a (18 Nov): every reason string public/ops/checks.json may carry, and who acts on it. Owners: \"editing team\" (fix links, sharing, cuts in the master sheet / Drive), \"reviewer\" (listen or watch, then approve anyway / hold / fixed), \"Learn-PE\" (Learn pipeline: conversion, playback, exceptions). checks.json may use ONLY these reasons: scripts/master/checks.mjs refuses any other, and a test checks the committed checks.json. Descriptions for Operations: public/ops/check-reasons.json.",
+  "owners": ["editing team", "Learn-PE", "reviewer"],
+  "reasons": {
+    "duration under 5 min": "reviewer",
+    "duration over 4 h": "reviewer",
+    "duration differs > 2 % from the Drive source": "reviewer",
+    "source duration unknown": "reviewer",
+    "same audio (sha256) as another lesson": "editing team",
+    "silence > 60 s in the first 2 min": "reviewer",
+    "silence > 60 s in the last 2 min": "reviewer",
+    "duration differs > 2 % from the source": "reviewer",
+    "same video (sha256) as another lesson": "editing team",
+    "same source file as another Drive id": "editing team",
+    "conversion failed": "Learn-PE",
+    "file not shared": "editing team",
+    "no file link": "editing team",
+    "no approved lesson": "editing team",
+    "media: does not play": "Learn-PE",
+    "editing: lessons waiting to be cut": "editing team"
+  }
+}

@@ -5,9 +5,11 @@ name: check-decisions
 #   approve anyway -> approve the lesson (audio, and video if any), as approve-media per-ids;
 #   fixed          -> re-run the pre-check for that lesson, release it if it now passes;
 #   hold           -> nothing.
-# Each decision is acted on once (again only when the decision or the converted file changes),
-# logged in data/ops/check-decisions.json and in the row's issues (DECISION: ...). Writes only
-# those issues cells (and, once, the check_decision header + dropdown); no other column.
+# Each decision is acted on once (again only when the decision or the converted file changes, or the
+# team picks one again after the write-back), logged in data/ops/check-decisions.json. Approvals are
+# batched: one approve-media call (applyDecision) per course. The result is written back into the
+# check_decision cell only: "done YYYY-MM-DD" or "still failing: <reason>". checks.json is refreshed
+# right after (read-only master-sync).
 # After an approval it starts master-export (the app data rebuild).
 
 on:
@@ -107,14 +109,21 @@ jobs:
           echo "::error title=check-decisions not saved::could not push after 8 attempts"
           exit 1
 
-      - name: Log the decisions in issues (only those cells)
+      - name: Write the result back into check_decision (that column only)
         if: ${{ steps.push.outputs.pushed == 'true' }}
         env:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
-        run: node scripts/master/decisions.mjs write-issues --sheet-id "$SHEET_ID"
+        run: node scripts/master/decisions.mjs write-back --sheet-id "$SHEET_ID"
 
       - name: Rebuild the app data (master-export)
         if: ${{ steps.push.outputs.pushed == 'true' && steps.push.outputs.approved != '0' }}
         env:
           GH_TOKEN: ${{ github.token }}
         run: gh workflow run master-export.yml --ref main -R "$GITHUB_REPOSITORY"
+
+      # PART 7d: refresh public/ops/checks.json right after the decisions (read-only sync)
+      - name: Refresh checks.json (master-sync, mode dry)
+        if: ${{ always() && steps.prep.outcome == 'success' }}
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh workflow run master-sync.yml --ref main -R "$GITHUB_REPOSITORY" -f mode=dry

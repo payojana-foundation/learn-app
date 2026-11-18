@@ -188,7 +188,7 @@ b3_peak_timestamps() {
 # (stream copy; falls back to lossless .flac), and deletes the downloaded source.
 b3_fetch_audio() {
   local id="$1" tmp="$2" base="$3" url code
-  url="https://www.googleapis.com/drive/v3/files/${id}?alt=media"
+  url="https://www.googleapis.com/drive/v3/files/${id}?alt=media&supportsAllDrives=true"
   code="$("$CURL" -sS --retry 3 -o "$tmp" -w '%{http_code}' -H "Authorization: Bearer ${ACCESS_TOKEN}" "$url")"
   if [ "$code" = "401" ] && declare -F refresh_token >/dev/null; then
     echo "[${B3_LOG}] download 401 — refreshing token and retrying once" >&2

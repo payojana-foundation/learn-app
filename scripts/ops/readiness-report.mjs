@@ -7,11 +7,39 @@
  *
  * Usage: node scripts/ops/readiness-report.mjs <out.md> <vars.json> [https://learn.84000.digital]
  */
-import { readFileSync, writeFileSync, existsSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, readdirSync } from 'node:fs';
 import { buildFromMaster } from '../build-courses.mjs';
 import { parseCsvObjects } from '../master/csv.mjs';
 
 const json = (p, d) => (existsSync(p) ? JSON.parse(readFileSync(p, 'utf-8')) : d);
+
+/**
+ * PART 7e: every workflow that runs by itself — on a cron, or right after another workflow
+ * (workflow_run) — with what it does (the first comment line of the file). Pure on file texts.
+ * texts: [{ file, text }] -> [{ name, file, when, does }] sorted by name.
+ */
+export function scheduledWorkflows(texts) {
+  const out = [];
+  for (const { file, text } of texts) {
+    const name = (/^name:\s*(.+)$/m.exec(text) || [])[1]?.trim() || file;
+    const crons = [...text.matchAll(/^\s*-\s*cron:\s*"([^"]+)"/gm)].map((m) => m[1]);
+    const after = (/workflow_run:\s*\n\s*workflows:\s*\[([^\]]+)\]/.exec(text) || [])[1];
+    if (!crons.length && !after) continue;
+    const when = [...crons.map((c) => `cron \`${c}\` (UTC)`), ...(after ? [`after ${after.split(',').map((s) => s.trim()).join(', ')}`] : [])].join('; ');
+    // the first comment paragraph, joined, without its "PART …" / "R3 (…)" label, first sentence
+    const lines = text.split(/\r?\n/);
+    const startAt = lines.findIndex((l) => /^#\s*\S/.test(l));
+    const para = [];
+    for (let i = startAt; i >= 0 && i < lines.length && /^#\s*\S/.test(lines[i]); i++) para.push(lines[i].replace(/^#\s*/, ''));
+    let does = para.join(' ').replace(/^.{0,40}?\s[—-]\s/, '');
+    let dot = does.search(/\.(\s|$)/);
+    if (dot >= 0 && dot < 40) { const next = does.slice(dot + 1).search(/\.(\s|$)/); if (next >= 0) dot = dot + 1 + next; }
+    if (dot > 0) does = does.slice(0, dot + 1);
+    if (does.length > 220) does = does.slice(0, 217).replace(/\s\S*$/, '') + ' …';
+    out.push({ name, file, when, does });
+  }
+  return out.sort((a, b) => a.name.localeCompare(b.name));
+}
 
 /** Pure: counts of the served data. */
 export function liveCounts(catalog, courses) {
@@ -90,6 +118,9 @@ async function main() {
   L.push(`- VIDEO_ENABLED=${vars.VIDEO_ENABLED ?? 'unset'}, VIDEO_RENDITION=${vars.VIDEO_RENDITION ?? 'unset'}`);
   L.push(`- MASTER_SYNC_MODE=${vars.MASTER_SYNC_MODE ?? 'unset (dry)'}: ${vars.MASTER_SYNC_MODE === 'write' ? 'the sync writes the sheet' : 'the sync only READS the sheet: SYSTEM cells, team row intake and new course ids are NOT written'}`);
   L.push(`- Team decisions logged: ${Object.keys(decisions).length}`, '');
+  const wf = scheduledWorkflows(readdirSync('.github/workflows').filter((x) => x.endsWith('.yml')).map((x) => ({ file: x, text: readFileSync(`.github/workflows/${x}`, 'utf-8') })));
+  L.push(`## Scheduled workflows (${wf.length})`, '', 'Every workflow that runs by itself: on a cron (UTC) or right after another workflow.', '');
+  L.push('| workflow | when | what it does |', '|---|---|---|', ...wf.map((w) => `| ${w.name} | ${w.when} | ${w.does.replace(/\|/g, '\\|')} |`), '');
   L.push('## Open issues (build of the committed data)', '');
   L.push('| issue | count |', '|---|---:|', ...issueCounts(issues).map(([k, n]) => `| ${k.replace(/\|/g, '\\|')} | ${n} |`), '');
   writeFileSync(out, L.join('\n') + '\n', 'utf-8');

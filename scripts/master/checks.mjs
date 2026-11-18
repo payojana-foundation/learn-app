@@ -128,6 +128,8 @@ export function checksJson(ctx) {
   }
   const items = [];
   const push = (r, media_type, reason, detail, key) => {
+    // PART 7a: only the reasons of data/master/check-reasons.json (REASONS) may reach checks.json.
+    if (!REASONS.includes(reason)) throw new Error(`checks.json: unknown reason "${reason}" - add it to data/master/check-reasons.json`);
     const it = {
       row_key: r.row_key,
       lesson_id: wanted.get(r.row_key)?.lesson_id ?? r.lesson_id ?? '',
