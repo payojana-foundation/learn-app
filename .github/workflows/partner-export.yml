@@ -1,0 +1,87 @@
+name: partner-export
+
+# Bulk 10 P1 — export the partner sheet (YouTube partner classes; synced from YouTube by an
+# Apps Script inside the sheet) to data/partners/{partners,playlists,videos,terms}.csv,
+# byte-exact (scripts/partners/export.mjs). Tabs README, Example and Meta are not read.
+#
+# Triggers: manual, and daily at 05:13 UTC (12:13 in Cambodia): after the 03:00 sync window
+# whichever clock it is on, off-peak minute.
+# Fails loudly (exit 3) on a renamed or missing header (data/partners/columns.json). A new
+# column is exported with a warning. record_contract=true writes the contract from the live
+# headers (first run, or after a deliberate change). Read-only access (spreadsheets.readonly).
+# Commits only when something changed; push with retry; never force-pushes.
+
+on:
+  workflow_dispatch:
+    inputs:
+      sheet_id:
+        description: "Google Sheet id of the partner sheet"
+        required: false
+        default: "125ESieDhoezwhb-7RS54O2BSBhJtZOyTW59V7SfFDFA"
+      record_contract:
+        description: "Write data/partners/columns.json from the live headers"
+        required: true
+        type: choice
+        options:
+          - "false"
+          - "true"
+        default: "false"
+  schedule:
+    - cron: "13 5 * * *"
+
+permissions:
+  contents: write # commits data/partners
+  id-token: write # Workload Identity Federation
+
+concurrency:
+  group: partner-export
+  cancel-in-progress: false
+
+env:
+  SHEET_ID: ${{ inputs.sheet_id || '125ESieDhoezwhb-7RS54O2BSBhJtZOyTW59V7SfFDFA' }}
+
+jobs:
+  export:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Authenticate to Google Cloud (Sheets, read-only)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/spreadsheets.readonly
+
+      - name: Export the partner sheet to data/partners
+        id: export
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          RECORD: ${{ inputs.record_contract || 'false' }}
+        run: |
+          set -euo pipefail
+          if [ "$RECORD" = "true" ]; then extra="--record-contract"; else extra=""; fi
+          node scripts/partners/export.mjs --sheet-id "$SHEET_ID" $extra
+
+      - name: Commit if anything changed
+        id: commit
+        if: ${{ steps.export.outputs.changed == 'true' }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/partners
+          if git diff --cached --quiet; then echo "partner-export: no change"; exit 0; fi
+          git commit -m "partners: export of the partner sheet"
+          bash scripts/ci/push-with-retry.sh origin main
