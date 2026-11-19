@@ -7,7 +7,10 @@ import { allLessonColumns, allCourseColumns, rowsFromValues, plan as exportPlan 
 import { intakePlan } from '../intake.mjs';
 import { buildFromMaster } from '../../build-courses.mjs';
 
-const columns = JSON.parse(readFileSync('data/master/columns.json', 'utf-8'));
+// fixture: the column config as of PART 9/11 (the PART 13 remove columns, appended after these, are tested in removals.test.mjs)
+const PART13 = new Set(['remove', 'remove_reason']);
+const columnsFile = JSON.parse(readFileSync('data/master/columns.json', 'utf-8'));
+const columns = { ...columnsFile, added_columns: columnsFile.added_columns.filter((c) => !PART13.has(c.key)), courses: { ...columnsFile.courses, added_columns: columnsFile.courses.added_columns.filter((c) => !PART13.has(c.key)) } };
 const LK = allLessonColumns(columns).map((c) => c.key);
 const CK = allCourseColumns(columns).map((c) => c.key);
 const DID = (s) => (s + '0000000000000000000000000').slice(0, 28);

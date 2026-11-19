@@ -8,6 +8,8 @@ name: class-renames
 #   2. write the cells (new title, cleared _new cell, issues log).
 #   3. export the sheet and rebuild the app data in the same run (as master-export does).
 # course_id, row_key and lesson_id never change. Text is written exactly as typed.
+# PART 13 (19 Nov): the same run hides / restores classes and lessons marked "remove"
+# (scripts/master/removals.mjs): state committed first, then the issues notes, then the rebuild.
 
 on:
   schedule:
@@ -79,8 +81,32 @@ jobs:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
         run: node scripts/master/renames.mjs write --sheet-id "$SHEET_ID"
 
+      # PART 13: removals (Courses.remove / Lessons.remove), read after the rename cells are
+      # written so both jobs see the same issues cells. Nothing is deleted anywhere.
+      - name: Plan the removals and restores
+        id: removals
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: node scripts/master/removals.mjs plan --sheet-id "$SHEET_ID"
+
+      - name: Commit the removals state first (retired ids, dates, reasons)
+        if: ${{ steps.removals.outputs.changed == 'true' }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/ops/removals.json data/retired-lessons.json
+          git commit -m "master sheet: removals state"
+          bash scripts/ci/push-with-retry.sh origin main
+
+      - name: Write the removal notes (issues)
+        if: ${{ steps.removals.outputs.cells != '0' }}
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: node scripts/master/removals.mjs write --sheet-id "$SHEET_ID"
+
       - name: Export to the app in the same run (export, queues, build)
-        if: ${{ steps.plan.outputs.applied != '0' }}
+        if: ${{ steps.plan.outputs.applied != '0' || steps.removals.outputs.changed == 'true' }}
         env:
           ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
           VIDEO_ENABLED: ${{ vars.VIDEO_ENABLED }}
@@ -100,5 +126,5 @@ jobs:
           git add data/master public/data data/video-switch.json
           git add data/queues
           if git diff --cached --quiet; then echo "no change"; exit 0; fi
-          git commit -m "master: export and rebuild after a rename"
+          git commit -m "master: export and rebuild after a rename or removal"
           bash scripts/ci/push-with-retry.sh origin main

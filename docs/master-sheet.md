@@ -104,6 +104,18 @@ of another course. The text is used exactly as typed; spelling is never changed.
 The same run exports the sheet and rebuilds the app data, so the app shows the new title within
 the hour; search finds the old title too. The old titles are committed before the sheet is
 written, so an interrupted run never loses one.
+## Removals (remove, remove_reason, class-renames.yml)
+PART 13 (19 Nov). Two TEAM columns at the end of Courses and of Lessons, light red (#F4CCCC),
+unprotected: `remove` (dropdown: empty or `remove`) and `remove_reason` (free text). The same
+hourly run (`scripts/master/removals.mjs`, after the renames, any MASTER_SYNC_MODE):
+- `remove` on a Courses row hides the whole class (every lesson of it); on a Lessons row only
+  that lesson. The lesson ids go to `data/retired-lessons.json` (so the build's id guard passes),
+  the date and reason (byte-exact) to `data/ops/removals.json`, and `issues` gets
+  `removed <date>: <reason>` (a class: on every Lessons row of it). Removed rows drop out of the
+  app and its search, `checks.json`, the conversion queues and autorun.
+- Clearing `remove` restores the row with the same ids, so saved progress returns; the id leaves
+  `data/retired-lessons.json` (ids added there by hand stay) and `issues` gets `restored <date>`.
+- Nothing is ever deleted: no sheet row, no R2 object, no Drive file. A re-run writes nothing.
 
 ## Team decisions (check_decision, check-decisions.yml)
 

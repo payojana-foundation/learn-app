@@ -14,11 +14,18 @@ import { readFileSync, writeFileSync, existsSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { parseCsvObjects } from '../master/csv.mjs';
 import { videoLessons } from '../media/video-inventory.mjs';
+import { keepRows, readState as readRemovals } from '../master/removed.mjs';
 
-/** Map course_id → ordered unique video ids. Pure. */
-export function videoQueues(rows) {
+/**
+ * Map course_id → ordered unique video ids. Pure. PART 13: rows removed with the master-sheet
+ * mark (`removals` = data/ops/removals.json) are left out; a course that had videos only in
+ * removed rows gets an empty queue (the file is kept, header only), refilled when restored.
+ */
+export function videoQueues(rows, removals = null) {
   const out = new Map();
-  for (const l of videoLessons(rows)) {
+  const kept = removals ? keepRows(rows, removals) : rows;
+  if (removals) for (const l of videoLessons(rows)) if (/^c\d{3}$/.test(l.course_id || '') && !out.has(l.course_id)) out.set(l.course_id, []);
+  for (const l of videoLessons(kept)) {
     if (!/^c\d{3}$/.test(l.course_id || '')) continue;
     if (!out.has(l.course_id)) out.set(l.course_id, []);
     const ids = out.get(l.course_id);
@@ -36,7 +43,7 @@ function main() {
   const dir = join(root, 'data', 'queues', 'video');
   mkdirSync(dir, { recursive: true });
   let changed = 0, total = 0;
-  const qs = videoQueues(rows);
+  const qs = videoQueues(rows, readRemovals(join(root, 'data', 'ops', 'removals.json')));
   for (const [cid, ids] of qs) {
     total += ids.length;
     const p = join(dir, `${cid}.csv`);

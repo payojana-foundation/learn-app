@@ -16,6 +16,7 @@ import { join } from 'node:path';
 import { parseCsvObjects } from '../master/csv.mjs';
 import { sourceIdOf } from '../master/sync.mjs';
 import { parseQueue } from '../media/queue-plan.mjs';
+import { keepRows, readState as readRemovals } from '../master/removed.mjs';
 
 /** -> Map(course_id -> [ids to append]) in sheet order. Pure. */
 export function queueAdds(rows, manifestIds, queued) {
@@ -40,7 +41,8 @@ export function appendText(oldText, ids) {
 
 function main() {
   const root = process.cwd();
-  const rows = parseCsvObjects(readFileSync(join(root, 'data', 'master', 'lessons.csv'), 'utf-8'));
+  // PART 13: rows removed with the master-sheet mark are never queued
+  const rows = keepRows(parseCsvObjects(readFileSync(join(root, 'data', 'master', 'lessons.csv'), 'utf-8')), readRemovals(join(root, 'data', 'ops', 'removals.json')));
   const manifest = JSON.parse(readFileSync(join(root, 'data', 'media-manifest.json'), 'utf-8'));
   const dir = join(root, 'data', 'queues');
   const queued = [];

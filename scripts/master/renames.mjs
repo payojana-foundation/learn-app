@@ -188,6 +188,9 @@ export async function ensureTrailingColumns({ sheetId, token, tab, columns, fetc
   const requests = [];
   if ((grid.columnCount || 0) < keys.length) requests.push({ appendDimension: { sheetId: gid, dimension: 'COLUMNS', length: keys.length - (grid.columnCount || 0) } });
   missing.forEach((c, k) => {
+    // PART 13: a light fill on the header and every cell of the column (columns.json `fill`)
+    const rgb = /^#([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})([0-9A-Fa-f]{2})$/.exec(c.fill || '');
+    if (rgb) requests.push({ repeatCell: { range: { sheetId: gid, startRowIndex: 0, endRowIndex: grid.rowCount || 1000, startColumnIndex: n + k, endColumnIndex: n + k + 1 }, cell: { userEnteredFormat: { backgroundColor: { red: parseInt(rgb[1], 16) / 255, green: parseInt(rgb[2], 16) / 255, blue: parseInt(rgb[3], 16) / 255 } } }, fields: 'userEnteredFormat.backgroundColor' } });
     if (!Array.isArray(c.dropdown)) return;
     requests.push({ setDataValidation: { range: { sheetId: gid, startRowIndex: 1, endRowIndex: grid.rowCount || 1000, startColumnIndex: n + k, endColumnIndex: n + k + 1 }, rule: { condition: { type: 'ONE_OF_LIST', values: c.dropdown.map((v) => ({ userEnteredValue: v })) }, strict: true, showCustomUi: true } } });
   });

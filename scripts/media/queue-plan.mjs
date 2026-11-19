@@ -14,6 +14,7 @@
  */
 
 import { readFileSync, existsSync } from 'node:fs';
+import { removedSources, readState as readRemovals } from '../master/removed.mjs';
 
 /** Parse the queue CSV into an ordered, de-duplicated list of drive_file_ids. */
 export function parseQueue(text) {
@@ -61,8 +62,9 @@ export function manifestDriveIds(manifest) {
  *   skipped   — ids skipped because they are already in the manifest
  *   remaining — queued ids left for the next run (beyond `limit`, not skipped)
  */
-export function planRun(queueIds, manifest, limit, forceIds = []) {
+export function planRun(queueIds, manifest, limit, forceIds = [], exclude = new Set()) {
   const have = manifestDriveIds(manifest);
+  const removed = [];
   const force = new Set((Array.isArray(forceIds) ? forceIds : []).map((s) => String(s).trim()).filter(Boolean));
   const lim = Number.isFinite(limit) && limit > 0 ? Math.floor(limit) : 5;
   const toProcess = [];
@@ -77,10 +79,15 @@ export function planRun(queueIds, manifest, limit, forceIds = []) {
       skipped.push(id);
       continue;
     }
+    // PART 13: a lesson removed with the master-sheet mark is not converted (unless forced)
+    if (exclude && exclude.has && exclude.has(id) && !force.has(id)) {
+      removed.push(id);
+      continue;
+    }
     if (toProcess.length < lim) toProcess.push(id);
     else remaining.push(id);
   }
-  return { toProcess, skipped, remaining, force: [...force] };
+  return { toProcess, skipped, remaining, force: [...force], ...(removed.length ? { removed } : {}) };
 }
 
 /**
@@ -121,10 +128,10 @@ export function checkQueue(queuePath, queueText, forceIds = []) {
 }
 
 /** Load + plan from file paths (used by the workflow via CLI). */
-export function planFromFiles(queuePath, manifestPath, limit, forceIds = []) {
+export function planFromFiles(queuePath, manifestPath, limit, forceIds = [], exclude = new Set()) {
   const queueText = existsSync(queuePath) ? readFileSync(queuePath, 'utf-8') : '';
   const manifest = existsSync(manifestPath) ? JSON.parse(readFileSync(manifestPath, 'utf-8')) : [];
-  return planRun(parseQueue(queueText), manifest, limit, forceIds);
+  return planRun(parseQueue(queueText), manifest, limit, forceIds, exclude);
 }
 
 function main() {
@@ -140,7 +147,7 @@ function main() {
     console.error('ERROR: ' + qErr);
     process.exit(1);
   }
-  const plan = planFromFiles(queuePath, manifestPath ?? 'data/media-manifest.json', Number(limitArg ?? 5), forceIds);
+  const plan = planFromFiles(queuePath, manifestPath ?? 'data/media-manifest.json', Number(limitArg ?? 5), forceIds, removedSources(readRemovals()));
   process.stdout.write(JSON.stringify(plan) + '\n');
   process.exit(0);
 }

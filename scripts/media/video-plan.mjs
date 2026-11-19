@@ -8,6 +8,7 @@
 import { readFileSync, existsSync } from 'node:fs';
 import { parseQueue, checkQueue } from './queue-plan.mjs';
 import { isVideoKey } from './append-video-manifest.mjs';
+import { removedSources, readState as readRemovals } from '../master/removed.mjs';
 
 /** drive ids with a video entry of `rendition`. Pure. */
 export function videoManifestIds(manifest, rendition) {
@@ -19,16 +20,17 @@ export function videoManifestIds(manifest, rendition) {
 }
 
 /** { toProcess, skipped, remaining }. Pure. */
-export function planVideoRun(queueIds, manifest, limit, rendition) {
+export function planVideoRun(queueIds, manifest, limit, rendition, exclude = new Set()) {
   const have = videoManifestIds(manifest, rendition);
   const lim = Number.isFinite(limit) && limit > 0 ? Math.floor(limit) : 5;
-  const toProcess = [], skipped = [], remaining = [];
+  const toProcess = [], skipped = [], remaining = [], removed = [];
   for (const id of queueIds || []) {
     if (have.has(id)) skipped.push(id);
+    else if (exclude && exclude.has && exclude.has(id)) removed.push(id); // PART 13: removed lesson
     else if (toProcess.length < lim) toProcess.push(id);
     else remaining.push(id);
   }
-  return { toProcess, skipped, remaining };
+  return { toProcess, skipped, remaining, ...(removed.length ? { removed } : {}) };
 }
 
 function main() {
@@ -38,7 +40,7 @@ function main() {
   if (err) { console.error('::error title=Queue file::' + err); process.exit(1); }
   if (!/^(480p|720p)$/.test(rendition || '')) { console.error('::error title=Rendition::set the repo variable VIDEO_RENDITION to 480p or 720p'); process.exit(1); }
   const manifest = m && existsSync(m) ? JSON.parse(readFileSync(m, 'utf-8')) : [];
-  process.stdout.write(JSON.stringify(planVideoRun(parseQueue(text), manifest, Number(lim), rendition)) + '\n');
+  process.stdout.write(JSON.stringify(planVideoRun(parseQueue(text), manifest, Number(lim), rendition, removedSources(readRemovals()))) + '\n');
 }
 
 if (process.argv[1] && process.argv[1].endsWith('video-plan.mjs')) main();

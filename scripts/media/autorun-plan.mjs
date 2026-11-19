@@ -26,6 +26,7 @@ import { readFileSync, writeFileSync, existsSync, readdirSync, mkdirSync, append
 import { join } from 'node:path';
 import { parseQueue, planRun, manifestDriveIds } from './queue-plan.mjs';
 import { planVideoRun, videoManifestIds } from './video-plan.mjs';
+import { removedSources, readState as readRemovals } from '../master/removed.mjs';
 
 export const LIMIT = 40;
 export const MAX_ATTEMPTS = 2;
@@ -62,7 +63,7 @@ export function decide(ctx) {
   for (const q of ctx.audioQueues || []) {
     const left = leftIds(q.ids, audioHave, exclude, attempts);
     if (left.length) {
-      const { toProcess } = planRun(q.ids, ctx.audioManifest, LIMIT);
+      const { toProcess } = planRun(q.ids, ctx.audioManifest, LIMIT, [], ctx.removed || new Set());
       return { action: 'run', kind: 'audio', queue: q.path, toProcess, left: left.length, reason: 'next audio queue' };
     }
   }
@@ -74,7 +75,7 @@ export function decide(ctx) {
     for (const q of ctx.videoQueues || []) {
       const left = leftIds(q.ids, videoHave, exclude, attempts);
       if (left.length) {
-        const { toProcess } = planVideoRun(q.ids, ctx.videoManifest, LIMIT, ctx.rendition);
+        const { toProcess } = planVideoRun(q.ids, ctx.videoManifest, LIMIT, ctx.rendition, ctx.removed || new Set());
         return { action: 'run', kind: 'video', queue: q.path, toProcess, left: left.length, reason: 'next video queue' };
       }
     }
@@ -128,9 +129,10 @@ function queues(dir) {
   if (!existsSync(dir)) return [];
   return readdirSync(dir).filter((f) => /^c\d{3}\.csv$/.test(f)).sort().map((f) => ({ path: `${dir}/${f}`, ids: parseQueue(readFileSync(join(dir, f), 'utf-8')) }));
 }
-function exclusions() {
+/** Ids autorun does not count as work: failed review, listed duplicates, PART 13 removed lessons. */
+export function exclusions(removals = readRemovals()) {
   const dups = readJson('data/media-duplicates.json', []);
-  return new Set([...csvIds('data/queues/failed-review.csv'), ...(Array.isArray(dups) ? dups : [])]);
+  return new Set([...csvIds('data/queues/failed-review.csv'), ...(Array.isArray(dups) ? dups : []), ...removedSources(removals)]);
 }
 function out(k, v) { if (process.env.GITHUB_OUTPUT) appendFileSync(process.env.GITHUB_OUTPUT, `${k}=${v}\n`); }
 function summary(s) { if (process.env.GITHUB_STEP_SUMMARY) appendFileSync(process.env.GITHUB_STEP_SUMMARY, s + '\n'); console.log(s); }
@@ -153,6 +155,7 @@ function main() {
       videoQueues: queues('data/queues/video'),
       videoManifest: readJson('data/video-manifest.json', []),
       exclude: exclusions(),
+      removed: removedSources(readRemovals()),
     });
     writeFileSync('autorun-plan.json', JSON.stringify(plan));
     out('action', plan.action);

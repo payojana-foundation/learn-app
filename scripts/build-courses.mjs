@@ -33,6 +33,7 @@ import { dirname, join } from 'node:path';
 import { pathsShapeErrors, guideLinesShapeErrors, companionIssues, issuesCsv } from './companion-check.mjs';
 import { driveIds } from './catalogue/sheets-map.mjs';
 import { parseCsvObjects } from './master/csv.mjs';
+import { keepRows, readState as readRemovals } from './master/removed.mjs';
 
 /**
  * Reproducible build stamp (R3, bulk-03). The served data must rebuild to the
@@ -58,6 +59,7 @@ const SOURCE_INPUTS = [
   'data/id-aliases.json',
   'data/master/title-aliases.json',
   'data/master/lesson-sources.json',
+  'data/ops/removals.json',
 ];
 
 function buildStamp(root) {
@@ -665,7 +667,9 @@ function main() {
     console.error('BUILD FAILED — data/master/lessons.csv and courses.csv are missing (run master-export).');
     process.exit(1);
   }
-  const lessonRows = parseCsvObjects(readFileSync(lessonsCsv, 'utf-8'));
+  // PART 13: rows removed with the master-sheet mark (data/ops/removals.json) are left out, as if
+  // the rows were not there (a removed lesson does not count as hidden for the leaf).
+  const lessonRows = keepRows(parseCsvObjects(readFileSync(lessonsCsv, 'utf-8')), readRemovals(join(root, 'data', 'ops', 'removals.json')));
   const courseRows = parseCsvObjects(readFileSync(coursesCsv, 'utf-8'));
 
   // Provisional→permanent id alias SOURCE map (Q5). Merged (copied) verbatim into

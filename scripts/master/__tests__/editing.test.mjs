@@ -5,7 +5,10 @@ import { checksJson, inEditing, REASONS } from '../checks.mjs';
 import { computeSystem } from '../sync.mjs';
 import { allLessonColumns, plan as exportPlan, rowsFromValues } from '../export.mjs';
 
-const columns = JSON.parse(readFileSync('data/master/columns.json', 'utf-8'));
+// fixture: the column config as of PART 11 (the PART 13 remove columns, appended after these, are tested in removals.test.mjs)
+const PART13 = new Set(['remove', 'remove_reason']);
+const columnsFile = JSON.parse(readFileSync('data/master/columns.json', 'utf-8'));
+const columns = { ...columnsFile, added_columns: columnsFile.added_columns.filter((c) => !PART13.has(c.key)) };
 const LK = allLessonColumns(columns).map((c) => c.key);
 const DID = (s) => (s + '0000000000000000000000000').slice(0, 28);
 const url = (s) => `https://drive.google.com/file/d/${DID(s)}/view`;

@@ -47,6 +47,7 @@ import { colLetter } from './seed.mjs';
 import { checksJson, failedMap, videoFailuresFrom } from './checks.mjs';
 import { presentKeys, allLessonColumns, allCourseColumns } from './export.mjs';
 import { intakePlan, applyToTab, intakeRanges, noFileLink, ISSUE_NO_FILE } from './intake.mjs';
+import { keepRows, readState as readRemovals } from './removed.mjs';
 export { presentKeys };
 
 const SHEETS_BASE = 'https://sheets.googleapis.com/v4/spreadsheets';
@@ -81,7 +82,7 @@ export function audioStatus(sourceId, approved, failedReview, inManifest) {
  * Returns { lessons: Map(row_key -> {col: value}), courses: Map(course_id -> {lesson_count}) }.
  */
 export function computeSystem(lessonRows, courseRows, ctx) {
-  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map(), checkFlags = new Map(), decisions = {}, intakeIssues = new Map(), failedReasons = new Map(), renameLog = { courses: {}, lessons: {} }, sources = null } = ctx;
+  const { manifest = [], failedReview = new Set(), shownLessonIds = new Set(), acastBySource = new Map(), checkFlags = new Map(), decisions = {}, intakeIssues = new Map(), failedReasons = new Map(), renameLog = { courses: {}, lessons: {} }, removalLog = { courses: {}, lessons: {} }, sources = null } = ctx;
   const approved = new Set(manifest.filter((e) => e && e.drive_file_id && /^approved\b/i.test(e.status || '')).map((e) => e.drive_file_id));
   const inManifest = new Set(manifest.filter((e) => e && e.drive_file_id).map((e) => e.drive_file_id));
   const { hidden, kept } = shownRows(lessonRows, manifest, sources);
@@ -115,6 +116,9 @@ export function computeSystem(lessonRows, courseRows, ctx) {
     if (renameLog.lessons && renameLog.lessons[r.row_key]) issues.push(renameLog.lessons[r.row_key]);
     const dec = decisions[r.row_key];
     if (dec && dec.decision) issues.push(`DECISION: ${dec.decision} (${dec.at}): ${dec.result}`);
+    // PART 13: the removal notes (data/ops/removals.json log), last, as removals.mjs writes them
+    if (r.course_id && removalLog.courses && removalLog.courses[r.course_id]) issues.push(removalLog.courses[r.course_id]);
+    if (removalLog.lessons && removalLog.lessons[r.row_key]) issues.push(removalLog.lessons[r.row_key]);
     lessons.set(r.row_key, {
       lesson_id: lessonId,
       audio_status: audioStatus(src, approved, failedReview, inManifest),
@@ -379,7 +383,9 @@ async function main() {
   const lessonRows = objects(lessonsTab);
   const courseRows = [...objects(coursesTab), ...intake.newCourses];
   const manifest = JSON.parse(readFileSync(join(root, 'data', 'media-manifest.json'), 'utf-8'));
+  const removals = readRemovals(join(root, 'data', 'ops', 'removals.json'));
   const wanted = computeSystem(lessonRows, courseRows, {
+    removalLog: removals.log || { courses: {}, lessons: {} },
     manifest, failedReview: failedReviewSet(root), shownLessonIds: shownFromPublicData(root), acastBySource: await acastFromTeacherSheets(root),
     checkFlags: checkFlagsFile(root),
     intakeIssues: intake.issues,
@@ -425,7 +431,7 @@ async function main() {
   const sheetRows = live ? new Map(lessonsTab.rows.map((r, i) => [r[lessonsTab.header.indexOf('row_key')], i + 2]).filter(([k]) => k)) : null;
   const frPath = join(root, 'data', 'queues', 'failed-review.csv');
   const checks = checksJson({
-    lessonRows, sheetRows, gid: live ? await tabGid({ sheetId, token, tab: 'Lessons' }) : null, courseRows, wanted: wanted.lessons, manifest,
+    lessonRows: keepRows(lessonRows, removals), sheetRows, // PART 13: removed rows have no check item gid: live ? await tabGid({ sheetId, token, tab: 'Lessons' }) : null, courseRows, wanted: wanted.lessons, manifest,
     videoManifest: readJson(join(root, 'data', 'video-manifest.json'), []),
     precheck: readJson(join(root, 'data', 'queues', 'approve', 'precheck.json'), null),
     videoPrecheck: readJson(join(root, 'data', 'queues', 'approve-video', 'precheck.json'), null),
