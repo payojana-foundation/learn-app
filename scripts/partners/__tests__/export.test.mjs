@@ -3,7 +3,8 @@ import { describe, it, expect } from 'vitest';
 import { mkdtempSync, readFileSync, existsSync } from 'node:fs';
 import { tmpdir } from 'node:os';
 import { join } from 'node:path';
-import { exportPartners, headerCheck, tableFrom, csvOf, TABS, HeaderContractError } from '../export.mjs';
+import { spawnSync } from 'node:child_process';
+import { exportPartners, headerCheck, tableFrom, csvOf, TABS, HeaderContractError } from '../partner-sheet.mjs';
 
 function fakeSheets(tabs) {
   const calls = [];
@@ -63,6 +64,15 @@ describe('partner export', () => {
     await exportPartners({ sheetId: 'S', token: 't', contract: CONTRACT, outDir: out, fetchFn: fakeSheets(SHEET()).fetchFn });
     const again = await exportPartners({ sheetId: 'S', token: 't', contract: CONTRACT, outDir: out, fetchFn: fakeSheets(SHEET()).fetchFn });
     expect(again.changed).toBe(false);
+  });
+  it('bug fix: the CLI file name must not end in export.mjs (master/export.mjs would run its own main on import)', () => {
+    const y = readFileSync('.github/workflows/partner-export.yml', 'utf-8');
+    const cli = /node (scripts\/partners\/[\w.-]+\.mjs)/.exec(y)[1];
+    expect(existsSync(cli)).toBe(true);
+    expect(cli).not.toMatch(/export\.mjs$/);
+    const r = spawnSync(process.execPath, [cli], { encoding: 'utf-8', env: { ...process.env, ACCESS_TOKEN: '' } });
+    expect(r.status).toBe(2);
+    expect(`${r.stdout}${r.stderr}`).not.toMatch(/Lessons|master/);
   });
   it('pure helpers', () => {
     expect(headerCheck('T', ['a', 'a', 'b'], ['a', 'c'])).toEqual({ tab: 'T', missing: ['c'], added: ['b'], duplicate: ['a'] });

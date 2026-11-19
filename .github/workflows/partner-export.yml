@@ -2,7 +2,7 @@ name: partner-export
 
 # Bulk 10 P1 — export the partner sheet (YouTube partner classes; synced from YouTube by an
 # Apps Script inside the sheet) to data/partners/{partners,playlists,videos,terms}.csv,
-# byte-exact (scripts/partners/export.mjs). Tabs README, Example and Meta are not read.
+# byte-exact (scripts/partners/partner-sheet.mjs). Tabs README, Example and Meta are not read.
 #
 # Triggers: manual, and daily at 05:13 UTC (12:13 in Cambodia): after the 03:00 sync window
 # whichever clock it is on, off-peak minute.
@@ -72,7 +72,7 @@ jobs:
         run: |
           set -euo pipefail
           if [ "$RECORD" = "true" ]; then extra="--record-contract"; else extra=""; fi
-          node scripts/partners/export.mjs --sheet-id "$SHEET_ID" $extra
+          node scripts/partners/partner-sheet.mjs --sheet-id "$SHEET_ID" $extra
 
       - name: Commit if anything changed
         id: commit

@@ -1,5 +1,5 @@
 /**
- * scripts/partners/export.mjs — bulk 10 P1: export the partner sheet (YouTube partner classes)
+ * scripts/partners/partner-sheet.mjs — bulk 10 P1: export the partner sheet (YouTube partner classes)
  * to data/partners/{partners,playlists,videos,terms}.csv, byte-exact (cells as the sheet shows
  * them, nothing trimmed or normalised). Read-only (spreadsheets.readonly). Run by
  * .github/workflows/partner-export.yml. The sheet is synced from YouTube by an Apps Script
@@ -12,7 +12,7 @@
  * written); a NEW column the team adds is exported and reported, never fails. The contract is
  * written only on purpose: `--record-contract` (first run, or after a deliberate change).
  *
- * CLI (env ACCESS_TOKEN): node scripts/partners/export.mjs --sheet-id <id> [--record-contract]
+ * CLI (env ACCESS_TOKEN): node scripts/partners/partner-sheet.mjs --sheet-id <id> [--record-contract]
  */
 import { readFileSync, writeFileSync, existsSync, mkdirSync, appendFileSync } from 'node:fs';
 import { join } from 'node:path';
@@ -109,7 +109,7 @@ async function main() {
     const r = await exportPartners({ sheetId, token: process.env.ACCESS_TOKEN, contract: tabs, record });
     let contractChanged = false;
     if (record) {
-      const next = { _doc: 'Bulk 10 P1: header row of each partner-sheet tab (scripts/partners/export.mjs). A listed header missing from the sheet fails the export; recorded with --record-contract.', tabs: r.contract };
+      const next = { _doc: 'Bulk 10 P1: header row of each partner-sheet tab (scripts/partners/partner-sheet.mjs). A listed header missing from the sheet fails the export; recorded with --record-contract.', tabs: r.contract };
       contractChanged = JSON.stringify(next) !== JSON.stringify(contract);
       if (contractChanged) writeFileSync(CONTRACT, JSON.stringify(next, null, 2) + '\n', 'utf-8');
     }
@@ -124,4 +124,4 @@ async function main() {
   }
 }
 
-if (process.argv[1] && process.argv[1].endsWith('export.mjs') && process.argv[1].includes('partners')) main();
+if (process.argv[1] && process.argv[1].endsWith('partner-sheet.mjs')) main();
