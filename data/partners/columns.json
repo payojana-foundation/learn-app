@@ -1,0 +1,65 @@
+{
+  "_doc": "Bulk 10 P1: header row of each partner-sheet tab (scripts/partners/partner-sheet.mjs). A listed header missing from the sheet fails the export; recorded with --record-contract.",
+  "tabs": {
+    "Partners": [
+      "partner_slug",
+      "name_km",
+      "name_en",
+      "channel_url",
+      "channel_id",
+      "teachers",
+      "teacher_slugs",
+      "wave",
+      "wave_order",
+      "permission_saved",
+      "permission_link",
+      "notes",
+      "edit_permission",
+      "edit_permission_link"
+    ],
+    "Playlists": [
+      "playlist_id",
+      "partner_slug",
+      "playlist_title",
+      "display_title",
+      "teacher_slugs",
+      "wave",
+      "decision",
+      "decided_by",
+      "decided_at",
+      "videos_total",
+      "possible_duplicates",
+      "course_id",
+      "last_synced",
+      "teaching_points",
+      "kp_embed",
+      "notes"
+    ],
+    "Videos": [
+      "playlist_id",
+      "position",
+      "video_id",
+      "lesson_id",
+      "title",
+      "duration_s",
+      "thumbnail_url",
+      "playable",
+      "not_playable_reason",
+      "dup_hint",
+      "include",
+      "kp_embed",
+      "status",
+      "first_seen",
+      "last_synced",
+      "adopt",
+      "moved_to_lesson_id"
+    ],
+    "Terms (copy)": [
+      "term_id",
+      "term_km",
+      "term_pali",
+      "term_en",
+      "other_spellings"
+    ]
+  }
+}
