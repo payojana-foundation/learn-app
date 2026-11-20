@@ -154,5 +154,18 @@
   "title_status": "Name and title set by the coordinator 18 Oct 2026 [VERIFY TITLE] — reviewer check still pending",
   "bio_approved_by_teacher": "Not in our files",
   "show_english_name": "no (Khmer name only; coordinator rule 18 Oct)"
+ },
+ {
+  "order": 13,
+  "slug": "sem-chanthy",
+  "name_km": "លោកម្ចាស់គ្រូ ធម្មសិរី សែម ចន្ទធីរ៍",
+  "name_en": null,
+  "bio_km": null,
+  "bio_en": null,
+  "topics": "",
+  "photo_file": "teacher-photos/sem-chanthy.jpg",
+  "title_status": "Record created on coordinator approval (bulk 10, 19 Nov 2026)",
+  "bio_approved_by_teacher": "no",
+  "show_english_name": "no"
  }
 ]

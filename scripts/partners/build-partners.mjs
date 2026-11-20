@@ -79,7 +79,7 @@ const posNum = (p) => (Number.isFinite(Number(p)) && String(p).trim() !== '' ? N
  *   hidden    [{ id, partner_slug, reason, detail }]
  *   adopted   { 'yt-<id>': '<own lesson id>' }
  */
-export function buildPartners({ partners = [], playlists = [], videos = [], terms = [], teacherSlugs = new Set(), ownCourses = [], ownYoutube = new Map() }) {
+export function buildPartners({ partners = [], playlists = [], videos = [], terms = [], teacherSlugs = new Set(), ownCourses = [], ownYoutube = new Map(), teacherMap = {} }) {
   const partnerBy = new Map(partners.filter((p) => p.partner_slug).map((p) => [p.partner_slug, p]));
   const videosBy = new Map();
   for (const v of videos) {
@@ -111,7 +111,9 @@ export function buildPartners({ partners = [], playlists = [], videos = [], term
     if (!uuid) { hide('bad kp_embed', String(pl.kp_embed ?? '').trim() ? 'no strict KillerPlayer playlist URL, or another host/script' : 'empty'); continue; }
     const partner = partnerBy.get(pl.partner_slug);
     if (!partner) { hide('unknown partner', pl.partner_slug || '(none)'); continue; }
-    const slugs = splitSlugs(pl.teacher_slugs).length ? splitSlugs(pl.teacher_slugs) : splitSlugs(partner.teacher_slugs);
+    // Playlists.teacher_slugs, else Partners.teacher_slugs, else data/partners/teacher-map.json (PART B)
+    const mapped = Array.isArray(teacherMap[pl.partner_slug]) ? teacherMap[pl.partner_slug].filter((s) => typeof s === 'string' && s) : [];
+    const slugs = splitSlugs(pl.teacher_slugs).length ? splitSlugs(pl.teacher_slugs) : splitSlugs(partner.teacher_slugs).length ? splitSlugs(partner.teacher_slugs) : mapped;
     if (!slugs.length || slugs.some((s) => !teacherSlugs.has(s))) { hide('unmapped teacher', slugs.join(' ') || '(none)'); continue; }
     const title = String(pl.display_title ?? '') !== '' ? pl.display_title : pl.playlist_title ?? '';
     if (slugs.some((s) => ownKeys.has(`${normTitle(title)}\t${s}`))) { hide('duplicate of an own course', ''); continue; }
@@ -183,7 +185,9 @@ export function readPartnerCsvs(root) {
   const d = join(root, DIR);
   if (!existsSync(join(d, 'playlists.csv'))) return null;
   const r = (f) => (existsSync(join(d, f)) ? parseCsvObjects(readFileSync(join(d, f), 'utf-8')) : []);
-  return { partners: r('partners.csv'), playlists: r('playlists.csv'), videos: r('videos.csv'), terms: r('terms.csv') };
+  const mapPath = join(d, 'teacher-map.json');
+  const teacherMap = existsSync(mapPath) ? JSON.parse(readFileSync(mapPath, 'utf-8')).map || {} : {};
+  return { partners: r('partners.csv'), playlists: r('playlists.csv'), videos: r('videos.csv'), terms: r('terms.csv'), teacherMap };
 }
 
 /** data/partners-switch.json → boolean (missing = off; bad shape throws). */

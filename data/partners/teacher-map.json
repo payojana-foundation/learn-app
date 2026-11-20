@@ -1,0 +1,6 @@
+{
+  "_doc": "Bulk 10 PART B (coordinator, 19 Nov): partner -> teacher slugs, used only as the LAST fallback when both Playlists.teacher_slugs and Partners.teacher_slugs are empty (scripts/partners/build-partners.mjs). The partner sheet is owned by the Partner Courses chat and is read-only for Learn; filling Partners.teacher_slugs there is preferred.",
+  "map": {
+    "wat-khmer-arizona": ["sem-chanthy"]
+  }
+}

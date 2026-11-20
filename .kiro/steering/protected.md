@@ -188,7 +188,9 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   AND `decided_at` is filled AND `kp_embed` yields a playlist UUID by the strict pattern
   `https://killerplayer.com/watch/video/playlist/<uuid v4>` (any other host, other or inline
   script, `javascript:`/`data:` or handler → hidden; the pasted HTML is never served) AND every
-  teacher slug (Playlists.teacher_slugs, else Partners.teacher_slugs) is a teacher record;
+  teacher slug (Playlists.teacher_slugs, else Partners.teacher_slugs, else the repo file
+  `data/partners/teacher-map.json` — PART B 19 Nov, change protected: P-19; contract
+  `src/contracts/__tests__/partner-teacher.contract.test.mjs`) is a teacher record;
   `Partial`, unmapped or no playable video → hidden and reported (`reports/partner-issues.csv`).
   The notes column is never read. Lessons = Videos rows with playable = yes and status not
   Skip/Hidden/Moved, in position order, titles byte-exact. Same normalised title + teacher as an
