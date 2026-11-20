@@ -157,13 +157,32 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   `data/queues/orphans-pending.txt` (never deleted). A failed new file leaves the old media live and
   `issues` says `CHECK: new file failed: <reason>`. Lessons never approved stay hidden; the id
   guard therefore never fails on a link change.
+  PARTNER CLASSES (bulk 10 P2, 19 Nov): a separate collection from the partner sheet export
+  (`data/partners/*.csv`), never master courses: ids `yt-pl-<playlist_id>` / lessons
+  `yt-<11-char video id>`, never `c###`. A Playlists row is released only when decision = `Add`
+  AND `decided_at` is filled AND `kp_embed` yields a playlist UUID by the strict pattern
+  `https://killerplayer.com/watch/video/playlist/<uuid v4>` (any other host, other or inline
+  script, `javascript:`/`data:` or handler → hidden; the pasted HTML is never served) AND every
+  teacher slug (Playlists.teacher_slugs, else Partners.teacher_slugs) is a teacher record;
+  `Partial`, unmapped or no playable video → hidden and reported (`reports/partner-issues.csv`).
+  The notes column is never read. Lessons = Videos rows with playable = yes and status not
+  Skip/Hidden/Moved, in position order, titles byte-exact. Same normalised title + teacher as an
+  own course → refused. An own lesson whose youtube_link is a partner video adopts it (partner
+  lesson left out, aliased). An id released before and not now is retired with its date
+  (`data/partners/released-ids.json`, `retired.json`), never dropped. Served ONLY when
+  `data/partners-switch.json` is `{"enabled": true}` (written from the repo variable
+  `PARTNERS_ENABLED`): then catalog.json gains `partners`/`partner_courses`/`partner_terms`/
+  `partner_retired` and `public/data/partners/<id>.json`; off = served data unchanged.
+  `buildPartners`/`kpPlaylistUuid`/`retirePlan`, `scripts/partners/build-partners.mjs`;
+  `scripts/build-courses.mjs` main.
   `shownRows`/`buildFromMaster`/`approvedIdGuard`, `scripts/build-courses.mjs`; `linkChanges`,
   `scripts/queues/link-changes.mjs`.
   Contract: `src/contracts/__tests__/master-build.contract.test.mjs` "P-19 per-lesson
-  release", `src/contracts/__tests__/link-change.contract.test.mjs`. (The old website-based
+  release", `src/contracts/__tests__/link-change.contract.test.mjs`,
+  `src/contracts/__tests__/partner-build.contract.test.mjs`. (The old website-based
   `buildCourses` is kept, unused by the build.)
   [from part Q4, bulk-02; replaced in bulk 09, change protected: P-19; link change kept live 18 Nov,
-  change protected: P-19]
+  change protected: P-19; partner classes bulk 10 P2, change protected: P-19]
 ## Provisional → permanent ids (Q5, bulk-02)
 
 - **P-20** CLEAN CUT (IndexedDB version 3). Course and lesson ids changed when the

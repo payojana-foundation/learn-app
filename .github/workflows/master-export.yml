@@ -81,6 +81,8 @@ jobs:
           # Cloudflare builds see only committed files, so it is written to
           # data/video-switch.json here and committed with the rebuilt data.
           VIDEO_ENABLED: ${{ vars.VIDEO_ENABLED }}
+          # Bulk 10: partner classes are served only when this repo variable is "true".
+          PARTNERS_ENABLED: ${{ vars.PARTNERS_ENABLED }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
@@ -93,13 +95,15 @@ jobs:
           fi
           if [ "${VIDEO_ENABLED:-}" = "true" ]; then sw=true; else sw=false; fi
           printf '{\n  "enabled": %s\n}\n' "$sw" > data/video-switch.json
+          if [ "${PARTNERS_ENABLED:-}" = "true" ]; then ps=true; else ps=false; fi
+          printf '{\n  "enabled": %s\n}\n' "$ps" > data/partners-switch.json
           # PART 3 intake: lessons the team added go into the conversion queues (append only).
           # PART 11e: a changed file link on a released lesson is re-queued; old key -> orphans-pending
           node scripts/queues/link-changes.mjs
           node scripts/queues/intake-queues.mjs
           node scripts/queues/video-queues.mjs
           npm run build-courses
-          git add data/master public/data data/video-switch.json
+          git add data/master public/data data/video-switch.json data/partners-switch.json
           git add data/queues
           if git diff --cached --quiet; then
             echo "master-export: no change"

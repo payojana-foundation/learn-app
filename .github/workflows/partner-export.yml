@@ -30,11 +30,11 @@ on:
     - cron: "13 5 * * *"
 
 permissions:
-  contents: write # commits data/partners
+  contents: write # commits data/partners (+ public/data when served)
   id-token: write # Workload Identity Federation
 
 concurrency:
-  group: partner-export
+  group: data-rebuild-main # one writer of public/data at a time (as master-export)
   cancel-in-progress: false
 
 env:
@@ -45,10 +45,11 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 15
     steps:
-      - name: Check out main
+      - name: "Check out main (full history: the build stamp reads git log)"
         uses: actions/checkout@v5
         with:
           ref: main
+          fetch-depth: 0
 
       - name: Set up Node
         uses: actions/setup-node@v4
@@ -74,14 +75,28 @@ jobs:
           if [ "$RECORD" = "true" ]; then extra="--record-contract"; else extra=""; fi
           node scripts/partners/partner-sheet.mjs --sheet-id "$SHEET_ID" $extra
 
-      - name: Commit if anything changed
+      # P2: the retirement ids (data/partners/released-ids.json, retired.json) and the app data.
+      # Partner classes are served only when the repo variable PARTNERS_ENABLED is "true"
+      # (data/partners-switch.json); off = public/data stays exactly as it is.
+      - name: Install
+        if: ${{ steps.export.outputs.changed == 'true' }}
+        run: npm ci
+
+      - name: Retirement ids and rebuild, commit if anything changed
         id: commit
         if: ${{ steps.export.outputs.changed == 'true' }}
+        env:
+          PARTNERS_ENABLED: ${{ vars.PARTNERS_ENABLED }}
         run: |
           set -euo pipefail
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
+          if [ "${PARTNERS_ENABLED:-}" = "true" ]; then ps=true; else ps=false; fi
+          printf '{\n  "enabled": %s\n}\n' "$ps" > data/partners-switch.json
+          node scripts/partners/build-partners.mjs ids
+          npm run build-courses
           git add data/partners
+          git add data/partners-switch.json public/data
           if git diff --cached --quiet; then echo "partner-export: no change"; exit 0; fi
           git commit -m "partners: export of the partner sheet"
           bash scripts/ci/push-with-retry.sh origin main

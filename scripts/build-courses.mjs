@@ -25,7 +25,7 @@
  * a small fixture (never the real titles).
  */
 
-import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, copyFileSync, unlinkSync } from 'node:fs';
+import { readFileSync, writeFileSync, existsSync, mkdirSync, readdirSync, copyFileSync, unlinkSync, rmdirSync } from 'node:fs';
 import { createHash } from 'node:crypto';
 import { execFileSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
@@ -34,6 +34,7 @@ import { pathsShapeErrors, guideLinesShapeErrors, companionIssues, issuesCsv } f
 import { driveIds } from './catalogue/sheets-map.mjs';
 import { parseCsvObjects } from './master/csv.mjs';
 import { keepRows, readState as readRemovals } from './master/removed.mjs';
+import { buildPartners, readPartnerCsvs, partnersEnabled, ownYoutubeMap, partnersReport } from './partners/build-partners.mjs';
 
 /**
  * Reproducible build stamp (R3, bulk-03). The served data must rebuild to the
@@ -60,6 +61,7 @@ const SOURCE_INPUTS = [
   'data/master/title-aliases.json',
   'data/master/lesson-sources.json',
   'data/ops/removals.json',
+  // (data/partners* not listed: with the switch off a partner export must not move the stamp)
 ];
 
 function buildStamp(root) {
@@ -741,8 +743,41 @@ function main() {
 
   const generated = buildStamp(root);
 
+  // Bulk 10 P2: partner YouTube classes (data/partners/*.csv). Always computed and reported
+  // (reports/partners-report.md); SERVED only when data/partners-switch.json is enabled, else
+  // the served data stays exactly as without partners (no keys, no files).
+  let partnersOn = false;
+  try { partnersOn = partnersEnabled(root); } catch (e) { console.error(`BUILD FAILED — ${e.message}`); process.exit(1); }
+  const partnerCsv = readPartnerCsvs(root);
+  const partnerRes = partnerCsv
+    ? buildPartners({ ...partnerCsv, teacherSlugs: new Set(teachers.map((t) => t.slug)), ownCourses: catalog.courses, ownYoutube: ownYoutubeMap(lessonRows, courses) })
+    : null;
+  if (partnerRes) {
+    writeFileSync(join(reportsDir, 'partners-report.md'), partnersReport(partnerRes, partnersOn), 'utf-8');
+    writeFileSync(join(reportsDir, 'partner-issues.csv'), ['id,partner_slug,reason,detail', ...partnerRes.hidden.map((h) => [h.id, h.partner_slug, h.reason, h.detail].map((v) => `"${String(v ?? '').replace(/"/g, '""')}"`).join(','))].join('\n') + '\n', 'utf-8');
+  }
+  const partnersOut = join(outDir, 'partners');
+  const servePartners = partnersOn && partnerRes;
+  const partnerRetiredPath = join(root, 'data', 'partners', 'retired.json');
+  if (servePartners) {
+    const retiredP = existsSync(partnerRetiredPath) ? JSON.parse(readFileSync(partnerRetiredPath, 'utf-8')) : { courses: {}, lessons: {} };
+    catalog.partners = partnerRes.partners;
+    catalog.partner_courses = partnerRes.courses;
+    catalog.partner_terms = partnerRes.terms;
+    catalog.partner_retired = { courses: retiredP.courses || {}, lessons: retiredP.lessons || {} };
+  }
+
   // Write per-course files and build the manifest file list.
   const files = {};
+  // Partner class files (only when served); stale ones removed, the folder removed when off.
+  if (existsSync(partnersOut)) for (const f of readdirSync(partnersOut)) if (f.endsWith('.json') && !(servePartners && partnerRes.files.some((p) => `${p.id}.json` === f))) unlinkSync(join(partnersOut, f));
+  if (servePartners) {
+    mkdirSync(partnersOut, { recursive: true });
+    for (const p of partnerRes.files) {
+      writeJson(join(partnersOut, `${p.id}.json`), p);
+      files[p.id] = { file: `partners/${p.id}.json`, updated: generated, sha256: sha256File(join(partnersOut, `${p.id}.json`)) };
+    }
+  } else if (existsSync(partnersOut) && readdirSync(partnersOut).length === 0) rmdirSync(partnersOut);
   for (const c of courses) {
     const rel = `courses/${c.id}.json`;
     writeJson(join(coursesOut, `${c.id}.json`), c);
