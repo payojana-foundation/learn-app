@@ -222,6 +222,9 @@ export function teacherRecord(t) {
     bio_en: startsWithYes(t.bio_approved_by_teacher) ? t.bio_en : null,
     topics: Array.isArray(t.topics) ? t.topics : typeof t.topics === 'string' ? t.topics.split(/\s*,\s*/).filter(Boolean) : [],
     photo: t.photo_file || null,
+    // PART C (19 Nov): set once in the source (lay = name_km starts with the lay-teacher title),
+    // passed through as stored, never recomputed. Anything else = null (the monk label is shown).
+    profile_kind: t.profile_kind === 'monk' || t.profile_kind === 'lay' ? t.profile_kind : null,
   };
 }
 

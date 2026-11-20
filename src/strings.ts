@@ -112,6 +112,9 @@ export const STRINGS = {
   PARTNER_MARK_DONE: { km: 'DRAFT – needs reviewer approval', en: 'Mark class done' },
   PARTNER_IS_DONE: { km: 'DRAFT – needs reviewer approval', en: 'Class done' },
   PARTNER_RETIRED: { km: 'DRAFT – needs reviewer approval', en: 'No longer available' },
+  // PART C (19 Nov): the bio disclosure button; Khmer copied from the coordinator's prompt.
+  BIO_MONK: { km: 'ជីវប្រវត្តិលោកម្ចាស់គ្រូ', en: 'About the teacher' },
+  BIO_LAY: { km: 'ជីវប្រវត្តិអ្នកគ្រូ', en: 'About the teacher' },
   // Service-worker update prompt (reliable updates).
   APP_UPDATE: {
     km: 'មានកំណែថ្មី។ ផ្ទុកឡើងវិញឥឡូវនេះ?',

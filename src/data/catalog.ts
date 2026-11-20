@@ -92,6 +92,8 @@ export interface Teacher {
   bio_en: string | null;
   topics: string[];
   photo: string | null;
+  /** PART C: monk | lay, stored in the teacher source (never recomputed); picks the bio label. */
+  profile_kind?: 'monk' | 'lay' | null;
 }
 export interface Teachers {
   teachers: Teacher[];

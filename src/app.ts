@@ -749,6 +749,16 @@ function wireEvents(): void {
       );
       return;
     }
+    if (d.bioToggle != null) {
+      // PART C: open / close the teacher bio in place (Enter and Space work: a real button).
+      const open = el.getAttribute('aria-expanded') !== 'true';
+      el.setAttribute('aria-expanded', String(open));
+      const arrow = el.querySelector('[data-arrow]');
+      if (arrow) arrow.textContent = open ? '▾' : '▸';
+      const panel = document.getElementById(el.getAttribute('aria-controls') ?? '');
+      if (panel) panel.hidden = !open;
+      return;
+    }
     if (d.kpPlay != null && state.route.name === 'partnerClass') {
       const id = state.route.classId;
       stopR2();

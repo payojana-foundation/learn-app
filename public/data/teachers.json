@@ -9,7 +9,8 @@
       "topics": [
         "meditation"
       ],
-      "photo": "teacher-photos/him-bunthoeun.jpg"
+      "photo": "teacher-photos/him-bunthoeun.jpg",
+      "profile_kind": "monk"
     },
     {
       "slug": "vinh-sovoeurng",
@@ -20,7 +21,8 @@
       "topics": [
         "abhidhamma"
       ],
-      "photo": "teacher-photos/vinh-sovoeurng.jpg"
+      "photo": "teacher-photos/vinh-sovoeurng.jpg",
+      "profile_kind": "monk"
     },
     {
       "slug": "yon-yi",
@@ -32,7 +34,8 @@
         "abhidhamma",
         "sutta"
       ],
-      "photo": "teacher-photos/yon-yi.jpg"
+      "photo": "teacher-photos/yon-yi.jpg",
+      "profile_kind": "monk"
     },
     {
       "slug": "hun-khemara",
@@ -44,7 +47,8 @@
         "meditation",
         "devotional"
       ],
-      "photo": "teacher-photos/hun-khemara.jpg"
+      "photo": "teacher-photos/hun-khemara.jpg",
+      "profile_kind": "monk"
     },
     {
       "slug": "hak-sienghai",
@@ -55,7 +59,8 @@
       "topics": [
         "english"
       ],
-      "photo": "teacher-photos/hak-sienghai.jpg"
+      "photo": "teacher-photos/hak-sienghai.jpg",
+      "profile_kind": "monk"
     },
     {
       "slug": "sor-ratha",
@@ -66,7 +71,8 @@
       "topics": [
         "english"
       ],
-      "photo": "teacher-photos/sor-ratha.jpg"
+      "photo": "teacher-photos/sor-ratha.jpg",
+      "profile_kind": "monk"
     },
     {
       "slug": "sok-theavy",
@@ -77,7 +83,8 @@
       "topics": [
         "english"
       ],
-      "photo": "teacher-photos/sok-theavy.jpg"
+      "photo": "teacher-photos/sok-theavy.jpg",
+      "profile_kind": "monk"
     },
     {
       "slug": "phul-narin",
@@ -88,7 +95,8 @@
       "topics": [
         "vinaya"
       ],
-      "photo": "teacher-photos/phul-narin.jpg"
+      "photo": "teacher-photos/phul-narin.jpg",
+      "profile_kind": "monk"
     },
     {
       "slug": "peng-dina",
@@ -99,7 +107,8 @@
       "topics": [
         "abhidhamma"
       ],
-      "photo": "teacher-photos/peng-dina.jpg"
+      "photo": "teacher-photos/peng-dina.jpg",
+      "profile_kind": "monk"
     },
     {
       "slug": "tho-chantha",
@@ -110,7 +119,8 @@
       "topics": [
         "sutta"
       ],
-      "photo": "teacher-photos/tho-chantha.jpg"
+      "photo": "teacher-photos/tho-chantha.jpg",
+      "profile_kind": "monk"
     },
     {
       "slug": "sok-heng",
@@ -123,7 +133,8 @@
         "jataka",
         "devotional"
       ],
-      "photo": "teacher-photos/sok-heng.jpg"
+      "photo": "teacher-photos/sok-heng.jpg",
+      "profile_kind": "lay"
     },
     {
       "slug": "leng-sideoun",
@@ -136,7 +147,8 @@
         "sutta",
         "abhidhamma"
       ],
-      "photo": "teacher-photos/leng-sideoun.jpg"
+      "photo": "teacher-photos/leng-sideoun.jpg",
+      "profile_kind": "monk"
     },
     {
       "slug": "sem-chanthy",
@@ -145,7 +157,8 @@
       "bio_km": null,
       "bio_en": null,
       "topics": [],
-      "photo": "teacher-photos/sem-chanthy.jpg"
+      "photo": "teacher-photos/sem-chanthy.jpg",
+      "profile_kind": "monk"
     }
   ]
 }

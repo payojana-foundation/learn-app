@@ -212,6 +212,19 @@ export function lessonView(
   ${notes.map((n) => `<div class="note"><button class="ts" data-seek="${n.atS}">${time(n.atS, lang)}</button><span>${esc(n.text)}</span></div>`).join('')}</section>`;
 }
 
+/** PART C: the id of a teacher's bio panel (slug = lowercase letters, digits and dashes). */
+export const bioId = (teacher: Teacher): string => `bio-${teacher.slug.replace(/[^a-z0-9-]/g, '')}`;
+
+/**
+ * PART C (19 Nov): the bio is closed by default; this real button below the name opens it
+ * (▸ closed, ▾ open). Label by the stored profile_kind: lay → BIO_LAY, else BIO_MONK.
+ * Drawn only when the teacher has an approved bio.
+ */
+export function bioToggleHtml(teacher: Teacher, lang: Lang): string {
+  const label = t(teacher.profile_kind === 'lay' ? 'BIO_LAY' : 'BIO_MONK', lang);
+  return `<button type="button" class="biotoggle" data-bio-toggle aria-expanded="false" aria-controls="${bioId(teacher)}"><span aria-hidden="true" data-arrow>▸</span> ${label}</button>`;
+}
+
 export function teachersView(teachers: Teacher[], lang: Lang): string {
   return `<h1>${t('TEACHERS', lang)}</h1><div class="cgrid" style="margin-top:14px;grid-template-columns:repeat(auto-fill,minmax(130px,1fr))">${teachers.map((tc) => teacherCard(tc)).join('')}</div>`;
 }
@@ -230,8 +243,8 @@ export function teacherView(
     ? `<section style="margin-top:20px"><div class="sechead"><h2>${t('COURSES', lang)}</h2><span class="muted small">${num(courses.length, lang)}</span></div>
   <div class="cgrid">${courses.map((c) => courseCard(c, teacherBySlug.get(c.teacher_slug), progress, lang)).join('')}</div></section>`
     : '';
-  return `<div class="tprof">${teacher.photo ? `<img src="/data/${esc(teacher.photo)}" alt="">` : ''}<div><h1>${esc(teacher.name_km)}</h1>${teacher.name_en ? `<p class="muted" style="margin:0">${esc(teacher.name_en)}</p>` : ''}</div></div>
-  ${bio ? `<div class="bio" style="margin-top:14px">${esc(bio)}</div>` : ''}
+  return `<div class="tprof">${teacher.photo ? `<img src="/data/${esc(teacher.photo)}" alt="">` : ''}<div><h1>${esc(teacher.name_km)}</h1>${teacher.name_en ? `<p class="muted" style="margin:0">${esc(teacher.name_en)}</p>` : ''}${bio ? bioToggleHtml(teacher, lang) : ''}</div></div>
+  ${bio ? `<div class="bio" id="${bioId(teacher)}" style="margin-top:14px" hidden>${esc(bio)}</div>` : ''}
   ${own}${partnerHtml}`;
 }
 
