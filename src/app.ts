@@ -46,7 +46,11 @@ import {
   backfillLeaves,
   listLeaves,
   listProgress,
+  listPartnerProgress,
+  markPartnerStarted,
+  togglePartnerDone,
 } from './db';
+import { buildKpFrame, ensureKpHelper } from './ui/kp';
 import { renderVersionLabel } from './version-label';
 import { createPlayer, setMediaMetadata, mediaUrl, SPEEDS, SLEEP_OPTIONS, type PlayerHandle } from './audio/player';
 import * as V from './ui/views';
@@ -95,6 +99,8 @@ const courseCache = new Map<string, Course>();
 /** Bulk 10: partner classes (empty unless the build served them: partners switch on). */
 let partners: PartnerData = EMPTY_PARTNERS;
 const partnerCache = new Map<string, PartnerClassFile>();
+/** P-14 (bulk 10 P4): the partner class whose KillerPlayer frame is open (after a tap), or null. */
+let kpOpen: string | null = null;
 let cur: { courseId: string; lessonId: string } | null = null;
 let player: PlayerHandle | null = null;
 /** The one lesson <video> (Watch). Kept outside main.innerHTML so re-renders re-attach it. */
@@ -174,12 +180,61 @@ async function partnerClass(id: string): Promise<PartnerClassFile | null> {
 
 /** Partner "started / done" per class (P4); {} until then. */
 async function partnerProgressMap(): Promise<Record<string, P.PartnerProgress>> {
-  return {};
+  try {
+    return await listPartnerProgress();
+  } catch (err) {
+    devLog('partner progress read failed', err);
+    return {};
+  }
 }
 
-/** What the class page shows where the player goes (P4 adds the player). */
-function partnerPlayerState(_k: PartnerClassFile): 'none' | 'cover' | 'frame' | 'offline' {
-  return 'none';
+/** What the class page shows where the player goes: the cover until the tap, then the frame. */
+function partnerPlayerState(k: PartnerClassFile): 'none' | 'cover' | 'frame' | 'offline' {
+  if (kpOpen !== k.id) return 'cover';
+  return navigator.onLine === false ? 'offline' : 'frame';
+}
+
+/**
+ * P-14: after the tap, put the ONE KillerPlayer iframe into the class page's slot (built from the
+ * UUID, never pasted HTML) and add the helper script once. A bad UUID = no iframe, the
+ * needs-internet notice instead.
+ */
+function mountKp(k: PartnerClassFile): void {
+  const slot = document.querySelector('[data-kp-slot]');
+  if (!slot || slot.querySelector('iframe')) return;
+  const f = buildKpFrame(document, k.playlist_uuid, k.title);
+  if (!f) {
+    slot.outerHTML = `<div class="empty">${t('OFFLINE_MEDIA', state.lang)}</div>`;
+    return;
+  }
+  slot.appendChild(f);
+  ensureKpHelper(document);
+}
+
+/** One player at a time: the tap on a partner cover stops the R2 audio and its mini player. */
+function stopR2(): void {
+  if (player) {
+    player.destroy();
+    player = null;
+  }
+  cur = null;
+  state.playing = false;
+  renderMini();
+}
+
+/** Find-in-course on a partner class page, in place (a re-render would reload the open frame). */
+function filterPartnerRows(f: string): void {
+  const q = f.trim();
+  document.querySelectorAll<HTMLElement>('details.sect').forEach((d) => {
+    let shown = 0;
+    d.querySelectorAll<HTMLElement>('.les li').forEach((li) => {
+      const hit = !q || (li.querySelector('.tt')?.textContent ?? '').includes(q) || li.querySelector<HTMLElement>('.plrow')?.dataset.n === q;
+      li.hidden = !hit;
+      if (hit) shown++;
+    });
+    d.hidden = shown === 0;
+    if (q && shown) (d as HTMLDetailsElement).open = true;
+  });
 }
 
 async function progressMap(ids: string[]): Promise<V.ProgressMap> {
@@ -259,6 +314,8 @@ async function render(): Promise<void> {
   const route = state.route;
   const savedIds = new Set(await listSaved());
   await leaveWatchIfNeeded(route);
+  // P-14: leaving the class page (or opening another) closes its frame.
+  if (!(route.name === 'partnerClass' && route.classId === kpOpen)) kpOpen = null;
 
   let html = '';
   if (route.name === 'home') {
@@ -326,6 +383,10 @@ async function render(): Promise<void> {
   }
   // Mount the r2 player after the lesson HTML is in the DOM.
   if (route.name === 'lesson') await mountPlayerIfR2();
+  if (route.name === 'partnerClass' && kpOpen) {
+    const k = partnerCache.get(kpOpen);
+    if (k) mountKp(k);
+  }
   renderMini();
 }
 
@@ -374,7 +435,22 @@ async function renderMy(savedIds: Set<string>): Promise<string> {
   const saved = await listSaved();
   const hist = await listHistory();
   const notes = await listNotes();
-  return V.myView(state.myTab, catalog, teacherBySlug, prog, viewState(savedIds), saved, hist, notes, await myCompanionCtx());
+  // Bulk 10 P4: started, not-done partner classes (only while partner classes are served);
+  // a started class that is no longer served shows "No longer available" (never dropped).
+  let partnerInprog = '';
+  if (partners.courses.length) {
+    const pp = await partnerProgressMap();
+    partnerInprog = Object.values(pp)
+      .filter((r) => !r.done_at)
+      .sort((a, b) => b.started_at - a.started_at)
+      .map((r) => {
+        const k = partners.courses.find((x) => x.id === r.course_id);
+        if (k) return P.partnerClassCard(k, teacherBySlug, state.lang, r);
+        return partners.retired.courses[r.course_id] ? P.retiredClassCard(state.lang) : '';
+      })
+      .join('');
+  }
+  return V.myView(state.myTab, catalog, teacherBySlug, prog, viewState(savedIds), saved, hist, notes, await myCompanionCtx(), partnerInprog);
 }
 
 function renderTabbar(): void {
@@ -673,6 +749,25 @@ function wireEvents(): void {
       );
       return;
     }
+    if (d.kpPlay != null && state.route.name === 'partnerClass') {
+      const id = state.route.classId;
+      stopR2();
+      kpOpen = id;
+      void markPartnerStarted(id).then(() => render(), () => render());
+      return;
+    }
+    if (d.pdone != null && state.route.name === 'partnerClass') {
+      void togglePartnerDone(state.route.classId).then((rec) => {
+        if (!rec) return;
+        const done = !!rec.done_at;
+        // in place: an open frame keeps playing
+        el.setAttribute('aria-pressed', String(done));
+        el.classList.toggle('ghost', !done);
+        const st = document.querySelector('[data-pstatus]');
+        if (st) st.textContent = done ? `✓ ${t('PARTNER_IS_DONE', state.lang)}` : t('PARTNER_STARTED', state.lang);
+      });
+      return;
+    }
     if (d.export != null) {
       void doExport();
       return;
@@ -719,6 +814,11 @@ function wireEvents(): void {
           if (pos != null) again.setSelectionRange(pos, pos);
         }
       });
+    }
+    if (form?.dataset.form === 'course-filter' && input.name === 'f' && state.route.name === 'partnerClass') {
+      state.courseFilter = input.value;
+      filterPartnerRows(input.value);
+      return;
     }
     if (form?.dataset.form === 'course-filter' && input.name === 'f') {
       state.courseFilter = input.value;

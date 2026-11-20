@@ -262,6 +262,60 @@ export async function setLessonProgress(
   await tx.done;
 }
 
+/**
+ * Bulk 10 P4: partner class progress — course level only ("started" after the first play tap,
+ * "done" by the learner's button; KillerPlayer exposes no player events, so no per-lesson
+ * progress). Kept in the existing `settings` store under one key, so the IndexedDB schema
+ * (version 3, P-20) is unchanged and the Export/Import backup carries it (P-15: settings are a
+ * user store). Every change is one read-modify-write transaction (two tabs cannot lose a write).
+ * Never feeds leaves or buds (no leaf/bud for partner classes in wave 1).
+ */
+export const PARTNER_PROGRESS_KEY = 'partner_progress' as const;
+export interface PartnerProgressRec {
+  course_id: string;
+  started_at: number;
+  done_at: number | null;
+}
+type PartnerProgressMap = Record<string, PartnerProgressRec>;
+
+const isPartnerMap = (v: unknown): v is PartnerProgressMap =>
+  !!v && typeof v === 'object' && !Array.isArray(v) && Object.values(v as object).every((r) => !!r && typeof r === 'object' && typeof (r as PartnerProgressRec).course_id === 'string');
+
+/** All partner class progress (a bad stored value reads as none; it is not deleted). */
+export async function listPartnerProgress(): Promise<PartnerProgressMap> {
+  const db = await openLearnDB();
+  const v = await db.get('settings', PARTNER_PROGRESS_KEY);
+  return isPartnerMap(v) ? v : {};
+}
+
+async function updatePartner(id: string, fn: (cur: PartnerProgressRec | undefined, now: number) => PartnerProgressRec | undefined): Promise<PartnerProgressRec | undefined> {
+  const db = await openLearnDB();
+  const tx = db.transaction('settings', 'readwrite');
+  const store = tx.objectStore('settings');
+  const v = await store.get(PARTNER_PROGRESS_KEY);
+  const map: PartnerProgressMap = isPartnerMap(v) ? { ...v } : {};
+  const next = fn(map[id], Date.now());
+  if (next && next !== map[id]) {
+    map[id] = next;
+    await store.put(map as never, PARTNER_PROGRESS_KEY);
+  }
+  await tx.done;
+  return next;
+}
+
+/** First play tap: "started" once (an existing record, done or not, is kept as it is). */
+export function markPartnerStarted(id: string): Promise<PartnerProgressRec | undefined> {
+  return updatePartner(id, (cur, now) => cur ?? { course_id: id, started_at: now, done_at: null });
+}
+
+/** The "mark class done" toggle (marking done also counts as started). */
+export function togglePartnerDone(id: string): Promise<PartnerProgressRec | undefined> {
+  return updatePartner(id, (cur, now) => {
+    const base = cur ?? { course_id: id, started_at: now, done_at: null };
+    return { ...base, done_at: base.done_at ? null : now };
+  });
+}
+
 /** Every progress record (read-only; used to derive buds at render time). */
 export async function listProgress(): Promise<
   { courseId: string; lessons: Record<string, { pos: number; done: boolean }>; updatedAt: number }[]

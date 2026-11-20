@@ -171,9 +171,9 @@ describe('real served data (public/data) vs the master export', () => {
       for (const l of c.lessons) expect(l.title_km).toBe(lessons.get(l.id).lesson_title);
     }
   });
-  it('P-14: public/_headers frames nothing (frame-src none, no embed host)', () => {
+  it('P-14: public/_headers frames and scripts only KillerPlayer (bulk 10 P4), no embed host', () => {
     const h = readFileSync('public/_headers', 'utf-8');
-    expect(h).toMatch(/frame-src 'none'/);
+    expect(h).toMatch(/Content-Security-Policy: frame-src https:\/\/killerplayer\.com; script-src 'self' https:\/\/killerplayer\.com\n/);
     expect(h).not.toMatch(/acast|youtube|drive\.google/i);
   });
   it('P-19: the served catalog marks ongoing and all_shown for every course', () => {

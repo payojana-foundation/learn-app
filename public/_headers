@@ -1,7 +1,8 @@
-# P-14 (bulk 09): Learn plays its own R2 audio only and renders no iframe, so no host
-# may be framed at all. (frame-src alone does not restrict any other resource type.)
+# P-14 (bulk 10 P4, change protected: P-14): own lessons play only R2 media. The ONE outside
+# host is KillerPlayer, framed only on a partner class page after a tap, with its helper script
+# loaded once. No other host may be framed or scripted ('self' = the app's own scripts).
 /*
-  Content-Security-Policy: frame-src 'none'
+  Content-Security-Policy: frame-src https://killerplayer.com; script-src 'self' https://killerplayer.com
 
 /data/*
   Cache-Control: no-cache

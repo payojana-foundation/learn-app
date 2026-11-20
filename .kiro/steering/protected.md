@@ -109,9 +109,20 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   AND while the audio is playing, so a fresh mount's paused 0-tick never
   clobbers the saved resume point. `createPlayer` (`resumeApplied`, paused
   guard), `src/audio/player.ts`. [from part P4]
-- **P-14** Learn plays only its own R2 media: audio, and video when an approved
-  entry exists in `video-manifest.json`. No embeds, no iframe, no frame-src. v1
-  streaming only. In code: lesson `media` stays the R2 audio only (`MediaKind` =
+- **P-14** Learn plays only its own R2 media for its OWN lessons: audio, and video when an
+  approved entry exists in `video-manifest.json`. No embed on any own lesson. v1
+  streaming only. PARTNER CLASSES (bulk 10 P4, coordinator-approved text, verbatim):
+  "Own lessons stay R2-only exactly as now. A partner class page shows a cover first; only
+  after a tap does Learn render one iframe `https://killerplayer.com/watch/video/playlist/<uuid>`,
+  built by Learn from the UUID (strict uuid-v4 pattern; the team's pasted HTML is never
+  injected), and load `https://killerplayer.com/watch/embed.js` once (fixed constant in
+  `src/config.ts`). `public/_headers`: `frame-src https://killerplayer.com; script-src 'self'
+  https://killerplayer.com`. No other host is framed or scripted; no iframe on any other page;
+  the tap stops the R2 player; no download."
+  (`KP_PLAYLIST_BASE`/`KP_HELPER_SRC`, `src/config.ts`; `buildKpFrame`/`ensureKpHelper`,
+  `src/ui/kp.ts`; `mountKp`/`stopR2`, `src/app.ts`; contract
+  `src/contracts/__tests__/partner-player.contract.test.ts`, `e2e/partners.e2e.mjs`.)
+  Own lessons, in code: lesson `media` stays the R2 audio only (`MediaKind` =
   `'r2'`); a lesson gets `video {src, poster, duration_s}` (bare `video/` R2 key)
   only when `data/video-switch.json` is `{"enabled": true}` (master-export writes
   it from the repo variable `VIDEO_ENABLED`) AND its video (mp4_link, else
@@ -121,7 +132,7 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   (an R2-key `thumbnail_link` overrides); the position carries over; leaving the
   lesson in Watch returns to Listen so the mini player and lock screen keep the
   audio. No lesson page renders an iframe, embed container or outside link;
-  `public/_headers` keeps `frame-src 'none'` (frames nothing). A lesson with no
+  `public/_headers` frames and scripts no host but KillerPlayer (above). A lesson with no
   media shows an offline/needs-internet notice. Only one player at a time. No
   download button. `videoLookup`/`buildFromMaster`, `scripts/build-courses.mjs`;
   `lessonView`, `src/ui/views.ts`; `mountPlayerIfR2`/`switchMode`/
@@ -130,7 +141,8 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   `src/contracts/__tests__/video-build.contract.test.mjs`,
   `src/contracts/__tests__/master-build.contract.test.mjs`, `e2e/embed.e2e.mjs`,
   `e2e/video.e2e.mjs` (on and off). [from part P4; embeds removed in bulk 09;
-  R2 video added 15 Nov, change protected: P-14]
+  R2 video added 15 Nov, change protected: P-14; KillerPlayer on partner class pages bulk 10
+  P4, change protected: P-14]
 ## My Learning, search, data (P4)
 
 - **P-15** My Learning tabs: In progress · Saved · History · Notes, all local

@@ -66,6 +66,15 @@ export const FEEDBACK_URL: string = '';
  */
 export const OFFLINE_ALLOWED: boolean = false;
 
+/**
+ * P-14 (bulk 10 P4): the ONLY outside player — a KillerPlayer playlist, on a partner class page,
+ * after a tap. Learn builds the iframe address from the class's playlist UUID (strict uuid v4) and
+ * loads the helper script once; the team's pasted embed HTML is never used. Fixed constants (not
+ * env): public/_headers allows exactly this host in frame-src and script-src.
+ */
+export const KP_PLAYLIST_BASE = 'https://killerplayer.com/watch/video/playlist/' as const;
+export const KP_HELPER_SRC = 'https://killerplayer.com/watch/embed.js' as const;
+
 /** IndexedDB database name. Shared by all stores in this app. */
 export const DB_NAME = 'learn-app' as const;
 

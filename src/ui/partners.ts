@@ -77,7 +77,7 @@ export function partnerClassView(
   const rows = k.lessons.filter((l) => !f || l.title.includes(f) || String(l.num) === f);
   const sections: PartnerLesson[][] = [];
   for (let i = 0; i < rows.length; i += SECTION) sections.push(rows.slice(i, i + SECTION));
-  const row = (l: PartnerLesson): string => `<li><span class="plrow"><span class="n">${num(l.num, lang)}</span><span class="tt">${l.title.trim() ? esc(l.title) : `<span class="ph">${t('NO_TITLE', lang)}</span>`}</span></span></li>`;
+  const row = (l: PartnerLesson): string => `<li><span class="plrow" data-n="${l.num}"><span class="n">${num(l.num, lang)}</span><span class="tt">${l.title.trim() ? esc(l.title) : `<span class="ph">${t('NO_TITLE', lang)}</span>`}</span></span></li>`;
   const sectionsHtml = sections
     .map((s, i) => `<details class="sect" ${f || i === 0 ? 'open' : ''}><summary><span>${t('LESSON', lang)} ${num(s[0].num, lang)}–${num(s[s.length - 1].num, lang)}</span><span class="muted small">${num(s.length, lang)}</span></summary><ul class="les">${s.map(row).join('')}</ul></details>`)
     .join('') || `<div class="empty">${t('NOTHING', lang)}</div>`;

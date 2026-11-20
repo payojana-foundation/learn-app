@@ -98,7 +98,8 @@ describe('P-14 real data: video only from approved R2 entries, only when switche
       expect(!!cc.has_video).toBe(c.lessons.some((l) => !!l.video));
     }
   });
-  it('public/_headers still frames nothing', () => {
-    expect(readFileSync('public/_headers', 'utf-8')).toMatch(/frame-src 'none'/);
+  it('public/_headers frames no host but KillerPlayer (bulk 10 P4, change protected: P-14)', () => {
+    const csp = /Content-Security-Policy: (.*)/.exec(readFileSync('public/_headers', 'utf-8'))[1];
+    expect(csp).toBe("frame-src https://killerplayer.com; script-src 'self' https://killerplayer.com");
   });
 });
