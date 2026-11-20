@@ -1,22 +1,7 @@
 {
-  "generated": "2026-11-20T05:15:01.000Z",
+  "generated": "2026-11-20T08:50:23.000Z",
   "provisional": false,
   "courses": [
-    {
-      "id": "c001",
-      "provisional": false,
-      "title_km": "1-បរិច្ឆេទ ទី ៨",
-      "title_en": null,
-      "teacher": "លោកម្ចាស់គ្រូ ពុទ្ធិកាលង្ការ ផេង ឌីណា",
-      "teacher_slug": "peng-dina",
-      "topics": [],
-      "lesson_count": 57,
-      "media_kinds": [
-        "r2"
-      ],
-      "ongoing": false,
-      "all_shown": true
-    },
     {
       "id": "c006",
       "provisional": false,
@@ -471,7 +456,7 @@
     {
       "id": "c047",
       "provisional": false,
-      "title_km": "០០​​​​​​​​​ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃបើកថ្នាក់ដំបូង",
+      "title_km": "មេរៀនព្រះអភិធម្មថ្នាក់ដំបូង ឆ្នាំសិក្សា ២០២២",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង",
       "teacher_slug": "vinh-sovoeurng",
@@ -482,7 +467,10 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "០០​​​​​​​​​ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃបើកថ្នាក់ដំបូង"
+      ]
     },
     {
       "id": "c048",
@@ -744,21 +732,6 @@
       "ongoing": false,
       "all_shown": false,
       "has_video": true
-    },
-    {
-      "id": "c083",
-      "provisional": false,
-      "title_km": "3-បាលីប្រែលោតប្រយោគ បរិច្ឆេទ ទី",
-      "title_en": null,
-      "teacher": "លោកម្ចាស់គ្រូ ឡេង ស៊ីដែន",
-      "teacher_slug": "leng-sideoun",
-      "topics": [],
-      "lesson_count": 9,
-      "media_kinds": [
-        "r2"
-      ],
-      "ongoing": false,
-      "all_shown": true
     }
   ],
   "partners": [
