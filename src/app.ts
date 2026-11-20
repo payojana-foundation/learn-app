@@ -22,6 +22,7 @@ import {
   getAliasesFile,
   getPathsFile,
   getGuideLinesFile,
+  getPartnerClass,
   type Catalog,
   type Course,
   type Lesson,
@@ -49,6 +50,8 @@ import {
 import { renderVersionLabel } from './version-label';
 import { createPlayer, setMediaMetadata, mediaUrl, SPEEDS, SLEEP_OPTIONS, type PlayerHandle } from './audio/player';
 import * as V from './ui/views';
+import * as P from './ui/partners';
+import { partnerData, partnerTeacherSlugs, classSearchTexts, EMPTY_PARTNERS, type PartnerData, type PartnerClassFile } from './data/partners';
 import { carryPosition } from './audio/carry';
 import { devLog } from './devlog';
 
@@ -89,6 +92,9 @@ let guideFile: Awaited<ReturnType<typeof getGuideLinesFile>> = null;
 let guideDraft = false;
 const teacherBySlug = new Map<string, Teacher>();
 const courseCache = new Map<string, Course>();
+/** Bulk 10: partner classes (empty unless the build served them: partners switch on). */
+let partners: PartnerData = EMPTY_PARTNERS;
+const partnerCache = new Map<string, PartnerClassFile>();
 let cur: { courseId: string; lessonId: string } | null = null;
 let player: PlayerHandle | null = null;
 /** The one lesson <video> (Watch). Kept outside main.innerHTML so re-renders re-attach it. */
@@ -104,8 +110,10 @@ function $(sel: string): HTMLElement | null {
 
 async function loadBase(): Promise<void> {
   catalog = await getCatalog();
+  partners = partnerData(catalog);
   const tf = await getTeachersFile();
-  const withCourse = new Set((catalog?.courses ?? []).map((c) => c.teacher_slug));
+  // P-07: a teacher page exists for a teacher with a shown own course or a served partner class.
+  const withCourse = new Set([...(catalog?.courses ?? []).map((c) => c.teacher_slug), ...partnerTeacherSlugs(partners)]);
   teachers = (tf?.teachers ?? []).filter((tc) => !catalog || withCourse.has(tc.slug));
   teacherBySlug.clear();
   for (const tc of teachers) teacherBySlug.set(tc.slug, tc);
@@ -153,6 +161,25 @@ async function course(id: string): Promise<Course | null> {
   const c = await getCourse(id);
   if (c) courseCache.set(id, c);
   return c;
+}
+
+/** A served partner class file (hash-verified), or null (not served / bad shape). */
+async function partnerClass(id: string): Promise<PartnerClassFile | null> {
+  if (!partners.courses.some((k) => k.id === id)) return null;
+  if (partnerCache.has(id)) return partnerCache.get(id)!;
+  const k = await getPartnerClass(id);
+  if (k) partnerCache.set(id, k);
+  return k;
+}
+
+/** Partner "started / done" per class (P4); {} until then. */
+async function partnerProgressMap(): Promise<Record<string, P.PartnerProgress>> {
+  return {};
+}
+
+/** What the class page shows where the player goes (P4 adds the player). */
+function partnerPlayerState(_k: PartnerClassFile): 'none' | 'cover' | 'frame' | 'offline' {
+  return 'none';
 }
 
 async function progressMap(ids: string[]): Promise<V.ProgressMap> {
@@ -266,8 +293,20 @@ async function render(): Promise<void> {
     else {
       const courses = catalog.courses.filter((c) => c.teacher_slug === route.slug);
       const prog = await catalogProgress();
-      html = V.teacherView(tc, courses, teacherBySlug, prog, state.lang);
+      const pk = partners.courses.filter((k) => k.teacher_slugs.includes(route.slug));
+      const partnerHtml = pk.length ? P.teacherPartnerSection(pk, teacherBySlug, state.lang, await partnerProgressMap()) : '';
+      html = V.teacherView(tc, courses, teacherBySlug, prog, state.lang, partnerHtml);
     }
+  } else if (route.name === 'partners') {
+    html = partners.partners.length ? P.partnersView(partners, teacherBySlug, state.lang) : V.notFoundView(state.lang);
+  } else if (route.name === 'partner') {
+    const p = partners.partners.find((x) => x.slug === route.slug);
+    html = p ? P.partnerView(p, partners, teacherBySlug, state.lang, await partnerProgressMap()) : V.notFoundView(state.lang);
+  } else if (route.name === 'partnerClass') {
+    const p = partners.partners.find((x) => x.slug === route.slug);
+    const k = p ? await partnerClass(route.classId) : null;
+    if (!p || !k || k.partner_slug !== p.slug) html = V.notFoundView(state.lang);
+    else html = P.partnerClassView(k, p, teacherBySlug, state.lang, state.courseFilter, (await partnerProgressMap())[k.id], partnerPlayerState(k));
   } else if (route.name === 'search') {
     html = await renderSearch(route.q);
   } else if (route.name === 'my') {
@@ -313,7 +352,12 @@ async function renderSearch(q: string): Promise<string> {
       if (lessonHits.length >= 40) break;
     }
   }
-  return V.searchView(q, catalog, courseBundles, teacherHits, lessonHits, teacherBySlug, state.lang);
+  // Bulk 10 P3: partner classes by title or teaching points (P-16: the same cleaned substring).
+  const partnerHits = cq ? partners.courses.filter((k) => searchable(classSearchTexts(k, partners.terms)).includes(cq)) : [];
+  return V.searchView(q, catalog, courseBundles, teacherHits, lessonHits, teacherBySlug, state.lang, {
+    count: partnerHits.length,
+    html: (hl) => P.partnerSearchHits(partnerHits, teacherBySlug, state.lang, hl),
+  });
 }
 
 /** /my: leaves, then buds (started = in catalogue, no leaf, >= 1 lesson done), derived now. */
@@ -546,6 +590,9 @@ function wireEvents(): void {
         case 'teacher': return navigate({ name: 'teacher', slug: d.slug! });
         case 'course': return navigate({ name: 'course', id: d.id! });
         case 'lesson': return navigate({ name: 'lesson', id: d.id!, lessonId: d.lesson! });
+        case 'partners': return navigate({ name: 'partners' });
+        case 'partner': return navigate({ name: 'partner', slug: d.slug! });
+        case 'pclass': return navigate({ name: 'partnerClass', slug: d.slug!, classId: d.id! });
       }
     }
     if (d.handoff != null) {

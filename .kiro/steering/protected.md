@@ -59,10 +59,18 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   `?topic=` → home with the chip pre-selected ONLY when at least one course in
   the catalog has topics; with no topics the topic chips are hidden and
   `?topic=` is ignored (the master sheet has no topic column). Teacher pages and
-  the teacher list exist only for teachers with at least one shown course.
+  the teacher list exist only for teachers with at least one shown course OR one
+  served partner class. PARTNER routes (bulk 10 P3): `/partners`, `/partners/<slug>`,
+  `/partners/<slug>/<classId>` (class id `yt-pl-<playlist_id>`); a partner page exists
+  only for a partner with at least one served class, a class page only for a served class
+  of that partner; with no partner data (partners switch off) all three show "not found";
+  they map to the Home tab.
   `parseRoute`, `src/router.ts`; `homeView`, `src/ui/views.ts`; `loadBase`,
-  `startApp`, `src/app.ts`. Contract: `src/ui/views.lesson.test.ts` "topic chips".
-  [from part P4; changed in bulk 09, change protected: P-07]
+  `startApp`, `src/app.ts`; `src/ui/partners.ts`. Contract: `src/ui/views.lesson.test.ts`
+  "topic chips", `src/contracts/__tests__/partner-ui.contract.test.ts` "P-07 partner routes",
+  `e2e/partners.e2e.mjs`.
+  [from part P4; changed in bulk 09, change protected: P-07; partner routes bulk 10 P3,
+  change protected: P-07]
 - **P-08** The lesson URL uses the lesson **id**, not the num:
   `/courses/<id>/<lessonId>` (duplicate nums share a num but have distinct ids,
   P3 "b"). `routePath`, `src/router.ts`; progress/history/notes key on lesson
@@ -81,7 +89,12 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
 - **P-11** Course page: progress bar + %, Start/Continue button, ticks per
   lesson, lessons in sections of 20, a find-in-course box (substring on the
   stored title or exact num), Save and Share (Share copies the page URL).
-  `courseView`, `src/ui/views.ts`. [from part P4]
+  `courseView`, `src/ui/views.ts`. PARTNER class pages (bulk 10, coordinator 19 Nov) are
+  exempt: no progress bar, no percent, no ticks, no per-lesson links, no leaf or bud; the lesson
+  titles in sections of 20 with the same find-in-course box; "started" after the first play tap
+  and a "mark class done" toggle (P4). Own course pages unchanged. `partnerClassView`,
+  `src/ui/partners.ts`. Contract: `src/contracts/__tests__/partner-ui.contract.test.ts` "P-11".
+  [from part P4; partner exemption bulk 10, change protected: P-11]
 
 ## r2 audio player (P4)
 

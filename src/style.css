@@ -256,3 +256,13 @@ mark { background: var(--hl); color: inherit; }
 /* Start here leaf mark (bulk-06): leaf sign only, 16 px, no text. */
 .gmark { display: inline-block; width: 16px; height: 16px; vertical-align: -2px; margin-inline-end: 6px; }
 .gmark svg { display: block; width: 100%; height: 100%; }
+
+/* Bulk 10: partner YouTube classes (served only with the partners switch on). */
+.plabel { display: inline-flex; gap: 4px; align-items: center; color: var(--muted); overflow-wrap: anywhere; }
+.pcard.retired { opacity: 1; }
+.les .plrow { display: grid; grid-template-columns: 2.2rem minmax(0, 1fr); gap: 8px; align-items: center; padding: 9px 14px; }
+.pcover { width: 100%; aspect-ratio: 16 / 10; margin-top: 12px; border: 1px solid var(--line); border-radius: 8px; background: var(--panel); color: inherit; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 8px; padding: 16px; text-align: center; cursor: pointer; min-width: 0; }
+.pcover-t { overflow-wrap: anywhere; line-height: 1.5; }
+.pcover-p { font-size: 2.4rem; line-height: 1; }
+.pframe { width: 100%; aspect-ratio: 16 / 10; margin-top: 12px; border-radius: 8px; overflow: hidden; background: #000; }
+.pframe iframe { display: block; width: 100%; height: 100%; border: 0; }

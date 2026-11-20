@@ -16,6 +16,7 @@ import { loadFile } from './loader';
 import { getDataFile } from '../db';
 import { isPathsFile, isGuideLinesFile, type PathsFile, type GuideLinesFile } from './companion';
 import { devLog } from '../devlog';
+import { CLASS_ID, isPartnerClassFile, type PartnerClassFile } from './partners';
 
 export interface CatalogCourse {
   id: string;
@@ -125,6 +126,16 @@ export function getTeachersFile(): Promise<Teachers | null> {
 }
 export function getCourse(id: string): Promise<Course | null> {
   return syncAndRead<Course>(id);
+}
+
+/**
+ * Bulk 10 P3: a partner class file (`partners/<id>.json`, manifest key = the class id), same
+ * hash-verified path as a course file. A file whose shape or id does not match reads as null.
+ */
+export async function getPartnerClass(id: string): Promise<PartnerClassFile | null> {
+  if (!CLASS_ID.test(id)) return null;
+  const v = await syncAndRead<unknown>(id);
+  return isPartnerClassFile(v, id) ? v : null;
 }
 
 /** The provisional→permanent id alias map (served public/data/aliases.json). */

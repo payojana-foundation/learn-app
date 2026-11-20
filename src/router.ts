@@ -10,6 +10,9 @@
  *   /courses/<id>/<lessonId>  lesson page
  *   /teachers                 teachers index
  *   /teachers/<slug>          teacher page
+ *   /partners                 partner list (bulk 10 P3; only with served partner classes)
+ *   /partners/<slug>          partner page
+ *   /partners/<slug>/<classId> partner class page (yt-pl-<playlist_id>)
  *
  * Legacy website params on /courses/ still work: ?teacher=<slug>, ?topic=<t>,
  * ?q=<text> are read and mapped to the new filters/search (docs/redirects.md).
@@ -27,6 +30,9 @@ export type Route =
   | { name: 'teacher'; slug: string }
   | { name: 'course'; id: string; topic?: string }
   | { name: 'lesson'; id: string; lessonId: string }
+  | { name: 'partners' }
+  | { name: 'partner'; slug: string }
+  | { name: 'partnerClass'; slug: string; classId: string }
   | { name: 'notfound' };
 
 export function parseRoute(pathname: string, search: string): Route {
@@ -44,6 +50,10 @@ export function parseRoute(pathname: string, search: string): Route {
       return { name: 'more' };
     case 'teachers':
       return parts[1] ? { name: 'teacher', slug: decodeURIComponent(parts[1]) } : { name: 'teachers' };
+    case 'partners':
+      if (!parts[1]) return { name: 'partners' };
+      if (parts[2]) return parts[3] ? { name: 'notfound' } : { name: 'partnerClass', slug: decodeURIComponent(parts[1]), classId: decodeURIComponent(parts[2]) };
+      return { name: 'partner', slug: decodeURIComponent(parts[1]) };
     case 'courses': {
       if (parts[1]) {
         if (parts[2]) return { name: 'lesson', id: parts[1], lessonId: decodeURIComponent(parts[2]) };
@@ -81,6 +91,12 @@ export function routePath(route: Route): string {
       return `/courses/${route.id}`;
     case 'lesson':
       return `/courses/${route.id}/${encodeURIComponent(route.lessonId)}`;
+    case 'partners':
+      return '/partners';
+    case 'partner':
+      return `/partners/${encodeURIComponent(route.slug)}`;
+    case 'partnerClass':
+      return `/partners/${encodeURIComponent(route.slug)}/${encodeURIComponent(route.classId)}`;
     default:
       return '/';
   }
@@ -91,5 +107,5 @@ export function tabForRoute(route: Route): 'home' | 'search' | 'my' | 'more' {
   if (route.name === 'search') return 'search';
   if (route.name === 'my') return 'my';
   if (route.name === 'more') return 'more';
-  return 'home'; // home, course, lesson, teacher(s), notfound
+  return 'home'; // home, course, lesson, teacher(s), partner(s), partner class, notfound
 }

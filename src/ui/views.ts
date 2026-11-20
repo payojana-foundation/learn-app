@@ -221,13 +221,18 @@ export function teacherView(
   courses: CatalogCourse[],
   teacherBySlug: Map<string, Teacher>,
   progress: ProgressMap,
-  lang: Lang
+  lang: Lang,
+  /** Bulk 10 P3: the teacher's served partner classes (src/ui/partners.ts), '' when none. */
+  partnerHtml = ''
 ): string {
   const bio = teacher.bio_km ? (lang === 'en' && teacher.bio_en ? teacher.bio_en : teacher.bio_km) : null;
+  const own = courses.length || !partnerHtml
+    ? `<section style="margin-top:20px"><div class="sechead"><h2>${t('COURSES', lang)}</h2><span class="muted small">${num(courses.length, lang)}</span></div>
+  <div class="cgrid">${courses.map((c) => courseCard(c, teacherBySlug.get(c.teacher_slug), progress, lang)).join('')}</div></section>`
+    : '';
   return `<div class="tprof">${teacher.photo ? `<img src="/data/${esc(teacher.photo)}" alt="">` : ''}<div><h1>${esc(teacher.name_km)}</h1>${teacher.name_en ? `<p class="muted" style="margin:0">${esc(teacher.name_en)}</p>` : ''}</div></div>
   ${bio ? `<div class="bio" style="margin-top:14px">${esc(bio)}</div>` : ''}
-  <section style="margin-top:20px"><div class="sechead"><h2>${t('COURSES', lang)}</h2><span class="muted small">${num(courses.length, lang)}</span></div>
-  <div class="cgrid">${courses.map((c) => courseCard(c, teacherBySlug.get(c.teacher_slug), progress, lang)).join('')}</div></section>`;
+  ${own}${partnerHtml}`;
 }
 
 export function searchView(
@@ -237,7 +242,9 @@ export function searchView(
   teachers: Teacher[],
   lessonHits: { course: CatalogCourse; lessonId: string; num: number; title: string }[],
   teacherBySlug: Map<string, Teacher>,
-  lang: Lang
+  lang: Lang,
+  /** Bulk 10 P3: partner class hits, drawn by src/ui/partners.ts with the same highlighter. */
+  partner: { count: number; html: (hl: (s: string) => string) => string } = { count: 0, html: () => '' }
 ): string {
   const cq = cleanForSearch(q.trim());
   let body = '';
@@ -246,12 +253,12 @@ export function searchView(
       const i = cleanForSearch(s).indexOf(cq);
       return i < 0 ? esc(s) : esc(s.slice(0, i)) + '<mark>' + esc(s.slice(i, i + cq.length)) + '</mark>' + esc(s.slice(i + cq.length));
     };
-    const total = courseBundles.length + teachers.length + lessonHits.length;
+    const total = courseBundles.length + teachers.length + lessonHits.length + partner.count;
     body = total
       ? `<p class="muted small">${num(total, lang)}${lessonHits.length >= 40 ? '+' : ''} ${t('RESULTS', lang)}</p>
         ${teachers.length ? `<section><div class="sechead"><h2>${t('TEACHERS', lang)}</h2></div><ul class="res">${teachers.map((tc) => `<li><button data-nav="teacher" data-slug="${esc(tc.slug)}">${hl(tc.name_km)}</button></li>`).join('')}</ul></section>` : ''}
         ${courseBundles.length ? `<section><div class="sechead"><h2>${t('COURSES', lang)}</h2></div><ul class="res">${courseBundles.map(({ course: c }) => `<li><button data-nav="course" data-id="${c.id}">${hl(lang === 'en' && c.title_en ? c.title_en : c.title_km)}<span class="muted small">${esc(teacherBySlug.get(c.teacher_slug)?.name_km ?? '')} · ${num(c.lesson_count, lang)} ${t('LESSONS', lang)}</span></button></li>`).join('')}</ul></section>` : ''}
-        ${lessonHits.length ? `<section><div class="sechead"><h2>${t('LESSONS', lang)}</h2></div><ul class="res">${lessonHits.map((h) => `<li><button data-nav="lesson" data-id="${h.course.id}" data-lesson="${esc(h.lessonId)}">${hl(h.title)}<span class="muted small">${esc(h.course.title_km)}</span></button></li>`).join('')}</ul></section>` : ''}`
+        ${lessonHits.length ? `<section><div class="sechead"><h2>${t('LESSONS', lang)}</h2></div><ul class="res">${lessonHits.map((h) => `<li><button data-nav="lesson" data-id="${h.course.id}" data-lesson="${esc(h.lessonId)}">${hl(h.title)}<span class="muted small">${esc(h.course.title_km)}</span></button></li>`).join('')}</ul></section>` : ''}${partner.count ? partner.html(hl) : ''}`
       : `<div class="empty stack"><span>${t('NO_RESULT', lang)}</span><span>${t('TRY_THIS', lang)}</span><div class="row" style="justify-content:center"><a class="btn ghost sm" data-handoff="vacana" target="_blank" rel="noopener">Vacana ↗</a><a class="btn ghost sm" data-handoff="library" target="_blank" rel="noopener">Library · បណ្ណាល័យ ↗</a></div></div>`;
   }
   void catalog;
@@ -273,7 +280,9 @@ export function myView(
   savedIds: string[],
   history: { courseId: string; lessonId: string; lessonNum: number; at: number }[],
   notes: { courseId: string; lessonId: string; lessonNum: number; atS: number; text: string }[],
-  companion?: CompanionCtx
+  companion?: CompanionCtx,
+  /** Bulk 10 P4: started, not-done partner class cards for "In progress" ('' = none). */
+  partnerInprog = ''
 ): string {
   const { lang } = state;
   const tabs: [MyTab, string][] = [
@@ -293,7 +302,7 @@ export function myView(
       const c = catalog.courses.find((x) => x.id === id);
       return c && pctOf(progress, c) < 100;
     });
-    b = ids.length ? `<div class="cgrid">${ids.map(card).join('')}</div>` : '';
+    b = ids.length || partnerInprog ? `<div class="cgrid">${ids.map(card).join('')}${partnerInprog}</div>` : '';
   } else if (tab === 'saved') {
     b = savedIds.length ? `<div class="cgrid">${savedIds.map(card).join('')}</div>` : '';
   } else if (tab === 'history') {

@@ -102,6 +102,16 @@ export const STRINGS = {
     km: 'ស្លឹកទាំងនេះរក្សាទុកតែនៅលើឧបករណ៍នេះប៉ុណ្ណោះ។ បើលុបទិន្នន័យកម្មវិធីរុករក ស្លឹកទាំងនេះនឹងបាត់។ ប្រើ {exportLabel} ដើម្បីរក្សាទុកច្បាប់ចម្លង។',
     en: 'These leaves are kept only on this device. Clearing your browser data removes them. Use {exportLabel} to keep a copy.',
   },
+  // Bulk 10 partner classes (YouTube). en from docs/specs/kiro-bulk-10-partner-courses.md where
+  // given; every km here is the placeholder "DRAFT – needs reviewer approval" (no Khmer invented).
+  PARTNERS: { km: 'DRAFT – needs reviewer approval', en: 'Partners' },
+  PARTNER_CLASSES: { km: 'DRAFT – needs reviewer approval', en: 'Partner classes' },
+  PARTNER_LABEL: { km: 'DRAFT – needs reviewer approval', en: 'from YouTube, needs internet' },
+  PARTNER_PLAY: { km: 'DRAFT – needs reviewer approval', en: 'Play the class' },
+  PARTNER_STARTED: { km: 'DRAFT – needs reviewer approval', en: 'Started' },
+  PARTNER_MARK_DONE: { km: 'DRAFT – needs reviewer approval', en: 'Mark class done' },
+  PARTNER_IS_DONE: { km: 'DRAFT – needs reviewer approval', en: 'Class done' },
+  PARTNER_RETIRED: { km: 'DRAFT – needs reviewer approval', en: 'No longer available' },
   // Service-worker update prompt (reliable updates).
   APP_UPDATE: {
     km: 'មានកំណែថ្មី។ ផ្ទុកឡើងវិញឥឡូវនេះ?',
