@@ -1,0 +1,277 @@
+{
+  "id": "yt-pl-PLgReA9MTfOkHlx3tVO1AiKs5mdLgdZiLj",
+  "kind": "partner",
+  "partner_slug": "dhammika-life",
+  "title": "Special dhamma",
+  "teacher_slugs": [
+    "sor-ratha"
+  ],
+  "playlist_uuid": "fb11e93c-4bac-4352-8c1a-89b5338336ba",
+  "teaching_points": [],
+  "lessons": [
+    {
+      "id": "yt-3J7iyKZuzIA",
+      "num": 1,
+      "title": "សេចក្តីគោរពដែលគួរធ្វើ",
+      "duration_s": 261
+    },
+    {
+      "id": "yt-tMqtVsFktZc",
+      "num": 2,
+      "title": "គួររៀនលះខ្លះ",
+      "duration_s": 652
+    },
+    {
+      "id": "yt-ffU57x-Ymd0",
+      "num": 3,
+      "title": "គួររៀនលះខ្លះ",
+      "duration_s": 652
+    },
+    {
+      "id": "yt-Q7ybbW2lN1g",
+      "num": 4,
+      "title": "គួររៀនលះខ្លះ",
+      "duration_s": 652
+    },
+    {
+      "id": "yt-gC9F3kJnf3c",
+      "num": 5,
+      "title": "សុទ្ធតែអ្នកមានជំងឺ",
+      "duration_s": 422
+    },
+    {
+      "id": "yt-qX5tp-oHWtE",
+      "num": 6,
+      "title": "ព្រះពុទ្ធសាសនាជាប្រាកដនិយម​",
+      "duration_s": 247
+    },
+    {
+      "id": "yt-LQwBEK4zYDw",
+      "num": 7,
+      "title": "Right Livelihood",
+      "duration_s": 430
+    },
+    {
+      "id": "yt-breSAm1d6jk",
+      "num": 8,
+      "title": "ទោសនៃការពិសាគ្រឿងស្រវឹង",
+      "duration_s": 669
+    },
+    {
+      "id": "yt-0DEOR7O2Dnc",
+      "num": 9,
+      "title": "សម្មាវាចា សម្តីត្រូវ",
+      "duration_s": 338
+    },
+    {
+      "id": "yt-n-ILQsb78Ts",
+      "num": 10,
+      "title": "រៀនរក្សាចិត្ត",
+      "duration_s": 416
+    },
+    {
+      "id": "yt-IYFuJBx8pUE",
+      "num": 11,
+      "title": "ឧបាយដើម្បីឲអស់នូវព្យាបាទ",
+      "duration_s": 631
+    },
+    {
+      "id": "yt-hVxqCaxOZvY",
+      "num": 12,
+      "title": "ចេតនាប្រកបដោយបញ្ញា",
+      "duration_s": 427
+    },
+    {
+      "id": "yt-WOS1JDmoD-8",
+      "num": 13,
+      "title": "អ្វីជាវិបស្សនា",
+      "duration_s": 387
+    },
+    {
+      "id": "yt-tqVxI7UMdTI",
+      "num": 14,
+      "title": "ប្រឹងដើរដោយខ្លូនឯឯ",
+      "duration_s": 402
+    },
+    {
+      "id": "yt-d0MyA0YBpEs",
+      "num": 15,
+      "title": "ព្រះនិពាន្វមិនមែនជាឋាន",
+      "duration_s": 276
+    },
+    {
+      "id": "yt-8yLNj5nnrVQ",
+      "num": 16,
+      "title": "អនុបុព្វវិហារសមាបត្តិ៩",
+      "duration_s": 255
+    },
+    {
+      "id": "yt-PMahef9uzM8",
+      "num": 17,
+      "title": "គុណវិបត្តិនៃការសេពសុរាទំាងពេលបច្ចុប្បន្ន &​អនាគតជាតិ",
+      "duration_s": 445
+    },
+    {
+      "id": "yt-09VQr5kD1E8",
+      "num": 18,
+      "title": "ម្ចាស់នៃចិត្ត",
+      "duration_s": 314
+    },
+    {
+      "id": "yt-3PyPyGVRNW4",
+      "num": 19,
+      "title": "សតិប្បដ្ឋាន",
+      "duration_s": 662
+    },
+    {
+      "id": "yt-ZeYCNDaDFwg",
+      "num": 20,
+      "title": "ចិត្តនិងបញ្ញា",
+      "duration_s": 347
+    },
+    {
+      "id": "yt-eOSoDPohIy8",
+      "num": 21,
+      "title": "ធម៌សម្រាប់អ្នកប្រាថ្នាសេចក្តីបរិសុទ្ធ",
+      "duration_s": 633
+    },
+    {
+      "id": "yt-M0PLa_7vvdo",
+      "num": 22,
+      "title": "របៀបរំលត់តណ្ហា",
+      "duration_s": 336
+    },
+    {
+      "id": "yt-hXjG_ZEq9Rg",
+      "num": 23,
+      "title": "What is Right Understanding?",
+      "duration_s": 532
+    },
+    {
+      "id": "yt-h2AWltjQvS4",
+      "num": 24,
+      "title": "គួរដកការប្រកាន់មាំ",
+      "duration_s": 399
+    },
+    {
+      "id": "yt-T9KrDXTOjZ0",
+      "num": 25,
+      "title": "មលិន្ទបញ្ហា ( ព្រាហ្មណរាជវាទបញ្ហា)​",
+      "duration_s": 462
+    },
+    {
+      "id": "yt-Lt4GpYpXNsA",
+      "num": 26,
+      "title": "ចេតនាប្រកបដោយបញ្ញា",
+      "duration_s": 427
+    },
+    {
+      "id": "yt-KCwjGnKkq0w",
+      "num": 27,
+      "title": "សម្រេចព្រះនិពាន្វតាមបដិច្ចសមុប្បាទ",
+      "duration_s": 795
+    },
+    {
+      "id": "yt-1V8whUgYdd0",
+      "num": 28,
+      "title": "ខ្លូនទីពឺងខ្លូន",
+      "duration_s": 477
+    },
+    {
+      "id": "yt-XbBnmFLzfkY",
+      "num": 29,
+      "title": "មលិន្ទបញ្ហា. មហាវគ្គ( វស្សគណនបញ្ហា )",
+      "duration_s": 347
+    },
+    {
+      "id": "yt-62-7k4BPTcs",
+      "num": 30,
+      "title": "ធម្មទូត ពុទ្ធសាសនា",
+      "duration_s": 1202
+    },
+    {
+      "id": "yt-0NejJRgQieM",
+      "num": 31,
+      "title": "គន្លឺះក្នុងចិត្តានុបស្សនា",
+      "duration_s": 737
+    },
+    {
+      "id": "yt-BjTXzbs2wGs",
+      "num": 32,
+      "title": "អាយុព្រះអរហន្តក្នុងភេទជាគ្រហស្ថ",
+      "duration_s": 636
+    },
+    {
+      "id": "yt-XMGV7tdeWVo",
+      "num": 33,
+      "title": "គាថាធម្មបទ​ ទី១ (ចិត្ត ជាប្រធាន)",
+      "duration_s": 410
+    },
+    {
+      "id": "yt-1-s3PA9J5tQ",
+      "num": 34,
+      "title": "ហេតុអ្វីយើងមានជាតិកំណើត?",
+      "duration_s": 461
+    },
+    {
+      "id": "yt-4-2jHMDFSb0",
+      "num": 35,
+      "title": "សេចក្តីសុខក្លែងក្លាយ",
+      "duration_s": 251
+    },
+    {
+      "id": "yt-x9sgsyCESZw",
+      "num": 36,
+      "title": "បព្វជ្ជបញ្ហា (មលិន្ទបញ្ហាករណ)",
+      "duration_s": 302
+    },
+    {
+      "id": "yt-4PFJ2bDoJ74",
+      "num": 37,
+      "title": "ការសូត្ររៀបរាប់អំពីបុណ្យអាសឡ្ហបូជា",
+      "duration_s": 348
+    },
+    {
+      "id": "yt-Vj1ZdcIfq5M",
+      "num": 38,
+      "title": "កើត&ស្លាប់រាល់ថ្ងៃ",
+      "duration_s": 381
+    },
+    {
+      "id": "yt-ueFt1cZzJ8A",
+      "num": 39,
+      "title": "ប្រសិនមានសតិក្នុងការសោយអារម្មណ៌",
+      "duration_s": 226
+    },
+    {
+      "id": "yt-sbuC3325Yms",
+      "num": 40,
+      "title": "ការមិនខឹង ជាកាដូសម្រាប់ខ្លូនឯឯ & ការឲ្យអភ័យជាកាដូសម្រាប់គេ",
+      "duration_s": 343
+    },
+    {
+      "id": "yt-HJs5XUaC_gw",
+      "num": 41,
+      "title": "What to do during a tough time?",
+      "duration_s": 1729
+    },
+    {
+      "id": "yt-FOWSuZbk_v0",
+      "num": 42,
+      "title": "Kathina Dāna ~Buddhist Robe Offering Ceremony",
+      "duration_s": 592
+    },
+    {
+      "id": "yt-vIE4NBZOkB4",
+      "num": 43,
+      "title": "Buth Savong | តាំងមេត្តាចិត្ត | ប៊ុត សាវង្ស 2022",
+      "duration_s": 3453
+    },
+    {
+      "id": "yt-67SBxRxIHFc",
+      "num": 44,
+      "title": "Vīriyasampojjhańga (Endeavor) | វីរិយសម្ពោជ្ឈង្គ #DAI",
+      "duration_s": 5164
+    }
+  ]
+}

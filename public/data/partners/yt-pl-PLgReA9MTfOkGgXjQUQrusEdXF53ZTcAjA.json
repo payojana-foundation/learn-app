@@ -1,0 +1,265 @@
+{
+  "id": "yt-pl-PLgReA9MTfOkGgXjQUQrusEdXF53ZTcAjA",
+  "kind": "partner",
+  "partner_slug": "dhammika-life",
+  "title": "What The buddha taught (live)",
+  "teacher_slugs": [
+    "sor-ratha"
+  ],
+  "playlist_uuid": "4567c8a9-3443-4609-8c41-6e72a9459c2d",
+  "teaching_points": [],
+  "lessons": [
+    {
+      "id": "yt-nHGLBKVM8So",
+      "num": 1,
+      "title": "Pali Alphabet",
+      "duration_s": 4429
+    },
+    {
+      "id": "yt-jcUl_2ajDgE",
+      "num": 2,
+      "title": "Introduction To Buddhism",
+      "duration_s": 4121
+    },
+    {
+      "id": "yt-fYIIRPj2G6E",
+      "num": 3,
+      "title": "What Is a Religion?",
+      "duration_s": 3738
+    },
+    {
+      "id": "yt-0cmvs2RhT2w",
+      "num": 4,
+      "title": "Buddhism in English (Day-5)",
+      "duration_s": 3442
+    },
+    {
+      "id": "yt-Gt-UFgh0QWY",
+      "num": 5,
+      "title": "The Buddha (Enlightened one)",
+      "duration_s": 3798
+    },
+    {
+      "id": "yt-sA2ccqu4vX0",
+      "num": 6,
+      "title": "បង្វិលកង​នៃព្រះធម៌",
+      "duration_s": 3999
+    },
+    {
+      "id": "yt-guxaReLBWiI",
+      "num": 7,
+      "title": "Exercise",
+      "duration_s": 4239
+    },
+    {
+      "id": "yt-aCqnt-J1xII",
+      "num": 8,
+      "title": "Peace Of Mind",
+      "duration_s": 3624
+    },
+    {
+      "id": "yt-BI81aS2E9rs",
+      "num": 9,
+      "title": "Four Types Of Agony",
+      "duration_s": 4145
+    },
+    {
+      "id": "yt-uyrHJQR499o",
+      "num": 10,
+      "title": "Buddhism In English Day 11",
+      "duration_s": 3802
+    },
+    {
+      "id": "yt-hc5U2_9u7UQ",
+      "num": 11,
+      "title": "Defilement",
+      "duration_s": 4040
+    },
+    {
+      "id": "yt-7MfSAyL-Ny4",
+      "num": 12,
+      "title": "Five Hindrances",
+      "duration_s": 4595
+    },
+    {
+      "id": "yt-Zvz57K1FBSQ",
+      "num": 13,
+      "title": "The Noble Eightfold Path",
+      "duration_s": 3878
+    },
+    {
+      "id": "yt-G5-hU053tnI",
+      "num": 14,
+      "title": "THREE MARKS OF EXISTENCE",
+      "duration_s": 3903
+    },
+    {
+      "id": "yt-l59gqDuC5-g",
+      "num": 15,
+      "title": "Right Thought",
+      "duration_s": 3900
+    },
+    {
+      "id": "yt-HUwsuaWaC1I",
+      "num": 16,
+      "title": "Right Speech",
+      "duration_s": 4184
+    },
+    {
+      "id": "yt-Eo9UNmvaeRg",
+      "num": 17,
+      "title": "Five Precepts",
+      "duration_s": 4292
+    },
+    {
+      "id": "yt-rTGmZgN0lyk",
+      "num": 18,
+      "title": "Right Livelihood",
+      "duration_s": 4398
+    },
+    {
+      "id": "yt-KKuz8A0Trzw",
+      "num": 19,
+      "title": "Compassion & Wisdom",
+      "duration_s": 3758
+    },
+    {
+      "id": "yt-cZC31QbuvWw",
+      "num": 20,
+      "title": "Four Right Exertions",
+      "duration_s": 3805
+    },
+    {
+      "id": "yt-WakUMGcT5mU",
+      "num": 21,
+      "title": "Right Mindfulness",
+      "duration_s": 794
+    },
+    {
+      "id": "yt-5S3kXBX58S4",
+      "num": 22,
+      "title": "Four Foundations of Mindfulness",
+      "duration_s": 4881
+    },
+    {
+      "id": "yt-0Ui_gGeRwRI",
+      "num": 23,
+      "title": "Vipassanā (insight)",
+      "duration_s": 1766
+    },
+    {
+      "id": "yt-yeEMoMdrEVU",
+      "num": 24,
+      "title": "What Does Vipassanā Mean?",
+      "duration_s": 3977
+    },
+    {
+      "id": "yt-zFGzyblZHio",
+      "num": 25,
+      "title": "ត្រៃសិក្ខា",
+      "duration_s": 3551
+    },
+    {
+      "id": "yt-chk5Xywj7Vg",
+      "num": 26,
+      "title": "Five Moral Precepts",
+      "duration_s": 3958
+    },
+    {
+      "id": "yt-OP325aYc6v8",
+      "num": 27,
+      "title": "Sexual Misconduct",
+      "duration_s": 3344
+    },
+    {
+      "id": "yt-0Km6FXwX5hU",
+      "num": 28,
+      "title": "Summary of Five Precepts",
+      "duration_s": 3726
+    },
+    {
+      "id": "yt-uffAsXEqviE",
+      "num": 29,
+      "title": "Kamma",
+      "duration_s": 3465
+    },
+    {
+      "id": "yt-ff6MeKy34yE",
+      "num": 30,
+      "title": "Rebirth",
+      "duration_s": 3727
+    },
+    {
+      "id": "yt-sbgwDLysXEg",
+      "num": 31,
+      "title": "Rebirth Continue",
+      "duration_s": 4647
+    },
+    {
+      "id": "yt-F9yuW6Lr8Pc",
+      "num": 32,
+      "title": "Craving -Taṇhā",
+      "duration_s": 3273
+    },
+    {
+      "id": "yt-qp4QFuDTtEU",
+      "num": 33,
+      "title": "Dependent Origination",
+      "duration_s": 4262
+    },
+    {
+      "id": "yt-4sCM-MltQkk",
+      "num": 34,
+      "title": "Dependent Origination Continue",
+      "duration_s": 4927
+    },
+    {
+      "id": "yt-RxO0IdrjadA",
+      "num": 35,
+      "title": "Lesson: Dependent Origination Continue Day-44",
+      "duration_s": 4833
+    },
+    {
+      "id": "yt-up9B_vHrrLw",
+      "num": 36,
+      "title": "REVIEW",
+      "duration_s": 3987
+    },
+    {
+      "id": "yt-LVj0gOO8u-0",
+      "num": 37,
+      "title": "Lesson: Nibbāna",
+      "duration_s": 3390
+    },
+    {
+      "id": "yt-QpUhxQXBKXM",
+      "num": 38,
+      "title": "Dependent Origination Day 39",
+      "duration_s": 3273
+    },
+    {
+      "id": "yt--w0p4fVRIQA",
+      "num": 39,
+      "title": "Dependent Origination Day 42",
+      "duration_s": 4143
+    },
+    {
+      "id": "yt-FjNjwm95Cl8",
+      "num": 40,
+      "title": "ប្រវត្តិធម្មបទមានប្រភពពីណា? The Background of Dhammapada",
+      "duration_s": 2861
+    },
+    {
+      "id": "yt-LX_vse4VqXQ",
+      "num": 41,
+      "title": "The first exclamation of buddha upon his enlightenment",
+      "duration_s": 4476
+    },
+    {
+      "id": "yt-5j8Ug9jnWjc",
+      "num": 42,
+      "title": "Paticcasamuppāda (Day44)",
+      "duration_s": 4178
+    }
+  ]
+}

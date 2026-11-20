@@ -1,5 +1,5 @@
 {
-  "generated": "2026-11-20T05:07:59.000Z",
+  "generated": "2026-11-20T05:15:01.000Z",
   "provisional": false,
   "courses": [
     {
@@ -760,5 +760,108 @@
       "ongoing": false,
       "all_shown": true
     }
-  ]
+  ],
+  "partners": [
+    {
+      "slug": "dhammika-life",
+      "name_km": "មូលនិធិធម្មិកជីវិត",
+      "name_en": "Dhammika Life Foundation",
+      "teacher_slugs": [
+        "sor-ratha"
+      ],
+      "course_ids": [
+        "yt-pl-PLf2gJv-hr4gI",
+        "yt-pl-PLgReA9MTfOkFeG34I3dUgq2GpyXJIeugS",
+        "yt-pl-PLgReA9MTfOkGVhjD4ayIsfOSYjf39gnub",
+        "yt-pl-PLgReA9MTfOkHlx3tVO1AiKs5mdLgdZiLj",
+        "yt-pl-PLgReA9MTfOkGgXjQUQrusEdXF53ZTcAjA",
+        "yt-pl-PLgReA9MTfOkGO4fDv8rvLaFUjeKnEsPUm",
+        "yt-pl-PLgReA9MTfOkF8l6Wpmhe6hc9Q0rj_Quz0"
+      ]
+    }
+  ],
+  "partner_courses": [
+    {
+      "id": "yt-pl-PLf2gJv-hr4gI",
+      "kind": "partner",
+      "partner_slug": "dhammika-life",
+      "title": "Pațiccasamuppāda —Dependent Origination (Mogok Sayadaw)",
+      "teacher_slugs": [
+        "sor-ratha"
+      ],
+      "lesson_count": 17,
+      "teaching_points": []
+    },
+    {
+      "id": "yt-pl-PLgReA9MTfOkFeG34I3dUgq2GpyXJIeugS",
+      "kind": "partner",
+      "partner_slug": "dhammika-life",
+      "title": "The Buddha and His Teachings",
+      "teacher_slugs": [
+        "sor-ratha"
+      ],
+      "lesson_count": 29,
+      "teaching_points": []
+    },
+    {
+      "id": "yt-pl-PLgReA9MTfOkGVhjD4ayIsfOSYjf39gnub",
+      "kind": "partner",
+      "partner_slug": "dhammika-life",
+      "title": "Life of the Buddha",
+      "teacher_slugs": [
+        "sor-ratha"
+      ],
+      "lesson_count": 47,
+      "teaching_points": []
+    },
+    {
+      "id": "yt-pl-PLgReA9MTfOkHlx3tVO1AiKs5mdLgdZiLj",
+      "kind": "partner",
+      "partner_slug": "dhammika-life",
+      "title": "Special dhamma",
+      "teacher_slugs": [
+        "sor-ratha"
+      ],
+      "lesson_count": 44,
+      "teaching_points": []
+    },
+    {
+      "id": "yt-pl-PLgReA9MTfOkGgXjQUQrusEdXF53ZTcAjA",
+      "kind": "partner",
+      "partner_slug": "dhammika-life",
+      "title": "What The buddha taught (live)",
+      "teacher_slugs": [
+        "sor-ratha"
+      ],
+      "lesson_count": 42,
+      "teaching_points": []
+    },
+    {
+      "id": "yt-pl-PLgReA9MTfOkGO4fDv8rvLaFUjeKnEsPUm",
+      "kind": "partner",
+      "partner_slug": "dhammika-life",
+      "title": "What The Buddha Taught",
+      "teacher_slugs": [
+        "sor-ratha"
+      ],
+      "lesson_count": 18,
+      "teaching_points": []
+    },
+    {
+      "id": "yt-pl-PLgReA9MTfOkF8l6Wpmhe6hc9Q0rj_Quz0",
+      "kind": "partner",
+      "partner_slug": "dhammika-life",
+      "title": "The Buddha, His life & Teachings",
+      "teacher_slugs": [
+        "sor-ratha"
+      ],
+      "lesson_count": 29,
+      "teaching_points": []
+    }
+  ],
+  "partner_terms": [],
+  "partner_retired": {
+    "courses": {},
+    "lessons": {}
+  }
 }
