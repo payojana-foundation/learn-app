@@ -1,0 +1,9 @@
+{
+  "_doc": "Old titles kept as search aliases after a rename (scripts/master/renames.mjs): courses by course_id, lessons by row_key. Byte-exact.",
+  "courses": {
+    "c047": [
+      "០០​​​​​​​​​ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃបើកថ្នាក់ដំបូង"
+    ]
+  },
+  "lessons": {}
+}
