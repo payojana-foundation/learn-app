@@ -1,0 +1,76 @@
+name: master-teaching-points
+
+# Bulk 10 P2b — the master sheet tab "Teaching points" (data/master/teaching-points.json;
+# scripts/master/teaching-points.mjs). Hourly + manual:
+#   1. plan: create the tab once (header, frozen row, approved_by dropdown, term_id protected:
+#      service account only); give a term_id to every new term; the id registry
+#      (data/master/term-ids.json) is committed FIRST, so an id is never given twice.
+#   2. write the term_id cells (nothing else is written; Lessons and Courses are not touched).
+
+on:
+  schedule:
+    - cron: "37 * * * *"
+  workflow_dispatch:
+    inputs:
+      sheet_id:
+        description: "Google Sheet id of the master content sheet"
+        required: false
+        default: "12MOXAOHwwtKa6DFVwbfRMj8UtaKmN1758boN1EUKNZs"
+
+permissions:
+  contents: write
+  id-token: write
+
+concurrency:
+  group: data-rebuild-main
+  cancel-in-progress: false
+
+env:
+  SHEET_ID: ${{ inputs.sheet_id || '12MOXAOHwwtKa6DFVwbfRMj8UtaKmN1758boN1EUKNZs' }}
+
+jobs:
+  terms:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Check out main
+        uses: actions/checkout@v5
+        with:
+          ref: main
+
+      - name: Set up Node
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .node-version
+
+      - name: Authenticate to Google Cloud (Sheets)
+        id: auth
+        uses: google-github-actions/auth@v2
+        with:
+          workload_identity_provider: ${{ vars.GCP_WIF_PROVIDER }}
+          service_account: ${{ vars.GCP_SERVICE_ACCOUNT }}
+          token_format: access_token
+          access_token_scopes: https://www.googleapis.com/auth/spreadsheets
+
+      - name: Plan (create the tab once, new term ids)
+        id: plan
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+          SA_EMAIL: ${{ vars.GCP_SERVICE_ACCOUNT }}
+        run: node scripts/master/teaching-points.mjs plan --sheet-id "$SHEET_ID"
+
+      - name: Commit the id registry first
+        if: ${{ steps.plan.outputs.changed == 'true' }}
+        run: |
+          set -euo pipefail
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/master/term-ids.json
+          git commit -m "master sheet: teaching point ids"
+          bash scripts/ci/push-with-retry.sh origin main
+
+      - name: Write the term_id cells
+        if: ${{ steps.plan.outputs.cells != '0' }}
+        env:
+          ACCESS_TOKEN: ${{ steps.auth.outputs.access_token }}
+        run: node scripts/master/teaching-points.mjs write --sheet-id "$SHEET_ID"

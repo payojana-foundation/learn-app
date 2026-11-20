@@ -1,0 +1,15 @@
+{
+  "doc": "Bulk 10 P2b (19 Nov): schema of the master sheet tab \"Teaching points\" (sibling of columns.json; Lessons/Courses are not changed). Created once at the END of the tab list by .github/workflows/master-teaching-points.yml (scripts/master/teaching-points.mjs), which also gives every new term a term_id. SYSTEM = written by the job, protected (editor: the service account only); TEAM = the team edits it. The partner sheet tab \"Terms (copy)\" carries term_id, term_km, term_pali, term_en, other_spellings.",
+  "tab": "Teaching points",
+  "id_format": "T + 4 digits (T0001, T0002, ...): given in sheet order to a row with a term and no term_id; never reused (data/master/term-ids.json keeps every id ever given).",
+  "columns": [
+    { "key": "term_id", "owner": "SYSTEM", "protected": true, "dropdown": null, "source": "Stable id, never reused. Given by the job to a row that has term_km, term_pali or term_en and no term_id." },
+    { "key": "term_km", "owner": "TEAM", "protected": false, "dropdown": null, "source": "The teaching point in Khmer, exactly as typed." },
+    { "key": "term_pali", "owner": "TEAM", "protected": false, "dropdown": null, "source": "Pāḷi form, exactly as typed." },
+    { "key": "term_en", "owner": "TEAM", "protected": false, "dropdown": null, "source": "English form, exactly as typed." },
+    { "key": "other_spellings", "owner": "TEAM", "protected": false, "dropdown": null, "source": "Other spellings, separated by ;" },
+    { "key": "approved_by", "owner": "TEAM", "protected": false, "dropdown": ["Renovann", "Chansy"], "source": "Who approved the term." },
+    { "key": "approved_at", "owner": "TEAM", "protected": false, "dropdown": null, "source": "Date of approval." },
+    { "key": "notes", "owner": "TEAM", "protected": false, "dropdown": null, "source": "Free notes; never read by any job." }
+  ]
+}
