@@ -321,7 +321,7 @@ async function render(): Promise<void> {
   if (route.name === 'home') {
     const prog = await catalogProgress();
     const hist = (await listHistory()).map((h) => ({ courseId: h.courseId, lessonId: h.lessonId, lessonNum: h.lessonNum }));
-    html = V.homeView(catalog, teachers, teacherBySlug, prog, viewState(savedIds), startHereIds, hist, companionCtx({ leafIds: new Set((await listLeaves()).map((l) => l.course_id)) }));
+    html = V.homeView(catalog, teachers, teacherBySlug, prog, viewState(savedIds), startHereIds, hist, companionCtx({ leafIds: new Set((await listLeaves()).map((l) => l.course_id)) }), P.homePartnerSection(partners, state.lang));
   } else if (route.name === 'course') {
     const c = await course(route.id);
     if (!c) html = V.notFoundView(state.lang);

@@ -199,7 +199,11 @@ Contract tests for these lines live in `src/contracts/__tests__/`.
   (`data/partners/released-ids.json`, `retired.json`), never dropped. Served ONLY when
   `data/partners-switch.json` is `{"enabled": true}` (written from the repo variable
   `PARTNERS_ENABLED`): then catalog.json gains `partners`/`partner_courses`/`partner_terms`/
-  `partner_retired` and `public/data/partners/<id>.json`; off = served data unchanged.
+  `partner_retired` and `public/data/partners/<id>.json`; off = served data unchanged. The
+  committed switch may be on or off; the contract checks only its shape and that the served data
+  follows it, and the e2e builds its own on/off states (change protected: P-19, 20 Nov). With
+  partners served, Home shows a Partners row linking `/partners` (`homePartnerSection`,
+  `src/ui/partners.ts`).
   `buildPartners`/`kpPlaylistUuid`/`retirePlan`, `scripts/partners/build-partners.mjs`;
   `scripts/build-courses.mjs` main.
   `shownRows`/`buildFromMaster`/`approvedIdGuard`, `scripts/build-courses.mjs`; `linkChanges`,

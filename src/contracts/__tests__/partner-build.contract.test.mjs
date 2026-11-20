@@ -134,8 +134,16 @@ describe('partners switch: the real build on a temp copy (off = served data unch
   if (existsSync('data/ops/removals.json')) { mkdirSync(join(tmp, 'data', 'ops'), { recursive: true }); cpSync('data/ops/removals.json', join(tmp, 'data', 'ops', 'removals.json')); }
   const build = () => spawnSync(process.execPath, [join(tmp, 'scripts', 'build-courses.mjs')], { cwd: tmp, encoding: 'utf-8', env: { ...process.env, SOURCE_DATE_EPOCH: '1763500000' } });
   const snap = () => Object.fromEntries(['catalog.json', 'manifest.json'].map((f) => [f, readFileSync(join(tmp, 'public', 'data', f), 'utf-8')]));
-  it('switch file is committed off', () => {
-    expect(JSON.parse(readFileSync('data/partners-switch.json', 'utf-8'))).toEqual({ enabled: false });
+  it('switch file is {"enabled": true|false} (follows the repo variable PARTNERS_ENABLED; change protected: P-19)', () => {
+    const sw = JSON.parse(readFileSync('data/partners-switch.json', 'utf-8'));
+    expect(Object.keys(sw)).toEqual(['enabled']);
+    expect(typeof sw.enabled).toBe('boolean');
+  });
+  it('the served data follows the committed switch: on = partner keys + files, off = none', () => {
+    const on = JSON.parse(readFileSync('data/partners-switch.json', 'utf-8')).enabled;
+    const cat = JSON.parse(readFileSync('public/data/catalog.json', 'utf-8'));
+    expect('partner_courses' in cat).toBe(on);
+    expect(existsSync('public/data/partners') && readdirSync('public/data/partners').length > 0).toBe(on);
   });
   it('off: no partner keys, no partner files; on: catalog partner entries + hashed files; off again: back to the off output', () => {
     writeFileSync(join(tmp, 'data', 'partners-switch.json'), '{\n  "enabled": false\n}\n');

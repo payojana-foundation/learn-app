@@ -54,7 +54,22 @@ const PFILE = {
 
 async function install(context, on) {
   const realCatalog = await (await fetch(`${BASE}/data/catalog.json`)).json();
-  if (!on) return { realCatalog };
+  if (!on) {
+    // OFF = the data as the build makes it with the switch off (change protected: P-19): the real
+    // catalog without partner keys, the manifest without partner files; hashes kept honest (P-01).
+    for (const k of ['partners', 'partner_courses', 'partner_terms', 'partner_retired']) delete realCatalog[k];
+    const offBody = JSON.stringify(realCatalog, null, 2) + '\n';
+    await context.route('**/data/manifest.json*', async (route) => {
+      const res = await route.fetch();
+      const m = await res.json();
+      m.files.catalog.sha256 = sha256(Buffer.from(offBody, 'utf-8'));
+      for (const [k, f] of Object.entries(m.files)) if (String(f.file).startsWith('partners/')) delete m.files[k];
+      await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(m) });
+    });
+    await context.route('**/data/catalog.json*', (r) => r.fulfill({ status: 200, contentType: 'application/json', body: offBody }));
+    return { realCatalog };
+  }
+  for (const k of ['partners', 'partner_courses', 'partner_terms', 'partner_retired']) delete realCatalog[k]; // ON: only the e2e placeholder partner
   realCatalog.partners = [{ slug: 'e2e-partner', name_km: 'e2e partner km', name_en: 'e2e partner en', teacher_slugs: [TEACHER], course_ids: [CID] }];
   realCatalog.partner_courses = [PCLASS];
   realCatalog.partner_terms = [{ term_id: 'E2E1', term_km: 'e2eterm', term_pali: 'e2epali', term_en: 'e2eenglish', other_spellings: ['e2ealt'] }];
@@ -65,6 +80,7 @@ async function install(context, on) {
     const res = await route.fetch();
     const m = await res.json();
     m.files.catalog.sha256 = sha256(Buffer.from(catBody, 'utf-8'));
+    for (const [k, f] of Object.entries(m.files)) if (String(f.file).startsWith('partners/')) delete m.files[k];
     m.files[CID] = { file: `partners/${CID}.json`, updated: m.generated, sha256: sha256(Buffer.from(fileBody, 'utf-8')) };
     await route.fulfill({ status: 200, contentType: 'application/json', body: JSON.stringify(m) });
   });
@@ -105,6 +121,14 @@ async function run() {
       await page.goto(`${BASE}/${q}`, { waitUntil: 'networkidle' });
       check((await page.locator('[data-nav="pclass"]').count()) === 0, 'home: no partner card (own catalog only)');
       await noScroll('home');
+      // Home entry to the partner pages: only when partner classes are served
+      const homeLinks = await page.locator('#app-main [data-nav="partner"]').count();
+      check(on ? homeLinks === 1 : homeLinks === 0, on ? 'home: Partners row links the partner' : 'home: no Partners row (switch off)');
+      if (on) {
+        await page.locator('#app-main [data-nav="partners"]').click();
+        await page.waitForSelector('.list [data-nav="partner"]');
+        check(page.url().includes('/partners'), 'home "See all" opens /partners');
+      }
 
       if (!on) {
         await page.goto(`${BASE}/partners${q}`, { waitUntil: 'networkidle' });

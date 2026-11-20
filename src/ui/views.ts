@@ -67,7 +67,9 @@ export function homeView(
   state: ViewState,
   startHere: string[],
   history: { courseId: string; lessonId: string; lessonNum: number }[],
-  companion?: CompanionCtx
+  companion?: CompanionCtx,
+  /** Bulk 10: the partners row (src/ui/partners.ts homePartnerSection), '' when none are served. */
+  partnersHtml = ''
 ): string {
   const { lang } = state;
   const cont = history
@@ -107,7 +109,7 @@ export function homeView(
   <section><div class="sechead"><h2>${t('COURSES', lang)}</h2><span class="muted small">${num(list.length, lang)}</span></div>
   ${chips ? `<div class="row">${chips}</div>` : ''}
   <div class="hrow">${list.map((c) => courseCard(c, teacherBySlug.get(c.teacher_slug), progress, lang)).join('')}</div></section>
-  <section><div class="sechead"><h2>${t('TEACHERS', lang)}</h2><button class="link" data-nav="teachers">${t('SEE_ALL', lang)}</button></div><div class="hrow t">${teachers.map((tc) => teacherCard(tc)).join('')}</div></section>`;
+  <section><div class="sechead"><h2>${t('TEACHERS', lang)}</h2><button class="link" data-nav="teachers">${t('SEE_ALL', lang)}</button></div><div class="hrow t">${teachers.map((tc) => teacherCard(tc)).join('')}</div></section>${partnersHtml}`;
 }
 
 const SECTION = 20;

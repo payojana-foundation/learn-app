@@ -103,6 +103,15 @@ export function partnerClassView(
   <div>${sectionsHtml}</div></section>`;
 }
 
+/** Home: one row of partners (links to each partner page) + "See all" → /partners; '' when none. */
+export function homePartnerSection(d: PartnerData, lang: Lang): string {
+  if (!d.partners.length) return '';
+  return `<section><div class="sechead"><h2>${t('PARTNERS', lang)}</h2><button class="link" data-nav="partners">${t('SEE_ALL', lang)}</button></div>
+  <div class="hrow">${d.partners
+    .map((p) => `<button class="card" data-nav="partner" data-slug="${esc(p.slug)}"><span class="t">${partnerName(p, lang)}</span><span class="meta"><span>${num(p.course_ids.length, lang)} ${t('PARTNER_CLASSES', lang)}</span>${label(lang)}</span></button>`)
+    .join('')}</div></section>`;
+}
+
 /** Search hits for partner classes (section), or ''. */
 export function partnerSearchHits(hits: PartnerCourse[], teacherBySlug: Map<string, Teacher>, lang: Lang, hl: (s: string) => string): string {
   if (!hits.length) return '';
