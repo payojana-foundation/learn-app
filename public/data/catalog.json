@@ -751,6 +751,18 @@
         "yt-pl-PLgReA9MTfOkGO4fDv8rvLaFUjeKnEsPUm",
         "yt-pl-PLgReA9MTfOkF8l6Wpmhe6hc9Q0rj_Quz0"
       ]
+    },
+    {
+      "slug": "wat-khmer-arizona",
+      "name_km": "វត្តខ្មែរ អារិហ្សូណា",
+      "name_en": "Wat Khmer Arizona",
+      "teacher_slugs": [
+        "sem-chanthy"
+      ],
+      "course_ids": [
+        "yt-pl-PLA2Y9KGNoDzZB5XYJinpkzoKFCdO_He3F",
+        "yt-pl-PLA2Y9KGNoDzbd-Ki0oDY6kLaHJ_W8S0R2"
+      ]
     }
   ],
   "partner_courses": [
@@ -829,6 +841,28 @@
         "sor-ratha"
       ],
       "lesson_count": 29,
+      "teaching_points": []
+    },
+    {
+      "id": "yt-pl-PLA2Y9KGNoDzZB5XYJinpkzoKFCdO_He3F",
+      "kind": "partner",
+      "partner_slug": "wat-khmer-arizona",
+      "title": "បកស្រាយសំណួរ Ven.Sem Chanthy",
+      "teacher_slugs": [
+        "sem-chanthy"
+      ],
+      "lesson_count": 1,
+      "teaching_points": []
+    },
+    {
+      "id": "yt-pl-PLA2Y9KGNoDzbd-Ki0oDY6kLaHJ_W8S0R2",
+      "kind": "partner",
+      "partner_slug": "wat-khmer-arizona",
+      "title": "Ven.Chanthy Sem (ធម្មទេសនា)",
+      "teacher_slugs": [
+        "sem-chanthy"
+      ],
+      "lesson_count": 151,
       "teaching_points": []
     }
   ],

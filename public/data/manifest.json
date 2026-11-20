@@ -36,6 +36,16 @@
       "updated": "2026-11-20T08:50:24.000Z",
       "sha256": "474f071bef3519495ded3d056b465b3e6bd621a0827c9fc9259ac2d04f9f45ba"
     },
+    "yt-pl-PLA2Y9KGNoDzZB5XYJinpkzoKFCdO_He3F": {
+      "file": "partners/yt-pl-PLA2Y9KGNoDzZB5XYJinpkzoKFCdO_He3F.json",
+      "updated": "2026-11-20T08:50:24.000Z",
+      "sha256": "fb2c336bbfd62823df8ea8ea3ce6b8d90ac718d0176782be902bfe6f7845347b"
+    },
+    "yt-pl-PLA2Y9KGNoDzbd-Ki0oDY6kLaHJ_W8S0R2": {
+      "file": "partners/yt-pl-PLA2Y9KGNoDzbd-Ki0oDY6kLaHJ_W8S0R2.json",
+      "updated": "2026-11-20T08:50:24.000Z",
+      "sha256": "ac0b9cd294dc27215f20a2baf8f30d72993de3b6cdf5720be4dd87766958ad41"
+    },
     "c006": {
       "file": "courses/c006.json",
       "updated": "2026-11-20T08:50:24.000Z",
@@ -284,7 +294,7 @@
     "catalog": {
       "file": "catalog.json",
       "updated": "2026-11-20T08:50:24.000Z",
-      "sha256": "0a45ff44c61c59f5d2f2516a2545db6534b46eeb8f56326fb09a520305b6f1c8"
+      "sha256": "e22ae7616f5670a88efa088a1ce9128752690a264d5e04dd0782f14a50d32c78"
     },
     "teachers": {
       "file": "teachers.json",
