@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "generated": "2026-11-20",
+  "generated": "2026-11-21",
   "rules": {
     "min_s": 300,
     "max_s": 14400,
