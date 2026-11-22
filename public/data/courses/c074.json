@@ -1,7 +1,7 @@
 {
   "id": "c074",
   "provisional": false,
-  "title_km": "3-រាត្រីធម្មទាន",
+  "title_km": "រាត្រីធម្មទាន",
   "title_en": null,
   "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
   "teacher_slug": "sok-heng",
@@ -5885,5 +5885,8 @@
         }
       ]
     }
+  ],
+  "title_aliases": [
+    "3-រាត្រីធម្មទាន"
   ]
 }

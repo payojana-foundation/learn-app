@@ -1,7 +1,7 @@
 {
   "id": "c042",
   "provisional": false,
-  "title_km": "4-វគ្គខ្លីលើកទី ១ នៅកែប",
+  "title_km": "វគ្គខ្លីលើកទី ១ (មណ្ឌលកែប)",
   "title_en": null,
   "teacher": "លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន",
   "teacher_slug": "him-bunthoeun",
@@ -61,5 +61,8 @@
         }
       ]
     }
+  ],
+  "title_aliases": [
+    "4-វគ្គខ្លីលើកទី ១ នៅកែប"
   ]
 }

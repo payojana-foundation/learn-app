@@ -1,7 +1,7 @@
 {
   "id": "c033",
   "provisional": false,
-  "title_km": "ព្រះត្រៃបិដកបាលីភាគ១៧",
+  "title_km": "សិក្សាព្រះសូត្រ (បិដកភាគ ១៧)",
   "title_en": null,
   "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
   "teacher_slug": "yon-yi",
@@ -45,5 +45,8 @@
         "duration_s": 346
       }
     }
+  ],
+  "title_aliases": [
+    "ព្រះត្រៃបិដកបាលីភាគ១៧"
   ]
 }

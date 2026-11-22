@@ -1,7 +1,7 @@
 {
   "id": "c026",
   "provisional": false,
-  "title_km": "2-Dhamma in English(វគ្គ ២)",
+  "title_km": "Dhamma in English (វគ្គ ២)",
   "title_en": null,
   "teacher": "លោកម្ចាស់គ្រូ ធម្មសេនា ហាក់ សៀងហៃ",
   "teacher_slug": "hak-sienghai",
@@ -585,5 +585,8 @@
         "duration_s": 799
       }
     }
+  ],
+  "title_aliases": [
+    "2-Dhamma in English(វគ្គ ២)"
   ]
 }

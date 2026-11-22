@@ -1,7 +1,7 @@
 {
   "id": "c073",
   "provisional": false,
-  "title_km": "2-បិដកលេខ ១៥",
+  "title_km": "សិក្សាព្រះសូត្រ (បិដកភាគ ១៥)",
   "title_en": null,
   "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
   "teacher_slug": "sok-heng",
@@ -256,5 +256,8 @@
         }
       ]
     }
+  ],
+  "title_aliases": [
+    "2-បិដកលេខ ១៥"
   ]
 }

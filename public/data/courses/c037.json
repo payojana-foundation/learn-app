@@ -1,7 +1,7 @@
 {
   "id": "c037",
   "provisional": false,
-  "title_km": "6-បិដកលេខ២១",
+  "title_km": "សិក្សាព្រះសូត្រ (បិដកភាគ ២១)",
   "title_en": null,
   "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
   "teacher_slug": "yon-yi",
@@ -405,5 +405,8 @@
         "duration_s": 7104
       }
     }
+  ],
+  "title_aliases": [
+    "6-បិដកលេខ២១"
   ]
 }

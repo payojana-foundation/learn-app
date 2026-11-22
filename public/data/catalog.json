@@ -1,11 +1,11 @@
 {
-  "generated": "2026-11-21T10:59:13.000Z",
+  "generated": "2026-11-22T23:43:48.000Z",
   "provisional": false,
   "courses": [
     {
       "id": "c006",
       "provisional": false,
-      "title_km": "1-បរិច្ឆេទ ទី១ កាត់ស្អាត (២០២២)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី១ កាត់ស្អាត (២០២២)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -16,12 +16,15 @@
       ],
       "ongoing": false,
       "all_shown": true,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "1-បរិច្ឆេទ ទី១ កាត់ស្អាត (២០២២)"
+      ]
     },
     {
       "id": "c007",
       "provisional": false,
-      "title_km": "2-A.S.បរិច្ឆេទ ទី២ កាត់ស្អាត(២០",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី២ កាត់ស្អាត (២០២២)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -32,12 +35,15 @@
       ],
       "ongoing": false,
       "all_shown": true,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "2-A.S.បរិច្ឆេទ ទី២ កាត់ស្អាត(២០"
+      ]
     },
     {
       "id": "c008",
       "provisional": false,
-      "title_km": "3-បរិច្ឆេទ ទី៣ កាត់ស្អាត(២០២៥)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី៣ កាត់ស្អាត​ (២០២៥)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -48,12 +54,15 @@
       ],
       "ongoing": false,
       "all_shown": true,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "3-បរិច្ឆេទ ទី៣ កាត់ស្អាត(២០២៥)"
+      ]
     },
     {
       "id": "c009",
       "provisional": false,
-      "title_km": "4-បរិច្ឆេទ ទី៤ កាត់ស្អាត(២០២៥)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី៤ កាត់ស្អាត (២០២៥)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -64,12 +73,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "4-បរិច្ឆេទ ទី៤ កាត់ស្អាត(២០២៥)"
+      ]
     },
     {
       "id": "c010",
       "provisional": false,
-      "title_km": "5-បរិច្ឆេទ ទី៥​ កាត់ស្អាត(២០២៦)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី៥​ កាត់ស្អាត (២០២៦)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -80,12 +92,15 @@
       ],
       "ongoing": true,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "5-បរិច្ឆេទ ទី៥​ កាត់ស្អាត(២០២៦)"
+      ]
     },
     {
       "id": "c011",
       "provisional": false,
-      "title_km": "6-បរិច្ឆេទ ទី៦ កាត់ស្អាត(២០២៤)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី៦ កាត់ស្អាត (២០២៤)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -96,12 +111,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "6-បរិច្ឆេទ ទី៦ កាត់ស្អាត(២០២៤)"
+      ]
     },
     {
       "id": "c012",
       "provisional": false,
-      "title_km": "7-A.S.បរិច្ឆេទ ទី១ (២០២៣)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី១ (២០២៣)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -111,12 +129,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": true
+      "all_shown": true,
+      "title_aliases": [
+        "7-A.S.បរិច្ឆេទ ទី១ (២០២៣)"
+      ]
     },
     {
       "id": "c013",
       "provisional": false,
-      "title_km": "8-A.S.បរិច្ឆេទ ទី៣ (២០២៤)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី៣ (២០២៤)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -126,12 +147,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": true
+      "all_shown": true,
+      "title_aliases": [
+        "8-A.S.បរិច្ឆេទ ទី៣ (២០២៤)"
+      ]
     },
     {
       "id": "c014",
       "provisional": false,
-      "title_km": "9-A.S.បរិច្ឆេទ ទី៤(២០២២)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី៤ (២០២២)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -141,12 +165,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "9-A.S.បរិច្ឆេទ ទី៤(២០២២)"
+      ]
     },
     {
       "id": "c015",
       "provisional": false,
-      "title_km": "10-A.S.បរិច្ឆេទ ទី៤(២០២៤)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី៤ (២០២៤)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -156,12 +183,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "10-A.S.បរិច្ឆេទ ទី៤(២០២៤)"
+      ]
     },
     {
       "id": "c016",
       "provisional": false,
-      "title_km": "11-A.S.បរិច្ឆេទ ទី៥(២០២២)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី៥ (២០២២)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -171,12 +201,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "11-A.S.បរិច្ឆេទ ទី៥(២០២២)"
+      ]
     },
     {
       "id": "c017",
       "provisional": false,
-      "title_km": "12-A.S.បរិច្ឆេទ ទី៦​(២០២៣)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី៦ ​(២០២៣)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -186,12 +219,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "12-A.S.បរិច្ឆេទ ទី៦​(២០២៣)"
+      ]
     },
     {
       "id": "c018",
       "provisional": false,
-      "title_km": "A.S.បរិច្ឆេទ ទី៧ (២០២៣)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី៧ (២០២៣)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -201,12 +237,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "A.S.បរិច្ឆេទ ទី៧ (២០២៣)"
+      ]
     },
     {
       "id": "c019",
       "provisional": false,
-      "title_km": "13-A.S.បរិច្ឆេទ ទី៨ (២០២៥)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី៨ (២០២៥)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -216,12 +255,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "13-A.S.បរិច្ឆេទ ទី៨ (២០២៥)"
+      ]
     },
     {
       "id": "c020",
       "provisional": false,
-      "title_km": "14-A.S.បរិច្ឆេទ ទី៩ (២០២០)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទ ទី៩ (២០២០)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -231,12 +273,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "14-A.S.បរិច្ឆេទ ទី៩ (២០២០)"
+      ]
     },
     {
       "id": "c021",
       "provisional": false,
-      "title_km": "15-A.S.ព្រះធម៌ថ្នាក់កុមារ (២០២៤",
+      "title_km": "ព្រះធម៌ថ្នាក់កុមារ (២០២៤)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -246,12 +291,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "15-A.S.ព្រះធម៌ថ្នាក់កុមារ (២០២៤"
+      ]
     },
     {
       "id": "c023",
       "provisional": false,
-      "title_km": "តេមិយជាតក",
+      "title_km": "ព្រះតេមិយជាតក",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -262,12 +310,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "តេមិយជាតក"
+      ]
     },
     {
       "id": "c025",
       "provisional": false,
-      "title_km": "1-Dhamma in English( វគ្គ ១)",
+      "title_km": "Dhamma in English (វគ្គ ១)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ ធម្មសេនា ហាក់ សៀងហៃ",
       "teacher_slug": "hak-sienghai",
@@ -278,12 +329,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "1-Dhamma in English( វគ្គ ១)"
+      ]
     },
     {
       "id": "c026",
       "provisional": false,
-      "title_km": "2-Dhamma in English(វគ្គ ២)",
+      "title_km": "Dhamma in English (វគ្គ ២)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ ធម្មសេនា ហាក់ សៀងហៃ",
       "teacher_slug": "hak-sienghai",
@@ -294,12 +348,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "2-Dhamma in English(វគ្គ ២)"
+      ]
     },
     {
       "id": "c031",
       "provisional": false,
-      "title_km": "7-បិដកលេខ២២",
+      "title_km": "សិក្សាព្រះសូត្រ (បិដកភាគ ២២)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -310,12 +367,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "7-បិដកលេខ២២"
+      ]
     },
     {
       "id": "c032",
       "provisional": false,
-      "title_km": "ព្រះត្រៃបិដកបាលីភាគ១៦",
+      "title_km": "សិក្សាព្រះសូត្រ (បិដកភាគ ១៦)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -326,12 +386,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "ព្រះត្រៃបិដកបាលីភាគ១៦"
+      ]
     },
     {
       "id": "c033",
       "provisional": false,
-      "title_km": "ព្រះត្រៃបិដកបាលីភាគ១៧",
+      "title_km": "សិក្សាព្រះសូត្រ (បិដកភាគ ១៧)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -342,12 +405,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "ព្រះត្រៃបិដកបាលីភាគ១៧"
+      ]
     },
     {
       "id": "c035",
       "provisional": false,
-      "title_km": "ព្រះត្រៃបិដកបាលីភាគ១៩",
+      "title_km": "សិក្សាព្រះសូត្រ (បិដកភាគ ១៩)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -358,12 +424,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "ព្រះត្រៃបិដកបាលីភាគ១៩"
+      ]
     },
     {
       "id": "c036",
       "provisional": false,
-      "title_km": "ព្រះត្រៃបិដកបាលីភាគ២០",
+      "title_km": "សិក្សាព្រះសូត្រ (បិដកភាគ ២០)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -374,12 +443,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "ព្រះត្រៃបិដកបាលីភាគ២០"
+      ]
     },
     {
       "id": "c037",
       "provisional": false,
-      "title_km": "6-បិដកលេខ២១",
+      "title_km": "សិក្សាព្រះសូត្រ (បិដកភាគ ២១)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -390,12 +462,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "6-បិដកលេខ២១"
+      ]
     },
     {
       "id": "c039",
       "provisional": false,
-      "title_km": "1-ថ្នាក់សមថៈ វិបស្សនា​២០២២",
+      "title_km": "សមថៈ វិបស្សនា​ (២០២២)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន",
       "teacher_slug": "him-bunthoeun",
@@ -405,12 +480,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "1-ថ្នាក់សមថៈ វិបស្សនា​២០២២"
+      ]
     },
     {
       "id": "c042",
       "provisional": false,
-      "title_km": "4-វគ្គខ្លីលើកទី ១ នៅកែប",
+      "title_km": "វគ្គខ្លីលើកទី ១ (មណ្ឌលកែប)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន",
       "teacher_slug": "him-bunthoeun",
@@ -420,12 +498,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "4-វគ្គខ្លីលើកទី ១ នៅកែប"
+      ]
     },
     {
       "id": "c043",
       "provisional": false,
-      "title_km": "5-សមាធិ វគ្គខ្លី",
+      "title_km": "សមាធិ វគ្គខ្លី",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន",
       "teacher_slug": "him-bunthoeun",
@@ -435,12 +516,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "5-សមាធិ វគ្គខ្លី"
+      ]
     },
     {
       "id": "c044",
       "provisional": false,
-      "title_km": "1-វិនយបិដកេ មហាវគ្គបាឡិ ",
+      "title_km": "វិនយបិដកេ មហាវគ្គបាឡិ",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ ពុទ្ធង្កុរ ភុល ណារិន",
       "teacher_slug": "phul-narin",
@@ -451,12 +535,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "1-វិនយបិដកេ មហាវគ្គបាឡិ "
+      ]
     },
     {
       "id": "c047",
       "provisional": false,
-      "title_km": "មេរៀនព្រះអភិធម្មថ្នាក់ដំបូង ឆ្នាំសិក្សា ២០២២",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី១ ថ្នាក់ដំបូង",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង",
       "teacher_slug": "vinh-sovoeurng",
@@ -469,13 +556,14 @@
       "all_shown": false,
       "has_video": true,
       "title_aliases": [
-        "០០​​​​​​​​​ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃបើកថ្នាក់ដំបូង"
+        "០០​​​​​​​​​ ព្រះអភិធម្មថ្នាក់ដំបូង ថ្ងៃបើកថ្នាក់ដំបូង",
+        "មេរៀនព្រះអភិធម្មថ្នាក់ដំបូង ឆ្នាំសិក្សា ២០២២"
       ]
     },
     {
       "id": "c048",
       "provisional": false,
-      "title_km": "3-បរិច្ឆេទទី​៣ (ឆ្នាំ ២០២៤)",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី​៣",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង",
       "teacher_slug": "vinh-sovoeurng",
@@ -485,12 +573,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": true
+      "all_shown": true,
+      "title_aliases": [
+        "3-បរិច្ឆេទទី​៣ (ឆ្នាំ ២០២៤)"
+      ]
     },
     {
       "id": "c049",
       "provisional": false,
-      "title_km": "4-បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ (ឆ",
+      "title_km": "ព្រះអភិធម្មបរិច្ឆេទទី៤ (វិថីសង្គហវិភាគ)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ គម្ភីរវិចារណោ វិញ សុវឿង",
       "teacher_slug": "vinh-sovoeurng",
@@ -500,12 +591,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "4-បរិច្ឆេទទី៤ វិថីសង្គហវិភាគ (ឆ"
+      ]
     },
     {
       "id": "c054",
       "provisional": false,
-      "title_km": "1-Buddhism in English for Begin",
+      "title_km": "Buddhism in English for Beginner",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ មុនីបុត្តោ សុខ ធាវី",
       "teacher_slug": "sok-theavy",
@@ -516,12 +610,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "1-Buddhism in English for Begin"
+      ]
     },
     {
       "id": "c057",
       "provisional": false,
-      "title_km": "1-បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត",
+      "title_km": "បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ មុនីចរិយាវង្ស ហ៊ុន ខេមរា",
       "teacher_slug": "hun-khemara",
@@ -532,12 +629,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "1-បច្ចេកទេសព្យាបាលជម្ងឺផ្លូវចិត"
+      ]
     },
     {
       "id": "c058",
       "provisional": false,
-      "title_km": "2-ញាណទស្សនៈ (២០២៦)",
+      "title_km": "ញាណទស្សនៈ (២០២៦)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ មុនីចរិយាវង្ស ហ៊ុន ខេមរា",
       "teacher_slug": "hun-khemara",
@@ -548,12 +648,15 @@
       ],
       "ongoing": true,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "2-ញាណទស្សនៈ (២០២៦)"
+      ]
     },
     {
       "id": "c065",
       "provisional": false,
-      "title_km": "1-សតិបដ្ឋាន",
+      "title_km": "សិក្សាសតិបដ្ឋាន",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញោ ថូ ចន្ថា",
       "teacher_slug": "tho-chantha",
@@ -563,12 +666,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": true
+      "all_shown": true,
+      "title_aliases": [
+        "1-សតិបដ្ឋាន"
+      ]
     },
     {
       "id": "c068",
       "provisional": false,
-      "title_km": "1-Buddhism in English Level 1 b",
+      "title_km": "Buddhism in English (Level 1)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា",
       "teacher_slug": "sor-ratha",
@@ -579,12 +685,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "1-Buddhism in English Level 1 b"
+      ]
     },
     {
       "id": "c069",
       "provisional": false,
-      "title_km": "2-Buddhism in English Level 2 b",
+      "title_km": "Buddhism in English (Level 2)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា",
       "teacher_slug": "sor-ratha",
@@ -595,12 +704,15 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "2-Buddhism in English Level 2 b"
+      ]
     },
     {
       "id": "c070",
       "provisional": false,
-      "title_km": "3-Buddhism in English Level 3 b",
+      "title_km": "Buddhism in English (Level 3)",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា",
       "teacher_slug": "sor-ratha",
@@ -610,12 +722,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "3-Buddhism in English Level 3 b"
+      ]
     },
     {
       "id": "c072",
       "provisional": false,
-      "title_km": "1-បិដកលេខ ១៤",
+      "title_km": "សិក្សាព្រះសូត្រ (បិដកភាគ ១៤)",
       "title_en": null,
       "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
       "teacher_slug": "sok-heng",
@@ -625,12 +740,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": true
+      "all_shown": true,
+      "title_aliases": [
+        "1-បិដកលេខ ១៤"
+      ]
     },
     {
       "id": "c073",
       "provisional": false,
-      "title_km": "2-បិដកលេខ ១៥",
+      "title_km": "សិក្សាព្រះសូត្រ (បិដកភាគ ១៥)",
       "title_en": null,
       "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
       "teacher_slug": "sok-heng",
@@ -640,12 +758,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "2-បិដកលេខ ១៥"
+      ]
     },
     {
       "id": "c074",
       "provisional": false,
-      "title_km": "3-រាត្រីធម្មទាន",
+      "title_km": "រាត្រីធម្មទាន",
       "title_en": null,
       "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
       "teacher_slug": "sok-heng",
@@ -655,12 +776,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "3-រាត្រីធម្មទាន"
+      ]
     },
     {
       "id": "c075",
       "provisional": false,
-      "title_km": "4-នាទីធម្មចរិយា",
+      "title_km": "នាទីធម្មចរិយា",
       "title_en": null,
       "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
       "teacher_slug": "sok-heng",
@@ -670,12 +794,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "4-នាទីធម្មចរិយា"
+      ]
     },
     {
       "id": "c076",
       "provisional": false,
-      "title_km": "5-អដ្ឋកថាជាតក",
+      "title_km": "ព្រះអដ្ឋកថាជាតក",
       "title_en": null,
       "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
       "teacher_slug": "sok-heng",
@@ -685,12 +812,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "5-អដ្ឋកថាជាតក"
+      ]
     },
     {
       "id": "c077",
       "provisional": false,
-      "title_km": "6-បច្ចេកពុទ្ធ",
+      "title_km": "សិក្សាព្រះបច្ចេកពុទ្ធសំយុត្តកថា",
       "title_en": null,
       "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
       "teacher_slug": "sok-heng",
@@ -700,12 +830,15 @@
         "r2"
       ],
       "ongoing": false,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "6-បច្ចេកពុទ្ធ"
+      ]
     },
     {
       "id": "c078",
       "provisional": false,
-      "title_km": "8-វចនានុក្រមព្រះពុទ្ធសាសានា",
+      "title_km": "សិក្សាវចនានុក្រមព្រះពុទ្ធសាសានា",
       "title_en": null,
       "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
       "teacher_slug": "sok-heng",
@@ -715,12 +848,15 @@
         "r2"
       ],
       "ongoing": true,
-      "all_shown": false
+      "all_shown": false,
+      "title_aliases": [
+        "8-វចនានុក្រមព្រះពុទ្ធសាសានា"
+      ]
     },
     {
       "id": "c080",
       "provisional": false,
-      "title_km": "វេស្សន្តរជាតក",
+      "title_km": "ព្រះវេស្សន្តរជាតក",
       "title_en": null,
       "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
       "teacher_slug": "yon-yi",
@@ -731,7 +867,10 @@
       ],
       "ongoing": false,
       "all_shown": false,
-      "has_video": true
+      "has_video": true,
+      "title_aliases": [
+        "វេស្សន្តរជាតក"
+      ]
     }
   ],
   "partners": [

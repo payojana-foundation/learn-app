@@ -1,7 +1,7 @@
 {
   "id": "c075",
   "provisional": false,
-  "title_km": "4-នាទីធម្មចរិយា",
+  "title_km": "នាទីធម្មចរិយា",
   "title_en": null,
   "teacher": "អ្នកគ្រូសិរីសុធម្មៈ ជោតិកា ម៉ម សុខហេង",
   "teacher_slug": "sok-heng",
@@ -945,5 +945,8 @@
         }
       ]
     }
+  ],
+  "title_aliases": [
+    "4-នាទីធម្មចរិយា"
   ]
 }

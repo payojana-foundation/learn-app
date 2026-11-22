@@ -1,7 +1,7 @@
 {
   "id": "c023",
   "provisional": false,
-  "title_km": "តេមិយជាតក",
+  "title_km": "ព្រះតេមិយជាតក",
   "title_en": null,
   "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
   "teacher_slug": "yon-yi",
@@ -63,5 +63,8 @@
         "duration_s": 4002
       }
     }
+  ],
+  "title_aliases": [
+    "តេមិយជាតក"
   ]
 }

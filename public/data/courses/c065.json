@@ -1,7 +1,7 @@
 {
   "id": "c065",
   "provisional": false,
-  "title_km": "1-សតិបដ្ឋាន",
+  "title_km": "សិក្សាសតិបដ្ឋាន",
   "title_en": null,
   "teacher": "លោកម្ចាស់គ្រូ កិត្តិប្បញ្ញោ ថូ ចន្ថា",
   "teacher_slug": "tho-chantha",
@@ -711,5 +711,8 @@
         }
       ]
     }
+  ],
+  "title_aliases": [
+    "1-សតិបដ្ឋាន"
   ]
 }

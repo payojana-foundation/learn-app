@@ -1,7 +1,7 @@
 {
   "id": "c070",
   "provisional": false,
-  "title_km": "3-Buddhism in English Level 3 b",
+  "title_km": "Buddhism in English (Level 3)",
   "title_en": null,
   "teacher": "លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា",
   "teacher_slug": "sor-ratha",
@@ -295,5 +295,8 @@
         }
       ]
     }
+  ],
+  "title_aliases": [
+    "3-Buddhism in English Level 3 b"
   ]
 }

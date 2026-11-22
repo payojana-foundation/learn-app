@@ -1,7 +1,7 @@
 {
   "id": "c043",
   "provisional": false,
-  "title_km": "5-សមាធិ វគ្គខ្លី",
+  "title_km": "សមាធិ វគ្គខ្លី",
   "title_en": null,
   "teacher": "លោកម្ចាស់គ្រូ សាសនមុនី ហ៊ឹម ប៊ុនធឿន",
   "teacher_slug": "him-bunthoeun",
@@ -1933,5 +1933,8 @@
         }
       ]
     }
+  ],
+  "title_aliases": [
+    "5-សមាធិ វគ្គខ្លី"
   ]
 }

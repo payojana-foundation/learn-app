@@ -1,7 +1,7 @@
 {
   "id": "c069",
   "provisional": false,
-  "title_km": "2-Buddhism in English Level 2 b",
+  "title_km": "Buddhism in English (Level 2)",
   "title_en": null,
   "teacher": "លោកម្ចាស់គ្រូ សុភប្បញ្ញោ ស រដ្ឋា",
   "teacher_slug": "sor-ratha",
@@ -27,5 +27,8 @@
         "duration_s": 4720
       }
     }
+  ],
+  "title_aliases": [
+    "2-Buddhism in English Level 2 b"
   ]
 }

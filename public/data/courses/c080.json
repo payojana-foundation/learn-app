@@ -1,7 +1,7 @@
 {
   "id": "c080",
   "provisional": false,
-  "title_km": "វេស្សន្តរជាតក",
+  "title_km": "ព្រះវេស្សន្តរជាតក",
   "title_en": null,
   "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
   "teacher_slug": "yon-yi",
@@ -243,5 +243,8 @@
         "duration_s": 3170
       }
     }
+  ],
+  "title_aliases": [
+    "វេស្សន្តរជាតក"
   ]
 }

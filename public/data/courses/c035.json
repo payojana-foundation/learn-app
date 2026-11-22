@@ -1,7 +1,7 @@
 {
   "id": "c035",
   "provisional": false,
-  "title_km": "ព្រះត្រៃបិដកបាលីភាគ១៩",
+  "title_km": "សិក្សាព្រះសូត្រ (បិដកភាគ ១៩)",
   "title_en": null,
   "teacher": "លោកម្ចាស់គ្រូ អគ្គចិត្តោ យ៉ុន យី",
   "teacher_slug": "yon-yi",
@@ -423,5 +423,8 @@
         "duration_s": 5264
       }
     }
+  ],
+  "title_aliases": [
+    "ព្រះត្រៃបិដកបាលីភាគ១៩"
   ]
 }
