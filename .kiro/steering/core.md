@@ -56,7 +56,9 @@ RULE: if a task would change a P-line, STOP, change nothing, report the line. On
 - Never invent ids, slugs, titles, names, numbers, paths, versions or scripture. Unknown means "unknown" and ask.
 - Never type, correct or reformat Khmer/Pali titles or teacher names; copy byte-for-byte. Tests use placeholders.
 - No placeholder or sample courses, no TTS audio, no login, no downloads in v1.
+- No hard-coded counts; every count is computed from data.
 
 ## Every reply
 Last line exactly: `Next Concrete Action: <one exact step>`. After a code change add: What changed / How to test (one phone check) / How to undo.
+Report format: commit hash, tests, skipped items, open questions.
 More: `working-style.md`, `testing.md`, `scope-guard.md`, `tech.md`, `media.md`, `product.md` load by file or topic.
