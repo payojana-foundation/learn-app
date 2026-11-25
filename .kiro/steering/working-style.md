@@ -1,5 +1,7 @@
 ---
-inclusion: always
+inclusion: auto
+name: working-style
+description: Pre-change checks (races, offline caching, hosting limits), reviewing prompts and specs, after-change lines, click-by-click guidance. Use before changing code or when reviewing a prompt or spec.
 ---
 
 # Working style

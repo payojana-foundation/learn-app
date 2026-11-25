@@ -1,5 +1,6 @@
 ---
-inclusion: always
+inclusion: fileMatch
+fileMatchPattern: ["src/**", "e2e/**", "**/*.test.*", "vite.config.ts"]
 ---
 
 # Testing rules (every session)

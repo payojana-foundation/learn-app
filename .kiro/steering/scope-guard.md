@@ -1,3 +1,8 @@
+---
+inclusion: auto
+name: scope-guard
+description: Pre-commit checklist - git diff --stat, restoring out-of-scope files, npm test and npm run e2e before commit, report contents, data/source rules. Use when about to commit or push.
+---
 # Scope guard
 
 Keep every commit to the area the task names. A change that leaks into an

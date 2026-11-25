@@ -1,5 +1,7 @@
 ---
-inclusion: always
+inclusion: auto
+name: product
+description: Product scope of Learn - v1 scope, what is NOT in v1, fixed names and addresses. Use when judging whether a feature is in scope or naming repo, Worker, domain, media host or database.
 ---
 
 # Product: Learn (ថ្នាក់សិក្សា)

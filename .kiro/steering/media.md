@@ -1,7 +1,6 @@
 ---
-inclusion: auto
-name: media
-description: Rules for course audio/video — media kinds, R2 keys, media URLs, players, and offline caching of media. Use when working on lesson players, media URLs, R2 keys, or media caching.
+inclusion: fileMatch
+fileMatchPattern: ["src/audio/**", "src/**/player*", "src/ui/kp*", "src/config.ts", "scripts/media/**", "public/_headers"]
 ---
 
 # Media (course lessons)

@@ -1,5 +1,6 @@
 ---
-inclusion: always
+inclusion: fileMatch
+fileMatchPattern: ["wrangler.jsonc", "vite.config.ts", "package.json", "src/**", "docs/DEPLOY.md"]
 ---
 
 # Tech: stack and fixed decisions

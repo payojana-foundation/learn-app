@@ -1,3 +1,7 @@
+---
+inclusion: fileMatch
+fileMatchPattern: ["src/**", "scripts/**", "e2e/**", "public/_headers", "vite.config.ts", "data/paths.json", "data/guide-lines.json"]
+---
 # Protected behaviours
 
 **RULE (read before any change).** If a task would change any behaviour listed
